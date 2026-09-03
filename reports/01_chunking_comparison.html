@@ -1,0 +1,708 @@
+<meta charset="UTF-8">
+<title>Chunking Strategy Comparison</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    color-scheme: light;
+    --surface-0: #f5f6f8;
+    --surface-1: #ffffff;
+    --surface-2: #eceef2;
+    --border: #dfe2e8;
+    --border-strong: #c7ccd6;
+    --text-primary: #14171c;
+    --text-secondary: #545c6a;
+    --text-muted: #8891a0;
+    --ink: #1c2430;
+    --link: #184f95;
+
+    --series-a: #2a78d6;
+    --series-a-soft: #2a78d61a;
+    --series-b: #eb6834;
+    --series-b-soft: #eb68341a;
+    --series-c: #1baf7a;
+    --series-c-soft: #1baf7a1a;
+
+    --good: #0ca30c;
+    --grid-line: #e6e8ec;
+
+    --font-display: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+    --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-0: #101216;
+      --surface-1: #171a20;
+      --surface-2: #1d2129;
+      --border: #2a2f39;
+      --border-strong: #3a4150;
+      --text-primary: #eef0f3;
+      --text-secondary: #a6aebd;
+      --text-muted: #6d7583;
+      --ink: #e9ecf1;
+      --link: #7bb0ea;
+
+      --series-a: #3987e5;
+      --series-a-soft: #3987e526;
+      --series-b: #d95926;
+      --series-b-soft: #d9592626;
+      --series-c: #199e70;
+      --series-c-soft: #199e7026;
+
+      --good: #3fcf3f;
+      --grid-line: #262b33;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-0: #101216;
+    --surface-1: #171a20;
+    --surface-2: #1d2129;
+    --border: #2a2f39;
+    --border-strong: #3a4150;
+    --text-primary: #eef0f3;
+    --text-secondary: #a6aebd;
+    --text-muted: #6d7583;
+    --ink: #e9ecf1;
+    --link: #7bb0ea;
+
+    --series-a: #3987e5;
+    --series-a-soft: #3987e526;
+    --series-b: #d95926;
+    --series-b-soft: #d9592626;
+    --series-c: #199e70;
+    --series-c-soft: #199e7026;
+
+    --good: #3fcf3f;
+    --grid-line: #262b33;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--surface-0);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    margin: 0;
+  }
+  .page {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  .eyebrow {
+    font-family: var(--font-display);
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(28px, 4vw, 38px);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  .lede {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    max-width: 62ch;
+    margin: 0 0 20px;
+  }
+  .meta-line {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+  .meta-line b { color: var(--text-secondary); font-weight: 600; }
+
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+    margin: 64px 0 6px;
+  }
+  h2 .num { color: var(--text-muted); font-weight: 500; margin-right: 8px; }
+  .section-lede {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    max-width: 68ch;
+    margin: 0 0 24px;
+  }
+  p { line-height: 1.7; }
+
+  /* ---- verdict card ---- */
+  .verdict {
+    margin-top: 40px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--series-c);
+    border-radius: 10px;
+    padding: 28px 30px;
+  }
+  .verdict-label {
+    font-family: var(--font-display);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--series-c);
+    margin: 0 0 8px;
+  }
+  .verdict h3 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: var(--ink);
+  }
+  .verdict p {
+    font-size: 15px;
+    color: var(--text-secondary);
+    max-width: 66ch;
+    margin: 0 0 4px;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    background: var(--series-c-soft);
+    color: var(--series-c);
+    font-weight: 600;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+
+  /* ---- stat tiles ---- */
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .tile {
+    background: var(--surface-1);
+    padding: 18px 18px 16px;
+  }
+  .tile-label {
+    font-family: var(--font-display);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 8px;
+  }
+  .tile-value {
+    font-family: var(--font-mono);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .tile-sub {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin-top: 6px;
+    font-family: var(--font-display);
+  }
+
+  /* ---- legend ---- */
+  .legend {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    font-family: var(--font-display);
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 4px 0 22px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 7px; }
+  .legend-swatch { width: 14px; height: 3px; border-radius: 2px; }
+
+  /* ---- chart grid ---- */
+  .chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  @media (max-width: 720px) {
+    .chart-grid { grid-template-columns: 1fr; }
+    .tiles { grid-template-columns: 1fr 1fr; }
+  }
+  .chart-card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 18px 8px;
+  }
+  .chart-title {
+    font-family: var(--font-display);
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 2px;
+  }
+  .chart-note {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: var(--font-display);
+    margin: 0 0 8px;
+  }
+  .chart-card svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .pt { cursor: pointer; }
+  .pt:hover { r: 6; }
+
+  .tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: var(--ink);
+    color: var(--surface-1);
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    padding: 6px 9px;
+    border-radius: 6px;
+    line-height: 1.5;
+    opacity: 0;
+    transform: translate(-50%, -100%);
+    transition: opacity 0.08s ease;
+    z-index: 50;
+    white-space: nowrap;
+  }
+  :root[data-theme="dark"] .tooltip, @media (prefers-color-scheme: dark) { }
+
+  /* ---- notes / tables ---- */
+  .note {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin: 18px 0;
+  }
+  .note b { color: var(--text-primary); }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+    font-family: var(--font-mono);
+  }
+  thead th {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: right;
+    padding: 10px 14px;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  thead th:first-child, thead th:nth-child(2) { text-align: left; }
+  tbody td {
+    text-align: right;
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  tbody td:first-child, tbody td:nth-child(2) { text-align: left; font-family: var(--font-display); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--surface-2); color: var(--text-primary); }
+  .strat-tag { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--text-primary); }
+  .best { color: var(--good) !important; font-weight: 600; }
+  .full-table td, .full-table th { padding: 7px 11px; font-size: 12px; }
+
+  footer {
+    margin-top: 72px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--text-muted);
+    font-family: var(--font-display);
+    line-height: 1.7;
+  }
+  footer code {
+    font-family: var(--font-mono);
+    background: var(--surface-2);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: 11.5px;
+  }
+</style>
+
+<div class="page">
+
+  <p class="eyebrow">aia-rag &middot; step 2</p>
+  <h1>Which chunking strategy fits this document set?</h1>
+  <p class="lede">
+    Three chunkers &mdash; fixed-size, recursive structural, and semantic/section-aware &mdash;
+    swept across 3 chunk sizes and 3 overlap ratios, scored against the benchmark's own gold
+    evidence spans and a BM25 retrieval proxy.
+  </p>
+  <div class="meta-line">
+    <span><b>91</b> documents</span>
+    <span><b>100</b> test questions (85 answerable)</span>
+    <span><b>27</b> configurations swept</span>
+    <span><b>139</b> gold evidence spans checked</span>
+  </div>
+
+  <div class="verdict">
+    <p class="verdict-label">Recommendation</p>
+    <h3><span class="dot" style="background:var(--series-c)"></span> Semantic / section-aware chunking, target size ≈1024 tokens, no overlap</h3>
+    <p>
+      It posts the best MRR of all 27 configurations, ties for the best retrieval recall while using
+      <b>35% fewer tokens per chunk</b> than fixed-size at the same setting, and keeps chunk
+      boundaries aligned to actual document sections &mdash; which also makes each chunk a clean,
+      self-contained citation unit. It is also the only strategy whose results barely move when the
+      overlap parameter changes, which removes a tuning knob rather than adding one.
+    </p>
+    <p style="margin-top:14px;">
+      <span class="chip"><span class="dot" style="background:var(--series-b)"></span>B (recursive structural)</span>
+      is the pick if 100% evidence-completeness matters more than cost &mdash; it is the only
+      strategy that never split a gold answer span across chunks, at a larger token footprint.
+    </p>
+  </div>
+
+  <div class="tiles">
+    <div class="tile">
+      <p class="tile-label">MRR@10</p>
+      <p class="tile-value">0.598</p>
+      <p class="tile-sub">best of all 27 runs</p>
+    </div>
+    <div class="tile">
+      <p class="tile-label">Recall@5</p>
+      <p class="tile-value">69.4%</p>
+      <p class="tile-sub">vs 71.8% for A at 54% more tokens</p>
+    </div>
+    <div class="tile">
+      <p class="tile-label">Avg tokens / chunk</p>
+      <p class="tile-value">537</p>
+      <p class="tile-sub">vs 733–827 for fixed-size</p>
+    </div>
+    <div class="tile">
+      <p class="tile-label">Evidence containment</p>
+      <p class="tile-value">99.3%</p>
+      <p class="tile-sub">single-chunk coverage 97.9%</p>
+    </div>
+  </div>
+
+  <h2><span class="num">01</span>How this was measured</h2>
+  <p class="section-lede">
+    Rather than judging chunking by eye, every config was scored three ways, from most direct to
+    most end-to-end.
+  </p>
+  <div class="note">
+    <p style="margin:0 0 8px;"><b>Evidence integrity</b> &mdash; no retriever involved. For every
+    answerable test question, does the exact gold answer-supporting text (from the benchmark's own
+    <code style="font-family:var(--font-mono)">evidence[].spans[]</code>) end up sitting whole
+    inside a single chunk? This is the most direct test of whether a chunking strategy is even
+    <i>capable</i> of supporting a correct, grounded answer.</p>
+    <p style="margin:0 0 8px;"><b>BM25 retrieval recall / MRR</b> &mdash; a lightweight,
+    embedding-model-agnostic retriever (query = conversation history + question) over the full
+    91-document chunk corpus, not just the required documents. Chunking's effect on retrievability
+    is largely retriever-agnostic: a chunk that splits an answer across a boundary hurts BM25 and a
+    dense retriever similarly. The eventual embedding model is a separate decision, evaluated on its
+    own once it's chosen.</p>
+    <p style="margin:0;"><b>Context precision@k</b> &mdash; of the chunks a strategy hands over,
+    what fraction are actually relevant? Read this one <i>relatively</i> across strategies, not as
+    an absolute forecast of require.md's 0.70 target: at k=5&ndash;10 the ceiling is mechanically low
+    here since most questions have only 1&ndash;2 truly relevant chunks in the whole corpus. The
+    production top_k (and reranking) is a later, separate tuning pass.</p>
+  </div>
+
+  <h2><span class="num">02</span>Chunk size dominates; strategy shapes the trade-off</h2>
+  <p class="section-lede">
+    Every metric below is averaged across the three overlap ratios tested (0%, 15%, 30%) for each
+    (strategy, chunk size) pair — see §04 for what overlap does on its own.
+  </p>
+  <div class="legend">
+    <span class="legend-item"><span class="legend-swatch" style="background:var(--series-a)"></span>A &middot; Fixed-size</span>
+    <span class="legend-item"><span class="legend-swatch" style="background:var(--series-b)"></span>B &middot; Recursive structural</span>
+    <span class="legend-item"><span class="legend-swatch" style="background:var(--series-c)"></span>C &middot; Semantic / section-aware</span>
+  </div>
+  <div class="chart-grid" id="chart-grid"></div>
+
+  <h2><span class="num">03</span>Evidence integrity by chunk size</h2>
+  <p class="section-lede">
+    Can a single chunk actually hold the full answer? Shown at overlap = 0 for each strategy/size.
+  </p>
+  <div class="table-wrap">
+    <table id="evidence-table"></table>
+  </div>
+
+  <h2><span class="num">04</span>Overlap barely moves the needle</h2>
+  <p class="section-lede">
+    Spread (max − min) in MRR@10 and Recall@5 across the three overlap ratios tested (0%, 15%,
+    30%), holding strategy and chunk size fixed, then averaged over the three chunk sizes. Semantic
+    chunking is structurally the least sensitive: overlap only ever applies to its rare oversized-section
+    fallback.
+  </p>
+  <div class="table-wrap">
+    <table id="overlap-table"></table>
+  </div>
+
+  <h2><span class="num">05</span>All 27 runs</h2>
+  <div class="table-wrap">
+    <table class="full-table" id="full-table"></table>
+  </div>
+
+  <footer>
+    Reproduce with <code>uv run python -m src.chunking.run_experiment</code> &middot;
+    results in <code>data/processed/chunking_experiment_results.json</code> &middot;
+    tokenized with tiktoken cl100k_base &middot; BM25 tokenization via jieba (CJK) + word split (Latin).
+  </footer>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const RAW = [{"strategy":"A_fixed_size","chunk_size":256,"overlap":0,"overlap_ratio":0.0,"num_chunks":461,"total_tokens":105479,"avg_tokens":228.8,"median_tokens":256,"p10_tokens":114,"p90_tokens":256,"min_tokens":2,"max_tokens":258,"evidence_span_containment_rate":0.9137,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.8421,"required_doc_total":95,"mrr_at_10":0.4074,"n_answerable_questions":85,"recall_at_5":0.5647,"multidoc_full_recall_at_5":0.4941,"context_precision_at_5":0.1412,"recall_at_10":0.6118,"multidoc_full_recall_at_10":0.5529,"context_precision_at_10":0.0871,"seconds":2.46},{"strategy":"A_fixed_size","chunk_size":256,"overlap":38,"overlap_ratio":0.15,"num_chunks":514,"total_tokens":121544,"avg_tokens":236.5,"median_tokens":256,"p10_tokens":163,"p90_tokens":256,"min_tokens":42,"max_tokens":258,"evidence_span_containment_rate":0.964,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9053,"required_doc_total":95,"mrr_at_10":0.4158,"n_answerable_questions":85,"recall_at_5":0.5529,"multidoc_full_recall_at_5":0.4824,"context_precision_at_5":0.1412,"recall_at_10":0.6118,"multidoc_full_recall_at_10":0.5412,"context_precision_at_10":0.0871,"seconds":2.51},{"strategy":"A_fixed_size","chunk_size":256,"overlap":77,"overlap_ratio":0.3,"num_chunks":592,"total_tokens":144048,"avg_tokens":243.3,"median_tokens":256,"p10_tokens":203,"p90_tokens":256,"min_tokens":78,"max_tokens":258,"evidence_span_containment_rate":0.9712,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.8947,"required_doc_total":95,"mrr_at_10":0.3952,"n_answerable_questions":85,"recall_at_5":0.5647,"multidoc_full_recall_at_5":0.4941,"context_precision_at_5":0.1435,"recall_at_10":0.6235,"multidoc_full_recall_at_10":0.5529,"context_precision_at_10":0.0918,"seconds":2.95},{"strategy":"A_fixed_size","chunk_size":512,"overlap":0,"overlap_ratio":0.0,"num_chunks":250,"total_tokens":105477,"avg_tokens":421.9,"median_tokens":512,"p10_tokens":161,"p90_tokens":512,"min_tokens":10,"max_tokens":514,"evidence_span_containment_rate":0.9712,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9263,"required_doc_total":95,"mrr_at_10":0.5021,"n_answerable_questions":85,"recall_at_5":0.6471,"multidoc_full_recall_at_5":0.5647,"context_precision_at_5":0.1553,"recall_at_10":0.6588,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0835,"seconds":2.05},{"strategy":"A_fixed_size","chunk_size":512,"overlap":77,"overlap_ratio":0.15,"num_chunks":267,"total_tokens":119019,"avg_tokens":445.8,"median_tokens":512,"p10_tokens":222,"p90_tokens":512,"min_tokens":82,"max_tokens":513,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.5105,"n_answerable_questions":85,"recall_at_5":0.6353,"multidoc_full_recall_at_5":0.5529,"context_precision_at_5":0.16,"recall_at_10":0.6471,"multidoc_full_recall_at_10":0.5765,"context_precision_at_10":0.0859,"seconds":2.27},{"strategy":"A_fixed_size","chunk_size":512,"overlap":154,"overlap_ratio":0.3,"num_chunks":304,"total_tokens":138282,"avg_tokens":454.9,"median_tokens":512,"p10_tokens":250,"p90_tokens":512,"min_tokens":155,"max_tokens":514,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9789,"required_doc_total":95,"mrr_at_10":0.4955,"n_answerable_questions":85,"recall_at_5":0.5882,"multidoc_full_recall_at_5":0.5059,"context_precision_at_5":0.1718,"recall_at_10":0.6706,"multidoc_full_recall_at_10":0.6,"context_precision_at_10":0.1035,"seconds":2.4},{"strategy":"A_fixed_size","chunk_size":1024,"overlap":0,"overlap_ratio":0.0,"num_chunks":144,"total_tokens":105476,"avg_tokens":732.5,"median_tokens":881,"p10_tokens":161,"p90_tokens":1024,"min_tokens":10,"max_tokens":1024,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9789,"required_doc_total":95,"mrr_at_10":0.5728,"n_answerable_questions":85,"recall_at_5":0.7176,"multidoc_full_recall_at_5":0.6353,"context_precision_at_5":0.1553,"recall_at_10":0.7412,"multidoc_full_recall_at_10":0.6471,"context_precision_at_10":0.08,"seconds":1.57},{"strategy":"A_fixed_size","chunk_size":1024,"overlap":154,"overlap_ratio":0.15,"num_chunks":147,"total_tokens":114100,"avg_tokens":776.2,"median_tokens":882,"p10_tokens":302,"p90_tokens":1024,"min_tokens":164,"max_tokens":1024,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9789,"required_doc_total":95,"mrr_at_10":0.585,"n_answerable_questions":85,"recall_at_5":0.7059,"multidoc_full_recall_at_5":0.6235,"context_precision_at_5":0.1506,"recall_at_10":0.7294,"multidoc_full_recall_at_10":0.6353,"context_precision_at_10":0.08,"seconds":1.84},{"strategy":"A_fixed_size","chunk_size":1024,"overlap":307,"overlap_ratio":0.3,"num_chunks":149,"total_tokens":123290,"avg_tokens":827.4,"median_tokens":919,"p10_tokens":427,"p90_tokens":1024,"min_tokens":317,"max_tokens":1024,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9895,"required_doc_total":95,"mrr_at_10":0.5865,"n_answerable_questions":85,"recall_at_5":0.7176,"multidoc_full_recall_at_5":0.6353,"context_precision_at_5":0.1671,"recall_at_10":0.7294,"multidoc_full_recall_at_10":0.6471,"context_precision_at_10":0.0871,"seconds":1.72},{"strategy":"B_recursive_structural","chunk_size":256,"overlap":0,"overlap_ratio":0.0,"num_chunks":565,"total_tokens":105338,"avg_tokens":186.4,"median_tokens":204,"p10_tokens":91,"p90_tokens":251,"min_tokens":11,"max_tokens":270,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.3834,"n_answerable_questions":85,"recall_at_5":0.5647,"multidoc_full_recall_at_5":0.5059,"context_precision_at_5":0.1506,"recall_at_10":0.6118,"multidoc_full_recall_at_10":0.5529,"context_precision_at_10":0.0847,"seconds":2.33},{"strategy":"B_recursive_structural","chunk_size":256,"overlap":38,"overlap_ratio":0.15,"num_chunks":604,"total_tokens":124904,"avg_tokens":206.8,"median_tokens":219,"p10_tokens":110,"p90_tokens":284,"min_tokens":17,"max_tokens":308,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9579,"required_doc_total":95,"mrr_at_10":0.4148,"n_answerable_questions":85,"recall_at_5":0.5882,"multidoc_full_recall_at_5":0.5176,"context_precision_at_5":0.1553,"recall_at_10":0.6353,"multidoc_full_recall_at_10":0.5647,"context_precision_at_10":0.0894,"seconds":2.61},{"strategy":"B_recursive_structural","chunk_size":256,"overlap":77,"overlap_ratio":0.3,"num_chunks":640,"total_tokens":147382,"avg_tokens":230.3,"median_tokens":236,"p10_tokens":129,"p90_tokens":322,"min_tokens":17,"max_tokens":347,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9579,"required_doc_total":95,"mrr_at_10":0.4093,"n_answerable_questions":85,"recall_at_5":0.5882,"multidoc_full_recall_at_5":0.5176,"context_precision_at_5":0.1718,"recall_at_10":0.6118,"multidoc_full_recall_at_10":0.5529,"context_precision_at_10":0.1129,"seconds":3.0},{"strategy":"B_recursive_structural","chunk_size":512,"overlap":0,"overlap_ratio":0.0,"num_chunks":286,"total_tokens":105415,"avg_tokens":368.6,"median_tokens":401,"p10_tokens":180,"p90_tokens":503,"min_tokens":16,"max_tokens":526,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9684,"required_doc_total":95,"mrr_at_10":0.4624,"n_answerable_questions":85,"recall_at_5":0.6118,"multidoc_full_recall_at_5":0.5412,"context_precision_at_5":0.1482,"recall_at_10":0.6588,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0847,"seconds":1.97},{"strategy":"B_recursive_structural","chunk_size":512,"overlap":77,"overlap_ratio":0.15,"num_chunks":309,"total_tokens":122269,"avg_tokens":395.7,"median_tokens":423,"p10_tokens":207,"p90_tokens":538,"min_tokens":85,"max_tokens":603,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9684,"required_doc_total":95,"mrr_at_10":0.4915,"n_answerable_questions":85,"recall_at_5":0.6235,"multidoc_full_recall_at_5":0.5529,"context_precision_at_5":0.16,"recall_at_10":0.6706,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0918,"seconds":2.23},{"strategy":"B_recursive_structural","chunk_size":512,"overlap":154,"overlap_ratio":0.3,"num_chunks":336,"total_tokens":143102,"avg_tokens":425.9,"median_tokens":432,"p10_tokens":265,"p90_tokens":598,"min_tokens":85,"max_tokens":680,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9684,"required_doc_total":95,"mrr_at_10":0.5061,"n_answerable_questions":85,"recall_at_5":0.6235,"multidoc_full_recall_at_5":0.5412,"context_precision_at_5":0.1671,"recall_at_10":0.6588,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0976,"seconds":2.7},{"strategy":"B_recursive_structural","chunk_size":1024,"overlap":0,"overlap_ratio":0.0,"num_chunks":153,"total_tokens":105459,"avg_tokens":689.3,"median_tokens":776,"p10_tokens":229,"p90_tokens":997,"min_tokens":70,"max_tokens":1030,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9895,"required_doc_total":95,"mrr_at_10":0.5793,"n_answerable_questions":85,"recall_at_5":0.6941,"multidoc_full_recall_at_5":0.6118,"context_precision_at_5":0.1482,"recall_at_10":0.7176,"multidoc_full_recall_at_10":0.6471,"context_precision_at_10":0.0812,"seconds":1.65},{"strategy":"B_recursive_structural","chunk_size":1024,"overlap":154,"overlap_ratio":0.15,"num_chunks":156,"total_tokens":115451,"avg_tokens":740.1,"median_tokens":801,"p10_tokens":362,"p90_tokens":1010,"min_tokens":115,"max_tokens":1184,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":1.0,"required_doc_total":95,"mrr_at_10":0.567,"n_answerable_questions":85,"recall_at_5":0.6824,"multidoc_full_recall_at_5":0.6,"context_precision_at_5":0.1482,"recall_at_10":0.7176,"multidoc_full_recall_at_10":0.6353,"context_precision_at_10":0.08,"seconds":1.99},{"strategy":"B_recursive_structural","chunk_size":1024,"overlap":307,"overlap_ratio":0.3,"num_chunks":161,"total_tokens":126407,"avg_tokens":785.1,"median_tokens":847,"p10_tokens":421,"p90_tokens":1020,"min_tokens":115,"max_tokens":1281,"evidence_span_containment_rate":1.0,"evidence_span_total":139,"single_chunk_full_coverage_rate":1.0,"required_doc_total":95,"mrr_at_10":0.5705,"n_answerable_questions":85,"recall_at_5":0.6941,"multidoc_full_recall_at_5":0.6118,"context_precision_at_5":0.16,"recall_at_10":0.7294,"multidoc_full_recall_at_10":0.6588,"context_precision_at_10":0.0871,"seconds":1.9},{"strategy":"C_semantic_section","chunk_size":256,"overlap":0,"overlap_ratio":0.0,"num_chunks":643,"total_tokens":113902,"avg_tokens":177.1,"median_tokens":171,"p10_tokens":47,"p90_tokens":302,"min_tokens":15,"max_tokens":503,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.4303,"n_answerable_questions":85,"recall_at_5":0.5882,"multidoc_full_recall_at_5":0.5059,"context_precision_at_5":0.1765,"recall_at_10":0.6471,"multidoc_full_recall_at_10":0.5529,"context_precision_at_10":0.1129,"seconds":2.36},{"strategy":"C_semantic_section","chunk_size":256,"overlap":38,"overlap_ratio":0.15,"num_chunks":643,"total_tokens":118375,"avg_tokens":184.1,"median_tokens":176,"p10_tokens":48,"p90_tokens":314,"min_tokens":16,"max_tokens":503,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.4288,"n_answerable_questions":85,"recall_at_5":0.5882,"multidoc_full_recall_at_5":0.5059,"context_precision_at_5":0.1741,"recall_at_10":0.6353,"multidoc_full_recall_at_10":0.5412,"context_precision_at_10":0.1118,"seconds":2.44},{"strategy":"C_semantic_section","chunk_size":256,"overlap":77,"overlap_ratio":0.3,"num_chunks":643,"total_tokens":122619,"avg_tokens":190.7,"median_tokens":178,"p10_tokens":48,"p90_tokens":346,"min_tokens":16,"max_tokens":503,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.4243,"n_answerable_questions":85,"recall_at_5":0.5882,"multidoc_full_recall_at_5":0.5059,"context_precision_at_5":0.1741,"recall_at_10":0.6471,"multidoc_full_recall_at_10":0.5529,"context_precision_at_10":0.1141,"seconds":2.58},{"strategy":"C_semantic_section","chunk_size":512,"overlap":0,"overlap_ratio":0.0,"num_chunks":433,"total_tokens":109288,"avg_tokens":252.4,"median_tokens":178,"p10_tokens":44,"p90_tokens":609,"min_tokens":16,"max_tokens":978,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.5187,"n_answerable_questions":85,"recall_at_5":0.6235,"multidoc_full_recall_at_5":0.5412,"context_precision_at_5":0.16,"recall_at_10":0.6824,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0953,"seconds":2.12},{"strategy":"C_semantic_section","chunk_size":512,"overlap":77,"overlap_ratio":0.15,"num_chunks":433,"total_tokens":110215,"avg_tokens":254.5,"median_tokens":179,"p10_tokens":44,"p90_tokens":609,"min_tokens":16,"max_tokens":978,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.5187,"n_answerable_questions":85,"recall_at_5":0.6235,"multidoc_full_recall_at_5":0.5412,"context_precision_at_5":0.16,"recall_at_10":0.6824,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0953,"seconds":2.14},{"strategy":"C_semantic_section","chunk_size":512,"overlap":154,"overlap_ratio":0.3,"num_chunks":433,"total_tokens":111141,"avg_tokens":256.7,"median_tokens":179,"p10_tokens":44,"p90_tokens":641,"min_tokens":16,"max_tokens":978,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9474,"required_doc_total":95,"mrr_at_10":0.5194,"n_answerable_questions":85,"recall_at_5":0.6353,"multidoc_full_recall_at_5":0.5529,"context_precision_at_5":0.1624,"recall_at_10":0.6824,"multidoc_full_recall_at_10":0.5882,"context_precision_at_10":0.0965,"seconds":2.12},{"strategy":"C_semantic_section","chunk_size":1024,"overlap":0,"overlap_ratio":0.0,"num_chunks":199,"total_tokens":106826,"avg_tokens":536.8,"median_tokens":361,"p10_tokens":86,"p90_tokens":1185,"min_tokens":17,"max_tokens":1549,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9789,"required_doc_total":95,"mrr_at_10":0.5975,"n_answerable_questions":85,"recall_at_5":0.6941,"multidoc_full_recall_at_5":0.6118,"context_precision_at_5":0.1529,"recall_at_10":0.6941,"multidoc_full_recall_at_10":0.6353,"context_precision_at_10":0.0824,"seconds":1.46},{"strategy":"C_semantic_section","chunk_size":1024,"overlap":154,"overlap_ratio":0.15,"num_chunks":199,"total_tokens":107291,"avg_tokens":539.2,"median_tokens":361,"p10_tokens":86,"p90_tokens":1185,"min_tokens":17,"max_tokens":1549,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9789,"required_doc_total":95,"mrr_at_10":0.5975,"n_answerable_questions":85,"recall_at_5":0.6941,"multidoc_full_recall_at_5":0.6118,"context_precision_at_5":0.1529,"recall_at_10":0.6941,"multidoc_full_recall_at_10":0.6353,"context_precision_at_10":0.0824,"seconds":1.42},{"strategy":"C_semantic_section","chunk_size":1024,"overlap":307,"overlap_ratio":0.3,"num_chunks":199,"total_tokens":107750,"avg_tokens":541.5,"median_tokens":365,"p10_tokens":86,"p90_tokens":1185,"min_tokens":17,"max_tokens":1549,"evidence_span_containment_rate":0.9928,"evidence_span_total":139,"single_chunk_full_coverage_rate":0.9789,"required_doc_total":95,"mrr_at_10":0.5971,"n_answerable_questions":85,"recall_at_5":0.6824,"multidoc_full_recall_at_5":0.6,"context_precision_at_5":0.1506,"recall_at_10":0.6941,"multidoc_full_recall_at_10":0.6353,"context_precision_at_10":0.0824,"seconds":1.43}];
+
+const STRATS = [
+  { key: 'A_fixed_size', label: 'A · Fixed-size', short: 'A', color: 'var(--series-a)', hex: null },
+  { key: 'B_recursive_structural', label: 'B · Recursive structural', short: 'B', color: 'var(--series-b)', hex: null },
+  { key: 'C_semantic_section', label: 'C · Semantic / section-aware', short: 'C', color: 'var(--series-c)', hex: null },
+];
+const SIZES = [256, 512, 1024];
+
+function resolveColor(varExpr) {
+  const el = document.createElement('div');
+  el.style.color = varExpr;
+  document.body.appendChild(el);
+  const c = getComputedStyle(el).color;
+  document.body.removeChild(el);
+  return c;
+}
+
+function avgByStrategySize(metric) {
+  const out = {};
+  for (const s of STRATS) {
+    out[s.key] = SIZES.map(size => {
+      const rows = RAW.filter(r => r.strategy === s.key && r.chunk_size === size);
+      const vals = rows.map(r => r[metric]).filter(v => v !== null && v !== undefined);
+      return vals.reduce((a, b) => a + b, 0) / vals.length;
+    });
+  }
+  return out;
+}
+
+function fmtPct(v) { return (v * 100).toFixed(1) + '%'; }
+function fmtNum(v) { return v.toFixed(3); }
+function fmtTok(v) { return Math.round(v).toLocaleString(); }
+
+// ---------- line chart ----------
+function renderLineChart(container, opts) {
+  const { title, note, data, valueFmt, yPad = 0.12 } = opts;
+  const W = 420, H = 220;
+  const padL = 40, padR = 16, padT = 14, padB = 28;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+
+  let allVals = [];
+  STRATS.forEach(s => allVals.push(...data[s.key]));
+  let yMin = Math.min(...allVals), yMax = Math.max(...allVals);
+  const span = (yMax - yMin) || (yMax || 1);
+  yMin = Math.max(0, yMin - span * yPad);
+  yMax = yMax + span * yPad;
+
+  const x = i => padL + (plotW * i) / (SIZES.length - 1);
+  const y = v => padT + plotH - ((v - yMin) / (yMax - yMin)) * plotH;
+
+  const nGrid = 4;
+  let gridLines = '';
+  let gridLabels = '';
+  for (let i = 0; i <= nGrid; i++) {
+    const v = yMin + ((yMax - yMin) * i) / nGrid;
+    const yy = y(v);
+    gridLines += `<line x1="${padL}" y1="${yy}" x2="${W - padR}" y2="${yy}" stroke="var(--grid-line)" stroke-width="1" />`;
+    gridLabels += `<text x="${padL - 8}" y="${yy + 3}" text-anchor="end" class="axis-label">${valueFmt(v)}</text>`;
+  }
+
+  let xLabels = '';
+  SIZES.forEach((sz, i) => {
+    xLabels += `<text x="${x(i)}" y="${H - 6}" text-anchor="middle" class="axis-label">${sz}</text>`;
+  });
+
+  let paths = '';
+  let points = '';
+  const endLabelPositions = [];
+  STRATS.forEach(s => {
+    const vals = data[s.key];
+    const d = vals.map((v, i) => `${i === 0 ? 'M' : 'L'} ${x(i)} ${y(v)}`).join(' ');
+    paths += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />`;
+    vals.forEach((v, i) => {
+      points += `<circle class="pt" cx="${x(i)}" cy="${y(v)}" r="4" fill="${s.color}"
+        data-label="${s.label}" data-x="${SIZES[i]}" data-y="${valueFmt(v)}" />`;
+    });
+    const lastI = vals.length - 1;
+    endLabelPositions.push({ x: x(lastI) + 6, y: y(vals[lastI]) + 3, color: s.color, text: s.short });
+  });
+  // nudge apart end-labels that would otherwise collide (two series can land on
+  // an identical value at the same x, e.g. B and C tie on Recall@5 at size 1024)
+  endLabelPositions.sort((a, b) => a.y - b.y);
+  for (let i = 1; i < endLabelPositions.length; i++) {
+    const minGap = 11;
+    if (endLabelPositions[i].y - endLabelPositions[i - 1].y < minGap) {
+      endLabelPositions[i].y = endLabelPositions[i - 1].y + minGap;
+    }
+  }
+  let endLabels = endLabelPositions
+    .map(p => `<text x="${p.x}" y="${p.y}" class="end-label" fill="${p.color}">${p.text}</text>`)
+    .join('');
+
+  const svg = `
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${title}">
+      <style>
+        .axis-label { font-family: var(--font-mono); font-size: 9.5px; fill: var(--text-muted); }
+        .end-label { font-family: var(--font-display); font-size: 11px; font-weight: 700; }
+      </style>
+      ${gridLines}
+      ${paths}
+      ${points}
+      ${endLabels}
+      ${gridLabels}
+      ${xLabels}
+    </svg>`;
+
+  container.innerHTML = `
+    <p class="chart-title">${title}</p>
+    <p class="chart-note">${note}</p>
+    ${svg}`;
+
+  const tooltip = document.getElementById('tooltip');
+  container.querySelectorAll('.pt').forEach(pt => {
+    pt.addEventListener('mousemove', e => {
+      tooltip.style.opacity = 1;
+      tooltip.style.left = e.clientX + 'px';
+      tooltip.style.top = (e.clientY - 10) + 'px';
+      tooltip.innerHTML = `${pt.dataset.label}<br>size ${pt.dataset.x} → ${pt.dataset.y}`;
+    });
+    pt.addEventListener('mouseleave', () => { tooltip.style.opacity = 0; });
+  });
+}
+
+const chartGrid = document.getElementById('chart-grid');
+const charts = [
+  { metric: 'recall_at_5', title: 'Recall@5', note: 'Top-5 BM25 results cover the required doc(s)', fmt: fmtPct },
+  { metric: 'recall_at_10', title: 'Recall@10', note: 'Top-10 BM25 results cover the required doc(s)', fmt: fmtPct },
+  { metric: 'context_precision_at_5', title: 'Context precision@5', note: 'Fraction of top-5 chunks that are relevant', fmt: fmtPct },
+  { metric: 'mrr_at_10', title: 'MRR@10', note: 'How close to rank 1 the right chunk lands', fmt: fmtNum },
+  { metric: 'avg_tokens', title: 'Avg tokens / chunk', note: 'Cost proxy — tokens sent per retrieved chunk', fmt: fmtTok },
+  { metric: 'num_chunks', title: 'Chunk count (corpus)', note: 'Cost proxy — vectors to embed & store', fmt: fmtTok },
+];
+charts.forEach(c => {
+  const card = document.createElement('div');
+  card.className = 'chart-card';
+  chartGrid.appendChild(card);
+  renderLineChart(card, { title: c.title, note: c.note, data: avgByStrategySize(c.metric), valueFmt: c.fmt });
+});
+
+// ---------- evidence integrity table ----------
+const evTable = document.getElementById('evidence-table');
+{
+  let rows = '';
+  STRATS.forEach(s => {
+    SIZES.forEach(size => {
+      const r = RAW.find(x => x.strategy === s.key && x.chunk_size === size && x.overlap === 0);
+      const containBest = r.evidence_span_containment_rate >= 0.999;
+      const coverBest = r.single_chunk_full_coverage_rate >= 0.999;
+      rows += `<tr>
+        <td><span class="strat-tag"><span class="dot" style="background:${s.color}"></span>${s.short}</span></td>
+        <td>${s.label.split('· ')[1]}</td>
+        <td>${size}</td>
+        <td class="${containBest ? 'best' : ''}">${fmtPct(r.evidence_span_containment_rate)}</td>
+        <td class="${coverBest ? 'best' : ''}">${fmtPct(r.single_chunk_full_coverage_rate)}</td>
+      </tr>`;
+    });
+  });
+  evTable.innerHTML = `
+    <thead><tr><th></th><th>Strategy</th><th>Chunk size</th><th>Evidence span containment</th><th>Single-chunk full coverage</th></tr></thead>
+    <tbody>${rows}</tbody>`;
+}
+
+// ---------- overlap sensitivity table ----------
+const ovTable = document.getElementById('overlap-table');
+{
+  let rows = '';
+  STRATS.forEach(s => {
+    const mrrSpreads = [], recSpreads = [];
+    SIZES.forEach(size => {
+      const rows_ = RAW.filter(r => r.strategy === s.key && r.chunk_size === size);
+      const mrrs = rows_.map(r => r.mrr_at_10);
+      const recs = rows_.map(r => r.recall_at_5);
+      mrrSpreads.push(Math.max(...mrrs) - Math.min(...mrrs));
+      recSpreads.push(Math.max(...recs) - Math.min(...recs));
+    });
+    const avgMrrSpread = mrrSpreads.reduce((a, b) => a + b, 0) / mrrSpreads.length;
+    const avgRecSpread = recSpreads.reduce((a, b) => a + b, 0) / recSpreads.length;
+    rows += `<tr>
+      <td><span class="strat-tag"><span class="dot" style="background:${s.color}"></span>${s.short}</span></td>
+      <td>${s.label.split('· ')[1]}</td>
+      <td>±${fmtNum(avgMrrSpread / 2)}</td>
+      <td>±${fmtPct(avgRecSpread / 2)}</td>
+    </tr>`;
+  });
+  ovTable.innerHTML = `
+    <thead><tr><th></th><th>Strategy</th><th>MRR@10 spread</th><th>Recall@5 spread</th></tr></thead>
+    <tbody>${rows}</tbody>`;
+}
+
+// ---------- full results table ----------
+const fullTable = document.getElementById('full-table');
+{
+  let rows = '';
+  RAW.forEach(r => {
+    const s = STRATS.find(x => x.key === r.strategy);
+    rows += `<tr>
+      <td><span class="strat-tag"><span class="dot" style="background:${s.color}"></span>${s.short}</span></td>
+      <td>${r.chunk_size}</td>
+      <td>${r.overlap} (${Math.round(r.overlap_ratio * 100)}%)</td>
+      <td>${r.num_chunks}</td>
+      <td>${fmtTok(r.avg_tokens)}</td>
+      <td>${fmtPct(r.evidence_span_containment_rate)}</td>
+      <td>${fmtPct(r.single_chunk_full_coverage_rate)}</td>
+      <td>${fmtPct(r.recall_at_5)}</td>
+      <td>${fmtPct(r.recall_at_10)}</td>
+      <td>${fmtPct(r.context_precision_at_5)}</td>
+      <td>${fmtNum(r.mrr_at_10)}</td>
+    </tr>`;
+  });
+  fullTable.innerHTML = `
+    <thead><tr>
+      <th></th><th>Size</th><th>Overlap</th><th>Chunks</th><th>Avg tok</th>
+      <th>Containment</th><th>1-chunk cov.</th><th>R@5</th><th>R@10</th><th>Prec@5</th><th>MRR@10</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>`;
+}
+</script>

@@ -1,0 +1,687 @@
+<meta charset="UTF-8">
+<title>Generation Evaluation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    color-scheme: light;
+    --surface-0: #f5f6f8;
+    --surface-1: #ffffff;
+    --surface-2: #eceef2;
+    --border: #dfe2e8;
+    --text-primary: #14171c;
+    --text-secondary: #545c6a;
+    --text-muted: #8891a0;
+    --ink: #1c2430;
+    --log-bg: #1c2430;  /* deliberately theme-invariant: a terminal/code block stays dark in both themes */
+
+    --good: #0ca30c;
+    --good-soft: #0ca30c1a;
+    --warn: #b5790a;
+    --warn-soft: #fab2191f;
+    --critical: #d03b3b;
+    --critical-soft: #d03b3b1a;
+    --accent: #2a78d6;
+    --grid-line: #e6e8ec;
+
+    --font-display: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+    --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-0: #101216; --surface-1: #171a20; --surface-2: #1d2129; --border: #2a2f39;
+      --text-primary: #eef0f3; --text-secondary: #a6aebd; --text-muted: #6d7583; --ink: #e9ecf1;
+      --good: #3fcf3f; --good-soft: #3fcf3f26;
+      --warn: #f0a83c; --warn-soft: #f0a83c26;
+      --critical: #e66767; --critical-soft: #e6676726;
+      --accent: #3987e5;
+      --grid-line: #262b33;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-0: #101216; --surface-1: #171a20; --surface-2: #1d2129; --border: #2a2f39;
+    --text-primary: #eef0f3; --text-secondary: #a6aebd; --text-muted: #6d7583; --ink: #e9ecf1;
+    --good: #3fcf3f; --good-soft: #3fcf3f26;
+    --warn: #f0a83c; --warn-soft: #f0a83c26;
+    --critical: #e66767; --critical-soft: #e6676726;
+    --accent: #3987e5;
+    --grid-line: #262b33;
+  }
+
+  * { box-sizing: border-box; }
+  body { background: var(--surface-0); color: var(--text-primary); font-family: var(--font-body); margin: 0; }
+  .page { max-width: 920px; margin: 0 auto; padding: 56px 24px 96px; }
+
+  .eyebrow { font-family: var(--font-display); font-size: 12.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin: 0 0 10px; }
+  h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 4vw, 38px); line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 12px; text-wrap: balance; color: var(--ink); }
+  .lede { font-size: 17px; line-height: 1.6; color: var(--text-secondary); max-width: 66ch; margin: 0 0 20px; }
+  .meta-line { font-family: var(--font-mono); font-size: 12.5px; color: var(--text-muted); display: flex; flex-wrap: wrap; gap: 6px 18px; padding-top: 18px; border-top: 1px solid var(--border); }
+  .meta-line b { color: var(--text-secondary); font-weight: 600; }
+
+  h2 { font-family: var(--font-display); font-weight: 600; font-size: 21px; letter-spacing: -0.005em; color: var(--ink); margin: 64px 0 6px; }
+  h2 .num { color: var(--text-muted); font-weight: 500; margin-right: 8px; }
+  .section-lede { font-size: 15px; color: var(--text-secondary); line-height: 1.65; max-width: 68ch; margin: 0 0 24px; }
+  p { line-height: 1.7; }
+
+  .verdict { margin-top: 40px; background: var(--surface-1); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 10px; padding: 28px 30px; }
+  .verdict-label { font-family: var(--font-display); font-size: 11.5px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); margin: 0 0 8px; }
+  .verdict h3 { font-family: var(--font-display); font-size: 21px; font-weight: 700; margin: 0 0 10px; color: var(--ink); }
+  .verdict p { font-size: 15px; color: var(--text-secondary); max-width: 66ch; margin: 0 0 4px; }
+
+  .badge { display: inline-flex; align-items: center; gap: 5px; font-family: var(--font-display); font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: 20px; letter-spacing: 0.01em; }
+  .badge.pass { background: var(--good-soft); color: var(--good); }
+  .badge.warn { background: var(--warn-soft); color: var(--warn); }
+  .badge.critical { background: var(--critical-soft); color: var(--critical); }
+  .badge.neutral { background: var(--surface-2); color: var(--text-muted); }
+  .badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-top: 20px; }
+  .tile { background: var(--surface-1); padding: 18px 18px 16px; }
+  .tile-label { font-family: var(--font-display); font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); margin: 0 0 8px; }
+  .tile-value { font-family: var(--font-mono); font-size: 25px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1; }
+  .tile-sub { font-size: 12.5px; color: var(--text-muted); margin-top: 6px; font-family: var(--font-display); }
+  @media (max-width: 640px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
+
+  .scorecard { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 8px 22px; }
+  .score-row { display: grid; grid-template-columns: 200px 1fr 90px 130px; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--border); }
+  .score-row:last-child { border-bottom: none; }
+  .score-label { font-family: var(--font-display); font-size: 13.5px; font-weight: 600; color: var(--text-primary); }
+  .score-target { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+  .score-bar-track { position: relative; height: 8px; background: var(--surface-2); border-radius: 4px; }
+  .score-bar-fill { position: absolute; top: 0; left: 0; height: 100%; border-radius: 4px; }
+  .score-bar-fill.pass { background: var(--good); }
+  .score-bar-fill.warn { background: var(--warn); }
+  .score-bar-fill.critical { background: var(--critical); }
+  .score-bar-fill.neutral { background: var(--text-muted); }
+  .score-target-tick { position: absolute; top: -3px; width: 2px; height: 14px; background: var(--text-muted); }
+  .score-value { font-family: var(--font-mono); font-size: 15px; font-weight: 600; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; }
+  @media (max-width: 640px) { .score-row { grid-template-columns: 1fr; gap: 6px; } .score-value { text-align: left; } }
+
+  .chart-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 22px 22px 10px; }
+  .chart-title { font-family: var(--font-display); font-size: 14.5px; font-weight: 600; color: var(--ink); margin: 0 0 2px; }
+  .chart-note { font-size: 12.5px; color: var(--text-muted); font-family: var(--font-display); margin: 0 0 14px; }
+  .chart-card svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .bar { cursor: pointer; }
+
+  .tooltip { position: fixed; pointer-events: none; background: var(--ink); color: var(--surface-1); font-family: var(--font-mono); font-size: 11.5px; padding: 6px 9px; border-radius: 6px; line-height: 1.5; opacity: 0; transform: translate(-50%, -100%); transition: opacity 0.08s ease; z-index: 50; white-space: nowrap; }
+
+  .note { background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 14px 18px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.65; margin: 18px 0; }
+  .note b { color: var(--text-primary); }
+  .note.warn-note { background: var(--warn-soft); border-color: color-mix(in srgb, var(--warn) 35%, var(--border)); }
+  .note.critical-note { background: var(--critical-soft); border-color: color-mix(in srgb, var(--critical) 35%, var(--border)); }
+
+  .example-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px; margin: 16px 0; }
+  .example-q { font-size: 14.5px; color: var(--text-primary); margin: 0 0 10px; font-style: italic; }
+  .example-row { display: flex; gap: 10px; font-size: 13px; margin-bottom: 8px; line-height: 1.6; }
+  .example-row .k { font-family: var(--font-display); font-weight: 700; font-size: 10.5px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); flex: none; width: 90px; padding-top: 2px; }
+  .example-row .v { color: var(--text-secondary); font-family: var(--font-mono); font-size: 12.5px; }
+  .example-row .v.answer { color: var(--text-primary); font-family: var(--font-body); font-size: 14px; }
+  .example-row .v.bad { color: var(--critical); }
+  .example-row .v.good { color: var(--good); }
+
+  .log-entry { background: var(--log-bg); border-radius: 8px; padding: 14px 16px; margin: 10px 0; overflow-x: auto; }
+  .log-entry pre { margin: 0; font-family: var(--font-mono); font-size: 11.5px; line-height: 1.6; color: #d5dbe6; white-space: pre-wrap; word-break: break-word; }
+  .log-entry .k { color: #7bb0ea; }
+  .log-entry .s { color: #7fd99a; }
+  .log-entry .n { color: #f0a83c; }
+  .log-entry .b { color: #e6676b; }
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; font-family: var(--font-mono); }
+  thead th { font-family: var(--font-display); font-weight: 600; font-size: 11.5px; letter-spacing: 0.03em; text-transform: uppercase; color: var(--text-muted); text-align: right; padding: 10px 14px; background: var(--surface-2); border-bottom: 1px solid var(--border); white-space: nowrap; }
+  thead th:first-child { text-align: left; }
+  tbody td { text-align: right; padding: 9px 14px; border-bottom: 1px solid var(--border); color: var(--text-secondary); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tbody td:first-child { text-align: left; font-family: var(--font-display); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--surface-2); color: var(--text-primary); }
+
+  ol.next-steps { padding-left: 20px; }
+  ol.next-steps li { margin-bottom: 10px; line-height: 1.6; }
+
+  .pivot-box { display: flex; flex-direction: column; gap: 10px; background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px; margin: 16px 0; }
+  .pivot-row { display: grid; grid-template-columns: 140px 1fr; gap: 14px; font-size: 13.5px; line-height: 1.6; }
+  .pivot-row .k { font-family: var(--font-display); font-weight: 700; font-size: 10.5px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); padding-top: 2px; }
+  .pivot-row .v { color: var(--text-secondary); }
+  .pivot-row .v code { font-family: var(--font-mono); background: var(--surface-2); padding: 1px 5px; border-radius: 4px; font-size: 12px; color: var(--text-primary); }
+
+  footer { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 12.5px; color: var(--text-muted); font-family: var(--font-display); line-height: 1.7; }
+  footer code { font-family: var(--font-mono); background: var(--surface-2); padding: 1px 5px; border-radius: 4px; font-size: 11.5px; }
+</style>
+
+<div class="page">
+
+  <p class="eyebrow">aia-rag &middot; step 5</p>
+  <h1>Does it actually answer correctly?</h1>
+  <p class="lede">
+    Same question as before, re-measured after a forced pivot: OpenAI credits ran out mid-evaluation, so this
+    run is entirely local (Ollama) &mdash; <code style="font-family:var(--font-mono)">mistral-16k</code> generating,
+    <code style="font-family:var(--font-mono)">qwen2.5-16k</code> judging via RAGAS's standard metrics
+    (context precision/recall, faithfulness, answer relevancy, answer accuracy) instead of the hand-built judge
+    the first run used. All four of require.md's numeric bars are missed this time, and unlike the first run,
+    that's mostly a real quality gap, not a measurement artifact &mdash; traced below to a specific, quantified
+    cause, not hand-waved.
+  </p>
+  <div class="meta-line">
+    <span><b>100</b> questions (85 answerable, 15 unanswerable)</span>
+    <span>generator: <code style="font-family:var(--font-mono)">mistral-16k</code> (local)</span>
+    <span>judge: <code style="font-family:var(--font-mono)">qwen2.5-16k</code> via RAGAS (local)</span>
+    <span><b>$0</b> API cost</span>
+    <span>0 failed requests</span>
+  </div>
+
+  <div class="verdict">
+    <p class="verdict-label">Summary</p>
+    <h3>Real answers, real cost -- both go up when the model is local and small</h3>
+    <p>
+      <b>Faithfulness (72.0%)</b> and <b>Accuracy (25.0%)</b> both fall well short of target, and trace back to
+      one concrete, measured cause: <code style="font-family:var(--font-mono)">mistral-16k</code> fabricates or
+      mis-copies a cited <code style="font-family:var(--font-mono)">chunk_id</code> on about half of its answers
+      &mdash; not a formatting nitpick, since the same calls often carry a wrong number or a reversed yes/no
+      alongside the bad citation. This isn't a judge artifact: &sect;04 re-scores the first run's gpt-5.4-mini
+      answers with this exact same judge and finds a 13-20 point gap on every generation-dependent metric, while
+      <b>Context Precision (56.7%)</b> and <b>Context Recall (87.7%)</b> &mdash; both properties of retrieval, not
+      generation &mdash; land within ~1 point of the cloud model. Context Precision still reads far higher than
+      the first run's original 16.1% figure, but that's a metric-definition story, not a quality change
+      (&sect;03). <b>Latency</b> is the other real miss: p90 is 183.7s against a 10s budget, a deliberate,
+      discussed trade-off for running on local compute at zero cost rather than a bug (&sect;02).
+    </p>
+  </div>
+
+  <div class="tiles">
+    <div class="tile">
+      <p class="tile-label">Faithfulness</p>
+      <p class="tile-value" style="color:var(--critical)">72.0%</p>
+      <p class="tile-sub">target &ge; 85% &middot; miss</p>
+    </div>
+    <div class="tile">
+      <p class="tile-label">Accuracy</p>
+      <p class="tile-value" style="color:var(--critical)">25.0%</p>
+      <p class="tile-sub">target &ge; 80% &middot; miss</p>
+    </div>
+    <div class="tile">
+      <p class="tile-label">Context Precision</p>
+      <p class="tile-value" style="color:var(--warn)">56.7%</p>
+      <p class="tile-sub">target &ge; 70% &middot; see &sect;03</p>
+    </div>
+    <div class="tile">
+      <p class="tile-label">Latency p90</p>
+      <p class="tile-value" style="color:var(--critical)">183.7s</p>
+      <p class="tile-sub">target: 90% &lt; 10s &middot; accepted trade-off</p>
+    </div>
+  </div>
+
+  <h2><span class="num">01</span>Scorecard against require.md</h2>
+  <p class="section-lede">
+    The four rows with a target are require.md's own numeric bars. Context Recall and Answer Relevancy are
+    RAGAS-standard metrics reported because they're informative, not because require.md sets a bar for them.
+  </p>
+  <div class="scorecard" id="scorecard"></div>
+
+  <h2><span class="num">02</span>Why this run is local, and what that costs</h2>
+  <p class="section-lede">
+    Not a design choice &mdash; OpenAI credits were exhausted partway through the RAGAS integration (a retry of
+    42 NaN-scored items hit <code style="font-family:var(--font-mono)">insufficient_quota</code>). Getting a
+    local pipeline actually working took real debugging, not just pointing the client at a different URL.
+  </p>
+  <div class="pivot-box">
+    <div class="pivot-row">
+      <div class="k">Bug 1</div>
+      <div class="v">Ollama's default runtime context window is 4096 tokens regardless of a model's architectural max. This project's real prompts (system prompt + ~10 retrieved chunks + history) commonly run 2-8K tokens, so the default silently truncated input.</div>
+    </div>
+    <div class="pivot-row">
+      <div class="k">Bug 2</div>
+      <div class="v">The obvious fix -- passing <code>options.num_ctx</code> per request -- is itself silently ignored by Ollama's OpenAI-compatible endpoint (confirmed with a needle-in-haystack test: a fact placed at the start of an 8K-token prompt was recovered <i>without</i> the override and lost <i>with</i> it sent). Fixed with custom Modelfiles baking in <code>num_ctx 16384</code> instead, which every endpoint respects.</div>
+    </div>
+    <div class="pivot-row">
+      <div class="k">Bug 3</div>
+      <div class="v">The first model tried, <code>qwen3.5:4b</code>, turned out to be a reasoning model: Ollama returns its chain-of-thought in a hidden field before the real answer, and on real-sized prompts that reasoning sometimes consumed the whole completion budget before reaching the answer -- empty output, on every item of a smoke test. Switched to <code>mistral-16k</code>, which has no "thinking" mode -- also a better fit, since this project already rejected CoT for generation (see the design note).</div>
+    </div>
+    <div class="pivot-row">
+      <div class="k">Architecture</div>
+      <div class="v"><code>src/generation/providers.py</code> holds both a local and an OpenAI config behind one <code>LLM_PROVIDER</code> switch, since this pivot is a stopgap, not a permanent move -- switching back needs no code changes.</div>
+    </div>
+  </div>
+  <p class="section-lede" style="margin-top:8px;">
+    What's left, after all three fixes: correct, valid JSON on every call, but genuinely slow (48-120s per
+    generation call) -- confirmed GPU-resident on this hardware, not a CPU-fallback issue, just the real
+    throughput of a 7B model under JSON-schema-constrained decoding. Accepted and documented as the cost of
+    $0 local inference rather than chased with a smaller/faster model, since the plan is to switch back to
+    OpenAI once credits are available. Full detail in that module's docstring.
+  </p>
+
+  <h2><span class="num">03</span>Why Context Precision reads so differently this time</h2>
+  <p class="section-lede">
+    16.1% (first run) vs 56.7% (this run) looks like a huge swing, but retrieval hasn't changed at all --
+    same Chroma+BGE-M3 index, same top_k=10, same corpus. The difference is entirely in the metric's
+    definition. RAGAS's <code style="font-family:var(--font-mono)">ContextPrecision</code> is literally
+    <a href="#" style="color:var(--accent); text-decoration:none;" onclick="return false;">Average Precision</a>
+    (confirmed by reading its source): each retrieved chunk gets an LLM relevance verdict against the reference
+    answer, then precision-at-rank is computed at every relevant chunk's position and averaged, weighted toward
+    chunks that rank <i>higher</i>. The first run's hand-built metric was almost certainly a flat
+    relevant-count/10 ratio, which is exactly what you'd expect to land near 16% when most questions have only
+    1-2 truly relevant chunks in a top_k=10 window (the step-4 finding this project already relies on). Average
+    Precision rewards those same 1-2 relevant chunks for ranking near the top of a similarity-sorted list --
+    which they usually do, since that's what dense retrieval optimizes for -- so the same underlying retrieval
+    quality reads much higher under a rank-aware formula.
+  </p>
+  <div class="note">
+    <b>What this does and doesn't mean:</b> 56.7% is still a genuine miss against the 0.70 bar, under the metric
+    require.md now calls for. It also means this number is a property of retrieval + the judge model, not of
+    <code style="font-family:var(--font-mono)">mistral-16k</code> at all -- context_precision and context_recall
+    would read the same regardless of which model generated the answer. &sect;04 confirms this directly: scored
+    under the identical judge, gpt-5.4-mini's context_precision/recall land within ~1 point of mistral-16k's.
+  </div>
+
+  <h2><span class="num">04</span>A same-judge, apples-to-apples comparison</h2>
+  <p class="section-lede">
+    The first run's gpt-5.4-mini answers were still sitting in <code style="font-family:var(--font-mono)">data/logs/generation.jsonl</code>
+    (PII-redacted, untouched by the pivot -- it's an append-only log). Re-scoring those 76 eligible answers with
+    the exact same RAGAS setup used above (<code style="font-family:var(--font-mono)">qwen2.5-16k</code> judge,
+    <code style="font-family:var(--font-mono)">nomic-embed-text</code> embeddings, 900s timeout) costs nothing --
+    no generation, no OpenAI calls, just re-scoring answers that already exist -- and gives a genuinely
+    apples-to-apples comparison instead of two runs under two different judges.
+  </p>
+  <div class="table-wrap">
+    <table id="comparison-table"></table>
+  </div>
+  <div class="note">
+    <b>Context Precision and Context Recall barely move</b> (+0.4pt, +1.3pt) -- direct confirmation of &sect;03's
+    claim that these two metrics are a property of retrieval, not the generator. <b>Faithfulness, Relevancy, and
+    Accuracy all show large, consistent gaps</b> favoring gpt-5.4-mini (+19.7pt, +17.6pt, +13.2pt) -- the same
+    direction and a similar magnitude to what &sect;05's citation-hallucination finding would predict, now
+    confirmed under a judge that has no stake in either model. One more finding worth flagging on its own:
+    <b>even gpt-5.4-mini's Answer Accuracy (38.2%) misses require.md's &ge;80% bar</b> by a wide margin under this
+    judge -- a much larger gap than the first run's hand-built rubric reported (68.4%). Since this shows up on
+    both models, it reads as this judge/metric combination being strict rather than a claim about model quality;
+    not chased further here, but worth keeping in mind before treating <code style="font-family:var(--font-mono)">answer_accuracy</code>
+    absolute values as calibrated against the 80% bar the way Faithfulness's 85% bar appears to be.
+  </div>
+
+  <h2><span class="num">05</span>Where the faithfulness and accuracy gap comes from</h2>
+  <p class="section-lede">
+    Not diffuse noise -- one specific, measured, model-capability problem explains most of it.
+    <code style="font-family:var(--font-mono)">mistral-16k</code> is shown the exact
+    <code style="font-family:var(--font-mono)">chunk_id</code> string for every retrieved chunk in the prompt
+    (quoted, e.g. <code style="font-family:var(--font-mono)">"Pay driver civil penalty#1_0::c0000"</code>) and
+    asked to copy the ones it used into a JSON field. Checking the model's raw output against the actual
+    retrieved IDs, <b>before</b> the pipeline's own guardrail silently strips anything that doesn't match:
+    47 of 95 non-refused answers (49.5%) contained at least one citation that matched nothing retrieved --
+    almost always resulting in zero surviving citations on that answer, even when its text makes a confident,
+    specific factual claim. This is a 7B-model verbatim-string-reproduction weakness, not a retrieval or
+    prompt-design problem -- and it correlates directly with the faithfulness/accuracy misses: the two examples
+    below both have a fabricated citation <i>and</i> a wrong factual claim in the same answer.
+  </p>
+  <div class="example-card">
+    <p class="example-q">"How much is the fine if the order was issued between July 1, 1990 and October 31, 1996?"</p>
+    <div class="example-row"><span class="k">Gold answer</span><span class="v good">the civil fine is $200</span></div>
+    <div class="example-row"><span class="k">Generated</span><span class="v bad">"The fine is $500."</span></div>
+    <div class="example-row"><span class="k">Citations</span><span class="v bad">none survived the guardrail (invalid chunk_id emitted)</span></div>
+    <div class="example-row"><span class="k">RAGAS</span><span class="v">faithfulness 0.00, accuracy 0.00 -- context_precision 1.00, context_recall 1.00 (the right chunk was retrieved and ranked first; the model still got the number wrong)</span></div>
+  </div>
+  <div class="example-card">
+    <p class="example-q">"Can I ride with someone else if I'm driving a moped?"</p>
+    <div class="example-row"><span class="k">Gold answer</span><span class="v good">No -- the only passenger who can ride with you on the moped is your supervising driver.</span></div>
+    <div class="example-row"><span class="k">Generated</span><span class="v bad">"Yes, you can ride with someone else if you're driving a moped as long as they're 21 years old or older and have a valid driver's license..."</span></div>
+    <div class="example-row"><span class="k">What happened</span><span class="v answer">A direct yes/no reversal, with an invented age qualifier that reads plausibly (it's the real rule for supervising a <i>learner</i>, misapplied here) but isn't what the source says for this question. Citation also didn't survive the guardrail.</span></div>
+  </div>
+  <div class="note warn-note">
+    <b>The guardrail catches the symptom, not the disease:</b> stripping an unverifiable citation stops a fake
+    source reference from reaching the user, which is the guardrail's actual job -- but the answer text itself
+    still ships with the confident, uncited claim attached, which is exactly what require.md's citation
+    requirement exists to prevent. A stricter response to zero-surviving-citations (fall back to a refusal, or
+    flag the answer as unverified) would close this gap; not implemented yet -- see &sect;10.
+  </div>
+  <p class="section-lede" style="margin-top:20px;">
+    The same model weakness shows up as a false refusal too. On <i>"what do I do if I need to cancel a hearing
+    that I requested?"</i> (answerable, and retrieval found the right document), the model wrote a real,
+    substantially-correct answer in its own <code style="font-family:var(--font-mono)">answer</code> field
+    while separately setting <code style="font-family:var(--font-mono)">sufficient_context: false</code> in the
+    same JSON object -- an internal inconsistency between the two fields that the pipeline resolves by trusting
+    the boolean and discarding the good answer as a refusal. 5 of 85 answerable questions were refused this way;
+    a stronger model appears less prone to this specific kind of self-contradiction (the first, OpenAI-era run
+    had the same failure mode but attributed it to over-literal interpretation rather than field-level
+    inconsistency -- worth re-checking once this project is back on a larger model).
+  </p>
+
+  <h2><span class="num">06</span>Cost &amp; latency</h2>
+  <p class="section-lede">Measured directly from this 100-question run, not estimated.</p>
+  <div class="chart-card">
+    <p class="chart-title">Latency distribution (total, retrieval + generation)</p>
+    <p class="chart-note">0/100 requests finished under the 10s budget -- see &sect;02 for why this is accepted</p>
+    <div id="latency-chart"></div>
+  </div>
+  <div class="table-wrap" style="margin-top: 20px;">
+    <table id="cost-table"></table>
+  </div>
+  <p class="section-lede" style="margin-top:16px;">
+    The OpenAI row isn't from a real call -- this run made none -- it's this run's own measured token counts
+    (avg 8,189 prompt / 187 completion tokens per call) priced at gpt-5.4-mini's rate, to show what switching
+    the <code style="font-family:var(--font-mono)">LLM_PROVIDER</code> flag back would cost.
+  </p>
+
+  <h2><span class="num">07</span>Sample logs (PII-redacted)</h2>
+  <p class="section-lede">
+    Three real entries from <code style="font-family:var(--font-mono)">data/logs/generation.jsonl</code> --
+    a clean grounded answer, a hallucination with a stripped citation, and a refusal that still contains a
+    fabricated number. PII redaction runs at the logging boundary only (emails/phone/SSN/ID-number patterns);
+    the model itself still sees the real query.
+  </p>
+  <div id="log-samples"></div>
+
+  <h2><span class="num">08</span>Query rewriting: worth it?</h2>
+  <p class="section-lede">
+    Follow-up test (queued earlier, run after step 5 first landed): does condensing multi-turn conversation
+    history into a standalone query (then, <code style="font-family:var(--font-mono)">gpt-5.4-nano</code>;
+    the rewriter role is now <code style="font-family:var(--font-mono)">llama3.2-16k</code>, not re-run against
+    it) beat the naive "join every turn + question" construction used everywhere else in this project? Same
+    retriever, same harness (<code style="font-family:var(--font-mono)">src/chunking/evaluate.py</code>) --
+    only the query text differs between the two runs.
+  </p>
+  <div class="table-wrap">
+    <table id="rewrite-table"></table>
+  </div>
+  <div class="note">
+    The gain is entirely concentrated in the 73 questions that actually have conversation history (as
+    expected &mdash; rewriting is a no-op without history): recall@5 83.6% &rarr; 90.4%, MRR 0.685 &rarr;
+    0.748. At k=10, though, recall barely moves (95.9% &rarr; 94.5%, within noise) &mdash; most correct
+    chunks were already captured by a 10-wide window either way, so the ceiling effect erases most of the
+    recall benefit at our current top_k. This conclusion is about retrieval-set composition at k=10, not
+    about rewriter quality, so it should hold regardless of which model does the rewriting -- but that's an
+    assumption, not re-verified locally.
+  </div>
+  <div class="note warn-note">
+    <b>Recommendation (unchanged):</b> not clearly worth adding at the current top_k=10 configuration &mdash;
+    the recall gain evaporates at that width and the latency cost is real, more so now that generation latency
+    is already 18x over budget. Revisit if top_k is ever reduced toward 5.
+  </div>
+
+  <h2><span class="num">09</span>Temperature sensitivity</h2>
+  <p class="section-lede">
+    require.md's cost-sensitivity constraint names three knobs: top_k and reranker (both covered in step 4)
+    and temperature (&ge;3 settings) -- not yet tested until now. Verified first, not assumed, that the
+    parameter actually takes effect through Ollama's OpenAI-compatible endpoint before spending compute on a
+    sweep: three repeated calls at <code style="font-family:var(--font-mono)">temperature=0.0</code> on an
+    identical prompt returned byte-identical output every time; three at
+    <code style="font-family:var(--font-mono)">1.3</code> returned varied phrasing with the same underlying
+    fact. Worth checking every time -- <code style="font-family:var(--font-mono)">options.num_ctx</code> and
+    <code style="font-family:var(--font-mono)">think</code> both silently no-op through that same endpoint
+    (&sect;02); this is the one of three tried so far that actually works.
+  </p>
+  <p class="section-lede">
+    Run on a stratified 15-item subset (not the full 101 -- at 48-120s/call, three full-set passes would take
+    many hours for a sensitivity check), covering answerable/unanswerable, with/without history, and every
+    <code style="font-family:var(--font-mono)">language_relation</code> value.
+  </p>
+  <div class="table-wrap">
+    <table id="temperature-table"></table>
+  </div>
+  <div class="note">
+    <b>Context Precision and Context Recall are identical across all three settings</b> (0.544 / 0.846) --
+    a sanity check more than a finding: retrieval runs before generation and has no dependency on the
+    temperature used afterward, so this is exactly what a correctly-wired experiment should show.
+    <b>Citation validity drops sharply at temperature=1.3</b> (0.538 &rarr; 0.308) while 0.0 and 0.7 tie exactly
+    -- a clean, mechanistically sensible result: verbatim-copying a long <code style="font-family:var(--font-mono)">chunk_id</code>
+    string gets harder as sampling randomness increases, the same underlying weakness &sect;05 already
+    identified, now shown to get measurably worse under higher temperature specifically. Faithfulness and
+    answer_relevancy both peak at temperature=0.7 rather than falling monotonically with temperature -- not
+    the "lower is always better" result a factual-QA task might predict. Answer_accuracy is the one metric
+    where 0.0 comes out ahead, but at n=13 RAGAS-scored items per setting this specific difference isn't worth
+    over-reading.
+  </div>
+  <div class="note warn-note">
+    <b>Where this leaves the current config:</b> <code style="font-family:var(--font-mono)">mistral-16k</code>'s
+    Modelfile doesn't set an explicit temperature, so production runs at Ollama's own default (0.8) -- close
+    to the 0.7 tested here, not sitting at either tested extreme. High temperature (1.3) is the one setting
+    with a clear downside (citation validity) and no compensating upside; nothing here motivates moving off
+    the current default.
+  </div>
+
+  <h2><span class="num">10</span>Next steps</h2>
+  <ol class="next-steps">
+    <li><b>Decide how to handle zero-surviving-citations answers</b> &mdash; right now a stripped citation still ships with its (uncited) answer text attached; on a small local model this happens on ~half of answers. Investigated a "refuse when citations end up empty" fix and rejected it with data: <code style="font-family:var(--font-mono)">citations_valid=False</code> items score *higher* average accuracy than valid ones (0.299 vs 0.199), and 12/41 have accuracy &ge; 0.5 despite the citation mismatch -- refusing on this signal alone would trade citation hallucination for false refusals on answers that were often already correct. A retry-with-reminder approach (attempt regeneration once with an explicit copy-the-id-exactly instruction, keep whichever attempt validates, never auto-refuse) was designed but deprioritized in favor of the temperature sensitivity analysis above; still open.</li>
+    <li><b>Investigate why <code style="font-family:var(--font-mono)">answer_accuracy</code> reads low for both models</b> (&sect;04) &mdash; even gpt-5.4-mini misses the 80% bar under this judge; worth checking whether a different/bigger judge, or a look at individual nv_accuracy verdicts, changes the picture before trusting the absolute number.</li>
+    <li><b>Loosen the binary <code style="font-family:var(--font-mono)">sufficient_context</code> flag</b> &mdash; a "partial, with caveats" mode could recover some of the false refusals, including the field-inconsistency case in &sect;05.</li>
+    <li><b>Multi-turn diagnosis complete, fix not yet built</b> &mdash; retrieval quality *improves* with more conversation turns (context_precision/recall both rise), so query rewriting was correctly not the fix; faithfulness *drops* with more turns instead, consistent with "lost in the middle" attention dilution as retrieved context gets pushed later in the message sequence by growing history, not with prompt length itself (measured flat, ~8.2K tokens, across 0 vs 7+ turns -- retrieved-chunk payload dominates, history is comparatively tiny at the conversation lengths in this test set). History compression/summarization for long conversations was proposed as a next step, not yet tested; also surfaces a test-set quality issue worth a mention -- one item (va-008) has a garbled/corrupted question from the translation pipeline, and another (dmv-017) has a required-document label that doesn't match its conversation topic (cp=cr=0).</li>
+    <li><b>Multi-sample the RAGAS judge</b> for the formal evaluation deliverable, given the single-pass nature of both this run and the metric definitions themselves.</li>
+  </ol>
+
+  <footer>
+    Reproduce with <code>uv run python -m src.generation.run_eval</code> (needs <code>ollama serve</code>
+    running locally, or <code>LLM_PROVIDER=openai</code> + <code>OPENAI_API_KEY</code> set) &middot;
+    &sect;04's comparison with <code>uv run python -m src.generation.rescore_openai_baseline</code>
+    (no generation, re-scores the already-preserved first-run answers) &middot;
+    results in <code>data/processed/generation_eval_results.json</code> &middot;
+    logs in <code>data/logs/generation.jsonl</code> (gitignored, PII-redacted) &middot;
+    model config and the local-model debugging notes in <code>src/generation/providers.py</code>.
+  </footer>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const DATA = [{"question_id":"md2d-v2-dmv-001","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["How to renew a license#1_0::c0009"],"citations_valid":true,"context_precision":0.8055555555287036,"context_recall":1.0,"faithfulness":0.5,"answer_relevancy":0.779162680263327,"answer_accuracy":0.0,"latency_ms":{"retrieval":506.7,"generation":79623.6,"total":80131.1},"prompt_tokens":9078,"completion_tokens":98},{"question_id":"md2d-v2-dmv-002","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.49999999995,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.5960520357835364,"answer_accuracy":0.0,"latency_ms":{"retrieval":430.8,"generation":37257.4,"total":37688.9},"prompt_tokens":6854,"completion_tokens":154},{"question_id":"md2d-v2-dmv-003","answerable":true,"language_relation":"aligned","refused":true,"refusal_reason":"llm_judged_insufficient_context","citations":[],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":627.7,"generation":136266.7,"total":136899.7},"prompt_tokens":10352,"completion_tokens":217},{"question_id":"md2d-v2-dmv-004","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Pay suspension termination fee#1_0::c0005","Pay suspension termination fee#1_0::c0000"],"citations_valid":true,"context_precision":0.19999999998,"context_recall":1.0,"faithfulness":0.75,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":3096.9,"generation":125896.6,"total":128995.8},"prompt_tokens":5839,"completion_tokens":140},{"question_id":"md2d-v2-dmv-005","answerable":true,"language_relation":"cross_lingual","refused":true,"refusal_reason":"llm_judged_insufficient_context","citations":[],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":1591.6,"generation":120758.7,"total":122351.5},"prompt_tokens":8049,"completion_tokens":56},{"question_id":"md2d-v2-dmv-006","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.0,"answer_relevancy":0.6557408721020275,"answer_accuracy":0.0,"latency_ms":{"retrieval":20644.7,"generation":78423.2,"total":99069.4},"prompt_tokens":7656,"completion_tokens":47},{"question_id":"md2d-v2-dmv-007","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Learner permit restrictions#3_0::c0000"],"citations_valid":true,"context_precision":0.19999999998,"context_recall":1.0,"faithfulness":0.3333333333333333,"answer_relevancy":0.5773162765305789,"answer_accuracy":0.25,"latency_ms":{"retrieval":7458.6,"generation":103073.2,"total":110533.3},"prompt_tokens":8621,"completion_tokens":107},{"question_id":"md2d-v2-dmv-008","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9166666666361111,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7530222752035717,"answer_accuracy":0.75,"latency_ms":{"retrieval":9790.3,"generation":101450.0,"total":111240.5},"prompt_tokens":7929,"completion_tokens":83},{"question_id":"md2d-v2-dmv-009","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.3333333333,"context_recall":1.0,"faithfulness":0.0,"answer_relevancy":0.8701034384301686,"answer_accuracy":0.0,"latency_ms":{"retrieval":1603.2,"generation":111139.5,"total":112744.6},"prompt_tokens":7599,"completion_tokens":87},{"question_id":"md2d-v2-dmv-010","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Learner permit restrictions#3_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.6666666666666666,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":2210.7,"generation":121183.5,"total":123396.0},"prompt_tokens":10056,"completion_tokens":63},{"question_id":"md2d-v2-dmv-011","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Learner permit restrictions#3_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.710644172970497,"answer_accuracy":0.0,"latency_ms":{"retrieval":1511.5,"generation":148980.1,"total":150495.6},"prompt_tokens":9879,"completion_tokens":136},{"question_id":"md2d-v2-dmv-012","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.642857142825,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7172053153249832,"answer_accuracy":0.75,"latency_ms":{"retrieval":1011.6,"generation":148417.2,"total":149431.2},"prompt_tokens":7060,"completion_tokens":83},{"question_id":"md2d-v2-dmv-013","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.16666666665,"context_recall":1.0,"faithfulness":0.6666666666666666,"answer_relevancy":0.0,"answer_accuracy":1.0,"latency_ms":{"retrieval":4909.5,"generation":134317.0,"total":139235.2},"prompt_tokens":8246,"completion_tokens":112},{"question_id":"md2d-v2-dmv-014","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7779209144417686,"answer_accuracy":0.25,"latency_ms":{"retrieval":34507.5,"generation":82625.1,"total":117140.5},"prompt_tokens":8628,"completion_tokens":97},{"question_id":"md2d-v2-dmv-015","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["How to renew a license#1_0::c0002"],"citations_valid":true,"context_precision":0.45833333331805554,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7159441979912907,"answer_accuracy":0.25,"latency_ms":{"retrieval":2695.0,"generation":119115.3,"total":121815.3},"prompt_tokens":5418,"completion_tokens":178},{"question_id":"md2d-v2-dmv-016","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Replace license or permit#1_0::c0003"],"citations_valid":true,"context_precision":0.1944444444347222,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.6205042982097239,"answer_accuracy":0.75,"latency_ms":{"retrieval":28407.5,"generation":84421.8,"total":112845.6},"prompt_tokens":5834,"completion_tokens":81},{"question_id":"md2d-v2-dmv-017","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.0,"context_recall":0.0,"faithfulness":0.0,"answer_relevancy":0.4055597940221149,"answer_accuracy":0.0,"latency_ms":{"retrieval":5488.4,"generation":97873.4,"total":103363.3},"prompt_tokens":6765,"completion_tokens":103},{"question_id":"md2d-v2-dmv-018","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.0,"answer_relevancy":0.821576350504413,"answer_accuracy":1.0,"latency_ms":{"retrieval":19027.3,"generation":99516.8,"total":118546.3},"prompt_tokens":10031,"completion_tokens":105},{"question_id":"md2d-v2-dmv-019","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["How to renew a license#1_0::c0002"],"citations_valid":true,"context_precision":0.0,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.5258874789499562,"answer_accuracy":0.0,"latency_ms":{"retrieval":18349.7,"generation":104387.0,"total":122737.4},"prompt_tokens":5332,"completion_tokens":165},{"question_id":"md2d-v2-dmv-020","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Pay suspension termination fee#1_0::c0001","Pay suspension termination fee#1_0::c0000"],"citations_valid":true,"context_precision":0.5833333333041666,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.8768836407849842,"answer_accuracy":0.25,"latency_ms":{"retrieval":1340.1,"generation":134803.7,"total":136145.4},"prompt_tokens":7285,"completion_tokens":221},{"question_id":"md2d-v2-dmv-021","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":["The Graduated License Law and Restrictions for Drivers under 18#1_0::c0000"],"citations_valid":false,"context_precision":0.6428571428357143,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":16150.6,"generation":107714.9,"total":123866.7},"prompt_tokens":6730,"completion_tokens":329},{"question_id":"md2d-v2-dmv-022","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":["Prepare for your road test#3_0::c0000"],"citations_valid":true,"context_precision":0.0,"context_recall":0.0,"faithfulness":0.25,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":2311.5,"generation":135061.1,"total":137377.8},"prompt_tokens":7199,"completion_tokens":177},{"question_id":"md2d-v2-dmv-023","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":["Replace a non-driver ID card#1_0::c0001","Replace a non-driver ID card#1_0::c0003","Medical Certification Requirements#3_0::c0006"],"citations_valid":true,"context_precision":0.0,"context_recall":1.0,"faithfulness":0.875,"answer_relevancy":0.6867131717450755,"answer_accuracy":0.25,"latency_ms":{"retrieval":18738.2,"generation":116757.8,"total":135500.8},"prompt_tokens":5660,"completion_tokens":487},{"question_id":"md2d-v2-dmv-024","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Get a license to drive a taxi or livery vehicle#3_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":1937.2,"generation":154809.1,"total":156747.7},"prompt_tokens":8092,"completion_tokens":360},{"question_id":"md2d-v2-dmv-025","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":22956.7,"generation":121145.1,"total":144102.6},"prompt_tokens":8313,"completion_tokens":71},{"question_id":"md2d-v2-dmv-026","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Replace license or permit#1_0::c0005","Replace license or permit#1_0::c0006","Replace a non-driver ID card#1_0::c0001"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":31053.8,"generation":114728.6,"total":145787.6},"prompt_tokens":7088,"completion_tokens":232},{"question_id":"md2d-v2-dmv-027","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":13404.7,"generation":116103.4,"total":129510.0},"prompt_tokens":6171,"completion_tokens":264},{"question_id":"md2d-v2-dmv-028","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Replace license or permit#1_0::c0005"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":995.1,"generation":127605.1,"total":128604.0},"prompt_tokens":7427,"completion_tokens":122},{"question_id":"md2d-v2-dmv-029","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":21113.1,"generation":126211.7,"total":147329.9},"prompt_tokens":7930,"completion_tokens":382},{"question_id":"md2d-v2-ssa-001","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.788492063478922,"context_recall":1.0,"faithfulness":0.6666666666666666,"answer_relevancy":0.6507746727334899,"answer_accuracy":0.5,"latency_ms":{"retrieval":24583.8,"generation":129521.5,"total":154111.3},"prompt_tokens":8060,"completion_tokens":145},{"question_id":"md2d-v2-ssa-002","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["How To Apply For Social Security Disability Benefits#3_0::c0000"],"citations_valid":true,"context_precision":0.7199999999856,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.39292087923192404,"answer_accuracy":0.25,"latency_ms":{"retrieval":6281.0,"generation":162575.6,"total":168858.9},"prompt_tokens":10208,"completion_tokens":121},{"question_id":"md2d-v2-ssa-003","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Disability | Approval Process | Social Security Administration#2_0::c0000"],"citations_valid":true,"context_precision":0.6428571428357143,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":24391.6,"generation":122813.9,"total":147211.5},"prompt_tokens":8810,"completion_tokens":76},{"question_id":"md2d-v2-ssa-004","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":[],"citations_valid":true,"context_precision":0.49999999995,"context_recall":0.6666666666666666,"faithfulness":0.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":16564.7,"generation":129743.2,"total":146310.7},"prompt_tokens":9838,"completion_tokens":111},{"question_id":"md2d-v2-ssa-005","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.0,"context_recall":1.0,"faithfulness":0.75,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":19837.8,"generation":133021.4,"total":152861.9},"prompt_tokens":8600,"completion_tokens":217},{"question_id":"md2d-v2-ssa-006","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000"],"citations_valid":true,"context_precision":0.9617346938638119,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":20974.1,"generation":132256.5,"total":153235.5},"prompt_tokens":8549,"completion_tokens":54},{"question_id":"md2d-v2-ssa-007","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000"],"citations_valid":false,"context_precision":0.0,"context_recall":0.5,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":9294.4,"generation":128405.9,"total":137703.4},"prompt_tokens":4866,"completion_tokens":172},{"question_id":"md2d-v2-ssa-008","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.0,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.6059912045534166,"answer_accuracy":0.25,"latency_ms":{"retrieval":19569.0,"generation":95603.7,"total":115176.4},"prompt_tokens":6906,"completion_tokens":81},{"question_id":"md2d-v2-ssa-009","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000"],"citations_valid":false,"context_precision":0.8333333332916666,"context_recall":1.0,"faithfulness":0.8,"answer_relevancy":0.6595140167445428,"answer_accuracy":0.5,"latency_ms":{"retrieval":14270.3,"generation":96584.4,"total":110857.1},"prompt_tokens":6144,"completion_tokens":214},{"question_id":"md2d-v2-ssa-010","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000"],"citations_valid":false,"context_precision":0.9999999999666667,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":926.6,"generation":107426.2,"total":108353.6},"prompt_tokens":5986,"completion_tokens":245},{"question_id":"md2d-v2-ssa-011","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000"],"citations_valid":true,"context_precision":0.30555555554537034,"context_recall":1.0,"faithfulness":0.5,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":1619.0,"generation":98584.6,"total":100204.8},"prompt_tokens":4749,"completion_tokens":95},{"question_id":"md2d-v2-ssa-012","answerable":true,"language_relation":"aligned","refused":true,"refusal_reason":"llm_judged_insufficient_context","citations":[],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":5844.1,"generation":107737.0,"total":113584.2},"prompt_tokens":10068,"completion_tokens":99},{"question_id":"md2d-v2-ssa-013","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.36111111109305555,"context_recall":1.0,"faithfulness":0.0,"answer_relevancy":0.9234210020337339,"answer_accuracy":0.5,"latency_ms":{"retrieval":984.9,"generation":140570.6,"total":141561.0},"prompt_tokens":10716,"completion_tokens":146},{"question_id":"md2d-v2-ssa-014","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.99999999995,"context_recall":1.0,"faithfulness":0.6,"answer_relevancy":0.695295328075992,"answer_accuracy":0.25,"latency_ms":{"retrieval":894.2,"generation":163646.0,"total":164541.6},"prompt_tokens":9023,"completion_tokens":238},{"question_id":"md2d-v2-ssa-015","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0::c0000","Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0::c0004"],"citations_valid":true,"context_precision":0.49999999995,"context_recall":1.0,"faithfulness":0.2,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":3551.5,"generation":154120.0,"total":157672.9},"prompt_tokens":6755,"completion_tokens":194},{"question_id":"md2d-v2-ssa-016","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.8041666666465626,"context_recall":1.0,"faithfulness":0.75,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":17738.4,"generation":137420.1,"total":155161.0},"prompt_tokens":8980,"completion_tokens":331},{"question_id":"md2d-v2-ssa-017","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Learn what documents you will need to get a Social Security Card | Social Security Administration#15_0::c0000"],"citations_valid":true,"context_precision":0.7499999999625,"context_recall":1.0,"faithfulness":0.6666666666666666,"answer_relevancy":0.5734475621333168,"answer_accuracy":0.25,"latency_ms":{"retrieval":3514.8,"generation":148277.0,"total":151793.2},"prompt_tokens":9723,"completion_tokens":108},{"question_id":"md2d-v2-ssa-018","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9111111110928889,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7306801351722073,"answer_accuracy":0.25,"latency_ms":{"retrieval":12507.7,"generation":155529.4,"total":168039.7},"prompt_tokens":10531,"completion_tokens":148},{"question_id":"md2d-v2-ssa-019","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.49999999995,"context_recall":1.0,"faithfulness":0.6666666666666666,"answer_relevancy":0.7368130492123836,"answer_accuracy":0.75,"latency_ms":{"retrieval":4295.0,"generation":137294.4,"total":141591.9},"prompt_tokens":6513,"completion_tokens":150},{"question_id":"md2d-v2-ssa-020","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.99999999999,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.5005625954651974,"answer_accuracy":0.25,"latency_ms":{"retrieval":1113.6,"generation":180619.6,"total":181736.2},"prompt_tokens":12283,"completion_tokens":501},{"question_id":"md2d-v2-ssa-021","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Change Your GI Bill School Or Program | Veterans Affairs#1_0::c0000","Benefits Planner: Survivors | How You Apply | Social Security Administration#1_0::c0000","Benefits for People with Disabilities#1_0::c0000","Income-Driven Repayment Plans | Federal Student Aid#1_0::c0019"],"citations_valid":false,"context_precision":0.0,"context_recall":0.0,"faithfulness":0.3333333333333333,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":12518.0,"generation":148254.2,"total":160777.1},"prompt_tokens":6714,"completion_tokens":292},{"question_id":"md2d-v2-ssa-022","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":["How To Apply For Social Security Disability Benefits#3_0::c0000","Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"],"citations_valid":true,"context_precision":0.49999999995,"context_recall":0.5,"faithfulness":0.8571428571428571,"answer_relevancy":0.8298512849192982,"answer_accuracy":0.0,"latency_ms":{"retrieval":1631.3,"generation":192411.6,"total":194043.8},"prompt_tokens":9020,"completion_tokens":361},{"question_id":"md2d-v2-ssa-023","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.6202947845716374,"context_recall":1.0,"faithfulness":0.5714285714285714,"answer_relevancy":0.7974170136200543,"answer_accuracy":0.25,"latency_ms":{"retrieval":30524.6,"generation":134817.3,"total":165343.9},"prompt_tokens":10549,"completion_tokens":286},{"question_id":"md2d-v2-ssa-024","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":["Learn what documents you will need to get a Social Security Card | Social Security Administration#5_0::c0000","Learn what documents you will need to get a Social Security Card | Social Security Administration#12_0::c0000"],"citations_valid":true,"context_precision":0.8227678571325726,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.49992460982364734,"answer_accuracy":0.5,"latency_ms":{"retrieval":18652.3,"generation":171428.7,"total":190087.6},"prompt_tokens":12221,"completion_tokens":218},{"question_id":"md2d-v2-ssa-025","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":8361.9,"generation":162002.3,"total":170365.6},"prompt_tokens":8816,"completion_tokens":200},{"question_id":"md2d-v2-ssa-026","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Learn what documents you will need to get a Social Security Card | Social Security Administration#14_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":5968.3,"generation":173257.2,"total":179227.0},"prompt_tokens":12909,"completion_tokens":156},{"question_id":"md2d-v2-ssa-027","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Appeal A Decision | Social Security Administration#1_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":14408.6,"generation":155090.5,"total":169505.6},"prompt_tokens":10809,"completion_tokens":150},{"question_id":"md2d-v2-studentaid-001","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Extended Plan | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":0.9999999999666667,"context_recall":0.0,"faithfulness":1.0,"answer_relevancy":0.7850146353441027,"answer_accuracy":0.25,"latency_ms":{"retrieval":1851.3,"generation":158140.7,"total":159994.6},"prompt_tokens":5445,"completion_tokens":370},{"question_id":"md2d-v2-studentaid-002","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.0,"context_recall":1.0,"faithfulness":0.5,"answer_relevancy":0.589002756501781,"answer_accuracy":0.5,"latency_ms":{"retrieval":10995.1,"generation":118280.0,"total":129276.6},"prompt_tokens":7176,"completion_tokens":176},{"question_id":"md2d-v2-studentaid-003","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Extended Plan | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":0.6805555555328703,"context_recall":1.0,"faithfulness":0.8,"answer_relevancy":0.870613280441006,"answer_accuracy":0.0,"latency_ms":{"retrieval":13609.9,"generation":94595.4,"total":108209.0},"prompt_tokens":6019,"completion_tokens":149},{"question_id":"md2d-v2-studentaid-004","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.25,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":5323.1,"generation":101790.6,"total":107117.4},"prompt_tokens":6346,"completion_tokens":229},{"question_id":"md2d-v2-studentaid-005","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Extended Plan | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.5,"answer_relevancy":0.5955996911338547,"answer_accuracy":0.25,"latency_ms":{"retrieval":1417.3,"generation":103284.1,"total":104704.0},"prompt_tokens":5110,"completion_tokens":87},{"question_id":"md2d-v2-studentaid-006","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Extended Plan | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":0.0,"context_recall":0.0,"faithfulness":0.5,"answer_relevancy":0.6398846380944643,"answer_accuracy":0.25,"latency_ms":{"retrieval":11486.2,"generation":91845.6,"total":103339.3},"prompt_tokens":6188,"completion_tokens":168},{"question_id":"md2d-v2-studentaid-007","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Closed School Discharge | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":31831.6,"generation":99415.6,"total":131250.0},"prompt_tokens":10595,"completion_tokens":168},{"question_id":"md2d-v2-studentaid-008","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.16666666665,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.6474864970387221,"answer_accuracy":0.25,"latency_ms":{"retrieval":25934.6,"generation":129620.3,"total":155559.2},"prompt_tokens":7964,"completion_tokens":175},{"question_id":"md2d-v2-studentaid-009","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0003"],"citations_valid":true,"context_precision":0.8551587301444776,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":1.0,"latency_ms":{"retrieval":15235.2,"generation":135356.3,"total":150596.1},"prompt_tokens":5163,"completion_tokens":49},{"question_id":"md2d-v2-studentaid-010","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.42063492062089947,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.75,"latency_ms":{"retrieval":23730.9,"generation":79941.5,"total":103685.0},"prompt_tokens":3005,"completion_tokens":140},{"question_id":"md2d-v2-studentaid-011","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.0,"context_recall":0.0,"faithfulness":1.0,"answer_relevancy":0.8939658867657586,"answer_accuracy":0.0,"latency_ms":{"retrieval":1420.4,"generation":76942.4,"total":78363.8},"prompt_tokens":6880,"completion_tokens":129},{"question_id":"md2d-v2-studentaid-012","answerable":true,"language_relation":"aligned","refused":true,"refusal_reason":"llm_judged_insufficient_context","citations":[],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":4611.8,"generation":85089.2,"total":89703.1},"prompt_tokens":7460,"completion_tokens":86},{"question_id":"md2d-v2-studentaid-013","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Receiving Financial Aid | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":0.49999999995,"context_recall":1.0,"faithfulness":0.75,"answer_relevancy":0.7250090866024838,"answer_accuracy":0.25,"latency_ms":{"retrieval":5859.3,"generation":98632.1,"total":104492.1},"prompt_tokens":6634,"completion_tokens":107},{"question_id":"md2d-v2-studentaid-014","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.30952380950833336,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.8148214068447565,"answer_accuracy":0.25,"latency_ms":{"retrieval":1817.2,"generation":129360.5,"total":131178.8},"prompt_tokens":6575,"completion_tokens":644},{"question_id":"md2d-v2-studentaid-015","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Loans | Federal Student Aid#1_0::c0001"],"citations_valid":true,"context_precision":0.29444444443462964,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":11495.0,"generation":107649.5,"total":119146.8},"prompt_tokens":5853,"completion_tokens":101},{"question_id":"md2d-v2-studentaid-016","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":["Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0003","Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0005"],"citations_valid":false,"context_precision":0.4981481481398457,"context_recall":0.5,"faithfulness":0.3333333333333333,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":4628.9,"generation":147625.7,"total":152257.3},"prompt_tokens":5613,"completion_tokens":944},{"question_id":"md2d-v2-studentaid-017","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Income-Driven Repayment Plans | Federal Student Aid#1_0::c0011"],"citations_valid":true,"context_precision":0.4444444444296296,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":9355.6,"generation":120835.4,"total":130192.2},"prompt_tokens":6097,"completion_tokens":228},{"question_id":"md2d-v2-studentaid-018","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":818.5,"generation":131730.7,"total":132550.5},"prompt_tokens":6208,"completion_tokens":113},{"question_id":"md2d-v2-studentaid-019","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Program Reviews | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":7900.7,"generation":107010.1,"total":114915.0},"prompt_tokens":8473,"completion_tokens":109},{"question_id":"md2d-v2-studentaid-020","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["How Financial Aid Works | Federal Student Aid#1_0::c0000","Receiving Financial Aid | Federal Student Aid#1_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":6932.4,"generation":112985.4,"total":119920.8},"prompt_tokens":6800,"completion_tokens":364},{"question_id":"md2d-v2-va-001","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.91666666664375,"context_recall":1.0,"faithfulness":0.3333333333333333,"answer_relevancy":0.8968587097180617,"answer_accuracy":0.0,"latency_ms":{"retrieval":1841.6,"generation":163671.2,"total":165515.5},"prompt_tokens":14050,"completion_tokens":76},{"question_id":"md2d-v2-va-002","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.8612541302335069,"answer_accuracy":0.5,"latency_ms":{"retrieval":27748.9,"generation":149822.9,"total":177574.3},"prompt_tokens":12091,"completion_tokens":72},{"question_id":"md2d-v2-va-003","answerable":true,"language_relation":"aligned","refused":true,"refusal_reason":"llm_judged_insufficient_context","citations":[],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":935.9,"generation":207319.0,"total":208256.4},"prompt_tokens":12033,"completion_tokens":281},{"question_id":"md2d-v2-va-004","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0000","Request a Board Appeal | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.0,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.4472942747883841,"answer_accuracy":0.0,"latency_ms":{"retrieval":15677.8,"generation":200918.4,"total":216606.1},"prompt_tokens":10860,"completion_tokens":146},{"question_id":"md2d-v2-va-005","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.99999999995,"context_recall":0.5,"faithfulness":0.6666666666666666,"answer_relevancy":0.7253512855115601,"answer_accuracy":0.25,"latency_ms":{"retrieval":22648.4,"generation":202660.1,"total":225313.8},"prompt_tokens":12658,"completion_tokens":158},{"question_id":"md2d-v2-va-006","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.9249999999815,"context_recall":1.0,"faithfulness":0.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":28367.6,"generation":174810.5,"total":203179.7},"prompt_tokens":10694,"completion_tokens":45},{"question_id":"md2d-v2-va-007","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7610585909927655,"answer_accuracy":0.0,"latency_ms":{"retrieval":25175.1,"generation":160141.9,"total":185323.6},"prompt_tokens":10334,"completion_tokens":152},{"question_id":"md2d-v2-va-008","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":[],"citations_valid":true,"context_precision":0.0,"context_recall":1.0,"faithfulness":0.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":12982.8,"generation":151541.8,"total":164526.3},"prompt_tokens":8145,"completion_tokens":74},{"question_id":"md2d-v2-va-009","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Change Your GI Bill School Or Program | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.3333333333333333,"answer_relevancy":0.5712884490605609,"answer_accuracy":0.25,"latency_ms":{"retrieval":11073.9,"generation":159992.4,"total":171069.4},"prompt_tokens":9598,"completion_tokens":181},{"question_id":"md2d-v2-va-010","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Change Your GI Bill School Or Program | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.9999999999,"context_recall":1.0,"faithfulness":0.5,"answer_relevancy":0.641730177416537,"answer_accuracy":0.5,"latency_ms":{"retrieval":15702.0,"generation":126428.6,"total":142131.9},"prompt_tokens":7694,"completion_tokens":109},{"question_id":"md2d-v2-va-011","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.691666666649375,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.46625937679360985,"answer_accuracy":0.0,"latency_ms":{"retrieval":1262.4,"generation":137822.6,"total":139086.7},"prompt_tokens":6606,"completion_tokens":219},{"question_id":"md2d-v2-va-012","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.0,"context_recall":0.0,"faithfulness":0.5,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":12660.5,"generation":115434.7,"total":128102.0},"prompt_tokens":7861,"completion_tokens":174},{"question_id":"md2d-v2-va-013","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["Reserve Educational Assistance Program (REAP) | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.1249999999875,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.5,"latency_ms":{"retrieval":4199.5,"generation":135172.2,"total":139375.1},"prompt_tokens":9560,"completion_tokens":98},{"question_id":"md2d-v2-va-014","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.99999999995,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.845673237321302,"answer_accuracy":0.0,"latency_ms":{"retrieval":17064.7,"generation":128047.7,"total":145115.1},"prompt_tokens":7407,"completion_tokens":135},{"question_id":"md2d-v2-va-015","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.5333333333155555,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.6939775280131874,"answer_accuracy":0.0,"latency_ms":{"retrieval":16998.5,"generation":150238.7,"total":167237.7},"prompt_tokens":10683,"completion_tokens":264},{"question_id":"md2d-v2-va-016","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.7222222221981481,"context_recall":1.0,"faithfulness":0.75,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":26124.9,"generation":157601.3,"total":183739.1},"prompt_tokens":10545,"completion_tokens":174},{"question_id":"md2d-v2-va-017","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["VA decision reviews and appeals | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.94999999997625,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.0,"latency_ms":{"retrieval":27472.6,"generation":170017.4,"total":197492.1},"prompt_tokens":12541,"completion_tokens":126},{"question_id":"md2d-v2-va-018","answerable":true,"language_relation":"mixed_language","refused":false,"refusal_reason":null,"citations":["Health Needs And Conditions | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.8599999999828,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":1863.0,"generation":198236.0,"total":200100.6},"prompt_tokens":11041,"completion_tokens":93},{"question_id":"md2d-v2-va-019","answerable":true,"language_relation":"cross_lingual","refused":false,"refusal_reason":null,"citations":["Access Your VA Life Insurance Policy Online | Veterans Affairs#1_0::c0000"],"citations_valid":true,"context_precision":0.99999999995,"context_recall":1.0,"faithfulness":0.5,"answer_relevancy":0.0,"answer_accuracy":0.25,"latency_ms":{"retrieval":13886.3,"generation":155868.2,"total":169761.8},"prompt_tokens":6853,"completion_tokens":134},{"question_id":"md2d-v2-va-020","answerable":true,"language_relation":"mixed_source_languages","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":0.3333333333,"context_recall":1.0,"faithfulness":1.0,"answer_relevancy":0.7160781989295542,"answer_accuracy":0.5,"latency_ms":{"retrieval":5540.3,"generation":148268.1,"total":153809.4},"prompt_tokens":8907,"completion_tokens":204},{"question_id":"md2d-v2-va-021","answerable":true,"language_relation":"aligned","refused":false,"refusal_reason":null,"citations":["VA Survivors Pension | Veterans Affairs#1_0::c0000","Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0001"],"citations_valid":true,"context_precision":0.0,"context_recall":0.5,"faithfulness":1.0,"answer_relevancy":0.0,"answer_accuracy":0.75,"latency_ms":{"retrieval":30952.5,"generation":109996.6,"total":140951.3},"prompt_tokens":8676,"completion_tokens":300},{"question_id":"md2d-v2-va-022","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006","VA claim exam (C&P exam) | Veterans Affairs#1_0::c0002","VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004","VA claim exam (C&P exam) | Veterans Affairs#1_0::c0000","Complete Federal Student Loan Counseling | Federal Student Aid#1_0::c0000","VA decision reviews and appeals | Veterans Affairs#1_0::c0000","Income-Driven Repayment Plans | Federal Student Aid#1_0::c0019","Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0002"],"citations_valid":false,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":2139.4,"generation":164042.7,"total":166186.2},"prompt_tokens":4795,"completion_tokens":830},{"question_id":"md2d-v2-va-023","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":[],"citations_valid":false,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":20044.0,"generation":134892.6,"total":154939.1},"prompt_tokens":6834,"completion_tokens":203},{"question_id":"md2d-v2-va-024","answerable":false,"language_relation":"unanswerable","refused":false,"refusal_reason":null,"citations":["Pay insurance lapse civil penalty#1_0::c0000"],"citations_valid":true,"context_precision":null,"context_recall":null,"faithfulness":null,"answer_relevancy":null,"answer_accuracy":null,"latency_ms":{"retrieval":2373.9,"generation":142869.7,"total":145244.5},"prompt_tokens":9371,"completion_tokens":96}];
+const LOG_SAMPLES = [{"request_id":"be18064b8b1f","query_redacted":"When do I schedule and take the road test\nUse the DMV Road test system to schedule confirm , cancel or reschedule a driving skills road test including CDL and motorcycle online or by phone .\nWhat do I need to take the  test?\nTo find test locations:  the ZIP Code for the test site - find test locations , directions and ZIP Codes\nAre there restrictions on where I can drive when I have a learner's permit?\nYes certainly. You may not drive with a learner permit on any street within a park in New York City or on any bridge or tunnel under the jurisdiction of the Tri-borough Bridge and Tunnel Authority.\nCan I ride with someone else if I'm driving a moped?\nNo unfortunately the only passenger who can ride with you on the moped is your supervising driver.\nWhat are the rules for driving with someone who is supervising me?\nYou may not drive unless accompanied by a supervising driver age 21 or older who has a valid license to operate the vehicle you are driving. So only a person with a motorcycle license may supervise a person learning to drive a motorcycle\nAnd if I'm learning to ride a motorcycle, what then?\nIn that case, your supervising driver must exercise general supervision of you while you operate the motorcycle and remain within one - quarter mile of you at all times.\nAnd can he ride with me?","retrieval_top1_score":0.7778,"refused":false,"refusal_reason":null,"answer_redacted":"Yes, according to the retrieved document, if you are learning to drive a motorcycle, your supervising driver must exercise general supervision of you while you operate the motorcycle and remain within one-quarter mile of you at all times. Your supervising driver cannot be a passenger on the motorcycle.","citations":["Learner permit restrictions#3_0::c0000"],"citations_valid":true,"latency_ms":{"retrieval":7458.6,"generation":103073.2,"total":110533.3},"token_usage":{"prompt_tokens":8621,"completion_tokens":107},"model":"mistral-16k"},{"request_id":"31be31eb2fe0","query_redacted":"未成年人18岁以下的情况下，限制是什么？\n你未满18岁？\n是\n非常重要的一点是你需要理解渐进式驾照GDL法律以及18岁以下驾驶员的限制。\n现在对于D或M类驾照。我如何将初级驾照升级为高级驾照？\n只需带上你的初级驾照和从教练那里收到的学生完成证书MV-285，前往任何DMV办公室。你必须归还证书和初级驾照才能获得高级驾照。\n好的，我还想了解下，从能够获得学习驾照到可以参加实际考试需要等待多久？\n你未满18岁？\n不是\n很遗憾，未找到相关的信息。\n如果我有摩托车学习驾照Class M、MJ或有限制的MJ？\n你的监督驾驶员必须：在你操作摩托车时进行一般监督，并保持在你四分之一英里以内。\n如果我操作轻便摩托车并且持有任何有效的学习驾照类别\n同样适用乘客规定\n我在拿到学习驾照后需要等待多久才能参加道路考试？","retrieval_top1_score":0.8373,"refused":false,"refusal_reason":null,"answer_redacted":"如果你未满18岁，你必须在获得学习驾照后的至少6个月后才能预约路考。","citations":[],"citations_valid":false,"latency_ms":{"retrieval":9790.3,"generation":101450.0,"total":111240.5},"token_usage":{"prompt_tokens":7929,"completion_tokens":83},"model":"mistral-16k"},{"request_id":"33f1be825e76","query_redacted":"Where do I go to get an ignition interlock device?\nIf your driving history includes alcohol - related violations  you may be required to install an ignition interlock device on any and all vehicles you own and/or operate .\nHow would i go about getting that?\nyou may be required to install an ignition interlock device on any and all vehicles you own and/or operate\nIf the order was issued on April 1, 1993, how much penalty do I have to pay?\nIn that case the civil penalty is $ 200.\nI see. And in which cases do I need to pay the penalty?\nIf you refused to take a chemical test for alcohol or drugs, if you operated or permitted the operation of a motor vehicle without automobile liability insurance or if you operated a motor vehicle involved in a traffic crash and the vehicle was not covered by automobile liability insurance and your driver license or driving privilege was revoked you need to pay the penalty.\nI have another penalty, issued on August 1, 1989. What penalty do I have to expect from that?\nIn that case the civil penalty is $ 250.\nFinally, what does a penalty issued on August 12, 1994 cost me?","retrieval_top1_score":0.6773,"refused":true,"refusal_reason":"llm_judged_insufficient_context","answer_redacted":"A penalty issued on August 12, 1994 cost you $75.00.","citations":[],"citations_valid":false,"latency_ms":{"retrieval":627.7,"generation":136266.7,"total":136899.7},"token_usage":{"prompt_tokens":10352,"completion_tokens":217},"model":"mistral-16k"}];
+const REWRITE_DATA = {"baseline":{"mrr_at_10":0.7041,"n_answerable_questions":85,"recall_at_5":0.8588,"multidoc_full_recall_at_5":0.8,"context_precision_at_5":0.2071,"recall_at_10":0.9647,"multidoc_full_recall_at_10":0.9412,"context_precision_at_10":0.1224},"rewritten":{"mrr_at_10":0.7581,"n_answerable_questions":85,"recall_at_5":0.9176,"multidoc_full_recall_at_5":0.8588,"context_precision_at_5":0.2212,"recall_at_10":0.9529,"multidoc_full_recall_at_10":0.9294,"context_precision_at_10":0.1224},"baseline_breakdown":{"with_history":{"mrr_at_10":0.6852,"n_answerable_questions":73,"recall_at_5":0.8356,"multidoc_full_recall_at_5":0.8356,"context_precision_at_5":0.1753,"recall_at_10":0.9589,"multidoc_full_recall_at_10":0.9589,"context_precision_at_10":0.1},"without_history":{"mrr_at_10":0.8194,"n_answerable_questions":12,"recall_at_5":1.0,"multidoc_full_recall_at_5":0.5833,"context_precision_at_5":0.4,"recall_at_10":1.0,"multidoc_full_recall_at_10":0.8333,"context_precision_at_10":0.2583},"n_with_history":73,"n_without_history":12},"rewritten_breakdown":{"with_history":{"mrr_at_10":0.748,"n_answerable_questions":73,"recall_at_5":0.9041,"multidoc_full_recall_at_5":0.9041,"context_precision_at_5":0.1918,"recall_at_10":0.9452,"multidoc_full_recall_at_10":0.9452,"context_precision_at_10":0.1},"without_history":{"mrr_at_10":0.8194,"n_answerable_questions":12,"recall_at_5":1.0,"multidoc_full_recall_at_5":0.5833,"context_precision_at_5":0.4,"recall_at_10":1.0,"multidoc_full_recall_at_10":0.8333,"context_precision_at_10":0.2583},"n_with_history":73,"n_without_history":12},"rewrite_wall_seconds":11.9,"rewrite_wall_seconds_per_query":0.14,"sample_rewrites":[{"question_id":"md2d-v2-dmv-001","original_question":"那是开始。我也可以在DMV办公室支付吗？","rewritten":"在纽约州，如果我想尽快完成在线支付（需要提供社会保障号码的最后四位、DMV ID或客户ID，并使用我持有的纽约州驾驶执照/学习许可/非驾驶者照片身份证件上的相应信息），我是否也可以去DMV办公室现场支付，还是只能在线支付？"},{"question_id":"md2d-v2-dmv-002","original_question":"关于 DMV services，我可以一次在网上支付多个民事罚款吗？","rewritten":"关于 DMV 服务：我能否在网上一次性支付多个民事罚款？"},{"question_id":"md2d-v2-dmv-003","original_question":"Finally, what does a penalty issued on August 12, 1994 cost me?","rewritten":"What civil penalty amount do I have to pay for a penalty that was issued on August 12, 1994?"},{"question_id":"md2d-v2-dmv-004","original_question":"okay, do you know any DMV office? And also what if the order was issued before the scheduled date?","rewritten":"Do you know which DMV office you can visit to resolve your definite driver license suspension, and what happens if the DMV suspension order was issued before the scheduled date?"},{"question_id":"md2d-v2-dmv-005","original_question":"如果我在1981年1月1日至1990年6月30日之间有发出订单？","rewritten":"如果我有在1981年1月1日至1990年6月30日之间发出的驾驶相关订单，我需要支付的驾驶民事罚款金额是多少？"}]};
+const items = DATA;
+// gpt-5.4-mini's 76 eligible answers (from the first run, still sitting in
+// data/logs/generation.jsonl), re-scored with this same RAGAS setup --
+// scores/openai_rescore.py; not re-embedded as a full DATA blob since no
+// per-item detail beyond the 5 metrics was needed for this comparison.
+const OPENAI_RESCORE = {"n": 76, "context_precision": 0.5705, "context_recall": 0.8904, "faithfulness": 0.9167, "faithfulness_n": 75, "answer_relevancy": 0.5992, "answer_accuracy": 0.3816};
+
+function fmtPct(v) { return v === null || v === undefined ? '—' : (v * 100).toFixed(1) + '%'; }
+const tooltip = document.getElementById('tooltip');
+function wireTooltip(container) {
+  container.querySelectorAll('.bar').forEach(b => {
+    b.addEventListener('mousemove', e => {
+      tooltip.style.opacity = 1;
+      tooltip.style.left = e.clientX + 'px';
+      tooltip.style.top = (e.clientY - 10) + 'px';
+      tooltip.innerHTML = b.dataset.tip;
+    });
+    b.addEventListener('mouseleave', () => { tooltip.style.opacity = 0; });
+  });
+}
+
+// ---------- scorecard ----------
+{
+  const scored = items.filter(it => it.faithfulness !== null && it.faithfulness !== undefined);
+  const meanOf = key => scored.reduce((s, it) => s + it[key], 0) / scored.length;
+  const totals = items.map(it => it.latency_ms.total).sort((a, b) => a - b);
+  const under10 = items.filter(it => it.latency_ms.total < 10000).length / items.length;
+  const nonRefused = items.filter(it => !it.refused);
+  const citationsValidRate = nonRefused.filter(it => it.citations_valid).length / nonRefused.length;
+
+  const rows = [
+    { label: 'Faithfulness', target: 0.85, value: meanOf('faithfulness'), note: 'RAGAS, avg over ' + scored.length + ' scored answers' },
+    { label: 'Accuracy', target: 0.80, value: meanOf('answer_accuracy'), note: 'RAGAS AnswerAccuracy -- see §04/§05' },
+    { label: 'Context Precision', target: 0.70, value: meanOf('context_precision'), note: 'rank-weighted (Average Precision) -- see §03' },
+    { label: 'Latency (90% < 10s)', target: 0.90, value: under10, note: `p90 = ${(totals[Math.floor(0.9*totals.length)]/1000).toFixed(1)}s -- accepted trade-off, see §02` },
+    { label: 'Context Recall', target: null, value: meanOf('context_recall'), note: 'RAGAS, no require.md bar -- reported' },
+    { label: 'Answer Relevancy', target: null, value: meanOf('answer_relevancy'), note: 'RAGAS, no require.md bar -- reported' },
+    { label: 'Citation validity', target: 1.0, value: citationsValidRate, note: 'no fabricated/mismatched chunk_id -- see §05' },
+  ];
+
+  const el = document.getElementById('scorecard');
+  el.innerHTML = rows.map(r => {
+    if (r.target === null) {
+      const pct = Math.min(100, r.value * 100);
+      return `<div class="score-row">
+        <div>
+          <div class="score-label">${r.label}</div>
+          <div class="score-target">no target</div>
+        </div>
+        <div class="score-bar-track">
+          <div class="score-bar-fill neutral" style="width:${pct}%"></div>
+        </div>
+        <div class="score-value">${fmtPct(r.value)}</div>
+        <div class="badge neutral">REPORTED</div>
+      </div>`;
+    }
+    const pass = r.value >= r.target;
+    const pct = Math.min(100, (r.value / Math.max(r.target, r.value, 0.01)) * 100);
+    const targetPct = (r.target / Math.max(r.target, r.value, 0.01)) * 100;
+    const cls = pass ? 'pass' : (r.value >= r.target * 0.6 ? 'warn' : 'critical');
+    return `<div class="score-row">
+      <div>
+        <div class="score-label">${r.label}</div>
+        <div class="score-target">target ${fmtPct(r.target)}</div>
+      </div>
+      <div class="score-bar-track">
+        <div class="score-bar-fill ${cls}" style="width:${pct}%"></div>
+        <div class="score-target-tick" style="left:${targetPct}%"></div>
+      </div>
+      <div class="score-value">${fmtPct(r.value)}</div>
+      <div class="badge ${cls}">${pass ? 'PASS' : 'MISS'}</div>
+    </div>`;
+  }).join('');
+}
+
+// ---------- same-judge comparison table ----------
+{
+  const scored = items.filter(it => it.faithfulness !== null && it.faithfulness !== undefined);
+  const meanOf = key => scored.reduce((s, it) => s + it[key], 0) / scored.length;
+  const local = {
+    context_precision: meanOf('context_precision'), context_recall: meanOf('context_recall'),
+    faithfulness: meanOf('faithfulness'), answer_relevancy: meanOf('answer_relevancy'), answer_accuracy: meanOf('answer_accuracy'),
+  };
+  const oa = OPENAI_RESCORE;
+  const rows = [
+    ['Context Precision', 'context_precision'],
+    ['Context Recall', 'context_recall'],
+    ['Faithfulness', 'faithfulness'],
+    ['Answer Relevancy', 'answer_relevancy'],
+    ['Answer Accuracy', 'answer_accuracy'],
+  ];
+  let body = '';
+  rows.forEach(([label, key]) => {
+    const g = oa[key], m = local[key];
+    const delta = g - m;
+    const color = Math.abs(delta) < 0.03 ? 'var(--text-muted)' : (delta > 0 ? 'var(--good)' : 'var(--critical)');
+    body += `<tr><td>${label}</td><td>${fmtPct(g)}</td><td>${fmtPct(m)}</td><td style="color:${color}">${delta >= 0 ? '+' : ''}${(delta*100).toFixed(1)}pt</td></tr>`;
+  });
+  document.getElementById('comparison-table').innerHTML = `
+    <thead><tr><th>RAGAS metric (same qwen2.5-16k judge)</th><th>gpt-5.4-mini (n=${oa.n})</th><th>mistral-16k (n=${scored.length})</th><th>Δ</th></tr></thead>
+    <tbody>${body}</tbody>`;
+}
+
+// ---------- latency chart (percentile bars, honest scale) ----------
+{
+  const totals = items.map(it => it.latency_ms.total).sort((a, b) => a - b);
+  const n = totals.length;
+  const pct = p => totals[Math.min(n - 1, Math.floor(p * n))] / 1000;
+  const points = [
+    { label: 'p50', value: pct(0.5) },
+    { label: 'p75', value: pct(0.75) },
+    { label: 'p90', value: pct(0.9) },
+    { label: 'p95', value: pct(0.95) },
+    { label: 'max', value: totals[n - 1] / 1000 },
+  ];
+  const W = 860, H = 220, padL = 46, padR = 12, padT = 14, padB = 34;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const yMax = Math.ceil((totals[n-1]/1000) / 25) * 25; // scales to the actual data, not the budget
+  const groupW = plotW / points.length;
+  const barW = groupW * 0.5;
+  const y = v => padT + plotH - (v / yMax) * plotH;
+
+  let gridLines = '', gridLabels = '';
+  const step = yMax / 5;
+  for (let v = 0; v <= yMax; v += step) {
+    const yy = y(v);
+    gridLines += `<line x1="${padL}" y1="${yy}" x2="${W - padR}" y2="${yy}" stroke="var(--grid-line)" stroke-width="1" />`;
+    gridLabels += `<text x="${padL - 8}" y="${yy + 3}" text-anchor="end" class="axis-label">${Math.round(v)}s</text>`;
+  }
+  gridLines += `<line x1="${padL}" y1="${y(10)}" x2="${W - padR}" y2="${y(10)}" stroke="var(--critical)" stroke-width="1.5" stroke-dasharray="4 3" />`;
+  gridLabels += `<text x="${W - padR}" y="${y(10) - 6}" text-anchor="end" class="axis-label" fill="var(--critical)">10s budget</text>`;
+
+  let bars = '', xLabels = '';
+  points.forEach((p, i) => {
+    const bx = padL + i * groupW + (groupW - barW) / 2;
+    const by = y(p.value);
+    bars += `<rect class="bar" x="${bx}" y="${by}" width="${barW}" height="${padT + plotH - by}" rx="3" ry="3" fill="var(--critical)"
+      data-tip="${p.label} → ${p.value.toFixed(1)}s (budget: 10s)" />`;
+    xLabels += `<text x="${padL + i * groupW + groupW / 2}" y="${H - 12}" text-anchor="middle" class="axis-label group-label">${p.label}</text>`;
+  });
+
+  document.getElementById('latency-chart').innerHTML = `
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="latency percentiles">
+      <style>
+        .axis-label { font-family: var(--font-mono); font-size: 10.5px; fill: var(--text-muted); }
+        .group-label { font-family: var(--font-display); font-size: 12px; font-weight: 600; fill: var(--text-secondary); }
+      </style>
+      ${gridLines}${bars}${gridLabels}${xLabels}
+    </svg>`;
+  wireTooltip(document.getElementById('latency-chart'));
+}
+
+// ---------- cost table ----------
+{
+  const genPromptTok = items.reduce((s, it) => s + it.prompt_tokens, 0);
+  const genCompletionTok = items.reduce((s, it) => s + it.completion_tokens, 0);
+  const n = items.length;
+  const avgP = genPromptTok / n, avgC = genCompletionTok / n;
+  const hypotheticalOpenAI = (avgP/1e6*0.75 + avgC/1e6*4.50) * 1000;
+  document.getElementById('cost-table').innerHTML = `
+    <thead><tr><th>Model</th><th>Role</th><th>Avg input tok</th><th>Avg output tok</th><th>$/1000 calls</th></tr></thead>
+    <tbody>
+      <tr><td>mistral-16k</td><td>generation (local)</td><td>${Math.round(avgP).toLocaleString()}</td><td>${Math.round(avgC).toLocaleString()}</td><td>$0.00</td></tr>
+      <tr><td>qwen2.5-16k</td><td>RAGAS judge (local, offline eval only)</td><td>—</td><td>—</td><td>$0.00</td></tr>
+      <tr><td>gpt-5.4-mini</td><td>hypothetical -- same tokens, OpenAI pricing</td><td>${Math.round(avgP).toLocaleString()}</td><td>${Math.round(avgC).toLocaleString()}</td><td>$${hypotheticalOpenAI.toFixed(2)}</td></tr>
+    </tbody>`;
+}
+
+// ---------- log samples ----------
+{
+  const el = document.getElementById('log-samples');
+  el.innerHTML = LOG_SAMPLES.map(entry => {
+    const json = JSON.stringify(entry, null, 2)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"([a-z_]+)":/g, '<span class="k">"$1"</span>:')
+      .replace(/: (true|false|null)/g, ': <span class="n">$1</span>')
+      .replace(/: (-?\d+\.?\d*)/g, ': <span class="n">$1</span>');
+    return `<div class="log-entry"><pre>${json}</pre></div>`;
+  }).join('');
+}
+
+// ---------- query rewrite comparison table ----------
+{
+  const rw = REWRITE_DATA;
+  const fmtPctLocal = v => v === null || v === undefined ? '—' : (v * 100).toFixed(1) + '%';
+  const rows = [
+    ['Recall@5', 'recall_at_5', fmtPctLocal],
+    ['Recall@10', 'recall_at_10', fmtPctLocal],
+    ['MRR@10', 'mrr_at_10', v => v.toFixed(3)],
+    ['Context Precision@5', 'context_precision_at_5', fmtPctLocal],
+    ['Multi-doc Recall@5', 'multidoc_full_recall_at_5', fmtPctLocal],
+  ];
+  let body = '';
+  rows.forEach(([label, key, fmt]) => {
+    const b = rw.baseline[key], r = rw.rewritten[key];
+    const better = r > b;
+    body += `<tr><td>${label}</td><td>${fmt(b)}</td><td>${fmt(r)}</td><td style="color:${better ? 'var(--good)' : 'var(--text-muted)'}">${better ? '+' : ''}${key === 'mrr_at_10' ? (r - b).toFixed(3) : ((r - b) * 100).toFixed(1) + 'pt'}</td></tr>`;
+  });
+  document.getElementById('rewrite-table').innerHTML = `
+    <thead><tr><th>Metric (85 answerable)</th><th>Baseline (concat)</th><th>Rewritten</th><th>Δ</th></tr></thead>
+    <tbody>${body}</tbody>`;
+}
+
+// ---------- temperature sensitivity table ----------
+{
+  const TEMP_DATA = [{"temperature":0.0,"context_precision":0.5442,"context_recall":0.8462,"faithfulness":0.7363,"answer_relevancy":0.4674,"answer_accuracy":0.2885,"citation_validity_rate":0.5385,"latency_p50_s":112.2,"n_refused":2},{"temperature":0.7,"context_precision":0.5442,"context_recall":0.8462,"faithfulness":0.809,"answer_relevancy":0.5486,"answer_accuracy":0.2115,"citation_validity_rate":0.5385,"latency_p50_s":109.9,"n_refused":2},{"temperature":1.3,"context_precision":0.5442,"context_recall":0.8462,"faithfulness":0.6955,"answer_relevancy":0.4012,"answer_accuracy":0.25,"citation_validity_rate":0.3077,"latency_p50_s":115.7,"n_refused":2}];
+  const metricRows = [
+    ['Faithfulness', 'faithfulness', fmtPct],
+    ['Answer Accuracy', 'answer_accuracy', fmtPct],
+    ['Context Precision', 'context_precision', fmtPct],
+    ['Context Recall', 'context_recall', fmtPct],
+    ['Answer Relevancy', 'answer_relevancy', fmtPct],
+    ['Citation Validity', 'citation_validity_rate', fmtPct],
+    ['Latency (p50)', 'latency_p50_s', v => v.toFixed(1) + 's'],
+  ];
+  document.getElementById('temperature-table').innerHTML = `
+    <thead><tr><th>Metric (n=15 subset, 13 RAGAS-scored)</th><th>temp=0.0</th><th>temp=0.7</th><th>temp=1.3</th></tr></thead>
+    <tbody>${metricRows.map(([label, key, fmt]) => `<tr><td>${label}</td>${TEMP_DATA.map(d => `<td>${fmt(d[key])}</td>`).join('')}</tr>`).join('')}</tbody>`;
+}
+</script>

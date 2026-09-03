@@ -1,0 +1,461 @@
+{
+  "total_boilerplate_dropped": 33,
+  "total_escapes_fixed": 300,
+  "documents": [
+    {
+      "file": "dmv_001.md",
+      "boilerplate_sections_dropped": 3,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_002.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_003.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_004.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_005.md",
+      "boilerplate_sections_dropped": 4,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_006.md",
+      "boilerplate_sections_dropped": 5,
+      "escape_sequences_fixed": 24
+    },
+    {
+      "file": "dmv_007.md",
+      "boilerplate_sections_dropped": 5,
+      "escape_sequences_fixed": 20
+    },
+    {
+      "file": "dmv_008.md",
+      "boilerplate_sections_dropped": 3,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_009.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 10
+    },
+    {
+      "file": "dmv_010.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_011.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 6
+    },
+    {
+      "file": "dmv_012.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 12
+    },
+    {
+      "file": "dmv_013.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 28
+    },
+    {
+      "file": "dmv_014.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 32
+    },
+    {
+      "file": "dmv_015.md",
+      "boilerplate_sections_dropped": 4,
+      "escape_sequences_fixed": 30
+    },
+    {
+      "file": "dmv_016.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_017.md",
+      "boilerplate_sections_dropped": 4,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "dmv_018.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 14
+    },
+    {
+      "file": "dmv_019.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 6
+    },
+    {
+      "file": "dmv_020.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 13
+    },
+    {
+      "file": "dmv_021.md",
+      "boilerplate_sections_dropped": 5,
+      "escape_sequences_fixed": 35
+    },
+    {
+      "file": "dmv_022.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 12
+    },
+    {
+      "file": "dmv_023.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 7
+    },
+    {
+      "file": "dmv_024.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 13
+    },
+    {
+      "file": "dmv_025.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 6
+    },
+    {
+      "file": "dmv_026.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 2
+    },
+    {
+      "file": "ssa_001.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_002.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_003.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_004.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_005.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_006.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_007.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_008.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 1
+    },
+    {
+      "file": "ssa_009.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_010.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 2
+    },
+    {
+      "file": "ssa_011.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_012.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_013.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_014.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_015.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_016.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_017.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_018.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_019.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_020.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_021.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_022.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "ssa_023.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_001.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_002.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_003.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 2
+    },
+    {
+      "file": "studentaid_004.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 1
+    },
+    {
+      "file": "studentaid_005.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_006.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_007.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_008.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_009.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 1
+    },
+    {
+      "file": "studentaid_010.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_011.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_012.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 3
+    },
+    {
+      "file": "studentaid_013.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_014.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_015.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_016.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_017.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 2
+    },
+    {
+      "file": "studentaid_018.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "studentaid_019.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_001.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_002.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_003.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_004.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_005.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 4
+    },
+    {
+      "file": "va_006.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_007.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 2
+    },
+    {
+      "file": "va_008.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_009.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_010.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_011.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_012.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_013.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_014.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_015.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 4
+    },
+    {
+      "file": "va_016.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 3
+    },
+    {
+      "file": "va_017.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_018.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_019.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_020.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 5
+    },
+    {
+      "file": "va_021.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_022.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    },
+    {
+      "file": "va_023.md",
+      "boilerplate_sections_dropped": 0,
+      "escape_sequences_fixed": 0
+    }
+  ]
+}
