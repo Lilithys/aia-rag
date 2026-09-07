@@ -1,0 +1,23 @@
+{
+  "correctness": {
+    "partial_bundle_only": true,
+    "currently_plannable_tasks": 39,
+    "questions_per_candidate": 100,
+    "input_limit_exceeding_calls": 0,
+    "runner": "score-correctness-1.3"
+  },
+  "faithfulness": {
+    "partial_bundle_only": true,
+    "currently_plannable_tasks": 39,
+    "questions_per_candidate": 100,
+    "input_limit_exceeding_calls": 0,
+    "runner": "score-v1.1-1"
+  },
+  "context_precision": {
+    "partial_bundle_only": true,
+    "currently_plannable_tasks": 30,
+    "questions_per_candidate": 100,
+    "input_limit_exceeding_calls": 0,
+    "runner": "score-v1.1-1"
+  }
+}

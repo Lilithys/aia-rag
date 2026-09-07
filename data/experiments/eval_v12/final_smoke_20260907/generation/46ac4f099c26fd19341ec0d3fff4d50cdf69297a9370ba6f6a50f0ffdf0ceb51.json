@@ -1,0 +1,253 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+    "item_sha256": "e6bdda2ebb5c5169e216e55ded09cd150a213a533407023f7daf65477a9f811f",
+    "result": {
+      "request_id": "d2b4717929a348fa9b0ab8bae64a3fd3",
+      "session_id": "1c07df6d56b7980cf041a8ff3dd1bde4",
+      "turn_id": 13,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "Based on the retrieved information, I cannot determine if you meet the requirements because your service history is not specified. However, here is the general eligibility criteria:\n\nTo qualify for VA health care, you generally must have served on active duty in the Army, Navy, or Air Force and received an other-than-dishonorable discharge. If you enlisted after September 7, 1980, or began active duty after October 16, 1981, you must have served 24 continuous months or the full period for which you were called to active duty, unless one of the following applies:\n- You were discharged for a disability caused or aggravated by active service.\n- You were discharged for hardship or early out.\n- You served before September 7, 1980.\n\nIf you are a current or former member of the Reserves or National Guard, you must have been called to active duty by a federal order and completed the full period for which you were called. Active duty for training purposes alone does not qualify.\n\nRegarding applying right away: If you are a recently discharged combat Veteran, you may be eligible for enhanced eligibility status, which places you in a higher priority group. For OEF/OIF/OND combat Veterans, you can receive free medical care for any condition related to your service in Iraq or Afghanistan for 5 years after discharge. The excerpt advises: 'If you are a combat Veteran, apply now to take advantage of 5 years of enhanced eligibility.'\n\nTo proceed, you would need to fill out VA Form 10-10EZ and provide documents like your tax return, Social Security numbers, and current health insurance information. You can apply online, by phone (877-222-8387), by mail, or in person.\n\nIf you can provide details about your service dates, discharge type, and any service-connected disabilities, I can give more specific guidance.",
+        "citations": [
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+          "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "clarify"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+          "text": "[VA医疗保健资格 > 我能获得VA医疗保健福利吗？]\n了解您作为退伍军人是否有资格获得VA医疗保健。\n\n如果您曾在现役陆军、海军或空军服役，且未受到不名誉退伍处分，您可能有资格获得VA医疗保健福利。\n\n- 如果您在1980年9月7日之后入伍，或在1981年10月16日之后开始现役，您必须已服役满24个月或完成被征召的全部现役期，除非以下任一情况适用于您。此最低服役要求可能不适用，如果以下任一情况属实。您：\n\n- 因现役服役导致或加重的残疾而退伍，或\n  - 因困难或提前退伍而退伍，或\n  - 在1980年9月7日之前服役\n\n- 如果您是预备役或国民警卫队的现任或前任成员，您必须根据联邦命令被征召现役，并完成被征召或命令的整个现役期。如果您仅因训练目的而具有现役身份，则不符合VA医疗保健资格。"
+        },
+        {
+          "chunk_id": "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000",
+          "text": "# How To Apply For VA Health Care | Veterans Affairs\n\nHow to apply for VA health care\n\nFind out how to apply for VA health care benefits as a Veteran or service member.\n\nHow do I prepare before starting my application?\n\n- Find out if you re eligible for VA health care benefits\n\n- Gather the documents listed below that you ll need to fill out an Application for Health Benefits (VA Form 10-10EZ)\n\nWhat documents and information do I need to apply?\n\n- Your most recent tax return\n\n- Social Security numbers for yourself and your qualified dependents\n\n- Account numbers for any current health insurance you already have (like Medicare, private insurance, or insurance from your employer)\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n- *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nObtenga instrucciones para esta solicitud en Espa ol.\n\nLlene la solicitud para Beneficions de Salud (Forma 10-10EZ).Obtenga la Forma VA 10-10EZ Usted o alguien con poder legal para representarlo tiene que firmar la forma, e incluir la fecha en que fu firmada.\n\n- Si esta usando un poder legal, tendra que incluir una copia de la forma con su solicitud. - Si firma con una X, 2 personas que usted conoce tienen que tambien firmar acertando que lo vieron firmar la forma.\n\nPuede mandar su solicitud por correo a esta direcci n:\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\nPara llenar su solicitude en persona, encuetre el Centro M dico de Veteranos mas cercano en esta liga:Encuentre el Centro o Cl nica de Veteranos mas cercano a usted O reciba ayuda por medio del Departmaneto de Veteranos de su estado.Encuentre el Departamento de Veteranos de su estado\n\nYou can also apply:\n\n### By phone\n\nCall our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET to get help with your application.\n\n### By mail\n\nFill out an Application for Health Benefits (VA Form 10-10EZ).Download VA Form 10-10EZ (PDF)\n\nYou or someone acting as your power of attorney must sign and date the form. And:\n\n- If you re using a power of attorney, you ll need to submit a copy of the Power of Attorney form along with your application.\n\n- If you sign with an X, 2 people you know must witness your signature. They ll also need to sign and print their names on the form.\n\nSend your completed application here:\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\n### In person\n\nFill out an Application for Health Benefits (VA Form 10-10EZ).Download VA Form 10-10EZ (PDF)\n\nYou or someone acting as your power of attorney must sign and date the form. And:\n\n- If you re using a power of attorney, you ll need to submit a copy of the Power of Attorney form along with your application.\n\n- If you sign with an X, 2 people you know must witness your signature. They ll also need to sign and print their names on the form.\n\nGo to your nearest VA medical center or clinic. Bring a signed Application for Health Benefits (VA Form 10-10EZ) with you.Find a VA medical center or clinic near you\n\nOr get help through your state s Department of Veterans Affairs.Find your state s Department of Veterans Affairs\n\n### With the help of a trained professional\n\nYou can work with a trained professional called an accredited representative to get help applying for health care benefits.Get help filing your claim\n\n## What happens after I apply?\n\nFind out what happens after you apply\n\nIf you ve also applied for a VA pension or disability benefits, you can check the status of those claims online.Check the status of your claim\n\nHow long does it take VA to make a decision?\n\nLess than 1 week\n\nIf more than a week has passed since you gave us your application and you haven t heard back, please don t apply again. Call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nMore information about applying\n\n- To update your personal, insurance, or financial information from an earlier application, fill out a Health Benefits Update Form (VA Form 10-10EZR).\n\nDownload VA Form 10-10EZR (PDF)\n\n- You may qualify for VA health care and other benefits. View the Application for the Program of Comprehensive Assistance for Family Caregivers (VA Form 10-10CG).\n\nDownload VA Form 10-10CG (PDF)\n\n- If you need community nursing home care, domiciliary care, adult day health care, geriatric evaluation, or respite care, you may need to fill out an Application for Extended Care Services (VA Form 10-10EC).\n\nDownload VA Form 10-10EC (PDF)\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+          "text": "[VA医疗保健资格 > 有什么因素会增加我获得这些福利的可能性吗？]\n是的。如果您满足以下至少一项要求，您可能有资格获得增强资格状态（意味着您将被置于更高的优先组，从而更有可能获得福利）。\n\n以下至少一项必须属实。您：\n\n- 因服役相关残疾从VA获得经济补偿（付款）\n- 因在服役期间发生的事件导致的残疾而退伍\n- 因在服役期间加重的残疾而退伍\n- 是最近退伍的战斗退伍军人\n- 获得VA养老金\n- 是前战俘（POW）\n- 获得过紫心勋章\n- 获得过荣誉勋章\n- 获得（或符合资格获得）Medicaid福利\n- 在1962年1月9日至1975年5月7日期间在越南服役\n- 在1990年8月2日至1998年11月11日期间在波斯湾战争期间在西南亚服役\n- 在1953年8月1日至1987年12月31日期间在勒琼营服役至少30天\n\n如果以上情况均不适用于您，您仍可能根据您的收入获得护理资格。了解更多关于您的家庭收入如何影响您是否符合VA福利资格的信息。了解更多关于收入限制的信息\n\n正在检查您的申请状态。抱歉，这比预期时间要长。\n\n* *抱歉。我们在尝试加载您保存的申请时出了点问题。**请几分钟后尝试刷新浏览器。\n\n获取此申请（西班牙语）的说明。\n\n填写健康福利申请表（10-10EZ 表格）。获取 VA 10-10EZ 表格。您或您的合法授权代表必须签署表格，并注明签署日期。\n\n- 如果您使用合法授权，则需随申请附上授权表格副本。\n- 如果您以 X 签名，则需要两位您认识的见证人签名确认他们看到您签署表格。\n\n您可以将申请邮寄至以下地址：\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\n如需亲自填写申请，请通过此链接查找最近的退伍军人医疗中心：查找离您最近的退伍军人中心或诊所。或通过您所在州的退伍军人事务部获得帮助。查找您所在州的退伍军人事务部。"
+        },
+        {
+          "chunk_id": "About VA Health Benefits | Veterans Affairs#1_0::c0005",
+          "text": "[关于 VA 健康福利 > 更多关于您的医疗福利套餐 > 如果您是符合资格的美国印第安人或阿拉斯加原住民退伍军人]\n- 您已注册VA健康护理\n  - 您有一位指定的VA初级保健提供者\n  - 您已向您的VA提供者提供了来自非VA提供者的医疗记录\n  - 您的VA提供者同意该处方\n\n了解更多关于社区提供者的处方信息\n\n- 这将取决于您的收入水平、残疾评级和军事服务历史等因素。大多数退伍军人在注册时需要完成财务评估。这有助于我们确定您是否有资格获得免费的VA健康护理。\n\n了解更多关于VA共付额 了解更多关于财务评估的信息\n\n- 在VA，我们采取团队合作的方式进行健康护理，以您为中心。研究表明，这种方法能带来更高质量的护理、更满意的患者和更少的住院次数。了解当您加入VA健康护理计划后，谁将为您提供护理。\n\n- 当您注册VA健康护理时，您将成为全国最大的综合医疗系统的一部分，该系统拥有超过1,200个护理地点，每年为近900万退伍军人提供服务。了解更多关于您将在哪里获得护理的信息\n\n- 如果您有其他形式的健康保险（如私人保险计划、Medicare、Medicaid或TRICARE），您可以将VA健康护理福利与这些计划一起使用。了解更多关于VA如何与其他健康保险合作的信息\n\n- 是的。\n\n当您通过与我们签订报销协议的Indian Health Service设施或Tribal Health设施接受护理时：\n\n- 您在接受治疗前无需我们批准（或“预先授权”）您的护理，并且\n  - 您无需支付VA共付额\n\n如果您居住在阿拉斯加\n\n即使您不是符合资格的美国印第安人或阿拉斯加原住民退伍军人，您也可能能够通过Indian Health Service设施或Tribal Health设施接受护理。\n\n但是，您需要在接受护理前获得预先授权，并且可能需要为您的护理支付共付额。\n\n要了解更多信息，请发送电子邮件至Indian Health Service和Tribal Health健康计划团队，或在线阅读更多关于Indian Health Service和Tribal Health计划的信息。\n\n- 请致电我们877-222-8387。我们周一至周五，东部时间上午8:00至下午8:00提供服务。或联系您所在州的退伍军人事务机构\n\n- 是的。如果您已注册VA健康护理计划，您可以在线管理您的VA健康和福利：\n\n续配处方 向您的健康护理团队发送安全消息\n\n您也可以在线查看伤残或养老金申请的状态。查看您的申请状态\n\n最后更新："
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+          "text": "[VA医疗保健资格 > 更多关于 VA 医疗保健资格的信息]\n- 当您申请 VA 医疗保健时，您将被分配到 8 个优先组之一。此系统有助于确保需要即时护理的退伍军人能够快速注册。\n\n您的优先组可能会影响我们为您注册医疗保健福利的速度，也可能影响您需要自付的护理费用（如果有的话）。\n\n了解更多关于优先组的信息\n\n- 不会。无论您是否有其他健康保险，都不会影响您能获得的 VA 医疗保健福利。了解更多关于 VA 与其他保险合作的信息\n\n- 如果您即将退休，您有资格享受 TRICARE。您也可能有资格获得某些 VA 医疗保健福利。\n\n如果您因服役相关的疾病或伤害而退役，您可能有资格获得VA医疗保健福利和某些TRICARE福利。\n\n如果您是刚从服役归来的OEF/OIF/OND战斗退伍军人，您可以在退役后5年内，就与您在伊拉克或阿富汗服役相关的任何病症，获得免费医疗护理。\n\n了解更多关于过渡期服役人员的医疗保健福利信息\n\n- 访问healthcare.gov，了解您是否符合健康保险资格。前往healthcare.gov\n\n- 是的。\n\n了解您可能仍然能够获得以下护理的方式：\n\n- 创伤后应激障碍（PTSD）\n  - 其他心理健康问题（如抑郁或物质滥用）\n  - 与军事性创伤（MST）相关的心理和身体健康问题\n\n或者，请拨打我们的VA综合热线800-827-1000，周一至周五，东部时间上午8:00至晚上9:00，以了解您可能有哪些护理选择。\n\n- 根据VA医疗保健福利，我们涵盖常规眼科检查和预防性测试。在某些情况下，您可能获得眼镜或盲人或低视力康复服务的保障。了解更多关于通过VA进行的视力护理信息\n\n- 在某些情况下，您可能会作为VA健康福利的一部分获得牙科护理。了解您是否可以通过VA获得牙科护理\n\n- 如果您的疾病或伤害是由现役服役引起或加重的，您或许可以获得残疾补偿。了解您是否符合残疾福利的资格\n\n### 您可能需要的更多资格信息\n\n-\n\n#### 优先群体\n\n了解什么是VA优先群体、它们如何运作以及它们可能如何影响您。\n\n-\n\n#### 现役服役人员与VA健康护理\n\n了解您退役或退休后的健康护理选项，以及在收到退役或退休命令时如何申请VA健康护理。如果您是战斗退伍军人，请立即申请，以利用5年增强资格的优势。\n\n最后更新："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+          "text": "[VA医疗保健资格 > 我能获得VA医疗保健福利吗？]\n了解您作为退伍军人是否有资格获得VA医疗保健。\n\n如果您曾在现役陆军、海军或空军服役，且未受到不名誉退伍处分，您可能有资格获得VA医疗保健福利。\n\n- 如果您在1980年9月7日之后入伍，或在1981年10月16日之后开始现役，您必须已服役满24个月或完成被征召的全部现役期，除非以下任一情况适用于您。此最低服役要求可能不适用，如果以下任一情况属实。您：\n\n- 因现役服役导致或加重的残疾而退伍，或\n  - 因困难或提前退伍而退伍，或\n  - 在1980年9月7日之前服役\n\n- 如果您是预备役或国民警卫队的现任或前任成员，您必须根据联邦命令被征召现役，并完成被征召或命令的整个现役期。如果您仅因训练目的而具有现役身份，则不符合VA医疗保健资格。"
+        },
+        {
+          "chunk_id": "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000",
+          "text": "# How To Apply For VA Health Care | Veterans Affairs\n\nHow to apply for VA health care\n\nFind out how to apply for VA health care benefits as a Veteran or service member.\n\nHow do I prepare before starting my application?\n\n- Find out if you re eligible for VA health care benefits\n\n- Gather the documents listed below that you ll need to fill out an Application for Health Benefits (VA Form 10-10EZ)\n\nWhat documents and information do I need to apply?\n\n- Your most recent tax return\n\n- Social Security numbers for yourself and your qualified dependents\n\n- Account numbers for any current health insurance you already have (like Medicare, private insurance, or insurance from your employer)\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n- *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nObtenga instrucciones para esta solicitud en Espa ol.\n\nLlene la solicitud para Beneficions de Salud (Forma 10-10EZ).Obtenga la Forma VA 10-10EZ Usted o alguien con poder legal para representarlo tiene que firmar la forma, e incluir la fecha en que fu firmada.\n\n- Si esta usando un poder legal, tendra que incluir una copia de la forma con su solicitud. - Si firma con una X, 2 personas que usted conoce tienen que tambien firmar acertando que lo vieron firmar la forma.\n\nPuede mandar su solicitud por correo a esta direcci n:\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\nPara llenar su solicitude en persona, encuetre el Centro M dico de Veteranos mas cercano en esta liga:Encuentre el Centro o Cl nica de Veteranos mas cercano a usted O reciba ayuda por medio del Departmaneto de Veteranos de su estado.Encuentre el Departamento de Veteranos de su estado\n\nYou can also apply:\n\n### By phone\n\nCall our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET to get help with your application.\n\n### By mail\n\nFill out an Application for Health Benefits (VA Form 10-10EZ).Download VA Form 10-10EZ (PDF)\n\nYou or someone acting as your power of attorney must sign and date the form. And:\n\n- If you re using a power of attorney, you ll need to submit a copy of the Power of Attorney form along with your application.\n\n- If you sign with an X, 2 people you know must witness your signature. They ll also need to sign and print their names on the form.\n\nSend your completed application here:\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\n### In person\n\nFill out an Application for Health Benefits (VA Form 10-10EZ).Download VA Form 10-10EZ (PDF)\n\nYou or someone acting as your power of attorney must sign and date the form. And:\n\n- If you re using a power of attorney, you ll need to submit a copy of the Power of Attorney form along with your application.\n\n- If you sign with an X, 2 people you know must witness your signature. They ll also need to sign and print their names on the form.\n\nGo to your nearest VA medical center or clinic. Bring a signed Application for Health Benefits (VA Form 10-10EZ) with you.Find a VA medical center or clinic near you\n\nOr get help through your state s Department of Veterans Affairs.Find your state s Department of Veterans Affairs\n\n### With the help of a trained professional\n\nYou can work with a trained professional called an accredited representative to get help applying for health care benefits.Get help filing your claim\n\n## What happens after I apply?\n\nFind out what happens after you apply\n\nIf you ve also applied for a VA pension or disability benefits, you can check the status of those claims online.Check the status of your claim\n\nHow long does it take VA to make a decision?\n\nLess than 1 week\n\nIf more than a week has passed since you gave us your application and you haven t heard back, please don t apply again. Call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nMore information about applying\n\n- To update your personal, insurance, or financial information from an earlier application, fill out a Health Benefits Update Form (VA Form 10-10EZR).\n\nDownload VA Form 10-10EZR (PDF)\n\n- You may qualify for VA health care and other benefits. View the Application for the Program of Comprehensive Assistance for Family Caregivers (VA Form 10-10CG).\n\nDownload VA Form 10-10CG (PDF)\n\n- If you need community nursing home care, domiciliary care, adult day health care, geriatric evaluation, or respite care, you may need to fill out an Application for Extended Care Services (VA Form 10-10EC).\n\nDownload VA Form 10-10EC (PDF)\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+          "text": "[VA医疗保健资格 > 有什么因素会增加我获得这些福利的可能性吗？]\n是的。如果您满足以下至少一项要求，您可能有资格获得增强资格状态（意味着您将被置于更高的优先组，从而更有可能获得福利）。\n\n以下至少一项必须属实。您：\n\n- 因服役相关残疾从VA获得经济补偿（付款）\n- 因在服役期间发生的事件导致的残疾而退伍\n- 因在服役期间加重的残疾而退伍\n- 是最近退伍的战斗退伍军人\n- 获得VA养老金\n- 是前战俘（POW）\n- 获得过紫心勋章\n- 获得过荣誉勋章\n- 获得（或符合资格获得）Medicaid福利\n- 在1962年1月9日至1975年5月7日期间在越南服役\n- 在1990年8月2日至1998年11月11日期间在波斯湾战争期间在西南亚服役\n- 在1953年8月1日至1987年12月31日期间在勒琼营服役至少30天\n\n如果以上情况均不适用于您，您仍可能根据您的收入获得护理资格。了解更多关于您的家庭收入如何影响您是否符合VA福利资格的信息。了解更多关于收入限制的信息\n\n正在检查您的申请状态。抱歉，这比预期时间要长。\n\n* *抱歉。我们在尝试加载您保存的申请时出了点问题。**请几分钟后尝试刷新浏览器。\n\n获取此申请（西班牙语）的说明。\n\n填写健康福利申请表（10-10EZ 表格）。获取 VA 10-10EZ 表格。您或您的合法授权代表必须签署表格，并注明签署日期。\n\n- 如果您使用合法授权，则需随申请附上授权表格副本。\n- 如果您以 X 签名，则需要两位您认识的见证人签名确认他们看到您签署表格。\n\n您可以将申请邮寄至以下地址：\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\n如需亲自填写申请，请通过此链接查找最近的退伍军人医疗中心：查找离您最近的退伍军人中心或诊所。或通过您所在州的退伍军人事务部获得帮助。查找您所在州的退伍军人事务部。"
+        },
+        {
+          "chunk_id": "About VA Health Benefits | Veterans Affairs#1_0::c0005",
+          "text": "[关于 VA 健康福利 > 更多关于您的医疗福利套餐 > 如果您是符合资格的美国印第安人或阿拉斯加原住民退伍军人]\n- 您已注册VA健康护理\n  - 您有一位指定的VA初级保健提供者\n  - 您已向您的VA提供者提供了来自非VA提供者的医疗记录\n  - 您的VA提供者同意该处方\n\n了解更多关于社区提供者的处方信息\n\n- 这将取决于您的收入水平、残疾评级和军事服务历史等因素。大多数退伍军人在注册时需要完成财务评估。这有助于我们确定您是否有资格获得免费的VA健康护理。\n\n了解更多关于VA共付额 了解更多关于财务评估的信息\n\n- 在VA，我们采取团队合作的方式进行健康护理，以您为中心。研究表明，这种方法能带来更高质量的护理、更满意的患者和更少的住院次数。了解当您加入VA健康护理计划后，谁将为您提供护理。\n\n- 当您注册VA健康护理时，您将成为全国最大的综合医疗系统的一部分，该系统拥有超过1,200个护理地点，每年为近900万退伍军人提供服务。了解更多关于您将在哪里获得护理的信息\n\n- 如果您有其他形式的健康保险（如私人保险计划、Medicare、Medicaid或TRICARE），您可以将VA健康护理福利与这些计划一起使用。了解更多关于VA如何与其他健康保险合作的信息\n\n- 是的。\n\n当您通过与我们签订报销协议的Indian Health Service设施或Tribal Health设施接受护理时：\n\n- 您在接受治疗前无需我们批准（或“预先授权”）您的护理，并且\n  - 您无需支付VA共付额\n\n如果您居住在阿拉斯加\n\n即使您不是符合资格的美国印第安人或阿拉斯加原住民退伍军人，您也可能能够通过Indian Health Service设施或Tribal Health设施接受护理。\n\n但是，您需要在接受护理前获得预先授权，并且可能需要为您的护理支付共付额。\n\n要了解更多信息，请发送电子邮件至Indian Health Service和Tribal Health健康计划团队，或在线阅读更多关于Indian Health Service和Tribal Health计划的信息。\n\n- 请致电我们877-222-8387。我们周一至周五，东部时间上午8:00至下午8:00提供服务。或联系您所在州的退伍军人事务机构\n\n- 是的。如果您已注册VA健康护理计划，您可以在线管理您的VA健康和福利：\n\n续配处方 向您的健康护理团队发送安全消息\n\n您也可以在线查看伤残或养老金申请的状态。查看您的申请状态\n\n最后更新："
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+          "text": "[VA医疗保健资格 > 更多关于 VA 医疗保健资格的信息]\n- 当您申请 VA 医疗保健时，您将被分配到 8 个优先组之一。此系统有助于确保需要即时护理的退伍军人能够快速注册。\n\n您的优先组可能会影响我们为您注册医疗保健福利的速度，也可能影响您需要自付的护理费用（如果有的话）。\n\n了解更多关于优先组的信息\n\n- 不会。无论您是否有其他健康保险，都不会影响您能获得的 VA 医疗保健福利。了解更多关于 VA 与其他保险合作的信息\n\n- 如果您即将退休，您有资格享受 TRICARE。您也可能有资格获得某些 VA 医疗保健福利。\n\n如果您因服役相关的疾病或伤害而退役，您可能有资格获得VA医疗保健福利和某些TRICARE福利。\n\n如果您是刚从服役归来的OEF/OIF/OND战斗退伍军人，您可以在退役后5年内，就与您在伊拉克或阿富汗服役相关的任何病症，获得免费医疗护理。\n\n了解更多关于过渡期服役人员的医疗保健福利信息\n\n- 访问healthcare.gov，了解您是否符合健康保险资格。前往healthcare.gov\n\n- 是的。\n\n了解您可能仍然能够获得以下护理的方式：\n\n- 创伤后应激障碍（PTSD）\n  - 其他心理健康问题（如抑郁或物质滥用）\n  - 与军事性创伤（MST）相关的心理和身体健康问题\n\n或者，请拨打我们的VA综合热线800-827-1000，周一至周五，东部时间上午8:00至晚上9:00，以了解您可能有哪些护理选择。\n\n- 根据VA医疗保健福利，我们涵盖常规眼科检查和预防性测试。在某些情况下，您可能获得眼镜或盲人或低视力康复服务的保障。了解更多关于通过VA进行的视力护理信息\n\n- 在某些情况下，您可能会作为VA健康福利的一部分获得牙科护理。了解您是否可以通过VA获得牙科护理\n\n- 如果您的疾病或伤害是由现役服役引起或加重的，您或许可以获得残疾补偿。了解您是否符合残疾福利的资格\n\n### 您可能需要的更多资格信息\n\n-\n\n#### 优先群体\n\n了解什么是VA优先群体、它们如何运作以及它们可能如何影响您。\n\n-\n\n#### 现役服役人员与VA健康护理\n\n了解您退役或退休后的健康护理选项，以及在收到退役或退休命令时如何申请VA健康护理。如果您是战斗退伍军人，请立即申请，以利用5年增强资格的优势。\n\n最后更新："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+          "document": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+          "heading": [
+            "VA医疗保健资格",
+            "我能获得VA医疗保健福利吗？"
+          ],
+          "source_file": "va_028.md",
+          "excerpt": "[VA医疗保健资格 > 我能获得VA医疗保健福利吗？]\n了解您作为退伍军人是否有资格获得VA医疗保健。\n\n如果您曾在现役陆军、海军或空军服役，且未受到不名誉退伍处分，您可能有资格获得VA医疗保健福利。\n\n- 如果您在1980年9月7日之后入伍，或在1981年10月16日之后开始现役，您必须已服役满24个月或完成被征召的全部现役期，除非以下任一情况适用于您。此最低服役要求可能不适用，如果以下任一情况属实。您：\n\n- 因现役服役导致或加重的残疾而退伍，或\n  - 因困难或提前退伍而退伍，或\n  - 在1980年9月7日之前服役\n\n- 如果您是预备役或国民警卫队的现任或前任成员，您必须根据联邦命令被征召现役，并完成被征召或命令的整个现役期。如果您仅因训练目的而具有现役身份，则不符合VA医疗保健资格。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+          "document": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+          "heading": [
+            "VA医疗保健资格",
+            "有什么因素会增加我获得这些福利的可能性吗？"
+          ],
+          "source_file": "va_028.md",
+          "excerpt": "[VA医疗保健资格 > 有什么因素会增加我获得这些福利的可能性吗？]\n是的。如果您满足以下至少一项要求，您可能有资格获得增强资格状态（意味着您将被置于更高的优先组，从而更有可能获得福利）。\n\n以下至少一项必须属实。您：\n\n- 因服役相关残疾从VA获得经济补偿（付款）\n- 因在服役期间发生的事件导致的残疾而退伍\n- 因在服役期间加重的残疾而退伍\n- 是最近退伍的战斗退伍军人\n- 获得VA养老金\n- 是前战俘（POW）\n- 获得过紫心勋章\n- 获得过荣誉勋章\n- 获得（或符合资格获得）Medicaid福利\n- 在1962年1月9日至1975年5月7日期间在越南服役\n- 在1990年8月2日至1998年11月11日期间在波斯湾战争期间在西南亚服役\n- 在1953年8月1日至1987年12月31日期间在勒琼营服役至少30天\n\n如果以上情况均不适用于您，您仍可能根据您的收入获得护理资格。了解更多关于您的家庭收入如何影响您是否符合VA福利资格的信息。了解更多关于收入限制的信息\n\n正在检查您的申请状态。抱歉，这比预期时间要长。\n\n* *抱歉。我们在尝试加载您保存的申请时出了点问题。**请几分钟后尝试刷新浏览器。\n\n获取此申请（西班牙语）的说明。\n\n填写健康福利申请表（10-10EZ 表格）。获取 VA 10-10EZ 表格。您或您的合法授权代表必须签署表格，并注明签署日期。\n\n- 如果您使用合法授权，则需随申请附上授权表格副本。\n- 如果您以 X 签名，则需要两位您认识的见证人签名确认他们看到您签署表格。\n\n您可以将申请邮寄至以下地址：\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\n如需亲自填写申请，请通过此链接查找最近的退伍军人医疗中心：查找离您最近的退伍军人中心或诊所。或通过您所在州的退伍军人事务部获得帮助。查找您所在州的退伍军人事务部。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+          "document": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+          "heading": [
+            "VA医疗保健资格",
+            "更多关于 VA 医疗保健资格的信息"
+          ],
+          "source_file": "va_028.md",
+          "excerpt": "[VA医疗保健资格 > 更多关于 VA 医疗保健资格的信息]\n- 当您申请 VA 医疗保健时，您将被分配到 8 个优先组之一。此系统有助于确保需要即时护理的退伍军人能够快速注册。\n\n您的优先组可能会影响我们为您注册医疗保健福利的速度，也可能影响您需要自付的护理费用（如果有的话）。\n\n了解更多关于优先组的信息\n\n- 不会。无论您是否有其他健康保险，都不会影响您能获得的 VA 医疗保健福利。了解更多关于 VA 与其他保险合作的信息\n\n- 如果您即将退休，您有资格享受 TRICARE。您也可能有资格获得某些 VA 医疗保健福利。\n\n如果您因服役相关的疾病或伤害而退役，您可能有资格获得VA医疗保健福利和某些TRICARE福利。\n\n如果您是刚从服役归来的OEF/OIF/OND战斗退伍军人，您可以在退役后5年内，就与您在伊拉克或阿富汗服役相关的任何病症，获得免费医疗护理。\n\n了解更多关于过渡期服役人员的医疗保健福利信息\n\n- 访问healthcare.gov，了解您是否符合健康保险资格。前往healthcare.gov\n\n- 是的。\n\n了解您可能仍然能够获得以下护理的方式：\n\n- 创伤后应激障碍（PTSD）\n  - 其他心理健康问题（如抑郁或物质滥用）\n  - 与军事性创伤（MST）相关的心理和身体健康问题\n\n或者，请拨打我们的VA综合热线800-827-1000，周一至周五，东部时间上午8:00至晚上9:00，以了解您可能有哪些护理选择。\n\n- 根据VA医疗保健福利，我们涵盖常规眼科检查和预防性测试。在某些情况下，您可能获得眼镜或盲人或低视力康复服务的保障。了解更多关于通过VA进行的视力护理信息\n\n- 在某些情况下，您可能会作为VA健康福利的一部分获得牙科护理。了解您是否可以通过VA获得牙科护理\n\n- 如果您的疾病或伤害是由现役服役引起或加重的，您或许可以获得残疾补偿。了解您是否符合残疾福利的资格\n\n### 您可能需要的更多资格信息\n\n-\n\n#### 优先群体\n\n了解什么是VA优先群体、它们如何运作以及它们可能如何影响您。\n\n-\n\n#### 现役服役人员与VA健康护理\n\n了解您退役或退休后的健康护理选项，以及在收到退役或退休命令时如何申请VA健康护理。如果您是战斗退伍军人，请立即申请，以利用5年增强资格的优势。\n\n最后更新："
+        },
+        {
+          "chunk_id": "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000",
+          "document": "How To Apply For VA Health Care | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_053.pdf",
+          "excerpt": "# How To Apply For VA Health Care | Veterans Affairs\n\nHow to apply for VA health care\n\nFind out how to apply for VA health care benefits as a Veteran or service member.\n\nHow do I prepare before starting my application?\n\n- Find out if you re eligible for VA health care benefits\n\n- Gather the documents listed below that you ll need to fill out an Application for Health Benefits (VA Form 10-10EZ)\n\nWhat documents and information do I need to apply?\n\n- Your most recent tax return\n\n- Social Security numbers for yourself and your qualified dependents\n\n- Account numbers for any current health insurance you already have (like Medicare, private insurance, or insurance from your employer)\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n- *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nObtenga instrucciones para esta solicitud en Espa ol.\n\nLlene la solicitud para Beneficions de Salud (Forma 10-10EZ).Obtenga la Forma VA 10-10EZ Usted o alguien con poder legal para representarlo tiene que firmar la forma, e incluir la fecha en que fu firmada.\n\n- Si esta usando un poder legal, tendra que incluir una copia de la forma con su solicitud. - Si firma con una X, 2 personas que usted conoce tienen que tambien firmar acertando que lo vieron firmar la forma.\n\nPuede mandar su solicitud por correo a esta direcci n:\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\nPara llenar su solicitude en persona, encuetre el Centro M dico de Veteranos mas cercano en esta liga:Encuentre el Centro o Cl nica de Veteranos mas cercano a usted O reciba ayuda por medio del Departmaneto de Veteranos de su estado.Encuentre el Departamento de Veteranos de su estado\n\nYou can also apply:\n\n### By phone\n\nCall our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET to get help with your application.\n\n### By mail\n\nFill out an Application for Health Benefits (VA Form 10-10EZ).Download VA Form 10-10EZ (PDF)\n\nYou or someone acting as your power of attorney must sign and date the form. And:\n\n- If you re using a power of attorney, you ll need to submit a copy of the Power of Attorney form along with your application.\n\n- If you sign with an X, 2 people you know must witness your signature. They ll also need to sign and print their names on the form.\n\nSend your completed application here:\n\nHealth Eligibility Center 2957 Clairmont Rd., Suite 200 Atlanta, GA 30329\n\n### In person\n\nFill out an Application for Health Benefits (VA Form 10-10EZ).Download VA Form 10-10EZ (PDF)\n\nYou or someone acting as your power of attorney must sign and date the form. And:\n\n- If you re using a power of attorney, you ll need to submit a copy of the Power of Attorney form along with your application.\n\n- If you sign with an X, 2 people you know must witness your signature. They ll also need to sign and print their names on the form.\n\nGo to your nearest VA medical center or clinic. Bring a signed Application for Health Benefits (VA Form 10-10EZ) with you.Find a VA medical center or clinic near you\n\nOr get help through your state s Department of Veterans Affairs.Find your state s Department of Veterans Affairs\n\n### With the help of a trained professional\n\nYou can work with a trained professional called an accredited representative to get help applying for health care benefits.Get help filing your claim\n\n## What happens after I apply?\n\nFind out what happens after you apply\n\nIf you ve also applied for a VA pension or disability benefits, you can check the status of those claims online.Check the status of your claim\n\nHow long does it take VA to make a decision?\n\nLess than 1 week\n\nIf more than a week has passed since you gave us your application and you haven t heard back, please don t apply again. Call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nMore information about applying\n\n- To update your personal, insurance, or financial information from an earlier application, fill out a Health Benefits Update Form (VA Form 10-10EZR).\n\nDownload VA Form 10-10EZR (PDF)\n\n- You may qualify for VA health care and other benefits. View the Application for the Program of Comprehensive Assistance for Family Caregivers (VA Form 10-10CG).\n\nDownload VA Form 10-10CG (PDF)\n\n- If you need community nursing home care, domiciliary care, adult day health care, geriatric evaluation, or respite care, you may need to fill out an Application for Extended Care Services (VA Form 10-10EC).\n\nDownload VA Form 10-10EC (PDF)\n\nLast updated:"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "Based on the retrieved information, I cannot determine if you meet the requirements because your service history is not specified. However, here is the general eligibility criteria:\n\nTo qualify for VA health care, you generally must have served on active duty in the Army, Navy, or Air Force and received an other-than-dishonorable discharge. If you enlisted after September 7, 1980, or began active duty after October 16, 1981, you must have served 24 continuous months or the full period for which you were called to active duty, unless one of the following applies:\n- You were discharged for a disability caused or aggravated by active service.\n- You were discharged for hardship or early out.\n- You served before September 7, 1980.\n\nIf you are a current or former member of the Reserves or National Guard, you must have been called to active duty by a federal order and completed the full period for which you were called. Active duty for training purposes alone does not qualify.\n\nRegarding applying right away: If you are a recently discharged combat Veteran, you may be eligible for enhanced eligibility status, which places you in a higher priority group. For OEF/OIF/OND combat Veterans, you can receive free medical care for any condition related to your service in Iraq or Afghanistan for 5 years after discharge. The excerpt advises: 'If you are a combat Veteran, apply now to take advantage of 5 years of enhanced eligibility.'\n\nTo proceed, you would need to fill out VA Form 10-10EZ and provide documents like your tax return, Social Security numbers, and current health insurance information. You can apply online, by phone (877-222-8387), by mail, or in person.\n\nIf you can provide details about your service dates, discharge type, and any service-connected disabilities, I can give more specific guidance.",
+          "citations": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+            "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "clarify"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "594faacf0bce4cd8b7a879a84a2deadd",
+            "outcome": "failed",
+            "usage": {
+              "prompt_tokens": 3464,
+              "completion_tokens": 1024,
+              "cached_tokens": 384,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 1024,
+                "prompt_tokens": 3464,
+                "total_tokens": 4488,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 384,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 384,
+                "prompt_cache_miss_tokens": 3080
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0092472,
+            "accounted_rmb": 0.0092472,
+            "usage_unknown": false,
+            "seconds": 6.725204944610596,
+            "error": {
+              "type": "ValueError",
+              "http_status": null
+            },
+            "response": {
+              "id": "103e6e2e-4291-46c6-a052-19d87d6b34fb",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "length"
+            }
+          },
+          {
+            "event": "settle",
+            "attempt_id": "b253a4cb8e634b13908b6c4963cd5eb0",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3464,
+              "completion_tokens": 863,
+              "cached_tokens": 3456,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 863,
+                "prompt_tokens": 3464,
+                "total_tokens": 4327,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 3456,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 3456,
+                "prompt_cache_miss_tokens": 8
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0040683,
+            "accounted_rmb": 0.0040683,
+            "usage_unknown": false,
+            "seconds": 6.112598180770874,
+            "error": null,
+            "response": {
+              "id": "ac57f84b-97db-405c-aff2-369c42b654ab",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "be45363077ad43665c93676d7fbe6ee76d3b110e921f5e24bdeb26e0a3006f55"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03091595135629177,
+        "retrieval": 1748.625750071369,
+        "generation": 13350.399666000158,
+        "total": 15101.527165970765
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.27336479094810784,
+        "rerank_seconds": 1.4752153750741854,
+        "top1_dense_score": 0.7778225541114807,
+        "candidate_ids": [
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0004",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0000",
+          "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+          "After You Apply For Health Care Benefits | Veterans Affairs#1_0::c0000",
+          "Health Needs And Conditions | Veterans Affairs#1_0::c0000",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+          "VA Health Care | Veterans Affairs#2_0::c0003",
+          "Women's Health Care Needs | Veterans Affairs#1_0::c0002",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0004",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "Women's Health Care Needs | Veterans Affairs#1_0::c0001",
+          "Schedule And View VA Appointments Online | Veterans Affairs#1_0::c0000",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0003",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0002",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+          "About VA Health Benefits | Veterans Affairs#1_0::c0005",
+          "VA Health Care | Veterans Affairs#1_0::c0005"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 42,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.7486064579570666
+      },
+      "raw_citations": [
+        "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+        "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+        "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005",
+        "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "797405c67e3b05eb8c587d60f909597aaeb997d6fc63897aba548dd1136d8f5a"
+}

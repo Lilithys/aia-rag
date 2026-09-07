@@ -23,12 +23,33 @@ def smart_join(pieces: list[str]) -> str:
 
 
 def _hard_token_split(text: str, max_tokens: int) -> list[str]:
+    if max_tokens <= 0:
+        raise ValueError("max_tokens must be positive")
     ids = encode(text)
     if not ids:
         return []
     out = []
-    for i in range(0, len(ids), max_tokens):
-        out.append(decode(ids[i : i + max_tokens]))
+    start = 0
+    while start < len(ids):
+        end = min(start + max_tokens, len(ids))
+        while end > start:
+            try:
+                piece = decode(ids[start:end], errors="strict")
+                break
+            except UnicodeDecodeError:
+                end -= 1
+        if end == start:
+            # A single Unicode character may require multiple BPE tokens.
+            # Preserve it even if an unrealistically tiny budget is exceeded.
+            end = start + 1
+            while True:
+                try:
+                    piece = decode(ids[start:end], errors="strict")
+                    break
+                except UnicodeDecodeError:
+                    end += 1
+        out.append(piece)
+        start = end
     return out
 
 
@@ -55,6 +76,8 @@ def split_to_size(text: str, max_tokens: int) -> list[str]:
     """Cuts text into pieces each within max_tokens, preferring the largest
     separator that actually reduces piece size, recursing into any piece
     still too big. Falls back to a hard token-boundary cut."""
+    if max_tokens <= 0:
+        raise ValueError("max_tokens must be positive")
     text = text.strip()
     if not text:
         return []
@@ -65,10 +88,14 @@ def split_to_size(text: str, max_tokens: int) -> list[str]:
         if sep == "":
             return _hard_token_split(text, max_tokens)
         if sep in text:
-            parts = [p for p in text.split(sep) if p.strip()]
+            raw_parts = text.split(sep)
+            # Keep the separator on the preceding piece: dropping it at a
+            # chunk boundary loses punctuation and can change interpretation.
+            parts = [p + (sep if i < len(raw_parts) - 1 else "") for i, p in enumerate(raw_parts)]
+            parts = [p for p in parts if p.strip()]
             if len(parts) <= 1:
                 continue
-            grouped = _merge_to_budget(parts, sep, max_tokens)
+            grouped = _merge_to_budget(parts, "", max_tokens)
             if len(grouped) <= 1:
                 continue  # this separator didn't actually split anything usefully
             out: list[str] = []

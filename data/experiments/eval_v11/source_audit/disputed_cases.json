@@ -1,0 +1,327 @@
+{
+  "scope": "Local original source excerpts; AI provenance review, not new human labels. DMV uses additional turns only to understand source dialogue, never as generator input.",
+  "cases": [
+    {
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "domain": "studentaid",
+      "original_turns": [
+        {
+          "da": "query_condition",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "1",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 1,
+          "utterance": "Can non-US citizens qualify to receive federal student aid?"
+        },
+        {
+          "da": "respond_solution",
+          "references": [
+            {
+              "label": "solution",
+              "id_sp": "2",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 2,
+          "utterance": "Yes, non-US citizens qualify for federal student aid."
+        },
+        {
+          "da": "query_solution",
+          "references": [
+            {
+              "label": "solution",
+              "id_sp": "47",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "48",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "49",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 3,
+          "utterance": "Would my parents citizenship affect my ability to get aid?"
+        },
+        {
+          "da": "respond_solution",
+          "references": [
+            {
+              "label": "solution",
+              "id_sp": "47",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "48",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "49",
+              "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 4,
+          "utterance": "Absolutely not, you can still apply for aid."
+        },
+        {
+          "da": "query_solution",
+          "references": [
+            {
+              "label": "solution",
+              "id_sp": "27",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "28",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 5,
+          "utterance": "How do I apply for federal student aid?  . hi  Most male students must be registered with Selective Service to receive federal student aid. You must register if you are a male and are not currently on active duty in the U.S. armed forces."
+        },
+        {
+          "da": "respond_solution",
+          "references": [
+            {
+              "label": "solution",
+              "id_sp": "27",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "28",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 6,
+          "utterance": "hi"
+        },
+        {
+          "da": "query_condition",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "19",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 7,
+          "utterance": "hi"
+        },
+        {
+          "da": "query_condition",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "20",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 8,
+          "utterance": "hi"
+        },
+        {
+          "da": "response_negative",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "20",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 9,
+          "utterance": "No, sorry, but I don'y have neither of those."
+        },
+        {
+          "da": "query_condition",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "21",
+              "doc_id": "Eligibility Requirements | Federal Student Aid#1_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 10,
+          "utterance": "Alright, then I must ask, Were you homeschooled?"
+        }
+      ],
+      "original_document_id": "Eligibility Requirements | Federal Student Aid#1_0",
+      "original_spans": [
+        {
+          "span_id": "19",
+          "start_sp": 1139,
+          "end_sp": 1211,
+          "text_sp": "show you re qualified to obtain a college or career school education by "
+        },
+        {
+          "span_id": "20",
+          "start_sp": 1211,
+          "end_sp": 1327,
+          "text_sp": "having a high school diploma or a recognized equivalent such as a General Educational Development GED certificate ; "
+        },
+        {
+          "span_id": "21",
+          "start_sp": 1327,
+          "end_sp": 1651,
+          "text_sp": "completing a high school education in a homeschool setting approved under state law or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law; or "
+        }
+      ],
+      "current_case_reference": "What are the two things you mean by 'neither of those'?",
+      "preserved_original_reference": "Alright, then I must ask, Were you homeschooled?",
+      "current_case_criteria": {
+        "required": [
+          "Ask the user to identify what 'neither of those' refers to before giving a personalized next step."
+        ],
+        "allowed": [
+          "Briefly explain that the preceding messages do not identify the two things."
+        ],
+        "reject": [
+          "Assume the user lacks a diploma/GED or needs the homeschooling route.",
+          "Give generic aid/application advice without resolving the referent."
+        ]
+      },
+      "reviewer_type": "ai_agent",
+      "independent_human_review": false
+    },
+    {
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "domain": "dmv",
+      "original_turns": [
+        {
+          "da": "query_condition",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "32",
+              "doc_id": "Suspensions and revocations#3_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 1,
+          "utterance": "can you give me details of Revoked driver license or driving privilege\n"
+        },
+        {
+          "da": "query_condition",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "33",
+              "doc_id": "Suspensions and revocations#3_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 2,
+          "utterance": "received an order from the DMV saying your driver's license or privilege was revoked?"
+        },
+        {
+          "da": "response_positive",
+          "references": [
+            {
+              "label": "precondition",
+              "id_sp": "33",
+              "doc_id": "Suspensions and revocations#3_0"
+            }
+          ],
+          "role": "user",
+          "turn_id": 3,
+          "utterance": "yes"
+        },
+        {
+          "da": "respond_solution",
+          "references": [
+            {
+              "label": "solution",
+              "id_sp": "34",
+              "doc_id": "Suspensions and revocations#3_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "35",
+              "doc_id": "Suspensions and revocations#3_0"
+            },
+            {
+              "label": "solution",
+              "id_sp": "36",
+              "doc_id": "Suspensions and revocations#3_0"
+            }
+          ],
+          "role": "agent",
+          "turn_id": 4,
+          "utterance": "his means your license has been cancelled and you must get a new one when the revocation period ends. In most cases"
+        }
+      ],
+      "original_document_id": "Suspensions and revocations#3_0",
+      "original_spans": [
+        {
+          "span_id": "32",
+          "start_sp": 1923,
+          "end_sp": 1970,
+          "text_sp": "\n\nRevoked driver license or driving privilege \n"
+        },
+        {
+          "span_id": "33",
+          "start_sp": 1970,
+          "end_sp": 2057,
+          "text_sp": "If you receive an order from DMV saying your license or driving privilege is revoked , "
+        },
+        {
+          "span_id": "34",
+          "start_sp": 2057,
+          "end_sp": 2160,
+          "text_sp": "this means your license has been cancelled and you must get a new one when the revocation period ends. "
+        },
+        {
+          "span_id": "35",
+          "start_sp": 2160,
+          "end_sp": 2176,
+          "text_sp": "In most cases , "
+        },
+        {
+          "span_id": "36",
+          "start_sp": 2176,
+          "end_sp": 2209,
+          "text_sp": "before you can get a new license "
+        }
+      ],
+      "current_case_reference": "Revocation means a driver license or driving privilege is canceled. The person must reapply after the revocation period ends; in most cases DMV approval is needed first. Tests and fees may also apply. This is a general explanation, not a determination of your personal status.",
+      "preserved_original_reference": "received an order from the DMV saying your driver's license or privilege was revoked?",
+      "current_case_criteria": {
+        "required": [
+          "Explain cancellation and reapplication after the revocation period in general or conditional terms."
+        ],
+        "allowed": [
+          "Mention further approval, tests or fees with the source's qualifications.",
+          "Offer a follow-up question after answering the general request."
+        ],
+        "reject": [
+          "Assert the user's license is revoked or determine personal eligibility.",
+          "Present branch-specific restoration requirements as universal.",
+          "Only ask whether the user received an order without explaining revocation."
+        ]
+      },
+      "reviewer_type": "ai_agent",
+      "independent_human_review": false
+    }
+  ]
+}

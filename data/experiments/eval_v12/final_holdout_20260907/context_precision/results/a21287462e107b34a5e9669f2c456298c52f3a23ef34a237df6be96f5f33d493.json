@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "a21287462e107b34a5e9669f2c456298c52f3a23ef34a237df6be96f5f33d493",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.36666666664833336,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about disability benefits, including when they start, how much you receive, and factors that may affect them, but it does not directly address the question about whether benefits can stop after a period of time. The answer is based on general knowledge about disability benefits, not specifically from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "519248ab590c4465945fac76a16d32d4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1760,
+                "completion_tokens": 76,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 76,
+                  "prompt_tokens": 1760,
+                  "total_tokens": 1836,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 992
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018684,
+              "accounted_rmb": 0.0018684,
+              "usage_unknown": false,
+              "seconds": 1.8089370727539062,
+              "error": null,
+              "response": {
+                "id": "0617293d-5e8c-4c50-977b-fb669968d9d4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "9ce5b13faf02d1fd50c028d690282309bcbe47621d9e4343939cb4dd51476555"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses eligibility criteria for disability benefits, stating that a condition must significantly limit basic work activities for at least 12 months. It does not address the continuation or cessation of benefits after initial approval, nor does it mention circumstances like health improvement or return to work that could affect eligibility. Therefore, the context is not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d1be2d441b8b496388860bc9e88ce07a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1070,
+                "completion_tokens": 86,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 86,
+                  "prompt_tokens": 1070,
+                  "total_tokens": 1156,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 302
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0008784,
+              "accounted_rmb": 0.0008784,
+              "usage_unknown": false,
+              "seconds": 1.5588829517364502,
+              "error": null,
+              "response": {
+                "id": "a30336f5-fbc9-45e9-8359-3c56e8011e61",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "29389359d4beac1367ed8ce0ff006a3432a2b582079bc14c513d5e1f1735abef"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses eligibility for benefits based on a parent's record and mentions that benefits can stop if health improves or if returning to work changes eligibility, which aligns with the answer's explanation of when benefits may cease.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "87114b0c50154054b5c6fa206130ea07",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1057,
+                "completion_tokens": 57,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 1057,
+                  "total_tokens": 1114,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 161
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005428,
+              "accounted_rmb": 0.0005428,
+              "usage_unknown": false,
+              "seconds": 1.7033050060272217,
+              "error": null,
+              "response": {
+                "id": "da6c168d-509b-469e-a8bf-f50ef446a664",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "31b9cb1d021709a1e8b93475d62d60271bfec4f6b7aa17bb08d8ea25da5f4388"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about eligibility for disability benefits but does not specifically address the question about whether benefits can stop after initially receiving them. The answer, however, correctly states that benefits can stop if health improves or if returning to work changes eligibility, which is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "036fbccffd9d4aac9ad1a9abd71d88b0",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1076,
+                "completion_tokens": 73,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 73,
+                  "prompt_tokens": 1076,
+                  "total_tokens": 1149,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 180
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006433,
+              "accounted_rmb": 0.0006433,
+              "usage_unknown": false,
+              "seconds": 1.295482873916626,
+              "error": null,
+              "response": {
+                "id": "26623de0-d258-430f-9621-ea32353b7ca9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "766400efcf00eb2c9b5d17bfbb8886f648ad557c6f822c5c437a534b219af700"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explains that disability benefits can stop if the individual can perform other work or if their health improves, which aligns with the answer's statement that benefits can stop if health improves or if returning to work changes eligibility. Thus, the context was useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "86737e2cfd124368aa9ebb10b78d5aab",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1088,
+                "completion_tokens": 65,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 1088,
+                  "total_tokens": 1153,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 192
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006253,
+              "accounted_rmb": 0.0006253,
+              "usage_unknown": false,
+              "seconds": 1.3720617294311523,
+              "error": null,
+              "response": {
+                "id": "d7b0fc4b-a9ac-42c1-a1eb-97b92556c997",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e1c01bd41f6849ad0159bcfad1d0a68e7b2c51f4e8eec1fcfad9539a356fb68c"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "308b44e10ade9bc7542f9bde1764aeab9092574857329b13dfa65fe544d71776"
+}

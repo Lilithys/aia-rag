@@ -1,0 +1,345 @@
+{
+  "study_binding_sha256": "4a6f9eda986b497cf363a419941094c48758658be3e00a0eadb1c336c9dd5ce7",
+  "arms": {
+    "baseline_dense_k10": {
+      "metrics": {
+        "correctness": {
+          "requested": true,
+          "correct": 66,
+          "unknown": 7,
+          "generation_failures": 1,
+          "bounds": [
+            0.66,
+            0.73
+          ]
+        },
+        "faithfulness": {
+          "requested": true,
+          "scored_claim_bearing_n": 94,
+          "known_no_fact_n": 3,
+          "unknown_eligibility_or_score_n": 2,
+          "mean_scored": 0.9205420466058765,
+          "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+            0.9013640873015873,
+            0.9221974206349207
+          ]
+        },
+        "context_precision": {
+          "requested": true,
+          "eligible_answer_n": 71,
+          "scored_n": 71,
+          "unknown_n": 0,
+          "bounds": [
+            0.5858616646682229,
+            0.5858616646682229
+          ]
+        }
+      },
+      "by_label": {
+        "answer": {
+          "correctness": {
+            "requested": true,
+            "correct": 51,
+            "unknown": 5,
+            "generation_failures": 1,
+            "bounds": [
+              0.7183098591549296,
+              0.7887323943661971
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 68,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 2,
+            "mean_scored": 0.9409313725490196,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.9140476190476191,
+              0.9426190476190476
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 71,
+            "scored_n": 71,
+            "unknown_n": 0,
+            "bounds": [
+              0.5858616646682229,
+              0.5858616646682229
+            ]
+          }
+        },
+        "clarify": {
+          "correctness": {
+            "requested": true,
+            "correct": 5,
+            "unknown": 2,
+            "generation_failures": 0,
+            "bounds": [
+              0.2631578947368421,
+              0.3684210526315789
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 18,
+            "known_no_fact_n": 1,
+            "unknown_eligibility_or_score_n": 0,
+            "mean_scored": 0.9146825396825398,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.9146825396825398,
+              0.9146825396825398
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        },
+        "refuse": {
+          "correctness": {
+            "requested": true,
+            "correct": 10,
+            "unknown": 0,
+            "generation_failures": 0,
+            "bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 8,
+            "known_no_fact_n": 2,
+            "unknown_eligibility_or_score_n": 0,
+            "mean_scored": 0.7604166666666666,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.7604166666666666,
+              0.7604166666666666
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        }
+      },
+      "fresh_operations_only": {
+        "planned_requests": 80,
+        "successful_requests": 79,
+        "status_counts": {
+          "ok": 79,
+          "failed": 1
+        },
+        "successful_timed_n": 79,
+        "successful_request_p50_seconds": 2.5036449999315664,
+        "successful_request_p90_seconds": 3.2461210667854177,
+        "successful_within_10s_count": 79,
+        "successful_within_10s_divided_by_all": 0.9875,
+        "api_attempts": 80,
+        "generation_cost_rmb": 0.5752895,
+        "observed_generation_cost_per_1000_planned_requests_rmb": 7.19111875,
+        "unknown_usage_attempts": 0,
+        "cached_response_replays": 0,
+        "context_token_observations_n": 0,
+        "mean_context_tokens": null
+      },
+      "reused_smoke_records": 20,
+      "unsubmitted": 0
+    },
+    "rerank_windowed_k5": {
+      "metrics": {
+        "correctness": {
+          "requested": true,
+          "correct": 65,
+          "unknown": 5,
+          "generation_failures": 1,
+          "bounds": [
+            0.65,
+            0.7
+          ]
+        },
+        "faithfulness": {
+          "requested": true,
+          "scored_claim_bearing_n": 94,
+          "known_no_fact_n": 3,
+          "unknown_eligibility_or_score_n": 2,
+          "mean_scored": 0.9396276595744681,
+          "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+            0.9200520833333333,
+            0.9408854166666667
+          ]
+        },
+        "context_precision": {
+          "requested": true,
+          "eligible_answer_n": 71,
+          "scored_n": 71,
+          "unknown_n": 0,
+          "bounds": [
+            0.7119718309421733,
+            0.7119718309421733
+          ]
+        }
+      },
+      "by_label": {
+        "answer": {
+          "correctness": {
+            "requested": true,
+            "correct": 50,
+            "unknown": 5,
+            "generation_failures": 0,
+            "bounds": [
+              0.704225352112676,
+              0.7746478873239436
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 69,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 2,
+            "mean_scored": 0.9328502415458936,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.9065727699530516,
+              0.9347417840375586
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 71,
+            "scored_n": 71,
+            "unknown_n": 0,
+            "bounds": [
+              0.7119718309421733,
+              0.7119718309421733
+            ]
+          }
+        },
+        "clarify": {
+          "correctness": {
+            "requested": true,
+            "correct": 5,
+            "unknown": 0,
+            "generation_failures": 1,
+            "bounds": [
+              0.2631578947368421,
+              0.2631578947368421
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 17,
+            "known_no_fact_n": 1,
+            "unknown_eligibility_or_score_n": 0,
+            "mean_scored": 0.9534313725490196,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.9534313725490196,
+              0.9534313725490196
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        },
+        "refuse": {
+          "correctness": {
+            "requested": true,
+            "correct": 10,
+            "unknown": 0,
+            "generation_failures": 0,
+            "bounds": [
+              1.0,
+              1.0
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 8,
+            "known_no_fact_n": 2,
+            "unknown_eligibility_or_score_n": 0,
+            "mean_scored": 0.96875,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.96875,
+              0.96875
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        }
+      },
+      "fresh_operations_only": {
+        "planned_requests": 80,
+        "successful_requests": 80,
+        "status_counts": {
+          "ok": 80
+        },
+        "successful_timed_n": 80,
+        "successful_request_p50_seconds": 3.3786325415130705,
+        "successful_request_p90_seconds": 4.401388266624418,
+        "successful_within_10s_count": 80,
+        "successful_within_10s_divided_by_all": 1.0,
+        "api_attempts": 80,
+        "generation_cost_rmb": 0.38369190000000003,
+        "observed_generation_cost_per_1000_planned_requests_rmb": 4.79614875,
+        "unknown_usage_attempts": 0,
+        "cached_response_replays": 0,
+        "context_token_observations_n": 0,
+        "mean_context_tokens": null
+      },
+      "reused_smoke_records": 20,
+      "unsubmitted": 0
+    }
+  },
+  "costs": {
+    "generation": {
+      "api_attempts": 160,
+      "accounted_rmb": 0.9589814,
+      "cap_rmb": 2.0,
+      "unknown_usage": 0
+    },
+    "correctness": {
+      "api_attempts": 209,
+      "accounted_rmb": 1.3706879,
+      "cap_rmb": 2.0,
+      "unknown_usage": 0
+    },
+    "faithfulness": {
+      "api_attempts": 164,
+      "accounted_rmb": 1.3130545,
+      "cap_rmb": 2.0,
+      "unknown_usage": 0
+    },
+    "context_precision": {
+      "api_attempts": 628,
+      "accounted_rmb": 0.7616995,
+      "cap_rmb": 1.5,
+      "unknown_usage": 0
+    }
+  },
+  "pending_metrics": {
+    "correctness": 0,
+    "faithfulness": 0,
+    "context_precision": 0
+  },
+  "new_dev_accounted_rmb_excluding_preflight_diagnostic": 4.4044233,
+  "independent_human_calibration_complete": false,
+  "holdout_generated_or_judged": false,
+  "latency_scope": "Newly submitted requests only; 20 reused smoke rows per arm excluded. Not external HTTP/load SLA.",
+  "diagnostic_accounted_rmb": 0.1850626,
+  "total_new_accounted_rmb_including_diagnostic": 4.589485900000001
+}

@@ -1,0 +1,1820 @@
+{
+  "binding": {
+    "purpose": "v1.4 clarification/condition consistency diagnostic; not a quality benchmark",
+    "budget_rmb": 0.5,
+    "shared_budget_ledger": "data/experiments/eval_v11/dev_condition_diagnostic_20260907/usage.jsonl",
+    "judge": {
+      "model": "deepseek-v4-flash",
+      "temperature": 0.0,
+      "max_tokens": 2048,
+      "timeout_seconds": 45,
+      "max_attempts": 2,
+      "input_token_upper_limit": 65536,
+      "thinking": "disabled"
+    },
+    "source_bundle_sha256": "fe806834a9349ce53cd58b0be9466c3043b339c366fe7fb430c2a3e526765755",
+    "cases": [
+      {
+        "case_id": "baseline_dense_k10:20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "kind": "clarification question without every reference subquestion",
+        "item": {
+          "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+          "domain": "dmv",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "20857beefef3264d6cc89b5b67fa1dea",
+            "question_turn_id": 1,
+            "answer_turn_id": 2,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "I need CDL help",
+          "source_question_en": "I need CDL help",
+          "conversation_history": [],
+          "gold_answer": "Do you already hold a New York Class A, B, or C commercial driver license or CDL permit, and what CDL task do you need help with?",
+          "source_gold_answer": "Do you have a commercial driver license , Class A , B or C or CDL permit issued by the NY State DMV?",
+          "source_gold_answer_en": "Do you have a commercial driver license , Class A , B or C or CDL permit issued by the NY State DMV?",
+          "question_language": "en",
+          "answer_language": "en",
+          "language_relation": "mixed_language",
+          "document_format": "docx",
+          "history_bucket": "none",
+          "answer_evidence_ids": [
+            "src_a1e8435b6030ed91::b0006"
+          ],
+          "answer_doc_ids": [
+            "Medical Certification Requirements#3_0"
+          ],
+          "required_doc_ids": [
+            "Medical Certification Requirements#3_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Medical Certification Requirements#3_0",
+              "file": "documents/docx/dmv_075.docx",
+              "format": "docx",
+              "language": "mixed"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Medical Certification Requirements#3_0",
+              "document_file": "documents/docx/dmv_075.docx",
+              "document_format": "docx",
+              "document_language": "mixed",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "11",
+                  "source_span_text_en": "Certification and driving types",
+                  "source_block_id": "src_a1e8435b6030ed91::b0005",
+                  "evidence_text": "认证与驾驶类型",
+                  "location": {
+                    "block_index": 5,
+                    "paragraph_start": 7,
+                    "paragraph_end": 7
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "precondition",
+                  "span_id": "12",
+                  "source_span_text_en": "If you have a commercial driver license, Class A, B or C or CDL permit issued by the NY State DMV",
+                  "source_block_id": "src_a1e8435b6030ed91::b0006",
+                  "evidence_text": "如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。",
+                  "location": {
+                    "block_index": 6,
+                    "paragraph_start": 8,
+                    "paragraph_end": 8
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The opening request gives no task or license status; the evidence applies specifically to existing New York commercial license or permit holders.",
+            "evidence_ids": [
+              "src_a1e8435b6030ed91::b0006"
+            ],
+            "reviewer_notes": "replacement_clarification_verified"
+          }
+        },
+        "response": {
+          "answer": "I can help with CDL questions based on the provided knowledge base. Please specify what you need help with, such as getting a CDL, renewing a CDL, medical certification, or something else.",
+          "citations": [],
+          "action": "clarify"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Get a CDL#1_0::c0001",
+            "text": "[Step 3: Prepare for your road test and practice with a supervising driver]\nThe supervising driver must have a driver license that is valid to drive the commercial motor vehicle that you use for practice.\n\nBased on feedback we have received from the motor carrier industry regarding the new federal CDL test model, we have learned that drivers are facing difficulties with certain sections of the test, often times resulting in failures. In an effort to address some of the common difficulties encountered during the skills test, we are providing some information that may be useful for drivers and instructors.\n\nSections 11-13 of the CDL Manual (PDF) [11]covers the skills test. Please pay special attention to the Air Brake Check information on page 11-4. We strongly recommend that drivers and instructors focus on the steps outlined for the air brake check, and follow the steps as written. More information is provided in the full Commercial Driver's Manual (CDL-10) [2].\n\nIn addition, please note that the federal regulations allow the pre-trip inspection section to be randomized each time a new test is initiated for an applicant. As a result, the pre-trip portion of the test could start at the front of the vehicle, in the middle, or if the test is for a Class A vehicle, with the trailer. On page 11-12 of the manual, you will find the CDL Vehicle Inspection Memory Aid, which drivers are permitted to bring to the test as long as there are no notes or marked items on the document. Motor Vehicle License Examiners will also have a copy to provide to the applicant at the test site, if necessary."
+          },
+          {
+            "chunk_id": "Get my own CDL driving record (abstract)#1_0::c0000",
+            "text": "# 获取我自己的 CDL 驾驶记录（摘要）\n\n## 获取我自己的 CDL 驾驶记录（摘要）[1]\n\n### 什么是 CDL 驾驶记录摘要？\n\n商业（CDL）摘要显示扩展的驾驶员历史信息，这些信息在标准驾驶记录（Standard Driving Record）上不可用。这包括在任何州驾驶任何类型车辆时的定罪、吊销、撤销和其他许可行动。还提供医疗认证状态（Medical Certification Status）信息和自我认证（Self-Certification）信息。雇主或组织可以通过纽约 DMV 许可证事件通知服务（LENS）为注册驾驶员获取 CDL 摘要。查看更多关于 CDL 摘要的信息 [2]。\n\n驾驶记录摘要是一份经过认证的 DMV 记录。它们都包含认证声明和机动车管理局局长的签名，以及安全水印。\n\n### 通过 MyDMV 在线获取\n\n您可以保存并打印您的记录的 PDF 版本。您有 5 天时间在订单后下载它。费用为 $7。\n\n要创建 MyDMV 账户，您需要\n\n- 纽约州驾照、许可证或非驾驶员 ID，或\n\n- 您的纽约州驾照、许可证或非驾驶员 ID 1\n\n确保您的计算机和网络浏览器具有所有最新更新，以避免下载记录时出现问题 [3]。\n\n[4]\n\n如果您无法访问 MyDMV，您可以将认证 CDL 摘要请求（PDF）[5]（MV-CDL）表格连同 $10 费用邮寄到 DMV，邮寄至表格上提供的地址，或者让您的雇主通过 LENS [6] 订购您的 CDL 驾驶记录摘要。\n\n- 1. 您需要最近签发的文件上的文件编号（参见示例文件 [7]）。如果您最近续期或订购了文件，但尚未收到邮件，您需要等待它到达后才能创建 MyDMV 账户。\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- DMV 记录 [8]\n\n## 相关 PDF：\n\nmvcdl.pdf\n\n## 禁用此交易？："
+          },
+          {
+            "chunk_id": "Get a CDL#1_0::c0000",
+            "text": "[Get a CDL [1]]\nFollow these steps to get your first time New York State commercial driver license (CDL).\n\n## Step 1: Have a New York State driver license (Class D, Class E, or Non-CDL C) or a valid CDL from another state\n\nGet the New York State Commercial Driver's Manual [2] (CDL-10) online or from a DMV office [3] or call center. [4] Study the sections of the manual that apply to the type of CDL you need. The sections of the manual that you need to study are explained in the manual. The manual describes the classes, the restrictions, and the endorsements of CDLs. This information is also included on the Driver License Class Descriptions (PDF) [5] (MV-500C).\n\n## Step 2: Apply for a commercial learner permit at a DMV office\n\nYou must pass the written test for the CDL that you need. There is an application fee of $10.00. This fee allows you to take all written tests (knowledge and endorsement) required for permit and license issuance applied for which are taken at the same time. There will be an additional $5 fee for any other required tests not taken and passed at the time of initial application. There is a fee of $40.00 to take the CDL road test (skills test). You can pay the road test fee when the DMV office issues your commercial learner permit, or you can pay the fee online [6]. You must pay the fee before you can schedule your road test.\n\nWhen you apply for an New York State CDL (Class A, B, or C), you must certify that\n\n- You did not hold a driver license in any state or in the District of Columbia except New York in the last 10 years or you must report every US state (or the District of Columbia) where you held a driver license in the last 10 years.\n\n- You meet the Federal medical examination requirements (see Medical Certification Requirements [7] for more information). 1 You must also prove your legal presence in the United States.\n\nIMPORTANT: DMV now offers three types of license/permit documents. Learn more about Enhanced, REAL ID and Standard documents [8].\n\n## Know what to bring to the DMV office\n\nIf you have a Standard and want to change to a REAL ID or Enhanced, you must come into a DMV office. Complete this guide to make sure you have the proofs of identification you need before\n\ncoming.\n\nFind your proofs [9]\n\n- The DMV Document Guide [10] lists all acceptable legal presence and New York State residence proof documents. Please note: You must provide us the original documents (not photocopies), and documents submitted as proof of residence must have your current residence address on it (no P.O. Box permitted).\n\n- If you are U.S. citizen or lawful permanent resident (i.e., temporary visitors) your Commercial Learner Permit (CLP) or CDL document will have the legend NON-DOMICILED printed on documents issued on it. The TEMPORARY VISITOR and the expiration date of your legal status documentation will continue to be displayed on the CLP and/or CDL document. Per new federal regulations, the DMV will check for any open suspensions or revocations you may have in any state. If you have an open suspension or revocation, we will reject your application.\n\nYou must apply for a CDL at a DMV Office [3]."
+          },
+          {
+            "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0007",
+            "text": "[新的CDL考试和商业学习者许可证（CLP）标准 > 申请要求变更]\n1\\) 所有CLP和CDL交易，除补发（副本）外，均需提供在美国合法存在的证明。\n\n能够证明美国公民身份或合法永久居留身份的驾驶员，只需在2015年6月18日或之后提供此证明。该验证记录将保存在驾驶员的档案中。 具有临时访客身份的驾驶员需提供在美国合法存在的证明。\n\n重要提示：由于联邦法规要求当面提交额外证明，驾驶员不能通过邮寄方式续办CLP和/或CDL。\n\n对于美国公民或合法永久居民（即临时访客）的驾驶员，其CLP和CDL文件将在2015年6月18日或之后签发的文件上印有“非定居”字样。临时访客及其合法身份文件的到期日期将继续显示在CLP和/或CDL文件上。\n\n2\\) 对于所有CLP和CDL交易，除补发外，我们将要求提供纽约州居住证明。所有驾驶员每次均需提供居住证明。DMV文件指南[3]列出了所有可接受的合法存在和纽约州居住证明文件。\n\n请注意：对于上述两项要求，您必须向我们提供原始文件（而非复印件）。"
+          },
+          {
+            "chunk_id": "Medical Certification Requirements#3_0::c0000",
+            "text": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+          },
+          {
+            "chunk_id": "Medical Certification Requirements#3_0::c0003",
+            "text": "[医疗认证要求 > 如何确认医疗证明已记录在我的驾驶记录中]\nDMV将向注册19-A系统的客运承运人发送有关CDL/CLP降级/取消事件的通知。驾驶员也可以通过MyDMV[8]监控自己的CLP/CDL医疗认证状态，并订阅短信和/或电子邮件通知[9]。"
+          },
+          {
+            "chunk_id": "Vision requirements & restrictions#3_0::c0005",
+            "text": "[视力要求与限制 > 通过邮寄移除限制]\n如果你想在更新驾照之前移除CORRECTIVE LENS限制，你必须获得不需要矫正镜片的证明，并订购一份替换文件。证明可以提交给DMV\n\n由已注册DMV Online Vision Registry [1] 的视力护理提供者以电子方式提交，或 由视力测试报告（PDF）[3]（MV-619）3完成，由以下人员填写 - 内科医生 - 医生助理 - 眼科医生 - 验光师 - 配镜师 - 注册护士 - 执业护士"
+          },
+          {
+            "chunk_id": "Renew a CDL#1_0::c0000",
+            "text": "# Renew a CDL\n\n# Renew a CDL [1]\n\nWARNING: Your Standard CDL will not be accepted as proof of identification to board a domestic flight after October 1, 2020. If you plan to travel (and don't have a Passport), we recommend you upgrade to an Enhanced or REAL ID when you renew. Learn more about Enhanced, REAL ID and Standard documents [2].\n\nDon't delay! Get your Enhanced or REAL ID today.\n\n### You must renew at a DMV office\n\nYou must come to a DMV office [3] to renew a commercial driver license (CDL) or commercial license permit (CLP). Complete this guide to make sure you have the proofs of identification you need before coming.\n\nFind your proofs [4]\n\nYou will receive a temporary license to use until your new license arrives by mail within 10 business days.\n\n### What you need to renew a CDL\n\nIn addition meeting the requirements to renew any type of driver license [5], to renew your CDL, you will need to\n\n- Meet the federal medical certification requirements [6]. You will need to indicate compliance when you answer the required questions on the MV-2CDL which is included with your renewal notice.\n- Have proof of your legal presence in the United States on DMV records.The DMV Document Guide [4] lists all acceptable legal presence and New York State residence proof documents. Please note: You must provide us the original documents (not photocopies), and documents submitted as proof of residence must have your current residence address on it (no P.O. Box permitted).\n  - If you are a U.S. citizen or lawful permanent resident, you will only need to provide this proof on the first (original, amendment, reciprocity or renewal) application on or after June 18, 2015. We will retain the proof on your driving record.\n  - If you are temporary visitor, you will need to provide proof of legal presence in the U.S. with every application. Your new document will have the legend NON-DOMICILED and also TEMPORARY VISITOR and the expiration date of your legal status in the United States printed on it.\n\nIf you indicate the driving types NI (Non-excepted Interstate) or NA (Non-excepted Intrastate) on your renewal, you must provide a legible copy of your current USDOT Medical Examiner s Certificate to DMV if it is not already on file. Please see Federal Requirements for Commercial Driver License (CDL) Applicants (pdf) [7] (MV-44.5) to help you determine your driving type.\n\nPer new federal regulations, the DMV will check for any open suspensions or revocations you may have in any state. If you have an open suspension or revocation, we will reject your application.\n\n### Renewal Fees\n\nThe fees listed include the photo document fee and the supplemental Metropolitan Commuter Transportation District (MCTD) fee, if required. 1\n\nIf you have any other class combined with a motorcycle Class M or MJ (example: AM), add an additional $8.00 to the fee above.\n\nIf you have an endorsement of H or X, you must pass the hazardous materials knowledge test at a DMV office within 2 years before your renewal and pay an additional fee of $5 for the test.\n\n- 1. Residents of the following counties must pay a supplemental Metropolitan Commuter Transportation District (MCTD) fee: Bronx, Kings (Brooklyn), New York (Manhattan), Queens, Richmond (Staten Island); Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk and Westchester.\n\nThe MCTD fee is $1.00 for every 6 months the permit or driver license will be in effect. For an 8-year driver license, the MCTD fee is $16.\n\n## Topic:\n\n- Commercial Drivers [8]"
+          },
+          {
+            "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0002",
+            "text": "[新的CDL考试和商业学习者许可证（CLP）标准 > 全国性暂停和吊销筛查]\nCDL许可证规则扩大了在CLP和CDL许可证申请期间用于检查其他州未决暂停和吊销的标准。如果驾驶员在任何州有任何未决的暂停或吊销，纽约州将拒绝任何申请。"
+          },
+          {
+            "chunk_id": "Conditional and restricted use licenses#3_0::c0000",
+            "text": "# Conditional 和 Restricted Use 许可证\n\n你必须亲自到 DMV 办公室申请 conditional 或 restricted use 许可证。你可以在大多数（但不是所有）Motor Vehicles 办公室办理。请联系离你最近的办公室 [1] 以了解在哪里申请。\n\n### Conditional\n\nDMV 可以向符合条件的驾驶员签发 conditional license，前提是该驾驶员的 NY State 驾照因酒精或毒品相关的违规行为而被吊销或撤销。该驾驶员必须参加由 DMV 批准的 Impaired Driver Program (IDP) [2]（以前称为 Drinking Driving Program (DDP)）。\n\n### Restricted use\n\nDMV 可以向符合条件且其驾照因非酒精或毒品相关的违规或事故，或因某些毒品相关违规而被吊销或撤销的驾驶员签发 restricted use license。\n\n### 来自其他州的驾驶员\n\n如果你持有其他州签发的驾驶执照，并且满足其他要求，你可以获得在 NY State 驾驶的 conditional driving privilege 或 restricted driving privilege。其条件或限制与持有 NY State 驾驶执照的驾驶员相同。"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "rerank_windowed_k5:20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "kind": "supported overview followed by material clarification",
+        "item": {
+          "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+          "domain": "dmv",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "20857beefef3264d6cc89b5b67fa1dea",
+            "question_turn_id": 1,
+            "answer_turn_id": 2,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "I need CDL help",
+          "source_question_en": "I need CDL help",
+          "conversation_history": [],
+          "gold_answer": "Do you already hold a New York Class A, B, or C commercial driver license or CDL permit, and what CDL task do you need help with?",
+          "source_gold_answer": "Do you have a commercial driver license , Class A , B or C or CDL permit issued by the NY State DMV?",
+          "source_gold_answer_en": "Do you have a commercial driver license , Class A , B or C or CDL permit issued by the NY State DMV?",
+          "question_language": "en",
+          "answer_language": "en",
+          "language_relation": "mixed_language",
+          "document_format": "docx",
+          "history_bucket": "none",
+          "answer_evidence_ids": [
+            "src_a1e8435b6030ed91::b0006"
+          ],
+          "answer_doc_ids": [
+            "Medical Certification Requirements#3_0"
+          ],
+          "required_doc_ids": [
+            "Medical Certification Requirements#3_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Medical Certification Requirements#3_0",
+              "file": "documents/docx/dmv_075.docx",
+              "format": "docx",
+              "language": "mixed"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Medical Certification Requirements#3_0",
+              "document_file": "documents/docx/dmv_075.docx",
+              "document_format": "docx",
+              "document_language": "mixed",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "11",
+                  "source_span_text_en": "Certification and driving types",
+                  "source_block_id": "src_a1e8435b6030ed91::b0005",
+                  "evidence_text": "认证与驾驶类型",
+                  "location": {
+                    "block_index": 5,
+                    "paragraph_start": 7,
+                    "paragraph_end": 7
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "precondition",
+                  "span_id": "12",
+                  "source_span_text_en": "If you have a commercial driver license, Class A, B or C or CDL permit issued by the NY State DMV",
+                  "source_block_id": "src_a1e8435b6030ed91::b0006",
+                  "evidence_text": "如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。",
+                  "location": {
+                    "block_index": 6,
+                    "paragraph_start": 8,
+                    "paragraph_end": 8
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The opening request gives no task or license status; the evidence applies specifically to existing New York commercial license or permit holders.",
+            "evidence_ids": [
+              "src_a1e8435b6030ed91::b0006"
+            ],
+            "reviewer_notes": "replacement_clarification_verified"
+          }
+        },
+        "response": {
+          "answer": "I can provide general information about getting, renewing, or checking your CDL record in New York. For first-time CDL, you must have a NYS driver license (Class D, E, or Non-CDL C) or a valid out-of-state CDL, then apply for a commercial learner permit at a DMV office, pass written tests, and pay fees. For renewals, you must renew in person at a DMV office and meet federal medical certification requirements. To check your CDL driving record, you can order a certified CDL abstract online via MyDMV for $7 or by mail for $10. If you need specific details about your situation, please clarify what you need help with.",
+          "citations": [
+            "Get a CDL#1_0::c0000",
+            "Renew a CDL#1_0::c0000",
+            "Get my own CDL driving record (abstract)#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Get a CDL#1_0::c0000",
+            "text": "[Get a CDL [1]]\nFollow these steps to get your first time New York State commercial driver license (CDL).\n\n## Step 1: Have a New York State driver license (Class D, Class E, or Non-CDL C) or a valid CDL from another state\n\nGet the New York State Commercial Driver's Manual [2] (CDL-10) online or from a DMV office [3] or call center. [4] Study the sections of the manual that apply to the type of CDL you need. The sections of the manual that you need to study are explained in the manual. The manual describes the classes, the restrictions, and the endorsements of CDLs. This information is also included on the Driver License Class Descriptions (PDF) [5] (MV-500C).\n\n## Step 2: Apply for a commercial learner permit at a DMV office\n\nYou must pass the written test for the CDL that you need. There is an application fee of $10.00. This fee allows you to take all written tests (knowledge and endorsement) required for permit and license issuance applied for which are taken at the same time. There will be an additional $5 fee for any other required tests not taken and passed at the time of initial application. There is a fee of $40.00 to take the CDL road test (skills test). You can pay the road test fee when the DMV office issues your commercial learner permit, or you can pay the fee online [6]. You must pay the fee before you can schedule your road test.\n\nWhen you apply for an New York State CDL (Class A, B, or C), you must certify that\n\n- You did not hold a driver license in any state or in the District of Columbia except New York in the last 10 years or you must report every US state (or the District of Columbia) where you held a driver license in the last 10 years.\n\n- You meet the Federal medical examination requirements (see Medical Certification Requirements [7] for more information). 1 You must also prove your legal presence in the United States.\n\nIMPORTANT: DMV now offers three types of license/permit documents. Learn more about Enhanced, REAL ID and Standard documents [8].\n\n## Know what to bring to the DMV office\n\nIf you have a Standard and want to change to a REAL ID or Enhanced, you must come into a DMV office. Complete this guide to make sure you have the proofs of identification you need before\n\ncoming.\n\nFind your proofs [9]\n\n- The DMV Document Guide [10] lists all acceptable legal presence and New York State residence proof documents. Please note: You must provide us the original documents (not photocopies), and documents submitted as proof of residence must have your current residence address on it (no P.O. Box permitted).\n\n- If you are U.S. citizen or lawful permanent resident (i.e., temporary visitors) your Commercial Learner Permit (CLP) or CDL document will have the legend NON-DOMICILED printed on documents issued on it. The TEMPORARY VISITOR and the expiration date of your legal status documentation will continue to be displayed on the CLP and/or CDL document. Per new federal regulations, the DMV will check for any open suspensions or revocations you may have in any state. If you have an open suspension or revocation, we will reject your application.\n\nYou must apply for a CDL at a DMV Office [3]."
+          },
+          {
+            "chunk_id": "Get my own CDL driving record (abstract)#1_0::c0000",
+            "text": "# 获取我自己的 CDL 驾驶记录（摘要）\n\n## 获取我自己的 CDL 驾驶记录（摘要）[1]\n\n### 什么是 CDL 驾驶记录摘要？\n\n商业（CDL）摘要显示扩展的驾驶员历史信息，这些信息在标准驾驶记录（Standard Driving Record）上不可用。这包括在任何州驾驶任何类型车辆时的定罪、吊销、撤销和其他许可行动。还提供医疗认证状态（Medical Certification Status）信息和自我认证（Self-Certification）信息。雇主或组织可以通过纽约 DMV 许可证事件通知服务（LENS）为注册驾驶员获取 CDL 摘要。查看更多关于 CDL 摘要的信息 [2]。\n\n驾驶记录摘要是一份经过认证的 DMV 记录。它们都包含认证声明和机动车管理局局长的签名，以及安全水印。\n\n### 通过 MyDMV 在线获取\n\n您可以保存并打印您的记录的 PDF 版本。您有 5 天时间在订单后下载它。费用为 $7。\n\n要创建 MyDMV 账户，您需要\n\n- 纽约州驾照、许可证或非驾驶员 ID，或\n\n- 您的纽约州驾照、许可证或非驾驶员 ID 1\n\n确保您的计算机和网络浏览器具有所有最新更新，以避免下载记录时出现问题 [3]。\n\n[4]\n\n如果您无法访问 MyDMV，您可以将认证 CDL 摘要请求（PDF）[5]（MV-CDL）表格连同 $10 费用邮寄到 DMV，邮寄至表格上提供的地址，或者让您的雇主通过 LENS [6] 订购您的 CDL 驾驶记录摘要。\n\n- 1. 您需要最近签发的文件上的文件编号（参见示例文件 [7]）。如果您最近续期或订购了文件，但尚未收到邮件，您需要等待它到达后才能创建 MyDMV 账户。\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- DMV 记录 [8]\n\n## 相关 PDF：\n\nmvcdl.pdf\n\n## 禁用此交易？："
+          },
+          {
+            "chunk_id": "Renew a CDL#1_0::c0000",
+            "text": "# Renew a CDL\n\n# Renew a CDL [1]\n\nWARNING: Your Standard CDL will not be accepted as proof of identification to board a domestic flight after October 1, 2020. If you plan to travel (and don't have a Passport), we recommend you upgrade to an Enhanced or REAL ID when you renew. Learn more about Enhanced, REAL ID and Standard documents [2].\n\nDon't delay! Get your Enhanced or REAL ID today.\n\n### You must renew at a DMV office\n\nYou must come to a DMV office [3] to renew a commercial driver license (CDL) or commercial license permit (CLP). Complete this guide to make sure you have the proofs of identification you need before coming.\n\nFind your proofs [4]\n\nYou will receive a temporary license to use until your new license arrives by mail within 10 business days.\n\n### What you need to renew a CDL\n\nIn addition meeting the requirements to renew any type of driver license [5], to renew your CDL, you will need to\n\n- Meet the federal medical certification requirements [6]. You will need to indicate compliance when you answer the required questions on the MV-2CDL which is included with your renewal notice.\n- Have proof of your legal presence in the United States on DMV records.The DMV Document Guide [4] lists all acceptable legal presence and New York State residence proof documents. Please note: You must provide us the original documents (not photocopies), and documents submitted as proof of residence must have your current residence address on it (no P.O. Box permitted).\n  - If you are a U.S. citizen or lawful permanent resident, you will only need to provide this proof on the first (original, amendment, reciprocity or renewal) application on or after June 18, 2015. We will retain the proof on your driving record.\n  - If you are temporary visitor, you will need to provide proof of legal presence in the U.S. with every application. Your new document will have the legend NON-DOMICILED and also TEMPORARY VISITOR and the expiration date of your legal status in the United States printed on it.\n\nIf you indicate the driving types NI (Non-excepted Interstate) or NA (Non-excepted Intrastate) on your renewal, you must provide a legible copy of your current USDOT Medical Examiner s Certificate to DMV if it is not already on file. Please see Federal Requirements for Commercial Driver License (CDL) Applicants (pdf) [7] (MV-44.5) to help you determine your driving type.\n\nPer new federal regulations, the DMV will check for any open suspensions or revocations you may have in any state. If you have an open suspension or revocation, we will reject your application.\n\n### Renewal Fees\n\nThe fees listed include the photo document fee and the supplemental Metropolitan Commuter Transportation District (MCTD) fee, if required. 1\n\nIf you have any other class combined with a motorcycle Class M or MJ (example: AM), add an additional $8.00 to the fee above.\n\nIf you have an endorsement of H or X, you must pass the hazardous materials knowledge test at a DMV office within 2 years before your renewal and pay an additional fee of $5 for the test.\n\n- 1. Residents of the following counties must pay a supplemental Metropolitan Commuter Transportation District (MCTD) fee: Bronx, Kings (Brooklyn), New York (Manhattan), Queens, Richmond (Staten Island); Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk and Westchester.\n\nThe MCTD fee is $1.00 for every 6 months the permit or driver license will be in effect. For an 8-year driver license, the MCTD fee is $16.\n\n## Topic:\n\n- Commercial Drivers [8]"
+          },
+          {
+            "chunk_id": "Medical Certification FAQ's#3_0::c0007",
+            "text": "[医疗认证常见问题 > 自我认证 > 8. 我目前持有无限制的CDL驾照。我没有Medical Examiner's Certificate，也不使用我的CDL驾照进行商业驾驶。例如，我已退休、未工作等。我不想降级我的驾照，因为我为CDL付了钱，而且还有几年才到期。我应该选择哪种驾驶类型？]\n联邦法规要求所有CDL驾驶员认证他们运营或预期运营的驾驶类型。您应该选择描述您执行或预期执行的驾驶类型的选项。\n\n- 如果您预期在豁免驾驶类型（EA或EI）中运营，则不需要Medical Examiner's Certificate。您需要在您的驾照上添加适当的限制（A3和/或K）。\n- 如果您预期在非豁免驾驶类型（NA或NI）中运营，则需要Medical Examiner's Certificate。\n\n请记住，您的认证可以随时在当地的DMV办公室通过驾照修正交易进行更改。"
+          },
+          {
+            "chunk_id": "Get a military skills test waiver#1_0::c0000",
+            "text": "# Get a military skills test waiver\n\n## Get a military skills test waiver [1]\n\nIf you have military experience driving commercial motor vehicles you may apply for a waiver of the NYS CDL skills road test when you apply for a CDL. To meet the requirements for this waiver, you must\n\n- currently hold a valid New York State driver license or have a valid out of state driver license to be exchanged for a NYS driver license\n\n- meet all other requirements to qualify for a NYS CDL (see Get a CDL [2])\n\n- be currently regularly employed (or regularly employed within the last year) in a military position (active duty or New York National Guard) that requires operation of a CMV\n\n- have operated a CMV of the type that the driver operates or expects to operate for at least two years immediately before\n\n- - the application date if in active service, or\n\n- - the date of being discharged from the military To apply, you must present the following at a DMV office\n\na completed form CDL Certification for Military Waiver of Skills Tests [3] (CDL -102)\n\n- a valid NYS or out-of-state driver license\n\n- a medical certificate (if required)\n\n- proof of military service as listed on form CDL-102 You must pass all applicable written tests and pay the written test fee, permit fee and license fee. There is no skills test fee. If you meet the requirements we will issue your CDL. The class, endorsements and restrictions on your CDL will depend upon the type of CMV you operated in the military. For more information, see the Driver License Class Descriptions [4] (MV-500C).\n\n## Do it at the DMV:\n\nYou must apply for a military skills test waiver at a DMV Office.\n\n## Topic:\n\n- Commercial Drivers [5]"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "rerank_windowed_k5:68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+        "kind": "supported conditional guidance for both relevant branches",
+        "item": {
+          "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+          "domain": "va",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "68bde1de04e1739c10aa71d88dfa466d",
+            "question_turn_id": 3,
+            "answer_turn_id": 4,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "What requirements do I need to meet?",
+          "source_question_en": "What requirements do I need to meet?",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "hi i need help about VA Survivors Pension"
+            },
+            {
+              "role": "agent",
+              "utterance": "Clear Friend (A) A VA survivor pension provides monthly payments to qualified surviving spouses and unmarried dependent children of war veterans who meet certain income and wealth limits set by Congress."
+            }
+          ],
+          "gold_answer": "Are you asking about eligibility as a surviving spouse or as an unmarried dependent child, and if as a child, what is your age, school status, or disability status?",
+          "source_gold_answer": "Are you under 18 years old?",
+          "source_gold_answer_en": "Are you under 18 years old?",
+          "question_language": "en",
+          "answer_language": "en",
+          "language_relation": "mixed_language",
+          "document_format": "markdown",
+          "history_bucket": "short",
+          "answer_evidence_ids": [
+            "src_1022423da339cc3e::b0018"
+          ],
+          "answer_doc_ids": [
+            "VA Survivors Pension | Veterans Affairs#1_0"
+          ],
+          "required_doc_ids": [
+            "VA Survivors Pension | Veterans Affairs#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "VA Survivors Pension | Veterans Affairs#1_0",
+              "file": "documents/markdown/va_117.md",
+              "format": "markdown",
+              "language": "mixed"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "VA Survivors Pension | Veterans Affairs#1_0",
+              "document_file": "documents/markdown/va_117.md",
+              "document_format": "markdown",
+              "document_language": "mixed",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "33",
+                  "source_span_text_en": "At least one of these must be true :",
+                  "source_block_id": "src_1022423da339cc3e::b0017",
+                  "evidence_text": "以下至少一项必须为真：",
+                  "location": {
+                    "block_index": 17
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "precondition",
+                  "span_id": "34",
+                  "source_span_text_en": "You re under age 18 ,",
+                  "source_block_id": "src_1022423da339cc3e::b0018",
+                  "evidence_text": "您未满18岁，或 您未满23岁且正在就读VA认可的学校，或 您因18岁前发生的残疾而无法照顾自己",
+                  "location": {
+                    "block_index": 18
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "Survivors Pension requirements differ by relationship, and a child's route depends on age, approved-school attendance, or a disability arising before age 18.",
+            "evidence_ids": [
+              "src_1022423da339cc3e::b0018"
+            ],
+            "reviewer_notes": "replacement_clarification_verified"
+          }
+        },
+        "response": {
+          "answer": "To qualify for VA Survivors Pension as a surviving spouse, you must not have remarried after the Veteran's death, and the Veteran must have had other than dishonorable discharge and meet at least one service requirement (e.g., served at least 90 days on active duty with at least 1 day during wartime if started before September 8, 1980, or served at least 24 months if started after that date, with exceptions). Additionally, your yearly family income and net worth must meet certain limits set by Congress. As a child, you must be unmarried and either under 18, under 23 and attending a VA-approved school, or disabled before age 18. For more details, see the VA Survivors Pension page.",
+          "citations": [
+            "VA Survivors Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "VA Survivors Pension | Veterans Affairs#1_0::c0000",
+            "text": "# VA Survivors Pension | Veterans Affairs\n\n# VA Survivors Pension\n\nVA Survivors Pension 为符合条件的战时退伍军人的未再婚遗属和未婚受抚养子女提供每月补助金，前提是他们满足国会设定的收入和净资产限额。了解您是否符合资格以及如何申请。\n\n### 作为未再婚遗属，我是否有资格获得 VA Survivors Pension？\n\n如果您在退伍军人去世后未再婚，且已故退伍军人并非不名誉退役，并且其服役满足以下至少一项要求，则您可能有资格获得此项福利。\n\n以下至少一项必须为真。该退伍军人：\n\n- 于1980年9月7日或之前开始服现役，并在现役部队中服役至少90天，其中至少1天在战时期间，或\n\n- 于1980年9月7日之后开始服现役，并服役至少24个月或完成其被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间，或\n\n- 是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月\n\n并且以下情况对您必须为真：\n\n您的年度家庭收入和净资产满足国会设定的特定限额。您的净资产等于您拥有的所有财产价值（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务。\n\n### 我如何知道退伍军人是否在符合条件的战时期间服役？\n\n根据现行法律，我们承认以下战时期间来决定养老金福利的资格：\n\n- 墨西哥边境时期（1916年5月9日至1917年4月5日，适用于在墨西哥、其边境或邻近水域服役的退伍军人）\n- 第一次世界大战（1917年4月6日至1918年11月11日）\n- 第二次世界大战（1941年12月7日至1946年12月31日）\n- 朝鲜冲突（1950年6月27日至1955年1月31日）\n- 越南战争时期（1961年2月28日至1975年5月7日，适用于在此期间在越南共和国服役的退伍军人。1964年8月5日至1975年5月7日，适用于在越南共和国境外服役的退伍军人。）\n- 海湾战争（1990年8月2日至法律或总统公告规定的未来日期）\n\n### 作为已故战时退伍军人的子女，我是否有资格获得 VA Survivors Pension？\n\n如果您未婚且满足以下至少一项要求，则您可能有资格获得此项福利。\n\n以下至少一项必须为真：\n\n- 您未满18岁，或\n- 您未满23岁且正在就读VA认可的学校，或\n- 您因18岁前发生的残疾而无法照顾自己\n\n## 如何申请VA遗属养老金？\n\n您可以通过以下任一方式申请：\n\n### 邮寄申请\n\n填写《DIC、死亡养老金和/或应计福利申请表》（VA Form 21-534EZ）。下载 VA Form 21-534EZ (PDF)\n\n将其邮寄至您所在州的养老金管理中心（PMC）。查找您的 PMC\n\n### 亲自申请\n\n携带您的申请表前往附近的VA区域办事处。查找附近的VA区域福利办公室\n\n### 在专业人士的帮助下申请\n\n您可以与称为授权代表的专业人士合作，以获得申请VA遗属养老金福利的帮助。获取申请帮助\n\n## VA需要多长时间做出决定？\n\n视情况而定。我们按照收到申请的先后顺序处理VA遗属养老金申请，除非某项申请需要优先处理。\n\n最后更新："
+          },
+          {
+            "chunk_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000",
+            "text": "# Eligibility For Veterans Pension | Veterans Affairs\n\n# Eligibility for Veterans Pension\n\nThe Veterans Pension program provides monthly payments to wartime Veterans who meet certain age or disability requirements, and who have income and net worth within certain limits. Find out if you re eligible for this benefit.\n\n### Am I eligible for Veterans Pension benefits from VA?\n\nIf you meet the VA pension eligibility requirements listed below, you may be eligible for the Veterans Pension program.\n\nBoth of these must be true:\n\n- You didn t receive a dishonorable discharge, and\n- Your yearly family income and net worth meet certain limits set by Congress. Your net worth includes all personal property you own (except your house, your car, and most home furnishings), minus any debt you owe. Your net worth includes the net worth of your spouse. Find out about Veterans Pension rates\n\nAnd at least one of these must be true about your service. You:\n\n- Started on active duty before September 8, 1980, and you served at least 90 days on active duty with at least 1 day during wartime, or\n- Started on active duty as an enlisted person after September 7, 1980, and served at least 24 months or the full period for which you were called or ordered to active duty (with some exceptions) with at least 1 day during wartime, or\n- Were an officer and started on active duty after October 16, 1981, and you hadn t previously served on active duty for at least 24 months\n\nAnd at least one of these must be true. You:\n\n- Are at least 65 years old, or\n- Have a permanent and total disability, or\n- Are a patient in a nursing home for long-term care because of a disability, or\n- Are getting Social Security Disability Insurance or Supplemental Security Income\n\n## How do I know if I served under an eligible wartime period?\n\nUnder current law, we recognize the following wartime periods to decide eligibility for VA pension benefits:\n\n- Mexican Border period (May 9, 1916, to April 5, 1917, for Veterans who served in Mexico, on its borders, or in adjacent waters)\n- World War I (April 6, 1917, to November 11, 1918)\n- World War II (December 7, 1941, to December 31, 1946)\n- Korean conflict (June 27, 1950, to January 31, 1955)\n- Vietnam War era (February 28, 1961, to May 7, 1975, for Veterans who served in the Republic of Vietnam during that period. August 5, 1964, to May 7, 1975, for Veterans who served outside the Republic of Vietnam.)\n- Gulf War (August 2, 1990, through a future date to be set by law or presidential proclamation)\n\n## What should I do if I received an other than honorable, bad conduct, or dishonorable discharge?\n\nIf you ve received one of these discharge statuses, you may not be eligible for VA pension benefits.\n\nThere are 2 ways you can try to qualify:\n\nFind out how to apply for a discharge upgradeLearn about the VA Character of Discharge review process\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n* *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nLast updated:"
+          },
+          {
+            "chunk_id": "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0004",
+            "text": "[Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration > Who receives benefits?]\nCertain family members may be eligible to receive monthly benefits, including:\n\n- A widow or widower age 60 or older (age 50 or older if disabled);\n- A surviving divorced spouse, under certain circumstances;\n- A widow or widower at any age who is caring for the deceased s child who is under age 16 or disabled and receiving benefits on their record;\n- An unmarried child of the deceased who is:\n  - Younger than age 18 (or up to age 19 if he or she is a full-time student in an elementary or secondary school); or\n  - Age 18 or older with a disability that began before age 22."
+          },
+          {
+            "chunk_id": "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0003",
+            "text": "[Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration > Who receives benefits?]\nCertain family members may be eligible to receive monthly benefits, including:\n\n- A widow or widower age 60 or older (age 50 or older if disabled);\n- A surviving divorced spouse, under certain circumstances;\n- A widow or widower at any age who is caring for the deceased s child who is under age 16 or disabled and receiving benefits on their record;\n- An unmarried child of the deceased who is:\n  - Younger than age 18 (or up to age 19 if he or she is a full-time student in an elementary or secondary school); or\n  - Age 18 or older with a disability that began before age 22."
+          },
+          {
+            "chunk_id": "VA Pension Benefits | Veterans Affairs#2_0::c0000",
+            "text": "# VA Pension Benefits | Veterans Affairs\n\n## VA pension benefits\n\nVA pension benefits are available to some wartime Veterans and their survivors see if you're eligible to apply.\n\n## On this page\n\n- Get VA pension benefits\n\n- Manage your pension benefits\n\n- More information and resources\n\n## Get VA pension benefits\n\n- Eligibility for Veterans Pension See if you qualify for VA pension benefits as a Veteran.\n\n- How to apply for a VA pension as a Veteran Find out how to prepare and apply for a VA Veterans Pension.\n\n- Apply for a Veterans Pension online (VA Form 21P-527EZ) Complete your application online now.\n\n- Aid and Attendance benefits and Housebound allowance\n\nIf you need help with daily activities or you're housebound, find out how to apply for extra VA pension benefits.\n\n- VA Survivors Pension\n\nFind out if you re eligible and how to apply for VA pension benefits as a surviving spouse or child of a deceased Veteran with wartime service.\n\n## Manage your pension benefits\n\n- Check your VA claim or appeal status\n\nCheck the status of an open claim for VA disability compensation or pension benefits. If you're a surviving Spouse or parent, you can view your Dependency and Indemnity Compensation (DIC) claim status.\n\n- View your VA payment history Check the status of your VA disability, pension, and education payments. You can also see certain survivor benefits.\n\n- Change your address on file with VA Find out how to change your address and other contact information in your VA.gov profile. This will update your information across several VA benefits and services.\n\n- Change your VA direct deposit information Learn how to change your VA pension benefits direct deposit information online.\n\n# More information and resources\n\n- VA pension rates for Veterans View VA pension rates for Veterans, including Aid and Attendance and Housebound rates.\n\n- Rates for VA Survivors Pension benefits\n\nView pension rates for surviving spouses and children.\n\n- Protected pension rates View protected pension rates for section 306 and old law VA disability and death pension benefits.\n\n- VA claim exam (C&P exam) Find out how to schedule your VA claim exam and what to expect during and after the appointment.\n\n- Find your VA pension management center Find your regional pension management center to mail or fax your VA pension application.\n\n## Other VA benefits and services\n\n- VA health care\n\nFind out how to apply for and manage your VA health care benefits.\n\n- Disability housing grants for Veterans Learn how to apply for a housing grant as a Veteran or service member with a service-connected disability.\n\n- Vocational Rehabilitation and Employment Find out if you qualify for help exploring employment options, any training you may need, and other voc rehab services.\n\n- Life insurance\n\nExplore your life insurance options and find out how to apply as a service member, Veteran, or family member.\n\nLast updated:"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "baseline_dense_k10:fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "kind": "eligibility conditions presented as questions",
+        "item": {
+          "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+          "domain": "va",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "fe132fe64875f957637bd6a202aa4dd2",
+            "question_turn_id": 5,
+            "answer_turn_id": 6,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "告诉我我必须回答的问题",
+          "source_question_en": "tell me the questions i must answer ",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "你能给我提供国家召唤服役计划的详细信息吗？"
+            },
+            {
+              "role": "agent",
+              "utterance": "是否完成了一段国家服役期？"
+            },
+            {
+              "role": "user",
+              "utterance": "是的"
+            },
+            {
+              "role": "agent",
+              "utterance": "你可能有资格参加国家召唤服役计划，该计划允许你选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。"
+            }
+          ],
+          "gold_answer": "Did you complete initial entry training and then serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense?",
+          "source_gold_answer": "你完成了初始入伍训练，然后在国防部长指定的军事职业专业中继续服役了15个月。",
+          "source_gold_answer_en": " You completed your initial entry training and then continued to serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense ",
+          "question_language": "zh",
+          "answer_language": "zh",
+          "language_relation": "aligned",
+          "document_format": "markdown",
+          "history_bucket": "short",
+          "answer_evidence_ids": [
+            "src_4d09e6f619c51397::b0007"
+          ],
+          "answer_doc_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0"
+          ],
+          "required_doc_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+              "file": "documents/markdown/va_062.md",
+              "format": "markdown",
+              "language": "zh"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+              "document_file": "documents/markdown/va_062.md",
+              "document_format": "markdown",
+              "document_language": "zh",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "7",
+                  "source_span_text_en": "Both of these must be true :",
+                  "source_block_id": "src_4d09e6f619c51397::b0006",
+                  "evidence_text": "以下两项必须均为属实：",
+                  "location": {
+                    "block_index": 6
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "precondition",
+                  "span_id": "8",
+                  "source_span_text_en": "You completed your initial entry training and then continued to serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense ,",
+                  "source_block_id": "src_4d09e6f619c51397::b0007",
+                  "evidence_text": "您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且",
+                  "location": {
+                    "block_index": 7
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The user explicitly asks which eligibility question must be answered, and the evidence supplies the next condition.",
+            "evidence_ids": [
+              "src_4d09e6f619c51397::b0007"
+            ],
+            "reviewer_notes": "source_statement_rewritten_as_clarifying_question"
+          }
+        },
+        "response": {
+          "answer": "根据您的情况，您需要回答以下问题以确定您是否符合国家召唤服役计划的资格：\n\n1. 您是否完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役了15个月？\n2. 之后，您是否在没有服役中断的情况下，要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月？\n3. 您是否在没有服役中断的情况下，完成了剩余的服役义务，包括以下任一方式：在武装部队中服现役、在选定预备役部队中服役、在个人待命预备役中服役，或在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务？\n\n如果以上所有条件均满足，您可能有资格参加该计划。您可以选择以下福利之一：5,000美元现金奖励、偿还不超过18,000美元的合格学贷、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。\n\n请注意，如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册该计划。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "National Call To Service Program | Veterans Affairs#1_0::c0000",
+            "text": "# 国家召唤服役计划 | 退伍军人事务部\n\n# 国家召唤服役计划\n\n如果您完成了一段国家服役期，您可能有资格参加国家召唤服役计划，该计划允许您选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。了解您是否符合资格。\n\n### 我是否有资格享受此福利？\n\n如果您满足以下列出的要求，您就有资格参加国家召唤服役计划。\n\n以下两项必须均为属实：\n\n- 您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且\n\n- 然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月\n\n以下其中一项必须属实：\n\n在没有服役中断的情况下，您随后完成了剩余的服役义务：\n\n- 在武装部队中服现役，或\n- 在选定预备役部队中服役，或\n- 在个人待命预备役中服役，或\n- 在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务\n\n### 谁受保障？\n\n退伍军人\n\n## 我可以获得哪些福利？\n\n您可以选择以下其中一项：\n\n- 5,000美元的现金奖励，或\n- 偿还符合条件的学贷，金额不超过18,000美元，或\n- 相当于3年期月度MGIB标准12个月的教育援助，或\n- 相当于不足3年期月度MGIB标准50%的36个月教育援助\n\n## 如何获得这些福利？\n\n立即在线申请\n\n如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册国家征召服役计划。此福利会影响您的服役合同。\n\n## 获取更多信息\n\n国家征召服役计划手册（PDF）\n\n该计划由退伍军人事务部（VA）代表国防部管理。\n\n最后更新："
+          },
+          {
+            "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0001",
+            "text": "[GI法案及其他教育福利资格 > 我能否通过蒙哥马利GI法案获得VA教育福利？]\n您可能有资格通过我们的两个蒙哥马利GI法案计划之一获得福利。\n\n### 蒙哥马利GI法案现役（MGIB-AD）\n\n如果您在现役服役至少2年，并满足以下所有要求，您可以通过MGIB-AD获得福利。\n\n以下所有条件必须满足。您：\n\n- 已光荣退役，且\n- 拥有高中文凭、GED或12个大学学分，且\n- 满足其他要求\n\n了解更多关于MGIB-AD的信息\n\n### 蒙哥马利GI法案精选预备役（MGIB-SR）\n\n如果您是陆军、海军、空军、海军陆战队或海岸警卫队预备役、陆军国民警卫队或空军国民警卫队的成员，并满足以下所有要求，您可以通过MGIB-SR获得福利。\n\n以下所有条件必须满足。您：\n\n- 在精选服役中拥有6年服役义务（您同意服役6年），或\n- 是精选预备役军官，同意在初始服役义务之外再服役6年，且\n- 满足其他要求\n\n了解更多关于MGIB-SR的信息"
+          },
+          {
+            "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0002",
+            "text": "[军人退伍军人福利 > 您在服役期间和服役后可以使用的退伍军人事务部福利]\n- GI法案和其他教育福利\n\n了解您是否有资格获得退伍军人事务部教育福利，以帮助支付学校或培训费用。如果您符合9/11后退伍军人法案的资格，了解如何将未使用的福利转移给您的配偶或受抚养子女。面向军人（现役、国民警卫队和预备役）和退伍军人开放\n\n- 退伍军人事务部支持住房贷款的资格证明\n\n查看获得资格证明（COE）以购买、建造、改善或再融资房屋的要求。面向军人（现役、国民警卫队和预备役）和退伍军人开放\n\n- 为您和您的家人提供人寿保险\n\n了解您是否符合SGLI保险的资格以及如何管理您的SGLI保险，并了解您和您的家人在退役或退休后的保险选择。适用于军人和退伍军人（现役、国民警卫队和预备役）"
+          },
+          {
+            "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0006",
+            "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 我如何了解更多关于军事服役的信息？]\n联系招聘人员以了解以下军事部门的服役信息：\n\n- marines.com\n- navy.com\n- goarmy.com\n- airforce.com\n- gocoastguard.com"
+          },
+          {
+            "chunk_id": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs#1_0::c0003",
+            "text": "[Montgomery GI Bill Active Duty (MGIB-AD) > How can I use my MGIB-AD education benefits?]\nYou can use your GI Bill benefits in many ways to advance your education and training. Find out how to use your GI Bill benefits\n\nIn some cases, we may help you pay for:\n\n- Remedial courses (classes some students must take to build up their basic skills in math, reading, or English before they can take regular college courses)\n- Deficiency courses (classes some students must take in order to be admitted to a certain college)\n- Refresher courses (brief courses that help people review and improve their knowledge in a certain subject area)\n\nSee current payment rates"
+          },
+          {
+            "chunk_id": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs#1_0::c0000",
+            "text": "[Montgomery GI Bill Active Duty (MGIB-AD) > Am I eligible for education benefits through the MGIB-AD program?]\nThe Montgomery GI Bill Active Duty (MGIB-AD) can help you pay for education and training programs. If you ve served at least 2 years on active duty, find out if you qualify for the MGIB-AD program.\n\nYou can get education benefits through this program if you were honorably discharged and you meet the requirements of one of the categories below.\n\n### One of these categories must describe you\n\n#### Category I\n\nAll of these are true. You:\n\n- Have a high school diploma, GED, or 12 hours of college credit, and\n- Entered active duty for the first time after June 30, 1985, and\n- Had your military pay reduced by $100 a month for the first 12 months of service\n\nAnd at least one of these is true. You served continuously (without a break) for:\n\n- 3 years, or\n- 2 years if that was your agreement when you enlisted, or\n- 4 years if you entered the Selected Reserve within a year of leaving active duty (called the 2 by 4 program)\n\n#### Category II\n\nAll of these are true. You:\n\n- Have a high school diploma, GED, or 12 hours of college credit, and\n- Entered active duty before January 1, 1977 (or before January 2, 1978, under a delayed enlistment program contracted before January 1, 1977), and\n- Served at least 1 day between October 19, 1984, and June 30, 1985, and stayed on active duty through June 30, 1988 (or through June 30, 1987, if you entered the Selected Reserve within 1 year of leaving active duty and served 4 years), and\n- Had at least 1 day of entitlement left under the Vietnam Era GI Bill (Chapter 34) as of December 31, 1989\n\n#### Category III\n\nAll of these are true. You:\n\n- Have a high school diploma, GED, or 12 hours of college credit, and\n- Don t qualify for MGIB under categories I or II, and\n- Had your military pay reduced by $1,200 before separation\n\nAnd one of these is true. You:\n\n- Were on active duty on September 30, 1990, and involuntarily separated (not by your choice) after February 2, 1991, or\n- Involuntarily separated on or after November 30, 1993, or\n- Chose to voluntarily separate under either the Voluntary Separation Incentive (VSI) program or the Special Separation Benefit (SSB) program\n\n#### Category IV\n\nBoth of these are true. You:\n\n- Have a high school diploma, GED, or 12 hours of college credit, and\n- Had military pay reduced by $100 a month for 12 months or made a $1,200 lump-sum contribution (meaning you paid it all at once)\n\nAnd one of these is true. You:\n\n- Were on active duty on October 9, 1996, had money left in a VEAP account on that date, and chose MGIB before October 9, 1997, or\n- Entered full-time National Guard duty under title 32, USC, between July 1, 1985, and November 28, 1989, and chose MGIB between October 9, 1996, and July 9, 1997"
+          },
+          {
+            "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0003",
+            "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+          },
+          {
+            "chunk_id": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs#1_0::c0001",
+            "text": "[Montgomery GI Bill Active Duty (MGIB-AD) > What benefits can I get?]\nYou may get up to 36 months of education benefits. We ll pay the benefits monthly. The amount you ll receive depends on these factors:\n\n- Your length of service, and\n- The type of educational or training program you choose, and\n- Your category (as defined above), and\n- Whether you qualify for a college fund or kicker, and\n- How much you ve paid into the $600 Buy-Up program Learn more about the $600 Buy-Up program\n\nNote: You usually have 10 years to use your MGIB-AD benefits. This may change depending on your situation."
+          },
+          {
+            "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0001",
+            "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 退伍军人事务部（VA）教育福利]\n退伍军人事务部在其GI Bill网站上为退伍军人及其遗孀和家属提供教育福利。"
+          },
+          {
+            "chunk_id": "GI Bill | Veterans Affairs#1_0::c0000",
+            "text": "# GI法案 | 退伍军人事务部\n\n# 关于GI法案福利\n\nGI法案福利帮助您支付大学、研究生院和培训项目的费用。自1944年以来，GI法案帮助符合条件的退伍军人及其家庭成员获得资金，以覆盖部分或全部学校或培训费用。请在下方了解更多关于GI法案福利的信息以及如何申请。\n\n如果您已申请并被授予了9/11后退伍军人法案教育福利，您的GI法案福利声明将显示您已使用了多少福利以及还剩多少可用。查看您的GI法案福利声明。\n\nGI法案比较工具和退伍军人服务组织可以帮助您探索选项，并了解您可以获得哪些福利。查找退伍军人服务组织。\n\n使用GI法案比较工具 申请教育福利\n\n### 9/11后退伍军人法案福利\n\n-\n\n#### 9/11后退伍军人法案\n\n如果您需要帮助支付学校或职业培训费用，并且您在2001年9月10日之后服役于现役，请了解您是否可以通过9/11后退伍军人法案获得教育福利。\n\n-\n\n#### 将您的9/11后退伍军人法案福利转移给您的配偶和家属\n\n如果您有未使用的9/11后退伍军人法案福利，请了解您是否可以将您的福利转移给您的配偶或受抚养子女。\n\n### 福利费率和您可以使用福利的方式\n\n-\n\n#### 费率\n\n了解符合条件的退伍军人及其家庭成员在学费和书本费方面的教育福利费率。\n\n-\n\n#### 外国项目\n\n如果你计划在国外学校学习，了解如何利用VA福利来支付你的学费和杂费。\n\n-\n\n#### 高等院校的本科和研究生学位\n\n如果你想获得本科或研究生学位，了解你是否可以获得VA福利来帮助支付课程费用。\n\n### 你可能符合资格的其他GI法案项目\n\n-\n\n#### 蒙哥马利GI法案现役（MGIB-AD）\n\n如果你在现役服役至少2年，了解你是否符合蒙哥马利GI法案现役项目的福利资格。\n\n-\n\n#### 蒙哥马利GI法案精选预备役（MGIB-SR）\n\n如果你是陆军、海军、空军、海军陆战队或海岸警卫队预备役、陆军国民警卫队或空军国民警卫队的成员，了解你是否符合蒙哥马利GI法案精选预备役项目的教育福利资格。\n\n-\n\n#### 幸存者和家属援助\n\n如果你是退伍军人的受抚养配偶或子女，了解你是否符合教育福利或职业培训的资格。\n\n### 更多GI法案福利和信息\n\n-\n\n#### 黄丝带项目\n\n了解您的学校是否参与黄丝带计划，该计划可以帮助支付后9/11 GI法案未涵盖的学费。\n\n-\n\n#### 学费补助补足\n\n如果您的大学学费超过学费补助计划所涵盖的金额，请了解您是否可以获得更多资金来支付学费。\n\n-\n\n#### $600 买断计划\n\n了解如何通过GI法案每月付款获得更多资金。\n\n-\n\n#### 辅导援助\n\n如果您正在使用VA教育福利并且在课程学习上遇到困难，请了解您是否可以获得帮助支付辅导费用。\n\n-\n\n#### GI法案学校反馈工具\n\n如果您对您的GI法案学校有任何疑虑，您可以通过我们的GI法案学校反馈工具提交给我们。了解如何提交关于您学校的反馈。\n\n-\n\n#### 选择不共享VA教育福利信息\n\n《哈里·W·科尔默里退伍军人教育援助法案》（也称为《永久GI法案》）要求我们与学校共享有关您资格和福利的某些信息，除非您要求我们不这样做。了解如何选择不共享信息。\n\n最后更新："
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "rerank_windowed_k5:fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "kind": "complete supported conditional eligibility guidance",
+        "item": {
+          "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+          "domain": "va",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "fe132fe64875f957637bd6a202aa4dd2",
+            "question_turn_id": 5,
+            "answer_turn_id": 6,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "告诉我我必须回答的问题",
+          "source_question_en": "tell me the questions i must answer ",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "你能给我提供国家召唤服役计划的详细信息吗？"
+            },
+            {
+              "role": "agent",
+              "utterance": "是否完成了一段国家服役期？"
+            },
+            {
+              "role": "user",
+              "utterance": "是的"
+            },
+            {
+              "role": "agent",
+              "utterance": "你可能有资格参加国家召唤服役计划，该计划允许你选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。"
+            }
+          ],
+          "gold_answer": "Did you complete initial entry training and then serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense?",
+          "source_gold_answer": "你完成了初始入伍训练，然后在国防部长指定的军事职业专业中继续服役了15个月。",
+          "source_gold_answer_en": " You completed your initial entry training and then continued to serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense ",
+          "question_language": "zh",
+          "answer_language": "zh",
+          "language_relation": "aligned",
+          "document_format": "markdown",
+          "history_bucket": "short",
+          "answer_evidence_ids": [
+            "src_4d09e6f619c51397::b0007"
+          ],
+          "answer_doc_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0"
+          ],
+          "required_doc_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+              "file": "documents/markdown/va_062.md",
+              "format": "markdown",
+              "language": "zh"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+              "document_file": "documents/markdown/va_062.md",
+              "document_format": "markdown",
+              "document_language": "zh",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "7",
+                  "source_span_text_en": "Both of these must be true :",
+                  "source_block_id": "src_4d09e6f619c51397::b0006",
+                  "evidence_text": "以下两项必须均为属实：",
+                  "location": {
+                    "block_index": 6
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "precondition",
+                  "span_id": "8",
+                  "source_span_text_en": "You completed your initial entry training and then continued to serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense ,",
+                  "source_block_id": "src_4d09e6f619c51397::b0007",
+                  "evidence_text": "您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且",
+                  "location": {
+                    "block_index": 7
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The user explicitly asks which eligibility question must be answered, and the evidence supplies the next condition.",
+            "evidence_ids": [
+              "src_4d09e6f619c51397::b0007"
+            ],
+            "reviewer_notes": "source_statement_rewritten_as_clarifying_question"
+          }
+        },
+        "response": {
+          "answer": "根据检索到的信息，国家召唤服役计划的资格要求包括：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月；然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月。此外，您还需满足以下其中一项：在没有服役中断的情况下，您随后完成了剩余的服役义务，包括在武装部队中服现役、在选定预备役部队中服役、在个人待命预备役中服役，或在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "National Call To Service Program | Veterans Affairs#1_0::c0000",
+            "text": "# 国家召唤服役计划 | 退伍军人事务部\n\n# 国家召唤服役计划\n\n如果您完成了一段国家服役期，您可能有资格参加国家召唤服役计划，该计划允许您选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。了解您是否符合资格。\n\n### 我是否有资格享受此福利？\n\n如果您满足以下列出的要求，您就有资格参加国家召唤服役计划。\n\n以下两项必须均为属实：\n\n- 您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且\n\n- 然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月\n\n以下其中一项必须属实：\n\n在没有服役中断的情况下，您随后完成了剩余的服役义务：\n\n- 在武装部队中服现役，或\n- 在选定预备役部队中服役，或\n- 在个人待命预备役中服役，或\n- 在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务\n\n### 谁受保障？\n\n退伍军人\n\n## 我可以获得哪些福利？\n\n您可以选择以下其中一项：\n\n- 5,000美元的现金奖励，或\n- 偿还符合条件的学贷，金额不超过18,000美元，或\n- 相当于3年期月度MGIB标准12个月的教育援助，或\n- 相当于不足3年期月度MGIB标准50%的36个月教育援助\n\n## 如何获得这些福利？\n\n立即在线申请\n\n如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册国家征召服役计划。此福利会影响您的服役合同。\n\n## 获取更多信息\n\n国家征召服役计划手册（PDF）\n\n该计划由退伍军人事务部（VA）代表国防部管理。\n\n最后更新："
+          },
+          {
+            "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0001",
+            "text": "[GI法案及其他教育福利资格 > 我能否通过蒙哥马利GI法案获得VA教育福利？]\n您可能有资格通过我们的两个蒙哥马利GI法案计划之一获得福利。\n\n### 蒙哥马利GI法案现役（MGIB-AD）\n\n如果您在现役服役至少2年，并满足以下所有要求，您可以通过MGIB-AD获得福利。\n\n以下所有条件必须满足。您：\n\n- 已光荣退役，且\n- 拥有高中文凭、GED或12个大学学分，且\n- 满足其他要求\n\n了解更多关于MGIB-AD的信息\n\n### 蒙哥马利GI法案精选预备役（MGIB-SR）\n\n如果您是陆军、海军、空军、海军陆战队或海岸警卫队预备役、陆军国民警卫队或空军国民警卫队的成员，并满足以下所有要求，您可以通过MGIB-SR获得福利。\n\n以下所有条件必须满足。您：\n\n- 在精选服役中拥有6年服役义务（您同意服役6年），或\n- 是精选预备役军官，同意在初始服役义务之外再服役6年，且\n- 满足其他要求\n\n了解更多关于MGIB-SR的信息"
+          },
+          {
+            "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0003",
+            "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+          },
+          {
+            "chunk_id": "GI Bill | Veterans Affairs#1_0::c0000",
+            "text": "# GI法案 | 退伍军人事务部\n\n# 关于GI法案福利\n\nGI法案福利帮助您支付大学、研究生院和培训项目的费用。自1944年以来，GI法案帮助符合条件的退伍军人及其家庭成员获得资金，以覆盖部分或全部学校或培训费用。请在下方了解更多关于GI法案福利的信息以及如何申请。\n\n如果您已申请并被授予了9/11后退伍军人法案教育福利，您的GI法案福利声明将显示您已使用了多少福利以及还剩多少可用。查看您的GI法案福利声明。\n\nGI法案比较工具和退伍军人服务组织可以帮助您探索选项，并了解您可以获得哪些福利。查找退伍军人服务组织。\n\n使用GI法案比较工具 申请教育福利\n\n### 9/11后退伍军人法案福利\n\n-\n\n#### 9/11后退伍军人法案\n\n如果您需要帮助支付学校或职业培训费用，并且您在2001年9月10日之后服役于现役，请了解您是否可以通过9/11后退伍军人法案获得教育福利。\n\n-\n\n#### 将您的9/11后退伍军人法案福利转移给您的配偶和家属\n\n如果您有未使用的9/11后退伍军人法案福利，请了解您是否可以将您的福利转移给您的配偶或受抚养子女。\n\n### 福利费率和您可以使用福利的方式\n\n-\n\n#### 费率\n\n了解符合条件的退伍军人及其家庭成员在学费和书本费方面的教育福利费率。\n\n-\n\n#### 外国项目\n\n如果你计划在国外学校学习，了解如何利用VA福利来支付你的学费和杂费。\n\n-\n\n#### 高等院校的本科和研究生学位\n\n如果你想获得本科或研究生学位，了解你是否可以获得VA福利来帮助支付课程费用。\n\n### 你可能符合资格的其他GI法案项目\n\n-\n\n#### 蒙哥马利GI法案现役（MGIB-AD）\n\n如果你在现役服役至少2年，了解你是否符合蒙哥马利GI法案现役项目的福利资格。\n\n-\n\n#### 蒙哥马利GI法案精选预备役（MGIB-SR）\n\n如果你是陆军、海军、空军、海军陆战队或海岸警卫队预备役、陆军国民警卫队或空军国民警卫队的成员，了解你是否符合蒙哥马利GI法案精选预备役项目的教育福利资格。\n\n-\n\n#### 幸存者和家属援助\n\n如果你是退伍军人的受抚养配偶或子女，了解你是否符合教育福利或职业培训的资格。\n\n### 更多GI法案福利和信息\n\n-\n\n#### 黄丝带项目\n\n了解您的学校是否参与黄丝带计划，该计划可以帮助支付后9/11 GI法案未涵盖的学费。\n\n-\n\n#### 学费补助补足\n\n如果您的大学学费超过学费补助计划所涵盖的金额，请了解您是否可以获得更多资金来支付学费。\n\n-\n\n#### $600 买断计划\n\n了解如何通过GI法案每月付款获得更多资金。\n\n-\n\n#### 辅导援助\n\n如果您正在使用VA教育福利并且在课程学习上遇到困难，请了解您是否可以获得帮助支付辅导费用。\n\n-\n\n#### GI法案学校反馈工具\n\n如果您对您的GI法案学校有任何疑虑，您可以通过我们的GI法案学校反馈工具提交给我们。了解如何提交关于您学校的反馈。\n\n-\n\n#### 选择不共享VA教育福利信息\n\n《哈里·W·科尔默里退伍军人教育援助法案》（也称为《永久GI法案》）要求我们与学校共享有关您资格和福利的某些信息，除非您要求我们不这样做。了解如何选择不共享信息。\n\n最后更新："
+          },
+          {
+            "chunk_id": "Work Study | Veterans Affairs#1_0::c0000",
+            "text": "# 工作学习 | 退伍军人事务部\n\n# 工作学习\n\n了解我们的退伍军人工作学习项目如何帮助你在大学、职业学校或专业培训项目就读期间赚钱。\n\n### 我可以参加退伍军人工作学习项目吗？\n\n如果你满足以下所有要求，就可以参加我们的工作学习项目。\n\n以下所有条件都必须满足。你：\n\n- 至少以四分之三学时注册于大学学位、职业或专业项目，并且\n- 已在附近的 VA 机构或你所在学校的 VA 相关岗位找到空缺职位，并且\n- 能在仍有资格享受教育福利期间完成工作学习合同，并且\n- 正在使用经批准的 VA 教育福利项目支付你的教育或培训费用\n\n经批准的 VA 教育福利项目包括：\n\n- 退伍军人后 9/11 GI Bill\n- 使用转移福利的家庭成员的后 9/11 GI Bill\n- Montgomery GI Bill 现役 (MGIB-AD)\n- Montgomery GI Bill 精选预备役 (MGIB-SR)\n- 退伍军人教育援助项目 (VEAP)\n- 幸存者和家属教育援助 (DEA)（注意：根据 38 U.S.C. 第 35 章符合条件的家属只能在 50 个州之一的学校就读时使用工作学习。）\n- 国家召唤服役\n- 职业康复与就业\n\n## 我能获得什么类型的福利？\n\n你可以在学习期间从事兼职工作并获得报酬。\n\n## 我如何获得这些福利？\n\n你需要填写《工作学习津贴申请表》（VA 表格 22-8691）来申请工作学习项目。下载 VA 表格 22-8691 (PDF)\n\n如果你对该项目有任何疑问，请联系处理你索赔的 VA 地区处理办公室。联系你的 VA 地区处理办公室\n\n如果你对其他经济援助来源有疑问，请联系你学校的财务援助办公室。\n\n## 我能获得什么样的工作？\n\n你可以获得与 VA 工作相关、符合你兴趣并满足需求的工作。\n\n例如，你可以为以下机构工作：\n\n- VA机构\n- 负责监督MGIB-SR或REAP的国防部、海岸警卫队或国民警卫队地点\n- 州退伍军人事务机构，帮助退伍军人获得职业康复与就业福利\n- 退伍军人学生成功卓越中心，支持退伍军人学生的学术、财务、身体和社交需求\n- 我们与学院、大学或其他高等教育机构共同开展的合作项目\n- 学院、大学或其他高等教育机构中任何与退伍军人相关的角色。例如，你可以帮助退伍军人学生解答关于退伍军人福利的一般问题，为退伍军人处理文件，或维护和组织与退伍军人相关的档案。\n\n## 我能赚多少钱？\n\n你将获得时薪，金额等于联邦最低工资或州最低工资，以较高者为准。如果你的学校通常为类似工作支付更高的工资，他们可能会支付我们支付的金额与他们通常费率之间的差额。\n\n## 我将如何获得报酬？\n\n你可以选择预先获得工作学习协议中40%小时数的报酬，或50小时的报酬，以较少者为准。在你完成首次付款覆盖的工作小时后，我们将在你每完成50小时服务或每隔一周（以先到者为准）支付你报酬。\n\n## 我何时可以工作，工作多少小时？\n\n你可以在注册期间或注册间隙工作。\n\n你的总工作小时数不能超过注册期间周数的25倍。\n\n例如：如果你注册了一个为期15周的学期，那么该注册期间你最多可以工作375小时。\n\n最后更新："
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "rerank_windowed_k5:58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+        "kind": "unresolved ambiguous referent",
+        "item": {
+          "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+          "domain": "studentaid",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "58f62ac630b5ec13054947b7b8520476",
+            "question_turn_id": 9,
+            "answer_turn_id": 10,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "No, sorry, but I don'y have neither of those.",
+          "source_question_en": "No, sorry, but I don'y have neither of those.",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "Can non-US citizens qualify to receive federal student aid?"
+            },
+            {
+              "role": "agent",
+              "utterance": "Yes, non-US citizens qualify for federal student aid."
+            },
+            {
+              "role": "user",
+              "utterance": "Would my parents citizenship affect my ability to get aid?"
+            },
+            {
+              "role": "agent",
+              "utterance": "Absolutely not, you can still apply for aid."
+            },
+            {
+              "role": "user",
+              "utterance": "How do I apply for federal student aid?  . hi  Most male students must be registered with Selective Service to receive federal student aid. You must register if you are a male and are not currently on active duty in the U.S. armed forces."
+            },
+            {
+              "role": "agent",
+              "utterance": "hi"
+            },
+            {
+              "role": "user",
+              "utterance": "hi"
+            },
+            {
+              "role": "agent",
+              "utterance": "hi"
+            }
+          ],
+          "gold_answer": "What are the two things you mean by 'neither of those'?",
+          "source_gold_answer": "Alright, then I must ask, Were you homeschooled?",
+          "source_gold_answer_en": "Alright, then I must ask, Were you homeschooled?",
+          "question_language": "en",
+          "answer_language": "en",
+          "language_relation": "aligned",
+          "document_format": "markdown",
+          "history_bucket": "medium",
+          "answer_evidence_ids": [],
+          "answer_doc_ids": [],
+          "required_doc_ids": [],
+          "required_documents": [],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "evaluated_system_outputs_used_for_selection": false,
+            "evaluated_dev_outputs_seen_before_correction": true,
+            "selection_note": "No IDs replaced or reordered. Two dev annotations corrected after error analysis; not an independent test.",
+            "previous_review": {
+              "reviewer_type": "ai_agent",
+              "independent_human_review": false,
+              "label_reason": "The user has ruled out preceding education credentials, so checking the next documented eligibility route is a valid clarification.",
+              "evidence_ids": [
+                "src_0e553919123137c6::b0006"
+              ],
+              "reviewer_notes": "query_condition_review"
+            },
+            "evidence_ids": [],
+            "label_reason": "The supplied history never names the two credentials; turns 6–8 say hi. Source annotations cannot supply missing conversational facts."
+          },
+          "acceptance_criteria": {
+            "required": [
+              "Ask the user to identify what 'neither of those' refers to before giving a personalized next step."
+            ],
+            "allowed": [
+              "Briefly explain that the preceding messages do not identify the two things."
+            ],
+            "reject": [
+              "Assume the user lacks a diploma/GED or needs the homeschooling route.",
+              "Give generic aid/application advice without resolving the referent."
+            ]
+          },
+          "source_annotations_before_correction": {
+            "answer_evidence_ids": [
+              "src_0e553919123137c6::b0006"
+            ],
+            "answer_doc_ids": [
+              "Eligibility Requirements | Federal Student Aid#1_0"
+            ],
+            "required_doc_ids": [
+              "Eligibility Requirements | Federal Student Aid#1_0"
+            ],
+            "required_documents": [
+              {
+                "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+                "file": "documents/markdown/studentaid_023.md",
+                "format": "markdown",
+                "language": "en"
+              }
+            ],
+            "evidence": [
+              {
+                "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+                "document_file": "documents/markdown/studentaid_023.md",
+                "document_format": "markdown",
+                "document_language": "en",
+                "spans": [
+                  {
+                    "source_turn": "question",
+                    "label": "precondition",
+                    "span_id": "20",
+                    "source_span_text_en": "having a high school diploma or a recognized equivalent such as a General Educational Development GED certificate ;",
+                    "source_block_id": "src_0e553919123137c6::b0006",
+                    "evidence_text": "demonstrate financial need (for most programs); be a U.S. citizen or an eligible noncitizen; have a valid Social Security number (with the exception of students from the Republic of the Marshall Islands, Federated States of Micronesia, or the Republic of Palau); be registered with Selective Service, if you re a male (you must register between the ages of 18 and 25); be enrolled or accepted for enrollment as a regular student in an eligible degree or certificate program; be enrolled at least half-time to be eligible for Direct Loan Program funds; maintain satisfactory academic progress in college or career school; sign the certification statement on the Free Application for Federal Student Aid (FAFSA) form stating that - you are not in default on a federal student loan, - you do not owe money on a federal student grant, and - you will use federal student aid only for educational purposes; and show you re qualified to obtain a college or career school education by - having a high school diploma or a recognized equivalent such as a General Educational Development (GED) certificate; - completing a high school education in a homeschool setting approved under state law (or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law); or - enrolling in an eligible career pathway program and meeting one of the \"ability-to-benefit\" alternatives described below.",
+                    "location": {
+                      "block_index": 6
+                    }
+                  },
+                  {
+                    "source_turn": "answer",
+                    "label": "precondition",
+                    "span_id": "21",
+                    "source_span_text_en": "completing a high school education in a homeschool setting approved under state law or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law; or",
+                    "source_block_id": "src_0e553919123137c6::b0006",
+                    "evidence_text": "demonstrate financial need (for most programs); be a U.S. citizen or an eligible noncitizen; have a valid Social Security number (with the exception of students from the Republic of the Marshall Islands, Federated States of Micronesia, or the Republic of Palau); be registered with Selective Service, if you re a male (you must register between the ages of 18 and 25); be enrolled or accepted for enrollment as a regular student in an eligible degree or certificate program; be enrolled at least half-time to be eligible for Direct Loan Program funds; maintain satisfactory academic progress in college or career school; sign the certification statement on the Free Application for Federal Student Aid (FAFSA) form stating that - you are not in default on a federal student loan, - you do not owe money on a federal student grant, and - you will use federal student aid only for educational purposes; and show you re qualified to obtain a college or career school education by - having a high school diploma or a recognized equivalent such as a General Educational Development (GED) certificate; - completing a high school education in a homeschool setting approved under state law (or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law); or - enrolling in an eligible career pathway program and meeting one of the \"ability-to-benefit\" alternatives described below.",
+                    "location": {
+                      "block_index": 6
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "retrieval_evaluation": {
+            "eligible": false,
+            "reason": "Referent clarification needs conversation repair, not the historical education block."
+          }
+        },
+        "response": {
+          "answer": "To apply for federal student aid, you must complete and submit the Free Application for Federal Student Aid (FAFSA) form each year. Based on your FAFSA results, your school will send you a financial aid offer, which may include loans. Before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note. Contact your school's financial aid office for specific steps. Note that you must reapply each year by submitting a new FAFSA form.",
+          "citations": [
+            "Loans | Federal Student Aid#1_0::c0004",
+            "Staying Eligible | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Aid for International Study | Federal Student Aid#1_0::c0004",
+            "text": "[Many students get federal student aid to help pay for their study at international schools, either at the undergraduate or graduate level. > Get a Degree From an International School > How do I apply for a federal student loan to use at an international school?]\nApply for student loans at your international school using the same process you use to apply for aid in the U.S.\n\n1.  Fill out a FAFSA form at fafsa.gov as early as possible. The FAFSA form is available on Oct. 1 for school attendance that begins any time from July 1 of the following year through June of the year beyond that. There is no special FAFSA form for students planning to attend international schools. Learn how to fill out the FAFSA form.\n2.  Make sure the school you plan to attend has your FAFSA information. International schools have the ability to access your FAFSA information electronically. When you fill out the FAFSA form, list the school you plan to attend in the question about Federal School Codes. (The FAFSA site has a tool to let you search for your school s Federal School Code.) Once it s listed on your FAFSA form, your school will then download your data.\n3.  Find out the next steps from your chosen school. Different schools proceed differently at this stage of the process. Ask your school how you will get your loan money what paperwork do you need to fill out, what are the deadlines, etc. Keep track of everything that is required of you; make copies of paper documents (or scan them) and file them safely; and meet those deadlines! And if your parent plans to get a Direct PLUS Loan, he or she should keep a close eye on required documents and deadlines as well.\n4.  If you are a first-year student borrowing federal funds for the first time, you will have to complete entrance counseling. This means you ll be required to read text or watch a video online, or attend an in-person presentation, in order to learn about the responsibilities of taking out a loan. Your entrance counseling might happen before you leave the U.S. or after you arrive at your school; it depends on the school."
+          },
+          {
+            "chunk_id": "Loans | Federal Student Aid#1_0::c0004",
+            "text": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+          },
+          {
+            "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+            "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+          },
+          {
+            "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+            "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+          },
+          {
+            "chunk_id": "Aid for International Study | Federal Student Aid#1_0::c0000",
+            "text": "[Many students get federal student aid to help pay for their study at international schools, either at the undergraduate or graduate level. > Study Abroad for a Semester or Year]\nWhether you plan to study abroad for a semester or get your entire degree outside the United States, you may be able to use federal student aid to pay your expenses. The type of aid you can get and the process you must follow will depend on the type of program (study-abroad or full degree) you plan to enter. Your status as an undergraduate or graduate student also affects the type of aid for which you re eligible, just as it does at schools in the U.S.\n\nYou may receive federal student aid for a study-abroad program, if you meet the aid eligibility criteria. If you aren t already in the habit of filling out a Free Application for Federal Student Aid (FAFSA) form each year for college, be sure to learn about the federal student aid programs and the FAFSA process. You ll need to fill out a FAFSA form before you can receive federal student aid to study abroad.\n\nTo determine which types of aid you ll be able to use for your study-abroad program, contact the financial aid office at your American school. (If your American school doesn t participate in the federal student aid programs, then you won t be able to get federal student aid to help pay for your study abroad.) Start early, because it s important to get all necessary paperwork done on time, both at your American school and at the international school.\n\nThe rest of the information on this page (below this section) does not apply to you if what you re interested in is doing a study-abroad program."
+          }
+        ],
+        "expected_ai_diagnostic": false
+      },
+      {
+        "case_id": "rerank_windowed_k5:6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+        "kind": "answer omits explicit good-cause condition",
+        "item": {
+          "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+          "domain": "va",
+          "question_type": "answer",
+          "task_label": "answer",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "6c1a20b6f6cad4c623a877f50bbc54e8",
+            "question_turn_id": 14,
+            "answer_turn_id": 15,
+            "agent_dialogue_act": "respond_solution",
+            "evaluation_category": "answer"
+          },
+          "question": "Yes",
+          "source_question_en": "Yes",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "Hello I need information about what to expect at my Board hearing"
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you want to know specifically what will happen to your audience?"
+            },
+            {
+              "role": "user",
+              "utterance": "do not"
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you want to know when the judge will make a decision on your appeal?"
+            },
+            {
+              "role": "user",
+              "utterance": "Yes"
+            },
+            {
+              "role": "agent",
+              "utterance": "Your hearing will be transcribed and added to your appeal file. You will be asked if you want a copy of the transcript for your personal records. The judge will review the hearing and other evidence in your appeal file before making a decision."
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you know how long you can present new evidence to your case?"
+            },
+            {
+              "role": "user",
+              "utterance": "do not"
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you have new evidence to present?"
+            },
+            {
+              "role": "user",
+              "utterance": "Yes"
+            },
+            {
+              "role": "agent",
+              "utterance": "Good in the event that you have new evidence to present, it will take 90 days. If you don't have new evidence to present, you can waive the 90-day period that is automatically added to your appeal. Some Veterans Service Organizations will ask for time to present additional arguments in support of your case, so please contact your representative first if you are considering waiving this time period."
+            },
+            {
+              "role": "user",
+              "utterance": "ok, and can I reschedule or withdraw my Board hearing request?"
+            },
+            {
+              "role": "agent",
+              "utterance": "you want to know What if you need to reschedule your audience?"
+            }
+          ],
+          "gold_answer": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+          "source_gold_answer": "You must send a written request to the Veterans Appeals Board with good reason to reschedule your hearing at least 2 weeks before your hearing. Include your name, the VA file number for your appeal, and the reason you need a new hearing date. Submit your request in writing to the Board.",
+          "source_gold_answer_en": "You must send a written request to the Veterans Appeals Board with good reason to reschedule your hearing at least 2 weeks before your hearing. Include your name, the VA file number for your appeal, and the reason you need a new hearing date. Submit your request in writing to the Board.",
+          "question_language": "en",
+          "answer_language": "en",
+          "language_relation": "cross_lingual",
+          "document_format": "pdf_scanned",
+          "history_bucket": "long",
+          "answer_evidence_ids": [
+            "src_eac1506b824bb3f9::b0037"
+          ],
+          "answer_doc_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+          ],
+          "required_doc_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+              "file": "documents/pdf_scanned/va_016.pdf",
+              "format": "pdf_scanned",
+              "language": "zh"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+              "document_file": "documents/pdf_scanned/va_016.pdf",
+              "document_format": "pdf_scanned",
+              "document_language": "zh",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "64",
+                  "source_span_text_en": "What if I need to reschedule my hearing?",
+                  "source_block_id": "src_eac1506b824bb3f9::b0036",
+                  "evidence_text": "如果我需要重新安排听证会怎么办？",
+                  "location": {
+                    "block_index": 36,
+                    "page": 3
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "65",
+                  "source_span_text_en": "You ll need to send a written request to the Board of Veterans Appeals providing good cause to reschedule your hearing at least 2 weeks before your hearing.",
+                  "source_block_id": "src_eac1506b824bb3f9::b0037",
+                  "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+                  "location": {
+                    "block_index": 37,
+                    "page": 3
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "66",
+                  "source_span_text_en": "Include your name, the VA file number for your appeal, and the reason why you need a new hearing date.",
+                  "source_block_id": "src_eac1506b824bb3f9::b0037",
+                  "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+                  "location": {
+                    "block_index": 37,
+                    "page": 3
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "67",
+                  "source_span_text_en": "Send your written request to the Board.",
+                  "source_block_id": "src_eac1506b824bb3f9::b0037",
+                  "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+                  "location": {
+                    "block_index": 37,
+                    "page": 3
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The user's affirmation clearly selects the rescheduling branch posed in the preceding turn, and the evidence directly supports the instructions.",
+            "evidence_ids": [
+              "src_eac1506b824bb3f9::b0037"
+            ],
+            "reviewer_notes": "short_follow_up_resolved_from_history"
+          }
+        },
+        "response": {
+          "answer": "Yes, you can reschedule or withdraw your Board hearing request. If you need to reschedule, you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date. To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal. You can still submit new evidence within 90 days after withdrawing your hearing request. Send your written request by mail or fax to the Board of Veterans Appeals.",
+          "citations": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0003",
+            "text": "[了解委员会听证会的预期情况]\n## 听证会上会发生什么?\n\n开始时，法官会让你宣着，要求你承诺在听证期间所说的话都是真实的。你和法官会进行对话。法官会听取你的证词，并可能问你一些问题。如果你有代表，他们可能会在听证会上帮助你。然后你将:\n\n-告诉法官为什么你认为自己符合上诉中VA林利的资格\n\n-回答法官关于你上诉的任何问题\n\n-与法官分享任何新证据听证会通常持续30分钟。\n\n## 法官何时会对我的上诉做出决定?\n\n你的听证会籽被记录并添加到你的上诉档案中。你会被询问是否需要一份记录副本供个人保存。法官将在做出决定前审查听证会内容及上诉档案中的其他证据。当提交新证据的90天期限结束时，你的案件将被列入法官决策的日程。如果你没有新证据要提交，你可以放奔自动添加到上诉中的90天期限。一些退伍军人服务组织会要求时间就你的案件提出额外论点，因此如果你考虑放奔这段时间，请先联系你的代表。"
+          },
+          {
+            "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+            "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+          },
+          {
+            "chunk_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0005",
+            "text": "[关于决定复核的常见问题 | 退伍军人事务部 > 如果我请求与退伍军人法律法官举行听证会，我应期待什么？]\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n在听证会上，您和法官将进行对话。法官会听取您的证词。法官可能会问您几个问题。您的代表（如果有）可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后的90天内添加新的相关证据，但这不是必需的。"
+          },
+          {
+            "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004",
+            "text": "[如果我重新安排听证会，会失去排队位置吗?]\n您不会失去排队位置。退伍军人上诉委员会按案卷顺序(即收到请求的顺序)安排听证会。您将保留相同的案逢日期，您的听证会将重新安排到尽可能最早的日期。\n\n## 如果我需要撤回听证会怎么办?\n\n如果您改变主意不想举行听证会，您可以写信给委员会撤回(取消)您的听证会请求。这不会加快您的上诉进度，除非您同时切换到直接审查上诉选项，而该选项只能在特定时间进行。如果您切换到不同的上诉选项，您将保留相同的案卷日期，您的上诉将与具有相同日期的其他上诉同时裁决。但是，每个案什获得裁决所需的时间不同。如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包盒您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。\n\n## 我应该将书面请求或新证据发送至委员会的哪个地址?\n\n您可以通过邮寄或传真发送书面请求，以重新安排或撤回您的委员会听证会。您也可以在听证会之日起90天内提交新证据供法官审核。"
+          },
+          {
+            "chunk_id": "Multiple party or contested claims | Veterans Affairs#1_0::c0000",
+            "text": "# Multiple party or contested claims | Veterans Affairs\n\n## Multiple party or contested claims\n\nIf you re one of multiple people claiming the right to the same benefit, you have 60 days to appeal to a Veterans Law Judge at the Board of Veterans Appeals in Washington, D.C. A judge who s an expert in Veterans law will review your case.\n\n## Mark your calendar\n\nYou have 60 days from the date on your decision to request a Board Appeal.\n\n## Can I add new evidence?\n\nYou have the option to add new evidence for a judge to review. You ll have to submit this evidence within 90 days from the date VA receives your Board Appeal form.\n\nThis option will take longer.\n\n## Can I request a hearing?\n\nYou have the option to request a hearing with a judge. A video conference hearing will take place at a VA location near you.\n\nThis option will take longer.\n\n## What happens at a hearing?\n\nYou and the judge will have a conversation. The judge will listen to your testimony. The judge may ask you a few questions. Your representative, if you have one, may help you at the hearing.\n\nThe hearing will be transcribed and added to your appeal file. You can add new and relevant evidence within 90 days after the hearing, but it isn t required.\n\n## How do I request a Board Appeal?\n\nTo request a Board Appeal, fill out the Decision Review Request: Board Appeal (VA Form 10182). Download VA Form 10182 (PDF)\n\n### Choose one of the 3 options to appeal with a Veterans Law Judge\n\nDirect Review If you want a Veterans Law Judge to review your case as quickly as possible, choose a Direct Review.\n\nYou can t submit any evidence.\n\nAbout 1 year The Board s goal for deciding appeals with no new evidence and no hearing is about a year.\n\nEvidence Submission If you have additional evidence for a Veterans Law Judge to review, choose Evidence Submission.\n\nYou must submit evidence within 90 days of the date VA receives your Board Appeal form.\n\nLonger If you add new evidence, it ll take longer than the Direct Review appeal option.\n\nHearing Request If you want a video conference hearing with a Veterans Law Judge at a nearby VA location, choose a Hearing Request.\n\nAt your hearing, you and a Veterans Law Judge will have a conversation, and they ll ask you questions about your appeal. Your hearing will be transcribed and added to your appeal file. Learn more about hearings and how to request one\n\nYou can add new and relevant evidence within 90 days after the hearing, but it isn t required.\n\nLonger If you request a hearing, it ll take longer than the Direct Review appeal option.\n\n### List the issue(s) you want to appeal in Part III\n\nYou can include all or just some of the issues VA has decided. You ll need to list the issue(s) you disagree with and the VA decision date for each.\n\n### Apply\n\n## Fill out the Decision Review Request: Board Appeal (VA Form 10182). Download VA Form 10182 (PDF)\n\n## By mail\n\n## Send the completed form and any supporting documents to this address:\n\n## Board of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n## In person\n\n## Bring your completed form to a regional benefit office. Find a regional benefit office near you\n\n## By fax\n\nFax your completed form to 844-678-8979.\n\nYou can also ask a regional benefit office for a copy of this form to fill out. Or you can call the VA toll-free hotline at 800-827-1000, Monday through Friday, 8:00 a.m. - 9:00 p.m. ET, to request a form.\n\n## After a Board decision\n\nIf you disagree with the Board s decision, you can appeal to the U.S. Court of Appeals for Veterans Claims. You can hire an attorney to represent you, or you can represent yourself. Learn more about filing a Court Appeal\n\n## Mark your calendar\n\nYou have 120 days from the date on your decision to file a Court Appeal. Note: A Court Appeal must be filed with the Court, not with VA.\n\n## What happens next?\n\n## Find out what happens after you request a decision review\n\nYou don t need to do anything while you wait unless VA sends you a letter asking for more information. If VA schedules exams for you, be sure not to miss them.\n\n## Track the status of your appeal\n\n## What if I need help?\n\nA Veterans Service Organization or VA-accredited attorney or agent can help you request a decision review. Get help requesting a decision review\n\n## What if I have more questions?\n\n## Get answers to frequently asked questions about decision reviews. Go to FAQs"
+          }
+        ],
+        "expected_ai_diagnostic": false
+      },
+      {
+        "case_id": "rerank_windowed_k5:5739237b45a59e99f4282413adb58c89::agent-turn-4",
+        "kind": "advice omits reference flight/passport condition",
+        "item": {
+          "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+          "domain": "dmv",
+          "question_type": "answer",
+          "task_label": "answer",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "5739237b45a59e99f4282413adb58c89",
+            "question_turn_id": 3,
+            "answer_turn_id": 4,
+            "agent_dialogue_act": "respond_solution",
+            "evaluation_category": "answer"
+          },
+          "question": "好消息。如果我有标准身份证呢？",
+          "source_question_en": "Good news. What if I have a standard ID?",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "我需要一些关于更换非驾驶员身份证的指导。你能帮我吗？"
+            },
+            {
+              "role": "agent",
+              "utterance": "当然可以。如果您的非驾驶员身份证丢失或损坏，或者您更新地址后，可以更换。如果您的身份证已过期，则不能更换，您必须续期或申请新的。"
+            }
+          ],
+          "gold_answer": "According to the benchmark document, a Standard ID would not be accepted for boarding a domestic flight starting in October 2020; a passport could be used instead.",
+          "source_gold_answer": "那么从2020年10月起，您将不被允许登机国内航班，除非您持有护照。",
+          "source_gold_answer_en": "Then you will not be allowed to board a domestic flight starting in October 2020 unless you have a Passport.",
+          "question_language": "zh",
+          "answer_language": "zh",
+          "language_relation": "mixed_language",
+          "document_format": "markdown",
+          "history_bucket": "short",
+          "answer_evidence_ids": [
+            "src_91a5a34dade3515b::b0007"
+          ],
+          "answer_doc_ids": [
+            "Replace a non-driver ID card#1_0"
+          ],
+          "required_doc_ids": [
+            "Replace a non-driver ID card#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Replace a non-driver ID card#1_0",
+              "file": "documents/markdown/dmv_118.md",
+              "format": "markdown",
+              "language": "mixed"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Replace a non-driver ID card#1_0",
+              "document_file": "documents/markdown/dmv_118.md",
+              "document_format": "markdown",
+              "document_language": "mixed",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "10",
+                  "source_span_text_en": "if you have a Standard ,",
+                  "source_block_id": "src_91a5a34dade3515b::b0007",
+                  "evidence_text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。",
+                  "location": {
+                    "block_index": 7
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "11",
+                  "source_span_text_en": "you will not be allowed to board a domestic flight starting in October 2020 unless you have a Passport.",
+                  "source_block_id": "src_91a5a34dade3515b::b0007",
+                  "evidence_text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。",
+                  "location": {
+                    "block_index": 7
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The historical benchmark evidence directly answers the Standard-ID branch; the reference explicitly attributes the dated claim to the frozen document.",
+            "evidence_ids": [
+              "src_91a5a34dade3515b::b0007"
+            ],
+            "reviewer_notes": "time_sensitive_source_claim_preserved"
+          }
+        },
+        "response": {
+          "answer": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。您可以在线更换，但新证将显示“NOT FOR FEDERAL PURPOSES”。如果您想保留标准证件并前往办公室办理，需填写MV-44表格并携带当前证件和付款。若证件已过期，则无法更换，需续期或申请新证。",
+          "citations": [
+            "Replace a non-driver ID card#1_0::c0000",
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0004"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Replace a non-driver ID card#1_0::c0000",
+            "text": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+          },
+          {
+            "chunk_id": "Replace license or permit#1_0::c0000",
+            "text": "[更换驾照或许可证 [1] > 如果您计划出行]\n如果您的驾照或许可证（包括商业和增强版）丢失、被盗或损毁，或者您在更新地址后，可以申请更换。如果证件已过期，则无法更换。\n\n如果您即将年满21岁，请在生日前40天内下单。1\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，以免日后再次跑一趟办公室。2 了解Enhanced、REAL ID和Standard证件 [2]。"
+          },
+          {
+            "chunk_id": "Replace a non-driver ID card#1_0::c0006",
+            "text": "[更换非驾驶员身份证 [1] > 相关PDF：]\nmv44.pdf"
+          },
+          {
+            "chunk_id": "Replace a non-driver ID card#1_0::c0002",
+            "text": "[更换非驾驶员身份证 [1] > 在线办理]\n警告：如果您在线更换Standard证件，您的新证件将显示：“NOT FOR FEDERAL PURPOSES”。\n\n不要拖延！今天就获取您的Enhanced或REAL ID。\n\n如果您已持有Enhanced或REAL ID，或者您想保留Standard证件，可以在线更换。您的证件类型将保持不变。\n\n在线更换非驾驶员身份证 [4]"
+          },
+          {
+            "chunk_id": "Replace a non-driver ID card#1_0::c0004",
+            "text": "[更换非驾驶员身份证 [1] > 附加信息]\n#### 如果你即将年满21岁\n\n在生日后40天内下单，以获得不带UNDER 21标识的ID。3\n\n#### 你将在2周内收到新ID\n\n请预留2周时间通过邮件接收。你可以在线查看照片文件的邮寄状态[7]。如果文件处理后两周仍未送达，你可以联系我们[8]。\n\n#### 我们将ID邮寄至我们记录在案的地址\n\n我们会将新的非驾照ID卡邮寄至我们当前记录在案的地址，或你提供的备用地址。\n\n查看如何更改或验证你的地址[9]。\n\n#### 备用邮寄地址\n\n当您通过邮寄或在办公室申请时，可以要求将补发的证件寄送到与您证件上地址不同的地址。4 在线订购时，您不能要求寄送到不同地址。\n\n#### 海外（美国境外）\n\n在海外时，您必须通过邮寄方式更换您的非驾驶员ID卡。请提交\n\n- 一份填写完整的许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n- 可接受的身份证明复印件 [6]\n- 相应的费用\n\n我们还建议您在申请中附上一个预先写好地址的优先邮件回邮信封。这将有助于确保我们将您的新ID寄送到正确的地址。\n\n#### 姓名或其他变更\n\n如果您需要进行地址以外的其他变更，您需要前往DMV办公室。请参阅如何更改您的姓名或其他信息 [10]。\n\n- 1. 从2020年10月开始，您将需要Enhanced或REAL ID才能搭乘国内航班（除非您持有护照）。\n\n如果您的非驾驶员ID是在2017年10月30日之前签发的，并且不是Enhanced，则您持有的是Standard证件。\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 2.\n\n如果您想在办公室更换并保留您的Standard证件类型，请按照以下步骤操作：\n\n步骤1：填写一份许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n\n步骤2：前往办公室。携带\n\n- 您当前的Standard非驾驶员ID\n  - 您的申请表\n  - 付款\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 3. 如果您在21岁生日前41天或更早申请更换驾驶执照，则执照上将显示“UNDER 21”。\n\n- 4. 如果您希望将新的非驾驶员ID卡寄送到备用地址，请附上一份附加说明，并清晰打印备用地址。不要在MV-44表格上填写备用地址。您在MV-44表格上填写的邮寄地址必须是您照片证件和DMV记录上列出的地址。"
+          }
+        ],
+        "expected_ai_diagnostic": false
+      },
+      {
+        "case_id": "rerank_windowed_k5:d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+        "kind": "complete condition response",
+        "item": {
+          "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+          "domain": "va",
+          "question_type": "clarify",
+          "task_label": "clarify",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "d11cf8664fd07b5745c68eb34bb87e3c",
+            "question_turn_id": 7,
+            "answer_turn_id": 8,
+            "agent_dialogue_act": "query_condition",
+            "evaluation_category": "clarification"
+          },
+          "question": "如果我自愿参加涉及chemical and biological tests的研究，我能获得benefits吗？你问的那些requirements必须是真的吗？",
+          "source_question_en": "can I get the benefits if I voluntarily submitted to a research involving chemical and biological tests? the requirements that you ask must be true?",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "如果你暴露于ionizing radiation，你能获得disability吗？"
+            },
+            {
+              "role": "agent",
+              "utterance": "是的，你可能符合disability compensation的条件，包括一些被认为由服役期间接触radiation引起的癌症等疾病。"
+            },
+            {
+              "role": "user",
+              "utterance": "要获得这些benefits，我必须满足哪两个requirements？"
+            },
+            {
+              "role": "agent",
+              "utterance": "你是否患有被认为由radiation引起的illness list上的疾病？"
+            },
+            {
+              "role": "user",
+              "utterance": "据我所知没有，我需要查看illness list。"
+            },
+            {
+              "role": "agent",
+              "utterance": "如果你没有radiation引起的疾病，你就没有资格获得任何disability compensation或benefits。"
+            }
+          ],
+          "gold_answer": "Did the voluntary chemical or biological testing occur between 1942 and 1975, and do you have an injury or illness directly caused by participating in it?",
+          "source_gold_answer": "是的，你是否在1942年至1975年间自愿参加涉及chemical and biological testing的研究？",
+          "source_gold_answer_en": "Yes, did you volunteer for research involving chemical and biological testing between 1942 and 1975?",
+          "question_language": "mixed",
+          "answer_language": "mixed",
+          "language_relation": "mixed_language",
+          "document_format": "pdf_text",
+          "history_bucket": "medium",
+          "answer_evidence_ids": [
+            "src_fc660e04386afb1c::b0029"
+          ],
+          "answer_doc_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0"
+          ],
+          "required_doc_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+              "file": "documents/pdf_text/va_061.pdf",
+              "format": "pdf_text",
+              "language": "zh"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+              "document_file": "documents/pdf_text/va_061.pdf",
+              "document_format": "pdf_text",
+              "document_language": "zh",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "75",
+                  "source_span_text_en": "Both of these must be true.",
+                  "source_block_id": "src_fc660e04386afb1c::b0028",
+                  "evidence_text": "以下两项必须均为真实情况。您：",
+                  "location": {
+                    "block_index": 28,
+                    "page": 2
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "precondition",
+                  "span_id": "77",
+                  "source_span_text_en": "Volunteered for research involving chemical and biological testing between 1942 and 1975, and",
+                  "source_block_id": "src_fc660e04386afb1c::b0029",
+                  "evidence_text": "在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且 有直接由参与这些测试造成的伤害或疾病",
+                  "location": {
+                    "block_index": 29,
+                    "page": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "Eligibility depends on both an unstated testing period and a directly caused injury or illness, as stated in the evidence.",
+            "evidence_ids": [
+              "src_fc660e04386afb1c::b0029"
+            ],
+            "reviewer_notes": "replacement_clarification_verified"
+          }
+        },
+        "response": {
+          "answer": "如果您自愿参加了涉及化学和生物测试的研究，您可能通过美国陆军获得医疗护理，但必须满足以下两项要求：1) 您在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且2) 您有直接由参与这些测试造成的伤害或疾病。这两项要求必须同时为真。请注意，这仅适用于医疗护理，而非残疾补偿。",
+          "citations": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000",
+            "text": "# 芥子气或路易氏剂暴露 | 退伍军人事务部\n\n## 芥子气或路易氏剂暴露\n\n如果您曾接触过芥子气（也称为硫芥子气、伊珀里特或氮芥子气）或路易氏剂（一种含有砷毒物的 天然化合物），您可能患有某些相关的长期疾病。了解您是否有资格获得残疾补偿或福利。\n\n我能从退伍军人事务部获得残疾福利吗？\n\n如果您患有被认为是由接触芥子气或路易氏剂引起的残疾，并且您的军事记录显示您曾接触过芥子 气或路易氏剂，您可能可以获得残疾福利。\n\n如果您曾在陆军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 佛罗里达州布什内尔\n\n- 北卡罗来纳州勒琼营\n\n- 阿拉巴马州西伯特营\n\n- 犹他州达格韦试验场\n\n- 马里兰州埃奇伍德兵工厂\n\n- 华盛顿特区海军研究实验室\n\n- 印度翁达尔\n\n- 科罗拉多州落基山兵工厂\n\n- 巴拿马运河区圣何塞岛\n\n如果您曾在海军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 北卡罗来纳州勒琼营\n\n- 南卡罗来纳州查尔斯顿\n\n- 伊利诺伊州大湖海军训练中心\n\n- 纽约州哈特岛\n\n- 马里兰州班布里奇海军训练中心\n\n- 弗吉尼亚州海军研究实验室\n\n- 华盛顿特区海军研究实验室\n\n- 美国海军鹰艇58号\n\n一些曾参与以下地点测试的服役人员：\n\n- 新几内亚芬什港\n\n- 英格兰波顿当\n\n部分商船海员也在意大利巴里暴露于这些物质。\n\n谁受保障？\n\n退伍军人\n\n我能获得哪种残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n您需要提交残疾补偿申请。\n\n您必须申报实际的疾病或残疾。仅说明您在服役期间接触过芥子气或路易氏剂是不够的。您需要根 据据信因接触这些化学物质之一而导致的疾病来申请。提交申请时，请务必提供任何显示您接触过 起疱剂的军事记录。\n\n了解如何提交残疾补偿申请\n\n## 如果我需要帮助提交残疾申请怎么办？\n\n如果您对与芥子气暴露相关的福利有疑问，您可以通过电子邮件联系我们。\n\n发送电子邮件至 mustardgas@vba.va.gov\n\n您也可以从受过培训、可信赖的专业人士那里获得帮助，他们可以协助处理与VA相关的申请。\n\n获取提交申请的帮助\n\n如果我自愿参加涉及化学和生物测试的研究，我能获得福利吗？\n\n多达60,000名退伍军人自愿参加了美国生物和化学项目的医学研究。如果您参与了这项研究，如果 您满足以下两项要求，您可以通过美国陆军获得医疗护理。\n\n以下两项必须均为真实情况。您：\n\n- 在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且\n\n- 有直接由参与这些测试造成的伤害或疾病\n\n如果您有疑问或需要获得医疗护理的帮助：\n\n- 访问美国陆军网页，或\n\n- 致电800-984-8523\n\n最后更新："
+          },
+          {
+            "chunk_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000",
+            "text": "# 电离辐射暴露 | Veterans Affairs\n\n## 电离辐射暴露\n\n了解您是否有资格获得因军事服役期间接触辐射而引发的疾病（包括某些癌症）的残疾补偿或福利 。\n\n我能从 VA 获得残疾福利吗？\n\n如果您没有不名誉退伍，并且满足以下列出的要求，您可能可以获得残疾福利。\n\n以下两点必须同时满足：\n\n- 您患有我们列出的被认为由辐射引起的疾病，或医生认为可能由辐射引起的疾病，并且\n\n- 您的疾病在特定时间内开始（如疾病列表所示）\n\n查看与辐射相关的疾病列表\n\n并且您在军队服役期间必须以下列方式之一接触过电离辐射。您：\n\n- 参与了大气层核武器试验，或\n\n- 在广岛或长崎战后占领期间服役，或\n\n- 曾是日本的战俘（POW），或\n\n- 担任X光技师、在反应堆工厂工作，或从事核医学或放射摄影工作（在现役期间或在预备役训 练期间），或\n\n- 执行了类似于能源部（DOE）员工的任务，使其成为特殊暴露队列（Special Exposure Cohort）成员（参见 42 U.S.C. 7384L(14)）\n\n如果您曾在以下至少一个地点和身份服役，您也可能有资格获得残疾福利。您：\n\n- 参与了阿拉斯加阿姆奇特卡岛的地下核武器试验，或\n\n- 被分配到肯塔基州帕迪尤卡的气体扩散工厂，或\n\n- 被分配到俄亥俄州朴茨茅斯的气体扩散工厂，或\n\n- 被分配到田纳西州橡树岭K-25区域的气体扩散工厂\n\n谁有资格？\n\n退伍军人\n\n我能获得哪些残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n如何获得这些福利？\n\n您需要提交残疾补偿申请，并提供以下列出的证据（支持文件）：\n\n- 医疗记录，显示您已被诊断患有我们列表中认为由辐射引起的疾病之一，或者您的医生声明这 些疾病可能是由辐射暴露引起的，以及\n\n- 服役记录，显示您参与了上述描述的辐射风险活动之一\n\n注意：当您提交索赔时，我们会要求您服役的军种（或国防威胁降低局）提供他们认为您可能接触 到的辐射剂量范围。我们将使用他们报告的最高水平来决定您的福利。\n\n了解如何提交伤残补偿索赔\n\n最后更新："
+          },
+          {
+            "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0000",
+            "text": "[Agent Orange 暴露 > 我能从 VA 获得残疾福利吗？]\n美国军方在越南战争期间使用 Agent Orange 来清除植物和树木。如果你在越南战争期间在越南服役，或在韩国非军事区（DMZ）内或附近服役，或从事某些相关工作，你可能接触过这种除草剂。我们称此为推定接触。了解你是否可以获得残疾补偿以及我们认为由 Agent Orange 引起的疾病的其它福利。\n\n如果以下描述适用于你，你可能能够获得残疾福利。\n\n这必须是真实的：\n\n- 你患有我们认为由 Agent Orange 引起的疾病（称为推定疾病）\n\n并且以下至少一项也必须为真。你：\n\n- 在军事服役期间接触过 Agent Orange，或\n- 在 1967 年 9 月 1 日至 1971 年 8 月 31 日期间，在 DMZ 内或附近服役任何时长，或\n- 在 1962 年 1 月 9 日至 1975 年 5 月 7 日期间，在越南共和国服役任何时长。这可能包括在内陆水道上服役的船只上，或在距离越南和柬埔寨水域分界线不超过 12 海里的船只上服役（详见 Public Law 116-23，即 2019 年 Blue Water Navy Vietnam Veterans Act）。\n\n查看我们与 Agent Orange 相关的疾病列表了解哪些类型的服役可能使你接触 Agent Orange"
+          },
+          {
+            "chunk_id": "Exposure To Specific Environmental Hazards | Veterans Affairs#1_0::c0000",
+            "text": "# 暴露于特定环境危害 | Veterans Affairs\n\n# 暴露于特定环境危害\n\n如果你在伊拉克、阿富汗及其他地区服役期间接触过某些环境危害，你可能患有被认为是由空气、水或土壤中的这些有毒化学物质引起的疾病或其他状况。了解你是否可以获得残疾补偿或福利。\n\n### 我能从 VA 获得残疾福利吗？\n\n如果你患有被认为是由服役期间接触环境危害（可能包括接触以下物质）引起的疾病或其他状况，你可能可以获得残疾福利：\n\n- 伊拉克、阿富汗以及非洲之角吉布提的大型燃烧坑产生的颗粒物\n- 伊拉克摩苏尔附近 Mishraq 国家硫磺矿的大型硫磺火灾\n- 伊拉克巴士拉 Qarmat Ali 水处理厂的六价铬\n- 日本厚木海军航空设施附近垃圾焚烧炉产生的污染物\n\n### 谁符合条件？\n\n- 退伍军人\n\n## 我能获得哪种残疾福利？\n\n- 医疗保健\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n你需要提交残疾补偿申请。了解如何提交残疾补偿申请\n\n提交申请时，你必须证明你的健康问题与服役期间接触某些环境危害有关。务必提交所有支持你曾接触某些环境危害的信息（如 Burn Pit Registry）。查看 Burn Pit Registry\n\n最后更新："
+          },
+          {
+            "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0003",
+            "text": "[Agent Orange 暴露 > 我如何获得这些福利？]\n你需要提交残疾补偿申请并提交你的证据（支持文件）。\n\n### 如果你患有我们认为由 Agent Orange 引起的疾病\n\n你不需要证明问题是在服役期间开始或因服役而恶化。这是因为我们认为某些疾病是接触除草剂的结果。我们称这些为推定疾病。\n\n查看我们与Agent Orange相关的疾病列表\n\n- **当你提交索赔时，你需要提交：**\n  - 一份显示你患有与Agent Orange相关疾病的医疗记录\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在美国军用船只上进入越南内河航道，或\n  - 曾在距离越南和柬埔寨水域分界线不超过12海里的船只上服役（详见Public Law 116-23，即2019年《Blue Water Navy Vietnam Veterans Act》），或\n  - 曾在越南或朝鲜非军事区以外的地点接触过除草剂\n\n了解如何提交残疾补偿索赔\n\n### 如果你患有不在Agent Orange相关疾病列表上的疾病，但你认为是由Agent Orange引起的\n\n你需要：\n\n- 提供科学和医学证据，证明该疾病与接触Agent Orange有关，或\n- 证明该问题是在服役期间开始或因服役而加重\n\n科学证据可能包括医学期刊上的文章或已发表的研究。\n\n- **当你提交索赔时，你需要提交一份医疗记录，显示：**\n  - 你目前有残疾，并且\n  - Agent Orange暴露与你的当前残疾之间存在联系\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在越南或朝鲜非军事区以外的地点接触过Agent Orange\n\n了解如何提交残疾补偿索赔"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "rerank_windowed_k5:2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "kind": "complete directly requested loan guidance",
+        "item": {
+          "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+          "domain": "studentaid",
+          "question_type": "answer",
+          "task_label": "answer",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "2e0eae56e500ce599d2e50df42584392",
+            "question_turn_id": 6,
+            "answer_turn_id": 7,
+            "agent_dialogue_act": "respond_solution",
+            "evaluation_category": "answer"
+          },
+          "question": "那贷款呢，有什么建议吗？",
+          "source_question_en": "what about loans, any tips?",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "只是想了解一下如何获得经济援助"
+            },
+            {
+              "role": "agent",
+              "utterance": "好的，别忘了尝试接受你无需偿还的经济援助资金"
+            },
+            {
+              "role": "agent",
+              "utterance": "你的学校经济援助办公室是否已经给你发送了援助通知？"
+            },
+            {
+              "role": "user",
+              "utterance": "还没有，我还没问过"
+            },
+            {
+              "role": "agent",
+              "utterance": "不幸的是，没有找到相关信息。"
+            }
+          ],
+          "gold_answer": "制定预算，这样你只借你需要的金额",
+          "source_gold_answer": "制定预算，这样你只借你需要的金额",
+          "source_gold_answer_en": "Make a budget so you borrow only what you need",
+          "question_language": "zh",
+          "answer_language": "zh",
+          "language_relation": "cross_lingual",
+          "document_format": "markdown",
+          "history_bucket": "medium",
+          "answer_evidence_ids": [
+            "src_7741551c12184f3e::b0014"
+          ],
+          "answer_doc_ids": [
+            "Accepting Aid | Federal Student Aid#1_0"
+          ],
+          "required_doc_ids": [
+            "Accepting Aid | Federal Student Aid#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+              "file": "documents/markdown/studentaid_001.md",
+              "format": "markdown",
+              "language": "en"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+              "document_file": "documents/markdown/studentaid_001.md",
+              "document_format": "markdown",
+              "document_language": "en",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "31",
+                  "source_span_text_en": "To determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them ;",
+                  "source_block_id": "src_7741551c12184f3e::b0014",
+                  "evidence_text": "To determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them; in other words, make a budget to help ensure you borrow only what you need.",
+                  "location": {
+                    "block_index": 14
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "32",
+                  "source_span_text_en": "in other words, make a budget to help ensure you borrow only what you need.",
+                  "source_block_id": "src_7741551c12184f3e::b0014",
+                  "evidence_text": "To determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them; in other words, make a budget to help ensure you borrow only what you need.",
+                  "location": {
+                    "block_index": 14
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The evidence directly recommends budgeting to determine how much loan money is actually needed.",
+            "evidence_ids": [
+              "src_7741551c12184f3e::b0014"
+            ],
+            "reviewer_notes": "remaining_initial_dev_answer_verified"
+          }
+        },
+        "response": {
+          "answer": "关于贷款，建议遵循“先免费资金，后赚取资金，最后借贷资金”的原则。如果必须接受贷款，应优先选择联邦学生贷款，因为它们通常具有最优惠的条款和条件。只借你需要的金额，并制定预算以确保这一点。如果你对贷款类型或还款条款有疑问，请联系学校的财政援助办公室。此外，如果你或你的家庭成员服兵役，可能有资格获得利率限制、利息减免或延期还款等福利，请联系你的贷款服务商了解详情。",
+          "citations": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000",
+            "Aid for Military Families | Federal Student Aid#1_0::c0003"
+          ],
+          "action": "answer"
+        },
+        "contexts": [
+          {
+            "chunk_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+            "text": "# 寻找和申请奖学金 | 联邦学生援助\n\n# 尽可能多地寻找和申请奖学金——这是上大学或职业学校的免费资金！\n\n尽早开始研究，并按时提交申请，你可能会在奖学金申请上取得成功。\n\n奖学金是赠款，无需偿还。有数千种奖学金，由学校、雇主、个人、私营公司、非营利组织、社区、宗教团体以及专业和社会组织提供。\n\n## 有哪些类型的奖学金？\n\n一些大学奖学金是基于成绩的。你通过达到或超过奖学金提供者设定的某些标准来获得它们。成绩奖学金可能基于学业成就或学业与特殊才能、特质或兴趣的结合来授予。其他奖学金则基于经济需求。\n\n许多奖学金面向特定人群；例如，有面向女性或研究生的奖学金。还有一些奖学金是因为你或你父母的工作地点，或者因为你来自某个特定背景（例如，有面向军人家庭的奖学金）。\n\n奖学金可能覆盖你的全部学费，也可能是一次性几百美元的奖励。无论如何，都值得申请，因为它将有助于降低你的教育成本。\n\n## 如何找到奖学金？\n\n你可以通过多种方式了解奖学金，包括联系你计划就读学校的财务援助办公室，以及在公共图书馆或网上查看信息。但要小心。确保你收到的奖学金信息和录取通知是合法的；并记住，你不必付费就能找到奖学金或其他财务援助。查看我们关于如何避免诈骗的信息。\n\n尝试这些免费的奖学金信息来源：\n\n- 大学或职业学校的财务援助办公室\n- 高中或TRIO顾问\n- 美国劳工部的免费奖学金搜索工具\n-\n- 你所在州的助学金机构\n- 你图书馆的参考书区\n- 基金会、宗教或社区组织、当地企业或公民团体\n- 与你兴趣领域相关的组织（包括专业协会）\n- 基于族裔的组织\n- 你的雇主或你父母的雇主\n\n## 我什么时候申请奖学金？\n\n这取决于每个奖学金的截止日期。有些截止日期早在大学开学前一年，所以如果你现在在读高中，你应该在高二和高三之间的暑假研究和申请奖学金。但如果你错过了那个时间窗口，不要放弃！查看奖学金信息，看看现在还有哪些你可以申请。\n\n## 我如何申请奖学金？\n\n每个奖学金都有自己的要求。奖学金的网站应该会告诉你谁有资格获得该奖学金以及如何申请。确保你仔细阅读申请表，完整填写，并在申请截止日期前提交。\n\n## 我如何获得奖学金资金？\n\n这取决于奖学金。资金可能直接支付给你的大学，用于支付你欠下的任何学费、杂费或其他金额，然后剩余的资金会给你。或者可能以支票形式直接寄给你。奖学金提供者在通知你获得奖学金时，应该会告诉你预期情况。如果没有，一定要询问。\n\n## 奖学金如何影响我的其他学生资助？\n\n奖学金会影响你的其他学生资助，因为你所有学生资助加起来不能超过你在大学或职业学校的出勤成本。因此，如果你获得了奖学金，你需要告知你的学校，以便经济援助办公室从你的出勤成本（以及你可能获得的其他某些援助，如贷款）中减去该金额。然后，剩余的任何金额可以由你有资格获得的其他经济援助来覆盖。有问题吗？请咨询你的经济援助办公室。"
+          },
+          {
+            "chunk_id": "Loan Servicers | Federal Student Aid#1_0::c0003",
+            "text": "[谁是我的学生贷款服务商？ > 贷款信息联系谁]\n如果你的贷款是针对当前或即将到来的学年，请直接联系你学校的财务援助办公室以获取以下信息：\n\n- 贷款状态，\n- 取消全部或部分贷款或贷款发放的时间范围，以及\n- 贷款发放金额和时间。\n\n只有你学校的财务援助办公室能提供这些信息。\n\n如果你的贷款是在过去的学年发放的，而你仍在就读，请保持你的联系信息在学校最新，并在以下情况时联系你的贷款服务商：\n\n- 退学，\n- 毕业，\n- 注册状态降至半日制以下，或\n- 停止上学。\n\n如果你不再就读，请在以下情况时联系你的贷款服务商：\n\n- 更改您的姓名、地址或电话号码；\n- 需要帮助偿还贷款；\n- 对账单有疑问；或\n- 有其他关于学生贷款的问题。"
+          },
+          {
+            "chunk_id": "Accepting Aid | Federal Student Aid#1_0::c0000",
+            "text": "# Accepting Aid | Federal Student Aid\n\n# Accepting Financial Aid\n\nFirst, accept the financial aid funds you don t have to pay back.\n\nWhen your school financial aid office sends you an aid offer, they ll ask you to indicate which financial aid you want. Look carefully at your options and make an informed decision.\n\n## Choosing the Best Financial Aid to Accept\n\nKeep the following in mind when you get an aid offer and are deciding which aid is the best to accept:\n\n- Free money first (e.g., scholarships, grants)\n- Earned money second (e.g., work-study)\n- Borrowed money last (e.g., federal student loans)\n\nStart from the top of this table and work your way down:\n\nMany schools also offer tuition payment plans (a monthly interest-free payment toward tuition). This type of plan may help reduce the amount you need to take out in loans. Ask your financial aid office if such a plan is available.\n\n## Deciding Which Student Loans to Accept\n\nIf you must accept loans, accept the ones with the most favorable terms and conditions. Usually, that means choosing the federal student loans offered to you. If you are considering getting a state loan, school loan, or private student loan, you should learn about the differences between federal and other loans.\n\nIf you have any questions or don t understand what types of loans are in your aid offer, contact the school. Make sure you understand what you re accepting and the repayment terms.\n\nBorrow only what you need! If your living expenses are not going to be as high as the amount estimated by your school, you have the right to turn down the loan or to request a lower loan amount. In the aid offer, your school will tell you how to do this.\n\nTo determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them; in other words, make a budget to help ensure you borrow only what you need.\n\nRemember: If you don t accept the full amount of the loan you re eligible for, you can increase the amount later.\n\n## Informing Your School About Aid You ll Accept\n\nYour student aid offer will include directions on accepting aid. Follow those directions carefully. You might have to enter the amounts you re accepting in an online form and then submit the form. If you receive a paper aid offer, you might have to sign it and mail it back to the school.\n\nAccepting a loan or grant listed in the aid offer may involve additional steps, which vary depending on the type of loan or grant you re receiving. Saying yes may be as simple as signing a promissory note a contract between you and the lender* that specifies the terms and conditions of the loan or it may include entrance counseling if this is your first federal loan.\n\nBy signing the promissory note, you are promising to repay your student loan. The financial aid office will guide you through the paperwork or direct you to the online *Master Promissory Note* if appropriate.\n\n*If you take out a loan from the Direct Loan Program, the U.S. Department of Education will be your lender."
+          },
+          {
+            "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0003",
+            "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+          },
+          {
+            "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+            "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 获取帮助]\n如果您在填写FAFSA表格时需要帮助，请使用这些免费工具：\n\n- 选择FAFSA问题旁边的蓝白问号图标，查看提供有关如何回答该问题的信息的“工具提示”。\n- 在在线FAFSA表格中，工具提示可能有“更多帮助”链接以获取更多信息。您还可以选择工具提示底部的“帮助”按钮进入FAFSA帮助页面，在那里您可以浏览常见问题解答、搜索更多信息或点击“联系我们”。\n- 一旦您点击“联系我们”，您可以选择通过电子邮件向我们提问，或者在工作时间内与实时技术支持人员聊天（英语或西班牙语）。（在myStudentAid移动应用程序中，您可以通过屏幕右上角的三条平行线汉堡菜单找到联系信息。）\n- 联系您计划就读的学院或职业学校的财政援助办公室。"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "6c1a20:reference-positive",
+        "kind": "constructed source-grounded positive control",
+        "item": {
+          "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+          "domain": "va",
+          "question_type": "answer",
+          "task_label": "answer",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "6c1a20b6f6cad4c623a877f50bbc54e8",
+            "question_turn_id": 14,
+            "answer_turn_id": 15,
+            "agent_dialogue_act": "respond_solution",
+            "evaluation_category": "answer"
+          },
+          "question": "Yes",
+          "source_question_en": "Yes",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "Hello I need information about what to expect at my Board hearing"
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you want to know specifically what will happen to your audience?"
+            },
+            {
+              "role": "user",
+              "utterance": "do not"
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you want to know when the judge will make a decision on your appeal?"
+            },
+            {
+              "role": "user",
+              "utterance": "Yes"
+            },
+            {
+              "role": "agent",
+              "utterance": "Your hearing will be transcribed and added to your appeal file. You will be asked if you want a copy of the transcript for your personal records. The judge will review the hearing and other evidence in your appeal file before making a decision."
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you know how long you can present new evidence to your case?"
+            },
+            {
+              "role": "user",
+              "utterance": "do not"
+            },
+            {
+              "role": "agent",
+              "utterance": "Do you have new evidence to present?"
+            },
+            {
+              "role": "user",
+              "utterance": "Yes"
+            },
+            {
+              "role": "agent",
+              "utterance": "Good in the event that you have new evidence to present, it will take 90 days. If you don't have new evidence to present, you can waive the 90-day period that is automatically added to your appeal. Some Veterans Service Organizations will ask for time to present additional arguments in support of your case, so please contact your representative first if you are considering waiving this time period."
+            },
+            {
+              "role": "user",
+              "utterance": "ok, and can I reschedule or withdraw my Board hearing request?"
+            },
+            {
+              "role": "agent",
+              "utterance": "you want to know What if you need to reschedule your audience?"
+            }
+          ],
+          "gold_answer": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+          "source_gold_answer": "You must send a written request to the Veterans Appeals Board with good reason to reschedule your hearing at least 2 weeks before your hearing. Include your name, the VA file number for your appeal, and the reason you need a new hearing date. Submit your request in writing to the Board.",
+          "source_gold_answer_en": "You must send a written request to the Veterans Appeals Board with good reason to reschedule your hearing at least 2 weeks before your hearing. Include your name, the VA file number for your appeal, and the reason you need a new hearing date. Submit your request in writing to the Board.",
+          "question_language": "en",
+          "answer_language": "en",
+          "language_relation": "cross_lingual",
+          "document_format": "pdf_scanned",
+          "history_bucket": "long",
+          "answer_evidence_ids": [
+            "src_eac1506b824bb3f9::b0037"
+          ],
+          "answer_doc_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+          ],
+          "required_doc_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+              "file": "documents/pdf_scanned/va_016.pdf",
+              "format": "pdf_scanned",
+              "language": "zh"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+              "document_file": "documents/pdf_scanned/va_016.pdf",
+              "document_format": "pdf_scanned",
+              "document_language": "zh",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "64",
+                  "source_span_text_en": "What if I need to reschedule my hearing?",
+                  "source_block_id": "src_eac1506b824bb3f9::b0036",
+                  "evidence_text": "如果我需要重新安排听证会怎么办？",
+                  "location": {
+                    "block_index": 36,
+                    "page": 3
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "65",
+                  "source_span_text_en": "You ll need to send a written request to the Board of Veterans Appeals providing good cause to reschedule your hearing at least 2 weeks before your hearing.",
+                  "source_block_id": "src_eac1506b824bb3f9::b0037",
+                  "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+                  "location": {
+                    "block_index": 37,
+                    "page": 3
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "66",
+                  "source_span_text_en": "Include your name, the VA file number for your appeal, and the reason why you need a new hearing date.",
+                  "source_block_id": "src_eac1506b824bb3f9::b0037",
+                  "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+                  "location": {
+                    "block_index": 37,
+                    "page": 3
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "67",
+                  "source_span_text_en": "Send your written request to the Board.",
+                  "source_block_id": "src_eac1506b824bb3f9::b0037",
+                  "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+                  "location": {
+                    "block_index": 37,
+                    "page": 3
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The user's affirmation clearly selects the rescheduling branch posed in the preceding turn, and the evidence directly supports the instructions.",
+            "evidence_ids": [
+              "src_eac1506b824bb3f9::b0037"
+            ],
+            "reviewer_notes": "short_follow_up_resolved_from_history"
+          }
+        },
+        "response": {
+          "answer": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+          "action": "answer",
+          "citations": [
+            "reference-block"
+          ]
+        },
+        "contexts": [
+          {
+            "chunk_id": "reference-block",
+            "text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。\n您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。\n您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      },
+      {
+        "case_id": "573923:reference-positive",
+        "kind": "constructed source-grounded positive control",
+        "item": {
+          "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+          "domain": "dmv",
+          "question_type": "answer",
+          "task_label": "answer",
+          "synthetic": false,
+          "answerable": true,
+          "source": {
+            "dialogue_id": "5739237b45a59e99f4282413adb58c89",
+            "question_turn_id": 3,
+            "answer_turn_id": 4,
+            "agent_dialogue_act": "respond_solution",
+            "evaluation_category": "answer"
+          },
+          "question": "好消息。如果我有标准身份证呢？",
+          "source_question_en": "Good news. What if I have a standard ID?",
+          "conversation_history": [
+            {
+              "role": "user",
+              "utterance": "我需要一些关于更换非驾驶员身份证的指导。你能帮我吗？"
+            },
+            {
+              "role": "agent",
+              "utterance": "当然可以。如果您的非驾驶员身份证丢失或损坏，或者您更新地址后，可以更换。如果您的身份证已过期，则不能更换，您必须续期或申请新的。"
+            }
+          ],
+          "gold_answer": "According to the benchmark document, a Standard ID would not be accepted for boarding a domestic flight starting in October 2020; a passport could be used instead.",
+          "source_gold_answer": "那么从2020年10月起，您将不被允许登机国内航班，除非您持有护照。",
+          "source_gold_answer_en": "Then you will not be allowed to board a domestic flight starting in October 2020 unless you have a Passport.",
+          "question_language": "zh",
+          "answer_language": "zh",
+          "language_relation": "mixed_language",
+          "document_format": "markdown",
+          "history_bucket": "short",
+          "answer_evidence_ids": [
+            "src_91a5a34dade3515b::b0007"
+          ],
+          "answer_doc_ids": [
+            "Replace a non-driver ID card#1_0"
+          ],
+          "required_doc_ids": [
+            "Replace a non-driver ID card#1_0"
+          ],
+          "required_documents": [
+            {
+              "doc_id": "Replace a non-driver ID card#1_0",
+              "file": "documents/markdown/dmv_118.md",
+              "format": "markdown",
+              "language": "mixed"
+            }
+          ],
+          "candidate_doc_ids": [],
+          "candidate_documents": [],
+          "evidence": [
+            {
+              "doc_id": "Replace a non-driver ID card#1_0",
+              "document_file": "documents/markdown/dmv_118.md",
+              "document_format": "markdown",
+              "document_language": "mixed",
+              "spans": [
+                {
+                  "source_turn": "question",
+                  "label": "precondition",
+                  "span_id": "10",
+                  "source_span_text_en": "if you have a Standard ,",
+                  "source_block_id": "src_91a5a34dade3515b::b0007",
+                  "evidence_text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。",
+                  "location": {
+                    "block_index": 7
+                  }
+                },
+                {
+                  "source_turn": "answer",
+                  "label": "solution",
+                  "span_id": "11",
+                  "source_span_text_en": "you will not be allowed to board a domestic flight starting in October 2020 unless you have a Passport.",
+                  "source_block_id": "src_91a5a34dade3515b::b0007",
+                  "evidence_text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。",
+                  "location": {
+                    "block_index": 7
+                  }
+                }
+              ]
+            }
+          ],
+          "review": {
+            "reviewer_type": "ai_agent",
+            "independent_human_review": false,
+            "label_reason": "The historical benchmark evidence directly answers the Standard-ID branch; the reference explicitly attributes the dated claim to the frozen document.",
+            "evidence_ids": [
+              "src_91a5a34dade3515b::b0007"
+            ],
+            "reviewer_notes": "time_sensitive_source_claim_preserved"
+          }
+        },
+        "response": {
+          "answer": "According to the benchmark document, a Standard ID would not be accepted for boarding a domestic flight starting in October 2020; a passport could be used instead.",
+          "action": "answer",
+          "citations": [
+            "reference-block"
+          ]
+        },
+        "contexts": [
+          {
+            "chunk_id": "reference-block",
+            "text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。"
+          }
+        ],
+        "expected_ai_diagnostic": true
+      }
+    ],
+    "code_sha256": {
+      "/Users/yishanma/Desktop/aia-rag/src/evaluation/diagnose_conditions_v14.py": "38a39511ab1b33b1b578c9c9664cf1313c73837cfd4db9cc346142ef29518e3e",
+      "src/evaluation/correctness_v14.py": "5f89c06cacbffefd5576d9aac94b43e1586d9adf97522fc6a20c0c05fce73e51",
+      "src/evaluation/judge_diagnostics.py": "92cbfde6ff5eeb3d39e31f3c46e13ad3a38fbcdf7dcb315b94dc5a83b826044d",
+      "src/evaluation/paid_calls_v1.py": "7f8ee7acf6142eb5e2681562edd5e8bbb5d2ecb4edee718fa64749bca2e52601",
+      "src/evaluation/rubric_v11.py": "7e68435dd442e1209e8f1df29e5ad25f3cd2fb4e315693883e26d62fdd6e129b",
+      "src/evaluation/prompts_v1.py": "c39109cd472f03c71264265cabdc875c0ea95c4b7ab20810bdbde9bf9043bbb1"
+    }
+  },
+  "binding_sha256": "414c9dca89c33d6d7fd5c0f279d45c652c51bba3ba8f07b48d9710bb433b725d"
+}

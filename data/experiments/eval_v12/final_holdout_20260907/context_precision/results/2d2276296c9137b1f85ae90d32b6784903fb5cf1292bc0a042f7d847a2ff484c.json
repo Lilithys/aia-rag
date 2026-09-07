@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "2d2276296c9137b1f85ae90d32b6784903fb5cf1292bc0a042f7d847a2ff484c",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.0,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about college preparation checklists and a YouTube playlist, but it does not contain any information about program reviewers or what they do. The answer about reviewers evaluating schools for compliance with federal student aid requirements is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4cd387715e954f55b6b68a8f4eafaef4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1712,
+                "completion_tokens": 64,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 64,
+                  "prompt_tokens": 1712,
+                  "total_tokens": 1776,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 944
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0017424,
+              "accounted_rmb": 0.0017424,
+              "usage_unknown": false,
+              "seconds": 1.5168941020965576,
+              "error": null,
+              "response": {
+                "id": "05c7886e-bc72-46eb-a8c5-44d36e34238c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "855fd5daf97bb4cdea4dafe1d111c00203ebbab7a9193e6f81c9b32b64588d3d"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses preparing for college, including steps and resources, but does not mention anything about program reviews or the role of reviewers. The answer about reviewers is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "be86eaca28684130a132f2209db2ea9e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1642,
+                "completion_tokens": 52,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1642,
+                  "total_tokens": 1694,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 874
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015834,
+              "accounted_rmb": 0.0015834,
+              "usage_unknown": false,
+              "seconds": 1.3266878128051758,
+              "error": null,
+              "response": {
+                "id": "08a908e2-851a-4b2f-a062-95f0a5cae6eb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e8dd000d8f42bd3419c3e8405af3484ca683513c0f561d8613f3c8bd7d7037d1"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about reducing college costs and preparing for college, but it does not contain any details about the role of program reviewers or what they do. The answer about reviewers is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2ca9a486a66d40d3866e7c7785a2aadd",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1858,
+                "completion_tokens": 57,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 1858,
+                  "total_tokens": 1915,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 962
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0017443,
+              "accounted_rmb": 0.0017443,
+              "usage_unknown": false,
+              "seconds": 1.3113417625427246,
+              "error": null,
+              "response": {
+                "id": "965226d2-6b6c-4c02-a8f9-5951f2364425",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b7a4a9074bbb3d47b36b0908f05dc1f009766f39e5ff952137e211b9d429a5eb"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about choosing colleges, including costs, financial aid, accreditation, and other factors, but it does not mention the role of a reviewer or program review. The answer about reviewers evaluating schools for federal student aid compliance is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "61e7649af6d1467bb4c69a469037f645",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1880,
+                "completion_tokens": 68,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 68,
+                  "prompt_tokens": 1880,
+                  "total_tokens": 1948,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 984
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018268,
+              "accounted_rmb": 0.0018268,
+              "usage_unknown": false,
+              "seconds": 1.308915138244629,
+              "error": null,
+              "response": {
+                "id": "bd8e683f-b1b9-4f80-a39f-9b454bb321c9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0955511bcd993f14e1071d7a6608e458bb8150cf623e14ae056dea2ce452301a"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses scholarships and financial aid for college, but does not contain information about program reviewers or their duties. The answer about reviewers evaluating schools for federal student aid compliance is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ecfbc8addd2a4c5b8f2ac9f0e2873495",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1749,
+                "completion_tokens": 55,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1749,
+                  "total_tokens": 1804,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 853
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015718,
+              "accounted_rmb": 0.0015718,
+              "usage_unknown": false,
+              "seconds": 1.4874660968780518,
+              "error": null,
+              "response": {
+                "id": "ab452c1c-c1d9-402b-a0ee-831837fc62ae",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e918f67fcb4a728911ec5d14925ce16b16f7f6042710a113d89a71df2944afce"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "1cc453bdfa6b6fbf6d1eabddc610330f0999b66ffdae81a0e39054aeed30b6a0"
+}

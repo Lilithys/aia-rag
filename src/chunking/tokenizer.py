@@ -24,8 +24,8 @@ def encode(text: str) -> list[int]:
     return _ENCODING.encode(text)
 
 
-def decode(tokens: list[int]) -> str:
-    return _ENCODING.decode(tokens)
+def decode(tokens: list[int], errors: str = "replace") -> str:
+    return _ENCODING.decode(tokens, errors=errors)
 
 
 def tail_text(text: str, n_tokens: int) -> str:
@@ -33,4 +33,10 @@ def tail_text(text: str, n_tokens: int) -> str:
     if n_tokens <= 0:
         return ""
     ids = _ENCODING.encode(text)
-    return _ENCODING.decode(ids[-n_tokens:])
+    start = max(0, len(ids) - n_tokens)
+    while start < len(ids):
+        try:
+            return _ENCODING.decode(ids[start:], errors="strict")
+        except UnicodeDecodeError:
+            start += 1  # omit an incomplete leading character from overlap only
+    return ""

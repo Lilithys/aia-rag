@@ -1,0 +1,118 @@
+{
+  "payload": {
+    "task_id": "a5306a960f55e4616e25b2cac5edf5e22c55b6b9c1e18eec6d90cb235d88b7ed",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "根据检索到的信息，VA医疗保健的资格匹配主要依据您的服役记录、收入状况以及是否患有与服务相关的残疾等因素。",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The claim about eligibility factors is not explicitly stated in the provided contexts; contexts only mention applying and getting help, not the specific factors."
+              },
+              {
+                "text": "您可以通过拨打免费热线877-222-8387（周一至周五，东部时间上午8:00至晚上8:00）或联系授权代表来获取帮助。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004"
+                ],
+                "reason": "The context explicitly provides the toll-free number, hours, and authorized representative option."
+              },
+              {
+                "text": "此外，您也可以访问VA.gov在线申请或管理您的医疗保健福利。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VA.gov Home | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists 'Apply for VA health care' and 'Manage your health and benefits online' under VA.gov."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "39cb63ec475945d8b25461fcde2856d0",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1850,
+                "completion_tokens": 305,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 305,
+                  "prompt_tokens": 1850,
+                  "total_tokens": 2155,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1466
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0035906999999999996,
+              "accounted_rmb": 0.0035906999999999996,
+              "usage_unknown": false,
+              "seconds": 2.59726881980896,
+              "error": null,
+              "response": {
+                "id": "825fc55b-9eaa-4364-8e67-c047a51526d5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "aca5bd7d0c4ccc674dc5950bc103b4d8f25f689c0f2f80fbe9bf9f41f83511b4"
+        }
+      ],
+      "score": 0.6666666666666666,
+      "external_claims": 3,
+      "supported_external_claims": 2,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "根据检索到的信息，VA医疗保健的资格匹配主要依据您的服役记录、收入状况以及是否患有与服务相关的残疾等因素。",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The claim about eligibility factors is not explicitly stated in the provided contexts; contexts only mention applying and getting help, not the specific factors."
+        },
+        {
+          "text": "您可以通过拨打免费热线877-222-8387（周一至周五，东部时间上午8:00至晚上8:00）或联系授权代表来获取帮助。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004"
+          ],
+          "reason": "The context explicitly provides the toll-free number, hours, and authorized representative option."
+        },
+        {
+          "text": "此外，您也可以访问VA.gov在线申请或管理您的医疗保健福利。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA.gov Home | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists 'Apply for VA health care' and 'Manage your health and benefits online' under VA.gov."
+        }
+      ]
+    }
+  },
+  "sha256": "083238cb12a9d816c438edb979549a49395887bfd06ac39bd4af5f01a839195e"
+}

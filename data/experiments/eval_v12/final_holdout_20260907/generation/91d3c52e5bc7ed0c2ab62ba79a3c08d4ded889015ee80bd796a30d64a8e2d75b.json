@@ -1,0 +1,204 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "fdcc0e48a91906613b2aa0d44eeeefbe::agent-turn-10",
+    "item_sha256": "3a3c19c85a593fa4300fcf2795459511e67049a541569ca8c0aa7b30c4082a60",
+    "result": {
+      "request_id": "e28c1377673b4d2eb4aae159c67d2b9a",
+      "session_id": "fdcc0e48a91906613b2aa0d44eeeefbe",
+      "turn_id": 9,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "You can apply online, by phone, or with your local Social Security office. To apply by phone, call 1-800-772-1213 (TTY 1-800-325-0778) from 8:00 a.m. to 5:30 p.m., Monday through Friday. You can also contact your local office using the Field Office Locator; although offices are closed to the public, employees are assisting by telephone. If you prefer to apply in a language other than English, the online application will give you the option to schedule an appointment to apply in your preferred language. Regarding special characters like the 'ñ' in your name, the online application may not accept periods, commas, or other special characters in some fields (e.g., addresses). If you use a character that a field cannot accept, you will get a message telling you there is a problem and what caused it. Applying by phone or with a representative may allow you to provide your name as it appears on official documents.",
+        "citations": [
+          "Apply for Retirement Benefits | SSA#1_0::c0002",
+          "Retirement Benefits | Social Security Administration#1_0::c0005",
+          "Retirement Benefits | Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#2_0::c0000",
+          "text": "[Retirement Benefits | Social Security Administration > Apply for Retirement Benefits]\nSocial Security offers an online retirement application that you can complete in as little as 15 minutes. It's so easy. Better yet, you can apply from the comfort of your home or office at a time most convenient for you. There's no need to drive to a local Social Security office or wait for an appointment with a Social Security representative.\n\nIn most cases, once your application is submitted electronically, you're done. Social Security will process your application and contact you by telephone or by mail if any further information is needed.\n\nApply for Retirement Benefits\n\nReturn to a Saved Application \\| Check Application Status\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English."
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0000",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > Apply for Retirement Benefits]\nSocial Security offers an online retirement application that you can complete in as little as 15 minutes. It's so easy. Better yet, you can apply from the comfort of your home or office at a time most convenient for you. There's no need to drive to a local Social Security office or wait for an appointment with a Social Security representative.\n\nIn most cases, once your application is submitted electronically, you're done. Social Security will process your application and contact you by telephone or by mail if any further information is needed.\n\nApply for Retirement Benefits\n\nReturn to a Saved Application \\| Check Application Status\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English."
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#2_0::c0000",
+          "text": "[Disability Benefits | Social Security Administration > MANAGE YOUR BENEFITS]\nLearn about Disability Benefits\n\nSocial Security pays disability benefits to people who can't work because they have a medical condition that's expected to last at least one year or result in death. Find out if you qualify and how Social Security can help you.\n\nUSE OUR DISABILITY PLANNER\n\nAlready Receiving Benefits\n\nIf you receive Social Security disability benefits, you can get information and services for managing your benefits online.\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English.\n\nApply for Disability Return to a Saved Application Check Application or Appeal Status\n\nWho can apply for adult disability benefits online?\n\nYou can use the online application to apply for disability benefits if you:\n\n- Are age 18 or older;\n\n- Are not currently receiving benefits on your own Social Security record;\n\n- Are unable to work because of a medical condition that is expected to last at least 12 months or result in death; and\n\n- Have not been denied disability benefits in the last 60 days. If your application was recently denied, our Internet Appeal application is a starting point to request a review of the determination we made.\n\nYou can now also file for Supplemental Security Income (SSI) online but only if you meet certain requirements. You are eligible to file online for SSI if you:\n\n- Are between the ages of 18 and 65;\n\n- Have never been married;\n\n- Aren t blind;\n\n- Are a U.S. citizen residing in one of the fifty states, District of Columbia, or the Northern Mariana Islands;\n\n- Haven t applied for or received SSI benefits in the past; and\n\n- Are applying for Social Security Disability Insurance at the same time as your SSI claim. Find out if you are eligible to receive Social Security Disability Benefits.\n\nOnce you finish the online process, a Social Security representative will contact you by telephone or by mail for any additional information needed for the applications.\n\nYou can also schedule an appointment with a local Social Security office to file an application. Call 1-800-772-1213 (TTY 1-800-325-0778) from 7 a.m. to 7 p.m., Monday through Friday or contact your local Social Security office."
+        },
+        {
+          "chunk_id": "Apply for Retirement Benefits | SSA#1_0::c0002",
+          "text": "[Apply for Retirement Benefits | SSA > Apply for Retirement Benefits > How To Apply]\nApplying online is the easiest way to complete your application at a time that works for you, without a trip to the Social Security office. You can also apply by phone or at a Social Security office. This section will tell you about the different options.\n\n#### Apply Online\n\nFollow these steps to apply online:\n\n- To start your application, go to our Apply for Benefits page, read and agree to the Terms of Service. Click Next.\n- On that page, review the Getting Ready section to make sure you have the information you need to apply.\n- Select Start A New Application.\n- We will ask a few questions about who is filling out the application.\n- You will then sign into your mySocial Security account or you will be prompted to create one.\n- Complete the application.\n\nWatch our video, Welcome To Our Online Retirement/Medicare Application, for an overview of the process.\n\n##### Tips For Using The Online Application\n\nWe ve worked hard to make applying online as simple as possible while also keeping your information safe.\n\nFor security reasons, the online application gives you a warning if you leave it open and don t do anything for 25 minutes. You can choose to extend your time on the page if you get this warning. However, after the third warning, you must move to another page or your information will not be saved.\n\nHere are more tips for using the online application:\n\n- If you get stuck on a question, you can skip to the next question and come back later.\n- You can save your application to finish another time if needed. Next time you sign in, go to Return to a Saved Application.\n- You are not allowed to use periods, commas, or other special characters for some answers, including addresses. If you get a message about this, go back and enter the information without periods or other characters.\n\nStart your application now.\n\n##### Signing The Online Application\n\nYou ll have a chance to review your answers and make changes, if needed. Once you ve filled everything out, we ll ask you to confirm that your answers are true to the best of your knowledge. You can be held liable for intentionally providing false or misleading information.\n\nThe last step is to sign the online application by clicking Submit Now. You can check the status of your submitted application using a confirmation number we provide.\n\n##### Helping Someone Else Apply Online\n\nYou may help someone else fill out their application, but you are not allowed to sign it for them. Only the person applying for benefits can legally sign the application. If they are not able to sign online, we will mail them a copy to sign. Read more about Helping Someone Apply Online.\n\n#### Apply With Your Local Office\n\nYou can do most of your business with Social Security online. If you cannot use these online services, your local Social Security office can help you apply. Although our offices are closed to the public, employees from those offices are assisting people by telephone. You can find the phone number for your local office by using our Field Office Locator and looking under Social Security Office Information. The toll-free Office number is your local office.\n\n#### Apply By Phone\n\nCall 1-800-772-1213 (TTY 1-800-325-0778) from 8:00 a.m. to 5:30 p.m., Monday through Friday, to apply by phone.\n\n#### If You Do Not Live In The U.S. Or One Of Its Territories\n\nContact the Federal Benefits Unit for your country of residence if you live outside the U.S. or a U.S. territory and wish to apply for retirement benefits.\n\n#### Additional Information\n\n- Our Online Benefits Application\n- What Is An Account?\n- Online Services\n\n#### FAQs\n\n- How do I return to an online application for retirement benefits that I already started but did not finish?"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0005",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > How do I use the online application?]\n1.  Select the \"Apply for Retirement Benefits\" button (above). You ll be asked to create or sign in to your my Social Security account and then go through a series of screens that will ask you questions about yourself, your family, and your work.\n\n2.  Fill out the online application. You can complete your application in a single session or start the application now and finish it sometime later. If you:\n\n- get stuck on a question, you can skip it and go back later. When you get to the end of the application, we'll let you know if there are any questions you still need to answer.\n    - can't complete your online application because you need to look something up, or for any other reason, you can \"Return to a Saved Application\" later without losing the information you entered.\n\nYou may not be able to use periods, commas, and other special characters when you answer some of the questions. If you use a character that a field cannot accept and you try to go to another page, you will get a message that tells you there is a problem and what caused it.\n\nExample: You cannot use a period as part of an address. If you type \"27 N. Main St.\" instead of \"27 N Main St\" in an address field, you will get a message when you try to go to the next page.\n\nAfter you completely fill out the application, we will ask you to confirm the truthfulness of the answers to the best of your knowledge, under penalty of perjury, and your response will be recorded. You can be held liable for intentionally providing false or misleading information.\n\n3.  \"Sign\" the application electronically by clicking on the \"Submit Now\" button. It will appear on the screen after you have finished filling out the application.\n    The only person who can \"sign\" the application is the person who is applying for benefits. A legal representative or person helping cannot sign the application. Helping Someone Apply Online."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#2_0::c0000",
+          "text": "[Retirement Benefits | Social Security Administration > Apply for Retirement Benefits]\nSocial Security offers an online retirement application that you can complete in as little as 15 minutes. It's so easy. Better yet, you can apply from the comfort of your home or office at a time most convenient for you. There's no need to drive to a local Social Security office or wait for an appointment with a Social Security representative.\n\nIn most cases, once your application is submitted electronically, you're done. Social Security will process your application and contact you by telephone or by mail if any further information is needed.\n\nApply for Retirement Benefits\n\nReturn to a Saved Application \\| Check Application Status\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English."
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0000",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > Apply for Retirement Benefits]\nSocial Security offers an online retirement application that you can complete in as little as 15 minutes. It's so easy. Better yet, you can apply from the comfort of your home or office at a time most convenient for you. There's no need to drive to a local Social Security office or wait for an appointment with a Social Security representative.\n\nIn most cases, once your application is submitted electronically, you're done. Social Security will process your application and contact you by telephone or by mail if any further information is needed.\n\nApply for Retirement Benefits\n\nReturn to a Saved Application \\| Check Application Status\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English."
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#2_0::c0000",
+          "text": "[Disability Benefits | Social Security Administration > MANAGE YOUR BENEFITS]\nLearn about Disability Benefits\n\nSocial Security pays disability benefits to people who can't work because they have a medical condition that's expected to last at least one year or result in death. Find out if you qualify and how Social Security can help you.\n\nUSE OUR DISABILITY PLANNER\n\nAlready Receiving Benefits\n\nIf you receive Social Security disability benefits, you can get information and services for managing your benefits online.\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English.\n\nApply for Disability Return to a Saved Application Check Application or Appeal Status\n\nWho can apply for adult disability benefits online?\n\nYou can use the online application to apply for disability benefits if you:\n\n- Are age 18 or older;\n\n- Are not currently receiving benefits on your own Social Security record;\n\n- Are unable to work because of a medical condition that is expected to last at least 12 months or result in death; and\n\n- Have not been denied disability benefits in the last 60 days. If your application was recently denied, our Internet Appeal application is a starting point to request a review of the determination we made.\n\nYou can now also file for Supplemental Security Income (SSI) online but only if you meet certain requirements. You are eligible to file online for SSI if you:\n\n- Are between the ages of 18 and 65;\n\n- Have never been married;\n\n- Aren t blind;\n\n- Are a U.S. citizen residing in one of the fifty states, District of Columbia, or the Northern Mariana Islands;\n\n- Haven t applied for or received SSI benefits in the past; and\n\n- Are applying for Social Security Disability Insurance at the same time as your SSI claim. Find out if you are eligible to receive Social Security Disability Benefits.\n\nOnce you finish the online process, a Social Security representative will contact you by telephone or by mail for any additional information needed for the applications.\n\nYou can also schedule an appointment with a local Social Security office to file an application. Call 1-800-772-1213 (TTY 1-800-325-0778) from 7 a.m. to 7 p.m., Monday through Friday or contact your local Social Security office."
+        },
+        {
+          "chunk_id": "Apply for Retirement Benefits | SSA#1_0::c0002",
+          "text": "[Apply for Retirement Benefits | SSA > Apply for Retirement Benefits > How To Apply]\nApplying online is the easiest way to complete your application at a time that works for you, without a trip to the Social Security office. You can also apply by phone or at a Social Security office. This section will tell you about the different options.\n\n#### Apply Online\n\nFollow these steps to apply online:\n\n- To start your application, go to our Apply for Benefits page, read and agree to the Terms of Service. Click Next.\n- On that page, review the Getting Ready section to make sure you have the information you need to apply.\n- Select Start A New Application.\n- We will ask a few questions about who is filling out the application.\n- You will then sign into your mySocial Security account or you will be prompted to create one.\n- Complete the application.\n\nWatch our video, Welcome To Our Online Retirement/Medicare Application, for an overview of the process.\n\n##### Tips For Using The Online Application\n\nWe ve worked hard to make applying online as simple as possible while also keeping your information safe.\n\nFor security reasons, the online application gives you a warning if you leave it open and don t do anything for 25 minutes. You can choose to extend your time on the page if you get this warning. However, after the third warning, you must move to another page or your information will not be saved.\n\nHere are more tips for using the online application:\n\n- If you get stuck on a question, you can skip to the next question and come back later.\n- You can save your application to finish another time if needed. Next time you sign in, go to Return to a Saved Application.\n- You are not allowed to use periods, commas, or other special characters for some answers, including addresses. If you get a message about this, go back and enter the information without periods or other characters.\n\nStart your application now.\n\n##### Signing The Online Application\n\nYou ll have a chance to review your answers and make changes, if needed. Once you ve filled everything out, we ll ask you to confirm that your answers are true to the best of your knowledge. You can be held liable for intentionally providing false or misleading information.\n\nThe last step is to sign the online application by clicking Submit Now. You can check the status of your submitted application using a confirmation number we provide.\n\n##### Helping Someone Else Apply Online\n\nYou may help someone else fill out their application, but you are not allowed to sign it for them. Only the person applying for benefits can legally sign the application. If they are not able to sign online, we will mail them a copy to sign. Read more about Helping Someone Apply Online.\n\n#### Apply With Your Local Office\n\nYou can do most of your business with Social Security online. If you cannot use these online services, your local Social Security office can help you apply. Although our offices are closed to the public, employees from those offices are assisting people by telephone. You can find the phone number for your local office by using our Field Office Locator and looking under Social Security Office Information. The toll-free Office number is your local office.\n\n#### Apply By Phone\n\nCall 1-800-772-1213 (TTY 1-800-325-0778) from 8:00 a.m. to 5:30 p.m., Monday through Friday, to apply by phone.\n\n#### If You Do Not Live In The U.S. Or One Of Its Territories\n\nContact the Federal Benefits Unit for your country of residence if you live outside the U.S. or a U.S. territory and wish to apply for retirement benefits.\n\n#### Additional Information\n\n- Our Online Benefits Application\n- What Is An Account?\n- Online Services\n\n#### FAQs\n\n- How do I return to an online application for retirement benefits that I already started but did not finish?"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0005",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > How do I use the online application?]\n1.  Select the \"Apply for Retirement Benefits\" button (above). You ll be asked to create or sign in to your my Social Security account and then go through a series of screens that will ask you questions about yourself, your family, and your work.\n\n2.  Fill out the online application. You can complete your application in a single session or start the application now and finish it sometime later. If you:\n\n- get stuck on a question, you can skip it and go back later. When you get to the end of the application, we'll let you know if there are any questions you still need to answer.\n    - can't complete your online application because you need to look something up, or for any other reason, you can \"Return to a Saved Application\" later without losing the information you entered.\n\nYou may not be able to use periods, commas, and other special characters when you answer some of the questions. If you use a character that a field cannot accept and you try to go to another page, you will get a message that tells you there is a problem and what caused it.\n\nExample: You cannot use a period as part of an address. If you type \"27 N. Main St.\" instead of \"27 N Main St\" in an address field, you will get a message when you try to go to the next page.\n\nAfter you completely fill out the application, we will ask you to confirm the truthfulness of the answers to the best of your knowledge, under penalty of perjury, and your response will be recorded. You can be held liable for intentionally providing false or misleading information.\n\n3.  \"Sign\" the application electronically by clicking on the \"Submit Now\" button. It will appear on the screen after you have finished filling out the application.\n    The only person who can \"sign\" the application is the person who is applying for benefits. A legal representative or person helping cannot sign the application. Helping Someone Apply Online."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Apply for Retirement Benefits | SSA#1_0::c0002",
+          "document": "Apply for Retirement Benefits | SSA#1_0",
+          "heading": [
+            "Apply for Retirement Benefits | SSA",
+            "Apply for Retirement Benefits",
+            "How To Apply"
+          ],
+          "source_file": "ssa_005.md",
+          "excerpt": "[Apply for Retirement Benefits | SSA > Apply for Retirement Benefits > How To Apply]\nApplying online is the easiest way to complete your application at a time that works for you, without a trip to the Social Security office. You can also apply by phone or at a Social Security office. This section will tell you about the different options.\n\n#### Apply Online\n\nFollow these steps to apply online:\n\n- To start your application, go to our Apply for Benefits page, read and agree to the Terms of Service. Click Next.\n- On that page, review the Getting Ready section to make sure you have the information you need to apply.\n- Select Start A New Application.\n- We will ask a few questions about who is filling out the application.\n- You will then sign into your mySocial Security account or you will be prompted to create one.\n- Complete the application.\n\nWatch our video, Welcome To Our Online Retirement/Medicare Application, for an overview of the process.\n\n##### Tips For Using The Online Application\n\nWe ve worked hard to make applying online as simple as possible while also keeping your information safe.\n\nFor security reasons, the online application gives you a warning if you leave it open and don t do anything for 25 minutes. You can choose to extend your time on the page if you get this warning. However, after the third warning, you must move to another page or your information will not be saved.\n\nHere are more tips for using the online application:\n\n- If you get stuck on a question, you can skip to the next question and come back later.\n- You can save your application to finish another time if needed. Next time you sign in, go to Return to a Saved Application.\n- You are not allowed to use periods, commas, or other special characters for some answers, including addresses. If you get a message about this, go back and enter the information without periods or other characters.\n\nStart your application now.\n\n##### Signing The Online Application\n\nYou ll have a chance to review your answers and make changes, if needed. Once you ve filled everything out, we ll ask you to confirm that your answers are true to the best of your knowledge. You can be held liable for intentionally providing false or misleading information.\n\nThe last step is to sign the online application by clicking Submit Now. You can check the status of your submitted application using a confirmation number we provide.\n\n##### Helping Someone Else Apply Online\n\nYou may help someone else fill out their application, but you are not allowed to sign it for them. Only the person applying for benefits can legally sign the application. If they are not able to sign online, we will mail them a copy to sign. Read more about Helping Someone Apply Online.\n\n#### Apply With Your Local Office\n\nYou can do most of your business with Social Security online. If you cannot use these online services, your local Social Security office can help you apply. Although our offices are closed to the public, employees from those offices are assisting people by telephone. You can find the phone number for your local office by using our Field Office Locator and looking under Social Security Office Information. The toll-free Office number is your local office.\n\n#### Apply By Phone\n\nCall 1-800-772-1213 (TTY 1-800-325-0778) from 8:00 a.m. to 5:30 p.m., Monday through Friday, to apply by phone.\n\n#### If You Do Not Live In The U.S. Or One Of Its Territories\n\nContact the Federal Benefits Unit for your country of residence if you live outside the U.S. or a U.S. territory and wish to apply for retirement benefits.\n\n#### Additional Information\n\n- Our Online Benefits Application\n- What Is An Account?\n- Online Services\n\n#### FAQs\n\n- How do I return to an online application for retirement benefits that I already started but did not finish?"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0005",
+          "document": "Retirement Benefits | Social Security Administration#1_0",
+          "heading": [
+            "Retirement Benefits | Social Security Administration",
+            "Retirement Benefits",
+            "How do I use the online application?"
+          ],
+          "source_file": "ssa_102.md",
+          "excerpt": "[Retirement Benefits | Social Security Administration > Retirement Benefits > How do I use the online application?]\n1.  Select the \"Apply for Retirement Benefits\" button (above). You ll be asked to create or sign in to your my Social Security account and then go through a series of screens that will ask you questions about yourself, your family, and your work.\n\n2.  Fill out the online application. You can complete your application in a single session or start the application now and finish it sometime later. If you:\n\n- get stuck on a question, you can skip it and go back later. When you get to the end of the application, we'll let you know if there are any questions you still need to answer.\n    - can't complete your online application because you need to look something up, or for any other reason, you can \"Return to a Saved Application\" later without losing the information you entered.\n\nYou may not be able to use periods, commas, and other special characters when you answer some of the questions. If you use a character that a field cannot accept and you try to go to another page, you will get a message that tells you there is a problem and what caused it.\n\nExample: You cannot use a period as part of an address. If you type \"27 N. Main St.\" instead of \"27 N Main St\" in an address field, you will get a message when you try to go to the next page.\n\nAfter you completely fill out the application, we will ask you to confirm the truthfulness of the answers to the best of your knowledge, under penalty of perjury, and your response will be recorded. You can be held liable for intentionally providing false or misleading information.\n\n3.  \"Sign\" the application electronically by clicking on the \"Submit Now\" button. It will appear on the screen after you have finished filling out the application.\n    The only person who can \"sign\" the application is the person who is applying for benefits. A legal representative or person helping cannot sign the application. Helping Someone Apply Online."
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#2_0::c0000",
+          "document": "Retirement Benefits | Social Security Administration#2_0",
+          "heading": [
+            "Retirement Benefits | Social Security Administration",
+            "Apply for Retirement Benefits"
+          ],
+          "source_file": "ssa_103.md",
+          "excerpt": "[Retirement Benefits | Social Security Administration > Apply for Retirement Benefits]\nSocial Security offers an online retirement application that you can complete in as little as 15 minutes. It's so easy. Better yet, you can apply from the comfort of your home or office at a time most convenient for you. There's no need to drive to a local Social Security office or wait for an appointment with a Social Security representative.\n\nIn most cases, once your application is submitted electronically, you're done. Social Security will process your application and contact you by telephone or by mail if any further information is needed.\n\nApply for Retirement Benefits\n\nReturn to a Saved Application \\| Check Application Status\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "You can apply online, by phone, or with your local Social Security office. To apply by phone, call 1-800-772-1213 (TTY 1-800-325-0778) from 8:00 a.m. to 5:30 p.m., Monday through Friday. You can also contact your local office using the Field Office Locator; although offices are closed to the public, employees are assisting by telephone. If you prefer to apply in a language other than English, the online application will give you the option to schedule an appointment to apply in your preferred language. Regarding special characters like the 'ñ' in your name, the online application may not accept periods, commas, or other special characters in some fields (e.g., addresses). If you use a character that a field cannot accept, you will get a message telling you there is a problem and what caused it. Applying by phone or with a representative may allow you to provide your name as it appears on official documents.",
+          "citations": [
+            "Apply for Retirement Benefits | SSA#1_0::c0002",
+            "Retirement Benefits | Social Security Administration#1_0::c0005",
+            "Retirement Benefits | Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "8561e193517b4e2986484552c3bcd2ca",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2655,
+              "completion_tokens": 271,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 271,
+                "prompt_tokens": 2655,
+                "total_tokens": 2926,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2399
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0048308000000000005,
+            "accounted_rmb": 0.0048308000000000005,
+            "usage_unknown": false,
+            "seconds": 2.4005508422851562,
+            "error": null,
+            "response": {
+              "id": "21fe253d-8f83-4046-ac11-3266eb75f3cb",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "06d76f23584388b4dac31408d47c1bba2ef311a2d6e2908a0765fc05884e81cf"
+      },
+      "latency_ms": {
+        "queue_wait": 0.05591707304120064,
+        "retrieval": 1367.1772920060903,
+        "generation": 2403.2094170106575,
+        "total": 3771.463833982125
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.24990129203069955,
+        "rerank_seconds": 1.1172115829540417,
+        "top1_dense_score": 0.7068304419517517,
+        "candidate_ids": [
+          "Retirement Benefits | Social Security Administration#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0001",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0005",
+          "Retirement Benefits | Social Security Administration#1_0::c0005",
+          "Retirement Benefits | Social Security Administration#1_0::c0006",
+          "Retirement Benefits | Social Security Administration#2_0::c0006",
+          "Learn About Retirement Benefits | SSA#1_0::c0002",
+          "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#1_0::c0000",
+          "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0::c0000",
+          "Apply for Retirement Benefits | SSA#1_0::c0002",
+          "Disability Benefits | Social Security Administration#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0004",
+          "Retirement Benefits | Social Security Administration#1_0::c0004",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#13_0_1::c0000",
+          "Learn About Retirement Benefits | SSA#1_0::c0000",
+          "Disability Benefits | Social Security Administration#2_0::c0001",
+          "Retirement Benefits | Social Security Administration#2_0::c0002"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 35,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.3671314170351252
+      },
+      "raw_citations": [
+        "Apply for Retirement Benefits | SSA#1_0::c0002",
+        "Retirement Benefits | Social Security Administration#1_0::c0005",
+        "Retirement Benefits | Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "0bfdaba9e489f16f74a26ffd5b988cf6520ff6863df6575e7947b2231fe1cc20"
+}

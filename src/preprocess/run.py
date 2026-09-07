@@ -71,11 +71,11 @@ def process_one(doc: DocEntry, doc_root: str, out_dir: str) -> dict:
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--doc-root", default="doc", help="root of the source dataset (default: doc)")
+    parser.add_argument("--doc-root", default="data/corpus", help="root of the bundled source dataset")
     parser.add_argument(
         "--out-dir",
-        default="data/processed/markdown",
-        help="output directory for converted Markdown (default: data/processed/markdown)",
+        default="data/local/rebuild/processed/markdown",
+        help="output directory for converted Markdown",
     )
     parser.add_argument("--formats", nargs="*", default=None, help="only process these source formats")
     parser.add_argument("--doc-ids", nargs="*", default=None, help="only process these doc_ids")

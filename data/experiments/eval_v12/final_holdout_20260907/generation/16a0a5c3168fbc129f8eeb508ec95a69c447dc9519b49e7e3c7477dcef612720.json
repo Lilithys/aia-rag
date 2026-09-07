@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "42bc15ba72e6465763ecd433d187e443::agent-turn-2",
+    "item_sha256": "75c89cbe8f148d4a134dd387832104ab1c1da70867316b88900cad388d4afbc1",
+    "result": {
+      "request_id": "46b227ec1ed646c9a4a418ff5bc9606a",
+      "session_id": "42bc15ba72e6465763ecd433d187e443",
+      "turn_id": 1,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "补充保障收入（SSI）是一项向收入和资源有限的残疾成年人和儿童支付福利的计划。年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。工作年限足够长的人可能同时获得社会保障残疾或退休福利以及SSI。",
+        "citations": [
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "text": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#2_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 联系社会保障局]\n您或您的家人可能有资格获得增加的福利\n\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或 补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配 偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获 得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来 了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资 格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您 已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入 ？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上 ，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工 作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获 得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信 息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可 能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾 人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于 您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们 可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等 待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告 知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-80 0-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话通话。"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#1_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 您或您的家人可能有资格获得增加的福利 > 联系社会保障局]\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-800-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话。"
+        },
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#1_0::c0000",
+          "text": "# Supplemental Security Income (SSI) Benefits | Social Security Administration\n\n## Supplemental Security Income (SSI) Benefits\n\nThe Supplemental Security Income (SSI) program pays benefits to disabled adults and children who have limited income and resources.\n\nSSI benefits also are payable to people 65 and older without disabilities who meet the financial limits.\n\nPeople who have worked long enough may also be able to receive Social Security disability or retirement benefits as well as SSI. Learn more about SSI\n\n### How Do I Apply For SSI?\n\nIf you would like to apply for SSI benefits for:\n\n### An adult with a disability\n\nYou can now file for Supplemental Security Income (SSI) online but only if you meet certain requirements. You are eligible to file online for SSI if you:\n\n- Are between the ages of 18 and 65;\n- Have never been married;\n- Aren t blind;\n- Are a U.S. citizen residing in one of the fifty states, District of Columbia, or the Northern Mariana Islands;\n- Haven t applied for or received SSI benefits in the past; and\n- Are applying for Social Security Disability Insurance at the same time as your SSI claim. Find out if you are eligible to receive Social Security Disability Benefits.\n\nApply Online for SSI and Disability Benefits\n\nOnce you finish the online process, a Social Security representative will contact you for any additional information needed for the applications.\n\nYou can also schedule an appointment with a local Social Security office to file an application. Call 1-800-772-1213 (TTY 1-800-325-0778) from 7 a.m. to 7 p.m., Monday through Friday or contact your local Social Security office.\n\nLearn more and start the disability process at our Disability Benefits page.\n\n### A child with a disability\n\nSocial Security does not yet have an online application for Children s benefits. Visit Apply For Disability Benefits Child (Under Age 18) to apply for your child.\n\nYou can complete the online Child Disability Report if you are ready to apply now.\n\n### A person age 65 and older\n\n- Call us at 1-800-772-1213. If you are deaf or hard of hearing, you can call us at TTY 1-800-325-0778, or\n- Visit your local Social Security office. (Call first to make an appointment.)\n\n### Can I File An Appeal If My SSI Application Was Denied?\n\nYes, if we recently denied your SSI application, you can file an SSI appeal online. To learn more, read how to appeal a decision.\n\n### If You Already Receive SSI Benefits\n\n### Create a my  Social Security"
+        },
+        {
+          "chunk_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0::c0000",
+          "text": "# 为儿童（未满18岁）申请 | 残疾福利 | SSA\n\n## 残疾福利 \\| 为儿童（未满18岁）申请\n\n### 要为儿童申请...\n\n您需要填写一份补充保障收入（SSI）申请表和一份儿童残疾报告。该报告收集有关儿童残疾状况及其如何影响其功能能力的信息。\n\n目前，只有儿童残疾报告可以在线完成。请通过电话或亲自联系我们，预约时间完成SSI申请。我们将亲自或通过电话为您提供帮助。\n\n### 申请步骤\n\n1.  查看儿童残疾入门套件。此套件解答了关于为儿童申请补充保障收入（SSI）福利的常见问题，并包含一个工作表，帮助您收集所需信息。\n2.  立即联系社会保障局，了解父母和子女的收入和资源是否在允许的限额内，并开始SSI申请流程。\n3.  填写在线儿童残疾报告。在报告结束时，我们会要求您签署一份表格，授权儿童的医生向我们提供有关其残疾的信息。我们需要这些信息以便对儿童的申请做出决定。\n\n如果您之前开始填写儿童残疾报告但未完成，您可以使用重新进入号码返回在线儿童残疾报告。\n\n如果您不想在线完成此报告或需要帮助，您可以拨打我们的免费电话1-800-772-1213。如果您失聪或听力困难，请拨打我们的免费TTY号码1-800-325-0778。\n\n代表可在周一至周五上午8点至下午5:30提供服务。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "text": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#2_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 联系社会保障局]\n您或您的家人可能有资格获得增加的福利\n\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或 补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配 偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获 得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来 了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资 格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您 已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入 ？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上 ，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工 作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获 得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信 息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可 能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾 人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于 您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们 可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等 待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告 知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-80 0-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话通话。"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#1_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 您或您的家人可能有资格获得增加的福利 > 联系社会保障局]\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-800-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话。"
+        },
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#1_0::c0000",
+          "text": "# Supplemental Security Income (SSI) Benefits | Social Security Administration\n\n## Supplemental Security Income (SSI) Benefits\n\nThe Supplemental Security Income (SSI) program pays benefits to disabled adults and children who have limited income and resources.\n\nSSI benefits also are payable to people 65 and older without disabilities who meet the financial limits.\n\nPeople who have worked long enough may also be able to receive Social Security disability or retirement benefits as well as SSI. Learn more about SSI\n\n### How Do I Apply For SSI?\n\nIf you would like to apply for SSI benefits for:\n\n### An adult with a disability\n\nYou can now file for Supplemental Security Income (SSI) online but only if you meet certain requirements. You are eligible to file online for SSI if you:\n\n- Are between the ages of 18 and 65;\n- Have never been married;\n- Aren t blind;\n- Are a U.S. citizen residing in one of the fifty states, District of Columbia, or the Northern Mariana Islands;\n- Haven t applied for or received SSI benefits in the past; and\n- Are applying for Social Security Disability Insurance at the same time as your SSI claim. Find out if you are eligible to receive Social Security Disability Benefits.\n\nApply Online for SSI and Disability Benefits\n\nOnce you finish the online process, a Social Security representative will contact you for any additional information needed for the applications.\n\nYou can also schedule an appointment with a local Social Security office to file an application. Call 1-800-772-1213 (TTY 1-800-325-0778) from 7 a.m. to 7 p.m., Monday through Friday or contact your local Social Security office.\n\nLearn more and start the disability process at our Disability Benefits page.\n\n### A child with a disability\n\nSocial Security does not yet have an online application for Children s benefits. Visit Apply For Disability Benefits Child (Under Age 18) to apply for your child.\n\nYou can complete the online Child Disability Report if you are ready to apply now.\n\n### A person age 65 and older\n\n- Call us at 1-800-772-1213. If you are deaf or hard of hearing, you can call us at TTY 1-800-325-0778, or\n- Visit your local Social Security office. (Call first to make an appointment.)\n\n### Can I File An Appeal If My SSI Application Was Denied?\n\nYes, if we recently denied your SSI application, you can file an SSI appeal online. To learn more, read how to appeal a decision.\n\n### If You Already Receive SSI Benefits\n\n### Create a my  Social Security"
+        },
+        {
+          "chunk_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0::c0000",
+          "text": "# 为儿童（未满18岁）申请 | 残疾福利 | SSA\n\n## 残疾福利 \\| 为儿童（未满18岁）申请\n\n### 要为儿童申请...\n\n您需要填写一份补充保障收入（SSI）申请表和一份儿童残疾报告。该报告收集有关儿童残疾状况及其如何影响其功能能力的信息。\n\n目前，只有儿童残疾报告可以在线完成。请通过电话或亲自联系我们，预约时间完成SSI申请。我们将亲自或通过电话为您提供帮助。\n\n### 申请步骤\n\n1.  查看儿童残疾入门套件。此套件解答了关于为儿童申请补充保障收入（SSI）福利的常见问题，并包含一个工作表，帮助您收集所需信息。\n2.  立即联系社会保障局，了解父母和子女的收入和资源是否在允许的限额内，并开始SSI申请流程。\n3.  填写在线儿童残疾报告。在报告结束时，我们会要求您签署一份表格，授权儿童的医生向我们提供有关其残疾的信息。我们需要这些信息以便对儿童的申请做出决定。\n\n如果您之前开始填写儿童残疾报告但未完成，您可以使用重新进入号码返回在线儿童残疾报告。\n\n如果您不想在线完成此报告或需要帮助，您可以拨打我们的免费电话1-800-772-1213。如果您失聪或听力困难，请拨打我们的免费TTY号码1-800-325-0778。\n\n代表可在周一至周五上午8点至下午5:30提供服务。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "document": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_109.md",
+          "excerpt": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "补充保障收入（SSI）是一项向收入和资源有限的残疾成年人和儿童支付福利的计划。年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。工作年限足够长的人可能同时获得社会保障残疾或退休福利以及SSI。",
+          "citations": [
+            "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "f6496f77d50943ca964d685c82a3e8f2",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3620,
+              "completion_tokens": 94,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 94,
+                "prompt_tokens": 3620,
+                "total_tokens": 3714,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3364
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0054818,
+            "accounted_rmb": 0.0054818,
+            "usage_unknown": false,
+            "seconds": 1.8687500953674316,
+            "error": null,
+            "response": {
+              "id": "d26258bb-9cba-4db0-94d0-621dfa9956fd",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "2f05502f145b4e0637b4228e07756030b7e092bbbd880cf6084f421876d01267"
+      },
+      "latency_ms": {
+        "queue_wait": 0.008458038792014122,
+        "retrieval": 1163.3424169849604,
+        "generation": 1872.6061249617487,
+        "total": 3037.0432500494644
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.09922829200513661,
+        "rerank_seconds": 1.0640482499729842,
+        "top1_dense_score": 0.7198644876480103,
+        "candidate_ids": [
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Benefits Planner | Social Security Administration#1_0::c0000",
+          "Benefits Planner | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#2_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0005",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0007",
+          "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+          "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0003",
+          "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0::c0000",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0005",
+          "Retirement Estimator | Social Security Administration#2_0::c0000",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0004",
+          "Benefits for People with Disabilities#1_0::c0000",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003",
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#1_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 45,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.1633182090008631
+      },
+      "raw_citations": [
+        "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "af8a603c4cab8ae7d9671ffbf192ee6bd523d512a9adb67c7820c6dc97e245df"
+}

@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "e56ed85fd762e99a2522159935e3f71e89fd1c40a794777fe47afacfaff8f300",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "续期许可证的费用取决于许可证类型，具体金额会在邮寄给您的续期申请上或在线支付前显示。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to renew a license#1_0::c0005"
+                ],
+                "reason": "The context states the renewal fee is on the renewal application mailed and displayed before online payment, and fees vary by license type."
+              },
+              {
+                "text": "费用包括照片文件费和（如适用）大都会通勤交通区（MCTD）附加费。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to renew a license#1_0::c0005"
+                ],
+                "reason": "The context says fees include photo document fee and supplemental MCTD fee if required."
+              },
+              {
+                "text": "增强版驾驶执照（EDL）需额外支付30美元，而REAL ID没有额外费用。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to renew a license#1_0::c0005"
+                ],
+                "reason": "The context states EDL additional fee is $30 and no additional fee for REAL ID."
+              },
+              {
+                "text": "如果您的许可证包含Class M或MJ（例如DM），需额外支付8美元。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to renew a license#1_0::c0005"
+                ],
+                "reason": "The context says if any other class combined with Class M or MJ, add $8."
+              },
+              {
+                "text": "您可以通过邮件、DMV办公室或在线支付，接受的支付方式包括信用卡/借记卡（American Express、Discover、MasterCard、Visa等）或支票/汇票（仅限邮件或办公室）。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to renew a license#1_0::c0005"
+                ],
+                "reason": "The context lists payment methods for mail, office, and online, including credit/debit cards and checks/money orders for mail/office."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "903a1626c73e40f68ea59db0aacdde37",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1213,
+                "completion_tokens": 510,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 510,
+                  "prompt_tokens": 1213,
+                  "total_tokens": 1723,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 829
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0035577,
+              "accounted_rmb": 0.0035577,
+              "usage_unknown": false,
+              "seconds": 3.194439172744751,
+              "error": null,
+              "response": {
+                "id": "b7963aac-311c-4c64-9929-d0eb601b89bc",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e44bf77544b23e2e85793c739fec213c3ec898df0717e7f8b9981d39b987ca7c"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "续期许可证的费用取决于许可证类型，具体金额会在邮寄给您的续期申请上或在线支付前显示。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to renew a license#1_0::c0005"
+          ],
+          "reason": "The context states the renewal fee is on the renewal application mailed and displayed before online payment, and fees vary by license type."
+        },
+        {
+          "text": "费用包括照片文件费和（如适用）大都会通勤交通区（MCTD）附加费。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to renew a license#1_0::c0005"
+          ],
+          "reason": "The context says fees include photo document fee and supplemental MCTD fee if required."
+        },
+        {
+          "text": "增强版驾驶执照（EDL）需额外支付30美元，而REAL ID没有额外费用。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to renew a license#1_0::c0005"
+          ],
+          "reason": "The context states EDL additional fee is $30 and no additional fee for REAL ID."
+        },
+        {
+          "text": "如果您的许可证包含Class M或MJ（例如DM），需额外支付8美元。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to renew a license#1_0::c0005"
+          ],
+          "reason": "The context says if any other class combined with Class M or MJ, add $8."
+        },
+        {
+          "text": "您可以通过邮件、DMV办公室或在线支付，接受的支付方式包括信用卡/借记卡（American Express、Discover、MasterCard、Visa等）或支票/汇票（仅限邮件或办公室）。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to renew a license#1_0::c0005"
+          ],
+          "reason": "The context lists payment methods for mail, office, and online, including credit/debit cards and checks/money orders for mail/office."
+        }
+      ]
+    }
+  },
+  "sha256": "869045eb138b4bbc0a1d293502a1f9f2201356a8a7a20ab63588490b42c85e7d"
+}

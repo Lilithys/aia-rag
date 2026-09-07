@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "62439f632f6d2f809ffc2976e50a16c9::agent-turn-2",
+    "item_sha256": "8394f9bc89cd5114afe390b43f75fb575a188e6b6d451a82b2eeadc6bf1377e0",
+    "result": {
+      "request_id": "3ae88f9117e8463690131ac9eda5d40e",
+      "session_id": "62439f632f6d2f809ffc2976e50a16c9",
+      "turn_id": 1,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "As a disabled Veteran, you may be eligible for the VR&E Independent Living track if you have a service-connected disability that limits your daily activities (like bathing, dressing, getting around, or interacting with others) and you can't return to work right away. You may also get these services while working toward a job goal with your Vocational Rehabilitation Counselor (VRC). Services can include assessments, counseling, referrals, and help with home modifications through the Adaptive Housing program. These services usually last up to 24 months, but may be extended in some cases. To apply, you need to apply for VR&E benefits through eBenefits, then work with a VRC to develop an independent living plan. For more details, see the VR&E Independent Living track page.",
+        "citations": [
+          "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0::c0000",
+          "text": "# Veterans Vocational Rehabilitation Programs | Veterans Affairs\n\n# Veterans Vocational Rehabilitation programs\n\nIf you re a Veteran or service member with a service-connected disability that impacts your ability to work, the Vocational Rehabilitation and Employment program (also called Voc Rehab, VR&E, or Chapter 31 benefits) may be able to help. We offer 5 support-and-services tracks to help you find and keep a job, and live as independently as possible. Explore the different tracks and find out how to apply for benefits and services.\n\n-\n\n#### Reemployment track\n\nYou may have the right to return to the civilian job you held before you deployed. Find out how we can help with this process.\n\n-\n\n#### Rapid Access to Employment track\n\nIf you want a job that matches your existing skills, find out if you can get employment counseling and job-search support.\n\n-\n\n#### Self-Employment track\n\nIf you re a service member or Veteran with a service-connected disability, find out how we can help you start your own business.\n\n-\n\n#### Employment through Long-Term Services track\n\nFind out if you may be eligible for vocational training to help you develop new job skills.\n\n-\n\n#### Independent Living track\n\nLearn about services that can help you live as independently as possible if you can't return to work right away.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "text": "# VR&E 独立生活轨道 | Veterans Affairs\n\n# VR&E 独立生活轨道\n\n如果你的服役相关残疾限制了你的日常生活活动能力（如洗澡、穿衣、进入社区和与他人互动），并且你无法立即重返工作岗位，你可能符合通过 Vocational Rehabilitation and Employment (VR&E) 独立生活轨道获得独立生活服务的资格。如果你和你的 Vocational Rehabilitation Counselor (VRC) 设定了找工作的目标，你也可以在寻找工作的过程中获得这些服务。在这两种情况下，你的 VRC 都可以帮助你恢复日常活动能力。了解你是否可能有资格获得服务，以帮助你尽可能独立地生活。\n\n### 我可以通过 VR&E 获得独立生活服务吗？\n\n如果你是符合 VR&E 福利资格的服役人员或退伍军人，且患有服役相关残疾，并且满足以下所有要求，你可能符合独立生活服务的资格。\n\n以下所有条件都必须满足：\n\n- 你有严重的就业障碍 (SEH)，并且\n- 你的残疾使你无法寻找或重返工作，并且\n- 你需要服务以尽可能独立地生活\n\n请注意：有就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（一份不会使你的残疾恶化、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我可以获得哪些类型的福利？\n\n根据你的需求，服务可能包括：\n\n- 评估和咨询，以确定你的需求和目标\n- 与专家进行家庭咨询\n- 转介至支持资源\n- 指导以帮助你了解是否符合我们的适应性住房计划的资格。这些计划可以帮助你改造你的家，如拓宽门口或增加坡道，以便你能更独立地生活。了解更多关于适应性住房补助的信息\n\n这些服务通常持续最多 24 个月。在某些情况下，你可能能够使用服务超过这个时间。\n\n## 我如何获得这些福利？\n\n首先，你需要申请 VR&E 福利。然后，你将与你的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果你有 VA 残疾评级，请按照以下步骤申请：\n\n1.  登录你的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  点击 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您到最近的 VA 区域福利办公室参加 orientation 会议。\n\n6.  如果您符合资格，VRC 将与您合作，确定您与服务相关的残疾的严重程度、您是否准备好工作，以及您是否会从独立生活服务中受益。您的 VRC 将帮助您制定一份个性化的、书面的独立生活计划，以满足您的需求。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n了解如果您尚未获得残疾评级，如何申请\n\n最后更新："
+        },
+        {
+          "chunk_id": "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0::c0000",
+          "text": "# What To Expect After You Get A Disability Rating | Veterans Affairs\n\n# What to expect after you get a disability rating\n\nIf you got a decision notice from us that confirms your disability rating (the rating that measures the severity of your disability), you may be able to get disability compensation or benefits. Find out what benefits you can get.\n\nDisability compensation may include financial compensation (payments) as well as other benefits like health care or job training.\n\nIf you haven t gotten your decision notice:\n\n- Check your status, or\n- Contact your nearest VA regional benefit office, or\n- Call us at 800-827-1000, or\n- Contact us online\n\n## When will I get my first payment?\n\nIf your decision notice shows at least a 10% disability rating, you ll get your first payment within 15 days. We ll pay you either by direct deposit or check. If you don t get a payment after 15 days, please call the Veterans help line at 800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\n## What if I disagree with my disability rating?\n\nIf you disagree with your disability rating, you can file an appeal. You ll need to do this within 1 year of getting your decision notice. Learn about how to file an appeal\n\n## How do I get other benefits?\n\n- For health care: If you served on active duty and didn t receive a dishonorable discharge, you may be able to get VA health care. This includes access to VA doctors and care, plus medical equipment, prosthetics, and prescriptions. Apply for VA health care\n- For life insurance: If you re in good health other than your disability caused by service in the military, you can buy Service-Disabled Veterans Insurance (S-DVI) a government life insurance policy.Apply for S-DVI online. Or, call 800-669-8477, Monday through Friday, 8:00 a.m. to 6:00 p.m. ET.\n- For education benefits: You can get VA support for college or job training under special programs. Or, talk with a VA education counselor to find out what benefits you may be able to get. Learn about education benefits\n- For dependent benefits: If you re 30% or more disabled due to a disability caused by service in the military, you can get financial support and benefits for your qualified dependents.Learn more about adding dependents to your disability benefits\n- For other benefits: Check with your local or state VA offices for other benefits you may be able to get like help with buying a home or making changes to your home to make it more accessible, or help with getting a job. Find your state s Veterans Affairs website\n\n## How do I get benefits that cover specific disabilities?\n\n- If you have a 100% disability rating, you may be able to get:\n  - Dental care, and\n  - Access to commissaries and exchanges\n- If you can t work due to your disability caused by service in the military even without a 100% rating you can apply for Individual Unemployability. Learn about Individual Unemployability\n- If you need special clothing because of your injuries, you may be able to get money to buy new clothes. Learn about the annual clothing allowance benefit\n\n## Keep in touch\n\nIt s important to update your information with VA when you have a new address, a change to your marital status, or any other life change that could affect your rating or payment. If your disability gets worse, you can file a claim for an increase in benefits.\n\nUpdate your information in 1 of 2 ways:\n\n- Make the change directly in eBenefits, or\n- Contact your nearest VA regional benefit office\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "text": "[军人退伍军人福利 > 作为退伍军人需要考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 退伍军人养老金计划\n\n如果您在战时服过现役，年满65岁或患有与服务相关的残疾，且收入有限或没有收入，请了解您是否有资格获得退伍军人养老金福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果您在日常活动中需要帮助，或者您被困在家中，请检查您是否有资格在每月的退伍军人养老金支付中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果您有与服务相关的残疾，请了解如何申请住房补助金，以便对您的房屋进行改造，使您能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为您和您的家人提供的寿险保障选项和服务，并在线管理您的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先确定是否符合在VA国家公墓安葬的资格\n\n申请预先确定资格决定信，以确认您有资格在VA国家公墓安葬。这可以帮助您提前规划，并可以在您的家人需要时使流程更加简便。仅面向现役退伍军人开放\n\n最后更新：\n\n#### VA转型援助计划\n\n探索您的职业选择，并了解如何获取您已赢得的VA福利。\n\n- #### 给我们发消息\n\n- 在线提问\n\n#### 给我们打电话\n\n- VA福利热线：800-827-1000\n  - eBenefits技术支持：800-983-0937\n  - 拨打MyVA311寻求帮助：844-698-2311\n  - 如果您有听力损失，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人事务部\n\n#### 获取更新\n\n- VA电子邮件更新\n\n#### 关注我们\n\n- 退伍军人事务部 Facebook\n  - 退伍军人事务部 Instagram\n  - 退伍军人事务部 Twitter\n  - 退伍军人事务部 YouTube"
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "text": "# Careers And Employment | Veterans Affairs\n\n# Careers and employment\n\nWe offer the help you need to build your career and find the opportunities that are right for you.\n\n### On this page\n\n- Get career and employment assistance\n- Manage your career\n- More information and resources\n\n### How do I get help if I'm homeless or at risk of becoming homeless?\n\nWe may be able to help\n\nWe offer many programs and services that may help including free health care and, in some cases, free limited dental care. We can also help you connect with resources in your community, like homeless shelters or faith-based organizations.\n\nFind the support you need:\n\n- Call the National Call Center for Homeless Veterans at (877-424-3838) for help 24 hours a day, 7 days a week. You ll talk privately with a trained VA counselor for free.\n- Contact your nearest VA medical center and ask to talk with the VA social worker. If you're a female Veteran, ask for the Women Veterans Program Manager.Find the nearest VA medical center\n\nTalk with someone right now:\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.Chat online with a trained VA staff member\n\n## Get career and employment assistance\n\n- About Vocational Rehabilitation and Employment (Chapter 31) programs\n\nExplore support-and-services program tracks for Veterans and service members with service-connected disabilities. Our programs can help you learn new skills, find a new job, start a new business, get educational counseling, or return to your former job.\n\n- Eligibility\n\nIf you have a service-connected disability that limits your ability to work or prevents you from working, find out if you're eligible for vocational rehab.\n\n- How to apply\n\nGet step-by-step instructions on how to apply for vocational rehab benefits.\n\n- Educational and Career Counseling (Chapter 36)\n\nFind out how to get free educational and career counseling as a recently discharged Veteran or a dependent family member.\n\n- Support for your Veteran-Owned Small Business\n\nRegister to do business with VA and get support for your Veteran-Owned Small Business.\n\n- Support for dependent family members\n\nSee if you're eligible for educational and vocational counseling as the dependent spouse or child of a Veteran or service member.\n\n## Manage your career\n\n- VA transition assistance\n\nAs you separate from the military, explore your career options by attending a Transition Assistance Program (TAP) briefing.\n\n- Match your interests and skills to a career with a CareerScope assessment\n\nUse this online tool to get recommendations for careers you may enjoy and succeed in, and training programs to help you get started.\n\n- Find a job (Department of Labor)\n\nSearch for jobs, get help translating your military skills and experience to civilian jobs, and access other career resources.\n\n- Find VA careers and support\n\nGet support for starting or advancing your career at VA or other federal government departments.\n\n- Print your Civil Service Preference Letter\n\nPrint your Civil Service Preference Letter to verify your hiring preference for federal jobs.\n\n- Get free classes for a year (LinkedIn)\n\nGet one year of free access to LinkedIn Premium and LinkedIn Learning.\n\n## More information and resources\n\n- Subsistence allowance rates\n\nView the current subsistence allowance rates to find out the amount we'll provide to help you pay for basic needs (like food and clothing) if you're an eligible Veteran participating in the Voc Rehab program.\n\n- VetSuccess on Campus\n\nFind out if our counselors can help you transition from military to college life.\n\n- Voc Rehab and Employment glossary\n\nSee the definitions of our programs and other common terms you may read when learning about Vocational Rehabilitation and Employment benefits.\n\n- Voc Rehab success stories\n\nRead Veterans' stories of how Voc Rehab counselors and services helped them overcome challenges, find new opportunities, and achieve greater goals.\n\n- Resources for Veterans\n\nGet links to more resources outside of VA that can help you in your job search.\n\n- Resources for family members\n\nAccess valuable career resources for spouses and other family members of Veterans and service members.\n\n### Other VA benefits and services\n\n- GI Bill benefits\n\nExplore options for using GI Bill benefits to help pay for school or training, and find out what benefits you can get.\n\n- Other educational assistance programs\n\nIf you re a Veteran, Reservist, or National Guard Soldier who doesn t qualify for the Post-9/11 GI Bill, see if you can get education benefits through other VA programs.\n\n- Home loans\n\nApply for a Certificate of Eligibility for a VA direct or VA-backed home loan to build, buy, improve, or refinance a home.\n\n- Life insurance\n\nExplore your life insurance options and find out how to apply as a service member, Veteran, or family member.\n\nLast updated:"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0::c0000",
+          "text": "# Veterans Vocational Rehabilitation Programs | Veterans Affairs\n\n# Veterans Vocational Rehabilitation programs\n\nIf you re a Veteran or service member with a service-connected disability that impacts your ability to work, the Vocational Rehabilitation and Employment program (also called Voc Rehab, VR&E, or Chapter 31 benefits) may be able to help. We offer 5 support-and-services tracks to help you find and keep a job, and live as independently as possible. Explore the different tracks and find out how to apply for benefits and services.\n\n-\n\n#### Reemployment track\n\nYou may have the right to return to the civilian job you held before you deployed. Find out how we can help with this process.\n\n-\n\n#### Rapid Access to Employment track\n\nIf you want a job that matches your existing skills, find out if you can get employment counseling and job-search support.\n\n-\n\n#### Self-Employment track\n\nIf you re a service member or Veteran with a service-connected disability, find out how we can help you start your own business.\n\n-\n\n#### Employment through Long-Term Services track\n\nFind out if you may be eligible for vocational training to help you develop new job skills.\n\n-\n\n#### Independent Living track\n\nLearn about services that can help you live as independently as possible if you can't return to work right away.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "text": "# VR&E 独立生活轨道 | Veterans Affairs\n\n# VR&E 独立生活轨道\n\n如果你的服役相关残疾限制了你的日常生活活动能力（如洗澡、穿衣、进入社区和与他人互动），并且你无法立即重返工作岗位，你可能符合通过 Vocational Rehabilitation and Employment (VR&E) 独立生活轨道获得独立生活服务的资格。如果你和你的 Vocational Rehabilitation Counselor (VRC) 设定了找工作的目标，你也可以在寻找工作的过程中获得这些服务。在这两种情况下，你的 VRC 都可以帮助你恢复日常活动能力。了解你是否可能有资格获得服务，以帮助你尽可能独立地生活。\n\n### 我可以通过 VR&E 获得独立生活服务吗？\n\n如果你是符合 VR&E 福利资格的服役人员或退伍军人，且患有服役相关残疾，并且满足以下所有要求，你可能符合独立生活服务的资格。\n\n以下所有条件都必须满足：\n\n- 你有严重的就业障碍 (SEH)，并且\n- 你的残疾使你无法寻找或重返工作，并且\n- 你需要服务以尽可能独立地生活\n\n请注意：有就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（一份不会使你的残疾恶化、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我可以获得哪些类型的福利？\n\n根据你的需求，服务可能包括：\n\n- 评估和咨询，以确定你的需求和目标\n- 与专家进行家庭咨询\n- 转介至支持资源\n- 指导以帮助你了解是否符合我们的适应性住房计划的资格。这些计划可以帮助你改造你的家，如拓宽门口或增加坡道，以便你能更独立地生活。了解更多关于适应性住房补助的信息\n\n这些服务通常持续最多 24 个月。在某些情况下，你可能能够使用服务超过这个时间。\n\n## 我如何获得这些福利？\n\n首先，你需要申请 VR&E 福利。然后，你将与你的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果你有 VA 残疾评级，请按照以下步骤申请：\n\n1.  登录你的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  点击 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您到最近的 VA 区域福利办公室参加 orientation 会议。\n\n6.  如果您符合资格，VRC 将与您合作，确定您与服务相关的残疾的严重程度、您是否准备好工作，以及您是否会从独立生活服务中受益。您的 VRC 将帮助您制定一份个性化的、书面的独立生活计划，以满足您的需求。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n了解如果您尚未获得残疾评级，如何申请\n\n最后更新："
+        },
+        {
+          "chunk_id": "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0::c0000",
+          "text": "# What To Expect After You Get A Disability Rating | Veterans Affairs\n\n# What to expect after you get a disability rating\n\nIf you got a decision notice from us that confirms your disability rating (the rating that measures the severity of your disability), you may be able to get disability compensation or benefits. Find out what benefits you can get.\n\nDisability compensation may include financial compensation (payments) as well as other benefits like health care or job training.\n\nIf you haven t gotten your decision notice:\n\n- Check your status, or\n- Contact your nearest VA regional benefit office, or\n- Call us at 800-827-1000, or\n- Contact us online\n\n## When will I get my first payment?\n\nIf your decision notice shows at least a 10% disability rating, you ll get your first payment within 15 days. We ll pay you either by direct deposit or check. If you don t get a payment after 15 days, please call the Veterans help line at 800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\n## What if I disagree with my disability rating?\n\nIf you disagree with your disability rating, you can file an appeal. You ll need to do this within 1 year of getting your decision notice. Learn about how to file an appeal\n\n## How do I get other benefits?\n\n- For health care: If you served on active duty and didn t receive a dishonorable discharge, you may be able to get VA health care. This includes access to VA doctors and care, plus medical equipment, prosthetics, and prescriptions. Apply for VA health care\n- For life insurance: If you re in good health other than your disability caused by service in the military, you can buy Service-Disabled Veterans Insurance (S-DVI) a government life insurance policy.Apply for S-DVI online. Or, call 800-669-8477, Monday through Friday, 8:00 a.m. to 6:00 p.m. ET.\n- For education benefits: You can get VA support for college or job training under special programs. Or, talk with a VA education counselor to find out what benefits you may be able to get. Learn about education benefits\n- For dependent benefits: If you re 30% or more disabled due to a disability caused by service in the military, you can get financial support and benefits for your qualified dependents.Learn more about adding dependents to your disability benefits\n- For other benefits: Check with your local or state VA offices for other benefits you may be able to get like help with buying a home or making changes to your home to make it more accessible, or help with getting a job. Find your state s Veterans Affairs website\n\n## How do I get benefits that cover specific disabilities?\n\n- If you have a 100% disability rating, you may be able to get:\n  - Dental care, and\n  - Access to commissaries and exchanges\n- If you can t work due to your disability caused by service in the military even without a 100% rating you can apply for Individual Unemployability. Learn about Individual Unemployability\n- If you need special clothing because of your injuries, you may be able to get money to buy new clothes. Learn about the annual clothing allowance benefit\n\n## Keep in touch\n\nIt s important to update your information with VA when you have a new address, a change to your marital status, or any other life change that could affect your rating or payment. If your disability gets worse, you can file a claim for an increase in benefits.\n\nUpdate your information in 1 of 2 ways:\n\n- Make the change directly in eBenefits, or\n- Contact your nearest VA regional benefit office\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "text": "[军人退伍军人福利 > 作为退伍军人需要考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 退伍军人养老金计划\n\n如果您在战时服过现役，年满65岁或患有与服务相关的残疾，且收入有限或没有收入，请了解您是否有资格获得退伍军人养老金福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果您在日常活动中需要帮助，或者您被困在家中，请检查您是否有资格在每月的退伍军人养老金支付中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果您有与服务相关的残疾，请了解如何申请住房补助金，以便对您的房屋进行改造，使您能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为您和您的家人提供的寿险保障选项和服务，并在线管理您的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先确定是否符合在VA国家公墓安葬的资格\n\n申请预先确定资格决定信，以确认您有资格在VA国家公墓安葬。这可以帮助您提前规划，并可以在您的家人需要时使流程更加简便。仅面向现役退伍军人开放\n\n最后更新：\n\n#### VA转型援助计划\n\n探索您的职业选择，并了解如何获取您已赢得的VA福利。\n\n- #### 给我们发消息\n\n- 在线提问\n\n#### 给我们打电话\n\n- VA福利热线：800-827-1000\n  - eBenefits技术支持：800-983-0937\n  - 拨打MyVA311寻求帮助：844-698-2311\n  - 如果您有听力损失，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人事务部\n\n#### 获取更新\n\n- VA电子邮件更新\n\n#### 关注我们\n\n- 退伍军人事务部 Facebook\n  - 退伍军人事务部 Instagram\n  - 退伍军人事务部 Twitter\n  - 退伍军人事务部 YouTube"
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "text": "# Careers And Employment | Veterans Affairs\n\n# Careers and employment\n\nWe offer the help you need to build your career and find the opportunities that are right for you.\n\n### On this page\n\n- Get career and employment assistance\n- Manage your career\n- More information and resources\n\n### How do I get help if I'm homeless or at risk of becoming homeless?\n\nWe may be able to help\n\nWe offer many programs and services that may help including free health care and, in some cases, free limited dental care. We can also help you connect with resources in your community, like homeless shelters or faith-based organizations.\n\nFind the support you need:\n\n- Call the National Call Center for Homeless Veterans at (877-424-3838) for help 24 hours a day, 7 days a week. You ll talk privately with a trained VA counselor for free.\n- Contact your nearest VA medical center and ask to talk with the VA social worker. If you're a female Veteran, ask for the Women Veterans Program Manager.Find the nearest VA medical center\n\nTalk with someone right now:\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.Chat online with a trained VA staff member\n\n## Get career and employment assistance\n\n- About Vocational Rehabilitation and Employment (Chapter 31) programs\n\nExplore support-and-services program tracks for Veterans and service members with service-connected disabilities. Our programs can help you learn new skills, find a new job, start a new business, get educational counseling, or return to your former job.\n\n- Eligibility\n\nIf you have a service-connected disability that limits your ability to work or prevents you from working, find out if you're eligible for vocational rehab.\n\n- How to apply\n\nGet step-by-step instructions on how to apply for vocational rehab benefits.\n\n- Educational and Career Counseling (Chapter 36)\n\nFind out how to get free educational and career counseling as a recently discharged Veteran or a dependent family member.\n\n- Support for your Veteran-Owned Small Business\n\nRegister to do business with VA and get support for your Veteran-Owned Small Business.\n\n- Support for dependent family members\n\nSee if you're eligible for educational and vocational counseling as the dependent spouse or child of a Veteran or service member.\n\n## Manage your career\n\n- VA transition assistance\n\nAs you separate from the military, explore your career options by attending a Transition Assistance Program (TAP) briefing.\n\n- Match your interests and skills to a career with a CareerScope assessment\n\nUse this online tool to get recommendations for careers you may enjoy and succeed in, and training programs to help you get started.\n\n- Find a job (Department of Labor)\n\nSearch for jobs, get help translating your military skills and experience to civilian jobs, and access other career resources.\n\n- Find VA careers and support\n\nGet support for starting or advancing your career at VA or other federal government departments.\n\n- Print your Civil Service Preference Letter\n\nPrint your Civil Service Preference Letter to verify your hiring preference for federal jobs.\n\n- Get free classes for a year (LinkedIn)\n\nGet one year of free access to LinkedIn Premium and LinkedIn Learning.\n\n## More information and resources\n\n- Subsistence allowance rates\n\nView the current subsistence allowance rates to find out the amount we'll provide to help you pay for basic needs (like food and clothing) if you're an eligible Veteran participating in the Voc Rehab program.\n\n- VetSuccess on Campus\n\nFind out if our counselors can help you transition from military to college life.\n\n- Voc Rehab and Employment glossary\n\nSee the definitions of our programs and other common terms you may read when learning about Vocational Rehabilitation and Employment benefits.\n\n- Voc Rehab success stories\n\nRead Veterans' stories of how Voc Rehab counselors and services helped them overcome challenges, find new opportunities, and achieve greater goals.\n\n- Resources for Veterans\n\nGet links to more resources outside of VA that can help you in your job search.\n\n- Resources for family members\n\nAccess valuable career resources for spouses and other family members of Veterans and service members.\n\n### Other VA benefits and services\n\n- GI Bill benefits\n\nExplore options for using GI Bill benefits to help pay for school or training, and find out what benefits you can get.\n\n- Other educational assistance programs\n\nIf you re a Veteran, Reservist, or National Guard Soldier who doesn t qualify for the Post-9/11 GI Bill, see if you can get education benefits through other VA programs.\n\n- Home loans\n\nApply for a Certificate of Eligibility for a VA direct or VA-backed home loan to build, buy, improve, or refinance a home.\n\n- Life insurance\n\nExplore your life insurance options and find out how to apply as a service member, Veteran, or family member.\n\nLast updated:"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "document": "VR&E Independent Living Track | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_129.md",
+          "excerpt": "# VR&E 独立生活轨道 | Veterans Affairs\n\n# VR&E 独立生活轨道\n\n如果你的服役相关残疾限制了你的日常生活活动能力（如洗澡、穿衣、进入社区和与他人互动），并且你无法立即重返工作岗位，你可能符合通过 Vocational Rehabilitation and Employment (VR&E) 独立生活轨道获得独立生活服务的资格。如果你和你的 Vocational Rehabilitation Counselor (VRC) 设定了找工作的目标，你也可以在寻找工作的过程中获得这些服务。在这两种情况下，你的 VRC 都可以帮助你恢复日常活动能力。了解你是否可能有资格获得服务，以帮助你尽可能独立地生活。\n\n### 我可以通过 VR&E 获得独立生活服务吗？\n\n如果你是符合 VR&E 福利资格的服役人员或退伍军人，且患有服役相关残疾，并且满足以下所有要求，你可能符合独立生活服务的资格。\n\n以下所有条件都必须满足：\n\n- 你有严重的就业障碍 (SEH)，并且\n- 你的残疾使你无法寻找或重返工作，并且\n- 你需要服务以尽可能独立地生活\n\n请注意：有就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（一份不会使你的残疾恶化、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我可以获得哪些类型的福利？\n\n根据你的需求，服务可能包括：\n\n- 评估和咨询，以确定你的需求和目标\n- 与专家进行家庭咨询\n- 转介至支持资源\n- 指导以帮助你了解是否符合我们的适应性住房计划的资格。这些计划可以帮助你改造你的家，如拓宽门口或增加坡道，以便你能更独立地生活。了解更多关于适应性住房补助的信息\n\n这些服务通常持续最多 24 个月。在某些情况下，你可能能够使用服务超过这个时间。\n\n## 我如何获得这些福利？\n\n首先，你需要申请 VR&E 福利。然后，你将与你的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果你有 VA 残疾评级，请按照以下步骤申请：\n\n1.  登录你的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  点击 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您到最近的 VA 区域福利办公室参加 orientation 会议。\n\n6.  如果您符合资格，VRC 将与您合作，确定您与服务相关的残疾的严重程度、您是否准备好工作，以及您是否会从独立生活服务中受益。您的 VRC 将帮助您制定一份个性化的、书面的独立生活计划，以满足您的需求。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n了解如果您尚未获得残疾评级，如何申请\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "As a disabled Veteran, you may be eligible for the VR&E Independent Living track if you have a service-connected disability that limits your daily activities (like bathing, dressing, getting around, or interacting with others) and you can't return to work right away. You may also get these services while working toward a job goal with your Vocational Rehabilitation Counselor (VRC). Services can include assessments, counseling, referrals, and help with home modifications through the Adaptive Housing program. These services usually last up to 24 months, but may be extended in some cases. To apply, you need to apply for VR&E benefits through eBenefits, then work with a VRC to develop an independent living plan. For more details, see the VR&E Independent Living track page.",
+          "citations": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "de4466bac2d5435aa022140c97f8fbee",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3526,
+              "completion_tokens": 193,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 193,
+                "prompt_tokens": 3526,
+                "total_tokens": 3719,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3270
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0057863,
+            "accounted_rmb": 0.0057863,
+            "usage_unknown": false,
+            "seconds": 2.428739070892334,
+            "error": null,
+            "response": {
+              "id": "ad7947da-b0c9-43c4-ba40-dc8659560860",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "d56ba17449fc91a5b3d9b61f4d9093ca8c675a4451feaeb8abf1f1b3bfed0da9"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04695903044193983,
+        "retrieval": 1033.3210420794785,
+        "generation": 2432.674334035255,
+        "total": 3468.022166984156
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10656945803202689,
+        "rerank_seconds": 0.9266783340135589,
+        "top1_dense_score": 0.6152647137641907,
+        "candidate_ids": [
+          "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0003",
+          "Careers And Employment | Veterans Affairs#1_0::c0005",
+          "PTSD Treatment | Veterans Affairs#1_0::c0004",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0004",
+          "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0042",
+          "VA Health Care | Veterans Affairs#2_0::c0002",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0000",
+          "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0::c0000",
+          "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "VA Health Care | Veterans Affairs#1_0::c0044",
+          "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "VA Housing Assistance | Veterans Affairs#1_0::c0000",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "VA Disability Compensation | Veterans Affairs#2_0::c0000",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 37,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.033290582941845
+      },
+      "raw_citations": [
+        "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "49d547c405025221dc8ea6f96941e3fe07a6b69c36aa678d601024849dd5f554"
+}

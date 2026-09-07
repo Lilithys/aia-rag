@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "e6c3968fb91319aaaac8d901db631ffad5e1b326d9ed9226aedf00e29bafa922",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.8041666666465626,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA decision review and appeals, including that if VA schedules examinations, you should not miss them. This directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0d32a82ece2c42379910521a982cf218",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2008,
+                "completion_tokens": 45,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 45,
+                  "prompt_tokens": 2008,
+                  "total_tokens": 2053,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1240
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0021009,
+              "accounted_rmb": 0.0021009,
+              "usage_unknown": false,
+              "seconds": 1.1777141094207764,
+              "error": null,
+              "response": {
+                "id": "177137d5-35e8-4f70-92a0-175686b4376c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c05ec3b46bee06918975fc7f27a30e063e13afedbfab5bd31a2c7fd8aee58fd8"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context only provides information about getting help for a decision review, but the answer is about not missing VA scheduled examinations, which is not mentioned in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8174c9e3f941400886a3f4762c978ae0",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1177,
+                "completion_tokens": 47,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 47,
+                  "prompt_tokens": 1177,
+                  "total_tokens": 1224,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 409
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0008634,
+              "accounted_rmb": 0.0008634,
+              "usage_unknown": false,
+              "seconds": 1.3898541927337646,
+              "error": null,
+              "response": {
+                "id": "4ec7ea6e-1e0d-483d-8809-13b0431c090e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ef6daa81bd964b8630415c200bc944d1078c8e793d608c78ef8203cfd59d759b"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about what happens after a Board decision, including that if VA schedules exams, you should not miss them, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2fa781c246cc414ebdcf6c461dd9d88b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2182,
+                "completion_tokens": 46,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 46,
+                  "prompt_tokens": 2182,
+                  "total_tokens": 2228,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 1158
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019952,
+              "accounted_rmb": 0.0019952,
+              "usage_unknown": false,
+              "seconds": 1.0597138404846191,
+              "error": null,
+              "response": {
+                "id": "0abc3d4e-eaa9-48aa-9fe7-7197603fed81",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6cc75b031f9b4d64e61615ece09b3d1c7a7dc175442a8267ac89aea6585eaf7e"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about what happens after requesting a Board Appeal, including that if VA schedules exams, the user should not miss them. This directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "226cda79c4aa4e18a49fbf3b0462c30e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2172,
+                "completion_tokens": 48,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 48,
+                  "prompt_tokens": 2172,
+                  "total_tokens": 2220,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 1148
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019892,
+              "accounted_rmb": 0.0019892,
+              "usage_unknown": false,
+              "seconds": 1.3302910327911377,
+              "error": null,
+              "response": {
+                "id": "c90d9873-dcdd-4623-8898-481e23bfd911",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e6d72ae5f1146a7562c394032fd197896874da717debdff03c5b4286952ba400"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about what happens after a Board decision, including the option to appeal to the U.S. Court of Appeals for Veterans Claims, and also mentions that if VA schedules examinations, you should not miss them. The answer directly reflects this instruction from the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c16b965ed10943609e03979b0c2ba981",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1815,
+                "completion_tokens": 69,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1815,
+                  "total_tokens": 1884,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 791
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015482,
+              "accounted_rmb": 0.0015482,
+              "usage_unknown": false,
+              "seconds": 1.4368610382080078,
+              "error": null,
+              "response": {
+                "id": "41f27528-1f41-43f3-8dac-560be05b5642",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5dc6560bfbaff035196d60fb9b56db436fb75147e05e76a069396e500bf4df78"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "fcc5c579273dfe0e92d87e9a4c7656e8f6d6d8f218c2fafe802d67021aef92fa"
+}

@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "a3cba0cd72f1545753fb9153a113f173660729e600b147d3e6f2a096f37e8d3b",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "New and relevant evidence is information VA did not have before the last decision and is needed to file a Supplemental Claim.",
+                "coverage": "covered",
+                "response_quote": "You must add evidence that VA didn't have before that supports your case.",
+                "reason": "The response states the evidence must be new (VA didn't have before) and relevant (supports your case), matching the reference."
+              }
+            ],
+            "reason": "The response correctly explains that new and relevant evidence supports a Supplemental Claim and must be evidence VA didn't have before, aligning with the reference."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "109b188fbeca4aff9b57afe1fd913694",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4601,
+                "completion_tokens": 154,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 154,
+                  "prompt_tokens": 4601,
+                  "total_tokens": 4755,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3705
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0062953,
+              "accounted_rmb": 0.0062953,
+              "usage_unknown": false,
+              "seconds": 2.116659164428711,
+              "error": null,
+              "response": {
+                "id": "be6658c0-dde8-4141-aaad-49e07527b9d4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ba96e7427753c711eaf5334e81b19b6dfdbb769a06aa9982cd5ee0a10c700669"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "New and relevant evidence is information VA did not have before the last decision and is needed to file a Supplemental Claim.",
+            "coverage": "covered",
+            "response_quote": "You must add evidence that VA didn't have before that supports your case.",
+            "reason": "The response states the evidence must be new (VA didn't have before) and relevant (supports your case), matching the reference."
+          }
+        ],
+        "reason": "The response correctly explains that new and relevant evidence supports a Supplemental Claim and must be evidence VA didn't have before, aligning with the reference."
+      }
+    }
+  },
+  "sha256": "d990338f7ac2532fda593032008ca34c78178bb866e7b1240570278817cb7209"
+}

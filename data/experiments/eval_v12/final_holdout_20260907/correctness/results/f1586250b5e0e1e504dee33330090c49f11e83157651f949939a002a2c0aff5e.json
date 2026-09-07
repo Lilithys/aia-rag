@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "f1586250b5e0e1e504dee33330090c49f11e83157651f949939a002a2c0aff5e",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "The user's yearly family income and net worth must meet limits set by Congress.",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response lists income/net worth limits as a condition but does not ask whether the user actually meets them, which is the essential missing condition for eligibility."
+              }
+            ],
+            "reason": "The response provides a general eligibility explanation but fails to clarify the user's income and net worth status, which is the key unknown condition needed to determine eligibility."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "da1ad0fc101f4d92ac88aecf4a9935be",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4398,
+                "completion_tokens": 138,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 138,
+                  "prompt_tokens": 4398,
+                  "total_tokens": 4536,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3502
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0059188,
+              "accounted_rmb": 0.0059188,
+              "usage_unknown": false,
+              "seconds": 1.903162956237793,
+              "error": null,
+              "response": {
+                "id": "e9eb951e-2d44-4d2b-b63b-a664798f90aa",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "83fa9a82439a24388bed52dee9dd5be5f86d9c35f870e4e63b2326a342e58a2a"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "The user's yearly family income and net worth must meet limits set by Congress.",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response lists income/net worth limits as a condition but does not ask whether the user actually meets them, which is the essential missing condition for eligibility."
+          }
+        ],
+        "reason": "The response provides a general eligibility explanation but fails to clarify the user's income and net worth status, which is the key unknown condition needed to determine eligibility."
+      }
+    }
+  },
+  "sha256": "dae2aa008f19fd49f838e2ac4bd6ac15decaee57dce2eeac85fec90fabc87e67"
+}

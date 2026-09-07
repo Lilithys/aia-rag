@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "d24e9aa7c6ffc971d7250d3fed5f8192fa1dfca5583f3dbd7103f24385df662d",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.99999999998,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about family benefits, including the total amount a family can receive, which directly answers the question about how much in total a family can receive in benefits.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "cfb7de69fa4b4336a2d43e350337f251",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1522,
+                "completion_tokens": 50,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 50,
+                  "prompt_tokens": 1522,
+                  "total_tokens": 1572,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 754
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013944,
+              "accounted_rmb": 0.0013944,
+              "usage_unknown": false,
+              "seconds": 1.0157530307769775,
+              "error": null,
+              "response": {
+                "id": "8a2b2994-e6cc-453c-b8bd-7c72026cdbe1",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5035d55de12ee25e1677467ee8a394d51f76b8ea9a7dfd152cee13c2025b3cc7"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about family benefits, including the total amount a family can receive, which directly answers the question about the total family benefits.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "26819b6147494ac8a83df89444b8117b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1507,
+                "completion_tokens": 44,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 44,
+                  "prompt_tokens": 1507,
+                  "total_tokens": 1551,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 739
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013449,
+              "accounted_rmb": 0.0013449,
+              "usage_unknown": false,
+              "seconds": 1.50520920753479,
+              "error": null,
+              "response": {
+                "id": "ab0c35e5-39d3-4386-9332-5f1d9ec5f3b8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "9034fd832d507492964db944c1237f9af139389aebbe7c697cc0aa5e8bb02b9b"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about maximum family benefits, stating that the total amount a worker and their family can receive is generally about 150 to 180 percent of the worker's full retirement benefit. This directly answers the user's question about how much in total a family can receive.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d26ceafec1f647be8d87af566d363598",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2004,
+                "completion_tokens": 70,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 70,
+                  "prompt_tokens": 2004,
+                  "total_tokens": 2074,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1108
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020218,
+              "accounted_rmb": 0.0020218,
+              "usage_unknown": false,
+              "seconds": 1.065413236618042,
+              "error": null,
+              "response": {
+                "id": "5021797f-3282-4ec2-b76f-3e2c52e68ffe",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6acaa1b101a23720f34e5586d8f101606e9a1a9db0067ca10ac9140380e03b49"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about maximum family benefits, stating that the total amount the worker and their family members can receive is generally about 150 to 180 percent of the worker's full retirement benefit. This directly answers the user's question about how much in total a family can receive.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "83732d9885d74a3b9fc93bccea7d22eb",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1997,
+                "completion_tokens": 71,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 71,
+                  "prompt_tokens": 1997,
+                  "total_tokens": 2068,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1101
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020158,
+              "accounted_rmb": 0.0020158,
+              "usage_unknown": false,
+              "seconds": 1.383979082107544,
+              "error": null,
+              "response": {
+                "id": "2d538b74-3a67-41d0-a087-3488d679cfc2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3f4b63696b424cc2cad0d4e1e208441aa8b9977bb8da6d8a0a1fc0bd73c12dca"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about family benefits for disability, including the maximum family amount, which states that the total amount you and your family can receive is generally between 150 and 180 percent of your disability benefit. The answer reflects this information, so the context was useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "89d9e5479a5c406ba47326c0865fb712",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1978,
+                "completion_tokens": 69,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1978,
+                  "total_tokens": 2047,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1082
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019783,
+              "accounted_rmb": 0.0019783,
+              "usage_unknown": false,
+              "seconds": 1.2273931503295898,
+              "error": null,
+              "response": {
+                "id": "40a15b24-f1a1-4675-8dac-f942ebcf64dd",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "70fcca5d171fa1ca764877667321d59d10990b3195da01a94e19759a62dd0a0c"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "465a93d44a89b59d88bc7e34cc59cf147c0d889be2d67b5dc91eea9c662ece16"
+}

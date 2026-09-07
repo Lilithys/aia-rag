@@ -1,0 +1,193 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "5710dde408ac95acbba03f0a21d3ef51::agent-turn-16",
+    "item_sha256": "dbb942870b79be47e9bf736eb675c18103dfc1cdfcd159c730b108f88167ddc3",
+    "result": {
+      "request_id": "496b472f07bc4da1bef49a80aa556a7b",
+      "session_id": "5710dde408ac95acbba03f0a21d3ef51",
+      "turn_id": 15,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您在65岁时未注册Medicare，在某些情况下，您的Medicare保险可能会被延迟并花费更多。此外，如果您延迟领取退休福利，您可能符合延迟退休积分条件，这会增加您的每月福利；但如果您不注册Medicare，您的Medicare保险（Part B和Part D）可能会花费更多。",
+        "citations": [
+          "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+          "text": "# 福利规划器：退休 | 延迟退休积分 | 社会保障管理局\n\n福利规划器：退休\n\n延迟退休积分\n\n如果您在达到完全退休年龄后延迟退休，社会保障退休福利将按一定百分比增加（取决于出生日期 ）。\n\n当您达到70岁时，福利增加不再适用，即使您继续延迟领取福利。\n\n## 延迟退休的增加\n\n如果您已经达到完全退休年龄，您可以选择在申请月份之前开始领取福利。但是，我们不能支付您 达到完全退休年龄之前或超过过去6个月的追溯福利。\n\n如果您决定延迟退休，请务必在65岁时仅注册Medicare。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n## 附加信息\n\n什么时候开始领取退休福利最合适？我们并不建议您在62岁、完全退休年龄、70岁或任何中间年龄 开始领取。以下是一些附加信息，可能有助于您决定什么最适合您：\n\n- 提前还是延迟退休？\n\n- 针对Medicare受益人的退休信息\n\n- 其他需要考虑的事项"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+          "text": "# 福利规划器：退休 | 延迟退休积分 | 社会保障管理局\n\n### 延迟退休积分\n\n如果您将退休推迟到完全退休年龄之后，社会保障退休福利将按一定百分比增加（取决于出生日期）。\n\n即使您继续推迟领取福利，当您达到70岁时，福利增加将不再适用。\n\n### 延迟退休的增加\n\n如果您已达到完全退休年龄，您可以选择在您申请的月份之前开始领取福利。但是，我们不能为您达到完全退休年龄之前的任何月份或超过过去6个月的追溯性福利支付。\n\n如果您决定延迟退休，请务必在65岁时仅注册Medicare。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n### 附加信息\n\n开始领取退休福利的最佳时间是什么？我们并不建议您在62岁、完全退休年龄、70岁或任何介于两者之间的年龄开始领取。以下是一些可能帮助您决定什么适合您的附加信息：\n\n- 提前还是延迟退休？\n- 针对Medicare受益人的退休信息\n- 其他需要考虑的事项"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0002",
+          "text": "[福利规划器：退休 | 仅申请医疗保险 | 社会保障管理局 > 如果您计划继续工作]\n即使您计划继续工作，您可能仍然能够获得一些福利。如果您未达到完全退休年龄且收入超过一定 金额，我们将从您的福利中扣除超出部分的收入。\n\n如果您延迟领取福利直到达到完全退休年龄的月份，您可以在收入不受限制的情况下领取福利。\n\n有关帮助您决定开始领取福利的最佳时间的更多信息，请阅读其他需要考虑的事项。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0001",
+          "text": "[福利规划器：退休 | 仅申请医疗保险 | 社会保障管理局 > 我们可根据您的记录支付的终身福利]\n您可以从62岁到70岁之间的任何时间开始领取退休福利。您延迟开始领取的时间越长，您的福利金 额就越高。这种调整通常是永久性的。如果您：\n\n- 在完全退休年龄之前申请福利，您的福利将因提前领取而减少。（对于1943年至1954年出生的 人，完全退休年龄为66岁。从1955年开始，每出生一年增加两个月，直到1960年或以后出生的 人的完全退休年龄达到67岁。）\n\n- 如果您的完全退休年龄为66岁，并且您决定在65岁时开始领取退休福利，您的福利将是您全 额福利金额的93.33%。\n\n- 延迟领取退休福利直到达到完全退休年龄之后（直到70岁的任何月份），您可以通过累积延迟 退休积分来增加您的福利。如果您的完全退休年龄为66岁零2个月，并且您等到70岁才开始领 取，您的福利将是您完全退休年龄福利的130.67%。\n\n- 有符合资格的家庭成员，延迟意味着您将失去他们可能获得的部分福利。然而，延迟福利也会 增加您的配偶可能获得的最高每月遗属福利。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000",
+          "text": "# Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration\n\n### Benefits By Year Of Birth\n\nFull retirement age 是指一个人首次有资格获得全额或未减少的退休福利的年龄。\n\n无论你的 full retirement age（也称为 \"normal retirement age\"）是多少，你都可以最早在 62 岁或最晚在 70 岁开始领取福利。\n\n### 如果你提前退休\n\n你可以在 62 岁到 full retirement age 之间的任何时间退休。然而，如果你提前开始领取福利，你的福利将根据你提前的月份数按百分比减少。\n\n下表列出了 62 岁时的减少金额，并基于 full retirement age 时估计每月福利 $1000 的示例。选择你的出生年份，了解如果你在 62 岁到 full retirement age 之间退休，你的福利将减少多少。\n\n如果你的生日是 1 月 1 日，我们会按照你的生日在上一年来计算你的福利。\n\n### 按出生年份划分的 Full Retirement 和 62 岁福利\n\n### 优点与缺点\n\n在 full retirement age 之前领取福利有优点也有缺点。优点是你领取福利的时间更长。缺点是福利会减少。每个人的情况不同。重要的是要记住：\n\n- 如果你将福利延迟到 full retirement age 之后，你可能符合 delayed retirement credits 的条件，这会增加你的每月福利；\n- 在做出关于退休福利的正确决定时，还有其他因素需要考虑；以及\n- 在决定何时退休之前，请联系 Social Security。\n\n如果你决定将福利延迟到 65 岁之后，你仍应在 65 岁生日后的三个月内申请 Medicare 福利。如果你等待更长时间，你的 Medicare 医疗保险（Part B）和处方药保险（Part D）可能会花费更多。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+          "text": "# 福利规划器：退休 | 延迟退休积分 | 社会保障管理局\n\n福利规划器：退休\n\n延迟退休积分\n\n如果您在达到完全退休年龄后延迟退休，社会保障退休福利将按一定百分比增加（取决于出生日期 ）。\n\n当您达到70岁时，福利增加不再适用，即使您继续延迟领取福利。\n\n## 延迟退休的增加\n\n如果您已经达到完全退休年龄，您可以选择在申请月份之前开始领取福利。但是，我们不能支付您 达到完全退休年龄之前或超过过去6个月的追溯福利。\n\n如果您决定延迟退休，请务必在65岁时仅注册Medicare。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n## 附加信息\n\n什么时候开始领取退休福利最合适？我们并不建议您在62岁、完全退休年龄、70岁或任何中间年龄 开始领取。以下是一些附加信息，可能有助于您决定什么最适合您：\n\n- 提前还是延迟退休？\n\n- 针对Medicare受益人的退休信息\n\n- 其他需要考虑的事项"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+          "text": "# 福利规划器：退休 | 延迟退休积分 | 社会保障管理局\n\n### 延迟退休积分\n\n如果您将退休推迟到完全退休年龄之后，社会保障退休福利将按一定百分比增加（取决于出生日期）。\n\n即使您继续推迟领取福利，当您达到70岁时，福利增加将不再适用。\n\n### 延迟退休的增加\n\n如果您已达到完全退休年龄，您可以选择在您申请的月份之前开始领取福利。但是，我们不能为您达到完全退休年龄之前的任何月份或超过过去6个月的追溯性福利支付。\n\n如果您决定延迟退休，请务必在65岁时仅注册Medicare。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n### 附加信息\n\n开始领取退休福利的最佳时间是什么？我们并不建议您在62岁、完全退休年龄、70岁或任何介于两者之间的年龄开始领取。以下是一些可能帮助您决定什么适合您的附加信息：\n\n- 提前还是延迟退休？\n- 针对Medicare受益人的退休信息\n- 其他需要考虑的事项"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0002",
+          "text": "[福利规划器：退休 | 仅申请医疗保险 | 社会保障管理局 > 如果您计划继续工作]\n即使您计划继续工作，您可能仍然能够获得一些福利。如果您未达到完全退休年龄且收入超过一定 金额，我们将从您的福利中扣除超出部分的收入。\n\n如果您延迟领取福利直到达到完全退休年龄的月份，您可以在收入不受限制的情况下领取福利。\n\n有关帮助您决定开始领取福利的最佳时间的更多信息，请阅读其他需要考虑的事项。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0001",
+          "text": "[福利规划器：退休 | 仅申请医疗保险 | 社会保障管理局 > 我们可根据您的记录支付的终身福利]\n您可以从62岁到70岁之间的任何时间开始领取退休福利。您延迟开始领取的时间越长，您的福利金 额就越高。这种调整通常是永久性的。如果您：\n\n- 在完全退休年龄之前申请福利，您的福利将因提前领取而减少。（对于1943年至1954年出生的 人，完全退休年龄为66岁。从1955年开始，每出生一年增加两个月，直到1960年或以后出生的 人的完全退休年龄达到67岁。）\n\n- 如果您的完全退休年龄为66岁，并且您决定在65岁时开始领取退休福利，您的福利将是您全 额福利金额的93.33%。\n\n- 延迟领取退休福利直到达到完全退休年龄之后（直到70岁的任何月份），您可以通过累积延迟 退休积分来增加您的福利。如果您的完全退休年龄为66岁零2个月，并且您等到70岁才开始领 取，您的福利将是您完全退休年龄福利的130.67%。\n\n- 有符合资格的家庭成员，延迟意味着您将失去他们可能获得的部分福利。然而，延迟福利也会 增加您的配偶可能获得的最高每月遗属福利。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000",
+          "text": "# Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration\n\n### Benefits By Year Of Birth\n\nFull retirement age 是指一个人首次有资格获得全额或未减少的退休福利的年龄。\n\n无论你的 full retirement age（也称为 \"normal retirement age\"）是多少，你都可以最早在 62 岁或最晚在 70 岁开始领取福利。\n\n### 如果你提前退休\n\n你可以在 62 岁到 full retirement age 之间的任何时间退休。然而，如果你提前开始领取福利，你的福利将根据你提前的月份数按百分比减少。\n\n下表列出了 62 岁时的减少金额，并基于 full retirement age 时估计每月福利 $1000 的示例。选择你的出生年份，了解如果你在 62 岁到 full retirement age 之间退休，你的福利将减少多少。\n\n如果你的生日是 1 月 1 日，我们会按照你的生日在上一年来计算你的福利。\n\n### 按出生年份划分的 Full Retirement 和 62 岁福利\n\n### 优点与缺点\n\n在 full retirement age 之前领取福利有优点也有缺点。优点是你领取福利的时间更长。缺点是福利会减少。每个人的情况不同。重要的是要记住：\n\n- 如果你将福利延迟到 full retirement age 之后，你可能符合 delayed retirement credits 的条件，这会增加你的每月福利；\n- 在做出关于退休福利的正确决定时，还有其他因素需要考虑；以及\n- 在决定何时退休之前，请联系 Social Security。\n\n如果你决定将福利延迟到 65 岁之后，你仍应在 65 岁生日后的三个月内申请 Medicare 福利。如果你等待更长时间，你的 Medicare 医疗保险（Part B）和处方药保险（Part D）可能会花费更多。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+          "document": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0",
+          "heading": [],
+          "source_file": "ssa_033.pdf",
+          "excerpt": "# 福利规划器：退休 | 延迟退休积分 | 社会保障管理局\n\n福利规划器：退休\n\n延迟退休积分\n\n如果您在达到完全退休年龄后延迟退休，社会保障退休福利将按一定百分比增加（取决于出生日期 ）。\n\n当您达到70岁时，福利增加不再适用，即使您继续延迟领取福利。\n\n## 延迟退休的增加\n\n如果您已经达到完全退休年龄，您可以选择在申请月份之前开始领取福利。但是，我们不能支付您 达到完全退休年龄之前或超过过去6个月的追溯福利。\n\n如果您决定延迟退休，请务必在65岁时仅注册Medicare。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n## 附加信息\n\n什么时候开始领取退休福利最合适？我们并不建议您在62岁、完全退休年龄、70岁或任何中间年龄 开始领取。以下是一些附加信息，可能有助于您决定什么最适合您：\n\n- 提前还是延迟退休？\n\n- 针对Medicare受益人的退休信息\n\n- 其他需要考虑的事项"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+          "document": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_034.md",
+          "excerpt": "# 福利规划器：退休 | 延迟退休积分 | 社会保障管理局\n\n### 延迟退休积分\n\n如果您将退休推迟到完全退休年龄之后，社会保障退休福利将按一定百分比增加（取决于出生日期）。\n\n即使您继续推迟领取福利，当您达到70岁时，福利增加将不再适用。\n\n### 延迟退休的增加\n\n如果您已达到完全退休年龄，您可以选择在您申请的月份之前开始领取福利。但是，我们不能为您达到完全退休年龄之前的任何月份或超过过去6个月的追溯性福利支付。\n\n如果您决定延迟退休，请务必在65岁时仅注册Medicare。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n如果您不注册，在某些情况下，您的Medicare保险可能会被延迟并花费更多。\n\n### 附加信息\n\n开始领取退休福利的最佳时间是什么？我们并不建议您在62岁、完全退休年龄、70岁或任何介于两者之间的年龄开始领取。以下是一些可能帮助您决定什么适合您的附加信息：\n\n- 提前还是延迟退休？\n- 针对Medicare受益人的退休信息\n- 其他需要考虑的事项"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000",
+          "document": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_028.md",
+          "excerpt": "# Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration\n\n### Benefits By Year Of Birth\n\nFull retirement age 是指一个人首次有资格获得全额或未减少的退休福利的年龄。\n\n无论你的 full retirement age（也称为 \"normal retirement age\"）是多少，你都可以最早在 62 岁或最晚在 70 岁开始领取福利。\n\n### 如果你提前退休\n\n你可以在 62 岁到 full retirement age 之间的任何时间退休。然而，如果你提前开始领取福利，你的福利将根据你提前的月份数按百分比减少。\n\n下表列出了 62 岁时的减少金额，并基于 full retirement age 时估计每月福利 $1000 的示例。选择你的出生年份，了解如果你在 62 岁到 full retirement age 之间退休，你的福利将减少多少。\n\n如果你的生日是 1 月 1 日，我们会按照你的生日在上一年来计算你的福利。\n\n### 按出生年份划分的 Full Retirement 和 62 岁福利\n\n### 优点与缺点\n\n在 full retirement age 之前领取福利有优点也有缺点。优点是你领取福利的时间更长。缺点是福利会减少。每个人的情况不同。重要的是要记住：\n\n- 如果你将福利延迟到 full retirement age 之后，你可能符合 delayed retirement credits 的条件，这会增加你的每月福利；\n- 在做出关于退休福利的正确决定时，还有其他因素需要考虑；以及\n- 在决定何时退休之前，请联系 Social Security。\n\n如果你决定将福利延迟到 65 岁之后，你仍应在 65 岁生日后的三个月内申请 Medicare 福利。如果你等待更长时间，你的 Medicare 医疗保险（Part B）和处方药保险（Part D）可能会花费更多。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您在65岁时未注册Medicare，在某些情况下，您的Medicare保险可能会被延迟并花费更多。此外，如果您延迟领取退休福利，您可能符合延迟退休积分条件，这会增加您的每月福利；但如果您不注册Medicare，您的Medicare保险（Part B和Part D）可能会花费更多。",
+          "citations": [
+            "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "7883a2bba2b74276a32bf6944bebb3ef",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1858,
+              "completion_tokens": 152,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 152,
+                "prompt_tokens": 1858,
+                "total_tokens": 2010,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1602
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0030998,
+            "accounted_rmb": 0.0030998,
+            "usage_unknown": false,
+            "seconds": 1.6341090202331543,
+            "error": null,
+            "response": {
+              "id": "8a2965af-88b7-4dbb-aa73-f05e5bbc686e",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "738c61582570ca880f41718e7ff78da51218bedfbe11a8ea259e67207a4d8440"
+      },
+      "latency_ms": {
+        "queue_wait": 0.051915994845330715,
+        "retrieval": 1497.2549169324338,
+        "generation": 1638.9155419310555,
+        "total": 3137.504208018072
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2917100420454517,
+        "rerank_seconds": 1.205478125018999,
+        "top1_dense_score": 0.8545611500740051,
+        "candidate_ids": [
+          "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0001",
+          "Retirement Benefits | Social Security Administration#1_0::c0004",
+          "Retirement Benefits | Social Security Administration#2_0::c0004",
+          "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0000",
+          "Medicare Benefits | Social Security Administration#1_0::c0007",
+          "Learn About Retirement Benefits | SSA#1_0::c0003",
+          "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0002",
+          "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#1_0::c0003",
+          "Retirement Benefits | Social Security Administration#2_0::c0003",
+          "Manage Your Retirement Benefits | SSA#1_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 40,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.497227624990046
+      },
+      "raw_citations": [
+        "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+        "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+        "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "d825126d4f7997cad64961bf1916c7a3bc343ff6d8f454734e114b88c09f5bc9"
+}

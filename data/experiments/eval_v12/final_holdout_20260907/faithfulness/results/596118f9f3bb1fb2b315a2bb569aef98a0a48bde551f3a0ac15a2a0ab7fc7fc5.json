@@ -1,0 +1,192 @@
+{
+  "payload": {
+    "task_id": "596118f9f3bb1fb2b315a2bb569aef98a0a48bde551f3a0ac15a2a0ab7fc7fc5",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Eligibility for VR&E benefits depends on your specific situation.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states eligibility depends on situations such as having a disability rating or being in specific programs."
+              },
+              {
+                "text": "Generally, you may be eligible if you are a service member or veteran with a service-connected disability and an employment handicap (your disability limits your ability to prepare for, obtain, or maintain suitable employment).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context defines employment handicap and eligibility criteria."
+              },
+              {
+                "text": "Specific conditions include: if you have a VA disability rating, you can apply through eBenefits;",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context provides steps for applying with a rating via eBenefits."
+              },
+              {
+                "text": "if you're a service member without a rating, you may qualify if you're going through the Physical Evaluation Board process, expect an other than dishonorable discharge with a VA memorandum rating of 20% or more, or are in the Integrated Disability Evaluation System (IDES).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists these specific situations for service members without a rating."
+              },
+              {
+                "text": "Severely injured active-duty members may automatically receive benefits under certain laws.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context mentions automatic benefits for severely injured active-duty members under Sec. 1631(b)."
+              },
+              {
+                "text": "After applying, a Vocational Rehabilitation Counselor will determine if you have an employment handicap and eligibility.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that after applying, a VRC will determine employment handicap and eligibility."
+              },
+              {
+                "text": "For more precise guidance, please clarify your current status (e.g., veteran with rating, active duty, etc.).",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a clarification request, not a factual assertion."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "72452c23d40e46c6976496a95a329cb8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3711,
+                "completion_tokens": 696,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 696,
+                  "prompt_tokens": 3711,
+                  "total_tokens": 4407,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3327
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0081417,
+              "accounted_rmb": 0.0081417,
+              "usage_unknown": false,
+              "seconds": 3.962557077407837,
+              "error": null,
+              "response": {
+                "id": "fb92b71a-3e9c-4928-93e2-bc7bcb512b85",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c3dfa7642017e53b3ecb181ddd75042b983e6e69c8642a1b5c91a80d5fce82f2"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 6,
+      "supported_external_claims": 6,
+      "excluded_units_by_scope": {
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Eligibility for VR&E benefits depends on your specific situation.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states eligibility depends on situations such as having a disability rating or being in specific programs."
+        },
+        {
+          "text": "Generally, you may be eligible if you are a service member or veteran with a service-connected disability and an employment handicap (your disability limits your ability to prepare for, obtain, or maintain suitable employment).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context defines employment handicap and eligibility criteria."
+        },
+        {
+          "text": "Specific conditions include: if you have a VA disability rating, you can apply through eBenefits;",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context provides steps for applying with a rating via eBenefits."
+        },
+        {
+          "text": "if you're a service member without a rating, you may qualify if you're going through the Physical Evaluation Board process, expect an other than dishonorable discharge with a VA memorandum rating of 20% or more, or are in the Integrated Disability Evaluation System (IDES).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists these specific situations for service members without a rating."
+        },
+        {
+          "text": "Severely injured active-duty members may automatically receive benefits under certain laws.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context mentions automatic benefits for severely injured active-duty members under Sec. 1631(b)."
+        },
+        {
+          "text": "After applying, a Vocational Rehabilitation Counselor will determine if you have an employment handicap and eligibility.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that after applying, a VRC will determine employment handicap and eligibility."
+        },
+        {
+          "text": "For more precise guidance, please clarify your current status (e.g., veteran with rating, active duty, etc.).",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a clarification request, not a factual assertion."
+        }
+      ]
+    }
+  },
+  "sha256": "d4838483c52204779e31b0942bed83d7fb9e4db1957a610943b8250cfbe73a4c"
+}

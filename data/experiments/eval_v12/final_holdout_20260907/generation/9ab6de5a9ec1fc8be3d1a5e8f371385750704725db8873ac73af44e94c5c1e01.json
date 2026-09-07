@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-001",
+    "item_sha256": "d4449c3f702ac3dda112f8ff6a56099cc15c8b042c259206625fb1fd6b6d2816",
+    "result": {
+      "request_id": "8388bc3ed94a4d919851b549401f73b6",
+      "session_id": "synthetic::eval-v1-holdout-refuse-001",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "I cannot check the real-time status of your personalized plate order. However, the DMV states that custom plates take at least six weeks to arrive after your order is processed. If you do not receive them within six weeks, you can contact the Custom Plates Unit at 1-518-402-4838 (Monday–Friday, 8:00am–4:00pm) to inquire about the status. You can also check your plate order mailing status online if you have the necessary information.",
+        "citations": [
+          "Order personalized plates#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Order personalized plates#1_0::c0000",
+          "text": "# 订购个性化车牌\n\n# 订购个性化车牌 [1]\n\n### 如何订购个性化车牌？\n\n您可以为乘用车、商用车和摩托车订购个性化车牌。1\n\n了解更多关于个性化车牌费用、要求和限制的信息。[2]\n\n许多图片车牌也可以个性化。您可以在线浏览我们的图片车牌系列。类别包括：\n\n- I Love NY Adventure [3]\n- Sports [4]\n- Military and Veterans [5]\n- Counties and Regions of NY State [6]\n- Colleges, Fraternities, Sororities [7]\n- Causes [8]\n- Professions [9]\n- Organizations [10]\n- Motorcycle Plates [11]\n\n### 在线订购\n\n您可以在线订购个性化车牌，除非您想要为残疾人定制带有Universal Symbol of Access的个性化车牌。2\n\n要在线订购个性化车牌：\n\n- 您必须拥有有效的New York State车辆注册，属于乘用车、商用车或摩托车注册类别，且有效期不少于60天。3\n- 您车辆注册记录上的邮寄地址必须是您当前的邮寄地址。4\n- 如果您的姓名已更改，您的车辆注册记录必须与您当前姓名一致。5\n- 您必须提供当前车牌号、3字母注册类别代码以及您姓氏的前三个字母。请参阅示例注册文件。[12]\n- 您必须拥有DMV接受的信用卡，以及用于确认的有效电子邮件地址。6\n\n在线订购个性化车牌 [13]\n\n### 通过邮件\n\n要通过邮件订购个性化车牌，请使用Application for Custom Plates (PDF) [14] (CP-30)。7\n\n将填写完整的表格和付款邮寄至：\n\nNYS DMV Custom Plates UnitP.O. Box 2775Albany, NY 12220\n\n### 通过电话\n\n在线办理更快更容易。要通过电话订购，请拨打Custom Plates Unit电话1-518-402-4838。办公时间为周一至周五上午8:00至下午4:00。8\n\n### 在 DMV 办公室\n\n您可以省去一趟行程。在线办理更快、更简单。\n\n查找 DMV 办公室。[15]\n\n### 何时收到新牌照和注册文件\n\n- 在您的订单处理完成后约 10 天或更短时间内，您将收到新的注册文件，其中显示您当前的牌照号码和新的牌照组合。\n- 定制牌照至少需要六周时间才能送达\n- 您的新注册文件将与新定制牌照分开邮寄\n- 如果您在两周内未收到注册文件，或在六周内未收到定制牌照，请联系 Custom Plates Unit，电话 1-518-402-4838。\n\n检查我的牌照订单邮寄状态。[16]\n\n### 收到新牌照后如何处理当前车辆牌照\n\n为防止当前车辆牌照被欺诈使用，请用永久性墨水笔在每个车辆牌照上做标记。不要在同一天将两个车辆牌照放入回收/垃圾中。\n\n- 1. 在车辆注册之前、续期注册时或转移注册之前，您不能订购个性化牌照。您必须拥有 DMV 颁发的注册挡风玻璃贴纸、收据和普通系列牌照，才能订购个性化牌照。\n- 2. 要为带有 Universal Symbol of Access 的残障人士订购个性化牌照，请致电 Custom Plates Unit，电话 1-518-402-4838。办公时间为周一至周五上午 8:00 至下午 4:00。\n- 3. 如果您的注册将在未来 60 天内到期，请在订购个性化牌照之前续期您的注册 [17]。\n- 4. 在订购个性化牌照之前，请在线更改您的地址 [18]。\n- 5. 您必须前往 DMV 办公室 [15] 更改所有 DMV 记录和文件上的姓名。了解更多关于如何更改姓名 [19] 的信息。\n- 6. 我们接受 American Express、Discover、MasterCard 和 VISA。\n- 7. 某些图片或专业牌照不能通过邮寄购买。\n- 8. 某些牌照不能通过电话订购。Professional、emergency services、veterans 和某些组织牌照仅限于会员，必须通过组织或直接从 Custom Plates Unit 订购，并附有文件。\n\n## 常见任务：\n\n如何续期注册\n\n如何更改地址\n\n检查我的牌照订单邮寄状态\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- 牌照 [20]\n\n## 相关 PDF：\n\ncp30.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Learn about personalized plates#3_0::c0000",
+          "text": "# Learn about personalized plates\n\n## What are personalized plates?\n\nPersonalized plates are standard series plates that have a combination of numbers and letters that you select, for an additional fee in addition to your regular vehicle registration fee. 1\n\n## How much do personalized plates cost?\n\n## Passenger and Commercial Plates: Initial Cost = $60.00Annual Fee = $31.25\n\nMotorcycle Plates:Initial Cost = $35.00Annual Fee = $18.75\n\n## Can | use personalized plates on any type of vehicle?\n\nYou can use personalized plates on passenger vehicles, commercial vehicles, motorcycles and trailers.\n\n## What can | use for a personalized plate combination?\n\nYour requested plate combination is subject to review. The DMV is not required to issue your requested plate.\n\nThe maximum number of characters you can use depends on the plate type you are registering. 2 You can have up to\n\n- eight characters on a standard series plate\n\n- six characters on a personalized plate for a motorcycle\n\n- six characters on a picture plate\n\n- the state image is available on some personalized plates and counts as a character. See the example [1]. Check if the personalized plate combination you want is available. [2]\n\n## What plate combinations are restricted?\n\n- Personalized plates that give the appearance of an official plate or the configuration of special registration classes. 3\n\n- Combinations that are considered obscene, derogatory or offensive.\n\n- Combinations that do not have one letter.\n\n- Combinations that consist of six numbers followed by one letter.\n\n- Use of the letter \"O\" between two numbers to make what appears to be a number. 4\n\n- Use of the letter \"I\" as the first or last characters on a plate when the other characters are all numbers. 5\n\n- Use of the number zero (0) between two letters to form a word. 6\n\n- Use of the number zero (0) and the letter \"O\" to form a word or number. 7 Read the DMV regulations for restrictions on personalized plate combinations [3].\n\n# Can picture plates be personalized?\n\nYes. Some picture plates can be personalized for an additional fee in addition to your picture plate and regular registration fee. For personalized plate availability and pricing for the picture plate you are interested in, you can browse our collection of picture plates online. The categories are:\n\n- | Love NY Adventure [4]\n\n- Sports [5]\n\n- Military and Veterans [6]\n\n- Counties and Regions of NY State [7]\n\n- Colleges, Fraternities, Sororities [8]\n\n- Causes [9]\n\n- Professions [10]\n\n- Organizations [11]\n\n- Motorcycle Plates [12]\n\n- 1. The annual fee is in addition to your vehicle registration renewal fee and will be paid when you renew your registration. A registration renewal for two years will include two annual fees.\n\n- 2. Acharacter is a letter (A-Z), number (0-9) or space. Each space counts as one character.\n\n- 3. For example, a combination that includes \"POLICE\" or \"NYS\" is not allowed.\n\n- 4. For example, \"203\", \"2003\", or \"JAN2003\" are not allowed.\n\n- 5. For example, \"145678\" or \"456781\" are not allowed.\n\n- 6. For example, \"POOL\" and \"POLE\" are not allowed.\n\n- 7. For example, \"POOL\" or \"2003\" are not allowed."
+        },
+        {
+          "chunk_id": "Order picture and professional plates#1_0::c0000",
+          "text": "# Order picture and professional plates\n\n# Order picture and professional plates [1]\n\nYou can order picture or professional plates for passenger vehicles, commercial vehicles and motorcycles. 1\n\nMany picture or professional plates can also be personalized [2]. You can browse our collection of picture and professional plates and order online directly from the pages below. The categories are:\n\n- I Love NY Adventure [3]\n- Sports [4]\n- Military and Veterans [5]\n- Counties and Regions of NY State [6]\n- Colleges, Fraternities, Sororities [7]\n- Causes [8]\n- Professions [9]\n- Organizations [10]\n- Motorcycle Plates [11]\n\nLearn more about picture and professional plates. [12]\n\n### Order online\n\nYou can order many picture plates online, see the list above for more information on how to order a plate.\n\nIf you wish to purchase plates for people with disabilities that have the Universal Symbol of Access, you must contact the Custom Plates Unit. 2\n\nAll professional and military/veteran plates, and some organization picture plates require you to provide proof or certification that you are eligible. These plates must be ordered through the organization or the Custom Plates Unit.\n\nTo order picture or professional plates online:\n\n- You must have a valid New York State vehicle registration in the passenger, commercial or motorcycle registration class that does not expire within 60 days. 3\n- The mailing address on your vehicle registration record must be your current mailing address. 4\n- Your vehicle registration record must match your current name if your name has changed. 5\n- You must provide your current plate number, the 3-letter registration class code and the first three letters of your last name. See a sample registration document. [13]\n- You must have a credit card that DMV accepts, and a valid email address for confirmation purposes. 6\n\n### Order by mail\n\nTo order picture or professional plates by mail, use the Application for Custom Plates (pdf) [14] (CP-30). 7\n\nMail the completed form and your payment to:\n\nNYS DMV Custom Plates UnitP.O. Box 2775Albany, NY 12220\n\n### Order by phone\n\nYou can order by phone, however it s faster and easier to do it online. Call the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday. 8\n\n### Order at a DMV office\n\nYes, but you can save yourself trip. It s faster and easier to do it online.\n\nFind a DMV office. [15]\n\nProfessional plates can only be ordered from the Custom Plates Unit with proper proof or certification. 9\n\n### Receiving custom plates and registration\n\n- In approximately 10 days or less after your order is processed, you will receive new documents that show your current plate number and your new plate combination.\n- Allow at least six weeks for the custom plates to arrive.\n- Your new registration documents will be mailed separately from your new custom plates\n\nIf you do not receive your registration documents within two weeks or your custom plates within six weeks, contact the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday.\n\nCheck my plate order mailing status. [16]\n\n### Destroy your old plates\n\nOnce you receive your new plates you will want to destroy your old plates to protect against the fraudulent use. Mark each vehicle plate with a permanent marker. Do not put both vehicle plates in the recycling/garbage on the same day.\n\n- 1. You can t order picture or professional plates before your vehicle is registered, when renewing your registration, or before transferring a registration. You must have a registration windshield sticker, receipt and regular series plates issued by DMV before ordering picture or professional plates.\n- 2. Call the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday.\n- 3. If your registration expires within the next 60 days, renew your registration [17] before you order picture or professional plates.\n- 4. Change your address online [18] before ordering picture or professional plates.\n- 5. You must visit a DMV office [15] to change your name on all DMV records and documents. Learn more about how to change your name [19].\n- 6. We accept American Express, Discover, MasterCard and VISA.\n- 7. Some picture plates can t be purchased by mail.\n- 8. Some plates are not available by phone. Professional, emergency services and some organization plates are limited to membership and must be ordered through the organization or directly from the Custom Plates Unit, with documentation.\n- 9. Call the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday.\n\n## Common Tasks:\n\nHow to renew a registration\n\nHow to change your address\n\nCheck my plate order mailing status\n\n## Topic:\n\n- Plates [20]"
+        },
+        {
+          "chunk_id": "Replace license or permit#1_0::c0000",
+          "text": "更换驾照或许可证"
+        },
+        {
+          "chunk_id": "About New York State Inspections#3_0::c0017",
+          "text": "[关于纽约州车辆检查]\n您的姓名和当前外州邮寄地址 您车辆的年份和品牌 车辆牌照号 检查贴纸编号和到期日期"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Order personalized plates#1_0::c0000",
+          "text": "# 订购个性化车牌\n\n# 订购个性化车牌 [1]\n\n### 如何订购个性化车牌？\n\n您可以为乘用车、商用车和摩托车订购个性化车牌。1\n\n了解更多关于个性化车牌费用、要求和限制的信息。[2]\n\n许多图片车牌也可以个性化。您可以在线浏览我们的图片车牌系列。类别包括：\n\n- I Love NY Adventure [3]\n- Sports [4]\n- Military and Veterans [5]\n- Counties and Regions of NY State [6]\n- Colleges, Fraternities, Sororities [7]\n- Causes [8]\n- Professions [9]\n- Organizations [10]\n- Motorcycle Plates [11]\n\n### 在线订购\n\n您可以在线订购个性化车牌，除非您想要为残疾人定制带有Universal Symbol of Access的个性化车牌。2\n\n要在线订购个性化车牌：\n\n- 您必须拥有有效的New York State车辆注册，属于乘用车、商用车或摩托车注册类别，且有效期不少于60天。3\n- 您车辆注册记录上的邮寄地址必须是您当前的邮寄地址。4\n- 如果您的姓名已更改，您的车辆注册记录必须与您当前姓名一致。5\n- 您必须提供当前车牌号、3字母注册类别代码以及您姓氏的前三个字母。请参阅示例注册文件。[12]\n- 您必须拥有DMV接受的信用卡，以及用于确认的有效电子邮件地址。6\n\n在线订购个性化车牌 [13]\n\n### 通过邮件\n\n要通过邮件订购个性化车牌，请使用Application for Custom Plates (PDF) [14] (CP-30)。7\n\n将填写完整的表格和付款邮寄至：\n\nNYS DMV Custom Plates UnitP.O. Box 2775Albany, NY 12220\n\n### 通过电话\n\n在线办理更快更容易。要通过电话订购，请拨打Custom Plates Unit电话1-518-402-4838。办公时间为周一至周五上午8:00至下午4:00。8\n\n### 在 DMV 办公室\n\n您可以省去一趟行程。在线办理更快、更简单。\n\n查找 DMV 办公室。[15]\n\n### 何时收到新牌照和注册文件\n\n- 在您的订单处理完成后约 10 天或更短时间内，您将收到新的注册文件，其中显示您当前的牌照号码和新的牌照组合。\n- 定制牌照至少需要六周时间才能送达\n- 您的新注册文件将与新定制牌照分开邮寄\n- 如果您在两周内未收到注册文件，或在六周内未收到定制牌照，请联系 Custom Plates Unit，电话 1-518-402-4838。\n\n检查我的牌照订单邮寄状态。[16]\n\n### 收到新牌照后如何处理当前车辆牌照\n\n为防止当前车辆牌照被欺诈使用，请用永久性墨水笔在每个车辆牌照上做标记。不要在同一天将两个车辆牌照放入回收/垃圾中。\n\n- 1. 在车辆注册之前、续期注册时或转移注册之前，您不能订购个性化牌照。您必须拥有 DMV 颁发的注册挡风玻璃贴纸、收据和普通系列牌照，才能订购个性化牌照。\n- 2. 要为带有 Universal Symbol of Access 的残障人士订购个性化牌照，请致电 Custom Plates Unit，电话 1-518-402-4838。办公时间为周一至周五上午 8:00 至下午 4:00。\n- 3. 如果您的注册将在未来 60 天内到期，请在订购个性化牌照之前续期您的注册 [17]。\n- 4. 在订购个性化牌照之前，请在线更改您的地址 [18]。\n- 5. 您必须前往 DMV 办公室 [15] 更改所有 DMV 记录和文件上的姓名。了解更多关于如何更改姓名 [19] 的信息。\n- 6. 我们接受 American Express、Discover、MasterCard 和 VISA。\n- 7. 某些图片或专业牌照不能通过邮寄购买。\n- 8. 某些牌照不能通过电话订购。Professional、emergency services、veterans 和某些组织牌照仅限于会员，必须通过组织或直接从 Custom Plates Unit 订购，并附有文件。\n\n## 常见任务：\n\n如何续期注册\n\n如何更改地址\n\n检查我的牌照订单邮寄状态\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- 牌照 [20]\n\n## 相关 PDF：\n\ncp30.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Learn about personalized plates#3_0::c0000",
+          "text": "# Learn about personalized plates\n\n## What are personalized plates?\n\nPersonalized plates are standard series plates that have a combination of numbers and letters that you select, for an additional fee in addition to your regular vehicle registration fee. 1\n\n## How much do personalized plates cost?\n\n## Passenger and Commercial Plates: Initial Cost = $60.00Annual Fee = $31.25\n\nMotorcycle Plates:Initial Cost = $35.00Annual Fee = $18.75\n\n## Can | use personalized plates on any type of vehicle?\n\nYou can use personalized plates on passenger vehicles, commercial vehicles, motorcycles and trailers.\n\n## What can | use for a personalized plate combination?\n\nYour requested plate combination is subject to review. The DMV is not required to issue your requested plate.\n\nThe maximum number of characters you can use depends on the plate type you are registering. 2 You can have up to\n\n- eight characters on a standard series plate\n\n- six characters on a personalized plate for a motorcycle\n\n- six characters on a picture plate\n\n- the state image is available on some personalized plates and counts as a character. See the example [1]. Check if the personalized plate combination you want is available. [2]\n\n## What plate combinations are restricted?\n\n- Personalized plates that give the appearance of an official plate or the configuration of special registration classes. 3\n\n- Combinations that are considered obscene, derogatory or offensive.\n\n- Combinations that do not have one letter.\n\n- Combinations that consist of six numbers followed by one letter.\n\n- Use of the letter \"O\" between two numbers to make what appears to be a number. 4\n\n- Use of the letter \"I\" as the first or last characters on a plate when the other characters are all numbers. 5\n\n- Use of the number zero (0) between two letters to form a word. 6\n\n- Use of the number zero (0) and the letter \"O\" to form a word or number. 7 Read the DMV regulations for restrictions on personalized plate combinations [3].\n\n# Can picture plates be personalized?\n\nYes. Some picture plates can be personalized for an additional fee in addition to your picture plate and regular registration fee. For personalized plate availability and pricing for the picture plate you are interested in, you can browse our collection of picture plates online. The categories are:\n\n- | Love NY Adventure [4]\n\n- Sports [5]\n\n- Military and Veterans [6]\n\n- Counties and Regions of NY State [7]\n\n- Colleges, Fraternities, Sororities [8]\n\n- Causes [9]\n\n- Professions [10]\n\n- Organizations [11]\n\n- Motorcycle Plates [12]\n\n- 1. The annual fee is in addition to your vehicle registration renewal fee and will be paid when you renew your registration. A registration renewal for two years will include two annual fees.\n\n- 2. Acharacter is a letter (A-Z), number (0-9) or space. Each space counts as one character.\n\n- 3. For example, a combination that includes \"POLICE\" or \"NYS\" is not allowed.\n\n- 4. For example, \"203\", \"2003\", or \"JAN2003\" are not allowed.\n\n- 5. For example, \"145678\" or \"456781\" are not allowed.\n\n- 6. For example, \"POOL\" and \"POLE\" are not allowed.\n\n- 7. For example, \"POOL\" or \"2003\" are not allowed."
+        },
+        {
+          "chunk_id": "Order picture and professional plates#1_0::c0000",
+          "text": "# Order picture and professional plates\n\n# Order picture and professional plates [1]\n\nYou can order picture or professional plates for passenger vehicles, commercial vehicles and motorcycles. 1\n\nMany picture or professional plates can also be personalized [2]. You can browse our collection of picture and professional plates and order online directly from the pages below. The categories are:\n\n- I Love NY Adventure [3]\n- Sports [4]\n- Military and Veterans [5]\n- Counties and Regions of NY State [6]\n- Colleges, Fraternities, Sororities [7]\n- Causes [8]\n- Professions [9]\n- Organizations [10]\n- Motorcycle Plates [11]\n\nLearn more about picture and professional plates. [12]\n\n### Order online\n\nYou can order many picture plates online, see the list above for more information on how to order a plate.\n\nIf you wish to purchase plates for people with disabilities that have the Universal Symbol of Access, you must contact the Custom Plates Unit. 2\n\nAll professional and military/veteran plates, and some organization picture plates require you to provide proof or certification that you are eligible. These plates must be ordered through the organization or the Custom Plates Unit.\n\nTo order picture or professional plates online:\n\n- You must have a valid New York State vehicle registration in the passenger, commercial or motorcycle registration class that does not expire within 60 days. 3\n- The mailing address on your vehicle registration record must be your current mailing address. 4\n- Your vehicle registration record must match your current name if your name has changed. 5\n- You must provide your current plate number, the 3-letter registration class code and the first three letters of your last name. See a sample registration document. [13]\n- You must have a credit card that DMV accepts, and a valid email address for confirmation purposes. 6\n\n### Order by mail\n\nTo order picture or professional plates by mail, use the Application for Custom Plates (pdf) [14] (CP-30). 7\n\nMail the completed form and your payment to:\n\nNYS DMV Custom Plates UnitP.O. Box 2775Albany, NY 12220\n\n### Order by phone\n\nYou can order by phone, however it s faster and easier to do it online. Call the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday. 8\n\n### Order at a DMV office\n\nYes, but you can save yourself trip. It s faster and easier to do it online.\n\nFind a DMV office. [15]\n\nProfessional plates can only be ordered from the Custom Plates Unit with proper proof or certification. 9\n\n### Receiving custom plates and registration\n\n- In approximately 10 days or less after your order is processed, you will receive new documents that show your current plate number and your new plate combination.\n- Allow at least six weeks for the custom plates to arrive.\n- Your new registration documents will be mailed separately from your new custom plates\n\nIf you do not receive your registration documents within two weeks or your custom plates within six weeks, contact the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday.\n\nCheck my plate order mailing status. [16]\n\n### Destroy your old plates\n\nOnce you receive your new plates you will want to destroy your old plates to protect against the fraudulent use. Mark each vehicle plate with a permanent marker. Do not put both vehicle plates in the recycling/garbage on the same day.\n\n- 1. You can t order picture or professional plates before your vehicle is registered, when renewing your registration, or before transferring a registration. You must have a registration windshield sticker, receipt and regular series plates issued by DMV before ordering picture or professional plates.\n- 2. Call the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday.\n- 3. If your registration expires within the next 60 days, renew your registration [17] before you order picture or professional plates.\n- 4. Change your address online [18] before ordering picture or professional plates.\n- 5. You must visit a DMV office [15] to change your name on all DMV records and documents. Learn more about how to change your name [19].\n- 6. We accept American Express, Discover, MasterCard and VISA.\n- 7. Some picture plates can t be purchased by mail.\n- 8. Some plates are not available by phone. Professional, emergency services and some organization plates are limited to membership and must be ordered through the organization or directly from the Custom Plates Unit, with documentation.\n- 9. Call the Custom Plates Unit at 1-518-402-4838. Office hours are 8:00am - 4:00pm, Monday through Friday.\n\n## Common Tasks:\n\nHow to renew a registration\n\nHow to change your address\n\nCheck my plate order mailing status\n\n## Topic:\n\n- Plates [20]"
+        },
+        {
+          "chunk_id": "Replace license or permit#1_0::c0000",
+          "text": "更换驾照或许可证"
+        },
+        {
+          "chunk_id": "About New York State Inspections#3_0::c0017",
+          "text": "[关于纽约州车辆检查]\n您的姓名和当前外州邮寄地址 您车辆的年份和品牌 车辆牌照号 检查贴纸编号和到期日期"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Order personalized plates#1_0::c0000",
+          "document": "Order personalized plates#1_0",
+          "heading": [],
+          "source_file": "dmv_087.md",
+          "excerpt": "# 订购个性化车牌\n\n# 订购个性化车牌 [1]\n\n### 如何订购个性化车牌？\n\n您可以为乘用车、商用车和摩托车订购个性化车牌。1\n\n了解更多关于个性化车牌费用、要求和限制的信息。[2]\n\n许多图片车牌也可以个性化。您可以在线浏览我们的图片车牌系列。类别包括：\n\n- I Love NY Adventure [3]\n- Sports [4]\n- Military and Veterans [5]\n- Counties and Regions of NY State [6]\n- Colleges, Fraternities, Sororities [7]\n- Causes [8]\n- Professions [9]\n- Organizations [10]\n- Motorcycle Plates [11]\n\n### 在线订购\n\n您可以在线订购个性化车牌，除非您想要为残疾人定制带有Universal Symbol of Access的个性化车牌。2\n\n要在线订购个性化车牌：\n\n- 您必须拥有有效的New York State车辆注册，属于乘用车、商用车或摩托车注册类别，且有效期不少于60天。3\n- 您车辆注册记录上的邮寄地址必须是您当前的邮寄地址。4\n- 如果您的姓名已更改，您的车辆注册记录必须与您当前姓名一致。5\n- 您必须提供当前车牌号、3字母注册类别代码以及您姓氏的前三个字母。请参阅示例注册文件。[12]\n- 您必须拥有DMV接受的信用卡，以及用于确认的有效电子邮件地址。6\n\n在线订购个性化车牌 [13]\n\n### 通过邮件\n\n要通过邮件订购个性化车牌，请使用Application for Custom Plates (PDF) [14] (CP-30)。7\n\n将填写完整的表格和付款邮寄至：\n\nNYS DMV Custom Plates UnitP.O. Box 2775Albany, NY 12220\n\n### 通过电话\n\n在线办理更快更容易。要通过电话订购，请拨打Custom Plates Unit电话1-518-402-4838。办公时间为周一至周五上午8:00至下午4:00。8\n\n### 在 DMV 办公室\n\n您可以省去一趟行程。在线办理更快、更简单。\n\n查找 DMV 办公室。[15]\n\n### 何时收到新牌照和注册文件\n\n- 在您的订单处理完成后约 10 天或更短时间内，您将收到新的注册文件，其中显示您当前的牌照号码和新的牌照组合。\n- 定制牌照至少需要六周时间才能送达\n- 您的新注册文件将与新定制牌照分开邮寄\n- 如果您在两周内未收到注册文件，或在六周内未收到定制牌照，请联系 Custom Plates Unit，电话 1-518-402-4838。\n\n检查我的牌照订单邮寄状态。[16]\n\n### 收到新牌照后如何处理当前车辆牌照\n\n为防止当前车辆牌照被欺诈使用，请用永久性墨水笔在每个车辆牌照上做标记。不要在同一天将两个车辆牌照放入回收/垃圾中。\n\n- 1. 在车辆注册之前、续期注册时或转移注册之前，您不能订购个性化牌照。您必须拥有 DMV 颁发的注册挡风玻璃贴纸、收据和普通系列牌照，才能订购个性化牌照。\n- 2. 要为带有 Universal Symbol of Access 的残障人士订购个性化牌照，请致电 Custom Plates Unit，电话 1-518-402-4838。办公时间为周一至周五上午 8:00 至下午 4:00。\n- 3. 如果您的注册将在未来 60 天内到期，请在订购个性化牌照之前续期您的注册 [17]。\n- 4. 在订购个性化牌照之前，请在线更改您的地址 [18]。\n- 5. 您必须前往 DMV 办公室 [15] 更改所有 DMV 记录和文件上的姓名。了解更多关于如何更改姓名 [19] 的信息。\n- 6. 我们接受 American Express、Discover、MasterCard 和 VISA。\n- 7. 某些图片或专业牌照不能通过邮寄购买。\n- 8. 某些牌照不能通过电话订购。Professional、emergency services、veterans 和某些组织牌照仅限于会员，必须通过组织或直接从 Custom Plates Unit 订购，并附有文件。\n\n## 常见任务：\n\n如何续期注册\n\n如何更改地址\n\n检查我的牌照订单邮寄状态\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- 牌照 [20]\n\n## 相关 PDF：\n\ncp30.pdf\n\n## 禁用此交易？："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "I cannot check the real-time status of your personalized plate order. However, the DMV states that custom plates take at least six weeks to arrive after your order is processed. If you do not receive them within six weeks, you can contact the Custom Plates Unit at 1-518-402-4838 (Monday–Friday, 8:00am–4:00pm) to inquire about the status. You can also check your plate order mailing status online if you have the necessary information.",
+          "citations": [
+            "Order personalized plates#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "71eea4719de5405abda583c4167d0183",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3161,
+              "completion_tokens": 129,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 129,
+                "prompt_tokens": 3161,
+                "total_tokens": 3290,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2905
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0049508,
+            "accounted_rmb": 0.0049508,
+            "usage_unknown": false,
+            "seconds": 1.6199800968170166,
+            "error": null,
+            "response": {
+              "id": "7104fda0-f153-4a08-ab73-aff0945c189b",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "829d81ac72ccccd811879daa5b7185c9722ad067bcd11eb6eec6533359602033"
+      },
+      "latency_ms": {
+        "queue_wait": 0.027540954761207104,
+        "retrieval": 638.7805419508368,
+        "generation": 1623.7969590583816,
+        "total": 2264.1887909267098
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10498291708063334,
+        "rerank_seconds": 0.5337255829945207,
+        "top1_dense_score": 0.5953033566474915,
+        "candidate_ids": [
+          "Learn about personalized plates#3_0::c0000",
+          "Replace license or permit#1_0::c0000",
+          "Order personalized plates#1_0::c0000",
+          "Order picture and professional plates#1_0::c0000",
+          "Get a driver license#1_0::c0016",
+          "Register a vehicle when you are out-of-state#1_0::c0022",
+          "Medical Certification FAQ's#3_0::c0012",
+          "Replace license or permit#1_0::c0004",
+          "Replace license or permit#1_0::c0010",
+          "Get a driver license#1_0::c0022",
+          "How to renew a license#1_0::c0000",
+          "Get a driver license#1_0::c0019",
+          "Register a vehicle when you are out-of-state#1_0::c0006",
+          "Register a vehicle when you are out-of-state#1_0::c0027",
+          "Replace license or permit#1_0::c0008",
+          "Replace a non-driver ID card#1_0::c0000",
+          "Let the Buyer be Aware#3_0::c0002",
+          "Register a vehicle when you are out-of-state#1_0::c0009",
+          "Replace license or permit#1_0::c0001",
+          "About New York State Inspections#3_0::c0017"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 29,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.638767083059065
+      },
+      "raw_citations": [
+        "Order personalized plates#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "ec81ad2415e93034ca3dee055fcd353607cc8ad9f5bf2380a45fd841b64ab3b3"
+}

@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "b9b391235b90c2e2ce81688190b10741d8f8123bd10bcc6b82709573d6877b1d",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "The user must be asked whether they received a Purple Heart on or after September 11, 2001, as an alternative eligibility condition.",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response concludes ineligibility without asking about the Purple Heart condition, which is an essential alternative requirement."
+              }
+            ],
+            "reason": "The response correctly identifies the 90-day active duty requirement but fails to clarify the Purple Heart alternative, which is essential for determining eligibility."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "5fcb44b3a0fa499a9819abeacd91666a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3324,
+                "completion_tokens": 137,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 137,
+                  "prompt_tokens": 3324,
+                  "total_tokens": 3461,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2428
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0043033,
+              "accounted_rmb": 0.0043033,
+              "usage_unknown": false,
+              "seconds": 1.9985928535461426,
+              "error": null,
+              "response": {
+                "id": "8a1070bc-2b5a-4144-8630-41d946b93398",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5b75994dce040b13fa8f1c03bbbfa48287537c3f74ee29615cbd0eaaa5597b06"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "The user must be asked whether they received a Purple Heart on or after September 11, 2001, as an alternative eligibility condition.",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response concludes ineligibility without asking about the Purple Heart condition, which is an essential alternative requirement."
+          }
+        ],
+        "reason": "The response correctly identifies the 90-day active duty requirement but fails to clarify the Purple Heart alternative, which is essential for determining eligibility."
+      }
+    }
+  },
+  "sha256": "0f4f689ddab6677912041dc1c075c5e0fb7715f4c136824d706afe83ee8e02a5"
+}

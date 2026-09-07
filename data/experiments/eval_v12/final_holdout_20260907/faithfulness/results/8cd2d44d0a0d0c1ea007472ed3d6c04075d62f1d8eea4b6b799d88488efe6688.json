@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "8cd2d44d0a0d0c1ea007472ed3d6c04075d62f1d8eea4b6b799d88488efe6688",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "补充保障收入（SSI）是一项向收入和资源有限的残疾成年人和儿童支付福利的计划。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+                ],
+                "reason": "The context states: 'The Supplemental Security Income (SSI) program pays benefits to disabled adults and children who have limited income and resources.'"
+              },
+              {
+                "text": "年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+                ],
+                "reason": "The context states: 'SSI benefits also are payable to people 65 and older without disabilities who meet the financial limits.'"
+              },
+              {
+                "text": "工作年限足够长的人可能同时获得社会保障残疾或退休福利以及SSI。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+                ],
+                "reason": "The context states: 'People who have worked long enough may also be able to receive Social Security disability or retirement benefits as well as SSI.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3b52fe350b394822aa97a76b72c627e4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4141,
+                "completion_tokens": 333,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 333,
+                  "prompt_tokens": 4141,
+                  "total_tokens": 4474,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3757
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0071532,
+              "accounted_rmb": 0.0071532,
+              "usage_unknown": false,
+              "seconds": 2.590108871459961,
+              "error": null,
+              "response": {
+                "id": "575664e1-2e7a-4f1e-956c-8313b331a32f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0eb6d147c31f8244f9728c53b480d28dde1e5ebb7253da4112da1a29373cf2fb"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "补充保障收入（SSI）是一项向收入和资源有限的残疾成年人和儿童支付福利的计划。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+          ],
+          "reason": "The context states: 'The Supplemental Security Income (SSI) program pays benefits to disabled adults and children who have limited income and resources.'"
+        },
+        {
+          "text": "年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+          ],
+          "reason": "The context states: 'SSI benefits also are payable to people 65 and older without disabilities who meet the financial limits.'"
+        },
+        {
+          "text": "工作年限足够长的人可能同时获得社会保障残疾或退休福利以及SSI。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000"
+          ],
+          "reason": "The context states: 'People who have worked long enough may also be able to receive Social Security disability or retirement benefits as well as SSI.'"
+        }
+      ]
+    }
+  },
+  "sha256": "05424db8d93d1d2c0bbe6851b3dbcad16a6fdeb9b005619a8333b9bc7c1ff43e"
+}

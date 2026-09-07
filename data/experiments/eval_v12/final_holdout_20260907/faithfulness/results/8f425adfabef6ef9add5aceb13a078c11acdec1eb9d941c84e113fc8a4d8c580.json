@@ -1,0 +1,194 @@
+{
+  "payload": {
+    "task_id": "8f425adfabef6ef9add5aceb13a078c11acdec1eb9d941c84e113fc8a4d8c580",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To apply for a corrected Social Security card as a U.S. born adult, you need to provide original documents (no photocopies or notarized copies) that are current (not expired).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "The context states original documents are required, photocopies/notarized copies not accepted, and documents must be current."
+              },
+              {
+                "text": "You may need to show proof of U.S. citizenship if not already established, such as a U.S. birth certificate or U.S. passport.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "Context says citizenship proof needed if not established, and lists birth certificate or passport."
+              },
+              {
+                "text": "For a name change, you must show proof of legal name change, such as a marriage document, divorce decree, Certificate of Naturalization showing the new name, or a court order approving the name change.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "Context lists these exact documents for legal name change."
+              },
+              {
+                "text": "If you changed your name more than two years ago (or four years if under 18), you must also show an identity document in your prior name (expired is acceptable).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "Context states this condition and that expired documents are accepted."
+              },
+              {
+                "text": "For identity, you can use a U.S. driver's license, state-issued non-driver ID, or U.S. passport.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "Context lists these as acceptable identity documents."
+              },
+              {
+                "text": "If you don't have these, other documents like an employee ID, school ID, health insurance card (not Medicare), or U.S. military ID may be accepted if current and showing your name, date of birth or age, and preferably a photo.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "Context lists these alternative documents and requirements."
+              },
+              {
+                "text": "Your new card will have the same number but show your new name.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+                ],
+                "reason": "Context states the new card has same number but new name."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e15b42c4938d42a49c2ddd0b8448a418",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4441,
+                "completion_tokens": 780,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 780,
+                  "prompt_tokens": 4441,
+                  "total_tokens": 5221,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 4057
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0096147,
+              "accounted_rmb": 0.0096147,
+              "usage_unknown": false,
+              "seconds": 4.207048177719116,
+              "error": null,
+              "response": {
+                "id": "67d702e6-190c-4487-af26-e363aab91306",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "dfcc776bd18a5b92b030f551bcfcc122b0b0b2d937633c3fe0df0e5daba40b5b"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 7,
+      "supported_external_claims": 7,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To apply for a corrected Social Security card as a U.S. born adult, you need to provide original documents (no photocopies or notarized copies) that are current (not expired).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "The context states original documents are required, photocopies/notarized copies not accepted, and documents must be current."
+        },
+        {
+          "text": "You may need to show proof of U.S. citizenship if not already established, such as a U.S. birth certificate or U.S. passport.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "Context says citizenship proof needed if not established, and lists birth certificate or passport."
+        },
+        {
+          "text": "For a name change, you must show proof of legal name change, such as a marriage document, divorce decree, Certificate of Naturalization showing the new name, or a court order approving the name change.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "Context lists these exact documents for legal name change."
+        },
+        {
+          "text": "If you changed your name more than two years ago (or four years if under 18), you must also show an identity document in your prior name (expired is acceptable).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "Context states this condition and that expired documents are accepted."
+        },
+        {
+          "text": "For identity, you can use a U.S. driver's license, state-issued non-driver ID, or U.S. passport.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "Context lists these as acceptable identity documents."
+        },
+        {
+          "text": "If you don't have these, other documents like an employee ID, school ID, health insurance card (not Medicare), or U.S. military ID may be accepted if current and showing your name, date of birth or age, and preferably a photo.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "Context lists these alternative documents and requirements."
+        },
+        {
+          "text": "Your new card will have the same number but show your new name.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000"
+          ],
+          "reason": "Context states the new card has same number but new name."
+        }
+      ]
+    }
+  },
+  "sha256": "bc73f20d3cb9ac71e8a9ea1b08aebfec3e3fb136bcd1498e685411c9075ad76e"
+}

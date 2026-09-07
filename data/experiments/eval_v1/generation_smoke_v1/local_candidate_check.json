@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "baseline_dense_k10": {
+      "n": 20,
+      "exact_order_matches_prior_experiment": 19,
+      "proposed_generation_calls": 19,
+      "answer_hits": 9
+    },
+    "rerank_truncated_k10": {
+      "n": 20,
+      "exact_order_matches_prior_experiment": 20,
+      "proposed_generation_calls": 19,
+      "answer_hits": 9
+    },
+    "rerank_windowed_k5": {
+      "n": 20,
+      "exact_order_matches_prior_experiment": 20,
+      "proposed_generation_calls": 19,
+      "answer_hits": 9
+    }
+  },
+  "outbound_preview_sha256": "7e33888758b1cafd9a8d25ed3174a4c78272b086ec162973552231f86ae0c004",
+  "paid_api_calls": 0
+}

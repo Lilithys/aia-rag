@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "f609530415c88a82996bbb9b6f3c12ed02a956fcf03355f5b3f361527228a5f7",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "ask whether the user works full-time earning less than 150% of the poverty guideline",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response lists the condition but does not ask the user about it, instead assuming they may qualify under other conditions."
+              }
+            ],
+            "reason": "The response provides an answer but fails to clarify the essential missing condition about full-time work and income, which the reference requires."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0ed11014a5814a3fa01e6f6ca701e00a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5375,
+                "completion_tokens": 127,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 127,
+                  "prompt_tokens": 5375,
+                  "total_tokens": 5502,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4479
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0073348,
+              "accounted_rmb": 0.0073348,
+              "usage_unknown": false,
+              "seconds": 2.103844165802002,
+              "error": null,
+              "response": {
+                "id": "3e6fa933-f875-4af0-a086-dffa14f38394",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cdc159ab1ebef3d0edbc884a9409d5728102d65dd1b7243a6b1dc5f3b3367223"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "ask whether the user works full-time earning less than 150% of the poverty guideline",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response lists the condition but does not ask the user about it, instead assuming they may qualify under other conditions."
+          }
+        ],
+        "reason": "The response provides an answer but fails to clarify the essential missing condition about full-time work and income, which the reference requires."
+      }
+    }
+  },
+  "sha256": "7c43380369a2fed486e672ca16000e1ac21eeceb39801444192250c3b23671af"
+}

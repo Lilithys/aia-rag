@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "8bab288893c10c5e6f1713305b76944ed79758551ce9512ce3341ea0c6c6618e",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.249999999975,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is in Chinese and appears to be about replacing a driver's license, which is not relevant to the question about revoked driver license or driving privilege. The answer provides a general explanation of revocation, but the context does not support it.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "871c100afbda45a5b772cb2524e0cfc7",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 967,
+                "completion_tokens": 63,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 63,
+                  "prompt_tokens": 967,
+                  "total_tokens": 1030,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 199
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006204,
+              "accounted_rmb": 0.0006204,
+              "usage_unknown": false,
+              "seconds": 1.1819078922271729,
+              "error": null,
+              "response": {
+                "id": "54eb11ba-3390-415a-942e-eecc92159156",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "966ad6251e582d75641e49900db7ddaeec0be4623e13fefcb77f576604b5cf25"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about paying driver civil penalties and the process for restoring a revoked license, but the answer gives a general explanation of revocation and the need to reapply, which is not directly derived from the context. The context does not mention the general definition of revocation or the need for tests and fees.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e3e88d6428a14accac9a9ebdb35ccdaf",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1154,
+                "completion_tokens": 77,
+                "cached_tokens": 1152,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 77,
+                  "prompt_tokens": 1154,
+                  "total_tokens": 1231,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1152,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1152,
+                  "prompt_cache_miss_tokens": 2
+                }
+              },
+              "usage_cost_estimate_rmb": 0.00040710000000000003,
+              "accounted_rmb": 0.00040710000000000003,
+              "usage_unknown": false,
+              "seconds": 1.3166730403900146,
+              "error": null,
+              "response": {
+                "id": "dd5237aa-3869-4ec6-9496-b0f8000772d3",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c96d8eadf55e3f5ac543ab4d367b630060e44fc758369a24c41c452883611c03"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is in Chinese and translates to 'Restoring a driver's license after revocation', which is not directly related to the question about details of a revoked driver license or driving privilege. The answer provides a general explanation, but the context does not contain the information used to arrive at that answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8a359c035f6545329ed0e9f8e99e8d00",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 966,
+                "completion_tokens": 74,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 74,
+                  "prompt_tokens": 966,
+                  "total_tokens": 1040,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 70
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004828,
+              "accounted_rmb": 0.0004828,
+              "usage_unknown": false,
+              "seconds": 1.1450800895690918,
+              "error": null,
+              "response": {
+                "id": "2cda7689-f6c3-474a-ae15-410ae28e3fc9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5190557ee97af5eafe2b3358b1285ea1b838cbd72b40ada19535fe1e57eb8644"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about revoked driver licenses or driving privileges, including the need to reapply, DMV approval, tests, and fees, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f31da0aaee7047469bc9a72d713882d7",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1090,
+                "completion_tokens": 50,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 50,
+                  "prompt_tokens": 1090,
+                  "total_tokens": 1140,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 66
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0003752,
+              "accounted_rmb": 0.0003752,
+              "usage_unknown": false,
+              "seconds": 1.0382449626922607,
+              "error": null,
+              "response": {
+                "id": "15a78666-3321-4c19-ba37-8670e7e1dc9d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4fc88badb9d4624039914ed21453c0677d4c5c1b2cea77861e2b18b44ae494eb"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses suspension and revocation of driver licenses, but the answer provides a general explanation of revocation that is not directly derived from the context. The context does not mention the need to reapply or DMV approval, which are key points in the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ea1d638609844213b455ec6e4ad19c1d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1103,
+                "completion_tokens": 66,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 66,
+                  "prompt_tokens": 1103,
+                  "total_tokens": 1169,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 79
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004667,
+              "accounted_rmb": 0.0004667,
+              "usage_unknown": false,
+              "seconds": 1.6250653266906738,
+              "error": null,
+              "response": {
+                "id": "626ce71e-06bc-47b4-8df2-c6a2dabfa6ed",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a3e5ffe7d2f6aeb28994766ba7d290274fca04537a9cf2ac32f0dff8eb3165d4"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "7a5d44e401bdea40cc9763d1e3c4b4aa4415694f71dbe03bef962997d2be69f9"
+}

@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "8ce4a1ec70bd5226c5a75fa729e7aa99b7e6a9945c2149dd40c47257475536da",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Your State Health Insurance Counseling and Assistance Program (SHIP) contact information can be found in the back of the Medicare & You 2020 Handbook, or you can request it when you call 1-800-MEDICARE (1-800-633-4227; TTY 1-877-486-2048).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0006",
+                  "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0006"
+                ],
+                "reason": "The response states that SHIP contact information can be found in the back of the Medicare & You 2020 Handbook or requested when calling 1-800-MEDICARE. This is directly supported by the retrieved context in chunk c0006, which says 'You can find your local SHIP contact information in the back of your Medicare & You 2020 Handbook online, or you can request it when you call.' The phone number is also mentioned in the same context."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "07fc84d72597481399b164952470c061",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2149,
+                "completion_tokens": 253,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 253,
+                  "prompt_tokens": 2149,
+                  "total_tokens": 2402,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1765
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0038052,
+              "accounted_rmb": 0.0038052,
+              "usage_unknown": false,
+              "seconds": 1.9764909744262695,
+              "error": null,
+              "response": {
+                "id": "4d94eb1b-b1c3-445a-9beb-72940a3452d4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "dd62f30f99bea0ab5658ac9827bacd3009be8d29175de9604dcd993b11ec5c88"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 1,
+      "supported_external_claims": 1,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Your State Health Insurance Counseling and Assistance Program (SHIP) contact information can be found in the back of the Medicare & You 2020 Handbook, or you can request it when you call 1-800-MEDICARE (1-800-633-4227; TTY 1-877-486-2048).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0006",
+            "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0006"
+          ],
+          "reason": "The response states that SHIP contact information can be found in the back of the Medicare & You 2020 Handbook or requested when calling 1-800-MEDICARE. This is directly supported by the retrieved context in chunk c0006, which says 'You can find your local SHIP contact information in the back of your Medicare & You 2020 Handbook online, or you can request it when you call.' The phone number is also mentioned in the same context."
+        }
+      ]
+    }
+  },
+  "sha256": "49c2ea81563527fc2f78b0e4c7d5ee6d32f535e84eb0540a91ef24943bc30b87"
+}

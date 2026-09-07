@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+    "item_sha256": "112b272fdfe2ad820e276cfe2fa8b2be9884b57cb8b0d32e7e9715aaf11c2702",
+    "result": {
+      "request_id": "303410820b154dfdada0c15f6a7ecaff",
+      "session_id": "5739237b45a59e99f4282413adb58c89",
+      "turn_id": 3,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。但请注意，在线更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。如果您希望获得Enhanced或REAL ID，建议前往DMV办理，以避免日后再次前往。",
+        "citations": [
+          "Replace a non-driver ID card#1_0::c0001",
+          "Replace a non-driver ID card#1_0::c0003"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0001",
+          "text": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0000",
+          "text": "更换非驾驶员身份证"
+        },
+        {
+          "chunk_id": "Replace license or permit#1_0::c0001",
+          "text": "[更换驾照或许可证 [1] > 如果您计划出行]\n如果您的驾照或许可证（包括商业和增强版）丢失、被盗或损毁，或者您在更新地址后，可以申请更换。如果证件已过期，则无法更换。\n\n如果您即将年满21岁，请在生日前40天内下单。1\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，以免日后再次跑一趟办公室。2 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0007",
+          "text": "[更换非驾驶员身份证 [1] > 相关PDF：]\nmv44.pdf"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0003",
+          "text": "[更换非驾驶员身份证 [1] > 在线办理]\n警告：如果您在线更换Standard证件，您的新证件将显示：“NOT FOR FEDERAL PURPOSES”。\n\n不要拖延！今天就获取您的Enhanced或REAL ID。\n\n如果您已持有Enhanced或REAL ID，或者您想保留Standard证件，可以在线更换。您的证件类型将保持不变。\n\n在线更换非驾驶员身份证 [4]"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0001",
+          "text": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0000",
+          "text": "更换非驾驶员身份证"
+        },
+        {
+          "chunk_id": "Replace license or permit#1_0::c0001",
+          "text": "[更换驾照或许可证 [1] > 如果您计划出行]\n如果您的驾照或许可证（包括商业和增强版）丢失、被盗或损毁，或者您在更新地址后，可以申请更换。如果证件已过期，则无法更换。\n\n如果您即将年满21岁，请在生日前40天内下单。1\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，以免日后再次跑一趟办公室。2 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0007",
+          "text": "[更换非驾驶员身份证 [1] > 相关PDF：]\nmv44.pdf"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0003",
+          "text": "[更换非驾驶员身份证 [1] > 在线办理]\n警告：如果您在线更换Standard证件，您的新证件将显示：“NOT FOR FEDERAL PURPOSES”。\n\n不要拖延！今天就获取您的Enhanced或REAL ID。\n\n如果您已持有Enhanced或REAL ID，或者您想保留Standard证件，可以在线更换。您的证件类型将保持不变。\n\n在线更换非驾驶员身份证 [4]"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0001",
+          "document": "Replace a non-driver ID card#1_0",
+          "heading": [
+            "更换非驾驶员身份证 [1]",
+            "如果您计划出行"
+          ],
+          "source_file": "dmv_118.md",
+          "excerpt": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0003",
+          "document": "Replace a non-driver ID card#1_0",
+          "heading": [
+            "更换非驾驶员身份证 [1]",
+            "在线办理"
+          ],
+          "source_file": "dmv_118.md",
+          "excerpt": "[更换非驾驶员身份证 [1] > 在线办理]\n警告：如果您在线更换Standard证件，您的新证件将显示：“NOT FOR FEDERAL PURPOSES”。\n\n不要拖延！今天就获取您的Enhanced或REAL ID。\n\n如果您已持有Enhanced或REAL ID，或者您想保留Standard证件，可以在线更换。您的证件类型将保持不变。\n\n在线更换非驾驶员身份证 [4]"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。但请注意，在线更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。如果您希望获得Enhanced或REAL ID，建议前往DMV办理，以避免日后再次前往。",
+          "citations": [
+            "Replace a non-driver ID card#1_0::c0001",
+            "Replace a non-driver ID card#1_0::c0003"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "80f849229edd42979961dab5d3181b35",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 764,
+              "completion_tokens": 108,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 108,
+                "prompt_tokens": 764,
+                "total_tokens": 872,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 508
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0012607999999999999,
+            "accounted_rmb": 0.0012607999999999999,
+            "usage_unknown": false,
+            "seconds": 1.7638399600982666,
+            "error": null,
+            "response": {
+              "id": "6a6f9ce6-3c77-45bd-ae30-c7e0470ad96a",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "876459fae89e5e0df83df3dac0c87e7ec0ab08c3d40579909a26c3f5a081c5df"
+      },
+      "latency_ms": {
+        "queue_wait": 0.01595797948539257,
+        "retrieval": 998.8880840828642,
+        "generation": 1766.9553339947015,
+        "total": 2766.863250057213
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1589581249281764,
+        "rerank_seconds": 0.8398941250052303,
+        "top1_dense_score": 0.9190348386764526,
+        "candidate_ids": [
+          "Replace a non-driver ID card#1_0::c0001",
+          "Replace a non-driver ID card#1_0::c0003",
+          "Replace a non-driver ID card#1_0::c0000",
+          "Replace a non-driver ID card#1_0::c0005",
+          "Replace a non-driver ID card#1_0::c0004",
+          "Replace a non-driver ID card#1_0::c0002",
+          "Replace license or permit#1_0::c0001",
+          "Replace license or permit#1_0::c0003",
+          "Replace license or permit#1_0::c0007",
+          "Replace license or permit#1_0::c0004",
+          "Exchange a NY State driver license for a non-driver ID card#1_0::c0000",
+          "Replace a non-driver ID card#1_0::c0008",
+          "Replace a non-driver ID card#1_0::c0007",
+          "Replace license or permit#1_0::c0002",
+          "Get a driver license#1_0::c0008",
+          "Medical Certification FAQ's#3_0::c0002",
+          "Replace a non-driver ID card#1_0::c0006",
+          "Renew non-driver ID card#1_0::c0000",
+          "Escort driver certification#1_0::c0007",
+          "Get a driver license#1_0::c0007"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 31,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.9988741669803858
+      },
+      "raw_citations": [
+        "Replace a non-driver ID card#1_0::c0001",
+        "Replace a non-driver ID card#1_0::c0003"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "68ae46e924d876d6a4be8c5d918bf581d990436b3f8ee1da8d748b4c1355192a"
+}

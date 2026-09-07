@@ -1,0 +1,99 @@
+{
+  "payload": {
+    "task_id": "3b8525c99066fed057934246d2ccee38d75e906e547ca783227248a368a7dc73",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "I don't have enough relevant information in this knowledge base.",
+                "scope": "context_availability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "Observation about the absence of relevant information in the provided contexts."
+              },
+              {
+                "text": "Please clarify the question or ask about the covered services.",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "A clarification request without a factual assertion."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "cde05b11f1254b0bb84aae1af4ab4e84",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 454,
+                "completion_tokens": 109,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 109,
+                  "prompt_tokens": 454,
+                  "total_tokens": 563,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 70
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006147,
+              "accounted_rmb": 0.0006147,
+              "usage_unknown": false,
+              "seconds": 1.489894151687622,
+              "error": null,
+              "response": {
+                "id": "efddf963-bf3f-49dd-8439-960ee2dedfd5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "226bfaaebd33885ade5e5ad05830f9a28b5c29f3bc474f25ae99a064e4c84858"
+        }
+      ],
+      "score": null,
+      "external_claims": 0,
+      "supported_external_claims": 0,
+      "excluded_units_by_scope": {
+        "context_availability": 1,
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "I don't have enough relevant information in this knowledge base.",
+          "scope": "context_availability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "Observation about the absence of relevant information in the provided contexts."
+        },
+        {
+          "text": "Please clarify the question or ask about the covered services.",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "A clarification request without a factual assertion."
+        }
+      ]
+    }
+  },
+  "sha256": "4b6ce6414732b9ae3cf18d99df9b79c808f996bd979880cb699c73fc1f251a9d"
+}

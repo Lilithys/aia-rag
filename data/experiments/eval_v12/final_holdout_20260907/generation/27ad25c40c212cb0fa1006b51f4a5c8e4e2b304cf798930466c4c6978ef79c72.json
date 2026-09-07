@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "740b89ee675af8e33875cdf6a11bd149::agent-turn-6",
+    "item_sha256": "e3a2f08cf30297f863ef0a80e611c382ff6a85578204d90d6df2f993a5c2bad9",
+    "result": {
+      "request_id": "254645b0c52c4fcc9d30e645d560208b",
+      "session_id": "740b89ee675af8e33875cdf6a11bd149",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，对于受抚养学生，FAFSA表格要求报告亲生父母或养父母的信息。如果您的父母已再婚且继父/继母与您报告的法定父母结婚，则也必须提供继父/继母的信息。例外情况是，在询问父母教育水平时，仅考虑亲生父母或养父母，不包括继父/继母。",
+        "citations": [
+          "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0007"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0006",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 列出学院和/或职业学校]\n在填写 FAFSA 表格时，您必须至少列出一所学校以接收您的信息。您列出的学校将使用您的 FAFSA 信息来确定您可能获得的资助类型和金额。使用联邦学校代码搜索来查找您感兴趣并希望包含在 FAFSA 表格中的学院。\n\n就联邦学生资助而言，您列出学校的顺序无关紧要。但是，为了获得州资助的考虑，一些州要求您按特定顺序列出学校（例如，您可能需要先列出州内学校）。请了解您所在的州是否对在 FAFSA 表格上列出学校的顺序有要求。\n\n您可以在线或通过移动应用列出最多 10 所学校，或在 FAFSA PDF 上列出最多四所学校。（您之后可以在 FAFSA 表格中添加更多学校。）您在申请中列出的学校将自动以电子方式收到您的 FAFSA 结果。\n\n注意：学校无法看到您在 FAFSA 表格上列出的其他学校。\n\n您应添加任何计划申请的学校，即使您尚未被录取。在大多数情况下，一旦学校录取您，他们就会着手制定您的资助方案。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0010",
+          "text": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 如果我的父母因为他们的公民身份状况而担心提供信息怎么办？]\n您父母的公民身份状况不会影响您获得联邦学生援助的资格。事实上，FAFSA表格甚至不会询问您父母的身份状况。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+          "text": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 如果我有继父或继母怎么办？]\n如果你有一个继父或继母，且该继父或继母与你正在报告其信息的法定父母结婚，则你也必须提供该继父或继母的信息。\n\n例外：FAFSA表格询问你父母的教育水平。对于这两个问题，你的父母被视为你的亲生父母或养父母，继父或继母不视为你的父母。\n\n在FAFSA表格中包含继父或继母的信息有助于准确反映你家庭的总经济实力。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0007",
+          "text": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 我的父母必须为FAFSA表格提供哪些信息？]\n对于每位父母，你需要报告与你为自己报告类似的信息：关于你父母身份的基本信息（例如姓名、出生日期和社会安全号码，如果有）；居住情况（例如婚姻状况、居住州、家庭人数）；以及财务状况（例如税务信息、某些资产、某些未征税收入）。了解更多关于你和你的父母将在FAFSA表格上报告的信息类型。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0006",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 列出学院和/或职业学校]\n在填写 FAFSA 表格时，您必须至少列出一所学校以接收您的信息。您列出的学校将使用您的 FAFSA 信息来确定您可能获得的资助类型和金额。使用联邦学校代码搜索来查找您感兴趣并希望包含在 FAFSA 表格中的学院。\n\n就联邦学生资助而言，您列出学校的顺序无关紧要。但是，为了获得州资助的考虑，一些州要求您按特定顺序列出学校（例如，您可能需要先列出州内学校）。请了解您所在的州是否对在 FAFSA 表格上列出学校的顺序有要求。\n\n您可以在线或通过移动应用列出最多 10 所学校，或在 FAFSA PDF 上列出最多四所学校。（您之后可以在 FAFSA 表格中添加更多学校。）您在申请中列出的学校将自动以电子方式收到您的 FAFSA 结果。\n\n注意：学校无法看到您在 FAFSA 表格上列出的其他学校。\n\n您应添加任何计划申请的学校，即使您尚未被录取。在大多数情况下，一旦学校录取您，他们就会着手制定您的资助方案。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0010",
+          "text": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 如果我的父母因为他们的公民身份状况而担心提供信息怎么办？]\n您父母的公民身份状况不会影响您获得联邦学生援助的资格。事实上，FAFSA表格甚至不会询问您父母的身份状况。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+          "text": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 如果我有继父或继母怎么办？]\n如果你有一个继父或继母，且该继父或继母与你正在报告其信息的法定父母结婚，则你也必须提供该继父或继母的信息。\n\n例外：FAFSA表格询问你父母的教育水平。对于这两个问题，你的父母被视为你的亲生父母或养父母，继父或继母不视为你的父母。\n\n在FAFSA表格中包含继父或继母的信息有助于准确反映你家庭的总经济实力。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0007",
+          "text": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 我的父母必须为FAFSA表格提供哪些信息？]\n对于每位父母，你需要报告与你为自己报告类似的信息：关于你父母身份的基本信息（例如姓名、出生日期和社会安全号码，如果有）；居住情况（例如婚姻状况、居住州、家庭人数）；以及财务状况（例如税务信息、某些资产、某些未征税收入）。了解更多关于你和你的父母将在FAFSA表格上报告的信息类型。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+          "document": "Reporting Parent Information | Federal Student Aid#1_0",
+          "heading": [
+            "受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。",
+            "如果我有继父或继母怎么办？"
+          ],
+          "source_file": "studentaid_073.md",
+          "excerpt": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 如果我有继父或继母怎么办？]\n如果你有一个继父或继母，且该继父或继母与你正在报告其信息的法定父母结婚，则你也必须提供该继父或继母的信息。\n\n例外：FAFSA表格询问你父母的教育水平。对于这两个问题，你的父母被视为你的亲生父母或养父母，继父或继母不视为你的父母。\n\n在FAFSA表格中包含继父或继母的信息有助于准确反映你家庭的总经济实力。"
+        },
+        {
+          "chunk_id": "Reporting Parent Information | Federal Student Aid#1_0::c0007",
+          "document": "Reporting Parent Information | Federal Student Aid#1_0",
+          "heading": [
+            "受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。",
+            "我的父母必须为FAFSA表格提供哪些信息？"
+          ],
+          "source_file": "studentaid_073.md",
+          "excerpt": "[受抚养学生必须在其联邦学生援助免费申请（FAFSA）表格上报告其家长信息以及自己的信息。 > 我的父母必须为FAFSA表格提供哪些信息？]\n对于每位父母，你需要报告与你为自己报告类似的信息：关于你父母身份的基本信息（例如姓名、出生日期和社会安全号码，如果有）；居住情况（例如婚姻状况、居住州、家庭人数）；以及财务状况（例如税务信息、某些资产、某些未征税收入）。了解更多关于你和你的父母将在FAFSA表格上报告的信息类型。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，对于受抚养学生，FAFSA表格要求报告亲生父母或养父母的信息。如果您的父母已再婚且继父/继母与您报告的法定父母结婚，则也必须提供继父/继母的信息。例外情况是，在询问父母教育水平时，仅考虑亲生父母或养父母，不包括继父/继母。",
+          "citations": [
+            "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+            "Reporting Parent Information | Federal Student Aid#1_0::c0007"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "fa2b08796f6740bb836b49bf96ffda7b",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1533,
+              "completion_tokens": 124,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 124,
+                "prompt_tokens": 1533,
+                "total_tokens": 1657,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1277
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0024863000000000003,
+            "accounted_rmb": 0.0024863000000000003,
+            "usage_unknown": false,
+            "seconds": 1.5034430027008057,
+            "error": null,
+            "response": {
+              "id": "286492bb-08da-4cc8-8d16-429afc229bc5",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "eda681e3d1ffa35f407a35e9455c2ccfa68dde7662d6be66d9f27485e3b49b11"
+      },
+      "latency_ms": {
+        "queue_wait": 0.032334006391465664,
+        "retrieval": 1420.6453330116346,
+        "generation": 1507.286375039257,
+        "total": 2929.2467499617487
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.21473112504463643,
+        "rerank_seconds": 1.2058793340111151,
+        "top1_dense_score": 0.8844865560531616,
+        "candidate_ids": [
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0006",
+          "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0::c0001",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0007",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0009",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0007",
+          "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0::c0002",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0011",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0008",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0008",
+          "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+          "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0010",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0011",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0007"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 33,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.4206199999898672
+      },
+      "raw_citations": [
+        "Reporting Parent Information | Federal Student Aid#1_0::c0003",
+        "Reporting Parent Information | Federal Student Aid#1_0::c0007"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "23c5b1a38fea44c69774f7987a2868bd9e47c0633833864d56fe868dc1ae1da4"
+}

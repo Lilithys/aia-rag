@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "6e87e1364fe9123576b6664d49be4dbe09170b1c29c9e8ec02a4164b3ffe0ecc",
+    "binding_sha256": "de953b39e4f172568379a2b85344f65373d2a2666e7b31a04fc2a8495563efcc",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "VGLI may allow keeping life insurance after leaving military as long as premiums are paid",
+                "coverage": "covered",
+                "response_quote": "退伍后您可以通过退伍军人团体人寿保险（VGLI）继续保留人寿保险保障，只要您持续支付保费",
+                "reason": "Response directly states the core condition of continued premium payment."
+              },
+              {
+                "requirement": "Eligibility conditions apply",
+                "coverage": "covered",
+                "response_quote": "您可以在退伍后1年零120天内申请VGLI",
+                "reason": "Response includes the application window, an eligibility condition."
+              },
+              {
+                "requirement": "Health proof not needed within 240 days, needed after",
+                "coverage": "covered",
+                "response_quote": "如果您在退伍后240天内申请，无需提供健康证明；超过240天则需提交健康证明",
+                "reason": "Response accurately reflects the health evidence requirement."
+              }
+            ],
+            "reason": "The response correctly answers the question, accurately stating VGLI allows continued coverage with premium payment and includes relevant conditions from the source. All additional claims are supported by the retrieved contexts."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "87665c0500164e10b8b88b2562984e16",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5299,
+                "completion_tokens": 270,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 270,
+                  "prompt_tokens": 5299,
+                  "total_tokens": 5569,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 4275
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0076787,
+              "accounted_rmb": 0.0076787,
+              "usage_unknown": false,
+              "seconds": 3.2237138748168945,
+              "error": null,
+              "response": {
+                "id": "16cc39c8-5c46-42b4-91cf-2dca1c3293e0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fbdc97ba08209ee927e475e4f39a44819d926a690de3e2c53b7f9b78e8dadffe"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "VGLI may allow keeping life insurance after leaving military as long as premiums are paid",
+            "coverage": "covered",
+            "response_quote": "退伍后您可以通过退伍军人团体人寿保险（VGLI）继续保留人寿保险保障，只要您持续支付保费",
+            "reason": "Response directly states the core condition of continued premium payment."
+          },
+          {
+            "requirement": "Eligibility conditions apply",
+            "coverage": "covered",
+            "response_quote": "您可以在退伍后1年零120天内申请VGLI",
+            "reason": "Response includes the application window, an eligibility condition."
+          },
+          {
+            "requirement": "Health proof not needed within 240 days, needed after",
+            "coverage": "covered",
+            "response_quote": "如果您在退伍后240天内申请，无需提供健康证明；超过240天则需提交健康证明",
+            "reason": "Response accurately reflects the health evidence requirement."
+          }
+        ],
+        "reason": "The response correctly answers the question, accurately stating VGLI allows continued coverage with premium payment and includes relevant conditions from the source. All additional claims are supported by the retrieved contexts."
+      }
+    }
+  },
+  "sha256": "d7dab0d400f027fdd44646db5332c2af362c03a7efac25538cec96f795d1c596"
+}

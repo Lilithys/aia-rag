@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -16,6 +16,8 @@ class ChunkRecord:
     heading_path: list[str]
     text: str
     token_count: int
+    # Evaluation-only provenance; never appended to embedding/generator text.
+    source_spans: list[dict] = field(default_factory=list)
 
 
 def make_chunk_id(doc_id: str, index: int) -> str:

@@ -1,0 +1,40 @@
+{
+  "status": "PASS_WITH_DISCLOSED_LIMITATION",
+  "completed_at": "2026-09-04",
+  "pdf_visual_qa": {
+    "status": "PASS",
+    "pdf_files": 73,
+    "pages_rendered": 212,
+    "pages_visually_reviewed": 212,
+    "method": "PyMuPDF render followed by complete contact-sheet inspection",
+    "issues_found": 0,
+    "checks": [
+      "page renders successfully",
+      "no visible clipping or overflow",
+      "no overlapping content",
+      "no abnormal blank pages",
+      "Chinese and Latin glyphs render visibly",
+      "scanned PDFs remain image-only and text PDFs retain a text layer"
+    ]
+  },
+  "docx_qa": {
+    "status": "STRUCTURAL_PASS_VISUAL_RENDER_UNAVAILABLE",
+    "docx_files": 25,
+    "structurally_validated": 25,
+    "checks": [
+      "valid ZIP/OOXML package",
+      "python-docx can open every file",
+      "paragraph content is present",
+      "page geometry is valid",
+      "manifest and document references are consistent"
+    ],
+    "visual_render_attempted": true,
+    "visual_render_completed": false,
+    "limitation": "LibreOffice/soffice is not installed in the current environment, so DOCX files could not be converted to PDF for page-by-page visual inspection."
+  },
+  "dataset_structural_validation": {
+    "status": "PASS",
+    "report": "validation_report.json",
+    "error_count": 0
+  }
+}

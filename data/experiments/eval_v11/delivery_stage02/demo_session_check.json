@@ -1,0 +1,18 @@
+{
+  "questions": 2,
+  "successes": 2,
+  "same_session": true,
+  "turn_ids": [
+    1,
+    2
+  ],
+  "actual_prior_question_and_generated_answer_passed_as_roles": true,
+  "reset_confirmation": true,
+  "cache_record_sha256": "6423fa2e8c5e0e3292b492a74487582c166ee2b5a5b51e4a933e5d424386cb23",
+  "trace_request_ids": [
+    "a15a4af607e6424cbd87a98b3125d987",
+    "5dd7ac58419f4f449e457ae51d1ec843"
+  ],
+  "source_log_sha256": "02c0156ee66ec8e0aca93c2ff92c5857e088fdd0ce013bb59368001942c052db",
+  "scope": "CLI continuity and citation-ID mechanics only; not a full multi-turn quality/security/load acceptance test."
+}

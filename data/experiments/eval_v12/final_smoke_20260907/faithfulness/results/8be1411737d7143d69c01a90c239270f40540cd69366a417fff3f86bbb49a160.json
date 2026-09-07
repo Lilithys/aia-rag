@@ -1,0 +1,104 @@
+{
+  "payload": {
+    "task_id": "8be1411737d7143d69c01a90c239270f40540cd69366a417fff3f86bbb49a160",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "您可以访问社会保障局网站上的福利信息页面，或使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人的工作记录有资格获得的福利。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Explore The Benefits You May Be Due#1_0::c0000"
+                ],
+                "reason": "The context states to see the Social Security website's benefit information and use the BEST tool to learn about benefits based on another's work record."
+              },
+              {
+                "text": "此外，您也可以拨打社会保障局的免费电话1-800-772-1213（听力障碍者拨打TTY 1-800-325-0778），工作人员会在周一至周五上午7点至下午7点为您解答具体问题。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Explore The Benefits You May Be Due#1_0::c0000"
+                ],
+                "reason": "The context provides the toll-free number, TTY number, and hours for answering specific questions."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "68843e0524614aab82a8657aca9f8207",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3550,
+                "completion_tokens": 253,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 253,
+                  "prompt_tokens": 3550,
+                  "total_tokens": 3803,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 3038
+                }
+              },
+              "usage_cost_estimate_rmb": 0.005721100000000001,
+              "accounted_rmb": 0.005721100000000001,
+              "usage_unknown": false,
+              "seconds": 2.1484808921813965,
+              "error": null,
+              "response": {
+                "id": "78c22308-8ad7-4a03-b238-7b9feb8f0459",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f922f265c48617b208d6800d918a6f148462da226e2767a0f4b793bda4bf61d4"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 2,
+      "supported_external_claims": 2,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "您可以访问社会保障局网站上的福利信息页面，或使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人的工作记录有资格获得的福利。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ],
+          "reason": "The context states to see the Social Security website's benefit information and use the BEST tool to learn about benefits based on another's work record."
+        },
+        {
+          "text": "此外，您也可以拨打社会保障局的免费电话1-800-772-1213（听力障碍者拨打TTY 1-800-325-0778），工作人员会在周一至周五上午7点至下午7点为您解答具体问题。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ],
+          "reason": "The context provides the toll-free number, TTY number, and hours for answering specific questions."
+        }
+      ]
+    }
+  },
+  "sha256": "5ccca7928ba53fc36e9b7e76903c55bcbb38cce31a055c0902e58f5e903f3193"
+}

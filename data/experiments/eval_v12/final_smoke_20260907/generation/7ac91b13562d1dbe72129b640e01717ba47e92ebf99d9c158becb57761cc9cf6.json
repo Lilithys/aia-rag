@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+    "item_sha256": "1b275d606e0f67db1190f4b023699380cbd4bfe20a62dce0c71cc51e312da620",
+    "result": {
+      "request_id": "71cb104881c743819debe5d7a35004a5",
+      "session_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a",
+      "turn_id": 3,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，退伍后您可以通过退伍军人团体人寿保险（VGLI）继续保留人寿保险保障，只要您持续支付保费。您可以在退伍后1年零120天内申请VGLI，最高保额为您通过SGLI拥有的保险金额。如果您在退伍后240天内申请，无需提供健康证明；超过240天则需提交健康证明。",
+        "citations": [
+          "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+          "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005",
+          "text": "[军人团体人寿保险（SGLI） > 在您退役或退休时申请VGLI]\n### 当我离开军队时如何申请VGLI？\n\n当您离开军队时，您可以在退伍后1年零120天内申请退伍军人团体人寿保险（VGLI），最高保额为您通过SGLI拥有的保险金额。了解更多关于VGLI的信息\n\n您还可以在离开军队之日起120天内将您的SGLI保单转换为 civilian 保单。了解如何将您的SGLI保障转换为个人保单（PDF）\n\n### 如果我离开军队时残疾，我可以免费延长我的SGLI保障吗？\n\n如果您在离军日期后2年内，并且满足以下任一要求，您可能可以在离开军队之日起保留保障最多2年。\n\n以下至少一项必须为真：\n\n- 您在退伍时完全残疾且无法工作，或\n- 无论您的工作状况如何，您已患有以下情况之一：\n  - 双耳完全失聪\n  - 丧失言语能力，即使借助人工设备也无法低声说话\n  - 双手、双脚或双眼，或一只手和一只脚，或一只手或一只脚和一只眼睛永久（长期）丧失功能\n\n### 我如何申请SGLI残疾延长？\n\n您需要申请军人团体人寿保险残疾延长（SGLI-DE）。\n\n要申请，请填写SGLI残疾延长申请表（SGLV 8715）并将其发送至申请表上列出的OSGLI地址。下载SGLV 8715（PDF）\n\n如果您的申请获得批准，您将在离军日期后20个月收到通知，告知您的SGLI-DE即将结束，并且您现在可以选择支付保费以参加退伍军人团体人寿保险（VGLI）。\n\n如果您支付保费，只要您持续支付保费，您就可以保留您的人寿保险保障。了解更多关于VGLI的信息\n\n### 如果我的索赔需要帮助怎么办？\n\n如果您对军人或退伍军人团体人寿保险有疑问，您可以拨打军人团体人寿保险办公室（OSGLI）电话800-419-1473，或发送电子邮件至保德信保险公司。\n\n### 我的家人需要哪些表格？\n\n- 要为患有绝症的军人申请预付保险金，家属需提交加速给付索赔表（SGLV 8284）。下载SGLV 8284（PDF）\n- 要在需要时获得保险金，家属需提交死亡抚恤金索赔表（SGLV 8283）。下载SGLV 8283（PDF）\n- 要帮助军人在创伤性损伤恢复期间获得短期经济支持，家属需与军人共同提交TSGLI福利申请表（SGLV 8600）。下载SGLV 8600（PDF）\n\n最后更新："
+        },
+        {
+          "chunk_id": "About VA Insurance Options And Eligibility | Veterans Affairs#1_0::c0000",
+          "text": "# 关于 VA 保险选项与资格 | Veterans Affairs\n\n## 关于 VA 保险选项与资格\n\n了解作为 Veteran、service member、spouse 或 dependent child，哪些 VA 保险计划可能适合您。\n\n## 如何知道我符合哪种人寿保险计划的资格？\n\n不同的计划覆盖 Veterans (VGLI)、service members (SGLI) 和 family members (FSGLI)。您也可能通过 TSGLI 获得短期财务保障，以帮助您从 traumatic (severe) injury 中恢复。如果您因 active service 导致或加重的 injury 或 illness 而残疾，您可能可以通过 S-DVI 获得保障，以便在离开军队后继续您的 life insurance 超过 2 年。\n\n注意：如果您即将结束 military tour of duty，您需要迅速获得新的保障。在某些情况下，您必须在离开军队后的 120 天内采取行动，以确保您的保障没有中断。\n\n### VA 人寿保险选项\n\n-\n\n#### Servicemembers Group Life Insurance (SGLI)\n\n在服役期间获得团体人寿保险。\n\n-\n\n#### Family Servicemembers Group Life Insurance (FSGLI)\n\n为您的 spouse 和 dependent children（依赖您提供经济支持的子女）添加保障。\n\n-\n\n#### Traumatic Injury Protection (TSGLI)\n\n获得短期财务支持，帮助您从严重伤害中恢复。\n\n-\n\n#### Veterans Group Life Insurance (VGLI)\n\n在结束服役后，获取团体人寿保险。\n\n-\n\n#### 服务性残疾退伍军人保险（S-DVI）\n\n如果你因现役服务导致或加重的伤病而残疾，可在退伍后2年内继续你的人寿保险。\n\n-\n\n#### 退伍军人抵押贷款人寿保险（VMLI）\n\n如果你有严重的服务相关性残疾，可为已改造以适应你需求的住房获取抵押贷款保护保险。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+          "text": "# Veterans’ Group Life Insurance (VGLI) | Veterans Affairs\n\n## Veterans Group Life Insurance (VGLI)\n\nWith Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.\n\n## Am I eligible for Veterans Group Life Insurance?\n\nYou may be able to get VGLI if you meet at least one of the requirements listed below.\n\n## At least one of these must be true. You:\n\nHad part-time Servicemembers Group Life Insurance (SGLI) as a member of the National Guard or Reserves, and you suffered an injury or disability (damage to your body or mind that makes it hard for you to do everyday tasks, including meaningful work) while on duty including direct traveling to and from duty that disqualified you for standard premium insurance rates, or Had SGLI while you were in the military and you re within 1 year and 120 days of being released from an active-duty period of 31 or more days, or Are within 1 year and 120 days of retiring or being released from the Ready Reserves or National Guard, or Are within 1 year and 120 days of assignment to the Individual Ready Reserves (IRR) of a branch of service, or to the Inactive National Guard (ING). This includes members of the United States Public Health Service Inactive Reserve Corps (IRC), or Are within 1 year and 120 days of being put on the Temporary Disability Retirement List (TDRL)\n\n## Who s covered?\n\n## Veterans Former service members\n\n## What life insurance benefits can I get with VGLI?\n\n$10,000 to $400,000 in life insurance benefits, based on the amount of SGLI coverage you had when you left the military.\n\nNote: When you leave the military, you can sign up through VGLI for coverage up to the amount you had through SGLI. You can also increase your coverage by $25,000 every 5 years up to $400,000 until you re 60 years old.\n\n## How do I get these benefits?\n\nYou ll need to apply for VGLI within one year and 120 days of leaving the military.\n\nIf you sign up within 240 days of leaving the military, you won t need to prove you re in good health. If you sign up after the 240-day period, you ll need to submit evidence that you re in good health.\n\n## Apply in one of these ways:\n\nApply through the Office of Servicemembers Group Life Insurance (OSGLI), using the Prudential website. Apply online through OSGLI Apply online through eBenefits Apply by mail or fax. Fill out the Application for Veterans Group Life Insurance (SGLV 8714). Download the Application for Veterans Group Life Insurance (PDF)\n\n## Fax the form to 800-236-6142, or mail it to:\n\n## OSGLI PO Box 41618 Philadelphia, PA 19176-9913\n\nTo reinstate a VGLI policy that has expired, you ll need to fill out an Application for Reinstatement of VGLI Coverage (SGLV 180). Download SGLV 180 (PDF)\n\n## How much will I pay for these benefits?\n\nVGLI premium rates are based on your age and the amount of insurance coverage you want.\n\nChoose your age to find monthly premium rates as of July 1, 2014.\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## See the VGLI premium rates before July 1, 2014\n\n## Can I choose or update my beneficiaries?\n\nYes. You can choose your beneficiaries (the people you pick to get the money from your life insurance policy if you die) and change them as needed.\n\n## Update your beneficiary information in one of these ways:\n\nAccess your policy online. Find your policy through Prudential Life Insurance Company of America, or Fill out a VGLI Beneficiary Designation form (SGLV 8721). Download SGLV 8721 (PDF)\n\n## Fax the form to 800-236-6142, or mail it to:\n\n## OSGLI PO Box 41618 Philadelphia, PA 19176-9913\n\n## Can I convert my VGLI policy into a commercial policy?\n\nYes. You can convert your policy into a commercial (civilian) policy at any time. You ll be able to convert at standard premium rates, without having to provide proof that you re in good health.\n\n## To convert your VGLI policy:\n\n## Choose your new insurance company.View our list of companies that take part in this program (PDF)\n\nApply at the local sales office of your chosen company.\n\nGet a letter from OSGLI confirming that you have VGLI coverage (called a VGLI Conversion Notice) and give the letter to the agent who takes your application.\n\nNote: The conversion policy must be a permanent policy, such as a whole life policy. You can t convert to other types of policies, like term, variable life, or universal life insurance. And supplementary policy benefits, like Accidental Death and Dismemberment or Waiver of Premium for Disability, aren t considered part of the conversion policy.\n\n## What if I need help with my claim?\n\nIf you have questions about Servicemembers or Veterans Group Life Insurance, you can call the Office of Servicemembers Group Life Insurance (OSGLI) at 800-419-1473 or email the Prudential Insurance Company.\n\n## Which forms would my family member need?\n\nTo request an advance insurance payment for a service member who s terminally ill, a family member would file a Claim for Accelerated Benefits (SGLV 8284).Download SGLV 8284 (PDF) To receive an insurance payment in their time of need, a family member would file a Claim for Death Benefits (SGLV 8283).Download SGLV 8283 (PDF)\n\n## Last updated:"
+        },
+        {
+          "chunk_id": "VA Life Insurance | Veterans Affairs#1_0::c0000",
+          "text": "# VA人寿保险 | 退伍军人事务部\n\n# VA人寿保险\n\nVA人寿保险可以为退伍军人、服役人员及其配偶和受抚养子女提供财务保障。探索您的选择，管理您的保单，并提交索赔，以获得您应得的保险福利。\n\n### 本页内容\n\n- 获取VA人寿保险\n- 管理您的保单和福利\n- 更多信息和资源\n\n## 获取VA人寿保险\n\n- 关于VA保险选项和资格\n\n了解您可能有资格获得哪些人寿保险计划，以及每个计划您将获得的福利。\n\n- 完全残疾或绝症保单持有人的福利\n\n了解在某些情况下您是否可以免除保险费或提前领取福利。\n\n- 受益人财务咨询和在线遗嘱准备\n\n如果您参加了VA人寿保险计划，请了解您是否可以获得免费的财务规划和在线遗嘱准备服务。\n\n## 管理您的保单和福利\n\n- 在线访问您的保单\n\n了解如何在线查看保单状态、更新信息或支付保费。\n\n- 更新您的受益人\n\n保持关于您希望接收保险收益的人员信息最新。这将使您的家人在需要时更容易提交索赔。\n\n- 提交保险福利索赔\n\n了解如何根据您的保单申领VA人寿保险福利。\n\n- 查看您的上诉状态\n\n跟踪您的人寿保险上诉状态。\n\n- 转换为商业保单\n\n了解何时以及如何将您的VA人寿保险转换为商业保单。\n\n- 提交TSGLI上诉（VA表格SGLV 8600A）\n\n如果您收到了创伤性损伤保护人寿保险福利的拒绝信，且信中指示您使用此表格，请在信函中注明的日期前提交上诉。\n\n- 注册VGLI自动支付\n\n注册从您的银行账户自动支付退伍军人团体人寿保险保费。\n\n- 搜索未领取的保险资金\n\n如果您认为我们可能欠您VA保险单的资金，请按符合条件的退伍军人姓名搜索我们的未领取资金记录。\n\n## 更多信息和资源\n\n- 我需要多少人寿保险？\n\n使用我们的人寿保险需求计算器和VGLI比较问卷来帮助决定您需要多少人寿保险。\n\n- 关于SGLI/VGLI保险的传言和误解\n\n获取关于SGLI和VGLI保险常见传言、谣言和误解的事实。\n\n- 关于SGLI在线注册系统（SOES）\n\n了解我们新的在线注册Servicemembers' Group Life Insurance的流程。\n\n- 联系我们\n\n了解如何联系我们，就您的保单提出问题或申请福利索赔。\n\n- VA人寿保险表格\n\n查找并下载您申请和管理人寿保险福利所需的表格。\n\n- 出版物和手册\n\n下载人寿保险手册、指南和新闻通讯。\n\n- 强制电子支付\n\n了解要求我们通过电子资金转账支付所有福利的法律。\n\n- 可能导致您无法投保的医疗状况\n\n了解哪些医疗状况可能会使您在退役后难以获得私人寿险，以及如何确保您有保险保障。\n\n- 特别股息传闻\n\n了解关于没有有效政府人寿保险保单的退伍军人有特别股息的传闻真相。\n\n### 其他VA福利和服务\n\n- 丧葬福利和纪念物品\n\n获取安排葬礼的帮助，订购墓碑或其他纪念物品，并申请遗属和受抚养人福利。\n\n- 养老金福利\n\n了解您作为战时退伍军人或遗属配偶或子女是否有资格获得免税的每月付款。\n\n- VA医疗保健\n\n了解如何申请和管理您的VA医疗保健福利。\n\n最后更新：\n\n#### SGLI在线注册系统（SOES）\n\n了解我们为军人团体人寿保险（Servicemembers' Group Life Insurance）推出的全新在线注册系统。\n\n- #### 给我们发消息\n\n- 在线提问\n\n- #### 给我们打电话\n\n- SGLI或VGLI支持：800-419-1473\n  - 所有其他VA人寿保险计划：800-669-8477\n  - 如需帮助，请拨打MyVA311：844-698-2311\n  - 如果您有听力障碍，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人福利管理局\n\n#### 获取更新\n\n- 退伍军人福利电子邮件更新\n\n#### 关注我们\n\n- 退伍军人福利管理局Facebook\n  - 退伍军人福利管理局Instagram\n  - 退伍军人福利管理局Linkedin\n  - 退伍军人福利管理局Twitter\n  - 退伍军人福利管理局YouTube"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "text": "[VA benefits for service members > 作为退伍军人需考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- Veterans Pension 计划\n\n如果你在战时服役于现役，年满65岁或拥有与服务相关的残疾，且收入有限或没有收入，请了解你是否有资格获得 Veterans Pension 福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果你在日常活动中需要帮助或居家，请检查你是否有资格在每月的 Veterans Pension 付款中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果你有与服务相关的残疾，请了解如何申请住房补助金，以对你的房屋进行改造，使你能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为你和你的家人提供的人寿保险覆盖选项和服务，并在线管理你的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先资格确定：VA 国家公墓安葬\n\n申请预先资格决定信，以确认你有资格在 VA 国家公墓安葬。这可以帮助你提前规划，并可以在你的家人需要时简化流程。仅面向现役退伍军人开放\n\n最后更新："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005",
+          "text": "[军人团体人寿保险（SGLI） > 在您退役或退休时申请VGLI]\n### 当我离开军队时如何申请VGLI？\n\n当您离开军队时，您可以在退伍后1年零120天内申请退伍军人团体人寿保险（VGLI），最高保额为您通过SGLI拥有的保险金额。了解更多关于VGLI的信息\n\n您还可以在离开军队之日起120天内将您的SGLI保单转换为 civilian 保单。了解如何将您的SGLI保障转换为个人保单（PDF）\n\n### 如果我离开军队时残疾，我可以免费延长我的SGLI保障吗？\n\n如果您在离军日期后2年内，并且满足以下任一要求，您可能可以在离开军队之日起保留保障最多2年。\n\n以下至少一项必须为真：\n\n- 您在退伍时完全残疾且无法工作，或\n- 无论您的工作状况如何，您已患有以下情况之一：\n  - 双耳完全失聪\n  - 丧失言语能力，即使借助人工设备也无法低声说话\n  - 双手、双脚或双眼，或一只手和一只脚，或一只手或一只脚和一只眼睛永久（长期）丧失功能\n\n### 我如何申请SGLI残疾延长？\n\n您需要申请军人团体人寿保险残疾延长（SGLI-DE）。\n\n要申请，请填写SGLI残疾延长申请表（SGLV 8715）并将其发送至申请表上列出的OSGLI地址。下载SGLV 8715（PDF）\n\n如果您的申请获得批准，您将在离军日期后20个月收到通知，告知您的SGLI-DE即将结束，并且您现在可以选择支付保费以参加退伍军人团体人寿保险（VGLI）。\n\n如果您支付保费，只要您持续支付保费，您就可以保留您的人寿保险保障。了解更多关于VGLI的信息\n\n### 如果我的索赔需要帮助怎么办？\n\n如果您对军人或退伍军人团体人寿保险有疑问，您可以拨打军人团体人寿保险办公室（OSGLI）电话800-419-1473，或发送电子邮件至保德信保险公司。\n\n### 我的家人需要哪些表格？\n\n- 要为患有绝症的军人申请预付保险金，家属需提交加速给付索赔表（SGLV 8284）。下载SGLV 8284（PDF）\n- 要在需要时获得保险金，家属需提交死亡抚恤金索赔表（SGLV 8283）。下载SGLV 8283（PDF）\n- 要帮助军人在创伤性损伤恢复期间获得短期经济支持，家属需与军人共同提交TSGLI福利申请表（SGLV 8600）。下载SGLV 8600（PDF）\n\n最后更新："
+        },
+        {
+          "chunk_id": "About VA Insurance Options And Eligibility | Veterans Affairs#1_0::c0000",
+          "text": "# 关于 VA 保险选项与资格 | Veterans Affairs\n\n## 关于 VA 保险选项与资格\n\n了解作为 Veteran、service member、spouse 或 dependent child，哪些 VA 保险计划可能适合您。\n\n## 如何知道我符合哪种人寿保险计划的资格？\n\n不同的计划覆盖 Veterans (VGLI)、service members (SGLI) 和 family members (FSGLI)。您也可能通过 TSGLI 获得短期财务保障，以帮助您从 traumatic (severe) injury 中恢复。如果您因 active service 导致或加重的 injury 或 illness 而残疾，您可能可以通过 S-DVI 获得保障，以便在离开军队后继续您的 life insurance 超过 2 年。\n\n注意：如果您即将结束 military tour of duty，您需要迅速获得新的保障。在某些情况下，您必须在离开军队后的 120 天内采取行动，以确保您的保障没有中断。\n\n### VA 人寿保险选项\n\n-\n\n#### Servicemembers Group Life Insurance (SGLI)\n\n在服役期间获得团体人寿保险。\n\n-\n\n#### Family Servicemembers Group Life Insurance (FSGLI)\n\n为您的 spouse 和 dependent children（依赖您提供经济支持的子女）添加保障。\n\n-\n\n#### Traumatic Injury Protection (TSGLI)\n\n获得短期财务支持，帮助您从严重伤害中恢复。\n\n-\n\n#### Veterans Group Life Insurance (VGLI)\n\n在结束服役后，获取团体人寿保险。\n\n-\n\n#### 服务性残疾退伍军人保险（S-DVI）\n\n如果你因现役服务导致或加重的伤病而残疾，可在退伍后2年内继续你的人寿保险。\n\n-\n\n#### 退伍军人抵押贷款人寿保险（VMLI）\n\n如果你有严重的服务相关性残疾，可为已改造以适应你需求的住房获取抵押贷款保护保险。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+          "text": "# Veterans’ Group Life Insurance (VGLI) | Veterans Affairs\n\n## Veterans Group Life Insurance (VGLI)\n\nWith Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.\n\n## Am I eligible for Veterans Group Life Insurance?\n\nYou may be able to get VGLI if you meet at least one of the requirements listed below.\n\n## At least one of these must be true. You:\n\nHad part-time Servicemembers Group Life Insurance (SGLI) as a member of the National Guard or Reserves, and you suffered an injury or disability (damage to your body or mind that makes it hard for you to do everyday tasks, including meaningful work) while on duty including direct traveling to and from duty that disqualified you for standard premium insurance rates, or Had SGLI while you were in the military and you re within 1 year and 120 days of being released from an active-duty period of 31 or more days, or Are within 1 year and 120 days of retiring or being released from the Ready Reserves or National Guard, or Are within 1 year and 120 days of assignment to the Individual Ready Reserves (IRR) of a branch of service, or to the Inactive National Guard (ING). This includes members of the United States Public Health Service Inactive Reserve Corps (IRC), or Are within 1 year and 120 days of being put on the Temporary Disability Retirement List (TDRL)\n\n## Who s covered?\n\n## Veterans Former service members\n\n## What life insurance benefits can I get with VGLI?\n\n$10,000 to $400,000 in life insurance benefits, based on the amount of SGLI coverage you had when you left the military.\n\nNote: When you leave the military, you can sign up through VGLI for coverage up to the amount you had through SGLI. You can also increase your coverage by $25,000 every 5 years up to $400,000 until you re 60 years old.\n\n## How do I get these benefits?\n\nYou ll need to apply for VGLI within one year and 120 days of leaving the military.\n\nIf you sign up within 240 days of leaving the military, you won t need to prove you re in good health. If you sign up after the 240-day period, you ll need to submit evidence that you re in good health.\n\n## Apply in one of these ways:\n\nApply through the Office of Servicemembers Group Life Insurance (OSGLI), using the Prudential website. Apply online through OSGLI Apply online through eBenefits Apply by mail or fax. Fill out the Application for Veterans Group Life Insurance (SGLV 8714). Download the Application for Veterans Group Life Insurance (PDF)\n\n## Fax the form to 800-236-6142, or mail it to:\n\n## OSGLI PO Box 41618 Philadelphia, PA 19176-9913\n\nTo reinstate a VGLI policy that has expired, you ll need to fill out an Application for Reinstatement of VGLI Coverage (SGLV 180). Download SGLV 180 (PDF)\n\n## How much will I pay for these benefits?\n\nVGLI premium rates are based on your age and the amount of insurance coverage you want.\n\nChoose your age to find monthly premium rates as of July 1, 2014.\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## See the VGLI premium rates before July 1, 2014\n\n## Can I choose or update my beneficiaries?\n\nYes. You can choose your beneficiaries (the people you pick to get the money from your life insurance policy if you die) and change them as needed.\n\n## Update your beneficiary information in one of these ways:\n\nAccess your policy online. Find your policy through Prudential Life Insurance Company of America, or Fill out a VGLI Beneficiary Designation form (SGLV 8721). Download SGLV 8721 (PDF)\n\n## Fax the form to 800-236-6142, or mail it to:\n\n## OSGLI PO Box 41618 Philadelphia, PA 19176-9913\n\n## Can I convert my VGLI policy into a commercial policy?\n\nYes. You can convert your policy into a commercial (civilian) policy at any time. You ll be able to convert at standard premium rates, without having to provide proof that you re in good health.\n\n## To convert your VGLI policy:\n\n## Choose your new insurance company.View our list of companies that take part in this program (PDF)\n\nApply at the local sales office of your chosen company.\n\nGet a letter from OSGLI confirming that you have VGLI coverage (called a VGLI Conversion Notice) and give the letter to the agent who takes your application.\n\nNote: The conversion policy must be a permanent policy, such as a whole life policy. You can t convert to other types of policies, like term, variable life, or universal life insurance. And supplementary policy benefits, like Accidental Death and Dismemberment or Waiver of Premium for Disability, aren t considered part of the conversion policy.\n\n## What if I need help with my claim?\n\nIf you have questions about Servicemembers or Veterans Group Life Insurance, you can call the Office of Servicemembers Group Life Insurance (OSGLI) at 800-419-1473 or email the Prudential Insurance Company.\n\n## Which forms would my family member need?\n\nTo request an advance insurance payment for a service member who s terminally ill, a family member would file a Claim for Accelerated Benefits (SGLV 8284).Download SGLV 8284 (PDF) To receive an insurance payment in their time of need, a family member would file a Claim for Death Benefits (SGLV 8283).Download SGLV 8283 (PDF)\n\n## Last updated:"
+        },
+        {
+          "chunk_id": "VA Life Insurance | Veterans Affairs#1_0::c0000",
+          "text": "# VA人寿保险 | 退伍军人事务部\n\n# VA人寿保险\n\nVA人寿保险可以为退伍军人、服役人员及其配偶和受抚养子女提供财务保障。探索您的选择，管理您的保单，并提交索赔，以获得您应得的保险福利。\n\n### 本页内容\n\n- 获取VA人寿保险\n- 管理您的保单和福利\n- 更多信息和资源\n\n## 获取VA人寿保险\n\n- 关于VA保险选项和资格\n\n了解您可能有资格获得哪些人寿保险计划，以及每个计划您将获得的福利。\n\n- 完全残疾或绝症保单持有人的福利\n\n了解在某些情况下您是否可以免除保险费或提前领取福利。\n\n- 受益人财务咨询和在线遗嘱准备\n\n如果您参加了VA人寿保险计划，请了解您是否可以获得免费的财务规划和在线遗嘱准备服务。\n\n## 管理您的保单和福利\n\n- 在线访问您的保单\n\n了解如何在线查看保单状态、更新信息或支付保费。\n\n- 更新您的受益人\n\n保持关于您希望接收保险收益的人员信息最新。这将使您的家人在需要时更容易提交索赔。\n\n- 提交保险福利索赔\n\n了解如何根据您的保单申领VA人寿保险福利。\n\n- 查看您的上诉状态\n\n跟踪您的人寿保险上诉状态。\n\n- 转换为商业保单\n\n了解何时以及如何将您的VA人寿保险转换为商业保单。\n\n- 提交TSGLI上诉（VA表格SGLV 8600A）\n\n如果您收到了创伤性损伤保护人寿保险福利的拒绝信，且信中指示您使用此表格，请在信函中注明的日期前提交上诉。\n\n- 注册VGLI自动支付\n\n注册从您的银行账户自动支付退伍军人团体人寿保险保费。\n\n- 搜索未领取的保险资金\n\n如果您认为我们可能欠您VA保险单的资金，请按符合条件的退伍军人姓名搜索我们的未领取资金记录。\n\n## 更多信息和资源\n\n- 我需要多少人寿保险？\n\n使用我们的人寿保险需求计算器和VGLI比较问卷来帮助决定您需要多少人寿保险。\n\n- 关于SGLI/VGLI保险的传言和误解\n\n获取关于SGLI和VGLI保险常见传言、谣言和误解的事实。\n\n- 关于SGLI在线注册系统（SOES）\n\n了解我们新的在线注册Servicemembers' Group Life Insurance的流程。\n\n- 联系我们\n\n了解如何联系我们，就您的保单提出问题或申请福利索赔。\n\n- VA人寿保险表格\n\n查找并下载您申请和管理人寿保险福利所需的表格。\n\n- 出版物和手册\n\n下载人寿保险手册、指南和新闻通讯。\n\n- 强制电子支付\n\n了解要求我们通过电子资金转账支付所有福利的法律。\n\n- 可能导致您无法投保的医疗状况\n\n了解哪些医疗状况可能会使您在退役后难以获得私人寿险，以及如何确保您有保险保障。\n\n- 特别股息传闻\n\n了解关于没有有效政府人寿保险保单的退伍军人有特别股息的传闻真相。\n\n### 其他VA福利和服务\n\n- 丧葬福利和纪念物品\n\n获取安排葬礼的帮助，订购墓碑或其他纪念物品，并申请遗属和受抚养人福利。\n\n- 养老金福利\n\n了解您作为战时退伍军人或遗属配偶或子女是否有资格获得免税的每月付款。\n\n- VA医疗保健\n\n了解如何申请和管理您的VA医疗保健福利。\n\n最后更新：\n\n#### SGLI在线注册系统（SOES）\n\n了解我们为军人团体人寿保险（Servicemembers' Group Life Insurance）推出的全新在线注册系统。\n\n- #### 给我们发消息\n\n- 在线提问\n\n- #### 给我们打电话\n\n- SGLI或VGLI支持：800-419-1473\n  - 所有其他VA人寿保险计划：800-669-8477\n  - 如需帮助，请拨打MyVA311：844-698-2311\n  - 如果您有听力障碍，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人福利管理局\n\n#### 获取更新\n\n- 退伍军人福利电子邮件更新\n\n#### 关注我们\n\n- 退伍军人福利管理局Facebook\n  - 退伍军人福利管理局Instagram\n  - 退伍军人福利管理局Linkedin\n  - 退伍军人福利管理局Twitter\n  - 退伍军人福利管理局YouTube"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "text": "[VA benefits for service members > 作为退伍军人需考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- Veterans Pension 计划\n\n如果你在战时服役于现役，年满65岁或拥有与服务相关的残疾，且收入有限或没有收入，请了解你是否有资格获得 Veterans Pension 福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果你在日常活动中需要帮助或居家，请检查你是否有资格在每月的 Veterans Pension 付款中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果你有与服务相关的残疾，请了解如何申请住房补助金，以对你的房屋进行改造，使你能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为你和你的家人提供的人寿保险覆盖选项和服务，并在线管理你的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先资格确定：VA 国家公墓安葬\n\n申请预先资格决定信，以确认你有资格在 VA 国家公墓安葬。这可以帮助你提前规划，并可以在你的家人需要时简化流程。仅面向现役退伍军人开放\n\n最后更新："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+          "document": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_126.txt",
+          "excerpt": "# Veterans’ Group Life Insurance (VGLI) | Veterans Affairs\n\n## Veterans Group Life Insurance (VGLI)\n\nWith Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.\n\n## Am I eligible for Veterans Group Life Insurance?\n\nYou may be able to get VGLI if you meet at least one of the requirements listed below.\n\n## At least one of these must be true. You:\n\nHad part-time Servicemembers Group Life Insurance (SGLI) as a member of the National Guard or Reserves, and you suffered an injury or disability (damage to your body or mind that makes it hard for you to do everyday tasks, including meaningful work) while on duty including direct traveling to and from duty that disqualified you for standard premium insurance rates, or Had SGLI while you were in the military and you re within 1 year and 120 days of being released from an active-duty period of 31 or more days, or Are within 1 year and 120 days of retiring or being released from the Ready Reserves or National Guard, or Are within 1 year and 120 days of assignment to the Individual Ready Reserves (IRR) of a branch of service, or to the Inactive National Guard (ING). This includes members of the United States Public Health Service Inactive Reserve Corps (IRC), or Are within 1 year and 120 days of being put on the Temporary Disability Retirement List (TDRL)\n\n## Who s covered?\n\n## Veterans Former service members\n\n## What life insurance benefits can I get with VGLI?\n\n$10,000 to $400,000 in life insurance benefits, based on the amount of SGLI coverage you had when you left the military.\n\nNote: When you leave the military, you can sign up through VGLI for coverage up to the amount you had through SGLI. You can also increase your coverage by $25,000 every 5 years up to $400,000 until you re 60 years old.\n\n## How do I get these benefits?\n\nYou ll need to apply for VGLI within one year and 120 days of leaving the military.\n\nIf you sign up within 240 days of leaving the military, you won t need to prove you re in good health. If you sign up after the 240-day period, you ll need to submit evidence that you re in good health.\n\n## Apply in one of these ways:\n\nApply through the Office of Servicemembers Group Life Insurance (OSGLI), using the Prudential website. Apply online through OSGLI Apply online through eBenefits Apply by mail or fax. Fill out the Application for Veterans Group Life Insurance (SGLV 8714). Download the Application for Veterans Group Life Insurance (PDF)\n\n## Fax the form to 800-236-6142, or mail it to:\n\n## OSGLI PO Box 41618 Philadelphia, PA 19176-9913\n\nTo reinstate a VGLI policy that has expired, you ll need to fill out an Application for Reinstatement of VGLI Coverage (SGLV 180). Download SGLV 180 (PDF)\n\n## How much will I pay for these benefits?\n\nVGLI premium rates are based on your age and the amount of insurance coverage you want.\n\nChoose your age to find monthly premium rates as of July 1, 2014.\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## -\n\n## See the VGLI premium rates before July 1, 2014\n\n## Can I choose or update my beneficiaries?\n\nYes. You can choose your beneficiaries (the people you pick to get the money from your life insurance policy if you die) and change them as needed.\n\n## Update your beneficiary information in one of these ways:\n\nAccess your policy online. Find your policy through Prudential Life Insurance Company of America, or Fill out a VGLI Beneficiary Designation form (SGLV 8721). Download SGLV 8721 (PDF)\n\n## Fax the form to 800-236-6142, or mail it to:\n\n## OSGLI PO Box 41618 Philadelphia, PA 19176-9913\n\n## Can I convert my VGLI policy into a commercial policy?\n\nYes. You can convert your policy into a commercial (civilian) policy at any time. You ll be able to convert at standard premium rates, without having to provide proof that you re in good health.\n\n## To convert your VGLI policy:\n\n## Choose your new insurance company.View our list of companies that take part in this program (PDF)\n\nApply at the local sales office of your chosen company.\n\nGet a letter from OSGLI confirming that you have VGLI coverage (called a VGLI Conversion Notice) and give the letter to the agent who takes your application.\n\nNote: The conversion policy must be a permanent policy, such as a whole life policy. You can t convert to other types of policies, like term, variable life, or universal life insurance. And supplementary policy benefits, like Accidental Death and Dismemberment or Waiver of Premium for Disability, aren t considered part of the conversion policy.\n\n## What if I need help with my claim?\n\nIf you have questions about Servicemembers or Veterans Group Life Insurance, you can call the Office of Servicemembers Group Life Insurance (OSGLI) at 800-419-1473 or email the Prudential Insurance Company.\n\n## Which forms would my family member need?\n\nTo request an advance insurance payment for a service member who s terminally ill, a family member would file a Claim for Accelerated Benefits (SGLV 8284).Download SGLV 8284 (PDF) To receive an insurance payment in their time of need, a family member would file a Claim for Death Benefits (SGLV 8283).Download SGLV 8283 (PDF)\n\n## Last updated:"
+        },
+        {
+          "chunk_id": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005",
+          "document": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0",
+          "heading": [
+            "军人团体人寿保险（SGLI）",
+            "在您退役或退休时申请VGLI"
+          ],
+          "source_file": "va_075.md",
+          "excerpt": "[军人团体人寿保险（SGLI） > 在您退役或退休时申请VGLI]\n### 当我离开军队时如何申请VGLI？\n\n当您离开军队时，您可以在退伍后1年零120天内申请退伍军人团体人寿保险（VGLI），最高保额为您通过SGLI拥有的保险金额。了解更多关于VGLI的信息\n\n您还可以在离开军队之日起120天内将您的SGLI保单转换为 civilian 保单。了解如何将您的SGLI保障转换为个人保单（PDF）\n\n### 如果我离开军队时残疾，我可以免费延长我的SGLI保障吗？\n\n如果您在离军日期后2年内，并且满足以下任一要求，您可能可以在离开军队之日起保留保障最多2年。\n\n以下至少一项必须为真：\n\n- 您在退伍时完全残疾且无法工作，或\n- 无论您的工作状况如何，您已患有以下情况之一：\n  - 双耳完全失聪\n  - 丧失言语能力，即使借助人工设备也无法低声说话\n  - 双手、双脚或双眼，或一只手和一只脚，或一只手或一只脚和一只眼睛永久（长期）丧失功能\n\n### 我如何申请SGLI残疾延长？\n\n您需要申请军人团体人寿保险残疾延长（SGLI-DE）。\n\n要申请，请填写SGLI残疾延长申请表（SGLV 8715）并将其发送至申请表上列出的OSGLI地址。下载SGLV 8715（PDF）\n\n如果您的申请获得批准，您将在离军日期后20个月收到通知，告知您的SGLI-DE即将结束，并且您现在可以选择支付保费以参加退伍军人团体人寿保险（VGLI）。\n\n如果您支付保费，只要您持续支付保费，您就可以保留您的人寿保险保障。了解更多关于VGLI的信息\n\n### 如果我的索赔需要帮助怎么办？\n\n如果您对军人或退伍军人团体人寿保险有疑问，您可以拨打军人团体人寿保险办公室（OSGLI）电话800-419-1473，或发送电子邮件至保德信保险公司。\n\n### 我的家人需要哪些表格？\n\n- 要为患有绝症的军人申请预付保险金，家属需提交加速给付索赔表（SGLV 8284）。下载SGLV 8284（PDF）\n- 要在需要时获得保险金，家属需提交死亡抚恤金索赔表（SGLV 8283）。下载SGLV 8283（PDF）\n- 要帮助军人在创伤性损伤恢复期间获得短期经济支持，家属需与军人共同提交TSGLI福利申请表（SGLV 8600）。下载SGLV 8600（PDF）\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，退伍后您可以通过退伍军人团体人寿保险（VGLI）继续保留人寿保险保障，只要您持续支付保费。您可以在退伍后1年零120天内申请VGLI，最高保额为您通过SGLI拥有的保险金额。如果您在退伍后240天内申请，无需提供健康证明；超过240天则需提交健康证明。",
+          "citations": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+            "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "823dce95fcdd490abfa1116d3a7f2583",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3933,
+              "completion_tokens": 142,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 142,
+                "prompt_tokens": 3933,
+                "total_tokens": 4075,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3677
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0061673000000000006,
+            "accounted_rmb": 0.0061673000000000006,
+            "usage_unknown": false,
+            "seconds": 2.1532180309295654,
+            "error": null,
+            "response": {
+              "id": "94f71023-980a-41af-9743-6c21c9f72571",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "aa178c7adbbbbb75e1b82dbc0a2b3a532f906f52553a295f58affe9959cefed3"
+      },
+      "latency_ms": {
+        "queue_wait": 0.05304103251546621,
+        "retrieval": 1412.4377080006525,
+        "generation": 2157.4349589645863,
+        "total": 3571.1420830339193
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1604429999133572,
+        "rerank_seconds": 1.2519427499501035,
+        "top1_dense_score": 0.8312336802482605,
+        "candidate_ids": [
+          "About VA Insurance Options And Eligibility | Veterans Affairs#1_0::c0000",
+          "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+          "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005",
+          "VA Life Insurance | Veterans Affairs#1_0::c0000",
+          "VA Life Insurance | Veterans Affairs#2_0::c0000",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0038",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0003",
+          "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0::c0005",
+          "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0003",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0001",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0003",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0030",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0004",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0003",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0021",
+          "Veterans’ Mortgage Life Insurance (VMLI) | Veterans Affairs#1_0::c0000",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0029",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 37,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.4124173329910263
+      },
+      "raw_citations": [
+        "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+        "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "cd9330568a23660a14770850a84f1352f4e117c0bf8b4eec35fd61cb79629402"
+}

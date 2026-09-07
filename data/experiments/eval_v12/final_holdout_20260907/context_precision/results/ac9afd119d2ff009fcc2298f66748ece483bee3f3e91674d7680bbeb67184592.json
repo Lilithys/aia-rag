@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "ac9afd119d2ff009fcc2298f66748ece483bee3f3e91674d7680bbeb67184592",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.4166666666458333,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses reasons for low FAFSA completion numbers, including age criteria and multiple listings, but does not address why a school district might be listed as having insufficient data. The answer provides specific reasons such as missing graduation-rate data or small cohort sizes, which are not mentioned in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c2e0386d4b0445bd85f0a81fc85e34ad",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1518,
+                "completion_tokens": 74,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 74,
+                  "prompt_tokens": 1518,
+                  "total_tokens": 1592,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 750
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014964000000000002,
+              "accounted_rmb": 0.0014964000000000002,
+              "usage_unknown": false,
+              "seconds": 1.3017380237579346,
+              "error": null,
+              "response": {
+                "id": "f505a557-ab40-466d-86b1-2088384df794",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "87bb00b795c25752201dfbec5125f3dc1ea01e4a8d3f7e374a5cb9e5fe4b814d"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses project reviews and annual reports but does not contain information about why a school district might be listed as having insufficient data. The answer provides specific reasons not present in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2cca9f6ee17b46cc956e7642ae813011",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1552,
+                "completion_tokens": 52,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1552,
+                  "total_tokens": 1604,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 784
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014484,
+              "accounted_rmb": 0.0014484,
+              "usage_unknown": false,
+              "seconds": 1.2397739887237549,
+              "error": null,
+              "response": {
+                "id": "4545b1cf-d3f5-42d6-a899-00bd8f6e42c0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "82f83868d18d0633511bdd93c3f6006140facecf8359506271dc5f4e9b26e725"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific reasons why a school district may be listed as having insufficient data, which directly answers the user's question.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3536470e99a44f2b9bb33519ee572c87",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1694,
+                "completion_tokens": 40,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 40,
+                  "prompt_tokens": 1694,
+                  "total_tokens": 1734,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 670
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012362,
+              "accounted_rmb": 0.0012362,
+              "usage_unknown": false,
+              "seconds": 0.9875249862670898,
+              "error": null,
+              "response": {
+                "id": "f924f45f-6edd-4620-a3de-001131dbd036",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "90e3c8a2983d20f7be3f02361b727ee3114f584759293b0c9eec76ccae3b95a4"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is about FAFSA completion data and provides reasons why a district may be marked as having insufficient data, which directly answers the user's question.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "fd858915635049f0bae1bb9bd38c49fe",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1194,
+                "completion_tokens": 46,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 46,
+                  "prompt_tokens": 1194,
+                  "total_tokens": 1240,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 170
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005132,
+              "accounted_rmb": 0.0005132,
+              "usage_unknown": false,
+              "seconds": 0.9857568740844727,
+              "error": null,
+              "response": {
+                "id": "6c884ac4-9366-45b4-af5c-fae60f07e3fc",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cf18485fb3cd494303b983c8af9afdb25f9359d5c984b3307f3e610157230ff9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is a general FAFSA help page and does not contain specific information about why a school district might be listed as having insufficient data. The answer provides detailed reasons that are not present in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "61371ed6fb60487d984ed2fa316c7183",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1801,
+                "completion_tokens": 57,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 1801,
+                  "total_tokens": 1858,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 777
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014732,
+              "accounted_rmb": 0.0014732,
+              "usage_unknown": false,
+              "seconds": 1.5386412143707275,
+              "error": null,
+              "response": {
+                "id": "129813f4-9767-4044-bad5-e8f598cf17bf",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "85a1212d45f14af4fa29a969c5e4d5f14b1d023e06269b06f3c55d89762f0c8b"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "35c7dd2849d7b231648a7c3075877c58a5d61c89d6c19e958c67ff099fa5c780"
+}

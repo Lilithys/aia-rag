@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "38344433720d2d939772fa0f394024e35ab736499a8837db6991e1e8608e2acf",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "First step is to apply for VA health care",
+                "coverage": "covered",
+                "response_quote": "you generally need to apply for VA health care first",
+                "reason": "Response explicitly states applying for VA health care is the first step."
+              }
+            ],
+            "reason": "The response correctly identifies applying for VA health care as the first step and provides supported additional details from retrieved contexts."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "72301499e3c24413aa911a911dd57287",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4476,
+                "completion_tokens": 117,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 117,
+                  "prompt_tokens": 4476,
+                  "total_tokens": 4593,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3580
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0059413,
+              "accounted_rmb": 0.0059413,
+              "usage_unknown": false,
+              "seconds": 2.1065800189971924,
+              "error": null,
+              "response": {
+                "id": "d11d3352-dd28-4f41-8b6a-6c834fc7835b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fa0b80fc981a3752a500a05259a0007033720a91ba770ba4cd58f81c40652777"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "First step is to apply for VA health care",
+            "coverage": "covered",
+            "response_quote": "you generally need to apply for VA health care first",
+            "reason": "Response explicitly states applying for VA health care is the first step."
+          }
+        ],
+        "reason": "The response correctly identifies applying for VA health care as the first step and provides supported additional details from retrieved contexts."
+      }
+    }
+  },
+  "sha256": "e6e5556c50c4da86a1fc54b662de5caa0069064247980d2b157b26112b6282f5"
+}

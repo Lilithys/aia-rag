@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "artifact": "delivery-candidate-semantic-1024-v2",
+  "documents": 488,
+  "chunks": 1591,
+  "strategy": "semantic_section_v2",
+  "chunk_size": 1024,
+  "overlap": 0,
+  "alignment_version": "canonical-exact-source-blocks-v3",
+  "source_corpus_manifest_sha256": "f9692b72b8b0eb684a5eb9c0926458824e866b4362ac20b358a33f67022b78b2",
+  "frozen_release_manifest_sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3",
+  "source_artifact_manifest_sha256": "e795c921b9c7d9478f9f02bc67eab5d5b7674bfa96886a250db17b8674e3071a",
+  "clean_corpus_fingerprint": "026b6ee0930f96b302645ec8fbf88aecf509293ecb29b4f2f5f8b79fb202ee7d",
+  "chunks_sha256": "497c665f2750bc4c90621036a6ccc394701d4a1d636ec69a0fa78e4b71a0f29f",
+  "alignment_report_sha256": "d8fd9c0a68e99809a9556040e1fa3b720d52213092c4005cf06924cec4d226cd",
+  "code_sha256": {
+    "/Users/yishanma/Desktop/aia-rag/src/evaluation/prepare_delivery_index.py": "2def0237ae4f486f1d2b0d27cbf9a3bcc39f76a1cb6c97969af4ce8b084f813b",
+    "src/chunking/strategies/semantic_section_v2.py": "870b1fda49aab170285e99a73e53e39e807175a470c5bbc3de0212faa538ad58",
+    "src/chunking/doc_tree.py": "6f27a382fbf969dbfe4fd5ea3f3daee67a7601b12d866004c0e0cc8d4cd31642",
+    "src/chunking/splitting.py": "cfe076004785a6510fe32a4dcf2041aaeb115ab3cd6e669783ef1a2571302817",
+    "src/chunking/tokenizer.py": "da7333730a7c17fa2acc33602aaa43f3e16bc66229672c51ec4cb10a3151fd5d",
+    "src/evaluation/evidence.py": "942615dd5c404acf902a943817ee95558378ed2c7cc0d8e257714d88fc24dfee"
+  },
+  "index_text_inputs": "Only cleaned corpus text; no questions, labels, references, or source-block annotations",
+  "source_spans_scope": "Evaluation-only provenance attached after chunk text was fixed; not encoded by the embedding model",
+  "holdout_queried": false,
+  "binding_sha256": "b3e4a709cda946c06ae016cb7a292ea3e7179a5289461e4124d4954e1285cb3f"
+}

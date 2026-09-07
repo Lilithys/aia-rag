@@ -1,0 +1,159 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "20ac0b080985c8cddbbb0e1c044571cb::agent-turn-9",
+    "item_sha256": "dda937fb648bec2d6a0f9318f5611c1f9aa129a74aa0d6656c63fa18394d4457",
+    "result": {
+      "request_id": "ac7f7aeb29254c2395113896c1fea3b6",
+      "session_id": "20ac0b080985c8cddbbb0e1c044571cb",
+      "turn_id": 8,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "根据现有资料，没有找到关于“项目审查”或“审查员具体做什么”的信息。如果您指的是大学准备或联邦学生援助相关的审查流程，请提供更多细节，以便我能给出更准确的回答。",
+        "citations": [],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000",
+          "text": "# Checklists for Academic and Financial Preparation | Federal Student Aid\n\n# Are you a student? A parent? An adult thinking about going back to school? Want to know how to prepare for college or career school?\n\nWe ve provided checklists with the steps you can take to help your (or your child s) chances of getting into and being able to afford the school of your choice.\n\nStudents, college prep is about more than the classes that you take. It s also about developing the skills that will help you succeed in college and life. For instance, as you balance studying and having fun, you ll be practicing time management; and as you save for college, you ll be learning money management. Our checklists suggest these and many other steps you can take, as well as websites you can explore, as you prepare academically and financially for college.\n\nParents, each of the checklists from elementary school through high school includes items for you, such as how to support your child in his or her studies, where to set up a college savings account, and what to do when it s time to apply for financial aid.\n\nAdult students, we ve got an adult student checklist just for you so that you can skip all the information about what classes to take in high school and get straight to exactly what you need.\n\nTry This Resource*College Preparation Checklist* Helps students (elementary, middle, and high school), as well as adults and parents prepare financially and academically for college.\n\n## College Preparation YouTube Playlist\n\nCurious about what college is like? Take a look at the videos in our Prepare for College\" YouTube playlist. The playlist includes such topics as What s the biggest myth about college? and What s the best tip about going to college?\n\nWhat is the Most Surprising Thing About College?\n\n## Checklists\n\nWhether you re a student or parent, years away from college or just about to start, the following checklists will help you get ready.\n\n- Elementary School Checklist: Student and parent checklists that start the student on the road to enjoying learning and point the parent to resources for college savings accounts.\n\n&nbsp;\n\n- Middle School Checklist: Student and parent checklists that get the student thinking about high school and possible careers and encourage the parent to keep an eye on the student s progress.\n\n&nbsp;\n\n- High School Checklist: Student and parent checklists that help the student focus on succeeding academically and learning about financial aid and provide the parent with tips for supporting the student and participating in the financial aid application process.\n  - 9th Grade Checklist\n  - 10th Grade Checklist\n  - 11th Grade Checklist\n  - 12th Grade Checklist\n- Grad School Checklist: Checklist to help individuals get prepared for graduate or professional school.\n- Adult Student Checklist: Checklist for adults applying to college, including those who left high school before graduating, graduated high school, completed some college courses, or may be in the workforce.\n- Getting a Late Start? Last-minute Checklist: Checklist for anyone who has been accepted at a college and is starting classes soon but hasn t applied for financial aid yet."
+        },
+        {
+          "chunk_id": "Preparing for College | Federal Student Aid#1_0::c0000",
+          "text": "# 为大学做准备 | 联邦学生援助\n\n# 为大学做准备\n\n通过明确你的目标和兴趣、了解大学费用以及做好财务和学业规划，开始为大学做准备。\n\n- 为大学做准备——比你想象的要简单\n- 了解上大学或职业学院的理由\n- 探索你的职业选择\n- 帮助你在财务和学业上做好准备的清单\n- 选择学校\n- 学习预算管理\n- 学生家长资源\n\n## 为大学做准备——比你想象的要简单\n\n分享链接\n\n正在考虑上大学、职业学院或研究生院？为大学做准备需要考虑的事情太多了：去哪里、学什么、如何申请、如何支付所有费用等等。\n\n探索大学或职业学院的选择永远不会太早或太晚。我们将逐步介绍为大学做准备的一些关键步骤，并提供沿途可以帮助你的资源。你需要花时间研究和了解你的选择，但你不必独自完成。我们在这里帮助学生做出明智的决定，并找出他们需要做什么！\n\n### 资源\n\n大学准备清单\n\n查看PDF\n\n## 了解上大学或职业学院的理由\n\n分享链接\n\n这是一个简单的等式：大学或职业学院教育 = 更多的钱、更多的工作选择和更多的自由。正如你从下面的图表中看到的，随着你获得更多教育，你会赚更多的钱。\n\n查看*为什么上大学或职业学院*信息图的易访问版本\n\n大学教育是一项长期投资。通过仔细规划，你可以找到最适合你情况的学校和资助选项，并让你走上成功之路。\n\n## 探索你的职业选择\n\n分享链接\n\n大学或职业学院教育可以为你提供追求真正感兴趣的职业所需的技能。喜欢和动物打交道吗？或者对电脑感兴趣？寻找与你兴趣相符的可能职业。\n\n## 帮助你在财务和学业上做好准备的清单\n\n分享链接\n\n无论你现在是高中生、小学生、初中生、已辍学，还是从未完成学业，都有许多步骤可以帮助你为上大学做好准备。我们的清单将引导你完成寻找并进入适合你的大学或职业学院，以及学习如何做好财务准备的步骤。现在就查看我们的清单吧！\n\n## 选择学校\n\n分享链接\n\n你有多种大学选择，从两年制社区学院和初级学院，到四年制学院和大学，再到技术、职业和贸易学校。获取关于选择学校时需要考虑的事项的建议，并使用我们的免费大学搜索工具来找到符合你兴趣、职业目标和财务状况的学校。\n\n## 学习预算管理\n\n分享链接\n\n了解什么是预算，以及它如何帮助你在大学期间和毕业后保持目标不偏离轨道。\n\n## 学生家长资源\n\n你是一位为孩子高等教育做规划的家长吗？查看我们为家长准备的资源，了解更多关于尽早储蓄、寻找税收减免以及了解家长贷款的信息，以支持你孩子的大学之旅。"
+        },
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 我如何降低大学费用？]\n以下是一些关于如何降低大学费用的建议。对于许多建议，你可能需要向你感兴趣的大学或职业学校咨询以获取更多详细信息。\n\n- 制定预算并坚持执行！制定预算将帮助你比较预期的大学或职业学校开支与潜在的可支配收入和财政援助。你也可以使用预算来比较不同学校之间的费用。了解如何制定预算。\n\n&nbsp;\n\n- 大学或职业学校的费用可能差异很大，而且有许多学校提供负担得起的学费和慷慨的财政援助。确保研究所有可能满足你学术和经济需求的学校。要查找大学或职业学校，请使用我们的大学搜索工具 *College Navigator*。\n\n&nbsp;\n\n- 你可能能够根据你的知识或生活经历获得学校学分，并且你可以管理你的课程作业以降低成本。\n  - 询问你的学校是否有可能免修某些课程。如果你不修课程，你可能不必支付这些学分。\n  - 一些大学会为生活经历提供学分，从而减少毕业所需的学分数。\n  - 大多数学校对一学期内修读的特定学分数收取固定费用。如果学业上可行，请修读允许的最大学分数。这一策略减少了毕业所需的时间。\n  - 一些学校提供联合学位课程或三年制课程，允许你在三年内修完毕业所需的所有课程，而不是四年，从而省去一年的教育费用。\n\n&nbsp;\n\n- 大学和职业学校可能会提供学费折扣，如果\n  - 你是校友的子女（即，如果你的父母曾就读于该校）；\n  - 多个家庭成员在同一所学校就读；\n  - 你是学生会领袖或大学报纸或年鉴的编辑；\n  - 你是年龄较大的学生；\n  - 你家庭的主要收入来源者失业；或\n  - 你或你的家庭成员在该校工作。\n\n&nbsp;\n\n- 住房费用可能会增加。以下是一些降低住房费用的建议：\n  - 如果你就读的大学或职业学校离家近，考虑与父母或其他家人同住。\n\n&nbsp;\n\n- 如果你住在校外，考虑与多位室友合租房屋或公寓以降低租金成本，并拼车以节省油费和停车费。\n  - 大多数学院和大学提供宿舍助理项目，如果你在宿舍楼工作，可以获得学费减免或食宿费用减免。\n- 你可能符合享受医疗保健福利的资格，包括以下内容：\n  - 大多数年轻人可以留在父母的家庭计划中直到年满26岁，即使他们已经结婚或仍与父母同住。\n  - 如果你因已有病症而一直没有保险，你可能符合加入已有病症保险计划的资格。\n  - 如果你加入新的保险计划，保险公司不能就推荐或预防性服务（如流感疫苗或其他免疫接种）向你收取免赔额或共付额。\n- 你可以兼职工作以支付部分费用。确保你的工作和学校时间表不冲突，并且你有足够的时间学习。以下是一些选择：\n  - 联邦勤工俭学计划提供了上学期间赚钱的机会。询问学校是否参与该计划。\n  - 合作教育项目允许学生交替进行全职工作和全日制学习。\n  - 大多数学校设有就业办公室，帮助学生找工作，以及人事办公室，雇用学生在校园内工作。\n- 积少成多。例如，如果你购买二手书或租用教科书（如果你完成课程后不再需要这些书），你可以降低教科书成本。\n\n如果你明智地使用信用卡，它可以帮助你建立信用记录。但只应在紧急情况下使用，并且不要花费超过你负担得起的金额。如果你决定办理信用卡，请确保你了解相关条款。"
+        },
+        {
+          "chunk_id": "Choosing a School | Federal Student Aid#1_0::c0002",
+          "text": "[不确定哪所学院或职业学校适合你？ > 比较学校时我应该考虑什么？]\n在研究学院和职业学校时，要考虑成本、地点、认证等因素。\n\n要查找此页面上列出的特定学校的信息，请查看学校网站或使用美国教育部的大学搜索工具 *College Navigator* 搜索该学校。\n\n### 学校费用与净价\n\n- 学校费用可能是选择潜在学院或职业学校时最重要的因素之一，且各校费用差异可能很大。了解大学费用包含哪些内容以及降低大学费用的方法。\n- 任何参与联邦学生资助项目的学校都必须提供其出勤费用信息，并在其网站上提供净价计算器。搜索学校的净价计算器很容易。该计算器将让您了解扣除任何经济资助后，某个项目可能花费多少。\n- 您可以使用 *College Scorecard* 查询费用并评估大学的价值。\n\n### 经济资助\n\n- 许多学生担心学费和继续教育的其他费用会超出承受能力。但不要让潜在的费用阻止您。大多数学生都会获得某种形式的经济资助，少数学生甚至能获得全额资助，所有费用都被覆盖。您应该了解经济资助，包括助学金、奖学金、勤工助学和贷款。\n- 始终申请您可能符合资格的所有类型的资助，并赶上所有截止日期！\n- 制定和管理预算是跟踪您的收入和支出并为您的目标储蓄的一种方式。\n\n### 入学要求\n\n- 不同学校有不同的入学要求。通过访问学校网站或咨询其招生办公室，确切了解学校的要求。\n- 许多美国大学要求学生在申请材料中提交标准化考试成绩。对于大多数本科项目，您需要参加 SAT 或 ACT 考试。\n\n### 认证\n\n- 经认证的学校符合独立机构设定的某些标准。这有助于确保您获得的培训或教育符合特定领域雇主的标准。如果您就读的学校未经认证，您可能无法获得任何经济资助。\n- 使用我们的认证搜索页面来检查特定学校的标准，或查找特定领域或地点的经认证学校。\n\n文凭工厂是一所未经认证的学校（或声称是学校的企业），它颁发学位时不要求达到大学水平标准的课程作业。有些学校只要您付费，甚至不需要您做任何工作就会寄送文凭。其他学校布置的课程作业非常容易，以至于您获得的学位与经认证学校的学位相比毫无价值，并且无法帮助您找到好工作。了解更多关于文凭工厂以及如何避免它们的信息。\n\n### 入学合同\n\n- 在签署任何学校入学合同之前，请仔细阅读。合同说明了学校将为您提供的服务以换取您的金钱。\n- 如果学校代表向您承诺了合同中未包含的内容（例如帮助找工作），请要求该代表将该承诺写入合同，并签署和注明日期。承诺通常只有在书面形式下才可执行。\n\n### 退款政策\n\n- 了解学校的学费退款政策。如果您已注册但从未开始上课，您应该获得大部分退款。如果您开始上课但在完成课程之前离开，您可能能够获得部分退款。\n- 还要了解学校的资助返还政策。如果您获得联邦学生资助（联邦勤工助学除外）并退学，您或您的学校可能需要将部分资金返还给资助来源。\n- 即使您未完成课程，您仍需偿还所收到的贷款资金，减去您的学校已返还给美国教育部的任何学生贷款资金。了解更多关于偿还联邦学生贷款的信息。\n\n### 过往投诉与声誉\n\n- 学校参与联邦学生资助项目并不意味着我们认可其提供的教育质量。\n- 要了解是否有关于学校的投诉，请联系您当地的商业改进局、州高等教育机构或州总检察长办公室的消费者保护部门。向许可或认证学校的机构查询，以了解其是否符合要求的标准。\n\n### 有用的统计数据\n\n一些数字可以帮助您评估学校。"
+        },
+        {
+          "chunk_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "text": "# 寻找和申请奖学金 | 联邦学生援助\n\n# 尽可能多地寻找和申请奖学金——这是上大学或职业学校的免费资金！\n\n尽早开始研究，并按时提交申请，你可能会在奖学金申请上取得成功。\n\n奖学金是赠款，无需偿还。有数千种奖学金，由学校、雇主、个人、私营公司、非营利组织、社区、宗教团体以及专业和社会组织提供。\n\n## 有哪些类型的奖学金？\n\n一些大学奖学金是基于成绩的。你通过达到或超过奖学金提供者设定的某些标准来获得它们。成绩奖学金可能基于学业成就或学业与特殊才能、特质或兴趣的结合来授予。其他奖学金则基于经济需求。\n\n许多奖学金面向特定人群；例如，有面向女性或研究生的奖学金。还有一些奖学金是因为你或你父母的工作地点，或者因为你来自某个特定背景（例如，有面向军人家庭的奖学金）。\n\n奖学金可能覆盖你的全部学费，也可能是一次性几百美元的奖励。无论如何，都值得申请，因为它将有助于降低你的教育成本。\n\n## 如何找到奖学金？\n\n你可以通过多种方式了解奖学金，包括联系你计划就读学校的财务援助办公室，以及在公共图书馆或网上查看信息。但要小心。确保你收到的奖学金信息和录取通知是合法的；并记住，你不必付费就能找到奖学金或其他财务援助。查看我们关于如何避免诈骗的信息。\n\n尝试这些免费的奖学金信息来源：\n\n- 大学或职业学校的财务援助办公室\n- 高中或TRIO顾问\n- 美国劳工部的免费奖学金搜索工具\n-\n- 你所在州的助学金机构\n- 你图书馆的参考书区\n- 基金会、宗教或社区组织、当地企业或公民团体\n- 与你兴趣领域相关的组织（包括专业协会）\n- 基于族裔的组织\n- 你的雇主或你父母的雇主\n\n## 我什么时候申请奖学金？\n\n这取决于每个奖学金的截止日期。有些截止日期早在大学开学前一年，所以如果你现在在读高中，你应该在高二和高三之间的暑假研究和申请奖学金。但如果你错过了那个时间窗口，不要放弃！查看奖学金信息，看看现在还有哪些你可以申请。\n\n## 我如何申请奖学金？\n\n每个奖学金都有自己的要求。奖学金的网站应该会告诉你谁有资格获得该奖学金以及如何申请。确保你仔细阅读申请表，完整填写，并在申请截止日期前提交。\n\n## 我如何获得奖学金资金？\n\n这取决于奖学金。资金可能直接支付给你的大学，用于支付你欠下的任何学费、杂费或其他金额，然后剩余的资金会给你。或者可能以支票形式直接寄给你。奖学金提供者在通知你获得奖学金时，应该会告诉你预期情况。如果没有，一定要询问。\n\n## 奖学金如何影响我的其他学生资助？\n\n奖学金会影响你的其他学生资助，因为你所有学生资助加起来不能超过你在大学或职业学校的出勤成本。因此，如果你获得了奖学金，你需要告知你的学校，以便经济援助办公室从你的出勤成本（以及你可能获得的其他某些援助，如贷款）中减去该金额。然后，剩余的任何金额可以由你有资格获得的其他经济援助来覆盖。有问题吗？请咨询你的经济援助办公室。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000",
+          "text": "# Checklists for Academic and Financial Preparation | Federal Student Aid\n\n# Are you a student? A parent? An adult thinking about going back to school? Want to know how to prepare for college or career school?\n\nWe ve provided checklists with the steps you can take to help your (or your child s) chances of getting into and being able to afford the school of your choice.\n\nStudents, college prep is about more than the classes that you take. It s also about developing the skills that will help you succeed in college and life. For instance, as you balance studying and having fun, you ll be practicing time management; and as you save for college, you ll be learning money management. Our checklists suggest these and many other steps you can take, as well as websites you can explore, as you prepare academically and financially for college.\n\nParents, each of the checklists from elementary school through high school includes items for you, such as how to support your child in his or her studies, where to set up a college savings account, and what to do when it s time to apply for financial aid.\n\nAdult students, we ve got an adult student checklist just for you so that you can skip all the information about what classes to take in high school and get straight to exactly what you need.\n\nTry This Resource*College Preparation Checklist* Helps students (elementary, middle, and high school), as well as adults and parents prepare financially and academically for college.\n\n## College Preparation YouTube Playlist\n\nCurious about what college is like? Take a look at the videos in our Prepare for College\" YouTube playlist. The playlist includes such topics as What s the biggest myth about college? and What s the best tip about going to college?\n\nWhat is the Most Surprising Thing About College?\n\n## Checklists\n\nWhether you re a student or parent, years away from college or just about to start, the following checklists will help you get ready.\n\n- Elementary School Checklist: Student and parent checklists that start the student on the road to enjoying learning and point the parent to resources for college savings accounts.\n\n&nbsp;\n\n- Middle School Checklist: Student and parent checklists that get the student thinking about high school and possible careers and encourage the parent to keep an eye on the student s progress.\n\n&nbsp;\n\n- High School Checklist: Student and parent checklists that help the student focus on succeeding academically and learning about financial aid and provide the parent with tips for supporting the student and participating in the financial aid application process.\n  - 9th Grade Checklist\n  - 10th Grade Checklist\n  - 11th Grade Checklist\n  - 12th Grade Checklist\n- Grad School Checklist: Checklist to help individuals get prepared for graduate or professional school.\n- Adult Student Checklist: Checklist for adults applying to college, including those who left high school before graduating, graduated high school, completed some college courses, or may be in the workforce.\n- Getting a Late Start? Last-minute Checklist: Checklist for anyone who has been accepted at a college and is starting classes soon but hasn t applied for financial aid yet."
+        },
+        {
+          "chunk_id": "Preparing for College | Federal Student Aid#1_0::c0000",
+          "text": "# 为大学做准备 | 联邦学生援助\n\n# 为大学做准备\n\n通过明确你的目标和兴趣、了解大学费用以及做好财务和学业规划，开始为大学做准备。\n\n- 为大学做准备——比你想象的要简单\n- 了解上大学或职业学院的理由\n- 探索你的职业选择\n- 帮助你在财务和学业上做好准备的清单\n- 选择学校\n- 学习预算管理\n- 学生家长资源\n\n## 为大学做准备——比你想象的要简单\n\n分享链接\n\n正在考虑上大学、职业学院或研究生院？为大学做准备需要考虑的事情太多了：去哪里、学什么、如何申请、如何支付所有费用等等。\n\n探索大学或职业学院的选择永远不会太早或太晚。我们将逐步介绍为大学做准备的一些关键步骤，并提供沿途可以帮助你的资源。你需要花时间研究和了解你的选择，但你不必独自完成。我们在这里帮助学生做出明智的决定，并找出他们需要做什么！\n\n### 资源\n\n大学准备清单\n\n查看PDF\n\n## 了解上大学或职业学院的理由\n\n分享链接\n\n这是一个简单的等式：大学或职业学院教育 = 更多的钱、更多的工作选择和更多的自由。正如你从下面的图表中看到的，随着你获得更多教育，你会赚更多的钱。\n\n查看*为什么上大学或职业学院*信息图的易访问版本\n\n大学教育是一项长期投资。通过仔细规划，你可以找到最适合你情况的学校和资助选项，并让你走上成功之路。\n\n## 探索你的职业选择\n\n分享链接\n\n大学或职业学院教育可以为你提供追求真正感兴趣的职业所需的技能。喜欢和动物打交道吗？或者对电脑感兴趣？寻找与你兴趣相符的可能职业。\n\n## 帮助你在财务和学业上做好准备的清单\n\n分享链接\n\n无论你现在是高中生、小学生、初中生、已辍学，还是从未完成学业，都有许多步骤可以帮助你为上大学做好准备。我们的清单将引导你完成寻找并进入适合你的大学或职业学院，以及学习如何做好财务准备的步骤。现在就查看我们的清单吧！\n\n## 选择学校\n\n分享链接\n\n你有多种大学选择，从两年制社区学院和初级学院，到四年制学院和大学，再到技术、职业和贸易学校。获取关于选择学校时需要考虑的事项的建议，并使用我们的免费大学搜索工具来找到符合你兴趣、职业目标和财务状况的学校。\n\n## 学习预算管理\n\n分享链接\n\n了解什么是预算，以及它如何帮助你在大学期间和毕业后保持目标不偏离轨道。\n\n## 学生家长资源\n\n你是一位为孩子高等教育做规划的家长吗？查看我们为家长准备的资源，了解更多关于尽早储蓄、寻找税收减免以及了解家长贷款的信息，以支持你孩子的大学之旅。"
+        },
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 我如何降低大学费用？]\n以下是一些关于如何降低大学费用的建议。对于许多建议，你可能需要向你感兴趣的大学或职业学校咨询以获取更多详细信息。\n\n- 制定预算并坚持执行！制定预算将帮助你比较预期的大学或职业学校开支与潜在的可支配收入和财政援助。你也可以使用预算来比较不同学校之间的费用。了解如何制定预算。\n\n&nbsp;\n\n- 大学或职业学校的费用可能差异很大，而且有许多学校提供负担得起的学费和慷慨的财政援助。确保研究所有可能满足你学术和经济需求的学校。要查找大学或职业学校，请使用我们的大学搜索工具 *College Navigator*。\n\n&nbsp;\n\n- 你可能能够根据你的知识或生活经历获得学校学分，并且你可以管理你的课程作业以降低成本。\n  - 询问你的学校是否有可能免修某些课程。如果你不修课程，你可能不必支付这些学分。\n  - 一些大学会为生活经历提供学分，从而减少毕业所需的学分数。\n  - 大多数学校对一学期内修读的特定学分数收取固定费用。如果学业上可行，请修读允许的最大学分数。这一策略减少了毕业所需的时间。\n  - 一些学校提供联合学位课程或三年制课程，允许你在三年内修完毕业所需的所有课程，而不是四年，从而省去一年的教育费用。\n\n&nbsp;\n\n- 大学和职业学校可能会提供学费折扣，如果\n  - 你是校友的子女（即，如果你的父母曾就读于该校）；\n  - 多个家庭成员在同一所学校就读；\n  - 你是学生会领袖或大学报纸或年鉴的编辑；\n  - 你是年龄较大的学生；\n  - 你家庭的主要收入来源者失业；或\n  - 你或你的家庭成员在该校工作。\n\n&nbsp;\n\n- 住房费用可能会增加。以下是一些降低住房费用的建议：\n  - 如果你就读的大学或职业学校离家近，考虑与父母或其他家人同住。\n\n&nbsp;\n\n- 如果你住在校外，考虑与多位室友合租房屋或公寓以降低租金成本，并拼车以节省油费和停车费。\n  - 大多数学院和大学提供宿舍助理项目，如果你在宿舍楼工作，可以获得学费减免或食宿费用减免。\n- 你可能符合享受医疗保健福利的资格，包括以下内容：\n  - 大多数年轻人可以留在父母的家庭计划中直到年满26岁，即使他们已经结婚或仍与父母同住。\n  - 如果你因已有病症而一直没有保险，你可能符合加入已有病症保险计划的资格。\n  - 如果你加入新的保险计划，保险公司不能就推荐或预防性服务（如流感疫苗或其他免疫接种）向你收取免赔额或共付额。\n- 你可以兼职工作以支付部分费用。确保你的工作和学校时间表不冲突，并且你有足够的时间学习。以下是一些选择：\n  - 联邦勤工俭学计划提供了上学期间赚钱的机会。询问学校是否参与该计划。\n  - 合作教育项目允许学生交替进行全职工作和全日制学习。\n  - 大多数学校设有就业办公室，帮助学生找工作，以及人事办公室，雇用学生在校园内工作。\n- 积少成多。例如，如果你购买二手书或租用教科书（如果你完成课程后不再需要这些书），你可以降低教科书成本。\n\n如果你明智地使用信用卡，它可以帮助你建立信用记录。但只应在紧急情况下使用，并且不要花费超过你负担得起的金额。如果你决定办理信用卡，请确保你了解相关条款。"
+        },
+        {
+          "chunk_id": "Choosing a School | Federal Student Aid#1_0::c0002",
+          "text": "[不确定哪所学院或职业学校适合你？ > 比较学校时我应该考虑什么？]\n在研究学院和职业学校时，要考虑成本、地点、认证等因素。\n\n要查找此页面上列出的特定学校的信息，请查看学校网站或使用美国教育部的大学搜索工具 *College Navigator* 搜索该学校。\n\n### 学校费用与净价\n\n- 学校费用可能是选择潜在学院或职业学校时最重要的因素之一，且各校费用差异可能很大。了解大学费用包含哪些内容以及降低大学费用的方法。\n- 任何参与联邦学生资助项目的学校都必须提供其出勤费用信息，并在其网站上提供净价计算器。搜索学校的净价计算器很容易。该计算器将让您了解扣除任何经济资助后，某个项目可能花费多少。\n- 您可以使用 *College Scorecard* 查询费用并评估大学的价值。\n\n### 经济资助\n\n- 许多学生担心学费和继续教育的其他费用会超出承受能力。但不要让潜在的费用阻止您。大多数学生都会获得某种形式的经济资助，少数学生甚至能获得全额资助，所有费用都被覆盖。您应该了解经济资助，包括助学金、奖学金、勤工助学和贷款。\n- 始终申请您可能符合资格的所有类型的资助，并赶上所有截止日期！\n- 制定和管理预算是跟踪您的收入和支出并为您的目标储蓄的一种方式。\n\n### 入学要求\n\n- 不同学校有不同的入学要求。通过访问学校网站或咨询其招生办公室，确切了解学校的要求。\n- 许多美国大学要求学生在申请材料中提交标准化考试成绩。对于大多数本科项目，您需要参加 SAT 或 ACT 考试。\n\n### 认证\n\n- 经认证的学校符合独立机构设定的某些标准。这有助于确保您获得的培训或教育符合特定领域雇主的标准。如果您就读的学校未经认证，您可能无法获得任何经济资助。\n- 使用我们的认证搜索页面来检查特定学校的标准，或查找特定领域或地点的经认证学校。\n\n文凭工厂是一所未经认证的学校（或声称是学校的企业），它颁发学位时不要求达到大学水平标准的课程作业。有些学校只要您付费，甚至不需要您做任何工作就会寄送文凭。其他学校布置的课程作业非常容易，以至于您获得的学位与经认证学校的学位相比毫无价值，并且无法帮助您找到好工作。了解更多关于文凭工厂以及如何避免它们的信息。\n\n### 入学合同\n\n- 在签署任何学校入学合同之前，请仔细阅读。合同说明了学校将为您提供的服务以换取您的金钱。\n- 如果学校代表向您承诺了合同中未包含的内容（例如帮助找工作），请要求该代表将该承诺写入合同，并签署和注明日期。承诺通常只有在书面形式下才可执行。\n\n### 退款政策\n\n- 了解学校的学费退款政策。如果您已注册但从未开始上课，您应该获得大部分退款。如果您开始上课但在完成课程之前离开，您可能能够获得部分退款。\n- 还要了解学校的资助返还政策。如果您获得联邦学生资助（联邦勤工助学除外）并退学，您或您的学校可能需要将部分资金返还给资助来源。\n- 即使您未完成课程，您仍需偿还所收到的贷款资金，减去您的学校已返还给美国教育部的任何学生贷款资金。了解更多关于偿还联邦学生贷款的信息。\n\n### 过往投诉与声誉\n\n- 学校参与联邦学生资助项目并不意味着我们认可其提供的教育质量。\n- 要了解是否有关于学校的投诉，请联系您当地的商业改进局、州高等教育机构或州总检察长办公室的消费者保护部门。向许可或认证学校的机构查询，以了解其是否符合要求的标准。\n\n### 有用的统计数据\n\n一些数字可以帮助您评估学校。"
+        },
+        {
+          "chunk_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "text": "# 寻找和申请奖学金 | 联邦学生援助\n\n# 尽可能多地寻找和申请奖学金——这是上大学或职业学校的免费资金！\n\n尽早开始研究，并按时提交申请，你可能会在奖学金申请上取得成功。\n\n奖学金是赠款，无需偿还。有数千种奖学金，由学校、雇主、个人、私营公司、非营利组织、社区、宗教团体以及专业和社会组织提供。\n\n## 有哪些类型的奖学金？\n\n一些大学奖学金是基于成绩的。你通过达到或超过奖学金提供者设定的某些标准来获得它们。成绩奖学金可能基于学业成就或学业与特殊才能、特质或兴趣的结合来授予。其他奖学金则基于经济需求。\n\n许多奖学金面向特定人群；例如，有面向女性或研究生的奖学金。还有一些奖学金是因为你或你父母的工作地点，或者因为你来自某个特定背景（例如，有面向军人家庭的奖学金）。\n\n奖学金可能覆盖你的全部学费，也可能是一次性几百美元的奖励。无论如何，都值得申请，因为它将有助于降低你的教育成本。\n\n## 如何找到奖学金？\n\n你可以通过多种方式了解奖学金，包括联系你计划就读学校的财务援助办公室，以及在公共图书馆或网上查看信息。但要小心。确保你收到的奖学金信息和录取通知是合法的；并记住，你不必付费就能找到奖学金或其他财务援助。查看我们关于如何避免诈骗的信息。\n\n尝试这些免费的奖学金信息来源：\n\n- 大学或职业学校的财务援助办公室\n- 高中或TRIO顾问\n- 美国劳工部的免费奖学金搜索工具\n-\n- 你所在州的助学金机构\n- 你图书馆的参考书区\n- 基金会、宗教或社区组织、当地企业或公民团体\n- 与你兴趣领域相关的组织（包括专业协会）\n- 基于族裔的组织\n- 你的雇主或你父母的雇主\n\n## 我什么时候申请奖学金？\n\n这取决于每个奖学金的截止日期。有些截止日期早在大学开学前一年，所以如果你现在在读高中，你应该在高二和高三之间的暑假研究和申请奖学金。但如果你错过了那个时间窗口，不要放弃！查看奖学金信息，看看现在还有哪些你可以申请。\n\n## 我如何申请奖学金？\n\n每个奖学金都有自己的要求。奖学金的网站应该会告诉你谁有资格获得该奖学金以及如何申请。确保你仔细阅读申请表，完整填写，并在申请截止日期前提交。\n\n## 我如何获得奖学金资金？\n\n这取决于奖学金。资金可能直接支付给你的大学，用于支付你欠下的任何学费、杂费或其他金额，然后剩余的资金会给你。或者可能以支票形式直接寄给你。奖学金提供者在通知你获得奖学金时，应该会告诉你预期情况。如果没有，一定要询问。\n\n## 奖学金如何影响我的其他学生资助？\n\n奖学金会影响你的其他学生资助，因为你所有学生资助加起来不能超过你在大学或职业学校的出勤成本。因此，如果你获得了奖学金，你需要告知你的学校，以便经济援助办公室从你的出勤成本（以及你可能获得的其他某些援助，如贷款）中减去该金额。然后，剩余的任何金额可以由你有资格获得的其他经济援助来覆盖。有问题吗？请咨询你的经济援助办公室。"
+        }
+      ],
+      "citations": [],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "根据现有资料，没有找到关于“项目审查”或“审查员具体做什么”的信息。如果您指的是大学准备或联邦学生援助相关的审查流程，请提供更多细节，以便我能给出更准确的回答。",
+          "citations": [],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "eea1c8fb9e914952a3d0b0202160da19",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3823,
+              "completion_tokens": 61,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 61,
+                "prompt_tokens": 3823,
+                "total_tokens": 3884,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3567
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0056378,
+            "accounted_rmb": 0.0056378,
+            "usage_unknown": false,
+            "seconds": 1.3865749835968018,
+            "error": null,
+            "response": {
+              "id": "313af5f6-9256-4c08-8ce0-6a97b0446591",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "d45cd86bf66483aa541f674ff7f86fdb68bf3c23f2a01cc0970fe506ad09ff8c"
+      },
+      "latency_ms": {
+        "queue_wait": 0.06420793943107128,
+        "retrieval": 1565.9853339893743,
+        "generation": 1389.692125027068,
+        "total": 2956.817875034176
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.20433908293489367,
+        "rerank_seconds": 1.3616034160368145,
+        "top1_dense_score": 0.738540530204773,
+        "candidate_ids": [
+          "Preparing for College | Federal Student Aid#1_0::c0000",
+          "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000",
+          "Choosing a School | Federal Student Aid#1_0::c0001",
+          "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "Choosing a School | Federal Student Aid#1_0::c0002",
+          "Accepting Aid | Federal Student Aid#1_0::c0000",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0008",
+          "How Financial Aid Works | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000",
+          "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0::c0001",
+          "Understanding College Costs | Federal Student Aid#1_0::c0001",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0011",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0016",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0013"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 37,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.56596554198768
+      },
+      "raw_citations": [],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "ad2096ae4ee864a7a370a4beefe4ba3bd2065689b12f5b0506e506b6c4f24c59"
+}

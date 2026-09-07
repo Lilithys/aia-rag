@@ -1,0 +1,199 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "495f2553c227c73d90e99dfffee3901d::agent-turn-4",
+    "item_sha256": "6554b4022030710081c98ec117424b6297d695c8439d51d15f600f7f5505fb1e",
+    "result": {
+      "request_id": "9f116592828f47e9807041d3b04aed5c",
+      "session_id": "495f2553c227c73d90e99dfffee3901d",
+      "turn_id": 3,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，您可能不再符合资格。社会保障管理局会定期审查您的残疾状况，以确认您仍然满足残疾定义（即您的状况严重限制基本工作活动，且预计持续至少12个月或导致死亡）。如果您的医疗状况改善到不再显著限制您的工作能力，或者您能够从事其他类型的工作，您的福利可能会被终止。此外，如果您领取某些其他政府福利（如工伤赔偿或公共残疾福利），您的社会保障残疾福利金额也可能被减少。",
+        "citations": [
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "text": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n## 福利规划器：残疾 \\| 您已获批\n\n### 您的福利何时开始\n\n如果您的申请获批，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个整月支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将支付2018年12月，即残疾的第六个整月。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应得的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您的每月残疾福利金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于不受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项保险，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您想要这项保险，您需要每月支付保费。\n\n大多数人都同时拥有Medicare的A部分和B部分。如果您对这些保障有疑问，可以拨打Medicare的免费电话**1-800-MEDICARE**（1-800-633-4227）与Medicare客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### Medicare的其他部分\n\nMedicare Advantage（C部分）。拥有Medicare A部分和B部分的人可以选择通过私人公司提供且经Medicare批准的计划来获得所有医疗服务。如需更多信息，我们建议您阅读Medicare的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读Medicare的页面。\n\n如果您享受Medicare但资源和收入有限，您可能有资格获得Medicare处方药计划费用的额外帮助。\n\n### 针对低收入Medicare受益人的帮助\n\n如果您享受Medicare且收入低、资源少，您的州可能会支付您的Medicare保费，在某些情况下，还会支付您通常需要承担的其他Medicare费用，如免赔额和共付额。\n\n只有您的州才能决定您是否有资格获得此项援助。要了解您是否符合条件，请联系您所在州或地方的福利办公室或Medicaid机构。\n\n有关该计划的更多信息，请访问Medicare的页面。\n\n如果您需要有关Medicare其他部分的更多信息，请阅读我们Medicare手册中的“谁能获得Medicare？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 当您获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 2. 您的状况是否“严重”？]\n您的状况必须显著限制您从事基本工作的能力，如提举、站立、行走、坐立和记忆，且至少持续12个月。如果不是，我们将认定您不残疾。\n\n如果您的状况确实干扰了与工作相关的基本活动，我们将进入第3步。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0013",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 如果成年子女已经根据其自身记录领取SSI福利或残疾福利怎么办？]\n已经根据自身记录领取SSI福利或残疾福利的成年子女仍应检查是否可以根据父母的收入记录领取福利。可能可以领取更高的福利，并且可能有权享受Medicare。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 特殊情况]\n大多数领取残疾福利的人是依据自身记录符合资格并满足我们刚才所述的工作和残疾要求的工人。然而，有些情况您可能不知道：\n\n- 如果您失明或视力低下 - 我们能如何帮助\n- 如果您是工人的遗孀或鳏夫\n- 残疾儿童福利\n- 受伤战士与退伍军人福利"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 5. 您能否从事任何其他类型的工作？]\n如果您无法从事过去的工作，我们会查看是否有其他您尽管有损伤但仍能从事的工作。\n\n我们会考虑您的医疗状况以及您的年龄、教育背景、过去的工作经验以及您可能拥有的任何可转移技能。如果您无法从事其他工作，我们将决定您残疾。如果您能从事其他工作，我们将决定您没有符合条件的残疾，您的索赔将被拒绝。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "text": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n## 福利规划器：残疾 \\| 您已获批\n\n### 您的福利何时开始\n\n如果您的申请获批，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个整月支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将支付2018年12月，即残疾的第六个整月。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应得的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您的每月残疾福利金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于不受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项保险，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您想要这项保险，您需要每月支付保费。\n\n大多数人都同时拥有Medicare的A部分和B部分。如果您对这些保障有疑问，可以拨打Medicare的免费电话**1-800-MEDICARE**（1-800-633-4227）与Medicare客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### Medicare的其他部分\n\nMedicare Advantage（C部分）。拥有Medicare A部分和B部分的人可以选择通过私人公司提供且经Medicare批准的计划来获得所有医疗服务。如需更多信息，我们建议您阅读Medicare的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读Medicare的页面。\n\n如果您享受Medicare但资源和收入有限，您可能有资格获得Medicare处方药计划费用的额外帮助。\n\n### 针对低收入Medicare受益人的帮助\n\n如果您享受Medicare且收入低、资源少，您的州可能会支付您的Medicare保费，在某些情况下，还会支付您通常需要承担的其他Medicare费用，如免赔额和共付额。\n\n只有您的州才能决定您是否有资格获得此项援助。要了解您是否符合条件，请联系您所在州或地方的福利办公室或Medicaid机构。\n\n有关该计划的更多信息，请访问Medicare的页面。\n\n如果您需要有关Medicare其他部分的更多信息，请阅读我们Medicare手册中的“谁能获得Medicare？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 当您获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 2. 您的状况是否“严重”？]\n您的状况必须显著限制您从事基本工作的能力，如提举、站立、行走、坐立和记忆，且至少持续12个月。如果不是，我们将认定您不残疾。\n\n如果您的状况确实干扰了与工作相关的基本活动，我们将进入第3步。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0013",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 如果成年子女已经根据其自身记录领取SSI福利或残疾福利怎么办？]\n已经根据自身记录领取SSI福利或残疾福利的成年子女仍应检查是否可以根据父母的收入记录领取福利。可能可以领取更高的福利，并且可能有权享受Medicare。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 特殊情况]\n大多数领取残疾福利的人是依据自身记录符合资格并满足我们刚才所述的工作和残疾要求的工人。然而，有些情况您可能不知道：\n\n- 如果您失明或视力低下 - 我们能如何帮助\n- 如果您是工人的遗孀或鳏夫\n- 残疾儿童福利\n- 受伤战士与退伍军人福利"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 5. 您能否从事任何其他类型的工作？]\n如果您无法从事过去的工作，我们会查看是否有其他您尽管有损伤但仍能从事的工作。\n\n我们会考虑您的医疗状况以及您的年龄、教育背景、过去的工作经验以及您可能拥有的任何可转移技能。如果您无法从事其他工作，我们将决定您残疾。如果您能从事其他工作，我们将决定您没有符合条件的残疾，您的索赔将被拒绝。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "document": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+          "heading": [
+            "福利规划：残疾 | 您如何符合资格 | 社会保障管理局",
+            "2. 您的状况是否“严重”？"
+          ],
+          "source_file": "ssa_022.md",
+          "excerpt": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 2. 您的状况是否“严重”？]\n您的状况必须显著限制您从事基本工作的能力，如提举、站立、行走、坐立和记忆，且至少持续12个月。如果不是，我们将认定您不残疾。\n\n如果您的状况确实干扰了与工作相关的基本活动，我们将进入第3步。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "document": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+          "heading": [
+            "福利规划：残疾 | 您如何符合资格 | 社会保障管理局",
+            "5. 您能否从事任何其他类型的工作？"
+          ],
+          "source_file": "ssa_022.md",
+          "excerpt": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 5. 您能否从事任何其他类型的工作？]\n如果您无法从事过去的工作，我们会查看是否有其他您尽管有损伤但仍能从事的工作。\n\n我们会考虑您的医疗状况以及您的年龄、教育背景、过去的工作经验以及您可能拥有的任何可转移技能。如果您无法从事其他工作，我们将决定您残疾。如果您能从事其他工作，我们将决定您没有符合条件的残疾，您的索赔将被拒绝。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "document": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0",
+          "heading": [],
+          "source_file": "ssa_013.md",
+          "excerpt": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n## 福利规划器：残疾 \\| 您已获批\n\n### 您的福利何时开始\n\n如果您的申请获批，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个整月支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将支付2018年12月，即残疾的第六个整月。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应得的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您的每月残疾福利金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于不受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项保险，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您想要这项保险，您需要每月支付保费。\n\n大多数人都同时拥有Medicare的A部分和B部分。如果您对这些保障有疑问，可以拨打Medicare的免费电话**1-800-MEDICARE**（1-800-633-4227）与Medicare客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### Medicare的其他部分\n\nMedicare Advantage（C部分）。拥有Medicare A部分和B部分的人可以选择通过私人公司提供且经Medicare批准的计划来获得所有医疗服务。如需更多信息，我们建议您阅读Medicare的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读Medicare的页面。\n\n如果您享受Medicare但资源和收入有限，您可能有资格获得Medicare处方药计划费用的额外帮助。\n\n### 针对低收入Medicare受益人的帮助\n\n如果您享受Medicare且收入低、资源少，您的州可能会支付您的Medicare保费，在某些情况下，还会支付您通常需要承担的其他Medicare费用，如免赔额和共付额。\n\n只有您的州才能决定您是否有资格获得此项援助。要了解您是否符合条件，请联系您所在州或地方的福利办公室或Medicaid机构。\n\n有关该计划的更多信息，请访问Medicare的页面。\n\n如果您需要有关Medicare其他部分的更多信息，请阅读我们Medicare手册中的“谁能获得Medicare？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 当您获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，您可能不再符合资格。社会保障管理局会定期审查您的残疾状况，以确认您仍然满足残疾定义（即您的状况严重限制基本工作活动，且预计持续至少12个月或导致死亡）。如果您的医疗状况改善到不再显著限制您的工作能力，或者您能够从事其他类型的工作，您的福利可能会被终止。此外，如果您领取某些其他政府福利（如工伤赔偿或公共残疾福利），您的社会保障残疾福利金额也可能被减少。",
+          "citations": [
+            "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+            "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+            "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "d9d96e7590c24ec3bc8c2881719055bf",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1539,
+              "completion_tokens": 179,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 179,
+                "prompt_tokens": 1539,
+                "total_tokens": 1718,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1283
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0027428,
+            "accounted_rmb": 0.0027428,
+            "usage_unknown": false,
+            "seconds": 2.0240859985351562,
+            "error": null,
+            "response": {
+              "id": "d53ebc0b-533e-4761-b813-a89904a69738",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "9af901b134213363d72481ded18bcd1da072c177c442711123c7185e0033b3e5"
+      },
+      "latency_ms": {
+        "queue_wait": 0.006125075742602348,
+        "retrieval": 805.9786249650642,
+        "generation": 2025.2005830407143,
+        "total": 2831.586915999651
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.08954137493856251,
+        "rerank_seconds": 0.7163923330372199,
+        "top1_dense_score": 0.7707398533821106,
+        "candidate_ids": [
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "Disability Benefits | Social Security Administration#1_0::c0009",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0001",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0011",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0002",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0006",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0003",
+          "Benefits Planner: Disability | Approval Process | Social Security Administration#2_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0037",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0015",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0001",
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0::c0002",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0013",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0005",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0001",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 25,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.8059549999888986
+      },
+      "raw_citations": [
+        "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+        "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+        "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "ed581b094d10e22f41c5055e11463e8e9654db3225f3ace3a016f9f10882f28f"
+}

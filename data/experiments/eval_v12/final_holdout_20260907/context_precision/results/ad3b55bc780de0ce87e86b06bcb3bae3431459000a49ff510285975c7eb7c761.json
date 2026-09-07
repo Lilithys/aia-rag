@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "ad3b55bc780de0ce87e86b06bcb3bae3431459000a49ff510285975c7eb7c761",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.0,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context only mentions that if the user is enrolled in VA health care, they can learn how to receive care through community care. It does not provide any information about the sources used to verify eligibility, such as IRS and SSA. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d691e0097d0647f68d23da1a1199ef85",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1175,
+                "completion_tokens": 76,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 76,
+                  "prompt_tokens": 1175,
+                  "total_tokens": 1251,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 407
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009909,
+              "accounted_rmb": 0.0009909,
+              "usage_unknown": false,
+              "seconds": 1.2242276668548584,
+              "error": null,
+              "response": {
+                "id": "ce89024b-7afb-40ed-8f31-66f81b81ea06",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "32e034c77bff2136e57fa4172e6e28aa6635a1973b02eae5737e115137eccd30"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA healthcare services but does not mention the source of information for eligibility matching, which is what the question asks. The answer about IRS and SSA is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "14ab152ed8334707afe87add328ef3e6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1230,
+                "completion_tokens": 57,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 1230,
+                  "total_tokens": 1287,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 462
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009878999999999999,
+              "accounted_rmb": 0.0009878999999999999,
+              "usage_unknown": false,
+              "seconds": 1.226797103881836,
+              "error": null,
+              "response": {
+                "id": "4471a78c-2afe-4414-affa-df27480f805c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4ef9bd749432a6623ee1f3fa0030659281742a5e249ab166b5b896eef851e1b9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses how to get help with VA health care applications, but the answer is about how VA verifies eligibility using IRS and SSA data, which is not mentioned in the context. Therefore, the context was not useful.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f05eb166731f40ef8cf216c21f5559a7",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1239,
+                "completion_tokens": 61,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 61,
+                  "prompt_tokens": 1239,
+                  "total_tokens": 1300,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 215
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006482,
+              "accounted_rmb": 0.0006482,
+              "usage_unknown": false,
+              "seconds": 1.4509429931640625,
+              "error": null,
+              "response": {
+                "id": "85e3804e-9104-4835-99db-301412b9a7a9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0440a47bf4d24d2f78f9754e8d63a95cbe0c4c5c7efea8a4c59fd46071c19480"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA benefits and healthcare, but it does not contain specific details about the sources used to verify eligibility for VA healthcare, such as IRS and SSA. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "849c15924f814ba2a8136d1ba388195f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1805,
+                "completion_tokens": 65,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 1805,
+                  "total_tokens": 1870,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 781
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015152,
+              "accounted_rmb": 0.0015152,
+              "usage_unknown": false,
+              "seconds": 1.4625589847564697,
+              "error": null,
+              "response": {
+                "id": "ca4a49a6-8ed4-4337-98f1-9e9bcd2bf6a5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e8dccd2b8d31d38da63c4e4d41859a977c025d67a83c066e91f9c979112dc2bb"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provided is about VA facility information and quality of care, which does not contain details about the sources used to verify eligibility for VA healthcare. The answer mentions IRS and SSA, which are not mentioned in the context. Therefore, the context was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e84ebf27e59a433e9522fdd10e4f2dfc",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1180,
+                "completion_tokens": 73,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 73,
+                  "prompt_tokens": 1180,
+                  "total_tokens": 1253,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 156
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006137,
+              "accounted_rmb": 0.0006137,
+              "usage_unknown": false,
+              "seconds": 1.2416598796844482,
+              "error": null,
+              "response": {
+                "id": "52c9aae1-bd4c-4dcf-aaf8-0157322c2d36",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "004be1ddf22c1968ec4dabf6ff61fbfe2f5c0e6be2a058c813c1e26cbdd5dd68"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "ff7cba1490d38b9506413bfc47848871bcf38cd2d63067e86135f1c1f82c4421"
+}

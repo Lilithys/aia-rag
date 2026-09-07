@@ -1,0 +1,22 @@
+{
+  "policy_version": "execution-scope-2026-09-06",
+  "authority": "User explicitly declined human blind review and requested original dataset verification.",
+  "human_blind_review_required": false,
+  "human_review_status": "declined_optional_archive",
+  "independent_human_review": false,
+  "independent_calibration_complete": false,
+  "evaluation_basis": "Frozen v1.1 case rubric, original annotation lineage and retrieved evidence; automated judge with disclosed limitations.",
+  "official_multidoc2dial_benchmark_score": false,
+  "changes_to_frozen_data_or_scoring_criteria": false,
+  "supersedes": "Human review as an execution/delivery prerequisite in earlier working plans; preserves historical and frozen records.",
+  "source_audit_sha256": "5924228f5fd7549aeef91b9c151cd71eaaac7ed5b45b05f8348e092709a565b6",
+  "source_case_excerpts_sha256": "4f3f5ca2faa00121156b37704ecfbb2a8fea82a17bdbe9c70867758326dfb4d7",
+  "release_manifest_sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3",
+  "source_items": 90,
+  "agent_authored_items": 10,
+  "rewritten_reference_answers": 64,
+  "adapted_categories": 21,
+  "holdout_generation_or_judging": false,
+  "new_paid_calls": 0,
+  "new_api_cost_rmb": 0
+}

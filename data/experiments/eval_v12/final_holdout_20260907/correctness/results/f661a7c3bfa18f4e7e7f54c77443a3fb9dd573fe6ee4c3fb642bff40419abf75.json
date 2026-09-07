@@ -1,0 +1,74 @@
+{
+  "payload": {
+    "task_id": "f661a7c3bfa18f4e7e7f54c77443a3fb9dd573fe6ee4c3fb642bff40419abf75",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "clarify",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [],
+            "reason": "The response appropriately clarifies eligibility by outlining general conditions and requesting the user's specific status, matching the clarify task without assuming unknown personal details."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d4b66dea38bb4388b45529d7bc123fa6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4433,
+                "completion_tokens": 65,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 4433,
+                  "total_tokens": 4498,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3537
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0056428,
+              "accounted_rmb": 0.0056428,
+              "usage_unknown": false,
+              "seconds": 1.3661952018737793,
+              "error": null,
+              "response": {
+                "id": "78200a11-c986-4aa0-a4fe-66e41fd65173",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3f6d2ecc6919a28a45a49822616b7a8fbbf0e0a665b630e8be597dd66cd65b81"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "clarify",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [],
+        "reason": "The response appropriately clarifies eligibility by outlining general conditions and requesting the user's specific status, matching the clarify task without assuming unknown personal details."
+      }
+    }
+  },
+  "sha256": "8b149c05509e74868109d336cb73594af105a5cd7c1c4d382ee466ced5b58cc8"
+}

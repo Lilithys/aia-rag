@@ -1,0 +1,191 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "1a31cbb12bedaf6bfcef7250d7e81c60::agent-turn-12",
+    "item_sha256": "0a56a5009d13655b7ffca6114cb5acbe3a79a16e4d1de34467065c0666624e2d",
+    "result": {
+      "request_id": "d0314e9cfb5a4b9991938b7bf87e0d17",
+      "session_id": "1a31cbb12bedaf6bfcef7250d7e81c60",
+      "turn_id": 11,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "残疾福利（Disability Benefits）是社会保障管理局（Social Security Administration）为因残疾而无法工作的人提供的经济支持。您可以在线申请、通过电话（1-800-772-1213）或亲自前往当地社会保障办公室申请。如果您不住在美国或其领土，可以联系最近的美国社会保障办公室、美国大使馆或领事馆。申请后，我们会审查您的申请，并可能通过电话或邮件联系您以获取更多信息。",
+        "citations": [
+          "Disability Benefits | Social Security Administration#1_0::c0010",
+          "Disability Benefits | Social Security Administration#1_0::c0009"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0007",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 邮寄您的文件]\n如果您将任何文件邮寄给我们，您必须附上社会安全号码，以便我们将其与正确的申请匹配。不要在原始文件上写任何内容。请将社会安全号码写在一张单独的纸上，并将其与文件一起放入邮寄信封中。\n\n如果您不想邮寄这些文件，您可以将其带到社会保障办公室。不要邮寄外国出生记录或国土安全部（DHS）（原移民和归化局（INS））的任何文件，尤其是那些要求您随时随身携带的文件。这些文件如果丢失，更换起来极其困难、耗时且昂贵。有些甚至无法更换。相反，请将它们带到社会保障办公室，我们将检查并退还给您。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0010",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我还可以通过哪些其他方式申请？]\n您还可以通过以下方式申请：\n\n- 电话：周一至周五上午7点至下午7点，拨打1-800-772-1213联系我们。如果您失聪或有听力障碍，可以拨打TTY 1-800-325-0778联系我们。\n- 亲自前往：访问您当地的社会保障办公室。（请先致电预约。）\n\n如果您不住在美国或其领土，您也可以联系最近的美国社会保障办公室、美国大使馆或领事馆。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#2_0::c0006",
+          "text": "[Disability Benefits | Social Security Administration > Mailing Your Documents]\nIf you mail any documents to us, you must include the Social Security number so that we can match them with the correct application. Do not write anything on the original documents. Please write the Social Security number on a separate sheet of paper and include it in the mailing envelope along with the documents.\n\nIf you do not want to mail these documents, you may bring them to a Social Security office. Do not mail foreign birth records or any documents from the Department of Homeland Security (DHS), formerly the Immigration and Naturalization Service (INS), especially those you are required to keep with you at all times. These documents are extremely difficult, time-consuming and expensive to replace if lost. Some cannot be replaced. Instead, bring them to a Social Security office where we will examine them and return them to you.\n\nWhat are the advantages of applying using our online disability application process?\n\nOur online disability application process offers several advantages. You can:\n\n- Start your disability claim immediately. There is no need to wait for an appointment.\n\n- Apply from the convenience of your own home or on any computer.\n\n- Stop and return to your saved application before submission.\n\n- Avoid trips to a Social Security office.\n\n- Complete the process online even if you live outside the United States.\n\nWhat happens after I apply?\n\nAfter we receive your online application, we will:\n\n- Provide confirmation of your application- either electronically or by mail.\n\n- Review the application.\n\n- Contact you by telephone or by mail if we need more information or documentation.\n\n- Inform you if other family members may be able to receive benefits on your record, or if you may be able to receive benefits on another person s record, such as your spouse or your parent.\n\n- Process your application.\n\n- Mail our decision to you.\n\nWhat other ways can I apply?\n\nYou can also apply:\n\n- By phone - Call us at 1-800-772-1213 from 7 a.m. to 7 p.m. Monday through Friday. If you are deaf or hard of hearing, you can call us at TTY 1-800-325-0778.\n\n- In person - Visit your local Social Security office. (Call first to make an appointment.)\n\nIf you do not live in the U.S. or one of its territories you can also contact the nearest U.S. Social Security office, U.S. Embassy or consulate."
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0009",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 申请后会发生什么？]\n在我们收到您的在线申请后，我们将：\n\n- 提供申请确认——无论是电子方式还是邮寄方式。\n- 审查申请。\n- 如果我们需要更多信息或文件，将通过电话或邮件与您联系。\n- 告知您其他家庭成员是否可能根据您的记录获得福利，或者您是否可能根据他人的记录（如您的配偶或父母）获得福利。\n- 处理您的申请。\n- 将我们的决定邮寄给您。"
+        },
+        {
+          "chunk_id": "How To Apply For Social Security Disability Benefits#3_0::c0000",
+          "text": "# How To Apply For Social Security Disability Benefits\n\n### When To Apply\n\nYou should apply as soon as you become disabled. If you apply for\n\n- Social Security, disability benefits will not begin until the sixth full month of disability. The Social Security disability waiting period begins with the first full month after the date we decide your disability began.\n- Supplemental Security Income (SSI), we pay SSI disability benefits for the first full month after the date you filed your claim, or, if later, the date you become eligible for SSI.\n\n### How To Apply\n\nYou can apply for Disability benefits online, or if you prefer, you can apply by calling our toll-free number, 1-800-772-1213. Our representatives there can make an appointment for your application to be taken over the telephone or at any convenient Social Security office.\n\nPeople who are deaf or hard of hearing may call our toll-free \"TTY\" number, 1-800-325-0778, between 7 a.m. and 7 p.m. on Monday through Friday.\n\n### Some publications that will give you more information on disability benefits.\n\nThe Disability Starter Kit will help you get ready for your disability interview or online application. Kits are available for adults and for children under age 18.\n\nThe starter kits provide information about the specific documents and the information that we will request from you.\n\nThe kits also provide general information about the disability programs and our decision-making process that can help take some of the mystery out of applying for disability benefits.\n\nHere are some additional publications with information on disability benefits:\n\n- Disability Evaluation Under Social Security (Also known as The Blue Book) - Medical criteria for evaluating Social Security disability claims\n- Social Security Disability Benefits\n- Benefits For Children With Disabilities\n- What You Need To Know When You Get Disability Benefits\n- Working While Disabled...How We Can Help\n- Medicare\n- Receiving Your Benefits By Direct Deposit\n- Social Security: When You'll Get Your Benefit\n- Disability Planner"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0007",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 邮寄您的文件]\n如果您将任何文件邮寄给我们，您必须附上社会安全号码，以便我们将其与正确的申请匹配。不要在原始文件上写任何内容。请将社会安全号码写在一张单独的纸上，并将其与文件一起放入邮寄信封中。\n\n如果您不想邮寄这些文件，您可以将其带到社会保障办公室。不要邮寄外国出生记录或国土安全部（DHS）（原移民和归化局（INS））的任何文件，尤其是那些要求您随时随身携带的文件。这些文件如果丢失，更换起来极其困难、耗时且昂贵。有些甚至无法更换。相反，请将它们带到社会保障办公室，我们将检查并退还给您。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0010",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我还可以通过哪些其他方式申请？]\n您还可以通过以下方式申请：\n\n- 电话：周一至周五上午7点至下午7点，拨打1-800-772-1213联系我们。如果您失聪或有听力障碍，可以拨打TTY 1-800-325-0778联系我们。\n- 亲自前往：访问您当地的社会保障办公室。（请先致电预约。）\n\n如果您不住在美国或其领土，您也可以联系最近的美国社会保障办公室、美国大使馆或领事馆。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#2_0::c0006",
+          "text": "[Disability Benefits | Social Security Administration > Mailing Your Documents]\nIf you mail any documents to us, you must include the Social Security number so that we can match them with the correct application. Do not write anything on the original documents. Please write the Social Security number on a separate sheet of paper and include it in the mailing envelope along with the documents.\n\nIf you do not want to mail these documents, you may bring them to a Social Security office. Do not mail foreign birth records or any documents from the Department of Homeland Security (DHS), formerly the Immigration and Naturalization Service (INS), especially those you are required to keep with you at all times. These documents are extremely difficult, time-consuming and expensive to replace if lost. Some cannot be replaced. Instead, bring them to a Social Security office where we will examine them and return them to you.\n\nWhat are the advantages of applying using our online disability application process?\n\nOur online disability application process offers several advantages. You can:\n\n- Start your disability claim immediately. There is no need to wait for an appointment.\n\n- Apply from the convenience of your own home or on any computer.\n\n- Stop and return to your saved application before submission.\n\n- Avoid trips to a Social Security office.\n\n- Complete the process online even if you live outside the United States.\n\nWhat happens after I apply?\n\nAfter we receive your online application, we will:\n\n- Provide confirmation of your application- either electronically or by mail.\n\n- Review the application.\n\n- Contact you by telephone or by mail if we need more information or documentation.\n\n- Inform you if other family members may be able to receive benefits on your record, or if you may be able to receive benefits on another person s record, such as your spouse or your parent.\n\n- Process your application.\n\n- Mail our decision to you.\n\nWhat other ways can I apply?\n\nYou can also apply:\n\n- By phone - Call us at 1-800-772-1213 from 7 a.m. to 7 p.m. Monday through Friday. If you are deaf or hard of hearing, you can call us at TTY 1-800-325-0778.\n\n- In person - Visit your local Social Security office. (Call first to make an appointment.)\n\nIf you do not live in the U.S. or one of its territories you can also contact the nearest U.S. Social Security office, U.S. Embassy or consulate."
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0009",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 申请后会发生什么？]\n在我们收到您的在线申请后，我们将：\n\n- 提供申请确认——无论是电子方式还是邮寄方式。\n- 审查申请。\n- 如果我们需要更多信息或文件，将通过电话或邮件与您联系。\n- 告知您其他家庭成员是否可能根据您的记录获得福利，或者您是否可能根据他人的记录（如您的配偶或父母）获得福利。\n- 处理您的申请。\n- 将我们的决定邮寄给您。"
+        },
+        {
+          "chunk_id": "How To Apply For Social Security Disability Benefits#3_0::c0000",
+          "text": "# How To Apply For Social Security Disability Benefits\n\n### When To Apply\n\nYou should apply as soon as you become disabled. If you apply for\n\n- Social Security, disability benefits will not begin until the sixth full month of disability. The Social Security disability waiting period begins with the first full month after the date we decide your disability began.\n- Supplemental Security Income (SSI), we pay SSI disability benefits for the first full month after the date you filed your claim, or, if later, the date you become eligible for SSI.\n\n### How To Apply\n\nYou can apply for Disability benefits online, or if you prefer, you can apply by calling our toll-free number, 1-800-772-1213. Our representatives there can make an appointment for your application to be taken over the telephone or at any convenient Social Security office.\n\nPeople who are deaf or hard of hearing may call our toll-free \"TTY\" number, 1-800-325-0778, between 7 a.m. and 7 p.m. on Monday through Friday.\n\n### Some publications that will give you more information on disability benefits.\n\nThe Disability Starter Kit will help you get ready for your disability interview or online application. Kits are available for adults and for children under age 18.\n\nThe starter kits provide information about the specific documents and the information that we will request from you.\n\nThe kits also provide general information about the disability programs and our decision-making process that can help take some of the mystery out of applying for disability benefits.\n\nHere are some additional publications with information on disability benefits:\n\n- Disability Evaluation Under Social Security (Also known as The Blue Book) - Medical criteria for evaluating Social Security disability claims\n- Social Security Disability Benefits\n- Benefits For Children With Disabilities\n- What You Need To Know When You Get Disability Benefits\n- Working While Disabled...How We Can Help\n- Medicare\n- Receiving Your Benefits By Direct Deposit\n- Social Security: When You'll Get Your Benefit\n- Disability Planner"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0010",
+          "document": "Disability Benefits | Social Security Administration#1_0",
+          "heading": [
+            "残疾福利 | 社会保障管理局",
+            "残疾福利",
+            "我还可以通过哪些其他方式申请？"
+          ],
+          "source_file": "ssa_057.md",
+          "excerpt": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我还可以通过哪些其他方式申请？]\n您还可以通过以下方式申请：\n\n- 电话：周一至周五上午7点至下午7点，拨打1-800-772-1213联系我们。如果您失聪或有听力障碍，可以拨打TTY 1-800-325-0778联系我们。\n- 亲自前往：访问您当地的社会保障办公室。（请先致电预约。）\n\n如果您不住在美国或其领土，您也可以联系最近的美国社会保障办公室、美国大使馆或领事馆。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0009",
+          "document": "Disability Benefits | Social Security Administration#1_0",
+          "heading": [
+            "残疾福利 | 社会保障管理局",
+            "残疾福利",
+            "申请后会发生什么？"
+          ],
+          "source_file": "ssa_057.md",
+          "excerpt": "[残疾福利 | 社会保障管理局 > 残疾福利 > 申请后会发生什么？]\n在我们收到您的在线申请后，我们将：\n\n- 提供申请确认——无论是电子方式还是邮寄方式。\n- 审查申请。\n- 如果我们需要更多信息或文件，将通过电话或邮件与您联系。\n- 告知您其他家庭成员是否可能根据您的记录获得福利，或者您是否可能根据他人的记录（如您的配偶或父母）获得福利。\n- 处理您的申请。\n- 将我们的决定邮寄给您。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "残疾福利（Disability Benefits）是社会保障管理局（Social Security Administration）为因残疾而无法工作的人提供的经济支持。您可以在线申请、通过电话（1-800-772-1213）或亲自前往当地社会保障办公室申请。如果您不住在美国或其领土，可以联系最近的美国社会保障办公室、美国大使馆或领事馆。申请后，我们会审查您的申请，并可能通过电话或邮件联系您以获取更多信息。",
+          "citations": [
+            "Disability Benefits | Social Security Administration#1_0::c0010",
+            "Disability Benefits | Social Security Administration#1_0::c0009"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "2c556c92cda840ad8a70fed3301d87d1",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1847,
+              "completion_tokens": 141,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 141,
+                "prompt_tokens": 1847,
+                "total_tokens": 1988,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1591
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0030338,
+            "accounted_rmb": 0.0030338,
+            "usage_unknown": false,
+            "seconds": 1.6461529731750488,
+            "error": null,
+            "response": {
+              "id": "b26eddaa-958d-457f-83a0-b094727ce7e0",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "38f8d4688776b8651eeee908739d99107c2a098f22d1f0834dcd4d8b4f9fa7ba"
+      },
+      "latency_ms": {
+        "queue_wait": 0.007542083039879799,
+        "retrieval": 1575.2895419718698,
+        "generation": 1647.4676250945777,
+        "total": 3223.109250073321
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.19216333294752985,
+        "rerank_seconds": 1.383074750076048,
+        "top1_dense_score": 0.7426804304122925,
+        "candidate_ids": [
+          "Disability Benefits | Social Security Administration#2_0::c0006",
+          "Apply for Retirement Benefits | SSA#1_0::c0003",
+          "Appeal A Decision | Social Security Administration#2_0::c0000",
+          "Appeal A Decision | Social Security Administration#1_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0010",
+          "Retirement Benefits | Social Security Administration#2_0::c0009",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0007",
+          "Retirement Benefits | Social Security Administration#1_0::c0009",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0010",
+          "Benefits for People with Disabilities#1_0::c0000",
+          "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0005",
+          "How To Apply For Social Security Disability Benefits#1_0::c0000",
+          "How To Apply For Social Security Disability Benefits#3_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0009",
+          "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0005",
+          "Restore license after revocation#1_0::c0015",
+          "Disability Benefits | Social Security Administration#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 40,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.5752749579260126
+      },
+      "raw_citations": [
+        "Disability Benefits | Social Security Administration#1_0::c0010",
+        "Disability Benefits | Social Security Administration#1_0::c0009"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "8bdc81b3061b44305d085b9578dd514ff1cbe5bada38a55024af50285addfd68"
+}

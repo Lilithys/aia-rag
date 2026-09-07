@@ -1,0 +1,15 @@
+{
+  "requested_start_beijing": "2026-09-07T12:00:00+08:00",
+  "first_api_attempt_utc": "2026-09-07T04:00:05.067550+00:00",
+  "start_delay_seconds": 5.06755,
+  "first_model": "deepseek-v4-flash",
+  "state_at_observation": {
+    "phase": "generating",
+    "beijing_time": "2026-09-07T12:01:05.911501+08:00",
+    "planned": 200,
+    "submitted": 59,
+    "successful": 58,
+    "reused_smoke": 40
+  },
+  "pre_noon_dev_calls": 0
+}

@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "81debea3fc62c3342a1387477df1355355c9089cdb0c3ab556d2b18bcf92c895",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Yes, in some cases you can pay by mail.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay suspension termination fee#1_0::c0005"
+                ],
+                "reason": "The context states '在某些情况下，你可以通过邮件支付' which supports the claim."
+              },
+              {
+                "text": "If the suspension termination fee can be paid by mail, you will find instructions on your suspension order.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay suspension termination fee#1_0::c0005"
+                ],
+                "reason": "The context states '如果暂停终止费可以通过邮件支付，你会在暂停令上找到说明' which directly supports this."
+              },
+              {
+                "text": "For definite suspensions, the fee is $50 (or $100 if due to a NYS Zero Tolerance alcohol law violation), unless the order's effective date was before July 6, 2009, in which case it is $25.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay suspension termination fee#1_0::c0001"
+                ],
+                "reason": "The context states the fee is $50, $100 for Zero Tolerance, and $25 if effective date before July 6, 2009, matching the claim."
+              },
+              {
+                "text": "Note that for indefinite suspensions, you must first resolve the underlying issue (e.g., respond to a ticket) before the suspension can be lifted, and you may also owe a termination fee.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay suspension termination fee#1_0::c0002"
+                ],
+                "reason": "The context states '不定期暂停意味着你必须先做某事（如回应交通罚单），暂停才能被解除' and '你可能还需支付暂停终止费' which supports the claim."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b1b757bb501d4b8aadca28df62e6bd8f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1657,
+                "completion_tokens": 444,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 444,
+                  "prompt_tokens": 1657,
+                  "total_tokens": 2101,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1273
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0039267,
+              "accounted_rmb": 0.0039267,
+              "usage_unknown": false,
+              "seconds": 3.1637001037597656,
+              "error": null,
+              "response": {
+                "id": "0ab4e47c-5873-422a-848e-f76b4977d4d8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2019fcbc4a66e7d7045ef07157a2a5777ae00009a210deef26128580997d2a85"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Yes, in some cases you can pay by mail.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay suspension termination fee#1_0::c0005"
+          ],
+          "reason": "The context states '在某些情况下，你可以通过邮件支付' which supports the claim."
+        },
+        {
+          "text": "If the suspension termination fee can be paid by mail, you will find instructions on your suspension order.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay suspension termination fee#1_0::c0005"
+          ],
+          "reason": "The context states '如果暂停终止费可以通过邮件支付，你会在暂停令上找到说明' which directly supports this."
+        },
+        {
+          "text": "For definite suspensions, the fee is $50 (or $100 if due to a NYS Zero Tolerance alcohol law violation), unless the order's effective date was before July 6, 2009, in which case it is $25.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay suspension termination fee#1_0::c0001"
+          ],
+          "reason": "The context states the fee is $50, $100 for Zero Tolerance, and $25 if effective date before July 6, 2009, matching the claim."
+        },
+        {
+          "text": "Note that for indefinite suspensions, you must first resolve the underlying issue (e.g., respond to a ticket) before the suspension can be lifted, and you may also owe a termination fee.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay suspension termination fee#1_0::c0002"
+          ],
+          "reason": "The context states '不定期暂停意味着你必须先做某事（如回应交通罚单），暂停才能被解除' and '你可能还需支付暂停终止费' which supports the claim."
+        }
+      ]
+    }
+  },
+  "sha256": "b812a2b44cf1fa6956e2fbe809952442b279107e574b4270d5d95570480a3f13"
+}

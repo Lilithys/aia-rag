@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "1e6a86efe9cc68010da29c54f74fd5f34b94c2936132000700df502e2a14d12e",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.6388888888675925,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about listing colleges on the FAFSA form and the order requirements, but it does not address the question about providing information about biological or adoptive parents. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c8d90a024e2f4ca5b872a3190549513a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1334,
+                "completion_tokens": 63,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 63,
+                  "prompt_tokens": 1334,
+                  "total_tokens": 1397,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 566
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0011709000000000001,
+              "accounted_rmb": 0.0011709000000000001,
+              "usage_unknown": false,
+              "seconds": 1.297908067703247,
+              "error": null,
+              "response": {
+                "id": "cc15006b-8cc6-4f30-adb2-5d37c99ff2a1",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e24e0cc018bee5c7b726f9b82fb136a43323e2fa345a48ce2f5bb20f0a42d725"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about dependent students needing to report parent information on the FAFSA, which directly supports the answer that legal parent information is required for dependent students.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e1213f9c046c497b8e0d9e66f73d40cb",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1133,
+                "completion_tokens": 48,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 48,
+                  "prompt_tokens": 1133,
+                  "total_tokens": 1181,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 365
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0008019,
+              "accounted_rmb": 0.0008019,
+              "usage_unknown": false,
+              "seconds": 1.157918930053711,
+              "error": null,
+              "response": {
+                "id": "39d7cf0a-0d2b-4bee-bdee-2f9bca655ef4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "aa35e1843ab8a33730b00e88818c87d16a4517b741a477fe1feedc445ffe88a3"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about the requirement to report parent information on the FAFSA, including details about stepparents, which directly supports the answer about dependent students needing to provide legal parent and stepparent information.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3de5413ff6e54b5382d5fd611a286ce9",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1198,
+                "completion_tokens": 60,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 60,
+                  "prompt_tokens": 1198,
+                  "total_tokens": 1258,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 174
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005822000000000001,
+              "accounted_rmb": 0.0005822000000000001,
+              "usage_unknown": false,
+              "seconds": 1.4148850440979004,
+              "error": null,
+              "response": {
+                "id": "3c898b5b-04fa-437c-ab43-d02f662a9c1e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2b06898818ce9a6b4e749e1c12c226342516ffa838761112d0eb8c417221d3e4"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explains that dependent students must report parent information on the FAFSA, which directly supports the answer that legal parent information is required. The answer correctly interprets the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "720a78f915124aee875ee7507c4bfe8e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1175,
+                "completion_tokens": 50,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 50,
+                  "prompt_tokens": 1175,
+                  "total_tokens": 1225,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 151
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005027,
+              "accounted_rmb": 0.0005027,
+              "usage_unknown": false,
+              "seconds": 1.278243064880371,
+              "error": null,
+              "response": {
+                "id": "cf561f72-3e77-49dd-b40a-b5a9e3612f14",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6210efdae4c1ac41ccb9671121fd2116c38e251253ba4194aa82728e48691ca3"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about FAFSA requirements, including documents needed, but does not specifically address the question about whether information about biological or adoptive parents is required. The answer is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2869b8eea74248e9846a33f96ea2f247",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1508,
+                "completion_tokens": 58,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 58,
+                  "prompt_tokens": 1508,
+                  "total_tokens": 1566,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 612
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012238,
+              "accounted_rmb": 0.0012238,
+              "usage_unknown": false,
+              "seconds": 1.2173171043395996,
+              "error": null,
+              "response": {
+                "id": "89d2fde1-cff4-44cc-8a26-c486ac679ada",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0f6d61a594250f470a92788f527bdef71ca157ff93c99ce56fd2bdebd48c23d7"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "2f361b2c33cf18139c3e9b16950104eb75e4298434a8671342bc0103b65828a4"
+}

@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "44c038b710e89b50353f61f864b1c759d55f32a84ce49c188aaffd05f8252f19",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.6791666666496875,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA services and suicide prevention, but it does not contain specific steps for applying for VA health care for PTSD. The answer suggests applying for VA health care, which is a general step, but the context does not directly address the process for PTSD or provide the steps mentioned in the question.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "21dfeada65864b93aa600d8f0f2a004a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2092,
+                "completion_tokens": 77,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 77,
+                  "prompt_tokens": 2092,
+                  "total_tokens": 2169,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1324
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0023709,
+              "accounted_rmb": 0.0023709,
+              "usage_unknown": false,
+              "seconds": 1.6873960494995117,
+              "error": null,
+              "response": {
+                "id": "87b4cd6a-f467-4018-8338-f4ba380ad063",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4ab66ed5ef5d07046a496963fa2ff9c473088e4a585f473a08c6cb0328ec5948"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA mental health services, including how to apply for VA health care, which is relevant to the user's question about steps to have VA for PTSD. The answer suggests applying for VA health care, which is directly supported by the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "9ae4f7a609e349e99fd11c529bb55fed",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2281,
+                "completion_tokens": 67,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 67,
+                  "prompt_tokens": 2281,
+                  "total_tokens": 2348,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1513
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0026094,
+              "accounted_rmb": 0.0026094,
+              "usage_unknown": false,
+              "seconds": 1.3464100360870361,
+              "error": null,
+              "response": {
+                "id": "29453757-b854-4e76-b998-9cfc98a626bd",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "764106b2300ef92908fb833be7f0ad602d102fea2e1f876b936f3071475af70b"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA mental health services, including PTSD, which is relevant to the user's question about steps to have VA for PTSD. The answer suggests applying for VA health care, which aligns with the context's guidance on accessing VA mental health services.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3a961e1e543646e7b9a918c64ce84dbc",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1198,
+                "completion_tokens": 67,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 67,
+                  "prompt_tokens": 1198,
+                  "total_tokens": 1265,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 174
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006137,
+              "accounted_rmb": 0.0006137,
+              "usage_unknown": false,
+              "seconds": 1.4536211490631104,
+              "error": null,
+              "response": {
+                "id": "5b7c3096-ae1e-49b2-8028-ce5f059dcdf8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "457c0f99dfd7028dbfbf3a70b9b310b08920b15e99636137f482ad245a382146"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about seeking help for PTSD through VA, including crisis support and how to access services, which is relevant to the user's question about steps to have VA for PTSD. The answer suggests applying for VA health care as the first step, which aligns with the context's guidance on obtaining VA services.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3e4e5170c87041cc851c2d925eddabd8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1437,
+                "completion_tokens": 77,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 77,
+                  "prompt_tokens": 1437,
+                  "total_tokens": 1514,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 413
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0010172,
+              "accounted_rmb": 0.0010172,
+              "usage_unknown": false,
+              "seconds": 1.5513951778411865,
+              "error": null,
+              "response": {
+                "id": "fe608d0c-2e07-41c0-9eaa-9c376bfcc40b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7b86b0223f7ffce10f8dc5e5d2db2f61155aa4e3d9b7e29a266afd0cf0f6a08f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about VA services for PTSD, including treatment options and how to access care, which supports the answer that the first step is to apply for VA health care.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "cb9b2af7f1cf4cc6b2781f2ca802ebe6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1423,
+                "completion_tokens": 51,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 51,
+                  "prompt_tokens": 1423,
+                  "total_tokens": 1474,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 399
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0008792,
+              "accounted_rmb": 0.0008792,
+              "usage_unknown": false,
+              "seconds": 1.164076805114746,
+              "error": null,
+              "response": {
+                "id": "74cf8282-40d7-4666-93ab-1a191d0dcf65",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fcd9036f19a464ebcc8d8229fb5ca589d7a2e908318bfd801d85011747494626"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "c8f1c7936310c9837000a8a23f8d38eb8af78139d5c5c61225568b6a37173733"
+}

@@ -1,0 +1,138 @@
+{
+  "payload": {
+    "task_id": "ab4ae89accb0bcb9af3fd41e95f3712582d46003f27eb22798c6e552ee1228e1",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "I cannot check the status of mailed documents or your specific claim.",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a pure assertion of the assistant's access limits, not a business fact."
+              },
+              {
+                "text": "Per VA guidance, documents you send by mail or fax won't appear in the online claim status tool.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states: 'You won't see documents that: You sent to us by mail or fax...'"
+              },
+              {
+                "text": "To check your claim status, sign in to VA.gov and go to your \"My VA\" dashboard, then the \"Track Claims\" section.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context instructs: 'Go to your \"My VA\" dashboard... Scroll down to the \"Track Claims\" section.'"
+              },
+              {
+                "text": "For questions about mailed evidence, call VA at 800-827-1000 (Monday–Friday, 8:00 a.m. to 9:00 p.m. ET).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context provides the phone number and hours: 'You can call us at 800-827-1000. We're here Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1f883073cb504dfb915a984ecbd445d3",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3838,
+                "completion_tokens": 436,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 436,
+                  "prompt_tokens": 3838,
+                  "total_tokens": 4274,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3454
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0071622,
+              "accounted_rmb": 0.0071622,
+              "usage_unknown": false,
+              "seconds": 2.765162944793701,
+              "error": null,
+              "response": {
+                "id": "6967ad22-de11-4306-9908-64b51b3e23ba",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2e39e3b8c9308c0634faba62e55ffefd4c12679013106bc0153dff765777f11f"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {
+        "assistant_capability": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "I cannot check the status of mailed documents or your specific claim.",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a pure assertion of the assistant's access limits, not a business fact."
+        },
+        {
+          "text": "Per VA guidance, documents you send by mail or fax won't appear in the online claim status tool.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states: 'You won't see documents that: You sent to us by mail or fax...'"
+        },
+        {
+          "text": "To check your claim status, sign in to VA.gov and go to your \"My VA\" dashboard, then the \"Track Claims\" section.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context instructs: 'Go to your \"My VA\" dashboard... Scroll down to the \"Track Claims\" section.'"
+        },
+        {
+          "text": "For questions about mailed evidence, call VA at 800-827-1000 (Monday–Friday, 8:00 a.m. to 9:00 p.m. ET).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context provides the phone number and hours: 'You can call us at 800-827-1000. We're here Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.'"
+        }
+      ]
+    }
+  },
+  "sha256": "754e38df07a9d7b31713718216a1f2a7f990b56fd21396796bee026c7d2dbdc4"
+}

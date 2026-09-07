@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "45240b1ffab142f353525b40091ef86ffe59926a0b3a15751c31e7aedc67690b",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If birthday is on January 1, benefit is calculated as if birthday was in the previous year.",
+                "coverage": "covered",
+                "response_quote": "if your birthday is on January 1st, they figure your benefit as if your birthday was in the previous year",
+                "reason": "The response correctly states the rule from the source."
+              }
+            ],
+            "reason": "The response accurately answers the user's question by confirming the January 1st birthday rule, supported by the retrieved context."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c80360f5cd314058b6423d624dda1bcb",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3986,
+                "completion_tokens": 139,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 139,
+                  "prompt_tokens": 3986,
+                  "total_tokens": 4125,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3090
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0053053,
+              "accounted_rmb": 0.0053053,
+              "usage_unknown": false,
+              "seconds": 1.470398187637329,
+              "error": null,
+              "response": {
+                "id": "85f6ba8a-6023-4214-af95-0e1742f284a2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4d4d81d1b970868eec6b2b0bf98bbbad778240ba6b9d82a3fc160f37dd275161"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If birthday is on January 1, benefit is calculated as if birthday was in the previous year.",
+            "coverage": "covered",
+            "response_quote": "if your birthday is on January 1st, they figure your benefit as if your birthday was in the previous year",
+            "reason": "The response correctly states the rule from the source."
+          }
+        ],
+        "reason": "The response accurately answers the user's question by confirming the January 1st birthday rule, supported by the retrieved context."
+      }
+    }
+  },
+  "sha256": "683e619970c7ce8e5384ca5ecbd93b4b98f54428ffc25c7602495cd5f5314c27"
+}

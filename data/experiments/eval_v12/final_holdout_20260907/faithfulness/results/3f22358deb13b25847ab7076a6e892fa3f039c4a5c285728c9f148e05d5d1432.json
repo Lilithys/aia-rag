@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "3f22358deb13b25847ab7076a6e892fa3f039c4a5c285728c9f148e05d5d1432",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "When presenting the banners, you must include the HTML codes that link to StudentAid.gov (or fafsa.gov, depending on the banner).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Link to Us | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that for static banners, remember to include the HTML codes which link to StudentAid.gov or fafsa.gov."
+              },
+              {
+                "text": "For static banners, copy the HTML text provided in the chart, paste it into your page's HTML document, and download the image.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Link to Us | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context instructs to highlight the HTML text, copy it, paste it into the HTML document, and download the image."
+              },
+              {
+                "text": "Also, ensure the banner does not appear on a page whose primary purpose is marketing or ordering a product/service, or on a page urging readers to contact Congress or state legislators about pending legislation.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Link to Us | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context explicitly states that the link cannot appear on such pages."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8a0f7082493e475d9f42ae0e4a9df8a7",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3848,
+                "completion_tokens": 332,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 332,
+                  "prompt_tokens": 3848,
+                  "total_tokens": 4180,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3464
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0067092,
+              "accounted_rmb": 0.0067092,
+              "usage_unknown": false,
+              "seconds": 2.652146816253662,
+              "error": null,
+              "response": {
+                "id": "18c39bca-b554-4d3e-b9bf-8fa8fc2a344b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "459a814b112bc30906a450436c49a7be03c7e9f289561268defbc8c29c42d5a7"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "When presenting the banners, you must include the HTML codes that link to StudentAid.gov (or fafsa.gov, depending on the banner).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Link to Us | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that for static banners, remember to include the HTML codes which link to StudentAid.gov or fafsa.gov."
+        },
+        {
+          "text": "For static banners, copy the HTML text provided in the chart, paste it into your page's HTML document, and download the image.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Link to Us | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context instructs to highlight the HTML text, copy it, paste it into the HTML document, and download the image."
+        },
+        {
+          "text": "Also, ensure the banner does not appear on a page whose primary purpose is marketing or ordering a product/service, or on a page urging readers to contact Congress or state legislators about pending legislation.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Link to Us | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context explicitly states that the link cannot appear on such pages."
+        }
+      ]
+    }
+  },
+  "sha256": "13c01eaf35205fec4fbf446c42afea87599b25019c87fa0961e3bee726e30ee4"
+}

@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "5e8f501de67eac8f979b6d593617d216d63433b10a60d6dd10909964f6188e7d",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "如果您请求与高级审查员通话，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+                ],
+                "reason": "The claim matches the context exactly."
+              },
+              {
+                "text": "高级审查员会尝试通过电话联系您或您的代表两次。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+                ],
+                "reason": "The claim matches the context exactly."
+              },
+              {
+                "text": "如果无人接听，他们会留下语音邮件。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+                ],
+                "reason": "The claim matches the context exactly."
+              },
+              {
+                "text": "通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+                ],
+                "reason": "The claim matches the context exactly."
+              },
+              {
+                "text": "这次通话不会有记录。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+                ],
+                "reason": "The claim matches the context exactly."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3715fc2d26b3492b8a7e5bf4c1c80e98",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2754,
+                "completion_tokens": 404,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 404,
+                  "prompt_tokens": 2754,
+                  "total_tokens": 3158,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2370
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0053922,
+              "accounted_rmb": 0.0053922,
+              "usage_unknown": false,
+              "seconds": 2.3848178386688232,
+              "error": null,
+              "response": {
+                "id": "9baa662d-88fb-47c7-9ee0-2641a58e8167",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "89949c88b129ca17ddf53b0671a04a7f1cf4ee48a2f99ffc6a1da562e727bbf5"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "如果您请求与高级审查员通话，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+          ],
+          "reason": "The claim matches the context exactly."
+        },
+        {
+          "text": "高级审查员会尝试通过电话联系您或您的代表两次。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+          ],
+          "reason": "The claim matches the context exactly."
+        },
+        {
+          "text": "如果无人接听，他们会留下语音邮件。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+          ],
+          "reason": "The claim matches the context exactly."
+        },
+        {
+          "text": "通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+          ],
+          "reason": "The claim matches the context exactly."
+        },
+        {
+          "text": "这次通话不会有记录。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0003"
+          ],
+          "reason": "The claim matches the context exactly."
+        }
+      ]
+    }
+  },
+  "sha256": "c11572b6b6c4b50c13bc973e2f68e670f630c05930969f29ad4424233262deb3"
+}

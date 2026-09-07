@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "c2dfa2b93b13da9bc80d9be9d48bbb90::agent-turn-17",
+    "item_sha256": "d29b4d1c2209fa758d436bc38bf6888d9641121d880a3f846c70e649af7132ec",
+    "result": {
+      "request_id": "1f8fbe46311e45c581c7c75825bf6260",
+      "session_id": "c2dfa2b93b13da9bc80d9be9d48bbb90",
+      "turn_id": 16,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "New and relevant evidence helps support your case when you file a Supplemental Claim after a Board decision. A reviewer will determine whether the new evidence changes the decision. You must add evidence that VA didn't have before that supports your case.",
+        "citations": [
+          "Insurance claims | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Insurance claims | Veterans Affairs#1_0::c0000",
+          "text": "# Insurance claims | Veterans Affairs\n\n# Insurance claims\n\nIf you disagree with a VA decision on an insurance claim, you can choose one of the following review options to continue your case. If you aren t satisfied with that review, you can try another option.\n\n#### Mark your calendar\n\nYou have 1 year from the date on your decision to request a decision review.\n\n## Decision review options\n\n### Add new and relevant evidence\n\nDownload VA Form 20-0995: Supplemental Claim (PDF)\n\nWhen you choose to file a Supplemental Claim, you re adding new evidence that supports your case or identifying evidence for review. A reviewer will determine whether the new evidence changes the decision. Learn how to file a Supplemental Claim\n\nYou must add evidence that VA didn t have before that supports your case.\n\n4-5 months VA s goal for completing Supplemental Claims is 125 days.\n\n### Ask for a new look from a senior reviewer\n\nDownload VA Form 20-0996: Higher-Level Review (PDF)\n\nWhen you choose to request a Higher-Level Review, you re asking for another review of the same evidence. A senior reviewer will take another look at your case and determine whether the decision can be changed based on a difference of opinion or an error. Learn how to request a Higher-Level Review\n\nYou can t submit any evidence.\n\nYou and/or your representative can speak with the reviewer on the phone. You can tell them why you think the decision should be changed and identify errors.\n\n4-5 months VA s goal for completing Higher-Level Reviews is 125 days. A review may take longer if VA needs to get records or schedule a new exam to correct an error.\n\n#### Can I request a Higher-Level Review?\n\nYou can request a Higher-Level Review of an initial claim or Supplemental Claim decision. This option isn t available after a Higher-Level Review or Board decision.\n\n### Appeal to a Veterans Law Judge\n\nDownload VA Form 10182: Board Appeal (PDF)\n\nA judge at the Board of Veterans Appeals in Washington, D.C., will review your case. Learn more about how to request a Board Appeal\n\nAbout 1 year The Board s goal for deciding appeals with no new evidence and no hearing is about a year.\n\nYou have the option to add new evidence that will be reviewed by a judge.\n\nYou have the option to request a hearing with a judge. A video conference hearing will take place at a VA location near you.\n\nLonger The Board will take longer to decide your appeal if you add new evidence or request a hearing.\n\n#### Can I request a Board Appeal?\n\nYou can request a Board Appeal after an initial claim, Supplemental Claim, or Higher-Level Review decision. You can t request two Board Appeals in a row.\n\n## Bring an action in district court\n\nYou also have the option to bring an action in a United States district court. You have 6 years to bring such an action after accrual of the right for which the claim is made. You may want to speak with an attorney about this option.\n\n## After a Board decision\n\nIf you disagree with the Board s decision and have new and relevant evidence that supports your case, you can file a Supplemental Claim. You can also appeal to the U.S. Court of Appeals for Veterans Claims. Learn more about your options after a Board decision\n\n## What happens next?\n\nFind out what happens after you request a decision review\n\nYou don t need to do anything while you wait unless VA sends you a letter asking for more information. If VA schedules exams for you, be sure not to miss them.\n\nTrack the status of your appeal\n\n## What if I need help?\n\nA Veterans Service Organization or VA-accredited attorney or agent can help you request a decision review. Get help requesting a decision review\n\n## What if I have more questions?\n\nGet answers to frequently asked questions about decision reviews. Go to FAQs"
+        },
+        {
+          "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+        },
+        {
+          "chunk_id": "Request a Higher-Level Review | Veterans Affairs#1_0::c0003",
+          "text": "[Request a Higher-Level Review > 如果我请求与高级审查员通话，我应该期待什么？]\n如果你请求与高级审查员进行非正式会议，他们会拨打你或你的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论你的案件。高级审查员会尝试通过电话联系你或你的代表两次。如果无人接听，他们会留下语音邮件。\n\n在通话期间，你和/或你的代表可以讨论你认为决定应该更改的原因并指出错误。这次通话不会有记录。"
+        },
+        {
+          "chunk_id": "Fiduciary claims | Veterans Affairs#1_0::c0000",
+          "text": "# Fiduciary claims | Veterans Affairs\n\n# Fiduciary claims\n\n如果你不同意VA对fiduciary claim的决定，你可以选择以下审查选项之一来继续你的案件。如果你对该审查不满意，你可以尝试另一个选项。\n\n#### 标记你的日历\n\n从你的决定日期起，你有1年的时间来请求decision review。\n\n## Decision review选项\n\n### 添加新的相关证据\n\nSupplemental Claim选项不适用于fiduciary claims。如果你有新证据，你可以提交新的claim。\n\n请选择以下选项之一进行你的下一次审查。\n\n### 请求高级审查员重新审查\n\n下载VA Form 20-0996: Higher-Level Review (PDF)\n\n当你选择Higher-Level Review时，你是在请求对相同证据进行另一次审查。高级审查员将重新审查你的案件，并确定是否可以根据意见分歧或错误来更改决定。了解如何请求Higher-Level Review\n\n你不能提交任何证据。\n\n你和/或你的代表可以通过电话与审查员交谈。你可以告诉他们你认为决定应该更改的原因，并指出错误。\n\n4-5个月 VA完成Higher-Level Reviews的目标是125天。如果VA需要获取记录或安排新的考试以纠正错误，审查可能需要更长时间。\n\n#### 我可以请求Higher-Level Review吗？\n\n你可以对初始claim请求Higher-Level Review。在Higher-Level Review或Board Appeal之后，此选项不可用。\n\n### 向Veterans Law Judge上诉\n\n下载 VA 表格 10182：委员会上诉（PDF）\n\n位于华盛顿特区的退伍军人上诉委员会（Board of Veterans Appeals）的一名法官将审查您的案件。了解更多关于如何申请委员会上诉的信息\n\n大约1年 委员会对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官进行听证。视频会议听证将在您附近的 VA 地点进行。\n\n更长 如果您添加新证据或请求听证，委员会将需要更长时间来裁决您的上诉。\n\n#### 我可以申请委员会上诉吗？\n\n您可以在初次申请或高级审查（Higher-Level Review）决定后申请委员会上诉。您不能连续两次申请委员会上诉。\n\n## 委员会决定之后\n\n如果您不同意委员会的决定，并且有支持您案件的新且相关的证据，您可以提交补充申请（Supplemental Claim）。您也可以向美国退伍军人上诉法院（U.S. Court of Appeals for Veterans Claims）提出上诉。了解更多关于委员会决定后您的选择\n\n## 接下来会发生什么？\n\n了解您请求决定审查后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求更多信息。如果 VA 为您安排了检查，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\n退伍军人服务组织（Veterans Service Organization）或 VA 认可的律师或代理人可以帮助您请求决定审查。获取请求决定审查的帮助\n\n## 如果我有更多问题怎么办？\n\n获取关于决定审查的常见问题解答。前往常见问题解答"
+        },
+        {
+          "chunk_id": "Request a Higher-Level Review | Veterans Affairs#1_0::c0001",
+          "text": "[Request a Higher-Level Review > 我可以请求Higher-Level Review吗？]\n如果你不同意VA的决定，你可以要求一位高级审查员重新审视你的案件。审查员将根据意见分歧或错误来判断是否可以更改决定。\n\n你不能提交任何证据。\n\n你和/或你的代表可以通过电话与审查员交谈。你可以告诉他们你认为决定应该更改的原因，并指出错误。\n\n你可以对初始申请或Supplemental Claim的决定请求Higher-Level Review。此选项在Higher-Level Review或Board Appeal之后不可用。如果你是多位申请同一福利的人之一（这种情况很少见），也不可用。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Insurance claims | Veterans Affairs#1_0::c0000",
+          "text": "# Insurance claims | Veterans Affairs\n\n# Insurance claims\n\nIf you disagree with a VA decision on an insurance claim, you can choose one of the following review options to continue your case. If you aren t satisfied with that review, you can try another option.\n\n#### Mark your calendar\n\nYou have 1 year from the date on your decision to request a decision review.\n\n## Decision review options\n\n### Add new and relevant evidence\n\nDownload VA Form 20-0995: Supplemental Claim (PDF)\n\nWhen you choose to file a Supplemental Claim, you re adding new evidence that supports your case or identifying evidence for review. A reviewer will determine whether the new evidence changes the decision. Learn how to file a Supplemental Claim\n\nYou must add evidence that VA didn t have before that supports your case.\n\n4-5 months VA s goal for completing Supplemental Claims is 125 days.\n\n### Ask for a new look from a senior reviewer\n\nDownload VA Form 20-0996: Higher-Level Review (PDF)\n\nWhen you choose to request a Higher-Level Review, you re asking for another review of the same evidence. A senior reviewer will take another look at your case and determine whether the decision can be changed based on a difference of opinion or an error. Learn how to request a Higher-Level Review\n\nYou can t submit any evidence.\n\nYou and/or your representative can speak with the reviewer on the phone. You can tell them why you think the decision should be changed and identify errors.\n\n4-5 months VA s goal for completing Higher-Level Reviews is 125 days. A review may take longer if VA needs to get records or schedule a new exam to correct an error.\n\n#### Can I request a Higher-Level Review?\n\nYou can request a Higher-Level Review of an initial claim or Supplemental Claim decision. This option isn t available after a Higher-Level Review or Board decision.\n\n### Appeal to a Veterans Law Judge\n\nDownload VA Form 10182: Board Appeal (PDF)\n\nA judge at the Board of Veterans Appeals in Washington, D.C., will review your case. Learn more about how to request a Board Appeal\n\nAbout 1 year The Board s goal for deciding appeals with no new evidence and no hearing is about a year.\n\nYou have the option to add new evidence that will be reviewed by a judge.\n\nYou have the option to request a hearing with a judge. A video conference hearing will take place at a VA location near you.\n\nLonger The Board will take longer to decide your appeal if you add new evidence or request a hearing.\n\n#### Can I request a Board Appeal?\n\nYou can request a Board Appeal after an initial claim, Supplemental Claim, or Higher-Level Review decision. You can t request two Board Appeals in a row.\n\n## Bring an action in district court\n\nYou also have the option to bring an action in a United States district court. You have 6 years to bring such an action after accrual of the right for which the claim is made. You may want to speak with an attorney about this option.\n\n## After a Board decision\n\nIf you disagree with the Board s decision and have new and relevant evidence that supports your case, you can file a Supplemental Claim. You can also appeal to the U.S. Court of Appeals for Veterans Claims. Learn more about your options after a Board decision\n\n## What happens next?\n\nFind out what happens after you request a decision review\n\nYou don t need to do anything while you wait unless VA sends you a letter asking for more information. If VA schedules exams for you, be sure not to miss them.\n\nTrack the status of your appeal\n\n## What if I need help?\n\nA Veterans Service Organization or VA-accredited attorney or agent can help you request a decision review. Get help requesting a decision review\n\n## What if I have more questions?\n\nGet answers to frequently asked questions about decision reviews. Go to FAQs"
+        },
+        {
+          "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+        },
+        {
+          "chunk_id": "Request a Higher-Level Review | Veterans Affairs#1_0::c0003",
+          "text": "[Request a Higher-Level Review > 如果我请求与高级审查员通话，我应该期待什么？]\n如果你请求与高级审查员进行非正式会议，他们会拨打你或你的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论你的案件。高级审查员会尝试通过电话联系你或你的代表两次。如果无人接听，他们会留下语音邮件。\n\n在通话期间，你和/或你的代表可以讨论你认为决定应该更改的原因并指出错误。这次通话不会有记录。"
+        },
+        {
+          "chunk_id": "Fiduciary claims | Veterans Affairs#1_0::c0000",
+          "text": "# Fiduciary claims | Veterans Affairs\n\n# Fiduciary claims\n\n如果你不同意VA对fiduciary claim的决定，你可以选择以下审查选项之一来继续你的案件。如果你对该审查不满意，你可以尝试另一个选项。\n\n#### 标记你的日历\n\n从你的决定日期起，你有1年的时间来请求decision review。\n\n## Decision review选项\n\n### 添加新的相关证据\n\nSupplemental Claim选项不适用于fiduciary claims。如果你有新证据，你可以提交新的claim。\n\n请选择以下选项之一进行你的下一次审查。\n\n### 请求高级审查员重新审查\n\n下载VA Form 20-0996: Higher-Level Review (PDF)\n\n当你选择Higher-Level Review时，你是在请求对相同证据进行另一次审查。高级审查员将重新审查你的案件，并确定是否可以根据意见分歧或错误来更改决定。了解如何请求Higher-Level Review\n\n你不能提交任何证据。\n\n你和/或你的代表可以通过电话与审查员交谈。你可以告诉他们你认为决定应该更改的原因，并指出错误。\n\n4-5个月 VA完成Higher-Level Reviews的目标是125天。如果VA需要获取记录或安排新的考试以纠正错误，审查可能需要更长时间。\n\n#### 我可以请求Higher-Level Review吗？\n\n你可以对初始claim请求Higher-Level Review。在Higher-Level Review或Board Appeal之后，此选项不可用。\n\n### 向Veterans Law Judge上诉\n\n下载 VA 表格 10182：委员会上诉（PDF）\n\n位于华盛顿特区的退伍军人上诉委员会（Board of Veterans Appeals）的一名法官将审查您的案件。了解更多关于如何申请委员会上诉的信息\n\n大约1年 委员会对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官进行听证。视频会议听证将在您附近的 VA 地点进行。\n\n更长 如果您添加新证据或请求听证，委员会将需要更长时间来裁决您的上诉。\n\n#### 我可以申请委员会上诉吗？\n\n您可以在初次申请或高级审查（Higher-Level Review）决定后申请委员会上诉。您不能连续两次申请委员会上诉。\n\n## 委员会决定之后\n\n如果您不同意委员会的决定，并且有支持您案件的新且相关的证据，您可以提交补充申请（Supplemental Claim）。您也可以向美国退伍军人上诉法院（U.S. Court of Appeals for Veterans Claims）提出上诉。了解更多关于委员会决定后您的选择\n\n## 接下来会发生什么？\n\n了解您请求决定审查后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求更多信息。如果 VA 为您安排了检查，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\n退伍军人服务组织（Veterans Service Organization）或 VA 认可的律师或代理人可以帮助您请求决定审查。获取请求决定审查的帮助\n\n## 如果我有更多问题怎么办？\n\n获取关于决定审查的常见问题解答。前往常见问题解答"
+        },
+        {
+          "chunk_id": "Request a Higher-Level Review | Veterans Affairs#1_0::c0001",
+          "text": "[Request a Higher-Level Review > 我可以请求Higher-Level Review吗？]\n如果你不同意VA的决定，你可以要求一位高级审查员重新审视你的案件。审查员将根据意见分歧或错误来判断是否可以更改决定。\n\n你不能提交任何证据。\n\n你和/或你的代表可以通过电话与审查员交谈。你可以告诉他们你认为决定应该更改的原因，并指出错误。\n\n你可以对初始申请或Supplemental Claim的决定请求Higher-Level Review。此选项在Higher-Level Review或Board Appeal之后不可用。如果你是多位申请同一福利的人之一（这种情况很少见），也不可用。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Insurance claims | Veterans Affairs#1_0::c0000",
+          "document": "Insurance claims | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_056.md",
+          "excerpt": "# Insurance claims | Veterans Affairs\n\n# Insurance claims\n\nIf you disagree with a VA decision on an insurance claim, you can choose one of the following review options to continue your case. If you aren t satisfied with that review, you can try another option.\n\n#### Mark your calendar\n\nYou have 1 year from the date on your decision to request a decision review.\n\n## Decision review options\n\n### Add new and relevant evidence\n\nDownload VA Form 20-0995: Supplemental Claim (PDF)\n\nWhen you choose to file a Supplemental Claim, you re adding new evidence that supports your case or identifying evidence for review. A reviewer will determine whether the new evidence changes the decision. Learn how to file a Supplemental Claim\n\nYou must add evidence that VA didn t have before that supports your case.\n\n4-5 months VA s goal for completing Supplemental Claims is 125 days.\n\n### Ask for a new look from a senior reviewer\n\nDownload VA Form 20-0996: Higher-Level Review (PDF)\n\nWhen you choose to request a Higher-Level Review, you re asking for another review of the same evidence. A senior reviewer will take another look at your case and determine whether the decision can be changed based on a difference of opinion or an error. Learn how to request a Higher-Level Review\n\nYou can t submit any evidence.\n\nYou and/or your representative can speak with the reviewer on the phone. You can tell them why you think the decision should be changed and identify errors.\n\n4-5 months VA s goal for completing Higher-Level Reviews is 125 days. A review may take longer if VA needs to get records or schedule a new exam to correct an error.\n\n#### Can I request a Higher-Level Review?\n\nYou can request a Higher-Level Review of an initial claim or Supplemental Claim decision. This option isn t available after a Higher-Level Review or Board decision.\n\n### Appeal to a Veterans Law Judge\n\nDownload VA Form 10182: Board Appeal (PDF)\n\nA judge at the Board of Veterans Appeals in Washington, D.C., will review your case. Learn more about how to request a Board Appeal\n\nAbout 1 year The Board s goal for deciding appeals with no new evidence and no hearing is about a year.\n\nYou have the option to add new evidence that will be reviewed by a judge.\n\nYou have the option to request a hearing with a judge. A video conference hearing will take place at a VA location near you.\n\nLonger The Board will take longer to decide your appeal if you add new evidence or request a hearing.\n\n#### Can I request a Board Appeal?\n\nYou can request a Board Appeal after an initial claim, Supplemental Claim, or Higher-Level Review decision. You can t request two Board Appeals in a row.\n\n## Bring an action in district court\n\nYou also have the option to bring an action in a United States district court. You have 6 years to bring such an action after accrual of the right for which the claim is made. You may want to speak with an attorney about this option.\n\n## After a Board decision\n\nIf you disagree with the Board s decision and have new and relevant evidence that supports your case, you can file a Supplemental Claim. You can also appeal to the U.S. Court of Appeals for Veterans Claims. Learn more about your options after a Board decision\n\n## What happens next?\n\nFind out what happens after you request a decision review\n\nYou don t need to do anything while you wait unless VA sends you a letter asking for more information. If VA schedules exams for you, be sure not to miss them.\n\nTrack the status of your appeal\n\n## What if I need help?\n\nA Veterans Service Organization or VA-accredited attorney or agent can help you request a decision review. Get help requesting a decision review\n\n## What if I have more questions?\n\nGet answers to frequently asked questions about decision reviews. Go to FAQs"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "New and relevant evidence helps support your case when you file a Supplemental Claim after a Board decision. A reviewer will determine whether the new evidence changes the decision. You must add evidence that VA didn't have before that supports your case.",
+          "citations": [
+            "Insurance claims | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "9efd8b0fbeb74a37b40a224e7e1e3b40",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3242,
+              "completion_tokens": 75,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 75,
+                "prompt_tokens": 3242,
+                "total_tokens": 3317,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2986
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0048293,
+            "accounted_rmb": 0.0048293,
+            "usage_unknown": false,
+            "seconds": 1.3524589538574219,
+            "error": null,
+            "response": {
+              "id": "a6aee3fd-cdb9-49b0-bffa-a9a8d3292780",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "bc57794fc370deee789cefdc40a7f1b72e16bcb1785076a1f9779e237ed3d227"
+      },
+      "latency_ms": {
+        "queue_wait": 0.013874960131943226,
+        "retrieval": 1884.358917013742,
+        "generation": 1357.200333965011,
+        "total": 3242.873749928549
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.32611525000538677,
+        "rerank_seconds": 1.5581831249874085,
+        "top1_dense_score": 0.7909091114997864,
+        "candidate_ids": [
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0002",
+          "Insurance claims | Veterans Affairs#1_0::c0000",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0004",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0001",
+          "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0000",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0006",
+          "VA decision reviews and appeals | Veterans Affairs#1_0::c0000",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0005",
+          "File a Supplemental Claim with new evidence | Veterans Affairs#1_0::c0000",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0003",
+          "Fiduciary claims | Veterans Affairs#1_0::c0000",
+          "Multiple party or contested claims | Veterans Affairs#1_0::c0000",
+          "Get Help Filing Your Claim Or Appeal | Veterans Affairs#1_0::c0000",
+          "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0::c0000",
+          "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0003",
+          "Aid And Attendance Benefits And Housebound Allowance | VA.gov#1_0::c0000",
+          "VA Housing Assistance | Veterans Affairs#2_0::c0000",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0003"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 49,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.8843296250561252
+      },
+      "raw_citations": [
+        "Insurance claims | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "741f1f3fa631240554432ed9b1e40c4fe2b24ca3d7b415bd88d53b890db0ab88"
+}

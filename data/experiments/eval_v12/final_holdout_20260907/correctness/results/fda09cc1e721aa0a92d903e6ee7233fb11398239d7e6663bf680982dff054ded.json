@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "fda09cc1e721aa0a92d903e6ee7233fb11398239d7e6663bf680982dff054ded",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "The response should ask for the spouse's estimated retirement benefit at full retirement age, as that amount is needed to estimate the user's spousal benefit.",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response provides calculation steps but does not ask for the spouse's estimated benefit amount, which is the essential missing condition for the clarification task."
+              }
+            ],
+            "reason": "The response answers with detailed calculation instructions but fails to request the spouse's estimated retirement benefit at full retirement age, which is the necessary clarification per the reference."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d34f5e24de4b499180b81f3fcfa71154",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5745,
+                "completion_tokens": 151,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 151,
+                  "prompt_tokens": 5745,
+                  "total_tokens": 5896,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4849
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0079978,
+              "accounted_rmb": 0.0079978,
+              "usage_unknown": false,
+              "seconds": 1.787510633468628,
+              "error": null,
+              "response": {
+                "id": "95965cc6-e529-4b5b-bf34-2b1f1620305d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d26d8e8c810b7a8aa3d3ce16518327fd7c0c4ad1974bf0914e6cf9a0886cbe5f"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "The response should ask for the spouse's estimated retirement benefit at full retirement age, as that amount is needed to estimate the user's spousal benefit.",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response provides calculation steps but does not ask for the spouse's estimated benefit amount, which is the essential missing condition for the clarification task."
+          }
+        ],
+        "reason": "The response answers with detailed calculation instructions but fails to request the spouse's estimated retirement benefit at full retirement age, which is the necessary clarification per the reference."
+      }
+    }
+  },
+  "sha256": "429a0967969f7920aac57c271ce6f9aecd98f59a123fe949f017deaf0c29a62b"
+}

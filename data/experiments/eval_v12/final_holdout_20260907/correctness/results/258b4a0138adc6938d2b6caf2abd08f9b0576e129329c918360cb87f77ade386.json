@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "258b4a0138adc6938d2b6caf2abd08f9b0576e129329c918360cb87f77ade386",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "登录 my Social Security 账户",
+                "coverage": "covered",
+                "response_quote": "登录或创建您的个人安全 my Social Security 账户",
+                "reason": "响应明确说明登录或创建账户"
+              },
+              {
+                "requirement": "选择蓝色的 Benefits & Payment Details 链接",
+                "coverage": "covered",
+                "response_quote": "选择屏幕右侧蓝色的 Benefits & Payment Details 链接",
+                "reason": "响应包含此步骤"
+              }
+            ],
+            "reason": "响应准确提供了在线设置或更改直接存款的步骤，包含所有必要条件，且额外信息均有文档支持。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b9d86ea2b2514312a658294e29dc5a55",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4227,
+                "completion_tokens": 157,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 157,
+                  "prompt_tokens": 4227,
+                  "total_tokens": 4384,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3331
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0057478,
+              "accounted_rmb": 0.0057478,
+              "usage_unknown": false,
+              "seconds": 1.634775161743164,
+              "error": null,
+              "response": {
+                "id": "d28debf6-53d4-4fb8-93a1-4cab0644de4f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "bc3cb357d8a694dc8d02c21bbef20285963c7dca50c1e4c57b3900387417258f"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "登录 my Social Security 账户",
+            "coverage": "covered",
+            "response_quote": "登录或创建您的个人安全 my Social Security 账户",
+            "reason": "响应明确说明登录或创建账户"
+          },
+          {
+            "requirement": "选择蓝色的 Benefits & Payment Details 链接",
+            "coverage": "covered",
+            "response_quote": "选择屏幕右侧蓝色的 Benefits & Payment Details 链接",
+            "reason": "响应包含此步骤"
+          }
+        ],
+        "reason": "响应准确提供了在线设置或更改直接存款的步骤，包含所有必要条件，且额外信息均有文档支持。"
+      }
+    }
+  },
+  "sha256": "12936f32e356b29c226caf546183b73462a26ad7cd6db5287ab1481abea0cf0c"
+}

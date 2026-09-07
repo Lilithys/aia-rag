@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "8f5aae1982ef038fbd767267113543cdb01290e11e7b8aa6c70b203136c9cd7b",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.999999999975,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides a clear definition of Supplemental Security Income (SSI) benefits, stating that the program pays benefits to disabled adults and children with limited income and resources. The answer directly reflects this information, indicating that the context was useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2c10067df7b948d59928fbd295f977a5",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1447,
+                "completion_tokens": 62,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 62,
+                  "prompt_tokens": 1447,
+                  "total_tokens": 1509,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 679
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013359,
+              "accounted_rmb": 0.0013359,
+              "usage_unknown": false,
+              "seconds": 1.3599529266357422,
+              "error": null,
+              "response": {
+                "id": "19ffeed9-cb6d-40f1-b4fe-9712fe7ee269",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d167f6643877d21c04e96554d3a35a26e36edfe6fe79bcbb0319582c5f86e30b"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about Supplemental Security Income (SSI) and mentions that it helps elderly and disabled people with limited income and financial resources, which aligns with the answer's description of SSI benefits for disabled adults and children with limited income and resources.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3a9bcbab26e3401b906764c553e0bb1a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1965,
+                "completion_tokens": 65,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 1965,
+                  "total_tokens": 2030,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1197
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0021264,
+              "accounted_rmb": 0.0021264,
+              "usage_unknown": false,
+              "seconds": 1.5264899730682373,
+              "error": null,
+              "response": {
+                "id": "5cd1663c-f85e-4462-b013-7d9e5d5142a3",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "27751c7e6b3aa3565b5b445c68fb24766021b6d8df368e953a45562c79e86eb1"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about Supplemental Security Income (SSI) and mentions that it helps elderly and disabled people with limited income and financial resources, which aligns with the answer's description of SSI paying benefits to disabled adults and children with limited income and resources.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "288582a8fd5343228188ed04777eac7a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1936,
+                "completion_tokens": 66,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 66,
+                  "prompt_tokens": 1936,
+                  "total_tokens": 2002,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1168
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020874,
+              "accounted_rmb": 0.0020874,
+              "usage_unknown": false,
+              "seconds": 1.4424011707305908,
+              "error": null,
+              "response": {
+                "id": "02cf3005-83d4-4946-96d5-b9551502c7b9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c6f61f6b486bd7dabde8cdf8e0058a17e995e0df5266a47c4a2d07ad8fad00e5"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides a clear definition of Supplemental Security Income (SSI) benefits, stating that it pays benefits to disabled adults and children with limited income and resources, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e7f92d6391de4b5c8ac811c23244b4df",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1508,
+                "completion_tokens": 53,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1508,
+                  "total_tokens": 1561,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 740
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013869000000000002,
+              "accounted_rmb": 0.0013869000000000002,
+              "usage_unknown": false,
+              "seconds": 1.3080377578735352,
+              "error": null,
+              "response": {
+                "id": "39de679b-96b5-44ed-8af5-55dd7dabc6a0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e2b9c9076b4fce660cd424e7bf96bfdb8b7fdee8d81f3ab17c345b3939e626b2"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about applying for SSI benefits for children, but the answer defines SSI as a program for disabled adults and children with limited income and resources. The context does not explicitly state this definition, so it is not directly useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "847381a71f814d3fb8af7af98e1df58f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1255,
+                "completion_tokens": 69,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1255,
+                  "total_tokens": 1324,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 487
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0010794,
+              "accounted_rmb": 0.0010794,
+              "usage_unknown": false,
+              "seconds": 1.426164150238037,
+              "error": null,
+              "response": {
+                "id": "db991edd-451a-4a78-8cb9-2dc37fcae7ee",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "8c1daa0d917f7ca8f2f28b1e80b906820154b7b18b392e48e146d61368eaf544"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "d3f3cffe9d15588cf33289b83f13aa24ea9b80cc10f3449cbad62e2aa53caa34"
+}

@@ -1,0 +1,202 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "bcdcdbe15c9bd507af4d10c15b5a9ab4::agent-turn-12",
+    "item_sha256": "f65f696cc8eb2cb998f77b9941f42d5beead11374239bba2eec72f5e4aa60459",
+    "result": {
+      "request_id": "6fd1bd91b0a04baf98a32fd2a4a0fab6",
+      "session_id": "bcdcdbe15c9bd507af4d10c15b5a9ab4",
+      "turn_id": 11,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "To get VA care for PTSD, you generally need to apply for VA health care first. You can apply online, by phone at 877-222-VETS (8387), by mail, or in person at a VA medical center. Once enrolled, you can request an appointment for a mental health assessment. VA offers proven PTSD treatments like cognitive processing therapy (CPT), medication, and individual or group therapy. If you're in crisis, call the Veterans Crisis Line at 800-273-8255 and select 1, or go to the nearest VA medical center or emergency room—eligibility for VA health care is not required for emergency crisis care. For more specific steps, contact your nearest VA medical center or call 877-222-8387 (TTY: 800-877-8339) Monday–Friday, 8:00 a.m. to 8:00 p.m. ET.",
+        "citations": [
+          "PTSD Treatment | Veterans Affairs#1_0::c0001",
+          "PTSD Treatment | Veterans Affairs#1_0::c0002",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0004"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Veteran Suicide Prevention | Veterans Affairs#1_0::c0000",
+          "text": "# Veteran Suicide Prevention | Veterans Affairs\n\n# Veteran suicide prevention\n\nIf you re a Veteran in a mental health crisis and you re thinking about hurting yourself or you know a Veteran who s considering this act now. You re not alone, and you can get help.\n\n### How do I talk to someone right now?\n\nFind out how to get support anytime day or night.\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.\n\nTo connect with a Veterans Crisis Line responder anytime day or night:\n\n- Call 800-273-8255, then select 1.\n- Start a confidential Veterans chat.\n- Text 838255.\n- If you have hearing loss, call TTY: 800-799-4889.\n\nYou can also:\n\n- Call 911.\n- Go to the nearest emergency room.\n- Go directly to your nearest VA medical center. It doesn't matter what your discharge status is or if you're enrolled in VA health care.Find your nearest VA medical center\n\n### Where can I turn for ongoing support?\n\n#### You can find ongoing support through VA to help you get your life back on track:\n\n- Our specially trained suicide prevention coordinators available in each VA medical center across the country can help you get the counseling and services you need.\n- Our Vet Centers can help you and your family readjust to life at home after you ve returned from serving in a combat zone.\n- Our Veterans Benefits Administration offices can help you access benefits for disability compensation (monthly payments), job training, home loans, and more.\n\nFind these and other resources near you\n\n#### You can also find information and support on our websites:\n\n- Get information about suicide prevention and the support we offer.Visit our suicide prevention website\n- Go to our Make the Connection website to get resources and watch stories of Veterans who ve overcome depression and other mental health challenges.Visit Make the Connection\n\n## What are the signs that someone may be considering suicide?\n\nMany Veterans don t show any signs of an urge to harm themselves before doing so. But some may show signs of depression, anxiety, low self-esteem, or hopelessness, like:\n\n- Seeming sad, depressed, anxious, or agitated most of the time\n- Sleeping either all the time or not much at all\n- Not caring about what they look like or what happens to them\n- Pulling away from friends, family, and society\n- Losing interest in hobbies, work, school, or other things they used to care about\n- Expressing feelings of excessive guilt or shame, failure, lack of purpose in life, or being trapped\n\nThey may also change the way they act, and start to:\n\n- Perform poorly at work or school\n- Act violently or take risks (like driving fast or running red lights)\n- Do things to prepare for a suicide (like giving away special personal items, making a will, or seeking access to guns or pills)\n\nGet the full list of signs that someone may be considering suicide\n\nLearn about common suicide myths and realities, Veteran-specific suicide risks, and warning signs.Recognize when to ask for help\n\nTake our Veterans self-check quiz\n\n## I want to help a Veteran adjust to life at home, but I don t know how. Can I get support?\n\nYes. If you re a family member or friend of a Veteran who s having trouble adjusting to life at home, we can help. Through our national Coaching Into Care program, our licensed psychologists and social workers will talk with you by phone, free of charge, to help you find your way around the VA system and figure out the best way to help the Veteran you care about. All calls are confidential (private).\n\nTo speak with a VA coach, call 888-823-7458, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nTo get tips and resources for spouses, parents, and Veterans, visit the Coaching Into Care website.Visit Coaching into Care\n\n## How do I talk to my child about a suicide attempt in the family?\n\nGet tips for talking to children of different ages about suicide:\n\n- Preschoolers\n- School-age children\n- Teenagers\n- All ages\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Mental Health Services | Veterans Affairs#1_0::c0004",
+          "text": "[VA心理健康服务 > 关于VA心理健康服务的更多信息]\n获取您可能对我们的服务有其他问题的答案。\n\n- 被诊断出心理健康状况或寻求心理健康护理并不会自动使与工作相关的凭证（如安全许可）面临风险。大多数雇主认识到，在需要时获得帮助的健康员工比那些因感觉不适而表现不佳的员工在工作中更有效率。\n\n- 不。如果您不符合VA医疗保健的资格，您可能仍然可以获得某些医疗保健服务，例如与军事性创伤相关的护理。\n\n拨打我们的VA总热线800-827-1000，了解您的护理选项可能是什么。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n根据您的需求和情况，您还可以：\n\n- 在我们的300个社区退伍军人中心之一，为参战退伍军人和家庭提供免费的私人咨询、酒精和药物评估以及其他支持。查找您附近的退伍军人中心\n  - 联系无家可归退伍军人国家呼叫中心，电话877-424-3838，全天候24小时，每周7天提供帮助。训练有素的VA顾问将提供有关VA无家可归者计划、医疗保健和您所在地区其他服务的信息。电话免费且保密。\n  - 致电或访问您当地的VA社区资源和转介中心。即使您不符合VA医疗保健的资格，我们的工作人员也可以帮助您找到您所在社区中您可能符合资格的非VA资源。查找您当地的社区资源和转介中心\n\n或者您可以申请VA医疗保健以访问更多服务：\n\n了解您是否有资格获得VA医疗保健了解如何申请医疗保健福利\n\n- 要了解更多关于您是否有资格获得服务的信息，请致电您最近的VA医疗中心。查找您最近的VA医疗中心\n\n或拨打877-222-8387以找到适合您需求的资源。如果您有听力损失，请拨打TTY：800-877-8339。我们周一至周五，东部时间上午8:00至晚上8:00提供服务。\n\n- 您联系我们当天就会开始获得帮助。我们提供当日服务，以确保我们可以解决您的心理健康需求或立即安排适当的后续护理。您获得的具体护理将取决于您的需求紧急程度以及您寻求的治疗水平。\n\n当日服务可能包括以下护理：\n\n- 与VA医疗保健提供者面对面会诊（包括在诊所或紧急护理中心的免预约就诊）\n  - 与VA提供者进行远程医疗或视频护理预约\n  - 通过电话与VA护士交谈，获取医疗建议（称为护士分诊）\n  - 通过安全消息与VA提供者沟通\n  - 安排未来的预约\n  - 获取处方药\n\n- 我们为一系列心理健康问题提供治疗和支持，包括：\n\n- 创伤后应激障碍（PTSD）\n  - 抑郁症\n  - 自杀念头\n  - 与军事性创伤（MST）相关的问题\n  - 物质使用问题\n  - 双相情感障碍\n  - 精神分裂症\n\n我们还治疗与焦虑相关的疾病，如：\n\n- 广泛性焦虑障碍\n  - 恐慌障碍\n  - 社交焦虑\n  - 特定恐惧症\n\n- 我们提供一系列心理健康服务，如：\n\n- 为患有严重或危及生命的心理疾病的退伍军人提供短期住院护理\n  - 为患有严重心理疾病且在日常生活中遇到很多困难的退伍军人提供门诊护理\n  - 常规门诊护理，可能包括通过电话提供的护理，适用于面临生活困难的退伍军人\n  - 康复治疗和住院（住宿）项目，适用于有心理健康问题和其他需求（如与无家可归、职业培训和相关的需求）的退伍军人，这些退伍军人通过在一段时间内接受治疗或生活在结构化环境中能得到最佳帮助\n  - 为许多常见的心理和行为问题提供初级保健\n  - 支持性工作环境，帮助退伍军人加入劳动力队伍并在社区中良好生活\n\n我们还为处于危机中的退伍军人提供护理。这包括：\n\n- 通过VA医疗中心和一些当地的非VA医院，每周7天、每天24小时提供紧急心理健康护理\n  - 退伍军人危机热线，为处于危机中的退伍军人及其家人和朋友提供每周7天、每天24小时的支持\n\n了解更多关于VA心理健康服务的信息\n\n- 是的。除了在线资源外，您最近的VA医疗中心的照护者支持协调员和照护者同伴支持指导计划可以帮助照护者相互联系，以获得支持和学习。\n\n作为照护者获得支持：\n\n- 查找当地的照护者支持协调员\n  - 或拨打照护者支持热线855-260-3274，周一至周五，东部时间上午8:00至下午8:00\n\n您也可以联系我们的“指导进入护理”计划，免费与持牌心理学家或社会工作者直接交谈。他们可以提供有关心理健康和VA服务的信息，以及如何开始与亲人谈论治疗的技巧。\n\n联系持牌心理学家或社会工作者：\n\n- 在线联系“指导进入护理”\n  - 或拨打888-823-7458，周一至周五，东部时间上午8:00至下午8:00\n\n- 您可以使用我们的设施定位器搜索您附近的VA医疗设施。查找您最近的VA医疗设施"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0027",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 心理健康服务]\n了解如何获取VA心理健康服务，用于创伤后应激障碍（PTSD）、军事性创伤（MST）的心理影响、抑郁、悲伤、焦虑及其他需求。"
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0001",
+          "text": "[PTSD 治疗 > 我现在如何与人交谈？]\n无论您是刚从部署归来，还是已经回家40年，寻求 PTSD（创伤后应激障碍）帮助永远都不晚。接受咨询或治疗可以帮助您管理症状并防止其恶化。\n\n我们的 National Center for PTSD 是 PTSD 研究、教育和治疗领域的全球领导者。了解如何通过 VA 获取 PTSD 健康服务。\n\n了解如何白天或夜晚随时获得支持。\n\n如果您是一位处于危机中的退伍军人，或担心某位退伍军人，请与我们关怀备至、经验丰富的Veterans Crisis Line responders联系，获取保密帮助。他们中许多人本身就是退伍军人。此服务是私密的、免费的，并且全天候24/7可用。\n\n要随时与Veterans Crisis Line responder联系，白天或夜晚：\n\n- 拨打800-273-8255，然后选择1。\n- 开始一次保密的Veterans聊天。\n- 发送短信至838255。\n- 如果您有听力障碍，请拨打TTY：800-799-4889。\n\n您还可以：\n\n- 拨打911。\n- 前往最近的急诊室。\n- 直接前往最近的VA医疗中心。无论您的退役身份如何，或是否已加入VA医疗保健，都可以。查找最近的VA医疗中心"
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0002",
+          "text": "[PTSD 治疗 > VA为PTSD提供哪些服务？]\n#### 我们在全国有近200个PTSD治疗项目，提供：\n\n- 一对一心理健康评估和测试，以确定您是否患有PTSD\n- 经证明对治疗PTSD有效的药物\n- 一对一心理治疗（也称为谈话疗法）。这包括如认知处理疗法（CPT）等经过验证的方法。\n- 一对一家庭治疗\n- 针对特殊需求的团体治疗，如愤怒或压力管理，或战斗支持\n- 为曾在特定战区服役或经历过类似创伤的退伍军人提供团体治疗\n\n#### 我们还提供其他形式的治疗和支持：\n\n- PTSD专家在美国各地的每个VA医疗中心为患有PTSD的退伍军人提供常规门诊护理。\n- 美国各地区设有专门的住院（住宿）或住院护理项目，帮助有严重PTSD症状且难以进行正常日常活动（如上班）的退伍军人。\n- 提供商在我们一些大型社区门诊诊所提供额外的PTSD护理。\n\n查找您附近的VA医疗中心或诊所\n\n请注意：如果您不住在VA医疗中心或诊所附近，我们的心理健康提供者可以通过电话为您提供咨询（称为远程心理健康护理）。或者，我们可以将您转介到附近的Vet Center或医疗保健提供者。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Veteran Suicide Prevention | Veterans Affairs#1_0::c0000",
+          "text": "# Veteran Suicide Prevention | Veterans Affairs\n\n# Veteran suicide prevention\n\nIf you re a Veteran in a mental health crisis and you re thinking about hurting yourself or you know a Veteran who s considering this act now. You re not alone, and you can get help.\n\n### How do I talk to someone right now?\n\nFind out how to get support anytime day or night.\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.\n\nTo connect with a Veterans Crisis Line responder anytime day or night:\n\n- Call 800-273-8255, then select 1.\n- Start a confidential Veterans chat.\n- Text 838255.\n- If you have hearing loss, call TTY: 800-799-4889.\n\nYou can also:\n\n- Call 911.\n- Go to the nearest emergency room.\n- Go directly to your nearest VA medical center. It doesn't matter what your discharge status is or if you're enrolled in VA health care.Find your nearest VA medical center\n\n### Where can I turn for ongoing support?\n\n#### You can find ongoing support through VA to help you get your life back on track:\n\n- Our specially trained suicide prevention coordinators available in each VA medical center across the country can help you get the counseling and services you need.\n- Our Vet Centers can help you and your family readjust to life at home after you ve returned from serving in a combat zone.\n- Our Veterans Benefits Administration offices can help you access benefits for disability compensation (monthly payments), job training, home loans, and more.\n\nFind these and other resources near you\n\n#### You can also find information and support on our websites:\n\n- Get information about suicide prevention and the support we offer.Visit our suicide prevention website\n- Go to our Make the Connection website to get resources and watch stories of Veterans who ve overcome depression and other mental health challenges.Visit Make the Connection\n\n## What are the signs that someone may be considering suicide?\n\nMany Veterans don t show any signs of an urge to harm themselves before doing so. But some may show signs of depression, anxiety, low self-esteem, or hopelessness, like:\n\n- Seeming sad, depressed, anxious, or agitated most of the time\n- Sleeping either all the time or not much at all\n- Not caring about what they look like or what happens to them\n- Pulling away from friends, family, and society\n- Losing interest in hobbies, work, school, or other things they used to care about\n- Expressing feelings of excessive guilt or shame, failure, lack of purpose in life, or being trapped\n\nThey may also change the way they act, and start to:\n\n- Perform poorly at work or school\n- Act violently or take risks (like driving fast or running red lights)\n- Do things to prepare for a suicide (like giving away special personal items, making a will, or seeking access to guns or pills)\n\nGet the full list of signs that someone may be considering suicide\n\nLearn about common suicide myths and realities, Veteran-specific suicide risks, and warning signs.Recognize when to ask for help\n\nTake our Veterans self-check quiz\n\n## I want to help a Veteran adjust to life at home, but I don t know how. Can I get support?\n\nYes. If you re a family member or friend of a Veteran who s having trouble adjusting to life at home, we can help. Through our national Coaching Into Care program, our licensed psychologists and social workers will talk with you by phone, free of charge, to help you find your way around the VA system and figure out the best way to help the Veteran you care about. All calls are confidential (private).\n\nTo speak with a VA coach, call 888-823-7458, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nTo get tips and resources for spouses, parents, and Veterans, visit the Coaching Into Care website.Visit Coaching into Care\n\n## How do I talk to my child about a suicide attempt in the family?\n\nGet tips for talking to children of different ages about suicide:\n\n- Preschoolers\n- School-age children\n- Teenagers\n- All ages\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Mental Health Services | Veterans Affairs#1_0::c0004",
+          "text": "[VA心理健康服务 > 关于VA心理健康服务的更多信息]\n获取您可能对我们的服务有其他问题的答案。\n\n- 被诊断出心理健康状况或寻求心理健康护理并不会自动使与工作相关的凭证（如安全许可）面临风险。大多数雇主认识到，在需要时获得帮助的健康员工比那些因感觉不适而表现不佳的员工在工作中更有效率。\n\n- 不。如果您不符合VA医疗保健的资格，您可能仍然可以获得某些医疗保健服务，例如与军事性创伤相关的护理。\n\n拨打我们的VA总热线800-827-1000，了解您的护理选项可能是什么。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n根据您的需求和情况，您还可以：\n\n- 在我们的300个社区退伍军人中心之一，为参战退伍军人和家庭提供免费的私人咨询、酒精和药物评估以及其他支持。查找您附近的退伍军人中心\n  - 联系无家可归退伍军人国家呼叫中心，电话877-424-3838，全天候24小时，每周7天提供帮助。训练有素的VA顾问将提供有关VA无家可归者计划、医疗保健和您所在地区其他服务的信息。电话免费且保密。\n  - 致电或访问您当地的VA社区资源和转介中心。即使您不符合VA医疗保健的资格，我们的工作人员也可以帮助您找到您所在社区中您可能符合资格的非VA资源。查找您当地的社区资源和转介中心\n\n或者您可以申请VA医疗保健以访问更多服务：\n\n了解您是否有资格获得VA医疗保健了解如何申请医疗保健福利\n\n- 要了解更多关于您是否有资格获得服务的信息，请致电您最近的VA医疗中心。查找您最近的VA医疗中心\n\n或拨打877-222-8387以找到适合您需求的资源。如果您有听力损失，请拨打TTY：800-877-8339。我们周一至周五，东部时间上午8:00至晚上8:00提供服务。\n\n- 您联系我们当天就会开始获得帮助。我们提供当日服务，以确保我们可以解决您的心理健康需求或立即安排适当的后续护理。您获得的具体护理将取决于您的需求紧急程度以及您寻求的治疗水平。\n\n当日服务可能包括以下护理：\n\n- 与VA医疗保健提供者面对面会诊（包括在诊所或紧急护理中心的免预约就诊）\n  - 与VA提供者进行远程医疗或视频护理预约\n  - 通过电话与VA护士交谈，获取医疗建议（称为护士分诊）\n  - 通过安全消息与VA提供者沟通\n  - 安排未来的预约\n  - 获取处方药\n\n- 我们为一系列心理健康问题提供治疗和支持，包括：\n\n- 创伤后应激障碍（PTSD）\n  - 抑郁症\n  - 自杀念头\n  - 与军事性创伤（MST）相关的问题\n  - 物质使用问题\n  - 双相情感障碍\n  - 精神分裂症\n\n我们还治疗与焦虑相关的疾病，如：\n\n- 广泛性焦虑障碍\n  - 恐慌障碍\n  - 社交焦虑\n  - 特定恐惧症\n\n- 我们提供一系列心理健康服务，如：\n\n- 为患有严重或危及生命的心理疾病的退伍军人提供短期住院护理\n  - 为患有严重心理疾病且在日常生活中遇到很多困难的退伍军人提供门诊护理\n  - 常规门诊护理，可能包括通过电话提供的护理，适用于面临生活困难的退伍军人\n  - 康复治疗和住院（住宿）项目，适用于有心理健康问题和其他需求（如与无家可归、职业培训和相关的需求）的退伍军人，这些退伍军人通过在一段时间内接受治疗或生活在结构化环境中能得到最佳帮助\n  - 为许多常见的心理和行为问题提供初级保健\n  - 支持性工作环境，帮助退伍军人加入劳动力队伍并在社区中良好生活\n\n我们还为处于危机中的退伍军人提供护理。这包括：\n\n- 通过VA医疗中心和一些当地的非VA医院，每周7天、每天24小时提供紧急心理健康护理\n  - 退伍军人危机热线，为处于危机中的退伍军人及其家人和朋友提供每周7天、每天24小时的支持\n\n了解更多关于VA心理健康服务的信息\n\n- 是的。除了在线资源外，您最近的VA医疗中心的照护者支持协调员和照护者同伴支持指导计划可以帮助照护者相互联系，以获得支持和学习。\n\n作为照护者获得支持：\n\n- 查找当地的照护者支持协调员\n  - 或拨打照护者支持热线855-260-3274，周一至周五，东部时间上午8:00至下午8:00\n\n您也可以联系我们的“指导进入护理”计划，免费与持牌心理学家或社会工作者直接交谈。他们可以提供有关心理健康和VA服务的信息，以及如何开始与亲人谈论治疗的技巧。\n\n联系持牌心理学家或社会工作者：\n\n- 在线联系“指导进入护理”\n  - 或拨打888-823-7458，周一至周五，东部时间上午8:00至下午8:00\n\n- 您可以使用我们的设施定位器搜索您附近的VA医疗设施。查找您最近的VA医疗设施"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0027",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 心理健康服务]\n了解如何获取VA心理健康服务，用于创伤后应激障碍（PTSD）、军事性创伤（MST）的心理影响、抑郁、悲伤、焦虑及其他需求。"
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0001",
+          "text": "[PTSD 治疗 > 我现在如何与人交谈？]\n无论您是刚从部署归来，还是已经回家40年，寻求 PTSD（创伤后应激障碍）帮助永远都不晚。接受咨询或治疗可以帮助您管理症状并防止其恶化。\n\n我们的 National Center for PTSD 是 PTSD 研究、教育和治疗领域的全球领导者。了解如何通过 VA 获取 PTSD 健康服务。\n\n了解如何白天或夜晚随时获得支持。\n\n如果您是一位处于危机中的退伍军人，或担心某位退伍军人，请与我们关怀备至、经验丰富的Veterans Crisis Line responders联系，获取保密帮助。他们中许多人本身就是退伍军人。此服务是私密的、免费的，并且全天候24/7可用。\n\n要随时与Veterans Crisis Line responder联系，白天或夜晚：\n\n- 拨打800-273-8255，然后选择1。\n- 开始一次保密的Veterans聊天。\n- 发送短信至838255。\n- 如果您有听力障碍，请拨打TTY：800-799-4889。\n\n您还可以：\n\n- 拨打911。\n- 前往最近的急诊室。\n- 直接前往最近的VA医疗中心。无论您的退役身份如何，或是否已加入VA医疗保健，都可以。查找最近的VA医疗中心"
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0002",
+          "text": "[PTSD 治疗 > VA为PTSD提供哪些服务？]\n#### 我们在全国有近200个PTSD治疗项目，提供：\n\n- 一对一心理健康评估和测试，以确定您是否患有PTSD\n- 经证明对治疗PTSD有效的药物\n- 一对一心理治疗（也称为谈话疗法）。这包括如认知处理疗法（CPT）等经过验证的方法。\n- 一对一家庭治疗\n- 针对特殊需求的团体治疗，如愤怒或压力管理，或战斗支持\n- 为曾在特定战区服役或经历过类似创伤的退伍军人提供团体治疗\n\n#### 我们还提供其他形式的治疗和支持：\n\n- PTSD专家在美国各地的每个VA医疗中心为患有PTSD的退伍军人提供常规门诊护理。\n- 美国各地区设有专门的住院（住宿）或住院护理项目，帮助有严重PTSD症状且难以进行正常日常活动（如上班）的退伍军人。\n- 提供商在我们一些大型社区门诊诊所提供额外的PTSD护理。\n\n查找您附近的VA医疗中心或诊所\n\n请注意：如果您不住在VA医疗中心或诊所附近，我们的心理健康提供者可以通过电话为您提供咨询（称为远程心理健康护理）。或者，我们可以将您转介到附近的Vet Center或医疗保健提供者。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0001",
+          "document": "PTSD Treatment | Veterans Affairs#1_0",
+          "heading": [
+            "PTSD 治疗",
+            "我现在如何与人交谈？"
+          ],
+          "source_file": "va_066.md",
+          "excerpt": "[PTSD 治疗 > 我现在如何与人交谈？]\n无论您是刚从部署归来，还是已经回家40年，寻求 PTSD（创伤后应激障碍）帮助永远都不晚。接受咨询或治疗可以帮助您管理症状并防止其恶化。\n\n我们的 National Center for PTSD 是 PTSD 研究、教育和治疗领域的全球领导者。了解如何通过 VA 获取 PTSD 健康服务。\n\n了解如何白天或夜晚随时获得支持。\n\n如果您是一位处于危机中的退伍军人，或担心某位退伍军人，请与我们关怀备至、经验丰富的Veterans Crisis Line responders联系，获取保密帮助。他们中许多人本身就是退伍军人。此服务是私密的、免费的，并且全天候24/7可用。\n\n要随时与Veterans Crisis Line responder联系，白天或夜晚：\n\n- 拨打800-273-8255，然后选择1。\n- 开始一次保密的Veterans聊天。\n- 发送短信至838255。\n- 如果您有听力障碍，请拨打TTY：800-799-4889。\n\n您还可以：\n\n- 拨打911。\n- 前往最近的急诊室。\n- 直接前往最近的VA医疗中心。无论您的退役身份如何，或是否已加入VA医疗保健，都可以。查找最近的VA医疗中心"
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0002",
+          "document": "PTSD Treatment | Veterans Affairs#1_0",
+          "heading": [
+            "PTSD 治疗",
+            "VA为PTSD提供哪些服务？"
+          ],
+          "source_file": "va_066.md",
+          "excerpt": "[PTSD 治疗 > VA为PTSD提供哪些服务？]\n#### 我们在全国有近200个PTSD治疗项目，提供：\n\n- 一对一心理健康评估和测试，以确定您是否患有PTSD\n- 经证明对治疗PTSD有效的药物\n- 一对一心理治疗（也称为谈话疗法）。这包括如认知处理疗法（CPT）等经过验证的方法。\n- 一对一家庭治疗\n- 针对特殊需求的团体治疗，如愤怒或压力管理，或战斗支持\n- 为曾在特定战区服役或经历过类似创伤的退伍军人提供团体治疗\n\n#### 我们还提供其他形式的治疗和支持：\n\n- PTSD专家在美国各地的每个VA医疗中心为患有PTSD的退伍军人提供常规门诊护理。\n- 美国各地区设有专门的住院（住宿）或住院护理项目，帮助有严重PTSD症状且难以进行正常日常活动（如上班）的退伍军人。\n- 提供商在我们一些大型社区门诊诊所提供额外的PTSD护理。\n\n查找您附近的VA医疗中心或诊所\n\n请注意：如果您不住在VA医疗中心或诊所附近，我们的心理健康提供者可以通过电话为您提供咨询（称为远程心理健康护理）。或者，我们可以将您转介到附近的Vet Center或医疗保健提供者。"
+        },
+        {
+          "chunk_id": "VA Mental Health Services | Veterans Affairs#1_0::c0004",
+          "document": "VA Mental Health Services | Veterans Affairs#1_0",
+          "heading": [
+            "VA心理健康服务",
+            "关于VA心理健康服务的更多信息"
+          ],
+          "source_file": "va_113.md",
+          "excerpt": "[VA心理健康服务 > 关于VA心理健康服务的更多信息]\n获取您可能对我们的服务有其他问题的答案。\n\n- 被诊断出心理健康状况或寻求心理健康护理并不会自动使与工作相关的凭证（如安全许可）面临风险。大多数雇主认识到，在需要时获得帮助的健康员工比那些因感觉不适而表现不佳的员工在工作中更有效率。\n\n- 不。如果您不符合VA医疗保健的资格，您可能仍然可以获得某些医疗保健服务，例如与军事性创伤相关的护理。\n\n拨打我们的VA总热线800-827-1000，了解您的护理选项可能是什么。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n根据您的需求和情况，您还可以：\n\n- 在我们的300个社区退伍军人中心之一，为参战退伍军人和家庭提供免费的私人咨询、酒精和药物评估以及其他支持。查找您附近的退伍军人中心\n  - 联系无家可归退伍军人国家呼叫中心，电话877-424-3838，全天候24小时，每周7天提供帮助。训练有素的VA顾问将提供有关VA无家可归者计划、医疗保健和您所在地区其他服务的信息。电话免费且保密。\n  - 致电或访问您当地的VA社区资源和转介中心。即使您不符合VA医疗保健的资格，我们的工作人员也可以帮助您找到您所在社区中您可能符合资格的非VA资源。查找您当地的社区资源和转介中心\n\n或者您可以申请VA医疗保健以访问更多服务：\n\n了解您是否有资格获得VA医疗保健了解如何申请医疗保健福利\n\n- 要了解更多关于您是否有资格获得服务的信息，请致电您最近的VA医疗中心。查找您最近的VA医疗中心\n\n或拨打877-222-8387以找到适合您需求的资源。如果您有听力损失，请拨打TTY：800-877-8339。我们周一至周五，东部时间上午8:00至晚上8:00提供服务。\n\n- 您联系我们当天就会开始获得帮助。我们提供当日服务，以确保我们可以解决您的心理健康需求或立即安排适当的后续护理。您获得的具体护理将取决于您的需求紧急程度以及您寻求的治疗水平。\n\n当日服务可能包括以下护理：\n\n- 与VA医疗保健提供者面对面会诊（包括在诊所或紧急护理中心的免预约就诊）\n  - 与VA提供者进行远程医疗或视频护理预约\n  - 通过电话与VA护士交谈，获取医疗建议（称为护士分诊）\n  - 通过安全消息与VA提供者沟通\n  - 安排未来的预约\n  - 获取处方药\n\n- 我们为一系列心理健康问题提供治疗和支持，包括：\n\n- 创伤后应激障碍（PTSD）\n  - 抑郁症\n  - 自杀念头\n  - 与军事性创伤（MST）相关的问题\n  - 物质使用问题\n  - 双相情感障碍\n  - 精神分裂症\n\n我们还治疗与焦虑相关的疾病，如：\n\n- 广泛性焦虑障碍\n  - 恐慌障碍\n  - 社交焦虑\n  - 特定恐惧症\n\n- 我们提供一系列心理健康服务，如：\n\n- 为患有严重或危及生命的心理疾病的退伍军人提供短期住院护理\n  - 为患有严重心理疾病且在日常生活中遇到很多困难的退伍军人提供门诊护理\n  - 常规门诊护理，可能包括通过电话提供的护理，适用于面临生活困难的退伍军人\n  - 康复治疗和住院（住宿）项目，适用于有心理健康问题和其他需求（如与无家可归、职业培训和相关的需求）的退伍军人，这些退伍军人通过在一段时间内接受治疗或生活在结构化环境中能得到最佳帮助\n  - 为许多常见的心理和行为问题提供初级保健\n  - 支持性工作环境，帮助退伍军人加入劳动力队伍并在社区中良好生活\n\n我们还为处于危机中的退伍军人提供护理。这包括：\n\n- 通过VA医疗中心和一些当地的非VA医院，每周7天、每天24小时提供紧急心理健康护理\n  - 退伍军人危机热线，为处于危机中的退伍军人及其家人和朋友提供每周7天、每天24小时的支持\n\n了解更多关于VA心理健康服务的信息\n\n- 是的。除了在线资源外，您最近的VA医疗中心的照护者支持协调员和照护者同伴支持指导计划可以帮助照护者相互联系，以获得支持和学习。\n\n作为照护者获得支持：\n\n- 查找当地的照护者支持协调员\n  - 或拨打照护者支持热线855-260-3274，周一至周五，东部时间上午8:00至下午8:00\n\n您也可以联系我们的“指导进入护理”计划，免费与持牌心理学家或社会工作者直接交谈。他们可以提供有关心理健康和VA服务的信息，以及如何开始与亲人谈论治疗的技巧。\n\n联系持牌心理学家或社会工作者：\n\n- 在线联系“指导进入护理”\n  - 或拨打888-823-7458，周一至周五，东部时间上午8:00至下午8:00\n\n- 您可以使用我们的设施定位器搜索您附近的VA医疗设施。查找您最近的VA医疗设施"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "To get VA care for PTSD, you generally need to apply for VA health care first. You can apply online, by phone at 877-222-VETS (8387), by mail, or in person at a VA medical center. Once enrolled, you can request an appointment for a mental health assessment. VA offers proven PTSD treatments like cognitive processing therapy (CPT), medication, and individual or group therapy. If you're in crisis, call the Veterans Crisis Line at 800-273-8255 and select 1, or go to the nearest VA medical center or emergency room—eligibility for VA health care is not required for emergency crisis care. For more specific steps, contact your nearest VA medical center or call 877-222-8387 (TTY: 800-877-8339) Monday–Friday, 8:00 a.m. to 8:00 p.m. ET.",
+          "citations": [
+            "PTSD Treatment | Veterans Affairs#1_0::c0001",
+            "PTSD Treatment | Veterans Affairs#1_0::c0002",
+            "VA Mental Health Services | Veterans Affairs#1_0::c0004"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "a8bf935522474f26a586c2ce97b969cc",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3144,
+              "completion_tokens": 249,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 249,
+                "prompt_tokens": 3144,
+                "total_tokens": 3393,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2888
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0054653,
+            "accounted_rmb": 0.0054653,
+            "usage_unknown": false,
+            "seconds": 3.424206018447876,
+            "error": null,
+            "response": {
+              "id": "a4c10531-77fd-46d6-910f-be49816abcd8",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "af0b02ecdb4768f3265b4b06d4493a5f0b152452d7994b2c69d67b289300afe2"
+      },
+      "latency_ms": {
+        "queue_wait": 0.0071249669417738914,
+        "retrieval": 1436.1912910826504,
+        "generation": 3428.3786669839174,
+        "total": 4865.768707939424
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.20530920790042728,
+        "rerank_seconds": 1.2308472499717027,
+        "top1_dense_score": 0.8393518328666687,
+        "candidate_ids": [
+          "Veteran Suicide Prevention | Veterans Affairs#1_0::c0000",
+          "PTSD Treatment | Veterans Affairs#1_0::c0001",
+          "Substance Use Treatment For Veterans | Veterans Affairs#1_0::c0000",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0001",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "PTSD Treatment | Veterans Affairs#1_0::c0006",
+          "PTSD Treatment | Veterans Affairs#1_0::c0002",
+          "PTSD Treatment | Veterans Affairs#1_0::c0004",
+          "VA Health Care | Veterans Affairs#2_0::c0002",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0005",
+          "VA Health Care | Veterans Affairs#1_0::c0027",
+          "VA Health Care | Veterans Affairs#1_0::c0006",
+          "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0004",
+          "Health Needs And Conditions | Veterans Affairs#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0002",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0002",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0004",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0002",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0006"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 36,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.436164665967226
+      },
+      "raw_citations": [
+        "PTSD Treatment | Veterans Affairs#1_0::c0001",
+        "PTSD Treatment | Veterans Affairs#1_0::c0002",
+        "VA Mental Health Services | Veterans Affairs#1_0::c0004"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "8d31b165d83789656e53d86e29f46c4bdf1af1366589add7d8b64af5030ecdd3"
+}

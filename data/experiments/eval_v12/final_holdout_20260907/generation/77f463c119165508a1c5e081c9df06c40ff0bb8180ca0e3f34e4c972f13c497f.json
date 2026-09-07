@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-005",
+    "item_sha256": "9bd608a780d4166f165d8fb397fb83b78d764b699e5a965e2b2daecc1cc5076c",
+    "result": {
+      "request_id": "20e092220443439796e8d1be1d47f3e4",
+      "session_id": "synthetic::eval-v1-holdout-refuse-005",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "I cannot check the status of mailed documents or your specific claim. Per VA guidance, documents you send by mail or fax won't appear in the online claim status tool. To check your claim status, sign in to VA.gov and go to your \"My VA\" dashboard, then the \"Track Claims\" section. For questions about mailed evidence, call VA at 800-827-1000 (Monday–Friday, 8:00 a.m. to 9:00 p.m. ET).",
+        "citations": [
+          "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000",
+          "text": "# Check Your VA Claim Or Appeal Status | Veterans Affairs\n\n## Check your VA claim or appeal status\n\nFind out how to check the status of a VA claim or appeal online.\n\n# What types of claims and appeals can | track with this tool?\n\nYou can use this tool to check the status of a VA claim or appeal for compensation. Track your:\n\n- Disability compensation (including claims based on special needs like an automobile or clothing allowance)\n\n- Veterans or Survivors Pension benefits\n\n- Special monthly compensation (such as Aid and Attendance)\n\n- Dependency and Indemnity Compensation (DIC)\n\n- Burial allowance to help pay for a Veteran s burial and funeral expenses You can also use this tool to check the status of a claim or appeal for other benefits like these:\n\n- VA health care\n\n- GI Bill or other education benefits\n\n- Vocational rehabilitation and employment\n\n- A home loan Certificate of Eligibility (COE)\n\n- A Specially Adapted Housing (SAH) or Special Housing Adaptation (SHA) grant\n\n- Life insurance\n\n- A pre-need determination of eligibility to be buried in a VA national cemetery\n\n## Can | use this tool?\n\nTo use this tool, you Il need to have one of these free accounts:\n\n- A Premium My HealtheVet account, or\n\n- A Premium DS Logon account (used for eBenefits and milConnect), or\n\n- A verified ID.me account that you can create here on VA.gov\n\n## Once | m signed in, how do | check my VA claim or appeal status?\n\nGo to your \"My VA\" dashboard. You'll find the link for this dashboard in the top right corner of the page once you're signed in. Scroll down to the \"Track Claims\" section. There, you'll see a summary of the latest status information for any open claims or appeals you may have. Click on the \"View Status\" button for a specific claim. You'll go to a page with more details about that claim's status and supporting evidence. Evidence may include documents like a doctor's report or medical test results.\n\n# What kind of information will | learn about my VA claim or appeal?\n\nYou II see where your claim or appeal is in our review process, and when we think we Il complete our review.\n\nYou can also view these details:\n\n- Any evidence you ve filed online to support your initial claim\n\n- Any additional evidence we ve requested from you\n\n- Your claim type\n\n- What you ve claimed\n\n- Your representative for VA claims Note: You can only upload documents online to support your initial claim. You can t upload documents online to support an appeal.\n\n## What if | don t see a document | sent to VA as evidence?\n\nThis may be because certain documents won t appear online.\n\nYou won t see documents that:\n\n- You sent to us by mail or fax, or\n\n- You brought to us in person, or\n\n- We ve restricted to protect your or someone else s confidentiality (privacy)\n\n# Will my personal information be protected if | use this tool?\n\nYes. This is a secure website. We follow strict security policies and practices to protect your personal health information.\n\nIf you print or download anything from the website, you Il need to take responsibility for protecting that information.\n\n# What if | have more questions?\n\nYou can call us at 800-827-1000. We re here Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "After You Apply For Health Care Benefits | Veterans Affairs#1_0::c0000",
+          "text": "# After You Apply For Health Care Benefits | Veterans Affairs\n\n# After you apply for health care benefits\n\nAfter you ve applied for VA health care, we ll send you a letter in the mail to let you know if your application has been approved. Find out when to expect your letter and what to do next.\n\n## When will I hear back about my application?\n\nIn less than 1 week\n\nIf more than a week has passed since you gave us your application and you haven t heard back, please don t apply again. Call our toll-free hotline at 877-222-8387.\n\n## If you approve my application, what do I do next?\n\n1.  Wait for your welcome call from VA. We ll call you to welcome you to the VA health care program, help you with scheduling your first doctor s appointment, and answer any questions you may have about your health care benefits.\n\n2.  Read your Veterans Health Benefits Handbook. We ll send this to you by mail. Your handbook will explain your specific health care benefits (based on the priority group we assigned you), how much you ll pay in copays, and other helpful information.Download a sample handbook (PDF)\n\n3.  Get your Veterans Health Identification Card (VHIC). This is the card you ll use for ID and to check in at your VA health care appointments. To get your card, contact your local VA medical center and speak with the enrollment coordinator. Ask the coordinator to help you arrange to have your picture taken for your new VHIC. Or, you can request your VHIC at your next VA health care appointment.Learn more about the VHICFind a VA medical center near you\n\n4.  Go to your first VA doctor s appointment. You may have requested a doctor s appointment when you applied (either in person or on your application). If you did, we ll set up an appointment for you with a VA doctor or provider and send you a notice with your appointment time in the mail. If you didn t ask for a doctor s appointment when you applied, we ll help you set up your appointment during your welcome call.\n\n## Other questions you may have\n\n- Contact your local VA medical center or clinic and ask for:\n\n- The enrollment coordinator, or\n  - The urgent care clinic, or\n  - The emergency room\n\nFind a VA health facility near you\n\n- If you want to know more about your VA health care benefits, your health care team, and where you ll go for care, we can help.Learn more about your VA health care coverage\n\nIf you re signed up for VA health care, you can manage your VA health and benefits online through VA.gov:Refill your prescriptionsSend a secure message to your health care teamCheck the status of a disability or pension claim\n\nIf you need help accessing services, call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\n- To update your personal information, such as income, address, and insurance, fill out a Health Benefits Update Form (VA Form 10-10EZR).Download VA Form 10-10EZR (PDF)\n\nMail this form and any supporting materials to:\n\nHealth Eligibility Center 2957 Clairmont Road, Suite 200 Atlanta, GA 30329\n\nYou can also get help updating your personal information by visiting your local VA facility.Find a VA facility near you\n\n- If you disagree with the decision, you can file an appeal. We ll send you a letter with the reason we re not approving your application. This letter will include instructions on how to appeal the decision.Download our How Do I Appeal? booklet (PDF)\n\n- First, you ll want to gather any evidence to support your eligibility to stay enrolled in VA health care and send it to us. Evidence may include documents like doctor s reports, medical tests, or military service records. You ll have 60 days from the date you received your letter to send us this evidence before we make our final decision.\n\nDuring these 60 days, you ll keep and can continue to use your VA health care benefits.\n\nIf we decide not to keep you enrolled in VA health care after this time, you have the right to appeal our decision.Learn how to appeal a VA decision (PDF)\n\n- You can cancel, or decline, enrollment at any time. Just submit a signed and dated document (like a letter) telling us that you want to cancel your coverage. You can bring your document to a VA medical center or mail it to this address:\n\nVA Health Eligibility Center (HEC) 2957 Clairmont Road Atlanta, GA 30329\n\nNote: Canceling your enrollment in VA health care may impact your health care coverage requirements under the Affordable Care Act if you don t have other health care.\n\nYou may reapply at any time. But please note that we ll consider you a new applicant when you reapply. We ll base your eligibility on the eligibility requirements at that time.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "text": "[VA 索赔检查（C&P 检查） > 在你的VA索赔考试之后]\n- 我们将审查您文件中的所有证据，为您分配伤残等级，并向您发送决定通知（告知您伤残等级的信函）。\n\n每个申请都不同，但通常从开始到结束处理一个申请大约需要3到4个月。您的申请处理时间取决于申请的复杂程度以及您申请的疾病数量。\n\n查看我们关于完成申请平均天数的最新估算\n\n登录以跟踪您的申请\n\n- 是的。要获取考试最终报告的副本，您可以：\n\n- 联系最近的VA区域办事处，或\n  - 致电800-827-1000并预约查看您的文件\n\n- 我们的VA申请处理人员将审查：\n\n- 您提供给我们的医疗记录\n  - 处理您申请考试的医生的报告，以及任何要求的医学检测结果\n  - 您和其他人就您的申请所做的陈述\n  - 您的军事医疗和人事记录\n\n- 如果您对伤残福利决定提出上诉，我们可能会要求您进行申请考试。了解更多关于上诉决定的信息"
+        },
+        {
+          "chunk_id": "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "text": "# VA.gov 首页 | 退伍军人事务部\n\n# 访问和管理您的VA福利与医疗保健\n\n## 医疗保健\n\n- 续配并追踪您的处方\n- 向您的医疗团队发送安全消息\n- 安排并查看您的预约\n- 查看您的化验和检测结果\n- 立即申请VA医疗保健\n\n## 残疾\n\n- 查看您的索赔或上诉状态\n- 查看您的支付历史\n- 上传支持您索赔的证据\n- 申请VA残疾等级提升\n- 提交补偿索赔\n\n## 教育\n\n- 查看您的Post-9/11 GI Bill福利\n- 查看您的支付历史\n- 更改您当前的教育福利\n- 按学校比较GI Bill福利\n- 申请教育福利\n\n## 记录\n\n- 获取退伍军人身份证\n- 获取您的VA医疗记录\n- 下载您的福利信函\n- 更改您的地址\n- 申请您的军事记录（DD214）\n\n### 服役人员福利\n\n了解您在服役期间可能有资格享受的福利，以及在分离或退役时应考虑哪些有时限的福利。\n\n### 家庭成员福利\n\n了解您作为配偶、受抚养人或遗属可能符合资格的福利。并了解作为照顾残疾退伍军人的家庭成员，您有资格享受什么。\n\n### 葬礼和纪念\n\n获取在VA国家公墓规划葬礼的帮助，订购墓碑或其他纪念物品以纪念退伍军人的服务，并申请遗属和受抚养人福利。\n\n### 职业与就业\n\n申请职业康复服务，为您的退伍军人拥有的小企业获得支持，并获取其他职业资源。\n\n### 住房援助\n\n了解您是否有资格获得VA支持的住房贷款。如果您有与服务相关的残疾，请查看您是否有资格获得住房补助金，以帮助您更独立地生活。\n\n### 养老金\n\n为战时退伍军人和收入有限或没有收入且符合特定年龄和残疾要求的幸存者申请每月付款。\n\n### 人寿保险\n\n探索VA为退伍军人、服役人员和家庭提供的人寿保险选项。在线管理您的保单，提交福利索赔，并获取有用的资源。\n\n### 教育培训\n\n申请并管理您的GI法案和其他教育福利，以帮助支付大学和培训项目的费用。\n\n### 记录\n\n申请打印的退伍军人身份证，获取您的VA福利信函和医疗记录，并了解如何申请退役升级。\n\n### 医疗保健\n\n申请VA医疗保健，了解如何获取服务，并在线管理您的健康和福利。\n\n### 残疾\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。\n\n#### VA使命法案\n\n了解根据VA使命法案，社区护理的新资格标准。\n\n#### VA官方播客\n\nBorne the Battle聚焦鼓舞人心的退伍军人故事、重要资源、办公室和VA福利。\n\n#### VAntage Point：您可以使用的新闻\n\nVAntage Point是VA的官方博客。在这里，您将找到来自VA和退伍军人社区的故事。"
+        },
+        {
+          "chunk_id": "Your Health Care Costs | Veterans Affairs#1_0::c0005",
+          "text": "[您的医疗保健费用 > 我们如何评估和核实您的收入以确定资格和共付额 > VA是否会核实我提供的信息？]\n这取决于您的情况。如果您提供的信息显示您的收入低于我们的限额，并使您有资格获得免费的VA医疗保健、药物或两者，法律要求我们核实这些信息。我们通过与国内税务局（IRS）和社会保障局（SSA）确认您的信息来做到这一点。\n\n查看我们当前的收入限额\n\n由于纳税截止日期，我们通常会在您报告收入后的次年7月开始此过程。因此，例如，如果您提供2018年的信息，我们将在2019年7月进行核实。\n\n- 如果我们从IRS和SSA收到的信息显示您的收入高于我们的限额，我们将发送一封信函通知您（以及您的配偶或伴侣，如果他们的收入是您家庭收入的一部分）。您将有机会对这些信息提出异议（正式表达您的不同意）。您也可以发送文件，显示我们有应考虑的额外可扣除费用。\n\n如果您不回复我们的信函：\n\n45天后，我们将向您发送一封提醒信。\n\n75天后，我们将假定IRS和SSA的信息是正确的。我们将向您发送一封信函，解释您的资格或共付额状态的变化。我们还将解释您如何对我们的决定提出上诉。\n\n如果您通过异议我们信函中的信息来回复：\n\n当我们收到您的回复时，我们将指派一名收入核实案例经理与您（以及您的代表，如果您选择有代表的话）合作。您的案例经理将指导您完成整个过程，并帮助您找到可能将您的家庭总毛收入降至我们限额以下的任何授权扣除。我们努力在75天内解决所有案例。\n\n如果我们的审查显示您的收入仍高于我们的限额，我们将向您发送一封最终信函，说明您需要为未来的护理以及我们在审查您收入的那一年您所接受的任何护理支付共付额。我们还将解释如何对我们的决定提出上诉。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000",
+          "text": "# Check Your VA Claim Or Appeal Status | Veterans Affairs\n\n## Check your VA claim or appeal status\n\nFind out how to check the status of a VA claim or appeal online.\n\n# What types of claims and appeals can | track with this tool?\n\nYou can use this tool to check the status of a VA claim or appeal for compensation. Track your:\n\n- Disability compensation (including claims based on special needs like an automobile or clothing allowance)\n\n- Veterans or Survivors Pension benefits\n\n- Special monthly compensation (such as Aid and Attendance)\n\n- Dependency and Indemnity Compensation (DIC)\n\n- Burial allowance to help pay for a Veteran s burial and funeral expenses You can also use this tool to check the status of a claim or appeal for other benefits like these:\n\n- VA health care\n\n- GI Bill or other education benefits\n\n- Vocational rehabilitation and employment\n\n- A home loan Certificate of Eligibility (COE)\n\n- A Specially Adapted Housing (SAH) or Special Housing Adaptation (SHA) grant\n\n- Life insurance\n\n- A pre-need determination of eligibility to be buried in a VA national cemetery\n\n## Can | use this tool?\n\nTo use this tool, you Il need to have one of these free accounts:\n\n- A Premium My HealtheVet account, or\n\n- A Premium DS Logon account (used for eBenefits and milConnect), or\n\n- A verified ID.me account that you can create here on VA.gov\n\n## Once | m signed in, how do | check my VA claim or appeal status?\n\nGo to your \"My VA\" dashboard. You'll find the link for this dashboard in the top right corner of the page once you're signed in. Scroll down to the \"Track Claims\" section. There, you'll see a summary of the latest status information for any open claims or appeals you may have. Click on the \"View Status\" button for a specific claim. You'll go to a page with more details about that claim's status and supporting evidence. Evidence may include documents like a doctor's report or medical test results.\n\n# What kind of information will | learn about my VA claim or appeal?\n\nYou II see where your claim or appeal is in our review process, and when we think we Il complete our review.\n\nYou can also view these details:\n\n- Any evidence you ve filed online to support your initial claim\n\n- Any additional evidence we ve requested from you\n\n- Your claim type\n\n- What you ve claimed\n\n- Your representative for VA claims Note: You can only upload documents online to support your initial claim. You can t upload documents online to support an appeal.\n\n## What if | don t see a document | sent to VA as evidence?\n\nThis may be because certain documents won t appear online.\n\nYou won t see documents that:\n\n- You sent to us by mail or fax, or\n\n- You brought to us in person, or\n\n- We ve restricted to protect your or someone else s confidentiality (privacy)\n\n# Will my personal information be protected if | use this tool?\n\nYes. This is a secure website. We follow strict security policies and practices to protect your personal health information.\n\nIf you print or download anything from the website, you Il need to take responsibility for protecting that information.\n\n# What if | have more questions?\n\nYou can call us at 800-827-1000. We re here Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "After You Apply For Health Care Benefits | Veterans Affairs#1_0::c0000",
+          "text": "# After You Apply For Health Care Benefits | Veterans Affairs\n\n# After you apply for health care benefits\n\nAfter you ve applied for VA health care, we ll send you a letter in the mail to let you know if your application has been approved. Find out when to expect your letter and what to do next.\n\n## When will I hear back about my application?\n\nIn less than 1 week\n\nIf more than a week has passed since you gave us your application and you haven t heard back, please don t apply again. Call our toll-free hotline at 877-222-8387.\n\n## If you approve my application, what do I do next?\n\n1.  Wait for your welcome call from VA. We ll call you to welcome you to the VA health care program, help you with scheduling your first doctor s appointment, and answer any questions you may have about your health care benefits.\n\n2.  Read your Veterans Health Benefits Handbook. We ll send this to you by mail. Your handbook will explain your specific health care benefits (based on the priority group we assigned you), how much you ll pay in copays, and other helpful information.Download a sample handbook (PDF)\n\n3.  Get your Veterans Health Identification Card (VHIC). This is the card you ll use for ID and to check in at your VA health care appointments. To get your card, contact your local VA medical center and speak with the enrollment coordinator. Ask the coordinator to help you arrange to have your picture taken for your new VHIC. Or, you can request your VHIC at your next VA health care appointment.Learn more about the VHICFind a VA medical center near you\n\n4.  Go to your first VA doctor s appointment. You may have requested a doctor s appointment when you applied (either in person or on your application). If you did, we ll set up an appointment for you with a VA doctor or provider and send you a notice with your appointment time in the mail. If you didn t ask for a doctor s appointment when you applied, we ll help you set up your appointment during your welcome call.\n\n## Other questions you may have\n\n- Contact your local VA medical center or clinic and ask for:\n\n- The enrollment coordinator, or\n  - The urgent care clinic, or\n  - The emergency room\n\nFind a VA health facility near you\n\n- If you want to know more about your VA health care benefits, your health care team, and where you ll go for care, we can help.Learn more about your VA health care coverage\n\nIf you re signed up for VA health care, you can manage your VA health and benefits online through VA.gov:Refill your prescriptionsSend a secure message to your health care teamCheck the status of a disability or pension claim\n\nIf you need help accessing services, call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\n- To update your personal information, such as income, address, and insurance, fill out a Health Benefits Update Form (VA Form 10-10EZR).Download VA Form 10-10EZR (PDF)\n\nMail this form and any supporting materials to:\n\nHealth Eligibility Center 2957 Clairmont Road, Suite 200 Atlanta, GA 30329\n\nYou can also get help updating your personal information by visiting your local VA facility.Find a VA facility near you\n\n- If you disagree with the decision, you can file an appeal. We ll send you a letter with the reason we re not approving your application. This letter will include instructions on how to appeal the decision.Download our How Do I Appeal? booklet (PDF)\n\n- First, you ll want to gather any evidence to support your eligibility to stay enrolled in VA health care and send it to us. Evidence may include documents like doctor s reports, medical tests, or military service records. You ll have 60 days from the date you received your letter to send us this evidence before we make our final decision.\n\nDuring these 60 days, you ll keep and can continue to use your VA health care benefits.\n\nIf we decide not to keep you enrolled in VA health care after this time, you have the right to appeal our decision.Learn how to appeal a VA decision (PDF)\n\n- You can cancel, or decline, enrollment at any time. Just submit a signed and dated document (like a letter) telling us that you want to cancel your coverage. You can bring your document to a VA medical center or mail it to this address:\n\nVA Health Eligibility Center (HEC) 2957 Clairmont Road Atlanta, GA 30329\n\nNote: Canceling your enrollment in VA health care may impact your health care coverage requirements under the Affordable Care Act if you don t have other health care.\n\nYou may reapply at any time. But please note that we ll consider you a new applicant when you reapply. We ll base your eligibility on the eligibility requirements at that time.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "text": "[VA 索赔检查（C&P 检查） > 在你的VA索赔考试之后]\n- 我们将审查您文件中的所有证据，为您分配伤残等级，并向您发送决定通知（告知您伤残等级的信函）。\n\n每个申请都不同，但通常从开始到结束处理一个申请大约需要3到4个月。您的申请处理时间取决于申请的复杂程度以及您申请的疾病数量。\n\n查看我们关于完成申请平均天数的最新估算\n\n登录以跟踪您的申请\n\n- 是的。要获取考试最终报告的副本，您可以：\n\n- 联系最近的VA区域办事处，或\n  - 致电800-827-1000并预约查看您的文件\n\n- 我们的VA申请处理人员将审查：\n\n- 您提供给我们的医疗记录\n  - 处理您申请考试的医生的报告，以及任何要求的医学检测结果\n  - 您和其他人就您的申请所做的陈述\n  - 您的军事医疗和人事记录\n\n- 如果您对伤残福利决定提出上诉，我们可能会要求您进行申请考试。了解更多关于上诉决定的信息"
+        },
+        {
+          "chunk_id": "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "text": "# VA.gov 首页 | 退伍军人事务部\n\n# 访问和管理您的VA福利与医疗保健\n\n## 医疗保健\n\n- 续配并追踪您的处方\n- 向您的医疗团队发送安全消息\n- 安排并查看您的预约\n- 查看您的化验和检测结果\n- 立即申请VA医疗保健\n\n## 残疾\n\n- 查看您的索赔或上诉状态\n- 查看您的支付历史\n- 上传支持您索赔的证据\n- 申请VA残疾等级提升\n- 提交补偿索赔\n\n## 教育\n\n- 查看您的Post-9/11 GI Bill福利\n- 查看您的支付历史\n- 更改您当前的教育福利\n- 按学校比较GI Bill福利\n- 申请教育福利\n\n## 记录\n\n- 获取退伍军人身份证\n- 获取您的VA医疗记录\n- 下载您的福利信函\n- 更改您的地址\n- 申请您的军事记录（DD214）\n\n### 服役人员福利\n\n了解您在服役期间可能有资格享受的福利，以及在分离或退役时应考虑哪些有时限的福利。\n\n### 家庭成员福利\n\n了解您作为配偶、受抚养人或遗属可能符合资格的福利。并了解作为照顾残疾退伍军人的家庭成员，您有资格享受什么。\n\n### 葬礼和纪念\n\n获取在VA国家公墓规划葬礼的帮助，订购墓碑或其他纪念物品以纪念退伍军人的服务，并申请遗属和受抚养人福利。\n\n### 职业与就业\n\n申请职业康复服务，为您的退伍军人拥有的小企业获得支持，并获取其他职业资源。\n\n### 住房援助\n\n了解您是否有资格获得VA支持的住房贷款。如果您有与服务相关的残疾，请查看您是否有资格获得住房补助金，以帮助您更独立地生活。\n\n### 养老金\n\n为战时退伍军人和收入有限或没有收入且符合特定年龄和残疾要求的幸存者申请每月付款。\n\n### 人寿保险\n\n探索VA为退伍军人、服役人员和家庭提供的人寿保险选项。在线管理您的保单，提交福利索赔，并获取有用的资源。\n\n### 教育培训\n\n申请并管理您的GI法案和其他教育福利，以帮助支付大学和培训项目的费用。\n\n### 记录\n\n申请打印的退伍军人身份证，获取您的VA福利信函和医疗记录，并了解如何申请退役升级。\n\n### 医疗保健\n\n申请VA医疗保健，了解如何获取服务，并在线管理您的健康和福利。\n\n### 残疾\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。\n\n#### VA使命法案\n\n了解根据VA使命法案，社区护理的新资格标准。\n\n#### VA官方播客\n\nBorne the Battle聚焦鼓舞人心的退伍军人故事、重要资源、办公室和VA福利。\n\n#### VAntage Point：您可以使用的新闻\n\nVAntage Point是VA的官方博客。在这里，您将找到来自VA和退伍军人社区的故事。"
+        },
+        {
+          "chunk_id": "Your Health Care Costs | Veterans Affairs#1_0::c0005",
+          "text": "[您的医疗保健费用 > 我们如何评估和核实您的收入以确定资格和共付额 > VA是否会核实我提供的信息？]\n这取决于您的情况。如果您提供的信息显示您的收入低于我们的限额，并使您有资格获得免费的VA医疗保健、药物或两者，法律要求我们核实这些信息。我们通过与国内税务局（IRS）和社会保障局（SSA）确认您的信息来做到这一点。\n\n查看我们当前的收入限额\n\n由于纳税截止日期，我们通常会在您报告收入后的次年7月开始此过程。因此，例如，如果您提供2018年的信息，我们将在2019年7月进行核实。\n\n- 如果我们从IRS和SSA收到的信息显示您的收入高于我们的限额，我们将发送一封信函通知您（以及您的配偶或伴侣，如果他们的收入是您家庭收入的一部分）。您将有机会对这些信息提出异议（正式表达您的不同意）。您也可以发送文件，显示我们有应考虑的额外可扣除费用。\n\n如果您不回复我们的信函：\n\n45天后，我们将向您发送一封提醒信。\n\n75天后，我们将假定IRS和SSA的信息是正确的。我们将向您发送一封信函，解释您的资格或共付额状态的变化。我们还将解释您如何对我们的决定提出上诉。\n\n如果您通过异议我们信函中的信息来回复：\n\n当我们收到您的回复时，我们将指派一名收入核实案例经理与您（以及您的代表，如果您选择有代表的话）合作。您的案例经理将指导您完成整个过程，并帮助您找到可能将您的家庭总毛收入降至我们限额以下的任何授权扣除。我们努力在75天内解决所有案例。\n\n如果我们的审查显示您的收入仍高于我们的限额，我们将向您发送一封最终信函，说明您需要为未来的护理以及我们在审查您收入的那一年您所接受的任何护理支付共付额。我们还将解释如何对我们的决定提出上诉。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000",
+          "document": "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_023.pdf",
+          "excerpt": "# Check Your VA Claim Or Appeal Status | Veterans Affairs\n\n## Check your VA claim or appeal status\n\nFind out how to check the status of a VA claim or appeal online.\n\n# What types of claims and appeals can | track with this tool?\n\nYou can use this tool to check the status of a VA claim or appeal for compensation. Track your:\n\n- Disability compensation (including claims based on special needs like an automobile or clothing allowance)\n\n- Veterans or Survivors Pension benefits\n\n- Special monthly compensation (such as Aid and Attendance)\n\n- Dependency and Indemnity Compensation (DIC)\n\n- Burial allowance to help pay for a Veteran s burial and funeral expenses You can also use this tool to check the status of a claim or appeal for other benefits like these:\n\n- VA health care\n\n- GI Bill or other education benefits\n\n- Vocational rehabilitation and employment\n\n- A home loan Certificate of Eligibility (COE)\n\n- A Specially Adapted Housing (SAH) or Special Housing Adaptation (SHA) grant\n\n- Life insurance\n\n- A pre-need determination of eligibility to be buried in a VA national cemetery\n\n## Can | use this tool?\n\nTo use this tool, you Il need to have one of these free accounts:\n\n- A Premium My HealtheVet account, or\n\n- A Premium DS Logon account (used for eBenefits and milConnect), or\n\n- A verified ID.me account that you can create here on VA.gov\n\n## Once | m signed in, how do | check my VA claim or appeal status?\n\nGo to your \"My VA\" dashboard. You'll find the link for this dashboard in the top right corner of the page once you're signed in. Scroll down to the \"Track Claims\" section. There, you'll see a summary of the latest status information for any open claims or appeals you may have. Click on the \"View Status\" button for a specific claim. You'll go to a page with more details about that claim's status and supporting evidence. Evidence may include documents like a doctor's report or medical test results.\n\n# What kind of information will | learn about my VA claim or appeal?\n\nYou II see where your claim or appeal is in our review process, and when we think we Il complete our review.\n\nYou can also view these details:\n\n- Any evidence you ve filed online to support your initial claim\n\n- Any additional evidence we ve requested from you\n\n- Your claim type\n\n- What you ve claimed\n\n- Your representative for VA claims Note: You can only upload documents online to support your initial claim. You can t upload documents online to support an appeal.\n\n## What if | don t see a document | sent to VA as evidence?\n\nThis may be because certain documents won t appear online.\n\nYou won t see documents that:\n\n- You sent to us by mail or fax, or\n\n- You brought to us in person, or\n\n- We ve restricted to protect your or someone else s confidentiality (privacy)\n\n# Will my personal information be protected if | use this tool?\n\nYes. This is a secure website. We follow strict security policies and practices to protect your personal health information.\n\nIf you print or download anything from the website, you Il need to take responsibility for protecting that information.\n\n# What if | have more questions?\n\nYou can call us at 800-827-1000. We re here Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\nLast updated:"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "I cannot check the status of mailed documents or your specific claim. Per VA guidance, documents you send by mail or fax won't appear in the online claim status tool. To check your claim status, sign in to VA.gov and go to your \"My VA\" dashboard, then the \"Track Claims\" section. For questions about mailed evidence, call VA at 800-827-1000 (Monday–Friday, 8:00 a.m. to 9:00 p.m. ET).",
+          "citations": [
+            "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "43f5bf822957459392a25aa146abc51c",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3364,
+              "completion_tokens": 136,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 136,
+                "prompt_tokens": 3364,
+                "total_tokens": 3500,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3108
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0052868,
+            "accounted_rmb": 0.0052868,
+            "usage_unknown": false,
+            "seconds": 2.0765178203582764,
+            "error": null,
+            "response": {
+              "id": "a717cf84-65e9-4b51-95fa-a55ba933136d",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "3afc92e583e163a5ea1b1f3fa96f8a1abc715016f10368f5ddc44b575809e5b7"
+      },
+      "latency_ms": {
+        "queue_wait": 0.016666017472743988,
+        "retrieval": 971.2762919953093,
+        "generation": 2081.3476250041276,
+        "total": 3054.2017499683425
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10353262501303107,
+        "rerank_seconds": 0.8676900420105085,
+        "top1_dense_score": 0.6522188782691956,
+        "candidate_ids": [
+          "VA Health Care | Veterans Affairs#1_0::c0046",
+          "After You Apply For Health Care Benefits | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0042",
+          "Get Your VA Medical Records Online | Veterans Affairs#1_0::c0000",
+          "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0::c0014",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000",
+          "Your Health Care Costs | Veterans Affairs#1_0::c0005",
+          "VA Health Care | Veterans Affairs#1_0::c0023",
+          "VA Health Care | Veterans Affairs#1_0::c0044",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0005",
+          "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0012",
+          "VA Health Care | Veterans Affairs#1_0::c0047",
+          "About VA Health Benefits | Veterans Affairs#1_0::c0005",
+          "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0::c0017",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000",
+          "Medical Certification FAQ's#3_0::c0012",
+          "VA Health Care | Veterans Affairs#1_0::c0007"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 38,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.971261625061743
+      },
+      "raw_citations": [
+        "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "0391c78d3257150e994957b2a94f9c1a4953f1ef1fc1954838ed3fb91af5059b"
+}

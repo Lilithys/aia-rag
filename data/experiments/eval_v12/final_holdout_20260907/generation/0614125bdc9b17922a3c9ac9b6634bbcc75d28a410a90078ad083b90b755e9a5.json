@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-004",
+    "item_sha256": "add353b000de5f77fb680ead99add44e94422e0d187ec376a3512e2a3472b166",
+    "result": {
+      "request_id": "4e42d2cd7d9d4e39ba97f0327c572d07",
+      "session_id": "synthetic::eval-v1-holdout-refuse-004",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "I cannot access your personal Social Security payment records or provide specific payment dates or amounts. For general guidance: if your disability benefits are approved, your first benefit is paid in the sixth full month after your disability onset date, and benefits are paid the month after they are due. Your monthly amount is based on your lifetime average earnings covered by Social Security. For your specific payment details, please check your personal my Social Security account or contact the Social Security Administration.",
+        "citations": [
+          "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+        ],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "text": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n## 福利规划器：残疾 \\| 您已获批\n\n### 您的福利何时开始\n\n如果您的申请获批，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个整月支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将支付2018年12月，即残疾的第六个整月。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应得的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您的每月残疾福利金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于不受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项保险，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您想要这项保险，您需要每月支付保费。\n\n大多数人都同时拥有Medicare的A部分和B部分。如果您对这些保障有疑问，可以拨打Medicare的免费电话**1-800-MEDICARE**（1-800-633-4227）与Medicare客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### Medicare的其他部分\n\nMedicare Advantage（C部分）。拥有Medicare A部分和B部分的人可以选择通过私人公司提供且经Medicare批准的计划来获得所有医疗服务。如需更多信息，我们建议您阅读Medicare的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读Medicare的页面。\n\n如果您享受Medicare但资源和收入有限，您可能有资格获得Medicare处方药计划费用的额外帮助。\n\n### 针对低收入Medicare受益人的帮助\n\n如果您享受Medicare且收入低、资源少，您的州可能会支付您的Medicare保费，在某些情况下，还会支付您通常需要承担的其他Medicare费用，如免赔额和共付额。\n\n只有您的州才能决定您是否有资格获得此项援助。要了解您是否符合条件，请联系您所在州或地方的福利办公室或Medicaid机构。\n\n有关该计划的更多信息，请访问Medicare的页面。\n\n如果您需要有关Medicare其他部分的更多信息，请阅读我们Medicare手册中的“谁能获得Medicare？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 当您获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#2_0::c0000",
+          "text": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n### 您的福利何时开始\n\n如果您的申请获得批准，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个完整月份支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将在2018年12月支付，即残疾的第六个完整月份。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应支付的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您每月残疾福利的金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于未受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项覆盖，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您需要这项覆盖，您需要每月支付保费。\n\n大多数人拥有医疗保险的两个部分。如果您对此覆盖有疑问，您可以拨打医疗保险免费电话 **1-800-MEDICARE** (1-800-633-4227) 与医疗保险客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### 医疗保险的其他部分\n\n医疗保险优势计划（C部分）。拥有医疗保险A部分和B部分的人可以选择通过由私营公司提供并经医疗保险批准的保险计划来接受所有医疗服务。如需更多信息，我们建议您阅读医疗保险的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读医疗保险的页面。\n\n如果您享受医疗保险但资源和收入有限，您可能有资格获得医疗保险处方药计划费用的额外补助。\n\n### 针对低收入医疗保险受益人的帮助\n\n如果您享受医疗保险且收入低、资源少，您的州可能会为您支付医疗保险保费，在某些情况下，还会支付您通常需要负责的其他医疗保险费用，如免赔额和共付保险。\n\n只有您的州才能决定您是否符合此援助的资格。要了解您是否符合条件，请联系您所在州或地方的福利办公室或医疗补助机构。\n\n有关该计划的更多信息，请访问医疗保险的页面。\n\n如果您需要有关医疗保险其他部分的更多信息，请阅读我们医疗保险手册中的“谁能获得医疗保险？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0002",
+          "text": "[Benefits Planner: Retirement | Medicare Premiums | SSA > Your Tax Return]\nTo determine your 2020 income-related monthly adjustment amounts, we use your most recent federal tax return the IRS provides to us. Generally, this information is from a tax return filed in 2019 for tax year 2018. Sometimes, the IRS only provides information from a return filed in 2018 for tax year 2017. If we use the 2017 tax year data, and you filed a return for tax year 2018 or did not need to file a tax return for tax year 2018, call us or visit any local Social Security office. We ll update our records.\n\nIf you amended your tax return, and it changes the income we count to determine the income-related monthly adjustment amounts (your MAGI), let us know. Social Security needs to see a copy of the amended tax return you filed and your acknowledgment receipt from IRS. We ll update our records with the information you provide, and correct or remove your income-related monthly adjustment amounts, as appropriate."
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0002",
+          "text": "[Benefits Planner: Retirement | Medicare Premiums | SSA > Medicare Premiums: Rules For Higher-Income Beneficiaries > Your Tax Return]\nTo determine your 2020 income-related monthly adjustment amounts, we use your most recent federal tax return the IRS provides to us. Generally, this information is from a tax return filed in 2019 for tax year 2018. Sometimes, the IRS only provides information from a return filed in 2018 for tax year 2017. If we use the 2017 tax year data, and you filed a return for tax year 2018 or did not need to file a tax return for tax year 2018, call us or visit any local Social Security office. We ll update our records.\n\nIf you amended your tax return, and it changes the income we count to determine the income-related monthly adjustment amounts (your MAGI), let us know. Social Security needs to see a copy of the amended tax return you filed and your acknowledgment receipt from IRS. We ll update our records with the information you provide, and correct or remove your income-related monthly adjustment amounts, as appropriate."
+        },
+        {
+          "chunk_id": "View Your VA Payment History | Veterans Affairs#1_0::c0000",
+          "text": "# 查看您的VA付款历史 | Veterans Affairs\n\n# 查看您的VA付款历史\n\n了解如何在线查看您的VA付款历史。\n\n### 您需要登录eBenefits才能查看您的付款历史。\n\n要使用此功能，您需要一个Premium DS Logon账户。您的My HealtheVet或ID.me凭据在eBenefits网站上无法使用。前往eBenefits登录、注册或将您的DS Logon账户升级为Premium。前往eBenefits查看付款\n\n## 登录后我可以查看哪些VA付款信息？\n\n如果您是退伍军人，您将看到您过去VA付款的历史，包括：\n\n- 残疾补偿\n- 养老金福利\n- 教育福利\n\n如果您是退伍军人或军人的遗属，您将看到您过去VA付款的历史，包括：\n\n- 遗属养老金福利\n- 遗属及家属教育援助（第35章福利）\n- 遗属及家属补偿（DIC）\n\n## 我什么时候可以收到第一笔残疾补偿付款？\n\n如果您的决定通知显示至少10%的残疾评级，您将在15天内收到第一笔付款。\n\n如果您在15天内未收到付款，请致电Veterans Help Line：800-827-1000（TTY：800-829-4833）。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n## 如果我需要更改直接存款或联系信息，该怎么办？\n\n### 通过以下任一方式更改您的信息\n\n在线更改您的信息，或联系您最近的VA区域福利办公室或资格办公室\n\n### 通过您的VA.gov个人资料更改地址\n\n您可以登录VA.gov并在您的VA.gov个人资料中更改您的地址和其他联系信息。这将更新您的残疾补偿、养老金福利、索赔和上诉、Vocational Rehabilitation & Employment (VR&E)以及VA医疗保健信息。了解如何更改您在VA存档的地址\n\n## 如果我的其他信息发生变化，是否需要联系 VA？\n\n是的。如果您的婚姻状况发生变化、生育子女、领养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必向我们更新您的信息。\n\n如果您的伤残等级为 30% 或更高，您或许可以将符合条件的家属添加到您的 VA 伤残补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n如果您的伤残情况恶化，您可以提交索赔申请增加福利。申请增加 VA 伤残补助\n\n最后更新："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "text": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n## 福利规划器：残疾 \\| 您已获批\n\n### 您的福利何时开始\n\n如果您的申请获批，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个整月支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将支付2018年12月，即残疾的第六个整月。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应得的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您的每月残疾福利金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于不受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项保险，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您想要这项保险，您需要每月支付保费。\n\n大多数人都同时拥有Medicare的A部分和B部分。如果您对这些保障有疑问，可以拨打Medicare的免费电话**1-800-MEDICARE**（1-800-633-4227）与Medicare客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### Medicare的其他部分\n\nMedicare Advantage（C部分）。拥有Medicare A部分和B部分的人可以选择通过私人公司提供且经Medicare批准的计划来获得所有医疗服务。如需更多信息，我们建议您阅读Medicare的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读Medicare的页面。\n\n如果您享受Medicare但资源和收入有限，您可能有资格获得Medicare处方药计划费用的额外帮助。\n\n### 针对低收入Medicare受益人的帮助\n\n如果您享受Medicare且收入低、资源少，您的州可能会支付您的Medicare保费，在某些情况下，还会支付您通常需要承担的其他Medicare费用，如免赔额和共付额。\n\n只有您的州才能决定您是否有资格获得此项援助。要了解您是否符合条件，请联系您所在州或地方的福利办公室或Medicaid机构。\n\n有关该计划的更多信息，请访问Medicare的页面。\n\n如果您需要有关Medicare其他部分的更多信息，请阅读我们Medicare手册中的“谁能获得Medicare？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 当您获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#2_0::c0000",
+          "text": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n### 您的福利何时开始\n\n如果您的申请获得批准，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个完整月份支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将在2018年12月支付，即残疾的第六个完整月份。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应支付的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您每月残疾福利的金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于未受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项覆盖，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您需要这项覆盖，您需要每月支付保费。\n\n大多数人拥有医疗保险的两个部分。如果您对此覆盖有疑问，您可以拨打医疗保险免费电话 **1-800-MEDICARE** (1-800-633-4227) 与医疗保险客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### 医疗保险的其他部分\n\n医疗保险优势计划（C部分）。拥有医疗保险A部分和B部分的人可以选择通过由私营公司提供并经医疗保险批准的保险计划来接受所有医疗服务。如需更多信息，我们建议您阅读医疗保险的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读医疗保险的页面。\n\n如果您享受医疗保险但资源和收入有限，您可能有资格获得医疗保险处方药计划费用的额外补助。\n\n### 针对低收入医疗保险受益人的帮助\n\n如果您享受医疗保险且收入低、资源少，您的州可能会为您支付医疗保险保费，在某些情况下，还会支付您通常需要负责的其他医疗保险费用，如免赔额和共付保险。\n\n只有您的州才能决定您是否符合此援助的资格。要了解您是否符合条件，请联系您所在州或地方的福利办公室或医疗补助机构。\n\n有关该计划的更多信息，请访问医疗保险的页面。\n\n如果您需要有关医疗保险其他部分的更多信息，请阅读我们医疗保险手册中的“谁能获得医疗保险？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0002",
+          "text": "[Benefits Planner: Retirement | Medicare Premiums | SSA > Your Tax Return]\nTo determine your 2020 income-related monthly adjustment amounts, we use your most recent federal tax return the IRS provides to us. Generally, this information is from a tax return filed in 2019 for tax year 2018. Sometimes, the IRS only provides information from a return filed in 2018 for tax year 2017. If we use the 2017 tax year data, and you filed a return for tax year 2018 or did not need to file a tax return for tax year 2018, call us or visit any local Social Security office. We ll update our records.\n\nIf you amended your tax return, and it changes the income we count to determine the income-related monthly adjustment amounts (your MAGI), let us know. Social Security needs to see a copy of the amended tax return you filed and your acknowledgment receipt from IRS. We ll update our records with the information you provide, and correct or remove your income-related monthly adjustment amounts, as appropriate."
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0002",
+          "text": "[Benefits Planner: Retirement | Medicare Premiums | SSA > Medicare Premiums: Rules For Higher-Income Beneficiaries > Your Tax Return]\nTo determine your 2020 income-related monthly adjustment amounts, we use your most recent federal tax return the IRS provides to us. Generally, this information is from a tax return filed in 2019 for tax year 2018. Sometimes, the IRS only provides information from a return filed in 2018 for tax year 2017. If we use the 2017 tax year data, and you filed a return for tax year 2018 or did not need to file a tax return for tax year 2018, call us or visit any local Social Security office. We ll update our records.\n\nIf you amended your tax return, and it changes the income we count to determine the income-related monthly adjustment amounts (your MAGI), let us know. Social Security needs to see a copy of the amended tax return you filed and your acknowledgment receipt from IRS. We ll update our records with the information you provide, and correct or remove your income-related monthly adjustment amounts, as appropriate."
+        },
+        {
+          "chunk_id": "View Your VA Payment History | Veterans Affairs#1_0::c0000",
+          "text": "# 查看您的VA付款历史 | Veterans Affairs\n\n# 查看您的VA付款历史\n\n了解如何在线查看您的VA付款历史。\n\n### 您需要登录eBenefits才能查看您的付款历史。\n\n要使用此功能，您需要一个Premium DS Logon账户。您的My HealtheVet或ID.me凭据在eBenefits网站上无法使用。前往eBenefits登录、注册或将您的DS Logon账户升级为Premium。前往eBenefits查看付款\n\n## 登录后我可以查看哪些VA付款信息？\n\n如果您是退伍军人，您将看到您过去VA付款的历史，包括：\n\n- 残疾补偿\n- 养老金福利\n- 教育福利\n\n如果您是退伍军人或军人的遗属，您将看到您过去VA付款的历史，包括：\n\n- 遗属养老金福利\n- 遗属及家属教育援助（第35章福利）\n- 遗属及家属补偿（DIC）\n\n## 我什么时候可以收到第一笔残疾补偿付款？\n\n如果您的决定通知显示至少10%的残疾评级，您将在15天内收到第一笔付款。\n\n如果您在15天内未收到付款，请致电Veterans Help Line：800-827-1000（TTY：800-829-4833）。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n## 如果我需要更改直接存款或联系信息，该怎么办？\n\n### 通过以下任一方式更改您的信息\n\n在线更改您的信息，或联系您最近的VA区域福利办公室或资格办公室\n\n### 通过您的VA.gov个人资料更改地址\n\n您可以登录VA.gov并在您的VA.gov个人资料中更改您的地址和其他联系信息。这将更新您的残疾补偿、养老金福利、索赔和上诉、Vocational Rehabilitation & Employment (VR&E)以及VA医疗保健信息。了解如何更改您在VA存档的地址\n\n## 如果我的其他信息发生变化，是否需要联系 VA？\n\n是的。如果您的婚姻状况发生变化、生育子女、领养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必向我们更新您的信息。\n\n如果您的伤残等级为 30% 或更高，您或许可以将符合条件的家属添加到您的 VA 伤残补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n如果您的伤残情况恶化，您可以提交索赔申请增加福利。申请增加 VA 伤残补助\n\n最后更新："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "document": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0",
+          "heading": [],
+          "source_file": "ssa_013.md",
+          "excerpt": "# 福利规划器：残疾 | 审批流程 | 社会保障管理局\n\n## 福利规划器：残疾 \\| 您已获批\n\n### 您的福利何时开始\n\n如果您的申请获批，您的第一笔社会保障福利将在我们认定您的残疾开始的日期之后的第六个整月支付。\n\n例如，如果您的残疾始于2018年6月15日，您的第一笔福利将支付2018年12月，即残疾的第六个整月。\n\n社会保障福利在应支付月份的下一个月支付。这意味着12月应得的福利将在2019年1月支付给您，以此类推。\n\n### 您将收到多少金额\n\n您的每月残疾福利金额基于您受社会保障覆盖的终身平均收入。\n\n如果您还没有估算，您可以使用您的个人我的社会保障账户在线获取，或使用我们的福利计算器来确定如果您现在残疾，您将获得多少。\n\n### 其他付款可能影响您的残疾福利\n\n如果您领取某些其他政府福利，如工伤赔偿、公共残疾福利或基于不受社会保障覆盖的工作的养老金（例如，一些政府或外国就业），您和您的家人可领取的社会保障福利可能会减少。\n\n有关这些福利如何影响您的社会保障付款的更多信息，请参阅以下出版物：\n\n- 工伤赔偿和其他残疾付款如何影响您的福利；\n- 意外收益消除条款；或\n- 政府养老金抵消。\n\n相关信息\n\n- 所得税和您的社会保障福利。\n\n### 如果您残疾，医疗保险覆盖\n\n在您获得残疾福利两年后，我们会自动为您注册医疗保险。我们为您注册的医疗保险的两个部分是医院保险和医疗保险。\n\n- 医院保险（A部分）帮助支付住院医院账单和一些后续护理费用。您在工作期间缴纳的税款资助了这项保险，因此您无需支付费用。\n- 医疗保险（B部分）帮助支付医生账单、门诊医院护理和其他医疗服务。如果您想要这项保险，您需要每月支付保费。\n\n大多数人都同时拥有Medicare的A部分和B部分。如果您对这些保障有疑问，可以拨打Medicare的免费电话**1-800-MEDICARE**（1-800-633-4227）与Medicare客户服务代表交谈。TTY用户应拨打1-877-486-2048。\n\n### Medicare的其他部分\n\nMedicare Advantage（C部分）。拥有Medicare A部分和B部分的人可以选择通过私人公司提供且经Medicare批准的计划来获得所有医疗服务。如需更多信息，我们建议您阅读Medicare的\n\n处方药保险（D部分）帮助支付医生为治疗而开具的药物费用。有关D部分注册期的更多信息，我们建议您阅读Medicare的页面。\n\n如果您享受Medicare但资源和收入有限，您可能有资格获得Medicare处方药计划费用的额外帮助。\n\n### 针对低收入Medicare受益人的帮助\n\n如果您享受Medicare且收入低、资源少，您的州可能会支付您的Medicare保费，在某些情况下，还会支付您通常需要承担的其他Medicare费用，如免赔额和共付额。\n\n只有您的州才能决定您是否有资格获得此项援助。要了解您是否符合条件，请联系您所在州或地方的福利办公室或Medicaid机构。\n\n有关该计划的更多信息，请访问Medicare的页面。\n\n如果您需要有关Medicare其他部分的更多信息，请阅读我们Medicare手册中的“谁能获得Medicare？”部分或访问Medicare.gov。\n\n### 出版物\n\n- 残疾福利\n- 当您获得社会保障残疾福利时您需要了解的事项\n- 其他残疾出版物"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "I cannot access your personal Social Security payment records or provide specific payment dates or amounts. For general guidance: if your disability benefits are approved, your first benefit is paid in the sixth full month after your disability onset date, and benefits are paid the month after they are due. Your monthly amount is based on your lifetime average earnings covered by Social Security. For your specific payment details, please check your personal my Social Security account or contact the Social Security Administration.",
+          "citations": [
+            "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+          ],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "be281b0b30ab4ee2a708e41bb3313e6d",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2768,
+              "completion_tokens": 127,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 127,
+                "prompt_tokens": 2768,
+                "total_tokens": 2895,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2512
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0043523,
+            "accounted_rmb": 0.0043523,
+            "usage_unknown": false,
+            "seconds": 2.1143290996551514,
+            "error": null,
+            "response": {
+              "id": "461132d9-d303-450b-b9f9-e575d3198472",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "348e97ed961c544cc2c4126d1c5190d0a1ac2dd352ffbf41b4049d5cc9f3a047"
+      },
+      "latency_ms": {
+        "queue_wait": 0.028082984499633312,
+        "retrieval": 1080.2789999870583,
+        "generation": 2118.5633750865236,
+        "total": 3200.393500039354
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.11084620899055153,
+        "rerank_seconds": 0.9693867079913616,
+        "top1_dense_score": 0.614312469959259,
+        "candidate_ids": [
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Your Health Care Costs | Veterans Affairs#1_0::c0005",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Direct Deposit | Social Security Administration#1_0::c0000",
+          "View Your VA Payment History | Veterans Affairs#1_0::c0000",
+          "Direct Deposit | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Disability | Approval Process | Social Security Administration#2_0::c0000",
+          "Social Security Direct Deposit | Social Security Administration#1_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0000",
+          "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0002",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0001",
+          "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0002",
+          "Change of Address| Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0002",
+          "VA Health Care | Veterans Affairs#1_0::c0046",
+          "Benefit Verification Letter  | Social Security Administration#2_0::c0000",
+          "Benefit Verification Letter  | Social Security Administration#1_0::c0000",
+          "Retirement Estimator | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 39,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.0802573339315131
+      },
+      "raw_citations": [
+        "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "b22be82ced56351bf7001d541dd9bc403823d98b85c170c795fd56b0935573fd"
+}

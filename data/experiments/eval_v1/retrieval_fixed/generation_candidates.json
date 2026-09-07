@@ -1,0 +1,43 @@
+{
+  "data_release": "1.0",
+  "split_for_next_step": "smoke",
+  "status": "retrieval_candidates_ready_generation_validation_pending",
+  "production_default": "dense",
+  "artifacts": {
+    "chunks": "data/experiments/eval_v1/retrieval_fixed/semantic_1024/chunks.jsonl",
+    "embeddings": "data/experiments/eval_v1/retrieval_fixed/semantic_1024/embeddings/bge_m3/chunk_embeddings.npy",
+    "chroma_dir": "data/experiments/eval_v1/retrieval_fixed/semantic_1024/chroma"
+  },
+  "candidates": [
+    {
+      "name": "baseline_dense_k10",
+      "retriever": "dense",
+      "top_k": 10
+    },
+    {
+      "name": "rerank_truncated_k10",
+      "retriever": "dense",
+      "candidate_k": 20,
+      "reranker": "BAAI/bge-reranker-base",
+      "query_tail_tokens": 96,
+      "max_pair_tokens": 512,
+      "top_k": 10
+    },
+    {
+      "name": "rerank_windowed_k5",
+      "retriever": "dense",
+      "candidate_k": 20,
+      "reranker": "BAAI/bge-reranker-base",
+      "query_tail_tokens": 96,
+      "passage_window_tokens": 384,
+      "window_stride": 320,
+      "parent_score": "max",
+      "top_k": 5
+    }
+  ],
+  "notes": [
+    "Reranking is currently implemented in the experiment runner; production generation integration remains pending.",
+    "Use the same generator, judge, prompts and source data for generation validation.",
+    "Local annotated evidence scores are not generation correctness or RAGAS Context Precision."
+  ]
+}

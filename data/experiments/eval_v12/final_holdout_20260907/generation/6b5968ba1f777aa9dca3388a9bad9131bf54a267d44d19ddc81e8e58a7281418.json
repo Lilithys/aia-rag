@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "bd26a8d1e98934df9ecb290be1657187::agent-turn-2",
+    "item_sha256": "074a341f2b3b7b9a94de6b1b65d23964fcfcebc900dfeb9ab541e7b31e62df1c",
+    "result": {
+      "request_id": "7b7aecf4d6ae4ca084547f8b7f4f673e",
+      "session_id": "bd26a8d1e98934df9ecb290be1657187",
+      "turn_id": 1,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "根据现有资料，关于重复性IDR申请人，没有找到具体信息。不过，如果您是当前已参加收入驱动还款（IDR）计划的借款人，需要每年重新认证收入信息，或需要重新计算月付款、更换计划，可以登录StudentAid.gov提交相关申请。",
+        "citations": [
+          "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Co-sign Your Spouse's Income-Driven Repayment Plan Application | Federal Student Aid#1_0::c0000",
+          "text": "# 共同签署您配偶的收入驱动还款计划申请 | 联邦学生援助\n\n您当前未登录！\n\n您必须登录才能完成并提交联邦学生贷款流程。\n\n登录\n\n## 什么是共同签署人？\n\n共同签署人是发起收入驱动还款计划请求的申请人的配偶。作为共同签署人，您不因签署借款人的IDR申请而有义务偿还此贷款。\n\nIDR申请人应向您提供参考号/共同签署代码。如果您没有参考号/共同签署代码，请联系IDR申请人。包含参考号/共同签署代码的电子邮件已发送给他/她。IDR申请人也可以通过登录StudentAid.gov并点击相应链接来访问参考号/共同签署代码。\n\n访问参考号/共同签署代码的说明\n\n- 如果申请人完成的收入驱动还款计划请求不属于直接合并贷款申请的一部分，他/她将点击“我的贷款文件”下的“收入驱动还款计划请求”来查找并向您提供所需的参考号。\n- 如果申请人完成的收入驱动还款计划请求是直接合并贷款申请的一部分，他/她将点击“我的贷款文件”下的“直接合并贷款申请”来查找并向您提供所需的共同签署代码。\n\n共同签署收入驱动还款（IDR）计划请求\n\n参考号/共同签署代码\n\nIDR申请人的社会安全号码\n\n登录开始\n\nOMB编号 1845-0102表格已批准\n\n#### 谁应完成此操作？\n\n- 发起收入驱动还款计划请求的申请人的配偶。\n\n#### 需要多长时间？\n\n整个共同签署过程必须在一次会话中完成。大多数人会在10分钟内完成共同签署过程。\n\n#### 我需要什么？\n\n- 您必须使用自己唯一的FSA ID登录，才能共同签署申请人的IDR请求。\n- 已验证的FSA ID\n- 参考编号/共同签署代码\n- IDR申请人的社会安全号码\n-\n- 财务信息（注意：仅当您与配偶分开报税时）"
+        },
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0015",
+          "text": "[吊销后恢复驾照 [1] > 附加要求 > 如果我的驾照申请被DIU拒绝会怎样？]\n您有以下四个选项（这些选项也印在DIU发出的拒绝信上）：\n\n1. 接受拒绝决定，不再采取进一步行动。如果您的拒绝信上印有建议您可重新申请的日期，您可在该日期前最多60天内提交重新申请。\n\n2. 通过提交随拒绝信附上的Request For Relicensing Reconsideration After Denial表格，请求对拒绝决定进行复议，寄送至：\n\nDriver Improvement UnitNYS DMV6 Empire State Plaza, Room 338Albany, NY 12228(518) 474-0774, Option \\#5（电话时间：周一至周五，上午8:30至中午）传真：(518) 474-6208\n\n在拒绝信日期后的六十（60）天内提交。如果您选择此选项，请阅读并遵循以下指示，因为您每次重新申请驾照时，仅有一次机会提交所有不寻常、可谅解且令人信服的情况。请注意，不寻常、可谅解且令人信服的情况必须同时满足所有三个标准才能成功。如果您认为存在不寻常、可谅解且令人信服的情况，可作为Department偏离一般吊销政策并批准您驾照申请的合理依据：\n\n- 您必须详细解释每种情况；\n- 您必须提供可信、可验证的文件来支持所有声称的情况。例如，如果您需要驾照以便自己或家人前往必要的医疗治疗，您必须提供文件来验证并解释医疗状况的性质、参加与该状况或治疗相关的必要预约的需求，并证明没有其他交通方式（包括负担得起的私人及公共交通）可用于前往医疗预约。可信、可验证的文件是指来自第三方（非亲属）的支持您主张的文件。一些例子包括：来自您的医生、雇主、宗教官员、政府官员、教授、顾问的支持信/声明、公共交通时刻表、路线和/或地图、收据、医疗账单、预约时间表等。如果您未为每种声称的情况提供可信、可验证的文件，您的请求将被拒绝。请注意：不寻常、可谅解且令人信服的情况本身并不保证批准。如果您的驾驶记录表明您对高速公路安全构成持续风险，即使有可谅解的情况，您的重新申请也可能不被批准。\n- 寄往Driver Improvement Bureau的Request For Relicensing Reconsideration After Denial必须包含您初次申请时提交的关于不寻常、可谅解且令人信服情况的任何文件。\n- 如果致Driver Improvement Bureau的信函逾期，将不予考虑，您收到的拒绝决定将成为最终决定。您的请求/信函必须在拒绝信日期后的六十（60）天内提交至Driver Improvement Bureau。如果在60天后收到，将被拒绝。\n\n1.  向DMV上诉委员会提交对撤销的上诉。要提交上诉，请在拒绝信日期后的六十（60）天内，将上诉表格[12]、上诉书及拒绝信副本邮寄至DMV上诉委员会。如果在60天后收到，您的上诉请求将被拒绝。\n    - 根据法律，上诉委员会不能考虑超过60天提交的上诉。它也不能审查您未首先提交给Driver Improvement Bureau的任何论点或主张。不要向上诉委员会提交关于异常、可减轻处罚和令人信服的情况的主张。\n2.  向Driver Improvement Unit提交另一份重新许可申请。虽然您可以随时提交新驾驶执照的申请，但请注意，Driver Improvement Unit将根据导致先前拒绝的相同标准审查您的整个驾驶历史。每份申请还需缴纳法定的100美元费用。您可以向上述地址提交额外的申请。"
+        },
+        {
+          "chunk_id": "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000",
+          "text": "# Apply for Income-Driven Student Loan Repayment | Federal Student Aid\n\nYou're currently not logged in!\n\nYou must log in to complete and submit federal student loan processes.\n\nLOG IN\n\n## What is Income-Driven Repayment?\n\nIncome-driven repayment (IDR) plans are designed to make your student loan debt more manageable by reducing your monthly payment amount. If you need to make lower monthly payments or if your outstanding federal student loan debt represents a significant portion of your annual income, one of the following income-driven plans may be right for you:\n\n- Revised Pay As You Earn Repayment Plan (REPAYE)\n- Pay As You Earn Repayment Plan (PAYE)\n- Income-Based Repayment Plan (IBR)\n- Income-Contingent Repayment Plan (ICR Plan)\n\n### Who should complete this?\n\nBorrowers not currently on an IDR Plan who are seeking a lower monthly payment on their federal student loans and\n\nBorrowers currently on an IDR Plan who need to re-certify or make changes to their repayment plan.\n\nYou can't use this tool if you are in default on all of your federal student loans or if you only have PLUS loans you borrowed as a parent.Note: There is no application fee to complete an Income-Driven Repayment Plan Request. You may be contacted by private companies that offer to help you apply for Income-Driven Repayment, for a fee. These companies have no affiliation with the U.S. Department of Education (ED) or ED's Federal Loan Servicers.\n\n### How many IDR applications do I need?\n\nYou will need one IDR application. While you will only need to submit one IDR application to be considered for the IDR plans, you will be required to come back and recertify your income information each year.\n\n### How long will it take?\n\nThe entire Income-Driven Repayment process must be completed in a single session. Most people complete the process in 10 minutes or less.\n\n### What do I need?\n\n- Verified FSA ID\n-\n-\n\n## New Applicants\n\n### I am not currently on an income-driven plan and I want to apply\n\nYou can apply for an income-driven repayment plan that limits your payments to a percentage of your income.\n\nLOG IN TO START\n\n## Returning IDR Applicants\n\n### Submit annual re-certification of my income\n\nTo re-certify for your existing income-driven repayment plan you must provide updated information about your income and family size annually.\n\nLOG IN TO START\n\n### Recalculate my monthly payment\n\nIf your income or family size has changed you can request that your income-driven payment be re-calculated to reduce your current monthly payment.\n\nLOG IN TO START\n\n### Switch my current plan to a new plan\n\nIf you are currently enrolled in an income-driven repayment plan and would like to switch to another income-driven repayment plan.\n\nLOG IN TO START\n\nOMB No. 1845-0102Form Approved\n\nExpiration Date: 8/31/2021\n\nPreview a read-only version of the complete form"
+        },
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0002",
+          "text": "[关于FAFSA完成数据的问答]\n缺失或重复的高中"
+        },
+        {
+          "chunk_id": "File a Freedom of Information Law (FOIL) request#1_0::c0000",
+          "text": "提交信息自由法 (FOIL) 请求"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Co-sign Your Spouse's Income-Driven Repayment Plan Application | Federal Student Aid#1_0::c0000",
+          "text": "# 共同签署您配偶的收入驱动还款计划申请 | 联邦学生援助\n\n您当前未登录！\n\n您必须登录才能完成并提交联邦学生贷款流程。\n\n登录\n\n## 什么是共同签署人？\n\n共同签署人是发起收入驱动还款计划请求的申请人的配偶。作为共同签署人，您不因签署借款人的IDR申请而有义务偿还此贷款。\n\nIDR申请人应向您提供参考号/共同签署代码。如果您没有参考号/共同签署代码，请联系IDR申请人。包含参考号/共同签署代码的电子邮件已发送给他/她。IDR申请人也可以通过登录StudentAid.gov并点击相应链接来访问参考号/共同签署代码。\n\n访问参考号/共同签署代码的说明\n\n- 如果申请人完成的收入驱动还款计划请求不属于直接合并贷款申请的一部分，他/她将点击“我的贷款文件”下的“收入驱动还款计划请求”来查找并向您提供所需的参考号。\n- 如果申请人完成的收入驱动还款计划请求是直接合并贷款申请的一部分，他/她将点击“我的贷款文件”下的“直接合并贷款申请”来查找并向您提供所需的共同签署代码。\n\n共同签署收入驱动还款（IDR）计划请求\n\n参考号/共同签署代码\n\nIDR申请人的社会安全号码\n\n登录开始\n\nOMB编号 1845-0102表格已批准\n\n#### 谁应完成此操作？\n\n- 发起收入驱动还款计划请求的申请人的配偶。\n\n#### 需要多长时间？\n\n整个共同签署过程必须在一次会话中完成。大多数人会在10分钟内完成共同签署过程。\n\n#### 我需要什么？\n\n- 您必须使用自己唯一的FSA ID登录，才能共同签署申请人的IDR请求。\n- 已验证的FSA ID\n- 参考编号/共同签署代码\n- IDR申请人的社会安全号码\n-\n- 财务信息（注意：仅当您与配偶分开报税时）"
+        },
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0015",
+          "text": "[吊销后恢复驾照 [1] > 附加要求 > 如果我的驾照申请被DIU拒绝会怎样？]\n您有以下四个选项（这些选项也印在DIU发出的拒绝信上）：\n\n1. 接受拒绝决定，不再采取进一步行动。如果您的拒绝信上印有建议您可重新申请的日期，您可在该日期前最多60天内提交重新申请。\n\n2. 通过提交随拒绝信附上的Request For Relicensing Reconsideration After Denial表格，请求对拒绝决定进行复议，寄送至：\n\nDriver Improvement UnitNYS DMV6 Empire State Plaza, Room 338Albany, NY 12228(518) 474-0774, Option \\#5（电话时间：周一至周五，上午8:30至中午）传真：(518) 474-6208\n\n在拒绝信日期后的六十（60）天内提交。如果您选择此选项，请阅读并遵循以下指示，因为您每次重新申请驾照时，仅有一次机会提交所有不寻常、可谅解且令人信服的情况。请注意，不寻常、可谅解且令人信服的情况必须同时满足所有三个标准才能成功。如果您认为存在不寻常、可谅解且令人信服的情况，可作为Department偏离一般吊销政策并批准您驾照申请的合理依据：\n\n- 您必须详细解释每种情况；\n- 您必须提供可信、可验证的文件来支持所有声称的情况。例如，如果您需要驾照以便自己或家人前往必要的医疗治疗，您必须提供文件来验证并解释医疗状况的性质、参加与该状况或治疗相关的必要预约的需求，并证明没有其他交通方式（包括负担得起的私人及公共交通）可用于前往医疗预约。可信、可验证的文件是指来自第三方（非亲属）的支持您主张的文件。一些例子包括：来自您的医生、雇主、宗教官员、政府官员、教授、顾问的支持信/声明、公共交通时刻表、路线和/或地图、收据、医疗账单、预约时间表等。如果您未为每种声称的情况提供可信、可验证的文件，您的请求将被拒绝。请注意：不寻常、可谅解且令人信服的情况本身并不保证批准。如果您的驾驶记录表明您对高速公路安全构成持续风险，即使有可谅解的情况，您的重新申请也可能不被批准。\n- 寄往Driver Improvement Bureau的Request For Relicensing Reconsideration After Denial必须包含您初次申请时提交的关于不寻常、可谅解且令人信服情况的任何文件。\n- 如果致Driver Improvement Bureau的信函逾期，将不予考虑，您收到的拒绝决定将成为最终决定。您的请求/信函必须在拒绝信日期后的六十（60）天内提交至Driver Improvement Bureau。如果在60天后收到，将被拒绝。\n\n1.  向DMV上诉委员会提交对撤销的上诉。要提交上诉，请在拒绝信日期后的六十（60）天内，将上诉表格[12]、上诉书及拒绝信副本邮寄至DMV上诉委员会。如果在60天后收到，您的上诉请求将被拒绝。\n    - 根据法律，上诉委员会不能考虑超过60天提交的上诉。它也不能审查您未首先提交给Driver Improvement Bureau的任何论点或主张。不要向上诉委员会提交关于异常、可减轻处罚和令人信服的情况的主张。\n2.  向Driver Improvement Unit提交另一份重新许可申请。虽然您可以随时提交新驾驶执照的申请，但请注意，Driver Improvement Unit将根据导致先前拒绝的相同标准审查您的整个驾驶历史。每份申请还需缴纳法定的100美元费用。您可以向上述地址提交额外的申请。"
+        },
+        {
+          "chunk_id": "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000",
+          "text": "# Apply for Income-Driven Student Loan Repayment | Federal Student Aid\n\nYou're currently not logged in!\n\nYou must log in to complete and submit federal student loan processes.\n\nLOG IN\n\n## What is Income-Driven Repayment?\n\nIncome-driven repayment (IDR) plans are designed to make your student loan debt more manageable by reducing your monthly payment amount. If you need to make lower monthly payments or if your outstanding federal student loan debt represents a significant portion of your annual income, one of the following income-driven plans may be right for you:\n\n- Revised Pay As You Earn Repayment Plan (REPAYE)\n- Pay As You Earn Repayment Plan (PAYE)\n- Income-Based Repayment Plan (IBR)\n- Income-Contingent Repayment Plan (ICR Plan)\n\n### Who should complete this?\n\nBorrowers not currently on an IDR Plan who are seeking a lower monthly payment on their federal student loans and\n\nBorrowers currently on an IDR Plan who need to re-certify or make changes to their repayment plan.\n\nYou can't use this tool if you are in default on all of your federal student loans or if you only have PLUS loans you borrowed as a parent.Note: There is no application fee to complete an Income-Driven Repayment Plan Request. You may be contacted by private companies that offer to help you apply for Income-Driven Repayment, for a fee. These companies have no affiliation with the U.S. Department of Education (ED) or ED's Federal Loan Servicers.\n\n### How many IDR applications do I need?\n\nYou will need one IDR application. While you will only need to submit one IDR application to be considered for the IDR plans, you will be required to come back and recertify your income information each year.\n\n### How long will it take?\n\nThe entire Income-Driven Repayment process must be completed in a single session. Most people complete the process in 10 minutes or less.\n\n### What do I need?\n\n- Verified FSA ID\n-\n-\n\n## New Applicants\n\n### I am not currently on an income-driven plan and I want to apply\n\nYou can apply for an income-driven repayment plan that limits your payments to a percentage of your income.\n\nLOG IN TO START\n\n## Returning IDR Applicants\n\n### Submit annual re-certification of my income\n\nTo re-certify for your existing income-driven repayment plan you must provide updated information about your income and family size annually.\n\nLOG IN TO START\n\n### Recalculate my monthly payment\n\nIf your income or family size has changed you can request that your income-driven payment be re-calculated to reduce your current monthly payment.\n\nLOG IN TO START\n\n### Switch my current plan to a new plan\n\nIf you are currently enrolled in an income-driven repayment plan and would like to switch to another income-driven repayment plan.\n\nLOG IN TO START\n\nOMB No. 1845-0102Form Approved\n\nExpiration Date: 8/31/2021\n\nPreview a read-only version of the complete form"
+        },
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0002",
+          "text": "[关于FAFSA完成数据的问答]\n缺失或重复的高中"
+        },
+        {
+          "chunk_id": "File a Freedom of Information Law (FOIL) request#1_0::c0000",
+          "text": "提交信息自由法 (FOIL) 请求"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000",
+          "document": "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_006.md",
+          "excerpt": "# Apply for Income-Driven Student Loan Repayment | Federal Student Aid\n\nYou're currently not logged in!\n\nYou must log in to complete and submit federal student loan processes.\n\nLOG IN\n\n## What is Income-Driven Repayment?\n\nIncome-driven repayment (IDR) plans are designed to make your student loan debt more manageable by reducing your monthly payment amount. If you need to make lower monthly payments or if your outstanding federal student loan debt represents a significant portion of your annual income, one of the following income-driven plans may be right for you:\n\n- Revised Pay As You Earn Repayment Plan (REPAYE)\n- Pay As You Earn Repayment Plan (PAYE)\n- Income-Based Repayment Plan (IBR)\n- Income-Contingent Repayment Plan (ICR Plan)\n\n### Who should complete this?\n\nBorrowers not currently on an IDR Plan who are seeking a lower monthly payment on their federal student loans and\n\nBorrowers currently on an IDR Plan who need to re-certify or make changes to their repayment plan.\n\nYou can't use this tool if you are in default on all of your federal student loans or if you only have PLUS loans you borrowed as a parent.Note: There is no application fee to complete an Income-Driven Repayment Plan Request. You may be contacted by private companies that offer to help you apply for Income-Driven Repayment, for a fee. These companies have no affiliation with the U.S. Department of Education (ED) or ED's Federal Loan Servicers.\n\n### How many IDR applications do I need?\n\nYou will need one IDR application. While you will only need to submit one IDR application to be considered for the IDR plans, you will be required to come back and recertify your income information each year.\n\n### How long will it take?\n\nThe entire Income-Driven Repayment process must be completed in a single session. Most people complete the process in 10 minutes or less.\n\n### What do I need?\n\n- Verified FSA ID\n-\n-\n\n## New Applicants\n\n### I am not currently on an income-driven plan and I want to apply\n\nYou can apply for an income-driven repayment plan that limits your payments to a percentage of your income.\n\nLOG IN TO START\n\n## Returning IDR Applicants\n\n### Submit annual re-certification of my income\n\nTo re-certify for your existing income-driven repayment plan you must provide updated information about your income and family size annually.\n\nLOG IN TO START\n\n### Recalculate my monthly payment\n\nIf your income or family size has changed you can request that your income-driven payment be re-calculated to reduce your current monthly payment.\n\nLOG IN TO START\n\n### Switch my current plan to a new plan\n\nIf you are currently enrolled in an income-driven repayment plan and would like to switch to another income-driven repayment plan.\n\nLOG IN TO START\n\nOMB No. 1845-0102Form Approved\n\nExpiration Date: 8/31/2021\n\nPreview a read-only version of the complete form"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "根据现有资料，关于重复性IDR申请人，没有找到具体信息。不过，如果您是当前已参加收入驱动还款（IDR）计划的借款人，需要每年重新认证收入信息，或需要重新计算月付款、更换计划，可以登录StudentAid.gov提交相关申请。",
+          "citations": [
+            "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "5f9b3cb2b3cc4575873c8055406fc2cd",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2230,
+              "completion_tokens": 106,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 106,
+                "prompt_tokens": 2230,
+                "total_tokens": 2336,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1974
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0034508000000000004,
+            "accounted_rmb": 0.0034508000000000004,
+            "usage_unknown": false,
+            "seconds": 1.589421033859253,
+            "error": null,
+            "response": {
+              "id": "8b94b8a1-f3f7-461e-bab0-0ccf0ee5e82a",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "494c27908e2e178e9935865b6a3f34555d70123b57017e49beed0dbec418004d"
+      },
+      "latency_ms": {
+        "queue_wait": 0.0201669754460454,
+        "retrieval": 1042.8601671010256,
+        "generation": 1593.682416016236,
+        "total": 2637.700999970548
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10418883396778256,
+        "rerank_seconds": 0.9385574579937384,
+        "top1_dense_score": 0.613370954990387,
+        "candidate_ids": [
+          "Co-sign Your Spouse's Income-Driven Repayment Plan Application | Federal Student Aid#1_0::c0000",
+          "Replace IRP registration items#1_0::c0000",
+          "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0002",
+          "Get a driver license#1_0::c0016",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0000",
+          "About online and alternative delivery method courses (I-PIRP/ADM)#3_0::c0016",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0000",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0012",
+          "Transfer IRP registration#1_0::c0000",
+          "Surrender IRP registration and plates#1_0::c0000",
+          "About New York State Inspections#3_0::c0016",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0004",
+          "Changes to IRP registration#1_0::c0000",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0000",
+          "Replace a non-driver ID card#1_0::c0004",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "Restore license after revocation#1_0::c0015",
+          "Replace a non-driver ID card#1_0::c0008",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0007"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 41,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.0428305839886889
+      },
+      "raw_citations": [
+        "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "fef89ed26b94f01c8d9960d0fe58688df8c9c7d480f7a1cbc8e01ca31c8e8357"
+}

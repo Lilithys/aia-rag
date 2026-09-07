@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "89431165461a46b533fcfe9466ac96a7ccb95bea38752755ba855d312b0ea873",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To apply for federal student aid, you must complete and submit the Free Application for Federal Student Aid (FAFSA) form each year.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The context states that to apply for a federal student loan, you must first complete and submit a FAFSA form. The response generalizes to federal student aid, which is consistent with the context."
+              },
+              {
+                "text": "Based on your FAFSA results, your school will send you a financial aid offer, which may include loans.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The context explicitly states that based on FAFSA results, the school will send a financial aid offer, which may include federal student loans."
+              },
+              {
+                "text": "Before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The context lists these as requirements before receiving loan funds."
+              },
+              {
+                "text": "Contact your school's financial aid office for specific steps.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The context advises contacting the financial aid office for details regarding the process."
+              },
+              {
+                "text": "Note that you must reapply each year by submitting a new FAFSA form.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Staying Eligible | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that to receive aid for the next year, you need to submit the next year's FAFSA form, implying reapplication each year."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "03ff1fdbac524f26aded28bac0b10f7d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2889,
+                "completion_tokens": 497,
+                "cached_tokens": 640,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 497,
+                  "prompt_tokens": 2889,
+                  "total_tokens": 3386,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 640,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 2249
+                }
+              },
+              "usage_cost_estimate_rmb": 0.005642,
+              "accounted_rmb": 0.005642,
+              "usage_unknown": false,
+              "seconds": 3.304094076156616,
+              "error": null,
+              "response": {
+                "id": "8dc55871-8d41-4a29-bef3-325a63cceb5d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c26ba84d9323403a4be7fb78d46f98515dd4d02c0950e9b485b8b4f5efaf621e"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To apply for federal student aid, you must complete and submit the Free Application for Federal Student Aid (FAFSA) form each year.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The context states that to apply for a federal student loan, you must first complete and submit a FAFSA form. The response generalizes to federal student aid, which is consistent with the context."
+        },
+        {
+          "text": "Based on your FAFSA results, your school will send you a financial aid offer, which may include loans.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The context explicitly states that based on FAFSA results, the school will send a financial aid offer, which may include federal student loans."
+        },
+        {
+          "text": "Before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The context lists these as requirements before receiving loan funds."
+        },
+        {
+          "text": "Contact your school's financial aid office for specific steps.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The context advises contacting the financial aid office for details regarding the process."
+        },
+        {
+          "text": "Note that you must reapply each year by submitting a new FAFSA form.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Staying Eligible | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that to receive aid for the next year, you need to submit the next year's FAFSA form, implying reapplication each year."
+        }
+      ]
+    }
+  },
+  "sha256": "ef09a0e71fe1f68a57845f6e0ef3a70e9d2617702bf1ed95d1cff813443721fb"
+}

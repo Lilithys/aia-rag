@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "17c73e208c1829f0a4b6dabef80b8d95::agent-turn-11",
+    "item_sha256": "2fc9df0e462d2af6abacc33d21c119dd0712a839f894af93f99198e0fbd17a1f",
+    "result": {
+      "request_id": "74e62810b2a240d99ae242887eddcca7",
+      "session_id": "17c73e208c1829f0a4b6dabef80b8d95",
+      "turn_id": 10,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "When presenting the banners, you must include the HTML codes that link to StudentAid.gov (or fafsa.gov, depending on the banner). For static banners, copy the HTML text provided in the chart, paste it into your page's HTML document, and download the image. Also, ensure the banner does not appear on a page whose primary purpose is marketing or ordering a product/service, or on a page urging readers to contact Congress or state legislators about pending legislation.",
+        "citations": [
+          "Link to Us | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 开始填写FAFSA表格并提供您的基本个人信息]\nFAFSA表格于10月1日开放用于下一学年。我们鼓励您在10月1日或之后尽快填写，以满足FAFSA截止日期。\n\nFAFSA提交选项 您可以选择以下任何方式提交FAFSA表格：\n\n- 登录fafsa.gov在线申请，或\n- 在myStudentAid移动应用程序中填写表格，该应用程序可在App Store（iOS）或Google Play（Android）上获得，或\n- 填写2020-21 FAFSA PDF或2019-20 FAFSA PDF（注意：您必须打印并邮寄FAFSA PDF以供处理），或\n- 致电1-800-4-FED-AID（1-800-433-3243）或334-523-2691（聋人或听力障碍者TTY：1-800-730-8913）索取FAFSA PDF打印件；然后填写表格并邮寄以供处理\n\n如果您是第一次在fafsa.gov上开始申请，请选择“从这里开始”。当您开始时，请记住以下几点：\n\n- 您的姓名和社会安全号码必须与社会安全卡上的信息一致。遵循此提示，以避免收到您的信息与社会安全管理局记录（或您的FSA ID账户）不匹配的通知。\n- 如果您担心在登录页面上提供个人信息，请选择虚拟键盘选项以增加安全性。\n- 为确保应用程序正常运行，请确保浏览器中的弹出窗口阻止程序允许来自fafsa.ed.gov的弹出窗口。了解如何在浏览器中启用弹出窗口。\n\n如果您是第一次在myStudentAid移动应用程序上开始，您将选择“从这里开始”，然后需要输入您的FSA ID。没有FSA ID，您无法在移动应用程序上填写FAFSA表格。\n\n如果您是18至25岁之间的男性，并且尚未在兵役登记系统中注册，当被问及是否希望注册时，请选择“是”。否则，您将没有资格获得联邦学生援助。此要求适用于任何出生时被指定为男性的人。\n\n以下提示适用于您在线或通过移动应用程序填写表格：\n\n- 在申请开始时，您将创建一个保存密钥，这是一个临时密码，如果您开始填写FAFSA表格但未完成并保存，之后想再次打开以完成它时使用。保存密钥的一个好处是，如果学生和家长在不同地点填写FAFSA，他们可以使用此功能访问FAFSA表格。（与需要保密的FSA ID不同，告诉您的父母您的保存密钥是可以的。）\n- 如果您正在申请夏季学期，请联系您大学的财政援助办公室，以确定在填写FAFSA表格时应选择哪个学年。\n\n如果您去年填写了FAFSA表格并希望续签，请在FAFSA主页上选择“登录”，选择“我是学生”，输入您的FSA ID，并确保在出现选项时选择“FAFSA续签”。这样，许多（非财务）问题将为您预先填写。只需确保更新自去年以来发生的任何变化。\n\n只有学生本人才能使用其 FSA ID 启动 FAFSA 续填。如果您是受抚养学生，且您的父母帮助您填写 FAFSA 表格，您应启动 FAFSA 续填，保存后，将保存密钥交给您的父母，以便他们访问您的 FAFSA 表格。\n\n如果您使用移动应用并以学生身份登录，且符合 FAFSA 续填资格，续填表格将自动为您显示。\n\n由于冠状病毒国家紧急状态，FAFSA PDF 的处理时间可能比平时更长。我们建议您以电子方式提交 FAFSA 表格，以避免处理延迟。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0002",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 创建FSA ID]\n我们强烈建议你创建一个FSA ID，这是一个用户名和密码组合，允许你以电子方式签署你的FAFSA表格。你的FSA ID还可以用于访问myStudentAid应用、签署贷款合同以及在线访问某些信息。虽然你可以在在线完成FAFSA表格时获取FSA ID，但提前获取并使用它在fafsa.gov或myStudentAid移动应用上开始你的FAFSA表格可以减少错误和延误。了解如何获取FSA ID以及如果你忘记了FSA ID该怎么办。\n\n重要提示：如果你是一名受抚养学生，你的信息在FAFSA表格上报告的父母之一也需要一个FSA ID，以便他或她可以以电子方式签署你的申请。如果你的父母没有社会安全号码（SSN），你的父母将无法创建FSA ID（这需要SSN）。这意味着你必须在fafsa.gov上完成FAFSA表格时选择打印签名页的选项（此选项在myStudentAid应用中不可用）。\n\n在开始FAFSA表格之前创建你的FSA ID只需几分钟，可以防止处理延迟。（此外，没有FSA ID你根本无法使用myStudentAid移动应用，所以你需要先创建它才能在该应用上填写FAFSA表格。）\n\n提示：使用你的FSA ID开始你的FAFSA表格。当你创建FSA ID时，请务必准确输入你的姓名和社会安全号码，就像它们出现在你的社会安全卡上一样。然后，如果你去fafsa.gov开始你的申请并表明你是学生，你将可以选择输入你的FSA ID或输入你的标识符（你的姓名、出生日期和SSN）。\n\n如果你使用FSA ID登录，某些信息（包括你的姓名、社会安全号码和出生日期）将自动加载到你的申请中。这将防止你遇到一个常见错误，即你验证的FSA ID信息与FAFSA表格上的信息不匹配。此外，如果你符合条件，你无需再次提供FSA ID即可以电子方式签署你的FAFSA表格或使用美国国税局数据检索工具（IRS DRT）。\n\n学生是申请经济援助的人，所以确保是学生在“我是学生”标签下输入他或她的FSA ID。不要通过提供父母的FSA ID来开始FAFSA表格。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 获取帮助]\n如果您在填写FAFSA表格时需要帮助，请使用这些免费工具：\n\n- 选择FAFSA问题旁边的蓝白问号图标，查看提供有关如何回答该问题的信息的“工具提示”。\n- 在在线FAFSA表格中，工具提示可能有“更多帮助”链接以获取更多信息。您还可以选择工具提示底部的“帮助”按钮进入FAFSA帮助页面，在那里您可以浏览常见问题解答、搜索更多信息或点击“联系我们”。\n- 一旦您点击“联系我们”，您可以选择通过电子邮件向我们提问，或者在工作时间内与实时技术支持人员聊天（英语或西班牙语）。（在myStudentAid移动应用程序中，您可以通过屏幕右上角的三条平行线汉堡菜单找到联系信息。）\n- 联系您计划就读的学院或职业学校的财政援助办公室。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 开始填写FAFSA表格并提供您的基本个人信息]\nFAFSA表格于10月1日开放用于下一学年。我们鼓励您在10月1日或之后尽快填写，以满足FAFSA截止日期。\n\nFAFSA提交选项 您可以选择以下任何方式提交FAFSA表格：\n\n- 登录fafsa.gov在线申请，或\n- 在myStudentAid移动应用程序中填写表格，该应用程序可在App Store（iOS）或Google Play（Android）上获得，或\n- 填写2020-21 FAFSA PDF或2019-20 FAFSA PDF（注意：您必须打印并邮寄FAFSA PDF以供处理），或\n- 致电1-800-4-FED-AID（1-800-433-3243）或334-523-2691（聋人或听力障碍者TTY：1-800-730-8913）索取FAFSA PDF打印件；然后填写表格并邮寄以供处理\n\n如果您是第一次在fafsa.gov上开始申请，请选择“从这里开始”。当您开始时，请记住以下几点：\n\n- 您的姓名和社会安全号码必须与社会安全卡上的信息一致。遵循此提示，以避免收到您的信息与社会安全管理局记录（或您的FSA ID账户）不匹配的通知。\n- 如果您担心在登录页面上提供个人信息，请选择虚拟键盘选项以增加安全性。\n- 为确保应用程序正常运行，请确保浏览器中的弹出窗口阻止程序允许来自fafsa.ed.gov的弹出窗口。了解如何在浏览器中启用弹出窗口。\n\n如果您是第一次在myStudentAid移动应用程序上开始，您将选择“从这里开始”，然后需要输入您的FSA ID。没有FSA ID，您无法在移动应用程序上填写FAFSA表格。\n\n如果您是18至25岁之间的男性，并且尚未在兵役登记系统中注册，当被问及是否希望注册时，请选择“是”。否则，您将没有资格获得联邦学生援助。此要求适用于任何出生时被指定为男性的人。\n\n以下提示适用于您在线或通过移动应用程序填写表格：\n\n- 在申请开始时，您将创建一个保存密钥，这是一个临时密码，如果您开始填写FAFSA表格但未完成并保存，之后想再次打开以完成它时使用。保存密钥的一个好处是，如果学生和家长在不同地点填写FAFSA，他们可以使用此功能访问FAFSA表格。（与需要保密的FSA ID不同，告诉您的父母您的保存密钥是可以的。）\n- 如果您正在申请夏季学期，请联系您大学的财政援助办公室，以确定在填写FAFSA表格时应选择哪个学年。\n\n如果您去年填写了FAFSA表格并希望续签，请在FAFSA主页上选择“登录”，选择“我是学生”，输入您的FSA ID，并确保在出现选项时选择“FAFSA续签”。这样，许多（非财务）问题将为您预先填写。只需确保更新自去年以来发生的任何变化。\n\n只有学生本人才能使用其 FSA ID 启动 FAFSA 续填。如果您是受抚养学生，且您的父母帮助您填写 FAFSA 表格，您应启动 FAFSA 续填，保存后，将保存密钥交给您的父母，以便他们访问您的 FAFSA 表格。\n\n如果您使用移动应用并以学生身份登录，且符合 FAFSA 续填资格，续填表格将自动为您显示。\n\n由于冠状病毒国家紧急状态，FAFSA PDF 的处理时间可能比平时更长。我们建议您以电子方式提交 FAFSA 表格，以避免处理延迟。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0002",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 创建FSA ID]\n我们强烈建议你创建一个FSA ID，这是一个用户名和密码组合，允许你以电子方式签署你的FAFSA表格。你的FSA ID还可以用于访问myStudentAid应用、签署贷款合同以及在线访问某些信息。虽然你可以在在线完成FAFSA表格时获取FSA ID，但提前获取并使用它在fafsa.gov或myStudentAid移动应用上开始你的FAFSA表格可以减少错误和延误。了解如何获取FSA ID以及如果你忘记了FSA ID该怎么办。\n\n重要提示：如果你是一名受抚养学生，你的信息在FAFSA表格上报告的父母之一也需要一个FSA ID，以便他或她可以以电子方式签署你的申请。如果你的父母没有社会安全号码（SSN），你的父母将无法创建FSA ID（这需要SSN）。这意味着你必须在fafsa.gov上完成FAFSA表格时选择打印签名页的选项（此选项在myStudentAid应用中不可用）。\n\n在开始FAFSA表格之前创建你的FSA ID只需几分钟，可以防止处理延迟。（此外，没有FSA ID你根本无法使用myStudentAid移动应用，所以你需要先创建它才能在该应用上填写FAFSA表格。）\n\n提示：使用你的FSA ID开始你的FAFSA表格。当你创建FSA ID时，请务必准确输入你的姓名和社会安全号码，就像它们出现在你的社会安全卡上一样。然后，如果你去fafsa.gov开始你的申请并表明你是学生，你将可以选择输入你的FSA ID或输入你的标识符（你的姓名、出生日期和SSN）。\n\n如果你使用FSA ID登录，某些信息（包括你的姓名、社会安全号码和出生日期）将自动加载到你的申请中。这将防止你遇到一个常见错误，即你验证的FSA ID信息与FAFSA表格上的信息不匹配。此外，如果你符合条件，你无需再次提供FSA ID即可以电子方式签署你的FAFSA表格或使用美国国税局数据检索工具（IRS DRT）。\n\n学生是申请经济援助的人，所以确保是学生在“我是学生”标签下输入他或她的FSA ID。不要通过提供父母的FSA ID来开始FAFSA表格。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 获取帮助]\n如果您在填写FAFSA表格时需要帮助，请使用这些免费工具：\n\n- 选择FAFSA问题旁边的蓝白问号图标，查看提供有关如何回答该问题的信息的“工具提示”。\n- 在在线FAFSA表格中，工具提示可能有“更多帮助”链接以获取更多信息。您还可以选择工具提示底部的“帮助”按钮进入FAFSA帮助页面，在那里您可以浏览常见问题解答、搜索更多信息或点击“联系我们”。\n- 一旦您点击“联系我们”，您可以选择通过电子邮件向我们提问，或者在工作时间内与实时技术支持人员聊天（英语或西班牙语）。（在myStudentAid移动应用程序中，您可以通过屏幕右上角的三条平行线汉堡菜单找到联系信息。）\n- 联系您计划就读的学院或职业学校的财政援助办公室。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "document": "Link to Us | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_052.md",
+          "excerpt": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "When presenting the banners, you must include the HTML codes that link to StudentAid.gov (or fafsa.gov, depending on the banner). For static banners, copy the HTML text provided in the chart, paste it into your page's HTML document, and download the image. Also, ensure the banner does not appear on a page whose primary purpose is marketing or ordering a product/service, or on a page urging readers to contact Congress or state legislators about pending legislation.",
+          "citations": [
+            "Link to Us | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "7d08e989f61748b7bd21ea4167d47e09",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3385,
+              "completion_tokens": 126,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 126,
+                "prompt_tokens": 3385,
+                "total_tokens": 3511,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3129
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0052733,
+            "accounted_rmb": 0.0052733,
+            "usage_unknown": false,
+            "seconds": 1.9039108753204346,
+            "error": null,
+            "response": {
+              "id": "6ca32ed1-cf71-4e99-8ed2-c86b2d1c309f",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "b98d6c5a8cbb73aa7bbbbebc446a56c653c0b99ef05f4fc115e7ad1d1a25502c"
+      },
+      "latency_ms": {
+        "queue_wait": 0.042625004425644875,
+        "retrieval": 1579.8139580292627,
+        "generation": 1908.2348750671372,
+        "total": 3489.640292013064
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2787995410617441,
+        "rerank_seconds": 1.3009722080314532,
+        "top1_dense_score": 0.8171762824058533,
+        "candidate_ids": [
+          "Link to Us | Federal Student Aid#1_0::c0000",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0002",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0001",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0005",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "Feedback Center#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0002",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0007",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0008",
+          "Loans | Federal Student Aid#1_0::c0005",
+          "Aid for International Study | Federal Student Aid#1_0::c0001",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0000",
+          "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0::c0001",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0003",
+          "Accepting Aid | Federal Student Aid#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 35,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.5797871660906821
+      },
+      "raw_citations": [
+        "Link to Us | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "5c185b757458cf473a02b5247029b56cfd634085e18fb9d38f901d6c6ac50df7"
+}

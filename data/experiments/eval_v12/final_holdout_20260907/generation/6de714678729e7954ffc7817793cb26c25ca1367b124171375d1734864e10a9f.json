@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "18293c6f633a2627c3f45d2854e7c6c5::agent-turn-10",
+    "item_sha256": "25cc92dc9dd368bddf2026c9d0a336f34820b8cab254a8620c4ec02536c57d8f",
+    "result": {
+      "request_id": "bb810e82515d410e9cc52f94eb2c90db",
+      "session_id": "18293c6f633a2627c3f45d2854e7c6c5",
+      "turn_id": 9,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查。医疗证据可能包括医生和医院报告、检查结果和其他文件。",
+        "citations": [
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003",
+          "text": "[VA 索赔检查（C&P 检查） > 是否每个提交索赔的人都需要进行 VA 索赔检查？]\n不需要。只有当我们需要更多信息来决定您的索赔时，我们才会要求您进行索赔检查。\n\n如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查。医疗证据可能包括医生和医院报告、检查结果和其他文件。"
+        },
+        {
+          "chunk_id": "VA Disability Compensation For PTSD | Veterans Affairs#1_0::c0000",
+          "text": "# VA 创伤后应激障碍残疾补偿 | 退伍军人事务部\n\n# VA 创伤后应激障碍残疾补偿\n\n创伤后应激可能发生在某人经历创伤事件之后，例如战斗、袭击或灾难。大多数人在创伤后会有一些应激反应。但如果这些反应随时间没有消失或干扰了你的生活，你可能患有创伤后应激障碍（PTSD）。了解如果你有PTSD症状，是否可以获得残疾补偿或福利。\n\n了解更多关于PTSD的信息\n\n### 我现在如何与他人交谈？\n\n了解如何白天或夜晚随时获得支持。\n\n如果你是一位处于危机中的退伍军人或担心某位退伍军人，请联系我们关怀备至、经验丰富的退伍军人危机热线应答者，获取保密帮助。他们中的许多人本身就是退伍军人。这项服务是私密的、免费的，并且全天候可用。\n\n要随时联系退伍军人危机热线应答者：\n\n- 拨打 800-273-8255，然后选择 1。\n- 开始保密退伍军人聊天。\n- 发送短信至 838255。\n- 如果您有听力损失，请拨打 TTY：800-799-4889。\n\n您还可以：\n\n- 拨打 911。\n- 前往最近的急诊室。\n- 直接前往最近的 VA 医疗中心。无论您的退伍身份如何或是否已加入 VA 医疗保健，都没关系。查找最近的 VA 医疗中心\n\n### 我能从 VA 获得残疾福利吗？\n\n如果您有与创伤事件（应激源）相关的症状，或者您对应激源的经历与 PTSD 症状相关，并且您满足以下列出的所有要求，您可能能够获得残疾福利。\n\n以下所有情况都必须属实：\n\n- 应激源发生在您服役期间，并且\n- 由于您的症状，您无法像以前一样正常生活，并且\n- 医生已诊断您患有 PTSD\n\n### VA 认为什么是创伤事件？\n\n我们认为以下任何情况都是创伤事件：\n\n- 您遭受了严重伤害、人身或性创伤，或性侵犯，或\n- 您受到伤害、性侵犯或死亡的威胁\n\n### 谁符合资格？\n\n退伍军人\n\n## 我能获得哪种残疾福利？\n\n- 医疗保健\n- 补偿（付款）\n- 创伤后应激障碍治疗\n\n## 我如何获得这些福利？\n\n您需要提交一份残疾补偿申请。\n\n了解如何提交残疾补偿申请\n\n当您提交残疾申请时，您还需要填写以下附加表格之一：\n\n- 一份支持服役期间创伤后应激障碍索赔的声明（VA表格21-0781）。下载VA表格21-0781（PDF）或\n- 一份支持因个人侵犯导致的创伤后应激障碍索赔的声明（VA表格21-0781a）。下载VA表格21-0781a（PDF）\n\n注意：在我们的筛查过程中，我们将重点全面了解您的创伤后应激障碍，以帮助确定您是否有资格获得残疾福利。在此过程中，我们不会为您提供治疗。\n\n如果您正在寻找治疗方案，请与您的医疗保健提供者交谈，或了解更多关于获取VA创伤后应激障碍服务的信息。了解如何获取VA创伤后应激障碍服务\n\n如果您处于危机中，需要立即与人交谈，您可以随时联系退伍军人危机热线应答者，无论白天还是夜晚。了解如何立即获得支持\n\n## 获取更多信息\n\n我们在治疗创伤后应激障碍方面取得了巨大进展，并已将更多心理健康服务提供者引入VA医疗中心，以帮助为患有创伤后应激障碍的退伍军人提供最佳护理。了解我们的创伤后应激障碍项目\n\n最后更新："
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0005",
+          "text": "[PTSD 治疗 > 如果我认为我的PTSD与兵役有关，我能获得VA的残疾补偿（每月付款）或其他福利吗？]\n如果您有PTSD症状，并且在服役期间遭受严重伤害、个人创伤、性创伤，或受到伤害、性侵犯或死亡的威胁，您可能能够获得残疾补偿或福利。了解您是否有资格获得残疾福利"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0004",
+          "text": "[VA benefits for service members > 退役或退休时需考虑的时效性VA福利]\n- 退役前残疾索赔\n\n如果您认为某种疾病或伤害是由服役引起或加重的，请了解如何通过Benefits Delivery at Discharge计划提交残疾索赔。这可能有助于加快您的索赔进程，使您更快获得福利。您需要在退役前180至90天内提交。适用于现役军人、国民警卫队成员和预备役人员\n\n- 退役后转换人寿保险\n\n了解如何将您的SGLI保险转换为Veterans' Group Life Insurance (VGLI)或商业保单。了解如果您有与服务相关的残疾，其他保险选项。在某些情况下，您必须在退役后120天内采取行动，以确保保险不中断。适用于军人及退伍军人（现役、国民警卫队和预备役）\n\n- 教育和职业咨询\n\n通过免费的教育和职业咨询（也称为Chapter 36）获得向平民职业过渡的支持。您需要在退役前6个月至退役后1年内申请。仅适用于现役军人和退伍军人\n\n- 现役军人及VA医疗保健\n\n了解您退役或退休后的医疗保健选项，以及在收到退役或退休命令后如何申请VA医疗保健。如果您是战斗退伍军人，请立即申请，以利用5年的增强资格。仅适用于现役军人和退伍军人\n\n- 职业康复与就业\n\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，请了解如何申请职业康复。您可以在收到退役通知或首次VA残疾评定之日起12年内申请。适用于军人及退伍军人（现役、国民警卫队和预备役）"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "text": "[VA 索赔检查（C&P 检查） > 务必不要错过您预定的检查。]\n提交残疾福利索赔后，我们可能会要求您进行索赔检查（也称为补偿和养老金检查，或 C&P 检查）。在下方获取关于 VA 索赔检查常见问题的解答。\n\n如果您错过了检查，我们可能无法立即为您重新安排，您的索赔可能会在等待新预约期间被延迟。或者我们可能需要按现状评定您的索赔。这意味着我们将仅根据您档案中已有的证据来决定您的残疾福利，而这些证据可能不足。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003",
+          "text": "[VA 索赔检查（C&P 检查） > 是否每个提交索赔的人都需要进行 VA 索赔检查？]\n不需要。只有当我们需要更多信息来决定您的索赔时，我们才会要求您进行索赔检查。\n\n如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查。医疗证据可能包括医生和医院报告、检查结果和其他文件。"
+        },
+        {
+          "chunk_id": "VA Disability Compensation For PTSD | Veterans Affairs#1_0::c0000",
+          "text": "# VA 创伤后应激障碍残疾补偿 | 退伍军人事务部\n\n# VA 创伤后应激障碍残疾补偿\n\n创伤后应激可能发生在某人经历创伤事件之后，例如战斗、袭击或灾难。大多数人在创伤后会有一些应激反应。但如果这些反应随时间没有消失或干扰了你的生活，你可能患有创伤后应激障碍（PTSD）。了解如果你有PTSD症状，是否可以获得残疾补偿或福利。\n\n了解更多关于PTSD的信息\n\n### 我现在如何与他人交谈？\n\n了解如何白天或夜晚随时获得支持。\n\n如果你是一位处于危机中的退伍军人或担心某位退伍军人，请联系我们关怀备至、经验丰富的退伍军人危机热线应答者，获取保密帮助。他们中的许多人本身就是退伍军人。这项服务是私密的、免费的，并且全天候可用。\n\n要随时联系退伍军人危机热线应答者：\n\n- 拨打 800-273-8255，然后选择 1。\n- 开始保密退伍军人聊天。\n- 发送短信至 838255。\n- 如果您有听力损失，请拨打 TTY：800-799-4889。\n\n您还可以：\n\n- 拨打 911。\n- 前往最近的急诊室。\n- 直接前往最近的 VA 医疗中心。无论您的退伍身份如何或是否已加入 VA 医疗保健，都没关系。查找最近的 VA 医疗中心\n\n### 我能从 VA 获得残疾福利吗？\n\n如果您有与创伤事件（应激源）相关的症状，或者您对应激源的经历与 PTSD 症状相关，并且您满足以下列出的所有要求，您可能能够获得残疾福利。\n\n以下所有情况都必须属实：\n\n- 应激源发生在您服役期间，并且\n- 由于您的症状，您无法像以前一样正常生活，并且\n- 医生已诊断您患有 PTSD\n\n### VA 认为什么是创伤事件？\n\n我们认为以下任何情况都是创伤事件：\n\n- 您遭受了严重伤害、人身或性创伤，或性侵犯，或\n- 您受到伤害、性侵犯或死亡的威胁\n\n### 谁符合资格？\n\n退伍军人\n\n## 我能获得哪种残疾福利？\n\n- 医疗保健\n- 补偿（付款）\n- 创伤后应激障碍治疗\n\n## 我如何获得这些福利？\n\n您需要提交一份残疾补偿申请。\n\n了解如何提交残疾补偿申请\n\n当您提交残疾申请时，您还需要填写以下附加表格之一：\n\n- 一份支持服役期间创伤后应激障碍索赔的声明（VA表格21-0781）。下载VA表格21-0781（PDF）或\n- 一份支持因个人侵犯导致的创伤后应激障碍索赔的声明（VA表格21-0781a）。下载VA表格21-0781a（PDF）\n\n注意：在我们的筛查过程中，我们将重点全面了解您的创伤后应激障碍，以帮助确定您是否有资格获得残疾福利。在此过程中，我们不会为您提供治疗。\n\n如果您正在寻找治疗方案，请与您的医疗保健提供者交谈，或了解更多关于获取VA创伤后应激障碍服务的信息。了解如何获取VA创伤后应激障碍服务\n\n如果您处于危机中，需要立即与人交谈，您可以随时联系退伍军人危机热线应答者，无论白天还是夜晚。了解如何立即获得支持\n\n## 获取更多信息\n\n我们在治疗创伤后应激障碍方面取得了巨大进展，并已将更多心理健康服务提供者引入VA医疗中心，以帮助为患有创伤后应激障碍的退伍军人提供最佳护理。了解我们的创伤后应激障碍项目\n\n最后更新："
+        },
+        {
+          "chunk_id": "PTSD Treatment | Veterans Affairs#1_0::c0005",
+          "text": "[PTSD 治疗 > 如果我认为我的PTSD与兵役有关，我能获得VA的残疾补偿（每月付款）或其他福利吗？]\n如果您有PTSD症状，并且在服役期间遭受严重伤害、个人创伤、性创伤，或受到伤害、性侵犯或死亡的威胁，您可能能够获得残疾补偿或福利。了解您是否有资格获得残疾福利"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0004",
+          "text": "[VA benefits for service members > 退役或退休时需考虑的时效性VA福利]\n- 退役前残疾索赔\n\n如果您认为某种疾病或伤害是由服役引起或加重的，请了解如何通过Benefits Delivery at Discharge计划提交残疾索赔。这可能有助于加快您的索赔进程，使您更快获得福利。您需要在退役前180至90天内提交。适用于现役军人、国民警卫队成员和预备役人员\n\n- 退役后转换人寿保险\n\n了解如何将您的SGLI保险转换为Veterans' Group Life Insurance (VGLI)或商业保单。了解如果您有与服务相关的残疾，其他保险选项。在某些情况下，您必须在退役后120天内采取行动，以确保保险不中断。适用于军人及退伍军人（现役、国民警卫队和预备役）\n\n- 教育和职业咨询\n\n通过免费的教育和职业咨询（也称为Chapter 36）获得向平民职业过渡的支持。您需要在退役前6个月至退役后1年内申请。仅适用于现役军人和退伍军人\n\n- 现役军人及VA医疗保健\n\n了解您退役或退休后的医疗保健选项，以及在收到退役或退休命令后如何申请VA医疗保健。如果您是战斗退伍军人，请立即申请，以利用5年的增强资格。仅适用于现役军人和退伍军人\n\n- 职业康复与就业\n\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，请了解如何申请职业康复。您可以在收到退役通知或首次VA残疾评定之日起12年内申请。适用于军人及退伍军人（现役、国民警卫队和预备役）"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "text": "[VA 索赔检查（C&P 检查） > 务必不要错过您预定的检查。]\n提交残疾福利索赔后，我们可能会要求您进行索赔检查（也称为补偿和养老金检查，或 C&P 检查）。在下方获取关于 VA 索赔检查常见问题的解答。\n\n如果您错过了检查，我们可能无法立即为您重新安排，您的索赔可能会在等待新预约期间被延迟。或者我们可能需要按现状评定您的索赔。这意味着我们将仅根据您档案中已有的证据来决定您的残疾福利，而这些证据可能不足。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003",
+          "document": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+          "heading": [
+            "VA 索赔检查（C&P 检查）",
+            "是否每个提交索赔的人都需要进行 VA 索赔检查？"
+          ],
+          "source_file": "va_091.md",
+          "excerpt": "[VA 索赔检查（C&P 检查） > 是否每个提交索赔的人都需要进行 VA 索赔检查？]\n不需要。只有当我们需要更多信息来决定您的索赔时，我们才会要求您进行索赔检查。\n\n如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查。医疗证据可能包括医生和医院报告、检查结果和其他文件。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查。医疗证据可能包括医生和医院报告、检查结果和其他文件。",
+          "citations": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "8d2e259d568d4d3f934c29e01124ee6c",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1888,
+              "completion_tokens": 71,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 71,
+                "prompt_tokens": 1888,
+                "total_tokens": 1959,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1632
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0027803000000000003,
+            "accounted_rmb": 0.0027803000000000003,
+            "usage_unknown": false,
+            "seconds": 1.2205400466918945,
+            "error": null,
+            "response": {
+              "id": "3981babf-d150-47c8-aa23-3c1daa060e97",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "e3680b4fc46c5dff6a98ab5cd4a40ef916a3bfef959b7751b79ae4980ba1ec27"
+      },
+      "latency_ms": {
+        "queue_wait": 0.017583020962774754,
+        "retrieval": 1114.597374922596,
+        "generation": 1222.8412919212133,
+        "total": 2337.891041999683
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.22337437490932643,
+        "rerank_seconds": 0.8911419160431251,
+        "top1_dense_score": 0.7913545966148376,
+        "candidate_ids": [
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0002",
+          "VA Disability Compensation For PTSD | Veterans Affairs#1_0::c0000",
+          "PTSD Treatment | Veterans Affairs#1_0::c0005",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0001",
+          "VA Disability Compensation | Veterans Affairs#2_0::c0000",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0007",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0003",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0002",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0000",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0005",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0004",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0003",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0005",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0001",
+          "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000",
+          "VA Individual Unemployability If You Can't Work | Veterans Affairs#1_0::c0000",
+          "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 32,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.1145754579920322
+      },
+      "raw_citations": [
+        "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "006a60c24b26b56b3d2a03e279eb00da6c6efbe14f164855bdafdabce665c98f"
+}

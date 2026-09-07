@@ -1,0 +1,1680 @@
+{
+  "review_schema_version": 1,
+  "review_date": "2026-09-06",
+  "scope": "All 200 items selected into evaluation-v1-candidate-1: 140 source answer items, 40 source query_condition items, and 20 source respond_no_solution items",
+  "method": "AI-agent content review of the current question, complete prior conversation, and source gold response; no retrieval or model output consulted",
+  "summary": {
+    "reviewed": 200,
+    "approved": 121,
+    "approved_as_answer": 104,
+    "approved_as_clarify": 17,
+    "approved_as_refuse": 0,
+    "rejected": 79,
+    "condition_or_slot_answers": 12,
+    "conversation_closures": 5,
+    "answerable_or_continuation_requests": 2,
+    "scope_clarification": 1,
+    "source_query_condition_reviewed": 40,
+    "source_query_condition_approved": 24,
+    "source_query_condition_rejected": 16,
+    "short_question_or_reference_reviewed": 15,
+    "short_question_or_reference_approved": 11,
+    "short_question_or_reference_rejected": 4,
+    "ordinary_answer_sample_reviewed": 20,
+    "ordinary_answer_sample_approved": 15,
+    "ordinary_answer_sample_rejected": 5,
+    "remaining_initial_dev_answers_reviewed": 54,
+    "remaining_initial_dev_answers_approved": 35,
+    "remaining_initial_dev_answers_rejected": 19,
+    "remaining_initial_holdout_answers_reviewed": 51,
+    "remaining_initial_holdout_answers_approved": 36,
+    "remaining_initial_holdout_answers_rejected": 15
+  },
+  "items": [
+    {
+      "split": "dev",
+      "question_id": "277dbf1b0df58ecadb3c8381839feec0::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "User is answering whether they are appealing; this is a condition response, not a knowledge-base question.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "3876cbe36e90282406cbea85a31e5012::agent-turn-7",
+      "status": "rejected",
+      "label_reason": "User says they found everything needed; this is a conversation closure, not a refusal test.",
+      "reviewer_notes": "conversation_closure"
+    },
+    {
+      "split": "dev",
+      "question_id": "37ca0b0a73ca77ad9f57b61048dcbde6::agent-turn-7",
+      "status": "rejected",
+      "label_reason": "User says they already understand; this is a conversation closure, not a refusal test.",
+      "reviewer_notes": "conversation_closure"
+    },
+    {
+      "split": "dev",
+      "question_id": "0971599b9c9816449f701c2eee8bca57::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "User is answering whether they already have VA life insurance; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "f2594c64b66e302fcb2482e5d4823c39::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "User is answering whether they are a parent of an undergraduate; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "5ed99f74c7e04afb5273e122dd541670::agent-turn-11",
+      "status": "rejected",
+      "label_reason": "User is answering whether they receive retirement or disability benefits; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "feaa4a89454fdae1d7d8a35f58c32441::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "User clarifies that the learner permit is for their son; this supplies a condition rather than asking an unanswerable question.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "ddf3d19251ddc11187f6ca7432e6826c::agent-turn-12",
+      "status": "rejected",
+      "label_reason": "User says the information does not apply and thanks the assistant; this is a conversation closure.",
+      "reviewer_notes": "conversation_closure"
+    },
+    {
+      "split": "dev",
+      "question_id": "bda048f1c195f3646d20006ac31124d5::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "User only thanks the assistant; this is a conversation closure.",
+      "reviewer_notes": "conversation_closure"
+    },
+    {
+      "split": "dev",
+      "question_id": "a04e5d0a16fddca173f34bcf37884fa6::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "User asks how birth-record verification works; this is an actionable follow-up and may be answerable, not a validated refusal case.",
+      "reviewer_notes": "answerable_or_continuation_request"
+    },
+    {
+      "split": "holdout",
+      "question_id": "971b98497f65ee8965abd1611d100e59::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The utterance is only 'not' in response to a scheduling question; it is not a standalone knowledge-base request.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "54193684a189981822e4bac3fe6bae93::agent-turn-9",
+      "status": "rejected",
+      "label_reason": "User says the topic does not apply and thanks the assistant; this is a conversation closure.",
+      "reviewer_notes": "conversation_closure"
+    },
+    {
+      "split": "holdout",
+      "question_id": "a1e434700884b85b023e1f9ed4b0751e::agent-turn-11",
+      "status": "rejected",
+      "label_reason": "User says they do not know how to avoid tickets; in context this invites the assistant to provide that information.",
+      "reviewer_notes": "answerable_or_continuation_request"
+    },
+    {
+      "split": "holdout",
+      "question_id": "4b2f7ff328c375bec0a95fdea761024f::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "User is answering whether they seek state aid; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "96e86f698d78df016b21164ded012b64::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "User is answering whether a child's citizenship has been confirmed; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "b5ede3855d9d1d807a9f50dcccc05f35::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "User is answering whether they expect a non-covered pension; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "c257e620ddee5eb4aa468ac26cf96862::agent-turn-7",
+      "status": "rejected",
+      "label_reason": "User is answering whether they received a suspension notice; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "d427a22ca7225c74daa038760b86a6af::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "User narrows the desired topic to financial aid; this is scope clarification, not evidence that the knowledge base lacks an answer.",
+      "reviewer_notes": "scope_clarification"
+    },
+    {
+      "split": "holdout",
+      "question_id": "74b3eaf6fc1fa13ef1eb2ea05683981b::agent-turn-12",
+      "status": "rejected",
+      "label_reason": "User clarifies that they are asking for their daughter; this supplies a condition rather than asking an unanswerable question.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5df5b0beadfb25fdda683b1329fe7bb8::agent-turn-14",
+      "status": "rejected",
+      "label_reason": "User is answering a question about prior-year earnings; this is a condition response.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "375a963ac82d70c70446a2f30e686438::agent-turn-8",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Have you been a faculty member at a tribal college or university?",
+      "label_reason": "The user is progressing through a documented public-service employment eligibility list; asking the next relevant condition is a valid continuation.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "dev",
+      "question_id": "f466ecfe105557043d5a8989c3d985a2::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The user asks about retirement planning, but the source response switches to family benefits without establishing that this is the missing condition.",
+      "reviewer_notes": "reference_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "60f033db0967c2394c27bacb96bb7360::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The target is only a greeting exchange and does not test grounded QA or meaningful clarification.",
+      "reviewer_notes": "not_an_evaluation_question"
+    },
+    {
+      "split": "dev",
+      "question_id": "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Social Security uses the most recent federal tax return supplied by the IRS to determine the income-related monthly adjustment. For the 2020 adjustment, this was generally a return filed in 2019 for tax year 2018, or sometimes a 2018 return for tax year 2017.",
+      "label_reason": "The question asks for the role of the tax return and the cited evidence answers it directly; another confirmation question is unnecessary.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "To change your name or other non-address information, such as your photo, height, or corrective-lens restriction, you need to visit a DMV office.",
+      "label_reason": "The evidence directly answers how to change a name; the source response is an incomplete heading rather than an appropriate answer.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Did you complete initial entry training and then serve on active duty for 15 months in a military occupational specialty designated by the Secretary of Defense?",
+      "label_reason": "The user explicitly asks which eligibility question must be answered, and the evidence supplies the next condition.",
+      "reviewer_notes": "source_statement_rewritten_as_clarifying_question"
+    },
+    {
+      "split": "dev",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Were you homeschooled?",
+      "label_reason": "The user has ruled out preceding education credentials, so checking the next documented eligibility route is a valid clarification.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "dev",
+      "question_id": "438267cd2c6889fcaaa36953ae269483::agent-turn-8",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Without a break in service, did you then serve either an additional active-duty period determined by the Secretary of Defense or 24 months on active duty in the Selected Reserve?",
+      "label_reason": "This is the next documented eligibility condition after the user confirms the first condition.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "dev",
+      "question_id": "26b0f6c2fe37202f4b6a0763afcab3aa::agent-turn-12",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Will your financial aid be disbursed 10 days before the term begins, and will it leave a credit balance after tuition, fees, and other school charges are paid?",
+      "label_reason": "Whether the student should receive funds for books depends on disbursement timing and whether a credit balance remains.",
+      "reviewer_notes": "clarifying_question_made_complete"
+    },
+    {
+      "split": "dev",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "After the user declines information about requesting a hearing, the source response offers a different topic rather than resolving missing information needed for the user's request.",
+      "reviewer_notes": "assistant_driven_topic_switch"
+    },
+    {
+      "split": "dev",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Have you received an order from the DMV saying that your driver license or driving privilege was revoked?",
+      "label_reason": "The existence of a revocation order determines which documented explanation and next steps apply.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "dev",
+      "question_id": "8a10b25d9bf07e17e314da263712baa9::agent-turn-16",
+      "status": "rejected",
+      "label_reason": "The user says the normal office visit is acceptable; asking about another county is an optional offer, not a necessary clarification.",
+      "reviewer_notes": "unnecessary_follow_up"
+    },
+    {
+      "split": "dev",
+      "question_id": "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "To qualify for a parent PLUS loan, you generally must be the biological or adoptive parent, or in some cases the stepparent, of a dependent undergraduate enrolled at least half-time at an eligible school; have no adverse credit history unless you meet additional requirements; and meet the general federal student-aid eligibility requirements. The child must also meet those general requirements.",
+      "label_reason": "The user asks for the complete eligibility conditions and the evidence contains them; asking only the first condition would be incomplete.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "484efa0857224a8212323635750155c7::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "The user says they do not currently need the offered information; the source response continues prompting without a user goal to clarify.",
+      "reviewer_notes": "unnecessary_follow_up"
+    },
+    {
+      "split": "dev",
+      "question_id": "5ff1cc139e41e8ee03e1f72ff485cbca::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "The user postpones the grant explanation and the source response changes to scholarships; this does not resolve a missing condition for the request.",
+      "reviewer_notes": "assistant_driven_topic_switch"
+    },
+    {
+      "split": "dev",
+      "question_id": "d5cbc100f9120ea22d81e05367734958::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The broad request concerns buying or selling a vehicle, while the source response asks about a name change without a supported connection.",
+      "reviewer_notes": "reference_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "For a child age 18 or older, Social Security evaluates disability using the same process used for any adult and sends the application to the state's Disability Determination Services for the disability decision.",
+      "label_reason": "The user already specifies an adult child, and the cited evidence directly describes how adult disability is evaluated.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "6a53d32979534c26b56948c498908f0d::agent-turn-14",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Did you serve in a theater of combat operations after November 11, 1998?",
+      "label_reason": "Combat-theater service is a documented condition needed to determine the enhanced eligibility being discussed.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "dev",
+      "question_id": "c92b7a4080c71c677a5d5142370610d0::agent-turn-8",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Do you mean how to apply after the DMV approves your business name?",
+      "label_reason": "The user's 'and then' is ambiguous about the application stage, so confirming the prerequisite stage is appropriate.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "dev",
+      "question_id": "6265f70902f37a73f072250a9db47f21::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The question 'Where should I start?' has no prior topic in this target conversation, so the retirement-specific source response is not grounded in a recoverable user intent.",
+      "reviewer_notes": "ambiguous_without_topic"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5cbfa4c9e28369347711fc18913bccb5::agent-turn-2",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Have you received an order from the DMV saying that your driver license or driving privilege was revoked?",
+      "label_reason": "The existence of a revocation order determines which documented explanation and next steps apply.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "7ada177206e9e02a9a842be305531873::agent-turn-14",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Do you work full-time while earning less than 150% of the poverty guideline for your family size and state of residence?",
+      "label_reason": "The user has ruled out one hardship-deferment route, so checking the next documented condition is appropriate.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "3904a1d97905861dd6dac797f9ef07f7::agent-turn-2",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Have you legally changed your name?",
+      "label_reason": "The reason for requesting a corrected Social Security card determines the applicable document requirements.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5a1fa1da4d95bb3fdf399455e34d19f8::agent-turn-11",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Does your yearly family income and net worth fall within the limits set by Congress?",
+      "label_reason": "After confirming the discharge condition, income and net worth are the next documented pension-eligibility condition.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "62439f632f6d2f809ffc2976e50a16c9::agent-turn-2",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Are you able to perform daily activities without help?",
+      "label_reason": "Limitations in daily living are necessary to determine whether the independent-living service applies.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "8adeb3f3f85943bc7258c180fac90a74::agent-turn-11",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Are you currently going through the Physical Evaluation Board process?",
+      "label_reason": "This is one documented route to VR&E eligibility and is a relevant first condition to check.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "8c6eea635228fb3c4062b0918b3f6fc2::agent-turn-10",
+      "status": "rejected",
+      "label_reason": "The user indicates they do not understand processing time, but the source response switches to result notification instead of answering or clarifying that request.",
+      "reviewer_notes": "assistant_driven_topic_switch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5812c28dc169bfa56027d267efa5c829::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "A high school diploma or a recognized equivalent such as a GED is one way to meet the education requirement for federal student aid; the full basic eligibility rules also include the other federal student-aid criteria.",
+      "label_reason": "The question asks whether a diploma is required and can be answered directly from the documented eligibility criteria.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "bea012ceb29d68ca434d2b2ed1b653c4::agent-turn-4",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Were you enrolled at the school when it closed?",
+      "label_reason": "Enrollment status at closure is necessary to determine closed-school discharge eligibility.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "b4589ec32ac64ad0e0e899821030c2b9::agent-turn-12",
+      "status": "rejected",
+      "label_reason": "The user asks what happens after returning to work, while the source response asks about preference and the cited evidence does not provide the required consequences.",
+      "reviewer_notes": "insufficient_or_mismatched_reference"
+    },
+    {
+      "split": "holdout",
+      "question_id": "bd26a8d1e98934df9ecb290be1657187::agent-turn-2",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Are you looking for information about the requirement to recertify your income each year?",
+      "label_reason": "The phrase 'repeat IDR applicant' is ambiguous, and confirming whether the user means annual income recertification is relevant.",
+      "reviewer_notes": "clarifying_question_made_complete"
+    },
+    {
+      "split": "holdout",
+      "question_id": "6eced3e1b6d3723bef1b3e46def63377::agent-turn-10",
+      "status": "rejected",
+      "label_reason": "The user repeatedly declines the offered address topics; asking about an overseas replacement is another unsolicited topic rather than a needed clarification.",
+      "reviewer_notes": "unnecessary_follow_up"
+    },
+    {
+      "split": "holdout",
+      "question_id": "c0cd6d24179dac92a05e1493ac43123a::agent-turn-9",
+      "status": "approved",
+      "task_label": "clarify",
+      "reviewed_reference": "Did you receive a Purple Heart on or after September 11, 2001?",
+      "label_reason": "The user has ruled out the first service-duration route, so checking another documented eligibility route is appropriate.",
+      "reviewer_notes": "query_condition_review"
+    },
+    {
+      "split": "holdout",
+      "question_id": "71b7fa6c2ebf4d2df64de74aec1984ce::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you received diagnosis or treatment from a non-VA provider, upload copies of all medical records that provide information about the disability you are claiming.",
+      "label_reason": "The evidence directly answers what to do with private medical treatment records.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "b3e946ca24f496266eac09619b061cc3::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The question asks about SGLI eligibility, but the cited criteria concern a different housing-related mortgage insurance benefit, making the reference mismatched.",
+      "reviewer_notes": "document_topic_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "565314f8791e7594547e43ad4296521d::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The conversation is about the user's own retirement application, but the source response switches to spouse or survivor eligibility without a supported reason.",
+      "reviewer_notes": "reference_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "4ca3108b66983f8ba7ec41803de6fd29::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The history contains a contradiction about changing a last name, and the source response changes to document issuance date rather than resolving that contradiction.",
+      "reviewer_notes": "incoherent_conversation_and_reference"
+    },
+    {
+      "split": "holdout",
+      "question_id": "6f23cca015caa4543aa6ada40041fe81::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you were recently denied Social Security benefits or SSI, you can request an appeal. Generally, you have 60 days after receiving the decision notice to request one of the available appeal levels.",
+      "label_reason": "The question can be answered directly from the documented appeal process; asking whether denial occurred is unnecessary.",
+      "reviewer_notes": "relabelled_query_condition_to_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "32067a7f50a8aebc4058558bafd47a85::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The user clearly says they only want federal aid, while the source response repeats a state-aid confirmation and does not advance the request.",
+      "reviewer_notes": "redundant_follow_up"
+    },
+    {
+      "split": "holdout",
+      "question_id": "59dbba8f99a36e7d5e61ccef3b654f7f::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The history and question contain unrelated placeholder-like text, and the source response is not a reliable reference for a grounded QA evaluation.",
+      "reviewer_notes": "garbled_or_incoherent_sample"
+    },
+    {
+      "split": "dev",
+      "question_id": "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Social Security calculates the premium adjustment on a sliding scale using your modified adjusted gross income, which is adjusted gross income plus tax-exempt interest income.",
+      "label_reason": "Although the target utterance is only an affirmation, the preceding turns establish that the user wants the calculation after being told they must pay a higher premium.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "The Extended Repayment Plan may be suitable if you need lower monthly payments over a longer period than plans such as the Standard Repayment Plan.",
+      "label_reason": "The affirmative follow-up has a clear antecedent in the immediately preceding eligibility question and the evidence supports the response.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Instructions for obtaining and submitting the required filing receipt are available on the New York State Department of State website.",
+      "label_reason": "The immediately preceding discussion establishes that 'we' refers to the LLC filing-receipt step, and the cited evidence supplies the instruction source.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "fbb1d76bbb463fc48f95aa656192ef9b::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "The user confirms having a birth certificate, but the source answer explains how to request one when it is missing; the response contradicts the conversation state.",
+      "reviewer_notes": "reference_contradicts_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "The Extended Repayment Plan may be suitable if you need lower monthly payments over a longer period than plans such as the Standard Repayment Plan.",
+      "label_reason": "The affirmative follow-up has a clear antecedent in the immediately preceding eligibility question and the evidence supports the response.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+      "label_reason": "The user's affirmation clearly selects the rescheduling branch posed in the preceding turn, and the evidence directly supports the instructions.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "e429a637384bdae1ff011e8bba7c52e9::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If VA schedules examinations while you wait, make sure you do not miss them.",
+      "label_reason": "The short source answer is complete for the narrow question and is directly supported by the cited evidence.",
+      "reviewer_notes": "short_reference_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "2105ed56433250b142650a42ef8ea968::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you completed a period of national service, you may qualify for the National Call to Service program, which lets you choose an education benefit as an alternative to the Montgomery GI Bill.",
+      "label_reason": "The affirmative follow-up answers the immediately preceding service question and the evidence supports the eligibility statement.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "6e2582ff8aa791be1bb016e4e5b3d4c8::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The source response 'see item 3' and evidence label 'Disability Home' do not provide a self-contained, verifiable answer to how to apply.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "holdout",
+      "question_id": "c1285fe001ca8cef714150a63ccfd1b1::agent-turn-5",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Because your parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001, you may qualify for the Fry Scholarship.",
+      "label_reason": "The affirmative response has a clear antecedent and the evidence supports the conditional eligibility conclusion.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "fbbd2f1d98b8ef08bee54494d736cd49::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "The user says they already understand the consequences of failing the tests, but the source answer supplies an unrelated fee detail and does not answer a remaining request.",
+      "reviewer_notes": "unnecessary_follow_up"
+    },
+    {
+      "split": "holdout",
+      "question_id": "c6d49f7ccbf04ee3838968999ee006b0::agent-turn-5",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Balancing studying with recreation helps you practice time management, one of the skills useful for succeeding in college and later life.",
+      "label_reason": "The affirmative follow-up selects the time-management topic posed in the preceding turn, and the evidence explains the connection.",
+      "reviewer_notes": "source_reference_rewritten_for_clarity"
+    },
+    {
+      "split": "holdout",
+      "question_id": "87db86a6e38b7577c7f5ae29b8c3197f::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you are one of multiple people claiming entitlement to the same VA benefit, you have 60 days from the decision date to request a Board Appeal for review by a Veterans Law Judge.",
+      "label_reason": "The affirmative follow-up identifies the contested-claim situation, and the cited evidence supports the 60-day appeal requirement.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "ee739a168c4bb336104ab01b96641886::agent-turn-5",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Because the vehicle is registered in New York, it must have New York State automobile liability insurance; out-of-state coverage is not accepted.",
+      "label_reason": "The affirmative follow-up answers the immediately preceding registration question and the evidence directly supports the insurance rule.",
+      "reviewer_notes": "short_follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "a326eddab7a90461ac2f0f70c0cb0034::agent-turn-12",
+      "status": "rejected",
+      "label_reason": "The question 'Who's covered?' lacks an unambiguous benefit or procedure in the recent context, and the one-word reference 'Veterans' is too broad to verify useful correctness.",
+      "reviewer_notes": "ambiguous_and_non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "The USDOT physical must be performed by a medical examiner listed on the Federal Motor Carrier Safety Administration's National Registry.",
+      "label_reason": "The question asks for the authorized examiner and the cited evidence directly identifies the FMCSA National Registry requirement.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "db24af7fe35304299573e34cc59db674::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "满足规定条件的残障成年人可以在线申请补充保障收入（SSI）。",
+      "label_reason": "The question's 'SII' is an evident transposition of SSI in the established topic, and the evidence directly supports online application subject to eligibility requirements.",
+      "reviewer_notes": "minor_question_typo_normalized"
+    },
+    {
+      "split": "dev",
+      "question_id": "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "You generally have one year from the date on the decision to request a VA decision review. Different deadlines may apply to fiduciary claims and multiple-party claims.",
+      "label_reason": "The question asks for the review deadline, and the evidence gives both the general one-year rule and its stated exceptions.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "According to the benchmark document, a Standard ID would not be accepted for boarding a domestic flight starting in October 2020; a passport could be used instead.",
+      "label_reason": "The historical benchmark evidence directly answers the Standard-ID branch; the reference explicitly attributes the dated claim to the frozen document.",
+      "reviewer_notes": "time_sensitive_source_claim_preserved"
+    },
+    {
+      "split": "dev",
+      "question_id": "9f3f5f38d2240af3bcb046ffa90263af::agent-turn-9",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "只有您本人可以创建和使用自己的 my Social Security 账户。即使有书面许可，其他人也不能代表您创建或使用该账户；请勿与任何人共享账户使用权。",
+      "label_reason": "The evidence directly states the account-ownership and non-sharing protections requested by the user.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Federal Student Aid issues a Final Program Review Determination (FPRD) after completing a program review. It reports each finding, the school's response, the Department's final determination, and any resulting liability or required action.",
+      "label_reason": "Despite awkward wording, the question is interpretable as asking what an FPRD issued by Federal Student Aid is, and the evidence gives a complete definition.",
+      "reviewer_notes": "awkward_question_reference_completed_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "The vague question asks what the user can do, while the source response only says to learn whether they qualify and how to apply; it supplies no self-contained action or application instructions.",
+      "reviewer_notes": "vague_question_and_non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "b17816a800cd527d849621fa4b91c4e3::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The target user utterance is a declarative answer copied from the source rather than a request to the assistant, so it is not a valid QA evaluation item.",
+      "reviewer_notes": "declarative_utterance_not_a_question"
+    },
+    {
+      "split": "dev",
+      "question_id": "2e91a2a94f8b4a22d71ab783a7237c5f::agent-turn-15",
+      "status": "rejected",
+      "label_reason": "The user requests what happens after filing a claim, but the source response merely points to information about timing and disagreements without supplying that information.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "For an unpaid traffic ticket issued elsewhere in New York State rather than New York City, contact the local court directly. DMV's My License service can provide more information about where to pay the ticket.",
+      "label_reason": "The location and unpaid-ticket condition are clear, and the evidence directly provides the correct court and DMV-service guidance.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "9dd2276b3ea2e575922b95dc4de0b5c4::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you are turning 21 soon, order the replacement ID within 40 days of your birthday to receive one without the UNDER 21 marking.",
+      "label_reason": "The malformed grammar does not obscure the user's condition, and the evidence directly gives the 40-day instruction.",
+      "reviewer_notes": "question_grammar_normalized"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5236bf78fff2d1fb74deec1c6f0232b1::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The referent of 'these benefits' is unclear after the topic switches to health-insurance coverage, and the evidence fragment does not establish that the referenced health benefits are lifetime benefits.",
+      "reviewer_notes": "ambiguous_referent_and_insufficient_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "31d25f79f93e8a1e343fcbc9b641409c::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you have a service-connected disability that limits your ability to work, VA's Veteran Readiness and Employment program (VR&E, also called Chapter 31) may help with employment options and needed training.",
+      "label_reason": "The preceding turn resolves what 'one' refers to, and the evidence directly supports the applicable VR&E assistance.",
+      "reviewer_notes": "follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "4417d675bf76bbc04ad7756cb052e345::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "You can replace a non-driver ID if it was lost or destroyed or after updating your address. An expired ID cannot be replaced; it must be renewed or you must apply for a new one.",
+      "label_reason": "The request is clear, and the evidence supplies both the replacement conditions and the expired-ID exception.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "ea5987b8b60371478b07ecfd24af03c1::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "登录您的 my Social Security 账户，然后选择屏幕右侧蓝色的“Benefits & Payment Details”（福利与付款详情）链接来设置或更改福利金的直接存款。",
+      "label_reason": "The question requests the online procedure, and the evidence directly provides the login and navigation steps.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "b1dd603395629bc3025196329adad379::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The broad eligibility question follows a statement that the user lacks qualifying employment, while the source response discusses a narrow TEPSLF repayment-plan exception after a PSLF denial and does not answer the stated eligibility issue.",
+      "reviewer_notes": "reference_condition_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "18293c6f633a2627c3f45d2854e7c6c5::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "如果档案中已有足够的医疗证据支持索赔，VA 不会要求进行索赔检查。医疗证据可以包括医生和医院报告、检查结果及其他文件。",
+      "label_reason": "The extra speaker prefix is harmless, and the evidence directly answers whether an examination is needed when the file is sufficient.",
+      "reviewer_notes": "speaker_prefix_ignored"
+    },
+    {
+      "split": "holdout",
+      "question_id": "3bfcf7a0b2920a2f13e3cd76aba027cf::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "The total varies, but you and your family can generally receive about 150% to 180% of your full retirement benefit.",
+      "label_reason": "The evidence directly supplies the requested total-family-benefit range.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "0544ea775d6a6355e977fdeef80cb115::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If you receive Social Security retirement, survivors, or disability benefits, sign in to my Social Security, select My Profile, choose Update Contact Information, enter the address, select when the change should take effect, review the information, and submit it.",
+      "label_reason": "The source reference omits the promised steps, but the cited evidence contains the complete online address-change procedure.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "1cfbd7ca8fa073e5589434a4d6f58eb1::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Benefits paid to a surviving divorced spouse will not reduce the benefit amounts that other survivors receive based on your earnings record.",
+      "label_reason": "The evidence directly answers the effect of a surviving divorced spouse's benefits on the other survivor benefits.",
+      "reviewer_notes": "ordinary_answer_sample_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "The user asks what to do after missing recertification, but the response only says consequences vary by plan and supplies neither an action nor the plan-specific consequences.",
+      "reviewer_notes": "question_reference_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The question asks how to obtain Empire Gold plates, and the evidence gives the three ordering channels and mailing outcome.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "a61ab753094765155c65e20861516017::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "Neither the target question nor its recent history identifies which application form is needed, so the form pickup and hotline response has no reliable referent.",
+      "reviewer_notes": "ambiguous_form_referent"
+    },
+    {
+      "split": "dev",
+      "question_id": "8cb49f32f33505cd9650d60abe05e8ca::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The user asks what to do after failing to update an address, but the reference is malformed and the evidence only states the ten-day reporting rule without giving the requested remedy.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "86c30674eda3147cfbce8e7840a47d62::agent-turn-17",
+      "status": "rejected",
+      "label_reason": "The evidence distinguishes renewal less than 40 days from renewal more than 40 days before the birthday; it does not support the reference outcome for exactly 40 days.",
+      "reviewer_notes": "boundary_condition_not_supported"
+    },
+    {
+      "split": "dev",
+      "question_id": "1ee8393062df2294121fb356d5926429::agent-turn-14",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The question names the relevant discharge-status alternatives, and the evidence directly states their possible effect on VA pension eligibility.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly states the benefit of claiming before full retirement age and also provides the associated tradeoff.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence provides a concise definition of whom the SSI program serves.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "83236af4c52644c27df34aac12860238::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence explicitly maps the stated issue-date interval to the $250 civil fine.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "a5bbcf3ee2f02ef7c84c7d478df65063::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The sole cited evidence is the heading 'Citizenship' and does not support the claimed documentation requirement for a foreign-born child's Social Security card.",
+      "reviewer_notes": "insufficient_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "6b3c27c1056a99cc2e76e2f9954564b7::agent-turn-13",
+      "status": "rejected",
+      "label_reason": "The user asks which proofs and paperwork to bring, while the response only directs them to an unspecified guide and does not provide a self-contained answer.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "VGLI may let you keep life-insurance coverage after leaving the military for as long as you continue paying the premiums, subject to eligibility.",
+      "label_reason": "The evidence directly answers the yes-or-no follow-up and supplies the continuing-premium condition omitted by the source reference.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The question asks when to apply and the evidence directly says to apply as soon as disability begins.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The evidence explains how listed schools use FAFSA information but does not establish the source reference's claim that at least one school must be listed.",
+      "reviewer_notes": "reference_not_supported_by_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-14",
+      "status": "rejected",
+      "label_reason": "In context, 'higher' refers to exceeding the annual earnings limit, but the response instead describes a later recomputation when a prior year's earnings exceed a year used in the benefit calculation.",
+      "reviewer_notes": "reference_condition_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Social Security Disability Insurance and Supplemental Security Income are two of the largest federal programs that assist people with disabilities. Both are administered by the Social Security Administration, but their rules differ, and applicants must meet the applicable disability and medical criteria.",
+      "label_reason": "The evidence directly defines both programs and states their shared administration and eligibility basis.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "The Loan Simulator shows repayment plans you may qualify for and compares estimated monthly payments across federal student-loan repayment plans before you contact your loan servicer.",
+      "label_reason": "The source reference does not describe the simulator, but the cited evidence provides a clear, grounded description that answers the question.",
+      "reviewer_notes": "source_reference_replaced_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly supports the conditional statement that working while receiving retirement or survivor benefits may increase future benefits.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Even if you have never worked under Social Security, you may still qualify for benefits based on a spouse's work record if you meet the applicable spouse-benefit conditions.",
+      "label_reason": "The question asks whether eligibility is possible, and the evidence directly says that people who never worked under Social Security may still qualify under listed relationships.",
+      "reviewer_notes": "reference_clarified_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The recent context establishes IRP registration, and the evidence directly explains when and how its fees are calculated and paid.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "90c474610318be15cfed995bdcf4e74d::agent-turn-13",
+      "status": "rejected",
+      "label_reason": "The evidence says a school may include a loan in an aid package and names federal and private loan types, but it does not support the claim that the school decides which loan type is offered.",
+      "reviewer_notes": "reference_not_supported_by_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "98cc1b2601f92d9323b503581cd0dbd4::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "The target user utterance merely confirms that an application was submitted; it is a condition response rather than a question to evaluate.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The preceding turns establish motorcycle supervision, and the evidence directly states that only the supervising driver may ride as a passenger.",
+      "reviewer_notes": "follow_up_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "8bca43946f837e7946e38b2ea1bd55a1::agent-turn-7",
+      "status": "rejected",
+      "label_reason": "The target user utterance is a declarative source sentence rather than a request to the assistant, so it is not a valid QA evaluation item.",
+      "reviewer_notes": "declarative_utterance_not_a_question"
+    },
+    {
+      "split": "dev",
+      "question_id": "59021148d87890c7e7af8a7e5dbc6aab::agent-turn-14",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The context resolves the object as the benefit amount, and the evidence directly explains the annual earnings-based recalculation.",
+      "reviewer_notes": "follow_up_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "652b64041afce4325fcfabecf20f41fc::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The target utterance is incoherent and expresses only unspecified concerns, while the response switches from direct deposit to an unrelated benefit-verification-letter topic.",
+      "reviewer_notes": "garbled_and_topic_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The friend's age places the replacement more than 41 days before the 21st birthday, and the evidence directly supports the UNDER 21 outcome.",
+      "reviewer_notes": "condition_resolved_from_question"
+    },
+    {
+      "split": "dev",
+      "question_id": "47da0a514a4be3b2c4180baee217c056::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The question asks when repayment begins, but the response describes changing payment amounts and the evidence only describes the maximum repayment duration.",
+      "reviewer_notes": "question_reference_evidence_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "f46b71551f7c27698fe80d4834c02028::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The user asks how to apply for VR&E, but the evidence only says to consult an unspecified decision for instructions on an unidentified form.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "e81b7195954cde9804867ceda50c0f29::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The question asks how to renew a FAFSA application, while the reference and evidence merely say a new academic year offers another chance for aid and provide no renewal procedure.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "For the alleged forged signature, the evidence directly instructs the borrower to contact the loan servicer for discharge assistance.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "37afb9b7f19e98b5c72d2125bded7c9d::agent-turn-10",
+      "status": "rejected",
+      "label_reason": "The target utterance only confirms possession of one listed loan type; it is a condition response rather than a user question.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "dev",
+      "question_id": "4ab0397b13920abc3c4140470f3db12a::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The response only says that information about what happens is available and does not provide any process or next step for the requested decision-review help.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "dev",
+      "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "In addition to learner-permit restrictions that apply to everyone, New York's Graduated Driver License Law adds restrictions for drivers under 18 who hold a junior learner permit or junior license in classes DJ, MJ, or DJMJ.",
+      "label_reason": "The user asks whether the assistant can address the under-18 restrictions, and the evidence supplies the governing rule and affected license classes.",
+      "reviewer_notes": "reference_clarified_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly identifies the dependent's form and states that it can be completed online.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "c6a757255cd06da435075609a7db0026::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The stated 1993 issue date falls in the evidence's July 1990 through October 1996 interval, which carries a $200 civil penalty.",
+      "reviewer_notes": "date_interval_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "With a learner permit, you may not drive on a street within a New York City park; on a bridge or tunnel under the Triborough Bridge and Tunnel Authority; on the Cross County, Hutchinson River, Saw Mill River, or Taconic State parkways in Westchester County; or in a DMV road-test area.",
+      "label_reason": "The evidence directly enumerates the locations where learner-permit driving is prohibited and supports a complete answer.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly gives the age, course, documents, surrender, and DMV-office requirements for upgrading a junior license.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "Despite the translated word choice, the question clearly asks about a decision-review deadline and the evidence supplies the general one-year rule and exceptions.",
+      "reviewer_notes": "translation_wording_normalized"
+    },
+    {
+      "split": "dev",
+      "question_id": "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly supplies the out-of-state-license attachment, MV-215 mailing procedure, and processing-time estimate.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly identifies the Disability Starter Kit and its adult and child versions as preparation material.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly recommends budgeting to determine how much loan money is actually needed.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "7cf6cdc83104389521fe4b6b3c2328b0::agent-turn-7",
+      "status": "rejected",
+      "label_reason": "The evidence only stresses filing by the deadline for maximum benefits and does not support the claim that late evidence can be added through a Supplemental Claim.",
+      "reviewer_notes": "reference_not_supported_by_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "A rehabilitation plan is a written plan describing the resources used to help you find employment. With a vocational rehabilitation counselor, it can select support such as former-employer reemployment, job placement and counseling, help starting a business, long-term training for another field, or independent-living services.",
+      "label_reason": "The evidence defines the plan and enumerates its available service tracks, allowing a complete answer.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly instructs the user to keep current contact details with both the closest VA regional office and medical center.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly states that switching appeal options preserves the docket date while decision timing varies by option.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "d0edfffc8532be3afda9425e11ff3619::agent-turn-7",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly permits alternative current documents and states the required name, identity information, and preferred recent photograph.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The recent conversation resolves 'these benefits' as disability benefits, and the evidence identifies the relevant Starter Kit.",
+      "reviewer_notes": "referent_resolved_from_history"
+    },
+    {
+      "split": "dev",
+      "question_id": "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly supplies both the scheduling order and the advance notice's delivery method and contents.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "A spouse may receive a permanently reduced benefit between age 62 and full retirement age. At full retirement age, the spouse benefit cannot exceed half of the worker's full retirement amount; work and eligibility on the spouse's own record may also affect the payment.",
+      "label_reason": "The evidence supplies substantive spouse-benefit rules that answer the broad request more completely than the source reference.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "25e256475a62c78775360c04e70278c0::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The user asks what else is involved in applying for VR&E, but the response abruptly defines a rehabilitation plan and does not answer the application question.",
+      "reviewer_notes": "question_reference_mismatch"
+    },
+    {
+      "split": "dev",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Commercial-registration cost is not a single fixed amount; use the registration-fee and county-use-tax tables to determine the applicable registration fee and county tax.",
+      "label_reason": "The evidence points to the two fee components and their calculation tables, which is the grounded response available without vehicle and county details.",
+      "reviewer_notes": "variable_amount_explained_from_evidence"
+    },
+    {
+      "split": "dev",
+      "question_id": "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly states the reporting, registration-surrender, and replacement-registration-and-plates process.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "dev",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly identifies Direct Loan and FFEL program loans as eligible for the Extended Repayment Plan.",
+      "reviewer_notes": "remaining_initial_dev_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "cb99796de1c9de0721d1bed7de6d8d27::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The target utterance only confirms that the user will receive aid; it is a condition response rather than a question to evaluate.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "2ebc42f9ff8f550a4a6a900d20411f86::agent-turn-14",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly explains the W-7A route for claiming a child for tax purposes while a U.S. adoption is pending.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "8a9ae5c425489c54179bccb418729d9f::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "You may pay a suspension-termination fee by mail when the suspension order says mail payment is available; follow the instructions on that order.",
+      "label_reason": "The evidence supports mail payment only in some cases, so the reviewed reference preserves the condition omitted by the source answer.",
+      "reviewer_notes": "unconditional_source_answer_corrected"
+    },
+    {
+      "split": "holdout",
+      "question_id": "8ecebee01bd38a84d08e459e8b29446d::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The follow-up explicitly confirms the January 1 birthday rule, and the evidence directly supports treating the birthday as occurring in the prior year.",
+      "reviewer_notes": "follow_up_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "dbdd5dc2c277d855baf90cc28dfebc9a::agent-turn-10",
+      "status": "rejected",
+      "label_reason": "The target utterance only confirms that the FAFSA was submitted online or in the app; it is a condition response rather than a question to evaluate.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "8be21beb237a791a922de98850a5fc88::agent-turn-13",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly states when CDL holders must certify and that they must select one of four federal driving types.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "717361e64d8c82820fa45b8d51307ded::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence provides a substantive definition, the claim stages where the duty applies, and the review routes where it does not.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "dd0bf68597e1587be5390e1c5d980f35::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly explains that listed schools use FAFSA information to determine aid types and amounts.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "fdcc0e48a91906613b2aa0d44eeeefbe::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "You can apply by phone at 1-800-772-1213, or by TTY at 1-800-325-0778, from 7 a.m. to 7 p.m. Monday through Friday. You can also visit a local Social Security office after calling for an appointment.",
+      "label_reason": "The evidence directly supplies both alternatives requested by the user and their contact details.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "aa71e58fe203845af63bb8cace2e08f9::agent-turn-10",
+      "status": "rejected",
+      "label_reason": "The request for a borrower description is unclear and the response is an isolated tax-lien condition that does not define a borrower or follow the entrance-counseling topic.",
+      "reviewer_notes": "garbled_and_topic_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5c1aa0fa53a1381a38899e53f4cff5be::agent-turn-12",
+      "status": "rejected",
+      "label_reason": "The user asks how to use two vehicles to tow one boat, while the evidence only says trailer and boat registration fees use different calculations and the source answer invents an unsupported no-fee outcome.",
+      "reviewer_notes": "question_reference_evidence_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "fe5f6b43660cf342e0b72cc216714828::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "非驾驶员身份证丢失或损毁，或者更新地址后，都可以申请补办；身份证过期时不能使用补办流程，而应续期或申请新证。",
+      "label_reason": "The evidence directly distinguishes valid replacement reasons from an expired card, correcting the user's assumption.",
+      "reviewer_notes": "reference_clarified_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "bcfe9bb0367af63f3098e5bfb1037b14::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly identifies a Supplemental Claim with new and relevant evidence as an option after the deadline and explains the effective-date consequence.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "70329cc2e43aac739cfa4e016fbc1784::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence supports the yearly opportunity for financial aid that motivates renewing the FAFSA for each academic year.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "504672640bab24e3e7ab5f618c6d67e5::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly says motorcycle plates need not be surrendered and supplies the riding-insurance condition.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "3b90f90037744a33a6449ceaed4854f1::agent-turn-10",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "如果搬到美国境外，需要注册 VA Foreign Medical Program。该计划可支付在国外治疗与服役相关残疾，或使服役相关病情恶化的残疾所需的部分医疗服务。",
+      "label_reason": "The evidence directly provides the required enrollment action and the narrower coverage condition.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "74b145fcee926c9f7109a7c4f3925108::agent-turn-11",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly identifies IRS and SSA as the annual income-information sources and explains when VA will contact the user.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5264367dcf1ce7b15b0b6659f405d588::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly states how personalized plates can be transferred when registering a vehicle.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5be1ef6220c8630c1f2293dcb7165307::agent-turn-4",
+      "status": "rejected",
+      "label_reason": "The target utterance only confirms that the user is about to apply and wants information; it is a condition response rather than the loan-comparison question in the prior turn.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "91c8820abe119db231a2a70252659515::agent-turn-14",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "A fee table is available, but it does not include commercial driver license fees, the additional $30 Enhanced Driver License fee, or non-driver ID-card fees.",
+      "label_reason": "The evidence confirms the table's availability and directly lists its exclusions.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "dff48577af16cfeaffdc6f888041a830::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "即使从未在 Social Security 制度下工作，只要符合适用的配偶福利条件，仍可能根据配偶的工作记录获得福利。",
+      "label_reason": "The question asks whether eligibility is possible, and the evidence directly says non-workers may qualify under one of the listed relationships.",
+      "reviewer_notes": "reference_clarified_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "4fe2f3bc5dffef3b393b6dd364c0a2c6::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "You can prove identity with a U.S. driver's license, a state-issued non-driver identification card, or a U.S. passport.",
+      "label_reason": "The evidence directly lists the accepted identity documents, including the passport omitted by the source reference.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "9ff466f48ebcc224f7e44c7ffbfe0074::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The user's age is established in the history, and the evidence directly gives the six-month waiting period.",
+      "reviewer_notes": "condition_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "895af5cb560ba85041de6faba8197d7c::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The target utterance merely confirms that aid will be received; it is a condition response rather than a question about disbursement.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "83c5f49245e726d0e7fc9ef7d8080907::agent-turn-9",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly identifies text and web banners as content the site may publish to direct visitors to the resources.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "4bb3c796946e27d32794f57599feb7ed::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The target utterance only confirms that the user will apply for federal aid; the substantive school-order question occurs in the preceding turn.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "31152cffe34c2657b6f0521892af6f64::agent-turn-15",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence explicitly lists an 11th Grade Checklist among the high-school checklists.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "1cf6234f74eb59d195ff6a3045883275::agent-turn-5",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly states the possible effect of dishonorable or bad-conduct discharge statuses on VA benefit eligibility.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "75c06a577f77c301bd53d163bd497585::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "A primary caregiver may receive education and training, a monthly stipend, travel and lodging assistance when accompanying the Veteran for care, CHAMPVA coverage when otherwise ineligible, mental-health services and counseling, and up to 30 days of respite care each year.",
+      "label_reason": "The evidence directly enumerates the available primary-caregiver benefits and supports a more complete reference.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "a3047d1c92f5a842e647592e7e49003e::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly confirms that a recently denied SSI application can be appealed online.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "d28313eb9a3a954fe7af3b8efb84b999::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence gives a substantive definition of the ACA and its stated coverage, cost, quality, and coordination goals.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "76b3cc1588d73d3cb7973638a8bda5a9::agent-turn-10",
+      "status": "rejected",
+      "label_reason": "The question broadly asks what a REAL ID is, while the response and evidence are only a marketing prompt to obtain an Enhanced or REAL ID and supply no definition or requirements.",
+      "reviewer_notes": "non_self_contained_reference"
+    },
+    {
+      "split": "holdout",
+      "question_id": "b557ef3eb5fa8b6270d452ef97dbb0bf::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly gives the medical-certificate submission action required to avoid CDL or CLP downgrade or cancellation.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "9181f4cb21c3a91802cb579b9ae65b0b::agent-turn-13",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If your spouse qualifies on their own work record, Social Security pays that amount first. If the benefit on your record is higher, an additional amount can bring the combined benefit up to that higher amount.",
+      "label_reason": "The evidence supports a conditional answer and explains how benefits based on the spouse's own and the worker's records interact.",
+      "reviewer_notes": "unconditional_source_answer_corrected"
+    },
+    {
+      "split": "holdout",
+      "question_id": "fa9eb11186e219c85e196a97cf33b4b6::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The target utterance only confirms approval of the driving-school name; it is a condition response rather than an application question.",
+      "reviewer_notes": "condition_or_slot_answer"
+    },
+    {
+      "split": "holdout",
+      "question_id": "5710dde408ac95acbba03f0a21d3ef51::agent-turn-16",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The history resolves the omitted program as Medicare, and the evidence directly states the possible delay and higher cost from failing to enroll.",
+      "reviewer_notes": "referent_resolved_from_history"
+    },
+    {
+      "split": "holdout",
+      "question_id": "1ef93da34b7082bae7433debd5f7af44::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The user asks where to obtain more information, but the response only names the plan's income-sensitive payment feature and gives no information source.",
+      "reviewer_notes": "question_reference_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "4c0b29807ac6b836b9e9dd7ad08bc5d1::agent-turn-4",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "Understand the credit card's terms, use it only when needed, and do not spend more than you can afford; responsible use can help build a credit history.",
+      "label_reason": "The evidence directly supplies the requested considerations and supports a more useful reference than the single source sentence.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "7775a25bcdb3d9a6fff84696089f246b::agent-turn-7",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "First identify whether the offered aid is free money or a loan that must be repaid, decide how much aid you actually need, and respond to the school's aid offer by its deadline.",
+      "label_reason": "The evidence directly gives a grounded decision process for considering a repayable loan within an aid offer.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "ef6bc3a96e0d93056acf887737b7d973::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The source reference is malformed and the sole cited evidence is the heading 'Citizenship,' which does not identify the original documents required for a Social Security card.",
+      "reviewer_notes": "insufficient_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "fcb1531e426a15be7361547db9e1ff4b::agent-turn-5",
+      "status": "rejected",
+      "label_reason": "The broad request for other VA benefits is answered only with a link-like sentence about disability compensation and gives no substantive benefit or application information.",
+      "reviewer_notes": "vague_question_and_non_self_contained_reference"
+    },
+    {
+      "split": "holdout",
+      "question_id": "bcdcdbe15c9bd507af4d10c15b5a9ab4::agent-turn-12",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly says applying for VA health care is the first step to obtain covered PTSD health services.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "0f7bc9e69c328902b09fbfb43d02c04c::agent-turn-15",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly maps 11 or more points within 18 months to possible revocation or suspension after a hearing.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "20256f7b07fbcabe5b6683dfdffc4cd6::agent-turn-8",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The question explicitly identifies IRP registration, and the evidence directly permits mail changes using Schedule A&C (IRP-6).",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "b53a0003ec0ce7b419ab677c189f2fec::agent-turn-2",
+      "status": "rejected",
+      "label_reason": "The question specifies only an FFEL loan, but the response assumes the Teacher Loan Forgiveness program and an unstated teaching subject; different FFEL discharge or forgiveness routes make the amount ambiguous.",
+      "reviewer_notes": "missing_program_and_eligibility_context"
+    },
+    {
+      "split": "holdout",
+      "question_id": "740b89ee675af8e33875cdf6a11bd149::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "If FAFSA treats you as a dependent student, you must provide information about your legal parent, generally a biological or adoptive parent or another parent recognized by the state; stepparent information is also usually required when that person is married to your legal parent.",
+      "label_reason": "The evidence makes parental information conditional on dependent-student status, so the reviewed reference corrects the source answer's unconditional wording.",
+      "reviewer_notes": "eligibility_condition_restored_from_evidence"
+    },
+    {
+      "split": "holdout",
+      "question_id": "6f083656d94c4084e76e5055cacc87f7::agent-turn-6",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The evidence directly describes work incentives that preserve cash benefits and Medicare while a beneficiary tests the ability to work.",
+      "reviewer_notes": "remaining_initial_holdout_answer_verified"
+    },
+    {
+      "split": "holdout",
+      "question_id": "322e5ad248a3ce5227ed21d71c8b32e9::agent-turn-6",
+      "status": "rejected",
+      "label_reason": "The user explicitly asks for a phone number, but the response and evidence only point to an unnamed trained professional and provide no number.",
+      "reviewer_notes": "question_reference_mismatch"
+    },
+    {
+      "split": "holdout",
+      "question_id": "acaca1cae431af52ffbf31b0ec86ae13::agent-turn-2",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "=SOURCE",
+      "label_reason": "The translated question asks how to check hearing status, and the evidence directly provides the my Social Security account method.",
+      "reviewer_notes": "translation_wording_normalized"
+    },
+    {
+      "split": "holdout",
+      "question_id": "c99a3226c8cf348db6448c7e4f972862::agent-turn-8",
+      "status": "rejected",
+      "label_reason": "The two-part question asks whether more road tests are available and how to pay; the evidence only supplies a phone number for additional fees and does not support online payment or answer the test-entitlement part.",
+      "reviewer_notes": "partial_and_unsupported_reference"
+    },
+    {
+      "split": "holdout",
+      "question_id": "8b5f6b901d16a0c80416daa1b1742832::agent-turn-9",
+      "status": "approved",
+      "task_label": "answer",
+      "reviewed_reference": "For an appeal based on non-medical reasons, contact your local Social Security office to request review. You can also call 1-800-772-1213, or TTY 1-800-325-0778 for people who are deaf or hard of hearing.",
+      "label_reason": "The prior turn establishes that the question concerns appeal reasons, and the evidence directly gives the office and phone routes.",
+      "reviewer_notes": "reference_completed_from_evidence"
+    }
+  ],
+  "reviewer_type": "ai_agent",
+  "independent_human_review": false,
+  "provenance_note": "Legacy manual_* filename denotes explicit per-item decisions, not human review. Decisions and authored references were produced by the assistant; independent human validation remains outstanding."
+}

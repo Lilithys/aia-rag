@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "6183a5322b30a571c210848d549c797c1054ecda553f3b8ee7492213d1d83704",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9166666666361111,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explicitly states that if an SSI application is recently denied, the applicant can file an appeal online, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4c2aef7c3ec845ce96c3521d6664341b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1569,
+                "completion_tokens": 43,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 43,
+                  "prompt_tokens": 1569,
+                  "total_tokens": 1612,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 801
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014334,
+              "accounted_rmb": 0.0014334,
+              "usage_unknown": false,
+              "seconds": 1.2429568767547607,
+              "error": null,
+              "response": {
+                "id": "481163fd-653f-47fa-bbca-5e703f53496b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "801fc030b8ec73a5929ab3b2fabca9385e1b512f3778140441277e49b655757a"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context mentions that if your application was recently denied, the internet appeal application is the starting point to request review of the decision, which supports the answer that you can appeal online.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "af0ad809efc34df79c4f55ee9bcc9138",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1485,
+                "completion_tokens": 51,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 51,
+                  "prompt_tokens": 1485,
+                  "total_tokens": 1536,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 717
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013434,
+              "accounted_rmb": 0.0013434,
+              "usage_unknown": false,
+              "seconds": 1.812967300415039,
+              "error": null,
+              "response": {
+                "id": "5a30f454-ed5d-4381-9ff6-4027fc623557",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f87110961f6a818c7a30077ed94802839eec341624039aa6347733cbc42f449f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about applying for SSI benefits for children, including the process and contact methods, but it does not mention anything about appealing a denied SSI application. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d0def3a29bc24559bb4e0215aedf9435",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1377,
+                "completion_tokens": 63,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 63,
+                  "prompt_tokens": 1377,
+                  "total_tokens": 1440,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 481
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0010498,
+              "accounted_rmb": 0.0010498,
+              "usage_unknown": false,
+              "seconds": 1.3947062492370605,
+              "error": null,
+              "response": {
+                "id": "5c845018-de3a-42b3-a6f4-8f11f8bacbcc",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b975f14a6177bf5ce594ef177f4608bce7db0b94d2a558658782a18d4da50e0f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context mentions that if your application was recently denied, the Internet Appeal application is a starting point to request a review, which supports the answer that you can appeal online.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "5510ddfeb4e44e52b0287bbc42f2b300",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1568,
+                "completion_tokens": 49,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 49,
+                  "prompt_tokens": 1568,
+                  "total_tokens": 1617,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 672
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012733,
+              "accounted_rmb": 0.0012733,
+              "usage_unknown": false,
+              "seconds": 1.2993268966674805,
+              "error": null,
+              "response": {
+                "id": "57e0a9b3-38f3-4781-bea3-cb59bd182d49",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7a22b7cd496e8a5c987712dd97d683ff02d36951a25d45e15cac7dfc2374ae06"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about how to apply for benefits by phone or in person, but does not mention anything about appealing a denied SSI application. Therefore, it was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4c60220847fe444cb2342022b93b7135",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1169,
+                "completion_tokens": 56,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 56,
+                  "prompt_tokens": 1169,
+                  "total_tokens": 1225,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 273
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007063,
+              "accounted_rmb": 0.0007063,
+              "usage_unknown": false,
+              "seconds": 1.543485164642334,
+              "error": null,
+              "response": {
+                "id": "f287a9be-f884-4316-b490-dc939eeb428d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ee06b4ce877c47d9d98a5e7f7c06de7195cf73e322108d51ec855dd44fb15d75"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "6b7647756e3bbc66938fe890a591614be5f819d21272bb228219d5fc679b3d3c"
+}

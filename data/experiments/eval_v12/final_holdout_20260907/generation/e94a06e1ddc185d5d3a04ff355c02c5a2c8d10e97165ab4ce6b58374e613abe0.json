@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "8be21beb237a791a922de98850a5fc88::agent-turn-13",
+    "item_sha256": "275679639fc243509f8bca241f0a552d0c885543e8a2777926187b49010603b8",
+    "result": {
+      "request_id": "4813760f763e49b48046174f97aebccc",
+      "session_id": "8be21beb237a791a922de98850a5fc88",
+      "turn_id": 12,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If you have a Class A CDL issued by the NY DMV, you must certify to the type of commercial driving you perform or expect to perform, choosing one of four federal driving types (e.g., exempt or non-exempt interstate/intrastate). If you self-certify as a non-exempt type (NA or NI), you must also keep a current USDOT Medical Examiner's Certificate on file with the DMV. You must provide this certification when conducting any DMV transaction (except address changes or duplicate licenses).",
+        "citations": [
+          "Medical Certification Requirements#3_0::c0000",
+          "Medical Certification Requirements#3_0::c0006"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Get a CDL#1_0::c0001",
+          "text": "[Get a CDL [1]]\nFollow these steps to get your first time New York State commercial driver license (CDL).\n\n## Step 1: Have a New York State driver license (Class D, Class E, or Non-CDL C) or a valid CDL from another state\n\nGet the New York State Commercial Driver's Manual [2] (CDL-10) online or from a DMV office [3] or call center. [4] Study the sections of the manual that apply to the type of CDL you need. The sections of the manual that you need to study are explained in the manual. The manual describes the classes, the restrictions, and the endorsements of CDLs. This information is also included on the Driver License Class Descriptions (PDF) [5] (MV-500C).\n\n## Step 2: Apply for a commercial learner permit at a DMV office\n\nYou must pass the written test for the CDL that you need. There is an application fee of $10.00. This fee allows you to take all written tests (knowledge and endorsement) required for permit and license issuance applied for which are taken at the same time. There will be an additional $5 fee for any other required tests not taken and passed at the time of initial application. There is a fee of $40.00 to take the CDL road test (skills test). You can pay the road test fee when the DMV office issues your commercial learner permit, or you can pay the fee online [6]. You must pay the fee before you can schedule your road test.\n\nWhen you apply for an New York State CDL (Class A, B, or C), you must certify that\n\n- You did not hold a driver license in any state or in the District of Columbia except New York in the last 10 years or you must report every US state (or the District of Columbia) where you held a driver license in the last 10 years.\n\n- You meet the Federal medical examination requirements (see Medical Certification Requirements [7] for more information). 1 You must also prove your legal presence in the United States.\n\nIMPORTANT: DMV now offers three types of license/permit documents. Learn more about Enhanced, REAL ID and Standard documents [8].\n\n## Know what to bring to the DMV office\n\nIf you have a Standard and want to change to a REAL ID or Enhanced, you must come into a DMV office. Complete this guide to make sure you have the proofs of identification you need before\n\ncoming.\n\nFind your proofs [9]\n\n- The DMV Document Guide [10] lists all acceptable legal presence and New York State residence proof documents. Please note: You must provide us the original documents (not photocopies), and documents submitted as proof of residence must have your current residence address on it (no P.O. Box permitted).\n\n- If you are U.S. citizen or lawful permanent resident (i.e., temporary visitors) your Commercial Learner Permit (CLP) or CDL document will have the legend NON-DOMICILED printed on documents issued on it. The TEMPORARY VISITOR and the expiration date of your legal status documentation will continue to be displayed on the CLP and/or CDL document. Per new federal regulations, the DMV will check for any open suspensions or revocations you may have in any state. If you have an open suspension or revocation, we will reject your application.\n\nYou must apply for a CDL at a DMV Office [3]."
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0000",
+          "text": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+        },
+        {
+          "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0011",
+          "text": "[新的CDL考试和商业学习者许可证（CLP）标准 > 申请要求变更]\n1\\) 所有CLP和CDL交易，除补发（副本）外，均需提供在美国合法存在的证明。\n\n能够证明美国公民身份或合法永久居留身份的驾驶员，只需在2015年6月18日或之后提供此证明。该验证记录将保存在驾驶员的档案中。 具有临时访客身份的驾驶员需提供在美国合法存在的证明。\n\n重要提示：由于联邦法规要求当面提交额外证明，驾驶员不能通过邮寄方式续办CLP和/或CDL。\n\n对于美国公民或合法永久居民（即临时访客）的驾驶员，其CLP和CDL文件将在2015年6月18日或之后签发的文件上印有“非定居”字样。临时访客及其合法身份文件的到期日期将继续显示在CLP和/或CDL文件上。\n\n2\\) 对于所有CLP和CDL交易，除补发外，我们将要求提供纽约州居住证明。所有驾驶员每次均需提供居住证明。DMV文件指南[3]列出了所有可接受的合法存在和纽约州居住证明文件。\n\n请注意：对于上述两项要求，您必须向我们提供原始文件（而非复印件）。"
+        },
+        {
+          "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0019",
+          "text": "[新的CDL考试和商业学习者许可证（CLP）标准]\n申请CLP/CDL 自我认证驾驶类型 体检医师证明"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0006",
+          "text": "[医疗认证要求 > 重要提醒]\n- 确认您在DMV记录中的地址是最新的。\n\n- 如果您选择NA或NI作为驾驶类型，您必须在DMV存档的USDOT体检医师证明到期日前，将您的USDOT体检医师证明[10]复印件发送至医疗认证部门。\n\n- USDOT体检医师证明复印件必须清晰、完整，并印在一张标准8“x 11”纸张的单面上。\n\n- 如果您有医疗差异证明，您必须保持其与FMCSA同步更新。\n\n- 除非您注册了电子提醒计划[9]，否则DMV不会在您的USDOT体检医师证明或医疗差异证明即将到期时提醒您。\n\n如果您未能保持DMV记录中的信息最新、更新，您将失去商业驾驶特权。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Get a CDL#1_0::c0001",
+          "text": "[Get a CDL [1]]\nFollow these steps to get your first time New York State commercial driver license (CDL).\n\n## Step 1: Have a New York State driver license (Class D, Class E, or Non-CDL C) or a valid CDL from another state\n\nGet the New York State Commercial Driver's Manual [2] (CDL-10) online or from a DMV office [3] or call center. [4] Study the sections of the manual that apply to the type of CDL you need. The sections of the manual that you need to study are explained in the manual. The manual describes the classes, the restrictions, and the endorsements of CDLs. This information is also included on the Driver License Class Descriptions (PDF) [5] (MV-500C).\n\n## Step 2: Apply for a commercial learner permit at a DMV office\n\nYou must pass the written test for the CDL that you need. There is an application fee of $10.00. This fee allows you to take all written tests (knowledge and endorsement) required for permit and license issuance applied for which are taken at the same time. There will be an additional $5 fee for any other required tests not taken and passed at the time of initial application. There is a fee of $40.00 to take the CDL road test (skills test). You can pay the road test fee when the DMV office issues your commercial learner permit, or you can pay the fee online [6]. You must pay the fee before you can schedule your road test.\n\nWhen you apply for an New York State CDL (Class A, B, or C), you must certify that\n\n- You did not hold a driver license in any state or in the District of Columbia except New York in the last 10 years or you must report every US state (or the District of Columbia) where you held a driver license in the last 10 years.\n\n- You meet the Federal medical examination requirements (see Medical Certification Requirements [7] for more information). 1 You must also prove your legal presence in the United States.\n\nIMPORTANT: DMV now offers three types of license/permit documents. Learn more about Enhanced, REAL ID and Standard documents [8].\n\n## Know what to bring to the DMV office\n\nIf you have a Standard and want to change to a REAL ID or Enhanced, you must come into a DMV office. Complete this guide to make sure you have the proofs of identification you need before\n\ncoming.\n\nFind your proofs [9]\n\n- The DMV Document Guide [10] lists all acceptable legal presence and New York State residence proof documents. Please note: You must provide us the original documents (not photocopies), and documents submitted as proof of residence must have your current residence address on it (no P.O. Box permitted).\n\n- If you are U.S. citizen or lawful permanent resident (i.e., temporary visitors) your Commercial Learner Permit (CLP) or CDL document will have the legend NON-DOMICILED printed on documents issued on it. The TEMPORARY VISITOR and the expiration date of your legal status documentation will continue to be displayed on the CLP and/or CDL document. Per new federal regulations, the DMV will check for any open suspensions or revocations you may have in any state. If you have an open suspension or revocation, we will reject your application.\n\nYou must apply for a CDL at a DMV Office [3]."
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0000",
+          "text": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+        },
+        {
+          "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0011",
+          "text": "[新的CDL考试和商业学习者许可证（CLP）标准 > 申请要求变更]\n1\\) 所有CLP和CDL交易，除补发（副本）外，均需提供在美国合法存在的证明。\n\n能够证明美国公民身份或合法永久居留身份的驾驶员，只需在2015年6月18日或之后提供此证明。该验证记录将保存在驾驶员的档案中。 具有临时访客身份的驾驶员需提供在美国合法存在的证明。\n\n重要提示：由于联邦法规要求当面提交额外证明，驾驶员不能通过邮寄方式续办CLP和/或CDL。\n\n对于美国公民或合法永久居民（即临时访客）的驾驶员，其CLP和CDL文件将在2015年6月18日或之后签发的文件上印有“非定居”字样。临时访客及其合法身份文件的到期日期将继续显示在CLP和/或CDL文件上。\n\n2\\) 对于所有CLP和CDL交易，除补发外，我们将要求提供纽约州居住证明。所有驾驶员每次均需提供居住证明。DMV文件指南[3]列出了所有可接受的合法存在和纽约州居住证明文件。\n\n请注意：对于上述两项要求，您必须向我们提供原始文件（而非复印件）。"
+        },
+        {
+          "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0019",
+          "text": "[新的CDL考试和商业学习者许可证（CLP）标准]\n申请CLP/CDL 自我认证驾驶类型 体检医师证明"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0006",
+          "text": "[医疗认证要求 > 重要提醒]\n- 确认您在DMV记录中的地址是最新的。\n\n- 如果您选择NA或NI作为驾驶类型，您必须在DMV存档的USDOT体检医师证明到期日前，将您的USDOT体检医师证明[10]复印件发送至医疗认证部门。\n\n- USDOT体检医师证明复印件必须清晰、完整，并印在一张标准8“x 11”纸张的单面上。\n\n- 如果您有医疗差异证明，您必须保持其与FMCSA同步更新。\n\n- 除非您注册了电子提醒计划[9]，否则DMV不会在您的USDOT体检医师证明或医疗差异证明即将到期时提醒您。\n\n如果您未能保持DMV记录中的信息最新、更新，您将失去商业驾驶特权。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0000",
+          "document": "Medical Certification Requirements#3_0",
+          "heading": [
+            "医疗认证要求",
+            "认证与驾驶类型"
+          ],
+          "source_file": "dmv_075.docx",
+          "excerpt": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0006",
+          "document": "Medical Certification Requirements#3_0",
+          "heading": [
+            "医疗认证要求",
+            "重要提醒"
+          ],
+          "source_file": "dmv_075.docx",
+          "excerpt": "[医疗认证要求 > 重要提醒]\n- 确认您在DMV记录中的地址是最新的。\n\n- 如果您选择NA或NI作为驾驶类型，您必须在DMV存档的USDOT体检医师证明到期日前，将您的USDOT体检医师证明[10]复印件发送至医疗认证部门。\n\n- USDOT体检医师证明复印件必须清晰、完整，并印在一张标准8“x 11”纸张的单面上。\n\n- 如果您有医疗差异证明，您必须保持其与FMCSA同步更新。\n\n- 除非您注册了电子提醒计划[9]，否则DMV不会在您的USDOT体检医师证明或医疗差异证明即将到期时提醒您。\n\n如果您未能保持DMV记录中的信息最新、更新，您将失去商业驾驶特权。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If you have a Class A CDL issued by the NY DMV, you must certify to the type of commercial driving you perform or expect to perform, choosing one of four federal driving types (e.g., exempt or non-exempt interstate/intrastate). If you self-certify as a non-exempt type (NA or NI), you must also keep a current USDOT Medical Examiner's Certificate on file with the DMV. You must provide this certification when conducting any DMV transaction (except address changes or duplicate licenses).",
+          "citations": [
+            "Medical Certification Requirements#3_0::c0000",
+            "Medical Certification Requirements#3_0::c0006"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "2efbb32cd1ea4c12837b87b05ffcd179",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2078,
+              "completion_tokens": 147,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 147,
+                "prompt_tokens": 2078,
+                "total_tokens": 2225,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1822
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0034073000000000003,
+            "accounted_rmb": 0.0034073000000000003,
+            "usage_unknown": false,
+            "seconds": 1.770049810409546,
+            "error": null,
+            "response": {
+              "id": "4be12903-f88a-4258-a9f1-c20153a5e624",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "1df9ef42500d79d2d36d03a6c13880a2e73b796fcf4bd482d936360d662f2482"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03220804501324892,
+        "retrieval": 1021.8209580052644,
+        "generation": 1773.9785420708358,
+        "total": 2797.386708087288
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.26459629205055535,
+        "rerank_seconds": 0.7571717499522492,
+        "top1_dense_score": 0.8130853176116943,
+        "candidate_ids": [
+          "Medical Certification Requirements#3_0::c0000",
+          "Commercial Driver License Downgrades#3_0::c0000",
+          "Get a CDL#1_0::c0001",
+          "Medical Certification Requirements#3_0::c0003",
+          "Get a military skills test waiver#1_0::c0000",
+          "Medical Certification Requirements#3_0::c0008",
+          "Medical Certification FAQ's#3_0::c0007",
+          "Renew a CDL#1_0::c0000",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0011",
+          "Medical Certification Requirements#3_0::c0002",
+          "Medical Certification FAQ's#3_0::c0000",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0005",
+          "Conditional and restricted use licenses#3_0::c0000",
+          "Medical Certification FAQ's#3_0::c0004",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0000",
+          "Medical Certification FAQ's#3_0::c0010",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0019",
+          "Medical Certification Requirements#3_0::c0006",
+          "Medical Certification FAQ's#3_0::c0012",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0026"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 27,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.021803457988426
+      },
+      "raw_citations": [
+        "Medical Certification Requirements#3_0::c0000",
+        "Medical Certification Requirements#3_0::c0006"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "d139a541e39251247102b6e4e6d8d3ccc7fc415ef82ba42bf49eb1879f8bf3d7"
+}

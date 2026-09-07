@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "9a1657631445dade9db616c29d2a3de2::agent-turn-6",
+    "item_sha256": "9bc5c409ddf045a9bdd60e0ce0908bab473e2eee86181ffa65fc1173f53ec481",
+    "result": {
+      "request_id": "041517f61df440aaa58806da098fd2a1",
+      "session_id": "9a1657631445dade9db616c29d2a3de2",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "最终项目审查决定（FPRD）是联邦学生援助（FSA）在完成项目审查后发布的报告，内容包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有），提供支付责任的说明（如适用），通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用），并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。",
+        "citations": [
+          "Program Reviews | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Program Reviews | Federal Student Aid#1_0::c0000",
+          "text": "# 项目审查 | 联邦学生援助\n\n# 项目审查\n\n作为其监督职责的一部分，联邦学生援助（FSA）定期进行项目审查，以确认学校是否符合FSA关于机构资格、财务责任和行政能力的要求。在项目审查期间，审查员评估学校对FSA要求的遵守情况，评估绩效错误的责任，并确定学校为改善其未来行政能力必须采取的行动。\n\n完成项目审查后，联邦学生援助发布最终项目审查决定（FPRD），该报告包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有）；提供支付责任的说明（如适用）；通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用）；并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。\n\n未来的FPRD将定期发布。\n\n以下是发布的最终项目审查决定和快速决定函：\n\n- **2019财年**\n- **2018财年**\n- **2017财年**\n- **2016财年**\n- **2015财年**\n- **2014财年**\n- **2013财年**\n\n要访问与重点Clery Act审查相关的所有文件，请访问“**Clery Act报告**”页面。要查找已完成第三方服务商项目审查的最终项目审查决定，请访问“第三方服务商项目审查”页面。还提供了按财政年度划分的主要项目审查和审计发现概述。这些年度报告按频率详细列出了独立审计师进行的年度合规审计中发现的最常见发现，以及教育部在高等教育机构进行的项目审查中发现的发现。"
+        },
+        {
+          "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+        },
+        {
+          "chunk_id": "How Financial Aid Works | Federal Student Aid#1_0::c0000",
+          "text": "# 助学金如何运作 | 联邦学生助学金\n\n# 助学金如何运作\n\n对于大多数计划上大学或职业学校的学生来说，助学金至关重要。我们将向您介绍助学金如何运作、支付大学费用的资源以及贷款还款选项。\n\n## 01\n\n尽早开始规划\n\n## 02\n\n填写FAFSA表格\n\n## 03\n\n查看您的助学金通知\n\n## 04\n\n获得您的助学金\n\n## 05\n\n毕业并开始还款\n\n01\n\n02\n\n03\n\n04\n\n05\n\n## 01\n\n## 尽早开始规划\n\n在开始之前就计划如何支付大学费用。向学校辅导员和大学财务援助办公室咨询你可以申请的州、大学和非营利组织的助学金和奖学金。务必在申请截止日期前完成申请。在上大学之前就开始储蓄。考虑预付学费和教育储蓄（529）计划。\n\n## 02\n\n## 填写FAFSA表格\n\n在大学每学年开始前，使用免费申请联邦学生援助（FAFSA）表格申请联邦助学金、勤工助学和贷款。你的大学会使用你的FAFSA数据来确定你是否有资格获得联邦援助。许多州和大学也使用FAFSA数据来发放他们自己的援助。提交后，你将收到学生援助报告。\n\n## 03\n\n## 查看你的援助通知\n\n你的援助通知说明了大学向你提供的援助类型和金额，以及你当年的预期费用。如果你被多所大学录取，请比较费用和援助通知。接受最适合你的学校的援助，并告知他们你预计会获得的其他援助来源（如奖学金）。\n\n## 04\n\n## 获得你的援助\n\n是时候去上学了！你的财务援助办公室会将你的援助用于支付你欠学校的费用，并将剩余余额发放给你，用于其他大学开支。保持财务援助资格的要求之一是，你必须取得令人满意的学业进步。而且别忘了每年都要填写FAFSA表格！\n\n## 05\n\n## 毕业并开始还款\n\n当你准备毕业时，准备好偿还学生贷款。好消息！联邦学生贷款借款人有六个月的宽限期，之后你才开始还款。利用这段时间整理好事务并选择还款计划。如果你开始拖欠还款，请联系你的贷款服务机构讨论还款选项。"
+        },
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Program Reviews | Federal Student Aid#1_0::c0000",
+          "text": "# 项目审查 | 联邦学生援助\n\n# 项目审查\n\n作为其监督职责的一部分，联邦学生援助（FSA）定期进行项目审查，以确认学校是否符合FSA关于机构资格、财务责任和行政能力的要求。在项目审查期间，审查员评估学校对FSA要求的遵守情况，评估绩效错误的责任，并确定学校为改善其未来行政能力必须采取的行动。\n\n完成项目审查后，联邦学生援助发布最终项目审查决定（FPRD），该报告包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有）；提供支付责任的说明（如适用）；通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用）；并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。\n\n未来的FPRD将定期发布。\n\n以下是发布的最终项目审查决定和快速决定函：\n\n- **2019财年**\n- **2018财年**\n- **2017财年**\n- **2016财年**\n- **2015财年**\n- **2014财年**\n- **2013财年**\n\n要访问与重点Clery Act审查相关的所有文件，请访问“**Clery Act报告**”页面。要查找已完成第三方服务商项目审查的最终项目审查决定，请访问“第三方服务商项目审查”页面。还提供了按财政年度划分的主要项目审查和审计发现概述。这些年度报告按频率详细列出了独立审计师进行的年度合规审计中发现的最常见发现，以及教育部在高等教育机构进行的项目审查中发现的发现。"
+        },
+        {
+          "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+        },
+        {
+          "chunk_id": "How Financial Aid Works | Federal Student Aid#1_0::c0000",
+          "text": "# 助学金如何运作 | 联邦学生助学金\n\n# 助学金如何运作\n\n对于大多数计划上大学或职业学校的学生来说，助学金至关重要。我们将向您介绍助学金如何运作、支付大学费用的资源以及贷款还款选项。\n\n## 01\n\n尽早开始规划\n\n## 02\n\n填写FAFSA表格\n\n## 03\n\n查看您的助学金通知\n\n## 04\n\n获得您的助学金\n\n## 05\n\n毕业并开始还款\n\n01\n\n02\n\n03\n\n04\n\n05\n\n## 01\n\n## 尽早开始规划\n\n在开始之前就计划如何支付大学费用。向学校辅导员和大学财务援助办公室咨询你可以申请的州、大学和非营利组织的助学金和奖学金。务必在申请截止日期前完成申请。在上大学之前就开始储蓄。考虑预付学费和教育储蓄（529）计划。\n\n## 02\n\n## 填写FAFSA表格\n\n在大学每学年开始前，使用免费申请联邦学生援助（FAFSA）表格申请联邦助学金、勤工助学和贷款。你的大学会使用你的FAFSA数据来确定你是否有资格获得联邦援助。许多州和大学也使用FAFSA数据来发放他们自己的援助。提交后，你将收到学生援助报告。\n\n## 03\n\n## 查看你的援助通知\n\n你的援助通知说明了大学向你提供的援助类型和金额，以及你当年的预期费用。如果你被多所大学录取，请比较费用和援助通知。接受最适合你的学校的援助，并告知他们你预计会获得的其他援助来源（如奖学金）。\n\n## 04\n\n## 获得你的援助\n\n是时候去上学了！你的财务援助办公室会将你的援助用于支付你欠学校的费用，并将剩余余额发放给你，用于其他大学开支。保持财务援助资格的要求之一是，你必须取得令人满意的学业进步。而且别忘了每年都要填写FAFSA表格！\n\n## 05\n\n## 毕业并开始还款\n\n当你准备毕业时，准备好偿还学生贷款。好消息！联邦学生贷款借款人有六个月的宽限期，之后你才开始还款。利用这段时间整理好事务并选择还款计划。如果你开始拖欠还款，请联系你的贷款服务机构讨论还款选项。"
+        },
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Program Reviews | Federal Student Aid#1_0::c0000",
+          "document": "Program Reviews | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_067.md",
+          "excerpt": "# 项目审查 | 联邦学生援助\n\n# 项目审查\n\n作为其监督职责的一部分，联邦学生援助（FSA）定期进行项目审查，以确认学校是否符合FSA关于机构资格、财务责任和行政能力的要求。在项目审查期间，审查员评估学校对FSA要求的遵守情况，评估绩效错误的责任，并确定学校为改善其未来行政能力必须采取的行动。\n\n完成项目审查后，联邦学生援助发布最终项目审查决定（FPRD），该报告包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有）；提供支付责任的说明（如适用）；通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用）；并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。\n\n未来的FPRD将定期发布。\n\n以下是发布的最终项目审查决定和快速决定函：\n\n- **2019财年**\n- **2018财年**\n- **2017财年**\n- **2016财年**\n- **2015财年**\n- **2014财年**\n- **2013财年**\n\n要访问与重点Clery Act审查相关的所有文件，请访问“**Clery Act报告**”页面。要查找已完成第三方服务商项目审查的最终项目审查决定，请访问“第三方服务商项目审查”页面。还提供了按财政年度划分的主要项目审查和审计发现概述。这些年度报告按频率详细列出了独立审计师进行的年度合规审计中发现的最常见发现，以及教育部在高等教育机构进行的项目审查中发现的发现。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "最终项目审查决定（FPRD）是联邦学生援助（FSA）在完成项目审查后发布的报告，内容包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有），提供支付责任的说明（如适用），通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用），并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。",
+          "citations": [
+            "Program Reviews | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "83fb5c00e6b241c0acb3f414bde2ae50",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3068,
+              "completion_tokens": 133,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 133,
+                "prompt_tokens": 3068,
+                "total_tokens": 3201,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2812
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0048293,
+            "accounted_rmb": 0.0048293,
+            "usage_unknown": false,
+            "seconds": 1.8028388023376465,
+            "error": null,
+            "response": {
+              "id": "b04c2dbd-178a-431a-90ce-6f70257c0478",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "a6e0e6b95cef6bfe850c305637819defb68e44572842eafcbd5e383ea198d3e7"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04308309871703386,
+        "retrieval": 1100.7332500303164,
+        "generation": 1808.2975000143051,
+        "total": 2910.504541010596
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.15004816697910428,
+        "rerank_seconds": 0.9506414158968255,
+        "top1_dense_score": 0.7021602988243103,
+        "candidate_ids": [
+          "Aid for Military Families | Federal Student Aid#1_0::c0006",
+          "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "Feedback Center#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0016",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0008",
+          "Link to Us | Federal Student Aid#1_0::c0000",
+          "Loan Servicers | Federal Student Aid#1_0::c0001",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "Program Reviews | Federal Student Aid#1_0::c0000",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "Accepting Aid | Federal Student Aid#1_0::c0000",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0016",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0007",
+          "Federal Versus Private Loans | Federal Student Aid#1_0::c0000",
+          "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "How Financial Aid Works | Federal Student Aid#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 34,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.1007100830320269
+      },
+      "raw_citations": [
+        "Program Reviews | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "365bd05fd460ec77fb701906715b9273db21822063867cba361dd80adbc6a432"
+}

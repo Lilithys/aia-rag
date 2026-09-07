@@ -1,0 +1,315 @@
+{
+  "payload": {
+    "task_id": "eb847e1eb7fc189cadfea163376604a01ff503ac08cca1705e6a5392d9608117",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Based on the retrieved information, I cannot determine if you meet the requirements because your service history is not specified.",
+                "scope": "context_availability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is an observation about the lack of information in the contexts regarding the user's service history."
+              },
+              {
+                "text": "To qualify for VA health care, you generally must have served on active duty in the Army, Navy, or Air Force and received an other-than-dishonorable discharge.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context states that eligibility requires active duty in Army, Navy, or Air Force and an other-than-dishonorable discharge."
+              },
+              {
+                "text": "If you enlisted after September 7, 1980, or began active duty after October 16, 1981, you must have served 24 continuous months or the full period for which you were called to active duty, unless one of the following applies:",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context specifies these dates and the 24-month requirement with exceptions."
+              },
+              {
+                "text": "- You were discharged for a disability caused or aggravated by active service.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context lists this as an exception to the minimum duty requirement."
+              },
+              {
+                "text": "- You were discharged for hardship or early out.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context lists this as an exception."
+              },
+              {
+                "text": "- You served before September 7, 1980.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context lists this as an exception."
+              },
+              {
+                "text": "If you are a current or former member of the Reserves or National Guard, you must have been called to active duty by a federal order and completed the full period for which you were called.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context states this requirement for Reserves/National Guard."
+              },
+              {
+                "text": "Active duty for training purposes alone does not qualify.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+                ],
+                "reason": "The context explicitly states that active duty for training only does not qualify."
+              },
+              {
+                "text": "Regarding applying right away: If you are a recently discharged combat Veteran, you may be eligible for enhanced eligibility status, which places you in a higher priority group.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003"
+                ],
+                "reason": "The context states that recent combat Veterans may qualify for enhanced eligibility status, placing them in a higher priority group."
+              },
+              {
+                "text": "For OEF/OIF/OND combat Veterans, you can receive free medical care for any condition related to your service in Iraq or Afghanistan for 5 years after discharge.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005"
+                ],
+                "reason": "The context states that OEF/OIF/OND combat Veterans can receive free care for conditions related to service in Iraq/Afghanistan for 5 years after discharge."
+              },
+              {
+                "text": "The excerpt advises: 'If you are a combat Veteran, apply now to take advantage of 5 years of enhanced eligibility.'",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005"
+                ],
+                "reason": "The context includes this advice verbatim."
+              },
+              {
+                "text": "To proceed, you would need to fill out VA Form 10-10EZ and provide documents like your tax return, Social Security numbers, and current health insurance information.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists these required documents and the form."
+              },
+              {
+                "text": "You can apply online, by phone (877-222-8387), by mail, or in person.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context mentions applying by phone, mail, and in person; online is implied by the application process."
+              },
+              {
+                "text": "If you can provide details about your service dates, discharge type, and any service-connected disabilities, I can give more specific guidance.",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a statement about the assistant's ability to provide guidance with more information, not a factual claim."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "514f373aae8c40ea8a00a502e39409b9",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4339,
+                "completion_tokens": 1368,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 1368,
+                  "prompt_tokens": 4339,
+                  "total_tokens": 5707,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 3571
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0115509,
+              "accounted_rmb": 0.0115509,
+              "usage_unknown": false,
+              "seconds": 6.749242782592773,
+              "error": null,
+              "response": {
+                "id": "cd66656b-9ca8-481b-97c0-015303eb1e64",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2207b8836deb8f52c4f8b3702eaae5d43cca22aeb43230dee591bdf35de5382b"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 12,
+      "supported_external_claims": 12,
+      "excluded_units_by_scope": {
+        "context_availability": 1,
+        "assistant_capability": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Based on the retrieved information, I cannot determine if you meet the requirements because your service history is not specified.",
+          "scope": "context_availability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is an observation about the lack of information in the contexts regarding the user's service history."
+        },
+        {
+          "text": "To qualify for VA health care, you generally must have served on active duty in the Army, Navy, or Air Force and received an other-than-dishonorable discharge.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context states that eligibility requires active duty in Army, Navy, or Air Force and an other-than-dishonorable discharge."
+        },
+        {
+          "text": "If you enlisted after September 7, 1980, or began active duty after October 16, 1981, you must have served 24 continuous months or the full period for which you were called to active duty, unless one of the following applies:",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context specifies these dates and the 24-month requirement with exceptions."
+        },
+        {
+          "text": "- You were discharged for a disability caused or aggravated by active service.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context lists this as an exception to the minimum duty requirement."
+        },
+        {
+          "text": "- You were discharged for hardship or early out.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context lists this as an exception."
+        },
+        {
+          "text": "- You served before September 7, 1980.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context lists this as an exception."
+        },
+        {
+          "text": "If you are a current or former member of the Reserves or National Guard, you must have been called to active duty by a federal order and completed the full period for which you were called.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context states this requirement for Reserves/National Guard."
+        },
+        {
+          "text": "Active duty for training purposes alone does not qualify.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001"
+          ],
+          "reason": "The context explicitly states that active duty for training only does not qualify."
+        },
+        {
+          "text": "Regarding applying right away: If you are a recently discharged combat Veteran, you may be eligible for enhanced eligibility status, which places you in a higher priority group.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0003"
+          ],
+          "reason": "The context states that recent combat Veterans may qualify for enhanced eligibility status, placing them in a higher priority group."
+        },
+        {
+          "text": "For OEF/OIF/OND combat Veterans, you can receive free medical care for any condition related to your service in Iraq or Afghanistan for 5 years after discharge.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005"
+          ],
+          "reason": "The context states that OEF/OIF/OND combat Veterans can receive free care for conditions related to service in Iraq/Afghanistan for 5 years after discharge."
+        },
+        {
+          "text": "The excerpt advises: 'If you are a combat Veteran, apply now to take advantage of 5 years of enhanced eligibility.'",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0005"
+          ],
+          "reason": "The context includes this advice verbatim."
+        },
+        {
+          "text": "To proceed, you would need to fill out VA Form 10-10EZ and provide documents like your tax return, Social Security numbers, and current health insurance information.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists these required documents and the form."
+        },
+        {
+          "text": "You can apply online, by phone (877-222-8387), by mail, or in person.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context mentions applying by phone, mail, and in person; online is implied by the application process."
+        },
+        {
+          "text": "If you can provide details about your service dates, discharge type, and any service-connected disabilities, I can give more specific guidance.",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a statement about the assistant's ability to provide guidance with more information, not a factual claim."
+        }
+      ]
+    }
+  },
+  "sha256": "a7884e11df2c292ab59eb15cf4be7a1ed4fa90d9e0793527c94e77f6526dec04"
+}

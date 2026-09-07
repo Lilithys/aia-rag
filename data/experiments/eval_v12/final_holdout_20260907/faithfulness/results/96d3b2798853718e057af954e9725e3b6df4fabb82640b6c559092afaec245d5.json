@@ -1,0 +1,146 @@
+{
+  "payload": {
+    "task_id": "96d3b2798853718e057af954e9725e3b6df4fabb82640b6c559092afaec245d5",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "As an adult preparing for professional college, you can use the Adult Student Checklist from Federal Student Aid, which skips high-school-specific advice and focuses on steps like clarifying goals, researching schools, understanding costs, and applying for financial aid.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that the Adult Student Checklist is for adults and skips high school info, and the listed steps align with the context's description of preparing for college."
+              },
+              {
+                "text": "Start by exploring career options, comparing schools (using tools like College Navigator), and creating a budget.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Preparing for College | Federal Student Aid#1_0::c0000",
+                  "Choosing a School | Federal Student Aid#1_0::c0001",
+                  "Understanding College Costs | Federal Student Aid#1_0::c0002"
+                ],
+                "reason": "The contexts mention exploring career options, using College Navigator to compare schools, and creating a budget as steps in preparation."
+              },
+              {
+                "text": "Also check if the school is accredited and participates in federal student aid programs.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Choosing a School | Federal Student Aid#1_0::c0001",
+                  "Choosing a School | Federal Student Aid#1_0::c0002"
+                ],
+                "reason": "The contexts state that not all schools participate in federal student aid programs and that accreditation is important for financial aid eligibility."
+              },
+              {
+                "text": "For detailed steps, refer to the 'College Preparation Checklist' PDF and the 'Adult Student Checklist' resource.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context mentions the 'College Preparation Checklist' PDF and the 'Adult Student Checklist' as resources."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "11f5692221aa4ef0918c04dfa1f30595",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4123,
+                "completion_tokens": 488,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 488,
+                  "prompt_tokens": 4123,
+                  "total_tokens": 4611,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3739
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0078237,
+              "accounted_rmb": 0.0078237,
+              "usage_unknown": false,
+              "seconds": 3.215792179107666,
+              "error": null,
+              "response": {
+                "id": "4ba11caf-5352-429c-ad59-61529fd864eb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "62b19c3ce3499c447a78322804df2b43a803dc2da12200aa453654c86aa42f1d"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "As an adult preparing for professional college, you can use the Adult Student Checklist from Federal Student Aid, which skips high-school-specific advice and focuses on steps like clarifying goals, researching schools, understanding costs, and applying for financial aid.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that the Adult Student Checklist is for adults and skips high school info, and the listed steps align with the context's description of preparing for college."
+        },
+        {
+          "text": "Start by exploring career options, comparing schools (using tools like College Navigator), and creating a budget.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Preparing for College | Federal Student Aid#1_0::c0000",
+            "Choosing a School | Federal Student Aid#1_0::c0001",
+            "Understanding College Costs | Federal Student Aid#1_0::c0002"
+          ],
+          "reason": "The contexts mention exploring career options, using College Navigator to compare schools, and creating a budget as steps in preparation."
+        },
+        {
+          "text": "Also check if the school is accredited and participates in federal student aid programs.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Choosing a School | Federal Student Aid#1_0::c0001",
+            "Choosing a School | Federal Student Aid#1_0::c0002"
+          ],
+          "reason": "The contexts state that not all schools participate in federal student aid programs and that accreditation is important for financial aid eligibility."
+        },
+        {
+          "text": "For detailed steps, refer to the 'College Preparation Checklist' PDF and the 'Adult Student Checklist' resource.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context mentions the 'College Preparation Checklist' PDF and the 'Adult Student Checklist' as resources."
+        }
+      ]
+    }
+  },
+  "sha256": "dc32ead7764b3073716a2c52c51e4e24afd32a12ea6fdca495922383525f99f5"
+}

@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "789ff6310207405227b68fb127bc2264::agent-turn-4",
+    "item_sha256": "f154c40d2dd71f0bb28ae475243ce42b146fa0f3e7a36631ef273e6d8be2f6e1",
+    "result": {
+      "request_id": "36d91782acb34a5eb8664f08a0c11f35",
+      "session_id": "789ff6310207405227b68fb127bc2264",
+      "turn_id": 3,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，您可以在贷款发放前随时通知您子女的学校，取消全部或部分贷款。贷款发放后，您也可以在特定时间范围内取消全部或部分贷款。您的本票和学校提供的其他信息将说明取消贷款的程序和时间范围。",
+        "citations": [
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "False Certification Discharge | Federal Student Aid#1_0::c0000",
+          "text": "# False Certification Discharge | Federal Student Aid\n\n# You might be eligible for a discharge of your federal student loans based on false certification.\n\nLearn more about false certification discharge to see whether you might qualify.\n\nYou might be eligible for a discharge of your loan made under the William D. Ford Federal Direct Loan (Direct Loan) Program or Federal Family Education Loan (FFEL) Program if your school falsely certified your eligibility to receive a loan.\n\n## What are the eligibility requirements to qualify for a loan discharge based on false certification?\n\nThere are three categories of false certification through which you might be eligible for a discharge of your Direct Loans or FFEL Program loans:\n\n1.  Ability to benefit: The school falsely certified your eligibility to receive the loan based on your ability to benefit from its training, and you didn t meet the ability-to-benefit student eligibility requirements that were in effect at the time the school determined your eligibility.\n2.  Disqualifying status: The school certified your eligibility to receive the loan, but at the time of the certification, you had a status (physical or mental condition, age, criminal record, or other circumstance) that disqualified you from meeting the legal requirements for employment in your state of residence in the occupation for which the program of study was preparing you.\n3.  Unauthorized signature or unauthorized payment: The school signed your name on the loan application or promissory note without your authorization or the school endorsed your loan check or signed your authorization for electronic funds transfer without your knowledge, and the loan money wasn t given to you or applied to charges you owed to the school.\n\n## How do I apply for a loan discharge?\n\nIf you have a Direct Loan or FFEL Program loan and you re ready to apply for the false certification discharge, you must complete the loan discharge application that applies to your circumstance:\n\n- *Loan Discharge Application: False Certification (Ability to Benefit)*\n- *Loan Discharge Application: False Certification (Disqualifying Status)*\n- *Loan Discharge Application: False Certification (Unauthorized Signature/Payment)**\n\n*Complete the Loan Discharge Application: False Certification (Unauthorized Signature/Payment) only if you believe that an employee of the school that determined your eligibility for the loan signed your name on the promissory note or other loan documents without your authorization. If you believe that someone else (other than a school employee) forged your signature on a loan document or a loan was made in your name as a result of the crime of identity theft, contact your loan servicer.\n\nFind out who your loan servicer is by logging in.\n\n## How much of my loan will be discharged if I m approved for a loan discharge?\n\nIf you meet the eligibility requirements for a discharge, the entire remaining balance of your loan will be discharged, and any payments made on the loan will be refunded.\n\n## What happens if my loan discharge is denied?\n\nYou will remain responsible for repaying your loan. If you believe that your loan discharge application was denied in error or if you have additional information that you believe would support your eligibility for a false certification discharge, you may ask the U.S. Department of Education to review the denial.\n\n## I m a parent who received a Direct PLUS Loan to help pay for my child s education. Can my loan be discharged due to false certification?\n\nYes, some or all of your parent PLUS loan might be discharged if\n\n- the school falsely certified the student s ability to benefit from its training,\n- the student had a disqualifying status at the time the school certified your eligibility to receive the parent PLUS loan, or\n- the school signed your name on the promissory note or other loan documents without your authorization.\n\nContact your loan servicer for more information."
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0010",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于借款人抗辩决定通知的常见问题与解答]\n答：教育部审查了您关于所就读校区、注册课程和注册日期的申请。教育部还审查了国家学生贷款数据系统（NSLDS）数据库中的数据，以及（如果可用）学校提供的关于您课程和注册日期的数据，以及您随申请提供的任何官方学校文件中的注册信息。如果您是直接PLUS贷款借款人，为支付子女在CCI运营机构的注册费用而申请免除贷款，则“您”包括您的子女。\n\n基于该审查，教育部确定您未在资格期内注册CCI学校的涵盖课程。要么（a）您在申请中提供的初始注册日期或课程在CCI一个或多个校区的涵盖课程资格期之外，要么（b）NSLDS数据和学校数据均表明您在资格期内未在CCI一所或多所学校的涵盖课程中注册。\n\n此外，您的借款人辩护申请未描述CCI学校与您的直接贷款发放或提供教育服务（该直接贷款是为这些服务提供的）相关的任何其他作为或不作为，这些作为或不作为根据州法律可提起诉讼。因此，教育部确定您的借款人辩护偿还申请不符合资格，并且不会免除您的直接贷款。\n\n您的借款人辩护申请是根据加利福尼亚州法律和您通知电子邮件中确定的情况进行评估的。\n\n对于教育部在2020年1月1日或之前收到的借款人辩护申请，教育部将免除其持有的联邦学生贷款在您提交借款人辩护申请之日与通知电子邮件日期之间的利息。教育部在这些情况下免除利息，是因为审查索赔花费了较长时间。\n\n如您电子邮件通知中的“我现在应该做什么？”部分所述，请等待您的联邦贷款服务机构的通知。\n\n如果您不同意此决定，您可以要求教育部重新考虑您的借款人辩护申请。\n\n问：我是非CCI借款人，收到一封电子邮件，称我的借款人辩护索赔不符合救济条件。这封电子邮件是合法的吗？\n\nA. 是的。教育部已根据适用的借款人防御还款规定，完成了对您申请的审查，以确定是否免除您或您的子女在该通知电子邮件中确定的学校就读期间所获得的直接贷款。教育部根据对您索赔事实的审查和救济的监管标准，确定您的申请不符合救济条件；这一决定意味着您的直接贷款将不会被免除。\n\n适用法律"
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0005",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于宽限期/停止催收状态的常见问题与解答]\n问：我可以将我的一些或全部联邦学生贷款从暂缓还款或停止催收状态中移除吗？\n\n答：如果您希望暂缓还款或停止催收状态仅适用于与您的借款人抗辩申请相关的联邦学生贷款，您必须在收到贷款服务机构的通知并确认暂缓还款或停止催收状态后，联系您的贷款服务机构。在您的贷款进入暂缓还款或停止催收状态后，如果您在任何时候想要将所有联邦学生贷款从暂缓还款或停止催收状态中移除，您也必须联系您的贷款服务机构。\n\n问：我可以对处于暂缓还款或停止催收状态的联邦学生贷款进行还款吗？\n\n答：可以。当您的联邦学生贷款处于暂缓还款或停止催收状态时，您无需偿还贷款。但是，您可以对处于暂缓还款或停止催收状态的任何贷款进行还款，包括支付应计利息。如上所述，在这些贷款处于暂缓还款或停止催收状态期间，所有此类贷款的利息将继续累积。\n\n问：如果我对学校的借款人抗辩申请成功，会发生什么？\n\n答：与您的申请相关的联邦学生贷款可能会被部分或全部免除。如果您获得部分免除，您将负责偿还任何未通过借款人抗辩免除的金额，包括累积的任何利息。此外，届时，您其他任何联邦学生贷款的暂缓还款或停止催收期将结束。您将负责偿还这些其他贷款（如适用），包括在暂缓还款或停止催收期间累积的利息。\n\n问：如果我对学校的借款人抗辩申请被拒绝，会发生什么？\n\n答：您将不会获得任何联邦学生贷款的免除，并且所有贷款的暂缓还款或停止催收期将结束。您将负责偿还这些贷款，包括在暂缓还款或停止催收期间累积的利息。\n\n问：我认为我可能是Manriquez诉DeVos案中已认证集体的一员，因为我的借款人抗辩申请包含基于科林斯学院学校所作就业安置率虚假陈述的索赔。我的还款状态会怎样，如果我处于错误的还款状态，我该怎么办？\n\n答：有关*Manriquez诉DeVos*案及该案已认证集体的更多信息，请访问“科林斯学院学生债务减免信息”页面，在“根据借款人抗辩还款规则，针对科林斯学院（Everest、Heald和WyoTech）学生的未决诉讼信息”部分下。关于Manriquez诉DeVos的常见问题解答子部分提供了更多信息，说明由于未决诉讼和法院禁令，暂缓还款和停止催收可能如何适用于您的情况，以及如果您对自己的还款状态有疑问该怎么办。"
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0014",
+          "text": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > Can I cancel the loan if I decide that I don t need it or if I need less than the amount offered?]\nYes. Before your loan money is disbursed, you may cancel all or part of your loan at any time by notifying your child s school. After your loan is disbursed, you may cancel all or part of the loan within certain time frames. Your promissory note and additional information you ll receive from the school will explain the procedures and time frames for canceling your loan."
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0011",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于借款人抗辩决定通知的常见问题与解答]\n对于2017年7月1日之前首次发放的直接贷款，如果借款人的学校从事了根据适用的州法律可能对学校提起诉讼的作为或不作为，借款人可能有资格获得部分或全部直接贷款的免除（宽恕）。参见经修订的《1965年高等教育法》第455(h)条，20 U.S.C. 1087e(h)，以及34 CFR 685.206(c)和685.222（借款人防御规定）。教育部仅在诉讼原因直接与直接贷款或学校提供教育服务（该直接贷款是为这些服务提供的）相关时，才承认借款人对偿还直接贷款的防御。34 CFR 685.206(c)(1)，685.222(a)(5)；美国教育部，解释通知，60 Fed. Reg. 37,769（1995年7月21日）。\n\n问：为什么我的非CCI申请被认定为不符合条件？\n\n答：教育部根据您提交的支持申请的任何证据、NSLDS数据库中您的贷款数据以及从您通知电子邮件中确定的来源收集的证据，审查了您的借款人防御索赔。您声称的每项不当行为指控均在您的电子邮件中列出，并附有该索赔失败的原因。\n\n对于教育部在2020年1月1日或之前收到的借款人防御申请，教育部将免除其在您提交借款人防御申请之日至通知电子邮件之日期间持有的联邦学生贷款的利息。教育部在这些案件中免除利息，是因为审查索赔花费了较长时间。\n\n如您通知电子邮件的“我现在应该做什么？”部分所述，请等待您的联邦贷款服务机构的通知。\n\n如果您不同意根据公式确定的免除百分比或本决定的其他部分，您可以要求教育部重新考虑您的借款人防御申请。\n\n问：我收到了多封关于我的借款人防御索赔的通知电子邮件。这应该发生吗？\n\n答：有两种情况会导致您收到多封通知电子邮件。\n\n- 如果您的借款人防御申请关联了两个电子邮件地址，教育部会向两个地址发送通知电子邮件。\n- 如果您有一份借款人防御申请被批准，而另一份不同的借款人防御申请被认定为不符合条件，教育部会针对每份申请分别发送通知电子邮件。\n\n要检查您收到的通知电子邮件，请于周一至周五东部时间上午8点至晚上8点拨打我们的借款人防御热线1-855-279-6207。\n\n问：如果我不同意关于我的借款人防御索赔的决定怎么办？\n\n答：如果您不同意教育部的决定，您可以要求教育部重新考虑您的借款人防御申请。您可以通过以下两种方式之一进行："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "False Certification Discharge | Federal Student Aid#1_0::c0000",
+          "text": "# False Certification Discharge | Federal Student Aid\n\n# You might be eligible for a discharge of your federal student loans based on false certification.\n\nLearn more about false certification discharge to see whether you might qualify.\n\nYou might be eligible for a discharge of your loan made under the William D. Ford Federal Direct Loan (Direct Loan) Program or Federal Family Education Loan (FFEL) Program if your school falsely certified your eligibility to receive a loan.\n\n## What are the eligibility requirements to qualify for a loan discharge based on false certification?\n\nThere are three categories of false certification through which you might be eligible for a discharge of your Direct Loans or FFEL Program loans:\n\n1.  Ability to benefit: The school falsely certified your eligibility to receive the loan based on your ability to benefit from its training, and you didn t meet the ability-to-benefit student eligibility requirements that were in effect at the time the school determined your eligibility.\n2.  Disqualifying status: The school certified your eligibility to receive the loan, but at the time of the certification, you had a status (physical or mental condition, age, criminal record, or other circumstance) that disqualified you from meeting the legal requirements for employment in your state of residence in the occupation for which the program of study was preparing you.\n3.  Unauthorized signature or unauthorized payment: The school signed your name on the loan application or promissory note without your authorization or the school endorsed your loan check or signed your authorization for electronic funds transfer without your knowledge, and the loan money wasn t given to you or applied to charges you owed to the school.\n\n## How do I apply for a loan discharge?\n\nIf you have a Direct Loan or FFEL Program loan and you re ready to apply for the false certification discharge, you must complete the loan discharge application that applies to your circumstance:\n\n- *Loan Discharge Application: False Certification (Ability to Benefit)*\n- *Loan Discharge Application: False Certification (Disqualifying Status)*\n- *Loan Discharge Application: False Certification (Unauthorized Signature/Payment)**\n\n*Complete the Loan Discharge Application: False Certification (Unauthorized Signature/Payment) only if you believe that an employee of the school that determined your eligibility for the loan signed your name on the promissory note or other loan documents without your authorization. If you believe that someone else (other than a school employee) forged your signature on a loan document or a loan was made in your name as a result of the crime of identity theft, contact your loan servicer.\n\nFind out who your loan servicer is by logging in.\n\n## How much of my loan will be discharged if I m approved for a loan discharge?\n\nIf you meet the eligibility requirements for a discharge, the entire remaining balance of your loan will be discharged, and any payments made on the loan will be refunded.\n\n## What happens if my loan discharge is denied?\n\nYou will remain responsible for repaying your loan. If you believe that your loan discharge application was denied in error or if you have additional information that you believe would support your eligibility for a false certification discharge, you may ask the U.S. Department of Education to review the denial.\n\n## I m a parent who received a Direct PLUS Loan to help pay for my child s education. Can my loan be discharged due to false certification?\n\nYes, some or all of your parent PLUS loan might be discharged if\n\n- the school falsely certified the student s ability to benefit from its training,\n- the student had a disqualifying status at the time the school certified your eligibility to receive the parent PLUS loan, or\n- the school signed your name on the promissory note or other loan documents without your authorization.\n\nContact your loan servicer for more information."
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0010",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于借款人抗辩决定通知的常见问题与解答]\n答：教育部审查了您关于所就读校区、注册课程和注册日期的申请。教育部还审查了国家学生贷款数据系统（NSLDS）数据库中的数据，以及（如果可用）学校提供的关于您课程和注册日期的数据，以及您随申请提供的任何官方学校文件中的注册信息。如果您是直接PLUS贷款借款人，为支付子女在CCI运营机构的注册费用而申请免除贷款，则“您”包括您的子女。\n\n基于该审查，教育部确定您未在资格期内注册CCI学校的涵盖课程。要么（a）您在申请中提供的初始注册日期或课程在CCI一个或多个校区的涵盖课程资格期之外，要么（b）NSLDS数据和学校数据均表明您在资格期内未在CCI一所或多所学校的涵盖课程中注册。\n\n此外，您的借款人辩护申请未描述CCI学校与您的直接贷款发放或提供教育服务（该直接贷款是为这些服务提供的）相关的任何其他作为或不作为，这些作为或不作为根据州法律可提起诉讼。因此，教育部确定您的借款人辩护偿还申请不符合资格，并且不会免除您的直接贷款。\n\n您的借款人辩护申请是根据加利福尼亚州法律和您通知电子邮件中确定的情况进行评估的。\n\n对于教育部在2020年1月1日或之前收到的借款人辩护申请，教育部将免除其持有的联邦学生贷款在您提交借款人辩护申请之日与通知电子邮件日期之间的利息。教育部在这些情况下免除利息，是因为审查索赔花费了较长时间。\n\n如您电子邮件通知中的“我现在应该做什么？”部分所述，请等待您的联邦贷款服务机构的通知。\n\n如果您不同意此决定，您可以要求教育部重新考虑您的借款人辩护申请。\n\n问：我是非CCI借款人，收到一封电子邮件，称我的借款人辩护索赔不符合救济条件。这封电子邮件是合法的吗？\n\nA. 是的。教育部已根据适用的借款人防御还款规定，完成了对您申请的审查，以确定是否免除您或您的子女在该通知电子邮件中确定的学校就读期间所获得的直接贷款。教育部根据对您索赔事实的审查和救济的监管标准，确定您的申请不符合救济条件；这一决定意味着您的直接贷款将不会被免除。\n\n适用法律"
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0005",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于宽限期/停止催收状态的常见问题与解答]\n问：我可以将我的一些或全部联邦学生贷款从暂缓还款或停止催收状态中移除吗？\n\n答：如果您希望暂缓还款或停止催收状态仅适用于与您的借款人抗辩申请相关的联邦学生贷款，您必须在收到贷款服务机构的通知并确认暂缓还款或停止催收状态后，联系您的贷款服务机构。在您的贷款进入暂缓还款或停止催收状态后，如果您在任何时候想要将所有联邦学生贷款从暂缓还款或停止催收状态中移除，您也必须联系您的贷款服务机构。\n\n问：我可以对处于暂缓还款或停止催收状态的联邦学生贷款进行还款吗？\n\n答：可以。当您的联邦学生贷款处于暂缓还款或停止催收状态时，您无需偿还贷款。但是，您可以对处于暂缓还款或停止催收状态的任何贷款进行还款，包括支付应计利息。如上所述，在这些贷款处于暂缓还款或停止催收状态期间，所有此类贷款的利息将继续累积。\n\n问：如果我对学校的借款人抗辩申请成功，会发生什么？\n\n答：与您的申请相关的联邦学生贷款可能会被部分或全部免除。如果您获得部分免除，您将负责偿还任何未通过借款人抗辩免除的金额，包括累积的任何利息。此外，届时，您其他任何联邦学生贷款的暂缓还款或停止催收期将结束。您将负责偿还这些其他贷款（如适用），包括在暂缓还款或停止催收期间累积的利息。\n\n问：如果我对学校的借款人抗辩申请被拒绝，会发生什么？\n\n答：您将不会获得任何联邦学生贷款的免除，并且所有贷款的暂缓还款或停止催收期将结束。您将负责偿还这些贷款，包括在暂缓还款或停止催收期间累积的利息。\n\n问：我认为我可能是Manriquez诉DeVos案中已认证集体的一员，因为我的借款人抗辩申请包含基于科林斯学院学校所作就业安置率虚假陈述的索赔。我的还款状态会怎样，如果我处于错误的还款状态，我该怎么办？\n\n答：有关*Manriquez诉DeVos*案及该案已认证集体的更多信息，请访问“科林斯学院学生债务减免信息”页面，在“根据借款人抗辩还款规则，针对科林斯学院（Everest、Heald和WyoTech）学生的未决诉讼信息”部分下。关于Manriquez诉DeVos的常见问题解答子部分提供了更多信息，说明由于未决诉讼和法院禁令，暂缓还款和停止催收可能如何适用于您的情况，以及如果您对自己的还款状态有疑问该怎么办。"
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0014",
+          "text": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > Can I cancel the loan if I decide that I don t need it or if I need less than the amount offered?]\nYes. Before your loan money is disbursed, you may cancel all or part of your loan at any time by notifying your child s school. After your loan is disbursed, you may cancel all or part of the loan within certain time frames. Your promissory note and additional information you ll receive from the school will explain the procedures and time frames for canceling your loan."
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0011",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于借款人抗辩决定通知的常见问题与解答]\n对于2017年7月1日之前首次发放的直接贷款，如果借款人的学校从事了根据适用的州法律可能对学校提起诉讼的作为或不作为，借款人可能有资格获得部分或全部直接贷款的免除（宽恕）。参见经修订的《1965年高等教育法》第455(h)条，20 U.S.C. 1087e(h)，以及34 CFR 685.206(c)和685.222（借款人防御规定）。教育部仅在诉讼原因直接与直接贷款或学校提供教育服务（该直接贷款是为这些服务提供的）相关时，才承认借款人对偿还直接贷款的防御。34 CFR 685.206(c)(1)，685.222(a)(5)；美国教育部，解释通知，60 Fed. Reg. 37,769（1995年7月21日）。\n\n问：为什么我的非CCI申请被认定为不符合条件？\n\n答：教育部根据您提交的支持申请的任何证据、NSLDS数据库中您的贷款数据以及从您通知电子邮件中确定的来源收集的证据，审查了您的借款人防御索赔。您声称的每项不当行为指控均在您的电子邮件中列出，并附有该索赔失败的原因。\n\n对于教育部在2020年1月1日或之前收到的借款人防御申请，教育部将免除其在您提交借款人防御申请之日至通知电子邮件之日期间持有的联邦学生贷款的利息。教育部在这些案件中免除利息，是因为审查索赔花费了较长时间。\n\n如您通知电子邮件的“我现在应该做什么？”部分所述，请等待您的联邦贷款服务机构的通知。\n\n如果您不同意根据公式确定的免除百分比或本决定的其他部分，您可以要求教育部重新考虑您的借款人防御申请。\n\n问：我收到了多封关于我的借款人防御索赔的通知电子邮件。这应该发生吗？\n\n答：有两种情况会导致您收到多封通知电子邮件。\n\n- 如果您的借款人防御申请关联了两个电子邮件地址，教育部会向两个地址发送通知电子邮件。\n- 如果您有一份借款人防御申请被批准，而另一份不同的借款人防御申请被认定为不符合条件，教育部会针对每份申请分别发送通知电子邮件。\n\n要检查您收到的通知电子邮件，请于周一至周五东部时间上午8点至晚上8点拨打我们的借款人防御热线1-855-279-6207。\n\n问：如果我不同意关于我的借款人防御索赔的决定怎么办？\n\n答：如果您不同意教育部的决定，您可以要求教育部重新考虑您的借款人防御申请。您可以通过以下两种方式之一进行："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0014",
+          "document": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "heading": [
+            "Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school.",
+            "Can I cancel the loan if I decide that I don t need it or if I need less than the amount offered?"
+          ],
+          "source_file": "studentaid_062.md",
+          "excerpt": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > Can I cancel the loan if I decide that I don t need it or if I need less than the amount offered?]\nYes. Before your loan money is disbursed, you may cancel all or part of your loan at any time by notifying your child s school. After your loan is disbursed, you may cancel all or part of the loan within certain time frames. Your promissory note and additional information you ll receive from the school will explain the procedures and time frames for canceling your loan."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，您可以在贷款发放前随时通知您子女的学校，取消全部或部分贷款。贷款发放后，您也可以在特定时间范围内取消全部或部分贷款。您的本票和学校提供的其他信息将说明取消贷款的程序和时间范围。",
+          "citations": [
+            "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "a714150ec76b4dbf9d85fda66a4101bd",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2966,
+              "completion_tokens": 83,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 83,
+                "prompt_tokens": 2966,
+                "total_tokens": 3049,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2710
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0044513,
+            "accounted_rmb": 0.0044513,
+            "usage_unknown": false,
+            "seconds": 1.6883301734924316,
+            "error": null,
+            "response": {
+              "id": "99ea681e-af27-40a1-8947-79a5397f9abe",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "2b516f347955c702c064ac97a388f45c90d243890b2081419d82e16b852c2833"
+      },
+      "latency_ms": {
+        "queue_wait": 0.040291924960911274,
+        "retrieval": 1235.8900828985497,
+        "generation": 1692.6435000495985,
+        "total": 2930.3987089078873
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.139273792039603,
+        "rerank_seconds": 1.0965241249650717,
+        "top1_dense_score": 0.7338677644729614,
+        "candidate_ids": [
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0012",
+          "False Certification Discharge | Federal Student Aid#1_0::c0000",
+          "Closed School Discharge | Federal Student Aid#1_0::c0002",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0004",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0002",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0003",
+          "Closed School Discharge | Federal Student Aid#1_0::c0003",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0008",
+          "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0014",
+          "Student Loan Deferment | Federal Student Aid#1_0::c0004",
+          "PLUS Loan Application for Graduate Students | Federal Student Aid#1_0::c0000",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0011",
+          "Closed School Discharge | Federal Student Aid#1_0::c0001",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0005",
+          "Loan Servicers | Federal Student Aid#1_0::c0004",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0010",
+          "Avoiding Default | Federal Student Aid#1_0::c0000",
+          "Student Loan Deferment | Federal Student Aid#1_0::c0005",
+          "Student Loan Consolidation | Federal Student Aid#1_0::c0002"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 41,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.2358688750537112
+      },
+      "raw_citations": [
+        "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "7c5db50d04ef59156ceac812967c6c22f17b047e7dc31a5831622d35460488cd"
+}

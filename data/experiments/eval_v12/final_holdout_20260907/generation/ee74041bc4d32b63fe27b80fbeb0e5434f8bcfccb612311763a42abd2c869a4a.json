@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "9812e9562337008b06034e692feb2f4c::agent-turn-11",
+    "item_sha256": "7e51ca6de7e31c728773c040a071f354b542aedb434104a5fe68e12eb94e43fd",
+    "result": {
+      "request_id": "ae9257bd9d1b472fa048c221dcc1f375",
+      "session_id": "9812e9562337008b06034e692feb2f4c",
+      "turn_id": 10,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "要获得家长PLUS贷款，您必须是受抚养本科生的父母，并且您的孩子必须在符合条件的学校至少半工半读地注册。您还需要提交联邦学生援助免费申请（FAFSA）并满足一般资格要求，例如是美国公民或符合条件的非公民，且没有不良信用记录。如果您的信用记录有问题，您可能仍有机会通过获得背书人或解决信用问题来获得贷款。要申请，请访问StudentAid.gov，使用您的联邦学生援助ID登录，并完成家长PLUS贷款申请流程。",
+        "citations": [
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0004"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Tax Benefits for Higher Education | Federal Student Aid#1_0::c0000",
+          "text": "# 高等教育税收优惠 | 联邦学生援助\n\n# 您知道美国国税局（IRS）为教育提供税收优惠吗？\n\n这些税收优惠可用于收回您为学费或贷款利息支付的部分资金，或最大化您的大学储蓄。\n\n阅读 *IRS出版物970，教育税收优惠*，了解哪些联邦所得税优惠可能适用于您的情况。以下是一些要点：\n\n## 高等教育费用税收抵免\n\n两项税收抵免通过减少您的所得税金额来帮助抵消大学或职业学校的费用（学费、杂费、书本费、用品费、设备费）：\n\n- 美国机会税收抵免允许您在每个学生攻读学位或类似证书的前四年内，每年为每位学生申请最高 $2,500 的抵免。\n- 终身学习税收抵免允许您每年为每位学生申请最高 $2,000 的抵免，用于任何大学或职业学校的学费和杂费，以及课程要求且必须从学校购买的书本、用品和设备。\n\n即使您因收入水平通常不需要报税，也请务必报税！如果您不报税，您将错失能让钱进入您口袋的税收抵免。\n\n## Coverdell教育储蓄账户\n\nCoverdell教育储蓄账户允许每年为学生的教育费用（小学、中学或大学或职业学校）预留最高 $2,000。\n\n## 合格学费计划（QTP；也称为529计划）\n\nQTP/529计划由州或学校设立，以便您可以预付或储蓄以支付教育相关费用。一旦您进入大学或职业学校，并从您的账户中提取资金以支付教育费用，您提取的资金将不会被征税。了解更多关于州529计划的信息。要了解您计划就读的大学是否参与QTP，请咨询经济援助或招生工作人员。\n\n## 学生贷款利息扣除\n\n您可以为您自己、您的配偶或您的受抚养人申请的学生贷款所支付的利息进行税收扣除。此优惠适用于所有用于支付高等教育费用的贷款（不仅仅是联邦学生贷款）。最高扣除额为每年 $2,500。\n\n## 使用IRA取款支付大学费用\n\n- 您可以从IRA中提取资金，为您自己、您的配偶、您的子女或您的孙子女支付高等教育费用。\n- 您将需要对提取的金额缴纳联邦所得税，但不会受到提前取款罚款的影响。"
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+          "text": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > What types of loan repayment plans are available?]\nParent PLUS borrowers are eligible for the following repayment plans:\n\n- Standard Repayment Plan\n- Graduated Repayment Plan\n- Extended Repayment Plan\n\nNote: Parent borrowers can become eligible for an additional repayment plan the Income-Contingent Repayment Plan by consolidating their parent PLUS loans into a Direct Consolidation Loan.\n\nUse *Loan Simulator* to get an early estimate of what your monthly payment amount would be under the plans for which you re eligible."
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0004",
+          "text": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > Do I have to make payments on my loan while my child is still in school?]\nIf you request a deferment, you will not need to make payments while your child is enrolled at least half-time and for an additional six months after your child graduates, leaves school, or drops below half-time enrollment. If the school your child is attending requires you to submit your request for a parent PLUS loan at StudentAid.gov, you ll have the option of requesting a deferment as part of the loan request process. You can also contact your loan servicer to request a deferment.\n\nIf you do not request a deferment, you will be expected to begin making payments after the loan is fully disbursed (paid out).\n\nDuring any period when you re not required to make payments, interest will accrue on your loan. You may choose to pay the accrued interest or allow the interest to be capitalized (added to your loan principal balance) when you have to start making payments. Your loan servicer will notify you when your first payment is due."
+        },
+        {
+          "chunk_id": "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "text": "[谁是我的学生贷款服务商？ > 避免为联邦学生贷款援助付费]\n您无需付费即可获得贷款服务方面的帮助，例如合并联邦学生贷款或申请收入驱动还款计划。\n\n如果有人联系你，要求你支付注册费、订阅费或维护费，以便让你参加联邦还款计划或免除计划，你应该离开。\n\n这些服务及更多服务都可以由你的服务商免费完成！\n\n想了解更多？请阅读我们的博客文章《别被骗了：你永远不必为助学贷款帮助付费》。"
+        },
+        {
+          "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Tax Benefits for Higher Education | Federal Student Aid#1_0::c0000",
+          "text": "# 高等教育税收优惠 | 联邦学生援助\n\n# 您知道美国国税局（IRS）为教育提供税收优惠吗？\n\n这些税收优惠可用于收回您为学费或贷款利息支付的部分资金，或最大化您的大学储蓄。\n\n阅读 *IRS出版物970，教育税收优惠*，了解哪些联邦所得税优惠可能适用于您的情况。以下是一些要点：\n\n## 高等教育费用税收抵免\n\n两项税收抵免通过减少您的所得税金额来帮助抵消大学或职业学校的费用（学费、杂费、书本费、用品费、设备费）：\n\n- 美国机会税收抵免允许您在每个学生攻读学位或类似证书的前四年内，每年为每位学生申请最高 $2,500 的抵免。\n- 终身学习税收抵免允许您每年为每位学生申请最高 $2,000 的抵免，用于任何大学或职业学校的学费和杂费，以及课程要求且必须从学校购买的书本、用品和设备。\n\n即使您因收入水平通常不需要报税，也请务必报税！如果您不报税，您将错失能让钱进入您口袋的税收抵免。\n\n## Coverdell教育储蓄账户\n\nCoverdell教育储蓄账户允许每年为学生的教育费用（小学、中学或大学或职业学校）预留最高 $2,000。\n\n## 合格学费计划（QTP；也称为529计划）\n\nQTP/529计划由州或学校设立，以便您可以预付或储蓄以支付教育相关费用。一旦您进入大学或职业学校，并从您的账户中提取资金以支付教育费用，您提取的资金将不会被征税。了解更多关于州529计划的信息。要了解您计划就读的大学是否参与QTP，请咨询经济援助或招生工作人员。\n\n## 学生贷款利息扣除\n\n您可以为您自己、您的配偶或您的受抚养人申请的学生贷款所支付的利息进行税收扣除。此优惠适用于所有用于支付高等教育费用的贷款（不仅仅是联邦学生贷款）。最高扣除额为每年 $2,500。\n\n## 使用IRA取款支付大学费用\n\n- 您可以从IRA中提取资金，为您自己、您的配偶、您的子女或您的孙子女支付高等教育费用。\n- 您将需要对提取的金额缴纳联邦所得税，但不会受到提前取款罚款的影响。"
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+          "text": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > What types of loan repayment plans are available?]\nParent PLUS borrowers are eligible for the following repayment plans:\n\n- Standard Repayment Plan\n- Graduated Repayment Plan\n- Extended Repayment Plan\n\nNote: Parent borrowers can become eligible for an additional repayment plan the Income-Contingent Repayment Plan by consolidating their parent PLUS loans into a Direct Consolidation Loan.\n\nUse *Loan Simulator* to get an early estimate of what your monthly payment amount would be under the plans for which you re eligible."
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0004",
+          "text": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > Do I have to make payments on my loan while my child is still in school?]\nIf you request a deferment, you will not need to make payments while your child is enrolled at least half-time and for an additional six months after your child graduates, leaves school, or drops below half-time enrollment. If the school your child is attending requires you to submit your request for a parent PLUS loan at StudentAid.gov, you ll have the option of requesting a deferment as part of the loan request process. You can also contact your loan servicer to request a deferment.\n\nIf you do not request a deferment, you will be expected to begin making payments after the loan is fully disbursed (paid out).\n\nDuring any period when you re not required to make payments, interest will accrue on your loan. You may choose to pay the accrued interest or allow the interest to be capitalized (added to your loan principal balance) when you have to start making payments. Your loan servicer will notify you when your first payment is due."
+        },
+        {
+          "chunk_id": "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "text": "[谁是我的学生贷款服务商？ > 避免为联邦学生贷款援助付费]\n您无需付费即可获得贷款服务方面的帮助，例如合并联邦学生贷款或申请收入驱动还款计划。\n\n如果有人联系你，要求你支付注册费、订阅费或维护费，以便让你参加联邦还款计划或免除计划，你应该离开。\n\n这些服务及更多服务都可以由你的服务商免费完成！\n\n想了解更多？请阅读我们的博客文章《别被骗了：你永远不必为助学贷款帮助付费》。"
+        },
+        {
+          "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+          "document": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "heading": [
+            "Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school.",
+            "What types of loan repayment plans are available?"
+          ],
+          "source_file": "studentaid_062.md",
+          "excerpt": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > What types of loan repayment plans are available?]\nParent PLUS borrowers are eligible for the following repayment plans:\n\n- Standard Repayment Plan\n- Graduated Repayment Plan\n- Extended Repayment Plan\n\nNote: Parent borrowers can become eligible for an additional repayment plan the Income-Contingent Repayment Plan by consolidating their parent PLUS loans into a Direct Consolidation Loan.\n\nUse *Loan Simulator* to get an early estimate of what your monthly payment amount would be under the plans for which you re eligible."
+        },
+        {
+          "chunk_id": "Parent PLUS Loans | Federal Student Aid#1_0::c0004",
+          "document": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "heading": [
+            "Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school.",
+            "Do I have to make payments on my loan while my child is still in school?"
+          ],
+          "source_file": "studentaid_062.md",
+          "excerpt": "[Direct PLUS Loans are federal loans that parents of dependent undergraduate students can use to help pay for college or career school. > Do I have to make payments on my loan while my child is still in school?]\nIf you request a deferment, you will not need to make payments while your child is enrolled at least half-time and for an additional six months after your child graduates, leaves school, or drops below half-time enrollment. If the school your child is attending requires you to submit your request for a parent PLUS loan at StudentAid.gov, you ll have the option of requesting a deferment as part of the loan request process. You can also contact your loan servicer to request a deferment.\n\nIf you do not request a deferment, you will be expected to begin making payments after the loan is fully disbursed (paid out).\n\nDuring any period when you re not required to make payments, interest will accrue on your loan. You may choose to pay the accrued interest or allow the interest to be capitalized (added to your loan principal balance) when you have to start making payments. Your loan servicer will notify you when your first payment is due."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "要获得家长PLUS贷款，您必须是受抚养本科生的父母，并且您的孩子必须在符合条件的学校至少半工半读地注册。您还需要提交联邦学生援助免费申请（FAFSA）并满足一般资格要求，例如是美国公民或符合条件的非公民，且没有不良信用记录。如果您的信用记录有问题，您可能仍有机会通过获得背书人或解决信用问题来获得贷款。要申请，请访问StudentAid.gov，使用您的联邦学生援助ID登录，并完成家长PLUS贷款申请流程。",
+          "citations": [
+            "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+            "Parent PLUS Loans | Federal Student Aid#1_0::c0004"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "1902e655ac48417e92b7243073498e90",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1918,
+              "completion_tokens": 159,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 159,
+                "prompt_tokens": 1918,
+                "total_tokens": 2077,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1662
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0032213000000000003,
+            "accounted_rmb": 0.0032213000000000003,
+            "usage_unknown": false,
+            "seconds": 2.5333101749420166,
+            "error": null,
+            "response": {
+              "id": "0b896517-8d34-40af-87a6-0e514ddd46a9",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "347edce979a9a34fd2ba297276d6a892d3693fc624e85ed192752cd31a2a018f"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04979094956070185,
+        "retrieval": 1333.4719579434022,
+        "generation": 2536.67633398436,
+        "total": 3871.182666043751
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.26382100000046194,
+        "rerank_seconds": 1.0695729999570176,
+        "top1_dense_score": 0.8911434412002563,
+        "candidate_ids": [
+          "Tax Benefits for Higher Education | Federal Student Aid#1_0::c0000",
+          "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0::c0000",
+          "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0008",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0008",
+          "Yellow Ribbon Program | Veterans Affairs#1_0::c0001",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0009",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0012",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0015",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0010",
+          "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0004",
+          "Tutorial Assistance | Veterans Affairs#1_0::c0000",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0011",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+          "How insurance premium reduction works#3_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0041",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0003"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 33,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.3334492080612108
+      },
+      "raw_citations": [
+        "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+        "Parent PLUS Loans | Federal Student Aid#1_0::c0004"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "177164fb968a5de0e14310819c5a7ef513457e36379cc286367727c3a395d020"
+}

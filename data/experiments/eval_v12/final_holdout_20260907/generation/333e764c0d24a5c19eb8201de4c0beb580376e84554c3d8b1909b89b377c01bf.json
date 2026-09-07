@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "5cbfa4c9e28369347711fc18913bccb5::agent-turn-2",
+    "item_sha256": "4fbe6ead0a58d076aa42c15b17c0e86df0c3552f294b7baa9b92d4f865232a15",
+    "result": {
+      "request_id": "80a4e85a193f485bac69bb9dca5751bd",
+      "session_id": "5cbfa4c9e28369347711fc18913bccb5",
+      "turn_id": 1,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If your New York State driver license is revoked, it means your license is canceled. Once the revocation period ends, you must apply for a new license and may need to retake the written and road tests. For most revocations, you must first request and receive approval from the DMV Driver Improvement Unit (DIU) before applying for a new license at a DMV office. The DIU will review your complete driving record to determine if you meet New York State requirements. If you hold a license from another state, you must obtain DIU approval to restore your New York driving privilege. Note that certain out-of-state convictions, such as alcohol or drug-related violations, can lead to revocation (e.g., at least 90 days if you are 21 or older, or at least one year if under 21).",
+        "citations": [
+          "Restore license after revocation#1_0::c0001",
+          "Tickets received in another state#3_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Replace license or permit#1_0::c0000",
+          "text": "更换驾照或许可证"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0000",
+          "text": "How to renew a license"
+        },
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0001",
+          "text": "[吊销后恢复驾照 [1] > 如何恢复]\n截至2019年9月27日，驾驶员改进部门正在审核于以下日期或之前通过邮件收到的申请：\n\n- 常规申请（少于3次）- 2019年7月18日\n- 多次酒驾申请（3次或以上）- 2019年7月22日\n\n严重交通违规或多次违规可能导致您的纽约州驾驶执照或驾驶特权被吊销。1 吊销意味着您的驾照被取消，一旦吊销期结束，您必须申请新的驾照。您可能还需要重新参加笔试和路考。\n\n对于大多数吊销情况，您必须先向DMV驾驶员改进部门（DIU）请求并获得批准，然后才能在DMV办公室申请新的驾驶执照。如果您在其他州持有驾照，您必须获得DIU的批准才能恢复您的纽约州驾驶特权。DIU必须审查您的完整驾驶记录，以确定您是否符合纽约州法律和要求获得批准。"
+        },
+        {
+          "chunk_id": "Tickets received in another state#3_0::c0000",
+          "text": "# Tickets received in another state\n\n### What happens if I get a traffic ticket in another state?\n\n#### Moving violations\n\nYour NY State Driver License will be suspended if you fail to answer a ticket for a moving violation in any state except Alaska, California, Michigan, Montana, Oregon or Wisconsin. Your license will remain suspended until you answer the ticket.\n\nDrivers from any state, except those from the six states listed above, will have their driver licenses suspended in their own state for failure to answer a moving violation in New York State.\n\nThe New York State DMV does not record out-of-state convictions of moving traffic violations of New York State non-commercial licensed drivers, except for traffic offenses committed in the provinces of Ontario and Quebec in Canada.\n\n#### Alcohol and drug violations\n\n##### If you are 21 or older\n\nIf you are 21 years of age or older when you commit an alcohol or drug related driving violation in any other state or the provinces of Ontario and Quebec in Canada and you are convicted of the violation, your New York State driver license will be revoked for at least 90 days. Out-of-state drivers ticketed in New York State should contact the Motor Vehicle Department of their own state or province about the effect of a conviction in New York State.\n\n##### If you are under 21\n\nIf you are under the age of 21 when you commit an alcohol or drug related driving violation that occurs out-of-state and you are convicted of the violation, your New York State driver license will be revoked for at least one year. If you have any prior alcohol or drug related driving conviction, your license will be revoked for at least one year or until the age of 21, whichever is longer.\n\n#### Convictions for criminal negligence, homicide or assault\n\nThe New York State DMV records the out-of-state convictions of any New York driver for criminal negligence, homicide, or assault, which arise out of the operation of a motor vehicle and which results in death. As a result of any of these convictions, your NY State Driver License will be revoked."
+        },
+        {
+          "chunk_id": "Get a driver license#1_0::c0007",
+          "text": "[获取驾驶执照]\n更换、续期、恢复或交换"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Replace license or permit#1_0::c0000",
+          "text": "更换驾照或许可证"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0000",
+          "text": "How to renew a license"
+        },
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0001",
+          "text": "[吊销后恢复驾照 [1] > 如何恢复]\n截至2019年9月27日，驾驶员改进部门正在审核于以下日期或之前通过邮件收到的申请：\n\n- 常规申请（少于3次）- 2019年7月18日\n- 多次酒驾申请（3次或以上）- 2019年7月22日\n\n严重交通违规或多次违规可能导致您的纽约州驾驶执照或驾驶特权被吊销。1 吊销意味着您的驾照被取消，一旦吊销期结束，您必须申请新的驾照。您可能还需要重新参加笔试和路考。\n\n对于大多数吊销情况，您必须先向DMV驾驶员改进部门（DIU）请求并获得批准，然后才能在DMV办公室申请新的驾驶执照。如果您在其他州持有驾照，您必须获得DIU的批准才能恢复您的纽约州驾驶特权。DIU必须审查您的完整驾驶记录，以确定您是否符合纽约州法律和要求获得批准。"
+        },
+        {
+          "chunk_id": "Tickets received in another state#3_0::c0000",
+          "text": "# Tickets received in another state\n\n### What happens if I get a traffic ticket in another state?\n\n#### Moving violations\n\nYour NY State Driver License will be suspended if you fail to answer a ticket for a moving violation in any state except Alaska, California, Michigan, Montana, Oregon or Wisconsin. Your license will remain suspended until you answer the ticket.\n\nDrivers from any state, except those from the six states listed above, will have their driver licenses suspended in their own state for failure to answer a moving violation in New York State.\n\nThe New York State DMV does not record out-of-state convictions of moving traffic violations of New York State non-commercial licensed drivers, except for traffic offenses committed in the provinces of Ontario and Quebec in Canada.\n\n#### Alcohol and drug violations\n\n##### If you are 21 or older\n\nIf you are 21 years of age or older when you commit an alcohol or drug related driving violation in any other state or the provinces of Ontario and Quebec in Canada and you are convicted of the violation, your New York State driver license will be revoked for at least 90 days. Out-of-state drivers ticketed in New York State should contact the Motor Vehicle Department of their own state or province about the effect of a conviction in New York State.\n\n##### If you are under 21\n\nIf you are under the age of 21 when you commit an alcohol or drug related driving violation that occurs out-of-state and you are convicted of the violation, your New York State driver license will be revoked for at least one year. If you have any prior alcohol or drug related driving conviction, your license will be revoked for at least one year or until the age of 21, whichever is longer.\n\n#### Convictions for criminal negligence, homicide or assault\n\nThe New York State DMV records the out-of-state convictions of any New York driver for criminal negligence, homicide, or assault, which arise out of the operation of a motor vehicle and which results in death. As a result of any of these convictions, your NY State Driver License will be revoked."
+        },
+        {
+          "chunk_id": "Get a driver license#1_0::c0007",
+          "text": "[获取驾驶执照]\n更换、续期、恢复或交换"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0001",
+          "document": "Restore license after revocation#1_0",
+          "heading": [
+            "吊销后恢复驾照 [1]",
+            "如何恢复"
+          ],
+          "source_file": "dmv_127.md",
+          "excerpt": "[吊销后恢复驾照 [1] > 如何恢复]\n截至2019年9月27日，驾驶员改进部门正在审核于以下日期或之前通过邮件收到的申请：\n\n- 常规申请（少于3次）- 2019年7月18日\n- 多次酒驾申请（3次或以上）- 2019年7月22日\n\n严重交通违规或多次违规可能导致您的纽约州驾驶执照或驾驶特权被吊销。1 吊销意味着您的驾照被取消，一旦吊销期结束，您必须申请新的驾照。您可能还需要重新参加笔试和路考。\n\n对于大多数吊销情况，您必须先向DMV驾驶员改进部门（DIU）请求并获得批准，然后才能在DMV办公室申请新的驾驶执照。如果您在其他州持有驾照，您必须获得DIU的批准才能恢复您的纽约州驾驶特权。DIU必须审查您的完整驾驶记录，以确定您是否符合纽约州法律和要求获得批准。"
+        },
+        {
+          "chunk_id": "Tickets received in another state#3_0::c0000",
+          "document": "Tickets received in another state#3_0",
+          "heading": [],
+          "source_file": "dmv_139.md",
+          "excerpt": "# Tickets received in another state\n\n### What happens if I get a traffic ticket in another state?\n\n#### Moving violations\n\nYour NY State Driver License will be suspended if you fail to answer a ticket for a moving violation in any state except Alaska, California, Michigan, Montana, Oregon or Wisconsin. Your license will remain suspended until you answer the ticket.\n\nDrivers from any state, except those from the six states listed above, will have their driver licenses suspended in their own state for failure to answer a moving violation in New York State.\n\nThe New York State DMV does not record out-of-state convictions of moving traffic violations of New York State non-commercial licensed drivers, except for traffic offenses committed in the provinces of Ontario and Quebec in Canada.\n\n#### Alcohol and drug violations\n\n##### If you are 21 or older\n\nIf you are 21 years of age or older when you commit an alcohol or drug related driving violation in any other state or the provinces of Ontario and Quebec in Canada and you are convicted of the violation, your New York State driver license will be revoked for at least 90 days. Out-of-state drivers ticketed in New York State should contact the Motor Vehicle Department of their own state or province about the effect of a conviction in New York State.\n\n##### If you are under 21\n\nIf you are under the age of 21 when you commit an alcohol or drug related driving violation that occurs out-of-state and you are convicted of the violation, your New York State driver license will be revoked for at least one year. If you have any prior alcohol or drug related driving conviction, your license will be revoked for at least one year or until the age of 21, whichever is longer.\n\n#### Convictions for criminal negligence, homicide or assault\n\nThe New York State DMV records the out-of-state convictions of any New York driver for criminal negligence, homicide, or assault, which arise out of the operation of a motor vehicle and which results in death. As a result of any of these convictions, your NY State Driver License will be revoked."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If your New York State driver license is revoked, it means your license is canceled. Once the revocation period ends, you must apply for a new license and may need to retake the written and road tests. For most revocations, you must first request and receive approval from the DMV Driver Improvement Unit (DIU) before applying for a new license at a DMV office. The DIU will review your complete driving record to determine if you meet New York State requirements. If you hold a license from another state, you must obtain DIU approval to restore your New York driving privilege. Note that certain out-of-state convictions, such as alcohol or drug-related violations, can lead to revocation (e.g., at least 90 days if you are 21 or older, or at least one year if under 21).",
+          "citations": [
+            "Restore license after revocation#1_0::c0001",
+            "Tickets received in another state#3_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "7a75b44cc4c14c4188a94b92ef70a901",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1048,
+              "completion_tokens": 212,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 212,
+                "prompt_tokens": 1048,
+                "total_tokens": 1260,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 792
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0021548,
+            "accounted_rmb": 0.0021548,
+            "usage_unknown": false,
+            "seconds": 2.0913920402526855,
+            "error": null,
+            "response": {
+              "id": "31d2f490-bd80-4228-b154-6da2432e7ea2",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "ee50f0eeea6884f925fa94365962e4a28ec7d25b196c81c766985e64fa08835c"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04224991425871849,
+        "retrieval": 769.984667073004,
+        "generation": 2095.1288749929518,
+        "total": 2866.512208012864
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.11847304098773748,
+        "rerank_seconds": 0.6514531670836732,
+        "top1_dense_score": 0.6503884196281433,
+        "candidate_ids": [
+          "Get a driver license#1_0::c0007",
+          "Suspensions and revocations#3_0::c0005",
+          "Pay driver responsibility assessment#1_0::c0010",
+          "Suspensions and revocations#3_0::c0001",
+          "About problem driver restrictions#3_0::c0006",
+          "Commercial Driver License Downgrades#3_0::c0000",
+          "Replace license or permit#1_0::c0000",
+          "Tickets received in another state#3_0::c0000",
+          "Suspensions and revocations#3_0::c0000",
+          "How to renew a license#1_0::c0000",
+          "Unsatisfied Judgments#3_0::c0000",
+          "Replace license or permit#1_0::c0010",
+          "Automatic license and registration extension for military personnel#3_0::c0000",
+          "Suspensions and revocations#3_0::c0007",
+          "Get a driver license#1_0::c0008",
+          "Replace license or permit#1_0::c0001",
+          "Transfer ownership and acceptable proofs of ownership#3_0::c0010",
+          "Restore license after revocation#1_0::c0015",
+          "Restore license after revocation#1_0::c0001",
+          "Suspensions and revocations#3_0::c0006"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 28,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.7699682079255581
+      },
+      "raw_citations": [
+        "Restore license after revocation#1_0::c0001",
+        "Tickets received in another state#3_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "c0ec1c7cd9c7d29e39b72ba615d7ea910e1442b8b6851ece504688dedbffaa1f"
+}

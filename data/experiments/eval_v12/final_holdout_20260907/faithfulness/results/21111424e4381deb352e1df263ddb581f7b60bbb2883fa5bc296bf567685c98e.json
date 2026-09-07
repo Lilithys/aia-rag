@@ -1,0 +1,86 @@
+{
+  "payload": {
+    "task_id": "21111424e4381deb352e1df263ddb581f7b60bbb2883fa5bc296bf567685c98e",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "学区可能因以下原因被列为数据不足/缺失：监管调整后的队列毕业率缺失（例如学区合并或新成立）、该数据中少于15名学生、毕业班学生数量出现不可预测的增长、预计毕业生少于10人、完成的FAFSA表格少于五份，或国家教育统计中心LEA代码与州Tiger/Line形状文件中的代码不匹配。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008"
+                ],
+                "reason": "The response lists the exact conditions for a school district being listed as missing/data insufficient, which are directly stated in the retrieved context chunk c0008."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "5eac20e56fc6450ca4ad6149b0d8c141",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2795,
+                "completion_tokens": 180,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 180,
+                  "prompt_tokens": 2795,
+                  "total_tokens": 2975,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2411
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0044456999999999995,
+              "accounted_rmb": 0.0044456999999999995,
+              "usage_unknown": false,
+              "seconds": 1.6598100662231445,
+              "error": null,
+              "response": {
+                "id": "3603c2b4-f334-4ced-b433-95836885e26d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cb0ce580c02a4bc609f306b02b55908471c2ccd6e7494518169109abbc881252"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 1,
+      "supported_external_claims": 1,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "学区可能因以下原因被列为数据不足/缺失：监管调整后的队列毕业率缺失（例如学区合并或新成立）、该数据中少于15名学生、毕业班学生数量出现不可预测的增长、预计毕业生少于10人、完成的FAFSA表格少于五份，或国家教育统计中心LEA代码与州Tiger/Line形状文件中的代码不匹配。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008"
+          ],
+          "reason": "The response lists the exact conditions for a school district being listed as missing/data insufficient, which are directly stated in the retrieved context chunk c0008."
+        }
+      ]
+    }
+  },
+  "sha256": "462e7c87c27dcdee8e3d3bb9bb96975d7c11f2569c4da729cde9d6e77ae12019"
+}

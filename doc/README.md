@@ -1,39 +1,12 @@
-# MultiDoc2Dial Multiformat Multilingual RAG Benchmark v3
+# Documentation
 
-This benchmark contains 91 documents and 100 RAG test questions derived from MultiDoc2Dial.
+- [Design note](DESIGN_NOTE.md): architecture and measured choices, within the required 200–500 words.
+- [Evaluation summary](EVALUATION_SUMMARY.md): final results, costs, sensitivities, failures and limitations.
+- [Validation](VALIDATION.md): corpus/code integrity, tests and reconstruction evidence.
+- [Demo script](DEMO_SCRIPT.md): a seven-minute walkthrough.
+- [Redacted sample logs](sample_logs.jsonl): five examples of the real request contract and failures.
+- [Project history](PROJECT_SUMMARY.md): chronological optimization record, including negative results.
+- [Retrieval review](evaluation/v1/retrieval_review.md): quantitative chunking, embedding and retrieval comparison retained because the frozen retrieval code cites it directly.
+- [Frozen evaluation release](evaluation/v1/releases/v1.1/release_manifest.json): exact 100-dev, 100-holdout and 20-smoke inputs used by the final pipeline. The v1.0 parent is retained because code validates the two v1.1 revisions against it.
 
-## Document formats
-
-- 68 Markdown documents
-- 9 text-layer PDFs
-- 5 image-only scanned PDFs
-- 5 DOCX documents
-- 4 UTF-8 TXT documents
-
-## Languages
-
-Documents: 46 English, 27 Simplified Chinese, and 18 natural Chinese-English mixed documents.
-
-Questions: 50 English, 30 Simplified Chinese, and 20 Chinese-English mixed questions. Gold answers and conversation histories follow the question language. The set includes controlled cross-lingual retrieval cases.
-
-## Retrieval structure
-
-- 75 answerable single-document questions
-- 10 answerable two-document composite questions
-- 15 source-labeled unanswerable questions
-- Six core documents support six questions each
-- Forty pure distractor documents support no selected question
-
-Every question includes two hard, two medium, and two easy negative document IDs. Hard negatives are same-domain documents ranked by lexical TF-IDF similarity; medium negatives are same-domain lower-ranked documents; easy negatives are cross-domain documents.
-
-The final set contains 22 answerable cross-lingual cases under a strict question-versus-required-document language check. Eight of the ten multi-document questions use heterogeneous formats, and eight use heterogeneous document languages.
-
-## Evidence
-
-`test/test.json` contains gold answers, required document metadata, and localized evidence mapped to stable `source_block_id` values. These are evidence-alignment blocks, not retrieval chunks. `manifests/document_manifest.json` maps each source block to page, paragraph, line, or Markdown block locations depending on format.
-
-Scanned PDFs intentionally contain no hidden text layer. Their evidence text remains available only in the gold manifest/test metadata for evaluation.
-
-Source-labeled unanswerable cases and synthetic two-document compound questions should receive human review before use as a formal benchmark.
-
-See `VALIDATION.md` for the automated checks, PDF render review, and DOCX QA limitation.
+The full source corpus is now in [data/corpus](../data/corpus/README.md), with the directory contract in [data/README](../data/README.md). This directory no longer contains the old 91-document subset. Historical reports carry a notice that retired commands are not current run instructions.

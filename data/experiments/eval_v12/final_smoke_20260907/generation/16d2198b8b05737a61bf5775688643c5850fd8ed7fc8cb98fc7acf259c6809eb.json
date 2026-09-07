@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+    "item_sha256": "e6ee01b8319844899c3ae27e8fb3279d59ad3ad78566b06d186febeaa430119b",
+    "result": {
+      "request_id": "325cde38caeb4127b6ab67121d656200",
+      "session_id": "90b1a712d195c5fad9ae2a5366d0ef7f",
+      "turn_id": 1,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "Commercial registration costs vary based on vehicle weight and location. Initial registration generally includes sales tax, plate fee or transfer fee, title certificate fee, vehicle use tax (in most counties), and a 1- or 2-year registration fee. For vehicles under 18,000 lbs, use the commercial fee table; diesel vehicles 8,501 lbs or heavier incur an extra fee. NYC residents and some county residents must also pay vehicle use tax (e.g., NYC passenger cars: $80 for 2 years; livery/bus/taxi: $400 for 1 year plus $50 MCTD for 2 years). For exact amounts, consult the DMV fee tables or estimator.",
+        "citations": [
+          "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+          "Register a vehicle#1_0::c0001"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+          "text": "# 商用车辆注册费、车辆使用税和附加费\n\n### 确定商用车辆的费用\n\n使用注册费和县使用税表来确定您的注册费和县使用税。\n\n如果这是您车辆的原始注册，您必须支付\n\n- 车辆牌照费用（$25.00）\n\n- 您的所有权证书费用 $50.00\n\n- 销售税 1\n\n#### 商用车辆注册费表\n\n表中列出的费用适用于重量低于18,000磅的商用车辆。重量为8,501磅或以上的柴油动力商用车辆需要额外费用。2 如果您将一辆车的车辆牌照转移到另一辆车，则不能使用此表计算费用。\n\n### 县使用税和附加费\n\n纽约市居民和纽约州几个县的居民在注册商用车辆或续签商用车辆注册时必须支付车辆使用税。DMV 代城市和县收取税款。阅读下表以确定您是否必须支付车辆使用税。如果您对这些税有疑问，请咨询您居住或经营业务的市或县。\n\n如果您居住在纽约市以外，并且您所在县或经营业务所在县的车辆使用税豁免，请填写表格 UT-11C。如果您居住在纽约市并且豁免 NYC 车辆使用税，请从当地 DMV 办公室 [1] 或 DMV 呼叫中心 [2] 获取表格 UT-11。\n\n#### 纽约市布朗克斯区、国王区（布鲁克林）、纽约区（曼哈顿）、皇后区、里士满区（史泰登岛）\n\n所有乘用车原始注册和续签\n\n车辆使用税 - 2年 $80（$40/年） 以下注册类别的礼车和出租车辆 - 1年 $400 3 - 礼车 (OML) - 巴士 (OMR) - 出租车 (OMT) 附加 MCTD 费用 - 两年 $50（每年 $25）\n\n注意：纽约市出租车和豪华轿车委员会监管所有“TC”车辆牌照。所有“TC”车辆牌照的注册人必须支付车辆使用税。\n\n#### 纽约市以外县的县使用税表\n\n该表显示了所有原始注册和续签的使用税和附加费。\n\n- 1. 销售税金额取决于购买价格和您所在的地区。您可以在税务和财政局网站上查看当前按司法管辖区划分的销售税率 [3]。\n\n- 2. 要确定正确的费用，请将表中列出的费用增加3.25%，并将结果调整为最接近的 $0.25。几个注册类别免收额外费用。这些类别包括农业 (AGR)、救护车 (AMB)、农场 (FAR)、历史 (HIS)、房车 (HOU)、半挂车 (SEM)、特殊用途商用 (SPC) 和拖车 (TRL)。\n\n- 3. 此税适用于牌照号码配置为“TnnnnnC”或“TnnnnnnC”的奖章出租车。此税不包括牌照号码配置为“TnnnnnT”、“TnnnnnnT”、“nana”、“nanna”、“nnnSBVa”和“nnnSBVan”的奖章出租车。（n=数字，a=字母）。"
+        },
+        {
+          "chunk_id": "NYS Adventure License and Adventure Custom Plates#3_0::c0000",
+          "text": "# NYS Adventure License 与 Adventure Custom Plates\n\n[1]\n\n### NYS Adventure Custom Plates\n\nI LOVE NY Adventure Custom Plates（可在此处查看 [2]）适用于持有当前有效的 NYS Department of Environmental Conservation (DEC) 颁发的 Sporting License 和/或 NYS Office of Parks, Recreation and Historic Preservation (Parks) 颁发的 Empire Passport 的个人。这些精美的车牌适用于 passenger、commercial 和 motorcycle 注册类别，让您自豪地展示对户外活动的热爱。\n\n#### Adventure Custom Plates 的费用是多少？\n\n* 每次续期所注明的费用是 $15 的年度 I LOVE NY 费用加上个性化费用（如适用），不包括每次续期时应缴的常规注册续期费。由于 $15 的 I LOVE NY 费用是年度费用，如果您的注册每两年续期一次（passenger 和 commercial 类别），续期时费用为 $30。Motorcycle 类别每年续期一次；因此每次续期需缴纳 $15 的 I LOVE NY 费用。\n\n如果您在 2014 年购买了 NYS Parks 颁发的 LIFETIME Empire Passport 或 DEC 颁发的 LIFETIME Sporting License，则上述费用（个性化费用除外，如适用）在首次购买车牌和首次续期时免除。个性化费用为 passenger 和 commercial 注册类别 $31.25，motorcycle 注册类别 $18.75。\n\n要为 passenger 或 commercial 注册类别的车辆获取 I LOVE NY Adventure Custom Plates，您可以在线订购，请访问 I LOVE NY Adventure Custom Plates Gallery [2]，或通过填写 Application for Custom Plates [3] (CP-30) 并邮寄至 Custom Plates Unit at NYS Department of Motor Vehicles, Custom Plates Unit, P.O. Box 2775, Albany, NY 12220 进行邮寄订购。要为 motorcycle 注册类别获取 I LOVE NY Adventure Custom Plates，您必须通过邮寄订购，无法在线订购。申请表必须附上您的 driver license 副本以及 sporting license 或 Empire Passport 的副本。\n\nAdventure Custom Plates 无法在 DMV 办公室订购。\n\n### NYS Adventure License\n\nDMV 与 NYS Department of Environmental Conservation (DEC) 和 Office of Parks, Recreation and Historic Preservation (Parks) 合作，为购买 DEC 颁发的 Lifetime Sporting Licenses 和 Parks 颁发的 Lifetime Empire Passports 及 Boating Safety Certificates 的购买者提供一项新的便捷服务。自 2014 年 2 月 3 日起，您的 driver license、permit 或 non-driver ID 可以显示您拥有这些新的 NYS Adventure Licenses 之一的证明。\n\n终身休闲许可证图标将显示在 DMV 照片文件上，如下所示：\n\n图标说明：\n\n有关购买 NYS Adventure License 的更多信息，请访问 NYS 网站 [1]。\n\n### 如何利用这项便捷的新服务？\n\n- 新的终身休闲许可证购买者以及完成 boating safety course 的人员，可以在购买终身 sporting license [4] 或完成 boating safety certification [5] 培训时，选择将图标添加到他们的 NYS Driver license 和 non-driver ID 上。（提醒：自 2014 年 5 月 1 日起，所有在 1996 年 5 月 1 日或之后出生的人，现在必须成功完成经批准的 boater education 课程才能操作 motorboat。更多信息，请访问 NYS PARKS 网站 [6]）。\n- 您可以选择立即获取带有图标的新 DMV 照片文件，费用为 $12.50（non-driver ID 持有者为 $5.00），或等到下次 license renewal 时免费获取。\n- 购买 Lifetime Empire Passport [7] 的人将自动免费获得新的 license。\n\n### 如果我已经拥有终身 sporting license 或 safe boating certificate 怎么办？\n\n您可以通过两种方式请求将图标添加到您的 DMV 照片文件：在线使用 NYS 网站 [1] 上的 Online Sporting License System，或前往 NYS Department of Motor Vehicles 办公室并出示所需证明。访问 DMV 办公室时，需支付 $12.50（non-driver ID 持有者为 $5.00）的新文件费，除非您在访问期间续期您的照片文件。\n\n有关更多信息，请参阅 NYS Adventure License 常见问题解答 [8]。"
+        },
+        {
+          "chunk_id": "ATVs: Information for Owners and Operators#3_0::c0004",
+          "text": "[ATVs: Information for Owners and Operators > FEES]\nThe ATV registration and registration renewal fee is $12.50 per year it is not prorated by month. You also must pay a $12.50 license plate fee when you first register your ATV. You will be issued a plate, a registration sticker and an attached registration document. The plate must be attached to the rear of the ATV, and the sticker should be placed at the right side of the plate. You should carry the registration document when operating your ATV."
+        },
+        {
+          "chunk_id": "Register a vehicle#1_0::c0001",
+          "text": "[注册车辆 > 费用]\n费用取决于车辆重量和您居住的地点。首次注册费用通常包括\n\n- 销售税\n\n- 车牌费或注册转移费\n\n- title certificate费\n\n- （在大多数县）车辆使用税\n\n- 1年或2年的注册费，具体取决于注册类型\n\n您可以估算需要支付的注册费用。"
+        },
+        {
+          "chunk_id": "Learn about personalized plates#3_0::c0000",
+          "text": "# Learn about personalized plates\n\n## What are personalized plates?\n\nPersonalized plates are standard series plates that have a combination of numbers and letters that you select, for an additional fee in addition to your regular vehicle registration fee. 1\n\n## How much do personalized plates cost?\n\n## Passenger and Commercial Plates: Initial Cost = $60.00Annual Fee = $31.25\n\nMotorcycle Plates:Initial Cost = $35.00Annual Fee = $18.75\n\n## Can | use personalized plates on any type of vehicle?\n\nYou can use personalized plates on passenger vehicles, commercial vehicles, motorcycles and trailers.\n\n## What can | use for a personalized plate combination?\n\nYour requested plate combination is subject to review. The DMV is not required to issue your requested plate.\n\nThe maximum number of characters you can use depends on the plate type you are registering. 2 You can have up to\n\n- eight characters on a standard series plate\n\n- six characters on a personalized plate for a motorcycle\n\n- six characters on a picture plate\n\n- the state image is available on some personalized plates and counts as a character. See the example [1]. Check if the personalized plate combination you want is available. [2]\n\n## What plate combinations are restricted?\n\n- Personalized plates that give the appearance of an official plate or the configuration of special registration classes. 3\n\n- Combinations that are considered obscene, derogatory or offensive.\n\n- Combinations that do not have one letter.\n\n- Combinations that consist of six numbers followed by one letter.\n\n- Use of the letter \"O\" between two numbers to make what appears to be a number. 4\n\n- Use of the letter \"I\" as the first or last characters on a plate when the other characters are all numbers. 5\n\n- Use of the number zero (0) between two letters to form a word. 6\n\n- Use of the number zero (0) and the letter \"O\" to form a word or number. 7 Read the DMV regulations for restrictions on personalized plate combinations [3].\n\n# Can picture plates be personalized?\n\nYes. Some picture plates can be personalized for an additional fee in addition to your picture plate and regular registration fee. For personalized plate availability and pricing for the picture plate you are interested in, you can browse our collection of picture plates online. The categories are:\n\n- | Love NY Adventure [4]\n\n- Sports [5]\n\n- Military and Veterans [6]\n\n- Counties and Regions of NY State [7]\n\n- Colleges, Fraternities, Sororities [8]\n\n- Causes [9]\n\n- Professions [10]\n\n- Organizations [11]\n\n- Motorcycle Plates [12]\n\n- 1. The annual fee is in addition to your vehicle registration renewal fee and will be paid when you renew your registration. A registration renewal for two years will include two annual fees.\n\n- 2. Acharacter is a letter (A-Z), number (0-9) or space. Each space counts as one character.\n\n- 3. For example, a combination that includes \"POLICE\" or \"NYS\" is not allowed.\n\n- 4. For example, \"203\", \"2003\", or \"JAN2003\" are not allowed.\n\n- 5. For example, \"145678\" or \"456781\" are not allowed.\n\n- 6. For example, \"POOL\" and \"POLE\" are not allowed.\n\n- 7. For example, \"POOL\" or \"2003\" are not allowed."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+          "text": "# 商用车辆注册费、车辆使用税和附加费\n\n### 确定商用车辆的费用\n\n使用注册费和县使用税表来确定您的注册费和县使用税。\n\n如果这是您车辆的原始注册，您必须支付\n\n- 车辆牌照费用（$25.00）\n\n- 您的所有权证书费用 $50.00\n\n- 销售税 1\n\n#### 商用车辆注册费表\n\n表中列出的费用适用于重量低于18,000磅的商用车辆。重量为8,501磅或以上的柴油动力商用车辆需要额外费用。2 如果您将一辆车的车辆牌照转移到另一辆车，则不能使用此表计算费用。\n\n### 县使用税和附加费\n\n纽约市居民和纽约州几个县的居民在注册商用车辆或续签商用车辆注册时必须支付车辆使用税。DMV 代城市和县收取税款。阅读下表以确定您是否必须支付车辆使用税。如果您对这些税有疑问，请咨询您居住或经营业务的市或县。\n\n如果您居住在纽约市以外，并且您所在县或经营业务所在县的车辆使用税豁免，请填写表格 UT-11C。如果您居住在纽约市并且豁免 NYC 车辆使用税，请从当地 DMV 办公室 [1] 或 DMV 呼叫中心 [2] 获取表格 UT-11。\n\n#### 纽约市布朗克斯区、国王区（布鲁克林）、纽约区（曼哈顿）、皇后区、里士满区（史泰登岛）\n\n所有乘用车原始注册和续签\n\n车辆使用税 - 2年 $80（$40/年） 以下注册类别的礼车和出租车辆 - 1年 $400 3 - 礼车 (OML) - 巴士 (OMR) - 出租车 (OMT) 附加 MCTD 费用 - 两年 $50（每年 $25）\n\n注意：纽约市出租车和豪华轿车委员会监管所有“TC”车辆牌照。所有“TC”车辆牌照的注册人必须支付车辆使用税。\n\n#### 纽约市以外县的县使用税表\n\n该表显示了所有原始注册和续签的使用税和附加费。\n\n- 1. 销售税金额取决于购买价格和您所在的地区。您可以在税务和财政局网站上查看当前按司法管辖区划分的销售税率 [3]。\n\n- 2. 要确定正确的费用，请将表中列出的费用增加3.25%，并将结果调整为最接近的 $0.25。几个注册类别免收额外费用。这些类别包括农业 (AGR)、救护车 (AMB)、农场 (FAR)、历史 (HIS)、房车 (HOU)、半挂车 (SEM)、特殊用途商用 (SPC) 和拖车 (TRL)。\n\n- 3. 此税适用于牌照号码配置为“TnnnnnC”或“TnnnnnnC”的奖章出租车。此税不包括牌照号码配置为“TnnnnnT”、“TnnnnnnT”、“nana”、“nanna”、“nnnSBVa”和“nnnSBVan”的奖章出租车。（n=数字，a=字母）。"
+        },
+        {
+          "chunk_id": "NYS Adventure License and Adventure Custom Plates#3_0::c0000",
+          "text": "# NYS Adventure License 与 Adventure Custom Plates\n\n[1]\n\n### NYS Adventure Custom Plates\n\nI LOVE NY Adventure Custom Plates（可在此处查看 [2]）适用于持有当前有效的 NYS Department of Environmental Conservation (DEC) 颁发的 Sporting License 和/或 NYS Office of Parks, Recreation and Historic Preservation (Parks) 颁发的 Empire Passport 的个人。这些精美的车牌适用于 passenger、commercial 和 motorcycle 注册类别，让您自豪地展示对户外活动的热爱。\n\n#### Adventure Custom Plates 的费用是多少？\n\n* 每次续期所注明的费用是 $15 的年度 I LOVE NY 费用加上个性化费用（如适用），不包括每次续期时应缴的常规注册续期费。由于 $15 的 I LOVE NY 费用是年度费用，如果您的注册每两年续期一次（passenger 和 commercial 类别），续期时费用为 $30。Motorcycle 类别每年续期一次；因此每次续期需缴纳 $15 的 I LOVE NY 费用。\n\n如果您在 2014 年购买了 NYS Parks 颁发的 LIFETIME Empire Passport 或 DEC 颁发的 LIFETIME Sporting License，则上述费用（个性化费用除外，如适用）在首次购买车牌和首次续期时免除。个性化费用为 passenger 和 commercial 注册类别 $31.25，motorcycle 注册类别 $18.75。\n\n要为 passenger 或 commercial 注册类别的车辆获取 I LOVE NY Adventure Custom Plates，您可以在线订购，请访问 I LOVE NY Adventure Custom Plates Gallery [2]，或通过填写 Application for Custom Plates [3] (CP-30) 并邮寄至 Custom Plates Unit at NYS Department of Motor Vehicles, Custom Plates Unit, P.O. Box 2775, Albany, NY 12220 进行邮寄订购。要为 motorcycle 注册类别获取 I LOVE NY Adventure Custom Plates，您必须通过邮寄订购，无法在线订购。申请表必须附上您的 driver license 副本以及 sporting license 或 Empire Passport 的副本。\n\nAdventure Custom Plates 无法在 DMV 办公室订购。\n\n### NYS Adventure License\n\nDMV 与 NYS Department of Environmental Conservation (DEC) 和 Office of Parks, Recreation and Historic Preservation (Parks) 合作，为购买 DEC 颁发的 Lifetime Sporting Licenses 和 Parks 颁发的 Lifetime Empire Passports 及 Boating Safety Certificates 的购买者提供一项新的便捷服务。自 2014 年 2 月 3 日起，您的 driver license、permit 或 non-driver ID 可以显示您拥有这些新的 NYS Adventure Licenses 之一的证明。\n\n终身休闲许可证图标将显示在 DMV 照片文件上，如下所示：\n\n图标说明：\n\n有关购买 NYS Adventure License 的更多信息，请访问 NYS 网站 [1]。\n\n### 如何利用这项便捷的新服务？\n\n- 新的终身休闲许可证购买者以及完成 boating safety course 的人员，可以在购买终身 sporting license [4] 或完成 boating safety certification [5] 培训时，选择将图标添加到他们的 NYS Driver license 和 non-driver ID 上。（提醒：自 2014 年 5 月 1 日起，所有在 1996 年 5 月 1 日或之后出生的人，现在必须成功完成经批准的 boater education 课程才能操作 motorboat。更多信息，请访问 NYS PARKS 网站 [6]）。\n- 您可以选择立即获取带有图标的新 DMV 照片文件，费用为 $12.50（non-driver ID 持有者为 $5.00），或等到下次 license renewal 时免费获取。\n- 购买 Lifetime Empire Passport [7] 的人将自动免费获得新的 license。\n\n### 如果我已经拥有终身 sporting license 或 safe boating certificate 怎么办？\n\n您可以通过两种方式请求将图标添加到您的 DMV 照片文件：在线使用 NYS 网站 [1] 上的 Online Sporting License System，或前往 NYS Department of Motor Vehicles 办公室并出示所需证明。访问 DMV 办公室时，需支付 $12.50（non-driver ID 持有者为 $5.00）的新文件费，除非您在访问期间续期您的照片文件。\n\n有关更多信息，请参阅 NYS Adventure License 常见问题解答 [8]。"
+        },
+        {
+          "chunk_id": "ATVs: Information for Owners and Operators#3_0::c0004",
+          "text": "[ATVs: Information for Owners and Operators > FEES]\nThe ATV registration and registration renewal fee is $12.50 per year it is not prorated by month. You also must pay a $12.50 license plate fee when you first register your ATV. You will be issued a plate, a registration sticker and an attached registration document. The plate must be attached to the rear of the ATV, and the sticker should be placed at the right side of the plate. You should carry the registration document when operating your ATV."
+        },
+        {
+          "chunk_id": "Register a vehicle#1_0::c0001",
+          "text": "[注册车辆 > 费用]\n费用取决于车辆重量和您居住的地点。首次注册费用通常包括\n\n- 销售税\n\n- 车牌费或注册转移费\n\n- title certificate费\n\n- （在大多数县）车辆使用税\n\n- 1年或2年的注册费，具体取决于注册类型\n\n您可以估算需要支付的注册费用。"
+        },
+        {
+          "chunk_id": "Learn about personalized plates#3_0::c0000",
+          "text": "# Learn about personalized plates\n\n## What are personalized plates?\n\nPersonalized plates are standard series plates that have a combination of numbers and letters that you select, for an additional fee in addition to your regular vehicle registration fee. 1\n\n## How much do personalized plates cost?\n\n## Passenger and Commercial Plates: Initial Cost = $60.00Annual Fee = $31.25\n\nMotorcycle Plates:Initial Cost = $35.00Annual Fee = $18.75\n\n## Can | use personalized plates on any type of vehicle?\n\nYou can use personalized plates on passenger vehicles, commercial vehicles, motorcycles and trailers.\n\n## What can | use for a personalized plate combination?\n\nYour requested plate combination is subject to review. The DMV is not required to issue your requested plate.\n\nThe maximum number of characters you can use depends on the plate type you are registering. 2 You can have up to\n\n- eight characters on a standard series plate\n\n- six characters on a personalized plate for a motorcycle\n\n- six characters on a picture plate\n\n- the state image is available on some personalized plates and counts as a character. See the example [1]. Check if the personalized plate combination you want is available. [2]\n\n## What plate combinations are restricted?\n\n- Personalized plates that give the appearance of an official plate or the configuration of special registration classes. 3\n\n- Combinations that are considered obscene, derogatory or offensive.\n\n- Combinations that do not have one letter.\n\n- Combinations that consist of six numbers followed by one letter.\n\n- Use of the letter \"O\" between two numbers to make what appears to be a number. 4\n\n- Use of the letter \"I\" as the first or last characters on a plate when the other characters are all numbers. 5\n\n- Use of the number zero (0) between two letters to form a word. 6\n\n- Use of the number zero (0) and the letter \"O\" to form a word or number. 7 Read the DMV regulations for restrictions on personalized plate combinations [3].\n\n# Can picture plates be personalized?\n\nYes. Some picture plates can be personalized for an additional fee in addition to your picture plate and regular registration fee. For personalized plate availability and pricing for the picture plate you are interested in, you can browse our collection of picture plates online. The categories are:\n\n- | Love NY Adventure [4]\n\n- Sports [5]\n\n- Military and Veterans [6]\n\n- Counties and Regions of NY State [7]\n\n- Colleges, Fraternities, Sororities [8]\n\n- Causes [9]\n\n- Professions [10]\n\n- Organizations [11]\n\n- Motorcycle Plates [12]\n\n- 1. The annual fee is in addition to your vehicle registration renewal fee and will be paid when you renew your registration. A registration renewal for two years will include two annual fees.\n\n- 2. Acharacter is a letter (A-Z), number (0-9) or space. Each space counts as one character.\n\n- 3. For example, a combination that includes \"POLICE\" or \"NYS\" is not allowed.\n\n- 4. For example, \"203\", \"2003\", or \"JAN2003\" are not allowed.\n\n- 5. For example, \"145678\" or \"456781\" are not allowed.\n\n- 6. For example, \"POOL\" and \"POLE\" are not allowed.\n\n- 7. For example, \"POOL\" or \"2003\" are not allowed."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+          "document": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "heading": [],
+          "source_file": "dmv_022.docx",
+          "excerpt": "# 商用车辆注册费、车辆使用税和附加费\n\n### 确定商用车辆的费用\n\n使用注册费和县使用税表来确定您的注册费和县使用税。\n\n如果这是您车辆的原始注册，您必须支付\n\n- 车辆牌照费用（$25.00）\n\n- 您的所有权证书费用 $50.00\n\n- 销售税 1\n\n#### 商用车辆注册费表\n\n表中列出的费用适用于重量低于18,000磅的商用车辆。重量为8,501磅或以上的柴油动力商用车辆需要额外费用。2 如果您将一辆车的车辆牌照转移到另一辆车，则不能使用此表计算费用。\n\n### 县使用税和附加费\n\n纽约市居民和纽约州几个县的居民在注册商用车辆或续签商用车辆注册时必须支付车辆使用税。DMV 代城市和县收取税款。阅读下表以确定您是否必须支付车辆使用税。如果您对这些税有疑问，请咨询您居住或经营业务的市或县。\n\n如果您居住在纽约市以外，并且您所在县或经营业务所在县的车辆使用税豁免，请填写表格 UT-11C。如果您居住在纽约市并且豁免 NYC 车辆使用税，请从当地 DMV 办公室 [1] 或 DMV 呼叫中心 [2] 获取表格 UT-11。\n\n#### 纽约市布朗克斯区、国王区（布鲁克林）、纽约区（曼哈顿）、皇后区、里士满区（史泰登岛）\n\n所有乘用车原始注册和续签\n\n车辆使用税 - 2年 $80（$40/年） 以下注册类别的礼车和出租车辆 - 1年 $400 3 - 礼车 (OML) - 巴士 (OMR) - 出租车 (OMT) 附加 MCTD 费用 - 两年 $50（每年 $25）\n\n注意：纽约市出租车和豪华轿车委员会监管所有“TC”车辆牌照。所有“TC”车辆牌照的注册人必须支付车辆使用税。\n\n#### 纽约市以外县的县使用税表\n\n该表显示了所有原始注册和续签的使用税和附加费。\n\n- 1. 销售税金额取决于购买价格和您所在的地区。您可以在税务和财政局网站上查看当前按司法管辖区划分的销售税率 [3]。\n\n- 2. 要确定正确的费用，请将表中列出的费用增加3.25%，并将结果调整为最接近的 $0.25。几个注册类别免收额外费用。这些类别包括农业 (AGR)、救护车 (AMB)、农场 (FAR)、历史 (HIS)、房车 (HOU)、半挂车 (SEM)、特殊用途商用 (SPC) 和拖车 (TRL)。\n\n- 3. 此税适用于牌照号码配置为“TnnnnnC”或“TnnnnnnC”的奖章出租车。此税不包括牌照号码配置为“TnnnnnT”、“TnnnnnnT”、“nana”、“nanna”、“nnnSBVa”和“nnnSBVan”的奖章出租车。（n=数字，a=字母）。"
+        },
+        {
+          "chunk_id": "Register a vehicle#1_0::c0001",
+          "document": "Register a vehicle#1_0",
+          "heading": [
+            "注册车辆",
+            "费用"
+          ],
+          "source_file": "dmv_107.pdf",
+          "excerpt": "[注册车辆 > 费用]\n费用取决于车辆重量和您居住的地点。首次注册费用通常包括\n\n- 销售税\n\n- 车牌费或注册转移费\n\n- title certificate费\n\n- （在大多数县）车辆使用税\n\n- 1年或2年的注册费，具体取决于注册类型\n\n您可以估算需要支付的注册费用。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "Commercial registration costs vary based on vehicle weight and location. Initial registration generally includes sales tax, plate fee or transfer fee, title certificate fee, vehicle use tax (in most counties), and a 1- or 2-year registration fee. For vehicles under 18,000 lbs, use the commercial fee table; diesel vehicles 8,501 lbs or heavier incur an extra fee. NYC residents and some county residents must also pay vehicle use tax (e.g., NYC passenger cars: $80 for 2 years; livery/bus/taxi: $400 for 1 year plus $50 MCTD for 2 years). For exact amounts, consult the DMV fee tables or estimator.",
+          "citations": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "8a3b47f149404c55adc30339a23523b6",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2896,
+              "completion_tokens": 189,
+              "cached_tokens": 2816,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 189,
+                "prompt_tokens": 2896,
+                "total_tokens": 3085,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 2816,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 2816,
+                "prompt_cache_miss_tokens": 80
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0011113,
+            "accounted_rmb": 0.0011113,
+            "usage_unknown": false,
+            "seconds": 2.9369730949401855,
+            "error": null,
+            "response": {
+              "id": "ef7c3fec-60eb-4349-bb63-3fe8c16e2077",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "e2c9d3b5b652d529f7fb5ee52fd53f9fbf49fae0d2a9775ef614c85b2e2fac35"
+      },
+      "latency_ms": {
+        "queue_wait": 0.05108292680233717,
+        "retrieval": 1240.6265420140699,
+        "generation": 2941.2796669639647,
+        "total": 4183.400957961567
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10745433298870921,
+        "rerank_seconds": 1.1330903749912977,
+        "top1_dense_score": 0.6527131795883179,
+        "candidate_ids": [
+          "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+          "Register a vehicle#1_0::c0001",
+          "Passenger vehicle registration fees, use taxes and supplemental fees#3_0::c0000",
+          "Estimate registration fees and taxes#1_0::c0000",
+          "ATVs: Information for Owners and Operators#3_0::c0004",
+          "Learn about personalized plates#3_0::c0000",
+          "Register a vehicle when you are out-of-state#1_0::c0022",
+          "How to replace a registration#1_0::c0000",
+          "Escort driver certification#1_0::c0004",
+          "Register a vehicle when you are out-of-state#1_0::c0001",
+          "Register a vehicle when you are out-of-state#1_0::c0028",
+          "How to renew a license#1_0::c0005",
+          "Information and Instructions About Your Certificate of Title#3_0::c0003",
+          "DIAL-IN search accounts#3_0::c0000",
+          "Learn about picture and professional plates#3_0::c0000",
+          "NYS Adventure License and Adventure Custom Plates#3_0::c0000",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0008",
+          "Restore license after revocation#1_0::c0011",
+          "Sharing your information#3_0::c0000",
+          "Register a snowmobile#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 42,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.2405910000670701
+      },
+      "raw_citations": [
+        "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+        "Register a vehicle#1_0::c0001"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "008896f043810762c2896c417577dd04ea1f12cc18e82853855f03424ee68d2f"
+}

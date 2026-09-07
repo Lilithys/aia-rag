@@ -1,0 +1,44 @@
+{
+  "windowed_rerank_k10_vs_dense_k10": {
+    "n": 70,
+    "baseline_correct_evidence_hits": 46,
+    "candidate_correct_evidence_hits": 53,
+    "gained": 9,
+    "lost": 2,
+    "delta": 0.1,
+    "paired_bootstrap_95_interval": [
+      0.014285714285714285,
+      0.18571428571428572
+    ]
+  },
+  "windowed_rerank_k5_vs_dense_k10": {
+    "n": 70,
+    "baseline_correct_evidence_hits": 46,
+    "candidate_correct_evidence_hits": 45,
+    "gained": 4,
+    "lost": 5,
+    "delta": -0.014285714285714285,
+    "paired_bootstrap_95_interval": [
+      -0.1,
+      0.07142857142857142
+    ]
+  },
+  "windowed_rerank_6000_vs_dense_6000": {
+    "n": 70,
+    "baseline_correct_evidence_hits": 46,
+    "candidate_correct_evidence_hits": 52,
+    "gained": 6,
+    "lost": 0,
+    "delta": 0.08571428571428572,
+    "paired_bootstrap_95_interval": [
+      0.02857142857142857,
+      0.15714285714285714
+    ]
+  },
+  "method": {
+    "seed": 20260906,
+    "bootstrap_draws": 20000,
+    "unit": "paired target item, one target per dialogue",
+    "caveat": "Exploratory dev intervals; shared-source-document dependence and multiple configuration selection are not adjusted."
+  }
+}

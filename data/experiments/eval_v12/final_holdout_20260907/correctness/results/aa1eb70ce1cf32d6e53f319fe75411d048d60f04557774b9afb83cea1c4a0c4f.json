@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "aa1eb70ce1cf32d6e53f319fe75411d048d60f04557774b9afb83cea1c4a0c4f",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If violation points in any 18-month period add up to 11 or more, license may be revoked or suspended following a hearing.",
+                "coverage": "covered",
+                "response_quote": "If your violation points in any 18-month period add up to 11 or more, your license may be revoked or suspended following a hearing.",
+                "reason": "The response accurately conveys the condition and consequence from the source."
+              }
+            ],
+            "reason": "The response directly answers the question with the correct condition and outcome, supported by the retrieved document."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "552fd3d24ab24881a0a8ec49f0ae8834",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3897,
+                "completion_tokens": 148,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 148,
+                  "prompt_tokens": 3897,
+                  "total_tokens": 4045,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3001
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0052123000000000004,
+              "accounted_rmb": 0.0052123000000000004,
+              "usage_unknown": false,
+              "seconds": 1.636747121810913,
+              "error": null,
+              "response": {
+                "id": "31696512-2e1f-499d-889c-61d612a67251",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "24fe93ab272eff5071e28ddff38c2f8bffc3c77eea298056b5a2caed6bf52fae"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If violation points in any 18-month period add up to 11 or more, license may be revoked or suspended following a hearing.",
+            "coverage": "covered",
+            "response_quote": "If your violation points in any 18-month period add up to 11 or more, your license may be revoked or suspended following a hearing.",
+            "reason": "The response accurately conveys the condition and consequence from the source."
+          }
+        ],
+        "reason": "The response directly answers the question with the correct condition and outcome, supported by the retrieved document."
+      }
+    }
+  },
+  "sha256": "f80827901f3a606f2d1808dd6a29e47112d42f5d0d353e3799874018b5a92a6a"
+}

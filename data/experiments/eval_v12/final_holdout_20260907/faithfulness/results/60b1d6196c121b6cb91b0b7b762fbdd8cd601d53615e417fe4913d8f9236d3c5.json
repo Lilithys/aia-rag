@@ -1,0 +1,192 @@
+{
+  "payload": {
+    "task_id": "60b1d6196c121b6cb91b0b7b762fbdd8cd601d53615e417fe4913d8f9236d3c5",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Yes, you may be eligible for a refund of the registration fee for the unused portion of your registration, but only under specific conditions.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Refunds and transfer credits for surrendered plates#3_0::c0000"
+                ],
+                "reason": "The context states that when you surrender plates, you may be eligible for a refund of the registration fee for the unused portion, subject to conditions."
+              },
+              {
+                "text": "According to the DMV, you can apply for a full two-year refund only if the registration was never used and you apply within 60 days of the registration issue date.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Refunds and transfer credits for surrendered plates#3_0::c0000"
+                ],
+                "reason": "The context explicitly states: 'Only if the registration was never used and no more than 60 days from the date of registration issuance can you apply for a refund of the two-year registration fee.'"
+              },
+              {
+                "text": "The registration label cannot be used—if it has been attached to your windshield or plate, you cannot remove it and apply for a refund.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Refunds and transfer credits for surrendered plates#3_0::c0000"
+                ],
+                "reason": "The context states: 'The registration label cannot be used. If the label has been attached to the windshield or plate, you cannot remove the label and apply for a full refund.'"
+              },
+              {
+                "text": "To request this refund, you must surrender your plates and the unused registration label and stub at a DMV office and request a 'two-year refund.'",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Refunds and transfer credits for surrendered plates#3_0::c0000"
+                ],
+                "reason": "The context states: 'To apply for a full two-year refund, you must surrender the plates and the unused registration label and stub at a DMV office and request a two-year refund.'"
+              },
+              {
+                "text": "A $1 processing fee will be deducted.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Refunds and transfer credits for surrendered plates#3_0::c0000"
+                ],
+                "reason": "The context states: 'A $1 processing fee will be deducted from the refund amount.'"
+              },
+              {
+                "text": "If you have already used part of the registration (e.g., the first year), you may be eligible for a refund of the second year's fee if you surrender the plates and meet the conditions described in the 'Refunds and transfer credits for surrendered plates' section.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Refunds and transfer credits for surrendered plates#3_0::c0000"
+                ],
+                "reason": "The context provides an example where surrendering plates in the first year makes you eligible for a refund of the second year's fee, subject to conditions."
+              },
+              {
+                "text": "For full details, refer to the DMV's refund policy.",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a directive to refer to the policy, not a factual assertion."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "12b3c51771ab4222b322740874493652",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5581,
+                "completion_tokens": 784,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 784,
+                  "prompt_tokens": 5581,
+                  "total_tokens": 6365,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 5197
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0113427,
+              "accounted_rmb": 0.0113427,
+              "usage_unknown": false,
+              "seconds": 4.277079820632935,
+              "error": null,
+              "response": {
+                "id": "c849197a-eb50-49e1-9878-aee516950592",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3ac3d45ee7feb82df331fcfcb3588568a0037813b12efc19c0b45862cc5675e2"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 6,
+      "supported_external_claims": 6,
+      "excluded_units_by_scope": {
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Yes, you may be eligible for a refund of the registration fee for the unused portion of your registration, but only under specific conditions.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "reason": "The context states that when you surrender plates, you may be eligible for a refund of the registration fee for the unused portion, subject to conditions."
+        },
+        {
+          "text": "According to the DMV, you can apply for a full two-year refund only if the registration was never used and you apply within 60 days of the registration issue date.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "reason": "The context explicitly states: 'Only if the registration was never used and no more than 60 days from the date of registration issuance can you apply for a refund of the two-year registration fee.'"
+        },
+        {
+          "text": "The registration label cannot be used—if it has been attached to your windshield or plate, you cannot remove it and apply for a refund.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "reason": "The context states: 'The registration label cannot be used. If the label has been attached to the windshield or plate, you cannot remove the label and apply for a full refund.'"
+        },
+        {
+          "text": "To request this refund, you must surrender your plates and the unused registration label and stub at a DMV office and request a 'two-year refund.'",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "reason": "The context states: 'To apply for a full two-year refund, you must surrender the plates and the unused registration label and stub at a DMV office and request a two-year refund.'"
+        },
+        {
+          "text": "A $1 processing fee will be deducted.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "reason": "The context states: 'A $1 processing fee will be deducted from the refund amount.'"
+        },
+        {
+          "text": "If you have already used part of the registration (e.g., the first year), you may be eligible for a refund of the second year's fee if you surrender the plates and meet the conditions described in the 'Refunds and transfer credits for surrendered plates' section.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "reason": "The context provides an example where surrendering plates in the first year makes you eligible for a refund of the second year's fee, subject to conditions."
+        },
+        {
+          "text": "For full details, refer to the DMV's refund policy.",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a directive to refer to the policy, not a factual assertion."
+        }
+      ]
+    }
+  },
+  "sha256": "131bdaae39b908aac001aba82efcc19699b02bec9d903cdbbaf79d88b2523652"
+}

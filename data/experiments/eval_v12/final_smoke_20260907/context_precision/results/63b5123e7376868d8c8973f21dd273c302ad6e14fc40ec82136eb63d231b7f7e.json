@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "63b5123e7376868d8c8973f21dd273c302ad6e14fc40ec82136eb63d231b7f7e",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.7499999999625,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about commercial vehicle registration fees, including tables and additional costs, which directly addresses the question about the cost of commercial registration. The answer correctly summarizes that the cost is not fixed and depends on various factors as described in the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f70293a8abbc4a9aaae9ca10c148de06",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1632,
+                "completion_tokens": 65,
+                "cached_tokens": 1536,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 1632,
+                  "total_tokens": 1697,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1536,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1536,
+                  "prompt_cache_miss_tokens": 96
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005133,
+              "accounted_rmb": 0.0005133,
+              "usage_unknown": false,
+              "seconds": 1.6401679515838623,
+              "error": null,
+              "response": {
+                "id": "6f01b7ee-7b7d-4e1c-b950-da243b1f08f9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b2b3d0028664704f97ea9caa627ac975ba47f5c5419245181c64be7712768702"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses NYS Adventure License and Adventure Custom Plates, including fees for custom plates, but does not provide information about the cost of commercial registration. The answer mentions using registration-fee and county-use-tax tables, which is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "57568611e36f497ca69d62e28c29371f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1908,
+                "completion_tokens": 67,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 67,
+                  "prompt_tokens": 1908,
+                  "total_tokens": 1975,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 116
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005651,
+              "accounted_rmb": 0.0005651,
+              "usage_unknown": false,
+              "seconds": 1.1473231315612793,
+              "error": null,
+              "response": {
+                "id": "a3ac3777-6bf9-44dd-a2f9-aee0aac11df6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "423616398520391a506b8ebd04aff6a15f12d5fbbc98138131eb3f7366f32b5f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses ATV registration fees, not commercial registration, so it is not useful for answering the question.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c1a2a182a26a44d582d4f537734edc57",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1047,
+                "completion_tokens": 37,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 37,
+                  "prompt_tokens": 1047,
+                  "total_tokens": 1084,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 23
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0002522,
+              "accounted_rmb": 0.0002522,
+              "usage_unknown": false,
+              "seconds": 1.1832079887390137,
+              "error": null,
+              "response": {
+                "id": "d52cab3c-f91f-4993-a850-a9f14d94d3c4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a712e013dfb0a67f96b3d9b0e1cbe33664d3841325370ba1c494b9be3754c46d"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about vehicle registration fees, including sales tax, license plate fees, title certificate fees, vehicle use tax, and registration fees, and mentions that the cost depends on vehicle weight and location. The answer states that commercial-registration cost is not fixed and refers to using registration-fee and county-use-tax tables, which aligns with the context's guidance on estimating fees. Thus, the context is useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e41ee936374e4659a273ff01a27f525c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1015,
+                "completion_tokens": 98,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 98,
+                  "prompt_tokens": 1015,
+                  "total_tokens": 1113,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 119
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006642999999999999,
+              "accounted_rmb": 0.0006642999999999999,
+              "usage_unknown": false,
+              "seconds": 1.3922350406646729,
+              "error": null,
+              "response": {
+                "id": "7b05a29e-0d7e-4466-9268-a7ac0fa3c2f9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c6c056d9cfd235e9154cd5f1c34c0997010046e011ab14c084a0ba0af6aa2fd9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses personalized plates and their costs, not commercial registration fees. The answer correctly states that commercial registration cost is not a single fixed amount and refers to registration-fee and county-use-tax tables, which are not mentioned in the context. Therefore, the context was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "30b87495e8c448e194939be2bf97516d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1724,
+                "completion_tokens": 76,
+                "cached_tokens": 1664,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 76,
+                  "prompt_tokens": 1724,
+                  "total_tokens": 1800,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1664,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1664,
+                  "prompt_cache_miss_tokens": 60
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005152000000000001,
+              "accounted_rmb": 0.0005152000000000001,
+              "usage_unknown": false,
+              "seconds": 1.22517728805542,
+              "error": null,
+              "response": {
+                "id": "daf9031f-7733-4151-a061-21d699061caa",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e15194f46c0f5a4bb3d15ef31bed64245c9bd11e9e9c788de88bf74442ad5935"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "834fcb7bc55ac3011f6bdee690c0ea85f0c8635fc70e928b77c3376d1200e34a"
+}

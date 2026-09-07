@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "0bcff01b550df17041ee25b5be1c17936654ac6b3ac73e1808ec5864315ee61e",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "Provide locations for more information about MST, including brochures, video, mental-health resources, Make the Connection, and DoD Safe Helpline.",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response mentions the brochure and Make the Connection, but omits the video, mental-health resources, and DoD Safe Helpline, which are essential reference facts."
+              }
+            ],
+            "reason": "The answer is incomplete as it does not list all the information sources specified in the reference, such as the video, mental-health resources, and Safe Helpline."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "93d49533285d4232bfb34e78619426a1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4473,
+                "completion_tokens": 155,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 155,
+                  "prompt_tokens": 4473,
+                  "total_tokens": 4628,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3577
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0061078,
+              "accounted_rmb": 0.0061078,
+              "usage_unknown": false,
+              "seconds": 1.7900447845458984,
+              "error": null,
+              "response": {
+                "id": "299984fc-f959-475f-b716-c45db985ea3d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a449c1268b366f954f8d38496bb69a21a7e4e415cbd8380152638fa435301d6e"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "Provide locations for more information about MST, including brochures, video, mental-health resources, Make the Connection, and DoD Safe Helpline.",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response mentions the brochure and Make the Connection, but omits the video, mental-health resources, and DoD Safe Helpline, which are essential reference facts."
+          }
+        ],
+        "reason": "The answer is incomplete as it does not list all the information sources specified in the reference, such as the video, mental-health resources, and Safe Helpline."
+      }
+    }
+  },
+  "sha256": "08268ff813f032daa077f7adcd34d5438afc83dd1d75249de6888e5eac21565b"
+}

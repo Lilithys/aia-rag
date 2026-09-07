@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "1b83242449f2a4a7826ef0494fecf99fd5422e61da4b3bf740c9a532f6311a5c",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "special rules (work incentives) help keep cash benefits while testing ability to work",
+                "coverage": "covered",
+                "response_quote": "有特殊规则（称为“工作激励”）帮助您在测试工作能力时保留现金福利和Medicare",
+                "reason": "Response explicitly mentions special rules/work incentives for retaining cash benefits while testing work ability."
+              }
+            ],
+            "reason": "The response correctly answers the question by identifying work incentives that allow retaining cash benefits, supported by the retrieved context. Additional details about reporting and substantial gainful activity thresholds are grounded in the source document."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "6518a37dac1e44b998e634e76ad4f7af",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2449,
+                "completion_tokens": 154,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 154,
+                  "prompt_tokens": 2449,
+                  "total_tokens": 2603,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1553
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0030673000000000002,
+              "accounted_rmb": 0.0030673000000000002,
+              "usage_unknown": false,
+              "seconds": 1.7627198696136475,
+              "error": null,
+              "response": {
+                "id": "a30eceaa-c137-45ac-aca5-88fbf6e2aae6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "aa9faa7aa45022854ac0fed8502146cd43a14ce6cf8d04cbeb4a0ded34d7fa84"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "special rules (work incentives) help keep cash benefits while testing ability to work",
+            "coverage": "covered",
+            "response_quote": "有特殊规则（称为“工作激励”）帮助您在测试工作能力时保留现金福利和Medicare",
+            "reason": "Response explicitly mentions special rules/work incentives for retaining cash benefits while testing work ability."
+          }
+        ],
+        "reason": "The response correctly answers the question by identifying work incentives that allow retaining cash benefits, supported by the retrieved context. Additional details about reporting and substantial gainful activity thresholds are grounded in the source document."
+      }
+    }
+  },
+  "sha256": "4bb01ef0c60125759f8937208c02bba91c78fe000e47a0ef06bb31c8236c9ab3"
+}

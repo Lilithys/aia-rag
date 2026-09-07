@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "error_count": 0,
+  "errors": [],
+  "validated_counts": {
+    "documents": 488,
+    "dialogues": 661,
+    "turns": 8938,
+    "eval_items": 4335,
+    "source_blocks": 16871,
+    "rendered_pdf_pages": 212
+  },
+  "format_distribution": {
+    "pdf_text": 49,
+    "markdown": 366,
+    "txt": 24,
+    "pdf_scanned": 24,
+    "docx": 25
+  },
+  "document_language_distribution": {
+    "en": 244,
+    "mixed": 98,
+    "zh": 146
+  },
+  "dialogue_language_distribution": {
+    "en": 331,
+    "zh": 198,
+    "mixed": 132
+  }
+}

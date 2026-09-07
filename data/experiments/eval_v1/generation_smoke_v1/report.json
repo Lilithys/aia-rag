@@ -1,0 +1,3323 @@
+{
+  "scope": "fixed smoke; custom uncalibrated LLM proxies; not final RAGAS or holdout acceptance",
+  "summaries": {
+    "baseline_dense_k10": {
+      "overall": {
+        "n": 20,
+        "correct": 12,
+        "unknown_correctness": 0,
+        "correctness_bounds": [
+          0.6,
+          0.6
+        ],
+        "correctness_wilson_95_if_complete": [
+          0.3865815007622531,
+          0.781193467627183
+        ],
+        "generation_status_counts": {
+          "ok": 19,
+          "failed": 1
+        },
+        "success_and_live_under_10_seconds": 19,
+        "success_and_live_under_10_fraction_all_planned": 0.95,
+        "successful_live_latency_n": 19,
+        "live_latency_p50_seconds": 2.2228681669803336,
+        "live_latency_p90_seconds": 2.58624699995853,
+        "claim_bearing_scored_n": 17,
+        "faithfulness_mean_scored_claim_bearing": 1.0,
+        "no_factual_claims_n": 1,
+        "faithfulness_judge_missing_n": 2,
+        "invalid_citation_response_n": 0,
+        "citation_emitting_response_n": 18,
+        "citation_supported_claims": 84,
+        "total_scored_claims": 85,
+        "incorrect_refusal_n": 1,
+        "incorrect_refusal_case_response_n": 0
+      },
+      "by_label": {
+        "answer": {
+          "n": 14,
+          "correct": 10,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            0.7142857142857143,
+            0.7142857142857143
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.4535091567010681,
+            0.8827862135542308
+          ],
+          "generation_status_counts": {
+            "ok": 14
+          },
+          "success_and_live_under_10_seconds": 14,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 14,
+          "live_latency_p50_seconds": 2.2353603544761427,
+          "live_latency_p90_seconds": 2.6238432499696502,
+          "claim_bearing_scored_n": 13,
+          "faithfulness_mean_scored_claim_bearing": 1.0,
+          "no_factual_claims_n": 0,
+          "faithfulness_judge_missing_n": 1,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 14,
+          "citation_supported_claims": 66,
+          "total_scored_claims": 66,
+          "incorrect_refusal_n": 1,
+          "incorrect_refusal_case_response_n": 0
+        },
+        "clarify": {
+          "n": 4,
+          "correct": 0,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            0.0,
+            0.0
+          ],
+          "correctness_wilson_95_if_complete": [
+            0,
+            0.4898908364545973
+          ],
+          "generation_status_counts": {
+            "ok": 3,
+            "failed": 1
+          },
+          "success_and_live_under_10_seconds": 3,
+          "success_and_live_under_10_fraction_all_planned": 0.75,
+          "successful_live_latency_n": 3,
+          "live_latency_p50_seconds": 2.3733012919547036,
+          "live_latency_p90_seconds": 2.526483558421023,
+          "claim_bearing_scored_n": 3,
+          "faithfulness_mean_scored_claim_bearing": 1.0,
+          "no_factual_claims_n": 0,
+          "faithfulness_judge_missing_n": 1,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 3,
+          "citation_supported_claims": 15,
+          "total_scored_claims": 16,
+          "incorrect_refusal_n": 0,
+          "incorrect_refusal_case_response_n": 0
+        },
+        "refuse": {
+          "n": 2,
+          "correct": 2,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            1.0,
+            1.0
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.34238022750665303,
+            1
+          ],
+          "generation_status_counts": {
+            "ok": 2
+          },
+          "success_and_live_under_10_seconds": 2,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 2,
+          "live_latency_p50_seconds": 1.0289306250633672,
+          "live_latency_p90_seconds": 1.754597325087525,
+          "claim_bearing_scored_n": 1,
+          "faithfulness_mean_scored_claim_bearing": 1.0,
+          "no_factual_claims_n": 1,
+          "faithfulness_judge_missing_n": 0,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 1,
+          "citation_supported_claims": 3,
+          "total_scored_claims": 3,
+          "incorrect_refusal_n": 0,
+          "incorrect_refusal_case_response_n": 0
+        }
+      }
+    },
+    "rerank_truncated_k10": {
+      "overall": {
+        "n": 20,
+        "correct": 13,
+        "unknown_correctness": 0,
+        "correctness_bounds": [
+          0.65,
+          0.65
+        ],
+        "correctness_wilson_95_if_complete": [
+          0.43285427668523624,
+          0.818808175898918
+        ],
+        "generation_status_counts": {
+          "ok": 20
+        },
+        "success_and_live_under_10_seconds": 20,
+        "success_and_live_under_10_fraction_all_planned": 1.0,
+        "successful_live_latency_n": 20,
+        "live_latency_p50_seconds": 2.8703883124981076,
+        "live_latency_p90_seconds": 4.310319241660182,
+        "claim_bearing_scored_n": 19,
+        "faithfulness_mean_scored_claim_bearing": 0.9385338345864662,
+        "no_factual_claims_n": 1,
+        "faithfulness_judge_missing_n": 0,
+        "invalid_citation_response_n": 0,
+        "citation_emitting_response_n": 19,
+        "citation_supported_claims": 117,
+        "total_scored_claims": 125,
+        "incorrect_refusal_n": 1,
+        "incorrect_refusal_case_response_n": 0
+      },
+      "by_label": {
+        "answer": {
+          "n": 14,
+          "correct": 10,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            0.7142857142857143,
+            0.7142857142857143
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.4535091567010681,
+            0.8827862135542308
+          ],
+          "generation_status_counts": {
+            "ok": 14
+          },
+          "success_and_live_under_10_seconds": 14,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 14,
+          "live_latency_p50_seconds": 2.8703883124981076,
+          "live_latency_p90_seconds": 3.7972493250388655,
+          "claim_bearing_scored_n": 14,
+          "faithfulness_mean_scored_claim_bearing": 0.9612244897959183,
+          "no_factual_claims_n": 0,
+          "faithfulness_judge_missing_n": 0,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 14,
+          "citation_supported_claims": 82,
+          "total_scored_claims": 88,
+          "incorrect_refusal_n": 1,
+          "incorrect_refusal_case_response_n": 0
+        },
+        "clarify": {
+          "n": 4,
+          "correct": 1,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            0.25,
+            0.25
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.04558726080970055,
+            0.6993581574175981
+          ],
+          "generation_status_counts": {
+            "ok": 4
+          },
+          "success_and_live_under_10_seconds": 4,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 4,
+          "live_latency_p50_seconds": 3.92635706247529,
+          "live_latency_p90_seconds": 4.605349708104041,
+          "claim_bearing_scored_n": 4,
+          "faithfulness_mean_scored_claim_bearing": 0.96875,
+          "no_factual_claims_n": 0,
+          "faithfulness_judge_missing_n": 0,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 4,
+          "citation_supported_claims": 34,
+          "total_scored_claims": 35,
+          "incorrect_refusal_n": 0,
+          "incorrect_refusal_case_response_n": 0
+        },
+        "refuse": {
+          "n": 2,
+          "correct": 2,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            1.0,
+            1.0
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.34238022750665303,
+            1
+          ],
+          "generation_status_counts": {
+            "ok": 2
+          },
+          "success_and_live_under_10_seconds": 2,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 2,
+          "live_latency_p50_seconds": 1.3837234170059673,
+          "live_latency_p90_seconds": 1.920005583425518,
+          "claim_bearing_scored_n": 1,
+          "faithfulness_mean_scored_claim_bearing": 0.5,
+          "no_factual_claims_n": 1,
+          "faithfulness_judge_missing_n": 0,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 1,
+          "citation_supported_claims": 1,
+          "total_scored_claims": 2,
+          "incorrect_refusal_n": 0,
+          "incorrect_refusal_case_response_n": 0
+        }
+      }
+    },
+    "rerank_windowed_k5": {
+      "overall": {
+        "n": 20,
+        "correct": 15,
+        "unknown_correctness": 0,
+        "correctness_bounds": [
+          0.75,
+          0.75
+        ],
+        "correctness_wilson_95_if_complete": [
+          0.531299122381256,
+          0.8881382985923343
+        ],
+        "generation_status_counts": {
+          "ok": 19,
+          "failed": 1
+        },
+        "success_and_live_under_10_seconds": 19,
+        "success_and_live_under_10_fraction_all_planned": 0.95,
+        "successful_live_latency_n": 19,
+        "live_latency_p50_seconds": 2.966961541911587,
+        "live_latency_p90_seconds": 3.9739053001161664,
+        "claim_bearing_scored_n": 18,
+        "faithfulness_mean_scored_claim_bearing": 0.9373015873015873,
+        "no_factual_claims_n": 1,
+        "faithfulness_judge_missing_n": 1,
+        "invalid_citation_response_n": 0,
+        "citation_emitting_response_n": 18,
+        "citation_supported_claims": 94,
+        "total_scored_claims": 103,
+        "incorrect_refusal_n": 1,
+        "incorrect_refusal_case_response_n": 0
+      },
+      "by_label": {
+        "answer": {
+          "n": 14,
+          "correct": 12,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            0.8571428571428571,
+            0.8571428571428571
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.6005862050302965,
+            0.9599060787285351
+          ],
+          "generation_status_counts": {
+            "ok": 14
+          },
+          "success_and_live_under_10_seconds": 14,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 14,
+          "live_latency_p50_seconds": 3.0147210834547877,
+          "live_latency_p90_seconds": 4.102562508173287,
+          "claim_bearing_scored_n": 14,
+          "faithfulness_mean_scored_claim_bearing": 0.945578231292517,
+          "no_factual_claims_n": 0,
+          "faithfulness_judge_missing_n": 0,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 14,
+          "citation_supported_claims": 73,
+          "total_scored_claims": 80,
+          "incorrect_refusal_n": 1,
+          "incorrect_refusal_case_response_n": 0
+        },
+        "clarify": {
+          "n": 4,
+          "correct": 1,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            0.25,
+            0.25
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.04558726080970055,
+            0.6993581574175981
+          ],
+          "generation_status_counts": {
+            "ok": 3,
+            "failed": 1
+          },
+          "success_and_live_under_10_seconds": 3,
+          "success_and_live_under_10_fraction_all_planned": 0.75,
+          "successful_live_latency_n": 3,
+          "live_latency_p50_seconds": 3.010663833003491,
+          "live_latency_p90_seconds": 3.2985149337910116,
+          "claim_bearing_scored_n": 3,
+          "faithfulness_mean_scored_claim_bearing": 0.9444444444444444,
+          "no_factual_claims_n": 0,
+          "faithfulness_judge_missing_n": 1,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 3,
+          "citation_supported_claims": 17,
+          "total_scored_claims": 18,
+          "incorrect_refusal_n": 0,
+          "incorrect_refusal_case_response_n": 0
+        },
+        "refuse": {
+          "n": 2,
+          "correct": 2,
+          "unknown_correctness": 0,
+          "correctness_bounds": [
+            1.0,
+            1.0
+          ],
+          "correctness_wilson_95_if_complete": [
+            0.34238022750665303,
+            1
+          ],
+          "generation_status_counts": {
+            "ok": 2
+          },
+          "success_and_live_under_10_seconds": 2,
+          "success_and_live_under_10_fraction_all_planned": 1.0,
+          "successful_live_latency_n": 2,
+          "live_latency_p50_seconds": 1.9219190829899162,
+          "live_latency_p90_seconds": 2.3831622493918987,
+          "claim_bearing_scored_n": 1,
+          "faithfulness_mean_scored_claim_bearing": 0.8,
+          "no_factual_claims_n": 1,
+          "faithfulness_judge_missing_n": 0,
+          "invalid_citation_response_n": 0,
+          "citation_emitting_response_n": 1,
+          "citation_supported_claims": 4,
+          "total_scored_claims": 5,
+          "incorrect_refusal_n": 0,
+          "incorrect_refusal_case_response_n": 0
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response provides general loan application steps but omits the essential budgeting advice from the reference. It fails to mention making a budget to borrow only what is needed, which is the key condition for loan advice.",
+      "latency_seconds": 2.2056095419684425,
+      "context_tokens": 3775,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 7,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly answers that spouse benefits may be available without personal work history, citing age 62, spouse receiving benefits, Medicare at 65, divorced spouse option, and application methods, all supported by retrieved documents.",
+      "latency_seconds": 2.571208499954082,
+      "context_tokens": 7355,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately states the FFEL Extended Repayment Plan eligibility conditions (no outstanding FFEL balance as of obtaining a new FFEL loan on/after Oct 7, 1998, and over $30,000 outstanding FFEL loans), describes the 25-year term and fixed/graduated payments, and correctly notes Direct Loans are excluded, matching the reference.",
+      "latency_seconds": 2.866411916911602,
+      "context_tokens": 7617,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly lists all eligible federal loans for the extended repayment plan as specified in the retrieved document, including Direct and FFEL loan types, with no material errors or unsupported claims.",
+      "latency_seconds": 1.5918996670516208,
+      "context_tokens": 6238,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 1,
+      "citation_supported_claims": 1
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response incorrectly states that rescheduling will not lose place in queue and keeps original docket date, but the reference requires 'good cause' for rescheduling, which the response omits. It also conflates withdrawal details with rescheduling requirements.",
+      "latency_seconds": 2.0924577919067815,
+      "context_tokens": 7655,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 7,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers the replacement question but omits the key condition that a Standard ID is not accepted for domestic flights after October 2020 unless a passport is held, which the reference requires.",
+      "latency_seconds": 1.9158210000023246,
+      "context_tokens": 4395,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 4,
+      "citation_supported_claims": 4
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the provided number, makes two attempts, leaves voicemail, and discusses reasons/errors without recording. It is fully supported by the cited documents.",
+      "latency_seconds": 1.762530583073385,
+      "context_tokens": 5552,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "refuse",
+      "reason": "The response does not answer the specific mailing instructions from the reference (include SSN on separate sheet, don't write on originals) and instead says it lacks the address, which is not the essential missing condition. It should have provided the supported guidance.",
+      "latency_seconds": 2.472347207949497,
+      "context_tokens": 3788,
+      "faithfulness": null,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": true,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 0,
+      "citation_supported_claims": 0
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately explains survivor benefit eligibility, automatic conversion, application options, and contact methods, all supported by the retrieved documents. It directly answers the question without unsupported claims.",
+      "latency_seconds": 2.646400999976322,
+      "context_tokens": 7062,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately provides the required steps for withdrawing a hearing request, including the 2-week notice, required information, and 90-day evidence submission option, all supported by the cited document.",
+      "latency_seconds": 1.698582791024819,
+      "context_tokens": 3502,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly answers that VGLI allows continued coverage with premium payments, and provides accurate details on application timing, coverage amounts, and health proof requirements, all supported by the cited documents.",
+      "latency_seconds": 2.5180408330634236,
+      "context_tokens": 6936,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly instructs contacting the local court where the ticket was issued outside NYC, mentions MyDMV for identifying the court, and notes paying the fine and termination fee, all supported by the cited documents.",
+      "latency_seconds": 2.265111166983843,
+      "context_tokens": 4266,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 3,
+      "citation_supported_claims": 3
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly explains that commercial registration costs vary by weight and county, lists required fees, and directs to fee tables and estimator, matching the reference's conditional guidance without material errors.",
+      "latency_seconds": 2.3550697080790997,
+      "context_tokens": 5210,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 10,
+      "citation_supported_claims": 10
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response provides accurate, document-supported guidance on accessing benefit information for family members via the SSA website, BEST tool, and phone number, directly answering the user's question without material errors.",
+      "latency_seconds": 2.114618416992016,
+      "context_tokens": 6243,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 4,
+      "citation_supported_claims": 4
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response provides general revocation details but fails to clarify the essential condition of whether the user received a DMV revocation order, which the task requires. It assumes revocation without confirming this prerequisite.",
+      "latency_seconds": 2.2228681669803336,
+      "context_tokens": 4580,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 4,
+      "total_claims": 6,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "task_label": "clarify",
+      "status": "failed",
+      "correct": false,
+      "observed_action": null,
+      "reason": null,
+      "latency_seconds": 9.36288887495175,
+      "context_tokens": 5460,
+      "faithfulness": null,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": true,
+      "invalid_citations": [],
+      "citation_count": 0,
+      "total_claims": 0,
+      "citation_supported_claims": 0
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers without clarifying the essential missing conditions (1942-1975 timeframe and direct causation), instead mixing in unrelated radiation requirements and VA disability criteria not supported by the cited chemical/biological testing source.",
+      "latency_seconds": 2.564779125037603,
+      "context_tokens": 5414,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 3,
+      "citation_supported_claims": 2
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers the user's question about parents' citizenship but fails to clarify the essential missing condition of whether the user was homeschooled, which is required by the task label and reference.",
+      "latency_seconds": 2.3733012919547036,
+      "context_tokens": 6656,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 7,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "refuse",
+      "reason": "The response correctly refuses because the knowledge base lacks relevant documents on faucet repair, matching the reference that the scope excludes such topics.",
+      "latency_seconds": 0.12184725003316998,
+      "context_tokens": 0,
+      "faithfulness": null,
+      "no_factual_claims": true,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 0,
+      "total_claims": 0,
+      "citation_supported_claims": 0
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "refuse",
+      "reason": "The response correctly refuses to access personal appointment data, explains the boundary, and offers supported general guidance from VA documents, including contact numbers and rescheduling steps.",
+      "latency_seconds": 1.9360140000935644,
+      "context_tokens": 3634,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 3,
+      "citation_supported_claims": 3
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response provides general loan advice but omits the essential reference point of budgeting to borrow only what is needed. It also includes unsupported claims about prioritizing grants and scholarships without direct document support for that specific recommendation in this context.",
+      "latency_seconds": 4.666828291956335,
+      "context_tokens": 4671,
+      "faithfulness": 0.8571428571428571,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 6,
+      "total_claims": 7,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately answers the question by confirming eligibility for spouse benefits without personal work history, citing the retrieved document, and includes supported conditions and application methods. No material errors or unsupported claims.",
+      "latency_seconds": 3.166328708990477,
+      "context_tokens": 9756,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 7,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately states the FFEL Extended Repayment Plan eligibility conditions from the document: no outstanding FFEL balance when obtaining a new FFEL loan on/after Oct 7, 1998, and over $30,000 outstanding FFEL loans, with repayment up to 25 years. No material errors.",
+      "latency_seconds": 2.7867265000240877,
+      "context_tokens": 6892,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 6,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly lists all eligible federal loans for the extended repayment plan as specified in the retrieved document, including Direct and FFEL loan types, with no material errors or unsupported claims.",
+      "latency_seconds": 2.3928396250121295,
+      "context_tokens": 7834,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 1,
+      "citation_supported_claims": 1
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response contains material errors: it states rescheduling does not require good cause, but the reference requires a written request with good cause. It also incorrectly claims withdrawing allows new evidence within 90 days and switching options, which is unsupported by the cited document.",
+      "latency_seconds": 2.9540501249721274,
+      "context_tokens": 5714,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 10,
+      "citation_supported_claims": 10
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers replacement options but omits the key condition that a Standard ID cannot be used for domestic flights after October 2020 unless a passport is held, which the reference requires.",
+      "latency_seconds": 2.5628517089644447,
+      "context_tokens": 2289,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 4,
+      "total_claims": 4,
+      "citation_supported_claims": 4
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the provided number, makes two attempts, leaves voicemail, and discusses reasons for change without recording. It is fully supported by the cited documents.",
+      "latency_seconds": 2.1946648750454187,
+      "context_tokens": 4429,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "refuse",
+      "reason": "The response refuses to answer the mailing question and instead provides appeal information, which does not address the user's specific query about mailing documents. It fails to give the required instructions from the reference.",
+      "latency_seconds": 2.966974083101377,
+      "context_tokens": 5570,
+      "faithfulness": 0.8,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 5,
+      "citation_supported_claims": 4
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response provides accurate survivor benefit eligibility details, including age, disability, child care, remarriage rules, benefit conversion, and application methods, all supported by the retrieved documents. It fully answers the question without unsupported claims.",
+      "latency_seconds": 3.889768125023693,
+      "context_tokens": 7389,
+      "faithfulness": 0.8,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 5,
+      "total_claims": 10,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately answers how to withdraw a hearing request, including the 2-week written notice, required details, and additional options, all supported by the cited document.",
+      "latency_seconds": 2.690322250011377,
+      "context_tokens": 5430,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 8,
+      "citation_supported_claims": 8
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly answers that VGLI allows continued coverage with premium payments, and adds supported details on amounts, deadlines, and conversion, all grounded in the cited VA document.",
+      "latency_seconds": 2.4077576668933034,
+      "context_tokens": 8482,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 6,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly instructs contacting the local court for a ticket issued outside NYC and mentions DMV's My License service for details, matching the reference. It is supported by the cited document.",
+      "latency_seconds": 2.5743433750467375,
+      "context_tokens": 4343,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 3,
+      "citation_supported_claims": 3
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly explains that commercial registration costs vary by weight and location, lists required fees, and directs to tables/estimator, matching the reference that no single fixed amount exists.",
+      "latency_seconds": 3.056682040914893,
+      "context_tokens": 7218,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 10,
+      "citation_supported_claims": 10
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response provides accurate, document-supported steps for learning about family benefits, including website, phone, and account options, and correctly notes SSA will inform about family eligibility. It fully answers the question without material errors.",
+      "latency_seconds": 3.5813721250742674,
+      "context_tokens": 8655,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 4,
+      "total_claims": 6,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response provides detailed revocation restoration steps without first clarifying whether the user received a DMV revocation order, which is the essential missing condition per the reference. It assumes revocation occurred, so it should have asked for confirmation.",
+      "latency_seconds": 4.748767958022654,
+      "context_tokens": 6522,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 4,
+      "total_claims": 18,
+      "citation_supported_claims": 18
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "clarify",
+      "reason": "The response asks for service details and gives conditional guidance, but it does not ask the essential missing condition from the reference (combat service after Nov 11, 1998, discharge after Jan 29, 2003, no dishonorable discharge) to determine immediate application eligibility.",
+      "latency_seconds": 4.270707124960609,
+      "context_tokens": 7652,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 4,
+      "total_claims": 6,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly states the two requirements from the retrieved document: voluntary participation in chemical/biological testing between 1942-1975 and a directly caused injury/illness, and confirms both must be true. It answers the question without needing clarification.",
+      "latency_seconds": 2.288297208957374,
+      "context_tokens": 8053,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 3,
+      "citation_supported_claims": 3
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers how to apply for FAFSA but fails to clarify the essential missing condition about homeschooling eligibility, which the task requires. It does not address the homeschooled status branch.",
+      "latency_seconds": 3.5820069999899715,
+      "context_tokens": 6085,
+      "faithfulness": 0.875,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 4,
+      "total_claims": 8,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "refuse",
+      "reason": "The response correctly refuses because the knowledge base lacks relevant documents on faucet repair, matching the reference that the scope excludes such topics.",
+      "latency_seconds": 0.7133707089815289,
+      "context_tokens": 0,
+      "faithfulness": null,
+      "no_factual_claims": true,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 0,
+      "total_claims": 0,
+      "citation_supported_claims": 0
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "refuse",
+      "reason": "The response correctly refuses to provide personal appointment details, explains the limitation, and offers supported general steps (contact VA office or call 800-827-1000) consistent with the retrieved documents.",
+      "latency_seconds": 2.054076125030406,
+      "context_tokens": 3488,
+      "faithfulness": 0.5,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 2,
+      "citation_supported_claims": 1
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response provides accurate loan advice supported by the cited documents, including prioritizing free funds, choosing federal loans, borrowing only what is needed, budgeting, and contacting the financial aid office or loan servicer for military benefits. It fully answers the question without unsupported claims.",
+      "latency_seconds": 3.277447458007373,
+      "context_tokens": 3277,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly answers that one may qualify for spouse benefits without having worked under Social Security, citing the retrieved document, and includes relevant conditions like age and spouse's benefit status. It provides accurate details without unsupported claims.",
+      "latency_seconds": 3.9224424168933183,
+      "context_tokens": 4495,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 6,
+      "citation_supported_claims": 6
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately states FFEL Extended Repayment Plan eligibility conditions, repayment terms, and the separate calculation example, all supported by the cited document.",
+      "latency_seconds": 3.0624806249979883,
+      "context_tokens": 4000,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 3,
+      "citation_supported_claims": 3
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately lists all eligible federal loans from the retrieved document, including Direct and FFEL loan types, and cites the source. It fully answers the question without errors or unsupported claims.",
+      "latency_seconds": 2.661805541953072,
+      "context_tokens": 4509,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 8,
+      "citation_supported_claims": 8
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately answers the user's question about rescheduling or withdrawing a Board hearing request, providing supported details from the cited document, including the two-week written request requirement, required information, and evidence submission timeline.",
+      "latency_seconds": 3.232883624965325,
+      "context_tokens": 3398,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 7,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers replacement procedures but omits the key condition that a Standard ID cannot be used for domestic flights from October 2020 unless a passport is held, which the reference requires.",
+      "latency_seconds": 2.555948958033696,
+      "context_tokens": 1337,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the provided number, makes two attempts, leaves voicemail, and discusses reasons for change without recording. It is fully supported by the cited documents.",
+      "latency_seconds": 2.966961541911587,
+      "context_tokens": 2837,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "refuse",
+      "reason": "The response refuses to answer mailing questions, stating it cannot handle documents, but the task expects supported guidance on mailing documents (e.g., including SSN on a separate sheet). It also lacks the essential mailing instructions from the reference.",
+      "latency_seconds": 4.179756833007559,
+      "context_tokens": 4316,
+      "faithfulness": 0.5714285714285714,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 7,
+      "citation_supported_claims": 4
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response provides accurate survivor benefit eligibility details (age, disability, child care, remarriage rules, reductions, earnings limits, switching benefits) supported by the retrieved documents, and correctly answers the question without unsupported claims.",
+      "latency_seconds": 3.9056128750089556,
+      "context_tokens": 4414,
+      "faithfulness": 0.6666666666666666,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 9,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response accurately provides the required steps for withdrawing a hearing request, including the 2-week notice, required information, and submission methods, all supported by the cited document. It also adds relevant conditional details about switching to Direct Review and evidence submission, which are supported by the retrieved context.",
+      "latency_seconds": 2.956019749981351,
+      "context_tokens": 3322,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 7,
+      "citation_supported_claims": 7
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly answers that VGLI allows continued life insurance coverage after leaving the military with ongoing premium payments, and adds supported details about application deadlines and health requirements from the cited documents.",
+      "latency_seconds": 2.8639435410732403,
+      "context_tokens": 5062,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly states that for a ticket outside NYC, the user must contact the local court, and mentions DMV's My License service for more information, matching the reference. It also adds supported details about NYC tickets.",
+      "latency_seconds": 2.5753864160506055,
+      "context_tokens": 2645,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 3,
+      "citation_supported_claims": 3
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly explains that commercial registration costs vary by weight and location, lists the components, and directs to fee tables, matching the reference's conditional guidance without material errors.",
+      "latency_seconds": 4.369042666978203,
+      "context_tokens": 3158,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response provides accurate, document-supported guidance on accessing benefit information for family members, including website tools, phone contact, and online accounts, fully answering the question without errors or unsupported claims.",
+      "latency_seconds": 2.6590543339261785,
+      "context_tokens": 4940,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response provides general revocation details but fails to clarify the essential condition of whether the user received a DMV revocation order, which the task requires. It assumes the revocation scenario without asking for confirmation.",
+      "latency_seconds": 2.8546992079354823,
+      "context_tokens": 2112,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 8,
+      "citation_supported_claims": 8
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "task_label": "clarify",
+      "status": "failed",
+      "correct": false,
+      "observed_action": null,
+      "reason": null,
+      "latency_seconds": 13.1487855410669,
+      "context_tokens": 4216,
+      "faithfulness": null,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": true,
+      "invalid_citations": [],
+      "citation_count": 0,
+      "total_claims": 0,
+      "citation_supported_claims": 0
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "answer",
+      "reason": "The response correctly states the two requirements from the document: voluntary participation in chemical/biological tests between 1942-1975 and having an injury/illness directly caused by participation, and confirms both must be true.",
+      "latency_seconds": 3.010663833003491,
+      "context_tokens": 4157,
+      "faithfulness": 1.0,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 1,
+      "total_claims": 4,
+      "citation_supported_claims": 4
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "correct": false,
+      "observed_action": "answer",
+      "reason": "The response answers the application process but fails to clarify the essential missing condition about homeschooling, which the task requires. It does not ask whether the user was homeschooled or provide conditional guidance on that branch.",
+      "latency_seconds": 3.3704777089878917,
+      "context_tokens": 2909,
+      "faithfulness": 0.8333333333333334,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 3,
+      "total_claims": 6,
+      "citation_supported_claims": 5
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "refuse",
+      "reason": "The response correctly refuses because the knowledge base lacks relevant documents on faucet repair, matching the reference that the scope excludes such topics.",
+      "latency_seconds": 1.3453651249874383,
+      "context_tokens": 0,
+      "faithfulness": null,
+      "no_factual_claims": true,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 0,
+      "total_claims": 0,
+      "citation_supported_claims": 0
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "correct": true,
+      "observed_action": "refuse",
+      "reason": "The response correctly refuses to provide personal appointment details, explains the boundary (no access to personal records), and offers supported general steps (calling VA) from the retrieved documents.",
+      "latency_seconds": 2.498473040992394,
+      "context_tokens": 1239,
+      "faithfulness": 0.8,
+      "no_factual_claims": false,
+      "faithfulness_judge_missing": false,
+      "invalid_citations": [],
+      "citation_count": 2,
+      "total_claims": 5,
+      "citation_supported_claims": 4
+    }
+  ],
+  "costs_by_role": {
+    "faithfulness_diagnostic": {
+      "attempts": 1,
+      "known_usage_cost_estimate_rmb": 0.0014112999999999999,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.0014112999999999999,
+      "prompt_tokens": 4787,
+      "completion_tokens": 244
+    },
+    "faithfulness_v2:flash": {
+      "attempts": 56,
+      "known_usage_cost_estimate_rmb": 0.4471886,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.4471886,
+      "prompt_tokens": 257805,
+      "completion_tokens": 20823
+    },
+    "faithfulness_v2:pro": {
+      "attempts": 19,
+      "known_usage_cost_estimate_rmb": 0.4896135,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.4896135,
+      "prompt_tokens": 93047,
+      "completion_tokens": 7108
+    },
+    "flash_judge:correctness": {
+      "attempts": 56,
+      "known_usage_cost_estimate_rmb": 0.3773238,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.3773238,
+      "prompt_tokens": 257991,
+      "completion_tokens": 3297
+    },
+    "flash_judge:faithfulness": {
+      "attempts": 57,
+      "known_usage_cost_estimate_rmb": 0.4387973,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.4387973,
+      "prompt_tokens": 252400,
+      "completion_tokens": 20265
+    },
+    "generation": {
+      "attempts": 59,
+      "known_usage_cost_estimate_rmb": 0.3701442,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.3701442,
+      "prompt_tokens": 236518,
+      "completion_tokens": 12200
+    },
+    "generation_diagnostic": {
+      "attempts": 2,
+      "known_usage_cost_estimate_rmb": 0.005028600000000001,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.005028600000000001,
+      "prompt_tokens": 8887,
+      "completion_tokens": 1001
+    },
+    "pro_calibration:correctness": {
+      "attempts": 19,
+      "known_usage_cost_estimate_rmb": 0.4188579,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.4188579,
+      "prompt_tokens": 93031,
+      "completion_tokens": 1336
+    },
+    "pro_calibration:faithfulness": {
+      "attempts": 20,
+      "known_usage_cost_estimate_rmb": 0.4897773,
+      "unknown_usage_attempts": 0,
+      "accounted_or_reserved_rmb": 0.4897773,
+      "prompt_tokens": 94376,
+      "completion_tokens": 7667
+    }
+  },
+  "budget_cap_rmb": 5.0,
+  "accounted_upper_rmb": 3.0381425,
+  "calibration": {
+    "paired_correctness_n": 19,
+    "agreement_n": 19,
+    "independent_human_review": false,
+    "cases": [
+      {
+        "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "task_label": "answer",
+        "flash": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response provides general loan application steps but omits the essential budgeting advice from the reference. It fails to mention making a budget to borrow only what is needed, which is the key condition for loan advice."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response omits the key reference advice to make a budget and borrow only what is needed. It provides general loan steps but misses the required budgeting guidance, so it does not fully satisfy the answer rubric."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "申请联邦学生贷款的第一步是填写FAFSA表格",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "学校会根据FAFSA信息确定你的资格",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "贷款通常包含在资助方案中",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果这是你首次获得直接贷款，你需要完成入学咨询并签署主本票",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+              ]
+            },
+            {
+              "claim": "贷款是需要偿还的，且会产生利息",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "建议优先考虑无需偿还的助学金和奖学金，贷款作为补充",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "如有疑问，请联系你计划就读学校的财务援助办公室",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "申请联邦学生贷款的第一步是填写FAFSA表格",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "学校会根据FAFSA信息确定你的资格",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "贷款通常包含在资助方案中",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果这是你首次获得直接贷款，你需要完成入学咨询",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+              ]
+            },
+            {
+              "claim": "如果这是你首次获得直接贷款，你需要签署主本票",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+              ]
+            },
+            {
+              "claim": "贷款是需要偿还的",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "贷款会产生利息",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "建议优先考虑无需偿还的助学金和奖学金，贷款作为补充",
+              "supported": false,
+              "supporting_chunk_ids": []
+            },
+            {
+              "claim": "如有疑问，请联系你计划就读学校的财务援助办公室",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly answers that spouse benefits may be available without personal work history, citing age 62, spouse receiving benefits, Medicare at 65, divorced spouse option, and application methods, all supported by retrieved documents."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response directly answers the question, stating that even without work history, one may qualify for spousal benefits if at least 62 and spouse receives benefits, and mentions Medicare at 65, divorce, application methods, and reduction. All claims are supported by the retrieved documents."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "即使您从未在社会保障制度下工作过，如果您年满62岁且您的配偶正在领取退休或残疾福利，您可能仍有资格获得配偶退休福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "您可以在65岁时有资格享受Medicare。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果您离婚了，您可能仍能在您前配偶的记录上获得福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "申请方式包括在线、电话（1-800-772-1213）或亲自前往当地社会保障办公室。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果您在62岁至完全退休年龄之间开始领取福利，金额可能会被永久性减少。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "即使您从未在社会保障制度下工作过，如果您年满62岁且您的配偶正在领取退休或残疾福利，您可能仍有资格获得配偶退休福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "您也可以在65岁时有资格享受Medicare。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果您离婚了，您可能仍能在您前配偶的记录上获得福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "申请方式包括在线、电话（1-800-772-1213）或亲自前往当地社会保障办公室。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果您在62岁至完全退休年龄之间开始领取福利，金额可能会被永久性减少。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+                "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately states the FFEL Extended Repayment Plan eligibility conditions (no outstanding FFEL balance as of obtaining a new FFEL loan on/after Oct 7, 1998, and over $30,000 outstanding FFEL loans), describes the 25-year term and fixed/graduated payments, and correctly notes Direct Loans are excluded, matching the reference."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately states FFEL Extended Repayment Plan eligibility: no outstanding FFEL balance on or after Oct 7, 1998, and over $30,000 in FFEL loans. It correctly notes the 25-year term and fixed/graduated payments, and the example about mixed FFEL/Direct loans is supported by the cited document."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "FFEL借款人如果在1998年10月7日或之后获得FFEL贷款时没有未偿还的FFEL贷款余额，并且目前有超过30,000美元的未偿还FFEL贷款，则有资格选择延长还款计划。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "延长还款计划允许最长25年的还款期限。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "延长还款计划提供固定或递增的每月还款额。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "延长还款计划下的每月还款额通常低于标准还款计划下的还款额。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果借款人同时拥有直接贷款和FFEL贷款，只能为符合条件的FFEL贷款选择延长还款计划，而不能为直接贷款选择。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果您是FFEL借款人，在1998年10月7日或之后获得FFEL贷款时没有未偿还的FFEL贷款余额，并且您目前拥有超过30,000美元的未偿还FFEL贷款，您可能有资格选择延长还款计划。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "延长还款计划允许最长25年的还款期限。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "延长还款计划提供固定或递增的每月还款额。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "延长还款计划下的每月还款额通常低于标准还款计划下的还款额。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果您同时拥有直接贷款和FFEL贷款，您只能为符合条件的FFEL贷款选择延长还款计划，而不能为直接贷款选择。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly lists all eligible federal loans for the extended repayment plan as specified in the retrieved document, including Direct and FFEL loan types, with no material errors or unsupported claims."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response lists all eligible federal loan types exactly as stated in the retrieved document, including Direct and FFEL loans. It is fully supported by the cited source and contains no material errors."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "符合延长还款计划资格的联邦贷款包括直接补贴贷款、直接无补贴贷款、直接PLUS贷款、直接合并贷款、补贴联邦斯塔福德贷款、无补贴联邦斯塔福德贷款、FFEL PLUS贷款和FFEL合并贷款。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "直接补贴贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "直接无补贴贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "直接PLUS贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "直接合并贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "补贴联邦斯塔福德贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "无补贴联邦斯塔福德贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "FFEL PLUS贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "FFEL合并贷款符合延长还款计划的资格。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Extended Plan | Federal Student Aid#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+        "task_label": "answer",
+        "flash": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response incorrectly states that rescheduling will not lose place in queue and keeps original docket date, but the reference requires 'good cause' for rescheduling, which the response omits. It also conflates withdrawal details with rescheduling requirements."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response omits the required 'good cause' condition for rescheduling and incorrectly states you will not lose your place in the queue without mentioning the good cause requirement. It also adds unsupported details about keeping your original docket date and rescheduling to the earliest possible date, which are not in the cited source."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "You can reschedule or withdraw your Board hearing request.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "If you need to reschedule, you will not lose your place in the queue.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "The Board schedules hearings by docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "The written request should include your name, VA file number, and reason for withdrawal.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "You can still submit new evidence within 90 days after withdrawing the hearing request.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "Send your written request by mail or fax to the Board of Veterans Appeals.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "You can reschedule your Board hearing request.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "You can withdraw your Board hearing request.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "If you need to reschedule, you will not lose your place in the queue.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "The Board schedules hearings by docket order.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "The Board will reschedule your hearing to the earliest possible date while keeping your original docket date.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "The written withdrawal request should include your name, VA file number, and reason for withdrawal.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "You can still submit new evidence within 90 days after withdrawing the hearing request.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "Send your written request by mail or fax to the Board of Veterans Appeals.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+        "task_label": "answer",
+        "flash": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response answers the replacement question but omits the key condition that a Standard ID is not accepted for domestic flights after October 2020 unless a passport is held, which the reference requires."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response answers about replacement but omits the key condition from the reference: a Standard ID will not be accepted for domestic flights starting October 2020 unless a passport is used. This material fact is missing."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果标准非驾驶员身份证丢失、损坏或地址变更，可以更换",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "可以选择在线、邮寄或前往办公室办理更换",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0002",
+                "Replace a non-driver ID card#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "在线或邮寄更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0002",
+                "Replace a non-driver ID card#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果身份证已过期，则无法更换，必须续期或申请新证",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "您可以选择在线、邮寄或前往办公室办理。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0002",
+                "Replace a non-driver ID card#1_0::c0003",
+                "Replace a non-driver ID card#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "在线或邮寄更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0002",
+                "Replace a non-driver ID card#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果您的身份证已过期，则无法更换，必须续期或申请新证。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Replace a non-driver ID card#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the provided number, makes two attempts, leaves voicemail, and discusses reasons/errors without recording. It is fully supported by the cited documents."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately summarizes the retrieved documents: the reviewer calls the provided number to schedule, attempts twice, leaves voicemail if unanswered, and the call is not recorded. It matches the reference and contains no unsupported claims."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果您请求与高级审阅员进行非正式会议，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "高级审阅员会尝试通过电话联系您或您的代表两次。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "如果无人接听，他们会留下语音邮件。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "这次通话不会有记录。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果您请求与高级审阅员进行非正式会议，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "高级审阅员会尝试通过电话联系您或您的代表两次。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "如果无人接听，他们会留下语音邮件。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "这次通话不会有记录。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+                "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+        "task_label": "answer",
+        "flash": {
+          "correct": false,
+          "observed_action": "refuse",
+          "reason": "The response does not answer the specific mailing instructions from the reference (include SSN on separate sheet, don't write on originals) and instead says it lacks the address, which is not the essential missing condition. It should have provided the supported guidance."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response fails to provide the required mailing instructions: include the Social Security number on a separate sheet and do not write on original documents. It instead gives general appeal guidance and incorrectly states no mailing address is specified, omitting the key supported facts from the retrieved document."
+        },
+        "flash_faithfulness": null,
+        "pro_faithfulness": null
+      },
+      {
+        "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately explains survivor benefit eligibility, automatic conversion, application options, and contact methods, all supported by the retrieved documents. It directly answers the question without unsupported claims."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately states survivor benefits eligibility and conversion rules based on the cited documents. It includes supported details about applying for higher benefits and contact methods. No unsupported assertions or incorrect refusal."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "If your spouse dies, you may be eligible for higher survivor benefits based on their work record, even if you are already receiving benefits as a spouse.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#2_0::c0000",
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+              ]
+            },
+            {
+              "claim": "Your benefit will automatically convert to survivor benefits after we receive the report of death.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005",
+                "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "If you are also eligible for retirement benefits on your own record, you can apply for retirement or survivor benefits now and switch to the higher benefit later.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+              ]
+            },
+            {
+              "claim": "If you are already receiving retirement benefits, you can only apply for widow/widower benefits if your retirement benefit is less than the survivor benefit.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+              ]
+            },
+            {
+              "claim": "To report a death or apply, call 1-800-772-1213 (TTY 1-800-325-0778) or visit your local Social Security office.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000",
+                "Retirement Benefits | Social Security Administration#2_0::c0008"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "If your spouse dies, you may be eligible for higher survivor benefits based on their work record, even if you are already receiving benefits as a spouse.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#2_0::c0000",
+                "Explore The Benefits You May Be Due#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "Your benefit will automatically convert to survivor benefits after we receive the report of death.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+              ]
+            },
+            {
+              "claim": "If you are also eligible for retirement benefits on your own record, you can apply for retirement or survivor benefits now and switch to the higher benefit later.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+              ]
+            },
+            {
+              "claim": "If you are already receiving retirement benefits, you can only apply for widow/widower benefits if your retirement benefit is less than the survivor benefit.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+                "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+              ]
+            },
+            {
+              "claim": "To report a death or apply, call 1-800-772-1213 (TTY 1-800-325-0778) or visit your local Social Security office.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately provides the required steps for withdrawing a hearing request, including the 2-week notice, required information, and 90-day evidence submission option, all supported by the cited document."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response accurately states the procedure for withdrawing a hearing request: send a written request at least 2 weeks before the hearing, include name, VA file number, and reason, and notes the 90-day evidence submission window. All details are supported by the cited document."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "您可以写信给委员会撤回您的听证会请求",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "请确保在听证会至少2周前发送书面请求",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "书面请求应包含您的姓名、您的上诉的VA档案编号以及您撤回上诉的原因",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "您仍然可以在撤回听证会请求后90天内提交新证据",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "请将书面请求邮寄或传真至委员会",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "您可以写信给委员会撤回（取消）您的听证会请求。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "您应在听证会至少2周前发送书面请求。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "书面请求应包含您的姓名。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "书面请求应包含您的上诉的VA档案编号。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "书面请求应包含您撤回上诉的原因。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "您仍然可以在撤回听证会请求后90天内提交新证据。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "您可以将书面请求邮寄或传真至委员会。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly answers that VGLI allows continued coverage with premium payments, and provides accurate details on application timing, coverage amounts, and health proof requirements, all supported by the cited documents."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly states that VGLI allows keeping life insurance after leaving the military as long as premiums are paid, and includes accurate application window and health proof details from the retrieved documents."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "退伍后可以通过VGLI继续保留人寿保险保障，只要持续支付保费",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "可以在退伍后1年零120天内申请VGLI",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+                "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "最高保额为您离开军队时通过SGLI拥有的保险金额（$10,000至$400,000）",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果在离开军队后的240天内申请，无需提供健康证明",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "若超过240天申请，则需提交健康证明",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "退伍后可以通过VGLI继续保留人寿保险保障，只要持续支付保费",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "可以在退伍后1年零120天内申请VGLI",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+                "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0004"
+              ]
+            },
+            {
+              "claim": "VGLI最高保额为离开军队时通过SGLI拥有的保险金额，范围在$10,000至$400,000之间",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果在离开军队后的240天内申请VGLI，无需提供健康证明",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "如果超过240天申请VGLI，则需提交健康证明",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly instructs contacting the local court where the ticket was issued outside NYC, mentions MyDMV for identifying the court, and notes paying the fine and termination fee, all supported by the cited documents."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly directs the user to contact the local court for a ticket issued outside NYC and mentions MyDMV for identifying the court, which is supported by the retrieved context. It also notes paying the fine and suspension termination fee, consistent with the documents."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court where the ticket was issued.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0007",
+                "Tickets received in New York City#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "The DMV's 'MyDMV' service can help you identify the correct court.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0007"
+              ]
+            },
+            {
+              "claim": "You will need to pay the fine and any applicable suspension termination fee to clear the suspension.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Tickets received in New York City#3_0::c0000",
+                "Suspensions and revocations#3_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court (city, county, town, or village) where the ticket was issued.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0007"
+              ]
+            },
+            {
+              "claim": "The DMV's 'MyDMV' service can help you identify the correct court.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0007"
+              ]
+            },
+            {
+              "claim": "You will need to pay the fine and any applicable suspension termination fee to clear the suspension.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Tickets received in New York City#3_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly explains that commercial registration costs vary by weight and county, lists required fees, and directs to fee tables and estimator, matching the reference's conditional guidance without material errors."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response correctly states that commercial registration fees depend on weight and county, lists first-time fees ($25 plate, $50 title, sales tax), mentions diesel surcharge and NYC use tax, and directs to fee charts/estimator. All claims are supported by the retrieved documents."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "Commercial vehicle registration fees depend on vehicle weight and county of residence.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "For vehicles under 18,000 lbs, use the commercial registration fee table.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "Diesel vehicles 8,501 lbs or heavier incur an extra fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "First-time registration requires a $25 plate fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "First-time registration requires a $50 title certificate fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "First-time registration requires sales tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "NYC residents and some counties pay vehicle use tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "NYC passenger cars pay $80 for 2 years vehicle use tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "NYC passenger cars pay $50 MCTD fee for 2 years.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "The DMV's online estimator excludes sales tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Estimate registration fees and taxes#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "Commercial vehicle registration fees depend on vehicle weight and county of residence.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+                "Register a vehicle#1_0::c0001"
+              ]
+            },
+            {
+              "claim": "For vehicles under 18,000 lbs, use the commercial registration fee table.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "Diesel vehicles 8,501 lbs or heavier incur an extra fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "First-time registration requires a $25 plate fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "First-time registration requires a $50 title certificate fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "First-time registration requires sales tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "NYC residents and some counties pay vehicle use tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "NYC passenger cars pay $80 for 2 years vehicle use tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "NYC passenger cars pay $50 MCTD fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+              ]
+            },
+            {
+              "claim": "The DMV's online estimator excludes sales tax.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Estimate registration fees and taxes#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+        "task_label": "answer",
+        "flash": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response provides accurate, document-supported guidance on accessing benefit information for family members via the SSA website, BEST tool, and phone number, directly answering the user's question without material errors."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "answer",
+          "reason": "The response directly answers the user's question by providing supported methods (website, BEST tool, phone) to learn about family benefits, citing relevant retrieved contexts. It does not assume unknown conditions and aligns with the reference guidance."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "您可以访问社会保障局网站上的福利信息页面来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "您可以使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "您可以拨打社会保障局的免费电话1-800-772-1213咨询具体问题。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "社会保障局的免费电话1-800-772-1213的服务时间是周一至周五上午7点至下午7点。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "您可以访问社会保障局网站上的福利信息页面来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "您可以使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "您可以拨打社会保障局的免费电话1-800-772-1213咨询具体问题。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            },
+            {
+              "claim": "社会保障局免费电话1-800-772-1213的服务时间为周一至周五上午7点至下午7点。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Explore The Benefits You May Be Due#1_0::c0000",
+                "Explore The Benefits You May Be Due#2_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+        "task_label": "clarify",
+        "flash": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response provides general revocation details but fails to clarify the essential condition of whether the user received a DMV revocation order, which the task requires. It assumes revocation without confirming this prerequisite."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The reference expects a clarifying question about whether the user received a DMV revocation order. The response instead assumes the user's license is revoked and provides general details, which is an unsupported assumption of an unknown condition."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "A revoked driver license or driving privilege means your license has been canceled, and you must reapply for a new license after the revocation period ends.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "In most cases, you must first request DMV approval before obtaining a new license.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "You may need to retake the written and road tests and pay a license reapplication fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "To check the status of your license, you can sign up for MyDMV and use the 'My License, Permit, or ID' service.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0007",
+                "Pay driver responsibility assessment#1_0::c0009"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "A revoked driver license or driving privilege means your license has been canceled, and you must reapply for a new license after the revocation period ends.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "In most cases, you must first request DMV approval before obtaining a new license.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "You may need to retake the written and road tests and pay a license reapplication fee.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0005"
+              ]
+            },
+            {
+              "claim": "To check the status of your license, you can sign up for MyDMV and use the 'My License, Permit, or ID' service.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Suspensions and revocations#3_0::c0007",
+                "Pay driver responsibility assessment#1_0::c0009"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+        "task_label": "clarify",
+        "flash": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response answers without clarifying the essential missing conditions (1942-1975 timeframe and direct causation), instead mixing in unrelated radiation requirements and VA disability criteria not supported by the cited chemical/biological testing source."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The user asks about voluntary chemical/biological testing benefits and whether requirements must be true. The response answers but fails to clarify the essential missing condition: whether the testing occurred between 1942-1975 and whether injury/illness was directly caused by participation. It also conflates radiation requirements, which are not applicable."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果你在1942年至1975年间自愿参加美国生物或化学项目的研究，并且因参与而直接导致受伤或疾病，你可能通过美国陆军获得医疗护理。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "这并不自动保证残疾补偿或其他福利；你需要满足VA的资格要求。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "你提到的两个要求（患有辐射相关疾病和满足暴露条件）必须真实且得到文件支持，才能获得VA残疾福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "如果你在1942年至1975年间自愿参加美国生物或化学项目的研究，并且因参与而直接导致受伤或疾病，你可能通过美国陆军获得医疗护理。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "这并不自动保证残疾补偿或其他福利。",
+              "supported": false,
+              "supporting_chunk_ids": []
+            },
+            {
+              "claim": "你需要满足VA的资格要求，包括患有被认定为与服役相关的疾病或伤害。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "你提到的两个要求（患有辐射相关疾病和满足暴露条件）必须真实且得到文件支持，才能获得VA残疾福利。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+        "task_label": "clarify",
+        "flash": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The response answers the user's question about parents' citizenship but fails to clarify the essential missing condition of whether the user was homeschooled, which is required by the task label and reference."
+        },
+        "pro": {
+          "correct": false,
+          "observed_action": "answer",
+          "reason": "The user's message 'No, sorry, but I don'y have neither of those' is ambiguous and likely responds to a prior missing question about eligibility documents. The assistant assumes the user is asking about parents' citizenship and provides an answer, but the correct action is to clarify what 'those' refers to."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "Your parents' citizenship or immigration status does not affect your eligibility for federal student aid.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+                "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+              ]
+            },
+            {
+              "claim": "The FAFSA form does not ask about your parents' status.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+                "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+              ]
+            },
+            {
+              "claim": "To qualify for federal student aid, you must be a U.S. citizen or an eligible noncitizen.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility Requirements | Federal Student Aid#1_0::c0000",
+                "Financial Aid Eligibility | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "Eligible noncitizen categories include permanent resident with a green card, refugee, asylee, and other specific categories.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "If you are not a U.S. citizen or an eligible noncitizen, you would not be eligible for federal student aid, regardless of your parents' status.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "If you are an eligible noncitizen, you can proceed with applying.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "For more details on eligible noncitizen categories, check with your college's financial aid office.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "Your parents' citizenship or immigration status does not affect your eligibility for federal student aid.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+                "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+              ]
+            },
+            {
+              "claim": "The FAFSA form does not ask about your parents' status.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+                "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+              ]
+            },
+            {
+              "claim": "To qualify for federal student aid, you must be a U.S. citizen or an eligible noncitizen.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility Requirements | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "Eligible noncitizens include permanent residents with a green card, refugees, asylees, and other specific categories.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "If you are not a U.S. citizen or an eligible noncitizen, you would not be eligible for federal student aid, regardless of your parents' status.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility Requirements | Federal Student Aid#1_0::c0000",
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "If you are an eligible noncitizen, you can proceed with applying.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            },
+            {
+              "claim": "For more details on eligible noncitizen categories, check with your college's financial aid office.",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "question_id": "eval-v1-dev-refuse-009",
+        "task_label": "refuse",
+        "flash": {
+          "correct": true,
+          "observed_action": "refuse",
+          "reason": "The response correctly refuses because the knowledge base lacks relevant documents on faucet repair, matching the reference that the scope excludes such topics."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "refuse",
+          "reason": "The response correctly refuses because the knowledge base lacks faucet repair information, matching the reference that the KB covers only DMV, Social Security, VA, and FSA topics."
+        },
+        "flash_faithfulness": {
+          "claims": []
+        },
+        "pro_faithfulness": {
+          "claims": []
+        }
+      },
+      {
+        "question_id": "eval-v1-dev-refuse-006",
+        "task_label": "refuse",
+        "flash": {
+          "correct": true,
+          "observed_action": "refuse",
+          "reason": "The response correctly refuses to access personal appointment data, explains the boundary, and offers supported general guidance from VA documents, including contact numbers and rescheduling steps."
+        },
+        "pro": {
+          "correct": true,
+          "observed_action": "refuse",
+          "reason": "The response correctly refuses to access personal appointment records, explains the boundary, and offers supported general steps (VA contacts by mail/phone, call 800-827-1000, update contact info) from the retrieved VA claim exam documents."
+        },
+        "flash_faithfulness": {
+          "claims": [
+            {
+              "claim": "VA 通常会通过信件或电话与您联系，告知检查日期和时间。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果您需要确认或重新安排预约，可以拨打 800-827-1000 或联系最近的 VA 地区办公室。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "请确保 VA 有您最新的联系方式。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            }
+          ]
+        },
+        "pro_faithfulness": {
+          "claims": [
+            {
+              "claim": "VA 通常会通过信件或电话与您联系，告知检查日期和时间。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果您需要确认或重新安排预约，可以拨打 800-827-1000。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "如果您需要确认或重新安排预约，可以联系最近的 VA 地区办公室。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            },
+            {
+              "claim": "请确保 VA 有您最新的联系方式。",
+              "supported": true,
+              "supporting_chunk_ids": [
+                "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Flash and Pro are related model judges; agreement is not truth or independent human calibration.",
+    "No-claim faithfulness is undefined; missing judgments are unknown, never full credit.",
+    "Cached API replays have no fresh end-to-end latency; completed checkpoints retain original observations.",
+    "Costs are usage-derived estimates from dated prices, not a reconciled provider bill."
+  ]
+}

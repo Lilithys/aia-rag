@@ -1,0 +1,196 @@
+{
+  "payload": {
+    "task_id": "bd223a8a803126bbd79b31ce3269dc2d21a5ad5460f5a1e24dc037cea7405e18",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Commercial registration costs vary based on vehicle weight and location.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a vehicle#1_0::c0001"
+                ],
+                "reason": "The context states fees depend on vehicle weight and location."
+              },
+              {
+                "text": "Initial registration generally includes sales tax, plate fee or transfer fee, title certificate fee, vehicle use tax (in most counties), and a 1- or 2-year registration fee.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a vehicle#1_0::c0001"
+                ],
+                "reason": "The context lists these components for initial registration."
+              },
+              {
+                "text": "For vehicles under 18,000 lbs, use the commercial fee table;",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+                ],
+                "reason": "The context states the table applies to vehicles under 18,000 lbs."
+              },
+              {
+                "text": "diesel vehicles 8,501 lbs or heavier incur an extra fee.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+                ],
+                "reason": "The context states diesel vehicles 8,501 lbs or heavier require an additional fee."
+              },
+              {
+                "text": "NYC residents and some county residents must also pay vehicle use tax",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+                ],
+                "reason": "The context states NYC residents and several counties must pay vehicle use tax."
+              },
+              {
+                "text": "(e.g., NYC passenger cars: $80 for 2 years; livery/bus/taxi: $400 for 1 year plus $50 MCTD for 2 years).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+                ],
+                "reason": "The context provides these specific amounts for NYC vehicle use tax and MCTD fee."
+              },
+              {
+                "text": "For exact amounts, consult the DMV fee tables or estimator.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+                  "Register a vehicle#1_0::c0001"
+                ],
+                "reason": "The contexts refer to fee tables and an estimator for exact amounts."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8cd5a064b3394f31ac6c716ce6eb931f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3358,
+                "completion_tokens": 653,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 653,
+                  "prompt_tokens": 3358,
+                  "total_tokens": 4011,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2974
+                }
+              },
+              "usage_cost_estimate_rmb": 0.007418699999999999,
+              "accounted_rmb": 0.007418699999999999,
+              "usage_unknown": false,
+              "seconds": 3.9904932975769043,
+              "error": null,
+              "response": {
+                "id": "5046214e-f8c6-4bd8-b4fa-b91257cf64bb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5375e31525d4c5533af853973533e8a822ae5fafee144acc82ddd7bf648e03bb"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 7,
+      "supported_external_claims": 7,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Commercial registration costs vary based on vehicle weight and location.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ],
+          "reason": "The context states fees depend on vehicle weight and location."
+        },
+        {
+          "text": "Initial registration generally includes sales tax, plate fee or transfer fee, title certificate fee, vehicle use tax (in most counties), and a 1- or 2-year registration fee.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ],
+          "reason": "The context lists these components for initial registration."
+        },
+        {
+          "text": "For vehicles under 18,000 lbs, use the commercial fee table;",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ],
+          "reason": "The context states the table applies to vehicles under 18,000 lbs."
+        },
+        {
+          "text": "diesel vehicles 8,501 lbs or heavier incur an extra fee.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ],
+          "reason": "The context states diesel vehicles 8,501 lbs or heavier require an additional fee."
+        },
+        {
+          "text": "NYC residents and some county residents must also pay vehicle use tax",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ],
+          "reason": "The context states NYC residents and several counties must pay vehicle use tax."
+        },
+        {
+          "text": "(e.g., NYC passenger cars: $80 for 2 years; livery/bus/taxi: $400 for 1 year plus $50 MCTD for 2 years).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ],
+          "reason": "The context provides these specific amounts for NYC vehicle use tax and MCTD fee."
+        },
+        {
+          "text": "For exact amounts, consult the DMV fee tables or estimator.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ],
+          "reason": "The contexts refer to fee tables and an estimator for exact amounts."
+        }
+      ]
+    }
+  },
+  "sha256": "2e2a72c3ec59da613e7131217fbfd20c1e9fb85b3d354e9fdf0c5314bb5376d2"
+}

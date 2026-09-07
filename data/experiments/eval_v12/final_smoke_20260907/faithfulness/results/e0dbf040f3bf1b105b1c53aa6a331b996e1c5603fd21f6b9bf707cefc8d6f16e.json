@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "e0dbf040f3bf1b105b1c53aa6a331b996e1c5603fd21f6b9bf707cefc8d6f16e",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court that issued the ticket directly.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0007"
+                ],
+                "reason": "The context states that for tickets issued outside NYC, you must contact the local court directly."
+              },
+              {
+                "text": "The DMV's 'My License, Permit or ID' service can provide more information about where to respond to or pay the ticket.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0007"
+                ],
+                "reason": "The context mentions that the DMV's 'My License, Permit or ID' service provides more information on where to respond to or pay the ticket."
+              },
+              {
+                "text": "For tickets issued in NYC (marked 'Traffic Violations Bureau'), you can plead or pay online.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0007"
+                ],
+                "reason": "The context states that for NYC tickets marked 'Traffic Violations Bureau', you can plead or pay online."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "982a67da52424185a80f078f86de6ba3",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2396,
+                "completion_tokens": 289,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 289,
+                  "prompt_tokens": 2396,
+                  "total_tokens": 2685,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 1884
+                }
+              },
+              "usage_cost_estimate_rmb": 0.004152100000000001,
+              "accounted_rmb": 0.004152100000000001,
+              "usage_unknown": false,
+              "seconds": 2.0748519897460938,
+              "error": null,
+              "response": {
+                "id": "04369952-cd51-4534-a7a6-45183ebccdda",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "73b00a866b5812b84beb4760c51678ef1c65d0f4f11b43759d8a35e183e1962a"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court that issued the ticket directly.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ],
+          "reason": "The context states that for tickets issued outside NYC, you must contact the local court directly."
+        },
+        {
+          "text": "The DMV's 'My License, Permit or ID' service can provide more information about where to respond to or pay the ticket.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ],
+          "reason": "The context mentions that the DMV's 'My License, Permit or ID' service provides more information on where to respond to or pay the ticket."
+        },
+        {
+          "text": "For tickets issued in NYC (marked 'Traffic Violations Bureau'), you can plead or pay online.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ],
+          "reason": "The context states that for NYC tickets marked 'Traffic Violations Bureau', you can plead or pay online."
+        }
+      ]
+    }
+  },
+  "sha256": "90f2340e576ceae26e5daf4371e747caf9b2391a5dc5959714620c79e7bdc097"
+}

@@ -1,0 +1,103 @@
+{
+  "payload": {
+    "task_id": "acafad3f11502d583ddb5df44bec6b99131c33d77f87e79a85756c73612e7043",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "failed",
+      "calls": [
+        {
+          "status": "failed",
+          "parsed": null,
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b8b3c91aa9b24510a531017b17b51415",
+              "outcome": "failed",
+              "usage": {
+                "prompt_tokens": 4712,
+                "completion_tokens": 163,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 163,
+                  "prompt_tokens": 4712,
+                  "total_tokens": 4875,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3816
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0065023,
+              "accounted_rmb": 0.0065023,
+              "usage_unknown": false,
+              "seconds": 1.8495330810546875,
+              "error": {
+                "type": "ValueError",
+                "http_status": null
+              },
+              "response": {
+                "id": "6a13f1b2-74e7-4a63-bcdd-8e1db3bcd692",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            },
+            {
+              "event": "settle",
+              "attempt_id": "211add6b28dd42289e01b00200f92ff0",
+              "outcome": "failed",
+              "usage": {
+                "prompt_tokens": 4712,
+                "completion_tokens": 163,
+                "cached_tokens": 4608,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 163,
+                  "prompt_tokens": 4712,
+                  "total_tokens": 4875,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 4608,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 4608,
+                  "prompt_cache_miss_tokens": 104
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0011199,
+              "accounted_rmb": 0.0011199,
+              "usage_unknown": false,
+              "seconds": 1.853269100189209,
+              "error": {
+                "type": "ValueError",
+                "http_status": null
+              },
+              "response": {
+                "id": "12a90ce4-2067-4d9f-adee-83af5b33919f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2cf2f836c7c0852a7a72f97a832ca7d9131985ad2ee27a015c653cb13ad40b40"
+        }
+      ],
+      "score": null
+    }
+  },
+  "sha256": "d5ee390224ae7a79f53c6d7306c0473ad455df7f047020905725a5cb6a38ed30"
+}

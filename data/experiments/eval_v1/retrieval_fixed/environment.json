@@ -1,0 +1,25 @@
+{
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "os": "Darwin",
+  "architecture": "arm64",
+  "packages": {
+    "numpy": "2.5.2",
+    "torch": "2.13.0",
+    "sentence-transformers": "6.0.1",
+    "transformers": "5.16.1",
+    "chromadb": "1.5.9",
+    "tiktoken": "0.14.0",
+    "rank-bm25": "0.2.2",
+    "jieba": "0.42.1",
+    "PyMuPDF": "1.28.2",
+    "pymupdf4llm": "1.28.2",
+    "pytesseract": "0.3.13",
+    "python-docx": "1.2.0",
+    "PyYAML": "6.0.3"
+  },
+  "encoder_device": "mps:0",
+  "cpu_threads": 4,
+  "tokenizer": "cl100k_base",
+  "tokenizer_vocab_sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+  "paid_api_calls": 0
+}

@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "task_id": "3e24d05f5dd6c798fbd963df397967134feb9208200ea7cd23290cfd3e4e9937",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If your New York State driver license is revoked, it means your license is canceled.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Restore license after revocation#1_0::c0001"
+                ],
+                "reason": "The context states '吊销意味着您的驾照被取消' which translates to 'revocation means your license is canceled'."
+              },
+              {
+                "text": "Once the revocation period ends, you must apply for a new license and may need to retake the written and road tests.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Restore license after revocation#1_0::c0001"
+                ],
+                "reason": "The context says '一旦吊销期结束，您必须申请新的驾照。您可能还需要重新参加笔试和路考。' which matches."
+              },
+              {
+                "text": "For most revocations, you must first request and receive approval from the DMV Driver Improvement Unit (DIU) before applying for a new license at a DMV office.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Restore license after revocation#1_0::c0001"
+                ],
+                "reason": "The context states '对于大多数吊销情况，您必须先向DMV驾驶员改进部门（DIU）请求并获得批准，然后才能在DMV办公室申请新的驾驶执照。'"
+              },
+              {
+                "text": "The DIU will review your complete driving record to determine if you meet New York State requirements.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Restore license after revocation#1_0::c0001"
+                ],
+                "reason": "The context says 'DIU必须审查您的完整驾驶记录，以确定您是否符合纽约州法律和要求获得批准。'"
+              },
+              {
+                "text": "If you hold a license from another state, you must obtain DIU approval to restore your New York driving privilege.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Restore license after revocation#1_0::c0001"
+                ],
+                "reason": "The context states '如果您在其他州持有驾照，您必须获得DIU的批准才能恢复您的纽约州驾驶特权。'"
+              },
+              {
+                "text": "Note that certain out-of-state convictions, such as alcohol or drug-related violations, can lead to revocation (e.g., at least 90 days if you are 21 or older, or at least one year if under 21).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Tickets received in another state#3_0::c0000"
+                ],
+                "reason": "The context provides details: 'If you are 21 years of age or older ... your New York State driver license will be revoked for at least 90 days.' and 'If you are under the age of 21 ... your New York State driver license will be revoked for at least one year.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4fee0258addd42c68af70093e3c0601a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1389,
+                "completion_tokens": 693,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 693,
+                  "prompt_tokens": 1389,
+                  "total_tokens": 2082,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1005
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0046451999999999995,
+              "accounted_rmb": 0.0046451999999999995,
+              "usage_unknown": false,
+              "seconds": 3.669090986251831,
+              "error": null,
+              "response": {
+                "id": "229c4fa6-827a-45de-80e0-8cf7b4e49110",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5114b237fe4eb3146cae1ea92cd7e4179b324a395d7d15c3d02407d4b4153964"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 6,
+      "supported_external_claims": 6,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If your New York State driver license is revoked, it means your license is canceled.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0001"
+          ],
+          "reason": "The context states '吊销意味着您的驾照被取消' which translates to 'revocation means your license is canceled'."
+        },
+        {
+          "text": "Once the revocation period ends, you must apply for a new license and may need to retake the written and road tests.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0001"
+          ],
+          "reason": "The context says '一旦吊销期结束，您必须申请新的驾照。您可能还需要重新参加笔试和路考。' which matches."
+        },
+        {
+          "text": "For most revocations, you must first request and receive approval from the DMV Driver Improvement Unit (DIU) before applying for a new license at a DMV office.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0001"
+          ],
+          "reason": "The context states '对于大多数吊销情况，您必须先向DMV驾驶员改进部门（DIU）请求并获得批准，然后才能在DMV办公室申请新的驾驶执照。'"
+        },
+        {
+          "text": "The DIU will review your complete driving record to determine if you meet New York State requirements.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0001"
+          ],
+          "reason": "The context says 'DIU必须审查您的完整驾驶记录，以确定您是否符合纽约州法律和要求获得批准。'"
+        },
+        {
+          "text": "If you hold a license from another state, you must obtain DIU approval to restore your New York driving privilege.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0001"
+          ],
+          "reason": "The context states '如果您在其他州持有驾照，您必须获得DIU的批准才能恢复您的纽约州驾驶特权。'"
+        },
+        {
+          "text": "Note that certain out-of-state convictions, such as alcohol or drug-related violations, can lead to revocation (e.g., at least 90 days if you are 21 or older, or at least one year if under 21).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Tickets received in another state#3_0::c0000"
+          ],
+          "reason": "The context provides details: 'If you are 21 years of age or older ... your New York State driver license will be revoked for at least 90 days.' and 'If you are under the age of 21 ... your New York State driver license will be revoked for at least one year.'"
+        }
+      ]
+    }
+  },
+  "sha256": "055aa31972e7110f0ccae4d46a2c8f0982c72ab3762ab7d486f055974d560bb5"
+}

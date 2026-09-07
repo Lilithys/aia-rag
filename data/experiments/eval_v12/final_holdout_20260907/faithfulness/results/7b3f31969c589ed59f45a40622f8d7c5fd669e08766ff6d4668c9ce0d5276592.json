@@ -1,0 +1,250 @@
+{
+  "payload": {
+    "task_id": "7b3f31969c589ed59f45a40622f8d7c5fd669e08766ff6d4668c9ce0d5276592",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "补办非驾驶员身份证需根据情况选择方式。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0001"
+                ],
+                "reason": "The context states replacement is possible under certain conditions, implying method depends on situation."
+              },
+              {
+                "text": "若证件丢失、损毁或地址变更，可申请更换；若已过期则需续期或新申请。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0001"
+                ],
+                "reason": "Directly supported by context c0001."
+              },
+              {
+                "text": "若持有Standard证件，新证将显示“NOT FOR FEDERAL PURPOSES”，且不能寄往备用地址。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0004",
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "c0004 states online Standard replacement shows that phrase; c0005 states online orders cannot use alternate address."
+              },
+              {
+                "text": "填写MV-44表格，附身份证明复印件及费用（支票或汇票，收款人为“Commissioner of Motor Vehicles”），寄至NYS Department of Motor Vehicles, 207 Genesee Street, Suite 6, Utica, NY 13501-2874。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0004"
+                ],
+                "reason": "Directly supported by c0004."
+              },
+              {
+                "text": "若符合SSI资格，可申请减免费或免费，需提供SSI证明。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0004"
+                ],
+                "reason": "c0004 describes reduced fee or no fee with SSI proof."
+              },
+              {
+                "text": "携带当前Standard非驾驶员ID、申请表及付款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "c0005 lists these items for office replacement."
+              },
+              {
+                "text": "必须邮寄申请，附MV-44表格、身份证明复印件、费用，建议附预付费回邮信封。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "c0005 states overseas must mail with these items and suggests prepaid envelope."
+              },
+              {
+                "text": "需前往DMV办公室。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "c0005 says name or other changes require visiting DMV office."
+              },
+              {
+                "text": "若在生日后40天内下单，可避免“UNDER 21”标识。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "c0005 states order within 40 days after birthday to avoid UNDER 21."
+              },
+              {
+                "text": "新ID将在2周内邮寄至记录地址或备用地址。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "c0005 says receive in 2 weeks and mail to record or alternate address."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2d0895b9021942e092d479af6f150a31",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1946,
+                "completion_tokens": 846,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 846,
+                  "prompt_tokens": 1946,
+                  "total_tokens": 2792,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1562
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0061692,
+              "accounted_rmb": 0.0061692,
+              "usage_unknown": false,
+              "seconds": 4.548156023025513,
+              "error": null,
+              "response": {
+                "id": "84e9d6ac-02db-4d41-a69a-1d86f778ed46",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "878b5011beffc4159a3409d348db91cfb5e8633e681e3dc5bc6168c55285f574"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 10,
+      "supported_external_claims": 10,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "补办非驾驶员身份证需根据情况选择方式。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0001"
+          ],
+          "reason": "The context states replacement is possible under certain conditions, implying method depends on situation."
+        },
+        {
+          "text": "若证件丢失、损毁或地址变更，可申请更换；若已过期则需续期或新申请。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0001"
+          ],
+          "reason": "Directly supported by context c0001."
+        },
+        {
+          "text": "若持有Standard证件，新证将显示“NOT FOR FEDERAL PURPOSES”，且不能寄往备用地址。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0004",
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "c0004 states online Standard replacement shows that phrase; c0005 states online orders cannot use alternate address."
+        },
+        {
+          "text": "填写MV-44表格，附身份证明复印件及费用（支票或汇票，收款人为“Commissioner of Motor Vehicles”），寄至NYS Department of Motor Vehicles, 207 Genesee Street, Suite 6, Utica, NY 13501-2874。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0004"
+          ],
+          "reason": "Directly supported by c0004."
+        },
+        {
+          "text": "若符合SSI资格，可申请减免费或免费，需提供SSI证明。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0004"
+          ],
+          "reason": "c0004 describes reduced fee or no fee with SSI proof."
+        },
+        {
+          "text": "携带当前Standard非驾驶员ID、申请表及付款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "c0005 lists these items for office replacement."
+        },
+        {
+          "text": "必须邮寄申请，附MV-44表格、身份证明复印件、费用，建议附预付费回邮信封。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "c0005 states overseas must mail with these items and suggests prepaid envelope."
+        },
+        {
+          "text": "需前往DMV办公室。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "c0005 says name or other changes require visiting DMV office."
+        },
+        {
+          "text": "若在生日后40天内下单，可避免“UNDER 21”标识。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "c0005 states order within 40 days after birthday to avoid UNDER 21."
+        },
+        {
+          "text": "新ID将在2周内邮寄至记录地址或备用地址。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "c0005 says receive in 2 weeks and mail to record or alternate address."
+        }
+      ]
+    }
+  },
+  "sha256": "132b9cf8915db08f57c01b7c4178cf21ca68c762d5a06f8b6c29c0f2b6a0454b"
+}

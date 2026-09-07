@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "02427275ceaed37a1a239239fff59c00d2c00469f2b99cc7e6988b75e8028648",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.5833333333041666,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about working while receiving Social Security benefits and earnings limits, but it does not contain specific information about whether a spouse will receive benefits or how spousal benefits are calculated. The answer about spousal benefits is not derived from the given context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ee59b6d7d28c45f9a69ac13e0e1438bb",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1446,
+                "completion_tokens": 69,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1446,
+                  "total_tokens": 1515,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 678
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013659000000000002,
+              "accounted_rmb": 0.0013659000000000002,
+              "usage_unknown": false,
+              "seconds": 1.1740107536315918,
+              "error": null,
+              "response": {
+                "id": "10ecdd2c-28c4-4571-b815-dab589335d50",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e0f572d956e84faf3bc6be58a296a010e856807f6c75ba8b6f000346a449ec32"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about spousal benefits, including how benefits are calculated when both spouses qualify on their own work records. The answer directly reflects this information, stating that if a spouse qualifies on their own record, Social Security pays that amount first, and if the benefit on the other's record is higher, an additional amount brings the combined benefit up to that higher amount. This matches the context's explanation that 'we always pay your own benefits first' and 'you will get a combination of benefits equaling the higher spouse benefit.'",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2cb212a73c7a49b987518a4195e2c76b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2073,
+                "completion_tokens": 124,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 124,
+                  "prompt_tokens": 2073,
+                  "total_tokens": 2197,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1305
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0025539,
+              "accounted_rmb": 0.0025539,
+              "usage_unknown": false,
+              "seconds": 2.0398001670837402,
+              "error": null,
+              "response": {
+                "id": "d283381b-a6fb-4cb5-b2d7-bbee6a9512c2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f3b08bc38821bb2f1f2a6ff48da073adede68b09f8f6233e786d0311c58b746f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about spousal benefits, including how benefits are calculated when both spouses qualify, which directly addresses the user's question about whether their spouse will receive benefits and how the amount is determined.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d82e62220ae8492585e7fdfcffc1a053",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2066,
+                "completion_tokens": 57,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 2066,
+                  "total_tokens": 2123,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 1042
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018707,
+              "accounted_rmb": 0.0018707,
+              "usage_unknown": false,
+              "seconds": 1.8245267868041992,
+              "error": null,
+              "response": {
+                "id": "ca39173e-1dac-4593-bb88-4958dd4d3c47",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "453ddd877ab52c577b544a63fd1ed3dffb2007085a5e627a11394d83ea16d5b9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses working while receiving Social Security benefits and earnings limits, but it does not contain information about whether a spouse will receive benefits based on the user's record. The answer provides specific details about spousal benefits that are not present in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0f959fcc1c4a4117bdf4052890b5e53e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1430,
+                "completion_tokens": 66,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 66,
+                  "prompt_tokens": 1430,
+                  "total_tokens": 1496,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 406
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009572000000000001,
+              "accounted_rmb": 0.0009572000000000001,
+              "usage_unknown": false,
+              "seconds": 1.3598709106445312,
+              "error": null,
+              "response": {
+                "id": "43849702-017e-4b08-a11c-7b34d7cee9d5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5d55f5c20e59e367f1545ad9b2902d00702e5f23d60199ce5a8c200781bbaf57"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses survivor benefits and mentions that a surviving spouse may receive benefits, but it does not directly address the question about whether the spouse will receive benefits based on the user's work record. The answer provided is not explicitly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "48bff3dee9ce42e0a4de40f51d7f6a5e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1410,
+                "completion_tokens": 64,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 64,
+                  "prompt_tokens": 1410,
+                  "total_tokens": 1474,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 386
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009182000000000001,
+              "accounted_rmb": 0.0009182000000000001,
+              "usage_unknown": false,
+              "seconds": 1.1570689678192139,
+              "error": null,
+              "response": {
+                "id": "dcc6371a-3eb9-496a-bc81-a4921ded9263",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ce06cecff1316e2eb587bd4c136f689b053397f3b81af11c9cf7baf6b093c1b7"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "fb8ab9f10056020724953a5bf9cba45c150f5fa87a08d46cb0479520816f7297"
+}

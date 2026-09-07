@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "f5c648af5c19f6a8df7c8300271c2e5880040ab771411e82f85da307cb49855c",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "total family benefits generally about 150 to 180 percent of worker's full retirement benefit",
+                "coverage": "covered",
+                "response_quote": "about 150 to 180 percent of the worker's full retirement benefit",
+                "reason": "Response states the general range correctly."
+              },
+              {
+                "requirement": "limit applies when family members qualify on same record",
+                "coverage": "covered",
+                "response_quote": "This limit applies when family members, such as a spouse or children, also qualify for benefits on the same record",
+                "reason": "Response correctly conditions the limit on family members qualifying on the same record."
+              },
+              {
+                "requirement": "worker's own benefit not reduced; family members' benefits reduced proportionately if limit exceeded",
+                "coverage": "covered",
+                "response_quote": "Your own benefit is not reduced by this limit; if the total family benefits exceed the limit, the family members' benefits are reduced proportionately",
+                "reason": "Response correctly states the worker's benefit is unaffected and family benefits are reduced proportionately."
+              }
+            ],
+            "reason": "The response accurately answers the question about total family benefits, providing the correct percentage range and necessary conditions, all supported by the retrieved documents."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "10d521508f4947cb8d287e82d645aa32",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5505,
+                "completion_tokens": 285,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 285,
+                  "prompt_tokens": 5505,
+                  "total_tokens": 5790,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4609
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0082408,
+              "accounted_rmb": 0.0082408,
+              "usage_unknown": false,
+              "seconds": 2.7416810989379883,
+              "error": null,
+              "response": {
+                "id": "dbd3b589-7ff0-45da-bf5c-137d38e4a9b0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "075a7e25c74bb76ce964c03fc5085b49bdb79a4bb34f70d7b28411ea3bb0c848"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "total family benefits generally about 150 to 180 percent of worker's full retirement benefit",
+            "coverage": "covered",
+            "response_quote": "about 150 to 180 percent of the worker's full retirement benefit",
+            "reason": "Response states the general range correctly."
+          },
+          {
+            "requirement": "limit applies when family members qualify on same record",
+            "coverage": "covered",
+            "response_quote": "This limit applies when family members, such as a spouse or children, also qualify for benefits on the same record",
+            "reason": "Response correctly conditions the limit on family members qualifying on the same record."
+          },
+          {
+            "requirement": "worker's own benefit not reduced; family members' benefits reduced proportionately if limit exceeded",
+            "coverage": "covered",
+            "response_quote": "Your own benefit is not reduced by this limit; if the total family benefits exceed the limit, the family members' benefits are reduced proportionately",
+            "reason": "Response correctly states the worker's benefit is unaffected and family benefits are reduced proportionately."
+          }
+        ],
+        "reason": "The response accurately answers the question about total family benefits, providing the correct percentage range and necessary conditions, all supported by the retrieved documents."
+      }
+    }
+  },
+  "sha256": "1251906db768f5f2617c2ba8ab96a99d4cdbc461b382192e84b125844850c784"
+}

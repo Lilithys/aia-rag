@@ -1,0 +1,142 @@
+{
+  "payload": {
+    "task_id": "6a4950a3980b6e8c584f01a75a6f0ec9d4f3a0d630d5aff322eebb339a13d617",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "州外保险文件是指由纽约州以外的保险公司签发的汽车保险单。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "New York State Insurance Requirements#3_0::c0000"
+                ],
+                "reason": "The context defines out-of-state insurance as policies issued by companies outside New York, and the response's definition aligns with that."
+              },
+              {
+                "text": "根据纽约州规定，如果您的车辆在纽约州注册，则必须持有纽约州签发的汽车责任保险",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "New York State Insurance Requirements#3_0::c0000"
+                ],
+                "reason": "The context states that to register a vehicle in NY, you must have NY-issued auto liability insurance."
+              },
+              {
+                "text": "纽约州绝不会接受任何类型的州外保险。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "New York State Insurance Requirements#3_0::c0000",
+                  "Moving out of New York State#3_0::c0000"
+                ],
+                "reason": "Both contexts explicitly state that NY never accepts any type of out-of-state insurance for vehicles registered in NY."
+              },
+              {
+                "text": "若将纽约州保险替换为州外保险，将被视为保险中断，可能导致车辆注册和驾驶执照被暂停。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Moving out of New York State#3_0::c0000"
+                ],
+                "reason": "The context states that replacing NY insurance with out-of-state insurance will be considered a lapse, and DMV may suspend registration and driver license."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "dfdba1c7a7b34945b7fdf64682d34e22",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2313,
+                "completion_tokens": 407,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 407,
+                  "prompt_tokens": 2313,
+                  "total_tokens": 2720,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1929
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0047442,
+              "accounted_rmb": 0.0047442,
+              "usage_unknown": false,
+              "seconds": 2.874392032623291,
+              "error": null,
+              "response": {
+                "id": "c3c1183f-1ee1-4e15-9942-45d047fa3c39",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3efef4c8c35556b293cd7bea73771685e0f73b8c859d2dbedf9ae1bc398d42a7"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "州外保险文件是指由纽约州以外的保险公司签发的汽车保险单。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "New York State Insurance Requirements#3_0::c0000"
+          ],
+          "reason": "The context defines out-of-state insurance as policies issued by companies outside New York, and the response's definition aligns with that."
+        },
+        {
+          "text": "根据纽约州规定，如果您的车辆在纽约州注册，则必须持有纽约州签发的汽车责任保险",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "New York State Insurance Requirements#3_0::c0000"
+          ],
+          "reason": "The context states that to register a vehicle in NY, you must have NY-issued auto liability insurance."
+        },
+        {
+          "text": "纽约州绝不会接受任何类型的州外保险。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "New York State Insurance Requirements#3_0::c0000",
+            "Moving out of New York State#3_0::c0000"
+          ],
+          "reason": "Both contexts explicitly state that NY never accepts any type of out-of-state insurance for vehicles registered in NY."
+        },
+        {
+          "text": "若将纽约州保险替换为州外保险，将被视为保险中断，可能导致车辆注册和驾驶执照被暂停。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Moving out of New York State#3_0::c0000"
+          ],
+          "reason": "The context states that replacing NY insurance with out-of-state insurance will be considered a lapse, and DMV may suspend registration and driver license."
+        }
+      ]
+    }
+  },
+  "sha256": "61ebd28c34542d47340b906b29d09da0897d547d1cbd3ad70c61352992e8c60d"
+}

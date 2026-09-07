@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "76092cbc8aec1c352483caf079e0bf8e9d5b25ab5489f7f000b58b701e4456a4",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "如果您需要撤回（取消）已请求的Board hearing，您或您的代表应在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明撤回听证会的原因，并包含您的姓名和上诉的VA档案编号。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context states that to withdraw a hearing request, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal."
+              },
+              {
+                "text": "您可以将书面请求邮寄或传真至委员会。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context says you can send the written request by mail or fax to the Board."
+              },
+              {
+                "text": "撤回听证会不会加快您的上诉进度，除非您同时切换到Direct Review选项（仅在特定时间可行）。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context states that withdrawing the hearing request will not speed up your appeal unless you also switch to the Direct Review option, which is only available at certain times."
+              },
+              {
+                "text": "如果您撤回听证会请求，您仍可以在撤回后90天内提交新证据供法官审核。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context says you can still submit new evidence within 90 days after withdrawing the hearing request."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f6edc68736124868a02b31d7fa0ba3f3",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3166,
+                "completion_tokens": 451,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 451,
+                  "prompt_tokens": 3166,
+                  "total_tokens": 3617,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 2654
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0060361,
+              "accounted_rmb": 0.0060361,
+              "usage_unknown": false,
+              "seconds": 3.0561161041259766,
+              "error": null,
+              "response": {
+                "id": "dd3db2ac-b88a-415e-b1f8-9b14abf784b8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "24532a97d38585edea60c1d61625566a1ad8b2d9279a95f20387baddddb37cac"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "如果您需要撤回（取消）已请求的Board hearing，您或您的代表应在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明撤回听证会的原因，并包含您的姓名和上诉的VA档案编号。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context states that to withdraw a hearing request, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal."
+        },
+        {
+          "text": "您可以将书面请求邮寄或传真至委员会。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context says you can send the written request by mail or fax to the Board."
+        },
+        {
+          "text": "撤回听证会不会加快您的上诉进度，除非您同时切换到Direct Review选项（仅在特定时间可行）。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context states that withdrawing the hearing request will not speed up your appeal unless you also switch to the Direct Review option, which is only available at certain times."
+        },
+        {
+          "text": "如果您撤回听证会请求，您仍可以在撤回后90天内提交新证据供法官审核。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context says you can still submit new evidence within 90 days after withdrawing the hearing request."
+        }
+      ]
+    }
+  },
+  "sha256": "a75aaf16c3fb0a688bf63883df4da8751a2d0823a0dd779aa0d8843b90ce2c2d"
+}

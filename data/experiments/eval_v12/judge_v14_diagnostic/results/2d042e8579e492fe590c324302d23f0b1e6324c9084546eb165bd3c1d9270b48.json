@@ -1,0 +1,114 @@
+{
+  "payload": {
+    "binding_sha256": "414c9dca89c33d6d7fd5c0f279d45c652c51bba3ba8f07b48d9710bb433b725d",
+    "case_id": "rerank_windowed_k5:6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "resolution_mode": "direct_answer",
+            "task_resolution_ok": false,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "Rescheduling requires a written request with good cause at least two weeks before the hearing, including name, VA file number, and reason for new date.",
+                "coverage": "contradicted",
+                "response_quote": "you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date",
+                "reason": "The response omits the requirement of good cause for rescheduling and instead provides docket-order details, failing to state the essential condition."
+              },
+              {
+                "requirement": "Withdrawal request must be sent at least 2 weeks before hearing with name, VA file number, and reason.",
+                "coverage": "covered",
+                "response_quote": "send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal",
+                "reason": "The response correctly includes the withdrawal requirements."
+              },
+              {
+                "requirement": "After withdrawing, you can still submit new evidence within 90 days.",
+                "coverage": "covered",
+                "response_quote": "You can still submit new evidence within 90 days after withdrawing your hearing request",
+                "reason": "The response correctly states the 90-day evidence submission option."
+              }
+            ],
+            "reason": "The response fails to mention that rescheduling requires good cause, a material condition in the reference, and instead provides unsupported docket-order details. Thus it is incomplete and incorrect."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c21f5f124a6d4fc8a74ce152249b6047",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4551,
+                "completion_tokens": 348,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 348,
+                  "prompt_tokens": 4551,
+                  "total_tokens": 4899,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3655
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0070933,
+              "accounted_rmb": 0.0070933,
+              "usage_unknown": false,
+              "seconds": 2.725947856903076,
+              "error": null,
+              "response": {
+                "id": "2831faa5-22bc-47b9-9079-ad34461cf8ab",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d01cd4b58949a6b53c19286b810538854f267a0de1b82913abccf5bfc9936d57"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "resolution_mode": "direct_answer",
+        "task_resolution_ok": false,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "Rescheduling requires a written request with good cause at least two weeks before the hearing, including name, VA file number, and reason for new date.",
+            "coverage": "contradicted",
+            "response_quote": "you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date",
+            "reason": "The response omits the requirement of good cause for rescheduling and instead provides docket-order details, failing to state the essential condition."
+          },
+          {
+            "requirement": "Withdrawal request must be sent at least 2 weeks before hearing with name, VA file number, and reason.",
+            "coverage": "covered",
+            "response_quote": "send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal",
+            "reason": "The response correctly includes the withdrawal requirements."
+          },
+          {
+            "requirement": "After withdrawing, you can still submit new evidence within 90 days.",
+            "coverage": "covered",
+            "response_quote": "You can still submit new evidence within 90 days after withdrawing your hearing request",
+            "reason": "The response correctly states the 90-day evidence submission option."
+          }
+        ],
+        "reason": "The response fails to mention that rescheduling requires good cause, a material condition in the reference, and instead provides unsupported docket-order details. Thus it is incomplete and incorrect."
+      }
+    }
+  },
+  "sha256": "c42dc95f0284972adab42adeca43834e640b8fe33bc0e220326abbe87a6aeb8d"
+}

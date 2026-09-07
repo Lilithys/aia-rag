@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+    "item_sha256": "491afd128cbf3012571af9257cb51e71099cb5567e14c983c4379b3f170d3b09",
+    "result": {
+      "request_id": "874fc3f4023141cb9949eab3b6fada5a",
+      "session_id": "58f62ac630b5ec13054947b7b8520476",
+      "turn_id": 9,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "To apply for federal student aid, you must complete and submit the Free Application for Federal Student Aid (FAFSA) form each year. Based on your FAFSA results, your school will send you a financial aid offer, which may include loans. Before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note. Contact your school's financial aid office for specific steps. Note that you must reapply each year by submitting a new FAFSA form.",
+        "citations": [
+          "Loans | Federal Student Aid#1_0::c0005",
+          "Staying Eligible | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Aid for International Study | Federal Student Aid#1_0::c0005",
+          "text": "[Many students get federal student aid to help pay for their study at international schools, either at the undergraduate or graduate level. > Get a Degree From an International School > How do I apply for a federal student loan to use at an international school?]\nApply for student loans at your international school using the same process you use to apply for aid in the U.S.\n\n1.  Fill out a FAFSA form at fafsa.gov as early as possible. The FAFSA form is available on Oct. 1 for school attendance that begins any time from July 1 of the following year through June of the year beyond that. There is no special FAFSA form for students planning to attend international schools. Learn how to fill out the FAFSA form.\n2.  Make sure the school you plan to attend has your FAFSA information. International schools have the ability to access your FAFSA information electronically. When you fill out the FAFSA form, list the school you plan to attend in the question about Federal School Codes. (The FAFSA site has a tool to let you search for your school s Federal School Code.) Once it s listed on your FAFSA form, your school will then download your data.\n3.  Find out the next steps from your chosen school. Different schools proceed differently at this stage of the process. Ask your school how you will get your loan money what paperwork do you need to fill out, what are the deadlines, etc. Keep track of everything that is required of you; make copies of paper documents (or scan them) and file them safely; and meet those deadlines! And if your parent plans to get a Direct PLUS Loan, he or she should keep a close eye on required documents and deadlines as well.\n4.  If you are a first-year student borrowing federal funds for the first time, you will have to complete entrance counseling. This means you ll be required to read text or watch a video online, or attend an in-person presentation, in order to learn about the responsibilities of taking out a loan. Your entrance counseling might happen before you leave the U.S. or after you arrive at your school; it depends on the school."
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0005",
+          "text": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        },
+        {
+          "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+        },
+        {
+          "chunk_id": "Aid for International Study | Federal Student Aid#1_0::c0001",
+          "text": "[Many students get federal student aid to help pay for their study at international schools, either at the undergraduate or graduate level. > Study Abroad for a Semester or Year]\nWhether you plan to study abroad for a semester or get your entire degree outside the United States, you may be able to use federal student aid to pay your expenses. The type of aid you can get and the process you must follow will depend on the type of program (study-abroad or full degree) you plan to enter. Your status as an undergraduate or graduate student also affects the type of aid for which you re eligible, just as it does at schools in the U.S.\n\nYou may receive federal student aid for a study-abroad program, if you meet the aid eligibility criteria. If you aren t already in the habit of filling out a Free Application for Federal Student Aid (FAFSA) form each year for college, be sure to learn about the federal student aid programs and the FAFSA process. You ll need to fill out a FAFSA form before you can receive federal student aid to study abroad.\n\nTo determine which types of aid you ll be able to use for your study-abroad program, contact the financial aid office at your American school. (If your American school doesn t participate in the federal student aid programs, then you won t be able to get federal student aid to help pay for your study abroad.) Start early, because it s important to get all necessary paperwork done on time, both at your American school and at the international school.\n\nThe rest of the information on this page (below this section) does not apply to you if what you re interested in is doing a study-abroad program."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Aid for International Study | Federal Student Aid#1_0::c0005",
+          "text": "[Many students get federal student aid to help pay for their study at international schools, either at the undergraduate or graduate level. > Get a Degree From an International School > How do I apply for a federal student loan to use at an international school?]\nApply for student loans at your international school using the same process you use to apply for aid in the U.S.\n\n1.  Fill out a FAFSA form at fafsa.gov as early as possible. The FAFSA form is available on Oct. 1 for school attendance that begins any time from July 1 of the following year through June of the year beyond that. There is no special FAFSA form for students planning to attend international schools. Learn how to fill out the FAFSA form.\n2.  Make sure the school you plan to attend has your FAFSA information. International schools have the ability to access your FAFSA information electronically. When you fill out the FAFSA form, list the school you plan to attend in the question about Federal School Codes. (The FAFSA site has a tool to let you search for your school s Federal School Code.) Once it s listed on your FAFSA form, your school will then download your data.\n3.  Find out the next steps from your chosen school. Different schools proceed differently at this stage of the process. Ask your school how you will get your loan money what paperwork do you need to fill out, what are the deadlines, etc. Keep track of everything that is required of you; make copies of paper documents (or scan them) and file them safely; and meet those deadlines! And if your parent plans to get a Direct PLUS Loan, he or she should keep a close eye on required documents and deadlines as well.\n4.  If you are a first-year student borrowing federal funds for the first time, you will have to complete entrance counseling. This means you ll be required to read text or watch a video online, or attend an in-person presentation, in order to learn about the responsibilities of taking out a loan. Your entrance counseling might happen before you leave the U.S. or after you arrive at your school; it depends on the school."
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0005",
+          "text": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        },
+        {
+          "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+        },
+        {
+          "chunk_id": "Aid for International Study | Federal Student Aid#1_0::c0001",
+          "text": "[Many students get federal student aid to help pay for their study at international schools, either at the undergraduate or graduate level. > Study Abroad for a Semester or Year]\nWhether you plan to study abroad for a semester or get your entire degree outside the United States, you may be able to use federal student aid to pay your expenses. The type of aid you can get and the process you must follow will depend on the type of program (study-abroad or full degree) you plan to enter. Your status as an undergraduate or graduate student also affects the type of aid for which you re eligible, just as it does at schools in the U.S.\n\nYou may receive federal student aid for a study-abroad program, if you meet the aid eligibility criteria. If you aren t already in the habit of filling out a Free Application for Federal Student Aid (FAFSA) form each year for college, be sure to learn about the federal student aid programs and the FAFSA process. You ll need to fill out a FAFSA form before you can receive federal student aid to study abroad.\n\nTo determine which types of aid you ll be able to use for your study-abroad program, contact the financial aid office at your American school. (If your American school doesn t participate in the federal student aid programs, then you won t be able to get federal student aid to help pay for your study abroad.) Start early, because it s important to get all necessary paperwork done on time, both at your American school and at the international school.\n\nThe rest of the information on this page (below this section) does not apply to you if what you re interested in is doing a study-abroad program."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0005",
+          "document": "Loans | Federal Student Aid#1_0",
+          "heading": [
+            "Federal student loans for college or career school are an investment in your future.",
+            "How do I get a federal student loan?"
+          ],
+          "source_file": "studentaid_057.md",
+          "excerpt": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "document": "Staying Eligible | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_075.md",
+          "excerpt": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "To apply for federal student aid, you must complete and submit the Free Application for Federal Student Aid (FAFSA) form each year. Based on your FAFSA results, your school will send you a financial aid offer, which may include loans. Before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note. Contact your school's financial aid office for specific steps. Note that you must reapply each year by submitting a new FAFSA form.",
+          "citations": [
+            "Loans | Federal Student Aid#1_0::c0005",
+            "Staying Eligible | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "5a5f7c01fae345f289e965d8bfb3df0e",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2440,
+              "completion_tokens": 145,
+              "cached_tokens": 384,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 145,
+                "prompt_tokens": 2440,
+                "total_tokens": 2585,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 384,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 384,
+                "prompt_cache_miss_tokens": 2056
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0037557,
+            "accounted_rmb": 0.0037557,
+            "usage_unknown": false,
+            "seconds": 1.9836909770965576,
+            "error": null,
+            "response": {
+              "id": "12de39e5-4d08-4f43-a81c-07da00ce1964",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "28f286c50073f5ca08fa5c2fa7756ea26a7f90a560ce05533d1c73cfab92d975"
+      },
+      "latency_ms": {
+        "queue_wait": 0.047042034566402435,
+        "retrieval": 1829.0455000242218,
+        "generation": 1987.5281669665128,
+        "total": 3817.439250065945
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.20509708300232887,
+        "rerank_seconds": 1.6239111670292914,
+        "top1_dense_score": 0.7953984141349792,
+        "candidate_ids": [
+          "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+          "Eligibility Requirements | Federal Student Aid#1_0::c0000",
+          "Financial Aid Eligibility | Federal Student Aid#1_0::c0000",
+          "Aid for International Study | Federal Student Aid#1_0::c0001",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0010",
+          "Loans | Federal Student Aid#1_0::c0005",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0011",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "Regaining Eligibility | Federal Student Aid#1_0::c0000",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0008",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "Eligibility for Students with Criminal Convictions | Federal Student Aid#1_0::c0000",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0009",
+          "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "Accepting Aid | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0007",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0002",
+          "Aid for International Study | Federal Student Aid#1_0::c0005"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 46,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.8290242080111057
+      },
+      "raw_citations": [
+        "Loans | Federal Student Aid#1_0::c0005",
+        "Staying Eligible | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "9dea60061286fe7109292b9559306548f63b9047cd739bb8c47af562e2c7ad56"
+}

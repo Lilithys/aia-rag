@@ -1,0 +1,114 @@
+{
+  "payload": {
+    "task_id": "ff9405aed19ec69ccb102ce8d69406e26ccaf7ed710dcf86d41d2311d39f27b5",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Yes, all listed requirements are mandatory.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The response claims all listed requirements are mandatory, but the context states 'at least one of these must be true', indicating not all are mandatory. This contradicts the context."
+              },
+              {
+                "text": "You must meet at least one of the two conditions: be enrolled in VA health care, or be a current or surviving spouse or dependent child of a Veteran or service member enrolled in CHAMPVA.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VA Dental Insurance Program (VADIP) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states 'One of these must be true' and lists the two conditions, matching the response."
+              },
+              {
+                "text": "Both are required for eligibility under VADIP.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The context says 'at least one' must be true, not both. This claim is contradicted by the context."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d3a0aa95d3954f358b2d3b24b727dc93",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4075,
+                "completion_tokens": 281,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 281,
+                  "prompt_tokens": 4075,
+                  "total_tokens": 4356,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3691
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0068202,
+              "accounted_rmb": 0.0068202,
+              "usage_unknown": false,
+              "seconds": 2.6796250343322754,
+              "error": null,
+              "response": {
+                "id": "7163d6c2-4719-459d-a1cf-4111b1c1fc11",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5e239689f4ae700a8c03c2166bab0fd721e6baa07ea446dca8549b60f208a11f"
+        }
+      ],
+      "score": 0.3333333333333333,
+      "external_claims": 3,
+      "supported_external_claims": 1,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Yes, all listed requirements are mandatory.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The response claims all listed requirements are mandatory, but the context states 'at least one of these must be true', indicating not all are mandatory. This contradicts the context."
+        },
+        {
+          "text": "You must meet at least one of the two conditions: be enrolled in VA health care, or be a current or surviving spouse or dependent child of a Veteran or service member enrolled in CHAMPVA.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA Dental Insurance Program (VADIP) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states 'One of these must be true' and lists the two conditions, matching the response."
+        },
+        {
+          "text": "Both are required for eligibility under VADIP.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The context says 'at least one' must be true, not both. This claim is contradicted by the context."
+        }
+      ]
+    }
+  },
+  "sha256": "efa3edc5e9a506d8058b40a43a92b4541a1798d282a99d4a81edcec8dfd38bc3"
+}

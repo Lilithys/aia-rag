@@ -1,0 +1,183 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "70329cc2e43aac739cfa4e016fbc1784::agent-turn-2",
+    "item_sha256": "a9afdf765be7caeda260d86e66af8912b54743f7b29437f875c5d896709300ab",
+    "result": {
+      "request_id": "09ee8c5fd69e4f86adeafe32b6ea36c2",
+      "session_id": "70329cc2e43aac739cfa4e016fbc1784",
+      "turn_id": 1,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "You renew your FAFSA application because the FAFSA form applies to a single academic year, so you need to submit a new FAFSA form each year to receive financial aid for the next year. Renewing is easy because it is prefilled with certain information from the prior academic year, and you just need to update any changed information and provide new income and tax details. Additionally, you must renew to continue meeting eligibility requirements for federal student aid.",
+        "citations": [
+          "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "Staying Eligible | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "text": "# How to Renew Your FAFSA® Application | Federal Student Aid\n\n# How to Renew Your FAFSA Application\n\nAnother academic year, another chance to receive financial aid!\n\nThe Free Application for Federal Student Aid (FAFSA) form applies to a single academic year. That means you need to submit a FAFSA form each year and make sure you meet the FAFSA deadlines for state and college aid to maximize the aid you could receive.\n\n## It s Easy to Renew Your FAFSA Form\n\nWhen you log in to renew your FAFSA form, it s prefilled with certain information from the prior academic year. You ll need to provide new income and tax information and update any information that may have changed.\n\nFollow These Instructions to Renew Your FAFSA Form\n\n1.  Log in with your FSA ID username and password at fafsa.gov. Learn what to do if you forgot your FSA ID username or password.\n2.  Select FAFSA Renewal. Note: If you log in as a student on the myStudentAid mobile app and are eligible for a FAFSA renewal, the renewal form automatically displays.\n3.  Update any prefilled information that has changed, and provide the requested financial information.\n4.  Sign and submit the FAFSA renewal.\n\nNote: The ability to renew your FAFSA form on fafsa.gov is for your convenience. You can also choose to start a new FAFSA form."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 开始填写FAFSA表格并提供您的基本个人信息]\nFAFSA表格于10月1日开放用于下一学年。我们鼓励您在10月1日或之后尽快填写，以满足FAFSA截止日期。\n\nFAFSA提交选项 您可以选择以下任何方式提交FAFSA表格：\n\n- 登录fafsa.gov在线申请，或\n- 在myStudentAid移动应用程序中填写表格，该应用程序可在App Store（iOS）或Google Play（Android）上获得，或\n- 填写2020-21 FAFSA PDF或2019-20 FAFSA PDF（注意：您必须打印并邮寄FAFSA PDF以供处理），或\n- 致电1-800-4-FED-AID（1-800-433-3243）或334-523-2691（聋人或听力障碍者TTY：1-800-730-8913）索取FAFSA PDF打印件；然后填写表格并邮寄以供处理\n\n如果您是第一次在fafsa.gov上开始申请，请选择“从这里开始”。当您开始时，请记住以下几点：\n\n- 您的姓名和社会安全号码必须与社会安全卡上的信息一致。遵循此提示，以避免收到您的信息与社会安全管理局记录（或您的FSA ID账户）不匹配的通知。\n- 如果您担心在登录页面上提供个人信息，请选择虚拟键盘选项以增加安全性。\n- 为确保应用程序正常运行，请确保浏览器中的弹出窗口阻止程序允许来自fafsa.ed.gov的弹出窗口。了解如何在浏览器中启用弹出窗口。\n\n如果您是第一次在myStudentAid移动应用程序上开始，您将选择“从这里开始”，然后需要输入您的FSA ID。没有FSA ID，您无法在移动应用程序上填写FAFSA表格。\n\n如果您是18至25岁之间的男性，并且尚未在兵役登记系统中注册，当被问及是否希望注册时，请选择“是”。否则，您将没有资格获得联邦学生援助。此要求适用于任何出生时被指定为男性的人。\n\n以下提示适用于您在线或通过移动应用程序填写表格：\n\n- 在申请开始时，您将创建一个保存密钥，这是一个临时密码，如果您开始填写FAFSA表格但未完成并保存，之后想再次打开以完成它时使用。保存密钥的一个好处是，如果学生和家长在不同地点填写FAFSA，他们可以使用此功能访问FAFSA表格。（与需要保密的FSA ID不同，告诉您的父母您的保存密钥是可以的。）\n- 如果您正在申请夏季学期，请联系您大学的财政援助办公室，以确定在填写FAFSA表格时应选择哪个学年。\n\n如果您去年填写了FAFSA表格并希望续签，请在FAFSA主页上选择“登录”，选择“我是学生”，输入您的FSA ID，并确保在出现选项时选择“FAFSA续签”。这样，许多（非财务）问题将为您预先填写。只需确保更新自去年以来发生的任何变化。\n\n只有学生本人才能使用其 FSA ID 启动 FAFSA 续填。如果您是受抚养学生，且您的父母帮助您填写 FAFSA 表格，您应启动 FAFSA 续填，保存后，将保存密钥交给您的父母，以便他们访问您的 FAFSA 表格。\n\n如果您使用移动应用并以学生身份登录，且符合 FAFSA 续填资格，续填表格将自动为您显示。\n\n由于冠状病毒国家紧急状态，FAFSA PDF 的处理时间可能比平时更长。我们建议您以电子方式提交 FAFSA 表格，以避免处理延迟。"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0000",
+          "text": "How to renew a license"
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0009",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 提供财务信息]\nFAFSA 表格要求提供财务信息，包括税务表格中的信息以及储蓄和支票账户余额。\n\n- 2020-21 FAFSA 表格要求提供 2018 年的税务信息。\n- 如果您正在填写 2019-20 FAFSA 表格，您需要提供 2017 年的税务信息。\n\n注意：如果您和/或您的父母报税后，您家庭的财务状况发生了巨大变化，请按要求完成 FAFSA 问题，提交 FAFSA 表格，然后联系您计划就读的学校，并与财务援助办公室讨论您的情况。\n\n### 如果您的父母（或您本人）在报税后婚姻状况发生变化该怎么办\n\n以下是一些针对此类情况的提示，以2020-2021学年FAFSA表格为例：\n\n- FAFSA表格询问的是填写当天的婚姻状况。因此，如果学生或父母现在已婚，但在2018年未婚（因此未以已婚身份报税），则需要在FAFSA表格中添加配偶2018年的收入。\n- 同样，如果学生或父母在2018年以已婚身份报税，但在填写FAFSA表格时已不再已婚，则需要减去配偶的收入。\n- 如果学生或父母在2018年报税时已婚，随后离婚，现在又与其他人结婚，则需要进行更多计算：先减去前配偶的收入，再加上新配偶的收入。\n\nFAFSA帮助文本在您填写申请时会更详细地涵盖所有这些情况。\n\n### 使用美国国税局数据检索工具（IRS DRT）自动转移您的税务信息\n\nIRS DRT会自动将税务信息转移到FAFSA表格中。如果提供此选项，请务必考虑使用。（如果您申请了报税延期，直到9月或10月才报税，请了解您的纳税申报信息何时可能通过IRS DRT获取。）\n\n尝试此资源*将税务信息转入FAFSA表格的简单步骤*图形说明如何使用IRS数据检索工具将税务信息转入FAFSA表格。\n\n以下是IRS DRT流程的工作原理，假设您的税务信息可用：\n\n1. IRS DRT会将您带到IRS网站，您需要提供与纳税申报表上完全一致的姓名和其他信息。部分信息将从您的FAFSA表格中预填。\n2. 在IRS网站上，您会看到一个页面，表明您的税务信息可用。（出于安全和隐私保护，您不会看到实际信息。）您可以选择将信息导入FAFSA表格，也可以取消请求并返回FAFSA网站。\n3. 如果您选择将信息导入FAFSA表格，您会发现FAFSA网站上不会显示您的税务信息，而是在相应字段中显示“已从IRS转移”。您将无法更改这些答案。\n\n使用IRS DRT可以节省您的时间和精力：\n\n- 您无需查找税务记录。\n- 您无需担心在FAFSA表格上输入税务信息时出错。\n- 如果您被选中进行验证，您可能无需提供IRS税务记录或所得税申报表的签名副本。\n\n#### 我可以通过IRS DRT更改转入FAFSA表格的纳税申报信息吗？\n\n不能。通过IRS DRT转移的信息无法更改。请记住，转移的信息来自您已提交的纳税申报表，因此不应需要更改。如果您的财务状况发生变化或您提交了1040X修订申报表，请联系您学校的助学金办公室，讨论学校是否适合调整您FAFSA表格上的信息。\n\n#### 如果我已通过IRS DRT将纳税申报信息转入FAFSA表格，但后来决定改为手动输入信息，我可以清除通过DRT转移的信息吗？\n\n我们强烈建议不要清除信息。IRS DRT仍然是向FAFSA表格输入纳税申报信息最快、最准确的方式。此外，使用IRS DRT将税务信息输入FAFSA表格可能会减少您日后需要向学校提供的文书工作。\n\n尽管如此，如果您仍然希望清除通过IRS DRT转移的信息并手动输入税务信息，且尚未提交申请或更正，您可以选择页面顶部的“重置FAFSA”按钮（或在移动应用屏幕右上角的菜单中）。请注意，这样做将清除整个申请或更正，您将不得不重新开始整个申请或更正。\n\n#### 如果我手动输入税务信息，我能看到它吗？\n\n可以。手动输入的纳税申报信息将在fafsa.gov、移动应用和您的*学生资助报告*上可见。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "text": "# How to Renew Your FAFSA® Application | Federal Student Aid\n\n# How to Renew Your FAFSA Application\n\nAnother academic year, another chance to receive financial aid!\n\nThe Free Application for Federal Student Aid (FAFSA) form applies to a single academic year. That means you need to submit a FAFSA form each year and make sure you meet the FAFSA deadlines for state and college aid to maximize the aid you could receive.\n\n## It s Easy to Renew Your FAFSA Form\n\nWhen you log in to renew your FAFSA form, it s prefilled with certain information from the prior academic year. You ll need to provide new income and tax information and update any information that may have changed.\n\nFollow These Instructions to Renew Your FAFSA Form\n\n1.  Log in with your FSA ID username and password at fafsa.gov. Learn what to do if you forgot your FSA ID username or password.\n2.  Select FAFSA Renewal. Note: If you log in as a student on the myStudentAid mobile app and are eligible for a FAFSA renewal, the renewal form automatically displays.\n3.  Update any prefilled information that has changed, and provide the requested financial information.\n4.  Sign and submit the FAFSA renewal.\n\nNote: The ability to renew your FAFSA form on fafsa.gov is for your convenience. You can also choose to start a new FAFSA form."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 开始填写FAFSA表格并提供您的基本个人信息]\nFAFSA表格于10月1日开放用于下一学年。我们鼓励您在10月1日或之后尽快填写，以满足FAFSA截止日期。\n\nFAFSA提交选项 您可以选择以下任何方式提交FAFSA表格：\n\n- 登录fafsa.gov在线申请，或\n- 在myStudentAid移动应用程序中填写表格，该应用程序可在App Store（iOS）或Google Play（Android）上获得，或\n- 填写2020-21 FAFSA PDF或2019-20 FAFSA PDF（注意：您必须打印并邮寄FAFSA PDF以供处理），或\n- 致电1-800-4-FED-AID（1-800-433-3243）或334-523-2691（聋人或听力障碍者TTY：1-800-730-8913）索取FAFSA PDF打印件；然后填写表格并邮寄以供处理\n\n如果您是第一次在fafsa.gov上开始申请，请选择“从这里开始”。当您开始时，请记住以下几点：\n\n- 您的姓名和社会安全号码必须与社会安全卡上的信息一致。遵循此提示，以避免收到您的信息与社会安全管理局记录（或您的FSA ID账户）不匹配的通知。\n- 如果您担心在登录页面上提供个人信息，请选择虚拟键盘选项以增加安全性。\n- 为确保应用程序正常运行，请确保浏览器中的弹出窗口阻止程序允许来自fafsa.ed.gov的弹出窗口。了解如何在浏览器中启用弹出窗口。\n\n如果您是第一次在myStudentAid移动应用程序上开始，您将选择“从这里开始”，然后需要输入您的FSA ID。没有FSA ID，您无法在移动应用程序上填写FAFSA表格。\n\n如果您是18至25岁之间的男性，并且尚未在兵役登记系统中注册，当被问及是否希望注册时，请选择“是”。否则，您将没有资格获得联邦学生援助。此要求适用于任何出生时被指定为男性的人。\n\n以下提示适用于您在线或通过移动应用程序填写表格：\n\n- 在申请开始时，您将创建一个保存密钥，这是一个临时密码，如果您开始填写FAFSA表格但未完成并保存，之后想再次打开以完成它时使用。保存密钥的一个好处是，如果学生和家长在不同地点填写FAFSA，他们可以使用此功能访问FAFSA表格。（与需要保密的FSA ID不同，告诉您的父母您的保存密钥是可以的。）\n- 如果您正在申请夏季学期，请联系您大学的财政援助办公室，以确定在填写FAFSA表格时应选择哪个学年。\n\n如果您去年填写了FAFSA表格并希望续签，请在FAFSA主页上选择“登录”，选择“我是学生”，输入您的FSA ID，并确保在出现选项时选择“FAFSA续签”。这样，许多（非财务）问题将为您预先填写。只需确保更新自去年以来发生的任何变化。\n\n只有学生本人才能使用其 FSA ID 启动 FAFSA 续填。如果您是受抚养学生，且您的父母帮助您填写 FAFSA 表格，您应启动 FAFSA 续填，保存后，将保存密钥交给您的父母，以便他们访问您的 FAFSA 表格。\n\n如果您使用移动应用并以学生身份登录，且符合 FAFSA 续填资格，续填表格将自动为您显示。\n\n由于冠状病毒国家紧急状态，FAFSA PDF 的处理时间可能比平时更长。我们建议您以电子方式提交 FAFSA 表格，以避免处理延迟。"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0000",
+          "text": "How to renew a license"
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "text": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0009",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 提供财务信息]\nFAFSA 表格要求提供财务信息，包括税务表格中的信息以及储蓄和支票账户余额。\n\n- 2020-21 FAFSA 表格要求提供 2018 年的税务信息。\n- 如果您正在填写 2019-20 FAFSA 表格，您需要提供 2017 年的税务信息。\n\n注意：如果您和/或您的父母报税后，您家庭的财务状况发生了巨大变化，请按要求完成 FAFSA 问题，提交 FAFSA 表格，然后联系您计划就读的学校，并与财务援助办公室讨论您的情况。\n\n### 如果您的父母（或您本人）在报税后婚姻状况发生变化该怎么办\n\n以下是一些针对此类情况的提示，以2020-2021学年FAFSA表格为例：\n\n- FAFSA表格询问的是填写当天的婚姻状况。因此，如果学生或父母现在已婚，但在2018年未婚（因此未以已婚身份报税），则需要在FAFSA表格中添加配偶2018年的收入。\n- 同样，如果学生或父母在2018年以已婚身份报税，但在填写FAFSA表格时已不再已婚，则需要减去配偶的收入。\n- 如果学生或父母在2018年报税时已婚，随后离婚，现在又与其他人结婚，则需要进行更多计算：先减去前配偶的收入，再加上新配偶的收入。\n\nFAFSA帮助文本在您填写申请时会更详细地涵盖所有这些情况。\n\n### 使用美国国税局数据检索工具（IRS DRT）自动转移您的税务信息\n\nIRS DRT会自动将税务信息转移到FAFSA表格中。如果提供此选项，请务必考虑使用。（如果您申请了报税延期，直到9月或10月才报税，请了解您的纳税申报信息何时可能通过IRS DRT获取。）\n\n尝试此资源*将税务信息转入FAFSA表格的简单步骤*图形说明如何使用IRS数据检索工具将税务信息转入FAFSA表格。\n\n以下是IRS DRT流程的工作原理，假设您的税务信息可用：\n\n1. IRS DRT会将您带到IRS网站，您需要提供与纳税申报表上完全一致的姓名和其他信息。部分信息将从您的FAFSA表格中预填。\n2. 在IRS网站上，您会看到一个页面，表明您的税务信息可用。（出于安全和隐私保护，您不会看到实际信息。）您可以选择将信息导入FAFSA表格，也可以取消请求并返回FAFSA网站。\n3. 如果您选择将信息导入FAFSA表格，您会发现FAFSA网站上不会显示您的税务信息，而是在相应字段中显示“已从IRS转移”。您将无法更改这些答案。\n\n使用IRS DRT可以节省您的时间和精力：\n\n- 您无需查找税务记录。\n- 您无需担心在FAFSA表格上输入税务信息时出错。\n- 如果您被选中进行验证，您可能无需提供IRS税务记录或所得税申报表的签名副本。\n\n#### 我可以通过IRS DRT更改转入FAFSA表格的纳税申报信息吗？\n\n不能。通过IRS DRT转移的信息无法更改。请记住，转移的信息来自您已提交的纳税申报表，因此不应需要更改。如果您的财务状况发生变化或您提交了1040X修订申报表，请联系您学校的助学金办公室，讨论学校是否适合调整您FAFSA表格上的信息。\n\n#### 如果我已通过IRS DRT将纳税申报信息转入FAFSA表格，但后来决定改为手动输入信息，我可以清除通过DRT转移的信息吗？\n\n我们强烈建议不要清除信息。IRS DRT仍然是向FAFSA表格输入纳税申报信息最快、最准确的方式。此外，使用IRS DRT将税务信息输入FAFSA表格可能会减少您日后需要向学校提供的文书工作。\n\n尽管如此，如果您仍然希望清除通过IRS DRT转移的信息并手动输入税务信息，且尚未提交申请或更正，您可以选择页面顶部的“重置FAFSA”按钮（或在移动应用屏幕右上角的菜单中）。请注意，这样做将清除整个申请或更正，您将不得不重新开始整个申请或更正。\n\n#### 如果我手动输入税务信息，我能看到它吗？\n\n可以。手动输入的纳税申报信息将在fafsa.gov、移动应用和您的*学生资助报告*上可见。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "document": "How to Renew Your FAFSA® Application | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_047.md",
+          "excerpt": "# How to Renew Your FAFSA® Application | Federal Student Aid\n\n# How to Renew Your FAFSA Application\n\nAnother academic year, another chance to receive financial aid!\n\nThe Free Application for Federal Student Aid (FAFSA) form applies to a single academic year. That means you need to submit a FAFSA form each year and make sure you meet the FAFSA deadlines for state and college aid to maximize the aid you could receive.\n\n## It s Easy to Renew Your FAFSA Form\n\nWhen you log in to renew your FAFSA form, it s prefilled with certain information from the prior academic year. You ll need to provide new income and tax information and update any information that may have changed.\n\nFollow These Instructions to Renew Your FAFSA Form\n\n1.  Log in with your FSA ID username and password at fafsa.gov. Learn what to do if you forgot your FSA ID username or password.\n2.  Select FAFSA Renewal. Note: If you log in as a student on the myStudentAid mobile app and are eligible for a FAFSA renewal, the renewal form automatically displays.\n3.  Update any prefilled information that has changed, and provide the requested financial information.\n4.  Sign and submit the FAFSA renewal.\n\nNote: The ability to renew your FAFSA form on fafsa.gov is for your convenience. You can also choose to start a new FAFSA form."
+        },
+        {
+          "chunk_id": "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "document": "Staying Eligible | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_075.md",
+          "excerpt": "# 保持资格 | 联邦学生援助\n\n# 如果你想继续获得联邦学生援助，请确保你保持资格。\n\n你需要继续满足基本资格标准，取得令人满意的学业进步，并每年填写FAFSA表格。\n\n一旦你填写了联邦学生援助免费申请（FAFSA）表格，并获得了助学金、贷款或勤工助学资金来帮助你支付大学或职业学校的费用，请确保你在整个学年及以后的年份中保持资格。\n\n## 继续满足基本资格标准\n\n请记住，允许你获得联邦学生援助的基本资格标准在你接受援助的整个期间都适用，而不仅仅是在你首次填写FAFSA表格并获得援助时。\n\n## 取得令人满意的学业进步\n\n你需要取得令人满意的学业进步才能继续获得联邦学生援助。换句话说，你必须取得足够好的成绩，并完成足够的课程（学分、学时等），以便在你学校可接受的时间范围内，持续朝着成功完成学位或证书的目标前进。\n\n每所学校都有针对经济援助目的的学业进步满意政策；要查看你学校的政策，你可以查看学校网站或咨询经济援助办公室的人员。你学校的政策将告诉你：\n\n- 你需要保持的绩点（或同等标准）；\n- 你需要以多快的速度朝着毕业前进（例如，每年结束时你应该成功完成多少学分）；\n- 未完成的课程、退课、重修课程、更换专业或从其他学校转学分如何影响你的学业进步满意状态；\n- 你的学校多久评估一次你的进步；\n- 如果你的学校评估时你未能取得令人满意的学业进步，会发生什么；\n- 你是否被允许对学校关于你未取得满意学业进步的决定提出申诉（申诉理由通常包括家庭成员去世、你的疾病或受伤，或其他特殊情况）；以及\n- 你如何重新获得联邦学生援助的资格。\n\n## 每年填写FAFSA表格\n\n当你填写FAFSA表格时，你是在申请特定年度的援助。为了在接下来的一年获得援助，你需要提交下一年的FAFSA表格。幸运的是，FAFSA网站让你轻松做到这一点，它允许你提交一份续填FAFSA表格，该表格会记住你上一年报告的某些信息，并将其放入你的新FAFSA表格中。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "You renew your FAFSA application because the FAFSA form applies to a single academic year, so you need to submit a new FAFSA form each year to receive financial aid for the next year. Renewing is easy because it is prefilled with certain information from the prior academic year, and you just need to update any changed information and provide new income and tax details. Additionally, you must renew to continue meeting eligibility requirements for federal student aid.",
+          "citations": [
+            "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+            "Staying Eligible | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "e9e99e175c514279964e34bd140abbb8",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2865,
+              "completion_tokens": 146,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 146,
+                "prompt_tokens": 2865,
+                "total_tokens": 3011,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2609
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0045833,
+            "accounted_rmb": 0.0045833,
+            "usage_unknown": false,
+            "seconds": 1.6817607879638672,
+            "error": null,
+            "response": {
+              "id": "be5fc3cb-7738-4c1e-9e49-44abfc4b572c",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "e6f8518a53f3e290e248e840e233009b42a643242111345bf04f3e70f3d72b86"
+      },
+      "latency_ms": {
+        "queue_wait": 0.010999967344105244,
+        "retrieval": 1677.7072920231149,
+        "generation": 1685.0659999763593,
+        "total": 3364.268000004813
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10461291705723852,
+        "rerank_seconds": 1.5730409580282867,
+        "top1_dense_score": 0.7235304713249207,
+        "candidate_ids": [
+          "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "How to Correct or Update Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "How to renew a license#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0000",
+          "FAFSA® Completion by High School and Public School District | Federal Student Aid#1_0::c0000",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0005",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0009",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0000",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "Renew a hazardous materials (HazMat) endorsement#1_0::c0000",
+          "Dependency Status | Federal Student Aid#1_0::c0000",
+          "FAFSA® Application Deadlines | Federal Student Aid#1_0::c0000",
+          "Regaining Eligibility | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0002"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 53,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.6776848749723285
+      },
+      "raw_citations": [
+        "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+        "Staying Eligible | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "dec1efb3bcd5c60d4a744e0eb9b579341b66ebea983e48900453efdb8bfce834"
+}

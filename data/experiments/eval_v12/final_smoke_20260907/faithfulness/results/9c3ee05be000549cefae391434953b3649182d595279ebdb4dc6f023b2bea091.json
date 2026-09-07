@@ -1,0 +1,212 @@
+{
+  "payload": {
+    "task_id": "9c3ee05be000549cefae391434953b3649182d595279ebdb4dc6f023b2bea091",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If your driver license or driving privilege is revoked, it means your license has been canceled.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0005"
+                ],
+                "reason": "The context states that revocation means your license has been canceled."
+              },
+              {
+                "text": "You must reapply for a new license after the revocation period ends.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0005"
+                ],
+                "reason": "The context says you must reapply for a new license after the revocation period ends."
+              },
+              {
+                "text": "In most cases, you must first request DMV approval before obtaining a new license.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0005"
+                ],
+                "reason": "The context states that in most cases you must first request DMV approval before obtaining a new license."
+              },
+              {
+                "text": "You may need to retake the written and road tests and pay a license reapplication fee.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0005"
+                ],
+                "reason": "The context says you may need to retake written and road tests and pay a reapplication fee."
+              },
+              {
+                "text": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0005"
+                ],
+                "reason": "The context states that your application may be denied if you have a high-risk driving record or fail to meet DMV requirements."
+              },
+              {
+                "text": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Suspensions and revocations#3_0::c0005"
+                ],
+                "reason": "The context says you may need to pay a driver civil penalty before restoration."
+              },
+              {
+                "text": "If your revocation was due to an uninsured accident, you must contact the DMV Insurance Services Bureau.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay driver civil penalty#1_0::c0006"
+                ],
+                "reason": "The context states that if revocation is due to an uninsured accident, you must contact the DMV Insurance Services Bureau."
+              },
+              {
+                "text": "Paying the civil penalty does not restore your driving privilege; you must apply and be approved by DMV.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay driver civil penalty#1_0::c0006"
+                ],
+                "reason": "The context states that paying the civil penalty does not restore driving privilege; you must apply and be approved by DMV."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "800236e0d18e4d05bfc0f9e650cef2fc",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1184,
+                "completion_tokens": 737,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 737,
+                  "prompt_tokens": 1184,
+                  "total_tokens": 1921,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 800
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0045357,
+              "accounted_rmb": 0.0045357,
+              "usage_unknown": false,
+              "seconds": 3.4883968830108643,
+              "error": null,
+              "response": {
+                "id": "9b560460-cc47-4623-bf24-0ce6675c7f7a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "34d9360b356ffb4a739dd797ef1e610df0888d798e89935f1dc5d2df1bdcb2b7"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 8,
+      "supported_external_claims": 8,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If your driver license or driving privilege is revoked, it means your license has been canceled.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ],
+          "reason": "The context states that revocation means your license has been canceled."
+        },
+        {
+          "text": "You must reapply for a new license after the revocation period ends.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ],
+          "reason": "The context says you must reapply for a new license after the revocation period ends."
+        },
+        {
+          "text": "In most cases, you must first request DMV approval before obtaining a new license.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ],
+          "reason": "The context states that in most cases you must first request DMV approval before obtaining a new license."
+        },
+        {
+          "text": "You may need to retake the written and road tests and pay a license reapplication fee.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ],
+          "reason": "The context says you may need to retake written and road tests and pay a reapplication fee."
+        },
+        {
+          "text": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ],
+          "reason": "The context states that your application may be denied if you have a high-risk driving record or fail to meet DMV requirements."
+        },
+        {
+          "text": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ],
+          "reason": "The context says you may need to pay a driver civil penalty before restoration."
+        },
+        {
+          "text": "If your revocation was due to an uninsured accident, you must contact the DMV Insurance Services Bureau.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay driver civil penalty#1_0::c0006"
+          ],
+          "reason": "The context states that if revocation is due to an uninsured accident, you must contact the DMV Insurance Services Bureau."
+        },
+        {
+          "text": "Paying the civil penalty does not restore your driving privilege; you must apply and be approved by DMV.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay driver civil penalty#1_0::c0006"
+          ],
+          "reason": "The context states that paying the civil penalty does not restore driving privilege; you must apply and be approved by DMV."
+        }
+      ]
+    }
+  },
+  "sha256": "4597a2489722faad742a706f1cfc19dc6baf8c0212232699ddcf625a2ebd57df"
+}

@@ -1,0 +1,10 @@
+# Source hashes and corpus hashes must survive checkout on every platform.
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+data/corpus/** -text
+data/experiments/** -text
+doc/evaluation/v1/releases/** -text
+*.npy binary
+*.pdf binary
+*.docx binary

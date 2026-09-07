@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "8adeb3f3f85943bc7258c180fac90a74::agent-turn-11",
+    "item_sha256": "cab3c23691887bbfb0707c3c1722283cd600d651dcdab8287c5e1cdf09e3c6aa",
+    "result": {
+      "request_id": "acf8ec3f60e84ff4a5e052592a95632f",
+      "session_id": "8adeb3f3f85943bc7258c180fac90a74",
+      "turn_id": 10,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "Eligibility for VR&E benefits depends on your specific situation. Generally, you may be eligible if you are a service member or veteran with a service-connected disability and an employment handicap (your disability limits your ability to prepare for, obtain, or maintain suitable employment). Specific conditions include: if you have a VA disability rating, you can apply through eBenefits; if you're a service member without a rating, you may qualify if you're going through the Physical Evaluation Board process, expect an other than dishonorable discharge with a VA memorandum rating of 20% or more, or are in the Integrated Disability Evaluation System (IDES). Severely injured active-duty members may automatically receive benefits under certain laws. After applying, a Vocational Rehabilitation Counselor will determine if you have an employment handicap and eligibility. For more precise guidance, please clarify your current status (e.g., veteran with rating, active duty, etc.).",
+        "citations": [
+          "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "clarify"
+      },
+      "contexts": [
+        {
+          "chunk_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "text": "# How To Apply For VA Voc Rehab And Employment | Veterans Affairs\n\n# How to apply for VA Voc Rehab and Employment\n\nFind out how to apply for VA Voc Rehab and Employment (also known as Vocational Rehabilitation and Employment, VR&E, or Chapter 31 benefits).\n\n## How do I apply if I already have a VA disability rating?\n\n1.  Sign in to your eBenefits account.\n\n2.  Select Apply.\n\n3.  Click Vocational Rehabilitation and Employment Benefits.\n\n4.  Select the Vocational Rehabilitation and Employment benefit you re applying for.\n\n5.  If you re eligible, we ll invite you to an orientation session at your nearest VA regional benefit office.\n\nGo to eBenefits to apply\n\n## What if I m a service member who hasn t yet received a service-connected disability rating?\n\nYou don t need to wait for a rating. Instead, please fill out VA Vocational Rehabilitation - Getting Ahead After You Get Out (VA Form 28-0588). Download VA Form 28-0588 (PDF)\n\nYou may be eligible for VR&E benefits and services if you re in at least one of the below situations.\n\nAt least one of these must be true. You re:\n\n- Going through the Physical Evaluation Board process, or\n- Expecting an other than dishonorable discharge and have a VA memorandum rating of 20% or more, or\n- Entered in the Integrated Disability Evaluation System (IDES). Learn more about accessing VR&E services through IDES\n\nPlease note: Severely injured active-duty service members can automatically receive VR&E benefits before VA issues a disability rating, because of Sec. 1631(b) of the National Defense Authorization Act (PL 110-181). The sunset date of that law has been extended to September 30, 2018, through Sec. 724 of Public Law 113-291.\n\n## What happens after I apply?\n\nAfter you apply, we ll schedule a meeting for you with a Vocational Rehabilitation Counselor (VRC) to find out if you have an employment handicap and if you re eligible for VR&E benefits and services. You have an employment handicap if your service-connected disability limits your ability to prepare for, obtain, and maintain suitable employment (a job that doesn t make your disability worse, is stable, and matches your abilities, aptitudes, and interests).\n\nAfter we make an entitlement decision, you and your counselor will work together to develop a rehabilitation plan. This plan outlines the rehabilitation and other services that VR&E will provide.\n\nYou can also meet with VRCs called VetSuccess on Campus (VSOC) counselors at schools participating in the VetSuccess on Campus (VSOC) program.\n\nLearn more about VetSuccess on Campus\n\n## What s included in a rehabilitation plan?\n\nA rehabilitation plan is a written plan that outlines the resources we ll use to help you find employment. Depending on your situation, your VRC will work with you to choose one of the following support-and-services tracks to help you find and keep a job, and live as independently as possible:\n\n- Reemployment with a former employer\n- Job placement and counseling services for new employment\n- Help with starting your own business\n- Long-term training or services to help you find work in a different field that better suits your abilities and interests\n- Independent living services if you can t return to work right away\n\n## What happens after my VRC creates my rehabilitation plan?\n\nYour VRC will help you put your plan into action. They ll also provide ongoing counseling and help you get tutorial assistance, job training, work-readiness support, and medical referrals.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0004",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > 获取更多信息]\n我们提供通过以下项目同时获得培训和实际动手工作经验的机会：\n\n- VR&E 特殊雇主激励（SEI）计划，适用于面临就业挑战的合格退伍军人。下载 SEI 计划情况说明书（PDF）\n\n- VR&E 无薪工作经验（NPWE）计划，适用于已确立职业目标且在手把手环境中学习容易或由于缺乏工作经验而难以找到工作的合格退伍军人和现役军人。下载 NPWE 计划情况说明书（PDF）观看此视频以了解更多关于 NPWE 计划的信息\n\n我们还提供：\n\n- 位于我们 VA 地区办公室和许多外派地点的 VR&E 就业协调员，他们可以帮助你获得可用的就业服务。在你附近寻找就业协调员\n\n- 帮助你从军队过渡到大学生活的辅导员。了解 VetSuccess on Campus\n\n- 链接到 VA 外部的更多资源，这些资源可以帮助你求职。查看我们的外部资源列表\n\n- 如果你正在参加 VR&E 就业计划，并且因自然灾害或其他灾难失去了住房，你可能符合资格获得额外2个月的就业调整津贴。联系你的 VRC 了解更多信息\n\n观看这些视频以了解更多关于 VR&E 的信息：VR&E Chapter 31 服务VR&E 的5条就业途径\n\n### 关于VR&E福利和服务的更多信息\n\n-\n\n#### 面向服役人员和退伍军人的职业康复项目\n\n探索VR&E支持与服务路径，以获取学习新技能、寻找新工作、创业、获得教育咨询或重返原工作岗位的帮助。\n\n-\n\n#### 如何申请VA职业康复与就业\n\n了解作为服役人员或退伍军人如何申请VR&E福利和服务。\n\n-\n\n#### 受抚养家庭成员\n\n如果您是患有服役相关残疾的服役人员或退伍军人的受抚养家庭成员，请了解您是否有资格获得某些咨询服务、培训和教育的福利。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "text": "# VR&E 独立生活轨道 | Veterans Affairs\n\n# VR&E 独立生活轨道\n\n如果你的服役相关残疾限制了你的日常生活活动能力（如洗澡、穿衣、进入社区和与他人互动），并且你无法立即重返工作岗位，你可能符合通过 Vocational Rehabilitation and Employment (VR&E) 独立生活轨道获得独立生活服务的资格。如果你和你的 Vocational Rehabilitation Counselor (VRC) 设定了找工作的目标，你也可以在寻找工作的过程中获得这些服务。在这两种情况下，你的 VRC 都可以帮助你恢复日常活动能力。了解你是否可能有资格获得服务，以帮助你尽可能独立地生活。\n\n### 我可以通过 VR&E 获得独立生活服务吗？\n\n如果你是符合 VR&E 福利资格的服役人员或退伍军人，且患有服役相关残疾，并且满足以下所有要求，你可能符合独立生活服务的资格。\n\n以下所有条件都必须满足：\n\n- 你有严重的就业障碍 (SEH)，并且\n- 你的残疾使你无法寻找或重返工作，并且\n- 你需要服务以尽可能独立地生活\n\n请注意：有就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（一份不会使你的残疾恶化、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我可以获得哪些类型的福利？\n\n根据你的需求，服务可能包括：\n\n- 评估和咨询，以确定你的需求和目标\n- 与专家进行家庭咨询\n- 转介至支持资源\n- 指导以帮助你了解是否符合我们的适应性住房计划的资格。这些计划可以帮助你改造你的家，如拓宽门口或增加坡道，以便你能更独立地生活。了解更多关于适应性住房补助的信息\n\n这些服务通常持续最多 24 个月。在某些情况下，你可能能够使用服务超过这个时间。\n\n## 我如何获得这些福利？\n\n首先，你需要申请 VR&E 福利。然后，你将与你的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果你有 VA 残疾评级，请按照以下步骤申请：\n\n1.  登录你的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  点击 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您到最近的 VA 区域福利办公室参加 orientation 会议。\n\n6.  如果您符合资格，VRC 将与您合作，确定您与服务相关的残疾的严重程度、您是否准备好工作，以及您是否会从独立生活服务中受益。您的 VRC 将帮助您制定一份个性化的、书面的独立生活计划，以满足您的需求。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n了解如果您尚未获得残疾评级，如何申请\n\n最后更新："
+        },
+        {
+          "chunk_id": "VR&E Reemployment Track | Veterans Affairs#1_0::c0000",
+          "text": "# VR&E Reemployment Track | Veterans Affairs\n\n# VR&E Reemployment track\n\n作为退伍军人，您受《Uniformed Services Employment and Reemployment Rights Act (USERRA)》保护。这意味着您的服役不会使您在平民职业生涯中处于不利地位。如果您是因公致残的退伍军人，Vocational Rehabilitation and Employment (VR&E) Reemployment track 可以帮助您的雇主满足您的需求。您的 Vocational Rehabilitation Counselor (VRC) 可以提供全方位的康复服务，并可直接将您转介给 Department of Labor 以启动流程。了解我们如何帮助您重返原工作岗位并支持您的雇主满足您的需求。\n\n### 我能否通过 VR&E 获得重返原工作岗位的帮助？\n\n如果您是因公致残的退伍军人，并且满足以下所有要求，您可能有资格获得帮助。\n\n以下所有条件必须为真。您：\n\n- 有就业障碍或 handicap，并且\n- 已注册 Vocational Rehabilitation and Employment (VR&E)，并且\n- 希望重返原工作岗位\n\n注意：有就业 handicap 意味着您的 service-connected disability 限制了您准备、获得和维持合适就业（不会加重您的残疾、稳定且与您的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我能获得哪些福利？\n\n帮助您重返部署前所担任的工作岗位。\n\n## 如何获得这些福利？\n\n首先，您需要申请 VR&E 福利。然后，您将与您的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果您已有 VA disability rating，请按照以下步骤申请：\n\n1.  登录您的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  选择 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您参加最近的 VA 区域福利办公室的 orientation session。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n如果你还没有收到伤残等级评定，了解如何申请\n\n## 获取更多信息\n\n我们提供通过以下项目同时获得培训和实际动手工作经验的机会，例如：\n\n- 针对在找工作时面临挑战的符合条件的退伍军人的 VR&E 特别雇主激励（SEI）项目。下载 SEI 项目情况说明书（PDF）\n- 针对已有明确职业目标且在手把手环境中学习效果好，或因缺乏工作经验而难以找到工作的符合条件的退伍军人和军人的 VR&E 无薪工作经验（NPWE）项目。下载 NPWE 项目情况说明书（PDF）观看此视频以了解更多关于 NPWE 项目的信息\n\n我们还提供：\n\n- 位于我们的 VA 地区办公室和许多外派地点的 VR&E 就业协调员，他们可以帮助你获取可用的就业服务。查找你附近的就业协调员\n- 帮助你从军队生活过渡到大学生活的辅导员。了解 VetSuccess on Campus\n- 更多 VA 外部资源的链接，这些资源可以帮助你求职。查看我们的外部资源列表\n- 如果你正在参加 VR&E 就业项目，并且因自然或其他灾害失去了住房，你可能符合资格获得额外 2 个月的就业调整津贴。联系你的 VR&E 辅导员以获取更多信息\n\n最后更新："
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0002",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > 我可以获得哪些 VR&E 服务？]\n根据你的需求和目标，服务可能包括：\n\n- 全面评估以确定你的就业能力、技能和兴趣\n\n- 职业咨询和康复规划，以促进就业服务\n\n- 就业服务，如职业培训、简历撰写和其他工作准备支持\n\n- 帮助寻找和保持工作，包括使用特殊雇主激励措施和工作便利\n\n- 在职培训（OJT）、学徒制和无薪工作经验\n\n- 在学院、职业、技术或商业学校接受高等教育培训\n\n- 支持性康复服务，包括个案管理、咨询和医疗转介\n\n- 如果你的残疾严重程度导致无法工作，可提供独立生活服务"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "text": "# How To Apply For VA Voc Rehab And Employment | Veterans Affairs\n\n# How to apply for VA Voc Rehab and Employment\n\nFind out how to apply for VA Voc Rehab and Employment (also known as Vocational Rehabilitation and Employment, VR&E, or Chapter 31 benefits).\n\n## How do I apply if I already have a VA disability rating?\n\n1.  Sign in to your eBenefits account.\n\n2.  Select Apply.\n\n3.  Click Vocational Rehabilitation and Employment Benefits.\n\n4.  Select the Vocational Rehabilitation and Employment benefit you re applying for.\n\n5.  If you re eligible, we ll invite you to an orientation session at your nearest VA regional benefit office.\n\nGo to eBenefits to apply\n\n## What if I m a service member who hasn t yet received a service-connected disability rating?\n\nYou don t need to wait for a rating. Instead, please fill out VA Vocational Rehabilitation - Getting Ahead After You Get Out (VA Form 28-0588). Download VA Form 28-0588 (PDF)\n\nYou may be eligible for VR&E benefits and services if you re in at least one of the below situations.\n\nAt least one of these must be true. You re:\n\n- Going through the Physical Evaluation Board process, or\n- Expecting an other than dishonorable discharge and have a VA memorandum rating of 20% or more, or\n- Entered in the Integrated Disability Evaluation System (IDES). Learn more about accessing VR&E services through IDES\n\nPlease note: Severely injured active-duty service members can automatically receive VR&E benefits before VA issues a disability rating, because of Sec. 1631(b) of the National Defense Authorization Act (PL 110-181). The sunset date of that law has been extended to September 30, 2018, through Sec. 724 of Public Law 113-291.\n\n## What happens after I apply?\n\nAfter you apply, we ll schedule a meeting for you with a Vocational Rehabilitation Counselor (VRC) to find out if you have an employment handicap and if you re eligible for VR&E benefits and services. You have an employment handicap if your service-connected disability limits your ability to prepare for, obtain, and maintain suitable employment (a job that doesn t make your disability worse, is stable, and matches your abilities, aptitudes, and interests).\n\nAfter we make an entitlement decision, you and your counselor will work together to develop a rehabilitation plan. This plan outlines the rehabilitation and other services that VR&E will provide.\n\nYou can also meet with VRCs called VetSuccess on Campus (VSOC) counselors at schools participating in the VetSuccess on Campus (VSOC) program.\n\nLearn more about VetSuccess on Campus\n\n## What s included in a rehabilitation plan?\n\nA rehabilitation plan is a written plan that outlines the resources we ll use to help you find employment. Depending on your situation, your VRC will work with you to choose one of the following support-and-services tracks to help you find and keep a job, and live as independently as possible:\n\n- Reemployment with a former employer\n- Job placement and counseling services for new employment\n- Help with starting your own business\n- Long-term training or services to help you find work in a different field that better suits your abilities and interests\n- Independent living services if you can t return to work right away\n\n## What happens after my VRC creates my rehabilitation plan?\n\nYour VRC will help you put your plan into action. They ll also provide ongoing counseling and help you get tutorial assistance, job training, work-readiness support, and medical referrals.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0004",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > 获取更多信息]\n我们提供通过以下项目同时获得培训和实际动手工作经验的机会：\n\n- VR&E 特殊雇主激励（SEI）计划，适用于面临就业挑战的合格退伍军人。下载 SEI 计划情况说明书（PDF）\n\n- VR&E 无薪工作经验（NPWE）计划，适用于已确立职业目标且在手把手环境中学习容易或由于缺乏工作经验而难以找到工作的合格退伍军人和现役军人。下载 NPWE 计划情况说明书（PDF）观看此视频以了解更多关于 NPWE 计划的信息\n\n我们还提供：\n\n- 位于我们 VA 地区办公室和许多外派地点的 VR&E 就业协调员，他们可以帮助你获得可用的就业服务。在你附近寻找就业协调员\n\n- 帮助你从军队过渡到大学生活的辅导员。了解 VetSuccess on Campus\n\n- 链接到 VA 外部的更多资源，这些资源可以帮助你求职。查看我们的外部资源列表\n\n- 如果你正在参加 VR&E 就业计划，并且因自然灾害或其他灾难失去了住房，你可能符合资格获得额外2个月的就业调整津贴。联系你的 VRC 了解更多信息\n\n观看这些视频以了解更多关于 VR&E 的信息：VR&E Chapter 31 服务VR&E 的5条就业途径\n\n### 关于VR&E福利和服务的更多信息\n\n-\n\n#### 面向服役人员和退伍军人的职业康复项目\n\n探索VR&E支持与服务路径，以获取学习新技能、寻找新工作、创业、获得教育咨询或重返原工作岗位的帮助。\n\n-\n\n#### 如何申请VA职业康复与就业\n\n了解作为服役人员或退伍军人如何申请VR&E福利和服务。\n\n-\n\n#### 受抚养家庭成员\n\n如果您是患有服役相关残疾的服役人员或退伍军人的受抚养家庭成员，请了解您是否有资格获得某些咨询服务、培训和教育的福利。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "text": "# VR&E 独立生活轨道 | Veterans Affairs\n\n# VR&E 独立生活轨道\n\n如果你的服役相关残疾限制了你的日常生活活动能力（如洗澡、穿衣、进入社区和与他人互动），并且你无法立即重返工作岗位，你可能符合通过 Vocational Rehabilitation and Employment (VR&E) 独立生活轨道获得独立生活服务的资格。如果你和你的 Vocational Rehabilitation Counselor (VRC) 设定了找工作的目标，你也可以在寻找工作的过程中获得这些服务。在这两种情况下，你的 VRC 都可以帮助你恢复日常活动能力。了解你是否可能有资格获得服务，以帮助你尽可能独立地生活。\n\n### 我可以通过 VR&E 获得独立生活服务吗？\n\n如果你是符合 VR&E 福利资格的服役人员或退伍军人，且患有服役相关残疾，并且满足以下所有要求，你可能符合独立生活服务的资格。\n\n以下所有条件都必须满足：\n\n- 你有严重的就业障碍 (SEH)，并且\n- 你的残疾使你无法寻找或重返工作，并且\n- 你需要服务以尽可能独立地生活\n\n请注意：有就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（一份不会使你的残疾恶化、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我可以获得哪些类型的福利？\n\n根据你的需求，服务可能包括：\n\n- 评估和咨询，以确定你的需求和目标\n- 与专家进行家庭咨询\n- 转介至支持资源\n- 指导以帮助你了解是否符合我们的适应性住房计划的资格。这些计划可以帮助你改造你的家，如拓宽门口或增加坡道，以便你能更独立地生活。了解更多关于适应性住房补助的信息\n\n这些服务通常持续最多 24 个月。在某些情况下，你可能能够使用服务超过这个时间。\n\n## 我如何获得这些福利？\n\n首先，你需要申请 VR&E 福利。然后，你将与你的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果你有 VA 残疾评级，请按照以下步骤申请：\n\n1.  登录你的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  点击 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您到最近的 VA 区域福利办公室参加 orientation 会议。\n\n6.  如果您符合资格，VRC 将与您合作，确定您与服务相关的残疾的严重程度、您是否准备好工作，以及您是否会从独立生活服务中受益。您的 VRC 将帮助您制定一份个性化的、书面的独立生活计划，以满足您的需求。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n了解如果您尚未获得残疾评级，如何申请\n\n最后更新："
+        },
+        {
+          "chunk_id": "VR&E Reemployment Track | Veterans Affairs#1_0::c0000",
+          "text": "# VR&E Reemployment Track | Veterans Affairs\n\n# VR&E Reemployment track\n\n作为退伍军人，您受《Uniformed Services Employment and Reemployment Rights Act (USERRA)》保护。这意味着您的服役不会使您在平民职业生涯中处于不利地位。如果您是因公致残的退伍军人，Vocational Rehabilitation and Employment (VR&E) Reemployment track 可以帮助您的雇主满足您的需求。您的 Vocational Rehabilitation Counselor (VRC) 可以提供全方位的康复服务，并可直接将您转介给 Department of Labor 以启动流程。了解我们如何帮助您重返原工作岗位并支持您的雇主满足您的需求。\n\n### 我能否通过 VR&E 获得重返原工作岗位的帮助？\n\n如果您是因公致残的退伍军人，并且满足以下所有要求，您可能有资格获得帮助。\n\n以下所有条件必须为真。您：\n\n- 有就业障碍或 handicap，并且\n- 已注册 Vocational Rehabilitation and Employment (VR&E)，并且\n- 希望重返原工作岗位\n\n注意：有就业 handicap 意味着您的 service-connected disability 限制了您准备、获得和维持合适就业（不会加重您的残疾、稳定且与您的能力、才能和兴趣相匹配的工作）的能力。\n\n## 我能获得哪些福利？\n\n帮助您重返部署前所担任的工作岗位。\n\n## 如何获得这些福利？\n\n首先，您需要申请 VR&E 福利。然后，您将与您的 Vocational Rehabilitation Counselor (VRC) 合作。\n\n### 如果您已有 VA disability rating，请按照以下步骤申请：\n\n1.  登录您的 eBenefits 账户。\n\n2.  在仪表板上点击 Additional Benefits。\n\n3.  选择 Vocational Rehabilitation and Employment Program。\n\n4.  申请 Vocational Rehabilitation and Employment 计划。\n\n5.  如果您符合资格，我们将邀请您参加最近的 VA 区域福利办公室的 orientation session。\n\n## 准备好申请了吗？\n\n前往 eBenefits 申请\n\n如果你还没有收到伤残等级评定，了解如何申请\n\n## 获取更多信息\n\n我们提供通过以下项目同时获得培训和实际动手工作经验的机会，例如：\n\n- 针对在找工作时面临挑战的符合条件的退伍军人的 VR&E 特别雇主激励（SEI）项目。下载 SEI 项目情况说明书（PDF）\n- 针对已有明确职业目标且在手把手环境中学习效果好，或因缺乏工作经验而难以找到工作的符合条件的退伍军人和军人的 VR&E 无薪工作经验（NPWE）项目。下载 NPWE 项目情况说明书（PDF）观看此视频以了解更多关于 NPWE 项目的信息\n\n我们还提供：\n\n- 位于我们的 VA 地区办公室和许多外派地点的 VR&E 就业协调员，他们可以帮助你获取可用的就业服务。查找你附近的就业协调员\n- 帮助你从军队生活过渡到大学生活的辅导员。了解 VetSuccess on Campus\n- 更多 VA 外部资源的链接，这些资源可以帮助你求职。查看我们的外部资源列表\n- 如果你正在参加 VR&E 就业项目，并且因自然或其他灾害失去了住房，你可能符合资格获得额外 2 个月的就业调整津贴。联系你的 VR&E 辅导员以获取更多信息\n\n最后更新："
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0002",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > 我可以获得哪些 VR&E 服务？]\n根据你的需求和目标，服务可能包括：\n\n- 全面评估以确定你的就业能力、技能和兴趣\n\n- 职业咨询和康复规划，以促进就业服务\n\n- 就业服务，如职业培训、简历撰写和其他工作准备支持\n\n- 帮助寻找和保持工作，包括使用特殊雇主激励措施和工作便利\n\n- 在职培训（OJT）、学徒制和无薪工作经验\n\n- 在学院、职业、技术或商业学校接受高等教育培训\n\n- 支持性康复服务，包括个案管理、咨询和医疗转介\n\n- 如果你的残疾严重程度导致无法工作，可提供独立生活服务"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "document": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_054.md",
+          "excerpt": "# How To Apply For VA Voc Rehab And Employment | Veterans Affairs\n\n# How to apply for VA Voc Rehab and Employment\n\nFind out how to apply for VA Voc Rehab and Employment (also known as Vocational Rehabilitation and Employment, VR&E, or Chapter 31 benefits).\n\n## How do I apply if I already have a VA disability rating?\n\n1.  Sign in to your eBenefits account.\n\n2.  Select Apply.\n\n3.  Click Vocational Rehabilitation and Employment Benefits.\n\n4.  Select the Vocational Rehabilitation and Employment benefit you re applying for.\n\n5.  If you re eligible, we ll invite you to an orientation session at your nearest VA regional benefit office.\n\nGo to eBenefits to apply\n\n## What if I m a service member who hasn t yet received a service-connected disability rating?\n\nYou don t need to wait for a rating. Instead, please fill out VA Vocational Rehabilitation - Getting Ahead After You Get Out (VA Form 28-0588). Download VA Form 28-0588 (PDF)\n\nYou may be eligible for VR&E benefits and services if you re in at least one of the below situations.\n\nAt least one of these must be true. You re:\n\n- Going through the Physical Evaluation Board process, or\n- Expecting an other than dishonorable discharge and have a VA memorandum rating of 20% or more, or\n- Entered in the Integrated Disability Evaluation System (IDES). Learn more about accessing VR&E services through IDES\n\nPlease note: Severely injured active-duty service members can automatically receive VR&E benefits before VA issues a disability rating, because of Sec. 1631(b) of the National Defense Authorization Act (PL 110-181). The sunset date of that law has been extended to September 30, 2018, through Sec. 724 of Public Law 113-291.\n\n## What happens after I apply?\n\nAfter you apply, we ll schedule a meeting for you with a Vocational Rehabilitation Counselor (VRC) to find out if you have an employment handicap and if you re eligible for VR&E benefits and services. You have an employment handicap if your service-connected disability limits your ability to prepare for, obtain, and maintain suitable employment (a job that doesn t make your disability worse, is stable, and matches your abilities, aptitudes, and interests).\n\nAfter we make an entitlement decision, you and your counselor will work together to develop a rehabilitation plan. This plan outlines the rehabilitation and other services that VR&E will provide.\n\nYou can also meet with VRCs called VetSuccess on Campus (VSOC) counselors at schools participating in the VetSuccess on Campus (VSOC) program.\n\nLearn more about VetSuccess on Campus\n\n## What s included in a rehabilitation plan?\n\nA rehabilitation plan is a written plan that outlines the resources we ll use to help you find employment. Depending on your situation, your VRC will work with you to choose one of the following support-and-services tracks to help you find and keep a job, and live as independently as possible:\n\n- Reemployment with a former employer\n- Job placement and counseling services for new employment\n- Help with starting your own business\n- Long-term training or services to help you find work in a different field that better suits your abilities and interests\n- Independent living services if you can t return to work right away\n\n## What happens after my VRC creates my rehabilitation plan?\n\nYour VRC will help you put your plan into action. They ll also provide ongoing counseling and help you get tutorial assistance, job training, work-readiness support, and medical referrals.\n\nLast updated:"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "Eligibility for VR&E benefits depends on your specific situation. Generally, you may be eligible if you are a service member or veteran with a service-connected disability and an employment handicap (your disability limits your ability to prepare for, obtain, or maintain suitable employment). Specific conditions include: if you have a VA disability rating, you can apply through eBenefits; if you're a service member without a rating, you may qualify if you're going through the Physical Evaluation Board process, expect an other than dishonorable discharge with a VA memorandum rating of 20% or more, or are in the Integrated Disability Evaluation System (IDES). Severely injured active-duty members may automatically receive benefits under certain laws. After applying, a Vocational Rehabilitation Counselor will determine if you have an employment handicap and eligibility. For more precise guidance, please clarify your current status (e.g., veteran with rating, active duty, etc.).",
+          "citations": [
+            "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "clarify"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "875f0b04df5c4f07ac7aad306460d56a",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3072,
+              "completion_tokens": 221,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 221,
+                "prompt_tokens": 3072,
+                "total_tokens": 3293,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2816
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0052313,
+            "accounted_rmb": 0.0052313,
+            "usage_unknown": false,
+            "seconds": 2.415372133255005,
+            "error": null,
+            "response": {
+              "id": "8e826612-6a45-441e-9d57-364d613dc22d",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "e9d9f05a8c85bce3e9184de3e4fb6cb39e1bd437071e5795e37b1ae4668fedca"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03737490624189377,
+        "retrieval": 1410.3192499605939,
+        "generation": 2420.4977919580415,
+        "total": 3832.4549169046804
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.253895458066836,
+        "rerank_seconds": 1.1563599170185626,
+        "top1_dense_score": 0.7779633402824402,
+        "candidate_ids": [
+          "Careers And Employment | Veterans Affairs#1_0::c0005",
+          "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0004",
+          "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0002",
+          "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0004",
+          "VR&E Reemployment Track | Veterans Affairs#1_0::c0000",
+          "VA Education Benefits | Veterans Affairs#2_0::c0004",
+          "VA Education Benefits | Veterans Affairs#1_0::c0001",
+          "Employment Benefits For Dependent Family Members | Veterans Affairs#1_0::c0000",
+          "VR&E Independent Living Track | Veterans Affairs#1_0::c0000",
+          "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "About VA Health Benefits | Veterans Affairs#1_0::c0002",
+          "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0000",
+          "Educational And Career Counseling (VA Chapter 36) | Veterans Affairs#1_0::c0000",
+          "VA Education Benefits | Veterans Affairs#2_0::c0002",
+          "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0::c0004"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 38,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.410284125013277
+      },
+      "raw_citations": [
+        "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "037be86e0281ed0506a1382eb2ea1885dad6b00a3855abe99efa61a6be9ca454"
+}

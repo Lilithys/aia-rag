@@ -1,0 +1,47 @@
+{
+  "reviewer_type": "ai_agent",
+  "independent_human_review": false,
+  "first_four_tasks": [
+    {
+      "task_id": "59b1d33cedcc383557ce2304d6ff99ecea14873d9a4e0f165581e5442128235c",
+      "metric": "correctness",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "score": 0,
+      "status": "ok",
+      "checkpoint_sha256": "88d5c372a127242e9c190cbee7720f8aedc91b6b3679e222b4aad8f42ca111af"
+    },
+    {
+      "task_id": "309160dd66509e939780f5f73c6b4597ad135e081f69fe09f79b5c69843b0f69",
+      "metric": "faithfulness",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "score": 0.8571428571428571,
+      "status": "ok",
+      "checkpoint_sha256": "496cc1bd75e9f704c43e244b05c5cff9f7fb21cfbf7107903785598ec12fb22d"
+    },
+    {
+      "task_id": "a485a07735e92288338f3e1c33cc14237b23806c66177eb177251e71e3c5d9b2",
+      "metric": "correctness",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "score": 1,
+      "status": "ok",
+      "checkpoint_sha256": "e4eb4af54725ccd2fcb8772317093101d3c2003d7e7593a09143cb49263af65b"
+    },
+    {
+      "task_id": "975036ce8151ca3b4ff3313d4f5c78981313cfb4cb77f811db9daa000b0d44af",
+      "metric": "faithfulness",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "score": 1.0,
+      "status": "ok",
+      "checkpoint_sha256": "5830ceda5b5ec526e77141e150e29acaf8c198d242e343f62c48ba3f3c3cff0b"
+    }
+  ],
+  "first_four_api_cost_rmb": 0.0377355,
+  "execution_checks": "Explicit Flash, disabled thinking request, bounded output/retries, known usage, normal finish reason and structural validation.",
+  "semantic_notes": [
+    "Loan-advice response omits the frozen reference budgeting point; reference-conditioned correctness rejects it. This demonstrates sensitivity to a narrow reference on an open-ended question.",
+    "Spouse-benefit claims have visible matching source text and conditions. The probe checks two cases, not global judge accuracy.",
+    "Prioritizing free aid is marked unsupported by the faithfulness judge because supplied chunks describe aid types but do not explicitly recommend the priority. This inference boundary remains a limitation.",
+    "The SSA mixed sentence is still not fully split: the judge now recognizes the context-availability clause in its reason, while keeping it joined to external mailing advice. No primary score is manually overwritten."
+  ],
+  "decision": "Continue the fixed automated comparison with limitations; no independent human calibration claimed."
+}

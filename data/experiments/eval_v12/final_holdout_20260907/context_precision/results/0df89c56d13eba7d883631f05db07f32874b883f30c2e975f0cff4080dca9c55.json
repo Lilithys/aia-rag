@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "0df89c56d13eba7d883631f05db07f32874b883f30c2e975f0cff4080dca9c55",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9999999999666667,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explicitly states that for non-medical reasons, you should contact your local Social Security Office or call the toll-free number, which matches the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "bea044a77a0c4eaab8a13caa171648ca",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1609,
+                "completion_tokens": 46,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 46,
+                  "prompt_tokens": 1609,
+                  "total_tokens": 1655,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 841
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015069,
+              "accounted_rmb": 0.0015069,
+              "usage_unknown": false,
+              "seconds": 1.567472219467163,
+              "error": null,
+              "response": {
+                "id": "7464c432-537c-4207-9b52-76fe737eb465",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a316c088f30b13461e80eb8dca8fe287bbcf5d4cd3a9fe154ffea07613083837"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information on how to appeal a decision for non-medical reasons, including contacting the local Social Security office or calling the toll-free number, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7b52d4bb12e34ef29a3737cf2c5f9943",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1876,
+                "completion_tokens": 51,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 51,
+                  "prompt_tokens": 1876,
+                  "total_tokens": 1927,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1108
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019299,
+              "accounted_rmb": 0.0019299,
+              "usage_unknown": false,
+              "seconds": 1.481673002243042,
+              "error": null,
+              "response": {
+                "id": "b7b92b7f-896b-4612-a9cd-7ea0a5bee9eb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4c75dbe50013ced0abf1bb4cda58ba5b59883f2721a325983ab679b1bf938151"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information on how to appeal a decision for non-medical reasons, including contacting the local Social Security office or calling the toll-free number, which matches the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c1433c2cafb34f18ab9e85e349befdf8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1878,
+                "completion_tokens": 50,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 50,
+                  "prompt_tokens": 1878,
+                  "total_tokens": 1928,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 982
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0017427999999999999,
+              "accounted_rmb": 0.0017427999999999999,
+              "usage_unknown": false,
+              "seconds": 0.9904391765594482,
+              "error": null,
+              "response": {
+                "id": "9d73d8d5-fbb5-4b56-9c1e-c82a209faf47",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "dfe2d61c7cea9267f70158ea2361eb2288f334d813ca84309fb68816a4b09429"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses medical certificate rejection and appeals for medical reasons, but the question asks about non-medical reasons for appeal. The context does not provide information about non-medical appeals, so it is not useful for answering the question.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7fb3aca659604546a3be1a82ed012c2b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1163,
+                "completion_tokens": 61,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 61,
+                  "prompt_tokens": 1163,
+                  "total_tokens": 1224,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 267
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007197999999999999,
+              "accounted_rmb": 0.0007197999999999999,
+              "usage_unknown": false,
+              "seconds": 1.5360829830169678,
+              "error": null,
+              "response": {
+                "id": "46c7b04f-bd7b-49e6-a3af-7efc24b3ec3d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cd685d39b38765dbedae4d05eb02183a3fcd1a7074f1ecbcc18b37064031c789"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general instructions for applying for disability benefits, but does not contain information about appealing a non-medical denial. The answer about contacting the local Social Security office is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0a2a1ea02a174671abeeb25cdb372253",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1104,
+                "completion_tokens": 55,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1104,
+                  "total_tokens": 1159,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 208
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006043,
+              "accounted_rmb": 0.0006043,
+              "usage_unknown": false,
+              "seconds": 1.3439269065856934,
+              "error": null,
+              "response": {
+                "id": "293f3641-b2ef-4302-b92c-4b93375dc9a6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0a37344dce3d761df35685546131cbf302d527eb68e16717bb4a13bb9a285bd8"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "576b2ead4d7c55aea651a618d3fe2ea7133cd8f14e700fb6f2d77a2f3a263782"
+}

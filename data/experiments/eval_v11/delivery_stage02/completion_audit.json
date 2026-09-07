@@ -1,0 +1,80 @@
+{
+  "stage": "smoke-v1.1-live",
+  "complete_execution_with_retained_failures": true,
+  "scoring_tasks": 116,
+  "successful_scoring_tasks": 115,
+  "failed_scoring_tasks": 1,
+  "context_precision_metric_tasks": 45,
+  "context_precision_verdict_inputs": 375,
+  "context_precision_api_calls": 201,
+  "context_precision_cache_hits": 174,
+  "service_smoke_submitted": 20,
+  "service_smoke_success": 19,
+  "service_smoke_failed": 1,
+  "separate_cli_questions": 2,
+  "new_api_attempts": 336,
+  "new_estimated_cost_rmb": 1.140771,
+  "cost_ledgers": {
+    "scoring_smoke": {
+      "attempts": 113,
+      "cost_rmb": 0.8598391000000001,
+      "ledger_sha256": "c1de22555f87ad76bf6c26be240b2fdd115e81c8807f8c78900780eff12004cc"
+    },
+    "context_precision_plan": {
+      "attempts": 201,
+      "cost_rmb": 0.2386199,
+      "ledger_sha256": "34ec4590dd6a5d725d6e917c402fa2cae78e35af293549b2c223fedf6db7a4d0"
+    },
+    "service_smoke_and_cli": {
+      "attempts": 22,
+      "cost_rmb": 0.042312,
+      "ledger_sha256": "bc86396771dd947f9ae3bb38cc630e14a182eefe63fac55407e14f0324c3e975"
+    }
+  },
+  "all_usage_known": true,
+  "open_reservations": 0,
+  "resume_new_api_calls": 0,
+  "legacy_result_files_unchanged": 307,
+  "frozen_release_v10": {
+    "release_version": "1.0",
+    "questions": {
+      "dev": 100,
+      "holdout": 100,
+      "smoke": 20
+    },
+    "documents": 488,
+    "source_bytes_verified": false,
+    "dialogue_overlap": 0,
+    "independent_human_review": false
+  },
+  "frozen_release_v11": {
+    "release_version": "1.1",
+    "documents": 488,
+    "questions": {
+      "dev": 100,
+      "holdout": 100,
+      "smoke": 20
+    },
+    "changed_dev_items": 2,
+    "holdout_payloads_unchanged": true,
+    "independent_human_review": false
+  },
+  "verified_new_api_cache_records": 332,
+  "credential_value_absent_in_stage_artifacts": true,
+  "offline_tests_passed": 75,
+  "analysis_deterministically_reproduced": true,
+  "independent_human_calibration_complete": false,
+  "holdout_generated_or_judged": false,
+  "new_runtime_quality_scored": false,
+  "external_api_or_load_sla_validated": false,
+  "artifact_sha256": {
+    "data/experiments/eval_v11/delivery_stage02/demo_session_plan.json": "d2ae613128f8bf478ad7a115787ddcefd045270452120922e3e491da70cd8710",
+    "data/experiments/eval_v11/delivery_stage02/probe_review.json": "6d204bccb5078265d796539b1f2dfe0c183fd144e869ef06f601099f0bb16048",
+    "data/experiments/eval_v11/delivery_stage02/demo_input.txt": "b68c704b5008628e30a859de99b9a53ceb19d5980464ba7da6f66e637d9738ef",
+    "data/experiments/eval_v11/delivery_stage02/demo_cli_output.log": "e605ba2f822701a3be3915d2554699ffb334560671033fd156e231711f5d00c9",
+    "data/experiments/eval_v11/delivery_stage02/sample_logs.jsonl": "94439f38ddbfa701cd79a8ba33f65d1233a2caa54dd975c9b4a86dc885c150ee",
+    "data/experiments/eval_v11/delivery_stage02/demo_session_check.json": "41c4d14202c8f594e2a8d98b685f9944238f6cb8186dc1d092badbb884e58c08",
+    "data/experiments/eval_v11/delivery_stage02/tests.log": "d9ec161de6c9a5d1ac54e335e4be9bd46a68ce378a09c490f8a52b24bce0c498",
+    "data/experiments/eval_v11/delivery_stage02/analysis.json": "516462c3e41ae87e74d45eefd61be84334317caaa9178cae979fc9f7331c8ee9"
+  }
+}

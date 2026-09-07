@@ -1,0 +1,15 @@
+{
+  "old_chunks_sha256": "6d764e9b763b5754ce7923f0f6b60dd662eab3436e79fab61ebca061dca4a4e7",
+  "fresh_original_strategy_chunks_sha256": "9fc0716b36b7f34d1527908fa99024cdd06b8337ac678f245752d71032428f27",
+  "ordered_chunk_ids_and_text_equal": true,
+  "old_embedding_sha256": "47e66e9d873e412498b317c8ae9154d726965105b8c2b8b016eb6df569cd6d62",
+  "fresh_embedding_sha256": "47e66e9d873e412498b317c8ae9154d726965105b8c2b8b016eb6df569cd6d62",
+  "shape": [
+    1388,
+    1024
+  ],
+  "min_row_cosine": 1.0,
+  "mean_row_cosine": 1.0,
+  "max_absolute_component_difference": 0.0,
+  "allclose_atol_1e_5": true
+}

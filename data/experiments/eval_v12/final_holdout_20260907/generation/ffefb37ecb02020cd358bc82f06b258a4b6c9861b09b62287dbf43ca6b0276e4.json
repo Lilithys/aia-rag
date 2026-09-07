@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "91c8820abe119db231a2a70252659515::agent-turn-14",
+    "item_sha256": "a313013ae148f9fc706fb61445763812d2d0a6120884695613d5bfdbbfe5eeef",
+    "result": {
+      "request_id": "a7526e3dfffe4f65985f7bc0e48b5001",
+      "session_id": "91c8820abe119db231a2a70252659515",
+      "turn_id": 13,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，费用表已提供。首次申请或更换驾照的费用取决于年龄、居住地及是否属于MCTD区域。更换驾照费用为$17.50，更改信息费用为$12.50，增强版驾照额外$30。MCTD费用为每6个月$1.00，8年驾照总计$16。若符合条件，可申请部分退款，最高为原8年费用的50%，需填写MV-215表格并邮寄，处理时间最长12周。",
+        "citations": [
+          "Driver license and learner permit fees and refunds#3_0::c0000",
+          "How to renew a license#1_0::c0006"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Driver license and learner permit fees and refunds#3_0::c0000",
+          "text": "# 驾照与学习驾照费用及退款\n\n### 学习驾照和驾照的费用\n\n首次申请纽约州驾照或学习驾照，或因吊销后重新申请新驾照或学习驾照的费用，取决于申请时的年龄和居住地。总费用包括\n\n- 驾照申请费\n- 驾照类型费用（更多信息请参见驾照类别 [1]）\n- 文件费\n- 大都会通勤交通区（MCTD）费用（如居住于MCTD区域内）\n\n### MCTD费用\n\n以下县的居民必须支付大都会通勤交通区（MCTD）费用：\n\n布朗克斯、国王（布鲁克林）、纽约（曼哈顿）、皇后、里士满（史泰登岛）、达奇斯、拿骚、奥兰治、普特南、罗克兰、萨福克和威斯特彻斯特。\n\nMCTD费用为每6个月有效期收取 $1.00。\n\n### 费用表\n\n下表显示您需支付的总费用。表中未显示\n\n- 商业驾照（CDL）费用\n- 获取增强版驾照（EDL）而非普通驾照的额外 $30 费用\n- 非驾驶员ID卡 [2] 的费用\n\n* 包含MCTD费用\n\n** Class M和MJ费用的一部分用于支持纽约州摩托车安全计划。\n\n### 更换驾照或学习驾照的费用\n\n更换驾照或学习驾照的费用为 $17.50。\n\n### 更改驾照或学习驾照信息的费用\n\n更改（修正）驾照或学习驾照信息的费用为 $12.50。\n\n### 增强版驾照（EDL）或增强版学习驾照的费用\n\nEnhanced Driver License需额外支付$30.00费用。\n\n### 摩托车驾照费用\n\n首次申请摩托车驾照所需支付的费用取决于\n\n- 您目前是否持有其他类别的纽约州驾照，以及\n- 申请时的确切年龄。\n\nClass M或MJ驾照的费用，或在现有驾照上增加Class M或MJ的费用，范围从$21到$120。我们无法在您申请前计算确切费用。\n\n### 我可以获得驾照费用退款吗？\n\n如果您符合条件，可以获得8年驾照费用的部分退款。最高退款金额为原8年驾照费用的50%（即4年）。部分退款不包括任何申请费或文件费。\n\n如果您符合以下条件，则有资格获得部分退款：\n\n- 驾照签发时有效期为8年\n- 在8年期限的前4年内将驾照交回给我们或另一州\n- 交回时驾照未被吊销或撤销\n- 未将驾照换成非驾驶员ID卡\n\n申请退款，您必须：\n\n- 在驾照签发日期后不超过51个月内申请\n- 填写《机动车注册和驾照费用退款申请表》[3] (MV-215)\n- 如果尚未交回驾照，请将驾照附在MV-215表格上\n- 如果您将纽约州驾照换成了其他州的驾照，请将外州驾照的复印件附在MV-215表格上\n- 将所需表格和文件邮寄至表格上所列地址\n- 退款处理时间最长可达12周"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0006",
+          "text": "[How to renew a license [1] > Additional information]\n#### Veteran status designation\n\nIf you are a qualified U.S. military veteran who was honorably discharged, and you have a NY State driver license, learner permit or non-driver photo ID card, you can have the word \"Veteran\" printed on the upper left hand of your photo document.\n\nThere is no additional fee for the veteran status designation on your document, but all regular transaction fees will apply.\n\nLearn how to get the veteran status on your license [8].\n\nIf you are active in the military, please see our military resources [9] for more information on renewing- and thank you for your service!\n\n#### Your new license will come in about 10 business days\n\nYou can check the mailing status online [10]. If it has been more than 2 weeks since you renewed, contact us [11].\n\n#### Your address must match the one on our records\n\nYou can first change your address online [12] and then renew. There is no guarantee that the US Postal Service will forward your DMV documents to your new address.\n\n#### If you are turning 21 soon\n\nIf you renew more than 40 days before your 21st birthday, your license will have 'UNDER 21' 10\n\n#### Out of the state or country\n\nWhen out of NY State we recommend that you renew your NY driver license through the mail. 11 Send us\n\n- the renewal notice we mailed you (MV-2) or if you don't have it, use the Application for Permit, Driver License, or Non-driver ID (PDF) [7] (MV-44)\n- a Vision Test Report (PDF) [6] (MV-619) completed by an eye care professional\n- a check or money order payable to Commissioner of Motor Vehicles\n\nSend us a pre-addressed priority mail return envelope with your application. This will help ensure that we send your license to the correct address.\n\n#### Temporary Visitors and international students\n\nAs long as the Temporary Visitor status that DMV has on file is not expired you can renew your license online, through the mail or in an office.\n\nIf your Temporary Visitor status has been extended, you must go to a DMV office with your updated paperwork from the United States Department of Homeland Security (DHS). We will update our records to show that your Temporary Visitor status has been extended so you can renew your license. Your new license will have your new temporary visitor expiration date.\n\n#### Changing license class when renewing\n\nYou cannot change the class when you renew online. You can make these changes when you renew by mail or at a DMV office.\n\nYou cannot make any other class changes when you renew. Other changes require a written test and a road test. (See Get a CDL [13] or Get a motorcycle license [14]).\n\nIf you renew\n\n- by mail, include a note about your class change in your renewal envelope\n- at a DMV office, tell the DMV representative about the change\n\nYou will need to pay the renewal fee [15] for your new driver license class.\n\n- 1.\n\nIf you drive with expired license get a traffic ticket, you will receive fines and penalties\n\n- 60 days or less after the expiration date: $25 to $40 plus state and local surcharges\n  - more than 60 days after the expiration date: $75 to $300 plus state and local surcharges\n\n- 2. Renewal anytime within this period will not affect the expiration date of your new driver license or the fees. If your license is expired for **2 years or more,** you must apply for an original license. You must pass the vision test and the written test, complete a pre-licensing course and pass a Road Test. See Get a driver license [16].\n\n- 3. Starting in October 2020, you will need an Enhanced or REAL ID to board a domestic flight (unless you have a passport).\n\nIf your license was issued before October 30, 2017 and is not Enhanced, you have a Standard document.\n\nNewly issued Standard documents show: 'NOT FOR FEDERAL PURPOSES'.\n\n- 4.\n\nIf you want to renew in an office and keep your Standard document type, follow these steps:\n\nStep 1: Complete the renewal notice (MV-2) we mailed you.\n\n- if you did not receive a renewal notice, you can use an Application for Permit, Driver License or Non-Driver ID Card [7] (MV-44)\n\nStep 2: Come to an office. Bring\n\n- your current Standard license\n  - your renewal notice or application\n  - payment\n\nNewly issued Standard licenses show: 'NOT FOR FEDERAL PURPOSES'.\n\n- 5. See information about how to renew a CDL [17].\n\n- 6.\n\nYou can have a Vision Test Report (PDF) [6] (MV-619) completed by a medical professional listed below, and then enter the report information on the online transaction. You do not need to mail or bring us the report if you renew online.\n\n- physician\n  - physician's assistant\n  - ophthalmologist\n  - optometrist\n  - optician\n  - registered nurse\n  - nurse professional\n\n- 7. At the start of your online renewal transaction, you will be asked if you would like to register to vote or change your party designation. You are not required to register to vote, but you will be required to answer the question to proceed with your transaction. If you answer yes, you will complete your voter registration application as part of your renewal transaction.\n\n- 8. Residents of the following counties must pay a supplemental Metropolitan Commuter Transportation District (MCTD) fee: Bronx, Kings (Brooklyn), New York (Manhattan), Queens, Richmond (Staten Island); Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk and Westchester.\n\nThe MCTD fee is $1.00 for every 6 months the permit or driver license will be in effect. For an 8-year driver license, the MCTD fee is $16.\n\n- 9. If you have a Class A, B or C with an endorsement of H or X, you must pass the hazardous materials knowledge test at a DMV office within 2 years before your renewal and pay an additional fee of $5 for the test.\n\n- 10. If your renewal is processed less than 40 days before your birthday, we will mail you a driver license without the words UNDER 21 on or near the date of your birthday.\n\n- 11. You can renew online if you are away and\n\n- have a valid NY driver license\n  -  have had an eye exam from the last 12 months saved to the DMV Vision Registry [18].\n\nHowever, your license will not be forwarded to you out of state or out of the country."
+        },
+        {
+          "chunk_id": "Exchange a NY State driver license for a non-driver ID card#1_0::c0000",
+          "text": "# 将纽约州驾照更换为非驾驶员ID卡\n\n# 将纽约州驾照更换为非驾驶员ID卡 [1]\n\n您可以将当前有效或过期不超过2年的纽约州驾照或学习驾照更换为纽约州非驾驶员ID卡（NDID）。\n\n您必须通过邮寄或在DMV办公室办理。\n\n### 在办公室办理并升级为Enhanced或REAL ID\n\n您不必办理Enhanced或REAL ID。1 但是，如果您持有Standard，从2020年10月起将不允许登机国内航班（除非您有护照）。如果您计划旅行，我们建议您现在就来DMV，避免第二次办公室访问。了解更多关于Enhanced、REAL ID和Standard文件的信息 [2]。\n\n完成此指南，确保您在来DMV之前有所需的身份证明。选择“Replace, Renew, or Change my existing NY State License/ID to REAL ID or Enhanced”选项。\n\n查找您的证明 [3]\n\n### 通过邮寄\n\n* *重要提示：** 如果您持有Standard，在2020年10月1日之后，它将不被接受为登机国内航班的身份证明（除非您有护照）。**我们建议您来DMV升级为Enhanced或REAL ID。** 按照上述在办公室办理的说明操作。\n\n#### 邮寄\n\n- 填写完整的Application for Permit, Driver License or Non-Driver ID Card（PDF） [4] （MV-44）\n- 您的驾照或学习驾照（必须当前有效或过期不超过两年）\n- 您的Supplemental Security Income证明的复印件，如果要求（见下文）- 请勿邮寄您的原始文件\n- 按下表所示支付费用\n\n#### 邮寄至\n\nDMV License Production BureauP.O. Box 2688 ESP Albany, NY 12220-0668\n\n通过快递服务\n\nDMV License Production Bureau Room 424A, 6 Empire State Plaza Albany, NY 12228\n\n### 费用\n\n了解更多关于Standard、REAL ID和Enhanced文件的信息 [5]。\n\n### 补充保障收入（SSI）证明\n\n要证明您领取SSI，您必须携带以下列出的文件之一前往DMV。文件必须是原件，不能是复印件。\n\n- 通知您符合SSI福利资格的通知书\n- 生活费用调整（COLA）信函\n- 付款变更通知（SSA-L8151）\n- 第三方查询（TPQY）信函\n- 保密社会保障信息报告（SSA-2258）\n- 福利核实信（您必须提前致电社会保障局获取此信：1-800-772-1213）\n\n&nbsp;\n\n- 1.\n\n如果您想在办公室办理并保留您的标准证件类型，请按照以下步骤操作：\n\n步骤1：填写许可证、驾照或非驾驶员ID卡申请表（PDF）[4]（MV-44）\n\n步骤2：前往办公室。携带\n\n- 您当前的驾照\n  - 您的申请表\n  - 付款\n\n## 主题：\n\n- ID卡 [6]\n\n## 相关PDF：\n\nmv44.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Get a driver license#1_0::c0020",
+          "text": "[获取驾驶执照 > 你可以持其他国家的有效驾驶执照在纽约州驾驶。除非你成为纽约州居民，否则无需申请纽约州驾驶执照。1]\n如果你选择获得纽约驾驶执照（按照本页所述步骤操作），当你通过路考时，你必须将你的外国驾驶执照交给DMV路考考官。当地DMV办公室将在60天后销毁你的外国驾驶执照。如果你计划返回祖国并需要你的外国驾驶执照，请向路考考官询问如何确保你的外国驾驶执照不被销毁。"
+        },
+        {
+          "chunk_id": "Suspensions and revocations#3_0::c0007",
+          "text": "[暂停与吊销 > 如何检查您的驾照是否被吊销或撤销]\n注册MyDMV并使用“我的驾照、许可证或身份证”[2]服务。\n\n驾驶特权是您在除签发驾驶执照的州以外的其他州驾驶的合法权利。如果您持有其他州签发的驾驶执照，DMV可以撤销您在纽约州的驾驶特权，但您的外州驾照在其他州可能仍然有效。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。如果您需要支付吊销终止费，您可以在线支付。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。 有关更多信息，请参阅关于纽约州驾驶积分系统[11]。 有关更多信息，请参阅毕业驾照法信息[12]。 如果您因未回应纽约市发出的交通罚单（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线认罪或支付罚单[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照、许可证或身份证”[2]服务可以为您提供有关在哪里回应交通罚单的更多信息。 如果您因未支付纽约市发出的交通罚单罚款（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线支付罚款[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照”服务[2]可以为您提供有关在哪里支付交通罚单的更多信息。 要解除因未支付子女抚养费而导致的吊销，您必须联系当地的子女抚养费执行机构或纽约州临时和残疾援助办公室（OTDA）。OTDA网站[14]上有当地子女抚养费执行机构的列表。 有关清除这些吊销的信息，请联系税务和财政部门，电话518-862-6000，或访问其网站www.tax.ny.gov[15]。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Driver license and learner permit fees and refunds#3_0::c0000",
+          "text": "# 驾照与学习驾照费用及退款\n\n### 学习驾照和驾照的费用\n\n首次申请纽约州驾照或学习驾照，或因吊销后重新申请新驾照或学习驾照的费用，取决于申请时的年龄和居住地。总费用包括\n\n- 驾照申请费\n- 驾照类型费用（更多信息请参见驾照类别 [1]）\n- 文件费\n- 大都会通勤交通区（MCTD）费用（如居住于MCTD区域内）\n\n### MCTD费用\n\n以下县的居民必须支付大都会通勤交通区（MCTD）费用：\n\n布朗克斯、国王（布鲁克林）、纽约（曼哈顿）、皇后、里士满（史泰登岛）、达奇斯、拿骚、奥兰治、普特南、罗克兰、萨福克和威斯特彻斯特。\n\nMCTD费用为每6个月有效期收取 $1.00。\n\n### 费用表\n\n下表显示您需支付的总费用。表中未显示\n\n- 商业驾照（CDL）费用\n- 获取增强版驾照（EDL）而非普通驾照的额外 $30 费用\n- 非驾驶员ID卡 [2] 的费用\n\n* 包含MCTD费用\n\n** Class M和MJ费用的一部分用于支持纽约州摩托车安全计划。\n\n### 更换驾照或学习驾照的费用\n\n更换驾照或学习驾照的费用为 $17.50。\n\n### 更改驾照或学习驾照信息的费用\n\n更改（修正）驾照或学习驾照信息的费用为 $12.50。\n\n### 增强版驾照（EDL）或增强版学习驾照的费用\n\nEnhanced Driver License需额外支付$30.00费用。\n\n### 摩托车驾照费用\n\n首次申请摩托车驾照所需支付的费用取决于\n\n- 您目前是否持有其他类别的纽约州驾照，以及\n- 申请时的确切年龄。\n\nClass M或MJ驾照的费用，或在现有驾照上增加Class M或MJ的费用，范围从$21到$120。我们无法在您申请前计算确切费用。\n\n### 我可以获得驾照费用退款吗？\n\n如果您符合条件，可以获得8年驾照费用的部分退款。最高退款金额为原8年驾照费用的50%（即4年）。部分退款不包括任何申请费或文件费。\n\n如果您符合以下条件，则有资格获得部分退款：\n\n- 驾照签发时有效期为8年\n- 在8年期限的前4年内将驾照交回给我们或另一州\n- 交回时驾照未被吊销或撤销\n- 未将驾照换成非驾驶员ID卡\n\n申请退款，您必须：\n\n- 在驾照签发日期后不超过51个月内申请\n- 填写《机动车注册和驾照费用退款申请表》[3] (MV-215)\n- 如果尚未交回驾照，请将驾照附在MV-215表格上\n- 如果您将纽约州驾照换成了其他州的驾照，请将外州驾照的复印件附在MV-215表格上\n- 将所需表格和文件邮寄至表格上所列地址\n- 退款处理时间最长可达12周"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0006",
+          "text": "[How to renew a license [1] > Additional information]\n#### Veteran status designation\n\nIf you are a qualified U.S. military veteran who was honorably discharged, and you have a NY State driver license, learner permit or non-driver photo ID card, you can have the word \"Veteran\" printed on the upper left hand of your photo document.\n\nThere is no additional fee for the veteran status designation on your document, but all regular transaction fees will apply.\n\nLearn how to get the veteran status on your license [8].\n\nIf you are active in the military, please see our military resources [9] for more information on renewing- and thank you for your service!\n\n#### Your new license will come in about 10 business days\n\nYou can check the mailing status online [10]. If it has been more than 2 weeks since you renewed, contact us [11].\n\n#### Your address must match the one on our records\n\nYou can first change your address online [12] and then renew. There is no guarantee that the US Postal Service will forward your DMV documents to your new address.\n\n#### If you are turning 21 soon\n\nIf you renew more than 40 days before your 21st birthday, your license will have 'UNDER 21' 10\n\n#### Out of the state or country\n\nWhen out of NY State we recommend that you renew your NY driver license through the mail. 11 Send us\n\n- the renewal notice we mailed you (MV-2) or if you don't have it, use the Application for Permit, Driver License, or Non-driver ID (PDF) [7] (MV-44)\n- a Vision Test Report (PDF) [6] (MV-619) completed by an eye care professional\n- a check or money order payable to Commissioner of Motor Vehicles\n\nSend us a pre-addressed priority mail return envelope with your application. This will help ensure that we send your license to the correct address.\n\n#### Temporary Visitors and international students\n\nAs long as the Temporary Visitor status that DMV has on file is not expired you can renew your license online, through the mail or in an office.\n\nIf your Temporary Visitor status has been extended, you must go to a DMV office with your updated paperwork from the United States Department of Homeland Security (DHS). We will update our records to show that your Temporary Visitor status has been extended so you can renew your license. Your new license will have your new temporary visitor expiration date.\n\n#### Changing license class when renewing\n\nYou cannot change the class when you renew online. You can make these changes when you renew by mail or at a DMV office.\n\nYou cannot make any other class changes when you renew. Other changes require a written test and a road test. (See Get a CDL [13] or Get a motorcycle license [14]).\n\nIf you renew\n\n- by mail, include a note about your class change in your renewal envelope\n- at a DMV office, tell the DMV representative about the change\n\nYou will need to pay the renewal fee [15] for your new driver license class.\n\n- 1.\n\nIf you drive with expired license get a traffic ticket, you will receive fines and penalties\n\n- 60 days or less after the expiration date: $25 to $40 plus state and local surcharges\n  - more than 60 days after the expiration date: $75 to $300 plus state and local surcharges\n\n- 2. Renewal anytime within this period will not affect the expiration date of your new driver license or the fees. If your license is expired for **2 years or more,** you must apply for an original license. You must pass the vision test and the written test, complete a pre-licensing course and pass a Road Test. See Get a driver license [16].\n\n- 3. Starting in October 2020, you will need an Enhanced or REAL ID to board a domestic flight (unless you have a passport).\n\nIf your license was issued before October 30, 2017 and is not Enhanced, you have a Standard document.\n\nNewly issued Standard documents show: 'NOT FOR FEDERAL PURPOSES'.\n\n- 4.\n\nIf you want to renew in an office and keep your Standard document type, follow these steps:\n\nStep 1: Complete the renewal notice (MV-2) we mailed you.\n\n- if you did not receive a renewal notice, you can use an Application for Permit, Driver License or Non-Driver ID Card [7] (MV-44)\n\nStep 2: Come to an office. Bring\n\n- your current Standard license\n  - your renewal notice or application\n  - payment\n\nNewly issued Standard licenses show: 'NOT FOR FEDERAL PURPOSES'.\n\n- 5. See information about how to renew a CDL [17].\n\n- 6.\n\nYou can have a Vision Test Report (PDF) [6] (MV-619) completed by a medical professional listed below, and then enter the report information on the online transaction. You do not need to mail or bring us the report if you renew online.\n\n- physician\n  - physician's assistant\n  - ophthalmologist\n  - optometrist\n  - optician\n  - registered nurse\n  - nurse professional\n\n- 7. At the start of your online renewal transaction, you will be asked if you would like to register to vote or change your party designation. You are not required to register to vote, but you will be required to answer the question to proceed with your transaction. If you answer yes, you will complete your voter registration application as part of your renewal transaction.\n\n- 8. Residents of the following counties must pay a supplemental Metropolitan Commuter Transportation District (MCTD) fee: Bronx, Kings (Brooklyn), New York (Manhattan), Queens, Richmond (Staten Island); Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk and Westchester.\n\nThe MCTD fee is $1.00 for every 6 months the permit or driver license will be in effect. For an 8-year driver license, the MCTD fee is $16.\n\n- 9. If you have a Class A, B or C with an endorsement of H or X, you must pass the hazardous materials knowledge test at a DMV office within 2 years before your renewal and pay an additional fee of $5 for the test.\n\n- 10. If your renewal is processed less than 40 days before your birthday, we will mail you a driver license without the words UNDER 21 on or near the date of your birthday.\n\n- 11. You can renew online if you are away and\n\n- have a valid NY driver license\n  -  have had an eye exam from the last 12 months saved to the DMV Vision Registry [18].\n\nHowever, your license will not be forwarded to you out of state or out of the country."
+        },
+        {
+          "chunk_id": "Exchange a NY State driver license for a non-driver ID card#1_0::c0000",
+          "text": "# 将纽约州驾照更换为非驾驶员ID卡\n\n# 将纽约州驾照更换为非驾驶员ID卡 [1]\n\n您可以将当前有效或过期不超过2年的纽约州驾照或学习驾照更换为纽约州非驾驶员ID卡（NDID）。\n\n您必须通过邮寄或在DMV办公室办理。\n\n### 在办公室办理并升级为Enhanced或REAL ID\n\n您不必办理Enhanced或REAL ID。1 但是，如果您持有Standard，从2020年10月起将不允许登机国内航班（除非您有护照）。如果您计划旅行，我们建议您现在就来DMV，避免第二次办公室访问。了解更多关于Enhanced、REAL ID和Standard文件的信息 [2]。\n\n完成此指南，确保您在来DMV之前有所需的身份证明。选择“Replace, Renew, or Change my existing NY State License/ID to REAL ID or Enhanced”选项。\n\n查找您的证明 [3]\n\n### 通过邮寄\n\n* *重要提示：** 如果您持有Standard，在2020年10月1日之后，它将不被接受为登机国内航班的身份证明（除非您有护照）。**我们建议您来DMV升级为Enhanced或REAL ID。** 按照上述在办公室办理的说明操作。\n\n#### 邮寄\n\n- 填写完整的Application for Permit, Driver License or Non-Driver ID Card（PDF） [4] （MV-44）\n- 您的驾照或学习驾照（必须当前有效或过期不超过两年）\n- 您的Supplemental Security Income证明的复印件，如果要求（见下文）- 请勿邮寄您的原始文件\n- 按下表所示支付费用\n\n#### 邮寄至\n\nDMV License Production BureauP.O. Box 2688 ESP Albany, NY 12220-0668\n\n通过快递服务\n\nDMV License Production Bureau Room 424A, 6 Empire State Plaza Albany, NY 12228\n\n### 费用\n\n了解更多关于Standard、REAL ID和Enhanced文件的信息 [5]。\n\n### 补充保障收入（SSI）证明\n\n要证明您领取SSI，您必须携带以下列出的文件之一前往DMV。文件必须是原件，不能是复印件。\n\n- 通知您符合SSI福利资格的通知书\n- 生活费用调整（COLA）信函\n- 付款变更通知（SSA-L8151）\n- 第三方查询（TPQY）信函\n- 保密社会保障信息报告（SSA-2258）\n- 福利核实信（您必须提前致电社会保障局获取此信：1-800-772-1213）\n\n&nbsp;\n\n- 1.\n\n如果您想在办公室办理并保留您的标准证件类型，请按照以下步骤操作：\n\n步骤1：填写许可证、驾照或非驾驶员ID卡申请表（PDF）[4]（MV-44）\n\n步骤2：前往办公室。携带\n\n- 您当前的驾照\n  - 您的申请表\n  - 付款\n\n## 主题：\n\n- ID卡 [6]\n\n## 相关PDF：\n\nmv44.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Get a driver license#1_0::c0020",
+          "text": "[获取驾驶执照 > 你可以持其他国家的有效驾驶执照在纽约州驾驶。除非你成为纽约州居民，否则无需申请纽约州驾驶执照。1]\n如果你选择获得纽约驾驶执照（按照本页所述步骤操作），当你通过路考时，你必须将你的外国驾驶执照交给DMV路考考官。当地DMV办公室将在60天后销毁你的外国驾驶执照。如果你计划返回祖国并需要你的外国驾驶执照，请向路考考官询问如何确保你的外国驾驶执照不被销毁。"
+        },
+        {
+          "chunk_id": "Suspensions and revocations#3_0::c0007",
+          "text": "[暂停与吊销 > 如何检查您的驾照是否被吊销或撤销]\n注册MyDMV并使用“我的驾照、许可证或身份证”[2]服务。\n\n驾驶特权是您在除签发驾驶执照的州以外的其他州驾驶的合法权利。如果您持有其他州签发的驾驶执照，DMV可以撤销您在纽约州的驾驶特权，但您的外州驾照在其他州可能仍然有效。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。如果您需要支付吊销终止费，您可以在线支付。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。 有关更多信息，请参阅关于纽约州驾驶积分系统[11]。 有关更多信息，请参阅毕业驾照法信息[12]。 如果您因未回应纽约市发出的交通罚单（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线认罪或支付罚单[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照、许可证或身份证”[2]服务可以为您提供有关在哪里回应交通罚单的更多信息。 如果您因未支付纽约市发出的交通罚单罚款（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线支付罚款[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照”服务[2]可以为您提供有关在哪里支付交通罚单的更多信息。 要解除因未支付子女抚养费而导致的吊销，您必须联系当地的子女抚养费执行机构或纽约州临时和残疾援助办公室（OTDA）。OTDA网站[14]上有当地子女抚养费执行机构的列表。 有关清除这些吊销的信息，请联系税务和财政部门，电话518-862-6000，或访问其网站www.tax.ny.gov[15]。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Driver license and learner permit fees and refunds#3_0::c0000",
+          "document": "Driver license and learner permit fees and refunds#3_0",
+          "heading": [],
+          "source_file": "dmv_027.md",
+          "excerpt": "# 驾照与学习驾照费用及退款\n\n### 学习驾照和驾照的费用\n\n首次申请纽约州驾照或学习驾照，或因吊销后重新申请新驾照或学习驾照的费用，取决于申请时的年龄和居住地。总费用包括\n\n- 驾照申请费\n- 驾照类型费用（更多信息请参见驾照类别 [1]）\n- 文件费\n- 大都会通勤交通区（MCTD）费用（如居住于MCTD区域内）\n\n### MCTD费用\n\n以下县的居民必须支付大都会通勤交通区（MCTD）费用：\n\n布朗克斯、国王（布鲁克林）、纽约（曼哈顿）、皇后、里士满（史泰登岛）、达奇斯、拿骚、奥兰治、普特南、罗克兰、萨福克和威斯特彻斯特。\n\nMCTD费用为每6个月有效期收取 $1.00。\n\n### 费用表\n\n下表显示您需支付的总费用。表中未显示\n\n- 商业驾照（CDL）费用\n- 获取增强版驾照（EDL）而非普通驾照的额外 $30 费用\n- 非驾驶员ID卡 [2] 的费用\n\n* 包含MCTD费用\n\n** Class M和MJ费用的一部分用于支持纽约州摩托车安全计划。\n\n### 更换驾照或学习驾照的费用\n\n更换驾照或学习驾照的费用为 $17.50。\n\n### 更改驾照或学习驾照信息的费用\n\n更改（修正）驾照或学习驾照信息的费用为 $12.50。\n\n### 增强版驾照（EDL）或增强版学习驾照的费用\n\nEnhanced Driver License需额外支付$30.00费用。\n\n### 摩托车驾照费用\n\n首次申请摩托车驾照所需支付的费用取决于\n\n- 您目前是否持有其他类别的纽约州驾照，以及\n- 申请时的确切年龄。\n\nClass M或MJ驾照的费用，或在现有驾照上增加Class M或MJ的费用，范围从$21到$120。我们无法在您申请前计算确切费用。\n\n### 我可以获得驾照费用退款吗？\n\n如果您符合条件，可以获得8年驾照费用的部分退款。最高退款金额为原8年驾照费用的50%（即4年）。部分退款不包括任何申请费或文件费。\n\n如果您符合以下条件，则有资格获得部分退款：\n\n- 驾照签发时有效期为8年\n- 在8年期限的前4年内将驾照交回给我们或另一州\n- 交回时驾照未被吊销或撤销\n- 未将驾照换成非驾驶员ID卡\n\n申请退款，您必须：\n\n- 在驾照签发日期后不超过51个月内申请\n- 填写《机动车注册和驾照费用退款申请表》[3] (MV-215)\n- 如果尚未交回驾照，请将驾照附在MV-215表格上\n- 如果您将纽约州驾照换成了其他州的驾照，请将外州驾照的复印件附在MV-215表格上\n- 将所需表格和文件邮寄至表格上所列地址\n- 退款处理时间最长可达12周"
+        },
+        {
+          "chunk_id": "How to renew a license#1_0::c0006",
+          "document": "How to renew a license#1_0",
+          "heading": [
+            "How to renew a license [1]",
+            "Additional information"
+          ],
+          "source_file": "dmv_056.md",
+          "excerpt": "[How to renew a license [1] > Additional information]\n#### Veteran status designation\n\nIf you are a qualified U.S. military veteran who was honorably discharged, and you have a NY State driver license, learner permit or non-driver photo ID card, you can have the word \"Veteran\" printed on the upper left hand of your photo document.\n\nThere is no additional fee for the veteran status designation on your document, but all regular transaction fees will apply.\n\nLearn how to get the veteran status on your license [8].\n\nIf you are active in the military, please see our military resources [9] for more information on renewing- and thank you for your service!\n\n#### Your new license will come in about 10 business days\n\nYou can check the mailing status online [10]. If it has been more than 2 weeks since you renewed, contact us [11].\n\n#### Your address must match the one on our records\n\nYou can first change your address online [12] and then renew. There is no guarantee that the US Postal Service will forward your DMV documents to your new address.\n\n#### If you are turning 21 soon\n\nIf you renew more than 40 days before your 21st birthday, your license will have 'UNDER 21' 10\n\n#### Out of the state or country\n\nWhen out of NY State we recommend that you renew your NY driver license through the mail. 11 Send us\n\n- the renewal notice we mailed you (MV-2) or if you don't have it, use the Application for Permit, Driver License, or Non-driver ID (PDF) [7] (MV-44)\n- a Vision Test Report (PDF) [6] (MV-619) completed by an eye care professional\n- a check or money order payable to Commissioner of Motor Vehicles\n\nSend us a pre-addressed priority mail return envelope with your application. This will help ensure that we send your license to the correct address.\n\n#### Temporary Visitors and international students\n\nAs long as the Temporary Visitor status that DMV has on file is not expired you can renew your license online, through the mail or in an office.\n\nIf your Temporary Visitor status has been extended, you must go to a DMV office with your updated paperwork from the United States Department of Homeland Security (DHS). We will update our records to show that your Temporary Visitor status has been extended so you can renew your license. Your new license will have your new temporary visitor expiration date.\n\n#### Changing license class when renewing\n\nYou cannot change the class when you renew online. You can make these changes when you renew by mail or at a DMV office.\n\nYou cannot make any other class changes when you renew. Other changes require a written test and a road test. (See Get a CDL [13] or Get a motorcycle license [14]).\n\nIf you renew\n\n- by mail, include a note about your class change in your renewal envelope\n- at a DMV office, tell the DMV representative about the change\n\nYou will need to pay the renewal fee [15] for your new driver license class.\n\n- 1.\n\nIf you drive with expired license get a traffic ticket, you will receive fines and penalties\n\n- 60 days or less after the expiration date: $25 to $40 plus state and local surcharges\n  - more than 60 days after the expiration date: $75 to $300 plus state and local surcharges\n\n- 2. Renewal anytime within this period will not affect the expiration date of your new driver license or the fees. If your license is expired for **2 years or more,** you must apply for an original license. You must pass the vision test and the written test, complete a pre-licensing course and pass a Road Test. See Get a driver license [16].\n\n- 3. Starting in October 2020, you will need an Enhanced or REAL ID to board a domestic flight (unless you have a passport).\n\nIf your license was issued before October 30, 2017 and is not Enhanced, you have a Standard document.\n\nNewly issued Standard documents show: 'NOT FOR FEDERAL PURPOSES'.\n\n- 4.\n\nIf you want to renew in an office and keep your Standard document type, follow these steps:\n\nStep 1: Complete the renewal notice (MV-2) we mailed you.\n\n- if you did not receive a renewal notice, you can use an Application for Permit, Driver License or Non-Driver ID Card [7] (MV-44)\n\nStep 2: Come to an office. Bring\n\n- your current Standard license\n  - your renewal notice or application\n  - payment\n\nNewly issued Standard licenses show: 'NOT FOR FEDERAL PURPOSES'.\n\n- 5. See information about how to renew a CDL [17].\n\n- 6.\n\nYou can have a Vision Test Report (PDF) [6] (MV-619) completed by a medical professional listed below, and then enter the report information on the online transaction. You do not need to mail or bring us the report if you renew online.\n\n- physician\n  - physician's assistant\n  - ophthalmologist\n  - optometrist\n  - optician\n  - registered nurse\n  - nurse professional\n\n- 7. At the start of your online renewal transaction, you will be asked if you would like to register to vote or change your party designation. You are not required to register to vote, but you will be required to answer the question to proceed with your transaction. If you answer yes, you will complete your voter registration application as part of your renewal transaction.\n\n- 8. Residents of the following counties must pay a supplemental Metropolitan Commuter Transportation District (MCTD) fee: Bronx, Kings (Brooklyn), New York (Manhattan), Queens, Richmond (Staten Island); Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk and Westchester.\n\nThe MCTD fee is $1.00 for every 6 months the permit or driver license will be in effect. For an 8-year driver license, the MCTD fee is $16.\n\n- 9. If you have a Class A, B or C with an endorsement of H or X, you must pass the hazardous materials knowledge test at a DMV office within 2 years before your renewal and pay an additional fee of $5 for the test.\n\n- 10. If your renewal is processed less than 40 days before your birthday, we will mail you a driver license without the words UNDER 21 on or near the date of your birthday.\n\n- 11. You can renew online if you are away and\n\n- have a valid NY driver license\n  -  have had an eye exam from the last 12 months saved to the DMV Vision Registry [18].\n\nHowever, your license will not be forwarded to you out of state or out of the country."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，费用表已提供。首次申请或更换驾照的费用取决于年龄、居住地及是否属于MCTD区域。更换驾照费用为$17.50，更改信息费用为$12.50，增强版驾照额外$30。MCTD费用为每6个月$1.00，8年驾照总计$16。若符合条件，可申请部分退款，最高为原8年费用的50%，需填写MV-215表格并邮寄，处理时间最长12周。",
+          "citations": [
+            "Driver license and learner permit fees and refunds#3_0::c0000",
+            "How to renew a license#1_0::c0006"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "60cb9db3cb414185a567563501f9e87d",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3895,
+              "completion_tokens": 152,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 152,
+                "prompt_tokens": 3895,
+                "total_tokens": 4047,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3639
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0061553,
+            "accounted_rmb": 0.0061553,
+            "usage_unknown": false,
+            "seconds": 1.9555470943450928,
+            "error": null,
+            "response": {
+              "id": "e9e7bcf1-453f-4f98-ab2b-65e3b56bb3fc",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "21cc8e6c60d695f56d9170e73ab9acea6f9b65824866cfa39f2eaceac502a153"
+      },
+      "latency_ms": {
+        "queue_wait": 0.039416016079485416,
+        "retrieval": 1513.6012500151992,
+        "generation": 1959.7355829318985,
+        "total": 3475.125249940902
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2563137080287561,
+        "rerank_seconds": 1.257200957974419,
+        "top1_dense_score": 0.8162547945976257,
+        "candidate_ids": [
+          "Driver license and learner permit fees and refunds#3_0::c0000",
+          "Replace license or permit#1_0::c0007",
+          "Get a driver license#1_0::c0020",
+          "Restore license after revocation#1_0::c0010",
+          "Veteran status designation on a photo document#3_0::c0000",
+          "Replace license or permit#1_0::c0006",
+          "About New York State Inspections#3_0::c0015",
+          "Exchange a NY State driver license for a non-driver ID card#1_0::c0000",
+          "Replace license or permit#1_0::c0004",
+          "Escort driver certification#1_0::c0006",
+          "Register a vehicle when you are out-of-state#1_0::c0019",
+          "How to renew a registration#1_0::c0000",
+          "Restore license after revocation#1_0::c0013",
+          "Suspensions and revocations#3_0::c0007",
+          "Replace license or permit#1_0::c0005",
+          "About New York State Inspections#3_0::c0013",
+          "Restore license after revocation#1_0::c0008",
+          "Lost, stolen, or destroyed plates#3_0::c0000",
+          "How to renew a license#1_0::c0006",
+          "Exchange your out-of-state driver license#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 43,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.5135598329361528
+      },
+      "raw_citations": [
+        "Driver license and learner permit fees and refunds#3_0::c0000",
+        "How to renew a license#1_0::c0006"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "36a58c5603c00cba3bd5284220ccf254f71dc71f613abe729f17b0d58de33e3c"
+}

@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "5a1fa1da4d95bb3fdf399455e34d19f8::agent-turn-11",
+    "item_sha256": "6e6280beca080cfb9eb9e0e7a082687ce449a0714bc59a784dc42d9e92e825da",
+    "result": {
+      "request_id": "8338a057f1d8438e940a38225a1acfdb",
+      "session_id": "5a1fa1da4d95bb3fdf399455e34d19f8",
+      "turn_id": 10,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "好的，既然您没有收到不光彩退伍令，那么根据VA养老金资格要求，您还需要满足其他条件。具体来说，您必须同时满足以下两项：\n\n1. **收入和净资产限制**：您的年度家庭收入和净资产必须符合国会设定的限额。净资产包括您拥有的所有个人财产（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务，且包括您配偶的净资产。\n\n2. **至少满足以下一项服务要求**：\n   - 您在1980年9月7日或之前开始服现役，并服役至少90天，其中至少1天在战时期间；或\n   - 您在1980年9月7日之后作为入伍人员开始服现役，并服役至少24个月或完成您被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间；或\n   - 您是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月。\n\n此外，您还必须满足以下至少一项：\n   - 年满65岁，或\n   - 有永久性完全残疾，或\n   - 因残疾而长期住在养老院，或\n   - 正在领取社会保障残疾保险或补充保障收入。\n\n如果您能确认这些条件，您可能有资格申请。如果您不确定某些条件，请提供更多信息以便进一步指导。",
+        "citations": [
+          "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Survivors Pension | Veterans Affairs#1_0::c0000",
+          "text": "# VA Survivors Pension | Veterans Affairs\n\n# VA Survivors Pension\n\nVA Survivors Pension 为符合条件的战时退伍军人的未再婚遗属和未婚受抚养子女提供每月补助金，前提是他们满足国会设定的收入和净资产限额。了解您是否符合资格以及如何申请。\n\n### 作为未再婚遗属，我是否有资格获得 VA Survivors Pension？\n\n如果您在退伍军人去世后未再婚，且已故退伍军人并非不名誉退役，并且其服役满足以下至少一项要求，则您可能有资格获得此项福利。\n\n以下至少一项必须为真。该退伍军人：\n\n- 于1980年9月7日或之前开始服现役，并在现役部队中服役至少90天，其中至少1天在战时期间，或\n\n- 于1980年9月7日之后开始服现役，并服役至少24个月或完成其被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间，或\n\n- 是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月\n\n并且以下情况对您必须为真：\n\n您的年度家庭收入和净资产满足国会设定的特定限额。您的净资产等于您拥有的所有财产价值（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务。\n\n### 我如何知道退伍军人是否在符合条件的战时期间服役？\n\n根据现行法律，我们承认以下战时期间来决定养老金福利的资格：\n\n- 墨西哥边境时期（1916年5月9日至1917年4月5日，适用于在墨西哥、其边境或邻近水域服役的退伍军人）\n- 第一次世界大战（1917年4月6日至1918年11月11日）\n- 第二次世界大战（1941年12月7日至1946年12月31日）\n- 朝鲜冲突（1950年6月27日至1955年1月31日）\n- 越南战争时期（1961年2月28日至1975年5月7日，适用于在此期间在越南共和国服役的退伍军人。1964年8月5日至1975年5月7日，适用于在越南共和国境外服役的退伍军人。）\n- 海湾战争（1990年8月2日至法律或总统公告规定的未来日期）\n\n### 作为已故战时退伍军人的子女，我是否有资格获得 VA Survivors Pension？\n\n如果您未婚且满足以下至少一项要求，则您可能有资格获得此项福利。\n\n以下至少一项必须为真：\n\n- 您未满18岁，或\n- 您未满23岁且正在就读VA认可的学校，或\n- 您因18岁前发生的残疾而无法照顾自己\n\n## 如何申请VA遗属养老金？\n\n您可以通过以下任一方式申请：\n\n### 邮寄申请\n\n填写《DIC、死亡养老金和/或应计福利申请表》（VA Form 21-534EZ）。下载 VA Form 21-534EZ (PDF)\n\n将其邮寄至您所在州的养老金管理中心（PMC）。查找您的 PMC\n\n### 亲自申请\n\n携带您的申请表前往附近的VA区域办事处。查找附近的VA区域福利办公室\n\n### 在专业人士的帮助下申请\n\n您可以与称为授权代表的专业人士合作，以获得申请VA遗属养老金福利的帮助。获取申请帮助\n\n## VA需要多长时间做出决定？\n\n视情况而定。我们按照收到申请的先后顺序处理VA遗属养老金申请，除非某项申请需要优先处理。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "text": "[VA benefits for service members > 作为退伍军人需考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- Veterans Pension 计划\n\n如果你在战时服役于现役，年满65岁或拥有与服务相关的残疾，且收入有限或没有收入，请了解你是否有资格获得 Veterans Pension 福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果你在日常活动中需要帮助或居家，请检查你是否有资格在每月的 Veterans Pension 付款中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果你有与服务相关的残疾，请了解如何申请住房补助金，以对你的房屋进行改造，使你能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为你和你的家人提供的人寿保险覆盖选项和服务，并在线管理你的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先资格确定：VA 国家公墓安葬\n\n申请预先资格决定信，以确认你有资格在 VA 国家公墓安葬。这可以帮助你提前规划，并可以在你的家人需要时简化流程。仅面向现役退伍军人开放\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "text": "[军人退伍军人福利 > 作为退伍军人需要考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 退伍军人养老金计划\n\n如果您在战时服过现役，年满65岁或患有与服务相关的残疾，且收入有限或没有收入，请了解您是否有资格获得退伍军人养老金福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果您在日常活动中需要帮助，或者您被困在家中，请检查您是否有资格在每月的退伍军人养老金支付中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果您有与服务相关的残疾，请了解如何申请住房补助金，以便对您的房屋进行改造，使您能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为您和您的家人提供的寿险保障选项和服务，并在线管理您的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先确定是否符合在VA国家公墓安葬的资格\n\n申请预先确定资格决定信，以确认您有资格在VA国家公墓安葬。这可以帮助您提前规划，并可以在您的家人需要时使流程更加简便。仅面向现役退伍军人开放\n\n最后更新：\n\n#### VA转型援助计划\n\n探索您的职业选择，并了解如何获取您已赢得的VA福利。\n\n- #### 给我们发消息\n\n- 在线提问\n\n#### 给我们打电话\n\n- VA福利热线：800-827-1000\n  - eBenefits技术支持：800-983-0937\n  - 拨打MyVA311寻求帮助：844-698-2311\n  - 如果您有听力损失，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人事务部\n\n#### 获取更新\n\n- VA电子邮件更新\n\n#### 关注我们\n\n- 退伍军人事务部 Facebook\n  - 退伍军人事务部 Instagram\n  - 退伍军人事务部 Twitter\n  - 退伍军人事务部 YouTube"
+        },
+        {
+          "chunk_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000",
+          "text": "# Eligibility For Veterans Pension | Veterans Affairs\n\n# Eligibility for Veterans Pension\n\nThe Veterans Pension program provides monthly payments to wartime Veterans who meet certain age or disability requirements, and who have income and net worth within certain limits. Find out if you re eligible for this benefit.\n\n### Am I eligible for Veterans Pension benefits from VA?\n\nIf you meet the VA pension eligibility requirements listed below, you may be eligible for the Veterans Pension program.\n\nBoth of these must be true:\n\n- You didn t receive a dishonorable discharge, and\n- Your yearly family income and net worth meet certain limits set by Congress. Your net worth includes all personal property you own (except your house, your car, and most home furnishings), minus any debt you owe. Your net worth includes the net worth of your spouse. Find out about Veterans Pension rates\n\nAnd at least one of these must be true about your service. You:\n\n- Started on active duty before September 8, 1980, and you served at least 90 days on active duty with at least 1 day during wartime, or\n- Started on active duty as an enlisted person after September 7, 1980, and served at least 24 months or the full period for which you were called or ordered to active duty (with some exceptions) with at least 1 day during wartime, or\n- Were an officer and started on active duty after October 16, 1981, and you hadn t previously served on active duty for at least 24 months\n\nAnd at least one of these must be true. You:\n\n- Are at least 65 years old, or\n- Have a permanent and total disability, or\n- Are a patient in a nursing home for long-term care because of a disability, or\n- Are getting Social Security Disability Insurance or Supplemental Security Income\n\n## How do I know if I served under an eligible wartime period?\n\nUnder current law, we recognize the following wartime periods to decide eligibility for VA pension benefits:\n\n- Mexican Border period (May 9, 1916, to April 5, 1917, for Veterans who served in Mexico, on its borders, or in adjacent waters)\n- World War I (April 6, 1917, to November 11, 1918)\n- World War II (December 7, 1941, to December 31, 1946)\n- Korean conflict (June 27, 1950, to January 31, 1955)\n- Vietnam War era (February 28, 1961, to May 7, 1975, for Veterans who served in the Republic of Vietnam during that period. August 5, 1964, to May 7, 1975, for Veterans who served outside the Republic of Vietnam.)\n- Gulf War (August 2, 1990, through a future date to be set by law or presidential proclamation)\n\n## What should I do if I received an other than honorable, bad conduct, or dishonorable discharge?\n\nIf you ve received one of these discharge statuses, you may not be eligible for VA pension benefits.\n\nThere are 2 ways you can try to qualify:\n\nFind out how to apply for a discharge upgradeLearn about the VA Character of Discharge review process\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n* *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0002",
+          "text": "[VA医疗保健资格 > 如果我收到非荣誉退伍、行为不良退伍或不名誉退伍，该怎么办？]\n如果您收到这些退伍身份之一，您可能不符合VA福利资格。\n\n有2种方式可以尝试获得资格：\n\n了解如何申请退伍升级了解VA品格退伍审查流程"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Survivors Pension | Veterans Affairs#1_0::c0000",
+          "text": "# VA Survivors Pension | Veterans Affairs\n\n# VA Survivors Pension\n\nVA Survivors Pension 为符合条件的战时退伍军人的未再婚遗属和未婚受抚养子女提供每月补助金，前提是他们满足国会设定的收入和净资产限额。了解您是否符合资格以及如何申请。\n\n### 作为未再婚遗属，我是否有资格获得 VA Survivors Pension？\n\n如果您在退伍军人去世后未再婚，且已故退伍军人并非不名誉退役，并且其服役满足以下至少一项要求，则您可能有资格获得此项福利。\n\n以下至少一项必须为真。该退伍军人：\n\n- 于1980年9月7日或之前开始服现役，并在现役部队中服役至少90天，其中至少1天在战时期间，或\n\n- 于1980年9月7日之后开始服现役，并服役至少24个月或完成其被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间，或\n\n- 是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月\n\n并且以下情况对您必须为真：\n\n您的年度家庭收入和净资产满足国会设定的特定限额。您的净资产等于您拥有的所有财产价值（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务。\n\n### 我如何知道退伍军人是否在符合条件的战时期间服役？\n\n根据现行法律，我们承认以下战时期间来决定养老金福利的资格：\n\n- 墨西哥边境时期（1916年5月9日至1917年4月5日，适用于在墨西哥、其边境或邻近水域服役的退伍军人）\n- 第一次世界大战（1917年4月6日至1918年11月11日）\n- 第二次世界大战（1941年12月7日至1946年12月31日）\n- 朝鲜冲突（1950年6月27日至1955年1月31日）\n- 越南战争时期（1961年2月28日至1975年5月7日，适用于在此期间在越南共和国服役的退伍军人。1964年8月5日至1975年5月7日，适用于在越南共和国境外服役的退伍军人。）\n- 海湾战争（1990年8月2日至法律或总统公告规定的未来日期）\n\n### 作为已故战时退伍军人的子女，我是否有资格获得 VA Survivors Pension？\n\n如果您未婚且满足以下至少一项要求，则您可能有资格获得此项福利。\n\n以下至少一项必须为真：\n\n- 您未满18岁，或\n- 您未满23岁且正在就读VA认可的学校，或\n- 您因18岁前发生的残疾而无法照顾自己\n\n## 如何申请VA遗属养老金？\n\n您可以通过以下任一方式申请：\n\n### 邮寄申请\n\n填写《DIC、死亡养老金和/或应计福利申请表》（VA Form 21-534EZ）。下载 VA Form 21-534EZ (PDF)\n\n将其邮寄至您所在州的养老金管理中心（PMC）。查找您的 PMC\n\n### 亲自申请\n\n携带您的申请表前往附近的VA区域办事处。查找附近的VA区域福利办公室\n\n### 在专业人士的帮助下申请\n\n您可以与称为授权代表的专业人士合作，以获得申请VA遗属养老金福利的帮助。获取申请帮助\n\n## VA需要多长时间做出决定？\n\n视情况而定。我们按照收到申请的先后顺序处理VA遗属养老金申请，除非某项申请需要优先处理。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "text": "[VA benefits for service members > 作为退伍军人需考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- Veterans Pension 计划\n\n如果你在战时服役于现役，年满65岁或拥有与服务相关的残疾，且收入有限或没有收入，请了解你是否有资格获得 Veterans Pension 福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果你在日常活动中需要帮助或居家，请检查你是否有资格在每月的 Veterans Pension 付款中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果你有与服务相关的残疾，请了解如何申请住房补助金，以对你的房屋进行改造，使你能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为你和你的家人提供的人寿保险覆盖选项和服务，并在线管理你的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先资格确定：VA 国家公墓安葬\n\n申请预先资格决定信，以确认你有资格在 VA 国家公墓安葬。这可以帮助你提前规划，并可以在你的家人需要时简化流程。仅面向现役退伍军人开放\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "text": "[军人退伍军人福利 > 作为退伍军人需要考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 退伍军人养老金计划\n\n如果您在战时服过现役，年满65岁或患有与服务相关的残疾，且收入有限或没有收入，请了解您是否有资格获得退伍军人养老金福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果您在日常活动中需要帮助，或者您被困在家中，请检查您是否有资格在每月的退伍军人养老金支付中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果您有与服务相关的残疾，请了解如何申请住房补助金，以便对您的房屋进行改造，使您能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为您和您的家人提供的寿险保障选项和服务，并在线管理您的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先确定是否符合在VA国家公墓安葬的资格\n\n申请预先确定资格决定信，以确认您有资格在VA国家公墓安葬。这可以帮助您提前规划，并可以在您的家人需要时使流程更加简便。仅面向现役退伍军人开放\n\n最后更新：\n\n#### VA转型援助计划\n\n探索您的职业选择，并了解如何获取您已赢得的VA福利。\n\n- #### 给我们发消息\n\n- 在线提问\n\n#### 给我们打电话\n\n- VA福利热线：800-827-1000\n  - eBenefits技术支持：800-983-0937\n  - 拨打MyVA311寻求帮助：844-698-2311\n  - 如果您有听力损失，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人事务部\n\n#### 获取更新\n\n- VA电子邮件更新\n\n#### 关注我们\n\n- 退伍军人事务部 Facebook\n  - 退伍军人事务部 Instagram\n  - 退伍军人事务部 Twitter\n  - 退伍军人事务部 YouTube"
+        },
+        {
+          "chunk_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000",
+          "text": "# Eligibility For Veterans Pension | Veterans Affairs\n\n# Eligibility for Veterans Pension\n\nThe Veterans Pension program provides monthly payments to wartime Veterans who meet certain age or disability requirements, and who have income and net worth within certain limits. Find out if you re eligible for this benefit.\n\n### Am I eligible for Veterans Pension benefits from VA?\n\nIf you meet the VA pension eligibility requirements listed below, you may be eligible for the Veterans Pension program.\n\nBoth of these must be true:\n\n- You didn t receive a dishonorable discharge, and\n- Your yearly family income and net worth meet certain limits set by Congress. Your net worth includes all personal property you own (except your house, your car, and most home furnishings), minus any debt you owe. Your net worth includes the net worth of your spouse. Find out about Veterans Pension rates\n\nAnd at least one of these must be true about your service. You:\n\n- Started on active duty before September 8, 1980, and you served at least 90 days on active duty with at least 1 day during wartime, or\n- Started on active duty as an enlisted person after September 7, 1980, and served at least 24 months or the full period for which you were called or ordered to active duty (with some exceptions) with at least 1 day during wartime, or\n- Were an officer and started on active duty after October 16, 1981, and you hadn t previously served on active duty for at least 24 months\n\nAnd at least one of these must be true. You:\n\n- Are at least 65 years old, or\n- Have a permanent and total disability, or\n- Are a patient in a nursing home for long-term care because of a disability, or\n- Are getting Social Security Disability Insurance or Supplemental Security Income\n\n## How do I know if I served under an eligible wartime period?\n\nUnder current law, we recognize the following wartime periods to decide eligibility for VA pension benefits:\n\n- Mexican Border period (May 9, 1916, to April 5, 1917, for Veterans who served in Mexico, on its borders, or in adjacent waters)\n- World War I (April 6, 1917, to November 11, 1918)\n- World War II (December 7, 1941, to December 31, 1946)\n- Korean conflict (June 27, 1950, to January 31, 1955)\n- Vietnam War era (February 28, 1961, to May 7, 1975, for Veterans who served in the Republic of Vietnam during that period. August 5, 1964, to May 7, 1975, for Veterans who served outside the Republic of Vietnam.)\n- Gulf War (August 2, 1990, through a future date to be set by law or presidential proclamation)\n\n## What should I do if I received an other than honorable, bad conduct, or dishonorable discharge?\n\nIf you ve received one of these discharge statuses, you may not be eligible for VA pension benefits.\n\nThere are 2 ways you can try to qualify:\n\nFind out how to apply for a discharge upgradeLearn about the VA Character of Discharge review process\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n* *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0002",
+          "text": "[VA医疗保健资格 > 如果我收到非荣誉退伍、行为不良退伍或不名誉退伍，该怎么办？]\n如果您收到这些退伍身份之一，您可能不符合VA福利资格。\n\n有2种方式可以尝试获得资格：\n\n了解如何申请退伍升级了解VA品格退伍审查流程"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000",
+          "document": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_030.md",
+          "excerpt": "# Eligibility For Veterans Pension | Veterans Affairs\n\n# Eligibility for Veterans Pension\n\nThe Veterans Pension program provides monthly payments to wartime Veterans who meet certain age or disability requirements, and who have income and net worth within certain limits. Find out if you re eligible for this benefit.\n\n### Am I eligible for Veterans Pension benefits from VA?\n\nIf you meet the VA pension eligibility requirements listed below, you may be eligible for the Veterans Pension program.\n\nBoth of these must be true:\n\n- You didn t receive a dishonorable discharge, and\n- Your yearly family income and net worth meet certain limits set by Congress. Your net worth includes all personal property you own (except your house, your car, and most home furnishings), minus any debt you owe. Your net worth includes the net worth of your spouse. Find out about Veterans Pension rates\n\nAnd at least one of these must be true about your service. You:\n\n- Started on active duty before September 8, 1980, and you served at least 90 days on active duty with at least 1 day during wartime, or\n- Started on active duty as an enlisted person after September 7, 1980, and served at least 24 months or the full period for which you were called or ordered to active duty (with some exceptions) with at least 1 day during wartime, or\n- Were an officer and started on active duty after October 16, 1981, and you hadn t previously served on active duty for at least 24 months\n\nAnd at least one of these must be true. You:\n\n- Are at least 65 years old, or\n- Have a permanent and total disability, or\n- Are a patient in a nursing home for long-term care because of a disability, or\n- Are getting Social Security Disability Insurance or Supplemental Security Income\n\n## How do I know if I served under an eligible wartime period?\n\nUnder current law, we recognize the following wartime periods to decide eligibility for VA pension benefits:\n\n- Mexican Border period (May 9, 1916, to April 5, 1917, for Veterans who served in Mexico, on its borders, or in adjacent waters)\n- World War I (April 6, 1917, to November 11, 1918)\n- World War II (December 7, 1941, to December 31, 1946)\n- Korean conflict (June 27, 1950, to January 31, 1955)\n- Vietnam War era (February 28, 1961, to May 7, 1975, for Veterans who served in the Republic of Vietnam during that period. August 5, 1964, to May 7, 1975, for Veterans who served outside the Republic of Vietnam.)\n- Gulf War (August 2, 1990, through a future date to be set by law or presidential proclamation)\n\n## What should I do if I received an other than honorable, bad conduct, or dishonorable discharge?\n\nIf you ve received one of these discharge statuses, you may not be eligible for VA pension benefits.\n\nThere are 2 ways you can try to qualify:\n\nFind out how to apply for a discharge upgradeLearn about the VA Character of Discharge review process\n\nChecking your application status. Sorry, this is taking longer than expected.\n\n* *We re sorry. Something went wrong when we tried to load your saved application.**Please try refreshing your browser in a few minutes.\n\nLast updated:"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "好的，既然您没有收到不光彩退伍令，那么根据VA养老金资格要求，您还需要满足其他条件。具体来说，您必须同时满足以下两项：\n\n1. **收入和净资产限制**：您的年度家庭收入和净资产必须符合国会设定的限额。净资产包括您拥有的所有个人财产（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务，且包括您配偶的净资产。\n\n2. **至少满足以下一项服务要求**：\n   - 您在1980年9月7日或之前开始服现役，并服役至少90天，其中至少1天在战时期间；或\n   - 您在1980年9月7日之后作为入伍人员开始服现役，并服役至少24个月或完成您被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间；或\n   - 您是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月。\n\n此外，您还必须满足以下至少一项：\n   - 年满65岁，或\n   - 有永久性完全残疾，或\n   - 因残疾而长期住在养老院，或\n   - 正在领取社会保障残疾保险或补充保障收入。\n\n如果您能确认这些条件，您可能有资格申请。如果您不确定某些条件，请提供更多信息以便进一步指导。",
+          "citations": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "03e8807fb0df4c8187aa1eab93d54ec4",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2942,
+              "completion_tokens": 346,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 346,
+                "prompt_tokens": 2942,
+                "total_tokens": 3288,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2686
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0055988,
+            "accounted_rmb": 0.0055988,
+            "usage_unknown": false,
+            "seconds": 2.9531970024108887,
+            "error": null,
+            "response": {
+              "id": "c11179e2-eb1f-4e6c-9461-dc2dae61ace1",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "65b874de275b61c0ec445de6404ebcd40e235a52b3c9943232b1cc74cbf0a935"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04070904105901718,
+        "retrieval": 1317.4106660299003,
+        "generation": 2956.1633749399334,
+        "total": 4274.57858400885
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.22454041708260775,
+        "rerank_seconds": 1.0928135419962928,
+        "top1_dense_score": 0.8060174584388733,
+        "candidate_ids": [
+          "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "VA Survivors Pension | Veterans Affairs#1_0::c0000",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0001",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0000",
+          "VA Pension Benefits | Veterans Affairs#2_0::c0000",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0002",
+          "VA Health Care | Veterans Affairs#1_0::c0039",
+          "VA Pension Benefits | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0009",
+          "VA Disability Compensation | Veterans Affairs#2_0::c0000",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0001",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0004",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0001",
+          "VA Life Insurance | Veterans Affairs#2_0::c0000",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0003",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0001",
+          "VA Health Care | Veterans Affairs#2_0::c0003"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 36,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.317388292052783
+      },
+      "raw_citations": [
+        "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "19a510fe142ec1471a687a1cb0dd1e57fca8e54883ef126785abb098a71b002d"
+}

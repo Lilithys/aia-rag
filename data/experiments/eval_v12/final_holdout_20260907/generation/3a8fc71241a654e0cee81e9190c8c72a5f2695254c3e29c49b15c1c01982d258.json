@@ -1,0 +1,183 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "8ecebee01bd38a84d08e459e8b29446d::agent-turn-12",
+    "item_sha256": "31771aef25a694eecfa2bd57cdbe88c30cabc15b711b13f6bd7ddc432832e531",
+    "result": {
+      "request_id": "30c8a5fb114048488def81055dd9be67",
+      "session_id": "8ecebee01bd38a84d08e459e8b29446d",
+      "turn_id": 11,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "Yes, that's correct. According to the Social Security Administration, if your birthday is on January 1st, they figure your benefit as if your birthday was in the previous year. This applies to the online calculator and other benefit calculations.",
+        "citations": [
+          "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+          "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+          "text": "# 福利规划器：退休 | 在线计算器（WEP版本）\n\n## 福利规划器：退休\n\n### 在线计算器（WEP版本）\n\n下面显示的计算器允许您估算您的社会保障福利。但是，为了获得最准确的估算，请使用详细计算器。\n\n您需要输入所有过去的收入，这些收入显示在您的在线记录中。\n\n请注意：\n\n- 在线计算器会定期更新*，以反映新的福利增加和其他福利金额。因此，您未来的福利估算很可能与今天计算的结果不同。\n- 在线计算器适用于启用Javascript的PC和Mac。\n- 某些浏览器可能不允许您打印下面的表格。\n\n在线计算器会在您的浏览器打开时，在您的本地计算机上临时存储信息。为了保护您的个人信息，请在完成估算后关闭浏览器。\n\n注意：如果您的生日是1月1日，我们会将您的福利计算视为您的生日是在上一年。\n\n如果您有资格作为遗属领取福利，您的遗属福利全额退休年龄可能有所不同。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000",
+          "text": "# Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration\n\n## Benefits Planner: Retirement\n\n### Benefits By Year Of Birth\n\nFull retirement age is the age at which a person may first become entitled to full or unreduced retirement benefits.\n\nNo matter what your full retirement age (also called \"normal retirement age\") is, you may start receiving benefits as early as age 62 or as late as age 70.\n\n### If You Retire Early\n\nYou can retire at any time between age 62 and full retirement age. However, if you start benefits early, your benefits are reduced a fraction of a percent for each month before your full retirement age.\n\nThe chart below lists age 62 reduction amounts and includes examples based on an estimated monthly benefit of $1000 at full retirement age. Select your year of birth to find out how much your benefit will be reduced if you retire between age 62 and full retirement age.\n\nIf your birthday is on January 1, we figure your benefit as if your birthday was in the previous year.\n\n### Full Retirement and Age 62 Benefit By Year Of Birth\n\n### Pros And Cons\n\nThere are advantages and disadvantages to taking your benefit before your full retirement age. The advantage is that you collect benefits for a longer period of time. The disadvantage is your benefit is reduced. Each person's situation is different. It is important to remember:\n\n- if you delay your benefits until after full retirement age, you may be eligible for delayed retirement credits that would increase your monthly benefit;\n- that there are other things to consider when making the correct decision about your retirement benefits; and\n- to contact Social Security before you decide when to retire.\n\nIf you decide to delay your benefits until after age 65, you should still for Medicare benefits within three months of your 65th birthday. If you wait longer, your Medicare medical insurance (Part B) and prescription drug coverage (Part D) may cost you more money."
+        },
+        {
+          "chunk_id": "Retirement Estimator | Social Security Administration#1_0::c0000",
+          "text": "# 退休估算器 | 社会保障署\n\n## 退休估算器\n\n### 退休估算器的工作原理\n\n退休估算器基于您的实际社会保障收入记录提供估算。请记住，这些仅为估算。\n\n估算您的退休福利\n\n在您申请福利之前，我们无法提供您的实际福利金额。该金额可能与提供的估算有所不同，原因如下：\n\n- 您未来的收入可能会增加或减少。\n- 在您开始领取福利后，这些福利将根据生活成本增加进行调整。\n- 您的估算福利基于现行法律。由于到2035年，合并信托基金储备预计将比去年预测的时间晚一年耗尽，规定福利金额的法律可能会发生变化。征收的工资税将仅足以支付每美元计划福利的约80美分。\n- 您的福利金额可能受到兵役、铁路就业或未缴纳社会保障税的工作所获得的养老金的影响。\n\n### 谁可以使用退休估算器\n\n如果您满足以下条件，则可以使用退休估算器：\n\n- 您目前拥有足够的社会保障积分以符合福利资格，并且\n- 您不属于以下情况：\n  - 目前正在根据您自己的社会保障记录领取福利；\n  - 正在等待有关您的福利或Medicare申请的决定；\n  - 年满62岁或以上，并根据另一份社会保障记录领取福利；或\n  - 有资格获得基于未纳入社会保障覆盖的工作的养老金。\n\n如果您目前仅领取Medicare福利，您仍然可以获得估算。有关更多信息，请访问此链接查看我们的出版物《Medicare受益人的退休信息》。\n\n如果您无法使用退休估算器，或者您需要遗属或残疾福利估算，请使用我们的其他福利计算器。\n\n如果您阻止了对您个人信息的访问，则无法使用退休估算器。\n\n### 您可以在每个页面上停留多长时间？\n\n出于安全原因，查看每个页面有时间限制。如果您在25分钟内没有任何操作，您将收到警告，并且可以延长您在页面上的时间。\n\n在页面上的第三次警告后，您必须移至另一个页面。如果不这样做，您的时间将耗尽，并且您在该页面上的工作将丢失。\n\n如果您在浏览器中关闭了JavaScript，您将不会收到这些警告。在页面上花费30分钟后，您必须移至另一个页面，否则您将被注销。"
+        },
+        {
+          "chunk_id": "Benefits Planner | Social Security Administration#2_0::c0000",
+          "text": "# 福利规划器 | 社会保障管理局\n\n社会保障可以为您、您的配偶以及其他符合条件的家庭成员提供以下福利：\n\n- 当您退休时；\n\n- 如果您残疾；以及\n\n- 当您去世时。\n\n使用我们的规划器，帮助您更好地了解您的社会保障保护，为您的财务未来做规划。然后选择一个 福利计算器，估算您和您的家人可能符合条件的福利。\n\n## 在线申请福利\n\n如果您想申请退休福利、残疾福利或仅申请医疗保险，并且您符合某些标准，您可以在线完成申请 。\n\n- 您将被要求同意服务条款协议，并创建或登录您的个人我的社会保障账户。如果我们无法处理 您的请求，您将收到具体信息，告知如何通过电话联系我们或预约。\n\n如果您是退休或残疾工人的配偶或离婚配偶，在年满62岁或以上的3个月内，并且您符合某些标准 ，您可以填写月度福利或仅医疗保险的在线申请。\n\n有关申请方式的更多信息，请访问\n\n有关仅申请医疗保险和延迟退休福利的更多信息，请访问\n\n## 退休福利\n\n使用我们的退休规划器了解：\n\n- 您如何符合社会保障退休福利的资格；\n\n- 关于您可能在他人的记录上符合条件的潜在福利；\n\n- 您的哪些家庭成员可能根据您的收入记录获得福利；以及\n\n- 如何以及何时申请。\n\n## 残疾福利\n\n使用我们的残疾规划器，了解如果您在符合退休福利资格之前严重残疾，您和您的家人如何可能符 合福利条件。\n\n即使非常年轻的工人也可能已经获得了残疾保护。了解更多关于工作积分及其如何影响残疾福利的 信息。\n\n## 遗属福利\n\n使用我们的遗属规划器了解：\n\n- 如果您去世，您的家庭成员如何得到保障，或\n\n- 您如何作为他人社会保障记录上的遗属而有资格获得保障。\n\n这项保障对于有子女的年轻家庭尤为重要。即使是非常年轻的工人也可能享有这项保障。了解更多 关于工作积分及其如何影响遗属福利的信息。\n\n## 配偶福利\n\n即使您从未在社会保障制度下工作过，如果您符合以下身份，您仍可能有资格获得福利：\n\n- 退休工人的配偶或离婚配偶；\n\n- 残疾工人的配偶或离婚配偶；或\n\n- 已故工人的遗孀/鳏夫或未再婚的离婚配偶。\n\n## 在线工具\n\n使用我们的福利计算器之一来帮助您规划：\n\n- 使用您的个人我的社会保障账户在线获取信息，以核实您的收入记录是否正确，并获得您未来 退休、残疾和遗属福利的估算。\n\n- 如果您已有足够的社会保障积分以符合福利资格，您可以使用我们的退休估算器获得个性化的 即时退休福利估算。您可以输入不同的日期和年龄，以确定最适合您的退休时间。\n\n- 如果您需要遗属或残疾福利的估算，或者您尚未积累足够的社会保障积分以符合福利资格，请 使用我们的福利计算器之一来估算您未来的退休、残疾和遗属福利。"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0004",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > What do I need to know before I apply?]\nBefore you apply for retirement benefits, there are certain Social Security \"basics\" you should know about:\n\n- Your \"full retirement age\" - Depending on your date of birth, that may be between age 66 and 67. This could affect the amount of your benefits and when you want the benefits to start.\n- When you can start benefits - You may start receiving benefits as early as age 62 or as late as age 70.\n- Benefits are reduced for age - Your monthly benefits will be reduced if you start them any time before \"full retirement age.\"\n- Working while you receive benefits - If you elect to receive benefits before you reach full retirement age, you should understand how continuing to work can affect your benefits.\n- Delayed retirement credits - Delayed retirement credits may be added to your benefits if they start after your full retirement age.\n- Life expectancy - Many of us will live much longer than the average retiree, and most women live longer than men. More than one in three 65 year olds today will live to age 90, and more than one in seven will live to age 95. Social Security benefits, which last as long as you live, provide valuable protection against outliving savings and other sources of retirement income. Again, you ll want to choose a retirement age based on your circumstances so you ll have enough income when you need it.\n  We urge you to use our **Retirement Estimator** to get a personal estimate of how much your benefits will be at different ages and \"stop work\" dates before you begin the application.\n\nPlease read Other Things to Consider for information about other things you should think about when you make your decision about when to begin your benefits. Some of the things you should think about before you decide include:\n\n- how long you think you will receive benefits,\n- your health and\n- whether anyone else in your family can get benefits on your record.\n\nYou can find out what documents and information you need to apply by reading our \"Checklist for Online Medicare, Retirement, and Spouses Applications.\""
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+          "text": "# 福利规划器：退休 | 在线计算器（WEP版本）\n\n## 福利规划器：退休\n\n### 在线计算器（WEP版本）\n\n下面显示的计算器允许您估算您的社会保障福利。但是，为了获得最准确的估算，请使用详细计算器。\n\n您需要输入所有过去的收入，这些收入显示在您的在线记录中。\n\n请注意：\n\n- 在线计算器会定期更新*，以反映新的福利增加和其他福利金额。因此，您未来的福利估算很可能与今天计算的结果不同。\n- 在线计算器适用于启用Javascript的PC和Mac。\n- 某些浏览器可能不允许您打印下面的表格。\n\n在线计算器会在您的浏览器打开时，在您的本地计算机上临时存储信息。为了保护您的个人信息，请在完成估算后关闭浏览器。\n\n注意：如果您的生日是1月1日，我们会将您的福利计算视为您的生日是在上一年。\n\n如果您有资格作为遗属领取福利，您的遗属福利全额退休年龄可能有所不同。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000",
+          "text": "# Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration\n\n## Benefits Planner: Retirement\n\n### Benefits By Year Of Birth\n\nFull retirement age is the age at which a person may first become entitled to full or unreduced retirement benefits.\n\nNo matter what your full retirement age (also called \"normal retirement age\") is, you may start receiving benefits as early as age 62 or as late as age 70.\n\n### If You Retire Early\n\nYou can retire at any time between age 62 and full retirement age. However, if you start benefits early, your benefits are reduced a fraction of a percent for each month before your full retirement age.\n\nThe chart below lists age 62 reduction amounts and includes examples based on an estimated monthly benefit of $1000 at full retirement age. Select your year of birth to find out how much your benefit will be reduced if you retire between age 62 and full retirement age.\n\nIf your birthday is on January 1, we figure your benefit as if your birthday was in the previous year.\n\n### Full Retirement and Age 62 Benefit By Year Of Birth\n\n### Pros And Cons\n\nThere are advantages and disadvantages to taking your benefit before your full retirement age. The advantage is that you collect benefits for a longer period of time. The disadvantage is your benefit is reduced. Each person's situation is different. It is important to remember:\n\n- if you delay your benefits until after full retirement age, you may be eligible for delayed retirement credits that would increase your monthly benefit;\n- that there are other things to consider when making the correct decision about your retirement benefits; and\n- to contact Social Security before you decide when to retire.\n\nIf you decide to delay your benefits until after age 65, you should still for Medicare benefits within three months of your 65th birthday. If you wait longer, your Medicare medical insurance (Part B) and prescription drug coverage (Part D) may cost you more money."
+        },
+        {
+          "chunk_id": "Retirement Estimator | Social Security Administration#1_0::c0000",
+          "text": "# 退休估算器 | 社会保障署\n\n## 退休估算器\n\n### 退休估算器的工作原理\n\n退休估算器基于您的实际社会保障收入记录提供估算。请记住，这些仅为估算。\n\n估算您的退休福利\n\n在您申请福利之前，我们无法提供您的实际福利金额。该金额可能与提供的估算有所不同，原因如下：\n\n- 您未来的收入可能会增加或减少。\n- 在您开始领取福利后，这些福利将根据生活成本增加进行调整。\n- 您的估算福利基于现行法律。由于到2035年，合并信托基金储备预计将比去年预测的时间晚一年耗尽，规定福利金额的法律可能会发生变化。征收的工资税将仅足以支付每美元计划福利的约80美分。\n- 您的福利金额可能受到兵役、铁路就业或未缴纳社会保障税的工作所获得的养老金的影响。\n\n### 谁可以使用退休估算器\n\n如果您满足以下条件，则可以使用退休估算器：\n\n- 您目前拥有足够的社会保障积分以符合福利资格，并且\n- 您不属于以下情况：\n  - 目前正在根据您自己的社会保障记录领取福利；\n  - 正在等待有关您的福利或Medicare申请的决定；\n  - 年满62岁或以上，并根据另一份社会保障记录领取福利；或\n  - 有资格获得基于未纳入社会保障覆盖的工作的养老金。\n\n如果您目前仅领取Medicare福利，您仍然可以获得估算。有关更多信息，请访问此链接查看我们的出版物《Medicare受益人的退休信息》。\n\n如果您无法使用退休估算器，或者您需要遗属或残疾福利估算，请使用我们的其他福利计算器。\n\n如果您阻止了对您个人信息的访问，则无法使用退休估算器。\n\n### 您可以在每个页面上停留多长时间？\n\n出于安全原因，查看每个页面有时间限制。如果您在25分钟内没有任何操作，您将收到警告，并且可以延长您在页面上的时间。\n\n在页面上的第三次警告后，您必须移至另一个页面。如果不这样做，您的时间将耗尽，并且您在该页面上的工作将丢失。\n\n如果您在浏览器中关闭了JavaScript，您将不会收到这些警告。在页面上花费30分钟后，您必须移至另一个页面，否则您将被注销。"
+        },
+        {
+          "chunk_id": "Benefits Planner | Social Security Administration#2_0::c0000",
+          "text": "# 福利规划器 | 社会保障管理局\n\n社会保障可以为您、您的配偶以及其他符合条件的家庭成员提供以下福利：\n\n- 当您退休时；\n\n- 如果您残疾；以及\n\n- 当您去世时。\n\n使用我们的规划器，帮助您更好地了解您的社会保障保护，为您的财务未来做规划。然后选择一个 福利计算器，估算您和您的家人可能符合条件的福利。\n\n## 在线申请福利\n\n如果您想申请退休福利、残疾福利或仅申请医疗保险，并且您符合某些标准，您可以在线完成申请 。\n\n- 您将被要求同意服务条款协议，并创建或登录您的个人我的社会保障账户。如果我们无法处理 您的请求，您将收到具体信息，告知如何通过电话联系我们或预约。\n\n如果您是退休或残疾工人的配偶或离婚配偶，在年满62岁或以上的3个月内，并且您符合某些标准 ，您可以填写月度福利或仅医疗保险的在线申请。\n\n有关申请方式的更多信息，请访问\n\n有关仅申请医疗保险和延迟退休福利的更多信息，请访问\n\n## 退休福利\n\n使用我们的退休规划器了解：\n\n- 您如何符合社会保障退休福利的资格；\n\n- 关于您可能在他人的记录上符合条件的潜在福利；\n\n- 您的哪些家庭成员可能根据您的收入记录获得福利；以及\n\n- 如何以及何时申请。\n\n## 残疾福利\n\n使用我们的残疾规划器，了解如果您在符合退休福利资格之前严重残疾，您和您的家人如何可能符 合福利条件。\n\n即使非常年轻的工人也可能已经获得了残疾保护。了解更多关于工作积分及其如何影响残疾福利的 信息。\n\n## 遗属福利\n\n使用我们的遗属规划器了解：\n\n- 如果您去世，您的家庭成员如何得到保障，或\n\n- 您如何作为他人社会保障记录上的遗属而有资格获得保障。\n\n这项保障对于有子女的年轻家庭尤为重要。即使是非常年轻的工人也可能享有这项保障。了解更多 关于工作积分及其如何影响遗属福利的信息。\n\n## 配偶福利\n\n即使您从未在社会保障制度下工作过，如果您符合以下身份，您仍可能有资格获得福利：\n\n- 退休工人的配偶或离婚配偶；\n\n- 残疾工人的配偶或离婚配偶；或\n\n- 已故工人的遗孀/鳏夫或未再婚的离婚配偶。\n\n## 在线工具\n\n使用我们的福利计算器之一来帮助您规划：\n\n- 使用您的个人我的社会保障账户在线获取信息，以核实您的收入记录是否正确，并获得您未来 退休、残疾和遗属福利的估算。\n\n- 如果您已有足够的社会保障积分以符合福利资格，您可以使用我们的退休估算器获得个性化的 即时退休福利估算。您可以输入不同的日期和年龄，以确定最适合您的退休时间。\n\n- 如果您需要遗属或残疾福利的估算，或者您尚未积累足够的社会保障积分以符合福利资格，请 使用我们的福利计算器之一来估算您未来的退休、残疾和遗属福利。"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0004",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > What do I need to know before I apply?]\nBefore you apply for retirement benefits, there are certain Social Security \"basics\" you should know about:\n\n- Your \"full retirement age\" - Depending on your date of birth, that may be between age 66 and 67. This could affect the amount of your benefits and when you want the benefits to start.\n- When you can start benefits - You may start receiving benefits as early as age 62 or as late as age 70.\n- Benefits are reduced for age - Your monthly benefits will be reduced if you start them any time before \"full retirement age.\"\n- Working while you receive benefits - If you elect to receive benefits before you reach full retirement age, you should understand how continuing to work can affect your benefits.\n- Delayed retirement credits - Delayed retirement credits may be added to your benefits if they start after your full retirement age.\n- Life expectancy - Many of us will live much longer than the average retiree, and most women live longer than men. More than one in three 65 year olds today will live to age 90, and more than one in seven will live to age 95. Social Security benefits, which last as long as you live, provide valuable protection against outliving savings and other sources of retirement income. Again, you ll want to choose a retirement age based on your circumstances so you ll have enough income when you need it.\n  We urge you to use our **Retirement Estimator** to get a personal estimate of how much your benefits will be at different ages and \"stop work\" dates before you begin the application.\n\nPlease read Other Things to Consider for information about other things you should think about when you make your decision about when to begin your benefits. Some of the things you should think about before you decide include:\n\n- how long you think you will receive benefits,\n- your health and\n- whether anyone else in your family can get benefits on your record.\n\nYou can find out what documents and information you need to apply by reading our \"Checklist for Online Medicare, Retirement, and Spouses Applications.\""
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+          "document": "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0",
+          "heading": [],
+          "source_file": "ssa_042.md",
+          "excerpt": "# 福利规划器：退休 | 在线计算器（WEP版本）\n\n## 福利规划器：退休\n\n### 在线计算器（WEP版本）\n\n下面显示的计算器允许您估算您的社会保障福利。但是，为了获得最准确的估算，请使用详细计算器。\n\n您需要输入所有过去的收入，这些收入显示在您的在线记录中。\n\n请注意：\n\n- 在线计算器会定期更新*，以反映新的福利增加和其他福利金额。因此，您未来的福利估算很可能与今天计算的结果不同。\n- 在线计算器适用于启用Javascript的PC和Mac。\n- 某些浏览器可能不允许您打印下面的表格。\n\n在线计算器会在您的浏览器打开时，在您的本地计算机上临时存储信息。为了保护您的个人信息，请在完成估算后关闭浏览器。\n\n注意：如果您的生日是1月1日，我们会将您的福利计算视为您的生日是在上一年。\n\n如果您有资格作为遗属领取福利，您的遗属福利全额退休年龄可能有所不同。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000",
+          "document": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0",
+          "heading": [],
+          "source_file": "ssa_027.md",
+          "excerpt": "# Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration\n\n## Benefits Planner: Retirement\n\n### Benefits By Year Of Birth\n\nFull retirement age is the age at which a person may first become entitled to full or unreduced retirement benefits.\n\nNo matter what your full retirement age (also called \"normal retirement age\") is, you may start receiving benefits as early as age 62 or as late as age 70.\n\n### If You Retire Early\n\nYou can retire at any time between age 62 and full retirement age. However, if you start benefits early, your benefits are reduced a fraction of a percent for each month before your full retirement age.\n\nThe chart below lists age 62 reduction amounts and includes examples based on an estimated monthly benefit of $1000 at full retirement age. Select your year of birth to find out how much your benefit will be reduced if you retire between age 62 and full retirement age.\n\nIf your birthday is on January 1, we figure your benefit as if your birthday was in the previous year.\n\n### Full Retirement and Age 62 Benefit By Year Of Birth\n\n### Pros And Cons\n\nThere are advantages and disadvantages to taking your benefit before your full retirement age. The advantage is that you collect benefits for a longer period of time. The disadvantage is your benefit is reduced. Each person's situation is different. It is important to remember:\n\n- if you delay your benefits until after full retirement age, you may be eligible for delayed retirement credits that would increase your monthly benefit;\n- that there are other things to consider when making the correct decision about your retirement benefits; and\n- to contact Social Security before you decide when to retire.\n\nIf you decide to delay your benefits until after age 65, you should still for Medicare benefits within three months of your 65th birthday. If you wait longer, your Medicare medical insurance (Part B) and prescription drug coverage (Part D) may cost you more money."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "Yes, that's correct. According to the Social Security Administration, if your birthday is on January 1st, they figure your benefit as if your birthday was in the previous year. This applies to the online calculator and other benefit calculations.",
+          "citations": [
+            "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "3980ce638fde4e35925b184ff602938a",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2768,
+              "completion_tokens": 107,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 107,
+                "prompt_tokens": 2768,
+                "total_tokens": 2875,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2512
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0042623,
+            "accounted_rmb": 0.0042623,
+            "usage_unknown": false,
+            "seconds": 1.9160120487213135,
+            "error": null,
+            "response": {
+              "id": "e9cf6386-dc65-4d67-adb2-eb73387c0971",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "bbefa8ad364ccf48f8fbe790f74b9c79c33643574438edc5b6ef8bf97c6f2c7e"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03816699609160423,
+        "retrieval": 2002.3847919655964,
+        "generation": 1921.3045000797138,
+        "total": 3924.959584022872
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.29622337501496077,
+        "rerank_seconds": 1.7061021670233458,
+        "top1_dense_score": 0.7312167882919312,
+        "candidate_ids": [
+          "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+          "Retirement Estimator | Social Security Administration#2_0::c0000",
+          "Benefits Planner | Social Security Administration#1_0::c0000",
+          "Retirement Estimator | Social Security Administration#1_0::c0000",
+          "Benefits Planner | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0::c0000",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Learn About Retirement Benefits | SSA#1_0::c0004",
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Learn About Retirement Benefits | SSA#1_0::c0002",
+          "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#1_0::c0000",
+          "Retirement Benefits | Social Security Administration#1_0::c0004",
+          "Retirement Benefits | Social Security Administration#2_0::c0004",
+          "Manage Your Retirement Benefits | SSA#1_0::c0001",
+          "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 46,
+        "query_shortened": true,
+        "retrieval_total_seconds": 2.002362124971114
+      },
+      "raw_citations": [
+        "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+        "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "abec1791eb33ed983f292f0e7172edf0b9c287435e7c872580b7872f9253ed8c"
+}

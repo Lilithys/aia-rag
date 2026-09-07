@@ -1,0 +1,238 @@
+{
+  "binding": {
+    "study": "final-holdout-generation-v1",
+    "split": "holdout",
+    "release_manifest_sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3",
+    "split_sha256": "2542d1357c204c23cd8e90e329f7db651b0c6e96ab7ff66e4d70f0e5e3dfb916",
+    "question_ids": [
+      "bcdcdbe15c9bd507af4d10c15b5a9ab4::agent-turn-12",
+      "8a9ae5c425489c54179bccb418729d9f::agent-turn-4",
+      "c6faab8a9e3ae56c138c4343e4cbbbde::agent-turn-2",
+      "9a1657631445dade9db616c29d2a3de2::agent-turn-6",
+      "87db86a6e38b7577c7f5ae29b8c3197f::agent-turn-4",
+      "83c5f49245e726d0e7fc9ef7d8080907::agent-turn-9",
+      "1cfbd7ca8fa073e5589434a4d6f58eb1::agent-turn-8",
+      "31d25f79f93e8a1e343fcbc9b641409c::agent-turn-6",
+      "d79ab025b618ac7610dd8c93f5b37870::agent-turn-12",
+      "1a31cbb12bedaf6bfcef7250d7e81c60::agent-turn-12",
+      "20256f7b07fbcabe5b6683dfdffc4cd6::agent-turn-8",
+      "c6d49f7ccbf04ee3838968999ee006b0::agent-turn-5",
+      "4fe2f3bc5dffef3b393b6dd364c0a2c6::agent-turn-12",
+      "3bfcf7a0b2920a2f13e3cd76aba027cf::agent-turn-8",
+      "6f083656d94c4084e76e5055cacc87f7::agent-turn-6",
+      "aef28283382ba8b0e1fcab554d8cb516::agent-turn-8",
+      "45039ef332f44e2f5ca95af1afe145a6::agent-turn-8",
+      "8ecebee01bd38a84d08e459e8b29446d::agent-turn-12",
+      "5264367dcf1ce7b15b0b6659f405d588::agent-turn-6",
+      "9181f4cb21c3a91802cb579b9ae65b0b::agent-turn-13",
+      "33f66d811e4556ae0535d317c18ead1a::agent-turn-6",
+      "b557ef3eb5fa8b6270d452ef97dbb0bf::agent-turn-8",
+      "dd0bf68597e1587be5390e1c5d980f35::agent-turn-2",
+      "3d356535c7679ce11da68fcfdc816000::agent-turn-4",
+      "5be1ef6220c8630c1f2293dcb7165307::agent-turn-6",
+      "717361e64d8c82820fa45b8d51307ded::agent-turn-2",
+      "8f2456ebfa2c504dd8699102211a9afc::agent-turn-6",
+      "3b90f90037744a33a6449ceaed4854f1::agent-turn-10",
+      "ed4555ac287884943d41edd91ac3c847::agent-turn-8",
+      "2105ed56433250b142650a42ef8ea968::agent-turn-4",
+      "70329cc2e43aac739cfa4e016fbc1784::agent-turn-2",
+      "31152cffe34c2657b6f0521892af6f64::agent-turn-15",
+      "2ebc42f9ff8f550a4a6a900d20411f86::agent-turn-14",
+      "1cf6234f74eb59d195ff6a3045883275::agent-turn-5",
+      "fe5f6b43660cf342e0b72cc216714828::agent-turn-6",
+      "e429a637384bdae1ff011e8bba7c52e9::agent-turn-12",
+      "17c73e208c1829f0a4b6dabef80b8d95::agent-turn-11",
+      "dff48577af16cfeaffdc6f888041a830::agent-turn-12",
+      "c1285fe001ca8cef714150a63ccfd1b1::agent-turn-5",
+      "20ac0b080985c8cddbbb0e1c044571cb::agent-turn-9",
+      "4417d675bf76bbc04ad7756cb052e345::agent-turn-2",
+      "abc5827cbf68e87198e204e5cc486f1c::agent-turn-10",
+      "740b89ee675af8e33875cdf6a11bd149::agent-turn-6",
+      "71b7fa6c2ebf4d2df64de74aec1984ce::agent-turn-8",
+      "dab776f264e5b6720629d2215863c2ce::agent-turn-7",
+      "ea5987b8b60371478b07ecfd24af03c1::agent-turn-6",
+      "ee739a168c4bb336104ab01b96641886::agent-turn-5",
+      "4c0b29807ac6b836b9e9dd7ad08bc5d1::agent-turn-4",
+      "504672640bab24e3e7ab5f618c6d67e5::agent-turn-6",
+      "d28313eb9a3a954fe7af3b8efb84b999::agent-turn-2",
+      "495f2553c227c73d90e99dfffee3901d::agent-turn-4",
+      "bcfe9bb0367af63f3098e5bfb1037b14::agent-turn-12",
+      "5812c28dc169bfa56027d267efa5c829::agent-turn-4",
+      "6f23cca015caa4543aa6ada40041fe81::agent-turn-2",
+      "9ff466f48ebcc224f7e44c7ffbfe0074::agent-turn-12",
+      "74b145fcee926c9f7109a7c4f3925108::agent-turn-11",
+      "0f7bc9e69c328902b09fbfb43d02c04c::agent-turn-15",
+      "04420023b17be8762424528d3258a3a3::agent-turn-6",
+      "42bc15ba72e6465763ecd433d187e443::agent-turn-2",
+      "8b5f6b901d16a0c80416daa1b1742832::agent-turn-9",
+      "0544ea775d6a6355e977fdeef80cb115::agent-turn-10",
+      "8be21beb237a791a922de98850a5fc88::agent-turn-13",
+      "91c8820abe119db231a2a70252659515::agent-turn-14",
+      "5710dde408ac95acbba03f0a21d3ef51::agent-turn-16",
+      "7775a25bcdb3d9a6fff84696089f246b::agent-turn-7",
+      "a3047d1c92f5a842e647592e7e49003e::agent-turn-8",
+      "18293c6f633a2627c3f45d2854e7c6c5::agent-turn-10",
+      "c2dfa2b93b13da9bc80d9be9d48bbb90::agent-turn-17",
+      "75c06a577f77c301bd53d163bd497585::agent-turn-6",
+      "fdcc0e48a91906613b2aa0d44eeeefbe::agent-turn-10",
+      "b99e0507927adcb94428054901135dc3::agent-turn-2",
+      "62439f632f6d2f809ffc2976e50a16c9::agent-turn-2",
+      "789ff6310207405227b68fb127bc2264::agent-turn-4",
+      "5cbfa4c9e28369347711fc18913bccb5::agent-turn-2",
+      "9812e9562337008b06034e692feb2f4c::agent-turn-11",
+      "82ecaf751b6d12d188df60d3987cd561::agent-turn-7",
+      "cc4c9a0cdf4e13cc1db7ff38efa8530b::agent-turn-10",
+      "105391c55c1852bc038ae73d0eb705bb::agent-turn-8",
+      "a1e434700884b85b023e1f9ed4b0751e::agent-turn-2",
+      "c0cd6d24179dac92a05e1493ac43123a::agent-turn-9",
+      "bea012ceb29d68ca434d2b2ed1b653c4::agent-turn-4",
+      "f9b36bc8d5dd2751e616e4ce95400f4b::agent-turn-4",
+      "6cf0e1264a985886e09f48a0966c8213::agent-turn-8",
+      "5a1fa1da4d95bb3fdf399455e34d19f8::agent-turn-11",
+      "bd26a8d1e98934df9ecb290be1657187::agent-turn-2",
+      "8adeb3f3f85943bc7258c180fac90a74::agent-turn-11",
+      "3904a1d97905861dd6dac797f9ef07f7::agent-turn-2",
+      "f9dee11ea6474f1d1edc666d656a4df4::agent-turn-8",
+      "6e7ccaa8f44365c5c816032118e3b0de::agent-turn-2",
+      "7ada177206e9e02a9a842be305531873::agent-turn-14",
+      "eval-v1-holdout-refuse-006",
+      "eval-v1-holdout-refuse-005",
+      "eval-v1-holdout-refuse-001",
+      "eval-v1-holdout-refuse-003",
+      "eval-v1-holdout-refuse-007",
+      "eval-v1-holdout-refuse-010",
+      "eval-v1-holdout-refuse-009",
+      "eval-v1-holdout-refuse-002",
+      "eval-v1-holdout-refuse-004",
+      "eval-v1-holdout-refuse-008"
+    ],
+    "runtime": {
+      "config": {
+        "candidate": "rerank_windowed_k5",
+        "confidence_threshold": 0.55,
+        "model": "deepseek-v4-flash",
+        "temperature": 0.0,
+        "max_output_tokens": 1024,
+        "max_history_messages": 40,
+        "max_question_characters": 8000,
+        "max_history_characters": 40000
+      },
+      "artifact_folder": "data/experiments/eval_v12/delivery_candidate/semantic_1024_v2",
+      "chunks_sha256": "497c665f2750bc4c90621036a6ccc394701d4a1d636ec69a0fa78e4b71a0f29f",
+      "embedding_manifest_sha256": "1bc07c37e6cc79608bdee45626940f1e7d0b801d0ce34966b49f43fcd03b4ce4",
+      "embedding_sha256": "5c7de1dae55ce49fa7ddbcc649e76e58e1e1f89ae5dcda97fe333ae829127d55",
+      "encoder": {
+        "class": "src.embedding.models.bge_m3.BgeM3Model",
+        "name": "bge_m3",
+        "dimension": 1024,
+        "implementation_sha256": "16e2af15cfe08c8fba05ff7e3e9fc670520ac84b03e8c934cfa6bf9db3d5ff00",
+        "model_id": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "max_seq_length": 8192,
+        "passage_prefix": "",
+        "query_prefix": "",
+        "normalize_embeddings": true,
+        "device": "cpu",
+        "parameter_dtype": "torch.float32",
+        "sentence_transformers_version": "6.0.1",
+        "transformers_version": "5.16.1",
+        "torch_version": "2.13.0",
+        "modules": [
+          {
+            "class": "Transformer",
+            "config": {
+              "transformer_task": "feature-extraction",
+              "modality_config": {
+                "text": {
+                  "method": "forward",
+                  "method_output_name": "last_hidden_state"
+                }
+              },
+              "module_output_name": "token_embeddings"
+            }
+          },
+          {
+            "class": "Pooling",
+            "config": {
+              "embedding_dimension": 1024,
+              "pooling_mode": "cls",
+              "include_prompt": true
+            }
+          },
+          {
+            "class": "Normalize",
+            "config": {
+              "module_input_name": "sentence_embedding",
+              "module_output_name": "sentence_embedding"
+            }
+          }
+        ]
+      },
+      "chunk_count": 1591,
+      "api_endpoint": "https://api.deepseek.com/chat/completions",
+      "thinking": "disabled",
+      "code_sha256": {
+        "/Users/yishanma/Desktop/aia-rag/src/service/final_runtime.py": "8c863b94626654c43b42373077603fb430c0c7a4cefb8dd2bf1e7569aa36e50d",
+        "src/service/runtime.py": "189d2a7b2ef03e28843587564f3ecd8013d83c3277e8224bbcee9cfc2971258d",
+        "src/retrieval/folder_retriever.py": "968186aad428e130ab63f6a61312fa1f0080172f243b545b1fdd5de1f080419f",
+        "src/retrieval/candidates_v1.py": "55c735c3a642cf7ba3b091626b0b8ae3493a2d7613b1c08ff21c01ffb4d129c1",
+        "src/retrieval/retriever.py": "df9a14867f966dc267644b1ece8a7b2ea25f0ee71374082458324d8c488bf263",
+        "src/retrieval/indexes.py": "087fd7472dbfd80e47942e160ce87d6788be78ecee0e80fb990b70e93dcffc43",
+        "src/retrieval/chroma_store.py": "4b94f70b2df89cf235683ac1a357693542e680310c95b279e854331b5029f715",
+        "src/evaluation/prompts_v1.py": "c39109cd472f03c71264265cabdc875c0ea95c4b7ab20810bdbde9bf9043bbb1",
+        "src/evaluation/paid_calls_v1.py": "7f8ee7acf6142eb5e2681562edd5e8bbb5d2ecb4edee718fa64749bca2e52601",
+        "src/generation/pii.py": "a90e88d25e0fbaa2291a6ed17a35408d990b322e406001133b68d04fcf4b18c3"
+      }
+    },
+    "generation_budget_cap_rmb": 1.5,
+    "model": "deepseek-v4-flash",
+    "max_attempts_per_question": 2,
+    "pricing": {
+      "checked_on": "2026-09-06",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "currency": "CNY",
+      "unit": "per million tokens",
+      "peak": {
+        "deepseek-v4-flash": [
+          0.1,
+          3.0,
+          9.0
+        ],
+        "deepseek-v4-pro": [
+          0.3,
+          9.0,
+          27.0
+        ]
+      },
+      "columns": [
+        "cached_input",
+        "uncached_input",
+        "output"
+      ],
+      "off_peak_multiplier": 0.5,
+      "peak_schedule": "Asia/Shanghai weekdays [09:00,12:00) and [14:00,18:00)",
+      "documented_versions": {
+        "deepseek-v4-flash": "DeepSeek-V4-Flash-0731",
+        "deepseek-v4-pro": "DeepSeek-V4-Pro-0813"
+      },
+      "version_limitation": "API names are mutable aliases; response model/id/fingerprint are recorded when returned."
+    },
+    "history_mode": "recorded full history; no closed-loop rollout",
+    "termination": "Stop on budget/authentication status; retain every failure and all 100 denominator rows.",
+    "holdout_policy": "One final configuration; no label, question, prompt, index, or parameter changes after exposure.",
+    "code_sha256": {
+      "/Users/yishanma/Desktop/aia-rag/src/service/final_evaluate.py": "369c29f0c35bdf0a2f7b5b32c1225f936221deaa3ac748b8932787d193d61fe3",
+      "src/service/final_runtime.py": "8c863b94626654c43b42373077603fb430c0c7a4cefb8dd2bf1e7569aa36e50d",
+      "src/service/runtime.py": "189d2a7b2ef03e28843587564f3ecd8013d83c3277e8224bbcee9cfc2971258d",
+      "src/retrieval/folder_retriever.py": "968186aad428e130ab63f6a61312fa1f0080172f243b545b1fdd5de1f080419f",
+      "src/evaluation/paid_calls_v1.py": "7f8ee7acf6142eb5e2681562edd5e8bbb5d2ecb4edee718fa64749bca2e52601",
+      "src/evaluation/prompts_v1.py": "c39109cd472f03c71264265cabdc875c0ea95c4b7ab20810bdbde9bf9043bbb1"
+    }
+  },
+  "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+  "planned_questions": 100,
+  "planned_generation_calls": 100,
+  "max_provider_attempts": 200,
+  "judge_calls": 0,
+  "generation_started": false
+}

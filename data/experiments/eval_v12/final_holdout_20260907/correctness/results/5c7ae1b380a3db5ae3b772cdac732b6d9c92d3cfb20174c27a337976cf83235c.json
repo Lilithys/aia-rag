@@ -1,0 +1,74 @@
+{
+  "payload": {
+    "task_id": "5c7ae1b380a3db5ae3b772cdac732b6d9c92d3cfb20174c27a337976cf83235c",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "refuse",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [],
+            "reason": "The response correctly refuses because the knowledge base lacks relevant information, matching the reference. No unsupported claims or incorrect details."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "479cf85973224c85a2783c1f473aaec3",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1050,
+                "completion_tokens": 62,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 62,
+                  "prompt_tokens": 1050,
+                  "total_tokens": 1112,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 154
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005547999999999999,
+              "accounted_rmb": 0.0005547999999999999,
+              "usage_unknown": false,
+              "seconds": 1.1888301372528076,
+              "error": null,
+              "response": {
+                "id": "02ccc7d9-d174-46a3-9fea-9c5c0857cfb9",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "291b1e88773556bb33e3c3a0193ffc74e19154163031e196fae0a786f2f1a1e0"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "refuse",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [],
+        "reason": "The response correctly refuses because the knowledge base lacks relevant information, matching the reference. No unsupported claims or incorrect details."
+      }
+    }
+  },
+  "sha256": "f20f0393933739735a150ec13e8c852ee0061a3e01fbfa499b87a799292da5fe"
+}

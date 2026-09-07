@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "0a46993ff72c68effbc7b884e174dffd6e136439d72539b76f7f6569167448ee",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "是的，您可以在贷款发放前随时通知您子女的学校，取消全部或部分贷款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+                ],
+                "reason": "The context states: 'Before your loan money is disbursed, you may cancel all or part of your loan at any time by notifying your child's school.'"
+              },
+              {
+                "text": "贷款发放后，您也可以在特定时间范围内取消全部或部分贷款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+                ],
+                "reason": "The context states: 'After your loan is disbursed, you may cancel all or part of the loan within certain time frames.'"
+              },
+              {
+                "text": "您的本票和学校提供的其他信息将说明取消贷款的程序和时间范围。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+                ],
+                "reason": "The context states: 'Your promissory note and additional information you'll receive from the school will explain the procedures and time frames for canceling your loan.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "680fbff2b7ff44b29942c2c5ab71fa9c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3308,
+                "completion_tokens": 319,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 319,
+                  "prompt_tokens": 3308,
+                  "total_tokens": 3627,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2924
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0058407,
+              "accounted_rmb": 0.0058407,
+              "usage_unknown": false,
+              "seconds": 2.0884060859680176,
+              "error": null,
+              "response": {
+                "id": "ab8629ca-236a-4fb1-a479-4968c90fefe7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "48e7680354adc3828202739ca02d61f4b87a4383f003cbd7695fac024e9ea3e8"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "是的，您可以在贷款发放前随时通知您子女的学校，取消全部或部分贷款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+          ],
+          "reason": "The context states: 'Before your loan money is disbursed, you may cancel all or part of your loan at any time by notifying your child's school.'"
+        },
+        {
+          "text": "贷款发放后，您也可以在特定时间范围内取消全部或部分贷款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+          ],
+          "reason": "The context states: 'After your loan is disbursed, you may cancel all or part of the loan within certain time frames.'"
+        },
+        {
+          "text": "您的本票和学校提供的其他信息将说明取消贷款的程序和时间范围。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Parent PLUS Loans | Federal Student Aid#1_0::c0014"
+          ],
+          "reason": "The context states: 'Your promissory note and additional information you'll receive from the school will explain the procedures and time frames for canceling your loan.'"
+        }
+      ]
+    }
+  },
+  "sha256": "c20fc9aea7f8a480606bc51e308d7d0f111b2974e5c000b281c7f40ddeafd9f9"
+}

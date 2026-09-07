@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "task_id": "e17665fb5770ce63b6230ea9da0f93c0ed5b317a06dbe1770e45a518378b3a56",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "As a disabled Veteran, you may be eligible for the VR&E Independent Living track if you have a service-connected disability that limits your daily activities (like bathing, dressing, getting around, or interacting with others) and you can't return to work right away.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states eligibility if service-connected disability limits daily activities and prevents immediate return to work."
+              },
+              {
+                "text": "You may also get these services while working toward a job goal with your Vocational Rehabilitation Counselor (VRC).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context says services can be received while working toward a job goal with VRC."
+              },
+              {
+                "text": "Services can include assessments, counseling, referrals, and help with home modifications through the Adaptive Housing program.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists assessments, counseling, referrals, and guidance on Adaptive Housing program for home modifications."
+              },
+              {
+                "text": "These services usually last up to 24 months, but may be extended in some cases.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states services typically last up to 24 months, with possible extensions."
+              },
+              {
+                "text": "To apply, you need to apply for VR&E benefits through eBenefits, then work with a VRC to develop an independent living plan.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context instructs to apply for VR&E benefits via eBenefits and then work with VRC to develop an independent living plan."
+              },
+              {
+                "text": "For more details, see the VR&E Independent Living track page.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context is from the VR&E Independent Living track page, so this is supported."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a50d9ff9b1f04d09a90b7ab3c75b76b6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4074,
+                "completion_tokens": 605,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 605,
+                  "prompt_tokens": 4074,
+                  "total_tokens": 4679,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3690
+                }
+              },
+              "usage_cost_estimate_rmb": 0.008276700000000001,
+              "accounted_rmb": 0.008276700000000001,
+              "usage_unknown": false,
+              "seconds": 3.6863951683044434,
+              "error": null,
+              "response": {
+                "id": "db5e2782-5def-4c08-a884-e6a01614ab7b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2e56aeb635f5813e9f300f359053fd57ec6963ee825917a79f3e5b59602fe865"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 6,
+      "supported_external_claims": 6,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "As a disabled Veteran, you may be eligible for the VR&E Independent Living track if you have a service-connected disability that limits your daily activities (like bathing, dressing, getting around, or interacting with others) and you can't return to work right away.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states eligibility if service-connected disability limits daily activities and prevents immediate return to work."
+        },
+        {
+          "text": "You may also get these services while working toward a job goal with your Vocational Rehabilitation Counselor (VRC).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context says services can be received while working toward a job goal with VRC."
+        },
+        {
+          "text": "Services can include assessments, counseling, referrals, and help with home modifications through the Adaptive Housing program.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists assessments, counseling, referrals, and guidance on Adaptive Housing program for home modifications."
+        },
+        {
+          "text": "These services usually last up to 24 months, but may be extended in some cases.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states services typically last up to 24 months, with possible extensions."
+        },
+        {
+          "text": "To apply, you need to apply for VR&E benefits through eBenefits, then work with a VRC to develop an independent living plan.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context instructs to apply for VR&E benefits via eBenefits and then work with VRC to develop an independent living plan."
+        },
+        {
+          "text": "For more details, see the VR&E Independent Living track page.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VR&E Independent Living Track | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context is from the VR&E Independent Living track page, so this is supported."
+        }
+      ]
+    }
+  },
+  "sha256": "7b51dc4072d4b97cad2d5a8a856c2a3741def117fbcff029b2e3be2b8a911f67"
+}

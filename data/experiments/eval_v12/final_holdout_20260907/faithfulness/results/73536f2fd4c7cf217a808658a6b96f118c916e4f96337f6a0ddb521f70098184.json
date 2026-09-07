@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "73536f2fd4c7cf217a808658a6b96f118c916e4f96337f6a0ddb521f70098184",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To qualify for Veterans Group Life Insurance (VGLI), you must meet at least one of these conditions: 1) You had part-time SGLI as a member of the National Guard or Reserves and suffered an injury or disability while on duty (including direct travel to/from duty) that disqualified you for standard premium rates; 2) You had SGLI while in the military and are within 1 year and 120 days of release from an active-duty period of 31 or more days; 3) You are within 1 year and 120 days of retiring or being released from the Ready Reserves or National Guard; 4) You are within 1 year and 120 days of assignment to the Individual Ready Reserves (IRR) or Inactive National Guard (ING), including the USPHS Inactive Reserve Corps; or 5) You are within 1 year and 120 days of being placed on the Temporary Disability Retirement List (TDRL).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The eligibility conditions are directly listed in the VGLI context."
+              },
+              {
+                "text": "You must apply within 1 year and 120 days of leaving the military.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states 'You'll need to apply for VGLI within one year and 120 days of leaving the military.'"
+              },
+              {
+                "text": "If you apply within 240 days, you don't need to prove good health; after that, you must submit evidence of good health.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states 'If you sign up within 240 days of leaving the military, you won't need to prove you're in good health. If you sign up after the 240-day period, you'll need to submit evidence that you're in good health.'"
+              },
+              {
+                "text": "Coverage ranges from $10,000 to $400,000 based on your prior SGLI amount.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states '$10,000 to $400,000 in life insurance benefits, based on the amount of SGLI coverage you had when you left the military.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "fa5c2082e42243cd86efd98b6a7dea8b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3739,
+                "completion_tokens": 654,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 654,
+                  "prompt_tokens": 3739,
+                  "total_tokens": 4393,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3355
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0079947,
+              "accounted_rmb": 0.0079947,
+              "usage_unknown": false,
+              "seconds": 3.6942780017852783,
+              "error": null,
+              "response": {
+                "id": "dee6224f-0efb-477a-9a06-8fb85ee65f38",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2c08fc74e656a4988753a90e705a5bc8680c2551f28f9c601061a3763b559ba1"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To qualify for Veterans Group Life Insurance (VGLI), you must meet at least one of these conditions: 1) You had part-time SGLI as a member of the National Guard or Reserves and suffered an injury or disability while on duty (including direct travel to/from duty) that disqualified you for standard premium rates; 2) You had SGLI while in the military and are within 1 year and 120 days of release from an active-duty period of 31 or more days; 3) You are within 1 year and 120 days of retiring or being released from the Ready Reserves or National Guard; 4) You are within 1 year and 120 days of assignment to the Individual Ready Reserves (IRR) or Inactive National Guard (ING), including the USPHS Inactive Reserve Corps; or 5) You are within 1 year and 120 days of being placed on the Temporary Disability Retirement List (TDRL).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The eligibility conditions are directly listed in the VGLI context."
+        },
+        {
+          "text": "You must apply within 1 year and 120 days of leaving the military.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states 'You'll need to apply for VGLI within one year and 120 days of leaving the military.'"
+        },
+        {
+          "text": "If you apply within 240 days, you don't need to prove good health; after that, you must submit evidence of good health.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states 'If you sign up within 240 days of leaving the military, you won't need to prove you're in good health. If you sign up after the 240-day period, you'll need to submit evidence that you're in good health.'"
+        },
+        {
+          "text": "Coverage ranges from $10,000 to $400,000 based on your prior SGLI amount.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states '$10,000 to $400,000 in life insurance benefits, based on the amount of SGLI coverage you had when you left the military.'"
+        }
+      ]
+    }
+  },
+  "sha256": "29934e52691a34c5760eb55aea007f4eec0da916e4af7563498058426fa82f55"
+}

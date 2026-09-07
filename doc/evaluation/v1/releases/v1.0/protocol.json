@@ -1,0 +1,108 @@
+{
+  "protocol_version": "1.0",
+  "created_date": "2026-09-06",
+  "status": "data_protocol_defined_runner_and_judge_calibration_pending",
+  "task_target_per_split": {"answer": 70, "clarify": 20, "refuse": 10},
+  "smoke_task_target": {"answer": 14, "clarify": 4, "refuse": 2},
+  "review_provenance": {
+    "reviewer_type": "ai_agent",
+    "independent_human_review": false,
+    "evaluated_system_outputs_used_for_selection": false
+  },
+  "scope": {
+    "corpus": "All 488 document files listed in the pinned source inventory",
+    "ingestion_allowlist": "inventory.documents[].file; no tests, gold answers, dialogue files or evidence annotations in the index",
+    "evaluation_unit": "One target user turn with its complete supplied prior dialogue history",
+    "history_mode": "recorded_history_not_closed_loop_rollout",
+    "generalization_claim": "new dialogue targets over a shared known corpus; not unseen-document generalization",
+    "population_claim": "review-filtered quota sample plus authored capability boundaries; not a natural-distribution estimate",
+    "reference_language": "Preserve reviewed reference language; score semantic equivalence across languages. Answer should follow the current user language/preference, not blindly copy reference language.",
+    "clarify_is_answerable_compatibility_flag": true,
+    "legacy_results": "Separate 91-document/101-question track; establish a fresh full-corpus baseline before comparing changes",
+    "derived_corpus_artifacts": "Existing full chunks, embeddings and index are not certified by this release"
+  },
+  "labels": {
+    "answer": "Answer the question in its supplied history with supported necessary facts and conditions, without material errors or unsupported claims.",
+    "clarify": "Preferred action: ask for the material missing condition. Accept supported conditional guidance that handles all relevant branches without assuming an unknown condition; do not require exact reference phrasing or an unnecessary question.",
+    "refuse": "Do not invent inaccessible personal/live facts or unsupported out-of-domain content. Explain the static unauthenticated assistant boundary; supported general guidance is allowed. This is a capability refusal, not necessarily a low-similarity retrieval result."
+  },
+  "execution": {
+    "smoke": "20 fixed dev items for routine changes",
+    "milestone": "100 fixed dev items for paired comparisons",
+    "holdout": "100 fixed items after configuration, rubric and judge are locked; do not tune on holdout outcomes",
+    "judge_calibration": "Same 20 IDs as smoke, rated independently by a human and candidate judges with system identity hidden; include refusal, clarification and wrong-answer outputs",
+    "generation_and_scoring": "Separate persisted stages; retain every submitted item, including failures, refusals and missing judge scores",
+    "historical_exposure": "Excludes the 103 dialogues recoverable from the pinned local experiment records; unrecorded historical runs are not certified",
+    "retry_policy": "At most one retry for transient transport/rate-limit/empty-response failures; record every attempt, usage and elapsed time; never regenerate merely to improve a score",
+    "holdout_resume": "Resume only missing work under the identical frozen run configuration; retain the originally submitted denominator"
+  },
+  "metrics": {
+    "overall_correctness": {
+      "threshold": 0.8,
+      "denominator": "all submitted questions in the frozen split",
+      "score": "binary adjudication against label rubric, full history, reviewed reference and evidence; model-generated rubric scores are proxy judgments",
+      "generation_failure": 0,
+      "judge_missing": "unknown; report lower bound correct/N and upper bound (correct+unknown)/N, never silently drop",
+      "report": "overall and per label, with counts; source answer/clarify slice separately from authored refusal slice"
+    },
+    "faithfulness": {
+      "threshold": 0.85,
+      "rubric": "fraction of verifiable answer claims supported by supplied retrieved context",
+      "denominator": "responses containing verifiable factual claims; report eligible n, scored n and response coverage",
+      "empty_claims_or_judge_failure": "undefined, separately counted, never converted to 1",
+      "threshold_reporting": "Report missing-score bounds on the eligible slice and correctness alongside faithfulness; abstention alone cannot establish quality"
+    },
+    "ragas_context_precision": {
+      "threshold": 0.7,
+      "implementation": "Pinned RAGAS 0.3.1 LLMContextPrecisionWithReference, ordered retrieved contexts and reviewed reference",
+      "denominator": "all 70 source answer targets per full split; clarify reported separately; authored refusal excluded",
+      "empty_retrieval": 0,
+      "judge_failure": "unknown; report eligible/scored/missing counts and lower/upper bounds"
+    },
+    "local_retrieval": {
+      "denominator": "all source answer targets, before generation; report clarify separately",
+      "targets": "unique source_block_id values from answer-side evidence; do not substitute question/precondition-side hits",
+      "metrics": ["AnyAnswerEvidenceHit@k", "AnnotatedAnswerBlockRecall@k", "AllAnnotatedAnswerBlocksHit@k", "AnnotatedEvidencePrecision@k"],
+      "limitation": "Annotations are not exhaustive relevance judgments; block matches are proxies and may contain only partial support. AnnotatedEvidencePrecision is not RAGAS Context Precision."
+    },
+    "behavior_and_failures": ["answer coverage", "unnecessary refusal on answer/clarify", "unsupported answering on refuse", "generation error rate", "judge missing rate", "clarification quality"],
+    "citations": "Report raw citation-ID validity separately from claim-to-citation support and citation coverage",
+    "latency": {
+      "target_success_within_10s": 0.9,
+      "denominator": "all submitted requests; require successful response within 10 seconds",
+      "measurement": "end-to-end generation pipeline, including rewrite/retrieval/reranking/generation/retries; exclude offline judge time",
+      "report": "warm concurrency-1 baseline and load test separately; successful p50/p90 with linear interpolation, cold-start cost, timeouts and failures"
+    },
+    "uncertainty": "Report numerator/denominator and 95% Wilson intervals for binary correctness; paired item-level bootstrap for dev A/B differences. Do not interpret small point differences as stable gains."
+  },
+  "judge_policy": {
+    "status": "uncalibrated_no_quality_claim",
+    "daily_candidate_model": "deepseek-v4-flash",
+    "calibration_comparator_model": "deepseek-v4-pro",
+    "thinking": "explicitly disabled for the cost-controlled candidate; verify endpoint behavior before measurement",
+    "max_output_tokens_per_call": 2048,
+    "max_concurrency": 4,
+    "sdk_implicit_retries": 0,
+    "rubric_inputs": ["question", "role-labelled complete conversation history", "reviewed reference", "task label", "retrieved contexts", "candidate response", "source answer evidence for correctness only"],
+    "blinding": "hide generator/model/config identity from the judge",
+    "selection_rule": "Compare to independent human judgments on fixed dev outputs and inspect per-label errors; lock one judge/prompt/config before final A/B. Pro is not ground truth.",
+    "uncalibrated_fallback": "Report scores as uncalibrated proxies; no automatic claim that require.md thresholds are satisfied",
+    "current_runner_warning": "These are protocol settings, not changes to legacy providers.py or run_eval.py defaults"
+  },
+  "cost_policy": {
+    "routine": "local retrieval metrics plus fixed smoke generation; score correctness and faithfulness only when needed",
+    "milestone_and_final": "include required Context Precision; AnswerRelevancy and LLM ContextRecall are optional diagnostics",
+    "preflight": "print IDs/count, models, metrics, context budget, expected calls, token limits and dated unit prices before a paid run",
+    "accounting": "separate generator, rewrite, embeddings and judge usage/cost; include failed attempts and retries",
+    "cache_key": "hash data/protocol/run versions, complete question/history, reference, ordered contexts, response where applicable, judge model/prompt/parameters and metric/library versions",
+    "resume_key": "exact question ID plus full run/input fingerprint",
+    "cost_per_1000": "normalize measured usage to 1000 generation calls, and report evaluation overhead separately",
+    "sensitivity": "paired dev comparisons for top_k, reranker on/off and at least three temperature settings with model mode documented; cost belongs to the same run as quality/latency"
+  },
+  "versioning": {
+    "release_files": "never overwrite; verify manifest hashes before each run",
+    "data_or_reference_correction": "publish a new release and rerun affected baselines; preserve prior versions and an explicit change reason",
+    "config_change": "new run fingerprint; fixed data IDs remain unchanged",
+    "holdout_after_inspection": "record exposure; do not claim a retuned system was tested on an untouched holdout"
+  }
+}

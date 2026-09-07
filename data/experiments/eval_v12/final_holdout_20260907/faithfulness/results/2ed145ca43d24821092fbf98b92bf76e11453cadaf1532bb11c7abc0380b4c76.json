@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "2ed145ca43d24821092fbf98b92bf76e11453cadaf1532bb11c7abc0380b4c76",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If you had a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VA Vocational Rehabilitation and Employment (VR&E) benefits and services, such as help exploring employment options and getting more training if needed.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "GI Bill Eligibility | Veterans Affairs#1_0::c0005"
+                ],
+                "reason": "The context states that if you have a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VR&E benefits and services, including help exploring employment options and getting more training if needed."
+              },
+              {
+                "text": "Eligibility generally requires that you meet all of the following: you don't have a dishonorable discharge, you have a VA-rated service-connected disability of at least 10%, and you apply for VR&E services.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists these three requirements for veteran eligibility: no dishonorable discharge, VA-rated service-connected disability of at least 10%, and applying for VR&E services."
+              },
+              {
+                "text": "Your basic period of eligibility ends 12 years from either your separation date or your first VA service-connected disability rating, though this may be extended if a Vocational Rehabilitation Counselor determines you have a serious employment handicap.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that the basic period of eligibility ends 12 years from the separation date or first VA service-connected disability rating, and may be extended if a VRC determines you have a serious employment handicap."
+              },
+              {
+                "text": "If you're still on active duty, you may qualify if you have a 20% or higher pre-discharge disability rating and are about to leave the military, or if you're participating in the Integrated Disability Evaluation System (IDES) process or waiting for separation due to a medical condition from a serious injury incurred in the line of duty.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that active duty service members may qualify if they have a 20% or higher pre-discharge disability rating and are about to leave the military, or are participating in IDES or waiting for separation due to a medical condition from a serious injury incurred in the line of duty."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "5fad55a95d544c0781ec9764a578c131",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3109,
+                "completion_tokens": 626,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 626,
+                  "prompt_tokens": 3109,
+                  "total_tokens": 3735,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2725
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0069237,
+              "accounted_rmb": 0.0069237,
+              "usage_unknown": false,
+              "seconds": 3.6622848510742188,
+              "error": null,
+              "response": {
+                "id": "cbed8261-1d4d-4c8f-b35c-3c69b950054f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "aef8518102232baff288055d8edad158dba67a501bf9cb348666c2ff4f824fb3"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If you had a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VA Vocational Rehabilitation and Employment (VR&E) benefits and services, such as help exploring employment options and getting more training if needed.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "GI Bill Eligibility | Veterans Affairs#1_0::c0005"
+          ],
+          "reason": "The context states that if you have a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VR&E benefits and services, including help exploring employment options and getting more training if needed."
+        },
+        {
+          "text": "Eligibility generally requires that you meet all of the following: you don't have a dishonorable discharge, you have a VA-rated service-connected disability of at least 10%, and you apply for VR&E services.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists these three requirements for veteran eligibility: no dishonorable discharge, VA-rated service-connected disability of at least 10%, and applying for VR&E services."
+        },
+        {
+          "text": "Your basic period of eligibility ends 12 years from either your separation date or your first VA service-connected disability rating, though this may be extended if a Vocational Rehabilitation Counselor determines you have a serious employment handicap.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that the basic period of eligibility ends 12 years from the separation date or first VA service-connected disability rating, and may be extended if a VRC determines you have a serious employment handicap."
+        },
+        {
+          "text": "If you're still on active duty, you may qualify if you have a 20% or higher pre-discharge disability rating and are about to leave the military, or if you're participating in the Integrated Disability Evaluation System (IDES) process or waiting for separation due to a medical condition from a serious injury incurred in the line of duty.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that active duty service members may qualify if they have a 20% or higher pre-discharge disability rating and are about to leave the military, or are participating in IDES or waiting for separation due to a medical condition from a serious injury incurred in the line of duty."
+        }
+      ]
+    }
+  },
+  "sha256": "a8f84c1e7806b550906555303f8eb8aefe2f59c0523e1e9fcaddb353ed8012fe"
+}

@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "6f083656d94c4084e76e5055cacc87f7::agent-turn-6",
+    "item_sha256": "07c34943aa9a564bd7a52b257aaf6f3cf3090c2b7e346254e328e8d37ea3e400",
+    "result": {
+      "request_id": "91d221e89721415181cfa8fd674ba460",
+      "session_id": "6f083656d94c4084e76e5055cacc87f7",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "是的，有特殊规则（称为“工作激励”）帮助您在测试工作能力时保留现金福利和Medicare。您需要及时向社会保障局报告您回去工作的情况。如果您的月收入超过一定水平（2019年通常为每月1,220美元，盲人为2,040美元），可能被视为“实质性工作”，这可能导致福利停止。建议阅读《残疾期间工作：我们如何帮助》了解更多详情。",
+        "citations": [
+          "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000",
+          "text": "# Benefits Planner: Disability | Are You Working | Social Security Administration\n\nIn most cases, you will continue to receive benefits as long as you are disabled. However, there are certain circumstances that may change your continuing eligibility for disability benefits. For example, your health may improve to the point where you are no longer disabled or you go back to work.\n\nThe law requires that we review your case from time to time to verify that you are still disabled. We tell you if it is time to review your case and we also keep you informed about your benefit status.\n\nYou should be aware that you are responsible for letting us know if your health improves or you go back to work.\n\n### Reviewing Your Disability\n\nIn general, your benefits will continue as long as you are disabled. How often we review your case depends on whether your condition is expected to improve.\n\nIf medical improvement is:\n\n- \"Expected,\" your case will normally be reviewed within six to 18 months after your benefits start.\n- \"Possible,\" your case will normally be reviewed no sooner than three years.\n- \"Not expected,\" your case will normally be reviewed no sooner than seven years.\n\n### What Can Cause Benefits to Stop?\n\nTwo things can cause us to decide that you are no longer disabled and to stop your benefits:\n\n- if you work at a level we consider \"substantial.\"\n\nIn 2019, average earnings of $1,220 or more per month ($2,040 or more per month if you are blind) are usually considered substantial.\n\n- if we decide that your medical condition has improved to the point that you are no longer disabled.\n\nRemember, you are responsible for promptly reporting any improvement in your condition, or if you return to work. The booklet we send you when your application is approved explains what you need to report to us.\n\n### If You Go Back To Work\n\nIf you're like most people, you would rather work than try to live on disability benefits.\n\nThere are special rules that help you keep your cash benefits and Medicare while you test your ability to work. We call these rules \"work incentives.\" For more information about Social Security work incentives, read Working While Disabled: How We Can Help.\n\n### Publications\n\n- Disability Benefits\n- What You Need To Know When You Get Social Security Disability Benefits\n- How We Decide if You Still Have a Qualifying Disability\n- Reviewing Your Disability\n- Working While Disabled: How We Can Help\n- Employment Networks in Social Security's Ticket To Work Program\n- Your Ticket To Work"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0003",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 关于您的信息]\n- 您的出生日期、出生地点和社会安全号码\n- 您现任配偶及任何前任配偶的姓名、社会安全号码及出生日期或年龄。您还应了解结婚日期和地点以及离婚或死亡日期（如适用）\n- 您未成年子女的姓名和出生日期\n- 如果您希望福利金以电子方式存入，需提供您的银行或其他金融机构的路由转账号码 [更多信息] 和账号"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 特殊情况]\n大多数领取残疾福利的人是依据自身记录符合资格并满足我们刚才所述的工作和残疾要求的工人。然而，有些情况您可能不知道：\n\n- 如果您失明或视力低下 - 我们能如何帮助\n- 如果您是工人的遗孀或鳏夫\n- 残疾儿童福利\n- 受伤战士与退伍军人福利"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 2. 您的状况是否“严重”？]\n您的状况必须显著限制您从事基本工作的能力，如提举、站立、行走、坐立和记忆，且至少持续12个月。如果不是，我们将认定您不残疾。\n\n如果您的状况确实干扰了与工作相关的基本活动，我们将进入第3步。"
+        },
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "text": "[GI法案及其他教育福利资格 > 是否还有其他我可能也有资格获得的相关福利？]\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，您可能有资格获得职业康复与就业福利和服务，例如帮助探索就业选择以及在需要时获得更多培训。\n\n了解您是否符合职业康复与就业的资格"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000",
+          "text": "# Benefits Planner: Disability | Are You Working | Social Security Administration\n\nIn most cases, you will continue to receive benefits as long as you are disabled. However, there are certain circumstances that may change your continuing eligibility for disability benefits. For example, your health may improve to the point where you are no longer disabled or you go back to work.\n\nThe law requires that we review your case from time to time to verify that you are still disabled. We tell you if it is time to review your case and we also keep you informed about your benefit status.\n\nYou should be aware that you are responsible for letting us know if your health improves or you go back to work.\n\n### Reviewing Your Disability\n\nIn general, your benefits will continue as long as you are disabled. How often we review your case depends on whether your condition is expected to improve.\n\nIf medical improvement is:\n\n- \"Expected,\" your case will normally be reviewed within six to 18 months after your benefits start.\n- \"Possible,\" your case will normally be reviewed no sooner than three years.\n- \"Not expected,\" your case will normally be reviewed no sooner than seven years.\n\n### What Can Cause Benefits to Stop?\n\nTwo things can cause us to decide that you are no longer disabled and to stop your benefits:\n\n- if you work at a level we consider \"substantial.\"\n\nIn 2019, average earnings of $1,220 or more per month ($2,040 or more per month if you are blind) are usually considered substantial.\n\n- if we decide that your medical condition has improved to the point that you are no longer disabled.\n\nRemember, you are responsible for promptly reporting any improvement in your condition, or if you return to work. The booklet we send you when your application is approved explains what you need to report to us.\n\n### If You Go Back To Work\n\nIf you're like most people, you would rather work than try to live on disability benefits.\n\nThere are special rules that help you keep your cash benefits and Medicare while you test your ability to work. We call these rules \"work incentives.\" For more information about Social Security work incentives, read Working While Disabled: How We Can Help.\n\n### Publications\n\n- Disability Benefits\n- What You Need To Know When You Get Social Security Disability Benefits\n- How We Decide if You Still Have a Qualifying Disability\n- Reviewing Your Disability\n- Working While Disabled: How We Can Help\n- Employment Networks in Social Security's Ticket To Work Program\n- Your Ticket To Work"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0003",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 关于您的信息]\n- 您的出生日期、出生地点和社会安全号码\n- 您现任配偶及任何前任配偶的姓名、社会安全号码及出生日期或年龄。您还应了解结婚日期和地点以及离婚或死亡日期（如适用）\n- 您未成年子女的姓名和出生日期\n- 如果您希望福利金以电子方式存入，需提供您的银行或其他金融机构的路由转账号码 [更多信息] 和账号"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 特殊情况]\n大多数领取残疾福利的人是依据自身记录符合资格并满足我们刚才所述的工作和残疾要求的工人。然而，有些情况您可能不知道：\n\n- 如果您失明或视力低下 - 我们能如何帮助\n- 如果您是工人的遗孀或鳏夫\n- 残疾儿童福利\n- 受伤战士与退伍军人福利"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 2. 您的状况是否“严重”？]\n您的状况必须显著限制您从事基本工作的能力，如提举、站立、行走、坐立和记忆，且至少持续12个月。如果不是，我们将认定您不残疾。\n\n如果您的状况确实干扰了与工作相关的基本活动，我们将进入第3步。"
+        },
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "text": "[GI法案及其他教育福利资格 > 是否还有其他我可能也有资格获得的相关福利？]\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，您可能有资格获得职业康复与就业福利和服务，例如帮助探索就业选择以及在需要时获得更多培训。\n\n了解您是否符合职业康复与就业的资格"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000",
+          "document": "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_016.md",
+          "excerpt": "# Benefits Planner: Disability | Are You Working | Social Security Administration\n\nIn most cases, you will continue to receive benefits as long as you are disabled. However, there are certain circumstances that may change your continuing eligibility for disability benefits. For example, your health may improve to the point where you are no longer disabled or you go back to work.\n\nThe law requires that we review your case from time to time to verify that you are still disabled. We tell you if it is time to review your case and we also keep you informed about your benefit status.\n\nYou should be aware that you are responsible for letting us know if your health improves or you go back to work.\n\n### Reviewing Your Disability\n\nIn general, your benefits will continue as long as you are disabled. How often we review your case depends on whether your condition is expected to improve.\n\nIf medical improvement is:\n\n- \"Expected,\" your case will normally be reviewed within six to 18 months after your benefits start.\n- \"Possible,\" your case will normally be reviewed no sooner than three years.\n- \"Not expected,\" your case will normally be reviewed no sooner than seven years.\n\n### What Can Cause Benefits to Stop?\n\nTwo things can cause us to decide that you are no longer disabled and to stop your benefits:\n\n- if you work at a level we consider \"substantial.\"\n\nIn 2019, average earnings of $1,220 or more per month ($2,040 or more per month if you are blind) are usually considered substantial.\n\n- if we decide that your medical condition has improved to the point that you are no longer disabled.\n\nRemember, you are responsible for promptly reporting any improvement in your condition, or if you return to work. The booklet we send you when your application is approved explains what you need to report to us.\n\n### If You Go Back To Work\n\nIf you're like most people, you would rather work than try to live on disability benefits.\n\nThere are special rules that help you keep your cash benefits and Medicare while you test your ability to work. We call these rules \"work incentives.\" For more information about Social Security work incentives, read Working While Disabled: How We Can Help.\n\n### Publications\n\n- Disability Benefits\n- What You Need To Know When You Get Social Security Disability Benefits\n- How We Decide if You Still Have a Qualifying Disability\n- Reviewing Your Disability\n- Working While Disabled: How We Can Help\n- Employment Networks in Social Security's Ticket To Work Program\n- Your Ticket To Work"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "是的，有特殊规则（称为“工作激励”）帮助您在测试工作能力时保留现金福利和Medicare。您需要及时向社会保障局报告您回去工作的情况。如果您的月收入超过一定水平（2019年通常为每月1,220美元，盲人为2,040美元），可能被视为“实质性工作”，这可能导致福利停止。建议阅读《残疾期间工作：我们如何帮助》了解更多详情。",
+          "citations": [
+            "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "95a6993e18754a25af9f83f0e788e9d7",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1339,
+              "completion_tokens": 124,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 124,
+                "prompt_tokens": 1339,
+                "total_tokens": 1463,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1083
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0021953000000000003,
+            "accounted_rmb": 0.0021953000000000003,
+            "usage_unknown": false,
+            "seconds": 1.6376850605010986,
+            "error": null,
+            "response": {
+              "id": "afd5c76d-1d06-429e-a2ca-552e3a8ec51d",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "a28d39d7c432680231cfb87e45a7f9214a3c28f7dbe78961c5c08e70ffc48335"
+      },
+      "latency_ms": {
+        "queue_wait": 0.033458927646279335,
+        "retrieval": 980.5520419031382,
+        "generation": 1641.3307080511004,
+        "total": 2623.000208986923
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.22241858404595405,
+        "rerank_seconds": 0.758079000050202,
+        "top1_dense_score": 0.7562609314918518,
+        "candidate_ids": [
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "Disability Benefits | Social Security Administration#1_0::c0005",
+          "Disability Benefits | Social Security Administration#1_0::c0009",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0003",
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "Disability Benefits | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0006",
+          "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0::c0002",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0002",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0001",
+          "VA Individual Unemployability If You Can't Work | Veterans Affairs#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0015",
+          "Benefits Planner: Disability | Are You Working | Social Security Administration#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0037",
+          "Disability Benefits | Social Security Administration#1_0::c0003",
+          "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0::c0002",
+          "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 25,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.9805243340088055
+      },
+      "raw_citations": [
+        "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "d3d01def7ea47c31bf303c951bcdb53d1a25deac5e1913bc21ff8f1ac17cabef"
+}

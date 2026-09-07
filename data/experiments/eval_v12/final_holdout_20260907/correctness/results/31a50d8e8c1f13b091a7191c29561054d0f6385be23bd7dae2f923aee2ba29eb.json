@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "31a50d8e8c1f13b091a7191c29561054d0f6385be23bd7dae2f923aee2ba29eb",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If moving outside the U.S., must sign up for the Foreign Medical Program",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not mention the Foreign Medical Program or the need to sign up for it."
+              },
+              {
+                "requirement": "The program pays for certain health care services abroad to treat a service-connected disability or a disability worsening a service-connected condition",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response omits the program's coverage details entirely."
+              }
+            ],
+            "reason": "The response acknowledges lack of specific information and suggests contacting VA, but fails to provide the essential facts about the Foreign Medical Program required by the reference."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "aea993b405934f18a396457d4560b330",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4496,
+                "completion_tokens": 182,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 182,
+                  "prompt_tokens": 4496,
+                  "total_tokens": 4678,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3600
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0062638,
+              "accounted_rmb": 0.0062638,
+              "usage_unknown": false,
+              "seconds": 2.142554759979248,
+              "error": null,
+              "response": {
+                "id": "5360deec-7766-461a-b9ca-4cb86e2f3da0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "255031a9beb63d070984a84453f5a3fd87dbd231d39e855c223de305d3bf06f2"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If moving outside the U.S., must sign up for the Foreign Medical Program",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not mention the Foreign Medical Program or the need to sign up for it."
+          },
+          {
+            "requirement": "The program pays for certain health care services abroad to treat a service-connected disability or a disability worsening a service-connected condition",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response omits the program's coverage details entirely."
+          }
+        ],
+        "reason": "The response acknowledges lack of specific information and suggests contacting VA, but fails to provide the essential facts about the Foreign Medical Program required by the reference."
+      }
+    }
+  },
+  "sha256": "97bd9af94ad55db05d89dc880c066987008737afe1691a8857d063d7c4044c07"
+}

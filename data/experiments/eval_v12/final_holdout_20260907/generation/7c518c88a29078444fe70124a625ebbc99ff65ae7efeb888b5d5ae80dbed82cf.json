@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "87db86a6e38b7577c7f5ae29b8c3197f::agent-turn-4",
+    "item_sha256": "3c133df5622a4e49d27bc348184496f78cac3241488f4818d90e2306e1d1cd81",
+    "result": {
+      "request_id": "1405ce90a9124bd9b7453f690cc95e1d",
+      "session_id": "87db86a6e38b7577c7f5ae29b8c3197f",
+      "turn_id": 3,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您是多个声称对同一福利享有权利的人之一，您需要联系相关机构（如社会保障局或退伍军人事务部）以解决冲突。根据检索到的信息，社会保障局在收到申请后会进行审查，并可能联系您以获取更多信息或文件；退伍军人事务部则要求提交残疾补偿申请及支持文件。但具体质疑流程未在提供的资料中详细说明，建议直接联系相关机构获取指导。",
+        "citations": [
+          "Retirement Benefits | Social Security Administration#2_0::c0008",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0004"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0005",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 3. 您的状况是否在致残疾病清单中？]\n针对每个主要身体系统，我们维护一份医疗状况清单，这些状况被认为严重到足以阻止一个人从事实质性有酬活动。如果您的状况不在清单上，我们必须判断其是否与清单上的医疗状况一样严重。如果是，我们将认定您残疾。如果不是，我们则进入第4步。\n\n我们有两项旨在加快处理新残疾索赔的举措：\n\n- 同情性津贴：某些通常符合残疾资格的病例，一旦诊断确认即可获准。例如急性白血病、肌萎缩侧索硬化症（ALS）和胰腺癌。\n- 快速残疾决定：我们使用复杂的计算机筛选来识别高概率获准的病例。\n\n有关我们残疾索赔流程的更多信息，请访问我们的“残疾人福利”网站。"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#2_0::c0008",
+          "text": "[Retirement Benefits | Social Security Administration > What happens after I apply?]\nOnce we receive your application, we'll review it. After the review, we will contact you if we need more information or if we need to see your documents.\n\nWe'll also let you know if...\n\n- you may be able to receive benefits on another person's record, such as your spouse.\n- other family members may be able to receive benefits on your work record.\n\nWhen we have all of the necessary information and documents, we'll process your application and send you a letter about our decision in the mail."
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0008",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > What happens after I apply?]\nOnce we receive your application, we'll review it. After the review, we will contact you if we need more information or if we need to see your documents.\n\nWe'll also let you know if...\n\n- you may be able to receive benefits on another person's record, such as your spouse.\n- other family members may be able to receive benefits on your work record.\n\nWhen we have all of the necessary information and documents, we'll process your application and send you a letter about our decision in the mail."
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "text": "[Agent Orange 暴露 > 我如何获得这些福利？]\n你需要提交残疾补偿申请并提交你的证据（支持文件）。\n\n### 如果你患有我们认为由 Agent Orange 引起的疾病\n\n你不需要证明问题是在服役期间开始或因服役而恶化。这是因为我们认为某些疾病是接触除草剂的结果。我们称这些为推定疾病。\n\n查看我们与Agent Orange相关的疾病列表\n\n- **当你提交索赔时，你需要提交：**\n  - 一份显示你患有与Agent Orange相关疾病的医疗记录\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在美国军用船只上进入越南内河航道，或\n  - 曾在距离越南和柬埔寨水域分界线不超过12海里的船只上服役（详见Public Law 116-23，即2019年《Blue Water Navy Vietnam Veterans Act》），或\n  - 曾在越南或朝鲜非军事区以外的地点接触过除草剂\n\n了解如何提交残疾补偿索赔\n\n### 如果你患有不在Agent Orange相关疾病列表上的疾病，但你认为是由Agent Orange引起的\n\n你需要：\n\n- 提供科学和医学证据，证明该疾病与接触Agent Orange有关，或\n- 证明该问题是在服役期间开始或因服役而加重\n\n科学证据可能包括医学期刊上的文章或已发表的研究。\n\n- **当你提交索赔时，你需要提交一份医疗记录，显示：**\n  - 你目前有残疾，并且\n  - Agent Orange暴露与你的当前残疾之间存在联系\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在越南或朝鲜非军事区以外的地点接触过Agent Orange\n\n了解如何提交残疾补偿索赔"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#1_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 您或您的家人可能有资格获得增加的福利 > 联系社会保障局]\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-800-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0005",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 3. 您的状况是否在致残疾病清单中？]\n针对每个主要身体系统，我们维护一份医疗状况清单，这些状况被认为严重到足以阻止一个人从事实质性有酬活动。如果您的状况不在清单上，我们必须判断其是否与清单上的医疗状况一样严重。如果是，我们将认定您残疾。如果不是，我们则进入第4步。\n\n我们有两项旨在加快处理新残疾索赔的举措：\n\n- 同情性津贴：某些通常符合残疾资格的病例，一旦诊断确认即可获准。例如急性白血病、肌萎缩侧索硬化症（ALS）和胰腺癌。\n- 快速残疾决定：我们使用复杂的计算机筛选来识别高概率获准的病例。\n\n有关我们残疾索赔流程的更多信息，请访问我们的“残疾人福利”网站。"
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#2_0::c0008",
+          "text": "[Retirement Benefits | Social Security Administration > What happens after I apply?]\nOnce we receive your application, we'll review it. After the review, we will contact you if we need more information or if we need to see your documents.\n\nWe'll also let you know if...\n\n- you may be able to receive benefits on another person's record, such as your spouse.\n- other family members may be able to receive benefits on your work record.\n\nWhen we have all of the necessary information and documents, we'll process your application and send you a letter about our decision in the mail."
+        },
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#1_0::c0008",
+          "text": "[Retirement Benefits | Social Security Administration > Retirement Benefits > What happens after I apply?]\nOnce we receive your application, we'll review it. After the review, we will contact you if we need more information or if we need to see your documents.\n\nWe'll also let you know if...\n\n- you may be able to receive benefits on another person's record, such as your spouse.\n- other family members may be able to receive benefits on your work record.\n\nWhen we have all of the necessary information and documents, we'll process your application and send you a letter about our decision in the mail."
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "text": "[Agent Orange 暴露 > 我如何获得这些福利？]\n你需要提交残疾补偿申请并提交你的证据（支持文件）。\n\n### 如果你患有我们认为由 Agent Orange 引起的疾病\n\n你不需要证明问题是在服役期间开始或因服役而恶化。这是因为我们认为某些疾病是接触除草剂的结果。我们称这些为推定疾病。\n\n查看我们与Agent Orange相关的疾病列表\n\n- **当你提交索赔时，你需要提交：**\n  - 一份显示你患有与Agent Orange相关疾病的医疗记录\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在美国军用船只上进入越南内河航道，或\n  - 曾在距离越南和柬埔寨水域分界线不超过12海里的船只上服役（详见Public Law 116-23，即2019年《Blue Water Navy Vietnam Veterans Act》），或\n  - 曾在越南或朝鲜非军事区以外的地点接触过除草剂\n\n了解如何提交残疾补偿索赔\n\n### 如果你患有不在Agent Orange相关疾病列表上的疾病，但你认为是由Agent Orange引起的\n\n你需要：\n\n- 提供科学和医学证据，证明该疾病与接触Agent Orange有关，或\n- 证明该问题是在服役期间开始或因服役而加重\n\n科学证据可能包括医学期刊上的文章或已发表的研究。\n\n- **当你提交索赔时，你需要提交一份医疗记录，显示：**\n  - 你目前有残疾，并且\n  - Agent Orange暴露与你的当前残疾之间存在联系\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在越南或朝鲜非军事区以外的地点接触过Agent Orange\n\n了解如何提交残疾补偿索赔"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#1_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 您或您的家人可能有资格获得增加的福利 > 联系社会保障局]\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-800-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Retirement Benefits | Social Security Administration#2_0::c0008",
+          "document": "Retirement Benefits | Social Security Administration#2_0",
+          "heading": [
+            "Retirement Benefits | Social Security Administration",
+            "What happens after I apply?"
+          ],
+          "source_file": "ssa_103.md",
+          "excerpt": "[Retirement Benefits | Social Security Administration > What happens after I apply?]\nOnce we receive your application, we'll review it. After the review, we will contact you if we need more information or if we need to see your documents.\n\nWe'll also let you know if...\n\n- you may be able to receive benefits on another person's record, such as your spouse.\n- other family members may be able to receive benefits on your work record.\n\nWhen we have all of the necessary information and documents, we'll process your application and send you a letter about our decision in the mail."
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "document": "Agent Orange Exposure | Veterans Affairs#1_0",
+          "heading": [
+            "Agent Orange 暴露",
+            "我如何获得这些福利？"
+          ],
+          "source_file": "va_013.md",
+          "excerpt": "[Agent Orange 暴露 > 我如何获得这些福利？]\n你需要提交残疾补偿申请并提交你的证据（支持文件）。\n\n### 如果你患有我们认为由 Agent Orange 引起的疾病\n\n你不需要证明问题是在服役期间开始或因服役而恶化。这是因为我们认为某些疾病是接触除草剂的结果。我们称这些为推定疾病。\n\n查看我们与Agent Orange相关的疾病列表\n\n- **当你提交索赔时，你需要提交：**\n  - 一份显示你患有与Agent Orange相关疾病的医疗记录\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在美国军用船只上进入越南内河航道，或\n  - 曾在距离越南和柬埔寨水域分界线不超过12海里的船只上服役（详见Public Law 116-23，即2019年《Blue Water Navy Vietnam Veterans Act》），或\n  - 曾在越南或朝鲜非军事区以外的地点接触过除草剂\n\n了解如何提交残疾补偿索赔\n\n### 如果你患有不在Agent Orange相关疾病列表上的疾病，但你认为是由Agent Orange引起的\n\n你需要：\n\n- 提供科学和医学证据，证明该疾病与接触Agent Orange有关，或\n- 证明该问题是在服役期间开始或因服役而加重\n\n科学证据可能包括医学期刊上的文章或已发表的研究。\n\n- **当你提交索赔时，你需要提交一份医疗记录，显示：**\n  - 你目前有残疾，并且\n  - Agent Orange暴露与你的当前残疾之间存在联系\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在越南或朝鲜非军事区以外的地点接触过Agent Orange\n\n了解如何提交残疾补偿索赔"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您是多个声称对同一福利享有权利的人之一，您需要联系相关机构（如社会保障局或退伍军人事务部）以解决冲突。根据检索到的信息，社会保障局在收到申请后会进行审查，并可能联系您以获取更多信息或文件；退伍军人事务部则要求提交残疾补偿申请及支持文件。但具体质疑流程未在提供的资料中详细说明，建议直接联系相关机构获取指导。",
+          "citations": [
+            "Retirement Benefits | Social Security Administration#2_0::c0008",
+            "Agent Orange Exposure | Veterans Affairs#1_0::c0004"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "c63bc9db10fe4d88acc572dde2121599",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2259,
+              "completion_tokens": 138,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 138,
+                "prompt_tokens": 2259,
+                "total_tokens": 2397,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2003
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0036383,
+            "accounted_rmb": 0.0036383,
+            "usage_unknown": false,
+            "seconds": 1.8441181182861328,
+            "error": null,
+            "response": {
+              "id": "7b51291f-e8b9-4c63-b437-572ec5c9f2de",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "9b900dc5717c34da517aa84d0c28665c9900526cf3158c1e2e414006fdaead65"
+      },
+      "latency_ms": {
+        "queue_wait": 0.0500829191878438,
+        "retrieval": 779.1876250412315,
+        "generation": 1849.6054999995977,
+        "total": 2630.2593749715015
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.0957698340062052,
+        "rerank_seconds": 0.6833819160237908,
+        "top1_dense_score": 0.5882219672203064,
+        "candidate_ids": [
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0003",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0003",
+          "Manage Your Retirement Benefits | SSA#1_0::c0004",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Apply for Retirement Benefits | SSA#1_0::c0003",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Explore The Benefits You May Be Due#1_0::c0001",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0000",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0002",
+          "Get Help Filing Your Claim Or Appeal | Veterans Affairs#1_0::c0000",
+          "Feedback Center#1_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0008",
+          "Disability Benefits | Social Security Administration#1_0::c0009",
+          "Retirement Benefits | Social Security Administration#1_0::c0008",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0005",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0002"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 30,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.7791710840538144
+      },
+      "raw_citations": [
+        "Retirement Benefits | Social Security Administration#2_0::c0008",
+        "Agent Orange Exposure | Veterans Affairs#1_0::c0004"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "35443a19e6f35d80706e013e0d319bfa6eaf304c71fe82b0366b08c36251f756"
+}

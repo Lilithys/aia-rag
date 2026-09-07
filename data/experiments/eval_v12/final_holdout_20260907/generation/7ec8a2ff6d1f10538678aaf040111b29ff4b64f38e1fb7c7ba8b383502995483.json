@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "71b7fa6c2ebf4d2df64de74aec1984ce::agent-turn-8",
+    "item_sha256": "92402f091c98848f0f202628c7d70216351b65b0cf782b8a8f5081b24ff51541",
+    "result": {
+      "request_id": "b0f5cd339183487689f50537083e47c0",
+      "session_id": "71b7fa6c2ebf4d2df64de74aec1984ce",
+      "turn_id": 7,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您接受过私人医疗治疗，您应该将这些记录作为证据提交，以支持您的残疾申请。根据VA残疾补偿信息，您可以“向我们发送证据（如医生报告、医学检查结果或服役记录），以帮助支持您未决的残疾申请。” 这些私人医疗记录可以帮助证明您的状况及其严重程度。请确保提交所有相关的医生报告、检查结果和任何其他医疗文件。",
+        "citations": [
+          "VA Disability Compensation | Veterans Affairs#1_0::c0002"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "text": "[VA 索赔检查（C&P 检查） > 务必不要错过您预定的检查。]\n提交残疾福利索赔后，我们可能会要求您进行索赔检查（也称为补偿和养老金检查，或 C&P 检查）。在下方获取关于 VA 索赔检查常见问题的解答。\n\n如果您错过了检查，我们可能无法立即为您重新安排，您的索赔可能会在等待新预约期间被延迟。或者我们可能需要按现状评定您的索赔。这意味着我们将仅根据您档案中已有的证据来决定您的残疾福利，而这些证据可能不足。"
+        },
+        {
+          "chunk_id": "VA Disability Compensation | Veterans Affairs#1_0::c0002",
+          "text": "[VA残疾补偿 | 退伍军人事务部 > 管理您的退伍军人残疾福利]\n- 检查您的VA申请或上诉状态\n\n跟踪您的残疾申请或上诉的状态。\n\n- 申请VA残疾等级增加\n\n如果您的与服务相关的残疾状况有所恶化，请了解如何提交申请以提高您的残疾评级。\n\n- 提交上诉\n\n如果您不同意我们针对您的申请所做的决定，请了解如何提交上诉以及VA上诉流程的预期情况。\n\n- 添加或移除受抚养人\n\n了解如何以及何时将配偶、子女或父母添加为您的VA残疾福利的受抚养人。同时了解如何从您的福利中移除受抚养人。\n\n- 上传证据以支持您的残疾申请\n\n向我们发送证据（如医生报告、医学检查结果或服役记录），以帮助支持您未决的残疾申请。\n\n- 为您的残疾申请提交额外表格\n\n了解您是否需要提交任何额外表格以支持您的残疾申请。\n\n- 更改您的VA直接存款信息\n\n了解如何在线更改您的直接存款信息。\n\n- 分享您的VA医疗记录\n\n设置您的个人健康记录并下载报告，以便与您的VA和非VA医生分享。\n\n- 下载您的VA福利信函\n\n下载某些福利的资格信函或奖励信函等信函的副本。\n\n- 查看您的VA残疾支付历史\n\n检查您的VA残疾和养老金支付状态。您还可以查看某些遗属福利。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0037",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 残疾补偿（付款）]\n了解如何提交残疾补偿申请并管理您的残疾福利。"
+        },
+        {
+          "chunk_id": "VA Disability Compensation | Veterans Affairs#2_0::c0000",
+          "text": "# VA残疾补偿 | 退伍军人事务部\n\n# VA残疾补偿\n\nVA残疾补偿（付款）为在服役期间生病或受伤的退伍军人，以及因服役导致原有状况恶化的退伍军人提供每月免税付款。您可能有资格获得VA残疾福利，涵盖服役前、服役期间或服役后出现的身体疾病（如慢性疾病或伤害）和心理健康状况（如PTSD）。了解如何申请和管理您应得的退伍军人残疾福利。\n\n### 本页内容\n\n- 获取VA残疾补偿（付款）\n- 管理您的退伍军人残疾福利\n- 更多信息和资源\n\n## 获取VA残疾补偿（付款）\n\n- 资格\n\n了解您是否有资格获得针对推定残疾或其他与服务相关状况的VA残疾福利。\n\n- 如何提交申请\n\n了解如何在线、通过电话或邮寄方式准备和提交残疾补偿申请。\n\n- 提交申请后\n\n了解提交VA残疾补偿申请后会发生什么，我们做出决定需要多长时间，以及如果您不同意该决定该怎么办。\n\n- 遗属配偶和受抚养人的补偿福利（VA DIC）\n\n了解作为遗属配偶、受抚养子女或父母如何获得VA残疾福利。\n\n## 管理您的退伍军人残疾福利\n\n- 查看您的VA申请或上诉状态\n\n跟踪您的残疾申请或上诉的状态。\n\n- 申请VA残疾等级增加\n\n如果您的与服务相关的残疾情况有所恶化，了解如何提交申请以提高您的残疾评级。\n\n- 提交上诉\n\n如果您不同意我们关于您索赔的决定，了解如何提交上诉以及VA上诉流程中会发生什么。\n\n- 添加或移除受抚养人\n\n了解如何以及何时向您的VA残疾福利中添加受抚养的配偶、子女或父母。同时了解如何从您的福利中移除受抚养人。\n\n- 上传证据以支持您的残疾索赔\n\n向我们发送证据（如医生报告、医学检测结果或服役记录），以帮助支持您未决的残疾索赔。\n\n- 为您的残疾索赔提交额外表格\n\n了解您是否需要提交任何额外表格以支持您的残疾索赔。\n\n- 更改您的VA直接存款信息\n\n了解如何在线更改您的直接存款信息。\n\n- 分享您的VA医疗记录\n\n设置您的个人健康记录并下载报告，以便与您的VA和非VA医生分享。\n\n- 下载您的VA福利信函\n\n下载如资格信或奖励信等特定福利的信函副本。\n\n- 查看您的VA残疾支付历史\n\n检查您的VA残疾和养老金支付状态。您还可以查看某些遗属福利。\n\n## 更多信息和资源\n\n- 关于VA伤残评级\n\n了解我们如何分配伤残评级和生效日期，以及获得评级后该怎么做。\n\n- 查看VA伤残补偿标准\n\n查看Veterans补偿福利标准表，根据您的伤残评级和家属情况找到对应的补偿标准。\n\n- VA索赔检查（C&P检查）\n\n了解为何您可能需要进行索赔检查、如何安排和准备预约，以及检查期间和之后会发生什么。\n\n- 获取索赔申请帮助\n\n联系Veterans Service Organization（VSO）或经认证的Veterans代表，获取福利申请帮助。\n\n### 其他VA福利和服务\n\n- 退伍军人伤残住房补助金\n\n了解作为有服务相关伤残的Veteran或服役人员如何申请住房补助金。\n\n- 受托人服务\n\n了解如何成为VA受托人，为有需要的Veteran处理财务事务。\n\n- VA养老院、辅助生活和居家护理\n\n探索Veteran及其照护者的长期护理选项。\n\n- 职业康复与就业\n\n了解您是否有资格获得就业选择探索、可能需要的培训以及其他职业康复服务的帮助。\n\n- 援助与出勤福利和居家津贴\n\n查看您是否有资格获得额外的每月养老金支付，如果您需要的援助超过目前所获得的。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0006",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我需要提供哪些文件？]\n我们可能会要求您提供文件以证明您符合资格，例如：\n\n- 出生证明或其他出生证明文件；\n- 如果您不是在美国出生，需提供美国公民身份或合法外国人身份证明 [更多信息]；\n- 如果您在1968年之前服过兵役，需提供美国军队退役证明文件；\n- 去年的W-2表格和/或自雇纳税申报表；\n- 您已有的医疗证据 [更多信息]。这包括医疗记录、医生报告和最近的检查结果；以及\n- 您收到的任何临时或永久性工人赔偿类福利的获奖信、工资单、和解协议或其他证明 [更多信息]。\n\n我们接受W-2表格、自雇纳税申报表或医疗文件的复印件，但大多数其他文件（如出生证明）必须出示原件。（我们会将其退还给您。）\n\n不要因为没有所有文件而延迟申请福利。我们将帮助您获取这些文件。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "text": "[VA 索赔检查（C&P 检查） > 务必不要错过您预定的检查。]\n提交残疾福利索赔后，我们可能会要求您进行索赔检查（也称为补偿和养老金检查，或 C&P 检查）。在下方获取关于 VA 索赔检查常见问题的解答。\n\n如果您错过了检查，我们可能无法立即为您重新安排，您的索赔可能会在等待新预约期间被延迟。或者我们可能需要按现状评定您的索赔。这意味着我们将仅根据您档案中已有的证据来决定您的残疾福利，而这些证据可能不足。"
+        },
+        {
+          "chunk_id": "VA Disability Compensation | Veterans Affairs#1_0::c0002",
+          "text": "[VA残疾补偿 | 退伍军人事务部 > 管理您的退伍军人残疾福利]\n- 检查您的VA申请或上诉状态\n\n跟踪您的残疾申请或上诉的状态。\n\n- 申请VA残疾等级增加\n\n如果您的与服务相关的残疾状况有所恶化，请了解如何提交申请以提高您的残疾评级。\n\n- 提交上诉\n\n如果您不同意我们针对您的申请所做的决定，请了解如何提交上诉以及VA上诉流程的预期情况。\n\n- 添加或移除受抚养人\n\n了解如何以及何时将配偶、子女或父母添加为您的VA残疾福利的受抚养人。同时了解如何从您的福利中移除受抚养人。\n\n- 上传证据以支持您的残疾申请\n\n向我们发送证据（如医生报告、医学检查结果或服役记录），以帮助支持您未决的残疾申请。\n\n- 为您的残疾申请提交额外表格\n\n了解您是否需要提交任何额外表格以支持您的残疾申请。\n\n- 更改您的VA直接存款信息\n\n了解如何在线更改您的直接存款信息。\n\n- 分享您的VA医疗记录\n\n设置您的个人健康记录并下载报告，以便与您的VA和非VA医生分享。\n\n- 下载您的VA福利信函\n\n下载某些福利的资格信函或奖励信函等信函的副本。\n\n- 查看您的VA残疾支付历史\n\n检查您的VA残疾和养老金支付状态。您还可以查看某些遗属福利。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0037",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 残疾补偿（付款）]\n了解如何提交残疾补偿申请并管理您的残疾福利。"
+        },
+        {
+          "chunk_id": "VA Disability Compensation | Veterans Affairs#2_0::c0000",
+          "text": "# VA残疾补偿 | 退伍军人事务部\n\n# VA残疾补偿\n\nVA残疾补偿（付款）为在服役期间生病或受伤的退伍军人，以及因服役导致原有状况恶化的退伍军人提供每月免税付款。您可能有资格获得VA残疾福利，涵盖服役前、服役期间或服役后出现的身体疾病（如慢性疾病或伤害）和心理健康状况（如PTSD）。了解如何申请和管理您应得的退伍军人残疾福利。\n\n### 本页内容\n\n- 获取VA残疾补偿（付款）\n- 管理您的退伍军人残疾福利\n- 更多信息和资源\n\n## 获取VA残疾补偿（付款）\n\n- 资格\n\n了解您是否有资格获得针对推定残疾或其他与服务相关状况的VA残疾福利。\n\n- 如何提交申请\n\n了解如何在线、通过电话或邮寄方式准备和提交残疾补偿申请。\n\n- 提交申请后\n\n了解提交VA残疾补偿申请后会发生什么，我们做出决定需要多长时间，以及如果您不同意该决定该怎么办。\n\n- 遗属配偶和受抚养人的补偿福利（VA DIC）\n\n了解作为遗属配偶、受抚养子女或父母如何获得VA残疾福利。\n\n## 管理您的退伍军人残疾福利\n\n- 查看您的VA申请或上诉状态\n\n跟踪您的残疾申请或上诉的状态。\n\n- 申请VA残疾等级增加\n\n如果您的与服务相关的残疾情况有所恶化，了解如何提交申请以提高您的残疾评级。\n\n- 提交上诉\n\n如果您不同意我们关于您索赔的决定，了解如何提交上诉以及VA上诉流程中会发生什么。\n\n- 添加或移除受抚养人\n\n了解如何以及何时向您的VA残疾福利中添加受抚养的配偶、子女或父母。同时了解如何从您的福利中移除受抚养人。\n\n- 上传证据以支持您的残疾索赔\n\n向我们发送证据（如医生报告、医学检测结果或服役记录），以帮助支持您未决的残疾索赔。\n\n- 为您的残疾索赔提交额外表格\n\n了解您是否需要提交任何额外表格以支持您的残疾索赔。\n\n- 更改您的VA直接存款信息\n\n了解如何在线更改您的直接存款信息。\n\n- 分享您的VA医疗记录\n\n设置您的个人健康记录并下载报告，以便与您的VA和非VA医生分享。\n\n- 下载您的VA福利信函\n\n下载如资格信或奖励信等特定福利的信函副本。\n\n- 查看您的VA残疾支付历史\n\n检查您的VA残疾和养老金支付状态。您还可以查看某些遗属福利。\n\n## 更多信息和资源\n\n- 关于VA伤残评级\n\n了解我们如何分配伤残评级和生效日期，以及获得评级后该怎么做。\n\n- 查看VA伤残补偿标准\n\n查看Veterans补偿福利标准表，根据您的伤残评级和家属情况找到对应的补偿标准。\n\n- VA索赔检查（C&P检查）\n\n了解为何您可能需要进行索赔检查、如何安排和准备预约，以及检查期间和之后会发生什么。\n\n- 获取索赔申请帮助\n\n联系Veterans Service Organization（VSO）或经认证的Veterans代表，获取福利申请帮助。\n\n### 其他VA福利和服务\n\n- 退伍军人伤残住房补助金\n\n了解作为有服务相关伤残的Veteran或服役人员如何申请住房补助金。\n\n- 受托人服务\n\n了解如何成为VA受托人，为有需要的Veteran处理财务事务。\n\n- VA养老院、辅助生活和居家护理\n\n探索Veteran及其照护者的长期护理选项。\n\n- 职业康复与就业\n\n了解您是否有资格获得就业选择探索、可能需要的培训以及其他职业康复服务的帮助。\n\n- 援助与出勤福利和居家津贴\n\n查看您是否有资格获得额外的每月养老金支付，如果您需要的援助超过目前所获得的。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0006",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我需要提供哪些文件？]\n我们可能会要求您提供文件以证明您符合资格，例如：\n\n- 出生证明或其他出生证明文件；\n- 如果您不是在美国出生，需提供美国公民身份或合法外国人身份证明 [更多信息]；\n- 如果您在1968年之前服过兵役，需提供美国军队退役证明文件；\n- 去年的W-2表格和/或自雇纳税申报表；\n- 您已有的医疗证据 [更多信息]。这包括医疗记录、医生报告和最近的检查结果；以及\n- 您收到的任何临时或永久性工人赔偿类福利的获奖信、工资单、和解协议或其他证明 [更多信息]。\n\n我们接受W-2表格、自雇纳税申报表或医疗文件的复印件，但大多数其他文件（如出生证明）必须出示原件。（我们会将其退还给您。）\n\n不要因为没有所有文件而延迟申请福利。我们将帮助您获取这些文件。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "VA Disability Compensation | Veterans Affairs#1_0::c0002",
+          "document": "VA Disability Compensation | Veterans Affairs#1_0",
+          "heading": [
+            "VA残疾补偿 | 退伍军人事务部",
+            "管理您的退伍军人残疾福利"
+          ],
+          "source_file": "va_097.docx",
+          "excerpt": "[VA残疾补偿 | 退伍军人事务部 > 管理您的退伍军人残疾福利]\n- 检查您的VA申请或上诉状态\n\n跟踪您的残疾申请或上诉的状态。\n\n- 申请VA残疾等级增加\n\n如果您的与服务相关的残疾状况有所恶化，请了解如何提交申请以提高您的残疾评级。\n\n- 提交上诉\n\n如果您不同意我们针对您的申请所做的决定，请了解如何提交上诉以及VA上诉流程的预期情况。\n\n- 添加或移除受抚养人\n\n了解如何以及何时将配偶、子女或父母添加为您的VA残疾福利的受抚养人。同时了解如何从您的福利中移除受抚养人。\n\n- 上传证据以支持您的残疾申请\n\n向我们发送证据（如医生报告、医学检查结果或服役记录），以帮助支持您未决的残疾申请。\n\n- 为您的残疾申请提交额外表格\n\n了解您是否需要提交任何额外表格以支持您的残疾申请。\n\n- 更改您的VA直接存款信息\n\n了解如何在线更改您的直接存款信息。\n\n- 分享您的VA医疗记录\n\n设置您的个人健康记录并下载报告，以便与您的VA和非VA医生分享。\n\n- 下载您的VA福利信函\n\n下载某些福利的资格信函或奖励信函等信函的副本。\n\n- 查看您的VA残疾支付历史\n\n检查您的VA残疾和养老金支付状态。您还可以查看某些遗属福利。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您接受过私人医疗治疗，您应该将这些记录作为证据提交，以支持您的残疾申请。根据VA残疾补偿信息，您可以“向我们发送证据（如医生报告、医学检查结果或服役记录），以帮助支持您未决的残疾申请。” 这些私人医疗记录可以帮助证明您的状况及其严重程度。请确保提交所有相关的医生报告、检查结果和任何其他医疗文件。",
+          "citations": [
+            "VA Disability Compensation | Veterans Affairs#1_0::c0002"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "e5d96ddf01cb4ee0839e62a589999dea",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1913,
+              "completion_tokens": 114,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 114,
+                "prompt_tokens": 1913,
+                "total_tokens": 2027,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1657
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0030113,
+            "accounted_rmb": 0.0030113,
+            "usage_unknown": false,
+            "seconds": 1.9873459339141846,
+            "error": null,
+            "response": {
+              "id": "b8893ca5-656a-4e24-820b-24cef9f2017a",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "f7a727e34d95b34090a5b21f2e2bc3cec874f55a45101df6c875a4ef8f2a79f5"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04754203837364912,
+        "retrieval": 1192.3982079606503,
+        "generation": 1992.2645409824327,
+        "total": 3186.063166940585
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.219459000043571,
+        "rerank_seconds": 0.9728929169941694,
+        "top1_dense_score": 0.8411005139350891,
+        "candidate_ids": [
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0002",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0002",
+          "Disability Benefits | Social Security Administration#1_0::c0004",
+          "VA Health Care | Veterans Affairs#1_0::c0037",
+          "VA Disability Compensation | Veterans Affairs#2_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0009",
+          "Disability Benefits | Social Security Administration#1_0::c0005",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0005",
+          "Disability Benefits | Social Security Administration#1_0::c0006",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0001",
+          "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0007",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0001",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0003",
+          "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "Benefits Planner | Social Security Administration#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 30,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.192368583055213
+      },
+      "raw_citations": [
+        "VA Disability Compensation | Veterans Affairs#1_0::c0002"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "d2e7bb16103be56cd032b6bcb5d482ece1fad477744ef5103f3d7b0718ce89c4"
+}

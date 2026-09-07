@@ -1,0 +1,159 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-002",
+    "item_sha256": "882ea0397fc77a55d45c278e36d2637d7e986f6a45fa8274cffe7639da106940",
+    "result": {
+      "request_id": "2e6bff15cb384c0ab2aa7ddfecb9ec79",
+      "session_id": "synthetic::eval-v1-holdout-refuse-002",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "我无法提供纽约州 DMV 各办公室的实时排队人数，因为我的知识库不包含实时数据。建议您访问 DMV 官网或拨打其电话查询实时信息。",
+        "citations": [],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Let the Buyer be Aware#3_0::c0000",
+          "text": "[让买家警惕 > 从经销商处购买]\n在纽约州，每个汽车经销商都必须向机动车管理局（DMV）注册。注册经销商必须遵守某些州和联邦法律，以保护您购买新车、二手车、卡车或其他机动车（包括以“salvage”出售的车辆）的权益。新车还受制造商保修的保护。您可以使用“查找DMV监管企业”[1]服务搜索注册的汽车经销商。\n\n当您购买二手车时，经销商必须以书面形式证明，该车“在交付时，处于正常使用下，能够在公共高速公路上提供令人满意且足够的服务和维修状态”。经销商认证涵盖整个车辆，但销售前对客户显而易见的项目除外，如撕裂的内饰、缺失的轮毂罩等。车辆还必须具备州和联邦法律对该车型年份要求的所有安全设备和排放控制装置。\n\n#### 经销商还必须：\n\n- 在将车辆出售给零售客户之前进行检验，即使车辆是新的。检验必须在销售日期后30天内、您提车之前完成。经销商可向您收取检验费。\n- 如果经销商是该制造商的特许经销商，则根据制造商保修提供服务或维修。保修服务也可能由该制造商特许的其他经销商提供。\n- 在销售单上以书面形式注明出售给零售买家的车辆是新车、二手车、重建车、重建报废车，还是最初未按美国标准制造的车辆（参见Title Branding）。\n- 向买家提供完整的里程表和损坏披露声明：\n  - 对于10个车型年或更新的机动车，卖方必须填写所有权证书背面的里程表披露声明。对于超过10个车型年的车辆，不需要里程表披露。\n  - 无论车辆年龄如何，都必须填写所有权证书背面的损坏披露声明。\n\n注意：如果没有完整的报废披露声明，DMV将不会注册或授予报废车辆的所有权。此外，DMV必须检查每辆被卖方标记或标识为“Rebuilt Salvage”的车辆是否有被盗零件，然后才能注册或授予所有权。\n\n- 如果车辆为10个车型年或更新，则填写并签署里程表披露声明。此声明位于零售销售证书（MV-50）上。买家也必须确认并签署里程表声明。\n- 在销售合同中注明客车是否主要用作警车、出租车、驾驶教育或租赁车。\n\n如果正在记录留置权或经销商发放了车牌，经销商必须为您处理注册。经销商可为此服务向您收取最高$75的费用，外加车辆所有权证书（MV-999）、注册和车牌的实际费用。作为客户礼遇，注册经销商可将您填写的车辆注册/所有权申请（MV-82）提交给DMV。经销商还可提供临时注册证书，并在需要时提供新车牌。"
+        },
+        {
+          "chunk_id": "Know Your Rights in Auto Repair#3_0::c0001",
+          "text": "[了解您在汽车维修中的权利 > 如果您遇到维修问题]\n首先，尝试与企业管理层解决问题。保留与管理层所有联系的书面记录以及维修详情。工作订单和发票的副本是您尝试解决问题的证明。如果未能达成满意的解决方案，并且您希望提出投诉，您必须向DMV消费者与设施服务投诉部门提交车辆安全投诉报告（PDF）[1] [1](VS-35)以及任何支持文件。要以电子方式提交，请将上述链接中提供的投诉报告下载到您的个人设备。将填写完整的报告以及任何支持文件作为附件，然后通过电子邮件发送至[email protected] [2]。请注意，DMV工作人员将通过电子邮件与您沟通。\n\n投诉部门消费者与设施服务局机动车辆管理局邮政信箱2700-ESP，奥尔巴尼，纽约州12220-0700传真：(518) 486-4102电话：1-518-474-8943（周一至周五上午8:30至下午4:15）电子邮件：[email protected] [2]\n\n重要提示：DMV工作人员在收到填写完整的VS-35投诉报告之前，不会调查投诉。该部门不调查匿名提交的投诉。与纽约州修理厂相关的事件报告有90天的时限。我们无法接受超过90天时限或3,000英里（以先到者为准）的针对修理厂的投诉。DMV无法解决制造商或第三方保修或担保条款的争议。如果您认为自己有纽约州柠檬法投诉，请参阅柠檬法投诉[3]。"
+        },
+        {
+          "chunk_id": "About complaints and charges for repair and body shops#3_0::c0000",
+          "text": "# 关于对维修店和车身修理厂的投诉与收费\n\n如果您想对维修店或车身修理厂提出投诉，请向DMV监管的汽车业务报告问题。[1]\n\n### 针对您或您的企业提出的投诉\n\n纽约州机动车管理局（DMV）监管纽约州所有维修店、检测站、经销商、车辆拆解商及其他相关业务。要合法经营此类业务，您必须在DMV注册。申请获批后，您将收到DMV颁发的证书，同时还会收到与您业务类型相关的《专员条例》副本，其中会说明您对消费者的责任。您必须遵守所有消费者保护法律法规。\n\nDMV建议所有对经销商、检测站、维修店或拆解商有投诉的消费者先尝试与业务经理解决问题。若未能解决，建议联系DMV消费者与设施服务投诉部门。\n\n- 保护您的业务：将所有工单副本存放在易于查找的位置\n\n### 投诉流程\n\n如果针对您的投诉已提交，DMV的消费者服务代表（CSR）将与您联系以尝试解决该投诉。CSR会说明投诉性质，并告知您的权利、责任及赔偿责任。若投诉未能通过CSR解决，案件将转交汽车设施检查员（AFI）进行正式调查。\n\n- 及时回应所有DMV问询，以避免昂贵的罚款、罚金及失去宝贵客户\n\n### 调查流程\n\nAFI将进行正式调查。结果可能是不采取行动、将警告信（调查通知）存入您的档案，或由行政法法官（ALJ）主持正式行政听证。当车辆安全部门启动听证程序时，您可能有机会通过“听证豁免”承认指控，并支付特定金额的罚款和/或接受停业处罚。若接受豁免，则无需听证；若拒绝，则必须举行听证。\n\n听证结果可能是不采取行动、民事罚款，和/或暂停或撤销您在纽约州经营车辆相关业务的资格。您也可能有机会向消费者支付赔偿金以代替罚款和/或处罚，或减轻处罚。\n\n### 听证流程\n\n您有权聘请律师并带其出席听证。在此案中，DMV为申诉方，投诉人可能作为证人出庭。\n\n听证结束后，ALJ可能维持部分、全部或全部不维持指控。结果可能是不采取行动、警告、暂停、撤销和/或民事罚款。若ALJ仅处以民事罚款，为防止失去经营资格，您必须支付所有罚款和罚金。听证后不久，您将收到DMV的信函，需在法官裁决之日起30天内支付罚款或罚金。\n\n未能支付任何罚款或罚金或未执行停业处罚将导致您的营业执照无限期暂停，并可能对您的企业设定留置权。但若您支付罚款和/或罚金或完成停业期，完全合规后即可恢复经营。若被撤销资格，您必须交出所有物资并停止运营。\n\n您有权对任何不利决定提出上诉。若选择上诉，需在ALJ裁决之日起60天内提交《DMV听证决定上诉书》（PDF）[2]（AA-33A），并附上相应申请费。\n\n您的设施许可证、注册或认证使您能够在纽约州经营。针对您提出的投诉和指控可能导致您失去在此经营业务的资格。"
+        },
+        {
+          "chunk_id": "About complaints and charges for inspection stations and certified inspectors#3_0::c0000",
+          "text": "# 关于对检测站和认证检查员的投诉与收费\n\n如果您想对检测站或认证检查员提出投诉，请举报与DMV监管的汽车业务相关的问题 [1]。\n\n### 针对您或您的企业提出的投诉\n\n纽约州机动车管理局（DMV）监管纽约州所有修理厂、检测站、经销商、车辆拆解商及其他相关企业。要合法经营此类业务，您必须在DMV注册。申请获批后，您将收到DMV颁发的证书，同时也会收到一份与您业务类型相关的《专员条例》副本，其中会说明您对消费者的责任。您必须遵守所有消费者保护法律和法规。\n\nDMV建议所有对经销商、检测站、修理厂或拆解商有投诉的消费者，先尝试与业务经理解决问题。若未能解决，建议联系DMV消费者与设施服务投诉部门。\n\n- 保护您的业务：将所有工单副本存放在易于取用的位置\n\n### 投诉流程\n\n如果针对您的投诉已提交，DMV的消费者服务代表（CSR）将与您联系以尝试解决该投诉。CSR会说明投诉性质，并告知您的权利、责任及应承担的法律责任。若投诉未能通过CSR解决，案件将转交给汽车设施检查员（AFI）进行正式调查。\n\n- 及时回应所有DMV问询，以避免昂贵的罚款、处罚及失去宝贵客户\n\n### 调查流程\n\nAFI将进行正式调查。结果可能是不采取行动、将警告信（调查通知）存入您的档案，或由行政法法官（ALJ）主持正式行政听证。当车辆安全部门启动听证程序时，您可能会收到通过“听证弃权书”承认指控并支付特定罚款和/或接受停业处罚的机会。若接受弃权，则无需听证；若拒绝，则必须举行听证。\n\n听证结果可能是不采取行动、民事罚款，和/或暂停或撤销您在纽约州经营车辆相关业务的资格。您也可能有机会向消费者支付赔偿金以代替罚款和/或处罚，或获得减轻处罚。\n\n### 听证流程\n\n您有权聘请律师并带其出席听证。在此案中，DMV是申诉方，投诉人可能作为证人出庭。\n\n听证结束后，ALJ可能维持部分、全部或全部不维持指控。结果可能是不采取行动、警告、暂停、撤销和/或民事罚款。若ALJ仅处以民事罚款，为防止失去经营资格，您必须支付所有罚款和处罚。听证后不久，您将收到DMV的信函，需在法官裁决之日起30天内支付罚款或处罚。\n\n未能支付任何罚款或处罚或未执行停业处罚，将导致您的营业执照无限期暂停，并可能对您的企业进行留置权评估。但是，若您支付罚款和/或处罚或完成停业期，完全合规后即可恢复营业。若被撤销资格，您必须交出所有用品并停止运营。\n\n您有权对任何不利决定提出上诉。若选择上诉，需在ALJ裁决之日起60天内提交《DMV听证决定上诉书》（PDF）[2]（AA-33A），并附上相应的申请费。\n\n您的设施许可证、注册或认证使您能够在纽约州运营。针对您提出的投诉和指控可能导致您失去在此经营业务的资格。"
+        },
+        {
+          "chunk_id": "Report a problem with a DMV regulated automotive business#1_0::c0000",
+          "text": "# Report a problem with a DMV regulated automotive business\n\n# Report a problem with a DMV regulated automotive business [1]\n\n### What is a DMV regulated automotive business?\n\nThe DMV regulates all repair shops, inspection stations, dealers, junk and salvage vendors, and other automotive related businesses in New York State. 1\n\n### How do I place a complaint against a DMV regulated automotive business?\n\nFirst, attempt to resolve the issue with the management of the business. Keep a written record of all contacts with management in addition to details about the inspection, repair, or sale. Copies of work orders and invoices are proof of your attempts to resolve the problem. 2\n\nIf a satisfactory resolution is not reached and you wish to file a complaint, you must submit a Vehicle Safety Complaint Report (PDF) [2] (VS-35) along with any supporting documents to the DMV Consumer & Facilities Services Complaint Unit. To submit electronically, download the complaint report available at the link above to your personal device. Attach and then email the completed report as well as any supporting documents to [email protected] [3]. Please note that DMV staff will communicate with you through email.\n\nComplaint UnitBureau of Consumer & Facility ServicesDepartment of Motor VehiclesP.O. Box 2700-ESP, Albany, NY 12220-0700FAX: (518) 486-4102Phone: 1-518-474-8943 (between 8:30 a.m. and 4:15 p.m., Monday - Friday)Email: [email protected] [3]\n\nIMPORTANT: DMV staff will not investigate a complaint until a completed VS-35 Complaint Report has been received. The department does not investigate complaints that have been filed anonymously. There is a 90-day limit on reporting incidents related to a NYS Repair Shop. We cannot accept complaints against Repair Shops beyond the 90-day limit or 3,000 miles (whichever comes first). The DMV cannot resolve disputes over the terms of manufacturer or third party warranties or guarantees. If you feel you have a NYS Lemon Law complaint, please see Lemon Law Complaints [4].Once your complaint has been filed, a Consumer Services Representative (CSR) from DMV will be assigned to handle your complaint. If the CSR is unable to resolve your complaint, the case will be sent to an Automotive Facilities Inspector for a formal investigation and possibly a hearing. 3Depending on the complaint, this process could take several weeks to several months to resolve. 4\n\n- 1. Other related automotive businesses include vehicle dismantlers, salvage pools, mobile car crushers and itinerant vehicle collectors.\n- 2. We cannot take action against a facility unless we can find adequate evidence to substantiate the claim. Additionally, if the facility does not have a current registration, there are limitations on any fines and penalties that may be recovered.\n- 3. For additional information on the investigation and hearing process, please see our What to Expect if You File a Complaint Against a DMV Regulated Business [5].\n- 4. If you have questions regarding a complaint you placed or the complaint process in general, contact the DMV Complaint Unit at 1-518-474-8943. Office hours are Monday - Friday, 8:15am - 4:15pm.\n\n## Topic:\n\n- Contact Us [6]"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Let the Buyer be Aware#3_0::c0000",
+          "text": "[让买家警惕 > 从经销商处购买]\n在纽约州，每个汽车经销商都必须向机动车管理局（DMV）注册。注册经销商必须遵守某些州和联邦法律，以保护您购买新车、二手车、卡车或其他机动车（包括以“salvage”出售的车辆）的权益。新车还受制造商保修的保护。您可以使用“查找DMV监管企业”[1]服务搜索注册的汽车经销商。\n\n当您购买二手车时，经销商必须以书面形式证明，该车“在交付时，处于正常使用下，能够在公共高速公路上提供令人满意且足够的服务和维修状态”。经销商认证涵盖整个车辆，但销售前对客户显而易见的项目除外，如撕裂的内饰、缺失的轮毂罩等。车辆还必须具备州和联邦法律对该车型年份要求的所有安全设备和排放控制装置。\n\n#### 经销商还必须：\n\n- 在将车辆出售给零售客户之前进行检验，即使车辆是新的。检验必须在销售日期后30天内、您提车之前完成。经销商可向您收取检验费。\n- 如果经销商是该制造商的特许经销商，则根据制造商保修提供服务或维修。保修服务也可能由该制造商特许的其他经销商提供。\n- 在销售单上以书面形式注明出售给零售买家的车辆是新车、二手车、重建车、重建报废车，还是最初未按美国标准制造的车辆（参见Title Branding）。\n- 向买家提供完整的里程表和损坏披露声明：\n  - 对于10个车型年或更新的机动车，卖方必须填写所有权证书背面的里程表披露声明。对于超过10个车型年的车辆，不需要里程表披露。\n  - 无论车辆年龄如何，都必须填写所有权证书背面的损坏披露声明。\n\n注意：如果没有完整的报废披露声明，DMV将不会注册或授予报废车辆的所有权。此外，DMV必须检查每辆被卖方标记或标识为“Rebuilt Salvage”的车辆是否有被盗零件，然后才能注册或授予所有权。\n\n- 如果车辆为10个车型年或更新，则填写并签署里程表披露声明。此声明位于零售销售证书（MV-50）上。买家也必须确认并签署里程表声明。\n- 在销售合同中注明客车是否主要用作警车、出租车、驾驶教育或租赁车。\n\n如果正在记录留置权或经销商发放了车牌，经销商必须为您处理注册。经销商可为此服务向您收取最高$75的费用，外加车辆所有权证书（MV-999）、注册和车牌的实际费用。作为客户礼遇，注册经销商可将您填写的车辆注册/所有权申请（MV-82）提交给DMV。经销商还可提供临时注册证书，并在需要时提供新车牌。"
+        },
+        {
+          "chunk_id": "Know Your Rights in Auto Repair#3_0::c0001",
+          "text": "[了解您在汽车维修中的权利 > 如果您遇到维修问题]\n首先，尝试与企业管理层解决问题。保留与管理层所有联系的书面记录以及维修详情。工作订单和发票的副本是您尝试解决问题的证明。如果未能达成满意的解决方案，并且您希望提出投诉，您必须向DMV消费者与设施服务投诉部门提交车辆安全投诉报告（PDF）[1] [1](VS-35)以及任何支持文件。要以电子方式提交，请将上述链接中提供的投诉报告下载到您的个人设备。将填写完整的报告以及任何支持文件作为附件，然后通过电子邮件发送至[email protected] [2]。请注意，DMV工作人员将通过电子邮件与您沟通。\n\n投诉部门消费者与设施服务局机动车辆管理局邮政信箱2700-ESP，奥尔巴尼，纽约州12220-0700传真：(518) 486-4102电话：1-518-474-8943（周一至周五上午8:30至下午4:15）电子邮件：[email protected] [2]\n\n重要提示：DMV工作人员在收到填写完整的VS-35投诉报告之前，不会调查投诉。该部门不调查匿名提交的投诉。与纽约州修理厂相关的事件报告有90天的时限。我们无法接受超过90天时限或3,000英里（以先到者为准）的针对修理厂的投诉。DMV无法解决制造商或第三方保修或担保条款的争议。如果您认为自己有纽约州柠檬法投诉，请参阅柠檬法投诉[3]。"
+        },
+        {
+          "chunk_id": "About complaints and charges for repair and body shops#3_0::c0000",
+          "text": "# 关于对维修店和车身修理厂的投诉与收费\n\n如果您想对维修店或车身修理厂提出投诉，请向DMV监管的汽车业务报告问题。[1]\n\n### 针对您或您的企业提出的投诉\n\n纽约州机动车管理局（DMV）监管纽约州所有维修店、检测站、经销商、车辆拆解商及其他相关业务。要合法经营此类业务，您必须在DMV注册。申请获批后，您将收到DMV颁发的证书，同时还会收到与您业务类型相关的《专员条例》副本，其中会说明您对消费者的责任。您必须遵守所有消费者保护法律法规。\n\nDMV建议所有对经销商、检测站、维修店或拆解商有投诉的消费者先尝试与业务经理解决问题。若未能解决，建议联系DMV消费者与设施服务投诉部门。\n\n- 保护您的业务：将所有工单副本存放在易于查找的位置\n\n### 投诉流程\n\n如果针对您的投诉已提交，DMV的消费者服务代表（CSR）将与您联系以尝试解决该投诉。CSR会说明投诉性质，并告知您的权利、责任及赔偿责任。若投诉未能通过CSR解决，案件将转交汽车设施检查员（AFI）进行正式调查。\n\n- 及时回应所有DMV问询，以避免昂贵的罚款、罚金及失去宝贵客户\n\n### 调查流程\n\nAFI将进行正式调查。结果可能是不采取行动、将警告信（调查通知）存入您的档案，或由行政法法官（ALJ）主持正式行政听证。当车辆安全部门启动听证程序时，您可能有机会通过“听证豁免”承认指控，并支付特定金额的罚款和/或接受停业处罚。若接受豁免，则无需听证；若拒绝，则必须举行听证。\n\n听证结果可能是不采取行动、民事罚款，和/或暂停或撤销您在纽约州经营车辆相关业务的资格。您也可能有机会向消费者支付赔偿金以代替罚款和/或处罚，或减轻处罚。\n\n### 听证流程\n\n您有权聘请律师并带其出席听证。在此案中，DMV为申诉方，投诉人可能作为证人出庭。\n\n听证结束后，ALJ可能维持部分、全部或全部不维持指控。结果可能是不采取行动、警告、暂停、撤销和/或民事罚款。若ALJ仅处以民事罚款，为防止失去经营资格，您必须支付所有罚款和罚金。听证后不久，您将收到DMV的信函，需在法官裁决之日起30天内支付罚款或罚金。\n\n未能支付任何罚款或罚金或未执行停业处罚将导致您的营业执照无限期暂停，并可能对您的企业设定留置权。但若您支付罚款和/或罚金或完成停业期，完全合规后即可恢复经营。若被撤销资格，您必须交出所有物资并停止运营。\n\n您有权对任何不利决定提出上诉。若选择上诉，需在ALJ裁决之日起60天内提交《DMV听证决定上诉书》（PDF）[2]（AA-33A），并附上相应申请费。\n\n您的设施许可证、注册或认证使您能够在纽约州经营。针对您提出的投诉和指控可能导致您失去在此经营业务的资格。"
+        },
+        {
+          "chunk_id": "About complaints and charges for inspection stations and certified inspectors#3_0::c0000",
+          "text": "# 关于对检测站和认证检查员的投诉与收费\n\n如果您想对检测站或认证检查员提出投诉，请举报与DMV监管的汽车业务相关的问题 [1]。\n\n### 针对您或您的企业提出的投诉\n\n纽约州机动车管理局（DMV）监管纽约州所有修理厂、检测站、经销商、车辆拆解商及其他相关企业。要合法经营此类业务，您必须在DMV注册。申请获批后，您将收到DMV颁发的证书，同时也会收到一份与您业务类型相关的《专员条例》副本，其中会说明您对消费者的责任。您必须遵守所有消费者保护法律和法规。\n\nDMV建议所有对经销商、检测站、修理厂或拆解商有投诉的消费者，先尝试与业务经理解决问题。若未能解决，建议联系DMV消费者与设施服务投诉部门。\n\n- 保护您的业务：将所有工单副本存放在易于取用的位置\n\n### 投诉流程\n\n如果针对您的投诉已提交，DMV的消费者服务代表（CSR）将与您联系以尝试解决该投诉。CSR会说明投诉性质，并告知您的权利、责任及应承担的法律责任。若投诉未能通过CSR解决，案件将转交给汽车设施检查员（AFI）进行正式调查。\n\n- 及时回应所有DMV问询，以避免昂贵的罚款、处罚及失去宝贵客户\n\n### 调查流程\n\nAFI将进行正式调查。结果可能是不采取行动、将警告信（调查通知）存入您的档案，或由行政法法官（ALJ）主持正式行政听证。当车辆安全部门启动听证程序时，您可能会收到通过“听证弃权书”承认指控并支付特定罚款和/或接受停业处罚的机会。若接受弃权，则无需听证；若拒绝，则必须举行听证。\n\n听证结果可能是不采取行动、民事罚款，和/或暂停或撤销您在纽约州经营车辆相关业务的资格。您也可能有机会向消费者支付赔偿金以代替罚款和/或处罚，或获得减轻处罚。\n\n### 听证流程\n\n您有权聘请律师并带其出席听证。在此案中，DMV是申诉方，投诉人可能作为证人出庭。\n\n听证结束后，ALJ可能维持部分、全部或全部不维持指控。结果可能是不采取行动、警告、暂停、撤销和/或民事罚款。若ALJ仅处以民事罚款，为防止失去经营资格，您必须支付所有罚款和处罚。听证后不久，您将收到DMV的信函，需在法官裁决之日起30天内支付罚款或处罚。\n\n未能支付任何罚款或处罚或未执行停业处罚，将导致您的营业执照无限期暂停，并可能对您的企业进行留置权评估。但是，若您支付罚款和/或处罚或完成停业期，完全合规后即可恢复营业。若被撤销资格，您必须交出所有用品并停止运营。\n\n您有权对任何不利决定提出上诉。若选择上诉，需在ALJ裁决之日起60天内提交《DMV听证决定上诉书》（PDF）[2]（AA-33A），并附上相应的申请费。\n\n您的设施许可证、注册或认证使您能够在纽约州运营。针对您提出的投诉和指控可能导致您失去在此经营业务的资格。"
+        },
+        {
+          "chunk_id": "Report a problem with a DMV regulated automotive business#1_0::c0000",
+          "text": "# Report a problem with a DMV regulated automotive business\n\n# Report a problem with a DMV regulated automotive business [1]\n\n### What is a DMV regulated automotive business?\n\nThe DMV regulates all repair shops, inspection stations, dealers, junk and salvage vendors, and other automotive related businesses in New York State. 1\n\n### How do I place a complaint against a DMV regulated automotive business?\n\nFirst, attempt to resolve the issue with the management of the business. Keep a written record of all contacts with management in addition to details about the inspection, repair, or sale. Copies of work orders and invoices are proof of your attempts to resolve the problem. 2\n\nIf a satisfactory resolution is not reached and you wish to file a complaint, you must submit a Vehicle Safety Complaint Report (PDF) [2] (VS-35) along with any supporting documents to the DMV Consumer & Facilities Services Complaint Unit. To submit electronically, download the complaint report available at the link above to your personal device. Attach and then email the completed report as well as any supporting documents to [email protected] [3]. Please note that DMV staff will communicate with you through email.\n\nComplaint UnitBureau of Consumer & Facility ServicesDepartment of Motor VehiclesP.O. Box 2700-ESP, Albany, NY 12220-0700FAX: (518) 486-4102Phone: 1-518-474-8943 (between 8:30 a.m. and 4:15 p.m., Monday - Friday)Email: [email protected] [3]\n\nIMPORTANT: DMV staff will not investigate a complaint until a completed VS-35 Complaint Report has been received. The department does not investigate complaints that have been filed anonymously. There is a 90-day limit on reporting incidents related to a NYS Repair Shop. We cannot accept complaints against Repair Shops beyond the 90-day limit or 3,000 miles (whichever comes first). The DMV cannot resolve disputes over the terms of manufacturer or third party warranties or guarantees. If you feel you have a NYS Lemon Law complaint, please see Lemon Law Complaints [4].Once your complaint has been filed, a Consumer Services Representative (CSR) from DMV will be assigned to handle your complaint. If the CSR is unable to resolve your complaint, the case will be sent to an Automotive Facilities Inspector for a formal investigation and possibly a hearing. 3Depending on the complaint, this process could take several weeks to several months to resolve. 4\n\n- 1. Other related automotive businesses include vehicle dismantlers, salvage pools, mobile car crushers and itinerant vehicle collectors.\n- 2. We cannot take action against a facility unless we can find adequate evidence to substantiate the claim. Additionally, if the facility does not have a current registration, there are limitations on any fines and penalties that may be recovered.\n- 3. For additional information on the investigation and hearing process, please see our What to Expect if You File a Complaint Against a DMV Regulated Business [5].\n- 4. If you have questions regarding a complaint you placed or the complaint process in general, contact the DMV Complaint Unit at 1-518-474-8943. Office hours are Monday - Friday, 8:15am - 4:15pm.\n\n## Topic:\n\n- Contact Us [6]"
+        }
+      ],
+      "citations": [],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "我无法提供纽约州 DMV 各办公室的实时排队人数，因为我的知识库不包含实时数据。建议您访问 DMV 官网或拨打其电话查询实时信息。",
+          "citations": [],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "2b6f92b11a7f4a7cbbe34c64501602ec",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3359,
+              "completion_tokens": 61,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 61,
+                "prompt_tokens": 3359,
+                "total_tokens": 3420,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3103
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0049418000000000005,
+            "accounted_rmb": 0.0049418000000000005,
+            "usage_unknown": false,
+            "seconds": 1.4035489559173584,
+            "error": null,
+            "response": {
+              "id": "a77d8224-23e2-4c50-ba53-17f70461686a",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "75749475436971ec151fc38358456ef80c78187c3f98ba22d2ceb77876f9bdf5"
+      },
+      "latency_ms": {
+        "queue_wait": 0.012291944585740566,
+        "retrieval": 737.6640840666369,
+        "generation": 1407.1161249885336,
+        "total": 2145.6507919356227
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.07886983407661319,
+        "rerank_seconds": 0.6587463750038296,
+        "top1_dense_score": 0.6218850016593933,
+        "candidate_ids": [
+          "About New York State Inspections#3_0::c0018",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0009",
+          "About complaints and charges for inspection stations and certified inspectors#3_0::c0000",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0003",
+          "About complaints and charges for repair and body shops#3_0::c0000",
+          "Escrow accounts#3_0::c0011",
+          "Open a dealership#3_0::c0001",
+          "Let the Buyer be Aware#3_0::c0008",
+          "Know Your Rights in Auto Repair#3_0::c0001",
+          "About New York State Inspections#3_0::c0005",
+          "Pay driver civil penalty#1_0::c0010",
+          "Report a problem with a DMV regulated automotive business#1_0::c0000",
+          "How to get my own driving record (abstract)#1_0::c0000",
+          "About New York State Inspections#3_0::c0019",
+          "About New York State Inspections#3_0::c0001",
+          "Escrow accounts#3_0::c0009",
+          "Get my own CDL driving record (abstract)#1_0::c0000",
+          "Pay driver civil penalty#1_0::c0014",
+          "Registrations#3_0::c0000",
+          "Let the Buyer be Aware#3_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 33,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.7376428340794519
+      },
+      "raw_citations": [],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "13fc4595b1b828a4fb61928f6c51c89fd1c4687400928a84c5f36459d2cc9804"
+}

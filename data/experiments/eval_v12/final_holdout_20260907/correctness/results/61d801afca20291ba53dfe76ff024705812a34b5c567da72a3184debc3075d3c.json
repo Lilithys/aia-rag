@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "61d801afca20291ba53dfe76ff024705812a34b5c567da72a3184debc3075d3c",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "identify whether the offered aid is free money or a loan that must be repaid",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not mention distinguishing free money from loans."
+              },
+              {
+                "requirement": "decide what aid you actually need",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not instruct the user to decide how much aid they need."
+              },
+              {
+                "requirement": "respond to the school's aid offer by its deadline",
+                "coverage": "covered",
+                "response_quote": "You should respond to the school's aid offer within the deadline they set.",
+                "reason": "The response includes this condition."
+              }
+            ],
+            "reason": "The response omits two essential reference conditions: distinguishing free money from loans and deciding how much aid is needed. Although it covers the deadline and adds supported details about promissory notes and counseling, the incomplete answer is incorrect."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8febbcdf76a9489a82f6164581898433",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5790,
+                "completion_tokens": 235,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 235,
+                  "prompt_tokens": 5790,
+                  "total_tokens": 6025,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4894
+                }
+              },
+              "usage_cost_estimate_rmb": 0.008443299999999999,
+              "accounted_rmb": 0.008443299999999999,
+              "usage_unknown": false,
+              "seconds": 2.1311237812042236,
+              "error": null,
+              "response": {
+                "id": "4b34a2b7-40e6-41e4-90f4-7fcca46789c2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "9fa9c79412676f22ad824a0c9b065cb13c412fbde46cc5de4c1a01819723914b"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "identify whether the offered aid is free money or a loan that must be repaid",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not mention distinguishing free money from loans."
+          },
+          {
+            "requirement": "decide what aid you actually need",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not instruct the user to decide how much aid they need."
+          },
+          {
+            "requirement": "respond to the school's aid offer by its deadline",
+            "coverage": "covered",
+            "response_quote": "You should respond to the school's aid offer within the deadline they set.",
+            "reason": "The response includes this condition."
+          }
+        ],
+        "reason": "The response omits two essential reference conditions: distinguishing free money from loans and deciding how much aid is needed. Although it covers the deadline and adds supported details about promissory notes and counseling, the incomplete answer is incorrect."
+      }
+    }
+  },
+  "sha256": "b76d5a80972c87c23b1f79d24c34e5dd8fdf9c5c570aed26f25814f0eaea00a9"
+}

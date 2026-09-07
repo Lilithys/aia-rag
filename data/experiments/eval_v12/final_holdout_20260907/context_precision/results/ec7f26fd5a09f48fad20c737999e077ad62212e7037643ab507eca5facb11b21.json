@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "ec7f26fd5a09f48fad20c737999e077ad62212e7037643ab507eca5facb11b21",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.499999999975,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is too brief and does not provide the detailed information about replacing a non-driver ID that is present in the answer. The answer includes specific conditions and distinctions (e.g., lost/destroyed vs. expired) that are not mentioned in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "05a11399fdaf46d98bf76c9f453d6f27",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 947,
+                "completion_tokens": 68,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 68,
+                  "prompt_tokens": 947,
+                  "total_tokens": 1015,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 179
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006129,
+              "accounted_rmb": 0.0006129,
+              "usage_unknown": false,
+              "seconds": 1.2367498874664307,
+              "error": null,
+              "response": {
+                "id": "9d10fb9c-9ab0-47d2-8db6-19121671dfd4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "53c643d1de6e498af2c93ef3d402dbef5bccb73ec619ec96b437eab6b64feeb6"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about replacing a non-driver ID, including procedures, eligibility, and address changes, which directly supports the answer about replacement conditions.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "095f8f5a21af464eab4b6d6d6ddb3f2a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1558,
+                "completion_tokens": 46,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 46,
+                  "prompt_tokens": 1558,
+                  "total_tokens": 1604,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 790
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014304,
+              "accounted_rmb": 0.0014304,
+              "usage_unknown": false,
+              "seconds": 1.1014699935913086,
+              "error": null,
+              "response": {
+                "id": "1f6933a4-44eb-437b-a185-4ed78fc749fb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f7ab175485100419671ac424acdd0c2f5b342afc093388e4bc92dbeaa0eb1479"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides instructions for replacing a non-driver ID by mail, including required forms and payment, but does not mention conditions such as loss, destruction, address change, or expiration. The answer states specific conditions for replacement that are not covered in the context, so the context was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f3e3bc72b91445848d205709f43a5c0a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1331,
+                "completion_tokens": 79,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 79,
+                  "prompt_tokens": 1331,
+                  "total_tokens": 1410,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 563
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012384000000000002,
+              "accounted_rmb": 0.0012384000000000002,
+              "usage_unknown": false,
+              "seconds": 1.7303979396820068,
+              "error": null,
+              "response": {
+                "id": "616254b9-41f9-47dc-a3da-afcec5940964",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "023d87a5a6f6c01c3d53ee1b426a5206b7e95810fa4d2c6050412c05dda755a9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about replacing a non-driver ID, including conditions for replacement and the fact that expired IDs cannot be replaced, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a5cfd94281054b1c9cefc48b6a0207bd",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1031,
+                "completion_tokens": 48,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 48,
+                  "prompt_tokens": 1031,
+                  "total_tokens": 1079,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 135
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004633,
+              "accounted_rmb": 0.0004633,
+              "usage_unknown": false,
+              "seconds": 1.3426940441131592,
+              "error": null,
+              "response": {
+                "id": "9f87607f-55b9-4974-880c-bbd91fc36253",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c8aaa2bfa32a891bfe4431ff0492a36b7a545b9e7cff21ddaacea90ce9e68a01"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context only mentions a PDF file related to replacing a non-driver ID, but does not provide the specific information about replacement conditions mentioned in the answer. Therefore, the context was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "58476214ab0d487abae862944f3b2841",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 960,
+                "completion_tokens": 59,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 59,
+                  "prompt_tokens": 960,
+                  "total_tokens": 1019,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 64
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004063,
+              "accounted_rmb": 0.0004063,
+              "usage_unknown": false,
+              "seconds": 1.6062467098236084,
+              "error": null,
+              "response": {
+                "id": "0aa5f4a3-df6d-41ed-891e-0042d0109668",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e0b7fa7be7fd6551d7fb521737a6b839b4ff6444c2f6f753a0817b85348d935c"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "825cb13e5e3c275f4dfbe7d269f69a0bdec7f81dea724ce1af83891b20d6463b"
+}

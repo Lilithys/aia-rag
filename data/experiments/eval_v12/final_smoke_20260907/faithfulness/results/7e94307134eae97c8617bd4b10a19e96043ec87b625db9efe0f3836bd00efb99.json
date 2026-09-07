@@ -1,0 +1,174 @@
+{
+  "payload": {
+    "task_id": "7e94307134eae97c8617bd4b10a19e96043ec87b625db9efe0f3836bd00efb99",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If your spouse dies, you may be eligible for survivor benefits based on their work record.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Explore The Benefits You May Be Due#2_0::c0000"
+                ],
+                "reason": "The context states that if your spouse dies, you may be eligible for higher survivor benefits based on their work record."
+              },
+              {
+                "text": "Generally, you can receive survivor benefits as a widow/widower if you are at least age 60 (age 50 if disabled), or at any age if you are caring for their child who is under 16 or disabled.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The contexts do not specify age requirements for survivor benefits; they only mention that you may be eligible if your spouse dies. The specific age thresholds are not present."
+              },
+              {
+                "text": "If you remarry before age 60 (age 50 if disabled), you cannot receive benefits as a surviving spouse while married; remarriage after that age does not disqualify you.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+                ],
+                "reason": "The context explicitly states that remarriage before age 60 (50 if disabled) disqualifies you while married, and remarriage after that age does not disqualify you."
+              },
+              {
+                "text": "Benefits may be reduced if you start early, and there are earnings limits if you work.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+                ],
+                "reason": "The context mentions limits on earnings for survivors and that benefits may be affected by early retirement, though the exact reduction details are not specified."
+              },
+              {
+                "text": "If you also qualify for your own retirement benefit, you can switch to the higher amount at full retirement age.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+                ],
+                "reason": "The context states that a widow/widower can switch to their own retirement benefit if it is higher, and can switch at full retirement age."
+              },
+              {
+                "text": "For exact eligibility and amounts, contact Social Security at 1-800-772-1213 or visit your local office.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Explore The Benefits You May Be Due#2_0::c0000",
+                  "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0000"
+                ],
+                "reason": "The contexts provide the phone number 1-800-772-1213 and mention visiting a local Social Security office for assistance."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f2f700b359204d2fb459102e79b95a27",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4949,
+                "completion_tokens": 708,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 708,
+                  "prompt_tokens": 4949,
+                  "total_tokens": 5657,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 4181
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0094959,
+              "accounted_rmb": 0.0094959,
+              "usage_unknown": false,
+              "seconds": 4.975672006607056,
+              "error": null,
+              "response": {
+                "id": "a4e13279-b40f-4c72-bb8e-37d5a5ad8b25",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "085252cc82210757522fd9e46a6a480e2470a0f5a66c60493ca18a80092d21e7"
+        }
+      ],
+      "score": 0.8333333333333334,
+      "external_claims": 6,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If your spouse dies, you may be eligible for survivor benefits based on their work record.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ],
+          "reason": "The context states that if your spouse dies, you may be eligible for higher survivor benefits based on their work record."
+        },
+        {
+          "text": "Generally, you can receive survivor benefits as a widow/widower if you are at least age 60 (age 50 if disabled), or at any age if you are caring for their child who is under 16 or disabled.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The contexts do not specify age requirements for survivor benefits; they only mention that you may be eligible if your spouse dies. The specific age thresholds are not present."
+        },
+        {
+          "text": "If you remarry before age 60 (age 50 if disabled), you cannot receive benefits as a surviving spouse while married; remarriage after that age does not disqualify you.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ],
+          "reason": "The context explicitly states that remarriage before age 60 (50 if disabled) disqualifies you while married, and remarriage after that age does not disqualify you."
+        },
+        {
+          "text": "Benefits may be reduced if you start early, and there are earnings limits if you work.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ],
+          "reason": "The context mentions limits on earnings for survivors and that benefits may be affected by early retirement, though the exact reduction details are not specified."
+        },
+        {
+          "text": "If you also qualify for your own retirement benefit, you can switch to the higher amount at full retirement age.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ],
+          "reason": "The context states that a widow/widower can switch to their own retirement benefit if it is higher, and can switch at full retirement age."
+        },
+        {
+          "text": "For exact eligibility and amounts, contact Social Security at 1-800-772-1213 or visit your local office.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0000"
+          ],
+          "reason": "The contexts provide the phone number 1-800-772-1213 and mention visiting a local Social Security office for assistance."
+        }
+      ]
+    }
+  },
+  "sha256": "eea45a2216fa3e29f2f3b0674a4b98bfe6065aa72740350ca2738f00f0a55d45"
+}

@@ -1,0 +1,1204 @@
+{
+  "binding_sha256": "414c9dca89c33d6d7fd5c0f279d45c652c51bba3ba8f07b48d9710bb433b725d",
+  "cases": [
+    {
+      "case_id": "baseline_dense_k10:20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+      "kind": "clarification question without every reference subquestion",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "failed",
+        "calls": [
+          {
+            "status": "failed",
+            "parsed": null,
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "c26d4a779bb742429bceffa8300d73ba",
+                "outcome": "failed",
+                "usage": {
+                  "prompt_tokens": 4934,
+                  "completion_tokens": 223,
+                  "cached_tokens": 384,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 223,
+                    "prompt_tokens": 4934,
+                    "total_tokens": 5157,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 384,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 384,
+                    "prompt_cache_miss_tokens": 4550
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.007847699999999999,
+                "accounted_rmb": 0.007847699999999999,
+                "usage_unknown": false,
+                "seconds": 2.8795719146728516,
+                "error": {
+                  "type": "ValueError",
+                  "http_status": null
+                },
+                "response": {
+                  "id": "75f371a0-cdfc-4043-a685-3a2a4113af40",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              },
+              {
+                "event": "settle",
+                "attempt_id": "93c81e2cd5764e90a32f459ee0dffcc5",
+                "outcome": "failed",
+                "usage": {
+                  "prompt_tokens": 4934,
+                  "completion_tokens": 261,
+                  "cached_tokens": 4864,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 261,
+                    "prompt_tokens": 4934,
+                    "total_tokens": 5195,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 4864,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 4864,
+                    "prompt_cache_miss_tokens": 70
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0015227,
+                "accounted_rmb": 0.0015227,
+                "usage_unknown": false,
+                "seconds": 2.3522651195526123,
+                "error": {
+                  "type": "ValueError",
+                  "http_status": null
+                },
+                "response": {
+                  "id": "1943752e-4a9c-48a1-a950-1d0c735f3f27",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "f46528e04222107d844ead6aa21e8a988bfd092e2371b72386b5a43bd50f6f75"
+          }
+        ],
+        "score": null
+      },
+      "matches_diagnostic_expectation": false
+    },
+    {
+      "case_id": "rerank_windowed_k5:20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+      "kind": "supported overview followed by material clarification",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Ask whether the user already holds a NY CDL or permit and what CDL task they need help with",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response provides general CDL information but does not ask the clarifying question about the user's current CDL status or specific task."
+                }
+              ],
+              "reason": "The response gives general information without clarifying the user's specific situation, which is required for a tailored answer."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "7b48d64e1f6d49bc9330bdf67476131b",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 4133,
+                  "completion_tokens": 140,
+                  "cached_tokens": 384,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 140,
+                    "prompt_tokens": 4133,
+                    "total_tokens": 4273,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 384,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 384,
+                    "prompt_cache_miss_tokens": 3749
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0062727,
+                "accounted_rmb": 0.0062727,
+                "usage_unknown": false,
+                "seconds": 1.7264869213104248,
+                "error": null,
+                "response": {
+                  "id": "c9ba3e72-58ca-4895-ab82-e29e9d900d6a",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "9baf455ae2b0541cbc16d47bb83ff14a612cb71a98e1f3e4da935b3b217f28c9"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Ask whether the user already holds a NY CDL or permit and what CDL task they need help with",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides general CDL information but does not ask the clarifying question about the user's current CDL status or specific task."
+            }
+          ],
+          "reason": "The response gives general information without clarifying the user's specific situation, which is required for a tailored answer."
+        }
+      },
+      "matches_diagnostic_expectation": false
+    },
+    {
+      "case_id": "rerank_windowed_k5:68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+      "kind": "supported conditional guidance for both relevant branches",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Ask whether the user is a surviving spouse or child, or provide conditional guidance for both branches",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response assumes the user is a surviving spouse and provides only spouse eligibility details, without asking the user's status or covering the child branch."
+                },
+                {
+                  "requirement": "If covering child eligibility, include age, school status, or disability status conditions",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response does not ask for or conditionally cover the child's age, school status, or disability status."
+                }
+              ],
+              "reason": "The response directly answers for a surviving spouse without clarifying the user's relationship, failing to address the material missing condition for a tailored answer."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "c985e9bb76974ecc9915308ce8c5c0c9",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 4018,
+                  "completion_tokens": 206,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 206,
+                    "prompt_tokens": 4018,
+                    "total_tokens": 4224,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 3122
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0056548,
+                "accounted_rmb": 0.0056548,
+                "usage_unknown": false,
+                "seconds": 2.2010889053344727,
+                "error": null,
+                "response": {
+                  "id": "54b25244-1ff7-4daf-831f-c51514b1cb2b",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "6869192c0f823091c2ef8bd19707932669e75aa4bf8e68dd8862a4543e19dc36"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Ask whether the user is a surviving spouse or child, or provide conditional guidance for both branches",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response assumes the user is a surviving spouse and provides only spouse eligibility details, without asking the user's status or covering the child branch."
+            },
+            {
+              "requirement": "If covering child eligibility, include age, school status, or disability status conditions",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response does not ask for or conditionally cover the child's age, school status, or disability status."
+            }
+          ],
+          "reason": "The response directly answers for a surviving spouse without clarifying the user's relationship, failing to address the material missing condition for a tailored answer."
+        }
+      },
+      "matches_diagnostic_expectation": false
+    },
+    {
+      "case_id": "baseline_dense_k10:fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "kind": "eligibility conditions presented as questions",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Ask the material missing condition needed for a tailored answer, i.e., whether the user completed initial entry training and served 15 months in a designated MOS.",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response lists the eligibility questions but does not ask the user to confirm their status; it assumes the user needs to answer them rather than eliciting the missing condition."
+                },
+                {
+                  "requirement": "Provide supported conditional guidance covering relevant branches if not asking the question.",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response provides general eligibility criteria and benefits but does not tailor guidance to the user's actual status or cover branches conditionally."
+                }
+              ],
+              "reason": "The response answers with general eligibility criteria instead of asking the essential clarifying question about the user's completion of initial entry training and 15-month service, failing the clarify task."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "86d1933533d043bca66b5b490c90ccd0",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 5164,
+                  "completion_tokens": 230,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 230,
+                    "prompt_tokens": 5164,
+                    "total_tokens": 5394,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 4268
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0074818,
+                "accounted_rmb": 0.0074818,
+                "usage_unknown": false,
+                "seconds": 2.3864550590515137,
+                "error": null,
+                "response": {
+                  "id": "8f1d1fab-55fd-4f1a-bcc9-d8902d6dec8e",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "a8d0cd860059eda356d391caa936b93fc45465947a2e41b9f7d1ffc41bc7e2fb"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Ask the material missing condition needed for a tailored answer, i.e., whether the user completed initial entry training and served 15 months in a designated MOS.",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response lists the eligibility questions but does not ask the user to confirm their status; it assumes the user needs to answer them rather than eliciting the missing condition."
+            },
+            {
+              "requirement": "Provide supported conditional guidance covering relevant branches if not asking the question.",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides general eligibility criteria and benefits but does not tailor guidance to the user's actual status or cover branches conditionally."
+            }
+          ],
+          "reason": "The response answers with general eligibility criteria instead of asking the essential clarifying question about the user's completion of initial entry training and 15-month service, failing the clarify task."
+        }
+      },
+      "matches_diagnostic_expectation": false
+    },
+    {
+      "case_id": "rerank_windowed_k5:fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "kind": "complete supported conditional eligibility guidance",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "ask about the material missing condition of whether the user completed initial entry training and 15 months of active duty in a designated MOS",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response provides eligibility requirements but does not ask the user about their completion of initial entry training and 15-month active duty service, which is the essential missing condition for a tailored answer."
+                }
+              ],
+              "reason": "The response answers with general eligibility criteria instead of clarifying the user's specific status regarding the initial training and 15-month service requirement, failing the clarify task."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "6003f91e4088472fb09de64993b2ff30",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 4213,
+                  "completion_tokens": 165,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 165,
+                    "prompt_tokens": 4213,
+                    "total_tokens": 4378,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 3317
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0057628,
+                "accounted_rmb": 0.0057628,
+                "usage_unknown": false,
+                "seconds": 2.3151259422302246,
+                "error": null,
+                "response": {
+                  "id": "5d329d6d-d4d8-4701-ba72-76fde0edf67e",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "ea2d946f03da3f4bbf8e4994295d57224e1603ed678578847fd28e8c392c334a"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "ask about the material missing condition of whether the user completed initial entry training and 15 months of active duty in a designated MOS",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides eligibility requirements but does not ask the user about their completion of initial entry training and 15-month active duty service, which is the essential missing condition for a tailored answer."
+            }
+          ],
+          "reason": "The response answers with general eligibility criteria instead of clarifying the user's specific status regarding the initial training and 15-month service requirement, failing the clarify task."
+        }
+      },
+      "matches_diagnostic_expectation": false
+    },
+    {
+      "case_id": "rerank_windowed_k5:58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "kind": "unresolved ambiguous referent",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Ask the user to identify what 'neither of those' refers to before giving a personalized next step.",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response provides generic FAFSA application steps without clarifying the ambiguous referent."
+                }
+              ],
+              "reason": "The response fails to clarify the ambiguous 'neither of those' and instead gives generic aid advice, violating the clarify task requirement."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "7a23cc59330c420087775783bd9c78a7",
+                "outcome": "failed",
+                "usage": {
+                  "prompt_tokens": 3615,
+                  "completion_tokens": 260,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 260,
+                    "prompt_tokens": 3615,
+                    "total_tokens": 3875,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 2719
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0052933,
+                "accounted_rmb": 0.0052933,
+                "usage_unknown": false,
+                "seconds": 2.117079734802246,
+                "error": {
+                  "type": "ValueError",
+                  "http_status": null
+                },
+                "response": {
+                  "id": "141e4cbc-6661-4227-91d7-7768705ab42c",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              },
+              {
+                "event": "settle",
+                "attempt_id": "c4ccdce0affa46baa935701158ecc988",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 3615,
+                  "completion_tokens": 134,
+                  "cached_tokens": 3584,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 134,
+                    "prompt_tokens": 3615,
+                    "total_tokens": 3749,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 3584,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 3584,
+                    "prompt_cache_miss_tokens": 31
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0008287,
+                "accounted_rmb": 0.0008287,
+                "usage_unknown": false,
+                "seconds": 1.8763980865478516,
+                "error": null,
+                "response": {
+                  "id": "977ab3fd-6a4e-466d-8701-f98475ca2c4b",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "9cab93d5b7dfd53081de0b8837fc7514255105b7b5408ff8fea2ac826c74ebe2"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Ask the user to identify what 'neither of those' refers to before giving a personalized next step.",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides generic FAFSA application steps without clarifying the ambiguous referent."
+            }
+          ],
+          "reason": "The response fails to clarify the ambiguous 'neither of those' and instead gives generic aid advice, violating the clarify task requirement."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "rerank_windowed_k5:6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "kind": "answer omits explicit good-cause condition",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Rescheduling requires a written request with good cause at least two weeks before the hearing, including name, VA file number, and reason for new date.",
+                  "coverage": "contradicted",
+                  "response_quote": "you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date",
+                  "reason": "The response omits the requirement of good cause for rescheduling and instead provides docket-order details, failing to state the essential condition."
+                },
+                {
+                  "requirement": "Withdrawal request must be sent at least 2 weeks before hearing with name, VA file number, and reason.",
+                  "coverage": "covered",
+                  "response_quote": "send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal",
+                  "reason": "The response correctly includes the withdrawal requirements."
+                },
+                {
+                  "requirement": "After withdrawing, you can still submit new evidence within 90 days.",
+                  "coverage": "covered",
+                  "response_quote": "You can still submit new evidence within 90 days after withdrawing your hearing request",
+                  "reason": "The response correctly states the 90-day evidence submission option."
+                }
+              ],
+              "reason": "The response fails to mention that rescheduling requires good cause, a material condition in the reference, and instead provides unsupported docket-order details. Thus it is incomplete and incorrect."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "c21f5f124a6d4fc8a74ce152249b6047",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 4551,
+                  "completion_tokens": 348,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 348,
+                    "prompt_tokens": 4551,
+                    "total_tokens": 4899,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 3655
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0070933,
+                "accounted_rmb": 0.0070933,
+                "usage_unknown": false,
+                "seconds": 2.725947856903076,
+                "error": null,
+                "response": {
+                  "id": "2831faa5-22bc-47b9-9079-ad34461cf8ab",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "d01cd4b58949a6b53c19286b810538854f267a0de1b82913abccf5bfc9936d57"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Rescheduling requires a written request with good cause at least two weeks before the hearing, including name, VA file number, and reason for new date.",
+              "coverage": "contradicted",
+              "response_quote": "you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date",
+              "reason": "The response omits the requirement of good cause for rescheduling and instead provides docket-order details, failing to state the essential condition."
+            },
+            {
+              "requirement": "Withdrawal request must be sent at least 2 weeks before hearing with name, VA file number, and reason.",
+              "coverage": "covered",
+              "response_quote": "send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal",
+              "reason": "The response correctly includes the withdrawal requirements."
+            },
+            {
+              "requirement": "After withdrawing, you can still submit new evidence within 90 days.",
+              "coverage": "covered",
+              "response_quote": "You can still submit new evidence within 90 days after withdrawing your hearing request",
+              "reason": "The response correctly states the 90-day evidence submission option."
+            }
+          ],
+          "reason": "The response fails to mention that rescheduling requires good cause, a material condition in the reference, and instead provides unsupported docket-order details. Thus it is incomplete and incorrect."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "rerank_windowed_k5:5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "kind": "advice omits reference flight/passport condition",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Mention that a Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response explains replacement procedures but omits the essential fact about Standard ID flight restrictions."
+                }
+              ],
+              "reason": "The response fails to include the required information about Standard ID not being accepted for domestic flights from October 2020 without a passport."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "059a9bd0008d4058bb4ea82354a620c1",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 2403,
+                  "completion_tokens": 137,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 137,
+                    "prompt_tokens": 2403,
+                    "total_tokens": 2540,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 1507
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0029218,
+                "accounted_rmb": 0.0029218,
+                "usage_unknown": false,
+                "seconds": 2.0829832553863525,
+                "error": null,
+                "response": {
+                  "id": "a3fcaf84-0df2-486e-9693-a6069d8c8d5a",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "249cf5734444c7e5e646d5f6e7022ec899e8e65b95aa192fef9b753e53ebc33a"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Mention that a Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response explains replacement procedures but omits the essential fact about Standard ID flight restrictions."
+            }
+          ],
+          "reason": "The response fails to include the required information about Standard ID not being accepted for domestic flights from October 2020 without a passport."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "rerank_windowed_k5:d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "kind": "complete condition response",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "failed",
+        "calls": [
+          {
+            "status": "failed",
+            "parsed": null,
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "6bf39928315d4c6792291b07ef4820a1",
+                "outcome": "failed",
+                "usage": {
+                  "prompt_tokens": 3994,
+                  "completion_tokens": 275,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 275,
+                    "prompt_tokens": 3994,
+                    "total_tokens": 4269,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 3098
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0059293,
+                "accounted_rmb": 0.0059293,
+                "usage_unknown": false,
+                "seconds": 2.3189449310302734,
+                "error": {
+                  "type": "ValueError",
+                  "http_status": null
+                },
+                "response": {
+                  "id": "44de7df9-5244-4b3f-954d-78d9aa1a73a8",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              },
+              {
+                "event": "settle",
+                "attempt_id": "97a7b896e3cc42b08d7ba7796965f1c9",
+                "outcome": "failed",
+                "usage": {
+                  "prompt_tokens": 3994,
+                  "completion_tokens": 245,
+                  "cached_tokens": 3968,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 245,
+                    "prompt_tokens": 3994,
+                    "total_tokens": 4239,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 3968,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 3968,
+                    "prompt_cache_miss_tokens": 26
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0013399,
+                "accounted_rmb": 0.0013399,
+                "usage_unknown": false,
+                "seconds": 2.057887077331543,
+                "error": {
+                  "type": "ValueError",
+                  "http_status": null
+                },
+                "response": {
+                  "id": "5b3ca0f1-8c4b-41b2-8931-0569cf578cde",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "e61b34b8b50ccfef9b3376b246a28e3c331a5ae29263856f887aa3cfd32aa71b"
+          }
+        ],
+        "score": null
+      },
+      "matches_diagnostic_expectation": false
+    },
+    {
+      "case_id": "rerank_windowed_k5:2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "kind": "complete directly requested loan guidance",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "建议制定预算以确保只借所需金额",
+                  "coverage": "covered",
+                  "response_quote": "只借你需要的金额，并制定预算以确保这一点",
+                  "reason": "响应明确包含制定预算和只借所需金额的建议，与参考一致"
+                }
+              ],
+              "reason": "响应直接回答了贷款建议，包含制定预算只借所需金额的核心要求，且所有额外声明均有引用支持，无错误或遗漏。"
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "1c2a87a24bae4d0e9b7eb93f010e0519",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 3674,
+                  "completion_tokens": 136,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 136,
+                    "prompt_tokens": 3674,
+                    "total_tokens": 3810,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 2778
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0048238000000000005,
+                "accounted_rmb": 0.0048238000000000005,
+                "usage_unknown": false,
+                "seconds": 1.8450369834899902,
+                "error": null,
+                "response": {
+                  "id": "f0ab5abf-c2ff-4f1e-a5c4-b24d99c960cd",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "53e4916252ce8578a25ac6d82251b2174e54d53ee167e112dc47c4c19024961f"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "建议制定预算以确保只借所需金额",
+              "coverage": "covered",
+              "response_quote": "只借你需要的金额，并制定预算以确保这一点",
+              "reason": "响应明确包含制定预算和只借所需金额的建议，与参考一致"
+            }
+          ],
+          "reason": "响应直接回答了贷款建议，包含制定预算只借所需金额的核心要求，且所有额外声明均有引用支持，无错误或遗漏。"
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "6c1a20:reference-positive",
+      "kind": "constructed source-grounded positive control",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Provide the procedure to reschedule a Board hearing, including the two-week written request requirement, good cause, and required information.",
+                  "coverage": "covered",
+                  "response_quote": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+                  "reason": "The response directly answers the user's question about rescheduling, accurately stating the two-week written request requirement, good cause, and required details."
+                }
+              ],
+              "reason": "The response fully addresses the user's request with accurate, supported information from the retrieved context, with no unsupported claims."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "3c33c73dac9b4384a44034e823074181",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 1819,
+                  "completion_tokens": 190,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 190,
+                    "prompt_tokens": 1819,
+                    "total_tokens": 2009,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 923
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0022843000000000004,
+                "accounted_rmb": 0.0022843000000000004,
+                "usage_unknown": false,
+                "seconds": 2.551752805709839,
+                "error": null,
+                "response": {
+                  "id": "9b278290-07b0-4494-8387-31b2364c48ac",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "3e6961b0b24aa3d035df87004996860b3de82dda19f657762383cc0ab798001b"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Provide the procedure to reschedule a Board hearing, including the two-week written request requirement, good cause, and required information.",
+              "coverage": "covered",
+              "response_quote": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+              "reason": "The response directly answers the user's question about rescheduling, accurately stating the two-week written request requirement, good cause, and required details."
+            }
+          ],
+          "reason": "The response fully addresses the user's request with accurate, supported information from the retrieved context, with no unsupported claims."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "573923:reference-positive",
+      "kind": "constructed source-grounded positive control",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "resolution_mode": "direct_answer",
+              "task_resolution_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Standard ID not accepted for domestic flights from October 2020",
+                  "coverage": "covered",
+                  "response_quote": "a Standard ID would not be accepted for boarding a domestic flight starting in October 2020",
+                  "reason": "Directly states the restriction with correct date."
+                },
+                {
+                  "requirement": "Passport can be used instead",
+                  "coverage": "covered",
+                  "response_quote": "a passport could be used instead",
+                  "reason": "Provides the alternative option."
+                }
+              ],
+              "reason": "The response accurately answers the user's question about Standard ID, matching the reference and supported by the retrieved context."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "be45d3f06850410c9cc2dccea41aedb3",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 1310,
+                  "completion_tokens": 176,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 176,
+                    "prompt_tokens": 1310,
+                    "total_tokens": 1486,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 414
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0014578,
+                "accounted_rmb": 0.0014578,
+                "usage_unknown": false,
+                "seconds": 1.5952858924865723,
+                "error": null,
+                "response": {
+                  "id": "b8e9801f-85fd-4fa3-98d1-37d0af6b5b53",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "c96431a7acd46acc30458fdd57fb1ff5e3c7020b82770e6c59e47ff23204625a"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "resolution_mode": "direct_answer",
+          "task_resolution_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Standard ID not accepted for domestic flights from October 2020",
+              "coverage": "covered",
+              "response_quote": "a Standard ID would not be accepted for boarding a domestic flight starting in October 2020",
+              "reason": "Directly states the restriction with correct date."
+            },
+            {
+              "requirement": "Passport can be used instead",
+              "coverage": "covered",
+              "response_quote": "a passport could be used instead",
+              "reason": "Provides the alternative option."
+            }
+          ],
+          "reason": "The response accurately answers the user's question about Standard ID, matching the reference and supported by the retrieved context."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    }
+  ],
+  "cumulative_shared_diagnostic_api_attempts": 41,
+  "cumulative_shared_accounted_rmb": 0.2515773,
+  "all_expected_probe_outcomes": false,
+  "independent_human_calibration_complete": false
+}

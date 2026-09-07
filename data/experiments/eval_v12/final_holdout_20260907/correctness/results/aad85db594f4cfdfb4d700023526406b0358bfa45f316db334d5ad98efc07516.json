@@ -1,0 +1,74 @@
+{
+  "payload": {
+    "task_id": "aad85db594f4cfdfb4d700023526406b0358bfa45f316db334d5ad98efc07516",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "refuse",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [],
+            "reason": "The response correctly refuses because the knowledge base lacks live weather forecasts, matching the reference."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "44caf6c475444c5598b1a858615560a4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1051,
+                "completion_tokens": 55,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1051,
+                  "total_tokens": 1106,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 155
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005248,
+              "accounted_rmb": 0.0005248,
+              "usage_unknown": false,
+              "seconds": 1.1606850624084473,
+              "error": null,
+              "response": {
+                "id": "3aaaa91a-63f0-480b-b128-54cb36d6119b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "bb2d468423cc0c91097b1ca400c6891c806085ef6b937c1f4ac2829b023aabce"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "refuse",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [],
+        "reason": "The response correctly refuses because the knowledge base lacks live weather forecasts, matching the reference."
+      }
+    }
+  },
+  "sha256": "6b63e4a0fa44d0ee5b18bacbdb83812ef481b38062ecc0919d45e248d776ccbd"
+}

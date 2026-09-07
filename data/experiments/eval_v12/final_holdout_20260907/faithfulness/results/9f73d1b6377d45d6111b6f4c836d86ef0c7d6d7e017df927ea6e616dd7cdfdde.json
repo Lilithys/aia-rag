@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "9f73d1b6377d45d6111b6f4c836d86ef0c7d6d7e017df927ea6e616dd7cdfdde",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "根据信息，如果您的非驾驶员身份证丢失、损毁或地址变更，可以申请更换。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0001"
+                ],
+                "reason": "The context states that if the ID is lost, damaged, or address updated, it can be replaced."
+              },
+              {
+                "text": "但如果证件已过期，则无法更换，您必须续期或申请新证。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0001"
+                ],
+                "reason": "The context explicitly says expired IDs cannot be replaced and must be renewed or new application."
+              },
+              {
+                "text": "另外，如果您即将年满21岁，建议在生日后40天内下单，以获得不带“UNDER 21”标识的身份证。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0005"
+                ],
+                "reason": "The context says to order within 40 days after birthday to get ID without UNDER 21 marking."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "9a308e07a8784dd9bbd09607350db0f1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1652,
+                "completion_tokens": 299,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 299,
+                  "prompt_tokens": 1652,
+                  "total_tokens": 1951,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1268
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0032667,
+              "accounted_rmb": 0.0032667,
+              "usage_unknown": false,
+              "seconds": 2.027435064315796,
+              "error": null,
+              "response": {
+                "id": "09c2bb9e-2482-4c8a-b878-8e0fee320c09",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a786a021254cace59e49af9c18e592adbcd715c431d534f0dbd6de9075e27553"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "根据信息，如果您的非驾驶员身份证丢失、损毁或地址变更，可以申请更换。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0001"
+          ],
+          "reason": "The context states that if the ID is lost, damaged, or address updated, it can be replaced."
+        },
+        {
+          "text": "但如果证件已过期，则无法更换，您必须续期或申请新证。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0001"
+          ],
+          "reason": "The context explicitly says expired IDs cannot be replaced and must be renewed or new application."
+        },
+        {
+          "text": "另外，如果您即将年满21岁，建议在生日后40天内下单，以获得不带“UNDER 21”标识的身份证。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "reason": "The context says to order within 40 days after birthday to get ID without UNDER 21 marking."
+        }
+      ]
+    }
+  },
+  "sha256": "a95e4537dd83079df682bd898b204cce34aed6730144a455407ebb7b4e297e62"
+}

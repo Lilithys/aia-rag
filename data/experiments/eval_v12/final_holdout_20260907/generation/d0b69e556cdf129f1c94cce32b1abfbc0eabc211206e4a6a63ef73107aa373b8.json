@@ -1,0 +1,183 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "8b5f6b901d16a0c80416daa1b1742832::agent-turn-9",
+    "item_sha256": "8b983163b4d958668cff598053873c6f263cda3b1720a8bd211b548ae8124644",
+    "result": {
+      "request_id": "522e4c1d8d8a45a8b73e0a1635183ab2",
+      "session_id": "8b5f6b901d16a0c80416daa1b1742832",
+      "turn_id": 8,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您的申请因非医疗原因被拒绝，您应联系当地社会保障办公室或拨打免费电话1-800-772-1213（聋人或听力障碍者可拨打TTY 1-800-325-0778）请求复议。",
+        "citations": [
+          "Benefits for People with Disabilities#1_0::c0000",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Benefits for People with Disabilities#1_0::c0000",
+          "text": "# Benefits for People with Disabilities\n\nDisability Home\n\nApply for Benefits\n\nHow to Apply\n\nDisability Starter Kits\n\nBenefits Planner\n\nForms\n\nPublications\n\nNon-English Languages\n\nGetting Benefits Now?\n\nDirect Deposit\n\nTicket to Work/Work Incentives\n\nRepresentative Payment Program\n\nReporting Your Income\n\nHealth Insurance\n\nMedicare/Medicaid Services\n\nInsure Kids Now\n\nProgram Information\n\nSocial Security Handbook\n\nPolicy/Research\n\nProgram/Actuarial Data\n\nLaws & Legislation\n\nHearings & Appeals\n\nSSA Advisory Board\n\nFacts and Figures\n\nFrequently Asked Questions\n\nThe Social Security and Supplemental Security Income disability programs are the largest of several Federal programs that provide assistance to people with disabilities. While these two programs are different in many ways, both are administered by the Social Security Administration and only individuals who have a disability and meet medical criteria may qualify for benefits under either program.\n\nSocial Security Disability Insurance pays benefits to you and certain members of your family if you are \"insured,\" meaning that you worked long enough and paid Social Security taxes.\n\nSupplemental Security Income pays benefits based on financial need.\n\nWhen you apply for either program, we will collect medical and other information from you and make a decision about whether or not you meet Social Security's definition of disability.\n\nUse the Benefits Eligibility Screening Tool to find out which programs may be able to pay you benefits.\n\nIf your application has recently been denied, the Internet Appeal is a starting point to request a review of our decision about your eligibility for disability benefits.\n\nIf your application is denied for:\n\n- Medical reasons, you can complete and submit the required Appeal Request and Appeal Disability Report online. The disability report asks you for updated information about your medical condition and any treatment, tests or doctor visits since we made our decision.\n- Non-medical reasons, you should contact your local Social Security Office to request the review. You also may call our toll-free number, 1-800-772-1213, to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nReport fraud, waste and abuse\n\n### More Information\n\nDisability Determination Process\n\nHow We Decide If You Are Disabled\n\nCompassionate Allowances\n\nInformation We Need About Your Work And Education\n\nBenefits For Children With Disabilities Professional Relations Green Book - Consultative Examinations: Guide For Health Professionals Blue Book - Disability Evaluation Under Social Security\n\nPosttraumatic Stress Disorder Fact Sheet\n\nNeurological Teleconference Summary\n\nDisability Claims Process Video Series"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000",
+          "text": "# Benefits Planner: Disability | How You Apply | Social Security Administration\n\nYou should apply for disability benefits as soon as you become disabled. If you are ready to apply now, you can:\n\n- Complete your application online.\n\n- Call our toll-free telephone number **1-800-772-1213**. If you are deaf or hard of hearing, you can call us at TTY **1-800-325-0778**.\n\n- Call or visit your local Social Security office.\n\nIf you want to apply in person, please call and make an appointment before you visit your local office.\n\nIf you wish to help another person apply for disability benefits, please read .\n\n## Information You Need To Apply\n\nHere is the kind of information you should have:\n\n## Information About You\n\n- Your Social Security number and proof of your age;\n\n- Names, addresses, and phone numbers of doctors, caseworkers, hospitals, and clinics that took care of you and the dates of your visits;\n\n- Names and dosages of all the medications you are taking;\n\n- Medical records from your doctors, therapists, hospitals, clinics, and caseworkers, that you already have in your possession;\n\n- Laboratory and test results;\n\n- A summary of where you worked and the kind of work you did; and\n\n- Your most recent W-2 form or, if you were self-employed, a copy of your federal tax return.\n\n## Information About Family Members\n\n- Social Security numbers and proof of age for each family member who may qualify for benefits; and\n\n- Proof of marriage, if your spouse is applying for benefits, as well as dates of prior marriages, if applicable.\n\nThe documents you may need to show us must be original documents or copies certified by the issuing office. You can mail or bring them to Social Security. We will make photocopies and return your original documents.\n\nIf you don't have all the documents you need, don't delay filing for benefits. We will help you get the information you need.\n\n## More Help For Filing Your Claim\n\nOur Disability Starter Kit will help you get ready for your disability interview or online application. Starter kits are available in English or Spanish for adults and children under age 18.\n\nThe online Application for Benefits also includes links to information that will help you complete the form.\n\nIf Your Application Is Denied\n\nAfter we review your application and the information you provided, we may decide you do not meet the qualifications for disability benefits.\n\nIf you disagree with our decision, you have the right to ask us to look at your application again. The notice you receive from us that says you don't qualify will explain how to appeal our decision and the time period in which you must make the request.\n\nIf we decide you don't qualify:\n\n- Because you are not disabled under our rules, you can appeal our decision online.\n\nThe online disability report will ask you for updated information about your medical condition and any treatment, tests, or doctor visits since we made our decision.\n\n### Appeal Medical Decision\n\n- For non-medical reasons, you can appeal our decision online.\n\n### Appeal Other Decision\n\nYou also may call our toll-free number at 1-800-772-1213 to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nPeople who don't have enough work credits to be eligible for Social Security Disability benefits may possibly qualify for Supplemental Security Income (SSI) if they have limited income and resources.\n\nFor more information, please read \"Your income and resources\" on page 5 of our Supplemental Security Income (SSI) booklet.\n\n## Publications\n\n- Apply Online For Disability Benefits\n\n- Disability Benefits\n\n- Disability Starter Kit\n\n- Adult Disability Checklist\n\n- The Appeals Process\n\n- Other Disability Publications"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0::c0000",
+          "text": "# Benefits Planner: Disability | How You Apply | Social Security Administration\n\n## Benefits Planner: Disability \\| How You Apply\n\nYou should apply for disability benefits as soon as you become disabled. If you are ready to apply now, you can:\n\n- Complete your application online.\n- Call our toll-free telephone number **1-800-772-1213**. If you are deaf or hard of hearing, you can call us at TTY **1-800-325-0778**.\n- Call or visit your local Social Security office.\n\nIf you want to apply in person, please call and make an appointment **before** you visit your local office.\n\nIf you wish to help another person apply for disability benefits, please read .\n\n### Information You Need To Apply\n\nHere is the kind of information you should have:\n\n### Information About You\n\n- Your Social Security number and proof of your age;\n- Names, addresses, and phone numbers of doctors, caseworkers, hospitals, and clinics that took care of you and the dates of your visits;\n- Names and dosages of all the medications you are taking;\n- Medical records from your doctors, therapists, hospitals, clinics, and caseworkers, that you already have in your possession;\n- Laboratory and test results;\n- A summary of where you worked and the kind of work you did; and\n- Your most recent W-2 form or, if you were self-employed, a copy of your federal tax return.\n\n### Information About Family Members\n\n- Social Security numbers and proof of age for each family member who may qualify for benefits; and\n- Proof of marriage, if your spouse is applying for benefits, as well as dates of prior marriages, if applicable.\n\nThe documents you may need to show us must be original documents or copies certified by the issuing office. You can mail or bring them to Social Security. We will make photocopies and return your original documents.\n\nIf you don't have all the documents you need, don't delay filing for benefits. We will help you get the information you need.\n\n### More Help For Filing Your Claim\n\nOur Disability Starter Kit will help you get ready for your disability interview or online application. Starter kits are available in English or Spanish for adults and children under age 18.\n\nThe online Application for Benefits also includes links to information that will help you complete the form.\n\n### If Your Application Is Denied\n\nAfter we review your application and the information you provided, we may decide you do not meet the qualifications for disability benefits.\n\nIf you disagree with our decision, you have the right to ask us to look at your application again. The notice you receive from us that says you don't qualify will explain how to appeal our decision and the time period in which you must make the request.\n\nIf we decide you don't qualify:\n\n- Because you are not disabled under our rules, you can appeal our decision online.\n\nThe online disability report will ask you for updated information about your medical condition and any treatment, tests, or doctor visits since we made our decision.\n\nAppeal Medical Decision\n\n- For non-medical reasons, you can appeal our decision online.\n\nAppeal Other Decision\n\nYou also may call our toll-free number at **1-800-772-1213** to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nPeople who don't have enough work credits to be eligible for Social Security Disability benefits may possibly qualify for Supplemental Security Income (SSI) if they have limited income and resources.\n\nFor more information, please read \"Your income and resources\" on page 5 of our Supplemental Security Income (SSI) booklet.\n\n### Publications\n\n- Apply Online For Disability Benefits\n- Disability Benefits\n- Disability Starter Kit\n- Adult Disability Checklist\n- The Appeals Process\n- Other Disability Publications"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0008",
+          "text": "[医疗认证常见问题 > 自我认证 > 9. 为什么我收到退回的Medical Examiner's Certificate和拒绝信？]\n拒绝信说明了Medical Examiner's Certificate被退回给您的原因。如果信息不正确、缺失或难以辨认，您必须联系您的医生修改表格或重新填写一份。\n\n如果您的Medical Examiner's Certificate因未由National Registry of Certified Medical Examiners列出的医生完成而被拒绝，您必须由注册表上的医生重新进行体检。要查找您所在地区的认证医生，请访问联邦网站National Registry of Certified Medical Examiners Search [1]。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0001",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 如何申请福利？]\n以下是在线申请福利所需执行的操作：\n\n- 打印并查看《成人残障检查清单》。它将帮助您收集完成申请所需的信息。\n- 填写《残障福利申请表》。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Benefits for People with Disabilities#1_0::c0000",
+          "text": "# Benefits for People with Disabilities\n\nDisability Home\n\nApply for Benefits\n\nHow to Apply\n\nDisability Starter Kits\n\nBenefits Planner\n\nForms\n\nPublications\n\nNon-English Languages\n\nGetting Benefits Now?\n\nDirect Deposit\n\nTicket to Work/Work Incentives\n\nRepresentative Payment Program\n\nReporting Your Income\n\nHealth Insurance\n\nMedicare/Medicaid Services\n\nInsure Kids Now\n\nProgram Information\n\nSocial Security Handbook\n\nPolicy/Research\n\nProgram/Actuarial Data\n\nLaws & Legislation\n\nHearings & Appeals\n\nSSA Advisory Board\n\nFacts and Figures\n\nFrequently Asked Questions\n\nThe Social Security and Supplemental Security Income disability programs are the largest of several Federal programs that provide assistance to people with disabilities. While these two programs are different in many ways, both are administered by the Social Security Administration and only individuals who have a disability and meet medical criteria may qualify for benefits under either program.\n\nSocial Security Disability Insurance pays benefits to you and certain members of your family if you are \"insured,\" meaning that you worked long enough and paid Social Security taxes.\n\nSupplemental Security Income pays benefits based on financial need.\n\nWhen you apply for either program, we will collect medical and other information from you and make a decision about whether or not you meet Social Security's definition of disability.\n\nUse the Benefits Eligibility Screening Tool to find out which programs may be able to pay you benefits.\n\nIf your application has recently been denied, the Internet Appeal is a starting point to request a review of our decision about your eligibility for disability benefits.\n\nIf your application is denied for:\n\n- Medical reasons, you can complete and submit the required Appeal Request and Appeal Disability Report online. The disability report asks you for updated information about your medical condition and any treatment, tests or doctor visits since we made our decision.\n- Non-medical reasons, you should contact your local Social Security Office to request the review. You also may call our toll-free number, 1-800-772-1213, to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nReport fraud, waste and abuse\n\n### More Information\n\nDisability Determination Process\n\nHow We Decide If You Are Disabled\n\nCompassionate Allowances\n\nInformation We Need About Your Work And Education\n\nBenefits For Children With Disabilities Professional Relations Green Book - Consultative Examinations: Guide For Health Professionals Blue Book - Disability Evaluation Under Social Security\n\nPosttraumatic Stress Disorder Fact Sheet\n\nNeurological Teleconference Summary\n\nDisability Claims Process Video Series"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000",
+          "text": "# Benefits Planner: Disability | How You Apply | Social Security Administration\n\nYou should apply for disability benefits as soon as you become disabled. If you are ready to apply now, you can:\n\n- Complete your application online.\n\n- Call our toll-free telephone number **1-800-772-1213**. If you are deaf or hard of hearing, you can call us at TTY **1-800-325-0778**.\n\n- Call or visit your local Social Security office.\n\nIf you want to apply in person, please call and make an appointment before you visit your local office.\n\nIf you wish to help another person apply for disability benefits, please read .\n\n## Information You Need To Apply\n\nHere is the kind of information you should have:\n\n## Information About You\n\n- Your Social Security number and proof of your age;\n\n- Names, addresses, and phone numbers of doctors, caseworkers, hospitals, and clinics that took care of you and the dates of your visits;\n\n- Names and dosages of all the medications you are taking;\n\n- Medical records from your doctors, therapists, hospitals, clinics, and caseworkers, that you already have in your possession;\n\n- Laboratory and test results;\n\n- A summary of where you worked and the kind of work you did; and\n\n- Your most recent W-2 form or, if you were self-employed, a copy of your federal tax return.\n\n## Information About Family Members\n\n- Social Security numbers and proof of age for each family member who may qualify for benefits; and\n\n- Proof of marriage, if your spouse is applying for benefits, as well as dates of prior marriages, if applicable.\n\nThe documents you may need to show us must be original documents or copies certified by the issuing office. You can mail or bring them to Social Security. We will make photocopies and return your original documents.\n\nIf you don't have all the documents you need, don't delay filing for benefits. We will help you get the information you need.\n\n## More Help For Filing Your Claim\n\nOur Disability Starter Kit will help you get ready for your disability interview or online application. Starter kits are available in English or Spanish for adults and children under age 18.\n\nThe online Application for Benefits also includes links to information that will help you complete the form.\n\nIf Your Application Is Denied\n\nAfter we review your application and the information you provided, we may decide you do not meet the qualifications for disability benefits.\n\nIf you disagree with our decision, you have the right to ask us to look at your application again. The notice you receive from us that says you don't qualify will explain how to appeal our decision and the time period in which you must make the request.\n\nIf we decide you don't qualify:\n\n- Because you are not disabled under our rules, you can appeal our decision online.\n\nThe online disability report will ask you for updated information about your medical condition and any treatment, tests, or doctor visits since we made our decision.\n\n### Appeal Medical Decision\n\n- For non-medical reasons, you can appeal our decision online.\n\n### Appeal Other Decision\n\nYou also may call our toll-free number at 1-800-772-1213 to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nPeople who don't have enough work credits to be eligible for Social Security Disability benefits may possibly qualify for Supplemental Security Income (SSI) if they have limited income and resources.\n\nFor more information, please read \"Your income and resources\" on page 5 of our Supplemental Security Income (SSI) booklet.\n\n## Publications\n\n- Apply Online For Disability Benefits\n\n- Disability Benefits\n\n- Disability Starter Kit\n\n- Adult Disability Checklist\n\n- The Appeals Process\n\n- Other Disability Publications"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0::c0000",
+          "text": "# Benefits Planner: Disability | How You Apply | Social Security Administration\n\n## Benefits Planner: Disability \\| How You Apply\n\nYou should apply for disability benefits as soon as you become disabled. If you are ready to apply now, you can:\n\n- Complete your application online.\n- Call our toll-free telephone number **1-800-772-1213**. If you are deaf or hard of hearing, you can call us at TTY **1-800-325-0778**.\n- Call or visit your local Social Security office.\n\nIf you want to apply in person, please call and make an appointment **before** you visit your local office.\n\nIf you wish to help another person apply for disability benefits, please read .\n\n### Information You Need To Apply\n\nHere is the kind of information you should have:\n\n### Information About You\n\n- Your Social Security number and proof of your age;\n- Names, addresses, and phone numbers of doctors, caseworkers, hospitals, and clinics that took care of you and the dates of your visits;\n- Names and dosages of all the medications you are taking;\n- Medical records from your doctors, therapists, hospitals, clinics, and caseworkers, that you already have in your possession;\n- Laboratory and test results;\n- A summary of where you worked and the kind of work you did; and\n- Your most recent W-2 form or, if you were self-employed, a copy of your federal tax return.\n\n### Information About Family Members\n\n- Social Security numbers and proof of age for each family member who may qualify for benefits; and\n- Proof of marriage, if your spouse is applying for benefits, as well as dates of prior marriages, if applicable.\n\nThe documents you may need to show us must be original documents or copies certified by the issuing office. You can mail or bring them to Social Security. We will make photocopies and return your original documents.\n\nIf you don't have all the documents you need, don't delay filing for benefits. We will help you get the information you need.\n\n### More Help For Filing Your Claim\n\nOur Disability Starter Kit will help you get ready for your disability interview or online application. Starter kits are available in English or Spanish for adults and children under age 18.\n\nThe online Application for Benefits also includes links to information that will help you complete the form.\n\n### If Your Application Is Denied\n\nAfter we review your application and the information you provided, we may decide you do not meet the qualifications for disability benefits.\n\nIf you disagree with our decision, you have the right to ask us to look at your application again. The notice you receive from us that says you don't qualify will explain how to appeal our decision and the time period in which you must make the request.\n\nIf we decide you don't qualify:\n\n- Because you are not disabled under our rules, you can appeal our decision online.\n\nThe online disability report will ask you for updated information about your medical condition and any treatment, tests, or doctor visits since we made our decision.\n\nAppeal Medical Decision\n\n- For non-medical reasons, you can appeal our decision online.\n\nAppeal Other Decision\n\nYou also may call our toll-free number at **1-800-772-1213** to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nPeople who don't have enough work credits to be eligible for Social Security Disability benefits may possibly qualify for Supplemental Security Income (SSI) if they have limited income and resources.\n\nFor more information, please read \"Your income and resources\" on page 5 of our Supplemental Security Income (SSI) booklet.\n\n### Publications\n\n- Apply Online For Disability Benefits\n- Disability Benefits\n- Disability Starter Kit\n- Adult Disability Checklist\n- The Appeals Process\n- Other Disability Publications"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0008",
+          "text": "[医疗认证常见问题 > 自我认证 > 9. 为什么我收到退回的Medical Examiner's Certificate和拒绝信？]\n拒绝信说明了Medical Examiner's Certificate被退回给您的原因。如果信息不正确、缺失或难以辨认，您必须联系您的医生修改表格或重新填写一份。\n\n如果您的Medical Examiner's Certificate因未由National Registry of Certified Medical Examiners列出的医生完成而被拒绝，您必须由注册表上的医生重新进行体检。要查找您所在地区的认证医生，请访问联邦网站National Registry of Certified Medical Examiners Search [1]。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0001",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 如何申请福利？]\n以下是在线申请福利所需执行的操作：\n\n- 打印并查看《成人残障检查清单》。它将帮助您收集完成申请所需的信息。\n- 填写《残障福利申请表》。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Benefits for People with Disabilities#1_0::c0000",
+          "document": "Benefits for People with Disabilities#1_0",
+          "heading": [],
+          "source_file": "ssa_008.md",
+          "excerpt": "# Benefits for People with Disabilities\n\nDisability Home\n\nApply for Benefits\n\nHow to Apply\n\nDisability Starter Kits\n\nBenefits Planner\n\nForms\n\nPublications\n\nNon-English Languages\n\nGetting Benefits Now?\n\nDirect Deposit\n\nTicket to Work/Work Incentives\n\nRepresentative Payment Program\n\nReporting Your Income\n\nHealth Insurance\n\nMedicare/Medicaid Services\n\nInsure Kids Now\n\nProgram Information\n\nSocial Security Handbook\n\nPolicy/Research\n\nProgram/Actuarial Data\n\nLaws & Legislation\n\nHearings & Appeals\n\nSSA Advisory Board\n\nFacts and Figures\n\nFrequently Asked Questions\n\nThe Social Security and Supplemental Security Income disability programs are the largest of several Federal programs that provide assistance to people with disabilities. While these two programs are different in many ways, both are administered by the Social Security Administration and only individuals who have a disability and meet medical criteria may qualify for benefits under either program.\n\nSocial Security Disability Insurance pays benefits to you and certain members of your family if you are \"insured,\" meaning that you worked long enough and paid Social Security taxes.\n\nSupplemental Security Income pays benefits based on financial need.\n\nWhen you apply for either program, we will collect medical and other information from you and make a decision about whether or not you meet Social Security's definition of disability.\n\nUse the Benefits Eligibility Screening Tool to find out which programs may be able to pay you benefits.\n\nIf your application has recently been denied, the Internet Appeal is a starting point to request a review of our decision about your eligibility for disability benefits.\n\nIf your application is denied for:\n\n- Medical reasons, you can complete and submit the required Appeal Request and Appeal Disability Report online. The disability report asks you for updated information about your medical condition and any treatment, tests or doctor visits since we made our decision.\n- Non-medical reasons, you should contact your local Social Security Office to request the review. You also may call our toll-free number, 1-800-772-1213, to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nReport fraud, waste and abuse\n\n### More Information\n\nDisability Determination Process\n\nHow We Decide If You Are Disabled\n\nCompassionate Allowances\n\nInformation We Need About Your Work And Education\n\nBenefits For Children With Disabilities Professional Relations Green Book - Consultative Examinations: Guide For Health Professionals Blue Book - Disability Evaluation Under Social Security\n\nPosttraumatic Stress Disorder Fact Sheet\n\nNeurological Teleconference Summary\n\nDisability Claims Process Video Series"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000",
+          "document": "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_020.pdf",
+          "excerpt": "# Benefits Planner: Disability | How You Apply | Social Security Administration\n\nYou should apply for disability benefits as soon as you become disabled. If you are ready to apply now, you can:\n\n- Complete your application online.\n\n- Call our toll-free telephone number **1-800-772-1213**. If you are deaf or hard of hearing, you can call us at TTY **1-800-325-0778**.\n\n- Call or visit your local Social Security office.\n\nIf you want to apply in person, please call and make an appointment before you visit your local office.\n\nIf you wish to help another person apply for disability benefits, please read .\n\n## Information You Need To Apply\n\nHere is the kind of information you should have:\n\n## Information About You\n\n- Your Social Security number and proof of your age;\n\n- Names, addresses, and phone numbers of doctors, caseworkers, hospitals, and clinics that took care of you and the dates of your visits;\n\n- Names and dosages of all the medications you are taking;\n\n- Medical records from your doctors, therapists, hospitals, clinics, and caseworkers, that you already have in your possession;\n\n- Laboratory and test results;\n\n- A summary of where you worked and the kind of work you did; and\n\n- Your most recent W-2 form or, if you were self-employed, a copy of your federal tax return.\n\n## Information About Family Members\n\n- Social Security numbers and proof of age for each family member who may qualify for benefits; and\n\n- Proof of marriage, if your spouse is applying for benefits, as well as dates of prior marriages, if applicable.\n\nThe documents you may need to show us must be original documents or copies certified by the issuing office. You can mail or bring them to Social Security. We will make photocopies and return your original documents.\n\nIf you don't have all the documents you need, don't delay filing for benefits. We will help you get the information you need.\n\n## More Help For Filing Your Claim\n\nOur Disability Starter Kit will help you get ready for your disability interview or online application. Starter kits are available in English or Spanish for adults and children under age 18.\n\nThe online Application for Benefits also includes links to information that will help you complete the form.\n\nIf Your Application Is Denied\n\nAfter we review your application and the information you provided, we may decide you do not meet the qualifications for disability benefits.\n\nIf you disagree with our decision, you have the right to ask us to look at your application again. The notice you receive from us that says you don't qualify will explain how to appeal our decision and the time period in which you must make the request.\n\nIf we decide you don't qualify:\n\n- Because you are not disabled under our rules, you can appeal our decision online.\n\nThe online disability report will ask you for updated information about your medical condition and any treatment, tests, or doctor visits since we made our decision.\n\n### Appeal Medical Decision\n\n- For non-medical reasons, you can appeal our decision online.\n\n### Appeal Other Decision\n\nYou also may call our toll-free number at 1-800-772-1213 to request an appeal. People who are deaf or hard of hearing can call our toll-free TTY number, 1-800-325-0778.\n\nPeople who don't have enough work credits to be eligible for Social Security Disability benefits may possibly qualify for Supplemental Security Income (SSI) if they have limited income and resources.\n\nFor more information, please read \"Your income and resources\" on page 5 of our Supplemental Security Income (SSI) booklet.\n\n## Publications\n\n- Apply Online For Disability Benefits\n\n- Disability Benefits\n\n- Disability Starter Kit\n\n- Adult Disability Checklist\n\n- The Appeals Process\n\n- Other Disability Publications"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您的申请因非医疗原因被拒绝，您应联系当地社会保障办公室或拨打免费电话1-800-772-1213（聋人或听力障碍者可拨打TTY 1-800-325-0778）请求复议。",
+          "citations": [
+            "Benefits for People with Disabilities#1_0::c0000",
+            "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "27122dce72bd4efe811560fbbe982fe9",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2727,
+              "completion_tokens": 102,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 102,
+                "prompt_tokens": 2727,
+                "total_tokens": 2829,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2471
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0041783,
+            "accounted_rmb": 0.0041783,
+            "usage_unknown": false,
+            "seconds": 1.5841569900512695,
+            "error": null,
+            "response": {
+              "id": "d1c084ce-fea0-4e43-9764-5e1976e08d68",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "6ee0e4e22c011a9e8ab64916f14267113299a3b6d8e56781fbee0fab5fd4e126"
+      },
+      "latency_ms": {
+        "queue_wait": 0.022875028662383556,
+        "retrieval": 914.4413750618696,
+        "generation": 1588.8027499895543,
+        "total": 2504.7150410246104
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1688871249789372,
+        "rerank_seconds": 0.7455022919457406,
+        "top1_dense_score": 0.7169185876846313,
+        "candidate_ids": [
+          "Disability Benefits | Social Security Administration#2_0::c0001",
+          "CHAMPVA Benefits | Veterans Affairs#1_0::c0005",
+          "Disability Benefits | Social Security Administration#1_0::c0004",
+          "Disability Benefits | Social Security Administration#1_0::c0009",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0::c0000",
+          "Medical Certification FAQ's#3_0::c0008",
+          "Disability Benefits | Social Security Administration#1_0::c0001",
+          "Disability Benefits | Social Security Administration#2_0::c0002",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000",
+          "Medicare Benefits | Social Security Administration#1_0::c0009",
+          "Medicare Benefits | Social Security Administration#1_0::c0011",
+          "VA Health Care | Veterans Affairs#1_0::c0010",
+          "Disability Benefits | Social Security Administration#2_0::c0006",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0005",
+          "Medicare Benefits | Social Security Administration#1_0::c0006",
+          "VA Health Care | Veterans Affairs#1_0::c0012",
+          "Medicare Benefits | Social Security Administration#1_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0010",
+          "Disability Benefits | Social Security Administration#2_0::c0000",
+          "Benefits for People with Disabilities#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 27,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.9144185830373317
+      },
+      "raw_citations": [
+        "Benefits for People with Disabilities#1_0::c0000",
+        "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "580c6e764b7b7a7c60494ba4f17f6a6c9f3fcbaad0d7c32e9b6d3dc118246594"
+}

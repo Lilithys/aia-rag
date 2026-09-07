@@ -1,0 +1,159 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-003",
+    "item_sha256": "02ce2ff009019d20b4559dd45d6e4dfd7dfa82200e3d79e73410ab935b7e8d25",
+    "result": {
+      "request_id": "585187378a7e43fea796c80b4c28e49d",
+      "session_id": "synthetic::eval-v1-holdout-refuse-003",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "I cannot access your personal Social Security claim number or any account-specific records. For help with your claim number or status, contact the Social Security Administration at 1-800-772-1213 (TTY 1-800-325-0778) or your local Social Security office.",
+        "citations": [],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#1_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 您或您的家人可能有资格获得增加的福利 > 联系社会保障局]\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-800-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话。"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#2_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 联系社会保障局]\n您或您的家人可能有资格获得增加的福利\n\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或 补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配 偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获 得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来 了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资 格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您 已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入 ？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上 ，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工 作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获 得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信 息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可 能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾 人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于 您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们 可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等 待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告 知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-80 0-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话通话。"
+        },
+        {
+          "chunk_id": "Appeal A Decision | Social Security Administration#2_0::c0000",
+          "text": "# Appeal A Decision | Social Security Administration\n\nIf you were recently denied Social Security benefits or Supplemental Security Income (SSI), you may request an appeal. Generally, you have 60 days after you receive the notice of our decision to ask for any type of appeal. There are four levels of appeal:\n\n- Reconsideration,\n- Hearing by an administrative law judge,\n- Review by the Appeals Council, and\n- Federal Court review (Please see the bottom of page for information on the Federal Court Review Process).\n\nYou can request an appeal online for a reconsideration, a hearing by an administrative law judge, and a review by the Appeals Council, even if you live outside of the United States. When we made the first determination on your claim, we sent you a letter explaining our determination. This letter contains guidance on what level of appeal you should select.\n\nTo learn more about each appeal level, visit Information About Social Security's Hearings and Appeals Process.\n\nReconsideration\n\n### Request a Reconsideration Online for a Medical Determination\n\nIf your disability claim was recently denied for medical reasons, you can request an appeal online.\n\nA reconsideration is a complete review of your claim by someone who did not take part in the first determination. We will look at all the evidence submitted used in the original determination, plus any new evidence.\n\nRequest Medical Reconsideration Continue Request for Medical Reconsideration You Started\n\n### Request a Reconsideration Online for a Non-Medical Determination\n\nIf you received a non-medical determination letter from us that you disagree with or you were denied for a reason that is not disability related (for example: income, resources, overpayments, living arrangements), you can request a non-medical appeal online.\n\nRequest Non-Medical Reconsideration\n\n### Check the Status of Your Reconsideration\n\nWhether you applied online, by phone, or in an office, you can check the status of your disability and SSI Reconsideration using your personal my Social Security account. A my Social Security account is an easy, convenient, and secure way to do business with us. If you don t have one, you can create one today.\n\nSign In or Create Account\n\nHearing by an Administrative Law Judge\n\n### Request a Hearing for a Medical Determination Online\n\nA hearing is conducted by an administrative law judge who had no part in the original determination or the reconsideration of your case. The hearing is usually held within 75 miles of your home. If you disagree with the determination we made at the reconsideration level, you may request a hearing online.\n\nRequest Medical Hearing Continue Medical Hearing Request You Started\n\n### Request a Hearing for a Non-Medical Determination Online\n\nIf you requested a reconsideration and received a non-medical determination letter from us that you disagree with or you were denied benefits for a reason that is not disability related (for example: income, resources, overpayments, living arrangements), you can request a non-medical hearing online.\n\nRequest Non-Medical Hearing\n\n### Check the Status of Your Hearing\n\nWhether you applied online, by phone, or in an office, you can check the status of your disability and SSI hearing using your personal my Social Security account. A my Social Security account is an easy, convenient, and secure way to do business with us. If you don t have one, you can create one today.\n\nSign In or Create Account\n\nRequest for Review by the Appeals Council\n\n### Request an Appeals Council review of a decision or dismissal made by an administrative law judge\n\nThe Appeals Council looks at all requests for review, but it may deny a request if it believes the hearing decision was supported and in accordance with social security law and regulations. If the Appeals Council decides to review your case, it will either decide your case itself or return it to an administrative law judge for further review. If you disagree with the hearing decision, you may request a review by Social Security s Appeals Council online.\n\nRequest Appeals Council Review\n\nFederal Court review\n\nIf you disagree with the Appeals Council's decision, or if the Appeals Council decides not to review your case, you can file a civil suit in a federal district court. This is the last level of the appeals process. Currently, this process is not available online. To learn more about this process, visit Federal Court Review Process.\n\nYou can also file an appeal by calling our toll-free number, 1-800-772-1213 (TTY 1-800-325-0778) or contacting your local Social Security office."
+        },
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "text": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0::c0002",
+          "text": "[了解获取社会保障卡需要哪些文件 | 社会保障管理局 > 我还需要哪些其他文件？]\n姓名变更\n\n如果您因结婚、离婚、法院命令或任何其他原因合法更改姓名，您应告知社会保障局。\n\n如果您在职，您还需要告知您的雇主。如果您在姓名变更时未告知我们，可能会导致：\n\n- 您的工资无法正确记入您的社会保障记录，这可能会降低您未来社会保障福利的金额。\n- 在您报税时造成延误。\n\n您必须向我们出示合法姓名变更的证明。社会保障局可能接受以证明合法姓名变更的文件包括：\n\n- 结婚文件；\n- 离婚判决书；\n- 批准姓名变更的法院命令；或\n\n如果您提供的合法姓名变更证明文件未能提供足够信息以在我们的记录中识别您，或者如果您在两年多前（如果您未满18岁，则为四年前）更改了姓名，您必须向我们出示您先前姓名（如我们记录所示）的身份证明文件。我们将接受您旧姓名下已过期的身份证明文件。\n\n如果您没有以前姓名的身份证件，只要我们能根据记录正确确认您的身份，我们可能会接受您新姓名的未过期身份证件。\n\n如果我们为您分配了非工作用途的社会安全号码，则适用特殊规则。如果国土安全部未授权您工作，我们将更改我们记录中的姓名，但无法为您签发更正卡。如果您没有工作许可，但因其他原因需要社会安全卡，请参阅“如果您没有工作许可”以了解更多信息。请记住，您不能使用为非工作用途分配的社会安全号码去工作。如果您使用它去工作，我们将通知国土安全部。\n\n注意\n\n如果我们为您签发新卡，其号码将与您之前的卡相同，但会显示您的新姓名。一旦我们收到您的所有信息并核实您的移民文件，我们将尽快寄出您的卡。\n\n移民身份\n\n为证明您的美国移民身份，您必须向我们出示您当前的美国移民文件，例如：\n\n- I-551表（合法永久居民卡，机器可读移民签证）；\n- I-766表（就业授权文件，EAD，工作许可证）；或\n- I-94表（抵达/离境记录）或未过期外国护照上的入境章。\n- 如果您是F-1或M-1学生，您还必须向我们出示您的I-20表（非移民学生身份资格证明）。\n\n如果您是J-1或J-2交流访问者，您必须向我们出示您的DS-2019表（交流访问者身份资格证明）。\n\n工作资格\n\n一般来说，只有获得国土安全部工作许可的非公民才能申请社会安全号码。如果您是外国工人，我们只需查看您的I-94表（抵达/离境记录）或未过期外国护照上的入境章，显示允许工作的入境类别。您可能需要出示国土安全部签发的I-766表（就业授权文件，EAD，工作许可证）。\n\n如果您在美国合法居留并计划申请工作授权，您可以同时向国土安全部（DHS）下属的美国公民及移民服务局（USCIS）申请工作授权，并向社会保障局申请社会安全卡。有关此流程的更多信息，请阅读《在申请工作许可证的同时申请您的社会安全号码》。\n\n如果您提交合法工作授权身份的证据以及姓名变更的证据，我们可以为您签发带有新姓名的更正卡。\n\n学生：\n\nF-1\n\n如果您是F-1学生且有资格在校内工作，您必须提供指定学校官员出具的信函，该信函需：\n\n- 确认您的身份；\n- 确认您当前的学校状态；以及\n- 确认您的雇主以及您正在或将从事的工作类型。\n\n我们还需要查看该工作的证据，例如最近的工资单或雇主的信函。您的主管必须在信函上签名并注明日期。信函必须描述：\n\n- 您的工作；\n- 您的就业开始日期；\n- 您正在或将工作的小时数；以及\n- 您主管的姓名和电话号码。\n\n如果您是获授权进行课程实习训练（CPT）的F-1学生，您必须向我们提供您的I-20表格，其中就业页面需由您指定的学校负责人填写并签名。\n\n如果您是F-1学生并持有国土安全部（DHS）签发的工作许可证（I-766），您必须出示该证件。\n\nJ-1\n\n如果您是J-1学生、学生实习生或国际访客，您必须提供担保人出具的信函。信函应使用担保人信笺抬头，并带有授权您就业的原始签名。\n\n如果您没有工作许可：合法入境的非公民可以在没有社会安全号码的情况下获得许多福利和服务。您无需号码即可与银行进行业务往来、注册入学、申请教育测试、获得私人健康保险、申请学校午餐计划或申请补贴住房。您不能仅为获得驾照而申请社会安全号码。\n\n公民身份\n\n如果您尚未向我们证明您的美国公民身份，我们需要您出示美国公民身份的证明。我们只接受特定文件作为美国公民身份的证明。这些文件包括：\n\n- 美国护照；\n- 归化证书（N-550/N-570）；\n- 公民证书（N-560/N-561）；\n- 出生报告证明（DS-1350）；\n- 海外出生领事报告（FS-240，CRBA）。\n\n重要\n\n我们仅要求您提供公民身份文件，如果您是美国公民且尚未向我们证明您的美国公民身份。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#1_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 您或您的家人可能有资格获得增加的福利 > 联系社会保障局]\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-800-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话。"
+        },
+        {
+          "chunk_id": "Explore The Benefits You May Be Due#2_0::c0000",
+          "text": "[探索您可能有权获得的福利 > 联系社会保障局]\n您或您的家人可能有资格获得增加的福利\n\n我们的使命是提供满足公众不断变化需求的社会保障服务。\n\n福利领取者的状况在申请或符合福利资格后发生变化并不罕见。如果您或您的家人领取社会保障或 补充保障收入（SSI），某些生活变化可能会影响您获得联邦福利增加的资格。例如，如果您的配 偶或前配偶去世，您可能有资格获得更高的社会保障福利。\n\n要了解您或您的家人是否可能基于他人的工作记录而有资格获得福利，或基于您自己的工作记录获 得更高的福利，请参阅社会保障网站上的福利信息。您还可以使用福利资格筛选工具（BEST）来 了解您是否可以获得社会保障管理局管理的福利。根据您对问题的回答，该工具将列出您可能有资 格获得的福利，并告诉您有关如何符合资格和申请的更多信息。\n\n以下问题和答案涉及一些可能增加您福利的生活变化。\n\n您的配偶或前配偶是否已去世？\n\n如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您 已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。\n\n您是否正在领取基于您自己工作记录的医疗保险福利，其中包括至少10年您缴纳社会保障税的收入 ？\n\n如果您年满65岁，您可能有资格基于自己的记录领取现金福利。如果您已达到完全退休年龄或以上 ，无论您赚多少钱，您都可以工作并领取每月的社会保障福利。请查阅本出版物以了解更多信息。\n\n您那个曾帮助抚养您的成年子女是否已去世？\n\n如果您的子女有足够的工作积分，并且曾提供您至少一半的生活费，您可能有资格基于他或她的工 作记录获得更高的父母福利。\n\n您是否正在领取基于您配偶工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的退休福利。\n\n您是否正在领取基于您父母工作记录的社会保障福利？\n\n如果您工作过，您可能有资格基于自己的工作记录获得更高的残疾福利。\n\n您目前是否未婚，但曾结婚10年或以上？\n\n如果您年满62岁且未婚，并且那段婚姻持续了10年或以上，您可能有资格基于前配偶的工作记录获 得福利。\n\n您的子女是否有资格根据您配偶的工作情况领取社会保障子女福利？\n\n如果您照顾的子女未满16岁或在22岁之前残疾，您可能有资格领取配偶福利。\n\n您目前是否正在领取退休或残疾福利，并且照顾的子女未满18岁或残疾？\n\n您的子女可能根据您的工作情况有资格领取福利。\n\n您是否正在领取补充保障收入（SSI）或社会保障福利，并且有服兵役经历？\n\n如果您曾在美国军队服役，您可能有资格通过退伍军人管理局领取福利。请访问此链接了解更多信 息：http://www.va.gov/\n\n您是否正在领取补充保障收入（SSI），并且您的父母一方已故或正在领取社会保障福利？\n\n如果您未婚且未满18岁或在22岁之前残疾，并且您的父母一方已故或正在领取社会保障福利，您可 能有资格根据您父母的工作情况领取子女福利。\n\n您的收入是否下降或您是否经历了财务资源的损失？\n\n您可能能够通过补充保障收入计划获得额外收入，该计划帮助收入和财务资源有限的老年人和残疾 人。\n\n重要提示：如果您正在领取福利，有某些生活事件您必须报告。如需完整列表，请选择下方适用于 您所领取福利类型的出版物。\n\n注意：未能报告变更可能导致多付款项。\n\n领取退休或遗属福利时您需要了解的事项（第7-13页）\n\n领取社会保障残疾福利时您需要了解的事项（第11-18页）\n\n领取补充保障收入（SSI）时您需要了解的事项（第7-19页）\n\n我们的网站是了解社会保障局所有计划信息的重要资源。您可以在线办理许多事项。\n\n除了使用我们的网站，您还可以拨打我们的免费电话1-800-772-1213。我们对所有通话保密。我们 可以在周一至周五上午7点至下午7点回答具体问题。通常，如果您在周二之后的工作日打电话，等 待时间会更短。我们通过自动电话服务全天24小时提供信息。（您可以使用我们的自动应答系统告 知我们新地址或申请更换医疗保险卡。）如果您失聪或听力困难，您可以拨打我们的TTY号码1-80 0-325-0778。\n\n我们还希望确保您获得准确且礼貌的服务。因此，我们有第二位社会保障代表监听部分电话通话。"
+        },
+        {
+          "chunk_id": "Appeal A Decision | Social Security Administration#2_0::c0000",
+          "text": "# Appeal A Decision | Social Security Administration\n\nIf you were recently denied Social Security benefits or Supplemental Security Income (SSI), you may request an appeal. Generally, you have 60 days after you receive the notice of our decision to ask for any type of appeal. There are four levels of appeal:\n\n- Reconsideration,\n- Hearing by an administrative law judge,\n- Review by the Appeals Council, and\n- Federal Court review (Please see the bottom of page for information on the Federal Court Review Process).\n\nYou can request an appeal online for a reconsideration, a hearing by an administrative law judge, and a review by the Appeals Council, even if you live outside of the United States. When we made the first determination on your claim, we sent you a letter explaining our determination. This letter contains guidance on what level of appeal you should select.\n\nTo learn more about each appeal level, visit Information About Social Security's Hearings and Appeals Process.\n\nReconsideration\n\n### Request a Reconsideration Online for a Medical Determination\n\nIf your disability claim was recently denied for medical reasons, you can request an appeal online.\n\nA reconsideration is a complete review of your claim by someone who did not take part in the first determination. We will look at all the evidence submitted used in the original determination, plus any new evidence.\n\nRequest Medical Reconsideration Continue Request for Medical Reconsideration You Started\n\n### Request a Reconsideration Online for a Non-Medical Determination\n\nIf you received a non-medical determination letter from us that you disagree with or you were denied for a reason that is not disability related (for example: income, resources, overpayments, living arrangements), you can request a non-medical appeal online.\n\nRequest Non-Medical Reconsideration\n\n### Check the Status of Your Reconsideration\n\nWhether you applied online, by phone, or in an office, you can check the status of your disability and SSI Reconsideration using your personal my Social Security account. A my Social Security account is an easy, convenient, and secure way to do business with us. If you don t have one, you can create one today.\n\nSign In or Create Account\n\nHearing by an Administrative Law Judge\n\n### Request a Hearing for a Medical Determination Online\n\nA hearing is conducted by an administrative law judge who had no part in the original determination or the reconsideration of your case. The hearing is usually held within 75 miles of your home. If you disagree with the determination we made at the reconsideration level, you may request a hearing online.\n\nRequest Medical Hearing Continue Medical Hearing Request You Started\n\n### Request a Hearing for a Non-Medical Determination Online\n\nIf you requested a reconsideration and received a non-medical determination letter from us that you disagree with or you were denied benefits for a reason that is not disability related (for example: income, resources, overpayments, living arrangements), you can request a non-medical hearing online.\n\nRequest Non-Medical Hearing\n\n### Check the Status of Your Hearing\n\nWhether you applied online, by phone, or in an office, you can check the status of your disability and SSI hearing using your personal my Social Security account. A my Social Security account is an easy, convenient, and secure way to do business with us. If you don t have one, you can create one today.\n\nSign In or Create Account\n\nRequest for Review by the Appeals Council\n\n### Request an Appeals Council review of a decision or dismissal made by an administrative law judge\n\nThe Appeals Council looks at all requests for review, but it may deny a request if it believes the hearing decision was supported and in accordance with social security law and regulations. If the Appeals Council decides to review your case, it will either decide your case itself or return it to an administrative law judge for further review. If you disagree with the hearing decision, you may request a review by Social Security s Appeals Council online.\n\nRequest Appeals Council Review\n\nFederal Court review\n\nIf you disagree with the Appeals Council's decision, or if the Appeals Council decides not to review your case, you can file a civil suit in a federal district court. This is the last level of the appeals process. Currently, this process is not available online. To learn more about this process, visit Federal Court Review Process.\n\nYou can also file an appeal by calling our toll-free number, 1-800-772-1213 (TTY 1-800-325-0778) or contacting your local Social Security office."
+        },
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "text": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0::c0002",
+          "text": "[了解获取社会保障卡需要哪些文件 | 社会保障管理局 > 我还需要哪些其他文件？]\n姓名变更\n\n如果您因结婚、离婚、法院命令或任何其他原因合法更改姓名，您应告知社会保障局。\n\n如果您在职，您还需要告知您的雇主。如果您在姓名变更时未告知我们，可能会导致：\n\n- 您的工资无法正确记入您的社会保障记录，这可能会降低您未来社会保障福利的金额。\n- 在您报税时造成延误。\n\n您必须向我们出示合法姓名变更的证明。社会保障局可能接受以证明合法姓名变更的文件包括：\n\n- 结婚文件；\n- 离婚判决书；\n- 批准姓名变更的法院命令；或\n\n如果您提供的合法姓名变更证明文件未能提供足够信息以在我们的记录中识别您，或者如果您在两年多前（如果您未满18岁，则为四年前）更改了姓名，您必须向我们出示您先前姓名（如我们记录所示）的身份证明文件。我们将接受您旧姓名下已过期的身份证明文件。\n\n如果您没有以前姓名的身份证件，只要我们能根据记录正确确认您的身份，我们可能会接受您新姓名的未过期身份证件。\n\n如果我们为您分配了非工作用途的社会安全号码，则适用特殊规则。如果国土安全部未授权您工作，我们将更改我们记录中的姓名，但无法为您签发更正卡。如果您没有工作许可，但因其他原因需要社会安全卡，请参阅“如果您没有工作许可”以了解更多信息。请记住，您不能使用为非工作用途分配的社会安全号码去工作。如果您使用它去工作，我们将通知国土安全部。\n\n注意\n\n如果我们为您签发新卡，其号码将与您之前的卡相同，但会显示您的新姓名。一旦我们收到您的所有信息并核实您的移民文件，我们将尽快寄出您的卡。\n\n移民身份\n\n为证明您的美国移民身份，您必须向我们出示您当前的美国移民文件，例如：\n\n- I-551表（合法永久居民卡，机器可读移民签证）；\n- I-766表（就业授权文件，EAD，工作许可证）；或\n- I-94表（抵达/离境记录）或未过期外国护照上的入境章。\n- 如果您是F-1或M-1学生，您还必须向我们出示您的I-20表（非移民学生身份资格证明）。\n\n如果您是J-1或J-2交流访问者，您必须向我们出示您的DS-2019表（交流访问者身份资格证明）。\n\n工作资格\n\n一般来说，只有获得国土安全部工作许可的非公民才能申请社会安全号码。如果您是外国工人，我们只需查看您的I-94表（抵达/离境记录）或未过期外国护照上的入境章，显示允许工作的入境类别。您可能需要出示国土安全部签发的I-766表（就业授权文件，EAD，工作许可证）。\n\n如果您在美国合法居留并计划申请工作授权，您可以同时向国土安全部（DHS）下属的美国公民及移民服务局（USCIS）申请工作授权，并向社会保障局申请社会安全卡。有关此流程的更多信息，请阅读《在申请工作许可证的同时申请您的社会安全号码》。\n\n如果您提交合法工作授权身份的证据以及姓名变更的证据，我们可以为您签发带有新姓名的更正卡。\n\n学生：\n\nF-1\n\n如果您是F-1学生且有资格在校内工作，您必须提供指定学校官员出具的信函，该信函需：\n\n- 确认您的身份；\n- 确认您当前的学校状态；以及\n- 确认您的雇主以及您正在或将从事的工作类型。\n\n我们还需要查看该工作的证据，例如最近的工资单或雇主的信函。您的主管必须在信函上签名并注明日期。信函必须描述：\n\n- 您的工作；\n- 您的就业开始日期；\n- 您正在或将工作的小时数；以及\n- 您主管的姓名和电话号码。\n\n如果您是获授权进行课程实习训练（CPT）的F-1学生，您必须向我们提供您的I-20表格，其中就业页面需由您指定的学校负责人填写并签名。\n\n如果您是F-1学生并持有国土安全部（DHS）签发的工作许可证（I-766），您必须出示该证件。\n\nJ-1\n\n如果您是J-1学生、学生实习生或国际访客，您必须提供担保人出具的信函。信函应使用担保人信笺抬头，并带有授权您就业的原始签名。\n\n如果您没有工作许可：合法入境的非公民可以在没有社会安全号码的情况下获得许多福利和服务。您无需号码即可与银行进行业务往来、注册入学、申请教育测试、获得私人健康保险、申请学校午餐计划或申请补贴住房。您不能仅为获得驾照而申请社会安全号码。\n\n公民身份\n\n如果您尚未向我们证明您的美国公民身份，我们需要您出示美国公民身份的证明。我们只接受特定文件作为美国公民身份的证明。这些文件包括：\n\n- 美国护照；\n- 归化证书（N-550/N-570）；\n- 公民证书（N-560/N-561）；\n- 出生报告证明（DS-1350）；\n- 海外出生领事报告（FS-240，CRBA）。\n\n重要\n\n我们仅要求您提供公民身份文件，如果您是美国公民且尚未向我们证明您的美国公民身份。"
+        }
+      ],
+      "citations": [],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "I cannot access your personal Social Security claim number or any account-specific records. For help with your claim number or status, contact the Social Security Administration at 1-800-772-1213 (TTY 1-800-325-0778) or your local Social Security office.",
+          "citations": [],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "4e02caa4355a43bc973e5c5b6227b5f2",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 4765,
+              "completion_tokens": 75,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 75,
+                "prompt_tokens": 4765,
+                "total_tokens": 4840,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 4509
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0071138,
+            "accounted_rmb": 0.0071138,
+            "usage_unknown": false,
+            "seconds": 1.209549903869629,
+            "error": null,
+            "response": {
+              "id": "dbf88c05-508f-4702-a472-fa081fa39c9b",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "9117a101c3ad13a0b189986e2736ef096388383ce9f716792b3113ec4f52c90d"
+      },
+      "latency_ms": {
+        "queue_wait": 0.02179096918553114,
+        "retrieval": 1367.8617500700057,
+        "generation": 1212.1256670216098,
+        "total": 2580.4529999149963
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1115123329218477,
+        "rerank_seconds": 1.2562853751005605,
+        "top1_dense_score": 0.6398734450340271,
+        "candidate_ids": [
+          "Change of Address| Social Security Administration#2_0::c0000",
+          "Change of Address| Social Security Administration#1_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0004",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#13_0::c0004",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0009",
+          "my Social Security | Create an Account | Social Security Administratio#1_0::c0000",
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Retirement Benefits | Social Security Administration#1_0::c0009",
+          "Manage Your Retirement Benefits | SSA#1_0::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#19_0::c0002",
+          "my Social Security | Create an Account | Social Security Administratio#2_0::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0::c0002",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1_2::c0000",
+          "Appeal A Decision | Social Security Administration#1_0::c0000",
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "Appeal A Decision | Social Security Administration#2_0::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#9_0::c0001",
+          "Apply for Retirement Benefits | SSA#1_0::c0003",
+          "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 51,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.3678369579138234
+      },
+      "raw_citations": [],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "5bae21d97dc1e53300b32d171d70feed51b24cea796aa23f754ee1795d53f019"
+}

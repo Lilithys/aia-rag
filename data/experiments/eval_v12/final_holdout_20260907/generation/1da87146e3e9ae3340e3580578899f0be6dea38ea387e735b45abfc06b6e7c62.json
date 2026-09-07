@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "74b145fcee926c9f7109a7c4f3925108::agent-turn-11",
+    "item_sha256": "fb611d588db34f259f52331f65397d409016aa6dfed6bb023e2c0e8138fba541",
+    "result": {
+      "request_id": "d42c3c8a83324d61954ee8c564dffaa1",
+      "session_id": "74b145fcee926c9f7109a7c4f3925108",
+      "turn_id": 10,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "根据检索到的信息，VA医疗保健的资格匹配主要依据您的服役记录、收入状况以及是否患有与服务相关的残疾等因素。您可以通过拨打免费热线877-222-8387（周一至周五，东部时间上午8:00至晚上8:00）或联系授权代表来获取帮助。此外，您也可以访问VA.gov在线申请或管理您的医疗保健福利。",
+        "citations": [
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "VA.gov Home | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0031",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 社区护理]\n如果您已加入VA医疗保健，了解如何通过社区护理从当地社区的提供者那里获得护理。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0000",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > VA 医疗保健]\n通过 VA 医疗保健，您可以享受由您的初级保健提供者进行的定期检查以及专科医生（如心脏病专家、妇科医生和心理健康服务提供者）的预约。您可以获得退伍军人医疗保健服务，如居家健康和老年（长者）护理，并且可以获得医疗设备、假肢和处方药。了解如何申请和管理您已获得的医疗保健福利。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "text": "[VA医疗保健资格 > 如果我需要帮助填写申请怎么办？]\n您可以通过以下任一方式获得帮助：\n\n- 拨打我们的免费热线 877-222-8387，周一至周五，东部时间上午 8:00 至晚上 8:00。\n\n- 从授权代表（经过培训、可信赖的协助处理 VA 相关索赔的专业人士）处获得帮助。请求代表\n\n- 查找您所在州的退伍军人事务机构"
+        },
+        {
+          "chunk_id": "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "text": "# VA.gov 首页 | 退伍军人事务部\n\n# 访问和管理您的VA福利与医疗保健\n\n## 医疗保健\n\n- 续配并追踪您的处方\n- 向您的医疗团队发送安全消息\n- 安排并查看您的预约\n- 查看您的化验和检测结果\n- 立即申请VA医疗保健\n\n## 残疾\n\n- 查看您的索赔或上诉状态\n- 查看您的支付历史\n- 上传支持您索赔的证据\n- 申请VA残疾等级提升\n- 提交补偿索赔\n\n## 教育\n\n- 查看您的Post-9/11 GI Bill福利\n- 查看您的支付历史\n- 更改您当前的教育福利\n- 按学校比较GI Bill福利\n- 申请教育福利\n\n## 记录\n\n- 获取退伍军人身份证\n- 获取您的VA医疗记录\n- 下载您的福利信函\n- 更改您的地址\n- 申请您的军事记录（DD214）\n\n### 服役人员福利\n\n了解您在服役期间可能有资格享受的福利，以及在分离或退役时应考虑哪些有时限的福利。\n\n### 家庭成员福利\n\n了解您作为配偶、受抚养人或遗属可能符合资格的福利。并了解作为照顾残疾退伍军人的家庭成员，您有资格享受什么。\n\n### 葬礼和纪念\n\n获取在VA国家公墓规划葬礼的帮助，订购墓碑或其他纪念物品以纪念退伍军人的服务，并申请遗属和受抚养人福利。\n\n### 职业与就业\n\n申请职业康复服务，为您的退伍军人拥有的小企业获得支持，并获取其他职业资源。\n\n### 住房援助\n\n了解您是否有资格获得VA支持的住房贷款。如果您有与服务相关的残疾，请查看您是否有资格获得住房补助金，以帮助您更独立地生活。\n\n### 养老金\n\n为战时退伍军人和收入有限或没有收入且符合特定年龄和残疾要求的幸存者申请每月付款。\n\n### 人寿保险\n\n探索VA为退伍军人、服役人员和家庭提供的人寿保险选项。在线管理您的保单，提交福利索赔，并获取有用的资源。\n\n### 教育培训\n\n申请并管理您的GI法案和其他教育福利，以帮助支付大学和培训项目的费用。\n\n### 记录\n\n申请打印的退伍军人身份证，获取您的VA福利信函和医疗记录，并了解如何申请退役升级。\n\n### 医疗保健\n\n申请VA医疗保健，了解如何获取服务，并在线管理您的健康和福利。\n\n### 残疾\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。\n\n#### VA使命法案\n\n了解根据VA使命法案，社区护理的新资格标准。\n\n#### VA官方播客\n\nBorne the Battle聚焦鼓舞人心的退伍军人故事、重要资源、办公室和VA福利。\n\n#### VAntage Point：您可以使用的新闻\n\nVAntage Point是VA的官方博客。在这里，您将找到来自VA和退伍军人社区的故事。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0034",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > VA医疗保健的可及性和质量]\n获取有关您VA设施的信息，例如您能多快被接诊以及其他退伍军人对其体验的评价。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0031",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 社区护理]\n如果您已加入VA医疗保健，了解如何通过社区护理从当地社区的提供者那里获得护理。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0000",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > VA 医疗保健]\n通过 VA 医疗保健，您可以享受由您的初级保健提供者进行的定期检查以及专科医生（如心脏病专家、妇科医生和心理健康服务提供者）的预约。您可以获得退伍军人医疗保健服务，如居家健康和老年（长者）护理，并且可以获得医疗设备、假肢和处方药。了解如何申请和管理您已获得的医疗保健福利。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "text": "[VA医疗保健资格 > 如果我需要帮助填写申请怎么办？]\n您可以通过以下任一方式获得帮助：\n\n- 拨打我们的免费热线 877-222-8387，周一至周五，东部时间上午 8:00 至晚上 8:00。\n\n- 从授权代表（经过培训、可信赖的协助处理 VA 相关索赔的专业人士）处获得帮助。请求代表\n\n- 查找您所在州的退伍军人事务机构"
+        },
+        {
+          "chunk_id": "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "text": "# VA.gov 首页 | 退伍军人事务部\n\n# 访问和管理您的VA福利与医疗保健\n\n## 医疗保健\n\n- 续配并追踪您的处方\n- 向您的医疗团队发送安全消息\n- 安排并查看您的预约\n- 查看您的化验和检测结果\n- 立即申请VA医疗保健\n\n## 残疾\n\n- 查看您的索赔或上诉状态\n- 查看您的支付历史\n- 上传支持您索赔的证据\n- 申请VA残疾等级提升\n- 提交补偿索赔\n\n## 教育\n\n- 查看您的Post-9/11 GI Bill福利\n- 查看您的支付历史\n- 更改您当前的教育福利\n- 按学校比较GI Bill福利\n- 申请教育福利\n\n## 记录\n\n- 获取退伍军人身份证\n- 获取您的VA医疗记录\n- 下载您的福利信函\n- 更改您的地址\n- 申请您的军事记录（DD214）\n\n### 服役人员福利\n\n了解您在服役期间可能有资格享受的福利，以及在分离或退役时应考虑哪些有时限的福利。\n\n### 家庭成员福利\n\n了解您作为配偶、受抚养人或遗属可能符合资格的福利。并了解作为照顾残疾退伍军人的家庭成员，您有资格享受什么。\n\n### 葬礼和纪念\n\n获取在VA国家公墓规划葬礼的帮助，订购墓碑或其他纪念物品以纪念退伍军人的服务，并申请遗属和受抚养人福利。\n\n### 职业与就业\n\n申请职业康复服务，为您的退伍军人拥有的小企业获得支持，并获取其他职业资源。\n\n### 住房援助\n\n了解您是否有资格获得VA支持的住房贷款。如果您有与服务相关的残疾，请查看您是否有资格获得住房补助金，以帮助您更独立地生活。\n\n### 养老金\n\n为战时退伍军人和收入有限或没有收入且符合特定年龄和残疾要求的幸存者申请每月付款。\n\n### 人寿保险\n\n探索VA为退伍军人、服役人员和家庭提供的人寿保险选项。在线管理您的保单，提交福利索赔，并获取有用的资源。\n\n### 教育培训\n\n申请并管理您的GI法案和其他教育福利，以帮助支付大学和培训项目的费用。\n\n### 记录\n\n申请打印的退伍军人身份证，获取您的VA福利信函和医疗记录，并了解如何申请退役升级。\n\n### 医疗保健\n\n申请VA医疗保健，了解如何获取服务，并在线管理您的健康和福利。\n\n### 残疾\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。\n\n#### VA使命法案\n\n了解根据VA使命法案，社区护理的新资格标准。\n\n#### VA官方播客\n\nBorne the Battle聚焦鼓舞人心的退伍军人故事、重要资源、办公室和VA福利。\n\n#### VAntage Point：您可以使用的新闻\n\nVAntage Point是VA的官方博客。在这里，您将找到来自VA和退伍军人社区的故事。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0034",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > VA医疗保健的可及性和质量]\n获取有关您VA设施的信息，例如您能多快被接诊以及其他退伍军人对其体验的评价。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "document": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+          "heading": [
+            "VA医疗保健资格",
+            "如果我需要帮助填写申请怎么办？"
+          ],
+          "source_file": "va_028.md",
+          "excerpt": "[VA医疗保健资格 > 如果我需要帮助填写申请怎么办？]\n您可以通过以下任一方式获得帮助：\n\n- 拨打我们的免费热线 877-222-8387，周一至周五，东部时间上午 8:00 至晚上 8:00。\n\n- 从授权代表（经过培训、可信赖的协助处理 VA 相关索赔的专业人士）处获得帮助。请求代表\n\n- 查找您所在州的退伍军人事务机构"
+        },
+        {
+          "chunk_id": "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "document": "VA.gov Home | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_121.md",
+          "excerpt": "# VA.gov 首页 | 退伍军人事务部\n\n# 访问和管理您的VA福利与医疗保健\n\n## 医疗保健\n\n- 续配并追踪您的处方\n- 向您的医疗团队发送安全消息\n- 安排并查看您的预约\n- 查看您的化验和检测结果\n- 立即申请VA医疗保健\n\n## 残疾\n\n- 查看您的索赔或上诉状态\n- 查看您的支付历史\n- 上传支持您索赔的证据\n- 申请VA残疾等级提升\n- 提交补偿索赔\n\n## 教育\n\n- 查看您的Post-9/11 GI Bill福利\n- 查看您的支付历史\n- 更改您当前的教育福利\n- 按学校比较GI Bill福利\n- 申请教育福利\n\n## 记录\n\n- 获取退伍军人身份证\n- 获取您的VA医疗记录\n- 下载您的福利信函\n- 更改您的地址\n- 申请您的军事记录（DD214）\n\n### 服役人员福利\n\n了解您在服役期间可能有资格享受的福利，以及在分离或退役时应考虑哪些有时限的福利。\n\n### 家庭成员福利\n\n了解您作为配偶、受抚养人或遗属可能符合资格的福利。并了解作为照顾残疾退伍军人的家庭成员，您有资格享受什么。\n\n### 葬礼和纪念\n\n获取在VA国家公墓规划葬礼的帮助，订购墓碑或其他纪念物品以纪念退伍军人的服务，并申请遗属和受抚养人福利。\n\n### 职业与就业\n\n申请职业康复服务，为您的退伍军人拥有的小企业获得支持，并获取其他职业资源。\n\n### 住房援助\n\n了解您是否有资格获得VA支持的住房贷款。如果您有与服务相关的残疾，请查看您是否有资格获得住房补助金，以帮助您更独立地生活。\n\n### 养老金\n\n为战时退伍军人和收入有限或没有收入且符合特定年龄和残疾要求的幸存者申请每月付款。\n\n### 人寿保险\n\n探索VA为退伍军人、服役人员和家庭提供的人寿保险选项。在线管理您的保单，提交福利索赔，并获取有用的资源。\n\n### 教育培训\n\n申请并管理您的GI法案和其他教育福利，以帮助支付大学和培训项目的费用。\n\n### 记录\n\n申请打印的退伍军人身份证，获取您的VA福利信函和医疗记录，并了解如何申请退役升级。\n\n### 医疗保健\n\n申请VA医疗保健，了解如何获取服务，并在线管理您的健康和福利。\n\n### 残疾\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。\n\n#### VA使命法案\n\n了解根据VA使命法案，社区护理的新资格标准。\n\n#### VA官方播客\n\nBorne the Battle聚焦鼓舞人心的退伍军人故事、重要资源、办公室和VA福利。\n\n#### VAntage Point：您可以使用的新闻\n\nVAntage Point是VA的官方博客。在这里，您将找到来自VA和退伍军人社区的故事。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "根据检索到的信息，VA医疗保健的资格匹配主要依据您的服役记录、收入状况以及是否患有与服务相关的残疾等因素。您可以通过拨打免费热线877-222-8387（周一至周五，东部时间上午8:00至晚上8:00）或联系授权代表来获取帮助。此外，您也可以访问VA.gov在线申请或管理您的医疗保健福利。",
+          "citations": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+            "VA.gov Home | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "95d36c5f7b7141259af9b4a32c0206b3",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1468,
+              "completion_tokens": 130,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 130,
+                "prompt_tokens": 1468,
+                "total_tokens": 1598,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1212
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0024158,
+            "accounted_rmb": 0.0024158,
+            "usage_unknown": false,
+            "seconds": 2.04890513420105,
+            "error": null,
+            "response": {
+              "id": "1f5781b7-acea-4ddf-a6cb-ca727faca4fd",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "d67147a727a94c2c8d1283b594a6dd9c9c5567f4dbc96923ed82d88d45ce1f7d"
+      },
+      "latency_ms": {
+        "queue_wait": 0.047375098802149296,
+        "retrieval": 1001.727708033286,
+        "generation": 2052.654166938737,
+        "total": 3056.0537920100614
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.25264333304949105,
+        "rerank_seconds": 0.7490412080660462,
+        "top1_dense_score": 0.7928435802459717,
+        "candidate_ids": [
+          "VA Health Care | Veterans Affairs#1_0::c0020",
+          "VA Health Care | Veterans Affairs#2_0::c0004",
+          "VA Health Care | Veterans Affairs#1_0::c0010",
+          "VA Health Care | Veterans Affairs#2_0::c0003",
+          "VA Health Care | Veterans Affairs#1_0::c0011",
+          "Women's Health Care Needs | Veterans Affairs#1_0::c0001",
+          "Get Your VA Medical Records Online | Veterans Affairs#1_0::c0000",
+          "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0021",
+          "VA Health Care | Veterans Affairs#2_0::c0001",
+          "Schedule And View VA Appointments Online | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0002",
+          "VA Health Care | Veterans Affairs#1_0::c0043",
+          "VA Health Care | Veterans Affairs#1_0::c0031",
+          "VA Health Care | Veterans Affairs#1_0::c0017",
+          "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+          "VA Health Care | Veterans Affairs#1_0::c0034",
+          "VA Health Care | Veterans Affairs#1_0::c0007",
+          "VA Health Care | Veterans Affairs#1_0::c0000",
+          "Access Your VA Life Insurance Policy Online | Veterans Affairs#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 31,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.0017083750572056
+      },
+      "raw_citations": [
+        "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004",
+        "VA.gov Home | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "c08a0b06b374f52f9bd97595a58aa5f5eb1787ce7fa3bd58e023f83655e9145a"
+}

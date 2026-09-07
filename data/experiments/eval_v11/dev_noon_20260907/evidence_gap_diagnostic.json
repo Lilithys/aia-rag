@@ -1,0 +1,3209 @@
+{
+  "summary": {
+    "baseline_dense_k10": {
+      "answer_questions": 71,
+      "block_counts": {
+        "covered": 53,
+        "parse_clean_or_exact_alignment_gap": 4,
+        "retrieval_miss": 21,
+        "chunking_coverage_gap": 1
+      },
+      "questions_with_dropped_heading_evidence": [
+        "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15"
+      ]
+    },
+    "rerank_windowed_k5": {
+      "answer_questions": 71,
+      "block_counts": {
+        "retrieval_miss": 22,
+        "parse_clean_or_exact_alignment_gap": 4,
+        "covered": 52,
+        "chunking_coverage_gap": 1
+      },
+      "questions_with_dropped_heading_evidence": [
+        "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15"
+      ]
+    }
+  },
+  "items": [
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "462ae928f57da285beae94349aa55b3d::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0",
+          "source_block_id": "src_d0168d5e0daa560c::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0044",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Changes to IRP registration#1_0",
+          "source_block_id": "src_efbe5d14582d10af::b0019",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "source_block_id": "src_a7e72635cbc67e69::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+          "source_block_id": "src_7741551c12184f3e::b0014",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "d04210e3e1682b262293a08a35feea1a::agent-turn-4",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "source_block_id": "src_b6332fe4bfa91fda::b0017",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "source_block_id": "src_0fd8893ff0858f65::b0028",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0016",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "17a7ac5e3926bdf5bffe8fb7db868278::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+          "source_block_id": "src_9d23a60388a286b3::b0066",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Open a dealership#3_0",
+          "source_block_id": "src_7aa38d50afadf854::b0014",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner | Social Security Administration#1_0",
+          "source_block_id": "src_1a86e510e6c35849::b0023",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0010",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "source_block_id": "src_0196129ee698d77d::b0002",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+          "source_block_id": "src_cfd05ab823d54f66::b0062",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "82f1b51a42de79a1b3bf975f6a602983::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+          "source_block_id": "src_a558068543684a55::b0034",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "db24af7fe35304299573e34cc59db674::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "source_block_id": "src_0196129ee698d77d::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "source_block_id": "src_91a5a34dade3515b::b0053",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Learner permit restrictions#3_0",
+          "source_block_id": "src_61d84103201f7b75::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "source_block_id": "src_b4298ede9f728ba3::b0016",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+          "source_block_id": "src_213fc867ec0cdad7::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "source_block_id": "src_917f39df9950f75b::b0009",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0006",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "b515792cb5c12eaf734c1ec5ec15023f::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Get a license to drive a taxi or livery vehicle#3_0",
+          "source_block_id": "src_9e84983c44c65ab3::b0019",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+          "source_block_id": "src_f122d52b7d6dc99d::b0013",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "source_block_id": "src_917f39df9950f75b::b0009",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "64b9e9860565971c2d6c1eb869ec7267::agent-turn-12",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Refunds and transfer credits for surrendered plates#3_0",
+          "source_block_id": "src_3e00d6dc5876b08d::b0017",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "source_block_id": "src_01b90552c6cbbacc::b0023",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "source_block_id": "src_01b90552c6cbbacc::b0024",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "b17816a800cd527d849621fa4b91c4e3::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+          "source_block_id": "src_99b1dfe1b745f999::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Driver license and learner permit fees and refunds#3_0",
+          "source_block_id": "src_3cfb0ff7f1efe8ba::b0029",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0",
+          "source_block_id": "src_7e07da2fa594d512::b0004",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "a4f7567e6bc3db63d13ec065b1e781bb::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+          "source_block_id": "src_f9172c0f5305cc9b::b0021",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "87b84182006da589a7337e4112b68410::agent-turn-10",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Exposure Through Project 112 Or Project SHAD | Veterans Affairs#1_0",
+          "source_block_id": "src_9b4b9ed51ef54d91::b0007",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0037",
+          "category": "chunking_coverage_gap",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": true
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "source_block_id": "src_0af817d809792174::b0010",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "source_block_id": "src_0af817d809792174::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "60f033db0967c2394c27bacb96bb7360::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "source_block_id": "src_0c08649676c24a87::b0005",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "source_block_id": "src_0c08649676c24a87::b0023",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Replace license or permit#1_0",
+          "source_block_id": "src_cfe92760f00894ac::b0043",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "dfd7637934ad85f1ebc52893c7a86ae2::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+          "source_block_id": "src_50858554797d8ac8::b0014",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "source_block_id": "src_91a5a34dade3515b::b0007",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "source_block_id": "src_7a10651e9ac7fee0::b0018",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5e9a8180c628087aad71d3cc476fe67d::agent-turn-2",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Family And Caregiver Health Benefits | Veterans Affairs#1_0",
+          "source_block_id": "src_068eeae27d3fb974::b0003",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Disability Benefits | Social Security Administration#2_0",
+          "source_block_id": "src_85a2ea3f2946fa1b::b0034",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Medical Certification Requirements#3_0",
+          "source_block_id": "src_a1e8435b6030ed91::b0022",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "source_block_id": "src_b442908c22a3da40::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "source_block_id": "src_0fd8893ff0858f65::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "source_block_id": "src_917f39df9950f75b::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0045",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "459b8bfd975e9856a8e7a35f5ff76bd0::agent-turn-6",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "source_block_id": "src_57921172c99c2362::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "source_block_id": "src_57921172c99c2362::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "source_block_id": "src_b4298ede9f728ba3::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+          "source_block_id": "src_d326e6ec70f63c00::b0007",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "source_block_id": "src_92414addfbfe2d44::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "source_block_id": "src_e4f6b8031c3c3bca::b0022",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "1cabeb72084d575e41e1dc66470a2802::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Change of Address| Social Security Administration#2_0",
+          "source_block_id": "src_1283eff4d69f6884::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "9a80c2a728dcb8f19531b4ee2a4f5efa::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+          "source_block_id": "src_fbc3696d1b670d3f::b0011",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "source_block_id": "src_3b51ed11e0235f64::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "05d1233e323f975fe059cf5f94bd5bf1::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "c40b51cba6ce84eb948a72e484ad7a43::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0",
+          "source_block_id": "src_153b56367db31253::b0007",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Learner permit restrictions#3_0",
+          "source_block_id": "src_61d84103201f7b75::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Learner permit restrictions#3_0",
+          "source_block_id": "src_61d84103201f7b75::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+          "source_block_id": "src_bfe92dd26b1ec0df::b0018",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "source_block_id": "src_2ec1a78e7102805c::b0031",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "source_block_id": "src_2ec1a78e7102805c::b0039",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+          "source_block_id": "src_fea6e0b27b0b0e40::b0035",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "source_block_id": "src_08c54c534585a3f7::b0005",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "False Certification Discharge | Federal Student Aid#1_0",
+          "source_block_id": "src_85010da1c1417647::b0020",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "source_block_id": "src_b4b7acc9412923c3::b0027",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0018",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0041",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Program Reviews | Federal Student Aid#1_0",
+          "source_block_id": "src_2a10b92984139405::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "source_block_id": "src_c00d428ae0b60a04::b0011",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "source_block_id": "src_6a02848cc925c98e::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "source_block_id": "src_08c54c534585a3f7::b0005",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "source_block_id": "src_e4f6b8031c3c3bca::b0016",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "462ae928f57da285beae94349aa55b3d::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0",
+          "source_block_id": "src_d0168d5e0daa560c::b0003",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0044",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Changes to IRP registration#1_0",
+          "source_block_id": "src_efbe5d14582d10af::b0019",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "source_block_id": "src_a7e72635cbc67e69::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+          "source_block_id": "src_7741551c12184f3e::b0014",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "d04210e3e1682b262293a08a35feea1a::agent-turn-4",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "source_block_id": "src_b6332fe4bfa91fda::b0017",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "source_block_id": "src_0fd8893ff0858f65::b0028",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0016",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "17a7ac5e3926bdf5bffe8fb7db868278::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+          "source_block_id": "src_9d23a60388a286b3::b0066",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Open a dealership#3_0",
+          "source_block_id": "src_7aa38d50afadf854::b0014",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner | Social Security Administration#1_0",
+          "source_block_id": "src_1a86e510e6c35849::b0023",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0010",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "source_block_id": "src_0196129ee698d77d::b0002",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+          "source_block_id": "src_cfd05ab823d54f66::b0062",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "82f1b51a42de79a1b3bf975f6a602983::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+          "source_block_id": "src_a558068543684a55::b0034",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "db24af7fe35304299573e34cc59db674::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "source_block_id": "src_0196129ee698d77d::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "source_block_id": "src_91a5a34dade3515b::b0053",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Learner permit restrictions#3_0",
+          "source_block_id": "src_61d84103201f7b75::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "source_block_id": "src_b4298ede9f728ba3::b0016",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+          "source_block_id": "src_213fc867ec0cdad7::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "source_block_id": "src_917f39df9950f75b::b0009",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0006",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "b515792cb5c12eaf734c1ec5ec15023f::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Get a license to drive a taxi or livery vehicle#3_0",
+          "source_block_id": "src_9e84983c44c65ab3::b0019",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+          "source_block_id": "src_f122d52b7d6dc99d::b0013",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "source_block_id": "src_917f39df9950f75b::b0009",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "64b9e9860565971c2d6c1eb869ec7267::agent-turn-12",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Refunds and transfer credits for surrendered plates#3_0",
+          "source_block_id": "src_3e00d6dc5876b08d::b0017",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "source_block_id": "src_01b90552c6cbbacc::b0023",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "source_block_id": "src_01b90552c6cbbacc::b0024",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "b17816a800cd527d849621fa4b91c4e3::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+          "source_block_id": "src_99b1dfe1b745f999::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Driver license and learner permit fees and refunds#3_0",
+          "source_block_id": "src_3cfb0ff7f1efe8ba::b0029",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0",
+          "source_block_id": "src_7e07da2fa594d512::b0004",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "a4f7567e6bc3db63d13ec065b1e781bb::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+          "source_block_id": "src_f9172c0f5305cc9b::b0021",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "87b84182006da589a7337e4112b68410::agent-turn-10",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Exposure Through Project 112 Or Project SHAD | Veterans Affairs#1_0",
+          "source_block_id": "src_9b4b9ed51ef54d91::b0007",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0037",
+          "category": "chunking_coverage_gap",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": true
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "source_block_id": "src_0af817d809792174::b0010",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "source_block_id": "src_0af817d809792174::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "60f033db0967c2394c27bacb96bb7360::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "source_block_id": "src_0c08649676c24a87::b0005",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "source_block_id": "src_0c08649676c24a87::b0023",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Replace license or permit#1_0",
+          "source_block_id": "src_cfe92760f00894ac::b0043",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "dfd7637934ad85f1ebc52893c7a86ae2::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+          "source_block_id": "src_50858554797d8ac8::b0014",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "source_block_id": "src_91a5a34dade3515b::b0007",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "source_block_id": "src_7a10651e9ac7fee0::b0018",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5e9a8180c628087aad71d3cc476fe67d::agent-turn-2",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Family And Caregiver Health Benefits | Veterans Affairs#1_0",
+          "source_block_id": "src_068eeae27d3fb974::b0003",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Disability Benefits | Social Security Administration#2_0",
+          "source_block_id": "src_85a2ea3f2946fa1b::b0034",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Medical Certification Requirements#3_0",
+          "source_block_id": "src_a1e8435b6030ed91::b0022",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "source_block_id": "src_b442908c22a3da40::b0008",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "source_block_id": "src_0fd8893ff0858f65::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "source_block_id": "src_917f39df9950f75b::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0045",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "459b8bfd975e9856a8e7a35f5ff76bd0::agent-turn-6",
+      "document_format": "pdf_text",
+      "blocks": [
+        {
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "source_block_id": "src_57921172c99c2362::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "source_block_id": "src_57921172c99c2362::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "source_block_id": "src_b4298ede9f728ba3::b0011",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+          "source_block_id": "src_d326e6ec70f63c00::b0007",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "source_block_id": "src_92414addfbfe2d44::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "source_block_id": "src_e4f6b8031c3c3bca::b0022",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "1cabeb72084d575e41e1dc66470a2802::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Change of Address| Social Security Administration#2_0",
+          "source_block_id": "src_1283eff4d69f6884::b0008",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "9a80c2a728dcb8f19531b4ee2a4f5efa::agent-turn-2",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+          "source_block_id": "src_fbc3696d1b670d3f::b0011",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "document_format": "docx",
+      "blocks": [
+        {
+          "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "source_block_id": "src_3b51ed11e0235f64::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "05d1233e323f975fe059cf5f94bd5bf1::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "c40b51cba6ce84eb948a72e484ad7a43::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0",
+          "source_block_id": "src_153b56367db31253::b0007",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Learner permit restrictions#3_0",
+          "source_block_id": "src_61d84103201f7b75::b0003",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Learner permit restrictions#3_0",
+          "source_block_id": "src_61d84103201f7b75::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+          "source_block_id": "src_bfe92dd26b1ec0df::b0018",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "source_block_id": "src_2ec1a78e7102805c::b0031",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "source_block_id": "src_2ec1a78e7102805c::b0039",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+          "source_block_id": "src_fea6e0b27b0b0e40::b0035",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "source_block_id": "src_08c54c534585a3f7::b0005",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "False Certification Discharge | Federal Student Aid#1_0",
+          "source_block_id": "src_85010da1c1417647::b0020",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "source_block_id": "src_b4b7acc9412923c3::b0027",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "source_block_id": "src_c89b7c804f4349b5::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+      "document_format": "pdf_scanned",
+      "blocks": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0018",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        },
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "source_block_id": "src_eac1506b824bb3f9::b0041",
+          "category": "parse_clean_or_exact_alignment_gap",
+          "exact_source_text_in_clean_document": false,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Program Reviews | Federal Student Aid#1_0",
+          "source_block_id": "src_2a10b92984139405::b0004",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "source_block_id": "src_c00d428ae0b60a04::b0011",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "source_block_id": "src_6a02848cc925c98e::b0012",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+      "document_format": "markdown",
+      "blocks": [
+        {
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "source_block_id": "src_08c54c534585a3f7::b0005",
+          "category": "retrieval_miss",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "document_format": "txt",
+      "blocks": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "source_block_id": "src_e4f6b8031c3c3bca::b0016",
+          "category": "covered",
+          "exact_source_text_in_clean_document": true,
+          "contained_in_dropped_heading": false
+        }
+      ]
+    }
+  ],
+  "corpus_dropped_heading_nodes": [
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "何时需要进行安全检查",
+      "characters": 10
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "所有在纽约州注册的车辆必须在DMV授权的检查站进行安全检查",
+      "characters": 29
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "如果您的车辆没有有效的检查",
+      "characters": 13
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "您将无法更新注册 1 您可能会被罚款 2 您可能会收到停车罚单 3",
+      "characters": 33
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "大多数车辆在安全检查时还必须进行排放检查（或柴油排放检查 [1]）。 4",
+      "characters": 36
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "查找您附近的检查站 [6]",
+      "characters": 13
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "要获得延期，请邮寄以下信息",
+      "characters": 13
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "您的姓名和当前外州邮寄地址 您车辆的年份和品牌 车辆牌照号 检查贴纸编号和到期日期",
+      "characters": 41
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "在您将车辆返回纽约州后",
+      "characters": 11
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "format": "txt",
+      "heading": "在延期标签上写上车辆返回纽约的日期 将标签贴在挡风玻璃上 在10天内让您的车辆接受检查",
+      "characters": 43
+    },
+    {
+      "doc_id": "Escort driver certification#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "登录 ACH，网址为 https://secap.dmv.ny.gov/vpass/ [1]",
+      "characters": 46
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "我可以使用 escrow account（托管账户）支付哪些 DMV 产品和服务？",
+      "characters": 41
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "DMV Revenue Accounts（DMV收入账户）邮寄地址、投递箱位置和传真号码",
+      "characters": 44
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "使用以下地址通过支票或汇票向您的 escrow account（托管账户）充值或发送信函：",
+      "characters": 45
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "DMV Revenue Accounts PO Box 2409 Albany, NY 12220-0409",
+      "characters": 54
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "通过快递或隔夜邮件",
+      "characters": 9
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "DMV Revenue Accounts Room 233A 6 Empire State Plaza Albany, NY 12228",
+      "characters": 68
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "投递箱位置",
+      "characters": 5
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "DMV Customer Service Counter 1st Floor, Swan Street Building 6 Empire State Plaza Albany, NY 12228",
+      "characters": 98
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "传真号码：",
+      "characters": 5
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "电子邮件：",
+      "characters": 5
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "如果您有兴趣注册此服务，您必须下载并填写这些表格",
+      "characters": 24
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "直接存款授权协议（PDF）[3]（FM-138）",
+      "characters": 24
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "format": "txt",
+      "heading": "ACH联络人指定（PDF）[4]（FM-139）",
+      "characters": 24
+    },
+    {
+      "doc_id": "File a Freedom of Information Law (FOIL) request#1_0",
+      "format": "markdown",
+      "heading": "在 megamenu 中显示 \"do it online\" 按钮：",
+      "characters": 33
+    },
+    {
+      "doc_id": "File a Freedom of Information Law (FOIL) request#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "第一步：确定您需要的执照类别和类型",
+      "characters": 17
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "更换、续期、恢复或交换",
+      "characters": 11
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "附加信息",
+      "characters": 4
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "来自其他国家的驾驶员",
+      "characters": 10
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "主题：",
+      "characters": 3
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "驾驶执照 [18]",
+      "characters": 9
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "mv44.pdf",
+      "characters": 8
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "mv45.pdf",
+      "characters": 8
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "mv262.pdf",
+      "characters": 9
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "format": "txt",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "第一阶段 - 2015年4月",
+      "characters": 14
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "第二阶段 - 2015年5月",
+      "characters": 14
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "第三阶段 - 2015年6月",
+      "characters": 14
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "E - 无手动变速器装备的CMV L - 无气刹装备的CMV Z - 无全气刹装备的CMV限制",
+      "characters": 47
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "商业文件变更",
+      "characters": 6
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "以下联邦强制规定的变更将应用于商业文件：",
+      "characters": 20
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "CL文件将印有警告“仅在持有纽约州驾照时有效” 临时（无照片）驾照和许可自签发之日起仅有效60天",
+      "characters": 48
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "第4阶段 - 2015年7月",
+      "characters": 14
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "新的吊销",
+      "characters": 4
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "新联邦规定的一年商业吊销将发给被发现犯有、或被判犯有与以下相关的伪造、虚假陈述或欺诈行为的驾驶员：",
+      "characters": 49
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "申请CLP/CDL 自我认证驾驶类型 体检医师证明",
+      "characters": 25
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "商业文件变更",
+      "characters": 6
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "雇主责任扩展至CLP",
+      "characters": 10
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "format": "txt",
+      "heading": "参考",
+      "characters": 2
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "format": "txt",
+      "heading": "谁必须支付？",
+      "characters": 6
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "format": "txt",
+      "heading": "联系方式：",
+      "characters": 5
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "format": "txt",
+      "heading": "保险服务局NYS DMV6 Empire State Plaza, Room 332BAlbany, NY 12228",
+      "characters": 59
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "format": "txt",
+      "heading": "主题：",
+      "characters": 3
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "format": "txt",
+      "heading": "罚单 [7]",
+      "characters": 6
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "format": "txt",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Pay suspension termination fee#1_0",
+      "format": "markdown",
+      "heading": "在 megamenu 中显示 \"do it online\" 按钮：",
+      "characters": 33
+    },
+    {
+      "doc_id": "Pay suspension termination fee#1_0",
+      "format": "markdown",
+      "heading": "在 megamenu 中显示 mydmv 按钮：",
+      "characters": 24
+    },
+    {
+      "doc_id": "Pay suspension termination fee#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Plead to or pay TVB tickets#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "在州外注册车辆 [1]",
+      "characters": 11
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "当我在纽约州以外时如何注册？",
+      "characters": 14
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "你可以从纽约以外的地方通过邮件申请纽约州注册和所有权证书。你需要将这些物品邮寄到当地的DMV办公室 [2] 1",
+      "characters": 55
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "一份填好的车辆注册/所有权申请表 (PDF) [3] (MV-82)",
+      "characters": 34
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "所有权证明 2（必须是原件；我们不接受复印件）",
+      "characters": 23
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "纽约州汽车责任保险证明 3",
+      "characters": 13
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "身份和年龄证明 4（寄复印件给我们；不要寄原件）",
+      "characters": 24
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "一旦我们处理了你的申请，我们会将以下物品打包寄给你",
+      "characters": 25
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "对于 1973 年款或更新的轿车、卡车和摩托车，证明可以是",
+      "characters": 29
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "主题：",
+      "characters": 3
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "注册 [11]",
+      "characters": 7
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "相关PDF：",
+      "characters": 6
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "mv82.pdf",
+      "characters": 8
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "mv821.pdf",
+      "characters": 9
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "id82.pdf",
+      "characters": 8
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "format": "txt",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Replace a non-driver ID card#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Replace license or permit#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Restore license after revocation#1_0",
+      "format": "markdown",
+      "heading": "禁用此交易？：",
+      "characters": 7
+    },
+    {
+      "doc_id": "Vision requirements & restrictions#3_0",
+      "format": "txt",
+      "heading": "你的视力护理报告（MV-619）必须由以下人员完成",
+      "characters": 25
+    },
+    {
+      "doc_id": "Medicare Benefits | Social Security Administration#1_0",
+      "format": "pdf_text",
+      "heading": "关于我们的在线申请的问题",
+      "characters": 12
+    },
+    {
+      "doc_id": "Retirement Benefits | Social Security Administration#1_0",
+      "format": "markdown",
+      "heading": "Questions about our Social Security Retirement Benefits Application",
+      "characters": 67
+    },
+    {
+      "doc_id": "Retirement Benefits | Social Security Administration#2_0",
+      "format": "markdown",
+      "heading": "Questions about our Social Security Retirement Benefits Application",
+      "characters": 67
+    },
+    {
+      "doc_id": "Aid for International Study | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Aid for International Study | Federal Student Aid",
+      "characters": 49
+    },
+    {
+      "doc_id": "Aid for Military Families | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "军人家庭援助 | 联邦学生援助",
+      "characters": 15
+    },
+    {
+      "doc_id": "Avoiding Student Aid Scams | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Avoiding Student Aid Scams | Federal Student Aid",
+      "characters": 48
+    },
+    {
+      "doc_id": "Borrower Defense to Repayment | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "借款人抗辩还款 | 联邦学生援助",
+      "characters": 16
+    },
+    {
+      "doc_id": "Choosing a School | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "选择学校 | 联邦学生资助",
+      "characters": 13
+    },
+    {
+      "doc_id": "Closed School Discharge | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "学校关闭贷款免除 | 联邦学生援助",
+      "characters": 17
+    },
+    {
+      "doc_id": "Collections | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Collections | Federal Student Aid",
+      "characters": 33
+    },
+    {
+      "doc_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "填写FAFSA®表格 | 联邦学生援助",
+      "characters": 19
+    },
+    {
+      "doc_id": "Getting Out of Default | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Getting Out of Default | Federal Student Aid",
+      "characters": 44
+    },
+    {
+      "doc_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Income-Driven Repayment Plans | Federal Student Aid",
+      "characters": 51
+    },
+    {
+      "doc_id": "IT Standards Library | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "IT 标准库 | 联邦学生援助",
+      "characters": 15
+    },
+    {
+      "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Listing Colleges on the FAFSA® Form | Federal Student Aid",
+      "characters": 57
+    },
+    {
+      "doc_id": "Loan Repayment Checklist | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Loan Repayment Checklist | Federal Student Aid",
+      "characters": 46
+    },
+    {
+      "doc_id": "Loan Servicers | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "贷款服务商 | 联邦学生援助",
+      "characters": 14
+    },
+    {
+      "doc_id": "Loans | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Loans | Federal Student Aid",
+      "characters": 27
+    },
+    {
+      "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Parent PLUS Loans | Federal Student Aid",
+      "characters": 39
+    },
+    {
+      "doc_id": "Perkins Loan Cancellation and Discharge | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Perkins Loan Cancellation and Discharge | Federal Student Aid",
+      "characters": 61
+    },
+    {
+      "doc_id": "Public Service Loan Forgiveness | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Public Service Loan Forgiveness | Federal Student Aid",
+      "characters": 53
+    },
+    {
+      "doc_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "关于FAFSA®完成数据的问答 | 联邦学生援助",
+      "characters": 24
+    },
+    {
+      "doc_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "技术和分析",
+      "characters": 5
+    },
+    {
+      "doc_id": "Reporting Parent Information | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "报告家长信息 | 联邦学生援助",
+      "characters": 15
+    },
+    {
+      "doc_id": "Student Loan Consolidation | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "学生贷款合并 | 联邦学生援助",
+      "characters": 15
+    },
+    {
+      "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "学生贷款延期偿还 | 联邦学生援助",
+      "characters": 17
+    },
+    {
+      "doc_id": "Student Loan Repayment | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Student Loan Repayment | Federal Student Aid",
+      "characters": 44
+    },
+    {
+      "doc_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Subsidized and Unsubsidized Loans | Federal Student Aid",
+      "characters": 55
+    },
+    {
+      "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Teacher Loan Forgiveness | Federal Student Aid",
+      "characters": 46
+    },
+    {
+      "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "Total and Permanent Disability Discharge | Federal Student Aid",
+      "characters": 62
+    },
+    {
+      "doc_id": "Understanding College Costs | Federal Student Aid#1_0",
+      "format": "markdown",
+      "heading": "了解大学费用 | 联邦学生援助",
+      "characters": 15
+    },
+    {
+      "doc_id": "About VA Disability Ratings | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "关于VA伤残等级 | 退伍军人事务部",
+      "characters": 18
+    },
+    {
+      "doc_id": "About VA Health Benefits | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "关于 VA 健康福利 | Veterans Affairs",
+      "characters": 29
+    },
+    {
+      "doc_id": "Agent Orange Exposure | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "Agent Orange Exposure | Veterans Affairs",
+      "characters": 40
+    },
+    {
+      "doc_id": "Benefits For Spouses And Dependents (VA DIC) | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "配偶和受抚养人的福利（VA DIC）| Veterans Affairs",
+      "characters": 36
+    },
+    {
+      "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+      "format": "pdf_scanned",
+      "heading": "我如何知道我的听证会何时安排?退伍军人上诉委员会按案卷顺序(收到请求的顺序)安排听证会。您将在听证会安排前至少30天收到邮件通知。通知娄告知您听证会的日期、时间和地点。",
+      "characters": 84
+    },
+    {
+      "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+      "format": "pdf_scanned",
+      "heading": "为你的委员会听证会做准备",
+      "characters": 12
+    },
+    {
+      "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+      "format": "pdf_scanned",
+      "heading": "获取听证会准备帮助",
+      "characters": 9
+    },
+    {
+      "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+      "format": "pdf_scanned",
+      "heading": "重新安排或撤回你的委员会听证会请求",
+      "characters": 17
+    },
+    {
+      "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+      "format": "pdf_scanned",
+      "heading": "如果我需要重新安排听证会怎么办?您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。如果您的听证会距离现在不足2周，您需要提交动议，说明需要重新安排的原因。重新安排的充分理由示例包括:您、您的代表或证人患病，或者您在获取记录方面遇到困难。法官将审核您的请求，当法官决定是否可以重新安排听证会时，您特通过邮件收到通知。",
+      "characters": 241
+    },
+    {
+      "doc_id": "Careers And Employment | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "职业与就业 | 退伍军人事务部",
+      "characters": 15
+    },
+    {
+      "doc_id": "CHAMPVA Benefits | Veterans Affairs#1_0",
+      "format": "pdf_scanned",
+      "heading": "提交申请后会发生什么?收到您的申请后，我们会进行审核,以确保其完整并包含所有必需表格。如果申请不完整，我们会将其退回给您，并附上更多说明。下载申请说明( PDF )",
+      "characters": 82
+    },
+    {
+      "doc_id": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "退伍军人事务部医疗保健资格 | Veterans Affairs",
+      "characters": 32
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "以下情况之一必须属实。该军人必须：",
+      "characters": 17
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "谁受保障？",
+      "characters": 5
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "受 SGLI 覆盖的军人的配偶 受 SGLI 覆盖的军人的受抚养子女",
+      "characters": 34
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "我如何获得这些福利？",
+      "characters": 10
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "要访问SOES，请让您的军人成员：",
+      "characters": 17
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "我的军人成员可以更改我的保险吗？",
+      "characters": 16
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "要访问SOES，请让您的军人：",
+      "characters": 15
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "要在18岁后继续获得受抚养人保险，必须满足以下条件之一。孩子：",
+      "characters": 31
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "是全日制学生，或 在18岁前成为永久性完全残疾，且无法自食其力",
+      "characters": 31
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "我如何将配偶FSGLI保单转换为个人保险保单？",
+      "characters": 23
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "您可以选择在您的军人以下日期后的120天内，将配偶FSGLI保险转换为永久性个人保险保单（如终身寿险）：",
+      "characters": 52
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "最后更新：",
+      "characters": 5
+    },
+    {
+      "doc_id": "Fully Developed Claim For A VA Pension | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "完全开发的VA养老金索赔 | Veterans Affairs",
+      "characters": 31
+    },
+    {
+      "doc_id": "GI Bill Eligibility | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "GI法案资格 | 退伍军人事务部",
+      "characters": 16
+    },
+    {
+      "doc_id": "How To Apply For A Veteran ID Card | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "如何申请退伍军人身份证 | 退伍军人事务部",
+      "characters": 21
+    },
+    {
+      "doc_id": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs",
+      "characters": 59
+    },
+    {
+      "doc_id": "Post-9/11 GI Bill | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "Post-9/11 GI Bill | Veterans Affairs",
+      "characters": 36
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "查找VA国家公墓",
+      "characters": 8
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "申请需要提供哪些信息？",
+      "characters": 11
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "如果您代表他人申请，您还需要提供证明您有权为该人申请的支持性文件。您需要填写以下表格之一：",
+      "characters": 45
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "指定退伍军人服务组织为申请人代表（VA表格21-22）下载VA表格21-22（PDF）",
+      "characters": 43
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "残疾开始的日期，以及 对残疾（精神或身体）的描述，以及 对残疾子女依赖退伍军人程度的描述，以及 子女的婚姻状况",
+      "characters": 55
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "您也可以通过以下方式申请：",
+      "characters": 13
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "邮寄申请",
+      "characters": 4
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "将您填好的申请（连同支持文件的副本）寄至：",
+      "characters": 21
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "申请后会发生什么？",
+      "characters": 9
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "最后更新：",
+      "characters": 5
+    },
+    {
+      "doc_id": "PTSD Treatment | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "PTSD 治疗 | Veterans Affairs",
+      "characters": 26
+    },
+    {
+      "doc_id": "Request a Higher-Level Review | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "Request a Higher-Level Review | Veterans Affairs",
+      "characters": 48
+    },
+    {
+      "doc_id": "Schedule A Burial For A Veteran Or Family Member | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "为退伍军人或家属安排安葬 | 退伍军人事务部",
+      "characters": 22
+    },
+    {
+      "doc_id": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "军人团体人寿保险（SGLI） | 退伍军人事务部",
+      "characters": 24
+    },
+    {
+      "doc_id": "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "完全残疾或身患绝症的投保人 | 退伍军人事务部",
+      "characters": 23
+    },
+    {
+      "doc_id": "VA Benefits For Service Members | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "军人退伍军人福利 | 退伍军人事务部",
+      "characters": 18
+    },
+    {
+      "doc_id": "VA Benefits For Service Members | Veterans Affairs#2_0",
+      "format": "markdown",
+      "heading": "VA Benefits For Service Members | Veterans Affairs",
+      "characters": 50
+    },
+    {
+      "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "VA 索赔检查（C&P 检查）| 退伍军人事务部",
+      "characters": 24
+    },
+    {
+      "doc_id": "VA Education Benefits | Veterans Affairs#2_0",
+      "format": "markdown",
+      "heading": "VA教育福利 | 退伍军人事务部",
+      "characters": 16
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "本页内容",
+      "characters": 4
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "获取 VA 医疗保健 管理您的健康与福利 更多信息和资源",
+      "characters": 28
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "如果我无家可归或有成为无家可归者的风险，我该如何获得帮助？",
+      "characters": 29
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "获取 VA 医疗保健",
+      "characters": 10
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "管理您的健康和福利",
+      "characters": 9
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "更多信息和资源",
+      "characters": 7
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "其他VA福利和服务",
+      "characters": 9
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "最后更新：",
+      "characters": 5
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "在线提问",
+      "characters": 4
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "获取更新",
+      "characters": 4
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "退伍军人健康电子邮件更新",
+      "characters": 12
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "关注我们",
+      "characters": 4
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "format": "txt",
+      "heading": "退伍军人健康管理局 Twitter - 退伍军人健康管理局 Facebook - 退伍军人健康管理局 YouTube",
+      "characters": 58
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#2_0",
+      "format": "markdown",
+      "heading": "VA Health Care | Veterans Affairs",
+      "characters": 33
+    },
+    {
+      "doc_id": "VA Mental Health Services | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "VA心理健康服务 | 退伍军人事务部",
+      "characters": 18
+    },
+    {
+      "doc_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "VA Nursing Homes And Assisted Living | Veterans Affairs",
+      "characters": 55
+    },
+    {
+      "doc_id": "Your Health Care Costs | Veterans Affairs#1_0",
+      "format": "markdown",
+      "heading": "您的医疗保健费用 | 退伍军人事务部",
+      "characters": 18
+    }
+  ],
+  "corpus_dropped_heading_nodes_n": 177,
+  "heading_only_minimal_repro": {
+    "input": "# A hearing request must include good cause.\n\n# Other section\nOther details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. Other details. ",
+    "chunk_size": 32,
+    "overlap": 0,
+    "emitted_chunks": 13,
+    "heading_fact_present": false,
+    "trigger": "Parent exceeds merge threshold; standalone heading-only leaf is visited separately."
+  },
+  "caveat": "Exact alignment gaps do not prove loss of every answer fact. Dropped heading nodes can be navigation, so do not equate their count with missing answers.",
+  "bundle_sha256": "fe806834a9349ce53cd58b0be9466c3043b339c366fe7fb430c2a3e526765755",
+  "chunks_sha256": "b5279f31d344dab9055e132febe4e470550ff3cc1a9f6a9121afbe96005b1e14",
+  "corpus_manifest_sha256": "e795c921b9c7d9478f9f02bc67eab5d5b7674bfa96886a250db17b8674e3071a",
+  "script_sha256": "497453c6f1b30706a68ce7f3a1a30a20a43c7edbbceb3907ef56143f7f4af709",
+  "holdout_generated_or_judged": false
+}

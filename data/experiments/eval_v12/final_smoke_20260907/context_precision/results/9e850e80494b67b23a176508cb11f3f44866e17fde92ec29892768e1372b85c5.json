@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "9e850e80494b67b23a176508cb11f3f44866e17fde92ec29892768e1372b85c5",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.0,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about the appeals process but does not contain specific instructions about mailing documents or including the Social Security number on a separate sheet. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e8adeda0b5f44104aec260ac16286ea1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1964,
+                "completion_tokens": 53,
+                "cached_tokens": 1920,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1964,
+                  "total_tokens": 2017,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1920,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1920,
+                  "prompt_cache_miss_tokens": 44
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004005,
+              "accounted_rmb": 0.0004005,
+              "usage_unknown": false,
+              "seconds": 1.1084628105163574,
+              "error": null,
+              "response": {
+                "id": "dc6ba84b-2073-4356-8f55-e244d52279d5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "365716382f4a729d7c1d09fa3be848f79ed6754fe91d46e14e3b337be5cc7f9e"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about the appeals process but does not contain specific instructions about mailing documents or including the Social Security number on a separate sheet. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3ed8f95258e6493c9d344a1a8253797b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1970,
+                "completion_tokens": 53,
+                "cached_tokens": 1920,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1970,
+                  "total_tokens": 2023,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1920,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1920,
+                  "prompt_cache_miss_tokens": 50
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004095,
+              "accounted_rmb": 0.0004095,
+              "usage_unknown": false,
+              "seconds": 1.2952558994293213,
+              "error": null,
+              "response": {
+                "id": "235931e5-5131-4b41-a431-e2d0ffd16de6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c83e49735c50a92bf5a496defe09aaaf8af97ba38890e633106788ad5123874c"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about appealing a decision, including the 60-day deadline and levels of appeal, but it does not contain specific instructions about mailing documents or including the Social Security number on a separate sheet. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ff1b519ba3ac4a0aa118e8014ce0df9b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1423,
+                "completion_tokens": 66,
+                "cached_tokens": 1408,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 66,
+                  "prompt_tokens": 1423,
+                  "total_tokens": 1489,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1408,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1408,
+                  "prompt_cache_miss_tokens": 15
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0003899,
+              "accounted_rmb": 0.0003899,
+              "usage_unknown": false,
+              "seconds": 1.3436391353607178,
+              "error": null,
+              "response": {
+                "id": "6ddd3d85-b04b-4b53-901b-8b45310d2def",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f06ea56080879218f9ea52416efce5269e42816b02d3eddd7cd8d43036624ac7"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about applying for disability benefits and the appeals process, but it does not contain specific instructions about mailing documents with a separate sheet for the Social Security number. The answer is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "6330392bec55453c92363de727b4cdba",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1844,
+                "completion_tokens": 60,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 60,
+                  "prompt_tokens": 1844,
+                  "total_tokens": 1904,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 52
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004376,
+              "accounted_rmb": 0.0004376,
+              "usage_unknown": false,
+              "seconds": 1.183203935623169,
+              "error": null,
+              "response": {
+                "id": "cd2f7f8b-e334-417c-813e-2f89c251277c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b03b9de13f281599c71f0b45e15cc05d7d2a47c567ca844b7236142ac9b3c7a7"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses appealing a denial of a driver's license in New York, not Social Security benefits. The answer about mailing documents with a Social Security number is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e8c2b149b69d45cf9def730ad585bb49",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1775,
+                "completion_tokens": 52,
+                "cached_tokens": 1664,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1775,
+                  "total_tokens": 1827,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1664,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1664,
+                  "prompt_cache_miss_tokens": 111
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004837,
+              "accounted_rmb": 0.0004837,
+              "usage_unknown": false,
+              "seconds": 1.5069408416748047,
+              "error": null,
+              "response": {
+                "id": "d429c190-f12b-4c3b-a84b-bb909d369a24",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "42d3424eaf0d8506e2068d3e627c0a5a2060f4b62bec1a9c4aa22edc705ab90e"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "ecd283ca8a145182f46c970c99dd40a98b82970e1342323fe7cb223205d4ae1a"
+}

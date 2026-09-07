@@ -1,0 +1,282 @@
+{
+  "payload": {
+    "task_id": "8fe83ac440ae2fcf722a96a39f4a184df644d3585a64a99a94fd5808aa02b523",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "既然您没有收到不光彩退伍令，那么根据VA养老金资格要求，您还需要满足其他条件。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that not receiving a dishonorable discharge is one of the requirements, and other conditions must also be met."
+              },
+              {
+                "text": "您的年度家庭收入和净资产必须符合国会设定的限额。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context explicitly states that yearly family income and net worth must meet limits set by Congress."
+              },
+              {
+                "text": "净资产包括您拥有的所有个人财产（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务，且包括您配偶的净资产。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context provides the exact definition of net worth including spouse's net worth."
+              },
+              {
+                "text": "您在1980年9月7日或之前开始服现役，并服役至少90天，其中至少1天在战时期间；或",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists this as one of the service requirements."
+              },
+              {
+                "text": "您在1980年9月7日之后作为入伍人员开始服现役，并服役至少24个月或完成您被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间；或",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists this as another service requirement."
+              },
+              {
+                "text": "您是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists this as the third service requirement."
+              },
+              {
+                "text": "年满65岁，或",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that being at least 65 years old is one of the conditions."
+              },
+              {
+                "text": "有永久性完全残疾，或",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that having a permanent and total disability is one of the conditions."
+              },
+              {
+                "text": "因残疾而长期住在养老院，或",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that being a patient in a nursing home for long-term care because of a disability is one of the conditions."
+              },
+              {
+                "text": "正在领取社会保障残疾保险或补充保障收入。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that getting Social Security Disability Insurance or Supplemental Security Income is one of the conditions."
+              },
+              {
+                "text": "如果您能确认这些条件，您可能有资格申请。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context implies that meeting all conditions makes one eligible for the pension."
+              },
+              {
+                "text": "如果您不确定某些条件，请提供更多信息以便进一步指导。",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a polite offer for further assistance, not a factual assertion."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ee1047ac0eec4700bc4132b38182bf2a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3664,
+                "completion_tokens": 1098,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 1098,
+                  "prompt_tokens": 3664,
+                  "total_tokens": 4762,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3280
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0098802,
+              "accounted_rmb": 0.0098802,
+              "usage_unknown": false,
+              "seconds": 5.624706745147705,
+              "error": null,
+              "response": {
+                "id": "724c8f6b-7c66-4058-8b7f-a0ba43eca424",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2cf49ed4df587f77c636556f8cc2dc7323ed9bfe5f9cd7b2d1e4fdc3e6d050d4"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 11,
+      "supported_external_claims": 11,
+      "excluded_units_by_scope": {
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "既然您没有收到不光彩退伍令，那么根据VA养老金资格要求，您还需要满足其他条件。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that not receiving a dishonorable discharge is one of the requirements, and other conditions must also be met."
+        },
+        {
+          "text": "您的年度家庭收入和净资产必须符合国会设定的限额。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context explicitly states that yearly family income and net worth must meet limits set by Congress."
+        },
+        {
+          "text": "净资产包括您拥有的所有个人财产（不包括您的房屋、汽车和大多数家居用品）减去您所欠的债务，且包括您配偶的净资产。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context provides the exact definition of net worth including spouse's net worth."
+        },
+        {
+          "text": "您在1980年9月7日或之前开始服现役，并服役至少90天，其中至少1天在战时期间；或",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists this as one of the service requirements."
+        },
+        {
+          "text": "您在1980年9月7日之后作为入伍人员开始服现役，并服役至少24个月或完成您被征召或命令服现役的全部期限（有例外情况），其中至少1天在战时期间；或",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists this as another service requirement."
+        },
+        {
+          "text": "您是军官，于1981年10月16日之后开始服现役，且此前未曾在现役部队中服役至少24个月。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists this as the third service requirement."
+        },
+        {
+          "text": "年满65岁，或",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that being at least 65 years old is one of the conditions."
+        },
+        {
+          "text": "有永久性完全残疾，或",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that having a permanent and total disability is one of the conditions."
+        },
+        {
+          "text": "因残疾而长期住在养老院，或",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that being a patient in a nursing home for long-term care because of a disability is one of the conditions."
+        },
+        {
+          "text": "正在领取社会保障残疾保险或补充保障收入。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that getting Social Security Disability Insurance or Supplemental Security Income is one of the conditions."
+        },
+        {
+          "text": "如果您能确认这些条件，您可能有资格申请。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context implies that meeting all conditions makes one eligible for the pension."
+        },
+        {
+          "text": "如果您不确定某些条件，请提供更多信息以便进一步指导。",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a polite offer for further assistance, not a factual assertion."
+        }
+      ]
+    }
+  },
+  "sha256": "7aa83b06a6e19dab19c39258c85aa401ebd3ace8b3b1d8486cdbce3db1be31d3"
+}

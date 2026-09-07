@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "f740d53487fa25e3802e62e320094b5000187749128708dad3114a433e25692d",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9999999999,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about eligibility for VA home loan programs, including that a dishonorable discharge may make a person ineligible for VA benefits. The answer reflects this by stating that the person may not be able to get any VA benefits.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "95d69f01416a4f95904013ffcf05053a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1770,
+                "completion_tokens": 62,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 62,
+                  "prompt_tokens": 1770,
+                  "total_tokens": 1832,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1002
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018204,
+              "accounted_rmb": 0.0018204,
+              "usage_unknown": false,
+              "seconds": 1.7798371315002441,
+              "error": null,
+              "response": {
+                "id": "344db8ef-a099-462f-ae90-1a9efeb285fd",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5a01d82fb9a534106131466ad245546ff24399db585db4921e6c45fd195cc2dd"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses VA mortgage loan programs for surviving spouses, but the question also asks about discharge statuses and the impact of dishonorable or bad conduct discharge. The context does not address discharge statuses or their effects on VA benefits, so it is not useful for answering the full question.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "9e2162e4e870462aacab0b050efee9c8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1625,
+                "completion_tokens": 72,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 72,
+                  "prompt_tokens": 1625,
+                  "total_tokens": 1697,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 857
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0016479,
+              "accounted_rmb": 0.0016479,
+              "usage_unknown": false,
+              "seconds": 1.861764907836914,
+              "error": null,
+              "response": {
+                "id": "fc8201c2-74c0-4024-b9bb-51f1e82de346",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3eae40c1462018bede97d1e27ef32454eab3a7aa6c0bb1f4333a7900753e6aa8"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA housing assistance and mentions VA Home Loan Programs for Surviving Spouses, but it does not address the specific question about discharge statuses or the consequences of a dishonorable or bad conduct discharge. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0f903e2885fc457e82e1c3bfef56301f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1977,
+                "completion_tokens": 74,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 74,
+                  "prompt_tokens": 1977,
+                  "total_tokens": 2051,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1081
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019993,
+              "accounted_rmb": 0.0019993,
+              "usage_unknown": false,
+              "seconds": 1.2193818092346191,
+              "error": null,
+              "response": {
+                "id": "ec0e618f-4fc4-4fbf-89e2-e2f9654a5e37",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a51384f6e5526bb517199dce1bcab7c3fab9f8f1a2041e63e5b8218db460fe76"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA housing loan programs for surviving spouses, but the question also asks about discharge statuses and the answer states that the user may not be able to get any VA benefits. The context does not contain information about discharge statuses or the impact of dishonorable or bad conduct discharge on VA benefits, so it is not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "656d0aabaa7740caa217c5dbbe9f66e1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1830,
+                "completion_tokens": 90,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 90,
+                  "prompt_tokens": 1830,
+                  "total_tokens": 1920,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 934
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018507999999999999,
+              "accounted_rmb": 0.0018507999999999999,
+              "usage_unknown": false,
+              "seconds": 1.614180088043213,
+              "error": null,
+              "response": {
+                "id": "b154e365-15b7-4457-9148-e52862bb711f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c4ad1ed8be902234ed273d3941065f3a7f642b6cd71052c3c1cef41b368cca66"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses VA DIC benefits for surviving spouses, dependents, and parents, but does not address the specific question about VA Mortgage Loan Programs for surviving spouses or the consequences of a dishonorable or bad conduct discharge. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "62fdc8c448994a9b945d65a48a5bcfb8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1941,
+                "completion_tokens": 73,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 73,
+                  "prompt_tokens": 1941,
+                  "total_tokens": 2014,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1045
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019408,
+              "accounted_rmb": 0.0019408,
+              "usage_unknown": false,
+              "seconds": 1.5396521091461182,
+              "error": null,
+              "response": {
+                "id": "c570c60a-f747-4d3f-9e4d-6900d1d41198",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c047d372eff4fa22921e2c40a7f9a7039108866cd30e6e7d1bf61d04a3029dbe"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "eca772683a0ad53424c2c75a28380613e6ac1ceb9cd9cf4d27ed1025ebaf2481"
+}

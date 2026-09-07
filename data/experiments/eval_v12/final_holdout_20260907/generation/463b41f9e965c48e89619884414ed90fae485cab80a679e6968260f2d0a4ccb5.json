@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "b557ef3eb5fa8b6270d452ef97dbb0bf::agent-turn-8",
+    "item_sha256": "d862e6618389eeda6aba80241749134151971883843f9c5140e614abbed34de6",
+    "result": {
+      "request_id": "6f0c3df8ea24422e8e7b28daa0ca1e1c",
+      "session_id": "b557ef3eb5fa8b6270d452ef97dbb0bf",
+      "turn_id": 7,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "要避免您的CDL/CLP被降级或取消，您必须确保您的医疗认证状态保持有效。如果您的医疗认证状态变为“未认证”，DMV会向您发送“不合规及驾照降级通知”。您需要在收到通知后55天内提交更新的医疗检查员证书（MCSA-5876），否则DMV将取消您的CDL/CLP。此外，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的四种联邦驾驶类型之一。如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。",
+        "citations": [
+          "Medical Certification Requirements#3_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0001",
+          "text": "[医疗认证要求 > 四种联邦驾驶类型]\n#### 非豁免 [2] 州际 [3] (NI)\n\n允许跨州商业驾驶操作，并且您需要满足联邦医疗要求。\n\n- 您必须年满21岁\n\n- 如果您持有危险品（H）或危险品/罐车（X）签注 [4]，您可以选择此驾驶类型\n\n- 您的驾照上不得有K（仅限州内CDL）[5]或A3（医疗证明豁免）[6]限制\n\n#### 非豁免 [2] 州内 [3] (NA)\n\n商业驾驶操作仅限于纽约州内，并且您需要满足联邦医疗要求。\n\n- 您必须年满18岁\n\n- 持有危险品（H）或危险品/罐车（X）签注 [4] 的驾驶员可以选择此驾驶类型\n\n- 您的驾照上必须有K（仅限州内CDL）[5]限制\n\n- 您的驾照上不得有A3（医疗证明豁免）[6]限制\n\n#### 豁免 [2] 州际 [3] (EI)\n\n允许跨州商业驾驶操作，但仅限于豁免操作，并且您免于联邦医疗要求。\n\n- 您必须年满18岁（某些豁免操作要求21岁以上）\n\n- 您的驾照上必须有A3（医疗证明豁免）[6]限制\n\n- 您的驾照上不得有K（仅限州内CDL）[5]限制\n\n#### 豁免 [2] 州内 [3] (EA)\n\n商业驾驶操作仅限于纽约州内，仅允许例外运营，并且您豁免于联邦医疗要求。\n\n- 您必须年满18岁或以上（某些例外运营中注明需21岁或以上）\n\n- 您的驾驶执照上必须带有K（仅限州内CDL）[5]和A3（医疗证明豁免）[6]限制。"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0001",
+          "text": "[医疗认证常见问题 > 自我认证 > 2. 自我认证的驾驶类型有哪些？]\n非豁免跨州（NI）：允许跨州商业驾驶操作，且您需要满足联邦医疗要求。\n\n非豁免州内（NA）：商业驾驶操作仅限于纽约州内，且您需要满足联邦医疗要求。\n\n豁免跨州（EI）：允许跨州商业驾驶操作，但仅限于豁免操作，且您免于联邦医疗要求。\n\n豁免州内（EA）：商业驾驶操作仅限于纽约州内，仅允许豁免操作，且您免于联邦医疗要求。"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0000",
+          "text": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0008",
+          "text": "[医疗认证要求 > 有用链接]\n注册 MyDMV [8]\n\n关于四种驾驶类型的联邦定义，请访问 FMCSA 网站 [13]。\n\n国家注册认证体检医师搜索 [7]"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0007",
+          "text": "[医疗认证常见问题 > 自我认证 > 8. 我目前持有无限制的CDL驾照。我没有Medical Examiner's Certificate，也不使用我的CDL驾照进行商业驾驶。例如，我已退休、未工作等。我不想降级我的驾照，因为我为CDL付了钱，而且还有几年才到期。我应该选择哪种驾驶类型？]\n联邦法规要求所有CDL驾驶员认证他们运营或预期运营的驾驶类型。您应该选择描述您执行或预期执行的驾驶类型的选项。\n\n- 如果您预期在豁免驾驶类型（EA或EI）中运营，则不需要Medical Examiner's Certificate。您需要在您的驾照上添加适当的限制（A3和/或K）。\n- 如果您预期在非豁免驾驶类型（NA或NI）中运营，则需要Medical Examiner's Certificate。\n\n请记住，您的认证可以随时在当地的DMV办公室通过驾照修正交易进行更改。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0001",
+          "text": "[医疗认证要求 > 四种联邦驾驶类型]\n#### 非豁免 [2] 州际 [3] (NI)\n\n允许跨州商业驾驶操作，并且您需要满足联邦医疗要求。\n\n- 您必须年满21岁\n\n- 如果您持有危险品（H）或危险品/罐车（X）签注 [4]，您可以选择此驾驶类型\n\n- 您的驾照上不得有K（仅限州内CDL）[5]或A3（医疗证明豁免）[6]限制\n\n#### 非豁免 [2] 州内 [3] (NA)\n\n商业驾驶操作仅限于纽约州内，并且您需要满足联邦医疗要求。\n\n- 您必须年满18岁\n\n- 持有危险品（H）或危险品/罐车（X）签注 [4] 的驾驶员可以选择此驾驶类型\n\n- 您的驾照上必须有K（仅限州内CDL）[5]限制\n\n- 您的驾照上不得有A3（医疗证明豁免）[6]限制\n\n#### 豁免 [2] 州际 [3] (EI)\n\n允许跨州商业驾驶操作，但仅限于豁免操作，并且您免于联邦医疗要求。\n\n- 您必须年满18岁（某些豁免操作要求21岁以上）\n\n- 您的驾照上必须有A3（医疗证明豁免）[6]限制\n\n- 您的驾照上不得有K（仅限州内CDL）[5]限制\n\n#### 豁免 [2] 州内 [3] (EA)\n\n商业驾驶操作仅限于纽约州内，仅允许例外运营，并且您豁免于联邦医疗要求。\n\n- 您必须年满18岁或以上（某些例外运营中注明需21岁或以上）\n\n- 您的驾驶执照上必须带有K（仅限州内CDL）[5]和A3（医疗证明豁免）[6]限制。"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0001",
+          "text": "[医疗认证常见问题 > 自我认证 > 2. 自我认证的驾驶类型有哪些？]\n非豁免跨州（NI）：允许跨州商业驾驶操作，且您需要满足联邦医疗要求。\n\n非豁免州内（NA）：商业驾驶操作仅限于纽约州内，且您需要满足联邦医疗要求。\n\n豁免跨州（EI）：允许跨州商业驾驶操作，但仅限于豁免操作，且您免于联邦医疗要求。\n\n豁免州内（EA）：商业驾驶操作仅限于纽约州内，仅允许豁免操作，且您免于联邦医疗要求。"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0000",
+          "text": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0008",
+          "text": "[医疗认证要求 > 有用链接]\n注册 MyDMV [8]\n\n关于四种驾驶类型的联邦定义，请访问 FMCSA 网站 [13]。\n\n国家注册认证体检医师搜索 [7]"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0007",
+          "text": "[医疗认证常见问题 > 自我认证 > 8. 我目前持有无限制的CDL驾照。我没有Medical Examiner's Certificate，也不使用我的CDL驾照进行商业驾驶。例如，我已退休、未工作等。我不想降级我的驾照，因为我为CDL付了钱，而且还有几年才到期。我应该选择哪种驾驶类型？]\n联邦法规要求所有CDL驾驶员认证他们运营或预期运营的驾驶类型。您应该选择描述您执行或预期执行的驾驶类型的选项。\n\n- 如果您预期在豁免驾驶类型（EA或EI）中运营，则不需要Medical Examiner's Certificate。您需要在您的驾照上添加适当的限制（A3和/或K）。\n- 如果您预期在非豁免驾驶类型（NA或NI）中运营，则需要Medical Examiner's Certificate。\n\n请记住，您的认证可以随时在当地的DMV办公室通过驾照修正交易进行更改。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0000",
+          "document": "Medical Certification Requirements#3_0",
+          "heading": [
+            "医疗认证要求",
+            "认证与驾驶类型"
+          ],
+          "source_file": "dmv_075.docx",
+          "excerpt": "[医疗认证要求 > 认证与驾驶类型]\n联邦法规要求每位商业学习驾照（CLP）持有人或商业驾照（CDL）持有人必须证明其当前（或预期）从事的商业驾驶类型。\n\n- 这些要求将影响所有持有或申请商业驾照（CDL）的驾驶员\n\n- 某些驾驶类型需要USDOT医疗检查员证书，并且必须在当前认证到期前提交给DMV\n\n- 如果不遵守，您将失去商业驾驶特权\n\n如果CDL/CLP持有人的医疗认证状态变为“未认证”，DMV将向其发送“不合规及驾照降级通知”。一旦我们发出通知，如果CDL/CLP持有人在55天内未提交更新的医疗检查员证书（MCSA-5876），DMV将取消其CDL/CLP。如果雇主订阅了纽约州驾照事件通知服务（LENS）[1]，我们可以向其发送这些状态变更的通知。我们将向注册了19-A系统的客运承运人发送CLP取消事件的通知。\n\n如果您持有纽约州DMV颁发的A类、B类或C类商业驾照或CDL许可证，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的驾驶类型。您需要从以下四种联邦驾驶类型中选择一种。\n\n如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "要避免您的CDL/CLP被降级或取消，您必须确保您的医疗认证状态保持有效。如果您的医疗认证状态变为“未认证”，DMV会向您发送“不合规及驾照降级通知”。您需要在收到通知后55天内提交更新的医疗检查员证书（MCSA-5876），否则DMV将取消您的CDL/CLP。此外，在办理任何驾照业务（地址变更或补发驾照除外）时，您必须认证您所从事的四种联邦驾驶类型之一。如果您自我认证为非豁免驾驶类型（NA或NI），您还必须保持一份最新的USDOT医疗检查员证书存档于DMV。",
+          "citations": [
+            "Medical Certification Requirements#3_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "19cb3e9ba43f474287de6fd330b575b0",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1523,
+              "completion_tokens": 168,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 168,
+                "prompt_tokens": 1523,
+                "total_tokens": 1691,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1267
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0026693000000000003,
+            "accounted_rmb": 0.0026693000000000003,
+            "usage_unknown": false,
+            "seconds": 1.900324821472168,
+            "error": null,
+            "response": {
+              "id": "772f31ee-b8a3-40af-ac8f-dbee5b478ce3",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "7e86eb1d3b0e74885c2f8a8b2affaeed3ec2f13c38ca7d92a0816b804d4ac068"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03041699528694153,
+        "retrieval": 912.0907080359757,
+        "generation": 1903.7254169816151,
+        "total": 2817.2873340081424
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1626535840332508,
+        "rerank_seconds": 0.7494069579988718,
+        "top1_dense_score": 0.7716925740242004,
+        "candidate_ids": [
+          "Medical Certification Requirements#3_0::c0000",
+          "Medical Certification Requirements#3_0::c0001",
+          "Medical Certification FAQ's#3_0::c0001",
+          "About problem driver restrictions#3_0::c0001",
+          "Medical Certification FAQ's#3_0::c0007",
+          "Medical Certification FAQ's#3_0::c0005",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0023",
+          "Medical Certification FAQ's#3_0::c0004",
+          "Conditional and restricted use licenses#3_0::c0000",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0016",
+          "Medical Certification Requirements#3_0::c0008",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0003",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0010",
+          "About problem driver restrictions#3_0::c0002",
+          "Medical Certification FAQ's#3_0::c0002",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0026",
+          "Get a driver license#1_0::c0011",
+          "Register a vehicle when you are out-of-state#1_0::c0007",
+          "About problem driver restrictions#3_0::c0000",
+          "Replace a non-driver ID card#1_0::c0003"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 22,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.9120704589877278
+      },
+      "raw_citations": [
+        "Medical Certification Requirements#3_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "2f2746dc9dc48686eeed1a376dda762aa3370d3ddde1f3d1674a7b1c16c0c808"
+}

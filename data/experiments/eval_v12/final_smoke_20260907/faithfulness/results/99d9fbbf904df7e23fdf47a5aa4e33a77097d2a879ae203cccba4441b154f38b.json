@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "99d9fbbf904df7e23fdf47a5aa4e33a77097d2a879ae203cccba4441b154f38b",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "根据您的情况，如果您是FFEL借款人，在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您拥有超过30,000美元的未偿还FFEL计划贷款，则您有资格为您的FFEL计划贷款选择延长还款计划。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states the exact eligibility criteria for FFEL borrowers."
+              },
+              {
+                "text": "该计划允许最长25年的还款期，每月还款额通常低于标准还款计划。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states the repayment term and monthly payment characteristics."
+              },
+              {
+                "text": "请注意，如果您同时拥有直接贷款，该计划仅适用于您的FFEL贷款，不适用于直接贷款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context provides an example showing the plan applies only to FFEL loans when both exist."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "5e6882f54d8b43f386283204096c4f0d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3149,
+                "completion_tokens": 318,
+                "cached_tokens": 640,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 318,
+                  "prompt_tokens": 3149,
+                  "total_tokens": 3467,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 640,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 640,
+                  "prompt_cache_miss_tokens": 2509
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0052265,
+              "accounted_rmb": 0.0052265,
+              "usage_unknown": false,
+              "seconds": 2.335970878601074,
+              "error": null,
+              "response": {
+                "id": "dcc875bb-7b6b-4eb7-bfa3-050ea53ace7b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7e266464186cfbd0656e9b79f02488d56639b377596e610f7f079df194bea713"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "根据您的情况，如果您是FFEL借款人，在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您拥有超过30,000美元的未偿还FFEL计划贷款，则您有资格为您的FFEL计划贷款选择延长还款计划。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states the exact eligibility criteria for FFEL borrowers."
+        },
+        {
+          "text": "该计划允许最长25年的还款期，每月还款额通常低于标准还款计划。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states the repayment term and monthly payment characteristics."
+        },
+        {
+          "text": "请注意，如果您同时拥有直接贷款，该计划仅适用于您的FFEL贷款，不适用于直接贷款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context provides an example showing the plan applies only to FFEL loans when both exist."
+        }
+      ]
+    }
+  },
+  "sha256": "e9b294db453986704d72b5065eb8df9c05b890850fc2b8b0492ceb2f732a2ff5"
+}

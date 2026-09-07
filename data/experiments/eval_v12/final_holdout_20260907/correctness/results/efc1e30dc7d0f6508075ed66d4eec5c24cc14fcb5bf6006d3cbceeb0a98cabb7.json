@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "efc1e30dc7d0f6508075ed66d4eec5c24cc14fcb5bf6006d3cbceeb0a98cabb7",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": false,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "clarify which application the user submitted",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response assumes a generic application process without asking which application the user means, whereas the reference clarifies the specific driving-school application."
+              }
+            ],
+            "reason": "The response answers a general application process but fails to clarify the essential missing condition (which application), so it is not a proper clarification."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "eb547595df594a849245f8ea8dec131d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1898,
+                "completion_tokens": 121,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 121,
+                  "prompt_tokens": 1898,
+                  "total_tokens": 2019,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1002
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020923,
+              "accounted_rmb": 0.0020923,
+              "usage_unknown": false,
+              "seconds": 1.8507299423217773,
+              "error": null,
+              "response": {
+                "id": "56bbf83f-85ec-4b58-94e3-6f9113536e31",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "55d01cd750b4273eb28b5d29cb232bad8f92853c2cb4bdefe0661b841f904010"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": false,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "clarify which application the user submitted",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response assumes a generic application process without asking which application the user means, whereas the reference clarifies the specific driving-school application."
+          }
+        ],
+        "reason": "The response answers a general application process but fails to clarify the essential missing condition (which application), so it is not a proper clarification."
+      }
+    }
+  },
+  "sha256": "58b754f40e163da28ab564111bb216fb6bc42734a65a4afb9e04ea4ad9f5c1ec"
+}

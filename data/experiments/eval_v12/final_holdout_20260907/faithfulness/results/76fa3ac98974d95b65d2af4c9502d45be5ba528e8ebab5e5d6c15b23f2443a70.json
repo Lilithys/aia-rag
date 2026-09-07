@@ -1,0 +1,138 @@
+{
+  "payload": {
+    "task_id": "76fa3ac98974d95b65d2af4c9502d45be5ba528e8ebab5e5d6c15b23f2443a70",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "I cannot check the status of your school's submission or access your personal application records.",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a pure assertion of the assistant's access limits, not a business fact."
+              },
+              {
+                "text": "To verify whether a correction was processed, log in to fafsa.gov with your FSA ID and check the status of your FAFSA form; it will show 'Processed Successfully' if no further action is needed.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that after submitting, you can check status at fafsa.gov with FSA ID, and 'Processed Successfully' means no further action needed."
+              },
+              {
+                "text": "If you see 'Action Required' or have concerns about how your school handled the correction, contact your school's financial aid office directly.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context says 'Action Required' means contact your school to resolve the issue, and the school's financial aid office is the appropriate contact."
+              },
+              {
+                "text": "If you believe the school violated federal regulations and you've tried to resolve it with them unsuccessfully, you can contact the Federal Student Aid Feedback Center at 1-844-651-0077.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Aid for Military Families | Federal Student Aid#1_0::c0006"
+                ],
+                "reason": "The context states that if you believe the school violated federal regulations and have tried unsuccessfully to resolve it, you can contact the Federal Student Aid Feedback Center at 1-844-651-0077."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c531be1f2d2b44be991f2d8fa4e5324f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5091,
+                "completion_tokens": 480,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 480,
+                  "prompt_tokens": 5091,
+                  "total_tokens": 5571,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 4707
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0092397,
+              "accounted_rmb": 0.0092397,
+              "usage_unknown": false,
+              "seconds": 2.855325937271118,
+              "error": null,
+              "response": {
+                "id": "e3ff5d60-cc94-4c5f-87dd-73bf7060504f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "89b986a86ea8a38a65ff43c7aaa8a1885047f6fbe24f31699576b0afea1658a7"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {
+        "assistant_capability": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "I cannot check the status of your school's submission or access your personal application records.",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a pure assertion of the assistant's access limits, not a business fact."
+        },
+        {
+          "text": "To verify whether a correction was processed, log in to fafsa.gov with your FSA ID and check the status of your FAFSA form; it will show 'Processed Successfully' if no further action is needed.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that after submitting, you can check status at fafsa.gov with FSA ID, and 'Processed Successfully' means no further action needed."
+        },
+        {
+          "text": "If you see 'Action Required' or have concerns about how your school handled the correction, contact your school's financial aid office directly.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context says 'Action Required' means contact your school to resolve the issue, and the school's financial aid office is the appropriate contact."
+        },
+        {
+          "text": "If you believe the school violated federal regulations and you've tried to resolve it with them unsuccessfully, you can contact the Federal Student Aid Feedback Center at 1-844-651-0077.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Aid for Military Families | Federal Student Aid#1_0::c0006"
+          ],
+          "reason": "The context states that if you believe the school violated federal regulations and have tried unsuccessfully to resolve it, you can contact the Federal Student Aid Feedback Center at 1-844-651-0077."
+        }
+      ]
+    }
+  },
+  "sha256": "e6776bdd1eaaa32d614114f91d9bc828b0def9649e9b8032a624c636a47ad22e"
+}

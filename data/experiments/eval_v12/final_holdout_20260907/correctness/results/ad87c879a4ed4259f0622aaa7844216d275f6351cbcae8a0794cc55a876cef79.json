@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "ad87c879a4ed4259f0622aaa7844216d275f6351cbcae8a0794cc55a876cef79",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": false,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "clarify whether the user has legally changed their name",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response assumes a name change and provides document requirements without first asking if the user legally changed their name, which is the essential missing condition."
+              }
+            ],
+            "reason": "The task is a clarification task, but the response directly answers with detailed document requirements without clarifying the essential condition of whether the user has legally changed their name."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8da1ebe47b7a4e1fbe63cc3eda0db222",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5197,
+                "completion_tokens": 131,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 131,
+                  "prompt_tokens": 5197,
+                  "total_tokens": 5328,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4301
+                }
+              },
+              "usage_cost_estimate_rmb": 0.007085800000000001,
+              "accounted_rmb": 0.007085800000000001,
+              "usage_unknown": false,
+              "seconds": 2.4010491371154785,
+              "error": null,
+              "response": {
+                "id": "8a91faa2-241a-4611-844e-c9494df5b52a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7489719d1e93cc728e21593dc55e2a4e18a1a43579f041de4cce17f2482ab4a4"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": false,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "clarify whether the user has legally changed their name",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response assumes a name change and provides document requirements without first asking if the user legally changed their name, which is the essential missing condition."
+          }
+        ],
+        "reason": "The task is a clarification task, but the response directly answers with detailed document requirements without clarifying the essential condition of whether the user has legally changed their name."
+      }
+    }
+  },
+  "sha256": "c372ae7026cf3c2d9e4279d9135da23554720459604d300b307ac109d0c5f491"
+}

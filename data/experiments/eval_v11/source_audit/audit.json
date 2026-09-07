@@ -1,0 +1,4050 @@
+{
+  "audit_version": "original-source-dev-v1",
+  "script_sha256": "2c3f6e9aceaa3a9f51b9de28d5dd050e8297daf0cabfc9db1a93f76c2493e870",
+  "inputs": {
+    "original_dialogues": {
+      "path": "/Users/yishanma/Desktop/rag2/multidoc2dial/multidoc2dial_dial_test.json",
+      "sha256": "4df4887a85b4c1aec7d41e9f96ecb607ec2a7f7732344933b05b79a0526bf40f"
+    },
+    "original_documents": {
+      "path": "/Users/yishanma/Desktop/rag2/multidoc2dial/multidoc2dial_doc.json",
+      "sha256": "7205be05b7c260fd3c0eda4d98a4abddf7af66c364238f1be509aa139414012d"
+    },
+    "converted_dialogues": {
+      "path": "/Users/yishanma/Desktop/rag2/multidoc2dial_full_multiformat_multilingual/test/dialogues.json",
+      "sha256": "bcccf44c5af8b6e6f37bf0bfbd01d7b5d5a917bd544452af04f0a1885ae5f9ea"
+    },
+    "converted_eval": {
+      "path": "/Users/yishanma/Desktop/rag2/multidoc2dial_full_multiformat_multilingual/test/eval_turns.json",
+      "sha256": "27865df5fc88c9757466d70acf9926a0534803c4f94e196d73c167a6aefa1ff8"
+    },
+    "converted_manifest": {
+      "path": "/Users/yishanma/Desktop/rag2/multidoc2dial_full_multiformat_multilingual/manifests/document_manifest.json",
+      "sha256": "f9692b72b8b0eb684a5eb9c0926458824e866b4362ac20b358a33f67022b78b2"
+    },
+    "release_manifest": {
+      "path": "doc/evaluation/v1/releases/v1.1/release_manifest.json",
+      "sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3"
+    },
+    "dev": {
+      "path": "doc/evaluation/v1/releases/v1.1/dev.json",
+      "sha256": "b84e495c89115f51951b0e56dec8da4579c981244a24d9bb030222e9e58d4952"
+    },
+    "smoke": {
+      "path": "doc/evaluation/v1/releases/v1.1/smoke.json",
+      "sha256": "61f3bbf9bfe104eb4b36da5f0977509ecb8736962f2092300050522c1d032ec9"
+    },
+    "inventory": {
+      "path": "doc/evaluation/v1/releases/v1.1/source_inventory.json",
+      "sha256": "bbe76c7db788c68d9081da0430a1b80da2269ee12c086a4ca4acc80efe08ba68"
+    }
+  },
+  "summary": {
+    "original_document_count": 488,
+    "original_test_dialogue_count": 661,
+    "corpus_documents_checked": 488,
+    "corpus_failures": 0,
+    "dev_items": 100,
+    "source_items": 90,
+    "agent_authored_items": 10,
+    "source_items_verified": 90,
+    "source_items_failed": 0,
+    "reference_spans_checked": 265,
+    "source_reference_answers_rewritten": 64,
+    "categories_adapted_from_conversion": 21,
+    "smoke_items": 20,
+    "smoke_exact_dev_subset": true
+  },
+  "passed": true,
+  "scope": {
+    "read_only_original_and_release": true,
+    "model_calls": 0,
+    "holdout_questions_inspected": false,
+    "independent_human_review": false,
+    "proves": "Identity, preserved English, annotation IDs/offsets, converted block lineage and frozen document bytes.",
+    "does_not_prove": "Semantic translation/OCR quality, correct span-to-block alignment, reference completeness, generated-answer correctness or judge calibration."
+  },
+  "corpus_failures": [],
+  "items": [
+    {
+      "question_id": "462ae928f57da285beae94349aa55b3d::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "462ae928f57da285beae94349aa55b3d",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 47,
+          "source_block_id": "src_d0168d5e0daa560c::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0",
+          "span_id": "2",
+          "start": 47,
+          "end": 159,
+          "source_block_id": "src_d0168d5e0daa560c::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "9957c4e965a7826212b1f86d6bc6352f",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 8,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "83",
+          "start": 5100,
+          "end": 5145,
+          "source_block_id": "src_eac1506b824bb3f9::b0044"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "84",
+          "start": 5145,
+          "end": 5264,
+          "source_block_id": "src_eac1506b824bb3f9::b0044"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "85",
+          "start": 5264,
+          "end": 5274,
+          "source_block_id": "src_eac1506b824bb3f9::b0044"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "86",
+          "start": 5274,
+          "end": 5339,
+          "source_block_id": "src_eac1506b824bb3f9::b0044"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "f00d605c45efc4aaecb9da1a5037d936",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 10,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Changes to IRP registration#1_0",
+          "span_id": "37",
+          "start": 1924,
+          "end": 1969,
+          "source_block_id": "src_efbe5d14582d10af::b0019"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Changes to IRP registration#1_0",
+          "span_id": "38",
+          "start": 1969,
+          "end": 2034,
+          "source_block_id": "src_efbe5d14582d10af::b0019"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Changes to IRP registration#1_0",
+          "span_id": "39",
+          "start": 2034,
+          "end": 2121,
+          "source_block_id": "src_efbe5d14582d10af::b0019"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Changes to IRP registration#1_0",
+          "span_id": "37",
+          "start": 1924,
+          "end": 1969,
+          "source_block_id": "src_efbe5d14582d10af::b0019"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Changes to IRP registration#1_0",
+          "span_id": "38",
+          "start": 1969,
+          "end": 2034,
+          "source_block_id": "src_efbe5d14582d10af::b0019"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Changes to IRP registration#1_0",
+          "span_id": "39",
+          "start": 2034,
+          "end": 2121,
+          "source_block_id": "src_efbe5d14582d10af::b0019"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "021386787787ced4b5fbd9dcd02d5086",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 8,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "span_id": "14",
+          "start": 873,
+          "end": 968,
+          "source_block_id": "src_a7e72635cbc67e69::b0011"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "span_id": "15",
+          "start": 968,
+          "end": 1040,
+          "source_block_id": "src_a7e72635cbc67e69::b0011"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "span_id": "16",
+          "start": 1040,
+          "end": 1085,
+          "source_block_id": "src_a7e72635cbc67e69::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "span_id": "14",
+          "start": 873,
+          "end": 968,
+          "source_block_id": "src_a7e72635cbc67e69::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "span_id": "15",
+          "start": 968,
+          "end": 1040,
+          "source_block_id": "src_a7e72635cbc67e69::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+          "span_id": "16",
+          "start": 1040,
+          "end": 1085,
+          "source_block_id": "src_a7e72635cbc67e69::b0011"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "2e0eae56e500ce599d2e50df42584392",
+      "question_turn_id": 6,
+      "answer_turn_id": 7,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 5,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+          "span_id": "31",
+          "start": 1644,
+          "end": 1790,
+          "source_block_id": "src_7741551c12184f3e::b0014"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+          "span_id": "32",
+          "start": 1790,
+          "end": 1866,
+          "source_block_id": "src_7741551c12184f3e::b0014"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "d04210e3e1682b262293a08a35feea1a::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "d04210e3e1682b262293a08a35feea1a",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "span_id": "37",
+          "start": 2020,
+          "end": 2060,
+          "source_block_id": "src_b6332fe4bfa91fda::b0016"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "span_id": "38",
+          "start": 2060,
+          "end": 2152,
+          "source_block_id": "src_b6332fe4bfa91fda::b0017"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "ecb4a1de2830410ad30da986c41a4849",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 4,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "39",
+          "start": 2785,
+          "end": 2922,
+          "source_block_id": "src_0fd8893ff0858f65::b0028"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "40",
+          "start": 2922,
+          "end": 3005,
+          "source_block_id": "src_0fd8893ff0858f65::b0028"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "39",
+          "start": 2785,
+          "end": 2922,
+          "source_block_id": "src_0fd8893ff0858f65::b0028"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "40",
+          "start": 2922,
+          "end": 3005,
+          "source_block_id": "src_0fd8893ff0858f65::b0028"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "6070e3dcc2ef2ec0a8bbba02f8a14233",
+      "question_turn_id": 8,
+      "answer_turn_id": 9,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 7,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "32",
+          "start": 1733,
+          "end": 1839,
+          "source_block_id": "src_c89b7c804f4349b5::b0015"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "33",
+          "start": 1839,
+          "end": 2008,
+          "source_block_id": "src_c89b7c804f4349b5::b0016"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "17a7ac5e3926bdf5bffe8fb7db868278::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "17a7ac5e3926bdf5bffe8fb7db868278",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+          "span_id": "148",
+          "start": 14185,
+          "end": 14243,
+          "source_block_id": "src_9d23a60388a286b3::b0065"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+          "span_id": "149",
+          "start": 14243,
+          "end": 14295,
+          "source_block_id": "src_9d23a60388a286b3::b0066"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "c8eb764b9c681371b2f92deebb1d9c4c",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 6,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Open a dealership#3_0",
+          "span_id": "32",
+          "start": 2266,
+          "end": 2290,
+          "source_block_id": "src_7aa38d50afadf854::b0014"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Open a dealership#3_0",
+          "span_id": "33",
+          "start": 2290,
+          "end": 2366,
+          "source_block_id": "src_7aa38d50afadf854::b0014"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Open a dealership#3_0",
+          "span_id": "34",
+          "start": 2366,
+          "end": 2449,
+          "source_block_id": "src_7aa38d50afadf854::b0014"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Open a dealership#3_0",
+          "span_id": "32",
+          "start": 2266,
+          "end": 2290,
+          "source_block_id": "src_7aa38d50afadf854::b0014"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Open a dealership#3_0",
+          "span_id": "33",
+          "start": 2290,
+          "end": 2366,
+          "source_block_id": "src_7aa38d50afadf854::b0014"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Open a dealership#3_0",
+          "span_id": "34",
+          "start": 2366,
+          "end": 2449,
+          "source_block_id": "src_7aa38d50afadf854::b0014"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "e3c09280b0901314ebc9c799f3789711",
+      "question_turn_id": 12,
+      "answer_turn_id": 13,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 11,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner | Social Security Administration#1_0",
+          "span_id": "41",
+          "start": 2244,
+          "end": 2265,
+          "source_block_id": "src_1a86e510e6c35849::b0022"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner | Social Security Administration#1_0",
+          "span_id": "42",
+          "start": 2265,
+          "end": 2314,
+          "source_block_id": "src_1a86e510e6c35849::b0023"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "64d6f8365e94e27a45bc0d81cc5190c2",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "21",
+          "start": 1240,
+          "end": 1311,
+          "source_block_id": "src_c89b7c804f4349b5::b0010"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "24",
+          "start": 1421,
+          "end": 1524,
+          "source_block_id": "src_c89b7c804f4349b5::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "21",
+          "start": 1240,
+          "end": 1311,
+          "source_block_id": "src_c89b7c804f4349b5::b0010"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "24",
+          "start": 1421,
+          "end": 1524,
+          "source_block_id": "src_c89b7c804f4349b5::b0011"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "84440787944cb0dc3e894543cbe998ff",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 6,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 130,
+          "source_block_id": "src_0196129ee698d77d::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 130,
+          "source_block_id": "src_0196129ee698d77d::b0002"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "68b799748b123c5661a65cea9870acb7",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+          "span_id": "139",
+          "start": 8967,
+          "end": 9038,
+          "source_block_id": "src_cfd05ab823d54f66::b0061"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+          "span_id": "140",
+          "start": 9038,
+          "end": 9070,
+          "source_block_id": "src_cfd05ab823d54f66::b0062"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "82f1b51a42de79a1b3bf975f6a602983::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "82f1b51a42de79a1b3bf975f6a602983",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+          "span_id": "74",
+          "start": 5053,
+          "end": 5095,
+          "source_block_id": "src_a558068543684a55::b0033"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+          "span_id": "75",
+          "start": 5095,
+          "end": 5205,
+          "source_block_id": "src_a558068543684a55::b0034"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "db24af7fe35304299573e34cc59db674::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "db24af7fe35304299573e34cc59db674",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "span_id": "7",
+          "start": 462,
+          "end": 492,
+          "source_block_id": "src_0196129ee698d77d::b0007"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "span_id": "8",
+          "start": 492,
+          "end": 596,
+          "source_block_id": "src_0196129ee698d77d::b0008"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "6d6c267dc4cbb6f414790d6c55b9e0fe",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "span_id": "100",
+          "start": 4667,
+          "end": 4755,
+          "source_block_id": "src_91a5a34dade3515b::b0053"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "span_id": "101",
+          "start": 4755,
+          "end": 4777,
+          "source_block_id": "src_91a5a34dade3515b::b0053"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6",
+      "question_turn_id": 13,
+      "answer_turn_id": 14,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 12,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "23",
+          "start": 1297,
+          "end": 1384,
+          "source_block_id": "src_61d84103201f7b75::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "23",
+          "start": 1297,
+          "end": 1384,
+          "source_block_id": "src_61d84103201f7b75::b0012"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "c29e6c44acfeb27be8e438e85301fda7",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "span_id": "55",
+          "start": 4002,
+          "end": 4021,
+          "source_block_id": "src_b4298ede9f728ba3::b0015"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "span_id": "56",
+          "start": 4021,
+          "end": 4090,
+          "source_block_id": "src_b4298ede9f728ba3::b0016"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "afd3fb8be411dc89335d4d6690a6fdf5",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 6,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+          "span_id": "13",
+          "start": 1060,
+          "end": 1098,
+          "source_block_id": "src_213fc867ec0cdad7::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+          "span_id": "14",
+          "start": 1098,
+          "end": 1153,
+          "source_block_id": "src_213fc867ec0cdad7::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+          "span_id": "17",
+          "start": 1196,
+          "end": 1264,
+          "source_block_id": "src_213fc867ec0cdad7::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+          "span_id": "18",
+          "start": 1264,
+          "end": 1387,
+          "source_block_id": "src_213fc867ec0cdad7::b0008"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "15be395bd1cf9e04372fcbe4dc31960c",
+      "question_turn_id": 10,
+      "answer_turn_id": 11,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 9,
+      "reference_span_count": 3,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "15",
+          "start": 941,
+          "end": 1022,
+          "source_block_id": "src_917f39df9950f75b::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "16",
+          "start": 1022,
+          "end": 1126,
+          "source_block_id": "src_917f39df9950f75b::b0009"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "17",
+          "start": 1126,
+          "end": 1187,
+          "source_block_id": "src_917f39df9950f75b::b0009"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "99fde7e8b712d1c8f9d683f23f84083c",
+      "question_turn_id": 16,
+      "answer_turn_id": 17,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 15,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "6",
+          "start": 341,
+          "end": 524,
+          "source_block_id": "src_c89b7c804f4349b5::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "6",
+          "start": 341,
+          "end": 524,
+          "source_block_id": "src_c89b7c804f4349b5::b0006"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "b515792cb5c12eaf734c1ec5ec15023f::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "b515792cb5c12eaf734c1ec5ec15023f",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Get a license to drive a taxi or livery vehicle#3_0",
+          "span_id": "29",
+          "start": 1413,
+          "end": 1465,
+          "source_block_id": "src_9e84983c44c65ab3::b0018"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Get a license to drive a taxi or livery vehicle#3_0",
+          "span_id": "30",
+          "start": 1465,
+          "end": 1503,
+          "source_block_id": "src_9e84983c44c65ab3::b0019"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "e6e0acece5b228db1fff666f8895834b",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 8,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+          "span_id": "24",
+          "start": 1543,
+          "end": 1722,
+          "source_block_id": "src_f122d52b7d6dc99d::b0013"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+          "span_id": "24",
+          "start": 1543,
+          "end": 1722,
+          "source_block_id": "src_f122d52b7d6dc99d::b0013"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "30ea92440dee785552e6e1741190c92d",
+      "question_turn_id": 10,
+      "answer_turn_id": 11,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 9,
+      "reference_span_count": 3,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "15",
+          "start": 941,
+          "end": 1022,
+          "source_block_id": "src_917f39df9950f75b::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "16",
+          "start": 1022,
+          "end": 1126,
+          "source_block_id": "src_917f39df9950f75b::b0009"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "17",
+          "start": 1126,
+          "end": 1187,
+          "source_block_id": "src_917f39df9950f75b::b0009"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "64b9e9860565971c2d6c1eb869ec7267::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "64b9e9860565971c2d6c1eb869ec7267",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 10,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Refunds and transfer credits for surrendered plates#3_0",
+          "span_id": "41",
+          "start": 2633,
+          "end": 2713,
+          "source_block_id": "src_3e00d6dc5876b08d::b0016"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Refunds and transfer credits for surrendered plates#3_0",
+          "span_id": "42",
+          "start": 2713,
+          "end": 2848,
+          "source_block_id": "src_3e00d6dc5876b08d::b0017"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "0c9d7cdfe21ae9baa43bd7bfe295b061",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "span_id": "41",
+          "start": 2629,
+          "end": 2793,
+          "source_block_id": "src_01b90552c6cbbacc::b0023"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "span_id": "42",
+          "start": 2793,
+          "end": 2829,
+          "source_block_id": "src_01b90552c6cbbacc::b0024"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "span_id": "43",
+          "start": 2829,
+          "end": 2886,
+          "source_block_id": "src_01b90552c6cbbacc::b0024"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "span_id": "41",
+          "start": 2629,
+          "end": 2793,
+          "source_block_id": "src_01b90552c6cbbacc::b0023"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "span_id": "42",
+          "start": 2793,
+          "end": 2829,
+          "source_block_id": "src_01b90552c6cbbacc::b0024"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+          "span_id": "43",
+          "start": 2829,
+          "end": 2886,
+          "source_block_id": "src_01b90552c6cbbacc::b0024"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "c20f4c858acff9e427a8c8f40d36f25d",
+      "question_turn_id": 4,
+      "answer_turn_id": 5,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 3,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "3",
+          "start": 133,
+          "end": 260,
+          "source_block_id": "src_c89b7c804f4349b5::b0004"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "4",
+          "start": 260,
+          "end": 315,
+          "source_block_id": "src_c89b7c804f4349b5::b0004"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "b17816a800cd527d849621fa4b91c4e3::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "b17816a800cd527d849621fa4b91c4e3",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 21,
+          "source_block_id": "src_99b1dfe1b745f999::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+          "span_id": "2",
+          "start": 21,
+          "end": 112,
+          "source_block_id": "src_99b1dfe1b745f999::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "963030f590fa5e7b8b88a9093a255979",
+      "question_turn_id": 10,
+      "answer_turn_id": 11,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 9,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Driver license and learner permit fees and refunds#3_0",
+          "span_id": "56",
+          "start": 2859,
+          "end": 2940,
+          "source_block_id": "src_3cfb0ff7f1efe8ba::b0029"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Driver license and learner permit fees and refunds#3_0",
+          "span_id": "57",
+          "start": 2940,
+          "end": 3014,
+          "source_block_id": "src_3cfb0ff7f1efe8ba::b0029"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Driver license and learner permit fees and refunds#3_0",
+          "span_id": "58",
+          "start": 3014,
+          "end": 3085,
+          "source_block_id": "src_3cfb0ff7f1efe8ba::b0029"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Driver license and learner permit fees and refunds#3_0",
+          "span_id": "59",
+          "start": 3085,
+          "end": 3137,
+          "source_block_id": "src_3cfb0ff7f1efe8ba::b0029"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0",
+          "span_id": "4",
+          "start": 147,
+          "end": 161,
+          "source_block_id": "src_7e07da2fa594d512::b0004"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0",
+          "span_id": "5",
+          "start": 161,
+          "end": 215,
+          "source_block_id": "src_7e07da2fa594d512::b0004"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "a4f7567e6bc3db63d13ec065b1e781bb::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "a4f7567e6bc3db63d13ec065b1e781bb",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+          "span_id": "42",
+          "start": 3726,
+          "end": 3814,
+          "source_block_id": "src_f9172c0f5305cc9b::b0020"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+          "span_id": "43",
+          "start": 3814,
+          "end": 3911,
+          "source_block_id": "src_f9172c0f5305cc9b::b0021"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "87b84182006da589a7337e4112b68410::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "87b84182006da589a7337e4112b68410",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Exposure Through Project 112 Or Project SHAD | Veterans Affairs#1_0",
+          "span_id": "8",
+          "start": 593,
+          "end": 622,
+          "source_block_id": "src_9b4b9ed51ef54d91::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Exposure Through Project 112 Or Project SHAD | Veterans Affairs#1_0",
+          "span_id": "9",
+          "start": 622,
+          "end": 688,
+          "source_block_id": "src_9b4b9ed51ef54d91::b0007"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "6c1a20b6f6cad4c623a877f50bbc54e8",
+      "question_turn_id": 14,
+      "answer_turn_id": 15,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 13,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "64",
+          "start": 3731,
+          "end": 3775,
+          "source_block_id": "src_eac1506b824bb3f9::b0036"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "65",
+          "start": 3775,
+          "end": 3932,
+          "source_block_id": "src_eac1506b824bb3f9::b0037"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "66",
+          "start": 3932,
+          "end": 4035,
+          "source_block_id": "src_eac1506b824bb3f9::b0037"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "67",
+          "start": 4035,
+          "end": 4075,
+          "source_block_id": "src_eac1506b824bb3f9::b0037"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "7eb2cb3361df7c9cd78d4771dcec1d02",
+      "question_turn_id": 6,
+      "answer_turn_id": 7,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 5,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "span_id": "21",
+          "start": 1200,
+          "end": 1306,
+          "source_block_id": "src_0af817d809792174::b0012"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "span_id": "22",
+          "start": 1306,
+          "end": 1345,
+          "source_block_id": "src_0af817d809792174::b0010"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "span_id": "23",
+          "start": 1345,
+          "end": 1379,
+          "source_block_id": "src_0af817d809792174::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "span_id": "21",
+          "start": 1200,
+          "end": 1306,
+          "source_block_id": "src_0af817d809792174::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "span_id": "22",
+          "start": 1306,
+          "end": 1345,
+          "source_block_id": "src_0af817d809792174::b0010"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+          "span_id": "23",
+          "start": 1345,
+          "end": 1379,
+          "source_block_id": "src_0af817d809792174::b0012"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "60f033db0967c2394c27bacb96bb7360::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "60f033db0967c2394c27bacb96bb7360",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 2,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "span_id": "47",
+          "start": 3846,
+          "end": 3851,
+          "source_block_id": "src_0c08649676c24a87::b0005"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "span_id": "48",
+          "start": 3851,
+          "end": 3956,
+          "source_block_id": "src_0c08649676c24a87::b0023"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "span_id": "49",
+          "start": 3956,
+          "end": 3966,
+          "source_block_id": "src_0c08649676c24a87::b0023"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "span_id": "47",
+          "start": 3846,
+          "end": 3851,
+          "source_block_id": "src_0c08649676c24a87::b0005"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "span_id": "48",
+          "start": 3851,
+          "end": 3956,
+          "source_block_id": "src_0c08649676c24a87::b0023"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+          "span_id": "49",
+          "start": 3956,
+          "end": 3966,
+          "source_block_id": "src_0c08649676c24a87::b0023"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "fbd71d41a3664987af39687d2b735a89",
+      "question_turn_id": 10,
+      "answer_turn_id": 11,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 9,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Replace license or permit#1_0",
+          "span_id": "79",
+          "start": 3541,
+          "end": 3581,
+          "source_block_id": "src_cfe92760f00894ac::b0042"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Replace license or permit#1_0",
+          "span_id": "80",
+          "start": 3581,
+          "end": 3684,
+          "source_block_id": "src_cfe92760f00894ac::b0043"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "dfd7637934ad85f1ebc52893c7a86ae2::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "dfd7637934ad85f1ebc52893c7a86ae2",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+          "span_id": "24",
+          "start": 1560,
+          "end": 1596,
+          "source_block_id": "src_50858554797d8ac8::b0013"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+          "span_id": "25",
+          "start": 1596,
+          "end": 1656,
+          "source_block_id": "src_50858554797d8ac8::b0014"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "5739237b45a59e99f4282413adb58c89",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "span_id": "10",
+          "start": 523,
+          "end": 548,
+          "source_block_id": "src_91a5a34dade3515b::b0007"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "span_id": "11",
+          "start": 548,
+          "end": 652,
+          "source_block_id": "src_91a5a34dade3515b::b0007"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "9f61667636fe04c71da3d43f4c018b97",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "span_id": "43",
+          "start": 2785,
+          "end": 2853,
+          "source_block_id": "src_7a10651e9ac7fee0::b0017"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "span_id": "44",
+          "start": 2853,
+          "end": 2952,
+          "source_block_id": "src_7a10651e9ac7fee0::b0018"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "5e9a8180c628087aad71d3cc476fe67d::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "5e9a8180c628087aad71d3cc476fe67d",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Family And Caregiver Health Benefits | Veterans Affairs#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 62,
+          "source_block_id": "src_068eeae27d3fb974::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Family And Caregiver Health Benefits | Veterans Affairs#1_0",
+          "span_id": "2",
+          "start": 62,
+          "end": 172,
+          "source_block_id": "src_068eeae27d3fb974::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "252af484a022f3c3a46437bfa11ebc71",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Disability Benefits | Social Security Administration#2_0",
+          "span_id": "96",
+          "start": 5958,
+          "end": 5984,
+          "source_block_id": "src_85a2ea3f2946fa1b::b0033"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Disability Benefits | Social Security Administration#2_0",
+          "span_id": "97",
+          "start": 5984,
+          "end": 6018,
+          "source_block_id": "src_85a2ea3f2946fa1b::b0034"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "a21bfcc6ab84da67c6a445535c0f3b43",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Medical Certification Requirements#3_0",
+          "span_id": "41",
+          "start": 3323,
+          "end": 3470,
+          "source_block_id": "src_a1e8435b6030ed91::b0022"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Medical Certification Requirements#3_0",
+          "span_id": "41",
+          "start": 3323,
+          "end": 3470,
+          "source_block_id": "src_a1e8435b6030ed91::b0022"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "df0786f17d9f4708d23e6d40fe51f0b5",
+      "question_turn_id": 12,
+      "answer_turn_id": 13,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 11,
+      "reference_span_count": 3,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "span_id": "15",
+          "start": 1193,
+          "end": 1234,
+          "source_block_id": "src_b442908c22a3da40::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "span_id": "16",
+          "start": 1234,
+          "end": 1310,
+          "source_block_id": "src_b442908c22a3da40::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "span_id": "17",
+          "start": 1310,
+          "end": 1469,
+          "source_block_id": "src_b442908c22a3da40::b0008"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "36fc03b5b1e6313c3b2c49a6cb98f40d",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 70,
+          "source_block_id": "src_0fd8893ff0858f65::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "2",
+          "start": 70,
+          "end": 145,
+          "source_block_id": "src_0fd8893ff0858f65::b0003"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "3",
+          "start": 145,
+          "end": 304,
+          "source_block_id": "src_0fd8893ff0858f65::b0003"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+          "span_id": "4",
+          "start": 304,
+          "end": 331,
+          "source_block_id": "src_0fd8893ff0858f65::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "79fa5057f6f8b32760d5ec8a04a7a45e",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 17,
+          "source_block_id": "src_917f39df9950f75b::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+          "span_id": "2",
+          "start": 17,
+          "end": 66,
+          "source_block_id": "src_917f39df9950f75b::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "ba618bb1cb062c940912cc74180b482a",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 6,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "88",
+          "start": 5386,
+          "end": 5481,
+          "source_block_id": "src_eac1506b824bb3f9::b0045"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "89",
+          "start": 5481,
+          "end": 5582,
+          "source_block_id": "src_eac1506b824bb3f9::b0045"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "90",
+          "start": 5582,
+          "end": 5720,
+          "source_block_id": "src_eac1506b824bb3f9::b0045"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "88",
+          "start": 5386,
+          "end": 5481,
+          "source_block_id": "src_eac1506b824bb3f9::b0045"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "89",
+          "start": 5481,
+          "end": 5582,
+          "source_block_id": "src_eac1506b824bb3f9::b0045"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "90",
+          "start": 5582,
+          "end": 5720,
+          "source_block_id": "src_eac1506b824bb3f9::b0045"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "459b8bfd975e9856a8e7a35f5ff76bd0::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "459b8bfd975e9856a8e7a35f5ff76bd0",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "span_id": "21",
+          "start": 1278,
+          "end": 1392,
+          "source_block_id": "src_57921172c99c2362::b0011"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "span_id": "22",
+          "start": 1392,
+          "end": 1402,
+          "source_block_id": "src_57921172c99c2362::b0011"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "span_id": "23",
+          "start": 1402,
+          "end": 1477,
+          "source_block_id": "src_57921172c99c2362::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "span_id": "21",
+          "start": 1278,
+          "end": 1392,
+          "source_block_id": "src_57921172c99c2362::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "span_id": "22",
+          "start": 1392,
+          "end": 1402,
+          "source_block_id": "src_57921172c99c2362::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+          "span_id": "23",
+          "start": 1402,
+          "end": 1477,
+          "source_block_id": "src_57921172c99c2362::b0012"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "b284a4735f8d84a97ba634ad0b2db4d3",
+      "question_turn_id": 6,
+      "answer_turn_id": 7,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 5,
+      "reference_span_count": 3,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "span_id": "34",
+          "start": 2576,
+          "end": 2610,
+          "source_block_id": "src_b4298ede9f728ba3::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "span_id": "35",
+          "start": 2610,
+          "end": 2714,
+          "source_block_id": "src_b4298ede9f728ba3::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+          "span_id": "36",
+          "start": 2714,
+          "end": 2794,
+          "source_block_id": "src_b4298ede9f728ba3::b0011"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "d3c13b9975f54341d07cc196468d6ce2",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+          "span_id": "7",
+          "start": 440,
+          "end": 469,
+          "source_block_id": "src_d326e6ec70f63c00::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+          "span_id": "8",
+          "start": 469,
+          "end": 515,
+          "source_block_id": "src_d326e6ec70f63c00::b0007"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "span_id": "2",
+          "start": 40,
+          "end": 82,
+          "source_block_id": "src_92414addfbfe2d44::b0003"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "span_id": "3",
+          "start": 82,
+          "end": 213,
+          "source_block_id": "src_92414addfbfe2d44::b0003"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "span_id": "4",
+          "start": 213,
+          "end": 279,
+          "source_block_id": "src_92414addfbfe2d44::b0003"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "span_id": "2",
+          "start": 40,
+          "end": 82,
+          "source_block_id": "src_92414addfbfe2d44::b0003"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "span_id": "3",
+          "start": 82,
+          "end": 213,
+          "source_block_id": "src_92414addfbfe2d44::b0003"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "span_id": "4",
+          "start": 213,
+          "end": 279,
+          "source_block_id": "src_92414addfbfe2d44::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "5c459ee17b782ba97e889816a7c9b510",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 3,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Suspensions and revocations#3_0",
+          "span_id": "75",
+          "start": 4720,
+          "end": 4791,
+          "source_block_id": "src_e4f6b8031c3c3bca::b0022"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Suspensions and revocations#3_0",
+          "span_id": "76",
+          "start": 4791,
+          "end": 4834,
+          "source_block_id": "src_e4f6b8031c3c3bca::b0022"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Suspensions and revocations#3_0",
+          "span_id": "77",
+          "start": 4834,
+          "end": 4939,
+          "source_block_id": "src_e4f6b8031c3c3bca::b0022"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "1cabeb72084d575e41e1dc66470a2802::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "1cabeb72084d575e41e1dc66470a2802",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 8,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Change of Address| Social Security Administration#2_0",
+          "span_id": "15",
+          "start": 941,
+          "end": 968,
+          "source_block_id": "src_1283eff4d69f6884::b0008"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Change of Address| Social Security Administration#2_0",
+          "span_id": "16",
+          "start": 968,
+          "end": 1066,
+          "source_block_id": "src_1283eff4d69f6884::b0008"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "9a80c2a728dcb8f19531b4ee2a4f5efa::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "9a80c2a728dcb8f19531b4ee2a4f5efa",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+          "span_id": "23",
+          "start": 1766,
+          "end": 1796,
+          "source_block_id": "src_fbc3696d1b670d3f::b0010"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+          "span_id": "24",
+          "start": 1796,
+          "end": 1870,
+          "source_block_id": "src_fbc3696d1b670d3f::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+          "span_id": "25",
+          "start": 1870,
+          "end": 1978,
+          "source_block_id": "src_fbc3696d1b670d3f::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+          "span_id": "26",
+          "start": 1978,
+          "end": 2065,
+          "source_block_id": "src_fbc3696d1b670d3f::b0011"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "90b1a712d195c5fad9ae2a5366d0ef7f",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 46,
+          "source_block_id": "src_3b51ed11e0235f64::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "span_id": "2",
+          "start": 46,
+          "end": 156,
+          "source_block_id": "src_3b51ed11e0235f64::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "05d1233e323f975fe059cf5f94bd5bf1::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "05d1233e323f975fe059cf5f94bd5bf1",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 4,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "span_id": "36",
+          "start": 2396,
+          "end": 2465,
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "span_id": "37",
+          "start": 2465,
+          "end": 2571,
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "span_id": "38",
+          "start": 2571,
+          "end": 2634,
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "span_id": "36",
+          "start": 2396,
+          "end": 2465,
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "span_id": "37",
+          "start": 2465,
+          "end": 2571,
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+          "span_id": "38",
+          "start": 2571,
+          "end": 2634,
+          "source_block_id": "src_9a6c3773f5d07c7c::b0015"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c40b51cba6ce84eb948a72e484ad7a43::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "c40b51cba6ce84eb948a72e484ad7a43",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0",
+          "span_id": "9",
+          "start": 650,
+          "end": 676,
+          "source_block_id": "src_153b56367db31253::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0",
+          "span_id": "11",
+          "start": 689,
+          "end": 735,
+          "source_block_id": "src_153b56367db31253::b0007"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "c4d29250f16017f3fc9fbaa5bf183988",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "6",
+          "start": 310,
+          "end": 350,
+          "source_block_id": "src_61d84103201f7b75::b0003"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "7",
+          "start": 350,
+          "end": 395,
+          "source_block_id": "src_61d84103201f7b75::b0004"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "8",
+          "start": 395,
+          "end": 491,
+          "source_block_id": "src_61d84103201f7b75::b0004"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "6",
+          "start": 310,
+          "end": 350,
+          "source_block_id": "src_61d84103201f7b75::b0003"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "7",
+          "start": 350,
+          "end": 395,
+          "source_block_id": "src_61d84103201f7b75::b0004"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Learner permit restrictions#3_0",
+          "span_id": "8",
+          "start": 395,
+          "end": 491,
+          "source_block_id": "src_61d84103201f7b75::b0004"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "7941cf7dd009003b816e5f49c98784c0",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+          "span_id": "30",
+          "start": 1874,
+          "end": 1909,
+          "source_block_id": "src_bfe92dd26b1ec0df::b0017"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+          "span_id": "31",
+          "start": 1909,
+          "end": 1956,
+          "source_block_id": "src_bfe92dd26b1ec0df::b0018"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+          "span_id": "32",
+          "start": 1956,
+          "end": 2074,
+          "source_block_id": "src_bfe92dd26b1ec0df::b0018"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+          "span_id": "33",
+          "start": 2074,
+          "end": 2118,
+          "source_block_id": "src_bfe92dd26b1ec0df::b0018"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "0dc6f814edb85abf7090d459b9a8a729",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 8,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "span_id": "60",
+          "start": 2882,
+          "end": 2887,
+          "source_block_id": "src_2ec1a78e7102805c::b0031"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "span_id": "61",
+          "start": 2887,
+          "end": 2984,
+          "source_block_id": "src_2ec1a78e7102805c::b0039"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "span_id": "62",
+          "start": 2984,
+          "end": 3052,
+          "source_block_id": "src_2ec1a78e7102805c::b0039"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "span_id": "60",
+          "start": 2882,
+          "end": 2887,
+          "source_block_id": "src_2ec1a78e7102805c::b0031"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "span_id": "61",
+          "start": 2887,
+          "end": 2984,
+          "source_block_id": "src_2ec1a78e7102805c::b0039"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+          "span_id": "62",
+          "start": 2984,
+          "end": 3052,
+          "source_block_id": "src_2ec1a78e7102805c::b0039"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "bf497c2e0c66955ed04644556da12a5c",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+          "span_id": "61",
+          "start": 3894,
+          "end": 3902,
+          "source_block_id": "src_fea6e0b27b0b0e40::b0010"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+          "span_id": "62",
+          "start": 3902,
+          "end": 3998,
+          "source_block_id": "src_fea6e0b27b0b0e40::b0035"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "d0a58878eca371e513e25ee755bea381",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "3",
+          "start": 57,
+          "end": 195,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "4",
+          "start": 195,
+          "end": 246,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "3",
+          "start": 57,
+          "end": 195,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "4",
+          "start": 195,
+          "end": 246,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "ec98685178ee80eab4602c6d10a744fc",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 10,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "False Certification Discharge | Federal Student Aid#1_0",
+          "span_id": "26",
+          "start": 2440,
+          "end": 2620,
+          "source_block_id": "src_85010da1c1417647::b0011"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "False Certification Discharge | Federal Student Aid#1_0",
+          "span_id": "27",
+          "start": 2620,
+          "end": 2648,
+          "source_block_id": "src_85010da1c1417647::b0020"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "e1558c9a8d9a63a959eee01f7fd33a1f",
+      "question_turn_id": 10,
+      "answer_turn_id": 11,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 9,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "span_id": "23",
+          "start": 469,
+          "end": 637,
+          "source_block_id": "src_b4b7acc9412923c3::b0027"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "span_id": "24",
+          "start": 637,
+          "end": 690,
+          "source_block_id": "src_b4b7acc9412923c3::b0027"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "span_id": "25",
+          "start": 690,
+          "end": 863,
+          "source_block_id": "src_b4b7acc9412923c3::b0027"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "span_id": "23",
+          "start": 469,
+          "end": 637,
+          "source_block_id": "src_b4b7acc9412923c3::b0027"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "span_id": "24",
+          "start": 637,
+          "end": 690,
+          "source_block_id": "src_b4b7acc9412923c3::b0027"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits for People with Disabilities#1_0",
+          "span_id": "25",
+          "start": 690,
+          "end": 863,
+          "source_block_id": "src_b4b7acc9412923c3::b0027"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "cc6419cef7f93479c4c7790189773a14",
+      "question_turn_id": 4,
+      "answer_turn_id": 5,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 3,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "3",
+          "start": 133,
+          "end": 260,
+          "source_block_id": "src_c89b7c804f4349b5::b0004"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "span_id": "4",
+          "start": 260,
+          "end": 315,
+          "source_block_id": "src_c89b7c804f4349b5::b0004"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "c8956b13c0336770ca4e400291a481c8",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 4,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "26",
+          "start": 1365,
+          "end": 1414,
+          "source_block_id": "src_eac1506b824bb3f9::b0017"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "27",
+          "start": 1414,
+          "end": 1521,
+          "source_block_id": "src_eac1506b824bb3f9::b0041"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "28",
+          "start": 1521,
+          "end": 1604,
+          "source_block_id": "src_eac1506b824bb3f9::b0018"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "span_id": "29",
+          "start": 1604,
+          "end": 1682,
+          "source_block_id": "src_eac1506b824bb3f9::b0018"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "166e4adfd7cc4b506a179130f07e0c63",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 10,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Program Reviews | Federal Student Aid#1_0",
+          "span_id": "7",
+          "start": 515,
+          "end": 736,
+          "source_block_id": "src_2a10b92984139405::b0004"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Program Reviews | Federal Student Aid#1_0",
+          "span_id": "7",
+          "start": 515,
+          "end": 736,
+          "source_block_id": "src_2a10b92984139405::b0004"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "ef7084e0229b09f7e0827cc4c320ddc9",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 10,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "span_id": "15",
+          "start": 950,
+          "end": 959,
+          "source_block_id": "src_c00d428ae0b60a04::b0010"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+          "span_id": "16",
+          "start": 959,
+          "end": 1120,
+          "source_block_id": "src_c00d428ae0b60a04::b0011"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "5e5db1c8f954cf39215f7bc72c7322fa",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 4,
+      "reference_span_count": 6,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "span_id": "17",
+          "start": 788,
+          "end": 858,
+          "source_block_id": "src_6a02848cc925c98e::b0012"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "span_id": "18",
+          "start": 858,
+          "end": 944,
+          "source_block_id": "src_6a02848cc925c98e::b0012"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "span_id": "19",
+          "start": 944,
+          "end": 960,
+          "source_block_id": "src_6a02848cc925c98e::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "span_id": "17",
+          "start": 788,
+          "end": 858,
+          "source_block_id": "src_6a02848cc925c98e::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "span_id": "18",
+          "start": 858,
+          "end": 944,
+          "source_block_id": "src_6a02848cc925c98e::b0012"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Information about Empire Gold plates#1_0",
+          "span_id": "19",
+          "start": 944,
+          "end": 960,
+          "source_block_id": "src_6a02848cc925c98e::b0012"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "e7fd0ac02907e842b9ca05fa38cfb330",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "respond_solution",
+      "derived_category": "answer",
+      "runtime_task_label": "answer",
+      "category_adapted": false,
+      "reference_answer_rewritten": false,
+      "history_turn_count": 6,
+      "reference_span_count": 4,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "3",
+          "start": 57,
+          "end": 195,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        },
+        {
+          "source_turn": "question",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "4",
+          "start": 195,
+          "end": 246,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "3",
+          "start": 57,
+          "end": 195,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+          "span_id": "4",
+          "start": 195,
+          "end": 246,
+          "source_block_id": "src_08c54c534585a3f7::b0005"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "cbef89514baf9fbe01ee72682f40e0ef::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "cbef89514baf9fbe01ee72682f40e0ef",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Pay driver civil penalty#1_0",
+          "span_id": "41",
+          "start": 2791,
+          "end": 2802,
+          "source_block_id": "src_3fd1331a602be6ee::b0020"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Pay driver civil penalty#1_0",
+          "span_id": "42",
+          "start": 2802,
+          "end": 2888,
+          "source_block_id": "src_3fd1331a602be6ee::b0021"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "fe132fe64875f957637bd6a202aa4dd2",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+          "span_id": "7",
+          "start": 396,
+          "end": 425,
+          "source_block_id": "src_4d09e6f619c51397::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+          "span_id": "8",
+          "start": 425,
+          "end": 602,
+          "source_block_id": "src_4d09e6f619c51397::b0007"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "5525c2985e4e3613f6820124fe297c11::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "5525c2985e4e3613f6820124fe297c11",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 28,
+          "source_block_id": "src_50858554797d8ac8::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+          "span_id": "2",
+          "start": 28,
+          "end": 91,
+          "source_block_id": "src_50858554797d8ac8::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "20857beefef3264d6cc89b5b67fa1dea",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Medical Certification Requirements#3_0",
+          "span_id": "11",
+          "start": 1085,
+          "end": 1120,
+          "source_block_id": "src_a1e8435b6030ed91::b0005"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Medical Certification Requirements#3_0",
+          "span_id": "12",
+          "start": 1120,
+          "end": 1218,
+          "source_block_id": "src_a1e8435b6030ed91::b0006"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "a5e33a8ee5418d4e04d6a9fe980b80f4",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "answer",
+      "category_adapted": true,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Suspensions and revocations#3_0",
+          "span_id": "32",
+          "start": 1923,
+          "end": 1970,
+          "source_block_id": "src_e4f6b8031c3c3bca::b0015"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Suspensions and revocations#3_0",
+          "span_id": "33",
+          "start": 1970,
+          "end": 2057,
+          "source_block_id": "src_e4f6b8031c3c3bca::b0016"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "26b0f6c2fe37202f4b6a0763afcab3aa::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "26b0f6c2fe37202f4b6a0763afcab3aa",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 10,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Receiving Financial Aid | Federal Student Aid#1_0",
+          "span_id": "60",
+          "start": 3779,
+          "end": 3931,
+          "source_block_id": "src_05d6492ee50b35d0::b0027"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Receiving Financial Aid | Federal Student Aid#1_0",
+          "span_id": "61",
+          "start": 3931,
+          "end": 4040,
+          "source_block_id": "src_05d6492ee50b35d0::b0028"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "438267cd2c6889fcaaa36953ae269483::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "438267cd2c6889fcaaa36953ae269483",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 6,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+          "span_id": "8",
+          "start": 425,
+          "end": 602,
+          "source_block_id": "src_4d09e6f619c51397::b0007"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+          "span_id": "10",
+          "start": 606,
+          "end": 613,
+          "source_block_id": "src_4d09e6f619c51397::b0010"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "c92b7a4080c71c677a5d5142370610d0::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "c92b7a4080c71c677a5d5142370610d0",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 6,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Open a driving school#3_0",
+          "span_id": "26",
+          "start": 1718,
+          "end": 1734,
+          "source_block_id": "src_648180606c1c68e1::b0009"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Open a driving school#3_0",
+          "span_id": "27",
+          "start": 1734,
+          "end": 1794,
+          "source_block_id": "src_648180606c1c68e1::b0010"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "38d1e881ce0803f1fe85c74ab6b653a1::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "38d1e881ce0803f1fe85c74ab6b653a1",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 52,
+          "source_block_id": "src_fc37953f411fcf21::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0",
+          "span_id": "2",
+          "start": 52,
+          "end": 185,
+          "source_block_id": "src_fc37953f411fcf21::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "6a53d32979534c26b56948c498908f0d::agent-turn-14",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "6a53d32979534c26b56948c498908f0d",
+      "question_turn_id": 13,
+      "answer_turn_id": 14,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 12,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "span_id": "45",
+          "start": 2607,
+          "end": 2634,
+          "source_block_id": "src_b6332fe4bfa91fda::b0019"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "span_id": "47",
+          "start": 2639,
+          "end": 2710,
+          "source_block_id": "src_b6332fe4bfa91fda::b0020"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "1c07df6d56b7980cf041a8ff3dd1bde4",
+      "question_turn_id": 13,
+      "answer_turn_id": 14,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 12,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "span_id": "45",
+          "start": 2607,
+          "end": 2634,
+          "source_block_id": "src_b6332fe4bfa91fda::b0019"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "span_id": "47",
+          "start": 2639,
+          "end": 2710,
+          "source_block_id": "src_b6332fe4bfa91fda::b0020"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "1a16df19c04d0df0f426fd54a856d7c2::agent-turn-12",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "1a16df19c04d0df0f426fd54a856d7c2",
+      "question_turn_id": 11,
+      "answer_turn_id": 12,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 10,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Reporting Parent Information | Federal Student Aid#1_0",
+          "span_id": "61",
+          "start": 5221,
+          "end": 5337,
+          "source_block_id": "src_227e67875d6aeee4::b0033"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Reporting Parent Information | Federal Student Aid#1_0",
+          "span_id": "62",
+          "start": 5337,
+          "end": 5368,
+          "source_block_id": "src_227e67875d6aeee4::b0034"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "68bde1de04e1739c10aa71d88dfa466d",
+      "question_turn_id": 3,
+      "answer_turn_id": 4,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 2,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "VA Survivors Pension | Veterans Affairs#1_0",
+          "span_id": "33",
+          "start": 2344,
+          "end": 2381,
+          "source_block_id": "src_1022423da339cc3e::b0017"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "VA Survivors Pension | Veterans Affairs#1_0",
+          "span_id": "34",
+          "start": 2381,
+          "end": 2403,
+          "source_block_id": "src_1022423da339cc3e::b0018"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "6051c869888c57bb63e1db93fa8dd300::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "6051c869888c57bb63e1db93fa8dd300",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 32,
+          "source_block_id": "src_3f25b022f902609c::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0",
+          "span_id": "2",
+          "start": 32,
+          "end": 61,
+          "source_block_id": "src_3f25b022f902609c::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "a430060f5b3837676f05642229ad31b6::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "ssa",
+      "source_dialogue_id": "a430060f5b3837676f05642229ad31b6",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+          "span_id": "1",
+          "start": 0,
+          "end": 21,
+          "source_block_id": "src_99b1dfe1b745f999::b0002"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+          "span_id": "2",
+          "start": 21,
+          "end": 112,
+          "source_block_id": "src_99b1dfe1b745f999::b0003"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "d11cf8664fd07b5745c68eb34bb87e3c",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 6,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+          "span_id": "75",
+          "start": 2563,
+          "end": 2591,
+          "source_block_id": "src_fc660e04386afb1c::b0028"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+          "span_id": "77",
+          "start": 2596,
+          "end": 2690,
+          "source_block_id": "src_fc660e04386afb1c::b0029"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "ca189f6c3979e9aaf1eb8013b3c49247::agent-turn-6",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "va",
+      "source_dialogue_id": "ca189f6c3979e9aaf1eb8013b3c49247",
+      "question_turn_id": 5,
+      "answer_turn_id": 6,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 4,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Co-op Training | Veterans Affairs#1_0",
+          "span_id": "7",
+          "start": 490,
+          "end": 518,
+          "source_block_id": "src_4fde786c3049823a::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Co-op Training | Veterans Affairs#1_0",
+          "span_id": "8",
+          "start": 518,
+          "end": 559,
+          "source_block_id": "src_4fde786c3049823a::b0007"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "58f62ac630b5ec13054947b7b8520476",
+      "question_turn_id": 9,
+      "answer_turn_id": 10,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 8,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+          "span_id": "20",
+          "start": 1211,
+          "end": 1327,
+          "source_block_id": "src_0e553919123137c6::b0006"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+          "span_id": "21",
+          "start": 1327,
+          "end": 1651,
+          "source_block_id": "src_0e553919123137c6::b0006"
+        }
+      ],
+      "active_evidence_removed": true
+    },
+    {
+      "question_id": "51b728730686c365c93c396c62cfb7c7::agent-turn-2",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "dmv",
+      "source_dialogue_id": "51b728730686c365c93c396c62cfb7c7",
+      "question_turn_id": 1,
+      "answer_turn_id": 2,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 0,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "How to renew a license#1_0",
+          "span_id": "80",
+          "start": 3907,
+          "end": 3933,
+          "source_block_id": "src_234af90cb99498b6::b0038"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "How to renew a license#1_0",
+          "span_id": "81",
+          "start": 3933,
+          "end": 3963,
+          "source_block_id": "src_234af90cb99498b6::b0039"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "375a963ac82d70c70446a2f30e686438::agent-turn-8",
+      "synthetic": false,
+      "failures": [],
+      "status": "verified",
+      "domain": "studentaid",
+      "source_dialogue_id": "375a963ac82d70c70446a2f30e686438",
+      "question_turn_id": 7,
+      "answer_turn_id": 8,
+      "original_agent_act": "query_condition",
+      "derived_category": "clarification",
+      "runtime_task_label": "clarify",
+      "category_adapted": false,
+      "reference_answer_rewritten": true,
+      "history_turn_count": 6,
+      "reference_span_count": 2,
+      "references": [
+        {
+          "source_turn": "question",
+          "doc_id": "Perkins Loan Cancellation and Discharge | Federal Student Aid#1_0",
+          "span_id": "96",
+          "start": 8376,
+          "end": 8422,
+          "source_block_id": "src_ff38b4328c7d0024::b0046"
+        },
+        {
+          "source_turn": "answer",
+          "doc_id": "Perkins Loan Cancellation and Discharge | Federal Student Aid#1_0",
+          "span_id": "97",
+          "start": 8422,
+          "end": 8471,
+          "source_block_id": "src_ff38b4328c7d0024::b0046"
+        }
+      ],
+      "active_evidence_removed": false
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-005",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-007",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-003",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-004",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-009",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-001",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-002",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-006",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-008",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-010",
+      "synthetic": true,
+      "failures": [],
+      "status": "agent_authored_not_original_annotation"
+    }
+  ]
+}

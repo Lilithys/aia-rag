@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "6ce56d9fff93d624e1fed2d80b44e954053430afd7e30fa606a3541f0b0b5826",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "must submit the medical examiner's certificate when applying for CLP/CDL",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response omits the essential condition of submitting the certificate at application time, instead focusing on the 55-day notice and self-certification requirements."
+              }
+            ],
+            "reason": "The answer provides related medical certification requirements but omits the essential reference fact that the certificate must be submitted when applying for the CLP/CDL, making it incomplete."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "adecf1688d2b4322be3980b2ba7062c1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2727,
+                "completion_tokens": 138,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 138,
+                  "prompt_tokens": 2727,
+                  "total_tokens": 2865,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1831
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0034123,
+              "accounted_rmb": 0.0034123,
+              "usage_unknown": false,
+              "seconds": 1.68935227394104,
+              "error": null,
+              "response": {
+                "id": "6aca648f-1567-4a11-8267-1f49ee173ae0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "035b21789ac919ce8bccf3aa7fdff3c6107d0489afc996400034633ad74928fc"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "must submit the medical examiner's certificate when applying for CLP/CDL",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response omits the essential condition of submitting the certificate at application time, instead focusing on the 55-day notice and self-certification requirements."
+          }
+        ],
+        "reason": "The answer provides related medical certification requirements but omits the essential reference fact that the certificate must be submitted when applying for the CLP/CDL, making it incomplete."
+      }
+    }
+  },
+  "sha256": "a9ea1fadd58d0cf0363bc22123fac72fd0d758bf6ceb0aa66087096da5a055b0"
+}

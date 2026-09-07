@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "c9ea5b6d6e40872b9c73bd365c687e4656e2975764765481fd8bed6c24609204",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "CSR contacts facility to resolve complaint and explains rights, responsibilities, liability",
+                "coverage": "covered",
+                "response_quote": "a DMV Consumer Services Representative (CSR) will contact you to explain the complaint and your rights, responsibilities, and liability",
+                "reason": "Response accurately states CSR contact and explanation."
+              },
+              {
+                "requirement": "If unresolved, AFI conducts formal investigation",
+                "coverage": "covered",
+                "response_quote": "If unresolved, the case goes to an Automotive Facilities Inspector (AFI) for a formal investigation",
+                "reason": "Response correctly describes escalation to AFI investigation."
+              }
+            ],
+            "reason": "The response fully covers the essential complaint process facts from the reference, with all additional details supported by the retrieved documents."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2fa12047161d487aa85b67a08a3a0686",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5935,
+                "completion_tokens": 194,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 194,
+                  "prompt_tokens": 5935,
+                  "total_tokens": 6129,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 5039
+                }
+              },
+              "usage_cost_estimate_rmb": 0.008476299999999999,
+              "accounted_rmb": 0.008476299999999999,
+              "usage_unknown": false,
+              "seconds": 2.464655876159668,
+              "error": null,
+              "response": {
+                "id": "711f2eea-324d-448e-adbb-af7f7b9e2702",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a4cd21a8793d1840460442ad2daa7fcfff7b9aba22b31b3e874df851d0c2ec8d"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "CSR contacts facility to resolve complaint and explains rights, responsibilities, liability",
+            "coverage": "covered",
+            "response_quote": "a DMV Consumer Services Representative (CSR) will contact you to explain the complaint and your rights, responsibilities, and liability",
+            "reason": "Response accurately states CSR contact and explanation."
+          },
+          {
+            "requirement": "If unresolved, AFI conducts formal investigation",
+            "coverage": "covered",
+            "response_quote": "If unresolved, the case goes to an Automotive Facilities Inspector (AFI) for a formal investigation",
+            "reason": "Response correctly describes escalation to AFI investigation."
+          }
+        ],
+        "reason": "The response fully covers the essential complaint process facts from the reference, with all additional details supported by the retrieved documents."
+      }
+    }
+  },
+  "sha256": "9483dc94f80194df3fb294868182f144ef1b514e445469989afc32bc29659be8"
+}

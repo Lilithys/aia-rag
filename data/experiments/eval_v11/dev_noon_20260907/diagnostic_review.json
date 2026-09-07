@@ -1,0 +1,920 @@
+{
+  "judge_consistency_flags": [
+    {
+      "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+      "issue": "unequal_clarification_requirements",
+      "note": "Candidate explicitly asks what help the user needs after supported general guidance. Judge accepts baseline asking the task without CDL-status confirmation, but rejects candidate for not asking status/task. The verdict also overlooks the final clarification sentence. Preserve score; investigate uniform essential-condition interpretation.",
+      "baseline": {
+        "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "question": "I need CDL help",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "clarify",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [],
+          "reason": "The response appropriately asks the user to specify their CDL task, which is the essential missing condition for providing targeted help. It does not assume unknown details and offers supported general categories for clarification."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": null
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "I can help with CDL questions based on the provided knowledge base. Please specify what you need help with, such as getting a CDL, renewing a CDL, medical certification, or something else.",
+          "citations": [],
+          "action": "clarify"
+        }
+      },
+      "candidate": {
+        "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "question": "I need CDL help",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "clarify whether the user already holds a NY CDL or permit and what task they need help with",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides general information but does not ask the essential clarifying question about the user's current CDL status or specific task."
+            }
+          ],
+          "reason": "The response answers with general CDL information but fails to clarify the user's specific situation, which is required for a clarification task."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "I can provide general information about getting, renewing, or checking your CDL record in New York. For first-time CDL, you must have a NYS driver license (Class D, E, or Non-CDL C) or a valid out-of-state CDL, then apply for a commercial learner permit at a DMV office, pass written tests, and pay fees. For renewals, you must renew in person at a DMV office and meet federal medical certification requirements. To check your CDL driving record, you can order a certified CDL abstract online via MyDMV for $7 or by mail for $10. If you need specific details about your situation, please clarify what you need help with.",
+          "citations": [
+            "Get a CDL#1_0::c0000",
+            "Renew a CDL#1_0::c0000",
+            "Get my own CDL driving record (abstract)#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "original_scores_unchanged": true
+    },
+    {
+      "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+      "issue": "conditional_guidance_rejected",
+      "note": "Judge marks behavior and extra claims supported, but rejects providing both spouse and child branches solely for not asking which category applies. This conflicts with the rubric allowing supported conditional guidance. Preserve original score; this flag is not an independent replacement grade.",
+      "baseline": {
+        "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+        "question": "What requirements do I need to meet?",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "clarify whether the user is asking about eligibility as a surviving spouse or as an unmarried dependent child",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides eligibility requirements for both surviving spouses and children without first clarifying which category the user belongs to, despite the task being a clarification task."
+            }
+          ],
+          "reason": "The response answers with detailed eligibility criteria for both spouse and child categories but fails to clarify the user's specific situation, which is the essential missing condition for a clarification task."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "To qualify for VA Survivors Pension as an unremarried surviving spouse, you must meet all of the following: (1) You have not remarried since the Veteran's death. (2) The Veteran did not receive a dishonorable discharge. (3) The Veteran's service meets at least one of these active-duty requirements: started before September 8, 1980, and served at least 90 days with at least 1 day during a recognized wartime period; started after September 7, 1980, and served at least 24 months (or the full period they were called or ordered to active duty, with exceptions) with at least 1 day during wartime; or was an officer who started after October 16, 1981, and had not previously served at least 24 months on active duty. (4) Your yearly family income and net worth meet limits set by Congress (net worth excludes your house, car, and most home furnishings, minus debts). Recognized wartime periods include WWII, Korean conflict, Vietnam War era, and Gulf War (see full list in the source). If you are a child, you must be unmarried and under 18, under 23 and attending a VA-approved school, or disabled before age 18. Apply using VA Form 21-534EZ by mail or in person.",
+          "citations": [
+            "VA Survivors Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+        "question": "What requirements do I need to meet?",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "clarify whether the user is asking about eligibility as a surviving spouse or as an unmarried dependent child",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides eligibility details for both surviving spouses and children without first clarifying which category the user belongs to."
+            }
+          ],
+          "reason": "The response answers with comprehensive eligibility information for both surviving spouses and children, but the task is to clarify the user's specific situation. It fails to ask whether the user is a surviving spouse or a child, which is essential for tailored guidance."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "To qualify for VA Survivors Pension as a surviving spouse, you must not have remarried after the Veteran's death, and the Veteran must have had other than dishonorable discharge and meet at least one service requirement (e.g., served at least 90 days on active duty with at least 1 day during wartime if started before September 8, 1980, or served at least 24 months if started after that date, with exceptions). Additionally, your yearly family income and net worth must meet certain limits set by Congress. As a child, you must be unmarried and either under 18, under 23 and attending a VA-approved school, or disabled before age 18. For more details, see the VA Survivors Pension page.",
+          "citations": [
+            "VA Survivors Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "original_scores_unchanged": true
+    },
+    {
+      "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "issue": "conditional_guidance_rejected",
+      "note": "Judge accepts a question-form list in the baseline but rejects candidate listing the same entry-training/15-month condition as guidance. User asks for questions, so presentation relevance also matters; this remains a rubric-consistency diagnostic rather than an automatic score correction.",
+      "baseline": {
+        "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "question": "告诉我我必须回答的问题",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "User must have completed initial entry training and served 15 months in a Secretary of Defense-designated military occupational specialty",
+              "coverage": "covered",
+              "response_quote": "您是否完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役了15个月？",
+              "reason": "The response includes this essential eligibility condition as a question to the user."
+            }
+          ],
+          "reason": "The response correctly asks the essential missing condition from the reference, providing a supported clarification without assuming the user's status."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "根据您的情况，您需要回答以下问题以确定您是否符合国家召唤服役计划的资格：\n\n1. 您是否完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役了15个月？\n2. 之后，您是否在没有服役中断的情况下，要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月？\n3. 您是否在没有服役中断的情况下，完成了剩余的服役义务，包括以下任一方式：在武装部队中服现役、在选定预备役部队中服役、在个人待命预备役中服役，或在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务？\n\n如果以上所有条件均满足，您可能有资格参加该计划。您可以选择以下福利之一：5,000美元现金奖励、偿还不超过18,000美元的合格学贷、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。\n\n请注意，如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册该计划。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "question": "告诉我我必须回答的问题",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "确认用户是否完成了初始入伍训练并在国防部长指定的军事职业专业中服役15个月",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "回答直接列出了资格要求，但没有确认用户是否满足这一关键条件，而任务要求是澄清该条件。"
+            }
+          ],
+          "reason": "回答提供了完整的资格要求，但未针对历史中待澄清的具体条件（初始训练和15个月服役）进行确认，因此未完成澄清任务。"
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "根据检索到的信息，国家召唤服役计划的资格要求包括：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月；然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月。此外，您还需满足以下其中一项：在没有服役中断的情况下，您随后完成了剩余的服役义务，包括在武装部队中服现役、在选定预备役部队中服役、在个人待命预备役中服役，或在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "original_scores_unchanged": true
+    }
+  ],
+  "paired_changes": [
+    {
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "baseline": {
+        "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "question": "那贷款呢，有什么建议吗？",
+        "task_label": "answer",
+        "origin": "smoke_reuse",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "建议制定预算，只借所需金额",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "回答未提及制定预算或只借所需金额的建议"
+            }
+          ],
+          "reason": "回答提供了贷款申请步骤，但遗漏了参考中的关键建议（制定预算、只借所需金额），因此不完整。"
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": {
+          "status": "ok",
+          "score": 0.0
+        },
+        "response": {
+          "answer": "申请联邦学生贷款的第一步是填写FAFSA表格，学校会根据FAFSA信息确定你的援助资格，贷款通常包含在援助方案中。收到援助通知后，你需要联系学校财务援助办公室了解如何接受贷款。如果是首次获得直接贷款，还需完成入学咨询并签署主本票。请注意，贷款是需要偿还的，建议优先考虑助学金和奖学金等无需偿还的援助。",
+          "citations": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003",
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "question": "那贷款呢，有什么建议吗？",
+        "task_label": "answer",
+        "origin": "smoke_reuse",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "make a budget to ensure you borrow only what you need",
+              "coverage": "covered",
+              "response_quote": "只借你需要的金额，并制定预算以确保这一点",
+              "reason": "The response explicitly advises budgeting to borrow only what is needed, matching the reference."
+            }
+          ],
+          "reason": "The response provides accurate loan advice supported by the cited documents, including the essential budgeting guidance, without material errors or unsupported claims."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "关于贷款，建议遵循“先免费资金，后赚取资金，最后借贷资金”的原则。如果必须接受贷款，应优先选择联邦学生贷款，因为它们通常具有最优惠的条款和条件。只借你需要的金额，并制定预算以确保这一点。如果你对贷款类型或还款条款有疑问，请联系学校的财政援助办公室。此外，如果你或你的家庭成员服兵役，可能有资格获得利率限制、利息减免或延期还款等福利，请联系你的贷款服务商了解详情。",
+          "citations": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000",
+            "Aid for Military Families | Federal Student Aid#1_0::c0003"
+          ],
+          "action": "answer"
+        }
+      }
+    },
+    {
+      "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+      "baseline": {
+        "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+        "question": "如果我需要更改姓名怎么办？我能这样做吗？",
+        "task_label": "answer",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "To change name or other non-address information, you need to visit a DMV office.",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response only states you cannot change name online and refers to a separate page, but does not state the required action of visiting a DMV office."
+            }
+          ],
+          "reason": "The response provides partial guidance but omits the essential condition that a DMV office visit is required for name changes."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": {
+          "status": "ok",
+          "score": 0.1249999999875
+        },
+        "response": {
+          "answer": "根据检索到的信息，您可以在线续期，但新文件将显示您之前的姓名。您不能在线交易过程中更改姓名。请参阅如何更改注册或所有权证书上的姓名或其他信息。",
+          "citations": [
+            "How to renew a registration#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+        "question": "如果我需要更改姓名怎么办？我能这样做吗？",
+        "task_label": "answer",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "姓名变更需前往DMV办公室办理",
+              "coverage": "covered",
+              "response_quote": "您需要前往DMV办公室办理",
+              "reason": "回答明确指出需到DMV办公室，与参考一致"
+            },
+            {
+              "requirement": "不能通过邮寄或在线方式更改姓名",
+              "coverage": "covered",
+              "response_quote": "不能通过邮寄或在线方式更改姓名",
+              "reason": "回答明确排除邮寄和在线方式，符合参考"
+            },
+            {
+              "requirement": "需携带证明文件如法院命令、结婚证或离婚判决书",
+              "coverage": "covered",
+              "response_quote": "请携带相关文件，例如法院命令、结婚证或离婚判决书等",
+              "reason": "回答列举了必要的证明文件类型，与参考要求相符"
+            }
+          ],
+          "reason": "回答准确提供了姓名变更所需的条件和流程，无错误或遗漏，符合参考要求。"
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 0.3333333333333333
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "可以，但您需要前往DMV办公室办理，不能通过邮寄或在线方式更改姓名。请携带相关文件，例如法院命令、结婚证或离婚判决书等，以证明姓名变更。您的驾照或ID卡上的姓名变更将需要更新您的记录并重新签发证件。",
+          "citations": [
+            "Replace license or permit#1_0::c0006"
+          ],
+          "action": "answer"
+        }
+      }
+    },
+    {
+      "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+      "baseline": {
+        "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+        "question": "嘿，我17岁，有些关于未满18岁驾驶员限制的问题。你能回答吗？",
+        "task_label": "answer",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "GDL law adds restrictions for drivers under 18 holding junior learner permit or junior license (Class DJ, MJ, DJMJ)",
+              "coverage": "covered",
+              "response_quote": "未满18岁的驾驶员需要遵守毕业驾照法律（GDL）的限制。这些限制取决于你持有的是初级学习者许可证还是初级驾照",
+              "reason": "Response correctly states GDL restrictions apply to under-18 drivers with junior learner permit or junior license."
+            },
+            {
+              "requirement": "Restrictions depend on permit/license type and location in NY",
+              "coverage": "covered",
+              "response_quote": "这些限制取决于你持有的是初级学习者许可证还是初级驾照，以及你在纽约州何处驾驶",
+              "reason": "Response mentions dependence on license type and location."
+            },
+            {
+              "requirement": "Noncompliance may result in 60-day suspension/revocation",
+              "coverage": "covered",
+              "response_quote": "如果你不遵守这些限制，你的许可证或驾照可能会被暂停或吊销60天",
+              "reason": "Response accurately states the 60-day suspension/revocation consequence."
+            }
+          ],
+          "reason": "The response accurately answers the question about under-18 driver restrictions, covering essential conditions from the reference and retrieved contexts without material errors."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": {
+          "status": "ok",
+          "score": 0.7499999999625
+        },
+        "response": {
+          "answer": "当然可以。根据纽约州的规定，未满18岁的驾驶员需要遵守毕业驾照法律（GDL）的限制。这些限制取决于你持有的是初级学习者许可证还是初级驾照，以及你在纽约州何处驾驶（纽约州北部、纽约市或长岛）。如果你不遵守这些限制，你的许可证或驾照可能会被暂停或吊销60天。此外，如果你年满17岁并持有初级驾照，且完成了州批准的驾驶教育课程，你可以申请高级驾照（D类或M类），从而解除初级驾驶员的限制。如果你不更换为高级驾照，你将受到初级驾驶员限制的约束，直到年满18岁。",
+          "citations": [
+            "The Graduated License Law and Restrictions for Drivers under 18#1_0::c0000",
+            "Get a driver license#1_0::c0011"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+        "question": "嘿，我17岁，有些关于未满18岁驾驶员限制的问题。你能回答吗？",
+        "task_label": "answer",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "The response must explain that the Graduated License Law adds restrictions for drivers under 18 holding a junior learner permit or junior license in classes DJ, MJ, or DJMJ, in addition to learner-permit restrictions.",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response focuses on upgrading to a senior license and supervised practice hours, but does not mention the specific junior license classes or the additional restrictions under the GDL law."
+            }
+          ],
+          "reason": "The answer omits the essential reference fact about GDL restrictions for junior license holders in classes DJ, MJ, or DJMJ, instead providing related but incomplete information."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "当然可以。根据您的情况，如果您年满17岁，持有初级驾照或有限初级驾照，并且已完成州批准的高中或大学驾驶员教育课程，您就有资格获得高级驾照（D类或M类）。要将初级驾照更换为高级驾照，请携带您的初级驾照和学生完成证书（MV-285）前往任何DMV办公室。您必须交回证书和初级驾照才能获得高级驾照。如果您不更换，您将受到初级驾驶员限制的约束，直到年满18岁。此外，未满18岁的驾驶员在参加路考前必须完成至少50小时的有监督练习驾驶，其中包括夜间15小时和中等至繁忙交通条件下10小时，并携带由父母或监护人填写的《监督驾驶证明》（MV-262）。",
+          "citations": [
+            "Get a driver license#1_0::c0011",
+            "The Graduated License Law and Restrictions for Drivers under 18#1_0::c0000",
+            "Prepare for your road test#3_0::c0004"
+          ],
+          "action": "answer"
+        }
+      }
+    },
+    {
+      "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+      "baseline": {
+        "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+        "question": "很高兴知道！另一个与退伍军人养老金（Veterans Pension）福利相关的问题。为了有资格获得这些福利，我还必须满足哪些其他要求？",
+        "task_label": "answer",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "did not receive a dishonorable discharge",
+              "coverage": "covered",
+              "response_quote": "未受不名誉退役",
+              "reason": "Response states the requirement of not having a dishonorable discharge."
+            },
+            {
+              "requirement": "yearly family income and net worth within limits set by Congress",
+              "coverage": "covered",
+              "response_quote": "收入和净资产限额",
+              "reason": "Response mentions income and net worth limits set by Congress."
+            }
+          ],
+          "reason": "The response correctly answers the question by listing the additional eligibility requirements for Veterans Pension, including the two essential conditions from the reference, and provides accurate supporting details from the retrieved context."
+        },
+        "faithfulness": {
+          "status": "failed",
+          "score": null
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "要获得退伍军人养老金（Veterans Pension）福利，您必须满足以下额外要求：\n\n1. **未受不名誉退役**：您未受到不名誉退役处分。\n2. **收入和净资产限额**：您的年度家庭收入和净资产必须符合国会设定的限额。净资产包括您拥有的所有个人财产（不包括您的房屋、汽车和大多数家居用品）减去所欠债务，且包括您配偶的净资产。\n3. **年龄或残疾条件**：您必须至少满足以下一项：\n   - 年满65岁，或\n   - 患有永久性完全残疾，或\n   - 因残疾正在疗养院接受长期护理，或\n   - 正在领取社会保障残疾保险（SSDI）或补充保障收入（SSI）。\n\n此外，您的服役必须满足特定要求，例如在战时服役至少一天，且服役时长符合规定（如1980年9月7日之前开始服役需至少90天，之后开始服役需至少24个月或完成全部服役期）。\n\n如果您收到非荣誉退役、不良行为退役或不名誉退役，您可能不符合资格，但可以申请退役升级或通过VA的退役性质审查流程尝试符合资格。",
+          "citations": [
+            "Eligibility For Veterans Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+        "question": "很高兴知道！另一个与退伍军人养老金（Veterans Pension）福利相关的问题。为了有资格获得这些福利，我还必须满足哪些其他要求？",
+        "task_label": "answer",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "did not receive a dishonorable discharge",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response does not mention the dishonorable discharge requirement."
+            },
+            {
+              "requirement": "yearly family income and net worth within limits set by Congress",
+              "coverage": "covered",
+              "response_quote": "您的年度家庭收入和净资产必须低于国会设定的特定限额",
+              "reason": "The response states the income and net worth limits requirement."
+            }
+          ],
+          "reason": "The response covers the income/net worth requirement but omits the essential dishonorable discharge condition, making it incomplete."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "要获得VA遗属养老金（VA Survivors Pension）的资格，除了已故退伍军人需满足战时服役要求外，您还必须满足以下条件：\n\n1. **婚姻状态**：您必须是退伍军人的未再婚配偶（若再婚则不符合资格）。\n2. **收入和净资产限额**：您的年度家庭收入和净资产必须低于国会设定的特定限额。净资产计算不包括您的房屋、汽车和大多数家居用品，但需减去所欠债务。\n\n若您作为子女申请，则需未婚且满足年龄或残疾条件（如未满18岁，或未满23岁且就读VA认可的学校，或因18岁前发生的残疾无法自理）。\n\n请注意，这些要求与VA DIC（遗属伤残补偿金）不同，后者针对因服役相关原因死亡的退伍军人遗属，且可能有额外条件（如婚姻时长或退伍军人残疾评级）。建议您根据具体情况核对官方资格标准。",
+          "citations": [
+            "VA Survivors Pension | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      }
+    },
+    {
+      "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "baseline": {
+        "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "question": "告诉我我必须回答的问题",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "User must have completed initial entry training and served 15 months in a Secretary of Defense-designated military occupational specialty",
+              "coverage": "covered",
+              "response_quote": "您是否完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役了15个月？",
+              "reason": "The response includes this essential eligibility condition as a question to the user."
+            }
+          ],
+          "reason": "The response correctly asks the essential missing condition from the reference, providing a supported clarification without assuming the user's status."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "根据您的情况，您需要回答以下问题以确定您是否符合国家召唤服役计划的资格：\n\n1. 您是否完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役了15个月？\n2. 之后，您是否在没有服役中断的情况下，要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月？\n3. 您是否在没有服役中断的情况下，完成了剩余的服役义务，包括以下任一方式：在武装部队中服现役、在选定预备役部队中服役、在个人待命预备役中服役，或在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务？\n\n如果以上所有条件均满足，您可能有资格参加该计划。您可以选择以下福利之一：5,000美元现金奖励、偿还不超过18,000美元的合格学贷、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。\n\n请注意，如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册该计划。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      },
+      "candidate": {
+        "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "question": "告诉我我必须回答的问题",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "确认用户是否完成了初始入伍训练并在国防部长指定的军事职业专业中服役15个月",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "回答直接列出了资格要求，但没有确认用户是否满足这一关键条件，而任务要求是澄清该条件。"
+            }
+          ],
+          "reason": "回答提供了完整的资格要求，但未针对历史中待澄清的具体条件（初始训练和15个月服役）进行确认，因此未完成澄清任务。"
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "根据检索到的信息，国家召唤服役计划的资格要求包括：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月；然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月。此外，您还需满足以下其中一项：在没有服役中断的情况下，您随后完成了剩余的服役义务，包括在武装部队中服现役、在选定预备役部队中服役、在个人待命预备役中服役，或在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      }
+    },
+    {
+      "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+      "baseline": {
+        "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "question": "I need CDL help",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 1,
+        "correctness_verdict": {
+          "correct": true,
+          "observed_action": "clarify",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [],
+          "reason": "The response appropriately asks the user to specify their CDL task, which is the essential missing condition for providing targeted help. It does not assume unknown details and offers supported general categories for clarification."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": null
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "I can help with CDL questions based on the provided knowledge base. Please specify what you need help with, such as getting a CDL, renewing a CDL, medical certification, or something else.",
+          "citations": [],
+          "action": "clarify"
+        }
+      },
+      "candidate": {
+        "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "question": "I need CDL help",
+        "task_label": "clarify",
+        "origin": "fresh",
+        "generation_status": "ok",
+        "correctness": 0,
+        "correctness_verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "clarify whether the user already holds a NY CDL or permit and what task they need help with",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides general information but does not ask the essential clarifying question about the user's current CDL status or specific task."
+            }
+          ],
+          "reason": "The response answers with general CDL information but fails to clarify the user's specific situation, which is required for a clarification task."
+        },
+        "faithfulness": {
+          "status": "ok",
+          "score": 1.0
+        },
+        "context_precision": null,
+        "response": {
+          "answer": "I can provide general information about getting, renewing, or checking your CDL record in New York. For first-time CDL, you must have a NYS driver license (Class D, E, or Non-CDL C) or a valid out-of-state CDL, then apply for a commercial learner permit at a DMV office, pass written tests, and pay fees. For renewals, you must renew in person at a DMV office and meet federal medical certification requirements. To check your CDL driving record, you can order a certified CDL abstract online via MyDMV for $7 or by mail for $10. If you need specific details about your situation, please clarify what you need help with.",
+          "citations": [
+            "Get a CDL#1_0::c0000",
+            "Renew a CDL#1_0::c0000",
+            "Get my own CDL driving record (abstract)#1_0::c0000"
+          ],
+          "action": "answer"
+        }
+      }
+    }
+  ],
+  "paired_changes_are_exploratory_and_judge_dependent": true,
+  "rubric_rule": "clarify: ask the missing essential condition OR give supported conditional guidance covering relevant branches; judge actual text rather than self-declared action.",
+  "score_overrides": 0,
+  "independent_human_review": false,
+  "source_sha256": {
+    "data/experiments/eval_v11/dev_noon_20260907/plan.json": "351f0dfa3178527d7a3b074780f0520c44b2ab68c91e65607f6bed1c92566340",
+    "data/experiments/eval_v11/dev_noon_20260907/generation_bundle.json": "fe806834a9349ce53cd58b0be9466c3043b339c366fe7fb430c2a3e526765755",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/plan.json": "f31d77ab00970dd65930584da978b313ddfd28657d182648d536b35e83b1aea1",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/004fb250f9aff369be1390158fb13962bca2aac29c0c86618c07d28ffbccae71.json": "9e8b1c5815e2511f70fe82b7f2a5b6464bdff078b13f45323c02724e418ffd18",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/01ca920dedc0a3514f3598c3e79e2b1639cceb5ea470e03efb95fd54e0541873.json": "7ab023283881d01259ca7e4900e56ef4a8e36dbd10e56fa23f30afc0f40791b4",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/03032be5e8d6e383569484f89ec44becad6b2fbbdaea2dc917f77e5402d81055.json": "f08fe1161a2fb59b8c0f19bcef7e4fe76f2cda2c358c39a73979392d860fc13f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/036f24890e930e50a9bfadaf132948c6bbe8780966cccd57db6b87db3a6ae798.json": "d523bff60579d2ae723e15de630b39c022c4e3ed6719fff8ebe6d1853cc903b7",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/03910545e7b35cca75791d0929d953aa30a4199622ff2b0b9cac78d24737831e.json": "ba19f3ebc6695b4302631461fd1c38ba0eab759449b8afe86b9e0ed686bddfab",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/03a412a783233988b5ce0f26822462a68e53ba6f549caff1cb06356170694258.json": "c0ac53d09d6906d4815b710fdaa8fc04f8efc0e644a192a27c9572b0634ddb98",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/04944fc5bf0556935fa410d332d38ff8cc36b80397d15cf71f8e831f0688d12f.json": "2cd9c0a1e708eab3c75f305dda66997da61031f96f2dc73b952e0aae754cf5d5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/04ed533d38eaed6bad0bdd52dadb6be059d34aed2657f305ab5ba7a49c0caad4.json": "576868277ffaf315752434f062171f70a235a63103033d179ada485b78cae48f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0664d32e430edcc498aa5cf4dc68d72384efbfaecf8b7da107825d9d5b022714.json": "880f8b1d3a7e977446e5f5eec5ee7acc783231ff2276ac42429d9a0c31011896",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0682fa1f49c427d83753f33f647e8627311973f03fdcabb005629646043e4e60.json": "dcfbb4e919157c18b046badbfa09a266d0d97288cb0ec0565e761c4edd3183d1",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/069e68f7fd3a0c3fb57b6f087a3db076b95a8e13a0e14d37d3c2d9f4a2546c54.json": "bcdd69a9a7b73c02ecfb7768803f2953276d0b97d2b2402cb453553ee747beed",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/07391e08854eab448d7f3d2b5f2f7f81e93fea01db76842aa04764225f1bfff8.json": "4d5ffc5a47346113513ba89f80094c36871caf42af1c7aa43bcbc978a86c4d9a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/081b02c8c86c8ccf0d3039c39c1c2d737c5539b5249595c79d164cfe2f7645d6.json": "85d7c31a524a3444a7c95ecf3f0d01e7e21f8c75f36eb0400d2f3371e6bdee38",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/08df87aa08f69f3088ec80548b07be93965f20a52d6ba318f299d1e15cbe4d76.json": "29fc5ca2bd193b34f3feddf32dbd391f7dba0b2b664d0968e32f9fcba39a1780",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0a01e1353ce66384c4f66e6acd02f2c8e72082e64ca996bb5bf717f9e3644c21.json": "16d77a6630370956d119fadd591090bb926a815041ce3235154ec2ea07d149d5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0ab78776e85044519b538c3852a86c3ccb0f2f72bc4375d4b8a8281d8bb39e19.json": "b6a0548e454f6fd24cbbc3416ed08c919e61d3ed5305e7e291c64529064d35eb",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0aba14d9dbfa5ee135767fb2850d0c5a417bbe966c5fa29a4427228361a10195.json": "073d840ce5d59b60e2d2fe9a05d61c4ed2b515f33241b89ea5e34e2f804d72e1",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0af052f6b59d9b965db05c2778748f026451821ea7adc2e01b8834418b413c4e.json": "553594031e9df33468929345a4393a1575966c15db9e122adc9ea1ce8aa66e7c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0af6ae1be8b8f6eea8ddabe9d14c1b688e2975b9c9ec78035d9c79796aa279a1.json": "86f6240103f3ce5f8579a211a1cef4a7f0b09d812743fa5260409863f5426754",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0b2b7c43e55db76b7f19a8bfc378bf2853e3578a6447250530620ddb46cb5674.json": "5f6c772578c23b2a1e618043d95d3c3735dc05d86ac6943b663c7cdb6112903c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0c8629d9da90fdf37e317aed925eb827a1cc70e12bd479eec2c8e973191400fa.json": "b4480769eafada1a78a2c5708e52254fd7ccd77047fd8a513a906a475072bc15",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/0dc1ced8cc9c6a19b613bff9acf4db05ebbfa04e2a032b1c729b61944fa1be91.json": "dfb07e9d3c65251500a61ba10b36ab4fe5bf5408799bce3524c4d135b0ae0b47",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/13af9240537979b0d5a8ab827d223025e2b4e146fef59585e2a34951ec9d0bfc.json": "37f5f2d803d8b7827412b28240c5354796c3289d464a557ad692be34935ddbfb",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/13dc04c931685fa9aff7e445338ee94e8f695d4c5a8b1ec228f4244321b2c4d2.json": "1cad64fdccfc4ddc57691eb4e87cbaa9c84de234809e23e7f91bd24a9cbe1659",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/14d5985f466e975caac784ddf2c55fed0da59bf435a49a868b23aba00c087416.json": "a519f6b97e3d4b73afcd389f3f2fd7a3cbe934bd5e46f95d2fe1106d569aa00e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/1620957c3684f4334def386d744288d6eff16a9d922cc86b96dcfd2f031c7484.json": "b30ff1846389db26927afd5696bd7d074fb6ecf965836107ad7cf2b79d55ee00",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/174365a4589bc7a2eca34c22adea6acef1c2be0cf5a759e1834ac8df5174f9ba.json": "e8bdff571c56d440bb4edbdd891695d9c0f8b34a1e8c5ffaff0d3a0bd88f10bb",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/17c7ada2c66afa63e2c01140cad71b840fd7b53b2a1fd5df9dd679bacbc845ad.json": "2efeb30ec2e678c452843c66e84a5215094002476a080fe6e4b395bdbb098934",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/194d1af079e47b2c047eb30573d6fd954508ee52c35cfe24d30366057e13fc77.json": "89d518c898da5a9e409b843b6bea9e7596fbc589036f0d5bd1cb387d9efa1e18",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/1bd233dd5bfdfbe5fa7057cc770324954df86a1a6384404daba58044d8690435.json": "1882658fa12c8b2b2bbb993480318e061fac5bfca1fe244cacfc5e30b10475b4",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/1bea1ee97b52643f98b99dfea0fd707d927095847dc01c315682bd44f6488903.json": "0dd6f456631fd7532f7ca8ded1141e9f8204b19de50bacffa4acc28f10bfc6f2",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/1daf34033b1301fbc12929894ff3022b816e0536f56933420e93296feed59797.json": "6b34fd4802bd4dcb0d932a4a627650696068835be65bd3a095b67c8e633ea127",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/1f03ec24a937ae7aa36d0dd1f300a9d8539cf9633c28a1e19145987acc245f0d.json": "eb7ffc13c95138f0b8cc7854e0d56e3d3ad0e6d76335b5452550d9767e0e8fe7",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/208afe507af72c19d9016c40575a6dd9ed8b5c5fc0a39b2610c58b1acc2d2438.json": "fe099109838853c2f3b3c96dd483031945e5241277a3b00e369494df4c15f474",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2172576839cd12ce848c11ab8275f9bc0a739d2131851a6133d840942ea3f397.json": "381ff668e50311865d3547a6dc95bef38b392819fe2ec01f40330d6a0f19b42c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/26c2c7fe24a4c0262c1844ae4442ee4e48c5cf9d9bc9cce17e4b2178cfa80578.json": "732e58e2e0d579727d560a8b1af0a4ada01b598781ad0f51e9ce5396df39928c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/26c37ddf38853cbd77c4989a11337c8a06249f334cf647427330de940d8ad5a1.json": "4a8ffd92cda5faa845c0ea4f60375e708638dad182f4e4778e326c8243b0ffab",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2976f9d0673ad9529c2c1736f7c88948b12c4bf1cfbd0e150a6c6e1cfda32679.json": "9bb39a567cb1b3e141f0f20acdd17b22510534c9ab0e00b7f991d8034a78ad12",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2af611ee256756162839c6505ca4245b112eed9835864fcd2d1512be71efe53b.json": "d421dbfa77d333c3063dc1b6860833ce0d2331fe5a7cb21bb0a323d82268e5bb",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2c11f503843bda39d0600410a7bf7972b87aa77677d833411c0f9e0d8ad14388.json": "49cb6776d43f432884341d5c83376d519178e9920cc107547de7a02d4166d910",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2ce7b09ff18fb954be8a6854650a752072914c8768d7e7044781b828af3aea9b.json": "f41d32ccac2106da69a1caf2ae1c9fb885657184c44ba44e980b7b7ad302ee9b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2e1e7cf491cf25899cba5700a4a8c72c8a0622fff0c7e31cfd648bdcd50c220d.json": "f5efc01b95d7af12787b77dfe818ea907c55d6ba22d178e4c63c79b8502a8358",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/2f31e587781e68a88b9e80c9cb817b374102a4290846d5c7eec9ec479f759f2b.json": "8bca966e622c6c04f6880821c0f5d4195b4ea9a7165c24e305810fa2f145802c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/302fd4e86a06b23ca6de24d733583b9c62acc16d4f425f9e8c2d980a10a2d079.json": "0edcb6458a411b2c5f67257a468e046e5089cefef54a2693849c1086dad09f6e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/314e9904bda817450799f8f19a466d0040b71415f7371cb3bc40b9f66a7eeabf.json": "f037ae6abf845eef4d5517e080d09292877ce22916b370f45fb6d40c90b090f2",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/33b35869f0cc50a65ffe9bf3ab6643212cd755a8dfb7b72ba6c6ea7039a13e62.json": "c32bdc3dfac53413cf839173c730d6c08de4a3fcd77d22cec2b23b30cc6dab2b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/33f1e897290f780a4ee51c68a4830b3857e07c8d427b9a4afeafd2cc5d1e5115.json": "5609a98e5310b425aa078e273bc0f3b811f2930047d4c0329c8461b3916dbc6c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/3404c8ff7685a93bc19d6487b90326e7614a03236c95a5382de18e453a910a6a.json": "9260f124f315e8219e49123c26bdd76af0c9982210dbe57dfd1cb79e46d07044",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/34b0b5f011019e1714c6d33090e3884590e72f0b97db311e5470bd7c5b426ebc.json": "d09fc3a973a4183bf4ab26573ed06387de86cc88bdd062dc419b0829a01342e1",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/352ff50d168ceb2273d77a60c9435c897e07eb4f1cce28dc22dd0a4e4f7d627b.json": "1a1ca8260ba8acabf8c1682192fb62173f99307006f240714ddcf387a75ddd20",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/35d72a7e44c636f8d44a1ce2b21bb4f375abe21a96ac3c16f0aae6017e57e08e.json": "3a1679609f91e876619a8053fe1ccbbe5ec25e44885bd23e97cfd6b3317cd0e0",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/3689c263d7d1e9dd6a3b699d503fcd22aec072c2c1adb33b5785b9f7bcbef817.json": "a8b33fa15ee274a85c74112f382c9a513c9543cfb46ae332c391e97ce38c528c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/373376cc09b8e8c8467af0aedc64b1035373b7d6afc07472eafb2a8ed975fa3c.json": "dab7c18b9f87549a0f497d1b87594f82d961db7401c3906b6f7e803de3729cda",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/3739b4095d2ca2714799001947c418e61f73879b0a9f339d37c89fbb7b1aad17.json": "8455b1c975facc1320e46b750a6c034288088c4537bb95ba2e92de7450fbb32a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/37e8da3b83bd4ae4b524dfde67307f0442f360f1e8e2a9758ed3a2f47af40025.json": "29cb1b7ab723fcff9926786a2aece429925f6638f5cc58ca53c0e550db5cc803",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/38a3af8ff0e969f6d08b3ef29947723941fbb81a06fd9d09d4f93210173db7e0.json": "4df231a5a1d2bea5bf0faa12c3143b5975233d4a79fdd84c9eb7d9e0d4bd47ac",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/399ba3b651892e8599a579458a3e73cdc51f788e73255aff919ada4c68634831.json": "20ce02474a0ceda6b0961a82b3d49ce848ec4873dee148a4bec8df33e95ddd22",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/3b0526fd00cc22ff1e194caa3600f32ab4fec8406aa7526d5bcae4aa35ea82f9.json": "bf7295938bb7b87ebfbf3580a105b4f75ea0fea3fdafe0d2b5c92206aa6d5b3d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/3b7bf6c682a3518443c5170810aac3b86386250493d53c832df25e8577653f71.json": "b1bf5a7441f1c12dc4c50c518d94dfc5c0226f4197e2d0c7777168c96c8803ec",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/3ccd68a9907c70efeedc23218cb91c56e405434ec0178dae29bf6f4804d6865f.json": "860985f8f4a17202a3c14b0249bfe6832d7ce708c082479ded78afb7ddd2ff56",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/438060415c10006b73ee8275e6afc9aa5e450bc35557c1defa38141107ef42e6.json": "852336e4fb18bb0b25f0a3822e51ba85674429c4810a90a256ed26262f7b6e63",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/459b8ca6df76499b7f9bc5410dde1e3ad8a2dc301eeabd73dab5691b6837b760.json": "1ee516e7ccfea86413b9e9f12fc71063e518e0e9b86dcebd1e66ed25b971a29b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/463a619f72af9de937216567ebe156915ad03e9ef33aa71cf4ae16f4daeb2ef0.json": "41d4360351d1fb820d51ad871852691ff0b03717050dccc841d7f39d2b4d79c3",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4728ebdd76937019057dd6b219d9fd5ff4d2a422f33fc5ceea3bfb4616868ff1.json": "599d5ff7b9956f3d296f4975789ee943ffc3a61f137a24f295586f83fcddcf4e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4779c1a3b54847d7821de5a1af54e8f0f32ecaea3a93aab857f3e7e93687d728.json": "3cf62cc4bddeaf62c28526530a71343cb0f148e8d10266df541d63484b288765",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/48ec8e5f15c169464e1245df02bde09c6260d3468625c4c0424f05ed63f9628d.json": "60e176cc18e970ef41282a9a23aa6ac65b7e2a11c946bc7e0a5809d6609b79a6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/497cac03cd18a971d4882528269aec662aaada6d2f096f9eb005854255fab3a7.json": "d9803ac85159b18d7fe801050ed6b8f79f0ccb222fdfe20a28e99f7757ebb065",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4a39791b2ce0dcc568aef0e1453aa3b98977438cc498354117f8d78742a87a0c.json": "df9f311ce49b4824d0874c87ad4389f7b5c6045d1040e9c18b16130a30bfb927",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4bcce60f262b11f63f8fec8dbf7e82294bb4968b0676437d27eac28d0cd50e4d.json": "67d96c73a62bb2aa4c32367bc93c0beeb0fd9535089022eae679d6e3f802ecd9",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4bda2ff47a2fe2d05642babbecc0ed815c41c61c1dd7fee0c6da474ba7c2fa84.json": "65a4f96bb0238f7bf613a59e65e08af6c4e73ea740b02fdf3ada8f7b8959c13e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4ca566498ddf0c1887f477db0ce2ec47d8e8965e868de0b5d442e294d6278d7a.json": "e94564bae5e2416281a069fa459b87d184a384f17022cb3ec30cc51adca3aa92",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/4f1add6856510356ccdae6e163e23e644f7e9b905ac66d18d691357e631a358c.json": "97beafb4058ce74a7b3a75b1a605e89f5e5513428bfe21a1a366cf27e19877e2",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/50d88c45bd422d57c4c6ca5d3ecdd8689fd5a933c5b4b5eb8425575b44edc420.json": "51faebcc3227c999093c4131f22448088493a9a3036d072a1cf3eaad65ac2c68",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/51f31d198c6a0aafdfd78d52e338c6f8cf354f81e4c5a9eec5c09fed24a2ce1a.json": "397990443fb0f1058ef1e9b2978c7ff078c942b2469635ddef26fbfaa15b202b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/53d7808a1996dca4a3390f956b3cfe7a94eb86d224876cb123f361c570d2dda7.json": "3c055dc550bf29c097d780284ea965b9d0298b54e4e1c987067cdb062b3076d9",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/55a0b8366683a87347949c61d2df385b52e72b72e2e95705af1b5ce27b979636.json": "0f7df7681c72698dd9aaa9401299b14ba2ad22a6ea0f1aa9c2aaeba93bba9c33",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/55e2715ce885adc3e04414627fd5babcaf3419309e733875eaa4d9a9075fa5a6.json": "047176a1631b6d535a722103c740f66988508766e0cd1e093f5e88970a08fe7f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/59633cac12c9d8084293bb65ea13038cdf109363945b48bb966527cc38a565a7.json": "40b9ccbae40cadfccef3085fa9c8e5c53082271a2645519de2eb0437d136b1f8",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/5a734a8d557789bbf23ec0c883d141771369099cce4bc0a7c72daa29b734e221.json": "d5771463680e8a503866af7e2dec3fdf0765df51902d518b4a987114a853b810",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/5c070316f06b3c004f5f6f2c30a6e532ce898990d193148af0f9c016ca73e03d.json": "14e15a10af552e28a2169dd622e0fea67cb7bc9ceaffe7e4917feb72d01e340f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/5cfd58889ce51329f2684412eefb3cb51cb2b9b5163af5badc13aebf8e342dbd.json": "acb02907e38115372a0f76656da5dfc261df883679b4e317b98db69f59226b6c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/6890f5a47cfb256784f9ff1db6833e418caffc76b045a07fd8498a3a2c86b333.json": "5018d32129c71022d205bc0743a6ad140222f4e4aa74706399ae4c4acd29b5a6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/6b0ed2dc5e433cd102daada224023540209a5a47ed6f943f69dc3c1a956a8d18.json": "d44f82dcc06045f4292df5c13d35dab0f2e69c95da765f083a38b3e6e290a6cb",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/6c094ce4da57e70671f812b6fc96a2eac4c47d8af8a1a73a342f29207a3ca028.json": "838916796629ecbb17252ff34ca8608402752025510fb4de53fe27d3e3407a4f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/6c4016aff323754eb71eb23885e4cfa76d2a7696ffbf1259150f4880ecce1160.json": "c3ef167f2e02006c8214c875cab87da94a58310e15f8d9f7c23e52f40cb4b7a0",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/6dc9f84e410ff199cedc07f93066641150c25a9c25fecbadd90d9c9766ff46ce.json": "b3d9e8bc012a3f65fca9c88bf717c7a0a04dec8ea4a057b7160ef45bb1d9918e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/6f094c784ab4549e1d5535ad9c67a1ff828069a8ea283a739f466a5afbe85377.json": "5c4f8be46b573e48b861d30b89a7f13984c8442438c5aa30cdff73f5aa38e1da",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/71b5bdd8c1d69942744b5f1ad914dadeda94e8185697ba05130a438941d33bcc.json": "4cacf553b2ade55b23e6a348935243f1f59736c5d038bed773532b843e39836d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/72065b2bb3c59933d0a756a632260043400502c68cae1337e36547958f71cb8e.json": "0d95cf3e4325debe24618d15032adafdf7d89c71013354a466bcc1b5bf55af0f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7605ee36c865e8d24a6c860ea260f060355d30aaf578dea21c228b9c9bab3e50.json": "19a1c5be1f1b1fa18f2e1fd2da632271099dc370f0a072f3c60fcbeefbc2ee8a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/77eb4e3dd866939f36267c5c664f315ca6f923d4126c46322da5f9d6dc89286b.json": "765ab32568f77b58270d42dd42ffa1ee848fda5e603276ba68c50491a00af26f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/78244de082a1c0809bd7ca80f787cf5b2dc8eec1f97176937d675e5db479e59f.json": "4c42a0a4fe1ad08a69c5904a5a46124de03f1d55343a1b5ac7e67c90176c8920",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7a1f5817e3f1e455d7dc0fa635435f52c8fd42f72ac9342d5c11242f2ded9335.json": "62c03b45b0751f0bce867194c24c20cb1e373fe941fd9b4a2036874a137ed409",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7b36fccb67c0a167a04aee4e94f0f914d4bb54490dc9b2002fffeb9bfbb82e16.json": "7ce1dc137a21645514db9c36ac22d3053cfaea9bf9e238775080faf77ca3354f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7b9e6736f2f291dbb69bc27926a5712ba8094f5361ceda83cfd22900cf72680f.json": "2a2d3b601cb7174f12e88273d728996476560476616ff6e661101fe1d57abaed",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7e2e9debe162a9bc0c414579578e11a0ab62abc7f6cd04aee33ab38980a78c17.json": "949883733feadd748f94bd5ea761023352483734ee657481b1fcc15148048161",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7f39a0e8440ae9597b4befc543acd25676e0659cc63f77a1ee7f1569d4a27bf1.json": "d12b7ca56cace44287698384b7028194f4f7f33fca35967af31170ea2d8d921d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/7fe7c97cfd5d70213d78f64ba09dcbee3a265ddc53fdcaf91869c30c4f40edca.json": "ca511ce09904099a4d0c4d57a42b7c51c1dad0402c8e00af7449ea4168815545",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/80a849c927f51f901f75ca64420be8845f2a2a56a63765bda9aa022addcc15cf.json": "f0f1da1bd8e7a88f874e7c6d1cc5ed8b8c4e11c78fef1b4ac73c9cdecc53d6e5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/80fd47980594f504328b8f60ac5ebb3222b2badba3fd2b4ca388bfd402ebabbd.json": "68c571cb5b5a2da9c91be0ffaa5d2e6afd4c2f97a0db64d5391db8e454f61ab3",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/83cbddf2866811aaf9259e2a40cf4fa90139eb2080c9ae8893e1871e7ef63fe2.json": "b8109426d9655de3808b2dd94be642c5e67eecb50a5cc15c0a2eb45425042c2c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/84afd5456048138314dd1ff016ddd24157b64c8e4188a9ffa59ad8bba707c15f.json": "e596855fb49cda64ef30f9c2c919472710d59093836b902ebec67effe2ae7987",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/84bb937ac000ab2f36cab2bc73e7542225aff1fcb67e84aeec4db731c2a1a096.json": "372e3206022492364f8acec6231af73adb2e2b07f193c9005c3954924b1327e4",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/86f5e68780c123cd3493985df0f34c583b704dfe5dc2107762d134bfb22240e9.json": "ce75af6d1dc9ac9cd2a21e73bf6bbc9e833a100464c1b6afb319bb20f469d494",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/88aa2e9527defa8a90eb50de857a9309c810cb439dbfbbc46fc50baaab8101b1.json": "75ea6687b7b58f21560d2a395906cf56b784ac6b82d7e7182b8e996427c0078c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/88d72c37638f82f2d6269ddfc3b783ff27ce862557ee410da66c1a80f64d178d.json": "66af22db08c25fb9d190371d8180137ce2f071d3e6db887aef87eab8844b5dad",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/88f723540f0ae33aed0498cae3ff094e6e9988cf961f0a08a3a5949ec35e90fc.json": "24cbf108b2d015e9403c5b843fb24089702f2f96a72a7f67e7982520b3d2cb77",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/89d345afa097271de19b45c658d7ec75c78c63dad53bb42427817ac1d252d91f.json": "2c8aec419e1fb11bc2e720584137a5663333faeec93072570721192a63758b72",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/8a5f2ec5020c275bf1d71f18d326d55e57208845d01b4535d61a63cdd8d539c2.json": "5b0277ddd8459fa5a411dcaec38c24d765ab19c019f3f3874d6131cb6909bf0e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/8c650ba84cf59e8b92ef7c13fd8c12b839d35cc7365bd8ee49a0ea3729bbfa7f.json": "afd756662e308f553ac80dae4d9c1ca23e1e3077ad11e4459af8bb102c5a0903",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/908b5afa14b84fa2dfe293ee9966b39a199e4cce58ae16ccefd9b949314cdaa1.json": "72e0b079d66d59e85baed8db123beddf0023c05f08e6cafcae1366d9a743e1ee",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/90fccb7373402e5cb364906578e5e7d971620d89c35692408fddbe3938d5623f.json": "8c3e85a4e76914b0fe289044779da7f4ec78e5578ed5c9c8f72413969d68463a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/91b84c79a8581cba4fc75483ad284144fd7a8a251d55048e3df9a04503f0a72a.json": "f46a09a31aef8abc5ff8e0a7d30e13425095957b5e2d6a84018e3e992fe41ccf",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/93cbd5e18e608577e2ba68f4f9376ddcfec1592bacd036354d24684f8be2e69a.json": "1a9448affb088d52a472a4b4eec3b3c9bcb27ba39d2edc92337a499e0625868f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/945bf90a475912752d99ef93438f01370bf932e527f421aa645b7d6cba93ae3c.json": "06e64f91135ce9ac92a37791287547383a574fed36dbf5d34f8df06a6ad6cca3",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/954d16c23ae25b4eb7d7fe75c6b2f9e3dd8f64e343a4cfd1c25132982f7eeeba.json": "ad6141b3b5473a6100f40bbc04cdc1bb4eb19f1a6e308ca703623c9538154708",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/964f4b89260564853914d040e2d314d95a5b5c67c9796ac0a97aa43facbb6cb3.json": "50c1c075e8a9a1a1fd39b98213456e849f6edc3078a401f175ef6f1093b904fe",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/97ca72cb0c4ca361e34e1fb4857d9292979efae23d41153e5a9924063135d6f7.json": "44393e4c870fe5d1fd8f5835ae501ffdce5184354b583befb55c2b5721deb00e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/97cb077bca783989de2fc12ef010e17a2805954597849e2fe4112ac3a9953bf7.json": "ff850c6bfa3056739aa422f0145117f4d555fd8187a3c2bdbcc5c603f250803c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/988ea39ecdf619abf6cad474138f98b66f4323c0d3399f981888ada644cce604.json": "e2d71d77a80a528cfaa2a827399b4d397eecfd3a802731c401e64a69a8959e0a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/991e254be4420c7a1345f134fb327754ea3f16630957bf265c3408ee019c8416.json": "3e670904fc03be7eb4f0188cd4d420630f5fd3c2e5e39fe86a6884b65adeaa3b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/9935e9f43eb783b65b3b71fbc01fd5386470980189ed83866b89ec33a69b376d.json": "8253d848555b2bf2947a14bebb25920485b50f55982fbbadbbca4b3340ed1ef6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/99cb354b83dd231cefac0095164107d0bea253a91e12ea2293c8cef59a20c67f.json": "a04cca75e5dc9d2e3dab79a9c69e9d3f65ecbb75389a16f892b9116a26d754f5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/9ad1a7a7c89afecc716c824a3d6b4d9ba25934f1710aa100b15c6024ea41b6a0.json": "14b6ac5b2a125f32761576f1036c255b2b0b9ad6ffc2590de7babe9983a47def",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/9dd9c8bb03c73a20ba081be0d2d9a8e6cbf6fd875027bdaf991059c71272bb98.json": "7bd059a2797fae27e9730f4f4513ddc6733643b13f9771927d34584295038ef2",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/9e7e4d0df7356b993e7d36ee5eaa6b553da742ee0ad9940798e634bc29888052.json": "9332ccb53ad6134625e63b9143170704864cb130e1cb7acc2c1442cd5271ede5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/9ee068412ab792a49db1669530ac0baa4fee78124a4b4b4dc78752a83314f877.json": "cfbaf9640d704107928655b181efb7715e8fc122b7a921b49314c300373df85f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/a1a30c25b4e96a4c80b126502072a80d603314ca9cdf1446eccfe8a3a6e01040.json": "c79fe082fe0897149b309f578bdc3374a955ee56a94325e5a9f31c73f5592747",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/a3a1d71de632fcb44224a30358bb9687ece028e73a854e74884bc0df5c9180c9.json": "e461b53b9c28fb4c2709f4d948858e8e451aa0470356b22b57be507755d713e5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/a66a55ff5808c975c188a4704544e5764db7cc855cc5936b173fc07b7d1d3b69.json": "23a3dcdf7474a3d526b19f5393b51debb3a5045c8853aae555de98738930a6de",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/a7007ad0c414e254e02e6b49b1bb9d527db09d462460ef57479eca3b8f1118aa.json": "0ebccf2e7ce583723409b192a518b880d3edad311b4cc8f0ffa241de44717747",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/a745f54c33a1e94eff8c2f8431e5343f4e12bc8a5bf0f9e3c12d32a156a566d4.json": "df07ac266fca272240210e593fe6d528b52cbdf6268f2ae96bd67a238aae84a6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/acfeb12f79031eb30b79152743ffecd3fc327408b901fe219af0375503b2047d.json": "77684b4be0d551c5097d39125b330e23bd471fd9818d5f1c208dccaba7708b50",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b11bb9c1c8dc91971124badfee3e36628c080eb713cf271535ecf915e2a57f14.json": "b15e9afac4fa7f5a1569068e0a413937951f958dc94e813b379f22315af292b1",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b1f1450cb09a97377a09c7375381db208955d34b520c6ad0b88a4125df9f67df.json": "5b3652e9d7124ee8d3941e55bca73c14d4afbe4361832146eaff15015ca5164a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b4597eac7895206bef9934243d043de192d6883566f925be66ab926306f502f8.json": "a666ec26c24f62b85ade3458b87d5f58925e2c5dced4535bd397c8446e2a8c14",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b4621cf352c5e12d9d4e15229c86bad41e23a8856c522e39e10259d903726bc1.json": "4ce468dc879e5b7c80d3505c75e9692141e1fea7cc58250ff072c22cdff16e49",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b4eb6ef9a0532166f752f37614e7942e12b6fab903832c5f576700c7dc70b4b4.json": "843074fc5cd1b2a9eabd3bd43be921bc057503bbbc742cd7c5f9bd3d7e640268",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b5e4ab7b34cf8a1baf94b087da6ebd1193797289b754e6bf7e2954480566d72c.json": "e5031a40314e0720d6380e6d8ca0065cb74198d46806e1da062eea9504aec361",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b6e9a43e7b37ff7b6fe2d5df932af9a24abd008592b06197cc1b8bbcf56e0dbe.json": "b3a39e462acfdee436c8fdc585f138b5a1a677a0e550b05a7e9a98582fe371bc",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/b87c67181b73d51b4b6c314992b5e4e10c071d78a19787b1f87ea0e791e086da.json": "66178d614101727c2670173a2139da6c01ace2fcf6f07b4d49bf8e5da185da2e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/bac11f8e7b0c058354f0c14fd6efc6265b2eb3b0c84427049491b2facc2bbd41.json": "6aa7bc1c2b63559955cf8398c3eac0787e311451f2ce06672e5803cd0323cb20",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/bb0614bbfd47d48f297194f52ee47bae1ff99cddc3fa309f03a4c07340a7f31a.json": "fb6e933c5a308842883bc6604828c25988547f71d9baf71e8862f78a9224f57b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/bb158f5e0706d83bf0f7ce7bbd07b43b37bbec6c65d8203c759320fc98f86785.json": "af96d8825e5575c6659f4d7447cabb4ec7872e90a8d4d3d4c01aacac046ade11",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/bebc0d9e37dd5b4ea0790b3cdcb7f2e054e954071fb9cc4ceb32acd3925a8304.json": "5eb5c94bb30bed1b0fa4b747fd6b326b848e0acd9f9c765d8e6ff493b1a8d193",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/bf0dc2de5c529c7ef842385d94960516140371ccbf32eee2113d12abb137672d.json": "41ed9578524fb0b339d136de242803f27a486720a89bd7ba2c6455c7b0ea0b69",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/bf334b009a1ef164e4cc56077c330240bf8a78333e7d7f91110561074039d0d9.json": "011d506a6826aba2a96147cd9f11b1f4e3b2b4e00a9cd2a19dba1763ffcc28ec",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c19820dc44f46d82d3b054309a3f8a5b573b7c45d33983fa110d3e5921ecb15a.json": "25ec0e916e717284e7511ec71e2bcd9ec1d013cb2b2f5dba62e7dc23a7e85286",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c4d60aeb689b4eb47d85135e9d564ce2f12123851b699006453c76364c66a49c.json": "544a1ec35b4939a5c36942d400fd806764b6d178aca87037813d0575e5b54860",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c55ba7a98812f3c104faa5b1e6fcac8bc07e17aaaa0d1d1bfe60fe5fad6a60ca.json": "d29eb5b5608b7f6811b5e9897294f66e24085b7f5bab67c554f7fd3e60260102",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c5d1e2a5b8d26e4ab6ab489807cb7432d1d706fe7b30165646159b929af7308b.json": "c9d07ae41f3c60e46c4b0f7e8cdc30872a6fb1f1015ec2f41358260791fd3c47",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c6792cd12370f97ebfe451826aca55acdeda650dba42c5fb9cd83edd876d2f8d.json": "1007d7351139494405563a52f915ed9d521e4a5308489cc8240c99ee51e5303b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c6b49d3d1359e81e63e1bbd1eaed8bb614f9c79a14057e618eeb7a3c72b72a7c.json": "d735a3d1bc9c8cc8960a21231db5918364451edf25ae28086f92751a8e171bad",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c738132229d27c31338670a9f59022e506071bd2622873875a09a0a49a205681.json": "83269a18327b9922a82892333e4de19a7d1090044a73e2cfe4dce25f104af9ba",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c775a626421108d72e3bd951b930098a8180c8961b3ff497cae9c41bcf672766.json": "53bc229bbe39bf7bce318b4a1b6765565c865e4334218c4ed9c37e71a7b0be36",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c7bb79b7d08ce22867a939386e7b21550c05b98a280f1949633e183a15df51c9.json": "f753bd1ec036ce86c8d8127a2e02d1eacb90c7e870939b8c7839d8fe5dc1b60a",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c8f6ca383100300491b9b0f656cfb58ce376608fcb6d9c2c5a00dee647acd75d.json": "9cf5f140b46f87753d3bdd5d7f4ea9082c4aa23407c5c397b507b89646d8d9d6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c95e3910a4eef1fea5cfbed734303fd03309e070dbd3add6322a1399c5524591.json": "2a034210220f6a1ae66fbe8002c7f32f56ae1a2ac30a229a600cf404381090a6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/c9d22b40f93f34d1397631439d2b1d70944f2527bcd7190bd3cd745168b7c974.json": "24ad83d4fd0e2fef17b23053fdce7667144806f462d7c84e793c23f2ccc23ef4",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/cc09a0ad1841ae023154b809431343c6ddb6fc5614c2eabd6ecae823ed32c6e7.json": "69172a1f72336f171e20688e4d95ae188b63230a2d6e0c38ee2e9a2acebef24d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/ceaa83db24a4a041df372bb644b8300bce976d8525aaf5f8a99dea8ebd7230cf.json": "ac3ad9a052156ac75a9d7ae0715960f80c9a42bfcc6f68f591a1c6e4f27674d8",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/cec94e0271f04d3269f629a40d2d42ae04e0377e1ae7701f8773d5bf29eb067c.json": "41aeaecf91891d6f4eaeb4be99aa8f67683d6d351684426c80e41407a2b1bd20",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/cf99b1005a040db74907a52a1f13dc9f65442ff6424c5bd47e4f45005b53af25.json": "5ec1b0196cfa4bf3b770ea007951d249480f1047d6e8f5e7c41a96cc6389b6ed",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/cf9f73b034f3b915dd0665071897c1fc2da8e989284f79403e7893f378beb19c.json": "7df244165c6e64479e1aa0c1fc0803e2cbe3a8c7bdbd59a060640a76affdf31d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d016273a978b879c73705a8c52a0ec2e1cedec5aafe2955180e8c8c9abde996a.json": "b54d46d58176d94a53f6b79cc63ff385b3df84f8ea3a705951da52f3052ac5f5",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d0499a8fe0bcfd20ddd7601db2d95905764c054a828a80b904e3df3ee78931e5.json": "a207fb60a3895d93381a67bdac4cc26fcc4a5d4357145542d8cba9ec568aad80",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d0a1c4195e8c672ea65f60883096492c94021985bbdc5343b3c0307849e40102.json": "3f4afb1b593af706724ba22352945b4697fb7c7b6308448c688d805cda7fcf84",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d1d47ec80370b29ee0f6dd9a5a3fbdc4db42cd1bd23935b8d44d718cbf6083a6.json": "a9c4cd584586d4745a2ee455a816173c32e6dcb8dfbb7be4f385b5ba0cf92e0f",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d22e0126930f24709da922dc88e6e2d4565d82c42b50b841b027d3428bbd4194.json": "acfb90af68f6176279c6cd9ac63b1f54fe96dc240705712482e6f2a82751d594",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d3498fcfc086a9772da8ee7881bb33383928c93bf02b0ca8cc10c59b590613ce.json": "0710f2605ba59446a6fd07da66bfea2e1bb3e6bf113d9c62a7344399eccc9dc6",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d61e493f75a3e450d971da02128891179f8b8097ddac5b68917c6ea0d806fc96.json": "90d7ecac8376e6cca906dd74ee8196d2b0db49eee83f7f1b547ee055f28a3460",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d7fd07ea77da6d05f88fcb971648f26477ff8cfdab1d2539e0ba242c56c65bb7.json": "3d98577cc1c7e1b2bd0aa81b82b1ed89b987b043b922f41de04e0c90fa62b2a4",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/d9d12f70d1300e65ebed4f63aafc095715b4f0cd18f7be8500821d9d90935365.json": "c29b7de1f5ccf218921ad7accfc77dd5a079b87ef25e9a9f73f9f5da751587c8",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/db8b353474d50c037bbdf01dbb10faede77f8f880e26e7b1a8a3bca965c0946c.json": "807275b2a576c2dc56a5f954be171317de6b813b97f44decc765ef50226d16b9",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/dd45c96b3805dbcaff73ff833115d6e6c921edeeccd56401517f14b698c32a80.json": "c9a810290c58f645788d99679f6cc9b9ccbe2a411b0f1d6b141f144af376d639",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/df1e0a7b30f32527ae26b14d724188e22db80f979c57a2e0169f82ec44fc3a0c.json": "805b23a1b9bf81f3ec4e2ae9fa1fccfbf7594b37ae9a58b3e0602760f66f3b6d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e0d6a7effdb90c29dfc3eb036a36823ca1d1f7ae2aa19acf7d241ed74b9f5bfb.json": "513a6e9354750e5f05b2c959df182356a5d0cb99341bb3ae86a2a0c34a9d6dbf",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e0fe4f99c2b3e0456eb4e26a622574e2495b24a1b9b517e9c4ac6e1e63ae8105.json": "e846e7357a560f9f03c04cbd1d5fd98390214207688e1c73b97547f96f61cb1b",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e27aa986b04f7cc9075c848e8ea7224d42716528ee8f21220029966d3ba0cf80.json": "f6572231f7054cbf0d4542b99ce935e1c40ba9566c6c167c6f0d01c5332c5173",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e4459ff690bc421adec2693437244d5c218b70fdfc70bdb4a7a1cbf0142acf24.json": "7b9b27979eff1b4d5f9ca534790aa44d79c7215571b9d67cf3020c1f3f282d29",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e65a541bb774cffcf767e22eae54d06861e7de517245742b6738296b11e6459e.json": "1b24485cc65cc63cd3764508494080fa1efe1178e799441a0a111f100b4afccb",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e673c9110f55b5202877f82ded76f5b32e5e542aed933e9d82d5b2ab9f91e5b2.json": "a8b17d2bef8407788a79d9c68b7720460614c0399c830ebcc7ebe5735aa6de93",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e709381c164b69eee1c53a8209a991108f64a92cb5c7921e15ca1bbdc34b8bf7.json": "d2ecd8e59ff0e4728ce645a9fc6df330c0789d18bbf5c961c54c39d9d74f884c",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/e8cb6d7bd00094cb414fca51b7fb90a2872d00db26b5e4beab824cf4e6676eb9.json": "91854bec724805f332efa38227bb731c33e4b8af69ab2baf8058e24954d4b6e2",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/ecbac1661ff7bf7b692fe158cfa941ea3584f3bfbda412b5fdee66f8abd7805e.json": "29ab0c85c4c9fbc00a3377cde9c815089a1be1c18dd53d951da6804ffeba7b79",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/ed2fb04ec5f01ed1a020ceced65c11cfaba61e1d38942139be0d7ada5898cf4d.json": "6c3defa43f67d536b4bc71feafce36ee57c8cd30cc4bf59bf97c06f445471591",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/ef9a384985ad7b45b15d39c343ecc75ba0dfb654f5253a90a3c75bac5ee43afb.json": "b682d3eeca4c6c7b450957551db62b783ceb0d31ddc3f282cfbdc0b25aa066cf",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f0bed3aedf6fd1c819fb1718f23bc870e292d71310b8b539ce5169eaf6938881.json": "5aba0fd15410461209e2a806aad91343bb79d69ba0d7f1a636f399e8607164f4",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f11140aa0bdc97d8b287ab65adfe8a901f409578a611d010da79d69131fe234d.json": "91f12524218d7c2246a817d11fb4c0e186efb63297f61542809d4036e99aad00",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f1ab54d928c9da6aa69fc2101ab5f978bc1b06c8f79af748c9d23b251d18d396.json": "e4b20651f4f588cf03ae9a1afd9214e1397dc1097ee9ccf93e1d5490074f18d7",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f226bd14f4497613a66ea283f13e9ddd35d0d73aec7fc6348fde97b29119fbef.json": "f3132eeaf77a7ba0c628ca7d7614282f5ff74348bb114c7f739bb2057229fd5d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f4004d3cc0561ddd5dcbf4736a42df6c35588914ad50a6cec9bda540aed7b5c5.json": "f2c3699f23bb072a80549185c1c16513bdf921f98b21207f7e8de70d77531d7d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f49d3a1014c59ab57889c4946beecd9d667e1726dff6dd0dbc29715cdd7ac8f4.json": "ca29a50521568161d29d1b178befc5e3eb84a1ca8a82cc19e3d5667cc1b55e8e",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/f96da265b280ae45dc011bc3acb366663b003aeb3704088ee8707f41fb149154.json": "f0ba5131674cffc7732e631f265576b5ae538a03e6f3d48f0722fc620f4e32e3",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/fa8be1c3c579576310fad8d97af35beb1105b945bf576a2ead88cb19e3b9fab7.json": "edf91918ec82c8054b1182d5c8b4ae1a21788b850dde05fd2cbaedbbc294a29d",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/fbe3138e94e049e544555829fd9e6357f4a59389eea192691ed20a0b8fcae2e7.json": "cae276ce7ccfd587aba4a5c8acd1f9e6d43a2fa5b32ea3064a274247666075e7",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/fe5145743f157dce378daf2fac85f7b15c2518b09b3850f183ef84972adf1622.json": "2b7ee32b25859bad1fc3ce557a6d27b98da48b6ea753146cf474e83a46b73728",
+    "data/experiments/eval_v11/dev_noon_20260907/correctness/results/ff1a6e88e379ac9ce797cf0361606cf0102ad78ba3ce2a3db163ef25499063e5.json": "4a750ebd1bd4a121bfa87eb7b65855ff0e8367e836eea817eef330fc2a59529c"
+  },
+  "other_fixed_diagnostics": [
+    "evidence_gap_diagnostic.json",
+    "runtime/failed_completions.jsonl"
+  ]
+}

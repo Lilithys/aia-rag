@@ -1,0 +1,124 @@
+{
+  "payload": {
+    "task_id": "8daec9f4bf53dd2fc4a837d00d7dca440c246871589c8caecf186e3a1e990006",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "must certify the type of commercial driving performed or expected to perform",
+                "coverage": "covered",
+                "response_quote": "you must certify to the type of commercial driving you perform or expect to perform",
+                "reason": "Response directly states this requirement."
+              },
+              {
+                "requirement": "must choose one of four federal driving types",
+                "coverage": "covered",
+                "response_quote": "choosing one of four federal driving types",
+                "reason": "Response mentions choosing one of four types."
+              },
+              {
+                "requirement": "certification required for any license transaction except address change or duplicate license",
+                "coverage": "covered",
+                "response_quote": "when conducting any DMV transaction (except address changes or duplicate licenses)",
+                "reason": "Response includes the exception."
+              },
+              {
+                "requirement": "if self-certifying as non-exempt (NA or NI), must keep current USDOT Medical Examiner's Certificate on file",
+                "coverage": "covered",
+                "response_quote": "If you self-certify as a non-exempt type (NA or NI), you must also keep a current USDOT Medical Examiner's Certificate on file with the DMV",
+                "reason": "Response correctly states this condition."
+              }
+            ],
+            "reason": "The response accurately answers the question, covering all essential conditions from the reference and source blocks, with no unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c4a21d2dd55347c2866e6b02b9cfdd92",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3277,
+                "completion_tokens": 314,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 314,
+                  "prompt_tokens": 3277,
+                  "total_tokens": 3591,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2381
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0050293000000000004,
+              "accounted_rmb": 0.0050293000000000004,
+              "usage_unknown": false,
+              "seconds": 2.5784409046173096,
+              "error": null,
+              "response": {
+                "id": "623f600d-bbd1-4173-ba60-e5e499d3d930",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fee9d5054460e90d47663c6e8dde82b7a4d0c37665882efc6cc59c605ec2b15c"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "must certify the type of commercial driving performed or expected to perform",
+            "coverage": "covered",
+            "response_quote": "you must certify to the type of commercial driving you perform or expect to perform",
+            "reason": "Response directly states this requirement."
+          },
+          {
+            "requirement": "must choose one of four federal driving types",
+            "coverage": "covered",
+            "response_quote": "choosing one of four federal driving types",
+            "reason": "Response mentions choosing one of four types."
+          },
+          {
+            "requirement": "certification required for any license transaction except address change or duplicate license",
+            "coverage": "covered",
+            "response_quote": "when conducting any DMV transaction (except address changes or duplicate licenses)",
+            "reason": "Response includes the exception."
+          },
+          {
+            "requirement": "if self-certifying as non-exempt (NA or NI), must keep current USDOT Medical Examiner's Certificate on file",
+            "coverage": "covered",
+            "response_quote": "If you self-certify as a non-exempt type (NA or NI), you must also keep a current USDOT Medical Examiner's Certificate on file with the DMV",
+            "reason": "Response correctly states this condition."
+          }
+        ],
+        "reason": "The response accurately answers the question, covering all essential conditions from the reference and source blocks, with no unsupported claims."
+      }
+    }
+  },
+  "sha256": "cc58c3e789f1a35a95da325d70980c409b07b6c915dc9f2d224736cf095b09ce"
+}

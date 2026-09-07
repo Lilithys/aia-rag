@@ -1,0 +1,162 @@
+{
+  "payload": {
+    "task_id": "e9f7be5cc50a7d456a72c0d901d1552ea2098c514a8087c0e02ed2d534ea7863",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "I can provide general guidance on mailing documents for appeals",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a statement about the assistant's ability to provide general guidance, not a factual claim about external processes."
+              },
+              {
+                "text": "I cannot access your personal records or confirm receipt of specific mailings.",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a pure assertion of the assistant's access limits, without embedded business facts."
+              },
+              {
+                "text": "For Social Security appeals, you can file online, by phone at 1-800-772-1213, or by contacting your local Social Security office.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Appeal A Decision | Social Security Administration#2_0::c0000"
+                ],
+                "reason": "The contexts state that appeals can be filed online, by calling 1-800-772-1213, or by contacting the local Social Security office."
+              },
+              {
+                "text": "The notice you received explains the appeal options and deadlines.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Appeal A Decision | Social Security Administration#2_0::c0000"
+                ],
+                "reason": "The context says the letter explaining the determination contains guidance on appeal options and deadlines."
+              },
+              {
+                "text": "If you need to mail documents, use the address provided in your decision letter or contact your local office for the correct mailing address.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The contexts do not specify that the decision letter contains a mailing address or that local offices provide mailing addresses. This is not supported by the provided excerpts."
+              },
+              {
+                "text": "I cannot verify whether your specific documents were received.",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a pure assertion of the assistant's access limits, without embedded business facts."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f7f75fd744c74ba6a188001ad40b8fe0",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4715,
+                "completion_tokens": 514,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 514,
+                  "prompt_tokens": 4715,
+                  "total_tokens": 5229,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 4203
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0086431,
+              "accounted_rmb": 0.0086431,
+              "usage_unknown": false,
+              "seconds": 3.3102381229400635,
+              "error": null,
+              "response": {
+                "id": "af5579e9-add8-4259-b117-fe00e94d6dc4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d0dabbc7a2fa3b8c3699eeb167760bf1c7b76ef79681c61b8055d1600aa4ffea"
+        }
+      ],
+      "score": 0.6666666666666666,
+      "external_claims": 3,
+      "supported_external_claims": 2,
+      "excluded_units_by_scope": {
+        "assistant_capability": 3
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "I can provide general guidance on mailing documents for appeals",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a statement about the assistant's ability to provide general guidance, not a factual claim about external processes."
+        },
+        {
+          "text": "I cannot access your personal records or confirm receipt of specific mailings.",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a pure assertion of the assistant's access limits, without embedded business facts."
+        },
+        {
+          "text": "For Social Security appeals, you can file online, by phone at 1-800-772-1213, or by contacting your local Social Security office.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000"
+          ],
+          "reason": "The contexts state that appeals can be filed online, by calling 1-800-772-1213, or by contacting the local Social Security office."
+        },
+        {
+          "text": "The notice you received explains the appeal options and deadlines.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000"
+          ],
+          "reason": "The context says the letter explaining the determination contains guidance on appeal options and deadlines."
+        },
+        {
+          "text": "If you need to mail documents, use the address provided in your decision letter or contact your local office for the correct mailing address.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The contexts do not specify that the decision letter contains a mailing address or that local offices provide mailing addresses. This is not supported by the provided excerpts."
+        },
+        {
+          "text": "I cannot verify whether your specific documents were received.",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a pure assertion of the assistant's access limits, without embedded business facts."
+        }
+      ]
+    }
+  },
+  "sha256": "9637caf05cbf84550cea5fb4ef38e39965bd0ea22bbaed61a65c58b994f29f2c"
+}

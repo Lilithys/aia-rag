@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "82ecaf751b6d12d188df60d3987cd561::agent-turn-7",
+    "item_sha256": "048200ff7e56960ca6dddf82f321bacccd49d16428ddab73bb582f80b995ad53",
+    "result": {
+      "request_id": "51c58fcefa4b423abf58575c3d1f4bb8",
+      "session_id": "82ecaf751b6d12d188df60d3987cd561",
+      "turn_id": 6,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "To qualify for the Extended Repayment Plan, you must have more than $30,000 in outstanding Direct Loans (if you are a Direct Loan borrower) or more than $30,000 in outstanding FFEL Program loans (if you are an FFEL borrower). Additionally, you must not have had an outstanding balance on the relevant loan type when you received a new loan on or after October 7, 1998. For example, if you have $35,000 in outstanding FFEL loans and $10,000 in Direct Loans, you could choose the Extended Repayment Plan for your FFEL loans but not for your Direct Loans. Your monthly payment will be fixed or gradually increasing, with a maximum repayment period of 25 years, and is typically lower than payments under the Standard or Graduated Repayment Plans.",
+        "citations": [
+          "Extended Plan | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Extended Plan | Federal Student Aid#1_0::c0000",
+          "text": "# 扩展计划 | 联邦学生援助\n\n# 扩展还款计划允许您在较长时间内偿还贷款。\n\n还款期限最长可达25年。\n\n如果您需要在比标准还款计划等计划更长的时间内支付较低的月供，那么扩展还款计划可能适合您。\n\n## 符合条件的联邦贷款\n\n以下来自威廉·D·福特联邦直接贷款（直接贷款）计划和联邦家庭教育贷款（FFEL）计划的贷款符合扩展还款计划的条件：\n\n- 直接补贴贷款\n- 直接无补贴贷款\n- 直接PLUS贷款\n- 直接合并贷款\n- 补贴联邦斯塔福德贷款\n- 无补贴联邦斯塔福德贷款\n- FFEL PLUS贷款\n- FFEL合并贷款\n\n## 扩展还款计划的资格\n\n如果您是直接贷款借款人，您必须在1998年10月7日或之后获得直接贷款之日没有未偿还的直接贷款余额，并且您必须拥有超过30,000美元的未偿还直接贷款。\n\n如果您是FFEL借款人，要符合此计划的条件，您必须在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您必须拥有超过30,000美元的未偿还FFEL计划贷款。\n\n例如，如果您有35,000美元的未偿还FFEL计划贷款和10,000美元的未偿还直接贷款，您可以为您的FFEL计划贷款选择扩展还款计划，但不能为您的直接贷款选择。\n\n## 每月还款额\n\n在此计划下，您的每月还款额为\n\n- 固定或递增的金额，\n- 最长还款期限为25年，并且\n- 通常低于标准还款计划和递增还款计划下的还款额。\n\n## 使用贷款模拟器估算您在扩展还款计划下的资格和还款金额\n\n您的贷款服务机构，即处理您的联邦学生贷款账单和其他服务的公司，可以帮助您选择最适合您的贷款还款计划。在联系您的贷款服务机构讨论还款计划之前，您可以使用我们的贷款模拟器提前了解您可能符合条件的计划，并获得所有联邦学生贷款还款计划的预计月还款额比较。此比较很重要，因为扩展计划可能不会根据您的个人情况提供最低的还款金额。您可能会发现，在另一个还款计划下，您的还款额会更低。"
+        },
+        {
+          "chunk_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0003",
+          "text": "[If your federal student loan payments are high compared to your income, you may want to repay your loans under an income-driven repayment plan. > How long will I be in repayment under each plan?]\nIncome-driven repayment plans have different repayment periods.\n\nUnder all four plans, any remaining loan balance is forgiven if your federal student loans aren't fully repaid at the end of the repayment period. For any income-driven repayment plan, periods of economic hardship deferment, periods of repayment under certain other repayment plans, and periods when your required payment is zero will count toward your total repayment period. Whether you will have a balance left to be forgiven at the end of your repayment period depends on a number of factors, such as how quickly your income rises and how large your income is relative to your debt. Because of these factors, you may fully repay your loan before the end of your repayment period. Your loan servicer will track your qualifying monthly payments and years of repayment and will notify you when you are getting close to the point when you would qualify for forgiveness of any remaining loan balance.\n\nIf you re making payments under an income-driven repayment plan and also working toward loan forgiveness under the Public Service Loan Forgiveness (PSLF) Program, you may qualify for forgiveness of any remaining loan balance after you've made 10 years of qualifying payments, instead of 20 or 25 years. Qualifying payments for the PSLF Program include payments made under any of the income-driven repayment plans."
+        },
+        {
+          "chunk_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0012",
+          "text": "[The U.S. Department of Education offers low-interest loans to eligible students to help cover the cost of college or career school. > What types of loan repayment plans are available?]\nThere are several repayment options available that are designed to meet the individual needs of borrowers. Your loan servicer can help you understand which repayment options are available to you. Generally, you ll have 10 to 25 years to repay your loan, depending on the repayment plan that you choose. Learn more about your repayment options."
+        },
+        {
+          "chunk_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0011",
+          "text": "[If your federal student loan payments are high compared to your income, you may want to repay your loans under an income-driven repayment plan. > What other options do I have if I need help repaying my student loans?]\nIf an income-driven repayment plan isn t right for you, contact your loan servicer to discuss other repayment options. You may be able to extend your repayment period through the Extended Repayment Plan or through loan consolidation. You may also be able to temporarily suspend repayment through a deferment or forbearance."
+        },
+        {
+          "chunk_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0008",
+          "text": "[If your federal student loan payments are high compared to your income, you may want to repay your loans under an income-driven repayment plan. > Is an income-driven repayment plan right for me?]\nIncome-driven repayment plans usually lower your federal student loan payments. However, whenever you make lower payments or extend your repayment period, you will likely pay more in interest over time sometimes significantly more. In addition, under current Internal Revenue Service rules, you may be required to pay income tax on any amount that's forgiven if you still have a remaining balance at the end of your repayment period."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Extended Plan | Federal Student Aid#1_0::c0000",
+          "text": "# 扩展计划 | 联邦学生援助\n\n# 扩展还款计划允许您在较长时间内偿还贷款。\n\n还款期限最长可达25年。\n\n如果您需要在比标准还款计划等计划更长的时间内支付较低的月供，那么扩展还款计划可能适合您。\n\n## 符合条件的联邦贷款\n\n以下来自威廉·D·福特联邦直接贷款（直接贷款）计划和联邦家庭教育贷款（FFEL）计划的贷款符合扩展还款计划的条件：\n\n- 直接补贴贷款\n- 直接无补贴贷款\n- 直接PLUS贷款\n- 直接合并贷款\n- 补贴联邦斯塔福德贷款\n- 无补贴联邦斯塔福德贷款\n- FFEL PLUS贷款\n- FFEL合并贷款\n\n## 扩展还款计划的资格\n\n如果您是直接贷款借款人，您必须在1998年10月7日或之后获得直接贷款之日没有未偿还的直接贷款余额，并且您必须拥有超过30,000美元的未偿还直接贷款。\n\n如果您是FFEL借款人，要符合此计划的条件，您必须在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您必须拥有超过30,000美元的未偿还FFEL计划贷款。\n\n例如，如果您有35,000美元的未偿还FFEL计划贷款和10,000美元的未偿还直接贷款，您可以为您的FFEL计划贷款选择扩展还款计划，但不能为您的直接贷款选择。\n\n## 每月还款额\n\n在此计划下，您的每月还款额为\n\n- 固定或递增的金额，\n- 最长还款期限为25年，并且\n- 通常低于标准还款计划和递增还款计划下的还款额。\n\n## 使用贷款模拟器估算您在扩展还款计划下的资格和还款金额\n\n您的贷款服务机构，即处理您的联邦学生贷款账单和其他服务的公司，可以帮助您选择最适合您的贷款还款计划。在联系您的贷款服务机构讨论还款计划之前，您可以使用我们的贷款模拟器提前了解您可能符合条件的计划，并获得所有联邦学生贷款还款计划的预计月还款额比较。此比较很重要，因为扩展计划可能不会根据您的个人情况提供最低的还款金额。您可能会发现，在另一个还款计划下，您的还款额会更低。"
+        },
+        {
+          "chunk_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0003",
+          "text": "[If your federal student loan payments are high compared to your income, you may want to repay your loans under an income-driven repayment plan. > How long will I be in repayment under each plan?]\nIncome-driven repayment plans have different repayment periods.\n\nUnder all four plans, any remaining loan balance is forgiven if your federal student loans aren't fully repaid at the end of the repayment period. For any income-driven repayment plan, periods of economic hardship deferment, periods of repayment under certain other repayment plans, and periods when your required payment is zero will count toward your total repayment period. Whether you will have a balance left to be forgiven at the end of your repayment period depends on a number of factors, such as how quickly your income rises and how large your income is relative to your debt. Because of these factors, you may fully repay your loan before the end of your repayment period. Your loan servicer will track your qualifying monthly payments and years of repayment and will notify you when you are getting close to the point when you would qualify for forgiveness of any remaining loan balance.\n\nIf you re making payments under an income-driven repayment plan and also working toward loan forgiveness under the Public Service Loan Forgiveness (PSLF) Program, you may qualify for forgiveness of any remaining loan balance after you've made 10 years of qualifying payments, instead of 20 or 25 years. Qualifying payments for the PSLF Program include payments made under any of the income-driven repayment plans."
+        },
+        {
+          "chunk_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0012",
+          "text": "[The U.S. Department of Education offers low-interest loans to eligible students to help cover the cost of college or career school. > What types of loan repayment plans are available?]\nThere are several repayment options available that are designed to meet the individual needs of borrowers. Your loan servicer can help you understand which repayment options are available to you. Generally, you ll have 10 to 25 years to repay your loan, depending on the repayment plan that you choose. Learn more about your repayment options."
+        },
+        {
+          "chunk_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0011",
+          "text": "[If your federal student loan payments are high compared to your income, you may want to repay your loans under an income-driven repayment plan. > What other options do I have if I need help repaying my student loans?]\nIf an income-driven repayment plan isn t right for you, contact your loan servicer to discuss other repayment options. You may be able to extend your repayment period through the Extended Repayment Plan or through loan consolidation. You may also be able to temporarily suspend repayment through a deferment or forbearance."
+        },
+        {
+          "chunk_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0008",
+          "text": "[If your federal student loan payments are high compared to your income, you may want to repay your loans under an income-driven repayment plan. > Is an income-driven repayment plan right for me?]\nIncome-driven repayment plans usually lower your federal student loan payments. However, whenever you make lower payments or extend your repayment period, you will likely pay more in interest over time sometimes significantly more. In addition, under current Internal Revenue Service rules, you may be required to pay income tax on any amount that's forgiven if you still have a remaining balance at the end of your repayment period."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Extended Plan | Federal Student Aid#1_0::c0000",
+          "document": "Extended Plan | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_027.md",
+          "excerpt": "# 扩展计划 | 联邦学生援助\n\n# 扩展还款计划允许您在较长时间内偿还贷款。\n\n还款期限最长可达25年。\n\n如果您需要在比标准还款计划等计划更长的时间内支付较低的月供，那么扩展还款计划可能适合您。\n\n## 符合条件的联邦贷款\n\n以下来自威廉·D·福特联邦直接贷款（直接贷款）计划和联邦家庭教育贷款（FFEL）计划的贷款符合扩展还款计划的条件：\n\n- 直接补贴贷款\n- 直接无补贴贷款\n- 直接PLUS贷款\n- 直接合并贷款\n- 补贴联邦斯塔福德贷款\n- 无补贴联邦斯塔福德贷款\n- FFEL PLUS贷款\n- FFEL合并贷款\n\n## 扩展还款计划的资格\n\n如果您是直接贷款借款人，您必须在1998年10月7日或之后获得直接贷款之日没有未偿还的直接贷款余额，并且您必须拥有超过30,000美元的未偿还直接贷款。\n\n如果您是FFEL借款人，要符合此计划的条件，您必须在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您必须拥有超过30,000美元的未偿还FFEL计划贷款。\n\n例如，如果您有35,000美元的未偿还FFEL计划贷款和10,000美元的未偿还直接贷款，您可以为您的FFEL计划贷款选择扩展还款计划，但不能为您的直接贷款选择。\n\n## 每月还款额\n\n在此计划下，您的每月还款额为\n\n- 固定或递增的金额，\n- 最长还款期限为25年，并且\n- 通常低于标准还款计划和递增还款计划下的还款额。\n\n## 使用贷款模拟器估算您在扩展还款计划下的资格和还款金额\n\n您的贷款服务机构，即处理您的联邦学生贷款账单和其他服务的公司，可以帮助您选择最适合您的贷款还款计划。在联系您的贷款服务机构讨论还款计划之前，您可以使用我们的贷款模拟器提前了解您可能符合条件的计划，并获得所有联邦学生贷款还款计划的预计月还款额比较。此比较很重要，因为扩展计划可能不会根据您的个人情况提供最低的还款金额。您可能会发现，在另一个还款计划下，您的还款额会更低。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "To qualify for the Extended Repayment Plan, you must have more than $30,000 in outstanding Direct Loans (if you are a Direct Loan borrower) or more than $30,000 in outstanding FFEL Program loans (if you are an FFEL borrower). Additionally, you must not have had an outstanding balance on the relevant loan type when you received a new loan on or after October 7, 1998. For example, if you have $35,000 in outstanding FFEL loans and $10,000 in Direct Loans, you could choose the Extended Repayment Plan for your FFEL loans but not for your Direct Loans. Your monthly payment will be fixed or gradually increasing, with a maximum repayment period of 25 years, and is typically lower than payments under the Standard or Graduated Repayment Plans.",
+          "citations": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "fd303a6fa9834489bff36cba9884840d",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1554,
+              "completion_tokens": 195,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 195,
+                "prompt_tokens": 1554,
+                "total_tokens": 1749,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1298
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0028373,
+            "accounted_rmb": 0.0028373,
+            "usage_unknown": false,
+            "seconds": 2.2453019618988037,
+            "error": null,
+            "response": {
+              "id": "ffef236f-10b2-44e7-a19c-4c1a5635bfe2",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "aba4f16708f6adefa2cd863fde8a5458e8700b321aa89e1e94cd32583ff4bb26"
+      },
+      "latency_ms": {
+        "queue_wait": 0.026916037313640118,
+        "retrieval": 997.486750013195,
+        "generation": 2250.138167059049,
+        "total": 3249.492541071959
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.15890812501311302,
+        "rerank_seconds": 0.8385337080108002,
+        "top1_dense_score": 0.7298759818077087,
+        "candidate_ids": [
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0012",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0011",
+          "Extended Plan | Federal Student Aid#1_0::c0000",
+          "Student Loan Deferment | Federal Student Aid#1_0::c0003",
+          "Student Loan Repayment | Federal Student Aid#1_0::c0001",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0008",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0003",
+          "Student Loan Deferment | Federal Student Aid#1_0::c0002",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0011",
+          "Student Loan Deferment | Federal Student Aid#1_0::c0005",
+          "Student Loan Deferment | Federal Student Aid#1_0::c0004",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0012",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0012",
+          "Student Loan Repayment | Federal Student Aid#1_0::c0002",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0013",
+          "Loan Repayment Checklist | Federal Student Aid#1_0::c0003",
+          "How to renew a license#1_0::c0001",
+          "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0011",
+          "Student Loan Repayment | Federal Student Aid#1_0::c0005"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 27,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.9974617910338566
+      },
+      "raw_citations": [
+        "Extended Plan | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "64123f4ba3dde64a814dbce1d7441b5dcf1a5860c08c59074eca0839d6f1adf6"
+}

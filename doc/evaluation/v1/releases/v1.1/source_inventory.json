@@ -1,0 +1,4780 @@
+{
+  "inventory_schema_version": 1,
+  "status": "source_fingerprinted_splits_not_created_labels_not_audited",
+  "created_date": "2026-09-05",
+  "source_root_hint": "/Users/yishanma/Desktop/rag2/multidoc2dial_full_multiformat_multilingual",
+  "path_resolution": "All source file paths below are relative to the supplied source root; root location is not part of the fingerprint.",
+  "source_dataset_version": "1.0",
+  "corpus_fingerprint_sha256": "df2edf658dba7ac182cfbe914b4b0648c3314d63575da0fc66454b3d9c944f82",
+  "source_files": [
+    {
+      "path": "manifests/document_manifest.json",
+      "sha256": "f9692b72b8b0eb684a5eb9c0926458824e866b4362ac20b358a33f67022b78b2",
+      "size_bytes": 8912682
+    },
+    {
+      "path": "manifests/build_report.json",
+      "sha256": "cc73784ef726b7b3f84cfdb548b79429abefb2a6785eec1525359737fa8cdd45",
+      "size_bytes": 1875
+    },
+    {
+      "path": "manifests/validation_report.json",
+      "sha256": "1488296f2701443dd0da6bc7b9432bc78970d98d4aa48fe55b463af64da462a8",
+      "size_bytes": 538
+    },
+    {
+      "path": "test/eval_turns.json",
+      "sha256": "27865df5fc88c9757466d70acf9926a0534803c4f94e196d73c167a6aefa1ff8",
+      "size_bytes": 25595539
+    },
+    {
+      "path": "test/dialogues.json",
+      "sha256": "bcccf44c5af8b6e6f37bf0bfbd01d7b5d5a917bd544452af04f0a1885ae5f9ea",
+      "size_bytes": 15134451
+    }
+  ],
+  "counts": {
+    "documents": 488,
+    "dialogues": 661,
+    "eval_pairs": 4335,
+    "observed_exposed_dialogues": 103,
+    "eligible_dialogues": 558,
+    "eligible_eval_pairs": 3635
+  },
+  "category_counts": {
+    "answer": 3214,
+    "unanswerable": 241,
+    "clarification": 880
+  },
+  "eligible_category_counts": {
+    "answer": 2670,
+    "unanswerable": 193,
+    "clarification": 772
+  },
+  "exposure_scope": "Known local legacy sets, composite source components, and full-corpus smoke set. Additional historical runs must extend this ledger before holdout freeze.",
+  "prior_exposure_sources": [
+    {
+      "path": "doc/test/test.json",
+      "sha256": "cf592c5b5c6c357316f3a4a13c287e60694e06c6d22060362dd78c8260394d59",
+      "dialogue_ids": [
+        "021386787787ced4b5fbd9dcd02d5086",
+        "0971599b9c9816449f701c2eee8bca57",
+        "0c9d7cdfe21ae9baa43bd7bfe295b061",
+        "0dc6f814edb85abf7090d459b9a8a729",
+        "15be395bd1cf9e04372fcbe4dc31960c",
+        "1a6a3eaf1fea1defabc45120f1876413",
+        "1ee8393062df2294121fb356d5926429",
+        "25e256475a62c78775360c04e70278c0",
+        "26b0f6c2fe37202f4b6a0763afcab3aa",
+        "277dbf1b0df58ecadb3c8381839feec0",
+        "2e0eae56e500ce599d2e50df42584392",
+        "2e91a2a94f8b4a22d71ab783a7237c5f",
+        "30ea92440dee785552e6e1741190c92d",
+        "36fc03b5b1e6313c3b2c49a6cb98f40d",
+        "3727fab5e9c5b7f9a6e1cbe7935d51bb",
+        "375a963ac82d70c70446a2f30e686438",
+        "37afb9b7f19e98b5c72d2125bded7c9d",
+        "37ca0b0a73ca77ad9f57b61048dcbde6",
+        "3876cbe36e90282406cbea85a31e5012",
+        "45d86c423857b52a7e58ad4923bb7a18",
+        "47da0a514a4be3b2c4180baee217c056",
+        "484efa0857224a8212323635750155c7",
+        "4ab0397b13920abc3c4140470f3db12a",
+        "5739237b45a59e99f4282413adb58c89",
+        "58f62ac630b5ec13054947b7b8520476",
+        "59021148d87890c7e7af8a7e5dbc6aab",
+        "5c459ee17b782ba97e889816a7c9b510",
+        "5e5db1c8f954cf39215f7bc72c7322fa",
+        "5ed99f74c7e04afb5273e122dd541670",
+        "5ff1cc139e41e8ee03e1f72ff485cbca",
+        "6070e3dcc2ef2ec0a8bbba02f8a14233",
+        "60f033db0967c2394c27bacb96bb7360",
+        "6265f70902f37a73f072250a9db47f21",
+        "64d6f8365e94e27a45bc0d81cc5190c2",
+        "652b64041afce4325fcfabecf20f41fc",
+        "68b799748b123c5661a65cea9870acb7",
+        "6a53d32979534c26b56948c498908f0d",
+        "6b3c27c1056a99cc2e76e2f9954564b7",
+        "6d6c267dc4cbb6f414790d6c55b9e0fe",
+        "6edbaa894c0968d2e3ab9bbfcbd7df0a",
+        "71f2c56d6ef73a9d56b9bcb7f95cd8f6",
+        "79fa5057f6f8b32760d5ec8a04a7a45e",
+        "7cf6cdc83104389521fe4b6b3c2328b0",
+        "7eb2cb3361df7c9cd78d4771dcec1d02",
+        "83236af4c52644c27df34aac12860238",
+        "84440787944cb0dc3e894543cbe998ff",
+        "86c30674eda3147cfbce8e7840a47d62",
+        "8bca43946f837e7946e38b2ea1bd55a1",
+        "8cb49f32f33505cd9650d60abe05e8ca",
+        "90b1a712d195c5fad9ae2a5366d0ef7f",
+        "90c474610318be15cfed995bdcf4e74d",
+        "963030f590fa5e7b8b88a9093a255979",
+        "98cc1b2601f92d9323b503581cd0dbd4",
+        "9957c4e965a7826212b1f86d6bc6352f",
+        "99fde7e8b712d1c8f9d683f23f84083c",
+        "9f3f5f38d2240af3bcb046ffa90263af",
+        "a04e5d0a16fddca173f34bcf37884fa6",
+        "a21bfcc6ab84da67c6a445535c0f3b43",
+        "a5bbcf3ee2f02ef7c84c7d478df65063",
+        "a5e33a8ee5418d4e04d6a9fe980b80f4",
+        "a61ab753094765155c65e20861516017",
+        "afd3fb8be411dc89335d4d6690a6fdf5",
+        "b17816a800cd527d849621fa4b91c4e3",
+        "b515792cb5c12eaf734c1ec5ec15023f",
+        "ba618bb1cb062c940912cc74180b482a",
+        "bda048f1c195f3646d20006ac31124d5",
+        "bf497c2e0c66955ed04644556da12a5c",
+        "c20f4c858acff9e427a8c8f40d36f25d",
+        "c29e6c44acfeb27be8e438e85301fda7",
+        "c4d29250f16017f3fc9fbaa5bf183988",
+        "c6a757255cd06da435075609a7db0026",
+        "c8956b13c0336770ca4e400291a481c8",
+        "c8eb764b9c681371b2f92deebb1d9c4c",
+        "c92b7a4080c71c677a5d5142370610d0",
+        "cc6419cef7f93479c4c7790189773a14",
+        "d0a58878eca371e513e25ee755bea381",
+        "d0edfffc8532be3afda9425e11ff3619",
+        "d3c13b9975f54341d07cc196468d6ce2",
+        "d5cbc100f9120ea22d81e05367734958",
+        "db24af7fe35304299573e34cc59db674",
+        "ddf3d19251ddc11187f6ca7432e6826c",
+        "e1558c9a8d9a63a959eee01f7fd33a1f",
+        "e3c09280b0901314ebc9c799f3789711",
+        "e7fd0ac02907e842b9ca05fa38cfb330",
+        "e81b7195954cde9804867ceda50c0f29",
+        "ec98685178ee80eab4602c6d10a744fc",
+        "ecb4a1de2830410ad30da986c41a4849",
+        "ef7084e0229b09f7e0827cc4c320ddc9",
+        "f466ecfe105557043d5a8989c3d985a2",
+        "f46b71551f7c27698fe80d4834c02028",
+        "fbb1d76bbb463fc48f95aa656192ef9b",
+        "fbd71d41a3664987af39687d2b735a89",
+        "fe132fe64875f957637bd6a202aa4dd2",
+        "feaa4a89454fdae1d7d8a35f58c32441"
+      ]
+    },
+    {
+      "path": "doc/test/test.json.bak-pre-review-2026-09-03",
+      "sha256": "f735aaa069a95fd4ebb479a9093a59bb1d14a4ff1d8f07b9da21bfcde1d0a151",
+      "dialogue_ids": [
+        "021386787787ced4b5fbd9dcd02d5086",
+        "0971599b9c9816449f701c2eee8bca57",
+        "0c9d7cdfe21ae9baa43bd7bfe295b061",
+        "0dc6f814edb85abf7090d459b9a8a729",
+        "15be395bd1cf9e04372fcbe4dc31960c",
+        "166e4adfd7cc4b506a179130f07e0c63",
+        "1a6a3eaf1fea1defabc45120f1876413",
+        "1ee8393062df2294121fb356d5926429",
+        "25e256475a62c78775360c04e70278c0",
+        "26b0f6c2fe37202f4b6a0763afcab3aa",
+        "277dbf1b0df58ecadb3c8381839feec0",
+        "2e0eae56e500ce599d2e50df42584392",
+        "2e91a2a94f8b4a22d71ab783a7237c5f",
+        "30ea92440dee785552e6e1741190c92d",
+        "36fc03b5b1e6313c3b2c49a6cb98f40d",
+        "3727fab5e9c5b7f9a6e1cbe7935d51bb",
+        "375a963ac82d70c70446a2f30e686438",
+        "37afb9b7f19e98b5c72d2125bded7c9d",
+        "37ca0b0a73ca77ad9f57b61048dcbde6",
+        "3876cbe36e90282406cbea85a31e5012",
+        "45d86c423857b52a7e58ad4923bb7a18",
+        "47da0a514a4be3b2c4180baee217c056",
+        "484efa0857224a8212323635750155c7",
+        "4ab0397b13920abc3c4140470f3db12a",
+        "5739237b45a59e99f4282413adb58c89",
+        "58f62ac630b5ec13054947b7b8520476",
+        "59021148d87890c7e7af8a7e5dbc6aab",
+        "5c459ee17b782ba97e889816a7c9b510",
+        "5e5db1c8f954cf39215f7bc72c7322fa",
+        "5ed99f74c7e04afb5273e122dd541670",
+        "5ff1cc139e41e8ee03e1f72ff485cbca",
+        "6070e3dcc2ef2ec0a8bbba02f8a14233",
+        "60f033db0967c2394c27bacb96bb7360",
+        "6265f70902f37a73f072250a9db47f21",
+        "64d6f8365e94e27a45bc0d81cc5190c2",
+        "652b64041afce4325fcfabecf20f41fc",
+        "68b799748b123c5661a65cea9870acb7",
+        "6a53d32979534c26b56948c498908f0d",
+        "6b3c27c1056a99cc2e76e2f9954564b7",
+        "6d6c267dc4cbb6f414790d6c55b9e0fe",
+        "6edbaa894c0968d2e3ab9bbfcbd7df0a",
+        "71f2c56d6ef73a9d56b9bcb7f95cd8f6",
+        "79fa5057f6f8b32760d5ec8a04a7a45e",
+        "7cf6cdc83104389521fe4b6b3c2328b0",
+        "7eb2cb3361df7c9cd78d4771dcec1d02",
+        "83236af4c52644c27df34aac12860238",
+        "84440787944cb0dc3e894543cbe998ff",
+        "86c30674eda3147cfbce8e7840a47d62",
+        "8a10b25d9bf07e17e314da263712baa9",
+        "8bca43946f837e7946e38b2ea1bd55a1",
+        "8cb49f32f33505cd9650d60abe05e8ca",
+        "90b1a712d195c5fad9ae2a5366d0ef7f",
+        "90c474610318be15cfed995bdcf4e74d",
+        "963030f590fa5e7b8b88a9093a255979",
+        "98cc1b2601f92d9323b503581cd0dbd4",
+        "9957c4e965a7826212b1f86d6bc6352f",
+        "99fde7e8b712d1c8f9d683f23f84083c",
+        "9f3f5f38d2240af3bcb046ffa90263af",
+        "a04e5d0a16fddca173f34bcf37884fa6",
+        "a21bfcc6ab84da67c6a445535c0f3b43",
+        "a5bbcf3ee2f02ef7c84c7d478df65063",
+        "a5e33a8ee5418d4e04d6a9fe980b80f4",
+        "a61ab753094765155c65e20861516017",
+        "afd3fb8be411dc89335d4d6690a6fdf5",
+        "b17816a800cd527d849621fa4b91c4e3",
+        "b515792cb5c12eaf734c1ec5ec15023f",
+        "ba618bb1cb062c940912cc74180b482a",
+        "bda048f1c195f3646d20006ac31124d5",
+        "bf497c2e0c66955ed04644556da12a5c",
+        "c20f4c858acff9e427a8c8f40d36f25d",
+        "c29e6c44acfeb27be8e438e85301fda7",
+        "c4d29250f16017f3fc9fbaa5bf183988",
+        "c6a757255cd06da435075609a7db0026",
+        "c8956b13c0336770ca4e400291a481c8",
+        "c8eb764b9c681371b2f92deebb1d9c4c",
+        "c92b7a4080c71c677a5d5142370610d0",
+        "cc6419cef7f93479c4c7790189773a14",
+        "d0a58878eca371e513e25ee755bea381",
+        "d0edfffc8532be3afda9425e11ff3619",
+        "d3c13b9975f54341d07cc196468d6ce2",
+        "d5cbc100f9120ea22d81e05367734958",
+        "db24af7fe35304299573e34cc59db674",
+        "ddf3d19251ddc11187f6ca7432e6826c",
+        "e1558c9a8d9a63a959eee01f7fd33a1f",
+        "e3c09280b0901314ebc9c799f3789711",
+        "e6e0acece5b228db1fff666f8895834b",
+        "e7fd0ac02907e842b9ca05fa38cfb330",
+        "e81b7195954cde9804867ceda50c0f29",
+        "ec98685178ee80eab4602c6d10a744fc",
+        "ecb4a1de2830410ad30da986c41a4849",
+        "ef7084e0229b09f7e0827cc4c320ddc9",
+        "f466ecfe105557043d5a8989c3d985a2",
+        "f46b71551f7c27698fe80d4834c02028",
+        "fbb1d76bbb463fc48f95aa656192ef9b",
+        "fbd71d41a3664987af39687d2b735a89",
+        "fe132fe64875f957637bd6a202aa4dd2",
+        "feaa4a89454fdae1d7d8a35f58c32441"
+      ]
+    },
+    {
+      "path": "doc_full/test/test_smoke.json",
+      "sha256": "077832a76572ab00a86a82f5101183fbd9695ce3d7662a1736879a37acbf20b6",
+      "dialogue_ids": [
+        "438267cd2c6889fcaaa36953ae269483",
+        "5ff1cc139e41e8ee03e1f72ff485cbca",
+        "6c1a20b6f6cad4c623a877f50bbc54e8",
+        "71f2c56d6ef73a9d56b9bcb7f95cd8f6",
+        "7941cf7dd009003b816e5f49c98784c0",
+        "7eb2cb3361df7c9cd78d4771dcec1d02",
+        "a04e5d0a16fddca173f34bcf37884fa6",
+        "b284a4735f8d84a97ba634ad0b2db4d3",
+        "f00d605c45efc4aaecb9da1a5037d936",
+        "f2594c64b66e302fcb2482e5d4823c39"
+      ]
+    }
+  ],
+  "holdout_excluded_dialogue_ids": [
+    "021386787787ced4b5fbd9dcd02d5086",
+    "0971599b9c9816449f701c2eee8bca57",
+    "0c9d7cdfe21ae9baa43bd7bfe295b061",
+    "0dc6f814edb85abf7090d459b9a8a729",
+    "15be395bd1cf9e04372fcbe4dc31960c",
+    "166e4adfd7cc4b506a179130f07e0c63",
+    "1a6a3eaf1fea1defabc45120f1876413",
+    "1ee8393062df2294121fb356d5926429",
+    "25e256475a62c78775360c04e70278c0",
+    "26b0f6c2fe37202f4b6a0763afcab3aa",
+    "277dbf1b0df58ecadb3c8381839feec0",
+    "2e0eae56e500ce599d2e50df42584392",
+    "2e91a2a94f8b4a22d71ab783a7237c5f",
+    "30ea92440dee785552e6e1741190c92d",
+    "36fc03b5b1e6313c3b2c49a6cb98f40d",
+    "3727fab5e9c5b7f9a6e1cbe7935d51bb",
+    "375a963ac82d70c70446a2f30e686438",
+    "37afb9b7f19e98b5c72d2125bded7c9d",
+    "37ca0b0a73ca77ad9f57b61048dcbde6",
+    "3876cbe36e90282406cbea85a31e5012",
+    "438267cd2c6889fcaaa36953ae269483",
+    "45d86c423857b52a7e58ad4923bb7a18",
+    "47da0a514a4be3b2c4180baee217c056",
+    "484efa0857224a8212323635750155c7",
+    "4ab0397b13920abc3c4140470f3db12a",
+    "5739237b45a59e99f4282413adb58c89",
+    "58f62ac630b5ec13054947b7b8520476",
+    "59021148d87890c7e7af8a7e5dbc6aab",
+    "5c459ee17b782ba97e889816a7c9b510",
+    "5e5db1c8f954cf39215f7bc72c7322fa",
+    "5ed99f74c7e04afb5273e122dd541670",
+    "5ff1cc139e41e8ee03e1f72ff485cbca",
+    "6070e3dcc2ef2ec0a8bbba02f8a14233",
+    "60f033db0967c2394c27bacb96bb7360",
+    "6265f70902f37a73f072250a9db47f21",
+    "64d6f8365e94e27a45bc0d81cc5190c2",
+    "652b64041afce4325fcfabecf20f41fc",
+    "68b799748b123c5661a65cea9870acb7",
+    "6a53d32979534c26b56948c498908f0d",
+    "6b3c27c1056a99cc2e76e2f9954564b7",
+    "6c1a20b6f6cad4c623a877f50bbc54e8",
+    "6d6c267dc4cbb6f414790d6c55b9e0fe",
+    "6edbaa894c0968d2e3ab9bbfcbd7df0a",
+    "71f2c56d6ef73a9d56b9bcb7f95cd8f6",
+    "7941cf7dd009003b816e5f49c98784c0",
+    "79fa5057f6f8b32760d5ec8a04a7a45e",
+    "7cf6cdc83104389521fe4b6b3c2328b0",
+    "7eb2cb3361df7c9cd78d4771dcec1d02",
+    "83236af4c52644c27df34aac12860238",
+    "84440787944cb0dc3e894543cbe998ff",
+    "86c30674eda3147cfbce8e7840a47d62",
+    "8a10b25d9bf07e17e314da263712baa9",
+    "8bca43946f837e7946e38b2ea1bd55a1",
+    "8cb49f32f33505cd9650d60abe05e8ca",
+    "90b1a712d195c5fad9ae2a5366d0ef7f",
+    "90c474610318be15cfed995bdcf4e74d",
+    "963030f590fa5e7b8b88a9093a255979",
+    "98cc1b2601f92d9323b503581cd0dbd4",
+    "9957c4e965a7826212b1f86d6bc6352f",
+    "99fde7e8b712d1c8f9d683f23f84083c",
+    "9f3f5f38d2240af3bcb046ffa90263af",
+    "a04e5d0a16fddca173f34bcf37884fa6",
+    "a21bfcc6ab84da67c6a445535c0f3b43",
+    "a5bbcf3ee2f02ef7c84c7d478df65063",
+    "a5e33a8ee5418d4e04d6a9fe980b80f4",
+    "a61ab753094765155c65e20861516017",
+    "afd3fb8be411dc89335d4d6690a6fdf5",
+    "b17816a800cd527d849621fa4b91c4e3",
+    "b284a4735f8d84a97ba634ad0b2db4d3",
+    "b515792cb5c12eaf734c1ec5ec15023f",
+    "ba618bb1cb062c940912cc74180b482a",
+    "bda048f1c195f3646d20006ac31124d5",
+    "bf497c2e0c66955ed04644556da12a5c",
+    "c20f4c858acff9e427a8c8f40d36f25d",
+    "c29e6c44acfeb27be8e438e85301fda7",
+    "c4d29250f16017f3fc9fbaa5bf183988",
+    "c6a757255cd06da435075609a7db0026",
+    "c8956b13c0336770ca4e400291a481c8",
+    "c8eb764b9c681371b2f92deebb1d9c4c",
+    "c92b7a4080c71c677a5d5142370610d0",
+    "cc6419cef7f93479c4c7790189773a14",
+    "d0a58878eca371e513e25ee755bea381",
+    "d0edfffc8532be3afda9425e11ff3619",
+    "d3c13b9975f54341d07cc196468d6ce2",
+    "d5cbc100f9120ea22d81e05367734958",
+    "db24af7fe35304299573e34cc59db674",
+    "ddf3d19251ddc11187f6ca7432e6826c",
+    "e1558c9a8d9a63a959eee01f7fd33a1f",
+    "e3c09280b0901314ebc9c799f3789711",
+    "e6e0acece5b228db1fff666f8895834b",
+    "e7fd0ac02907e842b9ca05fa38cfb330",
+    "e81b7195954cde9804867ceda50c0f29",
+    "ec98685178ee80eab4602c6d10a744fc",
+    "ecb4a1de2830410ad30da986c41a4849",
+    "ef7084e0229b09f7e0827cc4c320ddc9",
+    "f00d605c45efc4aaecb9da1a5037d936",
+    "f2594c64b66e302fcb2482e5d4823c39",
+    "f466ecfe105557043d5a8989c3d985a2",
+    "f46b71551f7c27698fe80d4834c02028",
+    "fbb1d76bbb463fc48f95aa656192ef9b",
+    "fbd71d41a3664987af39687d2b735a89",
+    "fe132fe64875f957637bd6a202aa4dd2",
+    "feaa4a89454fdae1d7d8a35f58c32441"
+  ],
+  "documents": [
+    {
+      "doc_id": "A Guide for Facilities:#3_0",
+      "file": "documents/pdf_text/dmv_001.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "44c88ab0dbf1a7b4b69749b15a54b802253eb8feb12486fd825bddd2ba1e5a1d",
+      "size_bytes": 35758
+    },
+    {
+      "doc_id": "ATVs: Information for Owners and Operators#3_0",
+      "file": "documents/markdown/dmv_014.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1b284f47f635e1e76c2dd2382c10ee95261c772e5666faf1cf2f2f8a0212a0c9",
+      "size_bytes": 14374
+    },
+    {
+      "doc_id": "About New York State Inspections#3_0",
+      "file": "documents/txt/dmv_005.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "8cf775292f6eb335368c10aa30b59a9c141ae5ff72bee90bfc4a12ee3efc03fd",
+      "size_bytes": 4982
+    },
+    {
+      "doc_id": "About Private Service Bureau Licenses#1_0",
+      "file": "documents/markdown/dmv_008.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "23e55fc6b483ff39ff6fb9259eaf3eba92400247ab4594cb3d300ecad03f9285",
+      "size_bytes": 3239
+    },
+    {
+      "doc_id": "About VA Disability Ratings | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_001.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "145f150d51530ab2963fdc75551f8352b8730eae4fdc787fe7c37b39bec1250f",
+      "size_bytes": 6850
+    },
+    {
+      "doc_id": "About VA Health Benefits | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_002.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "a486040771842dddc83b937895779c274fdeebfbfd2514ec2e50167da4fc10b9",
+      "size_bytes": 8634
+    },
+    {
+      "doc_id": "About VA Insurance Options And Eligibility | Veterans Affairs#1_0",
+      "file": "documents/docx/va_003.docx",
+      "domain": "va",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "7d6566a8c354ea9ca63b0096343824b376fb21992f89f0f5667cc8e4948deb97",
+      "size_bytes": 38568
+    },
+    {
+      "doc_id": "About complaints and charges for dealer and transporter businesses#3_0",
+      "file": "documents/markdown/dmv_002.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "33ea67b35541921490b68445eafefc4a2ab1a1f1c035c4d8857c1a1bf7b9aaa8",
+      "size_bytes": 4198
+    },
+    {
+      "doc_id": "About complaints and charges for inspection stations and certified inspectors#3_0",
+      "file": "documents/markdown/dmv_003.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "ad51f7161295df00c181350d1261572a293d2c15ea2f68b6089f686e0f766ed2",
+      "size_bytes": 3134
+    },
+    {
+      "doc_id": "About complaints and charges for repair and body shops#3_0",
+      "file": "documents/markdown/dmv_004.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "5ec7f641b271927c4e2ff7b0da20098a40c65b468aa6eea4ac69315a6591e80e",
+      "size_bytes": 3073
+    },
+    {
+      "doc_id": "About online and alternative delivery method courses (I-PIRP/ADM)#3_0",
+      "file": "documents/txt/dmv_006.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "16c4ef992f59e4934472caeba00c76a211d23cd039e8e4cc96de815255726be1",
+      "size_bytes": 6262
+    },
+    {
+      "doc_id": "About point reduction#3_0",
+      "file": "documents/pdf_scanned/dmv_007.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "931056f7a924f1c7f709a3395fa58780507870192fb0fc3df3e2accc612517a9",
+      "size_bytes": 273958
+    },
+    {
+      "doc_id": "About problem driver restrictions#3_0",
+      "file": "documents/markdown/dmv_009.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "60a81392395fc02677d339d7316a389fbd9f9a7d202c031d37108e1f1d9b6dbd",
+      "size_bytes": 4251
+    },
+    {
+      "doc_id": "About the NYS Driver Point System#3_0",
+      "file": "documents/markdown/dmv_010.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "bb6e28dc355110b5d61f7a836bb7a2986f8e5432e80d3f7675954eb520d8b7cf",
+      "size_bytes": 3423
+    },
+    {
+      "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_001.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "2e8816e3a97ea6a38165d98c2911f4219cf5d90397910d1ea8d20148eaf13c51",
+      "size_bytes": 3062
+    },
+    {
+      "doc_id": "Access Your VA Life Insurance Policy Online | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_004.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "c4017daf85e1dea67913f869bec23c2c93da81e3b0683cfa972a3132438c36ec",
+      "size_bytes": 1333
+    },
+    {
+      "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+      "file": "documents/docx/va_005.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "9fdb89f88f5c17bb203ebcdac4d30364ffbbb588ffec1f16463c15796ac8a218",
+      "size_bytes": 40416
+    },
+    {
+      "doc_id": "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0",
+      "file": "documents/docx/va_006.docx",
+      "domain": "va",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "a4ef92068103b028d2bacd882d5e66b4f656d907a4a2c6dd1c0eb165c611bbec",
+      "size_bytes": 40939
+    },
+    {
+      "doc_id": "Adding and removing users#3_0",
+      "file": "documents/markdown/dmv_011.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "31addc585cfa8fb823a5bf6549ca3694a6d3fca6eef892628f4334df481881f1",
+      "size_bytes": 1953
+    },
+    {
+      "doc_id": "Affordable Care Act (ACA) And Your Coverage | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_007.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "cc518854725f5303c9843a242c9136384d968a83dbb891d8f1c682a858a26442",
+      "size_bytes": 2935
+    },
+    {
+      "doc_id": "After You Apply For An Eligibility Determination | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_008.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "4668c8e42aa3c3e41c4c32283557e965ae2617c07611d8380a9e9b56a2aafc15",
+      "size_bytes": 594419
+    },
+    {
+      "doc_id": "After You Apply For Health Care Benefits | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_009.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "bfe8cd67ee185a25c7dabefd368e78737b89ada198f9914e86c53d10b5ea1c01",
+      "size_bytes": 4665
+    },
+    {
+      "doc_id": "Agent Orange Exposure From C-123 Aircraft | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_010.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "99651bc8baa0c6cad7796f7b426647e64c71c9d2e7763bbefddcf8aae64ecbf8",
+      "size_bytes": 4224
+    },
+    {
+      "doc_id": "Agent Orange Exposure In Vietnam Or Korea | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_011.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "380eaa6d6dcb8a07acf5a4f11c3c7f24cfdafc76999e97707134dfd0cebb98ac",
+      "size_bytes": 125318
+    },
+    {
+      "doc_id": "Agent Orange Exposure On Navy Or Coast Guard Ships | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_012.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "22dbb42c61958bd1a511d79cb4d5fffaa9c021a46a0fd84b63ef613c64c480ef",
+      "size_bytes": 5510
+    },
+    {
+      "doc_id": "Agent Orange Exposure | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_013.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "1de857549a71d4197a3ab84b2cf953e77c3d7f5523f45939ca16984cfd01b8b5",
+      "size_bytes": 4607
+    },
+    {
+      "doc_id": "Aid And Attendance Benefits And Housebound Allowance | VA.gov#1_0",
+      "file": "documents/markdown/va_014.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "735429270e2623fc18e4254ff6c7dc27e77ab674c004cff5c59dc75150e1d8c0",
+      "size_bytes": 2764
+    },
+    {
+      "doc_id": "Aid for International Study | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_002.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "12dce397ac6cb6b15de81e6c57c26444a5a133c85186cdb8a1c6595dfce0856e",
+      "size_bytes": 9545
+    },
+    {
+      "doc_id": "Aid for Military Families | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_003.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "d509183c7cc9e4344b4ba4a44c522381f1239d4fbecd9ff52a169be998df9993",
+      "size_bytes": 6357
+    },
+    {
+      "doc_id": "Aidan | The FSA Virtual Assistant | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_004.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c9baa049679e7befc55f868e2ddf6af084d99e069e8006ad8b81ddd6d3d0be2f",
+      "size_bytes": 2747
+    },
+    {
+      "doc_id": "Amend or replace a business license for a repair or body shop#3_0",
+      "file": "documents/markdown/dmv_012.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4a1e67be53ed17dc4ff576e9a344f189063cb7911b621262ae1495f31d531bfd",
+      "size_bytes": 1329
+    },
+    {
+      "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_001.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "00d5bb556f13a74bb5f01733b22543da584f640cf82d2c9aae5933f28fb66ad4",
+      "size_bytes": 4631
+    },
+    {
+      "doc_id": "Appeal A Decision | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_002.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d2fb710e2616577e2b89ecb9e49ee4f164ef3a98280cc52c0bd0db8677be7c6a",
+      "size_bytes": 4609
+    },
+    {
+      "doc_id": "Appeal a Credit Decision Demo | Extenuating Circumstances | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_005.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1caea2dcc13faa1f4bcb09f5bfbb11388344043bcc01b1359350ca6893ed1148",
+      "size_bytes": 10794
+    },
+    {
+      "doc_id": "Appeal a TVB ticket conviction#1_0",
+      "file": "documents/markdown/dmv_013.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1ddeca60ce1df715acc0ebdc62580dd3b1ce38b0a17fc3f9a48853567a2280c4",
+      "size_bytes": 7091
+    },
+    {
+      "doc_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0",
+      "file": "documents/markdown/ssa_003.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "65748f700d683f114962a1e7392ae743d3978206a3fdb6a4f0be2425de1608de",
+      "size_bytes": 1431
+    },
+    {
+      "doc_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#2_0",
+      "file": "documents/markdown/ssa_004.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c4bc155ae21d99340c1f8da2478c1e2eb3c0489fac7bccf40824ac37ee8e4c8c",
+      "size_bytes": 1684
+    },
+    {
+      "doc_id": "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_006.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "5bd84cf8c06533a9ffc0aac9a3ef5718414f176658692ec0fdd5bfda94c3cb37",
+      "size_bytes": 2856
+    },
+    {
+      "doc_id": "Apply for Retirement Benefits | SSA#1_0",
+      "file": "documents/markdown/ssa_005.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "a9fc224736d72de080753a13791a8a243f60414b1ac8393805739710f5e2ff1a",
+      "size_bytes": 10459
+    },
+    {
+      "doc_id": "Automatic license and registration extension for military personnel#3_0",
+      "file": "documents/markdown/dmv_015.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "0f81008842eedaf4f33db663c622556a16bb3aa0158479741e680ca12c4d5561",
+      "size_bytes": 2751
+    },
+    {
+      "doc_id": "Avoiding Default | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_007.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "6567e10615c8fb57968d8ae749741f53244c7d0da6a65fbfcb9e9ca13b4ba65a",
+      "size_bytes": 3508
+    },
+    {
+      "doc_id": "Avoiding Student Aid Scams | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_008.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "eb6ed3a99317a0cbec15de750b5c3296d69710d7a0dda1d57870b2026d1450f6",
+      "size_bytes": 16558
+    },
+    {
+      "doc_id": "Become a driving school instructor#3_0",
+      "file": "documents/txt/dmv_016.txt",
+      "domain": "dmv",
+      "language": "en",
+      "format": "txt",
+      "sha256": "a12f3e0672c1e36019ae025e891f92037494879a8127e7d2747adb110b0a7d71",
+      "size_bytes": 6107
+    },
+    {
+      "doc_id": "Benefit Verification Letter  | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_006.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ff2611dad9799a38b30dbac8d24f4ebc97b731f99d3905a930b0ff33cf81f444",
+      "size_bytes": 1945
+    },
+    {
+      "doc_id": "Benefit Verification Letter  | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_007.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "9eb320ca7e0c124e0b7928d86e49ae3e5a47625e61d646185868259eb8da1667",
+      "size_bytes": 1897
+    },
+    {
+      "doc_id": "Benefits For Spouses And Dependents (VA DIC) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_015.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "8cbb5c20b4a44c87630f6a17560a449e2aa06f897f4aa6f59ab8247dad33013f",
+      "size_bytes": 6167
+    },
+    {
+      "doc_id": "Benefits Planner | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_009.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "6beb3772e88849a397e7919a2af1e88eb8f1f520de58b8da19a1066bd9f38338",
+      "size_bytes": 3083
+    },
+    {
+      "doc_id": "Benefits Planner | Social Security Administration#2_0",
+      "file": "documents/pdf_text/ssa_010.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "fd309ad3f669348e2198ffbbe24a980d77446d2521c0c6035bc01f6640745f27",
+      "size_bytes": 115928
+    },
+    {
+      "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#1_0",
+      "file": "documents/markdown/ssa_011.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b7f67dca0aa5e7a33e5e99268ede8fb4b7ee6b74c065a9cbd86701b37ccaff2c",
+      "size_bytes": 3406
+    },
+    {
+      "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0",
+      "file": "documents/markdown/ssa_012.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b7f67dca0aa5e7a33e5e99268ede8fb4b7ee6b74c065a9cbd86701b37ccaff2c",
+      "size_bytes": 3406
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_013.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "0f0b8a11fb2d7c338c0234c9045c47a5c8b3e5cfc04422ebe743147dd64c2fe5",
+      "size_bytes": 3503
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_014.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "34e30a3b0a866b42081a02068b1587733c3ffb05b51eaaaba48a8ce8dbf98cea",
+      "size_bytes": 3548
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_015.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "9d81d44db3ca128ea80280be8f5569130d435dfba699e8646db0d3d5f7d37dc6",
+      "size_bytes": 2588
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_016.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "56cbfe390f4906d6a6db01f573edc100fb8671678c8185533e3f4d625e349c94",
+      "size_bytes": 2524
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Family Benefits | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_017.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "d4e313b4cc38961e1703249ba5ad2915461faba01d4cd802a94ca712e0f0dc50",
+      "size_bytes": 3886
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Family Benefits | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_018.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4358ff914943a998669c65a49338eb79e0d5a74452d0e54ac6b26f2b851ce3d5",
+      "size_bytes": 4405
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_019.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "98ca44b0e4057e17e20524531c2e4d3dedc1053f758da67d01fc481ab5bf13a2",
+      "size_bytes": 3793
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0",
+      "file": "documents/pdf_text/ssa_020.pdf",
+      "domain": "ssa",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "0d1fcf8da54243200a6fceb3fea0f39e2606f9a5a9ab8f193a35871fd0c30e6b",
+      "size_bytes": 35880
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_021.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "a3a9ca710e0dc93a4a1356962a25d54a94c91e5a7bf57346e3f90316ee9f5242",
+      "size_bytes": 11814
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_022.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "ca59ca87f105bba6bf885f90925b9dea948bcaa5b33e76c1d7949f6b197b2d89",
+      "size_bytes": 10034
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_023.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ec45e9df3c9ddd27d8c300ec83c5ac5c90e9ab3201c552dd9a5928d21ca963f9",
+      "size_bytes": 2314
+    },
+    {
+      "doc_id": "Benefits Planner: Disability | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_024.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "61875994e15a3ba690449e0b5f257335bd12e6c2d97d640a3801cb577c3d18e4",
+      "size_bytes": 2281
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_025.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "431c609815e1803ed049c8e888d38b56f519a452a7c22174fcde6105588cf3e1",
+      "size_bytes": 5484
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0",
+      "file": "documents/pdf_text/ssa_026.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "a909d0b8561beb5031733333dfd39ec0d3ae1a0ce6fe40a8e3c58f34b06200d8",
+      "size_bytes": 142888
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_027.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "837abc4382d21ef66169996e90eac4ce515e41b3adf0b202144ae6b24e9db57e",
+      "size_bytes": 1988
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_028.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "c33851bd35d83874faf768b5bc2accaafbf31803742845e8df076f43647ea80f",
+      "size_bytes": 1742
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_029.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "cb74b213b440844a346002ba65fa8ac7e37c0ff942e5746815c608aaf35ea02f",
+      "size_bytes": 2446
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_030.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "999f3726d7373ff67d79fe1fe717a8db27ec1eb041f55fbcd54b5625c266b56e",
+      "size_bytes": 2346
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_031.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "35ae5e8c0d974a617f8008e4e329eb93e79eac1c288a524ebc09d0a65cc6ece8",
+      "size_bytes": 4467
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_032.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "505184a69fa3a1c645b96be3502b16135541f4be95a8d0d1bbf245eef81fe9af",
+      "size_bytes": 4434
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0",
+      "file": "documents/pdf_text/ssa_033.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "d7daa510f78287790f63e4ff6d015045d7dd748f485a7f50c4ad3d810572a0c4",
+      "size_bytes": 72984
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_034.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "ea2fccd42a4581b079691957525de8e9c167cd0b7ead57c33c4c0a2d3fba7114",
+      "size_bytes": 1199
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_035.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b70c6abb42ca5b73f0ba9e7a90dad7b654a20f1a5d1b90a4d10f625bba5499b9",
+      "size_bytes": 1602
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_036.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "bf92d546559d60fe040104f26d27a687f79056bc5ac9b11e37488d7863271ba8",
+      "size_bytes": 1707
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0",
+      "file": "documents/pdf_text/ssa_037.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "8ebd51ce73e0ebe24244d07f5632128c69a9dadd2726f306c316e1dd4e34e38b",
+      "size_bytes": 118924
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_038.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "388fe731905c702762bf0651462e8f85ca82f4be60edb2907b4c208ce6880020",
+      "size_bytes": 3366
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | If You Are Divorced | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_039.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d187b0347556d855ca4bf943cead63cb8f7db555af94cb47a64a9f874e1def9d",
+      "size_bytes": 2728
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+      "file": "documents/markdown/ssa_040.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "80eabde1572f61f955000e3398144bbe814ef0ab4fff2d3214319fef335d92cf",
+      "size_bytes": 9170
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0",
+      "file": "documents/markdown/ssa_041.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "420ecf166b9bab5d1dd2677aa4df29e292994757be7b52f39d1084cd692ed170",
+      "size_bytes": 9109
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0",
+      "file": "documents/markdown/ssa_042.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "a0631108ebcccc6eb7ff9ac9339303ce38593199be6de6552086d43ac1f6cb71",
+      "size_bytes": 1027
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_043.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "51ea2f50236ebdec3ec8ccff22f3fa641239c443a1fe0e7bc9b041e8af048174",
+      "size_bytes": 7364
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_044.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "344157cd46e67f4b15c49bcb87e52d92f15b3564e3b1c59ad5e527dba62e4a56",
+      "size_bytes": 7331
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_045.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1706deca2b2e12402a3641422dbc5ce3b20613f7b519edbc99f6be4c2761c4d9",
+      "size_bytes": 3399
+    },
+    {
+      "doc_id": "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_046.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "889829487feeaf0a69903798cfa8f16b25ec3ea875d6f0a7ccec6dc867af76e5",
+      "size_bytes": 3366
+    },
+    {
+      "doc_id": "Benefits Planner: Survivors | How You Apply | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_047.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "5a9102f0fd4aad4b0ada37ee552e8580e1f10a12c78b9ac49f70a9cc1fcaac0c",
+      "size_bytes": 1996
+    },
+    {
+      "doc_id": "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_048.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c300cc247d39986d4ee84316dfcd1904b55931caeb682fc20586a263f522d211",
+      "size_bytes": 2315
+    },
+    {
+      "doc_id": "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_049.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "403f7cae6de082812117e9bdec1ba2ff248bf5ebbb95af7bb69d8c048e281534",
+      "size_bytes": 12987
+    },
+    {
+      "doc_id": "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_050.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6a30c149b132c0c226e03bba364c9303c44330d841d45ed0b9f63429e0d7058f",
+      "size_bytes": 12928
+    },
+    {
+      "doc_id": "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#1_0",
+      "file": "documents/pdf_text/ssa_051.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "95f369afbc601893ac22ae8204a6492248390c3f98f9338f8ca7643d30619af1",
+      "size_bytes": 151532
+    },
+    {
+      "doc_id": "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_052.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d3cad39d7a477f8918d4c56294ead6957d5ed5106e8fbc61ff9a000f0a809ba9",
+      "size_bytes": 8433
+    },
+    {
+      "doc_id": "Benefits for People with Disabilities#1_0",
+      "file": "documents/markdown/ssa_008.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "61cca5f11eb33f57fac7d4934f3b6a3a934df4144ae04a41c0c58fe26cc81f23",
+      "size_bytes": 2755
+    },
+    {
+      "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_016.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_scanned",
+      "sha256": "d7a47a9cf8b7885037a9434ca0c08709b6faf831c58aab947bd7cf5c324323f4",
+      "size_bytes": 682161
+    },
+    {
+      "doc_id": "Borrower Defense to Repayment | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_009.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "c1f9c12544f159ad259369281ac6c6ec753013a874dc84c72759586d8378c2d6",
+      "size_bytes": 37810
+    },
+    {
+      "doc_id": "Buy or sell a vehicle (transfer ownership)#3_0",
+      "file": "documents/markdown/dmv_017.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "867f079d7c958a0eb552e2df6076669751e8e71bf1875ce32647e5a9658c6652",
+      "size_bytes": 1989
+    },
+    {
+      "doc_id": "CHAMPVA Benefits | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_020.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_scanned",
+      "sha256": "bbf569617666529f7b2eca497453ec686ff7ffa750f21d880b8aadaf03133a26",
+      "size_bytes": 964761
+    },
+    {
+      "doc_id": "California emissions standards#3_0",
+      "file": "documents/markdown/dmv_018.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "662f7771d5820ac5e9b838fc22c87a536d02b23010742beccfab98fc89fcf3c5",
+      "size_bytes": 3208
+    },
+    {
+      "doc_id": "Camp Lejeune Water Contamination Health Issues | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_017.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "fc25a80ef3052fae58955ae3d286ef27217d0a25b63b88aab1fe252dc35e3bf8",
+      "size_bytes": 6238
+    },
+    {
+      "doc_id": "Careers And Employment | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_018.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "3f88e51d5fb6fc79c87a8da8dfe2b58e7f7aa30b74959546497620d753e5c3fd",
+      "size_bytes": 5317
+    },
+    {
+      "doc_id": "Careers And Employment | Veterans Affairs#2_0",
+      "file": "documents/markdown/va_019.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b583c844b1fecaa2b52acd4df28fcddc38cb18a3fa600cdd06ecf7b66f45e61b",
+      "size_bytes": 5020
+    },
+    {
+      "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_021.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "16808326ea9a21db1026dcce74770be50019db9bd45b4c7ef704ab90a6fb8f6a",
+      "size_bytes": 2945
+    },
+    {
+      "doc_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_022.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "c06d25b8cb7b1e75d8214fc3db1ef2b628838c5cb79da61f70dca45fffe5a771",
+      "size_bytes": 3584
+    },
+    {
+      "doc_id": "Change name on title after lease buyout#3_0",
+      "file": "documents/docx/dmv_019.docx",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "docx",
+      "sha256": "02a79cc828c8bd82f336d0a1fe27b4938cf8b8d524a023604665f6b1e338eb6a",
+      "size_bytes": 38945
+    },
+    {
+      "doc_id": "Change of Address| Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_053.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "f5bf0d122c0f996378d36fbad5640107879421fce1c94db9b1978b61ca0607bf",
+      "size_bytes": 1769
+    },
+    {
+      "doc_id": "Change of Address| Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_054.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c65038913433d7d41658c7aa5a374ac64315d287f3646a16bf41ff579507ad8f",
+      "size_bytes": 1972
+    },
+    {
+      "doc_id": "Changes to IRP registration#1_0",
+      "file": "documents/markdown/dmv_020.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d3889742dd24878a4ba13ae6272601659c842048c3d202d8ee9cbfd2becbb40d",
+      "size_bytes": 4257
+    },
+    {
+      "doc_id": "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_023.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "1d50f760719a1256de0f01d16800691209a2d272da40634ade7d7b4adc73b2cf",
+      "size_bytes": 373783
+    },
+    {
+      "doc_id": "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_010.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "88ef92badc3bc2f4844af67fa31b89dfdf96232fa399aab17402089914e17a90",
+      "size_bytes": 3195
+    },
+    {
+      "doc_id": "Choosing a School | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_011.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "4e2f92c2ad4f5dbb8fc544c27542da4c47eedc8ebce4c6377d79a97d73216af8",
+      "size_bytes": 6467
+    },
+    {
+      "doc_id": "Closed School Discharge | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_012.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "8bfc22f3b0cd8b9a94b589ca01ecfeb4ce450f8fd6bcb2ad94c5bfbaab2d85f6",
+      "size_bytes": 5588
+    },
+    {
+      "doc_id": "Co-op Training | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_024.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "e8d47f592a3be27a1c6baf927379749051a6e2aa4f8d6854d3d1092fa4797d6c",
+      "size_bytes": 1466
+    },
+    {
+      "doc_id": "Co-sign Your Spouse's Income-Driven Repayment Plan Application | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_013.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "40aa7b1641db2d1c65edfba784d088ff32f492fd92cf59f24b6da9cf9667337f",
+      "size_bytes": 1871
+    },
+    {
+      "doc_id": "Collections | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_014.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4ae0b02b18142397289d548d52471c3319a5bab0e6fe0f1579afa6e422693ecf",
+      "size_bytes": 13195
+    },
+    {
+      "doc_id": "Commercial Driver License Downgrades#3_0",
+      "file": "documents/markdown/dmv_021.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "145ab3bb91dc8f9bd6d7e6e38531828e48924cffc933a74aeb8a53613f0eb40a",
+      "size_bytes": 2695
+    },
+    {
+      "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+      "file": "documents/docx/dmv_022.docx",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "6855180af4d38579258a305677d540aa9f1c1ced219a44a6bc5a688ce0f2a062",
+      "size_bytes": 38998
+    },
+    {
+      "doc_id": "Comparing School Aid Offers | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_015.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "9bf3badaf88ef5c55cedfbddd1a718dd8c3c7f835c4a44007fc91187ce52038f",
+      "size_bytes": 2630
+    },
+    {
+      "doc_id": "Complete Federal Student Loan Counseling | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_016.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "718f9089ca5b00ca5cedcba10a704038eee940b6d86f0a849e4baaf148e45cfc",
+      "size_bytes": 2427
+    },
+    {
+      "doc_id": "Complete the Financial Aid Process | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_017.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "3cc768652b500cebd884a782ce76c33b99f207991b72b9a5ee4e8d565d8c9adc",
+      "size_bytes": 974
+    },
+    {
+      "doc_id": "Completing a Master Promissory Note | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_018.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "025db73842dd05f23e62894bfb273dc1458ff57f1d2e0b3f9cfee7bdfd234465",
+      "size_bytes": 1959
+    },
+    {
+      "doc_id": "Conditional and restricted use licenses#3_0",
+      "file": "documents/docx/dmv_023.docx",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "53cb326700fd24ba00270339ef5199192fd00b98cd8b584d75a24b8d97082764",
+      "size_bytes": 38184
+    },
+    {
+      "doc_id": "Contracting Information | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_019.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "12a040c0d55e40f3c2473b5536aaf7a7d6fb22b95d614137bfdc145a9999183d",
+      "size_bytes": 1858
+    },
+    {
+      "doc_id": "Creating a MyDMV account#1_0",
+      "file": "documents/markdown/dmv_024.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ba8c4728044368d44ab6054a9b12e34ac4840c3b716730f842a9a5080777cb89",
+      "size_bytes": 4118
+    },
+    {
+      "doc_id": "DIAL-IN search accounts#3_0",
+      "file": "documents/markdown/dmv_025.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6fed7ae3ae5c05e2524c9657668edb1ffda4371eb7c7e0ad508b967018e0c9f3",
+      "size_bytes": 5123
+    },
+    {
+      "doc_id": "Dependency Status | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_020.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "935a408c5176f533f2bbf2940afaa432443b8a7caf7fefe1b1017948ddcaa29e",
+      "size_bytes": 6547
+    },
+    {
+      "doc_id": "Diesel inspections emission testing#3_0",
+      "file": "documents/markdown/dmv_026.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "aa02c96ff6c6feb742a1625d6eb3a4badbbabeb001c6ddde435875f74aaf3ad1",
+      "size_bytes": 3280
+    },
+    {
+      "doc_id": "Direct Deposit | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_055.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "5fe1fbf408a1f23a8d7189d7a4e697aaee46f82f1c2e5e2a019a2d52a0602a63",
+      "size_bytes": 2183
+    },
+    {
+      "doc_id": "Direct Deposit | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_056.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "08d550691f54114da6e708540fa4280e77a57e9c76b9cb90f2f7759ca12a25c8",
+      "size_bytes": 2460
+    },
+    {
+      "doc_id": "Disability Benefits | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_057.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "cce4a15498f04b8634c56e08d58e747119d0871b48410bd53ef85a35f0c4a85b",
+      "size_bytes": 7226
+    },
+    {
+      "doc_id": "Disability Benefits | Social Security Administration#2_0",
+      "file": "documents/pdf_text/ssa_058.pdf",
+      "domain": "ssa",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "7540dcb0046be089b2828bafdbf5184ab01c696fd03d414655d06868b1a90cf4",
+      "size_bytes": 40349
+    },
+    {
+      "doc_id": "Disability Housing Grants For Veterans | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_025.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "e694b11be27d87d0b91c5ad36d7a6c623e4ab6087ffe57f284a14bcde5aeb4f5",
+      "size_bytes": 3480
+    },
+    {
+      "doc_id": "Driver license and learner permit fees and refunds#3_0",
+      "file": "documents/markdown/dmv_027.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "9818a7c41df76ca1ad5b9a0229d0cf9b7eb27b9a317dec12732ddf65f6834dab",
+      "size_bytes": 2628
+    },
+    {
+      "doc_id": "Driving in New York State#3_0",
+      "file": "documents/markdown/dmv_028.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "254f6bc0798acd6f5e712938cace328dc1419c7c10c4b241008daba32f72b5d8",
+      "size_bytes": 4616
+    },
+    {
+      "doc_id": "Educational And Career Counseling (VA Chapter 36) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_026.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "72332c019ec38fe615e9bdb54b5bc19f1068972bee318174f2528ec3abee11de",
+      "size_bytes": 1970
+    },
+    {
+      "doc_id": "Eligibility For VA Disability Benefits | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_027.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "75ec80da11261a21f2916ccb6826363e46a7413804d1bac6377d89026b458af3",
+      "size_bytes": 2923
+    },
+    {
+      "doc_id": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_028.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "5b957da5ee40dbda27929bafbdfbd9242485e78e32c8cc03c96861a573b601fd",
+      "size_bytes": 6123
+    },
+    {
+      "doc_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0",
+      "file": "documents/docx/va_029.docx",
+      "domain": "va",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "8996a1044e36f2ec03c85b091431c8402a402d981d373b94685c8b8d66b48fb8",
+      "size_bytes": 40322
+    },
+    {
+      "doc_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_030.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "590a71cc5caf1de5e141f9141f46504f95a23dcc3181a84d3d0cdd305d081b92",
+      "size_bytes": 3109
+    },
+    {
+      "doc_id": "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_031.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "577f4e3107b0005bf660d24c32047410ec312e8298792f34c50c15311faa6ba0",
+      "size_bytes": 3374
+    },
+    {
+      "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_023.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d22c0d3b644813a365d61919fe32f22accf668d878a4f57bae04c0797809b8d1",
+      "size_bytes": 3699
+    },
+    {
+      "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_021.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "e780b6ffb3104ab7f84567971af7c9904195643cd01461394c2f037ea257eb30",
+      "size_bytes": 6022
+    },
+    {
+      "doc_id": "Eligibility for Students with Criminal Convictions | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_022.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1bfddd1ee093f49e60ba25a5547f9e53cc6fda4855b59684adef0c8a39ee5549",
+      "size_bytes": 3128
+    },
+    {
+      "doc_id": "Employment Benefits For Dependent Family Members | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_032.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "91a7ee56ce6df79db428db8c192a97f60d589ce7a615d4bd1d3d18f56e2067a2",
+      "size_bytes": 108358
+    },
+    {
+      "doc_id": "Entrance Counseling | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_024.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ce33b179ff7d0f05c77e80c9d8b6fd6cc8c620d769be0543fd456980fc3bb982",
+      "size_bytes": 1815
+    },
+    {
+      "doc_id": "Escort driver certification#1_0",
+      "file": "documents/markdown/dmv_029.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b85f444de691e997945483614d63230994eefcbf96ff6ce35859583bd890b315",
+      "size_bytes": 5585
+    },
+    {
+      "doc_id": "Escrow accounts#3_0",
+      "file": "documents/txt/dmv_030.txt",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "202ed4d68fed87d3d1b9fe6bdb0fea58143ebc4dcf748f6e869ce37beb65753f",
+      "size_bytes": 5903
+    },
+    {
+      "doc_id": "Estimate Your Aid | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_025.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "248b621d1c374353441982ad8e13188871533021fc4632a00b330c415406093d",
+      "size_bytes": 3119
+    },
+    {
+      "doc_id": "Estimate registration fees and taxes#1_0",
+      "file": "documents/pdf_scanned/dmv_031.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_scanned",
+      "sha256": "3e1cba83b756c491c27c8646f4a37177dbc4cd276954c4173fc38a9ce88029cd",
+      "size_bytes": 203317
+    },
+    {
+      "doc_id": "Exchange a NY State driver license for a non-driver ID card#1_0",
+      "file": "documents/markdown/dmv_032.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "414143fa0271057288b11146f8b0df2d636e610724c014c3bee42ed16eceb4f7",
+      "size_bytes": 2678
+    },
+    {
+      "doc_id": "Exchange your out-of-state driver license#1_0",
+      "file": "documents/docx/dmv_033.docx",
+      "domain": "dmv",
+      "language": "en",
+      "format": "docx",
+      "sha256": "f0a28ab18f4cac4a629c9a26a7a0ee757632d331e7bdbccfbacfb2668e4411fc",
+      "size_bytes": 40172
+    },
+    {
+      "doc_id": "Exit Counseling | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_026.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "9f2e9e93367b14f61f611fc9af3ab14f9df6e88ead6c5718aa1826a8ebe1b05a",
+      "size_bytes": 1523
+    },
+    {
+      "doc_id": "Explore The Benefits You May Be Due#1_0",
+      "file": "documents/markdown/ssa_059.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "a19632b159a8400396c437c72b6ab4d91362cef1af2dfbec1bda9b67d9e7c088",
+      "size_bytes": 4963
+    },
+    {
+      "doc_id": "Explore The Benefits You May Be Due#2_0",
+      "file": "documents/pdf_text/ssa_060.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "036dd54cda75a8f903022d5084e7c360d6cde19022030971ecd37bb678a72837",
+      "size_bytes": 147437
+    },
+    {
+      "doc_id": "Exposure Through Project 112 Or Project SHAD | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_033.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "ec3b9dd4a47bc6d80cde40e82527e02d0c14cf745c6f61f39c001d6518b635a7",
+      "size_bytes": 33806
+    },
+    {
+      "doc_id": "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_034.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ecc35100b92ee37116055bfc8c742fb721e64ed430e465240e0277feba8afbfc",
+      "size_bytes": 3066
+    },
+    {
+      "doc_id": "Exposure To Specific Environmental Hazards | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_035.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "b02809da4af8b40b82716f50dfd2f0bd9c7b05a6cd565f7a36e7af588affd8db",
+      "size_bytes": 1295
+    },
+    {
+      "doc_id": "Extended Plan | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_027.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "c7812a29cab19d70d535279bde317b101fefe43915fb2e3047a31f43ea023235",
+      "size_bytes": 2174
+    },
+    {
+      "doc_id": "FAFSA® Application Deadlines | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_028.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "0f2d5846b5c10aea93ae00d6d5748822de6f4dd8ec1e9eea519eb8eb3466413c",
+      "size_bytes": 1345
+    },
+    {
+      "doc_id": "FAFSA® Completion by High School and Public School District | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_029.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6bc5047a921e490251f0d949f68407b3bba13f801db567223c7dd79439ae78ec",
+      "size_bytes": 5063
+    },
+    {
+      "doc_id": "FAFSA® Help | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_030.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "2fa817a45fb482e32171ac622b864b9eda79a2903529bc263ce89b6d7a1b6070",
+      "size_bytes": 2176
+    },
+    {
+      "doc_id": "FAQ for TNC Drivers#3_0",
+      "file": "documents/markdown/dmv_034.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b11626ff66b4fe2b2df13cf79ede3f88598b9caabfeaf226f83890c8a2c3a25f",
+      "size_bytes": 2065
+    },
+    {
+      "doc_id": "False Certification Discharge | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_031.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "f7ce480ad4767f9376266e852a8e9dd20563bbddee1cb131c04dc2824c5c3918",
+      "size_bytes": 3973
+    },
+    {
+      "doc_id": "Family And Caregiver Health Benefits | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_036.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "749c0f49ce0fb010192d022e657c3b89145c67f426086f2a079611ac4861c687",
+      "size_bytes": 34740
+    },
+    {
+      "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+      "file": "documents/txt/va_037.txt",
+      "domain": "va",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "02a9a5f2e5ab8f5b9ecf03bf0f64c86f50bdfc40c3ca082ce5673cf26eba034d",
+      "size_bytes": 6334
+    },
+    {
+      "doc_id": "Federal REAL ID#3_0",
+      "file": "documents/txt/dmv_035.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "014c1305c4f4c9fe17e317d7e8565d55c59833f31c728a3600a1e9a24b9f2164",
+      "size_bytes": 3877
+    },
+    {
+      "doc_id": "Federal Versus Private Loans | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_032.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "a2e1a5ebc92fb3dd726b8a9cb43c3814d460582471cf88350723b02147bb2011",
+      "size_bytes": 1898
+    },
+    {
+      "doc_id": "Feedback Center#1_0",
+      "file": "documents/markdown/studentaid_033.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4e904afc438459b77d09033ca3d314e2e039b6db1283d41bfb3e967770e72b0c",
+      "size_bytes": 1099
+    },
+    {
+      "doc_id": "Fiduciary claims | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_038.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "9341586834bf1386fbef114a5da6693549663dbf93474747fe6c7920958fdf21",
+      "size_bytes": 3107
+    },
+    {
+      "doc_id": "File a Freedom of Information Law (FOIL) request#1_0",
+      "file": "documents/markdown/dmv_036.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "e0ffd554be3aae9153f17f95d7d109943330ecf9f86779ad0521c3be8c2042ca",
+      "size_bytes": 5592
+    },
+    {
+      "doc_id": "File a Supplemental Claim with new evidence | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_039.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6e148415072caee777ae12adcebdc1684f0722efde9c38bc417539109d8beb82",
+      "size_bytes": 5318
+    },
+    {
+      "doc_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_034.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "36832e34258d6d66328548ea0eb6be13838df201f69881d0cfbe865886d1f8e3",
+      "size_bytes": 17622
+    },
+    {
+      "doc_id": "Financial Aid Eligibility | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_035.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6dc107ba5c902d4285287a31891d51e8ede8d7e2464a613d66625dcf850e6ed1",
+      "size_bytes": 4271
+    },
+    {
+      "doc_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_036.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "386c405edd79f6197f40b1ab85db555dab146d548702549787f6d4f892e84127",
+      "size_bytes": 3439
+    },
+    {
+      "doc_id": "Foreign Programs | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_040.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "77e182add417803c4dcb613d1035700ef28ef8c7dca90919292f6448b83a0629",
+      "size_bytes": 6119
+    },
+    {
+      "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+      "file": "documents/docx/va_041.docx",
+      "domain": "va",
+      "language": "zh",
+      "format": "docx",
+      "sha256": "cbb261b73ac25c97f49e5556a303bd6bddaa294a4f97db2530a24f7e5b863dca",
+      "size_bytes": 39967
+    },
+    {
+      "doc_id": "Fry Scholarships | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_042.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "8251487f2fbfcd407996f9810729259bf7d509fbd33d989fad896037c53e3f44",
+      "size_bytes": 34855
+    },
+    {
+      "doc_id": "Fully Developed Claim For A VA Pension | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_043.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "29429ff3c53aa12d842fa9a20762e4af8eeb0638c08b17015074fdb50bcb4127",
+      "size_bytes": 6172
+    },
+    {
+      "doc_id": "GI Bill Eligibility | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_047.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "ad325b894d08fcde124268d1b9b2cd57b578c8a6de7cc3b0bf3b131104de9e21",
+      "size_bytes": 4338
+    },
+    {
+      "doc_id": "GI Bill | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_048.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "f23a744d02d738fa603ee9c3e5106d947eaf821ab9048f8c4cce6648bbb64d33",
+      "size_bytes": 3407
+    },
+    {
+      "doc_id": "Gainful Employment Data | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_037.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "40cc8567fb8a0c240946963101e3321f671f894145807d1eace76c27949fa363",
+      "size_bytes": 3023
+    },
+    {
+      "doc_id": "Gainful Employment | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_038.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "23140ac740ad31f87bad1f7c89a25237ab9fe81591f46f7ef4fa543261577056",
+      "size_bytes": 5360
+    },
+    {
+      "doc_id": "General information for dealers and transporters#3_0",
+      "file": "documents/markdown/dmv_037.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "e37688644ba9b8bdfdb1f3595bd4e5b1f11d3f5c23964e1c808f879f03ff4adc",
+      "size_bytes": 2004
+    },
+    {
+      "doc_id": "Get A Veteran Health Identification Card (VHIC) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_044.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "a1c3c568a6980c0c7acb37f74155a17a32ef8b79a0a9fa4d470152367b8799f6",
+      "size_bytes": 3368
+    },
+    {
+      "doc_id": "Get Help Filing Your Claim Or Appeal | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_045.pdf",
+      "domain": "va",
+      "language": "mixed",
+      "format": "pdf_scanned",
+      "sha256": "56d39011d22168b2e1320709b1de2d3f71e3d8a3d11d3c9714874e55d798c830",
+      "size_bytes": 403054
+    },
+    {
+      "doc_id": "Get Temporary Relief | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_039.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c65b2b654417686c6e29544978afb528d7b84108c3cbb390cb6c107571708e67",
+      "size_bytes": 4179
+    },
+    {
+      "doc_id": "Get Your VA Medical Records Online | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_046.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b8c9b4aada337db3e8b9187e0b8ade1f03bfbe7b454d000d58e1ddaf042a2891",
+      "size_bytes": 6036
+    },
+    {
+      "doc_id": "Get a  hazardous materials (HazMat) endorsement#3_0",
+      "file": "documents/pdf_text/dmv_038.pdf",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "d043db52048b37626393e7c1ecef9802a163d81b8ce305f92d1a7f125fe88299",
+      "size_bytes": 150648
+    },
+    {
+      "doc_id": "Get a CDL#1_0",
+      "file": "documents/pdf_scanned/dmv_039.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "85902464c3657442e31e7c4e581408979322776ce8e1830a0e0005b807de2e50",
+      "size_bytes": 767386
+    },
+    {
+      "doc_id": "Get a copy of a TVB ticket#1_0",
+      "file": "documents/markdown/dmv_040.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b8f0f37d6abc8fbaabbaa9119ea94d28e47632ef36e3124247a0c97e95a77f93",
+      "size_bytes": 1851
+    },
+    {
+      "doc_id": "Get a driver license#1_0",
+      "file": "documents/txt/dmv_041.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "adf555d86f68cb5220238c2b0fef87200ac91dd53b6ede7a006033edbe3f8436",
+      "size_bytes": 6133
+    },
+    {
+      "doc_id": "Get a learner permit#1_0",
+      "file": "documents/txt/dmv_042.txt",
+      "domain": "dmv",
+      "language": "en",
+      "format": "txt",
+      "sha256": "3ee3e929cdcc2c421d23e5a4790611604cbd6af6563ac5f47c7908e93a8101af",
+      "size_bytes": 3347
+    },
+    {
+      "doc_id": "Get a license to drive a taxi or livery vehicle#3_0",
+      "file": "documents/markdown/dmv_043.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "00d45304d9613702ec2625cc888baadf262cded6119035fabc1431c5881ecd24",
+      "size_bytes": 2380
+    },
+    {
+      "doc_id": "Get a military skills test waiver#1_0",
+      "file": "documents/pdf_scanned/dmv_044.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "f7684857bca00c9c8658aff21ffb66d450aaea242aee1efc859c38d78ce81952",
+      "size_bytes": 215729
+    },
+    {
+      "doc_id": "Get a motorcycle license#1_0",
+      "file": "documents/markdown/dmv_045.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "29b405a9848e954131e26504fb4a04bd9661d220623e4dd2b7a980ab0c2556c8",
+      "size_bytes": 6068
+    },
+    {
+      "doc_id": "Get a vehicle registration or title record (abstract)#1_0",
+      "file": "documents/markdown/dmv_046.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "230c795a1f57355d3523db20db1384bff179d013a1d2199b7f088f403906550d",
+      "size_bytes": 2297
+    },
+    {
+      "doc_id": "Get an Accident Report#1_0",
+      "file": "documents/pdf_text/dmv_047.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "4735c9142756fb0f56db56cb01391badc9a7cf18f89a8d9b8b9f46fbba8c74f2",
+      "size_bytes": 36275
+    },
+    {
+      "doc_id": "Get email and/or text reminders#1_0",
+      "file": "documents/docx/dmv_048.docx",
+      "domain": "dmv",
+      "language": "en",
+      "format": "docx",
+      "sha256": "c54f997325752f44c521aaeea9c88a80be49e585422a5e0d68703eb057154e74",
+      "size_bytes": 38731
+    },
+    {
+      "doc_id": "Get my own CDL driving record (abstract)#1_0",
+      "file": "documents/docx/dmv_049.docx",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "6983ba59f3c178af87853186faf91514919484ed5577485701bf70d6af6fdae3",
+      "size_bytes": 38779
+    },
+    {
+      "doc_id": "Getting Out of Default | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_040.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "af3bdc2a27444f33b1073e11e0864db6dc2d022a11b74ad780a47ef3817b79bc",
+      "size_bytes": 10723
+    },
+    {
+      "doc_id": "Graduated Plan | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_041.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "fab568683cf29fe02e09988af0950b162b654340d9e411576f6cc2ed800e73fc",
+      "size_bytes": 3513
+    },
+    {
+      "doc_id": "Grants | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_042.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "7abc1809e10e155c84a25471edde6ece04ad9dfb394a1690b878e53e565329eb",
+      "size_bytes": 3802
+    },
+    {
+      "doc_id": "Health Needs And Conditions | Veterans Affairs#1_0",
+      "file": "documents/txt/va_049.txt",
+      "domain": "va",
+      "language": "en",
+      "format": "txt",
+      "sha256": "9646d685cd7d44b6a9caa735f11b672230ecd5bf1ef038456fca56164c4da31a",
+      "size_bytes": 3158
+    },
+    {
+      "doc_id": "Help finding enough proof of ID#3_0",
+      "file": "documents/markdown/dmv_050.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "2d5f383d5f707e2b606d6f43141c2535fa7cb913cf336f0af721a63467d03aff",
+      "size_bytes": 2220
+    },
+    {
+      "doc_id": "How Aid Is Calculated | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_043.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "7827f7639a9f2811dc59da0a03b0c58c4349b7e0ead429fec36e8bd47e3b879e",
+      "size_bytes": 5125
+    },
+    {
+      "doc_id": "How Financial Aid Works | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_044.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "84de4bfbca2d4d0a26ee0f75d633eec9b3fe3457f014e380a2077d457d18f963",
+      "size_bytes": 2118
+    },
+    {
+      "doc_id": "How Financial Aid Works | Federal Student Aid#2_0",
+      "file": "documents/markdown/studentaid_045.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "d6a66bf843297f4458a52615f2c809be9a2efa0ba8321ec68bfbfe1b8d9bf820",
+      "size_bytes": 1389
+    },
+    {
+      "doc_id": "How To Apply For A VA Home Loan COE | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_050.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "3872b725be755440d84911bd37f8bc0b6f7801c4f4b6416a820988204aa908b6",
+      "size_bytes": 2872
+    },
+    {
+      "doc_id": "How To Apply For A Veteran ID Card | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_051.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "991bd6987724c982e7e42809fd433efa83fd8a50cf80b9cb491d8cd345abe4d8",
+      "size_bytes": 4154
+    },
+    {
+      "doc_id": "How To Apply For Social Security Disability Benefits#1_0",
+      "file": "documents/markdown/ssa_061.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c57a65260aa4cf71d759b357f2cc84293d096b060016f97e724693220c458a62",
+      "size_bytes": 2121
+    },
+    {
+      "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+      "file": "documents/markdown/ssa_062.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "25e9acc942711743221c2b3c920be6177fd5a45fafc81e5e84d96957400526b6",
+      "size_bytes": 2067
+    },
+    {
+      "doc_id": "How To Apply For The GI Bill | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_052.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "d8d7dbad6ca8a9b674dc05b2b1352b60a18fd7608180a78a145168bf1afb1fc7",
+      "size_bytes": 2208
+    },
+    {
+      "doc_id": "How To Apply For VA Health Care | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_053.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "7c96dc7018a4d43d1a8a11105305f5cf3456fa2c100e7560ad7642a68f59e951",
+      "size_bytes": 36576
+    },
+    {
+      "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_054.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "f5edc043acb4881d03abcfbf7da37af955f4ea48dd60d02580938818f922e3ce",
+      "size_bytes": 3499
+    },
+    {
+      "doc_id": "How insurance premium reduction works#3_0",
+      "file": "documents/markdown/dmv_051.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "e7f56bef4f872347f7897729e6285306201177742e6e8cb6782a212e34f6a866",
+      "size_bytes": 1640
+    },
+    {
+      "doc_id": "How to Correct or Update Your FAFSA® Application | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_046.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "44c97145f66becd7e98b01326fc5a2a10a7e2c393f65dfd6be258cd5ac9631b5",
+      "size_bytes": 5179
+    },
+    {
+      "doc_id": "How to Renew Your FAFSA® Application | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_047.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "37a9a114c4e6be1f698854008fe7a8189b4673b8a232b9c3e373864e7085f6c0",
+      "size_bytes": 1300
+    },
+    {
+      "doc_id": "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_048.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6ffcbd5d0003eaf8fc9767faecea9fafe908565e64b17cf6520e52e6a056a552",
+      "size_bytes": 6642
+    },
+    {
+      "doc_id": "How to change information on DMV documents#3_0",
+      "file": "documents/docx/dmv_052.docx",
+      "domain": "dmv",
+      "language": "en",
+      "format": "docx",
+      "sha256": "be747ea483418b36def2f40622b595cca29b50bd620019b9272a7733430a6c65",
+      "size_bytes": 39985
+    },
+    {
+      "doc_id": "How to change your address#1_0",
+      "file": "documents/docx/dmv_053.docx",
+      "domain": "dmv",
+      "language": "en",
+      "format": "docx",
+      "sha256": "e44fedce83d6fd1e8b2b972796dd42f071977b7fc7de7a8dee7d0d8480bc1213",
+      "size_bytes": 38830
+    },
+    {
+      "doc_id": "How to check a title or lien status#1_0",
+      "file": "documents/markdown/dmv_054.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6a3176226ee83702bf6b925de878efed44e23ac12bb5ec43b94235b634f5c6f4",
+      "size_bytes": 3176
+    },
+    {
+      "doc_id": "How to get my own driving record (abstract)#1_0",
+      "file": "documents/markdown/dmv_055.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "f3049c4f1e38a418edba38036bd74e125dd2cc2c5bdb0cca2b5e753427854a7e",
+      "size_bytes": 3921
+    },
+    {
+      "doc_id": "How to renew a license#1_0",
+      "file": "documents/markdown/dmv_056.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ea8fb7a6a7ea3dc1317f07f3bf8ad66518fb1cfc3820483cb7edac541594d9f7",
+      "size_bytes": 10408
+    },
+    {
+      "doc_id": "How to renew a registration#1_0",
+      "file": "documents/pdf_text/dmv_057.pdf",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "9ed5688bf0df165b575b4f70ac26adbfff9b59d39bf87f4e30d9d55cf6b59d3e",
+      "size_bytes": 128827
+    },
+    {
+      "doc_id": "How to replace a registration#1_0",
+      "file": "documents/markdown/dmv_058.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "dde048428c9525f2ab75a1ef931495ed0ac2090d3479dbf5f43b5e5767193754",
+      "size_bytes": 3610
+    },
+    {
+      "doc_id": "How to transfer a registration to another vehicle#3_0",
+      "file": "documents/markdown/dmv_059.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "78e20efb8d78212357acfd5337ae1fc4157362b64468569fba1d0072746dc69b",
+      "size_bytes": 3191
+    },
+    {
+      "doc_id": "IT Standards Library | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_051.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "8d1f4c5d146841c6c0e5cacdc9829b000dbc2f8ed7d541db79a7df5f3efc3b45",
+      "size_bytes": 6654
+    },
+    {
+      "doc_id": "If a family member has died#3_0",
+      "file": "documents/markdown/dmv_060.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "d5132bc3d5391ad71635df468c5c88772e6be71d61b11e5eadcc0b054d874c20",
+      "size_bytes": 1456
+    },
+    {
+      "doc_id": "In-transit vehicle permits (temporary registrations)#3_0",
+      "file": "documents/pdf_text/dmv_061.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "bb36f8596df9bb5b6926f2dbacd6fcf61cb7868e58a14dc99a3958f25d14be83",
+      "size_bytes": 124385
+    },
+    {
+      "doc_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_049.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "006bb8b84be890b8a270c2bfdb6a1ed83da87584fc5dd6d264d50bb6fb56db08",
+      "size_bytes": 18801
+    },
+    {
+      "doc_id": "Income-Sensitive Plan | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_050.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "35959147657a73d9d5867a597dde8e1f1e548f6fceff1e208bd16851e04bf382",
+      "size_bytes": 1241
+    },
+    {
+      "doc_id": "Increased Disability Rating For Time In A Hospital | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_055.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "4846a067470667c940512da9de3b1fc4f7af316568a9646f787401057aa6d612",
+      "size_bytes": 1389
+    },
+    {
+      "doc_id": "Information about Empire Gold plates#1_0",
+      "file": "documents/markdown/dmv_062.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "b5035aa52945c4171b1d1c4fe3d7d020eecbb4a5016cfbc0dd2863a1142f044c",
+      "size_bytes": 3718
+    },
+    {
+      "doc_id": "Information about transaction entries#3_0",
+      "file": "documents/markdown/dmv_063.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "dd317c922de2a57b5bc76a9be69d772461335e071ceff260d5013c1a26088fc1",
+      "size_bytes": 6907
+    },
+    {
+      "doc_id": "Information and Instructions About Your Certificate of Title#3_0",
+      "file": "documents/markdown/dmv_064.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "5df65e9b4585c94081b806f0e39708ca3d62052b70704ae8f6b6f47ddf64e32d",
+      "size_bytes": 18975
+    },
+    {
+      "doc_id": "Insurance claims | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_056.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "371a4c851c64c9d6ed9fdaf3115463ebc5dc09150b36f9c79e34ee2d5d46b562",
+      "size_bytes": 3769
+    },
+    {
+      "doc_id": "Insurance lapses#3_0",
+      "file": "documents/markdown/dmv_065.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "3cdd1b1036e8af414614c7867ca7b840a83a06297bfb04451312aa4c39d63b40",
+      "size_bytes": 5209
+    },
+    {
+      "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_057.pdf",
+      "domain": "va",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "b6fc4b2dcfb0936d874fabdb69f1a83ed994754adc1f82522acb6e895e1462b2",
+      "size_bytes": 130577
+    },
+    {
+      "doc_id": "Know Your Rights in Auto Repair#3_0",
+      "file": "documents/markdown/dmv_066.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "ce7d7fcb42d51e0c3be2d7c847ebb5670b7f378e9560c24a2db3861bc73d95b6",
+      "size_bytes": 6713
+    },
+    {
+      "doc_id": "Leandra's Law & ignition interlock devices#3_0",
+      "file": "documents/docx/dmv_067.docx",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "docx",
+      "sha256": "d71e931dfaba003aebebf889ff22c94f90a344858b339777d15c17b534ebf2d7",
+      "size_bytes": 39006
+    },
+    {
+      "doc_id": "Learn About Retirement Benefits | SSA#1_0",
+      "file": "documents/markdown/ssa_063.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "3e584270a5e07186a8c2439dbe6273575008b10dbef010951557366fbf1ad032",
+      "size_bytes": 8687
+    },
+    {
+      "doc_id": "Learn about personalized plates#3_0",
+      "file": "documents/pdf_scanned/dmv_068.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "6e2d87a63dbe532f4a6a01750b7fe51eb05af58b1692a4c09a813398080985ae",
+      "size_bytes": 335191
+    },
+    {
+      "doc_id": "Learn about picture and professional plates#3_0",
+      "file": "documents/docx/dmv_069.docx",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "0986fcc0dd7275291490d446f943df5f4b7789703ca3640812f60737b656693b",
+      "size_bytes": 39227
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#10_0",
+      "file": "documents/pdf_text/ssa_064.pdf",
+      "domain": "ssa",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "2ea92d62927c3b61a768760ee7f32ae500a37cb3de248e29eeecd9674d80c965",
+      "size_bytes": 34582
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#10_0_1",
+      "file": "documents/pdf_text/ssa_065.pdf",
+      "domain": "ssa",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "ae1e3215a79a57a1cb92fa05b687c6462cf6c65bdc9a4c7d432d9f1a218f03d9",
+      "size_bytes": 34582
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#11_0",
+      "file": "documents/markdown/ssa_066.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "36e1a9300c2467bf0bb02220e513514dbe52b331fe9b587d60acb439bf866b6d",
+      "size_bytes": 4505
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#11_0_1",
+      "file": "documents/markdown/ssa_067.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "cb38cffe6fc5a4083fd9744d53b87a513965a4b2827af341d240abc32e2c3e53",
+      "size_bytes": 3885
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#12_0",
+      "file": "documents/markdown/ssa_068.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "3aa89912d10da758c07d236a8b69d1059e4b674ac5329cbf48ba4ddf5c178e2b",
+      "size_bytes": 3401
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#12_0_1_2",
+      "file": "documents/markdown/ssa_069.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "3aa89912d10da758c07d236a8b69d1059e4b674ac5329cbf48ba4ddf5c178e2b",
+      "size_bytes": 3401
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#13_0",
+      "file": "documents/pdf_text/ssa_070.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "4847161332a1103c8c2a35cd84bbad33e4c518281c15134830b2a253a2985b98",
+      "size_bytes": 162653
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#13_0_1",
+      "file": "documents/pdf_text/ssa_071.pdf",
+      "domain": "ssa",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "4d27a79053197d56849411e5a2c68c93f4464c39e07b90223dce5d7f265ee290",
+      "size_bytes": 39437
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#14_0",
+      "file": "documents/markdown/ssa_072.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "dcb016e353108f014361e592ad36c11f65147ec20d417c7294d78a07f51a6744",
+      "size_bytes": 4571
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#15_0",
+      "file": "documents/markdown/ssa_073.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "efc6f7d988c05bc23e2fb21d0650a5cc46c3e1db527a99fd8b31aee6af854cf3",
+      "size_bytes": 2379
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#16_0",
+      "file": "documents/pdf_text/ssa_074.pdf",
+      "domain": "ssa",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "3754a00efefa0092ab2f935acebcd8f4f7ad8915a1b702ce98fe0a699e10e273",
+      "size_bytes": 37140
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#17_0",
+      "file": "documents/markdown/ssa_075.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "55b1ab3f2092b354352f8947a8941968a89827b7acc1a12726b7476881aa6f1b",
+      "size_bytes": 2343
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#18_0",
+      "file": "documents/markdown/ssa_076.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4c7d2dffe271c6171a62d73050eb9ec54bbced7b874e3b7085fae68f9c44b131",
+      "size_bytes": 2981
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#19_0",
+      "file": "documents/markdown/ssa_077.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "bf22278044c1035e14a26d23b2eed74ce5a6fa422ced070042ef632e7f17e07a",
+      "size_bytes": 6576
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#20_0",
+      "file": "documents/markdown/ssa_078.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "91e10d4c60238abfd3141cdd85dd8833f91c1e698104e6018d5658b7c983cf94",
+      "size_bytes": 3520
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_079.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "9be29cb31e91171a5801a8f9a87bbc69b56d19f7c349e24f8ab58ac015a4ff51",
+      "size_bytes": 3399
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#2_0_1",
+      "file": "documents/markdown/ssa_080.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "95d2bc863793049113d4fc70ad88ef0e176e68cdeb91d6a85f8597c13b064580",
+      "size_bytes": 3031
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0",
+      "file": "documents/markdown/ssa_081.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "76f7e802989afb24dfc0e12448ffef014fc3b360c199524f73edba40937dd05a",
+      "size_bytes": 6502
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0",
+      "file": "documents/markdown/ssa_082.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b65bda18e53f96de39c823febcc9f6070397f4cf9e7f92b373df36e380e8c534",
+      "size_bytes": 3279
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1",
+      "file": "documents/markdown/ssa_083.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b65bda18e53f96de39c823febcc9f6070397f4cf9e7f92b373df36e380e8c534",
+      "size_bytes": 3279
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1_2",
+      "file": "documents/pdf_text/ssa_084.pdf",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "e9e690d41a45e345e5a221ed649e1ac8015e745227a580b7d766560905f5d2ab",
+      "size_bytes": 111870
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#5_0",
+      "file": "documents/markdown/ssa_085.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "05eae7392c62cee538ad78cc2cd6eeff3052113d84cd1856ba343d68e11c2b72",
+      "size_bytes": 3703
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0",
+      "file": "documents/markdown/ssa_086.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4fc2bdbef4e338fc3330d648e2190989f181231e46c819857348ac81ab275870",
+      "size_bytes": 6491
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0_1_2",
+      "file": "documents/markdown/ssa_087.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "4fc2bdbef4e338fc3330d648e2190989f181231e46c819857348ac81ab275870",
+      "size_bytes": 6491
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0_1_2_3",
+      "file": "documents/markdown/ssa_088.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "07034abb15ea35644128756888ff4fc00996f33c4097e057f6e125838dc92525",
+      "size_bytes": 5835
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0_1_2_3_4",
+      "file": "documents/markdown/ssa_089.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "07034abb15ea35644128756888ff4fc00996f33c4097e057f6e125838dc92525",
+      "size_bytes": 5835
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#7_0",
+      "file": "documents/markdown/ssa_090.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "49f0401508611c8c790ef6b04756b9c61a6787ee3eadf0a0fe08d47581f6ba4f",
+      "size_bytes": 3707
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#7_0_1_2",
+      "file": "documents/markdown/ssa_091.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "4df9214b9f1048d7754d7bab363997e997bd5c62957324c9a0ea2067c0c494ef",
+      "size_bytes": 3691
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0",
+      "file": "documents/markdown/ssa_092.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "2880d32ae33c40489d970ef40c141773ca7b558f08ead361bf5eaea727f3d76c",
+      "size_bytes": 2504
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2",
+      "file": "documents/markdown/ssa_093.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d5cefb93a67dcba91d80538d821434a4b3883eeabf8a11198a7d550baf106fd1",
+      "size_bytes": 2914
+    },
+    {
+      "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#9_0",
+      "file": "documents/pdf_scanned/ssa_094.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_scanned",
+      "sha256": "263dc1a2f6d6c5ed5c77c2555b469ec951bca3244f9b88a23af87937be8078c4",
+      "size_bytes": 548771
+    },
+    {
+      "doc_id": "Learner permit restrictions#3_0",
+      "file": "documents/markdown/dmv_070.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "17fb44ba7ae2aef17af2c87367f645d3e04d5ad98e08941faa9e80827aca7f79",
+      "size_bytes": 1536
+    },
+    {
+      "doc_id": "Let the Buyer be Aware#3_0",
+      "file": "documents/markdown/dmv_071.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "468fb5d2c443e5cd9763986f7868025562ef3818bfb5d93e056672b28e2c2b1d",
+      "size_bytes": 13760
+    },
+    {
+      "doc_id": "Lifetime driving records#3_0",
+      "file": "documents/markdown/dmv_072.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "12bd9744ed949c7d980238315dffc2c56c68e979acb3fd0117946776b04f23ca",
+      "size_bytes": 5978
+    },
+    {
+      "doc_id": "Link to Us | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_052.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "a059e51455d98406b9b4313a729896216d699f9bcc26617a5056c4efeae88453",
+      "size_bytes": 4007
+    },
+    {
+      "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_053.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "3c81ac6c026836c2d0c63ca37a3658759d5b66e59348731b52a9861a3008d370",
+      "size_bytes": 12083
+    },
+    {
+      "doc_id": "Loan Repayment Checklist | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_054.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "5e71f20b219030f9e363baeb31e888037f4177f972ee591757a0b1a43991de88",
+      "size_bytes": 7849
+    },
+    {
+      "doc_id": "Loan Servicers | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_055.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "454aa63fb8f292b63feab7bb6df40ea3a4f88eece38097e8017e8875f2a80b3a",
+      "size_bytes": 5383
+    },
+    {
+      "doc_id": "Loan Simulator | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_056.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "0ed126f8b506ebd4c70c28468e0171833683be99703216f74630274f772ae7c4",
+      "size_bytes": 2262
+    },
+    {
+      "doc_id": "Loans | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_057.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "39c100e25f861dfecf6bc5c00ccc4a892f4703a5c37e05a54967a090a3ab0484",
+      "size_bytes": 8826
+    },
+    {
+      "doc_id": "Lost, stolen, or destroyed plates#3_0",
+      "file": "documents/pdf_scanned/dmv_073.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_scanned",
+      "sha256": "51994cda74ab10f5c499a763457c67f2efc3901571eaf3257b2eff6c3518fb61",
+      "size_bytes": 326691
+    },
+    {
+      "doc_id": "Lower or Suspend Student Loan Payments | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_058.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "f8a953a729466ff944bc146e60a3fb3c4a73a35a30fa59ff22246298568c7cda",
+      "size_bytes": 3279
+    },
+    {
+      "doc_id": "MPN for Graduate Students | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_060.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "f5ac5395b4349fa575719867d99e5320d740fe16df544f7d2b92140c25cd0024",
+      "size_bytes": 1962
+    },
+    {
+      "doc_id": "Make a Student Loan Payment | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_059.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "2420078e1b6a0566fba5e5072eeda3293983de5d505ed2c694e71c0de1194031",
+      "size_bytes": 1118
+    },
+    {
+      "doc_id": "Manage Your Retirement Benefits | SSA#1_0",
+      "file": "documents/markdown/ssa_095.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "17e9f8a97db1a108b0ffca91a8ed6f415a6da5fb9d83d8459ef563cd5875a7aa",
+      "size_bytes": 5196
+    },
+    {
+      "doc_id": "Medical Certification FAQ's#3_0",
+      "file": "documents/markdown/dmv_074.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "29407075c6708430f21a7572488134467f912fdb51c1b2fd2242f2796bb85bbb",
+      "size_bytes": 7414
+    },
+    {
+      "doc_id": "Medical Certification Requirements#3_0",
+      "file": "documents/docx/dmv_075.docx",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "docx",
+      "sha256": "5f312529d8e952a273f5e9efd0eabe26924ab888a524075632fec137fc17cf50",
+      "size_bytes": 39886
+    },
+    {
+      "doc_id": "Medicare Benefits | Social Security Administration#1_0",
+      "file": "documents/pdf_text/ssa_096.pdf",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "81d6278066d089884bf873bb8129e82f85e825a74922215e7430db424fc91916",
+      "size_bytes": 161216
+    },
+    {
+      "doc_id": "Medicare Benefits | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_097.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d099b385bc32f363a79853137ddcf9f60aab373ca40b303a7d130a8b0265a554",
+      "size_bytes": 7399
+    },
+    {
+      "doc_id": "Military Sexual Trauma (MST) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_058.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b2c2b6e6f75cb58963ca6e860874aabe852a48e13e14dbf91e16ea5f34520d93",
+      "size_bytes": 6016
+    },
+    {
+      "doc_id": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_059.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "5f576bedff34f7508a9fe40f221133d57ccb78e66498f81a577c1bf7c968ef01",
+      "size_bytes": 6450
+    },
+    {
+      "doc_id": "Moving out of New York State#3_0",
+      "file": "documents/markdown/dmv_076.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "78bfec029fb932c5ff453499afdd295e4d3c5f81f965231ea00e7608dc2a8bf4",
+      "size_bytes": 1750
+    },
+    {
+      "doc_id": "Moving to NY#3_0",
+      "file": "documents/pdf_text/dmv_077.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "0393f359933511701cab85c1767897d40b60212490d64e400b312dfa139fe028",
+      "size_bytes": 36277
+    },
+    {
+      "doc_id": "Multiple party or contested claims | Veterans Affairs#1_0",
+      "file": "documents/txt/va_060.txt",
+      "domain": "va",
+      "language": "en",
+      "format": "txt",
+      "sha256": "1b66c8643b3f94877fb3d472235afbc63e454c86595e7ff5d236ec3353577851",
+      "size_bytes": 4316
+    },
+    {
+      "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_061.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "36bb8dad1bf41a712b92970fd52af54e8da95ac22d7843366087c5106c727253",
+      "size_bytes": 138948
+    },
+    {
+      "doc_id": "MyDMV Account Terms of Service#1_0",
+      "file": "documents/markdown/dmv_078.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "55e6715bea63a450c91ee73f17d2cd5b11f267fd23eb8f553962152b69aabd9d",
+      "size_bytes": 3438
+    },
+    {
+      "doc_id": "NY State Adventure License FAQs#3_0",
+      "file": "documents/txt/dmv_081.txt",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "e57121bfc339ee942685a20d1dfaba44d43670dd21ba011d88bece5b9234ab95",
+      "size_bytes": 4422
+    },
+    {
+      "doc_id": "NYS Adventure License and Adventure Custom Plates#3_0",
+      "file": "documents/markdown/dmv_082.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "76886fe5d749737f9cd962782e9eaa522dafa39bc2609b5649a8a7f2c9ee92db",
+      "size_bytes": 4003
+    },
+    {
+      "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_062.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "1876d4a3bb6ff73b7a78248b0d947a256ab9606d022f6e2fcbeb6c064f3f7931",
+      "size_bytes": 1949
+    },
+    {
+      "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+      "file": "documents/txt/dmv_079.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "4c028e61034ce20e89432931d4da578a86223ed28cf1766912f83e4e79fb0eb7",
+      "size_bytes": 5808
+    },
+    {
+      "doc_id": "New York State Insurance Requirements#3_0",
+      "file": "documents/pdf_scanned/dmv_080.pdf",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "pdf_scanned",
+      "sha256": "054a3af89d8eba8d431cd1de3508ee5ea604ad8dff4bc2fe048438e0e6575401",
+      "size_bytes": 395065
+    },
+    {
+      "doc_id": "Open a dealership#3_0",
+      "file": "documents/markdown/dmv_083.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "cd8c05b6f5f1a66b16a1049d07379306386811b4e59fc4a1d0fe44559de93a8f",
+      "size_bytes": 6354
+    },
+    {
+      "doc_id": "Open a driving school#3_0",
+      "file": "documents/markdown/dmv_084.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "0e5c7f00403d200f6d443f38e9fe1b927e11f5328e94869027938774e74e3b08",
+      "size_bytes": 5394
+    },
+    {
+      "doc_id": "Open a repair or body shop#3_0",
+      "file": "documents/pdf_text/dmv_085.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "591c214bf2fe0b819201a896f5d6ef4feb72998c4bb5850dc79e26eeba89eaae",
+      "size_bytes": 115715
+    },
+    {
+      "doc_id": "Open an inspection station#1_0",
+      "file": "documents/markdown/dmv_086.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "aa0ad8ac4ae2a9646ca1867f129f6b25b7cdd09facba8949bdaf05ec291e3273",
+      "size_bytes": 7027
+    },
+    {
+      "doc_id": "Order personalized plates#1_0",
+      "file": "documents/markdown/dmv_087.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "1aa3e0a8d1264064fdff6b1ed1e7eaba43cf44e95cb16f3890f54e903c5dcd5c",
+      "size_bytes": 3981
+    },
+    {
+      "doc_id": "Order picture and professional plates#1_0",
+      "file": "documents/markdown/dmv_088.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "34e10d19e5a09fdf3c17bf4256ad8cea6dbcbf29a60910b0e5ebc6b3d946f321",
+      "size_bytes": 4959
+    },
+    {
+      "doc_id": "PLUS Loan Application for Graduate Students | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_064.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "5ec188845d6e19dfd28773dc694e228fdb27babd5b5f0b4dca46fc84d6fc404f",
+      "size_bytes": 1564
+    },
+    {
+      "doc_id": "PLUS Loan Application | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_065.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "766a0e258a99194bf75ef5d2803ad8163b70b29711e6aae8a412e4dbd2fbaa28",
+      "size_bytes": 3470
+    },
+    {
+      "doc_id": "PTSD Treatment | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_066.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "655191d25b3d27eb1897a556df1771d844c40cf65131ae8674d932fd475f4e59",
+      "size_bytes": 5013
+    },
+    {
+      "doc_id": "Parent PLUS Loan Application | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_061.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "8d1f38915a07df8f9efb448658182ca4fb83e83c52f495277abfeeaf449794d2",
+      "size_bytes": 2221
+    },
+    {
+      "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_062.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "08c3829cc0f5ef9e95b2a1e5d8b8bf6fd277c60cbbb03a801e0149477452bc2d",
+      "size_bytes": 9253
+    },
+    {
+      "doc_id": "Parking for People with Disabilities - The Law#3_0",
+      "file": "documents/markdown/dmv_089.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "3227316630c965aaf5cbe93ad3090238da953e9db6c8528256f1f46cd7a7f896",
+      "size_bytes": 14367
+    },
+    {
+      "doc_id": "Passenger vehicle registration fees, use taxes and supplemental fees#3_0",
+      "file": "documents/txt/dmv_090.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "d16ff9eab6ecbc50261ad21647a33aa0e5f821d0fc371a5712c00eb6e5b464c2",
+      "size_bytes": 1904
+    },
+    {
+      "doc_id": "Pay driver civil penalty#1_0",
+      "file": "documents/txt/dmv_091.txt",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "0ee766acc41537cec1581164419ff819bcce58404f0ed74f9b7cd5c83e5a4554",
+      "size_bytes": 5729
+    },
+    {
+      "doc_id": "Pay driver responsibility assessment#1_0",
+      "file": "documents/markdown/dmv_092.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1b1b3b46ce935985d3427719f7987c68c31cc4733d21506b9e730e17d29bab66",
+      "size_bytes": 7819
+    },
+    {
+      "doc_id": "Pay insurance lapse civil penalty#1_0",
+      "file": "documents/markdown/dmv_093.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "d0dd86212683a3a07d465d9949e89fa2c6340d527b344f0a4570981b65fe68d8",
+      "size_bytes": 2664
+    },
+    {
+      "doc_id": "Pay suspension termination fee#1_0",
+      "file": "documents/markdown/dmv_094.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "e4abf385b57c44aef5af3653e2ffc5824e25aa2d18430b4963323756b334cb1c",
+      "size_bytes": 4373
+    },
+    {
+      "doc_id": "Perkins Loan Cancellation and Discharge | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_063.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "3ffcd0720d87c9d0cf5e56f5fd7c991ec69c4fbe5b6bcbd86affb66c77927ae1",
+      "size_bytes": 10636
+    },
+    {
+      "doc_id": "Plead to or pay TVB tickets#1_0",
+      "file": "documents/markdown/dmv_095.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "265297810815f2078bc23f6199e6d271c97bd5eebf62ee92f35008133aa79243",
+      "size_bytes": 5717
+    },
+    {
+      "doc_id": "Point & Insurance Reduction Program#3_0",
+      "file": "documents/markdown/dmv_096.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "321b958b806101cad7a99db64fd46129a2d451137922de82c36d7e1d40429ff7",
+      "size_bytes": 8158
+    },
+    {
+      "doc_id": "Post-9/11 GI Bill | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_063.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "288204516e8e4b3f512a3e36c47780c5f651327f67a8be5fdc74f91704675836",
+      "size_bytes": 7141
+    },
+    {
+      "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+      "file": "documents/txt/va_064.txt",
+      "domain": "va",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "9841d8f502df9f0fe1d6f6812cadbaeb41932c660e20ee88401cb74b4c53c69b",
+      "size_bytes": 5988
+    },
+    {
+      "doc_id": "Prepare for your road test#3_0",
+      "file": "documents/markdown/dmv_097.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "24d169c15f3df91c3df04d78c16aa1cea0beffd01436faa14d10b48595afc182",
+      "size_bytes": 4845
+    },
+    {
+      "doc_id": "Preparing for College | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_066.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "353c15873a2cc7b84761a6c9b19ed8c776ecdeed7711a2310f8731e81569e9dc",
+      "size_bytes": 2885
+    },
+    {
+      "doc_id": "Print Out Your VA Welcome Kit | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_065.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "9f9655c346883c72c2bdbf007b3ed9347a3cd1efe8030c137093e5f675bc9769",
+      "size_bytes": 2609
+    },
+    {
+      "doc_id": "Program Reviews | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_067.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "dbe425caa6ead25c8f912bb93e197c78dee3b63bfaae43de87a3e154fb6a7934",
+      "size_bytes": 1630
+    },
+    {
+      "doc_id": "Proof of ownership is not available#3_0",
+      "file": "documents/pdf_text/dmv_098.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "4549f8dc90be62206b5d01edf55a467354ea274598c74c71578a42ba7c7cb458",
+      "size_bytes": 35984
+    },
+    {
+      "doc_id": "Provide proof of insurance#1_0",
+      "file": "documents/pdf_text/dmv_099.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "d09913ee57703406c528d5715a865bc1bc1ef98e6f02299da8d5d5e9514a1d17",
+      "size_bytes": 104551
+    },
+    {
+      "doc_id": "Public Service Loan Forgiveness | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_068.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "fe2c1c0a2830fc30cb1083ab0ef48870e0060d354d5bfed42a19b85796987fe2",
+      "size_bytes": 12337
+    },
+    {
+      "doc_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_069.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "f195d9ea5b2f154534c5458cf93ceac9b860ca7c14b6d5e55a3b871ee481d230",
+      "size_bytes": 8828
+    },
+    {
+      "doc_id": "Receiving Financial Aid | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_070.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "49d732f0d3d2fc54fc61c325ba72180e7cd4989c1868f778bd8b5f6828d083b2",
+      "size_bytes": 7553
+    },
+    {
+      "doc_id": "Reconstruct Military Records Destroyed In NPRC Fire | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_067.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "5ce110ba53a4e1fda930a486b577e007493db0cc074465a33f02c0e5751912b4",
+      "size_bytes": 3824
+    },
+    {
+      "doc_id": "Refunds and transfer credits for surrendered plates#3_0",
+      "file": "documents/txt/dmv_100.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "e780dff5e07cbe628b37db6120437aec54350ac04a411814d10abf5531120437",
+      "size_bytes": 4033
+    },
+    {
+      "doc_id": "Regaining Eligibility | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_071.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "df84615640254d5a1bb1923e258be4755669ecdc0b4aabddfae5a70b9609bb9a",
+      "size_bytes": 4167
+    },
+    {
+      "doc_id": "Register a leased vehicle#1_0",
+      "file": "documents/pdf_scanned/dmv_101.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "6316b8acdec47125d0cab81a33df5af620f67fd68a8fdf9b758fd89dde45dacf",
+      "size_bytes": 534930
+    },
+    {
+      "doc_id": "Register a moped#1_0",
+      "file": "documents/pdf_scanned/dmv_102.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "12a6892e6127c8cae6988164a6f5ffd707afbdb6d61f6dca6db1b065095427ad",
+      "size_bytes": 386756
+    },
+    {
+      "doc_id": "Register a pick-up truck as 'passenger' class vehicles#1_0",
+      "file": "documents/docx/dmv_103.docx",
+      "domain": "dmv",
+      "language": "en",
+      "format": "docx",
+      "sha256": "ad0d10b3c81f7e9b2b17653b34e539baa9719c548cd84f40743fce14ba4e09ed",
+      "size_bytes": 39534
+    },
+    {
+      "doc_id": "Register a snowmobile#1_0",
+      "file": "documents/docx/dmv_104.docx",
+      "domain": "dmv",
+      "language": "en",
+      "format": "docx",
+      "sha256": "eac8fc884ed0339c46070840492e6b1d48d0c95885c73690a4f797648c2f4d3a",
+      "size_bytes": 40286
+    },
+    {
+      "doc_id": "Register a vehicle I bought at a sheriff or marshal auction#3_0",
+      "file": "documents/markdown/dmv_105.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "052fe38f30ba13b3f065d04cb5df7dc66a82fc36fdec71199ff8a411d6307f16",
+      "size_bytes": 4099
+    },
+    {
+      "doc_id": "Register a vehicle when you are out-of-state#1_0",
+      "file": "documents/txt/dmv_106.txt",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "791ce69bfa786c01d52114c34ef76753755da28a1a7600f5805cfca3810f168d",
+      "size_bytes": 5498
+    },
+    {
+      "doc_id": "Register a vehicle#1_0",
+      "file": "documents/pdf_text/dmv_107.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "5621de5ad7124d4add7057541afbaa712fbff393dcae6fafe644c8c6a0af70a6",
+      "size_bytes": 167929
+    },
+    {
+      "doc_id": "Register an ATV#1_0",
+      "file": "documents/pdf_text/dmv_108.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "bb5069935e27b46e4223f76656b083d2b88a40419e597530169fb90e618d6afe",
+      "size_bytes": 37507
+    },
+    {
+      "doc_id": "Register an out-of-state vehicle#1_0",
+      "file": "documents/pdf_text/dmv_109.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "ad15f5fc12ebb429edfb664ebd88a60a3cfe14c232afc6289abfd843d11c247c",
+      "size_bytes": 35870
+    },
+    {
+      "doc_id": "Registration suspensions for failure to pay tolls#3_0",
+      "file": "documents/markdown/dmv_110.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "ae9c0ff5fd8ea8be7b960356d214ee2fdba4ac6b5b216bec8a9ba88d5039d327",
+      "size_bytes": 3971
+    },
+    {
+      "doc_id": "Registrations#3_0",
+      "file": "documents/markdown/dmv_111.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "ecc53248ac31761f3e9c574d7449ebf7b06ef2e16cca125de54d608276156f95",
+      "size_bytes": 3209
+    },
+    {
+      "doc_id": "Remove a lienholder from a title#1_0",
+      "file": "documents/markdown/dmv_112.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "ffe6227d9b7d5b36a6fc817fd23a10a6e89bcd41de2856ce7a89bd3388f431e5",
+      "size_bytes": 3927
+    },
+    {
+      "doc_id": "Renew Driving School License#3_0",
+      "file": "documents/markdown/dmv_116.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "badfb9d30ce1a7686d5cb52fbff261d11ff04f8239544915a42429c5ff46ad39",
+      "size_bytes": 2611
+    },
+    {
+      "doc_id": "Renew a CDL#1_0",
+      "file": "documents/markdown/dmv_114.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6dd53329e383e297fe03a30773fb43c68e17285910d399a2dc9a6f8501a24f61",
+      "size_bytes": 3703
+    },
+    {
+      "doc_id": "Renew a business license or registration#1_0",
+      "file": "documents/markdown/dmv_113.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "c066552ff4f3d840e16917bcc90e33280ce9e040b9222d373ab17e36baf12822",
+      "size_bytes": 2436
+    },
+    {
+      "doc_id": "Renew a hazardous materials (HazMat) endorsement#1_0",
+      "file": "documents/markdown/dmv_115.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "0de6ead7565a6e7fd780a39c21ae22327217319edfdb1ec1d3597bf915ca3806",
+      "size_bytes": 5671
+    },
+    {
+      "doc_id": "Renew non-driver ID card#1_0",
+      "file": "documents/markdown/dmv_117.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "8e671a655195d2ffe10e264a836e3dd655332dbe40b76193438135e84459d1b8",
+      "size_bytes": 6467
+    },
+    {
+      "doc_id": "Repayment Plans | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_072.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "2739d5b353e9c3c13783fec52cd9cca331e40c2b46cc65703bf8bdbb17de8d25",
+      "size_bytes": 1805
+    },
+    {
+      "doc_id": "Replace IRP registration items#1_0",
+      "file": "documents/markdown/dmv_120.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "2f37170eaa5fb50bebbd1ab1f421bccfc456c0bb02dcedfcd5bf0b8d095ed22b",
+      "size_bytes": 4016
+    },
+    {
+      "doc_id": "Replace a non-driver ID card#1_0",
+      "file": "documents/markdown/dmv_118.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "227cb469fe273d5276df3b4bca635d0e01c174a7f108733fd4f8c95d1a74cf70",
+      "size_bytes": 5161
+    },
+    {
+      "doc_id": "Replace a title certificate#1_0",
+      "file": "documents/markdown/dmv_119.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ae77aec001f5b424b1847e1920b1c120bbaeba2cd28a70c35a2987af581b6462",
+      "size_bytes": 4824
+    },
+    {
+      "doc_id": "Replace license or permit#1_0",
+      "file": "documents/markdown/dmv_121.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "404f5abaf7098483cf7567e4f9106a75792de06e53fbb0c22b3f1d606faafba9",
+      "size_bytes": 6523
+    },
+    {
+      "doc_id": "Replace or transfer personalized plates#1_0",
+      "file": "documents/markdown/dmv_122.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "14b10fa4011332c0ff0be6d8ae019fd506d80e86e1610a3b15fbce63736dd278",
+      "size_bytes": 3427
+    },
+    {
+      "doc_id": "Report a problem with a DMV regulated automotive business#1_0",
+      "file": "documents/markdown/dmv_123.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ffabfa46738ae8368cd38a8017403b8431c2535c1ed525b7c65075b01dd51937",
+      "size_bytes": 3210
+    },
+    {
+      "doc_id": "Reporting Parent Information | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_073.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "7c02df7db87578d0ac585da12439c6510faa30894866dc2f35f4f3b11275901e",
+      "size_bytes": 10572
+    },
+    {
+      "doc_id": "Request Your Military Service Records | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_070.pdf",
+      "domain": "va",
+      "language": "mixed",
+      "format": "pdf_scanned",
+      "sha256": "7f4baa10544487209a923ef99ed3637671e7e8e4d2ed54af260d38da5eb56372",
+      "size_bytes": 465080
+    },
+    {
+      "doc_id": "Request a Board Appeal | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_068.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "367058c320ab3438082631ccf245cdd6212589f15af496f3bbde0fe5b7f032bb",
+      "size_bytes": 4418
+    },
+    {
+      "doc_id": "Request a Higher-Level Review | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_069.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "7382d38455abb3909fb07b0c73bd6f49ca409b305c1f827af0dce3b8a8c170e5",
+      "size_bytes": 5357
+    },
+    {
+      "doc_id": "Requirements and forms for driving schools and instructors#3_0",
+      "file": "documents/pdf_scanned/dmv_124.pdf",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "pdf_scanned",
+      "sha256": "6a7e05b31fd33a9f2063a6dd315302cbdf7de9597081f53aed9158c2a73e02aa",
+      "size_bytes": 491809
+    },
+    {
+      "doc_id": "Reserve Educational Assistance Program (REAP) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_071.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "f66e87609c70bb2488c6b253e3dec9f2c0c0f08ef6b4fafde4b2ece4ed6143e7",
+      "size_bytes": 2451
+    },
+    {
+      "doc_id": "Resources for non US citizens#3_0",
+      "file": "documents/markdown/dmv_125.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "26f42e821ac263d6ffd5323b0aa61a158eff0e6242a37be9b4ee05e8689eee53",
+      "size_bytes": 4696
+    },
+    {
+      "doc_id": "Respond to DMV insurance letters and orders#3_0",
+      "file": "documents/markdown/dmv_126.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "0162b95be11016a320cfe3e039221d9538da57edae666faff469ed1c39126d83",
+      "size_bytes": 3039
+    },
+    {
+      "doc_id": "Restore license after revocation#1_0",
+      "file": "documents/markdown/dmv_127.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "a3ad8fb435ffe2433c0e5b83bff51edde773ebb2a44319471364f8b55846265e",
+      "size_bytes": 23280
+    },
+    {
+      "doc_id": "Retirement Benefits | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_102.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ec59919b9cc3022d4577c63840a3516e1189382eb94d1a2615f75922271a8a2d",
+      "size_bytes": 8788
+    },
+    {
+      "doc_id": "Retirement Benefits | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_103.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "79410a573b47af2ef370574e1465d0bffefe51fd4e1cced7ab780895f3fda63b",
+      "size_bytes": 8764
+    },
+    {
+      "doc_id": "Retirement Estimator | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_104.md",
+      "domain": "ssa",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "9e232371d40966c1b9b49245c10e592d818f7d32bef8c7b1361b44881d56dde9",
+      "size_bytes": 2322
+    },
+    {
+      "doc_id": "Retirement Estimator | Social Security Administration#2_0",
+      "file": "documents/pdf_text/ssa_105.pdf",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "36e88be744e9374caf709747e643b7dfaf140b836a856f27f2df50469bee37de",
+      "size_bytes": 121871
+    },
+    {
+      "doc_id": "Sales tax information#3_0",
+      "file": "documents/pdf_text/dmv_128.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "e7db5165c55c74873120963352bbd2310050d9adec3b33ee93fe8dfb79cc90f6",
+      "size_bytes": 106916
+    },
+    {
+      "doc_id": "Schedule A Burial For A Veteran Or Family Member | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_072.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "3824aeada4c8c1d28162a71053191e8fea7a7035ebdfb515b1f1470a7d1b06f3",
+      "size_bytes": 5555
+    },
+    {
+      "doc_id": "Schedule And View VA Appointments Online | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_073.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "8a34e6e4d6a24574aaa2cb248b13d092c2b7c818b544abfb01662639ff004b68",
+      "size_bytes": 4320
+    },
+    {
+      "doc_id": "Schedule and take a road test#1_0",
+      "file": "documents/markdown/dmv_129.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "cc9ed9af91ac626e95011455f353dc7639aea46fdea4e9b88b75b338a0bf0eac",
+      "size_bytes": 5883
+    },
+    {
+      "doc_id": "Service-Disabled Veterans Life Insurance (S-DVI) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_074.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "a118983121fe00c8d54cbb5190b5ba1c643977e1f94ad3bb5171ae8dfe6d5d7c",
+      "size_bytes": 4887
+    },
+    {
+      "doc_id": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_075.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "a1ff6ed3ba9e6598e1e5d782afc3b1b3d56d8911094386cb8f1345e2df71263e",
+      "size_bytes": 5772
+    },
+    {
+      "doc_id": "Sharing your information#3_0",
+      "file": "documents/pdf_text/dmv_130.pdf",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "f58f9483f5d33cc41f6e6d52bb5c2bab11d5ec4b850f730a50ea233f3728455f",
+      "size_bytes": 162236
+    },
+    {
+      "doc_id": "Signing in to MyDMV#1_0",
+      "file": "documents/markdown/dmv_131.md",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "60723faa4e5a197d76ab3517d99a7327b0ebbc40320067a81bef89aab5a26006",
+      "size_bytes": 1596
+    },
+    {
+      "doc_id": "Social Security Direct Deposit | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_106.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "e3ec6079c7787a64b2999dd455194ae1e42f4527a83bbf03f2b1bdba97812959",
+      "size_bytes": 1850
+    },
+    {
+      "doc_id": "Social Security Direct Deposit | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_107.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "9a469511a8bc8383327769f9b4f572fca40858b2275e7d780e28099b8f0decca",
+      "size_bytes": 1581
+    },
+    {
+      "doc_id": "Special Claims | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_076.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "ce7834f4430336e5c652cfde0da38ddab2b426362dfc960e56176b2336171920",
+      "size_bytes": 248716
+    },
+    {
+      "doc_id": "Standard Plan | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_074.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "2239c4ee0c089e104847ec00f3bfeb54234f9f7a5a277592f6d7a41d573d290a",
+      "size_bytes": 3022
+    },
+    {
+      "doc_id": "Staying Eligible | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_075.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "e950f027a1430d0ec07af43f5ac202b3c2595f4ae6f09234440db4983a4ceb68",
+      "size_bytes": 2264
+    },
+    {
+      "doc_id": "Stolen and recovered vehicles#3_0",
+      "file": "documents/markdown/dmv_132.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "933ba02f77a30e6125d1aa98b52fcd536a426d6db4bb7d7bd3c8160c678e6de7",
+      "size_bytes": 2931
+    },
+    {
+      "doc_id": "Student Aid Report | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_076.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6f6aa05ff096e2c5f883e10b099510b6895527d5314fca7038765e1f48028c46",
+      "size_bytes": 4064
+    },
+    {
+      "doc_id": "Student Loan Consolidation | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_077.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "22bc4f6a8b4e8ea55dd65cb77be87c9125adc8543e58afda8645523daa268878",
+      "size_bytes": 8374
+    },
+    {
+      "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_078.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "abc0c6dd7f048db6b59ef3515edd3a53d3d1276a1c68d52cdc8e6af8fc50a879",
+      "size_bytes": 6932
+    },
+    {
+      "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_079.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "01ae10f869270752a8544d1dd44a803768c25f07c17a0eb032073213b05d0225",
+      "size_bytes": 6833
+    },
+    {
+      "doc_id": "Student Loan Repayment | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_080.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1edd2f869d0a01ae5dd0f249a0b85d37cc84673e2e5b03b02a8db31a1775a1fb",
+      "size_bytes": 8053
+    },
+    {
+      "doc_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_081.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "83286f66bb292fa021253f279be76c77f2686b9d3748b245ce7626788c14cec4",
+      "size_bytes": 12320
+    },
+    {
+      "doc_id": "Substance Use Treatment For Veterans | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_077.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "9cbf2d11556b0ab992b96811831f897eb25ca7083710763cb0df79ee7232d815",
+      "size_bytes": 36949
+    },
+    {
+      "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_108.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "41d3fd9589131e3864b378b3fc55e9a2bea2e311eb11f4dc1662b09b43fb9337",
+      "size_bytes": 2475
+    },
+    {
+      "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_109.md",
+      "domain": "ssa",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "c568e7d6c082d406e9ebb6d1617385efa474f6f72b8c60149cd0461a0b710ef7",
+      "size_bytes": 2124
+    },
+    {
+      "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+      "file": "documents/markdown/dmv_133.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "9b5e6285e1ee02510a02533301b2d28ebb3a894e1ddd38e8d6059d34d8312414",
+      "size_bytes": 3689
+    },
+    {
+      "doc_id": "Surrender IRP registration and plates#1_0",
+      "file": "documents/txt/dmv_134.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "8913db8d1876dac0571a142d40d68184dc81a1853d9ea7fb86570e698828c1a3",
+      "size_bytes": 3976
+    },
+    {
+      "doc_id": "Survivors’ And Dependents’ Educational Assistance | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_078.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "ad8cc57e2a9c54ed013f80d4fb7824deabc9273dae2cfd21ade555f3e77d7b57",
+      "size_bytes": 512524
+    },
+    {
+      "doc_id": "Suspensions and revocations#3_0",
+      "file": "documents/txt/dmv_135.txt",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "025dc10621d9c7b3cdd88654bf5f8ab2f45655e8d4c6bda78b12a0614693a2d1",
+      "size_bytes": 4853
+    },
+    {
+      "doc_id": "TEACH Grant Counseling and Agreement To Serve (ATS) | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_083.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "2a23c43426fbc02e7fe5a1973e3aca8e5d6319f8b4bb2bde05c4aed32be4d542",
+      "size_bytes": 2428
+    },
+    {
+      "doc_id": "Tax Benefits for Higher Education | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_082.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "8efe7db547642d5e2c3ff82e60f9c673b1dd03652e521bca51071cabd0c44964",
+      "size_bytes": 2219
+    },
+    {
+      "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_084.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "ed296e08623c8644adc2f7f3234df26bd3ac0a89d459a4d4452bd54e52d2af43",
+      "size_bytes": 12247
+    },
+    {
+      "doc_id": "Temporary Disability Rating After Surgery Or Cast | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_079.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "9b6bc236731bee6bd85ce62f8aa07edb84872d369d19fc2e9445456be6a1e666",
+      "size_bytes": 276327
+    },
+    {
+      "doc_id": "Temporary surrender of vehicle plates (store plates for a season)#3_0",
+      "file": "documents/markdown/dmv_136.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "ffb4f61cb304c543257744e62876455ff7d92d8e2c2c444e09b5f8af814adde1",
+      "size_bytes": 1514
+    },
+    {
+      "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+      "file": "documents/markdown/dmv_137.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "c917b4f261543202f0f976782d2d0c2a4f618996c5c4dc095634fc51a7bb6052",
+      "size_bytes": 2993
+    },
+    {
+      "doc_id": "The Impaired Driver Program - Alcohol & Drug Rehabilitation Program#3_0",
+      "file": "documents/pdf_text/dmv_138.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "7341ff71e6e036920430144b97f2b19063f0f27a64235eef685ab435a8e239c2",
+      "size_bytes": 33610
+    },
+    {
+      "doc_id": "Third-party Servicer Program Reviews | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_085.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "47a7dc174f9095c39ce1fb64f4111bbb1ed5201c895095536c8036742e36737e",
+      "size_bytes": 3223
+    },
+    {
+      "doc_id": "Tickets received in New York City#3_0",
+      "file": "documents/markdown/dmv_140.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "a2b65c0df7b9788369cb45a0945b40b57b62219480ad64948b9d07c348d4eb0c",
+      "size_bytes": 3022
+    },
+    {
+      "doc_id": "Tickets received in another state#3_0",
+      "file": "documents/markdown/dmv_139.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "586fc1db4253285353b3975b6f1b07afc647399f24719b81168ebb2cd2e0577a",
+      "size_bytes": 2094
+    },
+    {
+      "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+      "file": "documents/markdown/dmv_141.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "0e469e23816ed65d3a81ce462cfb9f77103ede28cc3d0b3801936257935a4082",
+      "size_bytes": 4589
+    },
+    {
+      "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_086.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "cad71b3e008e46f143c77c228b243ede5048936e6df0b19b7a02f8daf719712a",
+      "size_bytes": 14486
+    },
+    {
+      "doc_id": "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_080.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "2c697bd79f930ce2e926fce5e9ac333bd38682d0dc8ef210827186d51c7a6bdf",
+      "size_bytes": 4064
+    },
+    {
+      "doc_id": "Traffic Violations Bureau#3_0",
+      "file": "documents/pdf_scanned/dmv_142.pdf",
+      "domain": "dmv",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "7246e0a416562f88d1d71c2e3954783db98c8313ce22a3703539fa0945fc6652",
+      "size_bytes": 977071
+    },
+    {
+      "doc_id": "Transfer IRP registration#1_0",
+      "file": "documents/markdown/dmv_143.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "e364f6dcd40c929804f809e1ec68f2f427efc1dc417a8ba74c21212d28708ea1",
+      "size_bytes": 4149
+    },
+    {
+      "doc_id": "Transfer Your Post-9/11 GI Bill Benefits | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_081.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "e3fdc8f4781e2d166d5b74aedb3d62f0c7f511537562890589546799adcf2db5",
+      "size_bytes": 4626
+    },
+    {
+      "doc_id": "Transfer ownership and acceptable proofs of ownership#3_0",
+      "file": "documents/pdf_text/dmv_144.pdf",
+      "domain": "dmv",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "364b19a782f713420d100c7593953ff1c543494790009fbeb3d23b1d7ef5c84e",
+      "size_bytes": 210824
+    },
+    {
+      "doc_id": "Traumatic Injury Protection (TSGLI) | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_082.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "ad5641ad799609a4dfefd97bf17fc9a0783d69dda7b59451ede1f170a8703607",
+      "size_bytes": 144672
+    },
+    {
+      "doc_id": "Tuition Assistance Top-Up | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_083.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "168944caa35349c3d2f1be151d072121efd76698f5a6fc172627c687f959615e",
+      "size_bytes": 2275
+    },
+    {
+      "doc_id": "Tutorial Assistance | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_084.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "bb6a562e24101b8c83d2c44c2cb6aca072a4784f092bf104da547c9fac033081",
+      "size_bytes": 104044
+    },
+    {
+      "doc_id": "Types Of Veteran ID Cards | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_085.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "f8443d61f31f194bc8139cb23f588db84acc1f2508dd7d5c3eb5b25d1441d329",
+      "size_bytes": 3527
+    },
+    {
+      "doc_id": "Types of Financial Aid | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_087.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "91a9bb393a3fdc6f2f915678343232cc41394f293559f2113791d5beecd109f4",
+      "size_bytes": 2502
+    },
+    {
+      "doc_id": "Undergraduate And Graduate Degrees | Veterans Affairs#1_0",
+      "file": "documents/docx/va_086.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "79a248f658c427d0da4be19a06873b14e50a9e385547fe7d53f4ba6e9dd684f4",
+      "size_bytes": 38501
+    },
+    {
+      "doc_id": "Understand Financial Aid | Federal Student Aid#1_0",
+      "file": "documents/pdf_text/studentaid_088.pdf",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "8b9a965c4f521edb1c2b3efd8e329038dabc95de3e8d020749b29d07053934e6",
+      "size_bytes": 117720
+    },
+    {
+      "doc_id": "Understanding College Costs | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_089.md",
+      "domain": "studentaid",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "6bcf6360d6f4caeee48a6b8c3b387d7b7ef14465e6987871e108753fc8908d5b",
+      "size_bytes": 4502
+    },
+    {
+      "doc_id": "Understanding Delinquency and Default | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_090.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "6b95b61f333091e5a0d2f3d30f297f2ddba46bf02e365a935c484bb03140c8e3",
+      "size_bytes": 6303
+    },
+    {
+      "doc_id": "Unpaid Refund Discharge | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_091.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "e991428b948def455ab2597300a326e2f5e197caf66b79bd8e500ab82ea091f9",
+      "size_bytes": 2047
+    },
+    {
+      "doc_id": "Unsatisfied Judgments#3_0",
+      "file": "documents/markdown/dmv_145.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "38f3ff57d69156751a73400bb3753d7cabffb35a38fda908d1fce5855cef962f",
+      "size_bytes": 1656
+    },
+    {
+      "doc_id": "Upload Evidence To Support Your Disability Claim | Veterans Affairs#1_0",
+      "file": "documents/docx/va_087.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "c3ee9d8f50c3a3f37d4f61f25e72edef9530563de902212069b86820637951b4",
+      "size_bytes": 39106
+    },
+    {
+      "doc_id": "VA Agent Orange Registry Exam | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_088.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "eb8d9c71181facae6d653849cb76a64ee914a956cf1e90f60ca529539c6592a4",
+      "size_bytes": 3686
+    },
+    {
+      "doc_id": "VA Benefits For Service Members | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_089.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "461b4314e7442070147a978ae7b20dbb92f625ff05b39bdea0aef31151f342c7",
+      "size_bytes": 6875
+    },
+    {
+      "doc_id": "VA Benefits For Service Members | Veterans Affairs#2_0",
+      "file": "documents/markdown/va_090.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "caa74c121072277f09aed01e3b09db76ea99bbe258e4793171c02a274c39e808",
+      "size_bytes": 5988
+    },
+    {
+      "doc_id": "VA Clothing Allowance | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_092.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "92999c438ee4222e6341168d7e65e13458e2e899cfdbd71d4005a7b7cf693c00",
+      "size_bytes": 2260
+    },
+    {
+      "doc_id": "VA Dental Care | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_094.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "d9ab6a560cad04c5caa105066864c099a9a5e2bf8fe012a6310d62105ccd86b8",
+      "size_bytes": 564292
+    },
+    {
+      "doc_id": "VA Dental Insurance Program (VADIP) | Veterans Affairs#1_0",
+      "file": "documents/pdf_scanned/va_095.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "895cd7c31078c5972c855bd2463643b6af946919d97c4e044c0c0c0d25434c59",
+      "size_bytes": 364904
+    },
+    {
+      "doc_id": "VA Disability Compensation For PTSD | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_096.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "85ca220c381067602fc0ec50341272ece4b51b5ea01b616cc41ada458b2515ab",
+      "size_bytes": 3381
+    },
+    {
+      "doc_id": "VA Disability Compensation | Veterans Affairs#1_0",
+      "file": "documents/docx/va_097.docx",
+      "domain": "va",
+      "language": "zh",
+      "format": "docx",
+      "sha256": "d287b8934ed20e9073f626375d02760add2da8beaf753a25236127683d048874",
+      "size_bytes": 39761
+    },
+    {
+      "doc_id": "VA Disability Compensation | Veterans Affairs#2_0",
+      "file": "documents/markdown/va_098.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "d2aaabca4369f1e4417758dbe20c6cf9caa802b5d594423e93452a40c5f54368",
+      "size_bytes": 3671
+    },
+    {
+      "doc_id": "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_099.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "bacc04611548f818ee2ef3d6a42e6f33cbec2ad7c3adf7d90bc4e3f4c98a0370",
+      "size_bytes": 2562
+    },
+    {
+      "doc_id": "VA Education Benefits | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_100.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "72af78887bf7b434b5ad9a4cc0546e176929e829663c08c8d12c54d772fe09d3",
+      "size_bytes": 148341
+    },
+    {
+      "doc_id": "VA Education Benefits | Veterans Affairs#2_0",
+      "file": "documents/markdown/va_101.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "7f772359cdb15924c0fc0e8900084d4fd35d90bbe88fdc7870db5dcf6273b49d",
+      "size_bytes": 4467
+    },
+    {
+      "doc_id": "VA Family Caregiver Assistance Program | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_102.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "fab5faae0a52daecf8b431da795edf9c8e90b7934725bc17f418e3799c1c2203",
+      "size_bytes": 3701
+    },
+    {
+      "doc_id": "VA Health Care And Other Insurance | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_103.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_text",
+      "sha256": "ddf3d2990e64e3569e5d3a7c11c99c9b601fd13a6b92580af453e82908aa1d4a",
+      "size_bytes": 38511
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#1_0",
+      "file": "documents/txt/va_104.txt",
+      "domain": "va",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "4a31db18c22ba4c678f407fb978f9796ecf48b08ac03f3274f8ca881bda15e98",
+      "size_bytes": 6267
+    },
+    {
+      "doc_id": "VA Health Care | Veterans Affairs#2_0",
+      "file": "documents/markdown/va_105.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "c21e2727749c0fa3420841685a6120e20669995ed321421f89207baab46b53e8",
+      "size_bytes": 5688
+    },
+    {
+      "doc_id": "VA Help To Avoid Mortgage Foreclosure | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_106.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "5e3e013908518b5a4faaebfaadebc2228c1cc9473d76705fae38e797ebe8758c",
+      "size_bytes": 2614
+    },
+    {
+      "doc_id": "VA Home Loan Programs For Surviving Spouses | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_107.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "d3707442508f652ac4fc72a34fefa902a939d91f996c4cf5e8879f9ef2bc9144",
+      "size_bytes": 2665
+    },
+    {
+      "doc_id": "VA Housing Assistance | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_108.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "76c27b1104618252ef21a41ea39f02f0a777b4dc7bce4ce2d1b60d822aeac13d",
+      "size_bytes": 156994
+    },
+    {
+      "doc_id": "VA Housing Assistance | Veterans Affairs#2_0",
+      "file": "documents/markdown/va_109.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "434d5d06c26985d91a8d5ac00dae8c7b3b03add871bb012337daa091ccd951ce",
+      "size_bytes": 4535
+    },
+    {
+      "doc_id": "VA Individual Unemployability If You Can't Work | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_110.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "177c2e16ad0e384476a81d53c25a970e0b755549a30d45201a9c238116431111",
+      "size_bytes": 2295
+    },
+    {
+      "doc_id": "VA Life Insurance | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_111.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "f473652f86b43782583a45227b96f4a191938e5d90fcfd66ee43af156298f237",
+      "size_bytes": 4001
+    },
+    {
+      "doc_id": "VA Life Insurance | Veterans Affairs#2_0",
+      "file": "documents/txt/va_112.txt",
+      "domain": "va",
+      "language": "zh",
+      "format": "txt",
+      "sha256": "7835cf9d955d4a482d56df5a549a694187031eb38a892e6bc1ae1ddf0edd5adb",
+      "size_bytes": 3206
+    },
+    {
+      "doc_id": "VA Mental Health Services | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_113.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "adb1aae0c0654fc3ca3b8bde91fd496b27f39085da4f41f920ce51ee43ea492c",
+      "size_bytes": 12752
+    },
+    {
+      "doc_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_114.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "db8d8e4fa136ab6a576e3f456ead493c29aace16cdec80fe84e8da58ad30917c",
+      "size_bytes": 7616
+    },
+    {
+      "doc_id": "VA Pension Benefits | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_115.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "84484709e8e0a716b872eeabc45f123ed52f5309e86d89a9eef3023350f634ec",
+      "size_bytes": 3665
+    },
+    {
+      "doc_id": "VA Pension Benefits | Veterans Affairs#2_0",
+      "file": "documents/pdf_scanned/va_116.pdf",
+      "domain": "va",
+      "language": "en",
+      "format": "pdf_scanned",
+      "sha256": "caf69c665b27e6dd8bdface4c88b3d6693e4d345c647221d229a2a1b8ac86925",
+      "size_bytes": 346229
+    },
+    {
+      "doc_id": "VA Survivors Pension | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_117.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "531c44a7c9e8b92bebbecfef3156ac371ec5050beb73fb37e0e89c36e809ab9c",
+      "size_bytes": 3202
+    },
+    {
+      "doc_id": "VA Title 38 U.S.C. 1151 Claims | Veterans Affairs#1_0",
+      "file": "documents/docx/va_118.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "04349e97499501c247f2408d568bbad7c227110312dc243e955c028e204b29f2",
+      "size_bytes": 38224
+    },
+    {
+      "doc_id": "VA Vision Care | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_119.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "919fa1dcf905e6bed439c3ff7ed3f3e78772a44779e595f0f0338912985ddff9",
+      "size_bytes": 2751
+    },
+    {
+      "doc_id": "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_120.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "6e3002f4593e490537ae315b11edc8133893a239f52c4e667b0d50f228ae577b",
+      "size_bytes": 1562
+    },
+    {
+      "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_091.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "32181b864e82ff6c64f9a6d18ca380483e3ce76cd21d9489a4386848acb43fc0",
+      "size_bytes": 7486
+    },
+    {
+      "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_093.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "5ee3c2869f2c045102fa8691e4146244948615abeb28d786b9ae78770cc2323c",
+      "size_bytes": 3860
+    },
+    {
+      "doc_id": "VA.gov Home | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_121.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "9f8b17b4d60a056189f93436f25f30300add909b9fe40c458064e90caf9f5ccc",
+      "size_bytes": 2728
+    },
+    {
+      "doc_id": "VR&E Independent Living Track | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_129.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "4ee97c43659b5fb92c80f1d6ac0239b294d51940bf744f4ac895a5b5526d17b3",
+      "size_bytes": 2837
+    },
+    {
+      "doc_id": "VR&E Reemployment Track | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_130.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "332a20c206ebe4420d2dad3df090fbff33709f2ccb70afbdbbeb6a69bb309583",
+      "size_bytes": 3190
+    },
+    {
+      "doc_id": "VR&E Self-Employment Track | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_131.pdf",
+      "domain": "va",
+      "language": "zh",
+      "format": "pdf_text",
+      "sha256": "0a471425bb0f108472b78db70dabf85e2e14151bc5e1922666824d84405cca19",
+      "size_bytes": 141781
+    },
+    {
+      "doc_id": "Vehicle modifications and registration class#3_0",
+      "file": "documents/txt/dmv_146.txt",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "ccb0f1605574934a35aec547836f905bde4552630fa4e5830dc6e91cbd11b6f6",
+      "size_bytes": 3344
+    },
+    {
+      "doc_id": "Veteran Suicide Prevention | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_122.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "73a7b887d72198e6587253ecd0b29be4475e5b40f6e90defd876db97ae7a2221",
+      "size_bytes": 4113
+    },
+    {
+      "doc_id": "Veteran status designation on a photo document#3_0",
+      "file": "documents/markdown/dmv_147.md",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "05e729ccb1f51001c73adcb734e4aa535740f1d480a1e02db92a414e3da322db",
+      "size_bytes": 2348
+    },
+    {
+      "doc_id": "Veterans Technology Education Courses | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_123.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b2bd9bea889bf98da253eb6144645ab84a05e6b14194e8328c7b84b191cfb57b",
+      "size_bytes": 3256
+    },
+    {
+      "doc_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_124.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "b0308992c6f11a979b6279c9ec379b00739cc015b8f37ca7af2e3ea98560c4b7",
+      "size_bytes": 1335
+    },
+    {
+      "doc_id": "Veterans’ Educational Assistance Program (VEAP) | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_125.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1c64a0786d72023a0bd7a63a7d1f2441aafd5938729f78b97204a8e4ed051bbc",
+      "size_bytes": 4242
+    },
+    {
+      "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+      "file": "documents/txt/va_126.txt",
+      "domain": "va",
+      "language": "en",
+      "format": "txt",
+      "sha256": "2dca8b70ebc2e7293b336299034731b496be73e728c54b580662f57225fb79f1",
+      "size_bytes": 5230
+    },
+    {
+      "doc_id": "Veterans’ Mortgage Life Insurance (VMLI) | Veterans Affairs#1_0",
+      "file": "documents/docx/va_127.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "a591cae1c37d9fe59d24b1f2fd0ca20f32abf6e2cf6d8ac9b9646224f26004c1",
+      "size_bytes": 39144
+    },
+    {
+      "doc_id": "View Your VA Payment History | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_128.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "2835c20a3b8605dc0abb1ca53892d5399c6e9d82e15eb699ad2f46630117176e",
+      "size_bytes": 2287
+    },
+    {
+      "doc_id": "Vision requirements & restrictions#3_0",
+      "file": "documents/txt/dmv_148.txt",
+      "domain": "dmv",
+      "language": "mixed",
+      "format": "txt",
+      "sha256": "c8434c915ad580f78ab41a69398c0535eeec795b9a9cf6c6b3377fba4d92780c",
+      "size_bytes": 4255
+    },
+    {
+      "doc_id": "Voter Registration Application Frequently Asked Questions#1_0",
+      "file": "documents/markdown/dmv_149.md",
+      "domain": "dmv",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1a02b23201d593b2d2f0e014b147cb99d2e0476a7b8e961909895097beca76fa",
+      "size_bytes": 4080
+    },
+    {
+      "doc_id": "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_132.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "80c166efaaefb5d5296109dd13add8d896535340e2a1d12d596b5ff0c17d6309",
+      "size_bytes": 3509
+    },
+    {
+      "doc_id": "Where You'll Go For Care | Veterans Affairs#1_0",
+      "file": "documents/docx/va_133.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "b9d4649024cded4e563843c2ed36f9b23facd9394fd0b6bb48b01caa31e71e10",
+      "size_bytes": 39896
+    },
+    {
+      "doc_id": "Women's Health Care Needs | Veterans Affairs#1_0",
+      "file": "documents/pdf_text/va_134.pdf",
+      "domain": "va",
+      "language": "mixed",
+      "format": "pdf_text",
+      "sha256": "79e0ff3c112e47dc8b868ec08909ada442cb7f5b7de223f9311c60ba359b8ce5",
+      "size_bytes": 172501
+    },
+    {
+      "doc_id": "Work Study | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_135.md",
+      "domain": "va",
+      "language": "mixed",
+      "format": "markdown",
+      "sha256": "f19fe2bd357c80252f3316a175b629bcdb125dd85c96f451b22313b63e006bc7",
+      "size_bytes": 3317
+    },
+    {
+      "doc_id": "Work-Study Jobs | Federal Student Aid#1_0",
+      "file": "documents/markdown/studentaid_092.md",
+      "domain": "studentaid",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "5725b3d6aa477bf1c61352481263e60b36ad9b457399486c250fc5c65f7bc838",
+      "size_bytes": 3008
+    },
+    {
+      "doc_id": "Yellow Ribbon Program | Veterans Affairs#1_0",
+      "file": "documents/docx/va_136.docx",
+      "domain": "va",
+      "language": "en",
+      "format": "docx",
+      "sha256": "e11dc4dbda17793bbb1d0fc2b60e64e9bf675aff312e70479ae174a363c3edb1",
+      "size_bytes": 40594
+    },
+    {
+      "doc_id": "Your Health Care Costs | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_137.md",
+      "domain": "va",
+      "language": "zh",
+      "format": "markdown",
+      "sha256": "6210e7ddb40f853bc4f4593f1ce11b9d3f8305cfb9dea3b484b37baa4dca5f36",
+      "size_bytes": 8056
+    },
+    {
+      "doc_id": "Your VA Primary Care Provider | Veterans Affairs#1_0",
+      "file": "documents/markdown/va_138.md",
+      "domain": "va",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "cdc6266738906bcb632bc7ad3e4eab33172676ee21834e8e20eec54f1c12b9d7",
+      "size_bytes": 3646
+    },
+    {
+      "doc_id": "my Social Security | Create an Account | Social Security Administratio#1_0",
+      "file": "documents/markdown/ssa_098.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "86ee5b750c1e1862b2f787af55d4058f5ba297991967d8074ec67f7f564768a2",
+      "size_bytes": 2194
+    },
+    {
+      "doc_id": "my Social Security | Create an Account | Social Security Administratio#2_0",
+      "file": "documents/markdown/ssa_099.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "1fac2ccea00fd402e6caa73ad504b7eab10a1baa04f9a08f3156c34c6e74c1b2",
+      "size_bytes": 2149
+    },
+    {
+      "doc_id": "my Social Security | Security and Protection | Social Security Administration#1_0",
+      "file": "documents/markdown/ssa_100.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "552c250b4360f46349c8c592fdf64374c8a0672df77d5a4652863ab16ba037e7",
+      "size_bytes": 6231
+    },
+    {
+      "doc_id": "my Social Security | Security and Protection | Social Security Administration#2_0",
+      "file": "documents/markdown/ssa_101.md",
+      "domain": "ssa",
+      "language": "en",
+      "format": "markdown",
+      "sha256": "f63d39522199571db2f843a6f9134853e78719e9b6d67a2cfaeac4b20bddf620",
+      "size_bytes": 6180
+    }
+  ],
+  "notes": [
+    "This inventory pins source bytes only; it does not approve QA labels or select an evaluation subset.",
+    "No existing processed chunks, embeddings, or Chroma index is certified by this source inventory.",
+    "Historical performance on the 91-document corpus is not directly comparable with future performance on this corpus."
+  ]
+}

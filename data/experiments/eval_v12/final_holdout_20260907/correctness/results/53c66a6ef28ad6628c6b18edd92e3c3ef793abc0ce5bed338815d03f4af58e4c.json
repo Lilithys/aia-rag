@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "53c66a6ef28ad6628c6b18edd92e3c3ef793abc0ce5bed338815d03f4af58e4c",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "SSI pays benefits to disabled adults and children with limited income and resources",
+                "coverage": "covered",
+                "response_quote": "补充保障收入（SSI）是一项向收入和资源有限的残疾成年人和儿童支付福利的计划。",
+                "reason": "The response directly states this core definition."
+              },
+              {
+                "requirement": "People 65 and older without disabilities who meet financial limits are also eligible",
+                "coverage": "covered",
+                "response_quote": "年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。",
+                "reason": "The response includes this additional eligibility condition."
+              },
+              {
+                "requirement": "People who worked long enough may receive Social Security disability or retirement benefits as well as SSI",
+                "coverage": "covered",
+                "response_quote": "工作年限足够长的人可能同时获得社会保障残疾或退休福利以及SSI。",
+                "reason": "The response mentions this possibility."
+              }
+            ],
+            "reason": "The response accurately and completely answers the question about SSI benefits, covering all essential facts from the reference and source blocks without errors or unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a28118c5ca9c4387a3efbd879ceaa726",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4840,
+                "completion_tokens": 267,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 267,
+                  "prompt_tokens": 4840,
+                  "total_tokens": 5107,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3944
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0071623,
+              "accounted_rmb": 0.0071623,
+              "usage_unknown": false,
+              "seconds": 2.2645609378814697,
+              "error": null,
+              "response": {
+                "id": "b8367e46-eb1a-4b05-a8e0-61190e86d489",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "dc241b3e4245841cbeb60ac652b2f948b914278a0c07dc2ba2e62c9d9a4b0f9e"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "SSI pays benefits to disabled adults and children with limited income and resources",
+            "coverage": "covered",
+            "response_quote": "补充保障收入（SSI）是一项向收入和资源有限的残疾成年人和儿童支付福利的计划。",
+            "reason": "The response directly states this core definition."
+          },
+          {
+            "requirement": "People 65 and older without disabilities who meet financial limits are also eligible",
+            "coverage": "covered",
+            "response_quote": "年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。",
+            "reason": "The response includes this additional eligibility condition."
+          },
+          {
+            "requirement": "People who worked long enough may receive Social Security disability or retirement benefits as well as SSI",
+            "coverage": "covered",
+            "response_quote": "工作年限足够长的人可能同时获得社会保障残疾或退休福利以及SSI。",
+            "reason": "The response mentions this possibility."
+          }
+        ],
+        "reason": "The response accurately and completely answers the question about SSI benefits, covering all essential facts from the reference and source blocks without errors or unsupported claims."
+      }
+    }
+  },
+  "sha256": "81bf1eb659e623f9b6a6bff63b4f9d762e69f0d97ffdf44c76abf69ad6d3f495"
+}

@@ -1,0 +1,159 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "5264367dcf1ce7b15b0b6659f405d588::agent-turn-6",
+    "item_sha256": "8cc895a7274468f166d1492be2d9ff75737359c14eb2bd3ee869e44aaeaf2f48",
+    "result": {
+      "request_id": "9d1d829c9d554fc1b6f3d641623a704c",
+      "session_id": "5264367dcf1ce7b15b0b6659f405d588",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "The retrieved excerpts do not contain information about transferring customized license plates during vehicle registration. They cover CDL driving records, standard driving records, medical certification, and general registration topics, but not plate transfers. For guidance on this, please consult the DMV's vehicle registration or license plate sections, or contact the DMV directly.",
+        "citations": [],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Get my own CDL driving record (abstract)#1_0::c0000",
+          "text": "# 获取我自己的 CDL 驾驶记录（摘要）\n\n## 获取我自己的 CDL 驾驶记录（摘要）[1]\n\n### 什么是 CDL 驾驶记录摘要？\n\n商业（CDL）摘要显示扩展的驾驶员历史信息，这些信息在标准驾驶记录（Standard Driving Record）上不可用。这包括在任何州驾驶任何类型车辆时的定罪、吊销、撤销和其他许可行动。还提供医疗认证状态（Medical Certification Status）信息和自我认证（Self-Certification）信息。雇主或组织可以通过纽约 DMV 许可证事件通知服务（LENS）为注册驾驶员获取 CDL 摘要。查看更多关于 CDL 摘要的信息 [2]。\n\n驾驶记录摘要是一份经过认证的 DMV 记录。它们都包含认证声明和机动车管理局局长的签名，以及安全水印。\n\n### 通过 MyDMV 在线获取\n\n您可以保存并打印您的记录的 PDF 版本。您有 5 天时间在订单后下载它。费用为 $7。\n\n要创建 MyDMV 账户，您需要\n\n- 纽约州驾照、许可证或非驾驶员 ID，或\n\n- 您的纽约州驾照、许可证或非驾驶员 ID 1\n\n确保您的计算机和网络浏览器具有所有最新更新，以避免下载记录时出现问题 [3]。\n\n[4]\n\n如果您无法访问 MyDMV，您可以将认证 CDL 摘要请求（PDF）[5]（MV-CDL）表格连同 $10 费用邮寄到 DMV，邮寄至表格上提供的地址，或者让您的雇主通过 LENS [6] 订购您的 CDL 驾驶记录摘要。\n\n- 1. 您需要最近签发的文件上的文件编号（参见示例文件 [7]）。如果您最近续期或订购了文件，但尚未收到邮件，您需要等待它到达后才能创建 MyDMV 账户。\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- DMV 记录 [8]\n\n## 相关 PDF：\n\nmvcdl.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "How to get my own driving record (abstract)#1_0::c0000",
+          "text": "# 如何获取我自己的驾驶记录（摘要）\n\n# 如何获取我自己的驾驶记录（摘要）[1]\n\n### 什么是标准驾驶记录（摘要）？\n\n查看纽约DMV签发的“标准”驾驶记录（摘要）[2]的说明，以及驾驶记录摘要描述（PDF）[3]（DS-242.1），其中还包含样本摘要。\n\n标准驾驶员记录包含过去几年与您的记录相关的信息。如果您需要DMV拥有的所有信息的记录，请参阅终身驾驶记录[4]。\n\n在线、办公室或邮寄订购的摘要没有区别。它们都是经过认证的DMV记录。它们都包含认证声明和机动车管理局局长的签名，以及相同的安全水印。\n\n### 什么是终身驾驶记录？\n\n查看纽约DMV签发的“终身”驾驶记录[5]的说明，以及终身驾驶记录摘要描述（PDF）[6]（DS-242.3），其中还包含样本记录。\n\n### 什么是商业（CDL）驾驶记录（摘要）？\n\n查看CDL驾驶记录摘要[7]的说明。您可以在线订购，或让您的雇主通过License Event Notification Service (LENS)[8]订购。\n\n### 通过MyDMV在线获取标准、终身和CDL摘要\n\n您可以保存并打印记录的PDF版本。订单后您有5天时间下载。费用为$7。\n\n要创建MyDMV账户，您需要最近签发的纽约州驾驶执照、许可证或非驾驶员ID。\n\n抱歉，如果您没有以下证件，则必须通过邮寄订购：\n\n- 纽约州驾驶执照、许可证或非驾驶员ID，或\n- 您的纽约州驾驶执照、许可证或非驾驶员ID 1\n\n确保您的计算机和Web浏览器具有所有最新更新，以避免下载记录时出现问题[9]。\n\n[10]\n\n### 通过邮寄获取标准及终身摘要\n\n如需通过邮寄方式申请您的Standard驾驶记录，请发送\n\n- 一份填写完整的Request for DMV Records (PDF) [11] (MV-15)\n- 一份您的身份证明复印件 2\n- 一张个人支票或汇票，金额为$10.00，收款人为\"Commissioner of Motor Vehicles\"\n\n至\n\nMV-15 ProcessingNYS Department of Motor Vehicles6 Empire State PlazaAlbany, NY 12228\n\n如果您希望在续期驾照的同时订购您的记录，请在续期通知上标记蓝色方框，并将$10.00的查询费添加到您的续期费用中。\n\n### 在DMV办公室获取Standard摘要\n\n（抱歉，您无法在DMV办公室获取CDL或Lifetime摘要。）\n\n如需在DMV办公室申请您的Standard驾驶记录，请携带\n\n- 一份填写完整的Request for Driving Record Information (PDF) [12] (MV-15C)\n- 身份证明 3\n- $10.00的费用 4\n\n查找您附近的DMV办公室 [13]。\n\n### 在Albany的DMV客户服务柜台\n\n您可以在Albany的DMV客户服务柜台申请驾驶记录摘要。您必须提供身份证明并支付$10.00的查询费。您必须证明您有DPPA允许的用途。使用Request for Driving Record Information (PDF) [12] (MV-15C) 在以下地点申请驾驶记录摘要：\n\nCustomer Service CounterRoom 136Swan Street BuildingEmpire State PlazaAlbany, NY 12228\n\n#### 驾驶记录不能通过电话订购。\n\n- 1. 您需要最近签发的文件上的文件编号（参见示例文件 [14]）。如果您最近续期或订购了文件但尚未收到邮件，您需要等待其到达后才能创建MyDMV账户。\n- 2. 这可以是驾驶执照或其他政府签发的带照片身份证件（您可以遮挡照片）或6分身份证明。参见DMV文件指南 [15]。\n- 3. 这可以是驾驶执照或其他政府签发的带照片身份证件（您可以遮挡照片）或6分身份证明。参见DMV文件指南 [15]。\n- 4. 接受现金、信用卡、个人支票和汇票。支票和汇票收款人请写\"Commissioner of Motor Vehicles\"。\n\n## 主题：\n\n- DMV Records [16]\n\n## 前往mydmv：\n\n前往mydmv [17]\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0003",
+          "text": "[医疗认证要求 > 如何确认医疗证明已记录在我的驾驶记录中]\nDMV将向注册19-A系统的客运承运人发送有关CDL/CLP降级/取消事件的通知。驾驶员也可以通过MyDMV[8]监控自己的CLP/CDL医疗认证状态，并订阅短信和/或电子邮件通知[9]。"
+        },
+        {
+          "chunk_id": "Registrations#3_0::c0000",
+          "text": "# 注册（Registrations）\n\n您的“注册”是指贴在挡风玻璃上的贴纸以及必须放在车内的纸质注册证书。\n\n您或您的企业必须在 DMV 办公室为您拥有或租赁的任何车辆进行注册和所有权登记（title）。注册不需要以车主名义进行，也不限于一人。汽车经销商可以办理车辆注册和所有权登记，并发放车牌（并为此收取费用）。\n\n查看关于车辆牌照 [1] 或车辆所有权（title）[2] 的信息。\n\n### 已在纽约注册的车辆\n\n#### 续期（Renew）\n\n您可以在线续期注册，并打印一份 10 天的临时文件，在新注册文件邮寄到达前使用。请注意：如果您的车辆经过改装或加长以增加乘客数量，或存在其他特殊情况，则无法在线续期注册。查看更多信息及其他续期方式 [3]。\n\n在线续期注册 [4]\n\n#### 其他业务\n\n- 更改地址 [5]\n- 更改姓名或其他信息 [6]\n- 查询注册状态 [7]\n- 更换注册文件 [8]（并获取临时文件）\n- 交回（退还）车牌并取消注册 [9]\n- 告知 DMV 您的新注册文件尚未邮寄到达 [10]\n- 将注册转移到您拥有的另一辆车 [11]\n\n#### 暂停（Suspensions）\n\n查看因以下原因导致的注册暂停信息：\n\n- 停车罚单 [12] 1\n- 过路费违规 [13]\n- 保险中断 [14]\n\n### 在纽约注册车辆\n\n您或您的企业必须在 DMV 办公室注册您拥有的任何车辆。2 查看注册车辆的一般信息 [15] 以及不同车辆类型的特定要求 [16]。\n\n#### 注册所需材料\n\n完成 DMV 的 Document Guide，确保您在前往 DMV 之前备齐正确的身份证明和其他文件。\n\n查找您的证明文件 [17]\n\n#### 特殊情况\n\n- 农业和农用车辆 [18]\n- 车主已故 [19]\n- 自制车辆和拖车 [20]\n- 进口车辆 [21]\n- 多位车主或注册人 [22]\n- 新购车辆无所有权证书 [23]\n- 皮卡作为“乘用车”类别 [24]\n- 为他人注册车辆 [25]\n- 在外州时注册车辆 [26]\n- 注册外州车辆 [27]\n\n### 更多信息\n\n- 废弃和无主车辆 [28]\n- 申请Clean Pass [29]\n- 在纽约无法注册的机动设备 [30]\n- 授权书 [31]\n- 将车辆所有权转让给他人 [32]\n- 车辆改装和注册类别 [33]\n- 报废车辆 [34]\n\n### 资源\n\n- DMV监管的企业 [35]（检查站、经销商和运输商、修理厂等）\n- 判断车辆是否被水淹或被盗 [36]\n- 如果家庭成员去世 [37]\n- 军人和退伍军人资源 [38]\n- 搬到纽约或搬出纽约 [39]\n- 购车提示 [40]\n\n- 1. DMV不处理停车违规或管理停车事宜。如果您收到停车罚单，必须向开具罚单的地方政府回应。**不要联系DMV**。如果您不处理停车罚单，地方政府可以通知DMV，DMV可能会阻止您更新车辆注册或暂停您的车辆注册。查看纽约州当地交通法庭列表 [41]\n\n- 2. 这包括所有类型的车辆（如果您计划在公共道路上驾驶它们）\n\n- 汽车\n  - SUV\n  - 面包车\n  - 皮卡\n  - 摩托车\n  - 拖车\n  - 定制和自制拖车\n  - 农业和农用车辆\n  - 船只\n  - ATV\n  - 轻便摩托车\n  - 雪地摩托\n\n有些机动设备在纽约无法注册 [30]。"
+        },
+        {
+          "chunk_id": "Lifetime driving records#3_0::c0000",
+          "text": "[终身驾驶记录 > 终身驾驶记录上显示哪些信息？ > 标题1]\n“终身”驾驶记录包含DMV目前掌握的有关驾驶员的所有许可证信息。终身驾驶记录将显示DMV仍持有的所有信息，无论《车辆与交通法》中的数据保留要求如何。该记录可能不包含驾驶员最初获得驾驶特权时的信息。\n\n标准驾驶员执照摘要仅包含DMV仍被要求保留的信息。例如，大多数暂停和吊销仅在标准驾驶记录摘要上显示，自暂停或吊销结束之日起4年内。终身驾驶记录将显示超过4年的暂停和吊销。\n\n每份驾驶记录摘要包含多个部分的信息。请参阅终身驾驶记录摘要说明[1]（DS-242.3），了解如何阅读和理解终身驾驶记录摘要的更多信息。\n\n“标题”部分包括个人的适用信息\n\n- 已故\n- 姓名\n- 邮寄地址（城市、州、邮政编码）\n- 邮寄县\n- 文件上显示的姓名\n- 来自您的纽约州驾驶员执照、学习许可证或非驾驶员照片ID卡的DMV ID号（客户ID号）\n- 出生日期\n- 性别\n- 身高\n- 眼睛颜色\n- 状态信息，适用于\n  - 临时访客\n  - 军人\n  - 退伍军人\n  - 器官捐献者\n- 暂停和吊销摘要\n- 限制驾驶特权的限制条件\n- 冒险执照凭证\n\n请参阅表格驾驶员执照类别说明[2]（MV-500C），了解驾驶员执照限制的列表和解释。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Get my own CDL driving record (abstract)#1_0::c0000",
+          "text": "# 获取我自己的 CDL 驾驶记录（摘要）\n\n## 获取我自己的 CDL 驾驶记录（摘要）[1]\n\n### 什么是 CDL 驾驶记录摘要？\n\n商业（CDL）摘要显示扩展的驾驶员历史信息，这些信息在标准驾驶记录（Standard Driving Record）上不可用。这包括在任何州驾驶任何类型车辆时的定罪、吊销、撤销和其他许可行动。还提供医疗认证状态（Medical Certification Status）信息和自我认证（Self-Certification）信息。雇主或组织可以通过纽约 DMV 许可证事件通知服务（LENS）为注册驾驶员获取 CDL 摘要。查看更多关于 CDL 摘要的信息 [2]。\n\n驾驶记录摘要是一份经过认证的 DMV 记录。它们都包含认证声明和机动车管理局局长的签名，以及安全水印。\n\n### 通过 MyDMV 在线获取\n\n您可以保存并打印您的记录的 PDF 版本。您有 5 天时间在订单后下载它。费用为 $7。\n\n要创建 MyDMV 账户，您需要\n\n- 纽约州驾照、许可证或非驾驶员 ID，或\n\n- 您的纽约州驾照、许可证或非驾驶员 ID 1\n\n确保您的计算机和网络浏览器具有所有最新更新，以避免下载记录时出现问题 [3]。\n\n[4]\n\n如果您无法访问 MyDMV，您可以将认证 CDL 摘要请求（PDF）[5]（MV-CDL）表格连同 $10 费用邮寄到 DMV，邮寄至表格上提供的地址，或者让您的雇主通过 LENS [6] 订购您的 CDL 驾驶记录摘要。\n\n- 1. 您需要最近签发的文件上的文件编号（参见示例文件 [7]）。如果您最近续期或订购了文件，但尚未收到邮件，您需要等待它到达后才能创建 MyDMV 账户。\n\n## 在 megamenu 中显示“在线办理”按钮：\n\n## 主题：\n\n- DMV 记录 [8]\n\n## 相关 PDF：\n\nmvcdl.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "How to get my own driving record (abstract)#1_0::c0000",
+          "text": "# 如何获取我自己的驾驶记录（摘要）\n\n# 如何获取我自己的驾驶记录（摘要）[1]\n\n### 什么是标准驾驶记录（摘要）？\n\n查看纽约DMV签发的“标准”驾驶记录（摘要）[2]的说明，以及驾驶记录摘要描述（PDF）[3]（DS-242.1），其中还包含样本摘要。\n\n标准驾驶员记录包含过去几年与您的记录相关的信息。如果您需要DMV拥有的所有信息的记录，请参阅终身驾驶记录[4]。\n\n在线、办公室或邮寄订购的摘要没有区别。它们都是经过认证的DMV记录。它们都包含认证声明和机动车管理局局长的签名，以及相同的安全水印。\n\n### 什么是终身驾驶记录？\n\n查看纽约DMV签发的“终身”驾驶记录[5]的说明，以及终身驾驶记录摘要描述（PDF）[6]（DS-242.3），其中还包含样本记录。\n\n### 什么是商业（CDL）驾驶记录（摘要）？\n\n查看CDL驾驶记录摘要[7]的说明。您可以在线订购，或让您的雇主通过License Event Notification Service (LENS)[8]订购。\n\n### 通过MyDMV在线获取标准、终身和CDL摘要\n\n您可以保存并打印记录的PDF版本。订单后您有5天时间下载。费用为$7。\n\n要创建MyDMV账户，您需要最近签发的纽约州驾驶执照、许可证或非驾驶员ID。\n\n抱歉，如果您没有以下证件，则必须通过邮寄订购：\n\n- 纽约州驾驶执照、许可证或非驾驶员ID，或\n- 您的纽约州驾驶执照、许可证或非驾驶员ID 1\n\n确保您的计算机和Web浏览器具有所有最新更新，以避免下载记录时出现问题[9]。\n\n[10]\n\n### 通过邮寄获取标准及终身摘要\n\n如需通过邮寄方式申请您的Standard驾驶记录，请发送\n\n- 一份填写完整的Request for DMV Records (PDF) [11] (MV-15)\n- 一份您的身份证明复印件 2\n- 一张个人支票或汇票，金额为$10.00，收款人为\"Commissioner of Motor Vehicles\"\n\n至\n\nMV-15 ProcessingNYS Department of Motor Vehicles6 Empire State PlazaAlbany, NY 12228\n\n如果您希望在续期驾照的同时订购您的记录，请在续期通知上标记蓝色方框，并将$10.00的查询费添加到您的续期费用中。\n\n### 在DMV办公室获取Standard摘要\n\n（抱歉，您无法在DMV办公室获取CDL或Lifetime摘要。）\n\n如需在DMV办公室申请您的Standard驾驶记录，请携带\n\n- 一份填写完整的Request for Driving Record Information (PDF) [12] (MV-15C)\n- 身份证明 3\n- $10.00的费用 4\n\n查找您附近的DMV办公室 [13]。\n\n### 在Albany的DMV客户服务柜台\n\n您可以在Albany的DMV客户服务柜台申请驾驶记录摘要。您必须提供身份证明并支付$10.00的查询费。您必须证明您有DPPA允许的用途。使用Request for Driving Record Information (PDF) [12] (MV-15C) 在以下地点申请驾驶记录摘要：\n\nCustomer Service CounterRoom 136Swan Street BuildingEmpire State PlazaAlbany, NY 12228\n\n#### 驾驶记录不能通过电话订购。\n\n- 1. 您需要最近签发的文件上的文件编号（参见示例文件 [14]）。如果您最近续期或订购了文件但尚未收到邮件，您需要等待其到达后才能创建MyDMV账户。\n- 2. 这可以是驾驶执照或其他政府签发的带照片身份证件（您可以遮挡照片）或6分身份证明。参见DMV文件指南 [15]。\n- 3. 这可以是驾驶执照或其他政府签发的带照片身份证件（您可以遮挡照片）或6分身份证明。参见DMV文件指南 [15]。\n- 4. 接受现金、信用卡、个人支票和汇票。支票和汇票收款人请写\"Commissioner of Motor Vehicles\"。\n\n## 主题：\n\n- DMV Records [16]\n\n## 前往mydmv：\n\n前往mydmv [17]\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Medical Certification Requirements#3_0::c0003",
+          "text": "[医疗认证要求 > 如何确认医疗证明已记录在我的驾驶记录中]\nDMV将向注册19-A系统的客运承运人发送有关CDL/CLP降级/取消事件的通知。驾驶员也可以通过MyDMV[8]监控自己的CLP/CDL医疗认证状态，并订阅短信和/或电子邮件通知[9]。"
+        },
+        {
+          "chunk_id": "Registrations#3_0::c0000",
+          "text": "# 注册（Registrations）\n\n您的“注册”是指贴在挡风玻璃上的贴纸以及必须放在车内的纸质注册证书。\n\n您或您的企业必须在 DMV 办公室为您拥有或租赁的任何车辆进行注册和所有权登记（title）。注册不需要以车主名义进行，也不限于一人。汽车经销商可以办理车辆注册和所有权登记，并发放车牌（并为此收取费用）。\n\n查看关于车辆牌照 [1] 或车辆所有权（title）[2] 的信息。\n\n### 已在纽约注册的车辆\n\n#### 续期（Renew）\n\n您可以在线续期注册，并打印一份 10 天的临时文件，在新注册文件邮寄到达前使用。请注意：如果您的车辆经过改装或加长以增加乘客数量，或存在其他特殊情况，则无法在线续期注册。查看更多信息及其他续期方式 [3]。\n\n在线续期注册 [4]\n\n#### 其他业务\n\n- 更改地址 [5]\n- 更改姓名或其他信息 [6]\n- 查询注册状态 [7]\n- 更换注册文件 [8]（并获取临时文件）\n- 交回（退还）车牌并取消注册 [9]\n- 告知 DMV 您的新注册文件尚未邮寄到达 [10]\n- 将注册转移到您拥有的另一辆车 [11]\n\n#### 暂停（Suspensions）\n\n查看因以下原因导致的注册暂停信息：\n\n- 停车罚单 [12] 1\n- 过路费违规 [13]\n- 保险中断 [14]\n\n### 在纽约注册车辆\n\n您或您的企业必须在 DMV 办公室注册您拥有的任何车辆。2 查看注册车辆的一般信息 [15] 以及不同车辆类型的特定要求 [16]。\n\n#### 注册所需材料\n\n完成 DMV 的 Document Guide，确保您在前往 DMV 之前备齐正确的身份证明和其他文件。\n\n查找您的证明文件 [17]\n\n#### 特殊情况\n\n- 农业和农用车辆 [18]\n- 车主已故 [19]\n- 自制车辆和拖车 [20]\n- 进口车辆 [21]\n- 多位车主或注册人 [22]\n- 新购车辆无所有权证书 [23]\n- 皮卡作为“乘用车”类别 [24]\n- 为他人注册车辆 [25]\n- 在外州时注册车辆 [26]\n- 注册外州车辆 [27]\n\n### 更多信息\n\n- 废弃和无主车辆 [28]\n- 申请Clean Pass [29]\n- 在纽约无法注册的机动设备 [30]\n- 授权书 [31]\n- 将车辆所有权转让给他人 [32]\n- 车辆改装和注册类别 [33]\n- 报废车辆 [34]\n\n### 资源\n\n- DMV监管的企业 [35]（检查站、经销商和运输商、修理厂等）\n- 判断车辆是否被水淹或被盗 [36]\n- 如果家庭成员去世 [37]\n- 军人和退伍军人资源 [38]\n- 搬到纽约或搬出纽约 [39]\n- 购车提示 [40]\n\n- 1. DMV不处理停车违规或管理停车事宜。如果您收到停车罚单，必须向开具罚单的地方政府回应。**不要联系DMV**。如果您不处理停车罚单，地方政府可以通知DMV，DMV可能会阻止您更新车辆注册或暂停您的车辆注册。查看纽约州当地交通法庭列表 [41]\n\n- 2. 这包括所有类型的车辆（如果您计划在公共道路上驾驶它们）\n\n- 汽车\n  - SUV\n  - 面包车\n  - 皮卡\n  - 摩托车\n  - 拖车\n  - 定制和自制拖车\n  - 农业和农用车辆\n  - 船只\n  - ATV\n  - 轻便摩托车\n  - 雪地摩托\n\n有些机动设备在纽约无法注册 [30]。"
+        },
+        {
+          "chunk_id": "Lifetime driving records#3_0::c0000",
+          "text": "[终身驾驶记录 > 终身驾驶记录上显示哪些信息？ > 标题1]\n“终身”驾驶记录包含DMV目前掌握的有关驾驶员的所有许可证信息。终身驾驶记录将显示DMV仍持有的所有信息，无论《车辆与交通法》中的数据保留要求如何。该记录可能不包含驾驶员最初获得驾驶特权时的信息。\n\n标准驾驶员执照摘要仅包含DMV仍被要求保留的信息。例如，大多数暂停和吊销仅在标准驾驶记录摘要上显示，自暂停或吊销结束之日起4年内。终身驾驶记录将显示超过4年的暂停和吊销。\n\n每份驾驶记录摘要包含多个部分的信息。请参阅终身驾驶记录摘要说明[1]（DS-242.3），了解如何阅读和理解终身驾驶记录摘要的更多信息。\n\n“标题”部分包括个人的适用信息\n\n- 已故\n- 姓名\n- 邮寄地址（城市、州、邮政编码）\n- 邮寄县\n- 文件上显示的姓名\n- 来自您的纽约州驾驶员执照、学习许可证或非驾驶员照片ID卡的DMV ID号（客户ID号）\n- 出生日期\n- 性别\n- 身高\n- 眼睛颜色\n- 状态信息，适用于\n  - 临时访客\n  - 军人\n  - 退伍军人\n  - 器官捐献者\n- 暂停和吊销摘要\n- 限制驾驶特权的限制条件\n- 冒险执照凭证\n\n请参阅表格驾驶员执照类别说明[2]（MV-500C），了解驾驶员执照限制的列表和解释。"
+        }
+      ],
+      "citations": [],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "The retrieved excerpts do not contain information about transferring customized license plates during vehicle registration. They cover CDL driving records, standard driving records, medical certification, and general registration topics, but not plate transfers. For guidance on this, please consult the DMV's vehicle registration or license plate sections, or contact the DMV directly.",
+          "citations": [],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "13125cc9fb354b5eb99718c5933b052a",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3035,
+              "completion_tokens": 81,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 81,
+                "prompt_tokens": 3035,
+                "total_tokens": 3116,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2779
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0045458,
+            "accounted_rmb": 0.0045458,
+            "usage_unknown": false,
+            "seconds": 1.4488461017608643,
+            "error": null,
+            "response": {
+              "id": "7eabbe08-7eae-48bc-84ad-4353d8c0f3cf",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "57bf45c0407e22acc07ace54562957c3f1a395dbe335247ee2805e0b818998fa"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03200001083314419,
+        "retrieval": 1483.7348330765963,
+        "generation": 1452.9457499738783,
+        "total": 2937.996332999319
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.19172800006344914,
+        "rerank_seconds": 1.2919385000132024,
+        "top1_dense_score": 0.7572335600852966,
+        "candidate_ids": [
+          "Get my own CDL driving record (abstract)#1_0::c0000",
+          "Lifetime driving records#3_0::c0000",
+          "How to get my own driving record (abstract)#1_0::c0000",
+          "Lifetime driving records#3_0::c0005",
+          "Lifetime driving records#3_0::c0010",
+          "Get a CDL#1_0::c0002",
+          "Get a vehicle registration or title record (abstract)#1_0::c0000",
+          "Get a CDL#1_0::c0006",
+          "Medical Certification Requirements#3_0::c0003",
+          "Lifetime driving records#3_0::c0004",
+          "Lifetime driving records#3_0::c0002",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0011",
+          "Get a CDL#1_0::c0001",
+          "Lifetime driving records#3_0::c0007",
+          "Renew a CDL#1_0::c0000",
+          "Lifetime driving records#3_0::c0006",
+          "Sharing your information#3_0::c0001",
+          "Commercial Driver License Downgrades#3_0::c0000",
+          "Registrations#3_0::c0000",
+          "Lifetime driving records#3_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 34,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.4837165409699082
+      },
+      "raw_citations": [],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "649c5549fc681c044be9fc49574b99794f3ff89cdb03b9d8788f29ee409b249c"
+}

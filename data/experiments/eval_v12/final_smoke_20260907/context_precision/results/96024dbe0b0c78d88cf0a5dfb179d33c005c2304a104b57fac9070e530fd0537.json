@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "96024dbe0b0c78d88cf0a5dfb179d33c005c2304a104b57fac9070e530fd0537",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.249999999975,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about rescheduling a hearing, not canceling one. The answer incorrectly states that the request should include the reason for withdrawing the appeal, which is not mentioned in the context. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "42165f3b34834b65906140cb5b8e1854",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1147,
+                "completion_tokens": 68,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 68,
+                  "prompt_tokens": 1147,
+                  "total_tokens": 1215,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 251
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007273,
+              "accounted_rmb": 0.0007273,
+              "usage_unknown": false,
+              "seconds": 1.4894757270812988,
+              "error": null,
+              "response": {
+                "id": "6fdc1bde-992d-4036-8c21-835ef6a0fa7d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "442f840808c285e4cd3ac08245f414cc7daf927aedb06000c0ffda22cc0daf6f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about scheduling and notification of hearings, but the answer is about canceling a hearing, which is not addressed in the context. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4633e73a137242328b6561ffc6551892",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1056,
+                "completion_tokens": 58,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 58,
+                  "prompt_tokens": 1056,
+                  "total_tokens": 1114,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 160
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005457999999999999,
+              "accounted_rmb": 0.0005457999999999999,
+              "usage_unknown": false,
+              "seconds": 1.060370922088623,
+              "error": null,
+              "response": {
+                "id": "2a64b4c3-3dcf-4352-ab21-1f39643b40b1",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "697cf752ad94389f63725f9303d8c547be0c7b436fb16ca495ba868eed528476"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about requesting a Board Appeal and mentions the option to request a hearing, but it does not contain any information about canceling a requested hearing. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ea973ea52c634fd2a2b9f1d173d69d38",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2036,
+                "completion_tokens": 61,
+                "cached_tokens": 1920,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 61,
+                  "prompt_tokens": 2036,
+                  "total_tokens": 2097,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1920,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1920,
+                  "prompt_cache_miss_tokens": 116
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005445,
+              "accounted_rmb": 0.0005445,
+              "usage_unknown": false,
+              "seconds": 1.6066651344299316,
+              "error": null,
+              "response": {
+                "id": "da40fd0a-2199-47a3-a779-434d0f34c760",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "9f34f19bf618238b4b9dc27f4e70613e06a9dd595d8e1122a9b75a284b4949cc"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific instructions on how to withdraw a hearing request, including the requirement to send a written request at least 2 weeks before the hearing and include name, VA file number, and reason. The answer directly reflects this information.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "78cd5910b48942e19e11dde4e096d1e4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1290,
+                "completion_tokens": 62,
+                "cached_tokens": 1280,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 62,
+                  "prompt_tokens": 1290,
+                  "total_tokens": 1352,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1280,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1280,
+                  "prompt_cache_miss_tokens": 10
+                }
+              },
+              "usage_cost_estimate_rmb": 0.000358,
+              "accounted_rmb": 0.000358,
+              "usage_unknown": false,
+              "seconds": 1.3458778858184814,
+              "error": null,
+              "response": {
+                "id": "58861589-9ec2-45f0-8cfc-0b310ff4f5c6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3f2455f74a4230971a2bfa6974becfa9e71672b0207c4b63de33f74e7cb47be9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about Board Appeal and decision review options but does not mention the specific procedure for canceling a requested hearing, such as the two-week notice or required details. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0d2724d47feb4528bf5b5f5f3761c3f5",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1872,
+                "completion_tokens": 65,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 1872,
+                  "total_tokens": 1937,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 80
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005021,
+              "accounted_rmb": 0.0005021,
+              "usage_unknown": false,
+              "seconds": 1.5679280757904053,
+              "error": null,
+              "response": {
+                "id": "03524ec8-8f84-485b-8fc9-2b55c0417b69",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "efce01ef88ef287645c6040b00befed9a3bb96aaf98958b8e8eb2674b2498ab4"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "7448a0ed4d400cbef80189d5ef4f3d718ccb11e1b74c89d70af399e7a70b9e8f"
+}

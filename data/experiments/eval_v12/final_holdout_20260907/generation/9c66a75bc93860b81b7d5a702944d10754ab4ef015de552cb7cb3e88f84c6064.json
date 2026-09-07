@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "c0cd6d24179dac92a05e1493ac43123a::agent-turn-9",
+    "item_sha256": "35ef9c2324fcebc2e8ba7a9572333e06030c68bd7bcebd42708f2e359b9bfec6",
+    "result": {
+      "request_id": "f4e61b95301e4b68a11a113bd9a74152",
+      "session_id": "c0cd6d24179dac92a05e1493ac43123a",
+      "turn_id": 8,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "Based on the information you provided, you do not meet the basic eligibility requirement for the Post-9/11 GI Bill, which requires at least 90 days of active duty service on or after September 11, 2001 (or other specific conditions like a Purple Heart or service-connected disability after 30 continuous days). Since you have not served on active duty after that date, you are not eligible for these education benefits. However, if you are a dependent child of a qualifying Veteran or service member who transferred benefits to you, you may still qualify. If that applies, please let me know.",
+        "citations": [
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0001"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+          "text": "[Post-9/11 GI Bill (Chapter 33) > Am I eligible for Post-9/11 GI Bill (Chapter 33) benefits?]\nThe Post-9/11 GI Bill (Chapter 33) helps you pay for school or job training. If you ve served on active duty after September 10, 2001, you may qualify for the Post-9/11 GI Bill (Chapter 33). Find out if you can get this education benefit.\n\nYou can get these education benefits if you meet at least one of the requirements listed below.\n\nAt least one of these must be true. You:\n\n- Served at least 90 days on active duty (either all at once or with breaks in service) on or after September 11, 2001, or\n- Received a Purple Heart on or after September 11, 2001, and were honorably discharged after any amount of service, or\n- Served for at least 30 continuous days (all at once, without a break in service) on or after September 11, 2001, and were honorably discharged with a service-connected disability, or\n- Are a dependent child using benefits transferred by a qualifying Veteran or service member\n\nNote: If you re a member of the Reserves who lost education benefits when the Reserve Educational Assistance Program (REAP) ended in November 2015, you may qualify to receive restored benefits under the Post-9/11 GI Bill."
+        },
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0003",
+          "text": "[Post-9/11 GI Bill (Chapter 33) > What benefits can I get through the Post-9/11 GI Bill (Chapter 33)?]\nYou can receive up to 36 months of benefits, including:\n\n- Tuition and fees. If you qualify for the maximum benefit, we ll cover the full cost of public, in-state tuition and fees. We cap the rates for private and foreign schools, and update those rates each year. View current rates\n- Money for housing (if you re in school more than half time). We ll base your monthly housing allowance on the cost of living where your school is located.\n- Money for books and supplies. You can receive up to $1,000 per school year.\n- Money to help you move from a rural area to go to school. You may qualify for this one-time payment of $500 if you live in a county with 6 or fewer people per square mile and you re either moving at least 500 miles to go to school or have no other option but to fly by plane to get to your school.\n\nHere s how we ll determine how much of the benefit you ll qualify for:\n\nThe specific amount you ll receive will depend on how much active service you ve had since September 10, 2001. We ll calculate this amount based on a percentage of the maximum benefit.\n\nFor example: If you had 90 days of active service since September 10, 2001, you would qualify for 40% of the maximum amount. If you served for 3 years, you would qualify for 100% of the benefit. So if your school charges $22,000 for in-state tuition and fees, you would receive $8,800 if you had 90 days of active service and the full $22,000 if you had 3 years of active service.\n\nNote that this will change August 1, 2020. In this example, 90 days of active service would qualify you for 50% of the maximum amount as of August 1, 2020."
+        },
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0001",
+          "text": "[GI法案及其他教育福利资格 > 我能否通过9/11后退伍军人GI法案获得VA教育福利？]\n了解GI法案资格要求，并查明您是否有资格获得这些福利。VA教育福利可以帮助您支付学费、选择学校、规划职业等。如果您是现役军人或退伍军人、国民警卫队或预备役成员，或是符合条件的遗属或家属，请了解您是否可以通过GI法案及其他教育援助计划获得VA教育福利。\n\n如果您在2001年9月10日之后服役至少90天，无论是连续服役（一次性）还是间断服役（分阶段累计），您可能有资格通过9/11后退伍军人GI法案获得福利。了解更多关于9/11后退伍军人GI法案的信息"
+        },
+        {
+          "chunk_id": "Yellow Ribbon Program | Veterans Affairs#1_0::c0000",
+          "text": "[Yellow Ribbon Program | Veterans Affairs > Yellow Ribbon Program]\nThe Yellow Ribbon Program can help you pay for higher out-of-state, private school, or graduate school tuition that the Post-9/11 GI Bill doesn t cover. Find out if your school takes part in this program.\n\n### Am I eligible for the Yellow Ribbon Program?\n\nYou may be eligible for this program if you and your school meet the requirements listed below.\n\n#### You must qualify for the maximum benefit rate under the Post-9/11 GI Bill.\n\nTo qualify, at least one of these must be true. You:\n\n- Served at least 36 months on active duty (either all at once or with breaks in service), or\n\n- Received a Purple Heart on or after September 11, 2001, and were honorably discharged after any amount of service, or\n\n- Received a Fry Scholarship on or after August 1, 2018, or\n\n- Served for at least 30 continuous days (all at once, without a break) on or after September 11, 2001, and were discharged after 60 days with a service-connected disability, or\n\n- Are a dependent child using benefits transferred by a Veteran or a service member who has served for at least 36 months on active duty and qualifies at the 100% level, or Find out about transferring Post-9/11 GI Bill benefits\n\n- Are receiving the Fry Scholarship (beginning August 1, 2018) Learn more about the Fry Scholarship\n\nNote: At this time, you re not eligible for the maximum benefit rate under the Post-9/11 GI Bill if you re an active-duty service member or the spouse of an active-duty service member. But, as of August 1, 2022, you may become eligible if you re an active-duty service member who qualifies at the 100% level, or the spouse using the transferred benefits of an active-duty service member who qualifies at the 100% level.\n\n#### And your school must meet certain requirements.\n\nAll of these must be true. Your school:\n\n- Offers the Yellow Ribbon Program, and\n\n- Hasn t offered the Yellow Ribbon benefit to more than the maximum number of students in their agreement with us, and\n\n- Has certified your enrollment with us and provided Yellow Ribbon Program information\n\nSee the list of schools that offer the Yellow Ribbon Program this year"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0003",
+          "text": "[军人退伍军人福利 > 您在服役期间和服役后可以使用的退伍军人事务部福利]\n- GI法案和其他教育福利\n\n了解您是否有资格获得退伍军人事务部教育福利，以帮助支付学校或培训费用。如果您符合9/11后退伍军人法案的资格，了解如何将未使用的福利转移给您的配偶或受抚养子女。面向军人（现役、国民警卫队和预备役）和退伍军人开放\n\n- 退伍军人事务部支持住房贷款的资格证明\n\n查看获得资格证明（COE）以购买、建造、改善或再融资房屋的要求。面向军人（现役、国民警卫队和预备役）和退伍军人开放\n\n- 为您和您的家人提供人寿保险\n\n了解您是否符合SGLI保险的资格以及如何管理您的SGLI保险，并了解您和您的家人在退役或退休后的保险选择。适用于军人和退伍军人（现役、国民警卫队和预备役）"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+          "text": "[Post-9/11 GI Bill (Chapter 33) > Am I eligible for Post-9/11 GI Bill (Chapter 33) benefits?]\nThe Post-9/11 GI Bill (Chapter 33) helps you pay for school or job training. If you ve served on active duty after September 10, 2001, you may qualify for the Post-9/11 GI Bill (Chapter 33). Find out if you can get this education benefit.\n\nYou can get these education benefits if you meet at least one of the requirements listed below.\n\nAt least one of these must be true. You:\n\n- Served at least 90 days on active duty (either all at once or with breaks in service) on or after September 11, 2001, or\n- Received a Purple Heart on or after September 11, 2001, and were honorably discharged after any amount of service, or\n- Served for at least 30 continuous days (all at once, without a break in service) on or after September 11, 2001, and were honorably discharged with a service-connected disability, or\n- Are a dependent child using benefits transferred by a qualifying Veteran or service member\n\nNote: If you re a member of the Reserves who lost education benefits when the Reserve Educational Assistance Program (REAP) ended in November 2015, you may qualify to receive restored benefits under the Post-9/11 GI Bill."
+        },
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0003",
+          "text": "[Post-9/11 GI Bill (Chapter 33) > What benefits can I get through the Post-9/11 GI Bill (Chapter 33)?]\nYou can receive up to 36 months of benefits, including:\n\n- Tuition and fees. If you qualify for the maximum benefit, we ll cover the full cost of public, in-state tuition and fees. We cap the rates for private and foreign schools, and update those rates each year. View current rates\n- Money for housing (if you re in school more than half time). We ll base your monthly housing allowance on the cost of living where your school is located.\n- Money for books and supplies. You can receive up to $1,000 per school year.\n- Money to help you move from a rural area to go to school. You may qualify for this one-time payment of $500 if you live in a county with 6 or fewer people per square mile and you re either moving at least 500 miles to go to school or have no other option but to fly by plane to get to your school.\n\nHere s how we ll determine how much of the benefit you ll qualify for:\n\nThe specific amount you ll receive will depend on how much active service you ve had since September 10, 2001. We ll calculate this amount based on a percentage of the maximum benefit.\n\nFor example: If you had 90 days of active service since September 10, 2001, you would qualify for 40% of the maximum amount. If you served for 3 years, you would qualify for 100% of the benefit. So if your school charges $22,000 for in-state tuition and fees, you would receive $8,800 if you had 90 days of active service and the full $22,000 if you had 3 years of active service.\n\nNote that this will change August 1, 2020. In this example, 90 days of active service would qualify you for 50% of the maximum amount as of August 1, 2020."
+        },
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0001",
+          "text": "[GI法案及其他教育福利资格 > 我能否通过9/11后退伍军人GI法案获得VA教育福利？]\n了解GI法案资格要求，并查明您是否有资格获得这些福利。VA教育福利可以帮助您支付学费、选择学校、规划职业等。如果您是现役军人或退伍军人、国民警卫队或预备役成员，或是符合条件的遗属或家属，请了解您是否可以通过GI法案及其他教育援助计划获得VA教育福利。\n\n如果您在2001年9月10日之后服役至少90天，无论是连续服役（一次性）还是间断服役（分阶段累计），您可能有资格通过9/11后退伍军人GI法案获得福利。了解更多关于9/11后退伍军人GI法案的信息"
+        },
+        {
+          "chunk_id": "Yellow Ribbon Program | Veterans Affairs#1_0::c0000",
+          "text": "[Yellow Ribbon Program | Veterans Affairs > Yellow Ribbon Program]\nThe Yellow Ribbon Program can help you pay for higher out-of-state, private school, or graduate school tuition that the Post-9/11 GI Bill doesn t cover. Find out if your school takes part in this program.\n\n### Am I eligible for the Yellow Ribbon Program?\n\nYou may be eligible for this program if you and your school meet the requirements listed below.\n\n#### You must qualify for the maximum benefit rate under the Post-9/11 GI Bill.\n\nTo qualify, at least one of these must be true. You:\n\n- Served at least 36 months on active duty (either all at once or with breaks in service), or\n\n- Received a Purple Heart on or after September 11, 2001, and were honorably discharged after any amount of service, or\n\n- Received a Fry Scholarship on or after August 1, 2018, or\n\n- Served for at least 30 continuous days (all at once, without a break) on or after September 11, 2001, and were discharged after 60 days with a service-connected disability, or\n\n- Are a dependent child using benefits transferred by a Veteran or a service member who has served for at least 36 months on active duty and qualifies at the 100% level, or Find out about transferring Post-9/11 GI Bill benefits\n\n- Are receiving the Fry Scholarship (beginning August 1, 2018) Learn more about the Fry Scholarship\n\nNote: At this time, you re not eligible for the maximum benefit rate under the Post-9/11 GI Bill if you re an active-duty service member or the spouse of an active-duty service member. But, as of August 1, 2022, you may become eligible if you re an active-duty service member who qualifies at the 100% level, or the spouse using the transferred benefits of an active-duty service member who qualifies at the 100% level.\n\n#### And your school must meet certain requirements.\n\nAll of these must be true. Your school:\n\n- Offers the Yellow Ribbon Program, and\n\n- Hasn t offered the Yellow Ribbon benefit to more than the maximum number of students in their agreement with us, and\n\n- Has certified your enrollment with us and provided Yellow Ribbon Program information\n\nSee the list of schools that offer the Yellow Ribbon Program this year"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0003",
+          "text": "[军人退伍军人福利 > 您在服役期间和服役后可以使用的退伍军人事务部福利]\n- GI法案和其他教育福利\n\n了解您是否有资格获得退伍军人事务部教育福利，以帮助支付学校或培训费用。如果您符合9/11后退伍军人法案的资格，了解如何将未使用的福利转移给您的配偶或受抚养子女。面向军人（现役、国民警卫队和预备役）和退伍军人开放\n\n- 退伍军人事务部支持住房贷款的资格证明\n\n查看获得资格证明（COE）以购买、建造、改善或再融资房屋的要求。面向军人（现役、国民警卫队和预备役）和退伍军人开放\n\n- 为您和您的家人提供人寿保险\n\n了解您是否符合SGLI保险的资格以及如何管理您的SGLI保险，并了解您和您的家人在退役或退休后的保险选择。适用于军人和退伍军人（现役、国民警卫队和预备役）"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+          "document": "Post-9/11 GI Bill | Veterans Affairs#1_0",
+          "heading": [
+            "Post-9/11 GI Bill (Chapter 33)",
+            "Am I eligible for Post-9/11 GI Bill (Chapter 33) benefits?"
+          ],
+          "source_file": "va_063.md",
+          "excerpt": "[Post-9/11 GI Bill (Chapter 33) > Am I eligible for Post-9/11 GI Bill (Chapter 33) benefits?]\nThe Post-9/11 GI Bill (Chapter 33) helps you pay for school or job training. If you ve served on active duty after September 10, 2001, you may qualify for the Post-9/11 GI Bill (Chapter 33). Find out if you can get this education benefit.\n\nYou can get these education benefits if you meet at least one of the requirements listed below.\n\nAt least one of these must be true. You:\n\n- Served at least 90 days on active duty (either all at once or with breaks in service) on or after September 11, 2001, or\n- Received a Purple Heart on or after September 11, 2001, and were honorably discharged after any amount of service, or\n- Served for at least 30 continuous days (all at once, without a break in service) on or after September 11, 2001, and were honorably discharged with a service-connected disability, or\n- Are a dependent child using benefits transferred by a qualifying Veteran or service member\n\nNote: If you re a member of the Reserves who lost education benefits when the Reserve Educational Assistance Program (REAP) ended in November 2015, you may qualify to receive restored benefits under the Post-9/11 GI Bill."
+        },
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0001",
+          "document": "GI Bill Eligibility | Veterans Affairs#1_0",
+          "heading": [
+            "GI法案及其他教育福利资格",
+            "我能否通过9/11后退伍军人GI法案获得VA教育福利？"
+          ],
+          "source_file": "va_047.md",
+          "excerpt": "[GI法案及其他教育福利资格 > 我能否通过9/11后退伍军人GI法案获得VA教育福利？]\n了解GI法案资格要求，并查明您是否有资格获得这些福利。VA教育福利可以帮助您支付学费、选择学校、规划职业等。如果您是现役军人或退伍军人、国民警卫队或预备役成员，或是符合条件的遗属或家属，请了解您是否可以通过GI法案及其他教育援助计划获得VA教育福利。\n\n如果您在2001年9月10日之后服役至少90天，无论是连续服役（一次性）还是间断服役（分阶段累计），您可能有资格通过9/11后退伍军人GI法案获得福利。了解更多关于9/11后退伍军人GI法案的信息"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "Based on the information you provided, you do not meet the basic eligibility requirement for the Post-9/11 GI Bill, which requires at least 90 days of active duty service on or after September 11, 2001 (or other specific conditions like a Purple Heart or service-connected disability after 30 continuous days). Since you have not served on active duty after that date, you are not eligible for these education benefits. However, if you are a dependent child of a qualifying Veteran or service member who transferred benefits to you, you may still qualify. If that applies, please let me know.",
+          "citations": [
+            "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+            "GI Bill Eligibility | Veterans Affairs#1_0::c0001"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "1ecacdb20dd643bd93907450f98cb75a",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2127,
+              "completion_tokens": 171,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 171,
+                "prompt_tokens": 2127,
+                "total_tokens": 2298,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1871
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0035888,
+            "accounted_rmb": 0.0035888,
+            "usage_unknown": false,
+            "seconds": 1.9268219470977783,
+            "error": null,
+            "response": {
+              "id": "51a7e3a8-9553-49d0-bee7-057f52275aa4",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "90d2838c44d6256e091ba70d553ceffcc22c3a4552404ae62894f4ec78263d5c"
+      },
+      "latency_ms": {
+        "queue_wait": 0.07408298552036285,
+        "retrieval": 1247.766957967542,
+        "generation": 1931.2418750487268,
+        "total": 3181.3752920133993
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2275667500216514,
+        "rerank_seconds": 1.0201367499539629,
+        "top1_dense_score": 0.8358275294303894,
+        "candidate_ids": [
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0005",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0003",
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0001",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0008",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0004",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0003",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0007",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0006",
+          "Yellow Ribbon Program | Veterans Affairs#1_0::c0002",
+          "VA Education Benefits | Veterans Affairs#2_0::c0004",
+          "Reserve Educational Assistance Program (REAP) | Veterans Affairs#1_0::c0000",
+          "GI Bill | Veterans Affairs#1_0::c0000",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0003",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0000",
+          "Yellow Ribbon Program | Veterans Affairs#1_0::c0000",
+          "VA Education Benefits | Veterans Affairs#2_0::c0002",
+          "VA Education Benefits | Veterans Affairs#1_0::c0001",
+          "Transfer Your Post-9/11 GI Bill Benefits | Veterans Affairs#1_0::c0000",
+          "Undergraduate And Graduate Degrees | Veterans Affairs#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 31,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.247743249987252
+      },
+      "raw_citations": [
+        "Post-9/11 GI Bill | Veterans Affairs#1_0::c0001",
+        "GI Bill Eligibility | Veterans Affairs#1_0::c0001"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "0f0a684a0c8d6b9d1fc1d176742c296c38b868076dd4c509663141707617a9a3"
+}

@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-006",
+    "item_sha256": "7e749a22a0432dfddde1bf3427d8e5d7960344bc9c710474bcf18057aa7a6e0b",
+    "result": {
+      "request_id": "4b281b3aaa154540b118e16e9380a22f",
+      "session_id": "synthetic::eval-v1-holdout-refuse-006",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "我无法访问您的个人账户或查看您当前绑定的银行账号。要查看或更改您的VA直接存款信息，您可以登录VA.gov（适用于残疾补偿和养老金福利）或eBenefits（适用于教育福利）进行在线操作，或致电800-827-1000。",
+        "citations": [
+          "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "text": "[军人退伍军人福利 > 作为退伍军人需要考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 退伍军人养老金计划\n\n如果您在战时服过现役，年满65岁或患有与服务相关的残疾，且收入有限或没有收入，请了解您是否有资格获得退伍军人养老金福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果您在日常活动中需要帮助，或者您被困在家中，请检查您是否有资格在每月的退伍军人养老金支付中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果您有与服务相关的残疾，请了解如何申请住房补助金，以便对您的房屋进行改造，使您能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为您和您的家人提供的寿险保障选项和服务，并在线管理您的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先确定是否符合在VA国家公墓安葬的资格\n\n申请预先确定资格决定信，以确认您有资格在VA国家公墓安葬。这可以帮助您提前规划，并可以在您的家人需要时使流程更加简便。仅面向现役退伍军人开放\n\n最后更新：\n\n#### VA转型援助计划\n\n探索您的职业选择，并了解如何获取您已赢得的VA福利。\n\n- #### 给我们发消息\n\n- 在线提问\n\n#### 给我们打电话\n\n- VA福利热线：800-827-1000\n  - eBenefits技术支持：800-983-0937\n  - 拨打MyVA311寻求帮助：844-698-2311\n  - 如果您有听力损失，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人事务部\n\n#### 获取更新\n\n- VA电子邮件更新\n\n#### 关注我们\n\n- 退伍军人事务部 Facebook\n  - 退伍军人事务部 Instagram\n  - 退伍军人事务部 Twitter\n  - 退伍军人事务部 YouTube"
+        },
+        {
+          "chunk_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "text": "# 更改您的 VA 直接存款信息 | Veterans Affairs\n\n# 更改您的 VA 直接存款信息\n\n在线更改您的残疾补偿、养老金福利或教育福利的 VA 直接存款信息。\n\n## 如何在线更改我的 VA 直接存款信息？\n\n这取决于您正在领取的福利类型。您可以通过更新您的 VA.gov 个人资料来更改残疾补偿和养老金福利的信息。要更改 GI Bill 和其他教育福利的信息，您需要登录 eBenefits。\n\n### **残疾补偿和养老金福利支付**\n\n#### 我们正在 VA.gov 上测试直接存款功能\n\n我们正在将直接存款功能引入 VA.gov。目前并非所有人都能使用此功能。如果您在个人资料中看到直接存款功能，您可以从那里更新您的直接存款信息。如果您在个人资料中没有看到此功能，请前往 eBenefits 并登录以更改您的直接存款信息。\n\n注意：您需要您的银行路由号码以及您的账号。\n\n#### 要取消您的直接存款支付、从纸质支票切换到直接存款，或更改您纸质支票上的地址\n\n请致电 800-827-1000。我们的服务时间为周一至周五，东部时间上午 8:00 至晚上 9:00。或者前往您最近的 VA 地区办事处。\n\n### 教育福利\n\n### 您需要登录 eBenefits 才能在线更改您的 VA 直接存款和联系信息。\n\n要使用此功能，您需要 Premium DS Logon 账户。您的 My HealtheVet 或 ID.me 凭据在 eBenefits 网站上无效。前往 eBenefits 登录、注册或将您的 DS Logon 账户升级为 Premium。前往 eBenefits 更改您的信息\n\n注意：您需要您的银行名称、地址、电话号码和路由号码以及您的账号。\n\n## 还有其他方式更改我的 VA 直接存款或联系信息吗？\n\n是的。您可以通过邮寄或电话更改您的信息。\n\n### 通过邮寄\n\n填写 VA Direct Deposit Enrollment（VA 表格 24-0296）。下载 VA 表格 24-0296（PDF）\n\n将填写好的表格邮寄至：\n\nDepartment of Veterans Affairs 125 S. Main Street, Suite B Muskogee, OK 74401-7004\n\n### 通过电话\n\n致电 800-827-1000（TTY：800-829-4833）。\n\n我们周一至周五，东部时间上午 8:00 至晚上 9:00 提供服务。\n\n### 通过您的 VA.gov 个人资料更改地址\n\n您可以登录 VA.gov 并在您的 VA.gov 个人资料中更改地址或其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的信息。\n\n了解如何更改您在 VA 存档的地址\n\n## 如果我的其他信息发生变化，是否应联系 VA？\n\n是的。如果您更改婚姻状况、生育、收养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必更新您的信息。\n\n### **如果您搬家或更改邮寄地址**\n\n请务必更新您的联系信息，以便我们将有关您的福利和服务的信息以及您可能需要的任何处方、实验室检测结果或预约提醒发送到正确的地点。\n\n您可以在您的 VA.gov 个人资料中更改地址和其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的联系信息。了解如何更改您在 VA 存档的地址\n\n### **如果您的残疾评级为 30% 或更高**\n\n您或许可以将符合条件的家属添加到您的 VA 残疾补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n### **如果您的残疾恶化**\n\n您可以提交增加福利的申请。申请 VA 残疾增加\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0000",
+          "text": "军人退伍军人福利 | 退伍军人事务部"
+        },
+        {
+          "chunk_id": "VA Life Insurance | Veterans Affairs#1_0::c0000",
+          "text": "# VA人寿保险 | 退伍军人事务部\n\n# VA人寿保险\n\nVA人寿保险可以为退伍军人、服役人员及其配偶和受抚养子女提供财务保障。探索您的选择，管理您的保单，并提交索赔，以获得您应得的保险福利。\n\n### 本页内容\n\n- 获取VA人寿保险\n- 管理您的保单和福利\n- 更多信息和资源\n\n## 获取VA人寿保险\n\n- 关于VA保险选项和资格\n\n了解您可能有资格获得哪些人寿保险计划，以及每个计划您将获得的福利。\n\n- 完全残疾或绝症保单持有人的福利\n\n了解在某些情况下您是否可以免除保险费或提前领取福利。\n\n- 受益人财务咨询和在线遗嘱准备\n\n如果您参加了VA人寿保险计划，请了解您是否可以获得免费的财务规划和在线遗嘱准备服务。\n\n## 管理您的保单和福利\n\n- 在线访问您的保单\n\n了解如何在线查看保单状态、更新信息或支付保费。\n\n- 更新您的受益人\n\n保持关于您希望接收保险收益的人员信息最新。这将使您的家人在需要时更容易提交索赔。\n\n- 提交保险福利索赔\n\n了解如何根据您的保单申领VA人寿保险福利。\n\n- 查看您的上诉状态\n\n跟踪您的人寿保险上诉状态。\n\n- 转换为商业保单\n\n了解何时以及如何将您的VA人寿保险转换为商业保单。\n\n- 提交TSGLI上诉（VA表格SGLV 8600A）\n\n如果您收到了创伤性损伤保护人寿保险福利的拒绝信，且信中指示您使用此表格，请在信函中注明的日期前提交上诉。\n\n- 注册VGLI自动支付\n\n注册从您的银行账户自动支付退伍军人团体人寿保险保费。\n\n- 搜索未领取的保险资金\n\n如果您认为我们可能欠您VA保险单的资金，请按符合条件的退伍军人姓名搜索我们的未领取资金记录。\n\n## 更多信息和资源\n\n- 我需要多少人寿保险？\n\n使用我们的人寿保险需求计算器和VGLI比较问卷来帮助决定您需要多少人寿保险。\n\n- 关于SGLI/VGLI保险的传言和误解\n\n获取关于SGLI和VGLI保险常见传言、谣言和误解的事实。\n\n- 关于SGLI在线注册系统（SOES）\n\n了解我们新的在线注册Servicemembers' Group Life Insurance的流程。\n\n- 联系我们\n\n了解如何联系我们，就您的保单提出问题或申请福利索赔。\n\n- VA人寿保险表格\n\n查找并下载您申请和管理人寿保险福利所需的表格。\n\n- 出版物和手册\n\n下载人寿保险手册、指南和新闻通讯。\n\n- 强制电子支付\n\n了解要求我们通过电子资金转账支付所有福利的法律。\n\n- 可能导致您无法投保的医疗状况\n\n了解哪些医疗状况可能会使您在退役后难以获得私人寿险，以及如何确保您有保险保障。\n\n- 特别股息传闻\n\n了解关于没有有效政府人寿保险保单的退伍军人有特别股息的传闻真相。\n\n### 其他VA福利和服务\n\n- 丧葬福利和纪念物品\n\n获取安排葬礼的帮助，订购墓碑或其他纪念物品，并申请遗属和受抚养人福利。\n\n- 养老金福利\n\n了解您作为战时退伍军人或遗属配偶或子女是否有资格获得免税的每月付款。\n\n- VA医疗保健\n\n了解如何申请和管理您的VA医疗保健福利。\n\n最后更新：\n\n#### SGLI在线注册系统（SOES）\n\n了解我们为军人团体人寿保险（Servicemembers' Group Life Insurance）推出的全新在线注册系统。\n\n- #### 给我们发消息\n\n- 在线提问\n\n- #### 给我们打电话\n\n- SGLI或VGLI支持：800-419-1473\n  - 所有其他VA人寿保险计划：800-669-8477\n  - 如需帮助，请拨打MyVA311：844-698-2311\n  - 如果您有听力障碍，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人福利管理局\n\n#### 获取更新\n\n- 退伍军人福利电子邮件更新\n\n#### 关注我们\n\n- 退伍军人福利管理局Facebook\n  - 退伍军人福利管理局Instagram\n  - 退伍军人福利管理局Linkedin\n  - 退伍军人福利管理局Twitter\n  - 退伍军人福利管理局YouTube"
+        },
+        {
+          "chunk_id": "View Your VA Payment History | Veterans Affairs#1_0::c0000",
+          "text": "# 查看您的VA付款历史 | Veterans Affairs\n\n# 查看您的VA付款历史\n\n了解如何在线查看您的VA付款历史。\n\n### 您需要登录eBenefits才能查看您的付款历史。\n\n要使用此功能，您需要一个Premium DS Logon账户。您的My HealtheVet或ID.me凭据在eBenefits网站上无法使用。前往eBenefits登录、注册或将您的DS Logon账户升级为Premium。前往eBenefits查看付款\n\n## 登录后我可以查看哪些VA付款信息？\n\n如果您是退伍军人，您将看到您过去VA付款的历史，包括：\n\n- 残疾补偿\n- 养老金福利\n- 教育福利\n\n如果您是退伍军人或军人的遗属，您将看到您过去VA付款的历史，包括：\n\n- 遗属养老金福利\n- 遗属及家属教育援助（第35章福利）\n- 遗属及家属补偿（DIC）\n\n## 我什么时候可以收到第一笔残疾补偿付款？\n\n如果您的决定通知显示至少10%的残疾评级，您将在15天内收到第一笔付款。\n\n如果您在15天内未收到付款，请致电Veterans Help Line：800-827-1000（TTY：800-829-4833）。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n## 如果我需要更改直接存款或联系信息，该怎么办？\n\n### 通过以下任一方式更改您的信息\n\n在线更改您的信息，或联系您最近的VA区域福利办公室或资格办公室\n\n### 通过您的VA.gov个人资料更改地址\n\n您可以登录VA.gov并在您的VA.gov个人资料中更改您的地址和其他联系信息。这将更新您的残疾补偿、养老金福利、索赔和上诉、Vocational Rehabilitation & Employment (VR&E)以及VA医疗保健信息。了解如何更改您在VA存档的地址\n\n## 如果我的其他信息发生变化，是否需要联系 VA？\n\n是的。如果您的婚姻状况发生变化、生育子女、领养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必向我们更新您的信息。\n\n如果您的伤残等级为 30% 或更高，您或许可以将符合条件的家属添加到您的 VA 伤残补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n如果您的伤残情况恶化，您可以提交索赔申请增加福利。申请增加 VA 伤残补助\n\n最后更新："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "text": "[军人退伍军人福利 > 作为退伍军人需要考虑的其他VA福利]\n- 残疾补偿\n\n为与您的军事服务相关的状况提交残疾补偿索赔，并随时间管理您的福利。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 对退伍军人拥有的小企业的支持\n\n如果您曾在现役服役，请注册与VA开展业务，并获得对您退伍军人拥有的小企业的支持。如果您有与现役服役或训练相关的服务相关残疾，您可能有资格注册为服务残疾退伍军人拥有的小企业。适用于退伍军人（现役、国民警卫队和预备役）\n\n- 退伍军人养老金计划\n\n如果您在战时服过现役，年满65岁或患有与服务相关的残疾，且收入有限或没有收入，请了解您是否有资格获得退伍军人养老金福利。仅面向现役退伍军人开放\n\n- 援助和出勤或居家津贴\n\n如果您在日常活动中需要帮助，或者您被困在家中，请检查您是否有资格在每月的退伍军人养老金支付中增加援助。仅面向现役退伍军人开放\n\n- 残疾住房补助金\n\n如果您有与服务相关的残疾，请了解如何申请住房补助金，以便对您的房屋进行改造，使您能够更独立地生活。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 更多人寿保险选项\n\n探索为您和您的家人提供的寿险保障选项和服务，并在线管理您的保单。面向退伍军人（现役、国民警卫队和预备役）开放\n\n- 预先确定是否符合在VA国家公墓安葬的资格\n\n申请预先确定资格决定信，以确认您有资格在VA国家公墓安葬。这可以帮助您提前规划，并可以在您的家人需要时使流程更加简便。仅面向现役退伍军人开放\n\n最后更新：\n\n#### VA转型援助计划\n\n探索您的职业选择，并了解如何获取您已赢得的VA福利。\n\n- #### 给我们发消息\n\n- 在线提问\n\n#### 给我们打电话\n\n- VA福利热线：800-827-1000\n  - eBenefits技术支持：800-983-0937\n  - 拨打MyVA311寻求帮助：844-698-2311\n  - 如果您有听力损失，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人事务部\n\n#### 获取更新\n\n- VA电子邮件更新\n\n#### 关注我们\n\n- 退伍军人事务部 Facebook\n  - 退伍军人事务部 Instagram\n  - 退伍军人事务部 Twitter\n  - 退伍军人事务部 YouTube"
+        },
+        {
+          "chunk_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "text": "# 更改您的 VA 直接存款信息 | Veterans Affairs\n\n# 更改您的 VA 直接存款信息\n\n在线更改您的残疾补偿、养老金福利或教育福利的 VA 直接存款信息。\n\n## 如何在线更改我的 VA 直接存款信息？\n\n这取决于您正在领取的福利类型。您可以通过更新您的 VA.gov 个人资料来更改残疾补偿和养老金福利的信息。要更改 GI Bill 和其他教育福利的信息，您需要登录 eBenefits。\n\n### **残疾补偿和养老金福利支付**\n\n#### 我们正在 VA.gov 上测试直接存款功能\n\n我们正在将直接存款功能引入 VA.gov。目前并非所有人都能使用此功能。如果您在个人资料中看到直接存款功能，您可以从那里更新您的直接存款信息。如果您在个人资料中没有看到此功能，请前往 eBenefits 并登录以更改您的直接存款信息。\n\n注意：您需要您的银行路由号码以及您的账号。\n\n#### 要取消您的直接存款支付、从纸质支票切换到直接存款，或更改您纸质支票上的地址\n\n请致电 800-827-1000。我们的服务时间为周一至周五，东部时间上午 8:00 至晚上 9:00。或者前往您最近的 VA 地区办事处。\n\n### 教育福利\n\n### 您需要登录 eBenefits 才能在线更改您的 VA 直接存款和联系信息。\n\n要使用此功能，您需要 Premium DS Logon 账户。您的 My HealtheVet 或 ID.me 凭据在 eBenefits 网站上无效。前往 eBenefits 登录、注册或将您的 DS Logon 账户升级为 Premium。前往 eBenefits 更改您的信息\n\n注意：您需要您的银行名称、地址、电话号码和路由号码以及您的账号。\n\n## 还有其他方式更改我的 VA 直接存款或联系信息吗？\n\n是的。您可以通过邮寄或电话更改您的信息。\n\n### 通过邮寄\n\n填写 VA Direct Deposit Enrollment（VA 表格 24-0296）。下载 VA 表格 24-0296（PDF）\n\n将填写好的表格邮寄至：\n\nDepartment of Veterans Affairs 125 S. Main Street, Suite B Muskogee, OK 74401-7004\n\n### 通过电话\n\n致电 800-827-1000（TTY：800-829-4833）。\n\n我们周一至周五，东部时间上午 8:00 至晚上 9:00 提供服务。\n\n### 通过您的 VA.gov 个人资料更改地址\n\n您可以登录 VA.gov 并在您的 VA.gov 个人资料中更改地址或其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的信息。\n\n了解如何更改您在 VA 存档的地址\n\n## 如果我的其他信息发生变化，是否应联系 VA？\n\n是的。如果您更改婚姻状况、生育、收养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必更新您的信息。\n\n### **如果您搬家或更改邮寄地址**\n\n请务必更新您的联系信息，以便我们将有关您的福利和服务的信息以及您可能需要的任何处方、实验室检测结果或预约提醒发送到正确的地点。\n\n您可以在您的 VA.gov 个人资料中更改地址和其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的联系信息。了解如何更改您在 VA 存档的地址\n\n### **如果您的残疾评级为 30% 或更高**\n\n您或许可以将符合条件的家属添加到您的 VA 残疾补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n### **如果您的残疾恶化**\n\n您可以提交增加福利的申请。申请 VA 残疾增加\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0000",
+          "text": "军人退伍军人福利 | 退伍军人事务部"
+        },
+        {
+          "chunk_id": "VA Life Insurance | Veterans Affairs#1_0::c0000",
+          "text": "# VA人寿保险 | 退伍军人事务部\n\n# VA人寿保险\n\nVA人寿保险可以为退伍军人、服役人员及其配偶和受抚养子女提供财务保障。探索您的选择，管理您的保单，并提交索赔，以获得您应得的保险福利。\n\n### 本页内容\n\n- 获取VA人寿保险\n- 管理您的保单和福利\n- 更多信息和资源\n\n## 获取VA人寿保险\n\n- 关于VA保险选项和资格\n\n了解您可能有资格获得哪些人寿保险计划，以及每个计划您将获得的福利。\n\n- 完全残疾或绝症保单持有人的福利\n\n了解在某些情况下您是否可以免除保险费或提前领取福利。\n\n- 受益人财务咨询和在线遗嘱准备\n\n如果您参加了VA人寿保险计划，请了解您是否可以获得免费的财务规划和在线遗嘱准备服务。\n\n## 管理您的保单和福利\n\n- 在线访问您的保单\n\n了解如何在线查看保单状态、更新信息或支付保费。\n\n- 更新您的受益人\n\n保持关于您希望接收保险收益的人员信息最新。这将使您的家人在需要时更容易提交索赔。\n\n- 提交保险福利索赔\n\n了解如何根据您的保单申领VA人寿保险福利。\n\n- 查看您的上诉状态\n\n跟踪您的人寿保险上诉状态。\n\n- 转换为商业保单\n\n了解何时以及如何将您的VA人寿保险转换为商业保单。\n\n- 提交TSGLI上诉（VA表格SGLV 8600A）\n\n如果您收到了创伤性损伤保护人寿保险福利的拒绝信，且信中指示您使用此表格，请在信函中注明的日期前提交上诉。\n\n- 注册VGLI自动支付\n\n注册从您的银行账户自动支付退伍军人团体人寿保险保费。\n\n- 搜索未领取的保险资金\n\n如果您认为我们可能欠您VA保险单的资金，请按符合条件的退伍军人姓名搜索我们的未领取资金记录。\n\n## 更多信息和资源\n\n- 我需要多少人寿保险？\n\n使用我们的人寿保险需求计算器和VGLI比较问卷来帮助决定您需要多少人寿保险。\n\n- 关于SGLI/VGLI保险的传言和误解\n\n获取关于SGLI和VGLI保险常见传言、谣言和误解的事实。\n\n- 关于SGLI在线注册系统（SOES）\n\n了解我们新的在线注册Servicemembers' Group Life Insurance的流程。\n\n- 联系我们\n\n了解如何联系我们，就您的保单提出问题或申请福利索赔。\n\n- VA人寿保险表格\n\n查找并下载您申请和管理人寿保险福利所需的表格。\n\n- 出版物和手册\n\n下载人寿保险手册、指南和新闻通讯。\n\n- 强制电子支付\n\n了解要求我们通过电子资金转账支付所有福利的法律。\n\n- 可能导致您无法投保的医疗状况\n\n了解哪些医疗状况可能会使您在退役后难以获得私人寿险，以及如何确保您有保险保障。\n\n- 特别股息传闻\n\n了解关于没有有效政府人寿保险保单的退伍军人有特别股息的传闻真相。\n\n### 其他VA福利和服务\n\n- 丧葬福利和纪念物品\n\n获取安排葬礼的帮助，订购墓碑或其他纪念物品，并申请遗属和受抚养人福利。\n\n- 养老金福利\n\n了解您作为战时退伍军人或遗属配偶或子女是否有资格获得免税的每月付款。\n\n- VA医疗保健\n\n了解如何申请和管理您的VA医疗保健福利。\n\n最后更新：\n\n#### SGLI在线注册系统（SOES）\n\n了解我们为军人团体人寿保险（Servicemembers' Group Life Insurance）推出的全新在线注册系统。\n\n- #### 给我们发消息\n\n- 在线提问\n\n- #### 给我们打电话\n\n- SGLI或VGLI支持：800-419-1473\n  - 所有其他VA人寿保险计划：800-669-8477\n  - 如需帮助，请拨打MyVA311：844-698-2311\n  - 如果您有听力障碍，请拨打TTY：711。\n\n&nbsp;\n\n- #### 退伍军人福利管理局\n\n#### 获取更新\n\n- 退伍军人福利电子邮件更新\n\n#### 关注我们\n\n- 退伍军人福利管理局Facebook\n  - 退伍军人福利管理局Instagram\n  - 退伍军人福利管理局Linkedin\n  - 退伍军人福利管理局Twitter\n  - 退伍军人福利管理局YouTube"
+        },
+        {
+          "chunk_id": "View Your VA Payment History | Veterans Affairs#1_0::c0000",
+          "text": "# 查看您的VA付款历史 | Veterans Affairs\n\n# 查看您的VA付款历史\n\n了解如何在线查看您的VA付款历史。\n\n### 您需要登录eBenefits才能查看您的付款历史。\n\n要使用此功能，您需要一个Premium DS Logon账户。您的My HealtheVet或ID.me凭据在eBenefits网站上无法使用。前往eBenefits登录、注册或将您的DS Logon账户升级为Premium。前往eBenefits查看付款\n\n## 登录后我可以查看哪些VA付款信息？\n\n如果您是退伍军人，您将看到您过去VA付款的历史，包括：\n\n- 残疾补偿\n- 养老金福利\n- 教育福利\n\n如果您是退伍军人或军人的遗属，您将看到您过去VA付款的历史，包括：\n\n- 遗属养老金福利\n- 遗属及家属教育援助（第35章福利）\n- 遗属及家属补偿（DIC）\n\n## 我什么时候可以收到第一笔残疾补偿付款？\n\n如果您的决定通知显示至少10%的残疾评级，您将在15天内收到第一笔付款。\n\n如果您在15天内未收到付款，请致电Veterans Help Line：800-827-1000（TTY：800-829-4833）。我们周一至周五，东部时间上午8:00至晚上9:00提供服务。\n\n## 如果我需要更改直接存款或联系信息，该怎么办？\n\n### 通过以下任一方式更改您的信息\n\n在线更改您的信息，或联系您最近的VA区域福利办公室或资格办公室\n\n### 通过您的VA.gov个人资料更改地址\n\n您可以登录VA.gov并在您的VA.gov个人资料中更改您的地址和其他联系信息。这将更新您的残疾补偿、养老金福利、索赔和上诉、Vocational Rehabilitation & Employment (VR&E)以及VA医疗保健信息。了解如何更改您在VA存档的地址\n\n## 如果我的其他信息发生变化，是否需要联系 VA？\n\n是的。如果您的婚姻状况发生变化、生育子女、领养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必向我们更新您的信息。\n\n如果您的伤残等级为 30% 或更高，您或许可以将符合条件的家属添加到您的 VA 伤残补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n如果您的伤残情况恶化，您可以提交索赔申请增加福利。申请增加 VA 伤残补助\n\n最后更新："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "document": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_022.md",
+          "excerpt": "# 更改您的 VA 直接存款信息 | Veterans Affairs\n\n# 更改您的 VA 直接存款信息\n\n在线更改您的残疾补偿、养老金福利或教育福利的 VA 直接存款信息。\n\n## 如何在线更改我的 VA 直接存款信息？\n\n这取决于您正在领取的福利类型。您可以通过更新您的 VA.gov 个人资料来更改残疾补偿和养老金福利的信息。要更改 GI Bill 和其他教育福利的信息，您需要登录 eBenefits。\n\n### **残疾补偿和养老金福利支付**\n\n#### 我们正在 VA.gov 上测试直接存款功能\n\n我们正在将直接存款功能引入 VA.gov。目前并非所有人都能使用此功能。如果您在个人资料中看到直接存款功能，您可以从那里更新您的直接存款信息。如果您在个人资料中没有看到此功能，请前往 eBenefits 并登录以更改您的直接存款信息。\n\n注意：您需要您的银行路由号码以及您的账号。\n\n#### 要取消您的直接存款支付、从纸质支票切换到直接存款，或更改您纸质支票上的地址\n\n请致电 800-827-1000。我们的服务时间为周一至周五，东部时间上午 8:00 至晚上 9:00。或者前往您最近的 VA 地区办事处。\n\n### 教育福利\n\n### 您需要登录 eBenefits 才能在线更改您的 VA 直接存款和联系信息。\n\n要使用此功能，您需要 Premium DS Logon 账户。您的 My HealtheVet 或 ID.me 凭据在 eBenefits 网站上无效。前往 eBenefits 登录、注册或将您的 DS Logon 账户升级为 Premium。前往 eBenefits 更改您的信息\n\n注意：您需要您的银行名称、地址、电话号码和路由号码以及您的账号。\n\n## 还有其他方式更改我的 VA 直接存款或联系信息吗？\n\n是的。您可以通过邮寄或电话更改您的信息。\n\n### 通过邮寄\n\n填写 VA Direct Deposit Enrollment（VA 表格 24-0296）。下载 VA 表格 24-0296（PDF）\n\n将填写好的表格邮寄至：\n\nDepartment of Veterans Affairs 125 S. Main Street, Suite B Muskogee, OK 74401-7004\n\n### 通过电话\n\n致电 800-827-1000（TTY：800-829-4833）。\n\n我们周一至周五，东部时间上午 8:00 至晚上 9:00 提供服务。\n\n### 通过您的 VA.gov 个人资料更改地址\n\n您可以登录 VA.gov 并在您的 VA.gov 个人资料中更改地址或其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的信息。\n\n了解如何更改您在 VA 存档的地址\n\n## 如果我的其他信息发生变化，是否应联系 VA？\n\n是的。如果您更改婚姻状况、生育、收养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必更新您的信息。\n\n### **如果您搬家或更改邮寄地址**\n\n请务必更新您的联系信息，以便我们将有关您的福利和服务的信息以及您可能需要的任何处方、实验室检测结果或预约提醒发送到正确的地点。\n\n您可以在您的 VA.gov 个人资料中更改地址和其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的联系信息。了解如何更改您在 VA 存档的地址\n\n### **如果您的残疾评级为 30% 或更高**\n\n您或许可以将符合条件的家属添加到您的 VA 残疾补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n### **如果您的残疾恶化**\n\n您可以提交增加福利的申请。申请 VA 残疾增加\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "我无法访问您的个人账户或查看您当前绑定的银行账号。要查看或更改您的VA直接存款信息，您可以登录VA.gov（适用于残疾补偿和养老金福利）或eBenefits（适用于教育福利）进行在线操作，或致电800-827-1000。",
+          "citations": [
+            "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "cca50bfa25484992af951221825e3132",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3109,
+              "completion_tokens": 94,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 94,
+                "prompt_tokens": 3109,
+                "total_tokens": 3203,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2853
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0047153,
+            "accounted_rmb": 0.0047153,
+            "usage_unknown": false,
+            "seconds": 1.674116849899292,
+            "error": null,
+            "response": {
+              "id": "f8276f29-f2a7-4921-8544-c5c8296886e4",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "ca8c92972d208088ae4c3b668d34644bbafec0a5d1fc92e13cb7b08399d6a696"
+      },
+      "latency_ms": {
+        "queue_wait": 0.043500098399817944,
+        "retrieval": 782.5960000045598,
+        "generation": 1676.9660420250148,
+        "total": 2460.548875038512
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1140294159995392,
+        "rerank_seconds": 0.6685041249729693,
+        "top1_dense_score": 0.62971431016922,
+        "candidate_ids": [
+          "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "VA Education Benefits | Veterans Affairs#1_0::c0005",
+          "How To Apply For A Veteran ID Card | Veterans Affairs#1_0::c0000",
+          "Direct Deposit | Social Security Administration#1_0::c0000",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0007",
+          "Social Security Direct Deposit | Social Security Administration#2_0::c0000",
+          "Request Your Military Service Records | Veterans Affairs#1_0::c0000",
+          "Social Security Direct Deposit | Social Security Administration#1_0::c0000",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0000",
+          "VA Life Insurance | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0042",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0002",
+          "View Your VA Payment History | Veterans Affairs#1_0::c0000",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0028",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0033",
+          "VA Education Benefits | Veterans Affairs#1_0::c0004",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0019",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0010"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 32,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.7825783330481499
+      },
+      "raw_citations": [
+        "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "4924bca7c67d627a796249387fe8a789c28f0f26a2ffc821f075e7feb918a6a0"
+}

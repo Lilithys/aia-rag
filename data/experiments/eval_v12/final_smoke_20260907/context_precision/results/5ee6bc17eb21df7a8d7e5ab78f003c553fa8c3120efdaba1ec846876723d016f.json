@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "5ee6bc17eb21df7a8d7e5ab78f003c553fa8c3120efdaba1ec846876723d016f",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.9999999999,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about replacing a non-driver ID and mentions that a Standard ID would not be accepted for boarding a domestic flight starting in October 2020, which aligns with the answer. Thus, the context was useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1b1d38f76bde42ff9074a689460c7002",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1086,
+                "completion_tokens": 61,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 61,
+                  "prompt_tokens": 1086,
+                  "total_tokens": 1147,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 62
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004187,
+              "accounted_rmb": 0.0004187,
+              "usage_unknown": false,
+              "seconds": 1.1830120086669922,
+              "error": null,
+              "response": {
+                "id": "f2b75acb-95b5-4ef0-a704-ad6123cde55a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "47e884763bdeefccd5417e0de643aee6d156b92799fb675b9c858b835a4859af"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context only mentions '更换非驾驶员身份证' which is a title or heading, and does not contain any information about Standard ID or boarding flights. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2c89f453b8be4f83b7141c46e3ecd39e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1002,
+                "completion_tokens": 54,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 54,
+                  "prompt_tokens": 1002,
+                  "total_tokens": 1056,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 106
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004468,
+              "accounted_rmb": 0.0004468,
+              "usage_unknown": false,
+              "seconds": 1.163442850112915,
+              "error": null,
+              "response": {
+                "id": "245bec5f-a9a0-4d60-b476-cf77cf66a2f2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "38508f236dc3eef7e11d5b92add44adc28ee71e75ca46f81d1c5288f05eb4f21"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses replacing driver's licenses and permits, not non-driver IDs, and does not mention Standard ID restrictions for flights. The answer about Standard ID not being accepted for domestic flights is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "9d03b4a7f15d47c29f33324130d560bd",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1106,
+                "completion_tokens": 59,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 59,
+                  "prompt_tokens": 1106,
+                  "total_tokens": 1165,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 82
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004397,
+              "accounted_rmb": 0.0004397,
+              "usage_unknown": false,
+              "seconds": 1.2164597511291504,
+              "error": null,
+              "response": {
+                "id": "b1cb3b85-aa5c-4ab0-8894-22bef9aaa2df",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7413684592a47e9e6ce050161f45f0429f6f68889df973fc272a0ffe92364074"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context only mentions a PDF file name and does not contain any information about standard IDs or flight boarding rules, so it was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1100520cc6cb46ca9078d70517956a60",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1015,
+                "completion_tokens": 48,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 48,
+                  "prompt_tokens": 1015,
+                  "total_tokens": 1063,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 119
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004393,
+              "accounted_rmb": 0.0004393,
+              "usage_unknown": false,
+              "seconds": 1.2349987030029297,
+              "error": null,
+              "response": {
+                "id": "9f78137c-6e7b-4ce2-bd7e-bf714fc44d93",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6e3b0ae10c6fd5072f321a2a7eb713b5afe2537ffb571ed093dd927f28ce592e"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses replacing a non-driver ID online and mentions that a Standard ID will show 'NOT FOR FEDERAL PURPOSES', but it does not provide information about boarding flights or the acceptance of Standard IDs for federal purposes. The answer about Standard ID not being accepted for domestic flights starting in October 2020 is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "56232053336c4d7aa59443149fc4fd08",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1089,
+                "completion_tokens": 86,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 86,
+                  "prompt_tokens": 1089,
+                  "total_tokens": 1175,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 65
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005357000000000001,
+              "accounted_rmb": 0.0005357000000000001,
+              "usage_unknown": false,
+              "seconds": 1.2344930171966553,
+              "error": null,
+              "response": {
+                "id": "01721d2a-6f64-4fbf-bb7d-e76dbe6ecefc",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "04bf53075aecaf6159f612b9c0e92db4db97860bd9ca3f2bf8464fe621708095"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "616050493c07f94d39c83227c6b4975bb89acc193af140af244e1a25999ddb63"
+}

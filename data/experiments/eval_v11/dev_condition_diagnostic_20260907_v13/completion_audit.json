@@ -1,0 +1,14 @@
+{
+  "old_probe_terminal_results": 10,
+  "old_probe_unknown": 3,
+  "new_probe_terminal_results": 10,
+  "new_probe_expected_outcomes": 10,
+  "new_probe_validation_failures": 0,
+  "diagnostic_only_extra_inspections": 3,
+  "total_api_attempts": 26,
+  "total_accounted_rmb": 0.1850626,
+  "all_usage_known": true,
+  "independent_human_calibration_complete": false,
+  "old_scores_and_gold_unchanged": true,
+  "new_probe_report_sha256": "2378a62c6bc466a099156af3fcaeaec9ed883ba4b7e1801e764bc7806784fa55"
+}

@@ -1,0 +1,22 @@
+name: Local regression
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      TIKTOKEN_CACHE_DIR: data/experiments/tokenizer_cache
+      RAGAS_DO_NOT_TRACK: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --frozen
+      - run: uv run python -m unittest discover -s tests
+      - run: uv run python -m src.verify
+      - run: uv run python -m src.evaluation.analyze_final --root data/experiments/eval_v12/final_holdout_20260907 --check

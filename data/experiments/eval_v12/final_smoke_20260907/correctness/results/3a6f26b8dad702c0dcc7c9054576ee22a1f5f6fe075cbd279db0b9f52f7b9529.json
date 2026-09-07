@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "3a6f26b8dad702c0dcc7c9054576ee22a1f5f6fe075cbd279db0b9f52f7b9529",
+    "binding_sha256": "de953b39e4f172568379a2b85344f65373d2a2666e7b31a04fc2a8495563efcc",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "Even if never worked under Social Security, may qualify for spouse benefits if conditions met",
+                "coverage": "covered",
+                "response_quote": "即使您从未在Social Security下工作过，只要您年满62岁且您的配偶正在领取退休或残疾福利，您就可能符合配偶退休福利的资格",
+                "reason": "Response directly confirms eligibility and states key conditions from source."
+              }
+            ],
+            "reason": "The response accurately answers the question with supported conditions and details from the retrieved documents, with no unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "01a4882cbb0c414181768aff50630481",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5164,
+                "completion_tokens": 146,
+                "cached_tokens": 1152,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 146,
+                  "prompt_tokens": 5164,
+                  "total_tokens": 5310,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1152,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1152,
+                  "prompt_cache_miss_tokens": 4012
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0067326,
+              "accounted_rmb": 0.0067326,
+              "usage_unknown": false,
+              "seconds": 1.8371169567108154,
+              "error": null,
+              "response": {
+                "id": "77b3aa66-9c09-4f5c-a1ee-bb92dad1091a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "af578f24f0da1a31d6969fc06cf00eef73a83ea179581e718351974b67bfa913"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "Even if never worked under Social Security, may qualify for spouse benefits if conditions met",
+            "coverage": "covered",
+            "response_quote": "即使您从未在Social Security下工作过，只要您年满62岁且您的配偶正在领取退休或残疾福利，您就可能符合配偶退休福利的资格",
+            "reason": "Response directly confirms eligibility and states key conditions from source."
+          }
+        ],
+        "reason": "The response accurately answers the question with supported conditions and details from the retrieved documents, with no unsupported claims."
+      }
+    }
+  },
+  "sha256": "be8d5b65649f4c47a43cb26dc63cf9dc7f4e2a4ccdd4ee00f00ecccce556991e"
+}

@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-009",
+    "item_sha256": "6d28d154ec94cf0a49b82e0453414cee3caeac06523519d73b08d110ce0be98f",
+    "result": {
+      "request_id": "36a4a5e7d5a3448aa7299ce837305826",
+      "session_id": "synthetic::eval-v1-holdout-refuse-009",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "I don't have enough relevant information in this knowledge base. Please clarify the question or ask about the covered services.",
+        "action": "refuse",
+        "citations": []
+      },
+      "contexts": [],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Get a CDL#1_0::c0008",
+          "text": "[Topic:]\n- Commercial Drivers [13]"
+        },
+        {
+          "chunk_id": "Register a vehicle when you are out-of-state#1_0::c0022",
+          "text": "[在州外注册车辆]\n主题："
+        },
+        {
+          "chunk_id": "Escort driver certification#1_0::c0013",
+          "text": "[护航驾驶员认证 [1]]\n禁用此交易？："
+        },
+        {
+          "chunk_id": "File a Freedom of Information Law (FOIL) request#1_0::c0015",
+          "text": "[提交信息自由法 (FOIL) 请求 [1]]\n禁用此交易？："
+        },
+        {
+          "chunk_id": "Pay suspension termination fee#1_0::c0010",
+          "text": "[支付暂停终止费 [1]]\n禁用此交易？："
+        }
+      ],
+      "citations": [],
+      "citation_check": "not_applicable",
+      "error_type": null,
+      "call": null,
+      "latency_ms": {
+        "queue_wait": 0.009499955922365189,
+        "retrieval": 149.13949999026954,
+        "total": 149.5292920153588
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.06375904195010662,
+        "rerank_seconds": 0.08535679103806615,
+        "top1_dense_score": 0.43826305866241455,
+        "candidate_ids": [
+          "Get a driver license#1_0::c0019",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0015",
+          "Plead to or pay TVB tickets#1_0::c0007",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0005",
+          "Escort driver certification#1_0::c0013",
+          "Pay driver civil penalty#1_0::c0015",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0004",
+          "Replace a non-driver ID card#1_0::c0008",
+          "Get a CDL#1_0::c0008",
+          "Replace license or permit#1_0::c0010",
+          "Pay driver civil penalty#1_0::c0017",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0000",
+          "Get a driver license#1_0::c0022",
+          "About New York State Inspections#3_0::c0016",
+          "Get a CDL#1_0::c0005",
+          "About New York State Inspections#3_0::c0005",
+          "Register a vehicle when you are out-of-state#1_0::c0028",
+          "Register a vehicle when you are out-of-state#1_0::c0022",
+          "Pay suspension termination fee#1_0::c0010",
+          "Get a driver license#1_0::c0027"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 20,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.1491332920268178
+      },
+      "refusal_reason": "low_retrieval_confidence",
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "9b97a9a49580c39109cd521c979748c6e9d58e1afa2f4496de193956888d1aba"
+}

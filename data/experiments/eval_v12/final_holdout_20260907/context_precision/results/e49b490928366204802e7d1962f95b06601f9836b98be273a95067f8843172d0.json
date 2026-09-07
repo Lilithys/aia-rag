@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "e49b490928366204802e7d1962f95b06601f9836b98be273a95067f8843172d0",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.0,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context does not mention the VA Foreign Medical Program or provide information about moving outside the United States. Therefore, it was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "83d37056eda849a98500ee034c2c5d0b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1709,
+                "completion_tokens": 48,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 48,
+                  "prompt_tokens": 1709,
+                  "total_tokens": 1757,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 941
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0016659,
+              "accounted_rmb": 0.0016659,
+              "usage_unknown": false,
+              "seconds": 1.2983009815216064,
+              "error": null,
+              "response": {
+                "id": "564faf6c-d4a4-48bf-9ac2-396fc06683ca",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c9d4d96d5d596b6cedd1d0965610bd4e5017ebe043ff1dbc12476af7b1dfe121"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context does not mention the VA Foreign Medical Program or provide information about moving outside the US. Therefore, it was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "88415bce25a54c48bd2dccedd889a34a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1713,
+                "completion_tokens": 47,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 47,
+                  "prompt_tokens": 1713,
+                  "total_tokens": 1760,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 945
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0016674,
+              "accounted_rmb": 0.0016674,
+              "usage_unknown": false,
+              "seconds": 1.3105542659759521,
+              "error": null,
+              "response": {
+                "id": "2bcf0f90-8ff3-477d-89fe-d4682c41643c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e36e0bd603e4d4210e2fc75fa6a150aadbbf3dce8250f6385ccd1f3e7db608d1"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA healthcare services but does not mention the Foreign Medical Program or address the specific question about moving outside the US. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c16f02b5b3c44642b68533eed59f41cc",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1242,
+                "completion_tokens": 57,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 1242,
+                  "total_tokens": 1299,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 218
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006347000000000001,
+              "accounted_rmb": 0.0006347000000000001,
+              "usage_unknown": false,
+              "seconds": 1.5625431537628174,
+              "error": null,
+              "response": {
+                "id": "51600c05-5e57-4612-b36b-2a1fc2251385",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c356c2bcffc17250e3f84a8199731a4eb060068a1a8d6cbf126f55c9b442ee4b"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA benefits and healthcare but does not mention the VA Foreign Medical Program or specific requirements for moving outside the US. Therefore, it was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "92cd17d892d24ef0820a3cfef7da2b72",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1817,
+                "completion_tokens": 55,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1817,
+                  "total_tokens": 1872,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 793
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014882,
+              "accounted_rmb": 0.0014882,
+              "usage_unknown": false,
+              "seconds": 1.3719251155853271,
+              "error": null,
+              "response": {
+                "id": "b7e95d81-4528-4704-9583-895ebf800037",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0eefe07043dce4464404fa6c0d7a4af314d503b7733ad04e304193435c384eb0"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provided is about VA mental health services and does not contain information about the VA Foreign Medical Program or moving outside the US. Therefore, it was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7938918d42a742f49aee2fba18a17543",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1941,
+                "completion_tokens": 54,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 54,
+                  "prompt_tokens": 1941,
+                  "total_tokens": 1995,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 917
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0016697,
+              "accounted_rmb": 0.0016697,
+              "usage_unknown": false,
+              "seconds": 1.2959439754486084,
+              "error": null,
+              "response": {
+                "id": "8c11f636-8828-4b61-9d2e-6bfe9065a8c8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "aadcc6b43b997ce422ebc980facba9f3649b8c6d37519c178ce4ece80d2bb332"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "13455bbe45afdd2dc640bd8b7cc7e6bc6dcd63327c01a407cddc61f0dfa84e00"
+}

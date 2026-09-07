@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "968f66aba67e8d07cbfd1ee527a0349569c6dd5f1d420be08def1ff136311f0b",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0001"
+                ],
+                "reason": "The context states that a non-driver ID can be replaced if lost, damaged, or after an address change, and the user's standard ID falls under this category."
+              },
+              {
+                "text": "但请注意，在线更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0003"
+                ],
+                "reason": "The context explicitly warns that replacing a Standard ID online will result in the new card displaying 'NOT FOR FEDERAL PURPOSES'."
+              },
+              {
+                "text": "如果您希望获得Enhanced或REAL ID，建议前往DMV办理，以避免日后再次前往。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Replace a non-driver ID card#1_0::c0001"
+                ],
+                "reason": "The context recommends visiting the DMV to get an Enhanced or REAL ID to avoid a future trip, which aligns with the response's advice."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3224297f5aeb4d6cbfffbf6427ebecb0",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1011,
+                "completion_tokens": 323,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 323,
+                  "prompt_tokens": 1011,
+                  "total_tokens": 1334,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 499
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0022275999999999997,
+              "accounted_rmb": 0.0022275999999999997,
+              "usage_unknown": false,
+              "seconds": 2.1668829917907715,
+              "error": null,
+              "response": {
+                "id": "2c7c963a-16a0-43eb-81ff-e005c744691b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a3acccc4880286e34d1b89e36fa49e0914cd4bdacf2b21735a961b640e1848d9"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0001"
+          ],
+          "reason": "The context states that a non-driver ID can be replaced if lost, damaged, or after an address change, and the user's standard ID falls under this category."
+        },
+        {
+          "text": "但请注意，在线更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0003"
+          ],
+          "reason": "The context explicitly warns that replacing a Standard ID online will result in the new card displaying 'NOT FOR FEDERAL PURPOSES'."
+        },
+        {
+          "text": "如果您希望获得Enhanced或REAL ID，建议前往DMV办理，以避免日后再次前往。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0001"
+          ],
+          "reason": "The context recommends visiting the DMV to get an Enhanced or REAL ID to avoid a future trip, which aligns with the response's advice."
+        }
+      ]
+    }
+  },
+  "sha256": "848da0e723ca6250625ca3807a7a54f058de05e58c0a55e293611b4d2491da2c"
+}

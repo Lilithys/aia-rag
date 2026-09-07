@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "65e33ad2ff548dc9a04e000220ae9d292baecf609e4b539f122555c8236f6ccf",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "primary caregiver benefits include education/training, monthly stipend, travel/lodging assistance, CHAMPVA if otherwise ineligible, mental health services, and up to 30 days respite",
+                "coverage": "covered",
+                "response_quote": "照护者教育和培训、每月津贴（付款）、陪同退伍军人接受护理时的旅行/住宿/经济援助、通过CHAMPVA获得的医疗保健福利（若您不符合其他医疗保健计划资格）、心理健康服务和咨询，以及每年最多30天的临时护理",
+                "reason": "Response lists all essential benefits accurately."
+              },
+              {
+                "requirement": "benefits depend on being primary vs secondary caregiver",
+                "coverage": "covered",
+                "response_quote": "次要照护者的福利可能有所不同",
+                "reason": "Notes distinction."
+              },
+              {
+                "requirement": "eligibility depends on Veteran meeting specific requirements",
+                "coverage": "covered",
+                "response_quote": "资格取决于您所照护的退伍军人是否符合特定要求",
+                "reason": "Correctly conditions eligibility."
+              }
+            ],
+            "reason": "The response fully answers the question with accurate benefits and conditions, supported by the retrieved document."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0b011336c7b84219affe1c9c8ca88f28",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2885,
+                "completion_tokens": 272,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 272,
+                  "prompt_tokens": 2885,
+                  "total_tokens": 3157,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1989
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0042523000000000005,
+              "accounted_rmb": 0.0042523000000000005,
+              "usage_unknown": false,
+              "seconds": 2.5258898735046387,
+              "error": null,
+              "response": {
+                "id": "fbcbba6d-c653-4dfc-a070-ce29b4444cef",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "74ca9ae5efbe9b8e71bea47b7ec458c6538be11e0ba0f901fe5232fc6fe95e5f"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "primary caregiver benefits include education/training, monthly stipend, travel/lodging assistance, CHAMPVA if otherwise ineligible, mental health services, and up to 30 days respite",
+            "coverage": "covered",
+            "response_quote": "照护者教育和培训、每月津贴（付款）、陪同退伍军人接受护理时的旅行/住宿/经济援助、通过CHAMPVA获得的医疗保健福利（若您不符合其他医疗保健计划资格）、心理健康服务和咨询，以及每年最多30天的临时护理",
+            "reason": "Response lists all essential benefits accurately."
+          },
+          {
+            "requirement": "benefits depend on being primary vs secondary caregiver",
+            "coverage": "covered",
+            "response_quote": "次要照护者的福利可能有所不同",
+            "reason": "Notes distinction."
+          },
+          {
+            "requirement": "eligibility depends on Veteran meeting specific requirements",
+            "coverage": "covered",
+            "response_quote": "资格取决于您所照护的退伍军人是否符合特定要求",
+            "reason": "Correctly conditions eligibility."
+          }
+        ],
+        "reason": "The response fully answers the question with accurate benefits and conditions, supported by the retrieved document."
+      }
+    }
+  },
+  "sha256": "3daed837ad0284d9a41627c4f0c92cdcbb6a4f34982a47872aaa2fc7d45271d3"
+}

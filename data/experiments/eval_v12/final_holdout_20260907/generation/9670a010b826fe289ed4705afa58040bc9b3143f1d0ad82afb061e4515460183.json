@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "0544ea775d6a6355e977fdeef80cb115::agent-turn-10",
+    "item_sha256": "c0973b14e14ded139bb1d77840aaa89334f839b09e3efe91b8407ea516dd6bae",
+    "result": {
+      "request_id": "7f77b0928ac149e29f22ac57cbeecdcd",
+      "session_id": "0544ea775d6a6355e977fdeef80cb115",
+      "turn_id": 9,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "To change your address with Social Security, log in to your my Social Security account, select the 'My Profile' link, then 'Update Contact Information,' enter your new address, schedule the update, and submit. If you don't have an account, you can create one for free in less than 10 minutes. This online service is not available for people receiving Supplemental Security Income (SSI) or those without a U.S. mailing address; in those cases, you can check your address on record via the My Profile tab or call 1-800-772-1213.",
+        "citations": [
+          "Change of Address| Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Change of Address| Social Security Administration#2_0::c0000",
+          "text": "# Change of Address| Social Security Administration\n\n### Change your Address and Telephone number online\n\nAre you moving, currently receiving benefits or enrolled in Medicare and want to know how to change your address? You can change and update your information anytime, anywhere by logging in to or creating a free my Social Security account.\n\nSign inCreate your account\n\n### How to change your address?\n\nIf you get Social Security benefits (retirement, survivors, or disability), you can update your contact information in a safe, quick, and convenient way by following these five steps:\n\n1.  Log in to my Social Security.\n2.  Select the My Profile link on the right side of the screen.\n3.  Select the Update Contact Information button and enter your address information.\n4.  Select when would you like to schedule the update, then select Next.\n5.  Review and verify your information, select Submit .\n\nThis service is not currently available to people who receive Supplemental Security Income (SSI) or do not have a U.S. mailing address. However, if you are receiving SSI, you can easily check your address we have on record via the My Profile Tab on my Social Security.\n\n### Sign in to your my Social Security account and update your information\n\nAlready have a my Social Security Account?\n\nSign In to your account below and go to My Profile tab to change and update your contact information.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you change and update your information and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Still have questions?\n\nIf you have questions or need help understanding how to change your address and telephone number online, call our toll-free number a 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        },
+        {
+          "chunk_id": "Change of Address| Social Security Administration#1_0::c0000",
+          "text": "# 地址变更 | Social Security Administration\n\n## 地址变更\n\n### 在线更改您的地址和电话号码\n\n您是否正在搬家、目前正在领取福利或已加入Medicare，并想知道如何更改地址？您可以随时随地在my Social Security账户中登录或创建免费账户来更改和更新您的信息。\n\n登录创建您的账户\n\n### 如何更改您的地址？\n\n如果您领取Social Security福利（退休、遗属或残疾），您可以通过以下五个步骤安全、快速、便捷地更新您的联系信息：\n\n1.  登录my Social Security。\n2.  选择屏幕右侧的My Profile链接。\n3.  选择Update Contact Information按钮并输入您的地址信息。\n4.  选择您希望安排更新的时间，然后选择Next。\n5.  查看并验证您的信息，选择Submit。\n\n此服务目前不适用于领取Supplemental Security Income (SSI)或没有美国邮寄地址的人。但是，如果您正在领取SSI，您可以通过my Social Security上的My Profile标签轻松查看我们记录中的地址。\n\n### 登录您的my Social Security账户并更新您的信息\n\n已经有my Social Security账户？\n\n在下方登录您的账户，然后转到My Profile标签以更改和更新您的联系信息。\n\n没有my Social Security账户？\n\n创建免费的my Social Security账户只需不到10分钟，让您能够更改和更新您的信息，并让您使用许多其他在线服务。\n\n了解更多注册\n\n### 仍有疑问？\n\n如果您对如何在线更改地址和电话号码有疑问或需要帮助，请拨打我们的免费电话1-800-772-1213或访问您的Social Security办公室。如果您是聋人或听力障碍者，请在周一至周五上午7点至下午7点之间拨打我们的免费TTY号码1-800-325-0778。"
+        },
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#2_0::c0000",
+          "text": "# Direct Deposit | Social Security Administration\n\n### Set Up or Change Your Direct Deposit of Benefit Payment\n\nDo you want to set up or change the direct deposit of your benefit payment? We are constantly expanding and improving our online services, including the ability to set up or change your direct deposit information. If you already receive Social Security or Supplemental Security Income (SSI) benefits and you have a bank account, simply log in to or create your personal and secure my Social Security account.\n\nSign inCreate your account\n\n### What is Direct Deposit?\n\nDirect deposit is a simple, safe, and secure way to get benefits. If you need us to send your payment to a bank or credit union account, have all of the following information ready when you apply.\n\n- Social Security number\n- Bank routing transit number\n- Account type (checking or savings)\n- Account number\n\nHow to Set Up or Change Direct Deposit of Benefit Payment Online\n\nLog in to your account.\n\nSign in and Select the blue Benefits & Payment Details link on the right side of the screen.\n\nScroll down and select the Update Direct Deposit button, and choose if you are the owner or co-owner of the bank account.\n\nEnter your bank account information and select Next.\n\nReview and verify your banking information and select Submit then select Done.\n\nYou can also decide when your change will take effect, by simply using the My Profile tab within my Social Security.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you set up or change your direct deposit and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Additional information related to this service\n\nAs of March 1, 2013, you are required to receive your payments electronically. If you applied for benefits before that date and did not sign up for electronic payments at that time, we strongly urge you to do so now. For more information regarding switching to an electronic payment if you don t have a bank account, visit Treasury s Go Direct website or call the helpline at 1-800-333-1795.\n\n### Still have questions?\n\nIf you have questions or need help understanding how to set up or change direct deposit online, call our toll-free number at 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        },
+        {
+          "chunk_id": "my Social Security | Create an Account | Social Security Administratio#2_0::c0000",
+          "text": "# my Social Security | Create an Account | Social Security Administratio\n\nTo create a my Social Security account, you ll be asked to:\n\n1.  Verify your identity by providing personal information about yourself and answering questions that only you are likely to know.\n2.  Create a username and password you ll use to access your online account.\n3.  Confirm your email address or phone number by entering a one-time security code within 10 minutes of receiving it in order to help keep your personal information safe.\n\n## Do you have a security freeze or fraud alert on your credit report?\n\nIf you have a security freeze, fraud alert, or both on your credit report, you can still open a my Social Security account by temporarily lifting it.\n\n1.  Contact our Identity Services Provider and request that they temporarily lift your security freeze or fraud alert.\n2.  Create a my Social Security account online after lifting the security freeze or fraud alert.\n3.  Reinstate the security freeze or fraud alert with the Identity Services Provider if needed. When you request a temporary lift of your credit freeze or fraud alert, the Identity Services Provider may automatically reinstate it after your temporary lift expires.\n\nIf you don t want to temporarily lift your security freeze or fraud alert, you can visit your local Social Security office to open an account in person. For more information on security freezes and fraud alerts, read the Federal Trade Commission s Credit Freeze FAQs.\n\n## Your personal my Social Security account is for your use only\n\nSocial Security is dedicated to protecting the information and resources entrusted to us, including your personal information and investment. For your protection, you re the only one who can create your personal my Social Security account for your own exclusive use. No one can create or use an account on your behalf, even with written permission. Don t share the use of your account with anyone else under any circumstances, as unauthorized use of this service is a misrepresentation of your identity to the federal government and could subject you to criminal or civil penalties, or both."
+        },
+        {
+          "chunk_id": "my Social Security | Create an Account | Social Security Administratio#1_0::c0000",
+          "text": "# my Social Security | Create an Account | Social Security Administratio\n\n## my  Social Security \\| Create an Account\n\nTo create a my Social Security account, you ll be asked to:\n\n1.  Verify your identity by providing personal information about yourself and answering questions that only you are likely to know.\n2.  Create a username and password you ll use to access your online account.\n3.  Confirm your email address or phone number by entering a one-time security code within 10 minutes of receiving it in order to help keep your personal information safe.\n\n## Do you have a security freeze or fraud alert on your credit report?\n\nIf you have a security freeze, fraud alert, or both on your credit report, you can still open a my Social Security account by temporarily lifting it.\n\n1.  Contact our Identity Services Provider and request that they temporarily lift your security freeze or fraud alert.\n2.  Create a my Social Security account online after lifting the security freeze or fraud alert.\n3.  Reinstate the security freeze or fraud alert with the Identity Services Provider if needed. When you request a temporary lift of your credit freeze or fraud alert, the Identity Services Provider may automatically reinstate it after your temporary lift expires.\n\nIf you don t want to temporarily lift your security freeze or fraud alert, you can visit your local Social Security office to open an account in person. For more information on security freezes and fraud alerts, read the Federal Trade Commission s Credit Freeze FAQs.\n\n## Your personal my Social Security account is for your use only\n\nSocial Security is dedicated to protecting the information and resources entrusted to us, including your personal information and investment. For your protection, you re the only one who can create your personal my Social Security account for your own exclusive use. No one can create or use an account on your behalf, even with written permission. Don t share the use of your account with anyone else under any circumstances, as unauthorized use of this service is a misrepresentation of your identity to the federal government and could subject you to criminal or civil penalties, or both."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Change of Address| Social Security Administration#2_0::c0000",
+          "text": "# Change of Address| Social Security Administration\n\n### Change your Address and Telephone number online\n\nAre you moving, currently receiving benefits or enrolled in Medicare and want to know how to change your address? You can change and update your information anytime, anywhere by logging in to or creating a free my Social Security account.\n\nSign inCreate your account\n\n### How to change your address?\n\nIf you get Social Security benefits (retirement, survivors, or disability), you can update your contact information in a safe, quick, and convenient way by following these five steps:\n\n1.  Log in to my Social Security.\n2.  Select the My Profile link on the right side of the screen.\n3.  Select the Update Contact Information button and enter your address information.\n4.  Select when would you like to schedule the update, then select Next.\n5.  Review and verify your information, select Submit .\n\nThis service is not currently available to people who receive Supplemental Security Income (SSI) or do not have a U.S. mailing address. However, if you are receiving SSI, you can easily check your address we have on record via the My Profile Tab on my Social Security.\n\n### Sign in to your my Social Security account and update your information\n\nAlready have a my Social Security Account?\n\nSign In to your account below and go to My Profile tab to change and update your contact information.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you change and update your information and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Still have questions?\n\nIf you have questions or need help understanding how to change your address and telephone number online, call our toll-free number a 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        },
+        {
+          "chunk_id": "Change of Address| Social Security Administration#1_0::c0000",
+          "text": "# 地址变更 | Social Security Administration\n\n## 地址变更\n\n### 在线更改您的地址和电话号码\n\n您是否正在搬家、目前正在领取福利或已加入Medicare，并想知道如何更改地址？您可以随时随地在my Social Security账户中登录或创建免费账户来更改和更新您的信息。\n\n登录创建您的账户\n\n### 如何更改您的地址？\n\n如果您领取Social Security福利（退休、遗属或残疾），您可以通过以下五个步骤安全、快速、便捷地更新您的联系信息：\n\n1.  登录my Social Security。\n2.  选择屏幕右侧的My Profile链接。\n3.  选择Update Contact Information按钮并输入您的地址信息。\n4.  选择您希望安排更新的时间，然后选择Next。\n5.  查看并验证您的信息，选择Submit。\n\n此服务目前不适用于领取Supplemental Security Income (SSI)或没有美国邮寄地址的人。但是，如果您正在领取SSI，您可以通过my Social Security上的My Profile标签轻松查看我们记录中的地址。\n\n### 登录您的my Social Security账户并更新您的信息\n\n已经有my Social Security账户？\n\n在下方登录您的账户，然后转到My Profile标签以更改和更新您的联系信息。\n\n没有my Social Security账户？\n\n创建免费的my Social Security账户只需不到10分钟，让您能够更改和更新您的信息，并让您使用许多其他在线服务。\n\n了解更多注册\n\n### 仍有疑问？\n\n如果您对如何在线更改地址和电话号码有疑问或需要帮助，请拨打我们的免费电话1-800-772-1213或访问您的Social Security办公室。如果您是聋人或听力障碍者，请在周一至周五上午7点至下午7点之间拨打我们的免费TTY号码1-800-325-0778。"
+        },
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#2_0::c0000",
+          "text": "# Direct Deposit | Social Security Administration\n\n### Set Up or Change Your Direct Deposit of Benefit Payment\n\nDo you want to set up or change the direct deposit of your benefit payment? We are constantly expanding and improving our online services, including the ability to set up or change your direct deposit information. If you already receive Social Security or Supplemental Security Income (SSI) benefits and you have a bank account, simply log in to or create your personal and secure my Social Security account.\n\nSign inCreate your account\n\n### What is Direct Deposit?\n\nDirect deposit is a simple, safe, and secure way to get benefits. If you need us to send your payment to a bank or credit union account, have all of the following information ready when you apply.\n\n- Social Security number\n- Bank routing transit number\n- Account type (checking or savings)\n- Account number\n\nHow to Set Up or Change Direct Deposit of Benefit Payment Online\n\nLog in to your account.\n\nSign in and Select the blue Benefits & Payment Details link on the right side of the screen.\n\nScroll down and select the Update Direct Deposit button, and choose if you are the owner or co-owner of the bank account.\n\nEnter your bank account information and select Next.\n\nReview and verify your banking information and select Submit then select Done.\n\nYou can also decide when your change will take effect, by simply using the My Profile tab within my Social Security.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you set up or change your direct deposit and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Additional information related to this service\n\nAs of March 1, 2013, you are required to receive your payments electronically. If you applied for benefits before that date and did not sign up for electronic payments at that time, we strongly urge you to do so now. For more information regarding switching to an electronic payment if you don t have a bank account, visit Treasury s Go Direct website or call the helpline at 1-800-333-1795.\n\n### Still have questions?\n\nIf you have questions or need help understanding how to set up or change direct deposit online, call our toll-free number at 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        },
+        {
+          "chunk_id": "my Social Security | Create an Account | Social Security Administratio#2_0::c0000",
+          "text": "# my Social Security | Create an Account | Social Security Administratio\n\nTo create a my Social Security account, you ll be asked to:\n\n1.  Verify your identity by providing personal information about yourself and answering questions that only you are likely to know.\n2.  Create a username and password you ll use to access your online account.\n3.  Confirm your email address or phone number by entering a one-time security code within 10 minutes of receiving it in order to help keep your personal information safe.\n\n## Do you have a security freeze or fraud alert on your credit report?\n\nIf you have a security freeze, fraud alert, or both on your credit report, you can still open a my Social Security account by temporarily lifting it.\n\n1.  Contact our Identity Services Provider and request that they temporarily lift your security freeze or fraud alert.\n2.  Create a my Social Security account online after lifting the security freeze or fraud alert.\n3.  Reinstate the security freeze or fraud alert with the Identity Services Provider if needed. When you request a temporary lift of your credit freeze or fraud alert, the Identity Services Provider may automatically reinstate it after your temporary lift expires.\n\nIf you don t want to temporarily lift your security freeze or fraud alert, you can visit your local Social Security office to open an account in person. For more information on security freezes and fraud alerts, read the Federal Trade Commission s Credit Freeze FAQs.\n\n## Your personal my Social Security account is for your use only\n\nSocial Security is dedicated to protecting the information and resources entrusted to us, including your personal information and investment. For your protection, you re the only one who can create your personal my Social Security account for your own exclusive use. No one can create or use an account on your behalf, even with written permission. Don t share the use of your account with anyone else under any circumstances, as unauthorized use of this service is a misrepresentation of your identity to the federal government and could subject you to criminal or civil penalties, or both."
+        },
+        {
+          "chunk_id": "my Social Security | Create an Account | Social Security Administratio#1_0::c0000",
+          "text": "# my Social Security | Create an Account | Social Security Administratio\n\n## my  Social Security \\| Create an Account\n\nTo create a my Social Security account, you ll be asked to:\n\n1.  Verify your identity by providing personal information about yourself and answering questions that only you are likely to know.\n2.  Create a username and password you ll use to access your online account.\n3.  Confirm your email address or phone number by entering a one-time security code within 10 minutes of receiving it in order to help keep your personal information safe.\n\n## Do you have a security freeze or fraud alert on your credit report?\n\nIf you have a security freeze, fraud alert, or both on your credit report, you can still open a my Social Security account by temporarily lifting it.\n\n1.  Contact our Identity Services Provider and request that they temporarily lift your security freeze or fraud alert.\n2.  Create a my Social Security account online after lifting the security freeze or fraud alert.\n3.  Reinstate the security freeze or fraud alert with the Identity Services Provider if needed. When you request a temporary lift of your credit freeze or fraud alert, the Identity Services Provider may automatically reinstate it after your temporary lift expires.\n\nIf you don t want to temporarily lift your security freeze or fraud alert, you can visit your local Social Security office to open an account in person. For more information on security freezes and fraud alerts, read the Federal Trade Commission s Credit Freeze FAQs.\n\n## Your personal my Social Security account is for your use only\n\nSocial Security is dedicated to protecting the information and resources entrusted to us, including your personal information and investment. For your protection, you re the only one who can create your personal my Social Security account for your own exclusive use. No one can create or use an account on your behalf, even with written permission. Don t share the use of your account with anyone else under any circumstances, as unauthorized use of this service is a misrepresentation of your identity to the federal government and could subject you to criminal or civil penalties, or both."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Change of Address| Social Security Administration#2_0::c0000",
+          "document": "Change of Address| Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_054.md",
+          "excerpt": "# Change of Address| Social Security Administration\n\n### Change your Address and Telephone number online\n\nAre you moving, currently receiving benefits or enrolled in Medicare and want to know how to change your address? You can change and update your information anytime, anywhere by logging in to or creating a free my Social Security account.\n\nSign inCreate your account\n\n### How to change your address?\n\nIf you get Social Security benefits (retirement, survivors, or disability), you can update your contact information in a safe, quick, and convenient way by following these five steps:\n\n1.  Log in to my Social Security.\n2.  Select the My Profile link on the right side of the screen.\n3.  Select the Update Contact Information button and enter your address information.\n4.  Select when would you like to schedule the update, then select Next.\n5.  Review and verify your information, select Submit .\n\nThis service is not currently available to people who receive Supplemental Security Income (SSI) or do not have a U.S. mailing address. However, if you are receiving SSI, you can easily check your address we have on record via the My Profile Tab on my Social Security.\n\n### Sign in to your my Social Security account and update your information\n\nAlready have a my Social Security Account?\n\nSign In to your account below and go to My Profile tab to change and update your contact information.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you change and update your information and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Still have questions?\n\nIf you have questions or need help understanding how to change your address and telephone number online, call our toll-free number a 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "To change your address with Social Security, log in to your my Social Security account, select the 'My Profile' link, then 'Update Contact Information,' enter your new address, schedule the update, and submit. If you don't have an account, you can create one for free in less than 10 minutes. This online service is not available for people receiving Supplemental Security Income (SSI) or those without a U.S. mailing address; in those cases, you can check your address on record via the My Profile tab or call 1-800-772-1213.",
+          "citations": [
+            "Change of Address| Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "4caf43e191ff421ba8de468e1dbe2650",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2639,
+              "completion_tokens": 149,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 149,
+                "prompt_tokens": 2639,
+                "total_tokens": 2788,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2383
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0042578,
+            "accounted_rmb": 0.0042578,
+            "usage_unknown": false,
+            "seconds": 1.87550687789917,
+            "error": null,
+            "response": {
+              "id": "fe6e87e5-b2b5-4138-93f2-bb4df68c7e9e",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "bb924f6fcb14f0e296cb79861de5f8424ce79270a9f880e49a2f916a596b8aed"
+      },
+      "latency_ms": {
+        "queue_wait": 0.048749963752925396,
+        "retrieval": 1435.7312500942498,
+        "generation": 1882.1735830279067,
+        "total": 3319.749457994476
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1897166669368744,
+        "rerank_seconds": 1.2459208329673856,
+        "top1_dense_score": 0.8253123760223389,
+        "candidate_ids": [
+          "Change of Address| Social Security Administration#1_0::c0000",
+          "Change of Address| Social Security Administration#2_0::c0000",
+          "my Social Security | Create an Account | Social Security Administratio#1_0::c0000",
+          "my Social Security | Create an Account | Social Security Administratio#2_0::c0000",
+          "Retirement Benefits | Social Security Administration#1_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0002",
+          "Manage Your Retirement Benefits | SSA#1_0::c0000",
+          "Retirement Benefits | Social Security Administration#2_0::c0005",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0::c0002",
+          "Retirement Benefits | Social Security Administration#1_0::c0005",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#2_0_1::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1_2::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0::c0000",
+          "Direct Deposit | Social Security Administration#2_0::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0::c0000",
+          "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1::c0000",
+          "Direct Deposit | Social Security Administration#1_0::c0000",
+          "Disability Benefits | Social Security Administration#2_0::c0006",
+          "Retirement Benefits | Social Security Administration#2_0::c0006"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 40,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.4357109169941396
+      },
+      "raw_citations": [
+        "Change of Address| Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "8c212ffe85d41ee425d2123ebea42a1ac70e76a4839b1c7b08e0dff0b4053be0"
+}

@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "5be1ef6220c8630c1f2293dcb7165307::agent-turn-6",
+    "item_sha256": "307ff163f47272e981d918cba18ddafe76f8cab88f72a597695c87070d80fcd4",
+    "result": {
+      "request_id": "3a75cbefc0dd4217818b49a92270434c",
+      "session_id": "5be1ef6220c8630c1f2293dcb7165307",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "要获得联邦学生贷款，您需要先完成并提交联邦学生援助免费申请（FAFSA）表格。学校将根据您的FAFSA结果向您发送经济援助方案，其中可能包含联邦学生贷款。接受贷款后，您需要完成入学咨询（entrance counseling）并签署主本票（Master Promissory Note），以确认您理解还款义务并同意贷款条款。具体流程请联系您计划就读学校的财政援助办公室。",
+        "citations": [
+          "Loans | Federal Student Aid#1_0::c0005",
+          "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Federal Versus Private Loans | Federal Student Aid#1_0::c0000",
+          "text": "# 联邦贷款与私人贷款 | 联邦学生援助\n\n# 在支付大学、职业学校或研究生院费用时，联邦学生贷款相比私人学生贷款可以提供多项优势。\n\n需要贷款来帮助支付大学费用吗？先考虑联邦贷款！\n\n如果你申请经济援助，你的学校很可能会将学生贷款作为你经济援助计划的一部分。了解你被提供的贷款类型很重要。一般来说，有两种类型的学生贷款：联邦贷款和私人贷款。\n\n- 联邦学生贷款和联邦家长贷款：这些贷款由联邦政府资助。\n- 私人学生贷款：这些贷款是非联邦贷款，由银行、信用合作社、州机构或学校等贷方提供。\n\n## 如果你需要借钱支付大学或职业学校费用，从联邦贷款开始。\n\n联邦学生贷款是\n\n- 直接补贴贷款和直接非补贴贷款，以及\n- 直接PLUS贷款（针对研究生和专业学生）。\n\n联邦家长贷款是\n\n- 直接PLUS贷款（针对家长）。家长对这些贷款负有全部偿还责任，即使这些贷款是为了帮助学生而借的。\n\n## 联邦学生贷款和私人学生贷款有什么区别？\n\n联邦学生贷款由政府提供，其条款和条件由法律规定，并包含许多私人贷款通常不提供的福利（如固定利率和基于收入的还款计划）。\n\n相比之下，私人贷款由私人组织提供，如银行、信用合作社以及州级或州附属组织，其条款和条件由贷方设定。私人学生贷款通常比联邦学生贷款更昂贵。\n\n下面的图表提供了差异的摘要。\n\n私人贷款因贷方和贷款类型而异。请确保你了解你的贷款条款，并就你可能有的任何问题与你的贷方保持联系。\n\n## 我如何获得联邦学生贷款？\n\n要获得联邦贷款，你必须首先完成联邦学生援助免费申请（FAFSA）表格。了解更多关于申请援助的信息。"
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0001",
+          "text": "[Federal student loans for college or career school are an investment in your future. > What types of federal student loans are available?]\nYou must repay your loan, so be sure you understand your options and responsibilities.\n\nIf you apply for financial aid, you may be offered loans as part of your school s financial aid offer. A loan is money you borrow and must pay back with interest.\n\nIf you decide to take out a loan, make sure you understand who is making the loan and the terms and conditions of the loan. Student loans can come from the federal government, from private sources such as a bank or financial institution, or from other organizations. Loans made by the federal government, called federal student loans, usually have more benefits than loans from banks or other private sources. Learn more about the differences between federal and private student loans.\n\nThe U.S. Department of Education s federal student loan program is the William D. Ford Federal Direct Loan (Direct Loan) Program. Under this program, the U.S. Department of Education is your lender. There are four types of Direct Loans available:\n\n- Direct Subsidized Loans are loans made to eligible undergraduate students who demonstrate financial need to help cover the costs of higher education at a college or career school.\n- Direct Unsubsidized Loans are loans made to eligible undergraduate, graduate, and professional students, but eligibility is not based on financial need.\n- Direct PLUS Loans are loans made to graduate or professional students and parents of dependent undergraduate students to help pay for education expenses not covered by other financial aid. Eligibility is not based on financial need, but a credit check is required. Borrowers who have an adverse credit history must meet additional requirements to qualify.\n- Direct Consolidation Loans allow you to combine all of your eligible federal student loans into a single loan with a single loan servicer.\n\nTry This Resource*Federal Student Loan Programs* Lists federal student loan programs with loan details and award limits."
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0003",
+          "text": "[Federal student loans for college or career school are an investment in your future. > Why should I take out federal student loans?]\nFederal student loans are an investment in your future. You should not be afraid to take out federal student loans, but you should be smart about it.\n\nFederal student loans offer many benefits compared to other options you may consider when paying for college:\n\n- The interest rate on federal student loans is fixed and usually lower than that on private loans and much lower than that on a credit card!\n- You don t need a credit check or a cosigner to get most federal student loans.\n- You don t have to begin repaying your federal student loans until after you leave college or drop below half-time.\n- If you demonstrate financial need, the government pays the interest on some loan types while you are in school and during some periods after school.\n- Federal student loans offer flexible repayment plans and options to postpone your loan payments if you re having trouble making payments.\n- If you work in certain jobs, you may be eligible to have a portion of your federal student loans forgiven if you meet certain conditions."
+        },
+        {
+          "chunk_id": "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000",
+          "text": "# 完成财政援助流程 | 联邦学生援助\n\n# 完成财政援助流程\n\n你已经完成了最重要的任务——提交联邦学生援助免费申请（FAFSA）表格。了解接下来需要做什么。\n\n# 后续步骤\n\n财政援助流程中还有几个步骤。\n\n# 01\n\n## 了解信息\n\n了解援助是如何计算的。\n\n# 02\n\n## 比较援助方案\n\n查看学校的财政援助方案。\n\n# 03\n\n## 回复援助方案\n\n接受所选学校的援助。\n\n# 04\n\n## 签署贷款协议\n\n完成*主本票*（MPN）。\n\n# 05\n\n## 完成入学咨询\n\n在获得第一笔贷款或TEACH助学金之前，完成咨询。\n\n# 获取你的资金\n\n## 你的学院或职业学校，而非美国教育部，将发放你的经济援助。\n\n了解你的学校何时支付你的援助，以及每笔支付涵盖的时期。\n\n了解如果课程开始时你尚未获得经济援助，如何支付教材费用。\n\n了解你将如何获得援助——这完全取决于你获得的援助类型。"
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0005",
+          "text": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Federal Versus Private Loans | Federal Student Aid#1_0::c0000",
+          "text": "# 联邦贷款与私人贷款 | 联邦学生援助\n\n# 在支付大学、职业学校或研究生院费用时，联邦学生贷款相比私人学生贷款可以提供多项优势。\n\n需要贷款来帮助支付大学费用吗？先考虑联邦贷款！\n\n如果你申请经济援助，你的学校很可能会将学生贷款作为你经济援助计划的一部分。了解你被提供的贷款类型很重要。一般来说，有两种类型的学生贷款：联邦贷款和私人贷款。\n\n- 联邦学生贷款和联邦家长贷款：这些贷款由联邦政府资助。\n- 私人学生贷款：这些贷款是非联邦贷款，由银行、信用合作社、州机构或学校等贷方提供。\n\n## 如果你需要借钱支付大学或职业学校费用，从联邦贷款开始。\n\n联邦学生贷款是\n\n- 直接补贴贷款和直接非补贴贷款，以及\n- 直接PLUS贷款（针对研究生和专业学生）。\n\n联邦家长贷款是\n\n- 直接PLUS贷款（针对家长）。家长对这些贷款负有全部偿还责任，即使这些贷款是为了帮助学生而借的。\n\n## 联邦学生贷款和私人学生贷款有什么区别？\n\n联邦学生贷款由政府提供，其条款和条件由法律规定，并包含许多私人贷款通常不提供的福利（如固定利率和基于收入的还款计划）。\n\n相比之下，私人贷款由私人组织提供，如银行、信用合作社以及州级或州附属组织，其条款和条件由贷方设定。私人学生贷款通常比联邦学生贷款更昂贵。\n\n下面的图表提供了差异的摘要。\n\n私人贷款因贷方和贷款类型而异。请确保你了解你的贷款条款，并就你可能有的任何问题与你的贷方保持联系。\n\n## 我如何获得联邦学生贷款？\n\n要获得联邦贷款，你必须首先完成联邦学生援助免费申请（FAFSA）表格。了解更多关于申请援助的信息。"
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0001",
+          "text": "[Federal student loans for college or career school are an investment in your future. > What types of federal student loans are available?]\nYou must repay your loan, so be sure you understand your options and responsibilities.\n\nIf you apply for financial aid, you may be offered loans as part of your school s financial aid offer. A loan is money you borrow and must pay back with interest.\n\nIf you decide to take out a loan, make sure you understand who is making the loan and the terms and conditions of the loan. Student loans can come from the federal government, from private sources such as a bank or financial institution, or from other organizations. Loans made by the federal government, called federal student loans, usually have more benefits than loans from banks or other private sources. Learn more about the differences between federal and private student loans.\n\nThe U.S. Department of Education s federal student loan program is the William D. Ford Federal Direct Loan (Direct Loan) Program. Under this program, the U.S. Department of Education is your lender. There are four types of Direct Loans available:\n\n- Direct Subsidized Loans are loans made to eligible undergraduate students who demonstrate financial need to help cover the costs of higher education at a college or career school.\n- Direct Unsubsidized Loans are loans made to eligible undergraduate, graduate, and professional students, but eligibility is not based on financial need.\n- Direct PLUS Loans are loans made to graduate or professional students and parents of dependent undergraduate students to help pay for education expenses not covered by other financial aid. Eligibility is not based on financial need, but a credit check is required. Borrowers who have an adverse credit history must meet additional requirements to qualify.\n- Direct Consolidation Loans allow you to combine all of your eligible federal student loans into a single loan with a single loan servicer.\n\nTry This Resource*Federal Student Loan Programs* Lists federal student loan programs with loan details and award limits."
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0003",
+          "text": "[Federal student loans for college or career school are an investment in your future. > Why should I take out federal student loans?]\nFederal student loans are an investment in your future. You should not be afraid to take out federal student loans, but you should be smart about it.\n\nFederal student loans offer many benefits compared to other options you may consider when paying for college:\n\n- The interest rate on federal student loans is fixed and usually lower than that on private loans and much lower than that on a credit card!\n- You don t need a credit check or a cosigner to get most federal student loans.\n- You don t have to begin repaying your federal student loans until after you leave college or drop below half-time.\n- If you demonstrate financial need, the government pays the interest on some loan types while you are in school and during some periods after school.\n- Federal student loans offer flexible repayment plans and options to postpone your loan payments if you re having trouble making payments.\n- If you work in certain jobs, you may be eligible to have a portion of your federal student loans forgiven if you meet certain conditions."
+        },
+        {
+          "chunk_id": "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000",
+          "text": "# 完成财政援助流程 | 联邦学生援助\n\n# 完成财政援助流程\n\n你已经完成了最重要的任务——提交联邦学生援助免费申请（FAFSA）表格。了解接下来需要做什么。\n\n# 后续步骤\n\n财政援助流程中还有几个步骤。\n\n# 01\n\n## 了解信息\n\n了解援助是如何计算的。\n\n# 02\n\n## 比较援助方案\n\n查看学校的财政援助方案。\n\n# 03\n\n## 回复援助方案\n\n接受所选学校的援助。\n\n# 04\n\n## 签署贷款协议\n\n完成*主本票*（MPN）。\n\n# 05\n\n## 完成入学咨询\n\n在获得第一笔贷款或TEACH助学金之前，完成咨询。\n\n# 获取你的资金\n\n## 你的学院或职业学校，而非美国教育部，将发放你的经济援助。\n\n了解你的学校何时支付你的援助，以及每笔支付涵盖的时期。\n\n了解如果课程开始时你尚未获得经济援助，如何支付教材费用。\n\n了解你将如何获得援助——这完全取决于你获得的援助类型。"
+        },
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0005",
+          "text": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Loans | Federal Student Aid#1_0::c0005",
+          "document": "Loans | Federal Student Aid#1_0",
+          "heading": [
+            "Federal student loans for college or career school are an investment in your future.",
+            "How do I get a federal student loan?"
+          ],
+          "source_file": "studentaid_057.md",
+          "excerpt": "[Federal student loans for college or career school are an investment in your future. > How do I get a federal student loan?]\nTo apply for a federal student loan, you must first complete and submit a *Free Application for Federal Student Aid* (FAFSA) form. Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans. Your school will tell you how to accept all or a part of the loan.\n\nBefore you receive your loan funds, you will be required to\n\n- complete entrance counseling, a tool to ensure you understand your obligation to repay the loan; and\n- sign a *Master Promissory Note*, agreeing to the terms of the loan.\n\nContact the financial aid office at the school you are planning to attend for details regarding the process at your school."
+        },
+        {
+          "chunk_id": "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000",
+          "document": "Complete the Financial Aid Process | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_017.md",
+          "excerpt": "# 完成财政援助流程 | 联邦学生援助\n\n# 完成财政援助流程\n\n你已经完成了最重要的任务——提交联邦学生援助免费申请（FAFSA）表格。了解接下来需要做什么。\n\n# 后续步骤\n\n财政援助流程中还有几个步骤。\n\n# 01\n\n## 了解信息\n\n了解援助是如何计算的。\n\n# 02\n\n## 比较援助方案\n\n查看学校的财政援助方案。\n\n# 03\n\n## 回复援助方案\n\n接受所选学校的援助。\n\n# 04\n\n## 签署贷款协议\n\n完成*主本票*（MPN）。\n\n# 05\n\n## 完成入学咨询\n\n在获得第一笔贷款或TEACH助学金之前，完成咨询。\n\n# 获取你的资金\n\n## 你的学院或职业学校，而非美国教育部，将发放你的经济援助。\n\n了解你的学校何时支付你的援助，以及每笔支付涵盖的时期。\n\n了解如果课程开始时你尚未获得经济援助，如何支付教材费用。\n\n了解你将如何获得援助——这完全取决于你获得的援助类型。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "要获得联邦学生贷款，您需要先完成并提交联邦学生援助免费申请（FAFSA）表格。学校将根据您的FAFSA结果向您发送经济援助方案，其中可能包含联邦学生贷款。接受贷款后，您需要完成入学咨询（entrance counseling）并签署主本票（Master Promissory Note），以确认您理解还款义务并同意贷款条款。具体流程请联系您计划就读学校的财政援助办公室。",
+          "citations": [
+            "Loans | Federal Student Aid#1_0::c0005",
+            "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "17144403b4cf4c75a9652b7d4decd958",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1838,
+              "completion_tokens": 144,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 144,
+                "prompt_tokens": 1838,
+                "total_tokens": 1982,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1582
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0030338,
+            "accounted_rmb": 0.0030338,
+            "usage_unknown": false,
+            "seconds": 1.9119031429290771,
+            "error": null,
+            "response": {
+              "id": "33df169a-f2c0-4e89-a455-c607a26a2eca",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "336bfafdb01606047144a1ec04638aa613985ca069a5ba22e0ab51e4678d48cc"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03558292519301176,
+        "retrieval": 1049.2963750148192,
+        "generation": 1915.918541024439,
+        "total": 2966.555332997814
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.15915987500920892,
+        "rerank_seconds": 0.8900948750087991,
+        "top1_dense_score": 0.8854416608810425,
+        "candidate_ids": [
+          "Federal Versus Private Loans | Federal Student Aid#1_0::c0000",
+          "Loans | Federal Student Aid#1_0::c0005",
+          "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "Loans | Federal Student Aid#1_0::c0001",
+          "Loans | Federal Student Aid#1_0::c0003",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "Accepting Aid | Federal Student Aid#1_0::c0000",
+          "Loan Servicers | Federal Student Aid#1_0::c0001",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0008",
+          "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "PLUS Loan Application for Graduate Students | Federal Student Aid#1_0::c0000",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0004",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0011",
+          "Student Loan Consolidation | Federal Student Aid#1_0::c0002",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0009",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0003",
+          "Loan Servicers | Federal Student Aid#1_0::c0002",
+          "Loan Servicers | Federal Student Aid#1_0::c0004",
+          "Aid for International Study | Federal Student Aid#1_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 28,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.049278166028671
+      },
+      "raw_citations": [
+        "Loans | Federal Student Aid#1_0::c0005",
+        "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "39dc20d89ecd5520a23d4be0831c1ceb15d6020d7600912104d54f355e4e9e5d"
+}

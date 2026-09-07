@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "binding_sha256": "414c9dca89c33d6d7fd5c0f279d45c652c51bba3ba8f07b48d9710bb433b725d",
+    "case_id": "rerank_windowed_k5:5739237b45a59e99f4282413adb58c89::agent-turn-4",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "resolution_mode": "direct_answer",
+            "task_resolution_ok": false,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "Mention that a Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response explains replacement procedures but omits the essential fact about Standard ID flight restrictions."
+              }
+            ],
+            "reason": "The response fails to include the required information about Standard ID not being accepted for domestic flights from October 2020 without a passport."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "059a9bd0008d4058bb4ea82354a620c1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2403,
+                "completion_tokens": 137,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 137,
+                  "prompt_tokens": 2403,
+                  "total_tokens": 2540,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1507
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0029218,
+              "accounted_rmb": 0.0029218,
+              "usage_unknown": false,
+              "seconds": 2.0829832553863525,
+              "error": null,
+              "response": {
+                "id": "a3fcaf84-0df2-486e-9693-a6069d8c8d5a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "249cf5734444c7e5e646d5f6e7022ec899e8e65b95aa192fef9b753e53ebc33a"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "resolution_mode": "direct_answer",
+        "task_resolution_ok": false,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "Mention that a Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response explains replacement procedures but omits the essential fact about Standard ID flight restrictions."
+          }
+        ],
+        "reason": "The response fails to include the required information about Standard ID not being accepted for domestic flights from October 2020 without a passport."
+      }
+    }
+  },
+  "sha256": "48f49503cc5f55483ee3226db65ea21b1f3edd53784f1337a3daf14a14268ac7"
+}

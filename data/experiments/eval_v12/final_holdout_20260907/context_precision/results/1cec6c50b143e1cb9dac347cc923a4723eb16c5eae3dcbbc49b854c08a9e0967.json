@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "1cec6c50b143e1cb9dac347cc923a4723eb16c5eae3dcbbc49b854c08a9e0967",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.3333333333,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about suspension termination fees but does not mention payment by mail. The answer about paying by mail is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "fe4e7f2d5c404969b32ffc73f1274a1b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1052,
+                "completion_tokens": 44,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 44,
+                  "prompt_tokens": 1052,
+                  "total_tokens": 1096,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 284
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006624,
+              "accounted_rmb": 0.0006624,
+              "usage_unknown": false,
+              "seconds": 1.3862130641937256,
+              "error": null,
+              "response": {
+                "id": "17a88713-aac5-4195-b0f3-60f2907e3aea",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "74ee81db768feed9e9c7b713be6886a52610d3a0606a8eac8aaa285cb34e037e"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context does not mention paying by mail; it only discusses online payment options and other related details.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "26cb19f06e00450da3f66e0bfca67794",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1652,
+                "completion_tokens": 35,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 35,
+                  "prompt_tokens": 1652,
+                  "total_tokens": 1687,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 884
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015219,
+              "accounted_rmb": 0.0015219,
+              "usage_unknown": false,
+              "seconds": 1.3312692642211914,
+              "error": null,
+              "response": {
+                "id": "11149b8c-832d-4533-a3ab-17f79724eb50",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4f67d42247c76c8e88329559640f5edbc496062940245f7dabe5d758a246fcd4"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about paying suspension termination fees by mail, which directly supports the answer that payment by mail is possible if the suspension order indicates so.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "cf04ff88f9394a108eabbbc66c56d013",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1006,
+                "completion_tokens": 45,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 45,
+                  "prompt_tokens": 1006,
+                  "total_tokens": 1051,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 110
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004123,
+              "accounted_rmb": 0.0004123,
+              "usage_unknown": false,
+              "seconds": 1.3552000522613525,
+              "error": null,
+              "response": {
+                "id": "7fdbdd09-da1a-4403-8d51-1b8f0fd68f7a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3c66f856dd2cd1d4ea6776fbbba0dfaa87eb7534aafdc325c14ef49e0e693921"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is in Chinese and discusses suspension and termination fees, but it does not mention payment by mail or provide instructions for paying by mail. The answer states that payment by mail is possible if the suspension order says so, but this information is not present in the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a3258d42440d421890f2023340df94d8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1033,
+                "completion_tokens": 69,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1033,
+                  "total_tokens": 1102,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 137
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005608,
+              "accounted_rmb": 0.0005608,
+              "usage_unknown": false,
+              "seconds": 1.5828001499176025,
+              "error": null,
+              "response": {
+                "id": "53155fd0-9d54-4706-a98a-808dae1890a0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "83312747e935178398f2e63e4464d3c716bc6429e1fa4a31e7d811effa0967d2"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses suspension termination fees and mentions that payment may be required, but it does not specify whether payment by mail is allowed. The answer provides information not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "aaa8bf3ce50f464086ee7396d302ff32",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1030,
+                "completion_tokens": 52,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1030,
+                  "total_tokens": 1082,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 134
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004798,
+              "accounted_rmb": 0.0004798,
+              "usage_unknown": false,
+              "seconds": 1.3294408321380615,
+              "error": null,
+              "response": {
+                "id": "03a63556-ca7b-43ac-aa4c-aa1aa6e0df91",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "43244e64b8b40bdfb24b49036111ce13c93213dc2346142b03ef4d2c99524311"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "8a1e1004f9072d0b291f86f3477004f250d0227f68831abc688fc4c26685abc8"
+}

@@ -1,0 +1,166 @@
+{
+  "payload": {
+    "task_id": "dd5857ee56626be6a77d78e412675043632a059e378601f14ea7f360ab7cd223",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "提交申请后，相关部门会进行审核。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "CHAMPVA Benefits | Veterans Affairs#1_0::c0005",
+                  "Medicare Benefits | Social Security Administration#1_0::c0010",
+                  "Disability Benefits | Social Security Administration#1_0::c0009",
+                  "Retirement Benefits | Social Security Administration#2_0::c0008",
+                  "Retirement Benefits | Social Security Administration#1_0::c0008"
+                ],
+                "reason": "All contexts state that after receiving the application, it will be reviewed."
+              },
+              {
+                "text": "如果申请不完整或需要更多信息，他们会与您联系。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "CHAMPVA Benefits | Veterans Affairs#1_0::c0005",
+                  "Medicare Benefits | Social Security Administration#1_0::c0010",
+                  "Disability Benefits | Social Security Administration#1_0::c0009",
+                  "Retirement Benefits | Social Security Administration#2_0::c0008",
+                  "Retirement Benefits | Social Security Administration#1_0::c0008"
+                ],
+                "reason": "Contexts mention contacting if more information is needed or if application is incomplete."
+              },
+              {
+                "text": "在获得所有必要信息和文件后，他们会处理您的申请，并邮寄给您一份决定信。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Medicare Benefits | Social Security Administration#1_0::c0010",
+                  "Disability Benefits | Social Security Administration#1_0::c0009",
+                  "Retirement Benefits | Social Security Administration#2_0::c0008",
+                  "Retirement Benefits | Social Security Administration#1_0::c0008"
+                ],
+                "reason": "Contexts state that after obtaining necessary info/documents, they process and mail decision letter."
+              },
+              {
+                "text": "此外，他们还会告知您是否可能符合其他福利条件，例如基于配偶或父母记录的福利。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Disability Benefits | Social Security Administration#1_0::c0009",
+                  "Retirement Benefits | Social Security Administration#2_0::c0008",
+                  "Retirement Benefits | Social Security Administration#1_0::c0008"
+                ],
+                "reason": "Contexts mention informing about benefits on another person's record such as spouse or parents."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2160790977ce47f2b1147e8b7d2ae599",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1133,
+                "completion_tokens": 578,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 578,
+                  "prompt_tokens": 1133,
+                  "total_tokens": 1711,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 749
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0037437,
+              "accounted_rmb": 0.0037437,
+              "usage_unknown": false,
+              "seconds": 3.1802968978881836,
+              "error": null,
+              "response": {
+                "id": "2bb2dac2-db99-4a33-a19b-f684be472ddd",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "689d866ebd87301f6d5cb2b9f2bd6bc349671075221dd0c1a5311282e820f838"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "提交申请后，相关部门会进行审核。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "CHAMPVA Benefits | Veterans Affairs#1_0::c0005",
+            "Medicare Benefits | Social Security Administration#1_0::c0010",
+            "Disability Benefits | Social Security Administration#1_0::c0009",
+            "Retirement Benefits | Social Security Administration#2_0::c0008",
+            "Retirement Benefits | Social Security Administration#1_0::c0008"
+          ],
+          "reason": "All contexts state that after receiving the application, it will be reviewed."
+        },
+        {
+          "text": "如果申请不完整或需要更多信息，他们会与您联系。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "CHAMPVA Benefits | Veterans Affairs#1_0::c0005",
+            "Medicare Benefits | Social Security Administration#1_0::c0010",
+            "Disability Benefits | Social Security Administration#1_0::c0009",
+            "Retirement Benefits | Social Security Administration#2_0::c0008",
+            "Retirement Benefits | Social Security Administration#1_0::c0008"
+          ],
+          "reason": "Contexts mention contacting if more information is needed or if application is incomplete."
+        },
+        {
+          "text": "在获得所有必要信息和文件后，他们会处理您的申请，并邮寄给您一份决定信。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Medicare Benefits | Social Security Administration#1_0::c0010",
+            "Disability Benefits | Social Security Administration#1_0::c0009",
+            "Retirement Benefits | Social Security Administration#2_0::c0008",
+            "Retirement Benefits | Social Security Administration#1_0::c0008"
+          ],
+          "reason": "Contexts state that after obtaining necessary info/documents, they process and mail decision letter."
+        },
+        {
+          "text": "此外，他们还会告知您是否可能符合其他福利条件，例如基于配偶或父母记录的福利。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Disability Benefits | Social Security Administration#1_0::c0009",
+            "Retirement Benefits | Social Security Administration#2_0::c0008",
+            "Retirement Benefits | Social Security Administration#1_0::c0008"
+          ],
+          "reason": "Contexts mention informing about benefits on another person's record such as spouse or parents."
+        }
+      ]
+    }
+  },
+  "sha256": "46ad2c29426ca734c20bd05e0c524ac136b13c2b394ff6bb30564508d2fa9c6f"
+}

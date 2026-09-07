@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "1dab99d511c00c70e4227f2877a5190138f6bb9b66a44b75820abd2ceeb375d8",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.94999999997625,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context directly addresses the user's question about eligibility for spouse benefits even if they have never worked under Social Security, confirming that they may qualify if they meet certain conditions.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0164f3022ef4404f9df40aeef12f2000",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2105,
+                "completion_tokens": 49,
+                "cached_tokens": 2048,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 49,
+                  "prompt_tokens": 2105,
+                  "total_tokens": 2154,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 2048,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 57
+                }
+              },
+              "usage_cost_estimate_rmb": 0.00040839999999999995,
+              "accounted_rmb": 0.00040839999999999995,
+              "usage_unknown": false,
+              "seconds": 1.3745951652526855,
+              "error": null,
+              "response": {
+                "id": "4eaa028a-da7c-4b28-a70e-16a5596bd558",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "782678386a35523bff2354b31d54b72ababad189e4b3f00b343b66cbcd2bfe36"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explicitly states that even if you have never worked under Social Security, you may still qualify for benefits as a spouse or divorced spouse of a retired or disabled worker, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2698d1c6c8fb493384f34f6e0a914486",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1806,
+                "completion_tokens": 55,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1806,
+                  "total_tokens": 1861,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 14
+                }
+              },
+              "usage_cost_estimate_rmb": 0.00035810000000000003,
+              "accounted_rmb": 0.00035810000000000003,
+              "usage_unknown": false,
+              "seconds": 0.9962441921234131,
+              "error": null,
+              "response": {
+                "id": "11075869-9220-47f1-9da0-ec4c3efdf60e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a76217f860d2f0c33f993e93d0737056bcecf0602958053e0eb300d06e7e8e9f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context directly addresses the user's question about applying for spouse's retirement benefits even if they have never worked under Social Security, confirming that it is possible under certain conditions.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "72403ed7446e4e0388f50eabdd8e1c2a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2112,
+                "completion_tokens": 49,
+                "cached_tokens": 2048,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 49,
+                  "prompt_tokens": 2112,
+                  "total_tokens": 2161,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 2048,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 64
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004189,
+              "accounted_rmb": 0.0004189,
+              "usage_unknown": false,
+              "seconds": 1.1523449420928955,
+              "error": null,
+              "response": {
+                "id": "4bceaa6b-24f2-4cc3-834a-c9c3a6eb2f96",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fcf37bea8a5da31bbbaa169424f207975c7f0e1143295e081b435fcfdec30765"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses applying for Medicare and retirement benefits, but does not address the specific question about eligibility for spouse benefits without having worked under Social Security. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2af407d478844fa1aeb5ee25a0612ec9",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1270,
+                "completion_tokens": 53,
+                "cached_tokens": 1152,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1270,
+                  "total_tokens": 1323,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1152,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1152,
+                  "prompt_cache_miss_tokens": 118
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004731,
+              "accounted_rmb": 0.0004731,
+              "usage_unknown": false,
+              "seconds": 1.349916934967041,
+              "error": null,
+              "response": {
+                "id": "8ea54d9d-4f21-4351-b98e-8c1b39f2a168",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e2a6091d99b770e3873d9f5b3189cfc10e40c68ca2df24954160ad348e0f3df2"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explicitly states that even if you have never worked under Social Security, you may still qualify for benefits as a spouse of a retired or disabled worker, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f164cf80826e428ba0d4f490f21c4e5e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1793,
+                "completion_tokens": 52,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1793,
+                  "total_tokens": 1845,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 1
+                }
+              },
+              "usage_cost_estimate_rmb": 0.00032510000000000004,
+              "accounted_rmb": 0.00032510000000000004,
+              "usage_unknown": false,
+              "seconds": 0.9629571437835693,
+              "error": null,
+              "response": {
+                "id": "6b0d69aa-fa6f-45ac-acc7-f79c56bfc1b1",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "738cad8a4ff9daa3b96a689516abd53cbe7be4a754db8f171475fee47cf99309"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "e008e1c06a954e2e81f98c2a4a72fba4e382b298e8d83b1b475d5ec6d86244c4"
+}

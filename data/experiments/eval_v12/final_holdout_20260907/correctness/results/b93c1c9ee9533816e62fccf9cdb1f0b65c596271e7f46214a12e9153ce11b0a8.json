@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "b93c1c9ee9533816e62fccf9cdb1f0b65c596271e7f46214a12e9153ce11b0a8",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "For non-medical denial, contact local Social Security office to request review",
+                "coverage": "covered",
+                "response_quote": "您应联系当地社会保障办公室",
+                "reason": "Response instructs contacting local office for non-medical denial appeal."
+              },
+              {
+                "requirement": "May call toll-free number 1-800-772-1213",
+                "coverage": "covered",
+                "response_quote": "拨打免费电话1-800-772-1213",
+                "reason": "Response includes the toll-free number."
+              },
+              {
+                "requirement": "TTY number 1-800-325-0778 for deaf or hard of hearing",
+                "coverage": "covered",
+                "response_quote": "TTY 1-800-325-0778",
+                "reason": "Response includes TTY number for deaf/hard of hearing."
+              }
+            ],
+            "reason": "The response accurately answers the question about non-medical denial appeals, providing all essential contact methods from the reference, with no unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "96a037026a5341bfa47ca67d3f29569c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4010,
+                "completion_tokens": 247,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 247,
+                  "prompt_tokens": 4010,
+                  "total_tokens": 4257,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3114
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0058273000000000005,
+              "accounted_rmb": 0.0058273000000000005,
+              "usage_unknown": false,
+              "seconds": 2.580801010131836,
+              "error": null,
+              "response": {
+                "id": "4a188559-e63b-4422-87e7-b14925b7daea",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "81dfcf14f18a9b62a75f293706f74fffe0213f269cc73f367ee8c0b0fffaf0ca"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "For non-medical denial, contact local Social Security office to request review",
+            "coverage": "covered",
+            "response_quote": "您应联系当地社会保障办公室",
+            "reason": "Response instructs contacting local office for non-medical denial appeal."
+          },
+          {
+            "requirement": "May call toll-free number 1-800-772-1213",
+            "coverage": "covered",
+            "response_quote": "拨打免费电话1-800-772-1213",
+            "reason": "Response includes the toll-free number."
+          },
+          {
+            "requirement": "TTY number 1-800-325-0778 for deaf or hard of hearing",
+            "coverage": "covered",
+            "response_quote": "TTY 1-800-325-0778",
+            "reason": "Response includes TTY number for deaf/hard of hearing."
+          }
+        ],
+        "reason": "The response accurately answers the question about non-medical denial appeals, providing all essential contact methods from the reference, with no unsupported claims."
+      }
+    }
+  },
+  "sha256": "2e7c1c7f2f954059c3e6dca2fffcb3bd61a68ae328a7daecb0896edb194430dd"
+}

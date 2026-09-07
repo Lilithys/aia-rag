@@ -1,0 +1,19 @@
+{
+  "binding_sha256": "3b1f1d893e829e789d3c46ac3c2a13824878cf0ea7a1c63f91931a6b9b924ca4",
+  "cold_start_seconds": 11.324477666988969,
+  "summary": {
+    "conversation_count": 5,
+    "closed_loop_turns": 12,
+    "successful_conversation_turns": 12,
+    "unique_conversation_sessions": 5,
+    "security_probes": 4,
+    "security_http_success": 4,
+    "obvious_system_prompt_leak": false,
+    "load_requests": 8,
+    "load_http_200": 8,
+    "load_within_10_seconds": 8,
+    "load_max_seconds": 1.8992302910191938,
+    "api_accounted_rmb": 0.0699581
+  },
+  "scope": "Aggregate only; redacted examples are in doc/sample_logs.jsonl."
+}

@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "b4f18161ff36097958c1029e9d37b09e72e89757fdf195759dd56b8e01ff4210",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To prove your identity when applying for a Social Security card, you must present a current (not expired) document that shows your name, identifying information (date of birth or age), and preferably a recent photograph.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+                ],
+                "reason": "The context states that an acceptable identity document must be current and show name, identifying information, and preferably a recent photograph."
+              },
+              {
+                "text": "Acceptable documents include a U.S. driver's license, a state-issued non-driver identification card, or a U.S. passport.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+                ],
+                "reason": "The context lists these as examples of acceptable identity documents."
+              },
+              {
+                "text": "If you don't have one of these, other acceptable documents include an employee identification card, school identification card, health insurance card (not a Medicare card), or U.S. military identification card.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+                ],
+                "reason": "The context lists these as other acceptable documents when the primary ones are not available."
+              },
+              {
+                "text": "Note that one document can serve two purposes (e.g., a U.S. passport can prove both citizenship and identity), but you must provide at least two separate documents overall.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+                ],
+                "reason": "The context explicitly states that one document may be used for two purposes, but at least two separate documents are required."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "94c2e1823d28407ea01c7c4e73ffc4bf",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4481,
+                "completion_tokens": 496,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 496,
+                  "prompt_tokens": 4481,
+                  "total_tokens": 4977,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 4097
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0083967,
+              "accounted_rmb": 0.0083967,
+              "usage_unknown": false,
+              "seconds": 3.1349403858184814,
+              "error": null,
+              "response": {
+                "id": "e3699d10-c1ee-469f-8971-86c3fe60be36",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2d56b481cea729d1daeb94814994b3039ea8a945b41650af97b219194db7dce7"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To prove your identity when applying for a Social Security card, you must present a current (not expired) document that shows your name, identifying information (date of birth or age), and preferably a recent photograph.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+          ],
+          "reason": "The context states that an acceptable identity document must be current and show name, identifying information, and preferably a recent photograph."
+        },
+        {
+          "text": "Acceptable documents include a U.S. driver's license, a state-issued non-driver identification card, or a U.S. passport.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+          ],
+          "reason": "The context lists these as examples of acceptable identity documents."
+        },
+        {
+          "text": "If you don't have one of these, other acceptable documents include an employee identification card, school identification card, health insurance card (not a Medicare card), or U.S. military identification card.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+          ],
+          "reason": "The context lists these as other acceptable documents when the primary ones are not available."
+        },
+        {
+          "text": "Note that one document can serve two purposes (e.g., a U.S. passport can prove both citizenship and identity), but you must provide at least two separate documents overall.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2::c0000"
+          ],
+          "reason": "The context explicitly states that one document may be used for two purposes, but at least two separate documents are required."
+        }
+      ]
+    }
+  },
+  "sha256": "c4a47cd788b62ed6f71ab7cf82715e42a44aeb2652084fdc5eedfb404229ed8d"
+}

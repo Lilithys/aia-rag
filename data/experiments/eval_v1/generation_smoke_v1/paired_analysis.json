@@ -1,0 +1,91 @@
+{
+  "report_sha256": "0fda1115160ba94a717fc69b2a6f3a590e2c010a4a75512aa9fb1e2fac701ed1",
+  "operational": {
+    "baseline_dense_k10": {
+      "generated_requests": 20,
+      "actual_api_attempts_attributed": 20,
+      "cache_replays": 0,
+      "api_generation_cost_estimate_rmb": 0.1399759,
+      "api_generation_cost_per_1000_planned_requests_rmb": 6.998794999999999,
+      "unknown_usage_attempts": 0,
+      "mean_context_tokens": 5266.9
+    },
+    "rerank_truncated_k10": {
+      "generated_requests": 20,
+      "actual_api_attempts_attributed": 19,
+      "cache_replays": 0,
+      "api_generation_cost_estimate_rmb": 0.1405137,
+      "api_generation_cost_per_1000_planned_requests_rmb": 7.025684999999999,
+      "unknown_usage_attempts": 0,
+      "mean_context_tokens": 6023.6
+    },
+    "rerank_windowed_k5": {
+      "generated_requests": 20,
+      "actual_api_attempts_attributed": 20,
+      "cache_replays": 0,
+      "api_generation_cost_estimate_rmb": 0.0896546,
+      "api_generation_cost_per_1000_planned_requests_rmb": 4.48273,
+      "unknown_usage_attempts": 0,
+      "mean_context_tokens": 3317.15
+    }
+  },
+  "paired_correctness": {
+    "rerank_truncated_k10": {
+      "paired_known_n": 20,
+      "gained_correct": 1,
+      "lost_correct": 0,
+      "mean_correctness_delta": 0.05,
+      "exploratory_item_bootstrap_95": [
+        0.0,
+        0.15
+      ],
+      "changed_cases": [
+        {
+          "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+          "candidate_correct": true,
+          "baseline_correct": false,
+          "candidate_reason": "The response correctly states the two requirements from the retrieved document: voluntary participation in chemical/biological testing between 1942-1975 and a directly caused injury/illness, and confirms both must be true. It answers the question without needing clarification.",
+          "baseline_reason": "The response answers without clarifying the essential missing conditions (1942-1975 timeframe and direct causation), instead mixing in unrelated radiation requirements and VA disability criteria not supported by the cited chemical/biological testing source."
+        }
+      ]
+    },
+    "rerank_windowed_k5": {
+      "paired_known_n": 20,
+      "gained_correct": 3,
+      "lost_correct": 0,
+      "mean_correctness_delta": 0.15,
+      "exploratory_item_bootstrap_95": [
+        0.0,
+        0.3
+      ],
+      "changed_cases": [
+        {
+          "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+          "candidate_correct": true,
+          "baseline_correct": false,
+          "candidate_reason": "The response provides accurate loan advice supported by the cited documents, including prioritizing free funds, choosing federal loans, borrowing only what is needed, budgeting, and contacting the financial aid office or loan servicer for military benefits. It fully answers the question without unsupported claims.",
+          "baseline_reason": "The response provides general loan application steps but omits the essential budgeting advice from the reference. It fails to mention making a budget to borrow only what is needed, which is the key condition for loan advice."
+        },
+        {
+          "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+          "candidate_correct": true,
+          "baseline_correct": false,
+          "candidate_reason": "The response accurately answers the user's question about rescheduling or withdrawing a Board hearing request, providing supported details from the cited document, including the two-week written request requirement, required information, and evidence submission timeline.",
+          "baseline_reason": "The response incorrectly states that rescheduling will not lose place in queue and keeps original docket date, but the reference requires 'good cause' for rescheduling, which the response omits. It also conflates withdrawal details with rescheduling requirements."
+        },
+        {
+          "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+          "candidate_correct": true,
+          "baseline_correct": false,
+          "candidate_reason": "The response correctly states the two requirements from the document: voluntary participation in chemical/biological tests between 1942-1975 and having an injury/illness directly caused by participation, and confirms both must be true.",
+          "baseline_reason": "The response answers without clarifying the essential missing conditions (1942-1975 timeframe and direct causation), instead mixing in unrelated radiation requirements and VA disability criteria not supported by the cited chemical/biological testing source."
+        }
+      ]
+    }
+  },
+  "limits": [
+    "20-item smoke only; related document sources and model selection are not adjusted for in these exploratory intervals.",
+    "Per-1000 costs scale this observed sample, including retries and cache effects; infrastructure and offline judges excluded.",
+    "Judge disagreement is diagnostic evidence, not proof that either judge is correct."
+  ]
+}

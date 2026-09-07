@@ -1,0 +1,212 @@
+{
+  "payload": {
+    "task_id": "2836a11c21928bcdea5c4208ee6e939aa83be8d65d7f2c767d88bad8ee6a500e",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To estimate your spouse's benefit under GPO, you need two amounts: (1) your estimated gross monthly pension from non-covered government work, and (2) your estimated monthly spouse's benefit before GPO.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states that to estimate benefits under GPO, you need the estimated gross monthly pension from non-covered government work and the estimated monthly spouse's benefit before GPO."
+              },
+              {
+                "text": "Since you have access to your spouse's estimates, find the amount your spouse would receive at full retirement age, divide that by two, and round down to the nearest dollar.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context instructs to find the spouse's estimated benefit at full retirement age, divide by two, and round down to the nearest dollar."
+              },
+              {
+                "text": "That is your estimated spouse's benefit at full retirement age.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states that the result of the division is the estimated spouse's benefit at full retirement age."
+              },
+              {
+                "text": "Then, if you also qualify for your own Social Security retirement benefit, subtract your own estimated retirement benefit from that spouse's benefit amount.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context instructs to subtract your own estimated retirement benefit from the spouse's benefit amount if you qualify for your own benefit."
+              },
+              {
+                "text": "Enter the result in the GPO calculator's step #2, and enter your government pension amount in step #1.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context instructs to enter the result in step #2 and the government pension amount in step #1."
+              },
+              {
+                "text": "The calculator's #3 result is your estimated spouse's benefit after GPO.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states that the #3 amount is the estimated spouse's benefit after GPO."
+              },
+              {
+                "text": "Add that to your own retirement benefit to get your total estimated monthly benefit.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context instructs to add the #3 amount to your own retirement benefit to get the total estimated monthly benefit."
+              },
+              {
+                "text": "If you start benefits before full retirement age, the spouse's portion will be permanently reduced (up to 30% for those born in 1946, up to 35% for those born 1960 or later).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states that if you retire before full retirement age, the spouse's benefit is reduced, with maximum reductions of 30% for those born in 1946 and 35% for those born 1960 or later."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b00367ad94534c5a9a3a8aabb751561e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4955,
+                "completion_tokens": 987,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 987,
+                  "prompt_tokens": 4955,
+                  "total_tokens": 5942,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 4571
+                }
+              },
+              "usage_cost_estimate_rmb": 0.011317200000000001,
+              "accounted_rmb": 0.011317200000000001,
+              "usage_unknown": false,
+              "seconds": 5.392379999160767,
+              "error": null,
+              "response": {
+                "id": "274b2f28-01c7-457e-af2d-ba4135af8ba5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d44da3f614b37c7d57edcf0241ab0ef073339976648a65f69818b1777341476f"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 8,
+      "supported_external_claims": 8,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To estimate your spouse's benefit under GPO, you need two amounts: (1) your estimated gross monthly pension from non-covered government work, and (2) your estimated monthly spouse's benefit before GPO.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states that to estimate benefits under GPO, you need the estimated gross monthly pension from non-covered government work and the estimated monthly spouse's benefit before GPO."
+        },
+        {
+          "text": "Since you have access to your spouse's estimates, find the amount your spouse would receive at full retirement age, divide that by two, and round down to the nearest dollar.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context instructs to find the spouse's estimated benefit at full retirement age, divide by two, and round down to the nearest dollar."
+        },
+        {
+          "text": "That is your estimated spouse's benefit at full retirement age.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states that the result of the division is the estimated spouse's benefit at full retirement age."
+        },
+        {
+          "text": "Then, if you also qualify for your own Social Security retirement benefit, subtract your own estimated retirement benefit from that spouse's benefit amount.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context instructs to subtract your own estimated retirement benefit from the spouse's benefit amount if you qualify for your own benefit."
+        },
+        {
+          "text": "Enter the result in the GPO calculator's step #2, and enter your government pension amount in step #1.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context instructs to enter the result in step #2 and the government pension amount in step #1."
+        },
+        {
+          "text": "The calculator's #3 result is your estimated spouse's benefit after GPO.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states that the #3 amount is the estimated spouse's benefit after GPO."
+        },
+        {
+          "text": "Add that to your own retirement benefit to get your total estimated monthly benefit.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context instructs to add the #3 amount to your own retirement benefit to get the total estimated monthly benefit."
+        },
+        {
+          "text": "If you start benefits before full retirement age, the spouse's portion will be permanently reduced (up to 30% for those born in 1946, up to 35% for those born 1960 or later).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states that if you retire before full retirement age, the spouse's benefit is reduced, with maximum reductions of 30% for those born in 1946 and 35% for those born 1960 or later."
+        }
+      ]
+    }
+  },
+  "sha256": "5e247942580a9f430f4016135f0018360badbe7d9b3c091d5113224701b8184c"
+}

@@ -1,0 +1,222 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "31d25f79f93e8a1e343fcbc9b641409c::agent-turn-6",
+    "item_sha256": "5b7ed8ff21fe78cdb496a570b0afc0964314ea6e8939a3c5d0aad58efc8d6912",
+    "result": {
+      "request_id": "0a0697caab234c07ab60489a676774dd",
+      "session_id": "31d25f79f93e8a1e343fcbc9b641409c",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If you had a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VA Vocational Rehabilitation and Employment (VR&E) benefits and services, such as help exploring employment options and getting more training if needed. Eligibility generally requires that you meet all of the following: you don't have a dishonorable discharge, you have a VA-rated service-connected disability of at least 10%, and you apply for VR&E services. Your basic period of eligibility ends 12 years from either your separation date or your first VA service-connected disability rating, though this may be extended if a Vocational Rehabilitation Counselor determines you have a serious employment handicap. If you're still on active duty, you may qualify if you have a 20% or higher pre-discharge disability rating and are about to leave the military, or if you're participating in the Integrated Disability Evaluation System (IDES) process or waiting for separation due to a medical condition from a serious injury incurred in the line of duty.",
+        "citations": [
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "text": "[GI法案及其他教育福利资格 > 是否还有其他我可能也有资格获得的相关福利？]\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，您可能有资格获得职业康复与就业福利和服务，例如帮助探索就业选择以及在需要时获得更多培训。\n\n了解您是否符合职业康复与就业的资格"
+        },
+        {
+          "chunk_id": "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "text": "# VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs\n\n# VA Vocational Rehabilitation (Chapter 31)\n\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，VA Vocational Rehabilitation and Employment (VR&E) 计划（也称为 Chapter 31）可以提供帮助。了解您是否符合资格以及如何申请职业康复福利和服务，例如帮助探索就业选择和所需的培训需求。在某些情况下，您的家庭成员也可能有资格获得某些福利。\n\n### 对于有服务相关残疾的军人和退伍军人\n\n-\n\n#### 针对军人和退伍军人的 VR&E 计划\n\n探索 VR&E 支持与服务轨道，以帮助学习新技能、寻找新工作、创业、获得教育咨询或重返以前的工作岗位。\n\n-\n\n#### 资格\n\n了解作为军人或退伍军人，您是否可以获得 VR&E 福利和服务。\n\n-\n\n#### 如何申请\n\n了解作为军人或退伍军人，如何申请 VR&E 福利和服务。\n\n-\n\n#### 通过综合残疾评估系统 (IDES) 访问 VR&E\n\n如果您在服役期间受伤、负伤或生病，无法履行职责，请了解如何通过 IDES 尽快访问 VR&E 服务。\n\n### 对于有服务相关残疾的军人和退伍军人的家庭成员\n\n-\n\n#### 受抚养家庭成员\n\n了解您是否符合特定咨询服务、培训和教育的福利资格。\n\n### 更多有用资源\n\n-\n\n#### VetSuccess on Campus\n\n了解我们的顾问是否能帮助您从军人生活过渡到大学生活。\n\n-\n\n#### 外部资源\n\n获取VA以外更多有助于您求职的资源的链接。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "text": "# Careers And Employment | Veterans Affairs\n\n# Careers and employment\n\nWe offer the help you need to build your career and find the opportunities that are right for you.\n\n### On this page\n\n- Get career and employment assistance\n- Manage your career\n- More information and resources\n\n### How do I get help if I'm homeless or at risk of becoming homeless?\n\nWe may be able to help\n\nWe offer many programs and services that may help including free health care and, in some cases, free limited dental care. We can also help you connect with resources in your community, like homeless shelters or faith-based organizations.\n\nFind the support you need:\n\n- Call the National Call Center for Homeless Veterans at (877-424-3838) for help 24 hours a day, 7 days a week. You ll talk privately with a trained VA counselor for free.\n- Contact your nearest VA medical center and ask to talk with the VA social worker. If you're a female Veteran, ask for the Women Veterans Program Manager.Find the nearest VA medical center\n\nTalk with someone right now:\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.Chat online with a trained VA staff member\n\n## Get career and employment assistance\n\n- About Vocational Rehabilitation and Employment (Chapter 31) programs\n\nExplore support-and-services program tracks for Veterans and service members with service-connected disabilities. Our programs can help you learn new skills, find a new job, start a new business, get educational counseling, or return to your former job.\n\n- Eligibility\n\nIf you have a service-connected disability that limits your ability to work or prevents you from working, find out if you're eligible for vocational rehab.\n\n- How to apply\n\nGet step-by-step instructions on how to apply for vocational rehab benefits.\n\n- Educational and Career Counseling (Chapter 36)\n\nFind out how to get free educational and career counseling as a recently discharged Veteran or a dependent family member.\n\n- Support for your Veteran-Owned Small Business\n\nRegister to do business with VA and get support for your Veteran-Owned Small Business.\n\n- Support for dependent family members\n\nSee if you're eligible for educational and vocational counseling as the dependent spouse or child of a Veteran or service member.\n\n## Manage your career\n\n- VA transition assistance\n\nAs you separate from the military, explore your career options by attending a Transition Assistance Program (TAP) briefing.\n\n- Match your interests and skills to a career with a CareerScope assessment\n\nUse this online tool to get recommendations for careers you may enjoy and succeed in, and training programs to help you get started.\n\n- Find a job (Department of Labor)\n\nSearch for jobs, get help translating your military skills and experience to civilian jobs, and access other career resources.\n\n- Find VA careers and support\n\nGet support for starting or advancing your career at VA or other federal government departments.\n\n- Print your Civil Service Preference Letter\n\nPrint your Civil Service Preference Letter to verify your hiring preference for federal jobs.\n\n- Get free classes for a year (LinkedIn)\n\nGet one year of free access to LinkedIn Premium and LinkedIn Learning.\n\n## More information and resources\n\n- Subsistence allowance rates\n\nView the current subsistence allowance rates to find out the amount we'll provide to help you pay for basic needs (like food and clothing) if you're an eligible Veteran participating in the Voc Rehab program.\n\n- VetSuccess on Campus\n\nFind out if our counselors can help you transition from military to college life.\n\n- Voc Rehab and Employment glossary\n\nSee the definitions of our programs and other common terms you may read when learning about Vocational Rehabilitation and Employment benefits.\n\n- Voc Rehab success stories\n\nRead Veterans' stories of how Voc Rehab counselors and services helped them overcome challenges, find new opportunities, and achieve greater goals.\n\n- Resources for Veterans\n\nGet links to more resources outside of VA that can help you in your job search.\n\n- Resources for family members\n\nAccess valuable career resources for spouses and other family members of Veterans and service members.\n\n### Other VA benefits and services\n\n- GI Bill benefits\n\nExplore options for using GI Bill benefits to help pay for school or training, and find out what benefits you can get.\n\n- Other educational assistance programs\n\nIf you re a Veteran, Reservist, or National Guard Soldier who doesn t qualify for the Post-9/11 GI Bill, see if you can get education benefits through other VA programs.\n\n- Home loans\n\nApply for a Certificate of Eligibility for a VA direct or VA-backed home loan to build, buy, improve, or refinance a home.\n\n- Life insurance\n\nExplore your life insurance options and find out how to apply as a service member, Veteran, or family member.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "text": "[职业与就业 > 获取职业与就业援助]\n- 关于职业康复与就业（第31章）项目\n\n探索为有服务相关残疾的退伍军人和服役人员提供的支持与服务项目轨道。我们的项目可以帮助您学习新技能、找到新工作、创业、获得教育咨询或重返原工作岗位。\n\n- 资格\n\n如果您有服务相关残疾，限制了您的工作能力或使您无法工作，请了解您是否有资格获得职业康复。\n\n- 如何申请\n\n获取关于如何申请职业康复福利的分步说明。\n\n- 教育与职业咨询（第36章）\n\n了解作为近期退伍的退伍军人或家属，如何获得免费的教育与职业咨询。\n\n- 支持你的退伍军人创办的小型企业\n\n注册与VA开展业务，并获得对你退伍军人创办的小型企业的支持。\n\n- 对家属的支持\n\n查看你是否符合作为退伍军人或军人的受抚养配偶或子女获得教育与职业咨询的资格。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > VA职业康复与就业的资格要求]\n了解Veterans和现役军人申请VA职业康复与就业（VR&E）的资格要求。如果你的残疾是由现役服役引起或加重的，并且限制了你的工作能力或使你无法工作，你可能可以获得就业支持或服务，以帮助你尽可能独立生活。\n\n### 如果我是退伍军人，我是否有资格申请职业康复与就业？\n\n如果你是Veteran，并且满足以下所有要求，你可能符合VR&E福利和服务的资格。\n\n以下所有条件都必须满足。你：\n\n- 没有不光彩的退役记录，并且\n\n- 拥有VA评定的至少10%的服役相关残疾评级，并且\n\n- 申请VR&E服务\n\n#### 基本资格期限\n\n你的基本资格期限从你收到以下通知之日起12年结束：\n\n- 现役服役分离日期，或\n\n- 首次VA服役相关残疾评级\n\n请注意：如果职业康复顾问（VRC）认定你有严重就业障碍（SEH），基本资格期限可能会延长。就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（不会加重你的残疾、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n### 如果我仍在现役，我是否有资格申请职业康复与就业？\n\n如果你是现役军人，并且满足以下至少一项要求，你可能符合VR&E福利和服务的资格。\n\n以下至少一项必须为真。你：\n\n- 拥有20%或更高的退役前残疾评级（备忘录评级）并且即将离开军队，或\n\n- 正在参与综合残疾评估系统（IDES）流程，或因执行任务中发生的严重伤病导致的医疗状况而等待退役。了解更多关于通过IDES获取VR&E服务的信息\n\n请注意：根据《国防授权法案》（PL 110-181）第1631(b)条，严重受伤的现役军人可以在VA发布残疾评级之前自动获得VR&E福利。\n\n### 如果我收到了非荣誉退役、行为不良退役或不光彩退役，我该怎么办？\n\n如果你收到了这些退役状态之一，你可能不符合VA福利的资格。\n\n有2种方式可以尝试获得资格：\n\n了解如何申请 discharge upgrade 了解 VA Character of Discharge 审查流程"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "text": "[GI法案及其他教育福利资格 > 是否还有其他我可能也有资格获得的相关福利？]\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，您可能有资格获得职业康复与就业福利和服务，例如帮助探索就业选择以及在需要时获得更多培训。\n\n了解您是否符合职业康复与就业的资格"
+        },
+        {
+          "chunk_id": "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "text": "# VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs\n\n# VA Vocational Rehabilitation (Chapter 31)\n\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，VA Vocational Rehabilitation and Employment (VR&E) 计划（也称为 Chapter 31）可以提供帮助。了解您是否符合资格以及如何申请职业康复福利和服务，例如帮助探索就业选择和所需的培训需求。在某些情况下，您的家庭成员也可能有资格获得某些福利。\n\n### 对于有服务相关残疾的军人和退伍军人\n\n-\n\n#### 针对军人和退伍军人的 VR&E 计划\n\n探索 VR&E 支持与服务轨道，以帮助学习新技能、寻找新工作、创业、获得教育咨询或重返以前的工作岗位。\n\n-\n\n#### 资格\n\n了解作为军人或退伍军人，您是否可以获得 VR&E 福利和服务。\n\n-\n\n#### 如何申请\n\n了解作为军人或退伍军人，如何申请 VR&E 福利和服务。\n\n-\n\n#### 通过综合残疾评估系统 (IDES) 访问 VR&E\n\n如果您在服役期间受伤、负伤或生病，无法履行职责，请了解如何通过 IDES 尽快访问 VR&E 服务。\n\n### 对于有服务相关残疾的军人和退伍军人的家庭成员\n\n-\n\n#### 受抚养家庭成员\n\n了解您是否符合特定咨询服务、培训和教育的福利资格。\n\n### 更多有用资源\n\n-\n\n#### VetSuccess on Campus\n\n了解我们的顾问是否能帮助您从军人生活过渡到大学生活。\n\n-\n\n#### 外部资源\n\n获取VA以外更多有助于您求职的资源的链接。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "text": "# Careers And Employment | Veterans Affairs\n\n# Careers and employment\n\nWe offer the help you need to build your career and find the opportunities that are right for you.\n\n### On this page\n\n- Get career and employment assistance\n- Manage your career\n- More information and resources\n\n### How do I get help if I'm homeless or at risk of becoming homeless?\n\nWe may be able to help\n\nWe offer many programs and services that may help including free health care and, in some cases, free limited dental care. We can also help you connect with resources in your community, like homeless shelters or faith-based organizations.\n\nFind the support you need:\n\n- Call the National Call Center for Homeless Veterans at (877-424-3838) for help 24 hours a day, 7 days a week. You ll talk privately with a trained VA counselor for free.\n- Contact your nearest VA medical center and ask to talk with the VA social worker. If you're a female Veteran, ask for the Women Veterans Program Manager.Find the nearest VA medical center\n\nTalk with someone right now:\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.Chat online with a trained VA staff member\n\n## Get career and employment assistance\n\n- About Vocational Rehabilitation and Employment (Chapter 31) programs\n\nExplore support-and-services program tracks for Veterans and service members with service-connected disabilities. Our programs can help you learn new skills, find a new job, start a new business, get educational counseling, or return to your former job.\n\n- Eligibility\n\nIf you have a service-connected disability that limits your ability to work or prevents you from working, find out if you're eligible for vocational rehab.\n\n- How to apply\n\nGet step-by-step instructions on how to apply for vocational rehab benefits.\n\n- Educational and Career Counseling (Chapter 36)\n\nFind out how to get free educational and career counseling as a recently discharged Veteran or a dependent family member.\n\n- Support for your Veteran-Owned Small Business\n\nRegister to do business with VA and get support for your Veteran-Owned Small Business.\n\n- Support for dependent family members\n\nSee if you're eligible for educational and vocational counseling as the dependent spouse or child of a Veteran or service member.\n\n## Manage your career\n\n- VA transition assistance\n\nAs you separate from the military, explore your career options by attending a Transition Assistance Program (TAP) briefing.\n\n- Match your interests and skills to a career with a CareerScope assessment\n\nUse this online tool to get recommendations for careers you may enjoy and succeed in, and training programs to help you get started.\n\n- Find a job (Department of Labor)\n\nSearch for jobs, get help translating your military skills and experience to civilian jobs, and access other career resources.\n\n- Find VA careers and support\n\nGet support for starting or advancing your career at VA or other federal government departments.\n\n- Print your Civil Service Preference Letter\n\nPrint your Civil Service Preference Letter to verify your hiring preference for federal jobs.\n\n- Get free classes for a year (LinkedIn)\n\nGet one year of free access to LinkedIn Premium and LinkedIn Learning.\n\n## More information and resources\n\n- Subsistence allowance rates\n\nView the current subsistence allowance rates to find out the amount we'll provide to help you pay for basic needs (like food and clothing) if you're an eligible Veteran participating in the Voc Rehab program.\n\n- VetSuccess on Campus\n\nFind out if our counselors can help you transition from military to college life.\n\n- Voc Rehab and Employment glossary\n\nSee the definitions of our programs and other common terms you may read when learning about Vocational Rehabilitation and Employment benefits.\n\n- Voc Rehab success stories\n\nRead Veterans' stories of how Voc Rehab counselors and services helped them overcome challenges, find new opportunities, and achieve greater goals.\n\n- Resources for Veterans\n\nGet links to more resources outside of VA that can help you in your job search.\n\n- Resources for family members\n\nAccess valuable career resources for spouses and other family members of Veterans and service members.\n\n### Other VA benefits and services\n\n- GI Bill benefits\n\nExplore options for using GI Bill benefits to help pay for school or training, and find out what benefits you can get.\n\n- Other educational assistance programs\n\nIf you re a Veteran, Reservist, or National Guard Soldier who doesn t qualify for the Post-9/11 GI Bill, see if you can get education benefits through other VA programs.\n\n- Home loans\n\nApply for a Certificate of Eligibility for a VA direct or VA-backed home loan to build, buy, improve, or refinance a home.\n\n- Life insurance\n\nExplore your life insurance options and find out how to apply as a service member, Veteran, or family member.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "text": "[职业与就业 > 获取职业与就业援助]\n- 关于职业康复与就业（第31章）项目\n\n探索为有服务相关残疾的退伍军人和服役人员提供的支持与服务项目轨道。我们的项目可以帮助您学习新技能、找到新工作、创业、获得教育咨询或重返原工作岗位。\n\n- 资格\n\n如果您有服务相关残疾，限制了您的工作能力或使您无法工作，请了解您是否有资格获得职业康复。\n\n- 如何申请\n\n获取关于如何申请职业康复福利的分步说明。\n\n- 教育与职业咨询（第36章）\n\n了解作为近期退伍的退伍军人或家属，如何获得免费的教育与职业咨询。\n\n- 支持你的退伍军人创办的小型企业\n\n注册与VA开展业务，并获得对你退伍军人创办的小型企业的支持。\n\n- 对家属的支持\n\n查看你是否符合作为退伍军人或军人的受抚养配偶或子女获得教育与职业咨询的资格。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > VA职业康复与就业的资格要求]\n了解Veterans和现役军人申请VA职业康复与就业（VR&E）的资格要求。如果你的残疾是由现役服役引起或加重的，并且限制了你的工作能力或使你无法工作，你可能可以获得就业支持或服务，以帮助你尽可能独立生活。\n\n### 如果我是退伍军人，我是否有资格申请职业康复与就业？\n\n如果你是Veteran，并且满足以下所有要求，你可能符合VR&E福利和服务的资格。\n\n以下所有条件都必须满足。你：\n\n- 没有不光彩的退役记录，并且\n\n- 拥有VA评定的至少10%的服役相关残疾评级，并且\n\n- 申请VR&E服务\n\n#### 基本资格期限\n\n你的基本资格期限从你收到以下通知之日起12年结束：\n\n- 现役服役分离日期，或\n\n- 首次VA服役相关残疾评级\n\n请注意：如果职业康复顾问（VRC）认定你有严重就业障碍（SEH），基本资格期限可能会延长。就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（不会加重你的残疾、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n### 如果我仍在现役，我是否有资格申请职业康复与就业？\n\n如果你是现役军人，并且满足以下至少一项要求，你可能符合VR&E福利和服务的资格。\n\n以下至少一项必须为真。你：\n\n- 拥有20%或更高的退役前残疾评级（备忘录评级）并且即将离开军队，或\n\n- 正在参与综合残疾评估系统（IDES）流程，或因执行任务中发生的严重伤病导致的医疗状况而等待退役。了解更多关于通过IDES获取VR&E服务的信息\n\n请注意：根据《国防授权法案》（PL 110-181）第1631(b)条，严重受伤的现役军人可以在VA发布残疾评级之前自动获得VR&E福利。\n\n### 如果我收到了非荣誉退役、行为不良退役或不光彩退役，我该怎么办？\n\n如果你收到了这些退役状态之一，你可能不符合VA福利的资格。\n\n有2种方式可以尝试获得资格：\n\n了解如何申请 discharge upgrade 了解 VA Character of Discharge 审查流程"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "document": "GI Bill Eligibility | Veterans Affairs#1_0",
+          "heading": [
+            "GI法案及其他教育福利资格",
+            "是否还有其他我可能也有资格获得的相关福利？"
+          ],
+          "source_file": "va_047.md",
+          "excerpt": "[GI法案及其他教育福利资格 > 是否还有其他我可能也有资格获得的相关福利？]\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，您可能有资格获得职业康复与就业福利和服务，例如帮助探索就业选择以及在需要时获得更多培训。\n\n了解您是否符合职业康复与就业的资格"
+        },
+        {
+          "chunk_id": "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "document": "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_120.md",
+          "excerpt": "# VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs\n\n# VA Vocational Rehabilitation (Chapter 31)\n\n如果您有与服务相关的残疾，限制了您的工作能力或使您无法工作，VA Vocational Rehabilitation and Employment (VR&E) 计划（也称为 Chapter 31）可以提供帮助。了解您是否符合资格以及如何申请职业康复福利和服务，例如帮助探索就业选择和所需的培训需求。在某些情况下，您的家庭成员也可能有资格获得某些福利。\n\n### 对于有服务相关残疾的军人和退伍军人\n\n-\n\n#### 针对军人和退伍军人的 VR&E 计划\n\n探索 VR&E 支持与服务轨道，以帮助学习新技能、寻找新工作、创业、获得教育咨询或重返以前的工作岗位。\n\n-\n\n#### 资格\n\n了解作为军人或退伍军人，您是否可以获得 VR&E 福利和服务。\n\n-\n\n#### 如何申请\n\n了解作为军人或退伍军人，如何申请 VR&E 福利和服务。\n\n-\n\n#### 通过综合残疾评估系统 (IDES) 访问 VR&E\n\n如果您在服役期间受伤、负伤或生病，无法履行职责，请了解如何通过 IDES 尽快访问 VR&E 服务。\n\n### 对于有服务相关残疾的军人和退伍军人的家庭成员\n\n-\n\n#### 受抚养家庭成员\n\n了解您是否符合特定咨询服务、培训和教育的福利资格。\n\n### 更多有用资源\n\n-\n\n#### VetSuccess on Campus\n\n了解我们的顾问是否能帮助您从军人生活过渡到大学生活。\n\n-\n\n#### 外部资源\n\n获取VA以外更多有助于您求职的资源的链接。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "document": "Careers And Employment | Veterans Affairs#2_0",
+          "heading": [],
+          "source_file": "va_019.md",
+          "excerpt": "# Careers And Employment | Veterans Affairs\n\n# Careers and employment\n\nWe offer the help you need to build your career and find the opportunities that are right for you.\n\n### On this page\n\n- Get career and employment assistance\n- Manage your career\n- More information and resources\n\n### How do I get help if I'm homeless or at risk of becoming homeless?\n\nWe may be able to help\n\nWe offer many programs and services that may help including free health care and, in some cases, free limited dental care. We can also help you connect with resources in your community, like homeless shelters or faith-based organizations.\n\nFind the support you need:\n\n- Call the National Call Center for Homeless Veterans at (877-424-3838) for help 24 hours a day, 7 days a week. You ll talk privately with a trained VA counselor for free.\n- Contact your nearest VA medical center and ask to talk with the VA social worker. If you're a female Veteran, ask for the Women Veterans Program Manager.Find the nearest VA medical center\n\nTalk with someone right now:\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.Chat online with a trained VA staff member\n\n## Get career and employment assistance\n\n- About Vocational Rehabilitation and Employment (Chapter 31) programs\n\nExplore support-and-services program tracks for Veterans and service members with service-connected disabilities. Our programs can help you learn new skills, find a new job, start a new business, get educational counseling, or return to your former job.\n\n- Eligibility\n\nIf you have a service-connected disability that limits your ability to work or prevents you from working, find out if you're eligible for vocational rehab.\n\n- How to apply\n\nGet step-by-step instructions on how to apply for vocational rehab benefits.\n\n- Educational and Career Counseling (Chapter 36)\n\nFind out how to get free educational and career counseling as a recently discharged Veteran or a dependent family member.\n\n- Support for your Veteran-Owned Small Business\n\nRegister to do business with VA and get support for your Veteran-Owned Small Business.\n\n- Support for dependent family members\n\nSee if you're eligible for educational and vocational counseling as the dependent spouse or child of a Veteran or service member.\n\n## Manage your career\n\n- VA transition assistance\n\nAs you separate from the military, explore your career options by attending a Transition Assistance Program (TAP) briefing.\n\n- Match your interests and skills to a career with a CareerScope assessment\n\nUse this online tool to get recommendations for careers you may enjoy and succeed in, and training programs to help you get started.\n\n- Find a job (Department of Labor)\n\nSearch for jobs, get help translating your military skills and experience to civilian jobs, and access other career resources.\n\n- Find VA careers and support\n\nGet support for starting or advancing your career at VA or other federal government departments.\n\n- Print your Civil Service Preference Letter\n\nPrint your Civil Service Preference Letter to verify your hiring preference for federal jobs.\n\n- Get free classes for a year (LinkedIn)\n\nGet one year of free access to LinkedIn Premium and LinkedIn Learning.\n\n## More information and resources\n\n- Subsistence allowance rates\n\nView the current subsistence allowance rates to find out the amount we'll provide to help you pay for basic needs (like food and clothing) if you're an eligible Veteran participating in the Voc Rehab program.\n\n- VetSuccess on Campus\n\nFind out if our counselors can help you transition from military to college life.\n\n- Voc Rehab and Employment glossary\n\nSee the definitions of our programs and other common terms you may read when learning about Vocational Rehabilitation and Employment benefits.\n\n- Voc Rehab success stories\n\nRead Veterans' stories of how Voc Rehab counselors and services helped them overcome challenges, find new opportunities, and achieve greater goals.\n\n- Resources for Veterans\n\nGet links to more resources outside of VA that can help you in your job search.\n\n- Resources for family members\n\nAccess valuable career resources for spouses and other family members of Veterans and service members.\n\n### Other VA benefits and services\n\n- GI Bill benefits\n\nExplore options for using GI Bill benefits to help pay for school or training, and find out what benefits you can get.\n\n- Other educational assistance programs\n\nIf you re a Veteran, Reservist, or National Guard Soldier who doesn t qualify for the Post-9/11 GI Bill, see if you can get education benefits through other VA programs.\n\n- Home loans\n\nApply for a Certificate of Eligibility for a VA direct or VA-backed home loan to build, buy, improve, or refinance a home.\n\n- Life insurance\n\nExplore your life insurance options and find out how to apply as a service member, Veteran, or family member.\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "document": "Careers And Employment | Veterans Affairs#1_0",
+          "heading": [
+            "职业与就业",
+            "获取职业与就业援助"
+          ],
+          "source_file": "va_018.md",
+          "excerpt": "[职业与就业 > 获取职业与就业援助]\n- 关于职业康复与就业（第31章）项目\n\n探索为有服务相关残疾的退伍军人和服役人员提供的支持与服务项目轨道。我们的项目可以帮助您学习新技能、找到新工作、创业、获得教育咨询或重返原工作岗位。\n\n- 资格\n\n如果您有服务相关残疾，限制了您的工作能力或使您无法工作，请了解您是否有资格获得职业康复。\n\n- 如何申请\n\n获取关于如何申请职业康复福利的分步说明。\n\n- 教育与职业咨询（第36章）\n\n了解作为近期退伍的退伍军人或家属，如何获得免费的教育与职业咨询。\n\n- 支持你的退伍军人创办的小型企业\n\n注册与VA开展业务，并获得对你退伍军人创办的小型企业的支持。\n\n- 对家属的支持\n\n查看你是否符合作为退伍军人或军人的受抚养配偶或子女获得教育与职业咨询的资格。"
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "document": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0",
+          "heading": [
+            "申请VA职业康复与就业的资格 | Veterans Affairs",
+            "VA职业康复与就业的资格要求"
+          ],
+          "source_file": "va_029.docx",
+          "excerpt": "[申请VA职业康复与就业的资格 | Veterans Affairs > VA职业康复与就业的资格要求]\n了解Veterans和现役军人申请VA职业康复与就业（VR&E）的资格要求。如果你的残疾是由现役服役引起或加重的，并且限制了你的工作能力或使你无法工作，你可能可以获得就业支持或服务，以帮助你尽可能独立生活。\n\n### 如果我是退伍军人，我是否有资格申请职业康复与就业？\n\n如果你是Veteran，并且满足以下所有要求，你可能符合VR&E福利和服务的资格。\n\n以下所有条件都必须满足。你：\n\n- 没有不光彩的退役记录，并且\n\n- 拥有VA评定的至少10%的服役相关残疾评级，并且\n\n- 申请VR&E服务\n\n#### 基本资格期限\n\n你的基本资格期限从你收到以下通知之日起12年结束：\n\n- 现役服役分离日期，或\n\n- 首次VA服役相关残疾评级\n\n请注意：如果职业康复顾问（VRC）认定你有严重就业障碍（SEH），基本资格期限可能会延长。就业障碍意味着你的服役相关残疾限制了你准备、获得和维持合适就业（不会加重你的残疾、稳定且与你的能力、才能和兴趣相匹配的工作）的能力。\n\n### 如果我仍在现役，我是否有资格申请职业康复与就业？\n\n如果你是现役军人，并且满足以下至少一项要求，你可能符合VR&E福利和服务的资格。\n\n以下至少一项必须为真。你：\n\n- 拥有20%或更高的退役前残疾评级（备忘录评级）并且即将离开军队，或\n\n- 正在参与综合残疾评估系统（IDES）流程，或因执行任务中发生的严重伤病导致的医疗状况而等待退役。了解更多关于通过IDES获取VR&E服务的信息\n\n请注意：根据《国防授权法案》（PL 110-181）第1631(b)条，严重受伤的现役军人可以在VA发布残疾评级之前自动获得VR&E福利。\n\n### 如果我收到了非荣誉退役、行为不良退役或不光彩退役，我该怎么办？\n\n如果你收到了这些退役状态之一，你可能不符合VA福利的资格。\n\n有2种方式可以尝试获得资格：\n\n了解如何申请 discharge upgrade 了解 VA Character of Discharge 审查流程"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If you had a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VA Vocational Rehabilitation and Employment (VR&E) benefits and services, such as help exploring employment options and getting more training if needed. Eligibility generally requires that you meet all of the following: you don't have a dishonorable discharge, you have a VA-rated service-connected disability of at least 10%, and you apply for VR&E services. Your basic period of eligibility ends 12 years from either your separation date or your first VA service-connected disability rating, though this may be extended if a Vocational Rehabilitation Counselor determines you have a serious employment handicap. If you're still on active duty, you may qualify if you have a 20% or higher pre-discharge disability rating and are about to leave the military, or if you're participating in the Integrated Disability Evaluation System (IDES) process or waiting for separation due to a medical condition from a serious injury incurred in the line of duty.",
+          "citations": [
+            "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+            "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+            "Careers And Employment | Veterans Affairs#2_0::c0000",
+            "Careers And Employment | Veterans Affairs#1_0::c0003",
+            "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "7dc2cd8e9c0c448595ea9e1634925802",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2499,
+              "completion_tokens": 311,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 311,
+                "prompt_tokens": 2499,
+                "total_tokens": 2810,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2243
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0047768,
+            "accounted_rmb": 0.0047768,
+            "usage_unknown": false,
+            "seconds": 2.562803268432617,
+            "error": null,
+            "response": {
+              "id": "ee0fccee-3848-427e-b804-16f6f760a9a1",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "7d7ac5d711eea8db389cf465c2875139fb32407a4af24119728280f6b9d5e6f7"
+      },
+      "latency_ms": {
+        "queue_wait": 0.006500049494206905,
+        "retrieval": 1251.2658749474213,
+        "generation": 2564.187958952971,
+        "total": 3816.040667006746
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2656468750210479,
+        "rerank_seconds": 0.9855709170224145,
+        "top1_dense_score": 0.7264482378959656,
+        "candidate_ids": [
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0002",
+          "VA Individual Unemployability If You Can't Work | Veterans Affairs#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0003",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007",
+          "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+          "Special Claims | Veterans Affairs#1_0::c0000",
+          "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0007",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0008",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0002",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0006",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0006",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#2_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0001",
+          "Disability Benefits | Social Security Administration#1_0::c0005",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0004",
+          "Disability Benefits | Social Security Administration#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 28,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.2512496249983087
+      },
+      "raw_citations": [
+        "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+        "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0::c0000",
+        "Careers And Employment | Veterans Affairs#2_0::c0000",
+        "Careers And Employment | Veterans Affairs#1_0::c0003",
+        "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "0cb1176a45e2c7438d8ddc471791a4720c6b115c3ce0f845e4d966b66e94101a"
+}

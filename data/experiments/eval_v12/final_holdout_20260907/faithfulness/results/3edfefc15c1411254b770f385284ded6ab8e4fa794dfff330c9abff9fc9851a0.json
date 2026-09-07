@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "3edfefc15c1411254b770f385284ded6ab8e4fa794dfff330c9abff9fc9851a0",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If your Total and Permanent Disability (TPD) discharge request is denied, Nelnet will notify you of the reason for the denial.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+                ],
+                "reason": "The context states Nelnet will notify you of the reason for the denial."
+              },
+              {
+                "text": "You may ask for a reevaluation within 12 months of the denial notice if you provide new information supporting your eligibility.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+                ],
+                "reason": "The context explains that you may ask for reevaluation if you provide new information within 12 months of the denial notice."
+              },
+              {
+                "text": "If you don't request reevaluation within that 12-month period and still want reevaluation, you must submit a new TPD discharge application with new information about your disabling condition that wasn't provided before.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+                ],
+                "reason": "The context states that if you don't request reevaluation within 12 months, you must submit a new application with new information not provided before."
+              },
+              {
+                "text": "You become responsible again for repaying your loans, and your loan holder will notify you when your first payment is due.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+                ],
+                "reason": "The context states you are again responsible for repaying loans and loan holder will notify when first payment is due."
+              },
+              {
+                "text": "If you applied for a TEACH Grant service obligation discharge, you're again responsible for meeting its terms and conditions.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+                ],
+                "reason": "The context states that if you applied for discharge of a TEACH Grant service obligation, you are again responsible for meeting its terms and conditions."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "754124bbee83434b854bdb5e5f9aea53",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2473,
+                "completion_tokens": 549,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 549,
+                  "prompt_tokens": 2473,
+                  "total_tokens": 3022,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2089
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0056232,
+              "accounted_rmb": 0.0056232,
+              "usage_unknown": false,
+              "seconds": 3.084644079208374,
+              "error": null,
+              "response": {
+                "id": "303f05c8-e3dd-412c-a640-b7dd55913160",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7de7067a125713d86eb2242fd4ef4da6970da1833c58f5c5099f5e6842c09a4c"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If your Total and Permanent Disability (TPD) discharge request is denied, Nelnet will notify you of the reason for the denial.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+          ],
+          "reason": "The context states Nelnet will notify you of the reason for the denial."
+        },
+        {
+          "text": "You may ask for a reevaluation within 12 months of the denial notice if you provide new information supporting your eligibility.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+          ],
+          "reason": "The context explains that you may ask for reevaluation if you provide new information within 12 months of the denial notice."
+        },
+        {
+          "text": "If you don't request reevaluation within that 12-month period and still want reevaluation, you must submit a new TPD discharge application with new information about your disabling condition that wasn't provided before.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+          ],
+          "reason": "The context states that if you don't request reevaluation within 12 months, you must submit a new application with new information not provided before."
+        },
+        {
+          "text": "You become responsible again for repaying your loans, and your loan holder will notify you when your first payment is due.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+          ],
+          "reason": "The context states you are again responsible for repaying loans and loan holder will notify when first payment is due."
+        },
+        {
+          "text": "If you applied for a TEACH Grant service obligation discharge, you're again responsible for meeting its terms and conditions.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+          ],
+          "reason": "The context states that if you applied for discharge of a TEACH Grant service obligation, you are again responsible for meeting its terms and conditions."
+        }
+      ]
+    }
+  },
+  "sha256": "bb6e1282e4f1f74525e3375ab07e14e1510d034bb37120cc5b13e5ab356ab71d"
+}

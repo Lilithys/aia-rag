@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "2105ed56433250b142650a42ef8ea968::agent-turn-4",
+    "item_sha256": "08d6fda882bbe39b007a8e87d517b9197de4bc4e7e1f3064f26a3473c5c5f3a6",
+    "result": {
+      "request_id": "e12fc15b93d34e229916a2f289e03a6c",
+      "session_id": "2105ed56433250b142650a42ef8ea968",
+      "turn_id": 3,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "根据您提供的信息，国家召唤服役计划（National Call to Service）的资格要求如下：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且在没有服役中断的情况下，再服役一段额外的现役期或在选定预备役部队中保持现役状态24个月。之后，您还需完成剩余的服役义务，方式包括在武装部队服现役、在选定预备役部队服役、在个人待命预备役服役，或在美国志愿队等国内国家服务计划中服务。如果您符合这些条件，您可以选择以下福利之一：5,000美元现金奖励、不超过18,000美元的学贷偿还、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。请注意，此计划由退伍军人事务部（VA）代表国防部管理，且可能影响您的服役合同。如果您尚未完成国家服役，建议联系您的招募人员了解具体资格和注册事宜。",
+        "citations": [
+          "National Call To Service Program | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "National Call To Service Program | Veterans Affairs#1_0::c0000",
+          "text": "# 国家召唤服役计划 | 退伍军人事务部\n\n# 国家召唤服役计划\n\n如果您完成了一段国家服役期，您可能有资格参加国家召唤服役计划，该计划允许您选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。了解您是否符合资格。\n\n### 我是否有资格享受此福利？\n\n如果您满足以下列出的要求，您就有资格参加国家召唤服役计划。\n\n以下两项必须均为属实：\n\n- 您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且\n\n- 然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月\n\n以下其中一项必须属实：\n\n在没有服役中断的情况下，您随后完成了剩余的服役义务：\n\n- 在武装部队中服现役，或\n- 在选定预备役部队中服役，或\n- 在个人待命预备役中服役，或\n- 在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务\n\n### 谁受保障？\n\n退伍军人\n\n## 我可以获得哪些福利？\n\n您可以选择以下其中一项：\n\n- 5,000美元的现金奖励，或\n- 偿还符合条件的学贷，金额不超过18,000美元，或\n- 相当于3年期月度MGIB标准12个月的教育援助，或\n- 相当于不足3年期月度MGIB标准50%的36个月教育援助\n\n## 如何获得这些福利？\n\n立即在线申请\n\n如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册国家征召服役计划。此福利会影响您的服役合同。\n\n## 获取更多信息\n\n国家征召服役计划手册（PDF）\n\n该计划由退伍军人事务部（VA）代表国防部管理。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0001",
+          "text": "[军人退伍军人福利 > 本页内容]\n如果您在美国统一军种中现役服役，包括有联邦薪金的现役国民警卫队和预备役，您在服役期间以及退役或退休后可能有资格获得退伍军人事务部福利。如果您是国民警卫队和预备役的传统或技术成员，您也可能有资格获得一些退伍军人事务部福利。了解您可能有资格获得哪些福利以及何时申请。您还将在必需的过渡援助计划（TAP）简报中了解这些福利。\n\n- 您在服役期间和服役后可以使用的退伍军人事务部福利\n- 分离或退休时需要考虑的有时限的退伍军人事务部福利\n- 作为退伍军人需要考虑的其他退伍军人事务部福利"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0001",
+          "text": "[VA benefits for service members > 本页内容]\n如果您在美国统一军种（包括有联邦薪水的现役国民警卫队和预备役）中现役服役，您可能符合在服役期间以及退役或退休后获得VA福利的资格。如果您是国民警卫队和预备役的传统或技术成员，您也可能有资格获得一些VA福利。了解您可能有资格获得哪些福利以及何时申请。您还将在必需的Transition Assistance Program (TAP)简报中了解这些福利。\n\n- 服役期间和服役后可以使用的VA福利\n- 分离或退休时需要考虑的有时限的VA福利\n- 作为退伍军人需要考虑的其他VA福利"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004",
+          "text": "[谁能帮有我准备听证会?]\n受过上诉程序培训的代表可以帮助你准备听证会以及与法官的对话。你的代表必须是经VA认证的律师、索赔代理人或退伍军人服务组织( VSO )的成员。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "National Call To Service Program | Veterans Affairs#1_0::c0000",
+          "text": "# 国家召唤服役计划 | 退伍军人事务部\n\n# 国家召唤服役计划\n\n如果您完成了一段国家服役期，您可能有资格参加国家召唤服役计划，该计划允许您选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。了解您是否符合资格。\n\n### 我是否有资格享受此福利？\n\n如果您满足以下列出的要求，您就有资格参加国家召唤服役计划。\n\n以下两项必须均为属实：\n\n- 您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且\n\n- 然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月\n\n以下其中一项必须属实：\n\n在没有服役中断的情况下，您随后完成了剩余的服役义务：\n\n- 在武装部队中服现役，或\n- 在选定预备役部队中服役，或\n- 在个人待命预备役中服役，或\n- 在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务\n\n### 谁受保障？\n\n退伍军人\n\n## 我可以获得哪些福利？\n\n您可以选择以下其中一项：\n\n- 5,000美元的现金奖励，或\n- 偿还符合条件的学贷，金额不超过18,000美元，或\n- 相当于3年期月度MGIB标准12个月的教育援助，或\n- 相当于不足3年期月度MGIB标准50%的36个月教育援助\n\n## 如何获得这些福利？\n\n立即在线申请\n\n如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册国家征召服役计划。此福利会影响您的服役合同。\n\n## 获取更多信息\n\n国家征召服役计划手册（PDF）\n\n该计划由退伍军人事务部（VA）代表国防部管理。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#1_0::c0001",
+          "text": "[军人退伍军人福利 > 本页内容]\n如果您在美国统一军种中现役服役，包括有联邦薪金的现役国民警卫队和预备役，您在服役期间以及退役或退休后可能有资格获得退伍军人事务部福利。如果您是国民警卫队和预备役的传统或技术成员，您也可能有资格获得一些退伍军人事务部福利。了解您可能有资格获得哪些福利以及何时申请。您还将在必需的过渡援助计划（TAP）简报中了解这些福利。\n\n- 您在服役期间和服役后可以使用的退伍军人事务部福利\n- 分离或退休时需要考虑的有时限的退伍军人事务部福利\n- 作为退伍军人需要考虑的其他退伍军人事务部福利"
+        },
+        {
+          "chunk_id": "VA Benefits For Service Members | Veterans Affairs#2_0::c0001",
+          "text": "[VA benefits for service members > 本页内容]\n如果您在美国统一军种（包括有联邦薪水的现役国民警卫队和预备役）中现役服役，您可能符合在服役期间以及退役或退休后获得VA福利的资格。如果您是国民警卫队和预备役的传统或技术成员，您也可能有资格获得一些VA福利。了解您可能有资格获得哪些福利以及何时申请。您还将在必需的Transition Assistance Program (TAP)简报中了解这些福利。\n\n- 服役期间和服役后可以使用的VA福利\n- 分离或退休时需要考虑的有时限的VA福利\n- 作为退伍军人需要考虑的其他VA福利"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004",
+          "text": "[谁能帮有我准备听证会?]\n受过上诉程序培训的代表可以帮助你准备听证会以及与法官的对话。你的代表必须是经VA认证的律师、索赔代理人或退伍军人服务组织( VSO )的成员。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "National Call To Service Program | Veterans Affairs#1_0::c0000",
+          "document": "National Call To Service Program | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_062.md",
+          "excerpt": "# 国家召唤服役计划 | 退伍军人事务部\n\n# 国家召唤服役计划\n\n如果您完成了一段国家服役期，您可能有资格参加国家召唤服役计划，该计划允许您选择一项教育福利，作为蒙哥马利军人法案（MGIB）的替代方案。了解您是否符合资格。\n\n### 我是否有资格享受此福利？\n\n如果您满足以下列出的要求，您就有资格参加国家召唤服役计划。\n\n以下两项必须均为属实：\n\n- 您完成了初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且\n\n- 然后，在没有服役中断的情况下，您要么按照国防部长的决定再服役一段额外的现役期，要么在选定的预备役部队中保持现役状态24个月\n\n以下其中一项必须属实：\n\n在没有服役中断的情况下，您随后完成了剩余的服役义务：\n\n- 在武装部队中服现役，或\n- 在选定预备役部队中服役，或\n- 在个人待命预备役中服役，或\n- 在美国志愿队或国防部长联合指定的其他国内国家服务计划中服务\n\n### 谁受保障？\n\n退伍军人\n\n## 我可以获得哪些福利？\n\n您可以选择以下其中一项：\n\n- 5,000美元的现金奖励，或\n- 偿还符合条件的学贷，金额不超过18,000美元，或\n- 相当于3年期月度MGIB标准12个月的教育援助，或\n- 相当于不足3年期月度MGIB标准50%的36个月教育援助\n\n## 如何获得这些福利？\n\n立即在线申请\n\n如果您根据国家征召服役计划入伍，除非您日后重新入伍并额外服役一段时间，否则您不符合《蒙哥马利军人法案》（MGIB）的资格。请联系您的招募人员，了解您是否符合资格并注册国家征召服役计划。此福利会影响您的服役合同。\n\n## 获取更多信息\n\n国家征召服役计划手册（PDF）\n\n该计划由退伍军人事务部（VA）代表国防部管理。\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "根据您提供的信息，国家召唤服役计划（National Call to Service）的资格要求如下：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且在没有服役中断的情况下，再服役一段额外的现役期或在选定预备役部队中保持现役状态24个月。之后，您还需完成剩余的服役义务，方式包括在武装部队服现役、在选定预备役部队服役、在个人待命预备役服役，或在美国志愿队等国内国家服务计划中服务。如果您符合这些条件，您可以选择以下福利之一：5,000美元现金奖励、不超过18,000美元的学贷偿还、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。请注意，此计划由退伍军人事务部（VA）代表国防部管理，且可能影响您的服役合同。如果您尚未完成国家服役，建议联系您的招募人员了解具体资格和注册事宜。",
+          "citations": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "856a0b59c9c449618b57745be2b851c1",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1566,
+              "completion_tokens": 243,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 243,
+                "prompt_tokens": 1566,
+                "total_tokens": 1809,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1310
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0030713000000000003,
+            "accounted_rmb": 0.0030713000000000003,
+            "usage_unknown": false,
+            "seconds": 2.4068191051483154,
+            "error": null,
+            "response": {
+              "id": "e1e6b9ce-6f98-4196-9ee8-9b55eafbc410",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "5b3754bcc86a8de6316820da6bf9bc24dcd9a9b97712000c950bf7fffa6adb07"
+      },
+      "latency_ms": {
+        "queue_wait": 0.028291018679738045,
+        "retrieval": 970.5260420450941,
+        "generation": 2409.317208104767,
+        "total": 3380.4888329468668
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.13383020798210055,
+        "rerank_seconds": 0.8366274579893798,
+        "top1_dense_score": 0.6186684370040894,
+        "candidate_ids": [
+          "National Call To Service Program | Veterans Affairs#1_0::c0000",
+          "Aid for Military Families | Federal Student Aid#1_0::c0007",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0006",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0000",
+          "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0001",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0005",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0001",
+          "Aid for Military Families | Federal Student Aid#1_0::c0003",
+          "Loan Servicers | Federal Student Aid#1_0::c0001",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0002",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0000",
+          "Request Your Military Service Records | Veterans Affairs#1_0::c0000",
+          "Public Service Loan Forgiveness | Federal Student Aid#1_0::c0001",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004",
+          "Careers And Employment | Veterans Affairs#1_0::c0004",
+          "Get Help Filing Your Claim Or Appeal | Veterans Affairs#1_0::c0000",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0003",
+          "Work Study | Veterans Affairs#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 29,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.97050187503919
+      },
+      "raw_citations": [
+        "National Call To Service Program | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "e29f2b0aa41a24310904a9ee36b621834c220e8c420c39daff6487719fdf0c38"
+}

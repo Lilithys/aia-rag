@@ -1,0 +1,937 @@
+{
+  "binding_sha256": "eef98b87b4f70b5fa2c6a07edae5c806b5b277b630c40308fb75c625f94c22b9",
+  "cases": [
+    {
+      "case_id": "windowed_k5_t0:6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "rescheduling requires a written request with good cause at least two weeks before the hearing",
+                  "coverage": "contradicted",
+                  "response_quote": "you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date",
+                  "reason": "The response omits the good cause requirement and instead provides docket-order details, failing to state the essential condition for rescheduling."
+                },
+                {
+                  "requirement": "include name, VA appeal file number, and reason for new date in the rescheduling request",
+                  "coverage": "covered",
+                  "response_quote": "including your name, VA file number, and reason for withdrawal",
+                  "reason": "The response mentions these details but only in the context of withdrawal, not rescheduling."
+                }
+              ],
+              "reason": "The response answers the reschedule/withdraw question but fails to include the essential 'good cause' requirement for rescheduling, instead giving unsupported docket-order details. It also misplaces the required information for rescheduling. Thus, it is incomplete and incorrect."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "641f4770cfb640d4b9923f6827abfcd0",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 4535,
+                  "completion_tokens": 268,
+                  "cached_tokens": 384,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 268,
+                    "prompt_tokens": 4535,
+                    "total_tokens": 4803,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 384,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 384,
+                    "prompt_cache_miss_tokens": 4151
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.014903399999999999,
+                "accounted_rmb": 0.014903399999999999,
+                "usage_unknown": false,
+                "seconds": 3.6715667247772217,
+                "error": null,
+                "response": {
+                  "id": "f6c9c845-f7c0-47da-a241-de966f14de3c",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "f7b2e500ea9975a13baea7ab3e5cc4c2e6852824d3c503a26121157b5650f1fc"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "rescheduling requires a written request with good cause at least two weeks before the hearing",
+              "coverage": "contradicted",
+              "response_quote": "you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date",
+              "reason": "The response omits the good cause requirement and instead provides docket-order details, failing to state the essential condition for rescheduling."
+            },
+            {
+              "requirement": "include name, VA appeal file number, and reason for new date in the rescheduling request",
+              "coverage": "covered",
+              "response_quote": "including your name, VA file number, and reason for withdrawal",
+              "reason": "The response mentions these details but only in the context of withdrawal, not rescheduling."
+            }
+          ],
+          "reason": "The response answers the reschedule/withdraw question but fails to include the essential 'good cause' requirement for rescheduling, instead giving unsupported docket-order details. It also misplaces the required information for rescheduling. Thus, it is incomplete and incorrect."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k5_t03:6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "rescheduling requires a written request with good cause at least two weeks before the hearing",
+                  "coverage": "contradicted",
+                  "response_quote": "Rescheduling will not cause you to lose your place in the queue; you will keep the same docket date and your hearing will be rescheduled to the earliest possible date.",
+                  "reason": "The response omits the essential 'good cause' requirement and instead states rescheduling is possible without mentioning this condition."
+                },
+                {
+                  "requirement": "include name, VA file number, and reason for needing a new date",
+                  "coverage": "covered",
+                  "response_quote": "including your name, VA file number, and reason for withdrawal",
+                  "reason": "The response includes these elements but frames them for withdrawal, not rescheduling."
+                }
+              ],
+              "reason": "The response answers the reschedule/withdraw question but fails to mention the essential 'good cause' requirement for rescheduling, instead providing withdrawal details. It omits a necessary condition, making the answer incomplete."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "8b2feb175c1d4554a686571143ae6bc5",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 4536,
+                  "completion_tokens": 246,
+                  "cached_tokens": 384,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 246,
+                    "prompt_tokens": 4536,
+                    "total_tokens": 4782,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 384,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 384,
+                    "prompt_cache_miss_tokens": 4152
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0147084,
+                "accounted_rmb": 0.0147084,
+                "usage_unknown": false,
+                "seconds": 3.114010810852051,
+                "error": null,
+                "response": {
+                  "id": "dc733f84-aa57-46de-bb78-ede283e3f698",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "e4f413c191c7bd4cf681ab07586fc040000d0ba5c188b5e5801081c2a91a7b15"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "rescheduling requires a written request with good cause at least two weeks before the hearing",
+              "coverage": "contradicted",
+              "response_quote": "Rescheduling will not cause you to lose your place in the queue; you will keep the same docket date and your hearing will be rescheduled to the earliest possible date.",
+              "reason": "The response omits the essential 'good cause' requirement and instead states rescheduling is possible without mentioning this condition."
+            },
+            {
+              "requirement": "include name, VA file number, and reason for needing a new date",
+              "coverage": "covered",
+              "response_quote": "including your name, VA file number, and reason for withdrawal",
+              "reason": "The response includes these elements but frames them for withdrawal, not rescheduling."
+            }
+          ],
+          "reason": "The response answers the reschedule/withdraw question but fails to mention the essential 'good cause' requirement for rescheduling, instead providing withdrawal details. It omits a necessary condition, making the answer incomplete."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k5_t0:5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Standard ID is not accepted for domestic flights from October 2020 unless a passport is used",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response explains replacement options but omits the essential fact about Standard ID flight restrictions and passport alternative."
+                }
+              ],
+              "reason": "The answer addresses replacement procedures but fails to include the key condition about Standard ID not being valid for domestic flights without a passport."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "5fc9ec0b1f494e36bb3e3f77405f2861",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 2387,
+                  "completion_tokens": 125,
+                  "cached_tokens": 384,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 125,
+                    "prompt_tokens": 2387,
+                    "total_tokens": 2512,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 384,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 384,
+                    "prompt_cache_miss_tokens": 2003
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0071724,
+                "accounted_rmb": 0.0071724,
+                "usage_unknown": false,
+                "seconds": 2.074958086013794,
+                "error": null,
+                "response": {
+                  "id": "9b46842e-176b-4d90-8002-b267818547f8",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "1e7a795be3bca421f36c13254048c0ec982ccbe53a1650ecfdc8f5c1f2e9b88c"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Standard ID is not accepted for domestic flights from October 2020 unless a passport is used",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response explains replacement options but omits the essential fact about Standard ID flight restrictions and passport alternative."
+            }
+          ],
+          "reason": "The answer addresses replacement procedures but fails to include the key condition about Standard ID not being valid for domestic flights without a passport."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k10_t0:5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response explains replacement options and the 'NOT FOR FEDERAL PURPOSES' marking but does not mention the domestic flight restriction or passport alternative."
+                }
+              ],
+              "reason": "The answer provides accurate replacement guidance but omits the essential reference fact about Standard ID not being accepted for domestic flights from October 2020 unless a passport is used."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "c18baf03c71e4d6daf37c029951c7b62",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 3267,
+                  "completion_tokens": 143,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 143,
+                    "prompt_tokens": 3267,
+                    "total_tokens": 3410,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 2371
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0084896,
+                "accounted_rmb": 0.0084896,
+                "usage_unknown": false,
+                "seconds": 1.8122339248657227,
+                "error": null,
+                "response": {
+                  "id": "bf3f167e-624d-4f57-ae6f-7f743bdd007d",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "89cc1004df616849be7abbee6aff3b1f497ab1ace257bd7e96816d1ac414e9a1"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response explains replacement options and the 'NOT FOR FEDERAL PURPOSES' marking but does not mention the domestic flight restriction or passport alternative."
+            }
+          ],
+          "reason": "The answer provides accurate replacement guidance but omits the essential reference fact about Standard ID not being accepted for domestic flights from October 2020 unless a passport is used."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k5_t0:2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "make a budget to ensure you borrow only what you need",
+                  "coverage": "covered",
+                  "response_quote": "只借你需要的金额，并制定预算以确保这一点",
+                  "reason": "The response explicitly advises budgeting to borrow only the needed amount, matching the reference."
+                }
+              ],
+              "reason": "The response provides accurate loan advice supported by the cited documents, including the essential budgeting guidance, without unsupported claims."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "b546cb3f9dde4d09afbf09a34ccd4534",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 3658,
+                  "completion_tokens": 124,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 124,
+                    "prompt_tokens": 3658,
+                    "total_tokens": 3782,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 2762
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.009491600000000001,
+                "accounted_rmb": 0.009491600000000001,
+                "usage_unknown": false,
+                "seconds": 2.530287265777588,
+                "error": null,
+                "response": {
+                  "id": "228ee072-5701-4e4a-abbb-cb0dc30a01b6",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "a7142546205663e129da12c5d7b9824c121bd7968d5337a493fe48eae241dc6c"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "make a budget to ensure you borrow only what you need",
+              "coverage": "covered",
+              "response_quote": "只借你需要的金额，并制定预算以确保这一点",
+              "reason": "The response explicitly advises budgeting to borrow only the needed amount, matching the reference."
+            }
+          ],
+          "reason": "The response provides accurate loan advice supported by the cited documents, including the essential budgeting guidance, without unsupported claims."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k5_t0:d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "voluntary participation in chemical/biological testing between 1942 and 1975",
+                  "coverage": "covered",
+                  "response_quote": "您在1942年至1975年间自愿参加涉及化学和生物测试的研究",
+                  "reason": "Response states this requirement explicitly."
+                },
+                {
+                  "requirement": "injury or illness directly caused by participation",
+                  "coverage": "covered",
+                  "response_quote": "有直接由参与这些测试造成的伤害或疾病",
+                  "reason": "Response states this requirement explicitly."
+                },
+                {
+                  "requirement": "both requirements must be true",
+                  "coverage": "covered",
+                  "response_quote": "这两项要求必须同时为真",
+                  "reason": "Response explicitly notes both must be true."
+                }
+              ],
+              "reason": "The response accurately answers the question by listing the two essential requirements and noting they must both be true, supported by the retrieved context. It also correctly clarifies that this applies to medical care, not disability compensation."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "7160dff0ad6e412e8d41fa3bedc4cc24",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 3978,
+                  "completion_tokens": 235,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 235,
+                    "prompt_tokens": 3978,
+                    "total_tokens": 4213,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 3082
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0114506,
+                "accounted_rmb": 0.0114506,
+                "usage_unknown": false,
+                "seconds": 2.1924281120300293,
+                "error": null,
+                "response": {
+                  "id": "457f8401-4e4f-4847-b353-586cee85d644",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "40a1246648d578a31ab2b5b5f7c82128633dc190672b9e41d2f18bdc616e9148"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "voluntary participation in chemical/biological testing between 1942 and 1975",
+              "coverage": "covered",
+              "response_quote": "您在1942年至1975年间自愿参加涉及化学和生物测试的研究",
+              "reason": "Response states this requirement explicitly."
+            },
+            {
+              "requirement": "injury or illness directly caused by participation",
+              "coverage": "covered",
+              "response_quote": "有直接由参与这些测试造成的伤害或疾病",
+              "reason": "Response states this requirement explicitly."
+            },
+            {
+              "requirement": "both requirements must be true",
+              "coverage": "covered",
+              "response_quote": "这两项要求必须同时为真",
+              "reason": "Response explicitly notes both must be true."
+            }
+          ],
+          "reason": "The response accurately answers the question by listing the two essential requirements and noting they must both be true, supported by the retrieved context. It also correctly clarifies that this applies to medical care, not disability compensation."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k5_t0:58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": false,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": false,
+              "observed_action": "answer",
+              "behavior_ok": false,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Ask the user to identify what 'neither of those' refers to before giving a personalized next step.",
+                  "coverage": "missing",
+                  "response_quote": "",
+                  "reason": "The response provides generic FAFSA application steps without clarifying the ambiguous referent."
+                }
+              ],
+              "reason": "The response fails to clarify the ambiguous 'neither of those' and instead gives generic aid advice, violating the required clarification action."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "538c0a6bea51491ab002f31573540ffb",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 3599,
+                  "completion_tokens": 124,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 124,
+                    "prompt_tokens": 3599,
+                    "total_tokens": 3723,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 2703
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.009314600000000001,
+                "accounted_rmb": 0.009314600000000001,
+                "usage_unknown": false,
+                "seconds": 1.749866008758545,
+                "error": null,
+                "response": {
+                  "id": "fbd8ffc3-a6d5-483d-ac0a-93851f9639bc",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "0d1e9f8328f3fc57a85cf85e43f8b4f4aa2de96060627057c0a33c7b054bffa2"
+          }
+        ],
+        "score": 0,
+        "verdict": {
+          "correct": false,
+          "observed_action": "answer",
+          "behavior_ok": false,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Ask the user to identify what 'neither of those' refers to before giving a personalized next step.",
+              "coverage": "missing",
+              "response_quote": "",
+              "reason": "The response provides generic FAFSA application steps without clarifying the ambiguous referent."
+            }
+          ],
+          "reason": "The response fails to clarify the ambiguous 'neither of those' and instead gives generic aid advice, violating the required clarification action."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "windowed_k5_t0:eval-v1-dev-refuse-006",
+      "kind": "existing_smoke_response",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "refuse",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [],
+              "reason": "The response correctly refuses to provide personal appointment details, explains the limitation, and offers supported general steps (contact VA) from the retrieved contexts."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "a002b7ff683e4520b6dbd39d42e4db75",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 2031,
+                  "completion_tokens": 66,
+                  "cached_tokens": 896,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 66,
+                    "prompt_tokens": 2031,
+                    "total_tokens": 2097,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 896,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 896,
+                    "prompt_cache_miss_tokens": 1135
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0040885999999999995,
+                "accounted_rmb": 0.0040885999999999995,
+                "usage_unknown": false,
+                "seconds": 1.5441279411315918,
+                "error": null,
+                "response": {
+                  "id": "38908834-7cfd-48ee-9516-15041ede82fc",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "0b0a3473b2c6aab9f666f2b33c6336aa16a2c9ddea7ea1795794e2cdbe93669e"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "refuse",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [],
+          "reason": "The response correctly refuses to provide personal appointment details, explains the limitation, and offers supported general steps (contact VA) from the retrieved contexts."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "6c1a20:source_grounded_positive",
+      "kind": "constructed_reference_positive_control",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "send written request to Board at least two weeks before hearing",
+                  "coverage": "covered",
+                  "response_quote": "send the Board a written request with good cause at least two weeks before the hearing",
+                  "reason": "Response includes the two-week written request requirement."
+                },
+                {
+                  "requirement": "include name, VA appeal file number, and reason for new date",
+                  "coverage": "covered",
+                  "response_quote": "Include your name, VA appeal file number, and the reason you need a new date.",
+                  "reason": "Response lists all required information."
+                }
+              ],
+              "reason": "The response accurately and completely answers the user's question about rescheduling a Board hearing, matching the reference and supported by the retrieved context."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "0122498d20cf4365938144405c797dfb",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 1803,
+                  "completion_tokens": 187,
+                  "cached_tokens": 1280,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 187,
+                    "prompt_tokens": 1803,
+                    "total_tokens": 1990,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 1280,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 1280,
+                    "prompt_cache_miss_tokens": 523
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.00338,
+                "accounted_rmb": 0.00338,
+                "usage_unknown": false,
+                "seconds": 1.9210281372070312,
+                "error": null,
+                "response": {
+                  "id": "7c3cc458-97d3-4563-9487-7af1c5fb5e3e",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "ea1956871a2cc73d998c75d33ebe66785b9d62cd4d2ed27bb93382999f64b0f4"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "send written request to Board at least two weeks before hearing",
+              "coverage": "covered",
+              "response_quote": "send the Board a written request with good cause at least two weeks before the hearing",
+              "reason": "Response includes the two-week written request requirement."
+            },
+            {
+              "requirement": "include name, VA appeal file number, and reason for new date",
+              "coverage": "covered",
+              "response_quote": "Include your name, VA appeal file number, and the reason you need a new date.",
+              "reason": "Response lists all required information."
+            }
+          ],
+          "reason": "The response accurately and completely answers the user's question about rescheduling a Board hearing, matching the reference and supported by the retrieved context."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    },
+    {
+      "case_id": "5739237:source_grounded_positive",
+      "kind": "constructed_reference_positive_control",
+      "expected_ai_diagnostic": true,
+      "result": {
+        "status": "ok",
+        "calls": [
+          {
+            "status": "ok",
+            "parsed": {
+              "correct": true,
+              "observed_action": "answer",
+              "behavior_ok": true,
+              "extra_claims_supported": true,
+              "checks": [
+                {
+                  "requirement": "Standard ID not accepted for domestic flights from October 2020",
+                  "coverage": "covered",
+                  "response_quote": "a Standard ID would not be accepted for boarding a domestic flight starting in October 2020",
+                  "reason": "Directly states the restriction with the correct date."
+                },
+                {
+                  "requirement": "Passport can be used instead",
+                  "coverage": "covered",
+                  "response_quote": "a passport could be used instead",
+                  "reason": "Mentions the passport alternative."
+                }
+              ],
+              "reason": "The response accurately answers the user's question about Standard ID, covering both essential conditions from the reference."
+            },
+            "attempts": [
+              {
+                "event": "settle",
+                "attempt_id": "c87936a3f2714e0b98028b694c2bee07",
+                "outcome": "ok",
+                "usage": {
+                  "prompt_tokens": 1294,
+                  "completion_tokens": 167,
+                  "cached_tokens": 1024,
+                  "reasoning_tokens": 0,
+                  "raw": {
+                    "completion_tokens": 167,
+                    "prompt_tokens": 1294,
+                    "total_tokens": 1461,
+                    "completion_tokens_details": null,
+                    "compute_units": null,
+                    "prompt_tokens_details": {
+                      "audio_tokens": null,
+                      "cache_write_tokens": null,
+                      "cached_tokens": 1024,
+                      "image_tokens": null,
+                      "text_tokens": null
+                    },
+                    "prompt_cache_hit_tokens": 1024,
+                    "prompt_cache_miss_tokens": 270
+                  }
+                },
+                "usage_cost_estimate_rmb": 0.0024154000000000003,
+                "accounted_rmb": 0.0024154000000000003,
+                "usage_unknown": false,
+                "seconds": 1.7327499389648438,
+                "error": null,
+                "response": {
+                  "id": "00a7d4b8-9a13-47c3-b5f7-6ea90d307f42",
+                  "model": "deepseek-v4-flash",
+                  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                  "finish_reason": "stop"
+                }
+              }
+            ],
+            "cache_hit": false,
+            "request_hash": "b9497b5ad0892178178e8088a1de1b674b501b2e9cf60654f2913ec67db7c96b"
+          }
+        ],
+        "score": 1,
+        "verdict": {
+          "correct": true,
+          "observed_action": "answer",
+          "behavior_ok": true,
+          "extra_claims_supported": true,
+          "checks": [
+            {
+              "requirement": "Standard ID not accepted for domestic flights from October 2020",
+              "coverage": "covered",
+              "response_quote": "a Standard ID would not be accepted for boarding a domestic flight starting in October 2020",
+              "reason": "Directly states the restriction with the correct date."
+            },
+            {
+              "requirement": "Passport can be used instead",
+              "coverage": "covered",
+              "response_quote": "a passport could be used instead",
+              "reason": "Mentions the passport alternative."
+            }
+          ],
+          "reason": "The response accurately answers the user's question about Standard ID, covering both essential conditions from the reference."
+        }
+      },
+      "matches_diagnostic_expectation": true
+    }
+  ],
+  "diagnostic_cumulative_api_attempts": 26,
+  "accounted_rmb": 0.1850626,
+  "independent_human_calibration_complete": false,
+  "all_expected_probe_outcomes": true
+}

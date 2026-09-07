@@ -1,0 +1,17 @@
+{
+  "reviewer_type": "ai_agent",
+  "independent_human_review": false,
+  "judgments_schema_valid": 77,
+  "planned_judgments": 77,
+  "paired_claim_bearing_baseline_outputs": 18,
+  "mean_absolute_score_difference": 0.03858024691358025,
+  "max_absolute_score_difference": 0.33333333333333337,
+  "semantic_calibration_passed": false,
+  "counterexample": {
+    "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+    "flash_score": 0.6666666666666666,
+    "pro_score": 1.0,
+    "finding": "Flash still extracts the expressly excluded context-availability remark and marks it unsupported; Pro omits it. Schema success did not ensure rubric adherence. Do not certify v2 semantic calibration from successful parsing."
+  },
+  "next_step": "Independent review of claim inclusion, support, and clarification references before acceptance; preserve all raw scores."
+}

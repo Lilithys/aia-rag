@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "041c77a04499b51bda31b48ee6856c934a26721feaf30f8bed758fb37cddc1d5",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9166666666361111,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about the Fry Scholarship, including eligibility criteria that match the user's situation (parent or spouse died in the line of duty on or after September 11, 2001). The answer directly reflects this information, indicating the context was useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a53b4e73a5954748bb8033f3a648b279",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1598,
+                "completion_tokens": 68,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 68,
+                  "prompt_tokens": 1598,
+                  "total_tokens": 1666,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 830
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015894000000000001,
+              "accounted_rmb": 0.0015894000000000001,
+              "usage_unknown": false,
+              "seconds": 1.106431007385254,
+              "error": null,
+              "response": {
+                "id": "d5a06df1-c2c1-4dbb-b990-a0f934d0e7c8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d70c2a00a1122b24ae088b07eff22103a51a91951c232b473016d8813acf1d3e"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about the Fry Scholarship, including eligibility criteria that match the user's situation described in the question. The answer directly reflects the eligibility statement from the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0f24cc229fac468fa651d329c276b8e8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1832,
+                "completion_tokens": 50,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 50,
+                  "prompt_tokens": 1832,
+                  "total_tokens": 1882,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1064
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018594,
+              "accounted_rmb": 0.0018594,
+              "usage_unknown": false,
+              "seconds": 1.2401092052459717,
+              "error": null,
+              "response": {
+                "id": "a9fc6c88-e50b-43cc-b54e-81b2646d6890",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0e828b3f5437c627b12398460ddcd77538c6fd53aef6c0e8537f6b6b56e9fb39"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses financial aid for military service members and their families, including loan interest rate caps, interest waivers, and deferments, but it does not mention the Fry Scholarship or the specific eligibility criteria related to a parent or spouse dying in the line of duty on or after September 11, 2001. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0c53e06cb63b403da80f4163867b90ae",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1388,
+                "completion_tokens": 92,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 92,
+                  "prompt_tokens": 1388,
+                  "total_tokens": 1480,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 492
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0011968,
+              "accounted_rmb": 0.0011968,
+              "usage_unknown": false,
+              "seconds": 1.2730381488800049,
+              "error": null,
+              "response": {
+                "id": "74267787-a9ac-41f7-877a-b257f601b403",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cfdfec5805b90db485c55ed306cc274a27e890cee9506814333cbe08878ce200"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explicitly mentions that children or surviving spouses of service members who died in the line of duty after September 10, 2001, may qualify for the Fry Scholarship, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "023762251091466584144d16b17e2b7f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1203,
+                "completion_tokens": 56,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 56,
+                  "prompt_tokens": 1203,
+                  "total_tokens": 1259,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 307
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007572999999999999,
+              "accounted_rmb": 0.0007572999999999999,
+              "usage_unknown": false,
+              "seconds": 1.0118370056152344,
+              "error": null,
+              "response": {
+                "id": "789cdd64-8086-43f6-9129-e56544ab6afe",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "011baeb9703d96c33486bdeb1a40e180b8790d91600610920a1749567f3fe155"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about scholarships, including those for military families, but does not specifically mention the Fry Scholarship or its eligibility criteria. The answer is derived from the conversation, not the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f9548ca59c5e4d799041ab18b5f8e667",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1701,
+                "completion_tokens": 54,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 54,
+                  "prompt_tokens": 1701,
+                  "total_tokens": 1755,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 805
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014953,
+              "accounted_rmb": 0.0014953,
+              "usage_unknown": false,
+              "seconds": 1.1123368740081787,
+              "error": null,
+              "response": {
+                "id": "0df242a9-0597-4f87-a6a4-435abb7c80af",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "28c8fa3b231b428e3b24e9c3c87a5f995c202ab422cd6e2af738ba187610c3e3"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "89af88ae206e3468e666735fe52ec55dc21b3f708ead16e26baffabffa37f5f0"
+}

@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "429a66c5cdaabd1b297c35ba11685c2885db80e6108ab8d85e3a506c12af3dd2",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.0,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about the four types of federal driving, but the answer about bringing a medical certificate to the DMV is not directly supported by the context. The context does not mention the process of submitting medical certificates to the DMV.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b1db9845e04f4e91bcd1aa39d84f593d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1450,
+                "completion_tokens": 64,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 64,
+                  "prompt_tokens": 1450,
+                  "total_tokens": 1514,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 682
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013494000000000002,
+              "accounted_rmb": 0.0013494000000000002,
+              "usage_unknown": false,
+              "seconds": 1.2400760650634766,
+              "error": null,
+              "response": {
+                "id": "813398af-e82a-4a24-92f5-42caed4b6fbe",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0884db1400d9524b7a8409e82e5e44d1b779c42ae784b35917900be67394f064"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about the four types of self-certification for commercial driving, but the answer is about how to avoid CDL/CLP downgrade or cancellation, which is not directly addressed in the context. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "05849832a809456684788fa654c58ed6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1141,
+                "completion_tokens": 72,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 72,
+                  "prompt_tokens": 1141,
+                  "total_tokens": 1213,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 373
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009219,
+              "accounted_rmb": 0.0009219,
+              "usage_unknown": false,
+              "seconds": 1.4063258171081543,
+              "error": null,
+              "response": {
+                "id": "228e9b2c-b479-4aab-a23e-5ad57b60bcb3",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cc1929f5a4474770108667dc53182e9df061b471bd3f7339e213ed8dda47d3d3"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explains the four types of federal driving and the requirement for medical certification, but it does not mention the specific action of bringing the certificate to the DMV when applying for a CLP/CDL. The answer is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "57d26d864bfb49e0abc0ae9fedec7461",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1322,
+                "completion_tokens": 66,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 66,
+                  "prompt_tokens": 1322,
+                  "total_tokens": 1388,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 426
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009808,
+              "accounted_rmb": 0.0009808,
+              "usage_unknown": false,
+              "seconds": 1.0806913375854492,
+              "error": null,
+              "response": {
+                "id": "eb5cf5c0-8852-4b64-a3c9-b8165eab02c7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5cbaa6487502e9a74c42ba3580c05622708422817f863b1280f9d9007f44209b"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides links to FMCSA and medical certification resources, but the answer about bringing the certificate to DMV is not directly supported by the context. The context does not mention the specific requirement of bringing the certificate to DMV.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c129a293f36a4a79a71ba5bace35c82c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1058,
+                "completion_tokens": 61,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 61,
+                  "prompt_tokens": 1058,
+                  "total_tokens": 1119,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 162
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005623,
+              "accounted_rmb": 0.0005623,
+              "usage_unknown": false,
+              "seconds": 1.3601341247558594,
+              "error": null,
+              "response": {
+                "id": "71b8bb4e-b397-4591-8d33-85b74bb5437c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "485e136486ab4663df98db0ef39bba9cb42458d11fa513dab1d9ae794adf8038"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses self-certification types and requirements for CDL drivers, but the answer about bringing the certificate to DMV or sending it to the medical certification unit is not directly supported by the context. The context does not mention the specific procedure of bringing or sending the certificate to DMV.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "97c7499876234a089de342fad237f924",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1207,
+                "completion_tokens": 73,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 73,
+                  "prompt_tokens": 1207,
+                  "total_tokens": 1280,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 311
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0008397999999999999,
+              "accounted_rmb": 0.0008397999999999999,
+              "usage_unknown": false,
+              "seconds": 1.551908016204834,
+              "error": null,
+              "response": {
+                "id": "ec42ffc8-0196-45d3-b5d3-472a9a9e2965",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "1cabf2f31581fa8a269da16307c3b6c824964bfbf5f6fb60f2b1f3a1c2f3fb2a"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "10b0f0f16a8ef5367f26998da11760423997769ce5b6f387828a8706f6556be7"
+}

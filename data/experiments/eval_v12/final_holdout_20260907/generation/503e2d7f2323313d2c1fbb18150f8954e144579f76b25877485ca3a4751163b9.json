@@ -1,0 +1,189 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "fe5f6b43660cf342e0b72cc216714828::agent-turn-6",
+    "item_sha256": "5e6aabc5bc7a84be6ef54529bf387a27ced04f65822dc47e29d4f4152b13b273",
+    "result": {
+      "request_id": "4447401f3eec49c686d78c90815ab5d1",
+      "session_id": "fe5f6b43660cf342e0b72cc216714828",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "根据信息，如果您的非驾驶员身份证丢失、损毁或地址变更，可以申请更换。但如果证件已过期，则无法更换，您必须续期或申请新证。另外，如果您即将年满21岁，建议在生日后40天内下单，以获得不带“UNDER 21”标识的身份证。",
+        "citations": [
+          "Replace a non-driver ID card#1_0::c0001",
+          "Replace a non-driver ID card#1_0::c0005"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0001",
+          "text": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0005",
+          "text": "[更换非驾驶员身份证 [1] > 附加信息]\n#### 如果你即将年满21岁\n\n在生日后40天内下单，以获得不带UNDER 21标识的ID。3\n\n#### 你将在2周内收到新ID\n\n请预留2周时间通过邮件接收。你可以在线查看照片文件的邮寄状态[7]。如果文件处理后两周仍未送达，你可以联系我们[8]。\n\n#### 我们将ID邮寄至我们记录在案的地址\n\n我们会将新的非驾照ID卡邮寄至我们当前记录在案的地址，或你提供的备用地址。\n\n查看如何更改或验证你的地址[9]。\n\n#### 备用邮寄地址\n\n当您通过邮寄或在办公室申请时，可以要求将补发的证件寄送到与您证件上地址不同的地址。4 在线订购时，您不能要求寄送到不同地址。\n\n#### 海外（美国境外）\n\n在海外时，您必须通过邮寄方式更换您的非驾驶员ID卡。请提交\n\n- 一份填写完整的许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n- 可接受的身份证明复印件 [6]\n- 相应的费用\n\n我们还建议您在申请中附上一个预先写好地址的优先邮件回邮信封。这将有助于确保我们将您的新ID寄送到正确的地址。\n\n#### 姓名或其他变更\n\n如果您需要进行地址以外的其他变更，您需要前往DMV办公室。请参阅如何更改您的姓名或其他信息 [10]。\n\n- 1. 从2020年10月开始，您将需要Enhanced或REAL ID才能搭乘国内航班（除非您持有护照）。\n\n如果您的非驾驶员ID是在2017年10月30日之前签发的，并且不是Enhanced，则您持有的是Standard证件。\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 2.\n\n如果您想在办公室更换并保留您的Standard证件类型，请按照以下步骤操作：\n\n步骤1：填写一份许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n\n步骤2：前往办公室。携带\n\n- 您当前的Standard非驾驶员ID\n  - 您的申请表\n  - 付款\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 3. 如果您在21岁生日前41天或更早申请更换驾驶执照，则执照上将显示“UNDER 21”。\n\n- 4. 如果您希望将新的非驾驶员ID卡寄送到备用地址，请附上一份附加说明，并清晰打印备用地址。不要在MV-44表格上填写备用地址。您在MV-44表格上填写的邮寄地址必须是您照片证件和DMV记录上列出的地址。"
+        },
+        {
+          "chunk_id": "Replace license or permit#1_0::c0001",
+          "text": "[更换驾照或许可证 [1] > 如果您计划出行]\n如果您的驾照或许可证（包括商业和增强版）丢失、被盗或损毁，或者您在更新地址后，可以申请更换。如果证件已过期，则无法更换。\n\n如果您即将年满21岁，请在生日前40天内下单。1\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，以免日后再次跑一趟办公室。2 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0000",
+          "text": "更换非驾驶员身份证"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0003",
+          "text": "[更换非驾驶员身份证 [1] > 在线办理]\n警告：如果您在线更换Standard证件，您的新证件将显示：“NOT FOR FEDERAL PURPOSES”。\n\n不要拖延！今天就获取您的Enhanced或REAL ID。\n\n如果您已持有Enhanced或REAL ID，或者您想保留Standard证件，可以在线更换。您的证件类型将保持不变。\n\n在线更换非驾驶员身份证 [4]"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0001",
+          "text": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0005",
+          "text": "[更换非驾驶员身份证 [1] > 附加信息]\n#### 如果你即将年满21岁\n\n在生日后40天内下单，以获得不带UNDER 21标识的ID。3\n\n#### 你将在2周内收到新ID\n\n请预留2周时间通过邮件接收。你可以在线查看照片文件的邮寄状态[7]。如果文件处理后两周仍未送达，你可以联系我们[8]。\n\n#### 我们将ID邮寄至我们记录在案的地址\n\n我们会将新的非驾照ID卡邮寄至我们当前记录在案的地址，或你提供的备用地址。\n\n查看如何更改或验证你的地址[9]。\n\n#### 备用邮寄地址\n\n当您通过邮寄或在办公室申请时，可以要求将补发的证件寄送到与您证件上地址不同的地址。4 在线订购时，您不能要求寄送到不同地址。\n\n#### 海外（美国境外）\n\n在海外时，您必须通过邮寄方式更换您的非驾驶员ID卡。请提交\n\n- 一份填写完整的许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n- 可接受的身份证明复印件 [6]\n- 相应的费用\n\n我们还建议您在申请中附上一个预先写好地址的优先邮件回邮信封。这将有助于确保我们将您的新ID寄送到正确的地址。\n\n#### 姓名或其他变更\n\n如果您需要进行地址以外的其他变更，您需要前往DMV办公室。请参阅如何更改您的姓名或其他信息 [10]。\n\n- 1. 从2020年10月开始，您将需要Enhanced或REAL ID才能搭乘国内航班（除非您持有护照）。\n\n如果您的非驾驶员ID是在2017年10月30日之前签发的，并且不是Enhanced，则您持有的是Standard证件。\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 2.\n\n如果您想在办公室更换并保留您的Standard证件类型，请按照以下步骤操作：\n\n步骤1：填写一份许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n\n步骤2：前往办公室。携带\n\n- 您当前的Standard非驾驶员ID\n  - 您的申请表\n  - 付款\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 3. 如果您在21岁生日前41天或更早申请更换驾驶执照，则执照上将显示“UNDER 21”。\n\n- 4. 如果您希望将新的非驾驶员ID卡寄送到备用地址，请附上一份附加说明，并清晰打印备用地址。不要在MV-44表格上填写备用地址。您在MV-44表格上填写的邮寄地址必须是您照片证件和DMV记录上列出的地址。"
+        },
+        {
+          "chunk_id": "Replace license or permit#1_0::c0001",
+          "text": "[更换驾照或许可证 [1] > 如果您计划出行]\n如果您的驾照或许可证（包括商业和增强版）丢失、被盗或损毁，或者您在更新地址后，可以申请更换。如果证件已过期，则无法更换。\n\n如果您即将年满21岁，请在生日前40天内下单。1\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，以免日后再次跑一趟办公室。2 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0000",
+          "text": "更换非驾驶员身份证"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0003",
+          "text": "[更换非驾驶员身份证 [1] > 在线办理]\n警告：如果您在线更换Standard证件，您的新证件将显示：“NOT FOR FEDERAL PURPOSES”。\n\n不要拖延！今天就获取您的Enhanced或REAL ID。\n\n如果您已持有Enhanced或REAL ID，或者您想保留Standard证件，可以在线更换。您的证件类型将保持不变。\n\n在线更换非驾驶员身份证 [4]"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0001",
+          "document": "Replace a non-driver ID card#1_0",
+          "heading": [
+            "更换非驾驶员身份证 [1]",
+            "如果您计划出行"
+          ],
+          "source_file": "dmv_118.md",
+          "excerpt": "[更换非驾驶员身份证 [1] > 如果您计划出行]\n如果您的非驾驶员身份证丢失或损毁，或者您更新地址后，可以更换。如果您的身份证已过期，则无法更换（您必须续期或申请新证）。\n\n我们建议您现在就来DMV办理Enhanced或REAL ID，避免日后再次前往办公室。1 了解Enhanced、REAL ID和Standard证件 [2]。"
+        },
+        {
+          "chunk_id": "Replace a non-driver ID card#1_0::c0005",
+          "document": "Replace a non-driver ID card#1_0",
+          "heading": [
+            "更换非驾驶员身份证 [1]",
+            "附加信息"
+          ],
+          "source_file": "dmv_118.md",
+          "excerpt": "[更换非驾驶员身份证 [1] > 附加信息]\n#### 如果你即将年满21岁\n\n在生日后40天内下单，以获得不带UNDER 21标识的ID。3\n\n#### 你将在2周内收到新ID\n\n请预留2周时间通过邮件接收。你可以在线查看照片文件的邮寄状态[7]。如果文件处理后两周仍未送达，你可以联系我们[8]。\n\n#### 我们将ID邮寄至我们记录在案的地址\n\n我们会将新的非驾照ID卡邮寄至我们当前记录在案的地址，或你提供的备用地址。\n\n查看如何更改或验证你的地址[9]。\n\n#### 备用邮寄地址\n\n当您通过邮寄或在办公室申请时，可以要求将补发的证件寄送到与您证件上地址不同的地址。4 在线订购时，您不能要求寄送到不同地址。\n\n#### 海外（美国境外）\n\n在海外时，您必须通过邮寄方式更换您的非驾驶员ID卡。请提交\n\n- 一份填写完整的许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n- 可接受的身份证明复印件 [6]\n- 相应的费用\n\n我们还建议您在申请中附上一个预先写好地址的优先邮件回邮信封。这将有助于确保我们将您的新ID寄送到正确的地址。\n\n#### 姓名或其他变更\n\n如果您需要进行地址以外的其他变更，您需要前往DMV办公室。请参阅如何更改您的姓名或其他信息 [10]。\n\n- 1. 从2020年10月开始，您将需要Enhanced或REAL ID才能搭乘国内航班（除非您持有护照）。\n\n如果您的非驾驶员ID是在2017年10月30日之前签发的，并且不是Enhanced，则您持有的是Standard证件。\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 2.\n\n如果您想在办公室更换并保留您的Standard证件类型，请按照以下步骤操作：\n\n步骤1：填写一份许可证、驾驶执照或非驾驶员ID卡申请表（pdf）[5] (MV-44)\n\n步骤2：前往办公室。携带\n\n- 您当前的Standard非驾驶员ID\n  - 您的申请表\n  - 付款\n\n新签发的Standard证件显示：“NOT FOR FEDERAL PURPOSES”。\n\n- 3. 如果您在21岁生日前41天或更早申请更换驾驶执照，则执照上将显示“UNDER 21”。\n\n- 4. 如果您希望将新的非驾驶员ID卡寄送到备用地址，请附上一份附加说明，并清晰打印备用地址。不要在MV-44表格上填写备用地址。您在MV-44表格上填写的邮寄地址必须是您照片证件和DMV记录上列出的地址。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "根据信息，如果您的非驾驶员身份证丢失、损毁或地址变更，可以申请更换。但如果证件已过期，则无法更换，您必须续期或申请新证。另外，如果您即将年满21岁，建议在生日后40天内下单，以获得不带“UNDER 21”标识的身份证。",
+          "citations": [
+            "Replace a non-driver ID card#1_0::c0001",
+            "Replace a non-driver ID card#1_0::c0005"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "a0c27224d4024bb5b8ce4775adb36bc3",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1321,
+              "completion_tokens": 116,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 116,
+                "prompt_tokens": 1321,
+                "total_tokens": 1437,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1065
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0021323,
+            "accounted_rmb": 0.0021323,
+            "usage_unknown": false,
+            "seconds": 1.48307204246521,
+            "error": null,
+            "response": {
+              "id": "537b5691-368b-4b4e-8308-18a6d25443ac",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "21409a0581fcce5637f0929802cbacb738a7a0e9f04cebd8cb7d7e03f54ad7e4"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04175002686679363,
+        "retrieval": 1305.717624956742,
+        "generation": 1488.1481670308858,
+        "total": 2795.1852079713717
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.18535483302548528,
+        "rerank_seconds": 1.1202587079023942,
+        "top1_dense_score": 0.8296889066696167,
+        "candidate_ids": [
+          "Replace a non-driver ID card#1_0::c0005",
+          "Replace a non-driver ID card#1_0::c0001",
+          "Replace license or permit#1_0::c0001",
+          "Replace a non-driver ID card#1_0::c0003",
+          "Replace a non-driver ID card#1_0::c0000",
+          "Replace a non-driver ID card#1_0::c0004",
+          "Replace a non-driver ID card#1_0::c0002",
+          "Replace license or permit#1_0::c0007",
+          "Renew non-driver ID card#1_0::c0000",
+          "Replace license or permit#1_0::c0003",
+          "Replace license or permit#1_0::c0004",
+          "Exchange a NY State driver license for a non-driver ID card#1_0::c0000",
+          "How to renew a license#1_0::c0001",
+          "Federal REAL ID#3_0::c0000",
+          "Replace license or permit#1_0::c0002",
+          "Replace a non-driver ID card#1_0::c0008",
+          "Replace license or permit#1_0::c0006",
+          "Replace a non-driver ID card#1_0::c0007",
+          "Replace license or permit#1_0::c0000",
+          "Register a vehicle when you are out-of-state#1_0::c0019"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 33,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.305675416951999
+      },
+      "raw_citations": [
+        "Replace a non-driver ID card#1_0::c0001",
+        "Replace a non-driver ID card#1_0::c0005"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "658015eaef503fe4d90e1405a128535d08c29ea7847ed42b7793af850c3f4f2d"
+}

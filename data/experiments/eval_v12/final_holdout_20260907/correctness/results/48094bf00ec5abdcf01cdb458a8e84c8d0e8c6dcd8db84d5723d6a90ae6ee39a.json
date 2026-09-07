@@ -1,0 +1,124 @@
+{
+  "payload": {
+    "task_id": "48094bf00ec5abdcf01cdb458a8e84c8d0e8c6dcd8db84d5723d6a90ae6ee39a",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "续期费用在邮寄的续期申请上显示，在线支付前也会显示",
+                "coverage": "covered",
+                "response_quote": "具体金额会在邮寄给您的续期申请上或在线支付前显示",
+                "reason": "响应准确说明了费用显示位置"
+              },
+              {
+                "requirement": "费用包括照片文件费和MCTD附加费（如适用）",
+                "coverage": "covered",
+                "response_quote": "费用包括照片文件费和（如适用）大都会通勤交通区（MCTD）附加费",
+                "reason": "响应准确列出了费用构成"
+              },
+              {
+                "requirement": "EDL需额外支付30美元，REAL ID无额外费用",
+                "coverage": "covered",
+                "response_quote": "增强版驾驶执照（EDL）需额外支付30美元，而REAL ID没有额外费用",
+                "reason": "响应准确说明了EDL和REAL ID的额外费用情况"
+              },
+              {
+                "requirement": "Class M或MJ组合需额外支付8美元",
+                "coverage": "covered",
+                "response_quote": "如果您的许可证包含Class M或MJ（例如DM），需额外支付8美元",
+                "reason": "响应准确说明了Class M/MJ的额外费用"
+              }
+            ],
+            "reason": "响应完整覆盖了参考中的关键费用信息，且所有额外声明均有文档支持，未发现错误或遗漏。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7b09340c88ff41deb1a9773bf39d9df6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2018,
+                "completion_tokens": 326,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 326,
+                  "prompt_tokens": 2018,
+                  "total_tokens": 2344,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1122
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0031948000000000002,
+              "accounted_rmb": 0.0031948000000000002,
+              "usage_unknown": false,
+              "seconds": 2.905297040939331,
+              "error": null,
+              "response": {
+                "id": "94a7288b-50ab-477d-a035-95f75b441f79",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "e7b5be095871e254d147ea40a7d7a76c51a6b10ab7212e4ea34afeda38c97ecf"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "续期费用在邮寄的续期申请上显示，在线支付前也会显示",
+            "coverage": "covered",
+            "response_quote": "具体金额会在邮寄给您的续期申请上或在线支付前显示",
+            "reason": "响应准确说明了费用显示位置"
+          },
+          {
+            "requirement": "费用包括照片文件费和MCTD附加费（如适用）",
+            "coverage": "covered",
+            "response_quote": "费用包括照片文件费和（如适用）大都会通勤交通区（MCTD）附加费",
+            "reason": "响应准确列出了费用构成"
+          },
+          {
+            "requirement": "EDL需额外支付30美元，REAL ID无额外费用",
+            "coverage": "covered",
+            "response_quote": "增强版驾驶执照（EDL）需额外支付30美元，而REAL ID没有额外费用",
+            "reason": "响应准确说明了EDL和REAL ID的额外费用情况"
+          },
+          {
+            "requirement": "Class M或MJ组合需额外支付8美元",
+            "coverage": "covered",
+            "response_quote": "如果您的许可证包含Class M或MJ（例如DM），需额外支付8美元",
+            "reason": "响应准确说明了Class M/MJ的额外费用"
+          }
+        ],
+        "reason": "响应完整覆盖了参考中的关键费用信息，且所有额外声明均有文档支持，未发现错误或遗漏。"
+      }
+    }
+  },
+  "sha256": "3fa294f0a44463996381faf9587c2cb78692ef5072ae1d99cd2256ff17e7bd77"
+}

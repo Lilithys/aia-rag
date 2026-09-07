@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+    "item_sha256": "37eb3f028684438ea29f06c807d13e11dcfb3993fef2cabc42d5e684f9595bca",
+    "result": {
+      "request_id": "0af5465fe5c04fc6b417da077904ae7f",
+      "session_id": "d11cf8664fd07b5745c68eb34bb87e3c",
+      "turn_id": 7,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您自愿参加了涉及化学和生物测试的研究，您可能通过美国陆军获得医疗护理，但前提是您满足以下两项要求：1) 您在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且 2) 您有直接由参与这些测试造成的伤害或疾病。这两项要求必须均为真实情况。请注意，这仅涉及医疗护理，而非残疾补偿。",
+        "citations": [
+          "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000",
+          "text": "# 芥子气或路易氏剂暴露 | 退伍军人事务部\n\n## 芥子气或路易氏剂暴露\n\n如果您曾接触过芥子气（也称为硫芥子气、伊珀里特或氮芥子气）或路易氏剂（一种含有砷毒物的 天然化合物），您可能患有某些相关的长期疾病。了解您是否有资格获得残疾补偿或福利。\n\n我能从退伍军人事务部获得残疾福利吗？\n\n如果您患有被认为是由接触芥子气或路易氏剂引起的残疾，并且您的军事记录显示您曾接触过芥子 气或路易氏剂，您可能可以获得残疾福利。\n\n如果您曾在陆军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 佛罗里达州布什内尔\n\n- 北卡罗来纳州勒琼营\n\n- 阿拉巴马州西伯特营\n\n- 犹他州达格韦试验场\n\n- 马里兰州埃奇伍德兵工厂\n\n- 华盛顿特区海军研究实验室\n\n- 印度翁达尔\n\n- 科罗拉多州落基山兵工厂\n\n- 巴拿马运河区圣何塞岛\n\n如果您曾在海军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 北卡罗来纳州勒琼营\n\n- 南卡罗来纳州查尔斯顿\n\n- 伊利诺伊州大湖海军训练中心\n\n- 纽约州哈特岛\n\n- 马里兰州班布里奇海军训练中心\n\n- 弗吉尼亚州海军研究实验室\n\n- 华盛顿特区海军研究实验室\n\n- 美国海军鹰艇58号\n\n一些曾参与以下地点测试的服役人员：\n\n- 新几内亚芬什港\n\n- 英格兰波顿当\n\n部分商船海员也在意大利巴里暴露于这些物质。\n\n谁受保障？\n\n退伍军人\n\n我能获得哪种残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n您需要提交残疾补偿申请。\n\n您必须申报实际的疾病或残疾。仅说明您在服役期间接触过芥子气或路易氏剂是不够的。您需要根 据据信因接触这些化学物质之一而导致的疾病来申请。提交申请时，请务必提供任何显示您接触过 起疱剂的军事记录。\n\n了解如何提交残疾补偿申请\n\n## 如果我需要帮助提交残疾申请怎么办？\n\n如果您对与芥子气暴露相关的福利有疑问，您可以通过电子邮件联系我们。\n\n发送电子邮件至 mustardgas@vba.va.gov\n\n您也可以从受过培训、可信赖的专业人士那里获得帮助，他们可以协助处理与VA相关的申请。\n\n获取提交申请的帮助\n\n如果我自愿参加涉及化学和生物测试的研究，我能获得福利吗？\n\n多达60,000名退伍军人自愿参加了美国生物和化学项目的医学研究。如果您参与了这项研究，如果 您满足以下两项要求，您可以通过美国陆军获得医疗护理。\n\n以下两项必须均为真实情况。您：\n\n- 在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且\n\n- 有直接由参与这些测试造成的伤害或疾病\n\n如果您有疑问或需要获得医疗护理的帮助：\n\n- 访问美国陆军网页，或\n\n- 致电800-984-8523\n\n最后更新："
+        },
+        {
+          "chunk_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000",
+          "text": "# 电离辐射暴露 | Veterans Affairs\n\n## 电离辐射暴露\n\n了解您是否有资格获得因军事服役期间接触辐射而引发的疾病（包括某些癌症）的残疾补偿或福利 。\n\n我能从 VA 获得残疾福利吗？\n\n如果您没有不名誉退伍，并且满足以下列出的要求，您可能可以获得残疾福利。\n\n以下两点必须同时满足：\n\n- 您患有我们列出的被认为由辐射引起的疾病，或医生认为可能由辐射引起的疾病，并且\n\n- 您的疾病在特定时间内开始（如疾病列表所示）\n\n查看与辐射相关的疾病列表\n\n并且您在军队服役期间必须以下列方式之一接触过电离辐射。您：\n\n- 参与了大气层核武器试验，或\n\n- 在广岛或长崎战后占领期间服役，或\n\n- 曾是日本的战俘（POW），或\n\n- 担任X光技师、在反应堆工厂工作，或从事核医学或放射摄影工作（在现役期间或在预备役训 练期间），或\n\n- 执行了类似于能源部（DOE）员工的任务，使其成为特殊暴露队列（Special Exposure Cohort）成员（参见 42 U.S.C. 7384L(14)）\n\n如果您曾在以下至少一个地点和身份服役，您也可能有资格获得残疾福利。您：\n\n- 参与了阿拉斯加阿姆奇特卡岛的地下核武器试验，或\n\n- 被分配到肯塔基州帕迪尤卡的气体扩散工厂，或\n\n- 被分配到俄亥俄州朴茨茅斯的气体扩散工厂，或\n\n- 被分配到田纳西州橡树岭K-25区域的气体扩散工厂\n\n谁有资格？\n\n退伍军人\n\n我能获得哪些残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n如何获得这些福利？\n\n您需要提交残疾补偿申请，并提供以下列出的证据（支持文件）：\n\n- 医疗记录，显示您已被诊断患有我们列表中认为由辐射引起的疾病之一，或者您的医生声明这 些疾病可能是由辐射暴露引起的，以及\n\n- 服役记录，显示您参与了上述描述的辐射风险活动之一\n\n注意：当您提交索赔时，我们会要求您服役的军种（或国防威胁降低局）提供他们认为您可能接触 到的辐射剂量范围。我们将使用他们报告的最高水平来决定您的福利。\n\n了解如何提交伤残补偿索赔\n\n最后更新："
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0001",
+          "text": "[Agent Orange 暴露 > 我能从 VA 获得残疾福利吗？]\n美国军方在越南战争期间使用 Agent Orange 来清除植物和树木。如果你在越南战争期间在越南服役，或在韩国非军事区（DMZ）内或附近服役，或从事某些相关工作，你可能接触过这种除草剂。我们称此为推定接触。了解你是否可以获得残疾补偿以及我们认为由 Agent Orange 引起的疾病的其它福利。\n\n如果以下描述适用于你，你可能能够获得残疾福利。\n\n这必须是真实的：\n\n- 你患有我们认为由 Agent Orange 引起的疾病（称为推定疾病）\n\n并且以下至少一项也必须为真。你：\n\n- 在军事服役期间接触过 Agent Orange，或\n- 在 1967 年 9 月 1 日至 1971 年 8 月 31 日期间，在 DMZ 内或附近服役任何时长，或\n- 在 1962 年 1 月 9 日至 1975 年 5 月 7 日期间，在越南共和国服役任何时长。这可能包括在内陆水道上服役的船只上，或在距离越南和柬埔寨水域分界线不超过 12 海里的船只上服役（详见 Public Law 116-23，即 2019 年 Blue Water Navy Vietnam Veterans Act）。\n\n查看我们与 Agent Orange 相关的疾病列表了解哪些类型的服役可能使你接触 Agent Orange"
+        },
+        {
+          "chunk_id": "Exposure To Specific Environmental Hazards | Veterans Affairs#1_0::c0000",
+          "text": "# 暴露于特定环境危害 | Veterans Affairs\n\n# 暴露于特定环境危害\n\n如果你在伊拉克、阿富汗及其他地区服役期间接触过某些环境危害，你可能患有被认为是由空气、水或土壤中的这些有毒化学物质引起的疾病或其他状况。了解你是否可以获得残疾补偿或福利。\n\n### 我能从 VA 获得残疾福利吗？\n\n如果你患有被认为是由服役期间接触环境危害（可能包括接触以下物质）引起的疾病或其他状况，你可能可以获得残疾福利：\n\n- 伊拉克、阿富汗以及非洲之角吉布提的大型燃烧坑产生的颗粒物\n- 伊拉克摩苏尔附近 Mishraq 国家硫磺矿的大型硫磺火灾\n- 伊拉克巴士拉 Qarmat Ali 水处理厂的六价铬\n- 日本厚木海军航空设施附近垃圾焚烧炉产生的污染物\n\n### 谁符合条件？\n\n- 退伍军人\n\n## 我能获得哪种残疾福利？\n\n- 医疗保健\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n你需要提交残疾补偿申请。了解如何提交残疾补偿申请\n\n提交申请时，你必须证明你的健康问题与服役期间接触某些环境危害有关。务必提交所有支持你曾接触某些环境危害的信息（如 Burn Pit Registry）。查看 Burn Pit Registry\n\n最后更新："
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "text": "[Agent Orange 暴露 > 我如何获得这些福利？]\n你需要提交残疾补偿申请并提交你的证据（支持文件）。\n\n### 如果你患有我们认为由 Agent Orange 引起的疾病\n\n你不需要证明问题是在服役期间开始或因服役而恶化。这是因为我们认为某些疾病是接触除草剂的结果。我们称这些为推定疾病。\n\n查看我们与Agent Orange相关的疾病列表\n\n- **当你提交索赔时，你需要提交：**\n  - 一份显示你患有与Agent Orange相关疾病的医疗记录\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在美国军用船只上进入越南内河航道，或\n  - 曾在距离越南和柬埔寨水域分界线不超过12海里的船只上服役（详见Public Law 116-23，即2019年《Blue Water Navy Vietnam Veterans Act》），或\n  - 曾在越南或朝鲜非军事区以外的地点接触过除草剂\n\n了解如何提交残疾补偿索赔\n\n### 如果你患有不在Agent Orange相关疾病列表上的疾病，但你认为是由Agent Orange引起的\n\n你需要：\n\n- 提供科学和医学证据，证明该疾病与接触Agent Orange有关，或\n- 证明该问题是在服役期间开始或因服役而加重\n\n科学证据可能包括医学期刊上的文章或已发表的研究。\n\n- **当你提交索赔时，你需要提交一份医疗记录，显示：**\n  - 你目前有残疾，并且\n  - Agent Orange暴露与你的当前残疾之间存在联系\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在越南或朝鲜非军事区以外的地点接触过Agent Orange\n\n了解如何提交残疾补偿索赔"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000",
+          "text": "# 芥子气或路易氏剂暴露 | 退伍军人事务部\n\n## 芥子气或路易氏剂暴露\n\n如果您曾接触过芥子气（也称为硫芥子气、伊珀里特或氮芥子气）或路易氏剂（一种含有砷毒物的 天然化合物），您可能患有某些相关的长期疾病。了解您是否有资格获得残疾补偿或福利。\n\n我能从退伍军人事务部获得残疾福利吗？\n\n如果您患有被认为是由接触芥子气或路易氏剂引起的残疾，并且您的军事记录显示您曾接触过芥子 气或路易氏剂，您可能可以获得残疾福利。\n\n如果您曾在陆军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 佛罗里达州布什内尔\n\n- 北卡罗来纳州勒琼营\n\n- 阿拉巴马州西伯特营\n\n- 犹他州达格韦试验场\n\n- 马里兰州埃奇伍德兵工厂\n\n- 华盛顿特区海军研究实验室\n\n- 印度翁达尔\n\n- 科罗拉多州落基山兵工厂\n\n- 巴拿马运河区圣何塞岛\n\n如果您曾在海军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 北卡罗来纳州勒琼营\n\n- 南卡罗来纳州查尔斯顿\n\n- 伊利诺伊州大湖海军训练中心\n\n- 纽约州哈特岛\n\n- 马里兰州班布里奇海军训练中心\n\n- 弗吉尼亚州海军研究实验室\n\n- 华盛顿特区海军研究实验室\n\n- 美国海军鹰艇58号\n\n一些曾参与以下地点测试的服役人员：\n\n- 新几内亚芬什港\n\n- 英格兰波顿当\n\n部分商船海员也在意大利巴里暴露于这些物质。\n\n谁受保障？\n\n退伍军人\n\n我能获得哪种残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n您需要提交残疾补偿申请。\n\n您必须申报实际的疾病或残疾。仅说明您在服役期间接触过芥子气或路易氏剂是不够的。您需要根 据据信因接触这些化学物质之一而导致的疾病来申请。提交申请时，请务必提供任何显示您接触过 起疱剂的军事记录。\n\n了解如何提交残疾补偿申请\n\n## 如果我需要帮助提交残疾申请怎么办？\n\n如果您对与芥子气暴露相关的福利有疑问，您可以通过电子邮件联系我们。\n\n发送电子邮件至 mustardgas@vba.va.gov\n\n您也可以从受过培训、可信赖的专业人士那里获得帮助，他们可以协助处理与VA相关的申请。\n\n获取提交申请的帮助\n\n如果我自愿参加涉及化学和生物测试的研究，我能获得福利吗？\n\n多达60,000名退伍军人自愿参加了美国生物和化学项目的医学研究。如果您参与了这项研究，如果 您满足以下两项要求，您可以通过美国陆军获得医疗护理。\n\n以下两项必须均为真实情况。您：\n\n- 在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且\n\n- 有直接由参与这些测试造成的伤害或疾病\n\n如果您有疑问或需要获得医疗护理的帮助：\n\n- 访问美国陆军网页，或\n\n- 致电800-984-8523\n\n最后更新："
+        },
+        {
+          "chunk_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000",
+          "text": "# 电离辐射暴露 | Veterans Affairs\n\n## 电离辐射暴露\n\n了解您是否有资格获得因军事服役期间接触辐射而引发的疾病（包括某些癌症）的残疾补偿或福利 。\n\n我能从 VA 获得残疾福利吗？\n\n如果您没有不名誉退伍，并且满足以下列出的要求，您可能可以获得残疾福利。\n\n以下两点必须同时满足：\n\n- 您患有我们列出的被认为由辐射引起的疾病，或医生认为可能由辐射引起的疾病，并且\n\n- 您的疾病在特定时间内开始（如疾病列表所示）\n\n查看与辐射相关的疾病列表\n\n并且您在军队服役期间必须以下列方式之一接触过电离辐射。您：\n\n- 参与了大气层核武器试验，或\n\n- 在广岛或长崎战后占领期间服役，或\n\n- 曾是日本的战俘（POW），或\n\n- 担任X光技师、在反应堆工厂工作，或从事核医学或放射摄影工作（在现役期间或在预备役训 练期间），或\n\n- 执行了类似于能源部（DOE）员工的任务，使其成为特殊暴露队列（Special Exposure Cohort）成员（参见 42 U.S.C. 7384L(14)）\n\n如果您曾在以下至少一个地点和身份服役，您也可能有资格获得残疾福利。您：\n\n- 参与了阿拉斯加阿姆奇特卡岛的地下核武器试验，或\n\n- 被分配到肯塔基州帕迪尤卡的气体扩散工厂，或\n\n- 被分配到俄亥俄州朴茨茅斯的气体扩散工厂，或\n\n- 被分配到田纳西州橡树岭K-25区域的气体扩散工厂\n\n谁有资格？\n\n退伍军人\n\n我能获得哪些残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n如何获得这些福利？\n\n您需要提交残疾补偿申请，并提供以下列出的证据（支持文件）：\n\n- 医疗记录，显示您已被诊断患有我们列表中认为由辐射引起的疾病之一，或者您的医生声明这 些疾病可能是由辐射暴露引起的，以及\n\n- 服役记录，显示您参与了上述描述的辐射风险活动之一\n\n注意：当您提交索赔时，我们会要求您服役的军种（或国防威胁降低局）提供他们认为您可能接触 到的辐射剂量范围。我们将使用他们报告的最高水平来决定您的福利。\n\n了解如何提交伤残补偿索赔\n\n最后更新："
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0001",
+          "text": "[Agent Orange 暴露 > 我能从 VA 获得残疾福利吗？]\n美国军方在越南战争期间使用 Agent Orange 来清除植物和树木。如果你在越南战争期间在越南服役，或在韩国非军事区（DMZ）内或附近服役，或从事某些相关工作，你可能接触过这种除草剂。我们称此为推定接触。了解你是否可以获得残疾补偿以及我们认为由 Agent Orange 引起的疾病的其它福利。\n\n如果以下描述适用于你，你可能能够获得残疾福利。\n\n这必须是真实的：\n\n- 你患有我们认为由 Agent Orange 引起的疾病（称为推定疾病）\n\n并且以下至少一项也必须为真。你：\n\n- 在军事服役期间接触过 Agent Orange，或\n- 在 1967 年 9 月 1 日至 1971 年 8 月 31 日期间，在 DMZ 内或附近服役任何时长，或\n- 在 1962 年 1 月 9 日至 1975 年 5 月 7 日期间，在越南共和国服役任何时长。这可能包括在内陆水道上服役的船只上，或在距离越南和柬埔寨水域分界线不超过 12 海里的船只上服役（详见 Public Law 116-23，即 2019 年 Blue Water Navy Vietnam Veterans Act）。\n\n查看我们与 Agent Orange 相关的疾病列表了解哪些类型的服役可能使你接触 Agent Orange"
+        },
+        {
+          "chunk_id": "Exposure To Specific Environmental Hazards | Veterans Affairs#1_0::c0000",
+          "text": "# 暴露于特定环境危害 | Veterans Affairs\n\n# 暴露于特定环境危害\n\n如果你在伊拉克、阿富汗及其他地区服役期间接触过某些环境危害，你可能患有被认为是由空气、水或土壤中的这些有毒化学物质引起的疾病或其他状况。了解你是否可以获得残疾补偿或福利。\n\n### 我能从 VA 获得残疾福利吗？\n\n如果你患有被认为是由服役期间接触环境危害（可能包括接触以下物质）引起的疾病或其他状况，你可能可以获得残疾福利：\n\n- 伊拉克、阿富汗以及非洲之角吉布提的大型燃烧坑产生的颗粒物\n- 伊拉克摩苏尔附近 Mishraq 国家硫磺矿的大型硫磺火灾\n- 伊拉克巴士拉 Qarmat Ali 水处理厂的六价铬\n- 日本厚木海军航空设施附近垃圾焚烧炉产生的污染物\n\n### 谁符合条件？\n\n- 退伍军人\n\n## 我能获得哪种残疾福利？\n\n- 医疗保健\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n你需要提交残疾补偿申请。了解如何提交残疾补偿申请\n\n提交申请时，你必须证明你的健康问题与服役期间接触某些环境危害有关。务必提交所有支持你曾接触某些环境危害的信息（如 Burn Pit Registry）。查看 Burn Pit Registry\n\n最后更新："
+        },
+        {
+          "chunk_id": "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "text": "[Agent Orange 暴露 > 我如何获得这些福利？]\n你需要提交残疾补偿申请并提交你的证据（支持文件）。\n\n### 如果你患有我们认为由 Agent Orange 引起的疾病\n\n你不需要证明问题是在服役期间开始或因服役而恶化。这是因为我们认为某些疾病是接触除草剂的结果。我们称这些为推定疾病。\n\n查看我们与Agent Orange相关的疾病列表\n\n- **当你提交索赔时，你需要提交：**\n  - 一份显示你患有与Agent Orange相关疾病的医疗记录\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在美国军用船只上进入越南内河航道，或\n  - 曾在距离越南和柬埔寨水域分界线不超过12海里的船只上服役（详见Public Law 116-23，即2019年《Blue Water Navy Vietnam Veterans Act》），或\n  - 曾在越南或朝鲜非军事区以外的地点接触过除草剂\n\n了解如何提交残疾补偿索赔\n\n### 如果你患有不在Agent Orange相关疾病列表上的疾病，但你认为是由Agent Orange引起的\n\n你需要：\n\n- 提供科学和医学证据，证明该疾病与接触Agent Orange有关，或\n- 证明该问题是在服役期间开始或因服役而加重\n\n科学证据可能包括医学期刊上的文章或已发表的研究。\n\n- **当你提交索赔时，你需要提交一份医疗记录，显示：**\n  - 你目前有残疾，并且\n  - Agent Orange暴露与你的当前残疾之间存在联系\n\n* *并且你需要提交一份军事记录，显示你：**\n  - 在1962年1月9日至1975年5月7日期间，曾在越南共和国服役任意时长，或\n  - 在1967年9月1日至1971年8月31日期间，曾在朝鲜非军事区（Korean Demilitarized Zone）内或附近服役任意时长，或\n  - 曾在越南或朝鲜非军事区以外的地点接触过Agent Orange\n\n了解如何提交残疾补偿索赔"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000",
+          "document": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_061.pdf",
+          "excerpt": "# 芥子气或路易氏剂暴露 | 退伍军人事务部\n\n## 芥子气或路易氏剂暴露\n\n如果您曾接触过芥子气（也称为硫芥子气、伊珀里特或氮芥子气）或路易氏剂（一种含有砷毒物的 天然化合物），您可能患有某些相关的长期疾病。了解您是否有资格获得残疾补偿或福利。\n\n我能从退伍军人事务部获得残疾福利吗？\n\n如果您患有被认为是由接触芥子气或路易氏剂引起的残疾，并且您的军事记录显示您曾接触过芥子 气或路易氏剂，您可能可以获得残疾福利。\n\n如果您曾在陆军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 佛罗里达州布什内尔\n\n- 北卡罗来纳州勒琼营\n\n- 阿拉巴马州西伯特营\n\n- 犹他州达格韦试验场\n\n- 马里兰州埃奇伍德兵工厂\n\n- 华盛顿特区海军研究实验室\n\n- 印度翁达尔\n\n- 科罗拉多州落基山兵工厂\n\n- 巴拿马运河区圣何塞岛\n\n如果您曾在海军服役并在以下地点服役：\n\n- 意大利巴里\n\n- 北卡罗来纳州勒琼营\n\n- 南卡罗来纳州查尔斯顿\n\n- 伊利诺伊州大湖海军训练中心\n\n- 纽约州哈特岛\n\n- 马里兰州班布里奇海军训练中心\n\n- 弗吉尼亚州海军研究实验室\n\n- 华盛顿特区海军研究实验室\n\n- 美国海军鹰艇58号\n\n一些曾参与以下地点测试的服役人员：\n\n- 新几内亚芬什港\n\n- 英格兰波顿当\n\n部分商船海员也在意大利巴里暴露于这些物质。\n\n谁受保障？\n\n退伍军人\n\n我能获得哪种残疾福利？\n\n- 医疗保健\n\n- 补偿（付款）\n\n## 我如何获得这些福利？\n\n您需要提交残疾补偿申请。\n\n您必须申报实际的疾病或残疾。仅说明您在服役期间接触过芥子气或路易氏剂是不够的。您需要根 据据信因接触这些化学物质之一而导致的疾病来申请。提交申请时，请务必提供任何显示您接触过 起疱剂的军事记录。\n\n了解如何提交残疾补偿申请\n\n## 如果我需要帮助提交残疾申请怎么办？\n\n如果您对与芥子气暴露相关的福利有疑问，您可以通过电子邮件联系我们。\n\n发送电子邮件至 mustardgas@vba.va.gov\n\n您也可以从受过培训、可信赖的专业人士那里获得帮助，他们可以协助处理与VA相关的申请。\n\n获取提交申请的帮助\n\n如果我自愿参加涉及化学和生物测试的研究，我能获得福利吗？\n\n多达60,000名退伍军人自愿参加了美国生物和化学项目的医学研究。如果您参与了这项研究，如果 您满足以下两项要求，您可以通过美国陆军获得医疗护理。\n\n以下两项必须均为真实情况。您：\n\n- 在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且\n\n- 有直接由参与这些测试造成的伤害或疾病\n\n如果您有疑问或需要获得医疗护理的帮助：\n\n- 访问美国陆军网页，或\n\n- 致电800-984-8523\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您自愿参加了涉及化学和生物测试的研究，您可能通过美国陆军获得医疗护理，但前提是您满足以下两项要求：1) 您在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且 2) 您有直接由参与这些测试造成的伤害或疾病。这两项要求必须均为真实情况。请注意，这仅涉及医疗护理，而非残疾补偿。",
+          "citations": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "19a2c4828c454a17a414d9f0b3d24cad",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2760,
+              "completion_tokens": 119,
+              "cached_tokens": 384,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 119,
+                "prompt_tokens": 2760,
+                "total_tokens": 2879,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 384,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 384,
+                "prompt_cache_miss_tokens": 2376
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0041186999999999994,
+            "accounted_rmb": 0.0041186999999999994,
+            "usage_unknown": false,
+            "seconds": 2.249276876449585,
+            "error": null,
+            "response": {
+              "id": "f2e72a56-42cf-46dd-905e-a9e3351dc99e",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "80acbe908efa19c9057f7b52c3634a134ceabdc29084538ed6a459a255032339"
+      },
+      "latency_ms": {
+        "queue_wait": 0.056625111028552055,
+        "retrieval": 1530.721125076525,
+        "generation": 2253.209082991816,
+        "total": 3785.328833037056
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.24638612498529255,
+        "rerank_seconds": 1.2842743750661612,
+        "top1_dense_score": 0.7814009189605713,
+        "candidate_ids": [
+          "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0004",
+          "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000",
+          "Exposure To Specific Environmental Hazards | Veterans Affairs#1_0::c0000",
+          "Special Claims | Veterans Affairs#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0005",
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0005",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0008",
+          "PTSD Treatment | Veterans Affairs#1_0::c0005",
+          "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000",
+          "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000",
+          "VA Individual Unemployability If You Can't Work | Veterans Affairs#1_0::c0000",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0001",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "Fully Developed Claim For A VA Pension | Veterans Affairs#1_0::c0002",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0002",
+          "Agent Orange Exposure | Veterans Affairs#1_0::c0003",
+          "Agent Orange Exposure From C-123 Aircraft | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0029",
+          "About VA Health Benefits | Veterans Affairs#1_0::c0004"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 34,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.5307022919878364
+      },
+      "raw_citations": [
+        "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "a56977892097d4b9686a45e5ddffb7566d936664966bd17efe599da3e3856ea3"
+}

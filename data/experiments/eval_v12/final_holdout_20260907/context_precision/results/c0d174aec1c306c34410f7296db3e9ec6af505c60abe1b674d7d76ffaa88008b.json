@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "c0d174aec1c306c34410f7296db3e9ec6af505c60abe1b674d7d76ffaa88008b",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9999999999,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about preparing for college, including the importance of balancing studying and having fun as a way to practice time management, which directly supports the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "788bd9763d2f4984afc6aceace1083c0",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1644,
+                "completion_tokens": 47,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 47,
+                  "prompt_tokens": 1644,
+                  "total_tokens": 1691,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 876
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015639,
+              "accounted_rmb": 0.0015639,
+              "usage_unknown": false,
+              "seconds": 1.1377360820770264,
+              "error": null,
+              "response": {
+                "id": "f586adc9-7cc5-4f93-9a17-356efb1ec5b2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d98ed538e80a2a59ceb1e47b1a4438ad371f0eef8bbce20aca82db9fef3f55ce"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general advice on preparing for college, including financial and academic planning, but does not specifically address balancing studying and having fun. The answer about time management is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3808e0e671424bdab6b0a1d534c70839",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1574,
+                "completion_tokens": 55,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1574,
+                  "total_tokens": 1629,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 806
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014949000000000002,
+              "accounted_rmb": 0.0014949000000000002,
+              "usage_unknown": false,
+              "seconds": 1.4905118942260742,
+              "error": null,
+              "response": {
+                "id": "13c375dd-198a-4849-8430-1fa0e27b7513",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f8b589b172b0e16e5c4ca0854705923b2af10c0c7dc1ef27e862b46dcb0d9072"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general advice on preparing for college, including researching schools and self-assessment, but does not address the specific question about balancing studying and having fun. The answer about time management is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "06fabf9c0a23437792045afd2a5dec8e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1481,
+                "completion_tokens": 58,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 58,
+                  "prompt_tokens": 1481,
+                  "total_tokens": 1539,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 585
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0011833,
+              "accounted_rmb": 0.0011833,
+              "usage_unknown": false,
+              "seconds": 1.318861961364746,
+              "error": null,
+              "response": {
+                "id": "5d616711-67e2-48a0-bdf7-53fe2ed99242",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "48931f9c6dfe2eea5cde91709c4c09bf907cab407433f47c1c781a3348d02171"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides advice on reducing college costs, not on balancing studying and having fun. The answer about time management is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1989897113914db68de70dd01aaf55df",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1790,
+                "completion_tokens": 44,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 44,
+                  "prompt_tokens": 1790,
+                  "total_tokens": 1834,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 894
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015838,
+              "accounted_rmb": 0.0015838,
+              "usage_unknown": false,
+              "seconds": 1.0653667449951172,
+              "error": null,
+              "response": {
+                "id": "fb2707a7-e5f9-4f29-b4e4-1ccd7caa5da5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c95cad7946e6d6d8c8cea605973b0c4661a9adaf6cf1838548d5eadbfe2d2290"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general advice on choosing and preparing for college, including factors like cost, financial aid, and accreditation, but it does not specifically address the user's question about balancing studying and having fun. The answer about time management is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "fdeb092385314f189dbf6a844c9bc5a1",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1812,
+                "completion_tokens": 68,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 68,
+                  "prompt_tokens": 1812,
+                  "total_tokens": 1880,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 916
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0017247999999999999,
+              "accounted_rmb": 0.0017247999999999999,
+              "usage_unknown": false,
+              "seconds": 1.593095064163208,
+              "error": null,
+              "response": {
+                "id": "08275b21-1d92-4fac-9bf3-e083bb0da48e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "de606c425d48ecd2e093f8e0c59503d8c3dd6261def24f00a2cb69ceff9899b5"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "1b063cb445a04d171d0a537cb61d5b71e178e859aa1885063ee51ca662064ce3"
+}

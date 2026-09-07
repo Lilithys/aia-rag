@@ -1,0 +1,55 @@
+{
+  "commands": [
+    [
+      ".venv/bin/python",
+      "-m",
+      "src.service.sensitivity",
+      "generate"
+    ],
+    [
+      ".venv/bin/python",
+      "-m",
+      "src.evaluation.score_v11",
+      "judge",
+      "--bundle",
+      "data/experiments/eval_v11/sensitivity_20260907/generation_bundle.json",
+      "--out",
+      "data/experiments/eval_v11/sensitivity_20260907/quality",
+      "--budget-rmb",
+      "3"
+    ],
+    [
+      ".venv/bin/python",
+      "-m",
+      "src.evaluation.score_v11",
+      "judge",
+      "--bundle",
+      "data/experiments/eval_v11/sensitivity_20260907/generation_bundle.json",
+      "--out",
+      "data/experiments/eval_v11/sensitivity_20260907/context_precision",
+      "--metrics",
+      "context_precision",
+      "--budget-rmb",
+      "1"
+    ]
+  ],
+  "returncodes": [
+    0,
+    0,
+    0
+  ],
+  "before_sha256": {
+    "data/experiments/eval_v11/sensitivity_20260907/runtime/usage.jsonl": "7030ed9871094b55c881d67fef9d8a0b6bea433319b3abd60942f0f299587c02",
+    "data/experiments/eval_v11/sensitivity_20260907/quality/usage.jsonl": "d4727e06ecc8be140c833f179bc3c68a71d63bed07bcc415267fb2422f9610e7",
+    "data/experiments/eval_v11/sensitivity_20260907/context_precision/usage.jsonl": "56fe53d70a91fdc38e741456ac38fc852e264271c1b62f3024a844c832ac83a1",
+    "data/experiments/eval_v11/sensitivity_20260907/generation_bundle.json": "ca4a8e582a94e06db5071fb0bb021fc0836d1cf3cc8565a6a24b20a6d075274d"
+  },
+  "after_sha256": {
+    "data/experiments/eval_v11/sensitivity_20260907/runtime/usage.jsonl": "7030ed9871094b55c881d67fef9d8a0b6bea433319b3abd60942f0f299587c02",
+    "data/experiments/eval_v11/sensitivity_20260907/quality/usage.jsonl": "d4727e06ecc8be140c833f179bc3c68a71d63bed07bcc415267fb2422f9610e7",
+    "data/experiments/eval_v11/sensitivity_20260907/context_precision/usage.jsonl": "56fe53d70a91fdc38e741456ac38fc852e264271c1b62f3024a844c832ac83a1",
+    "data/experiments/eval_v11/sensitivity_20260907/generation_bundle.json": "ca4a8e582a94e06db5071fb0bb021fc0836d1cf3cc8565a6a24b20a6d075274d"
+  },
+  "new_api_calls": 0,
+  "terminal_failures_retained": true
+}

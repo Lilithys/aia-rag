@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "45039ef332f44e2f5ca95af1afe145a6::agent-turn-8",
+    "item_sha256": "8bcf8a954aabaf1fb499f3695cb559838e1741b76f2d0d7be578cd0929b2bd23",
+    "result": {
+      "request_id": "3759f7e7f18341378a6f9e0f4c005a66",
+      "session_id": "45039ef332f44e2f5ca95af1afe145a6",
+      "turn_id": 7,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If you right-click on a FAFSA banner image, you will see an option to 'save' or 'download' the 'image' or 'picture.' This is part of the instructions for using the banners: you highlight the HTML text, copy it, paste it into your page's HTML, then right-click the image to save it to your disk or hard drive. The exact method may vary by operating system and browser.",
+        "citations": [
+          "Link to Us | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "IT Standards Library | Federal Student Aid#1_0::c0002",
+          "text": "[IT 标准库 > 联邦学生援助特定资源]\nIT 标准库的这一部分包括特定于所有项目的联邦学生援助IT生命周期的文档，并列出IT项目可能根据合同需要遵守的其他相关参考。\n\n- 一般参考\n- IT 安全\n- 数据管理\n- 测试服务\n- 项目质量保证\n\n### 一般参考\n\n生命周期管理方法论\n\n生命周期管理方法论包含了一个全面的流程，用于管理信息技术项目从愿景到退役的全过程。该方法论由八个不同的阶段组成，每个阶段通过确定要创建的核心/最低限度的可交付成果集来指导项目经理完成LMM流程，以确保项目的可行性。该方法论提倡增量式和迭代式的方法，通过将复杂解决方案分解为小而可管理的阶段来促进其开发。实施并遵循LMM的目的是最大化项目成果，并最小化传统上与IT解决方案开发项目相关的风险。\n\n- 生命周期管理方法论\n- LMM定制计划模板\n- 特定的LMM文档/工件模板可通过合同官员请求获得。\n\n技术标准和产品指南\n\n联邦学生援助技术标准和产品指南（指南）提供了一种有组织、系统化的方式来分类联邦学生援助的信息技术基础设施，并为理解制定联邦学生援助信息技术政策的基本原则、假设和规则提供了基础。\n\n- 技术标准和产品指南\n\n企业变更管理计划\n\n企业变更管理计划定义了联邦学生援助与企业事件、配置和发布管理相关的运营变更管理概念。\n\n- 企业变更管理计划\n\n企业Rational解决方案\n\n联邦学生援助企业Rational解决方案用于系统开发工作。它是一个基于IBM Rational工具套件的集成解决方案，用于需求、测试和配置管理，符合FSA在这些领域的标准。\n\n### IT安全\n\n本节包含FSA使用的IT安全文档。\n\n- 互连安全协议模板\n\n### 数据管理\n\n数据管理资源\n\n以下资源为联邦学生援助的数据管理提供了关于当前和计划中的数据管理计划的信息。\n\n- 数据迁移路线图\n- 数据模型标准和指南\n- 数据标准化政策和程序\n\n### 测试服务\n\n企业测试管理标准\n\n为联邦学生援助员工和承包商提供关于有效测试规划、可重复测试流程、标准化模板、缺陷管理及其他工具的标准和指导，以帮助更好地规划、执行和监控测试工作。\n\n- 企业测试管理标准\n- 特定测试管理模板可通过合同官员请求获取。\n\n### 项目质量保证\n\n生产就绪审查（PRR）流程\n\n生产就绪审查（PRR）是新的应用程序或现有应用程序的重大版本进入联邦学生援助生产环境并向最终用户开放之前的最终、正式且有记录的决定点。\n\n- 生产就绪审查（PRR）流程描述\n- 演示模板"
+        },
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 开始填写FAFSA表格并提供您的基本个人信息]\nFAFSA表格于10月1日开放用于下一学年。我们鼓励您在10月1日或之后尽快填写，以满足FAFSA截止日期。\n\nFAFSA提交选项 您可以选择以下任何方式提交FAFSA表格：\n\n- 登录fafsa.gov在线申请，或\n- 在myStudentAid移动应用程序中填写表格，该应用程序可在App Store（iOS）或Google Play（Android）上获得，或\n- 填写2020-21 FAFSA PDF或2019-20 FAFSA PDF（注意：您必须打印并邮寄FAFSA PDF以供处理），或\n- 致电1-800-4-FED-AID（1-800-433-3243）或334-523-2691（聋人或听力障碍者TTY：1-800-730-8913）索取FAFSA PDF打印件；然后填写表格并邮寄以供处理\n\n如果您是第一次在fafsa.gov上开始申请，请选择“从这里开始”。当您开始时，请记住以下几点：\n\n- 您的姓名和社会安全号码必须与社会安全卡上的信息一致。遵循此提示，以避免收到您的信息与社会安全管理局记录（或您的FSA ID账户）不匹配的通知。\n- 如果您担心在登录页面上提供个人信息，请选择虚拟键盘选项以增加安全性。\n- 为确保应用程序正常运行，请确保浏览器中的弹出窗口阻止程序允许来自fafsa.ed.gov的弹出窗口。了解如何在浏览器中启用弹出窗口。\n\n如果您是第一次在myStudentAid移动应用程序上开始，您将选择“从这里开始”，然后需要输入您的FSA ID。没有FSA ID，您无法在移动应用程序上填写FAFSA表格。\n\n如果您是18至25岁之间的男性，并且尚未在兵役登记系统中注册，当被问及是否希望注册时，请选择“是”。否则，您将没有资格获得联邦学生援助。此要求适用于任何出生时被指定为男性的人。\n\n以下提示适用于您在线或通过移动应用程序填写表格：\n\n- 在申请开始时，您将创建一个保存密钥，这是一个临时密码，如果您开始填写FAFSA表格但未完成并保存，之后想再次打开以完成它时使用。保存密钥的一个好处是，如果学生和家长在不同地点填写FAFSA，他们可以使用此功能访问FAFSA表格。（与需要保密的FSA ID不同，告诉您的父母您的保存密钥是可以的。）\n- 如果您正在申请夏季学期，请联系您大学的财政援助办公室，以确定在填写FAFSA表格时应选择哪个学年。\n\n如果您去年填写了FAFSA表格并希望续签，请在FAFSA主页上选择“登录”，选择“我是学生”，输入您的FSA ID，并确保在出现选项时选择“FAFSA续签”。这样，许多（非财务）问题将为您预先填写。只需确保更新自去年以来发生的任何变化。\n\n只有学生本人才能使用其 FSA ID 启动 FAFSA 续填。如果您是受抚养学生，且您的父母帮助您填写 FAFSA 表格，您应启动 FAFSA 续填，保存后，将保存密钥交给您的父母，以便他们访问您的 FAFSA 表格。\n\n如果您使用移动应用并以学生身份登录，且符合 FAFSA 续填资格，续填表格将自动为您显示。\n\n由于冠状病毒国家紧急状态，FAFSA PDF 的处理时间可能比平时更长。我们建议您以电子方式提交 FAFSA 表格，以避免处理延迟。"
+        },
+        {
+          "chunk_id": "Contracting Information | Federal Student Aid#1_0::c0000",
+          "text": "# Contracting Information | Federal Student Aid\n\n# Doing Business With Us\n\nFederal Student Aid Acquisitions plays an integral role supporting Federal Students Aid's needs and program objectives. Federal Student Aid Acquisitions is responsible for ensuring the efficient and economic acquisition of products and services for Federal Student Aid while reducing cost and maintaining compliance with applicable laws, regulations, and Executive Orders.\n\n## Acquisition Forecast\n\nFederal Student Aid prepares an annual forecast, with periodic updates, of expected contract opportunities in excess of the simplified acquisition threshold for each fiscal year. Information on Federal Student Aid's forecast, as well as other U.S. Department of Education acquisitions, can be found at Forecast of ED Contract Opportunities. All forecasted procurements are subject to revision or cancellation.\n\n## Acquisition Notices and Contract Solicitations\n\nActive acquisition synopses, contract solicitations, and other information including draft work statements, special notices, sources sought notices, etc., are available at FedBizOpps, the U.S. Government's single point-of-entry for federal business opportunities. FedBizOpps also contains copies of requests for quotations for proposed contract actions expected to exceed $10,000 but not to exceed $25,000.\n\n## Federal Student Aid IT Standards\n\nFederal Student Aid relies heavily on information technology (IT) to support complex business processes. Therefore, effective use of IT is essential to many Federal Student Aid acquisitions.\n\nThe IT Standards Library identifies federal, Department and Federal Student Aid specific IT standards directly pertinent to Federal Student Aid's acquisitions.\n\n## Contact\n\nIf you have questions regarding Federal Student Aid's Acquisition activities, please e-mail FSA Acquisitions."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "IT Standards Library | Federal Student Aid#1_0::c0002",
+          "text": "[IT 标准库 > 联邦学生援助特定资源]\nIT 标准库的这一部分包括特定于所有项目的联邦学生援助IT生命周期的文档，并列出IT项目可能根据合同需要遵守的其他相关参考。\n\n- 一般参考\n- IT 安全\n- 数据管理\n- 测试服务\n- 项目质量保证\n\n### 一般参考\n\n生命周期管理方法论\n\n生命周期管理方法论包含了一个全面的流程，用于管理信息技术项目从愿景到退役的全过程。该方法论由八个不同的阶段组成，每个阶段通过确定要创建的核心/最低限度的可交付成果集来指导项目经理完成LMM流程，以确保项目的可行性。该方法论提倡增量式和迭代式的方法，通过将复杂解决方案分解为小而可管理的阶段来促进其开发。实施并遵循LMM的目的是最大化项目成果，并最小化传统上与IT解决方案开发项目相关的风险。\n\n- 生命周期管理方法论\n- LMM定制计划模板\n- 特定的LMM文档/工件模板可通过合同官员请求获得。\n\n技术标准和产品指南\n\n联邦学生援助技术标准和产品指南（指南）提供了一种有组织、系统化的方式来分类联邦学生援助的信息技术基础设施，并为理解制定联邦学生援助信息技术政策的基本原则、假设和规则提供了基础。\n\n- 技术标准和产品指南\n\n企业变更管理计划\n\n企业变更管理计划定义了联邦学生援助与企业事件、配置和发布管理相关的运营变更管理概念。\n\n- 企业变更管理计划\n\n企业Rational解决方案\n\n联邦学生援助企业Rational解决方案用于系统开发工作。它是一个基于IBM Rational工具套件的集成解决方案，用于需求、测试和配置管理，符合FSA在这些领域的标准。\n\n### IT安全\n\n本节包含FSA使用的IT安全文档。\n\n- 互连安全协议模板\n\n### 数据管理\n\n数据管理资源\n\n以下资源为联邦学生援助的数据管理提供了关于当前和计划中的数据管理计划的信息。\n\n- 数据迁移路线图\n- 数据模型标准和指南\n- 数据标准化政策和程序\n\n### 测试服务\n\n企业测试管理标准\n\n为联邦学生援助员工和承包商提供关于有效测试规划、可重复测试流程、标准化模板、缺陷管理及其他工具的标准和指导，以帮助更好地规划、执行和监控测试工作。\n\n- 企业测试管理标准\n- 特定测试管理模板可通过合同官员请求获取。\n\n### 项目质量保证\n\n生产就绪审查（PRR）流程\n\n生产就绪审查（PRR）是新的应用程序或现有应用程序的重大版本进入联邦学生援助生产环境并向最终用户开放之前的最终、正式且有记录的决定点。\n\n- 生产就绪审查（PRR）流程描述\n- 演示模板"
+        },
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 开始填写FAFSA表格并提供您的基本个人信息]\nFAFSA表格于10月1日开放用于下一学年。我们鼓励您在10月1日或之后尽快填写，以满足FAFSA截止日期。\n\nFAFSA提交选项 您可以选择以下任何方式提交FAFSA表格：\n\n- 登录fafsa.gov在线申请，或\n- 在myStudentAid移动应用程序中填写表格，该应用程序可在App Store（iOS）或Google Play（Android）上获得，或\n- 填写2020-21 FAFSA PDF或2019-20 FAFSA PDF（注意：您必须打印并邮寄FAFSA PDF以供处理），或\n- 致电1-800-4-FED-AID（1-800-433-3243）或334-523-2691（聋人或听力障碍者TTY：1-800-730-8913）索取FAFSA PDF打印件；然后填写表格并邮寄以供处理\n\n如果您是第一次在fafsa.gov上开始申请，请选择“从这里开始”。当您开始时，请记住以下几点：\n\n- 您的姓名和社会安全号码必须与社会安全卡上的信息一致。遵循此提示，以避免收到您的信息与社会安全管理局记录（或您的FSA ID账户）不匹配的通知。\n- 如果您担心在登录页面上提供个人信息，请选择虚拟键盘选项以增加安全性。\n- 为确保应用程序正常运行，请确保浏览器中的弹出窗口阻止程序允许来自fafsa.ed.gov的弹出窗口。了解如何在浏览器中启用弹出窗口。\n\n如果您是第一次在myStudentAid移动应用程序上开始，您将选择“从这里开始”，然后需要输入您的FSA ID。没有FSA ID，您无法在移动应用程序上填写FAFSA表格。\n\n如果您是18至25岁之间的男性，并且尚未在兵役登记系统中注册，当被问及是否希望注册时，请选择“是”。否则，您将没有资格获得联邦学生援助。此要求适用于任何出生时被指定为男性的人。\n\n以下提示适用于您在线或通过移动应用程序填写表格：\n\n- 在申请开始时，您将创建一个保存密钥，这是一个临时密码，如果您开始填写FAFSA表格但未完成并保存，之后想再次打开以完成它时使用。保存密钥的一个好处是，如果学生和家长在不同地点填写FAFSA，他们可以使用此功能访问FAFSA表格。（与需要保密的FSA ID不同，告诉您的父母您的保存密钥是可以的。）\n- 如果您正在申请夏季学期，请联系您大学的财政援助办公室，以确定在填写FAFSA表格时应选择哪个学年。\n\n如果您去年填写了FAFSA表格并希望续签，请在FAFSA主页上选择“登录”，选择“我是学生”，输入您的FSA ID，并确保在出现选项时选择“FAFSA续签”。这样，许多（非财务）问题将为您预先填写。只需确保更新自去年以来发生的任何变化。\n\n只有学生本人才能使用其 FSA ID 启动 FAFSA 续填。如果您是受抚养学生，且您的父母帮助您填写 FAFSA 表格，您应启动 FAFSA 续填，保存后，将保存密钥交给您的父母，以便他们访问您的 FAFSA 表格。\n\n如果您使用移动应用并以学生身份登录，且符合 FAFSA 续填资格，续填表格将自动为您显示。\n\n由于冠状病毒国家紧急状态，FAFSA PDF 的处理时间可能比平时更长。我们建议您以电子方式提交 FAFSA 表格，以避免处理延迟。"
+        },
+        {
+          "chunk_id": "Contracting Information | Federal Student Aid#1_0::c0000",
+          "text": "# Contracting Information | Federal Student Aid\n\n# Doing Business With Us\n\nFederal Student Aid Acquisitions plays an integral role supporting Federal Students Aid's needs and program objectives. Federal Student Aid Acquisitions is responsible for ensuring the efficient and economic acquisition of products and services for Federal Student Aid while reducing cost and maintaining compliance with applicable laws, regulations, and Executive Orders.\n\n## Acquisition Forecast\n\nFederal Student Aid prepares an annual forecast, with periodic updates, of expected contract opportunities in excess of the simplified acquisition threshold for each fiscal year. Information on Federal Student Aid's forecast, as well as other U.S. Department of Education acquisitions, can be found at Forecast of ED Contract Opportunities. All forecasted procurements are subject to revision or cancellation.\n\n## Acquisition Notices and Contract Solicitations\n\nActive acquisition synopses, contract solicitations, and other information including draft work statements, special notices, sources sought notices, etc., are available at FedBizOpps, the U.S. Government's single point-of-entry for federal business opportunities. FedBizOpps also contains copies of requests for quotations for proposed contract actions expected to exceed $10,000 but not to exceed $25,000.\n\n## Federal Student Aid IT Standards\n\nFederal Student Aid relies heavily on information technology (IT) to support complex business processes. Therefore, effective use of IT is essential to many Federal Student Aid acquisitions.\n\nThe IT Standards Library identifies federal, Department and Federal Student Aid specific IT standards directly pertinent to Federal Student Aid's acquisitions.\n\n## Contact\n\nIf you have questions regarding Federal Student Aid's Acquisition activities, please e-mail FSA Acquisitions."
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "document": "Link to Us | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_052.md",
+          "excerpt": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If you right-click on a FAFSA banner image, you will see an option to 'save' or 'download' the 'image' or 'picture.' This is part of the instructions for using the banners: you highlight the HTML text, copy it, paste it into your page's HTML, then right-click the image to save it to your disk or hard drive. The exact method may vary by operating system and browser.",
+          "citations": [
+            "Link to Us | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "ab4f01569b7d457cb1286fd84d09979e",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3459,
+              "completion_tokens": 118,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 118,
+                "prompt_tokens": 3459,
+                "total_tokens": 3577,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3203
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0053483,
+            "accounted_rmb": 0.0053483,
+            "usage_unknown": false,
+            "seconds": 2.0108909606933594,
+            "error": null,
+            "response": {
+              "id": "53fa678a-6c36-42bf-9e86-4aed17f2e43a",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "e67591797d60f394d9b5ad1b9c0f85edc36576b9e5cffb4f54a932bf14a2c6cd"
+      },
+      "latency_ms": {
+        "queue_wait": 0.06287498399615288,
+        "retrieval": 1610.5555000249296,
+        "generation": 2014.7428329801187,
+        "total": 3626.55962491408
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.20961175009142607,
+        "rerank_seconds": 1.4009011250454932,
+        "top1_dense_score": 0.7195701599121094,
+        "candidate_ids": [
+          "IT Standards Library | Federal Student Aid#1_0::c0002",
+          "IT Standards Library | Federal Student Aid#1_0::c0001",
+          "Link to Us | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "Contracting Information | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "Receiving Financial Aid | Federal Student Aid#1_0::c0000",
+          "Aidan | The FSA Virtual Assistant | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "IT Standards Library | Federal Student Aid#1_0::c0000",
+          "Aid for International Study | Federal Student Aid#1_0::c0001",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0005",
+          "How to Renew Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "Feedback Center#1_0::c0000",
+          "Loans | Federal Student Aid#1_0::c0005",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0004",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 39,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.610536958090961
+      },
+      "raw_citations": [
+        "Link to Us | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "c89863101a43cd1602334b4f3c57e83b8a1429cea202c5089a08a8d02221b37c"
+}

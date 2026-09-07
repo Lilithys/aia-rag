@@ -1,0 +1,102 @@
+{
+  "payload": {
+    "binding_sha256": "414c9dca89c33d6d7fd5c0f279d45c652c51bba3ba8f07b48d9710bb433b725d",
+    "case_id": "rerank_windowed_k5:68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "resolution_mode": "direct_answer",
+            "task_resolution_ok": false,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "Ask whether the user is a surviving spouse or child, or provide conditional guidance for both branches",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response assumes the user is a surviving spouse and provides only spouse eligibility details, without asking the user's status or covering the child branch."
+              },
+              {
+                "requirement": "If covering child eligibility, include age, school status, or disability status conditions",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not ask for or conditionally cover the child's age, school status, or disability status."
+              }
+            ],
+            "reason": "The response directly answers for a surviving spouse without clarifying the user's relationship, failing to address the material missing condition for a tailored answer."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c985e9bb76974ecc9915308ce8c5c0c9",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4018,
+                "completion_tokens": 206,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 206,
+                  "prompt_tokens": 4018,
+                  "total_tokens": 4224,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3122
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0056548,
+              "accounted_rmb": 0.0056548,
+              "usage_unknown": false,
+              "seconds": 2.2010889053344727,
+              "error": null,
+              "response": {
+                "id": "54b25244-1ff7-4daf-831f-c51514b1cb2b",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6869192c0f823091c2ef8bd19707932669e75aa4bf8e68dd8862a4543e19dc36"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "resolution_mode": "direct_answer",
+        "task_resolution_ok": false,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "Ask whether the user is a surviving spouse or child, or provide conditional guidance for both branches",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response assumes the user is a surviving spouse and provides only spouse eligibility details, without asking the user's status or covering the child branch."
+          },
+          {
+            "requirement": "If covering child eligibility, include age, school status, or disability status conditions",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not ask for or conditionally cover the child's age, school status, or disability status."
+          }
+        ],
+        "reason": "The response directly answers for a surviving spouse without clarifying the user's relationship, failing to address the material missing condition for a tailored answer."
+      }
+    }
+  },
+  "sha256": "2863b1fe91823931d266b5d51550e2020cad7a904b0ec2e5aeb504fbc83c83fc"
+}

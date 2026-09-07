@@ -1,0 +1,153 @@
+{
+  "payload": {
+    "task_id": "742fefa59e1a07399038ef1e5c07671838cbd0df611f4ece60b23f4e2eee8464",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "I cannot access your personal Social Security payment records or provide specific payment dates or amounts.",
+                "scope": "assistant_capability",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a pure assertion of the assistant's access limits, not a factual claim about the world."
+              },
+              {
+                "text": "if your disability benefits are approved, your first benefit is paid in the sixth full month after your disability onset date",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states: 'if your application is approved, your first Social Security benefit will be paid in the sixth full month after the date we determine your disability began.'"
+              },
+              {
+                "text": "benefits are paid the month after they are due",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states: 'Social Security benefits are paid the month after they are due.'"
+              },
+              {
+                "text": "Your monthly amount is based on your lifetime average earnings covered by Social Security.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context states: 'Your monthly disability benefit amount is based on your lifetime average earnings covered by Social Security.'"
+              },
+              {
+                "text": "For your specific payment details, please check your personal my Social Security account or contact the Social Security Administration.",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a suggestion/instruction, not a factual assertion."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "67c66c24958a417bb3ba06e536794330",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3186,
+                "completion_tokens": 456,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 456,
+                  "prompt_tokens": 3186,
+                  "total_tokens": 3642,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2802
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0062742,
+              "accounted_rmb": 0.0062742,
+              "usage_unknown": false,
+              "seconds": 2.831718921661377,
+              "error": null,
+              "response": {
+                "id": "eb5a99f6-33d0-4c26-8ed9-4785e8a3e3ea",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ccbd2a8cfd4b08b3345263fc01cfcdb0c2c0fce96974ca4108b2d8ee3d552448"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {
+        "assistant_capability": 1,
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "I cannot access your personal Social Security payment records or provide specific payment dates or amounts.",
+          "scope": "assistant_capability",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a pure assertion of the assistant's access limits, not a factual claim about the world."
+        },
+        {
+          "text": "if your disability benefits are approved, your first benefit is paid in the sixth full month after your disability onset date",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states: 'if your application is approved, your first Social Security benefit will be paid in the sixth full month after the date we determine your disability began.'"
+        },
+        {
+          "text": "benefits are paid the month after they are due",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states: 'Social Security benefits are paid the month after they are due.'"
+        },
+        {
+          "text": "Your monthly amount is based on your lifetime average earnings covered by Social Security.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context states: 'Your monthly disability benefit amount is based on your lifetime average earnings covered by Social Security.'"
+        },
+        {
+          "text": "For your specific payment details, please check your personal my Social Security account or contact the Social Security Administration.",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a suggestion/instruction, not a factual assertion."
+        }
+      ]
+    }
+  },
+  "sha256": "3155c280ce52d0c12c9169c779098c736679863ac18442151ffa598c4ea0b37b"
+}

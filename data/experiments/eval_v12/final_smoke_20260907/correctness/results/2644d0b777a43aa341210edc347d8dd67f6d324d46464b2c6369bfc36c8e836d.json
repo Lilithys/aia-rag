@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "2644d0b777a43aa341210edc347d8dd67f6d324d46464b2c6369bfc36c8e836d",
+    "binding_sha256": "de953b39e4f172568379a2b85344f65373d2a2666e7b31a04fc2a8495563efcc",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "reviewer calls the number provided on the form to arrange a time",
+                "coverage": "covered",
+                "response_quote": "他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件",
+                "reason": "Response states the reviewer calls the number on the form to arrange a time."
+              },
+              {
+                "requirement": "reviewer makes two call attempts",
+                "coverage": "covered",
+                "response_quote": "高级审查员会尝试通过电话联系您或您的代表两次",
+                "reason": "Response states two call attempts."
+              },
+              {
+                "requirement": "leaves voicemail if no one answers",
+                "coverage": "covered",
+                "response_quote": "如果无人接听，他们会留下语音邮件",
+                "reason": "Response states voicemail is left if no one answers."
+              }
+            ],
+            "reason": "The response accurately covers all essential facts from the reference: calling the provided number, two attempts, voicemail, and discussion content. No unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7b245ddaa5ea49ee91c165ebe081bc5d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3530,
+                "completion_tokens": 249,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 249,
+                  "prompt_tokens": 3530,
+                  "total_tokens": 3779,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2634
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0051163,
+              "accounted_rmb": 0.0051163,
+              "usage_unknown": false,
+              "seconds": 2.0830349922180176,
+              "error": null,
+              "response": {
+                "id": "10c8d497-7c4d-44d8-9a40-8c8dd53bd598",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "49a610bdd5cfb8de0a4a019b9f663cf93629bcef866aeadc4089d1c4adaef57b"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "reviewer calls the number provided on the form to arrange a time",
+            "coverage": "covered",
+            "response_quote": "他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件",
+            "reason": "Response states the reviewer calls the number on the form to arrange a time."
+          },
+          {
+            "requirement": "reviewer makes two call attempts",
+            "coverage": "covered",
+            "response_quote": "高级审查员会尝试通过电话联系您或您的代表两次",
+            "reason": "Response states two call attempts."
+          },
+          {
+            "requirement": "leaves voicemail if no one answers",
+            "coverage": "covered",
+            "response_quote": "如果无人接听，他们会留下语音邮件",
+            "reason": "Response states voicemail is left if no one answers."
+          }
+        ],
+        "reason": "The response accurately covers all essential facts from the reference: calling the provided number, two attempts, voicemail, and discussion content. No unsupported claims."
+      }
+    }
+  },
+  "sha256": "4635e59f25ff51cc5c0daed1876588d3d8ba5f100ea9e893ac643e2c7915b06d"
+}

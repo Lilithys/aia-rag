@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "bbbe374beacd4884673fa7b4455b3a5da5f41645a92cbbad00cf8f13ae1aa969",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "是的，您可能不再符合资格。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007"
+                ],
+                "reason": "The context states that if you can do other work, you are not disabled and your claim is denied, implying benefits can cease."
+              },
+              {
+                "text": "社会保障管理局会定期审查您的残疾状况，以确认您仍然满足残疾定义（即您的状况严重限制基本工作活动，且预计持续至少12个月或导致死亡）。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004"
+                ],
+                "reason": "The context defines disability as severe limitation of basic work activities lasting at least 12 months or resulting in death, and implies ongoing review."
+              },
+              {
+                "text": "如果您的医疗状况改善到不再显著限制您的工作能力，或者您能够从事其他类型的工作，您的福利可能会被终止。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007"
+                ],
+                "reason": "The context states that if you can do other work, you are not disabled and your claim is denied, implying termination."
+              },
+              {
+                "text": "此外，如果您领取某些其他政府福利（如工伤赔偿或公共残疾福利），您的社会保障残疾福利金额也可能被减少。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The context explicitly states that receiving certain other government benefits may reduce your Social Security disability benefits."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7c822872a60b49439caa81a54a82538f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1883,
+                "completion_tokens": 443,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 443,
+                  "prompt_tokens": 1883,
+                  "total_tokens": 2326,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1499
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0042612,
+              "accounted_rmb": 0.0042612,
+              "usage_unknown": false,
+              "seconds": 2.698084831237793,
+              "error": null,
+              "response": {
+                "id": "cccee8ab-d9b6-44fa-a935-3da35b9dcaae",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "831208b15a6121df8a858cd96807aa389d5d69782f24cde5d277fe489659ad1f"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "是的，您可能不再符合资格。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007"
+          ],
+          "reason": "The context states that if you can do other work, you are not disabled and your claim is denied, implying benefits can cease."
+        },
+        {
+          "text": "社会保障管理局会定期审查您的残疾状况，以确认您仍然满足残疾定义（即您的状况严重限制基本工作活动，且预计持续至少12个月或导致死亡）。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0004"
+          ],
+          "reason": "The context defines disability as severe limitation of basic work activities lasting at least 12 months or resulting in death, and implies ongoing review."
+        },
+        {
+          "text": "如果您的医疗状况改善到不再显著限制您的工作能力，或者您能够从事其他类型的工作，您的福利可能会被终止。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0007"
+          ],
+          "reason": "The context states that if you can do other work, you are not disabled and your claim is denied, implying termination."
+        },
+        {
+          "text": "此外，如果您领取某些其他政府福利（如工伤赔偿或公共残疾福利），您的社会保障残疾福利金额也可能被减少。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The context explicitly states that receiving certain other government benefits may reduce your Social Security disability benefits."
+        }
+      ]
+    }
+  },
+  "sha256": "af7f44106f1edcf0d0b8b0f55d654e85218a2d70a02b727c005ed45100696824"
+}

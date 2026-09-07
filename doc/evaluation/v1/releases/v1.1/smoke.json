@@ -1,0 +1,2368 @@
+{
+  "dataset": "MultiDoc2Dial full multilingual evaluation",
+  "evaluation_release": "1.1",
+  "protocol_version": "1.1",
+  "split": "smoke",
+  "total_questions": 20,
+  "review_provenance": {
+    "reviewer_type": "ai_agent",
+    "independent_human_review": false,
+    "evaluated_system_outputs_used_for_selection": false,
+    "evaluated_dev_outputs_seen_before_correction": true,
+    "selection_note": "No IDs replaced or reordered. Two dev annotations corrected after error analysis; not an independent test."
+  },
+  "task_label_distribution": {
+    "answer": 15,
+    "clarify": 3,
+    "refuse": 2
+  },
+  "items": [
+    {
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "domain": "studentaid",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "2e0eae56e500ce599d2e50df42584392",
+        "question_turn_id": 6,
+        "answer_turn_id": 7,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "那贷款呢，有什么建议吗？",
+      "source_question_en": "what about loans, any tips?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "只是想了解一下如何获得经济援助"
+        },
+        {
+          "role": "agent",
+          "utterance": "好的，别忘了尝试接受你无需偿还的经济援助资金"
+        },
+        {
+          "role": "agent",
+          "utterance": "你的学校经济援助办公室是否已经给你发送了援助通知？"
+        },
+        {
+          "role": "user",
+          "utterance": "还没有，我还没问过"
+        },
+        {
+          "role": "agent",
+          "utterance": "不幸的是，没有找到相关信息。"
+        }
+      ],
+      "gold_answer": "制定预算，这样你只借你需要的金额",
+      "source_gold_answer": "制定预算，这样你只借你需要的金额",
+      "source_gold_answer_en": "Make a budget so you borrow only what you need",
+      "question_language": "zh",
+      "answer_language": "zh",
+      "language_relation": "cross_lingual",
+      "document_format": "markdown",
+      "history_bucket": "medium",
+      "answer_evidence_ids": [
+        "src_7741551c12184f3e::b0014"
+      ],
+      "answer_doc_ids": [
+        "Accepting Aid | Federal Student Aid#1_0"
+      ],
+      "required_doc_ids": [
+        "Accepting Aid | Federal Student Aid#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+          "file": "documents/markdown/studentaid_001.md",
+          "format": "markdown",
+          "language": "en"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+          "document_file": "documents/markdown/studentaid_001.md",
+          "document_format": "markdown",
+          "document_language": "en",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "31",
+              "source_span_text_en": "To determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them ;",
+              "source_block_id": "src_7741551c12184f3e::b0014",
+              "evidence_text": "To determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them; in other words, make a budget to help ensure you borrow only what you need.",
+              "location": {
+                "block_index": 14
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "32",
+              "source_span_text_en": "in other words, make a budget to help ensure you borrow only what you need.",
+              "source_block_id": "src_7741551c12184f3e::b0014",
+              "evidence_text": "To determine how much loan money to accept, make a list of your college and living expenses and the resources you ll have available to pay them; in other words, make a budget to help ensure you borrow only what you need.",
+              "location": {
+                "block_index": 14
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence directly recommends budgeting to determine how much loan money is actually needed.",
+        "evidence_ids": [
+          "src_7741551c12184f3e::b0014"
+        ],
+        "reviewer_notes": "remaining_initial_dev_answer_verified"
+      }
+    },
+    {
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "domain": "ssa",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "e3c09280b0901314ebc9c799f3789711",
+        "question_turn_id": 12,
+        "answer_turn_id": 13,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "您有使用Benefits Planner的经验吗？即使我从未在Social Security下工作过，我是否有可能申请配偶补偿？",
+      "source_question_en": "If you have any experience with Benefits Planner? Is it possible for me to apply for spousal compensation even though I have never worked for Social Security?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "你好，我什么时候可以申请退休福利或Medicare？"
+        },
+        {
+          "role": "agent",
+          "utterance": "请准备好提供我们审批您这些福利申请所需的信息。"
+        },
+        {
+          "role": "user",
+          "utterance": "如果我没有出生证明该怎么办？"
+        },
+        {
+          "role": "agent",
+          "utterance": "在这种情况下，您可以向您出生的州申请一份。"
+        },
+        {
+          "role": "user",
+          "utterance": "还有其他退休规划网站吗？"
+        },
+        {
+          "role": "agent",
+          "utterance": "是的，有Benefit Eligibility Screening Tool (BEST) 可以帮助识别您可能符合资格的其他Social Security项目。"
+        },
+        {
+          "role": "agent",
+          "utterance": "您的养老金计划是否已终止？"
+        },
+        {
+          "role": "user",
+          "utterance": "没有"
+        },
+        {
+          "role": "agent",
+          "utterance": "很遗憾，未找到相关信息。"
+        },
+        {
+          "role": "user",
+          "utterance": "我如何核实我的Pension Benefit Guaranty Corporation？"
+        },
+        {
+          "role": "agent",
+          "utterance": "您可以使用PBGC的Find an Unclaimed Pension工具来查询是否有未领取的福利。"
+        }
+      ],
+      "gold_answer": "Even if you have never worked under Social Security, you may still qualify for benefits based on a spouse's work record if you meet the applicable spouse-benefit conditions.",
+      "source_gold_answer": "是的，即使您从未在Social Security下工作过，您也可能有资格获得福利。",
+      "source_gold_answer_en": "Yes, even if you never worked under Social Security you could qualify for benefits.",
+      "question_language": "mixed",
+      "answer_language": "mixed",
+      "language_relation": "mixed_language",
+      "document_format": "markdown",
+      "history_bucket": "long",
+      "answer_evidence_ids": [
+        "src_1a86e510e6c35849::b0023"
+      ],
+      "answer_doc_ids": [
+        "Benefits Planner | Social Security Administration#1_0"
+      ],
+      "required_doc_ids": [
+        "Benefits Planner | Social Security Administration#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Benefits Planner | Social Security Administration#1_0",
+          "file": "documents/markdown/ssa_009.md",
+          "format": "markdown",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Benefits Planner | Social Security Administration#1_0",
+          "document_file": "documents/markdown/ssa_009.md",
+          "document_format": "markdown",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "41",
+              "source_span_text_en": "Spouse's Benefits",
+              "source_block_id": "src_1a86e510e6c35849::b0022",
+              "evidence_text": "配偶福利",
+              "location": {
+                "block_index": 22
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "42",
+              "source_span_text_en": "Even if you never worked under Social Security ,",
+              "source_block_id": "src_1a86e510e6c35849::b0023",
+              "evidence_text": "即使您从未在社会保障制度下工作，如果您符合以下身份，您仍可能有资格获得福利：",
+              "location": {
+                "block_index": 23
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The question asks whether eligibility is possible, and the evidence directly says that people who never worked under Social Security may still qualify under listed relationships.",
+        "evidence_ids": [
+          "src_1a86e510e6c35849::b0023"
+        ],
+        "reviewer_notes": "reference_clarified_from_evidence"
+      }
+    },
+    {
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "domain": "studentaid",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "64d6f8365e94e27a45bc0d81cc5190c2",
+        "question_turn_id": 9,
+        "answer_turn_id": 10,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "如果我在联邦家庭教育贷款计划贷款中有超过30,000美元的未偿还余额，我在延长还款计划下有哪些选择？",
+      "source_question_en": "What options under the Extended Repayment Plan do I have I if I have more than $30,000 outstanding in an FFEL Program Loan? ",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "你好，如果我在年度截止日期前没有认证我的收入和家庭规模，会怎么样？"
+        },
+        {
+          "role": "agent",
+          "utterance": "请注意，在指定的年度截止日期前认证您的收入和家庭规模非常重要。"
+        },
+        {
+          "role": "user",
+          "utterance": "好的，我明白了，但如果我在截止日期前没有重新认证我的收入，我该怎么办？"
+        },
+        {
+          "role": "agent",
+          "utterance": "这会产生后果，但后果因计划而异。"
+        },
+        {
+          "role": "user",
+          "utterance": "我明白了，但如果我在过去两年内没有提交联邦所得税申报表呢？"
+        },
+        {
+          "role": "agent",
+          "utterance": "在这种情况下，将使用您的收入替代文件来确定您的资格并计算您的每月还款金额。"
+        },
+        {
+          "role": "user",
+          "utterance": "我有一个关于延长还款计划资格的问题，如果我是直接贷款计划的借款人，我如何获得此类计划？"
+        },
+        {
+          "role": "agent",
+          "utterance": "要获得资格，您必须在1998年10月7日或之后获得直接贷款之日，没有未偿还的直接贷款余额。您还必须有超过30,000美元的未偿还直接贷款。"
+        }
+      ],
+      "gold_answer": "For FFEL loans, the Extended Repayment Plan generally requires more than $30,000 in outstanding FFEL debt and no outstanding FFEL balance as of the date you obtained a new FFEL loan on or after October 7, 1998. If you have $35,000 in eligible FFEL loans and only $10,000 in Direct Loans, you may use the plan for the FFEL loans but not the Direct Loans.",
+      "source_gold_answer": "在这种情况下，您可以为您的联邦家庭教育贷款计划贷款选择延长还款计划，但如果您直接贷款少于30,000美元，您将没有资格参加该计划。",
+      "source_gold_answer_en": "In this instance, you can choose an Extended Repayment Plan for your FFEL Program Loan, you will not be eligible for the Plan if you have less than $30,000 in a Direct Loan",
+      "question_language": "zh",
+      "answer_language": "zh",
+      "language_relation": "aligned",
+      "document_format": "markdown",
+      "history_bucket": "medium",
+      "answer_evidence_ids": [
+        "src_c89b7c804f4349b5::b0010",
+        "src_c89b7c804f4349b5::b0011"
+      ],
+      "answer_doc_ids": [
+        "Extended Plan | Federal Student Aid#1_0"
+      ],
+      "required_doc_ids": [
+        "Extended Plan | Federal Student Aid#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "file": "documents/markdown/studentaid_027.md",
+          "format": "markdown",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "document_file": "documents/markdown/studentaid_027.md",
+          "document_format": "markdown",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "21",
+              "source_span_text_en": "and you must have more than $30,000 in outstanding FFEL Program loans.",
+              "source_block_id": "src_c89b7c804f4349b5::b0010",
+              "evidence_text": "如果您是FFEL借款人，要符合此计划的条件，您必须在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您必须拥有超过30,000美元的未偿还FFEL计划贷款。",
+              "location": {
+                "block_index": 10
+              }
+            },
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "24",
+              "source_span_text_en": "you can choose the Extended Repayment Plan for your FFEL Program loans, but not for your Direct Loans.",
+              "source_block_id": "src_c89b7c804f4349b5::b0011",
+              "evidence_text": "例如，如果您有35,000美元的未偿还FFEL计划贷款和10,000美元的未偿还直接贷款，您可以为您的FFEL计划贷款选择扩展还款计划，但不能为您的直接贷款选择。",
+              "location": {
+                "block_index": 11
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "21",
+              "source_span_text_en": "and you must have more than $30,000 in outstanding FFEL Program loans.",
+              "source_block_id": "src_c89b7c804f4349b5::b0010",
+              "evidence_text": "如果您是FFEL借款人，要符合此计划的条件，您必须在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且您必须拥有超过30,000美元的未偿还FFEL计划贷款。",
+              "location": {
+                "block_index": 10
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "24",
+              "source_span_text_en": "you can choose the Extended Repayment Plan for your FFEL Program loans, but not for your Direct Loans.",
+              "source_block_id": "src_c89b7c804f4349b5::b0011",
+              "evidence_text": "例如，如果您有35,000美元的未偿还FFEL计划贷款和10,000美元的未偿还直接贷款，您可以为您的FFEL计划贷款选择扩展还款计划，但不能为您的直接贷款选择。",
+              "location": {
+                "block_index": 11
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence supplies both the FFEL eligibility rule and the separate-program example needed to answer the question accurately.",
+        "evidence_ids": [
+          "src_c89b7c804f4349b5::b0010",
+          "src_c89b7c804f4349b5::b0011"
+        ],
+        "reviewer_notes": "replacement_answer_reference_completed"
+      }
+    },
+    {
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "domain": "studentaid",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "99fde7e8b712d1c8f9d683f23f84083c",
+        "question_turn_id": 16,
+        "answer_turn_id": 17,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "哪些联邦贷款符合延长还款计划的资格？",
+      "source_question_en": "What federal loans are eligible for the Extended Repayment Plan?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "延长还款计划允许你多长时间偿还贷款？"
+        },
+        {
+          "role": "agent",
+          "utterance": "在延长还款计划下，你最多可以还款25年。"
+        },
+        {
+          "role": "agent",
+          "utterance": "你愿意在比标准还款计划更长的时间内每月支付较低的金额吗？"
+        },
+        {
+          "role": "user",
+          "utterance": "是的，我愿意在更长的时间内支付较低的金额。"
+        },
+        {
+          "role": "agent",
+          "utterance": "那太好了，因为延长还款听起来很适合你。"
+        },
+        {
+          "role": "user",
+          "utterance": "你知道有多少种计划最适合我的情况吗？你能给我关于这方面的信息吗，如果到截止日期我还没有更正我家庭的数据，会有什么后果？"
+        },
+        {
+          "role": "agent",
+          "utterance": "会有后果，但根据计划不同而有所不同。"
+        },
+        {
+          "role": "user",
+          "utterance": "顺便问一下，对于延长还款计划，哪些联邦贷款符合条件？"
+        },
+        {
+          "role": "agent",
+          "utterance": "直接补贴贷款是符合条件的联邦贷款之一。"
+        },
+        {
+          "role": "user",
+          "utterance": "我还有关于合并贷款的问题，我的每月还款额是多少？"
+        },
+        {
+          "role": "agent",
+          "utterance": "嗯，如果你有合并贷款，每月还款额起初较低，每两年会增加一次。"
+        },
+        {
+          "role": "user",
+          "utterance": "还有关于计划资格的问题。如果我是FFEL借款人，我能符合延长还款计划的资格吗？"
+        },
+        {
+          "role": "agent",
+          "utterance": "你必须拥有超过30,000美元的未偿还FFEL计划贷款，并且截至1998年10月7日没有未偿还余额。"
+        },
+        {
+          "role": "user",
+          "utterance": "如果我有35,000美元的未偿还FFEL计划贷款和10,000美元的未偿还直接贷款呢？"
+        },
+        {
+          "role": "agent",
+          "utterance": "你可以为你的FFEL贷款选择延长还款计划，但不能为你的直接贷款选择。"
+        }
+      ],
+      "gold_answer": "威廉·D·福特联邦直接贷款和联邦家庭教育贷款符合延长还款计划的资格。",
+      "source_gold_answer": "威廉·D·福特联邦直接贷款和联邦家庭教育贷款符合延长还款计划的资格。",
+      "source_gold_answer_en": "William D. Ford Federal Direct Loan and the Federal Family Education Loan are eligible for the Extended Repayment Plan.",
+      "question_language": "zh",
+      "answer_language": "zh",
+      "language_relation": "aligned",
+      "document_format": "markdown",
+      "history_bucket": "long",
+      "answer_evidence_ids": [
+        "src_c89b7c804f4349b5::b0006"
+      ],
+      "answer_doc_ids": [
+        "Extended Plan | Federal Student Aid#1_0"
+      ],
+      "required_doc_ids": [
+        "Extended Plan | Federal Student Aid#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "file": "documents/markdown/studentaid_027.md",
+          "format": "markdown",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Extended Plan | Federal Student Aid#1_0",
+          "document_file": "documents/markdown/studentaid_027.md",
+          "document_format": "markdown",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "6",
+              "source_span_text_en": "The following loans from the William D. Ford Federal Direct Loan Direct Loan Program and the Federal Family Education Loan FFEL Program are eligible for the Extended Repayment Plan :",
+              "source_block_id": "src_c89b7c804f4349b5::b0006",
+              "evidence_text": "以下来自威廉·D·福特联邦直接贷款（直接贷款）计划和联邦家庭教育贷款（FFEL）计划的贷款符合扩展还款计划的条件：",
+              "location": {
+                "block_index": 6
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "6",
+              "source_span_text_en": "The following loans from the William D. Ford Federal Direct Loan Direct Loan Program and the Federal Family Education Loan FFEL Program are eligible for the Extended Repayment Plan :",
+              "source_block_id": "src_c89b7c804f4349b5::b0006",
+              "evidence_text": "以下来自威廉·D·福特联邦直接贷款（直接贷款）计划和联邦家庭教育贷款（FFEL）计划的贷款符合扩展还款计划的条件：",
+              "location": {
+                "block_index": 6
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence directly identifies Direct Loan and FFEL program loans as eligible for the Extended Repayment Plan.",
+        "evidence_ids": [
+          "src_c89b7c804f4349b5::b0006"
+        ],
+        "reviewer_notes": "remaining_initial_dev_answer_verified"
+      }
+    },
+    {
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "domain": "va",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "6c1a20b6f6cad4c623a877f50bbc54e8",
+        "question_turn_id": 14,
+        "answer_turn_id": 15,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "Yes",
+      "source_question_en": "Yes",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "Hello I need information about what to expect at my Board hearing"
+        },
+        {
+          "role": "agent",
+          "utterance": "Do you want to know specifically what will happen to your audience?"
+        },
+        {
+          "role": "user",
+          "utterance": "do not"
+        },
+        {
+          "role": "agent",
+          "utterance": "Do you want to know when the judge will make a decision on your appeal?"
+        },
+        {
+          "role": "user",
+          "utterance": "Yes"
+        },
+        {
+          "role": "agent",
+          "utterance": "Your hearing will be transcribed and added to your appeal file. You will be asked if you want a copy of the transcript for your personal records. The judge will review the hearing and other evidence in your appeal file before making a decision."
+        },
+        {
+          "role": "agent",
+          "utterance": "Do you know how long you can present new evidence to your case?"
+        },
+        {
+          "role": "user",
+          "utterance": "do not"
+        },
+        {
+          "role": "agent",
+          "utterance": "Do you have new evidence to present?"
+        },
+        {
+          "role": "user",
+          "utterance": "Yes"
+        },
+        {
+          "role": "agent",
+          "utterance": "Good in the event that you have new evidence to present, it will take 90 days. If you don't have new evidence to present, you can waive the 90-day period that is automatically added to your appeal. Some Veterans Service Organizations will ask for time to present additional arguments in support of your case, so please contact your representative first if you are considering waiving this time period."
+        },
+        {
+          "role": "user",
+          "utterance": "ok, and can I reschedule or withdraw my Board hearing request?"
+        },
+        {
+          "role": "agent",
+          "utterance": "you want to know What if you need to reschedule your audience?"
+        }
+      ],
+      "gold_answer": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+      "source_gold_answer": "You must send a written request to the Veterans Appeals Board with good reason to reschedule your hearing at least 2 weeks before your hearing. Include your name, the VA file number for your appeal, and the reason you need a new hearing date. Submit your request in writing to the Board.",
+      "source_gold_answer_en": "You must send a written request to the Veterans Appeals Board with good reason to reschedule your hearing at least 2 weeks before your hearing. Include your name, the VA file number for your appeal, and the reason you need a new hearing date. Submit your request in writing to the Board.",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "cross_lingual",
+      "document_format": "pdf_scanned",
+      "history_bucket": "long",
+      "answer_evidence_ids": [
+        "src_eac1506b824bb3f9::b0037"
+      ],
+      "answer_doc_ids": [
+        "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+      ],
+      "required_doc_ids": [
+        "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "file": "documents/pdf_scanned/va_016.pdf",
+          "format": "pdf_scanned",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "document_file": "documents/pdf_scanned/va_016.pdf",
+          "document_format": "pdf_scanned",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "64",
+              "source_span_text_en": "What if I need to reschedule my hearing?",
+              "source_block_id": "src_eac1506b824bb3f9::b0036",
+              "evidence_text": "如果我需要重新安排听证会怎么办？",
+              "location": {
+                "block_index": 36,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "65",
+              "source_span_text_en": "You ll need to send a written request to the Board of Veterans Appeals providing good cause to reschedule your hearing at least 2 weeks before your hearing.",
+              "source_block_id": "src_eac1506b824bb3f9::b0037",
+              "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+              "location": {
+                "block_index": 37,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "66",
+              "source_span_text_en": "Include your name, the VA file number for your appeal, and the reason why you need a new hearing date.",
+              "source_block_id": "src_eac1506b824bb3f9::b0037",
+              "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+              "location": {
+                "block_index": 37,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "67",
+              "source_span_text_en": "Send your written request to the Board.",
+              "source_block_id": "src_eac1506b824bb3f9::b0037",
+              "evidence_text": "您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。",
+              "location": {
+                "block_index": 37,
+                "page": 3
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The user's affirmation clearly selects the rescheduling branch posed in the preceding turn, and the evidence directly supports the instructions.",
+        "evidence_ids": [
+          "src_eac1506b824bb3f9::b0037"
+        ],
+        "reviewer_notes": "short_follow_up_resolved_from_history"
+      }
+    },
+    {
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "domain": "dmv",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "5739237b45a59e99f4282413adb58c89",
+        "question_turn_id": 3,
+        "answer_turn_id": 4,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "好消息。如果我有标准身份证呢？",
+      "source_question_en": "Good news. What if I have a standard ID?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "我需要一些关于更换非驾驶员身份证的指导。你能帮我吗？"
+        },
+        {
+          "role": "agent",
+          "utterance": "当然可以。如果您的非驾驶员身份证丢失或损坏，或者您更新地址后，可以更换。如果您的身份证已过期，则不能更换，您必须续期或申请新的。"
+        }
+      ],
+      "gold_answer": "According to the benchmark document, a Standard ID would not be accepted for boarding a domestic flight starting in October 2020; a passport could be used instead.",
+      "source_gold_answer": "那么从2020年10月起，您将不被允许登机国内航班，除非您持有护照。",
+      "source_gold_answer_en": "Then you will not be allowed to board a domestic flight starting in October 2020 unless you have a Passport.",
+      "question_language": "zh",
+      "answer_language": "zh",
+      "language_relation": "mixed_language",
+      "document_format": "markdown",
+      "history_bucket": "short",
+      "answer_evidence_ids": [
+        "src_91a5a34dade3515b::b0007"
+      ],
+      "answer_doc_ids": [
+        "Replace a non-driver ID card#1_0"
+      ],
+      "required_doc_ids": [
+        "Replace a non-driver ID card#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "file": "documents/markdown/dmv_118.md",
+          "format": "markdown",
+          "language": "mixed"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Replace a non-driver ID card#1_0",
+          "document_file": "documents/markdown/dmv_118.md",
+          "document_format": "markdown",
+          "document_language": "mixed",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "10",
+              "source_span_text_en": "if you have a Standard ,",
+              "source_block_id": "src_91a5a34dade3515b::b0007",
+              "evidence_text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。",
+              "location": {
+                "block_index": 7
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "11",
+              "source_span_text_en": "you will not be allowed to board a domestic flight starting in October 2020 unless you have a Passport.",
+              "source_block_id": "src_91a5a34dade3515b::b0007",
+              "evidence_text": "您不必办理Enhanced或REAL ID。2 但是，如果您持有Standard证件，从2020年10月起，您将无法登机国内航班（除非持有护照）。",
+              "location": {
+                "block_index": 7
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The historical benchmark evidence directly answers the Standard-ID branch; the reference explicitly attributes the dated claim to the frozen document.",
+        "evidence_ids": [
+          "src_91a5a34dade3515b::b0007"
+        ],
+        "reviewer_notes": "time_sensitive_source_claim_preserved"
+      }
+    },
+    {
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "domain": "va",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "9f61667636fe04c71da3d43f4c018b97",
+        "question_turn_id": 1,
+        "answer_turn_id": 2,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "如果我请求与高级审阅员通话，我应该期待什么？",
+      "source_question_en": "What should I expect if I request a call with a senior reviewer?",
+      "conversation_history": [],
+      "gold_answer": "For an informal conference in Higher-Level Review, the reviewer calls the number on the review form to arrange a time to discuss the case. The reviewer makes two call attempts and leaves a voicemail if no one answers.",
+      "source_gold_answer": "你是在谈论针对更高级别审查选项与高级审阅员进行的非正式会议吗？",
+      "source_gold_answer_en": "ARe you talking about an informal conference with a senior reviewer on the higher level review option?",
+      "question_language": "mixed",
+      "answer_language": "mixed",
+      "language_relation": "mixed_language",
+      "document_format": "docx",
+      "history_bucket": "none",
+      "answer_evidence_ids": [
+        "src_7a10651e9ac7fee0::b0018"
+      ],
+      "answer_doc_ids": [
+        "Frequently asked questions about decision reviews | Veterans Affairs#1_0"
+      ],
+      "required_doc_ids": [
+        "Frequently asked questions about decision reviews | Veterans Affairs#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "file": "documents/docx/va_041.docx",
+          "format": "docx",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "document_file": "documents/docx/va_041.docx",
+          "document_format": "docx",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "43",
+              "source_span_text_en": "What should I expect if I request a call with a senior reviewer?",
+              "source_block_id": "src_7a10651e9ac7fee0::b0017",
+              "evidence_text": "如果我请求与高级审核员通话，会有什么预期？",
+              "location": {
+                "block_index": 17,
+                "paragraph_start": 23,
+                "paragraph_end": 23
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "precondition",
+              "span_id": "44",
+              "source_span_text_en": "If you request an informal conference with a senior reviewer on the Higher - Level Review option ,",
+              "source_block_id": "src_7a10651e9ac7fee0::b0018",
+              "evidence_text": "如果您在高级审核选项下请求与高级审核员进行非正式会议，他们将拨打您或您的代表在高级审核表格上提供的电话号码，以安排时间与您讨论您的案件。高级审核员将尝试通过电话联系您或您的代表两次。如果无人接听，他们将留下语音邮件。",
+              "location": {
+                "block_index": 18,
+                "paragraph_start": 24,
+                "paragraph_end": 24
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The question and evidence already identify the Higher-Level Review conference and its process, so confirmation is unnecessary.",
+        "evidence_ids": [
+          "src_7a10651e9ac7fee0::b0018"
+        ],
+        "reviewer_notes": "relabelled_query_condition_to_answer"
+      }
+    },
+    {
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "domain": "ssa",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "252af484a022f3c3a46437bfa11ebc71",
+        "question_turn_id": 5,
+        "answer_turn_id": 6,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "Are you able to answer questions about mailing the required documents to you?",
+      "source_question_en": "Are you able to answer questions about mailing the required documents to you?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "What happens when I need to appeal a decision?"
+        },
+        {
+          "role": "agent",
+          "utterance": "Were you recently denied Social Security benefits or SSI?"
+        },
+        {
+          "role": "user",
+          "utterance": "Yes, I was denied benefits."
+        },
+        {
+          "role": "agent",
+          "utterance": "You may request an appeal within 60 days after receiving the notice of your decision or appeal."
+        }
+      ],
+      "gold_answer": "When mailing documents, include the Social Security number on a separate sheet so the documents can be matched to the application. Do not write on the original documents; place the separate sheet in the envelope with them.",
+      "source_gold_answer": "Is that the only way you can get your documents to us?",
+      "source_gold_answer_en": "Is that the only way you can get your documents to us?",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "aligned",
+      "document_format": "pdf_text",
+      "history_bucket": "short",
+      "answer_evidence_ids": [
+        "src_85a2ea3f2946fa1b::b0034"
+      ],
+      "answer_doc_ids": [
+        "Disability Benefits | Social Security Administration#2_0"
+      ],
+      "required_doc_ids": [
+        "Disability Benefits | Social Security Administration#2_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Disability Benefits | Social Security Administration#2_0",
+          "file": "documents/pdf_text/ssa_058.pdf",
+          "format": "pdf_text",
+          "language": "en"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Disability Benefits | Social Security Administration#2_0",
+          "document_file": "documents/pdf_text/ssa_058.pdf",
+          "document_format": "pdf_text",
+          "document_language": "en",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "96",
+              "source_span_text_en": "Mailing Your Documents",
+              "source_block_id": "src_85a2ea3f2946fa1b::b0033",
+              "evidence_text": "Mailing Your Documents",
+              "location": {
+                "block_index": 33,
+                "page": 4
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "precondition",
+              "span_id": "97",
+              "source_span_text_en": "If you mail any documents to us ,",
+              "source_block_id": "src_85a2ea3f2946fa1b::b0034",
+              "evidence_text": "If you mail any documents to us, you must include the Social Security number so that we can match them with the correct application. Do not write anything on the original documents. Please write the Social Security number on a separate sheet of paper and include it in the mailing envelope along with the documents.",
+              "location": {
+                "block_index": 34,
+                "page": 4
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence directly provides the mailing instructions requested, so asking whether mail is the only delivery route is unnecessary.",
+        "evidence_ids": [
+          "src_85a2ea3f2946fa1b::b0034"
+        ],
+        "reviewer_notes": "relabelled_query_condition_to_answer"
+      }
+    },
+    {
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "domain": "ssa",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "df0786f17d9f4708d23e6d40fe51f0b5",
+        "question_turn_id": 12,
+        "answer_turn_id": 13,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "I also need more information about the eligibility for increased benefits. What are the benefits that we can get if my spouse dies?",
+      "source_question_en": "I also need more information about the eligibility for increased benefits. What are the benefits that we can get if my spouse dies?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "Will my family members be able to get increased benefits when i do?"
+        },
+        {
+          "role": "agent",
+          "utterance": "Yes, it is our mission to deliver services that meet your changing needs."
+        },
+        {
+          "role": "agent",
+          "utterance": "Do you or your family members get Social Security or SSI?"
+        },
+        {
+          "role": "user",
+          "utterance": "Yes, me and my family receive benefits."
+        },
+        {
+          "role": "agent",
+          "utterance": "Then I would like to tell you that certain life changes may affect your chance for increased federal benefits."
+        },
+        {
+          "role": "user",
+          "utterance": "There won't be any issues if my spouse also receives benefits, right?"
+        },
+        {
+          "role": "agent",
+          "utterance": "No, there is no problem, you and your spouse can even apply at the same time, without problems."
+        },
+        {
+          "role": "user",
+          "utterance": "Thank you. I'd still like to learn more about Social Security. What are the different ways to get in touch with Social Security?"
+        },
+        {
+          "role": "agent",
+          "utterance": "You can reach us through the website, you can call 1-800-772-1213 toll free and we treat all calls with confidentiality."
+        },
+        {
+          "role": "user",
+          "utterance": "also to know the benefits being divorced? If I have not married, can I get the benefits of my ex?"
+        },
+        {
+          "role": "agent",
+          "utterance": " you can receive benefits on your ex - spouse 's record even if they have remarried if \n   You are unmarried ;"
+        }
+      ],
+      "gold_answer": "Then you may be eligible for a bigger survivor benefits based on their work.  ",
+      "source_gold_answer": "Then you may be eligible for a bigger survivor benefits based on their work.  ",
+      "source_gold_answer_en": "Then you may be eligible for a bigger survivor benefits based on their work.  ",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "cross_lingual",
+      "document_format": "pdf_text",
+      "history_bucket": "long",
+      "answer_evidence_ids": [
+        "src_b442908c22a3da40::b0008"
+      ],
+      "answer_doc_ids": [
+        "Explore The Benefits You May Be Due#2_0"
+      ],
+      "required_doc_ids": [
+        "Explore The Benefits You May Be Due#2_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "file": "documents/pdf_text/ssa_060.pdf",
+          "format": "pdf_text",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Explore The Benefits You May Be Due#2_0",
+          "document_file": "documents/pdf_text/ssa_060.pdf",
+          "document_format": "pdf_text",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "15",
+              "source_span_text_en": "If your spouse or ex - spouse has died ,",
+              "source_block_id": "src_b442908c22a3da40::b0008",
+              "evidence_text": "如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。",
+              "location": {
+                "block_index": 8,
+                "page": 1
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "16",
+              "source_span_text_en": "you may be eligible for a higher survivor benefit based on his or her work.",
+              "source_block_id": "src_b442908c22a3da40::b0008",
+              "evidence_text": "如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。",
+              "location": {
+                "block_index": 8,
+                "page": 1
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "17",
+              "source_span_text_en": "The death of an ex - spouse may allow you to be eligible for a higher survivor benefit even if you are already receiving a survivor benefit on another spouse.",
+              "source_block_id": "src_b442908c22a3da40::b0008",
+              "evidence_text": "如果您的配偶或前配偶已去世，您可能有资格基于他或她的工作记录获得更高的遗属福利。即使您已经在领取基于另一位配偶的遗属福利，前配偶的去世也可能使您有资格获得更高的遗属福利。",
+              "location": {
+                "block_index": 8,
+                "page": 1
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence directly states that a deceased spouse or former spouse may make the user eligible for a higher survivor benefit based on that person's work record.",
+        "evidence_ids": [
+          "src_b442908c22a3da40::b0008"
+        ],
+        "reviewer_notes": "replacement_answer_verified"
+      }
+    },
+    {
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "domain": "va",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "ba618bb1cb062c940912cc74180b482a",
+        "question_turn_id": 7,
+        "answer_turn_id": 8,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "如果我需要取消已请求的hearing，该怎么办？",
+      "source_question_en": "what do I do if I need to cancel a hearing that I requested?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "我需要关于我的上诉的Board hearing的帮助"
+        },
+        {
+          "role": "agent",
+          "utterance": "您想了解如何请求Board hearing吗？"
+        },
+        {
+          "role": "user",
+          "utterance": "不"
+        },
+        {
+          "role": "agent",
+          "utterance": "您想了解您的hearing何时安排吗？"
+        },
+        {
+          "role": "user",
+          "utterance": "不，需要其他帮助"
+        },
+        {
+          "role": "agent",
+          "utterance": "很遗憾，未找到相关信息。"
+        }
+      ],
+      "gold_answer": "您或您的代表需要在hearing前至少2周发送书面请求。请包括您的姓名、您的上诉的VA file number以及您撤回上诉的原因。",
+      "source_gold_answer": "您或您的代表需要在hearing前至少2周发送书面请求。请包括您的姓名、您的上诉的VA file number以及您撤回上诉的原因。",
+      "source_gold_answer_en": "You or your representative need to send a written request at least 2 weeks before your hearing.  Include your name, the VA file number for your appeal, and the reason you are withdrawing the appeal.",
+      "question_language": "mixed",
+      "answer_language": "mixed",
+      "language_relation": "mixed_language",
+      "document_format": "pdf_scanned",
+      "history_bucket": "medium",
+      "answer_evidence_ids": [
+        "src_eac1506b824bb3f9::b0045"
+      ],
+      "answer_doc_ids": [
+        "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+      ],
+      "required_doc_ids": [
+        "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "file": "documents/pdf_scanned/va_016.pdf",
+          "format": "pdf_scanned",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "document_file": "documents/pdf_scanned/va_016.pdf",
+          "document_format": "pdf_scanned",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "88",
+              "source_span_text_en": "you or your representative should send a written request at least 2 weeks before your hearing.",
+              "source_block_id": "src_eac1506b824bb3f9::b0045",
+              "evidence_text": "如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。",
+              "location": {
+                "block_index": 45,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "89",
+              "source_span_text_en": "Include your name, the VA file number for your appeal, and the reason you re withdrawing the appeal.",
+              "source_block_id": "src_eac1506b824bb3f9::b0045",
+              "evidence_text": "如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。",
+              "location": {
+                "block_index": 45,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "90",
+              "source_span_text_en": "You still have the option to submit new evidence, as long as you send it to the Board within 90 days of withdrawing your hearing request.",
+              "source_block_id": "src_eac1506b824bb3f9::b0045",
+              "evidence_text": "如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。",
+              "location": {
+                "block_index": 45,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "88",
+              "source_span_text_en": "you or your representative should send a written request at least 2 weeks before your hearing.",
+              "source_block_id": "src_eac1506b824bb3f9::b0045",
+              "evidence_text": "如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。",
+              "location": {
+                "block_index": 45,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "89",
+              "source_span_text_en": "Include your name, the VA file number for your appeal, and the reason you re withdrawing the appeal.",
+              "source_block_id": "src_eac1506b824bb3f9::b0045",
+              "evidence_text": "如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。",
+              "location": {
+                "block_index": 45,
+                "page": 3
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "90",
+              "source_span_text_en": "You still have the option to submit new evidence, as long as you send it to the Board within 90 days of withdrawing your hearing request.",
+              "source_block_id": "src_eac1506b824bb3f9::b0045",
+              "evidence_text": "如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。",
+              "location": {
+                "block_index": 45,
+                "page": 3
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence directly gives the two-week written-request deadline and required identifying information for withdrawing a Board hearing request.",
+        "evidence_ids": [
+          "src_eac1506b824bb3f9::b0045"
+        ],
+        "reviewer_notes": "replacement_answer_verified"
+      }
+    },
+    {
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "domain": "va",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a",
+        "question_turn_id": 3,
+        "answer_turn_id": 4,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "退伍后，您是否有可能继续保留人寿保险保障？",
+      "source_question_en": "Is it possible that you can keep your life insurance coverage after leaving the military?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "Group Life Veterans Insurance (VGLI) 涵盖哪些内容？"
+        },
+        {
+          "role": "agent",
+          "utterance": "通过 VGLI Veterans Group Life Insurance，您或许可以在退伍后维持人寿保险保障，同时继续支付保费。"
+        }
+      ],
+      "gold_answer": "VGLI may let you keep life-insurance coverage after leaving the military for as long as you continue paying the premiums, subject to eligibility.",
+      "source_gold_answer": "如果您有可能保留保险保障的话",
+      "source_gold_answer_en": "If you can possibly keep your insurance coverage",
+      "question_language": "mixed",
+      "answer_language": "mixed",
+      "language_relation": "mixed_language",
+      "document_format": "txt",
+      "history_bucket": "short",
+      "answer_evidence_ids": [
+        "src_92414addfbfe2d44::b0003"
+      ],
+      "answer_doc_ids": [
+        "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0"
+      ],
+      "required_doc_ids": [
+        "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "file": "documents/txt/va_126.txt",
+          "format": "txt",
+          "language": "en"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+          "document_file": "documents/txt/va_126.txt",
+          "document_format": "txt",
+          "document_language": "en",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "2",
+              "source_span_text_en": "With Veterans Group Life Insurance VGLI ,",
+              "source_block_id": "src_92414addfbfe2d44::b0003",
+              "evidence_text": "With Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.",
+              "location": {
+                "block_index": 3,
+                "line_start": 5,
+                "line_end": 5
+              }
+            },
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "3",
+              "source_span_text_en": "you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums.",
+              "source_block_id": "src_92414addfbfe2d44::b0003",
+              "evidence_text": "With Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.",
+              "location": {
+                "block_index": 3,
+                "line_start": 5,
+                "line_end": 5
+              }
+            },
+            {
+              "source_turn": "question",
+              "label": "solution",
+              "span_id": "4",
+              "source_span_text_en": "Find out if you qualify for VGLI and how to manage your coverage.",
+              "source_block_id": "src_92414addfbfe2d44::b0003",
+              "evidence_text": "With Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.",
+              "location": {
+                "block_index": 3,
+                "line_start": 5,
+                "line_end": 5
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "2",
+              "source_span_text_en": "With Veterans Group Life Insurance VGLI ,",
+              "source_block_id": "src_92414addfbfe2d44::b0003",
+              "evidence_text": "With Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.",
+              "location": {
+                "block_index": 3,
+                "line_start": 5,
+                "line_end": 5
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "3",
+              "source_span_text_en": "you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums.",
+              "source_block_id": "src_92414addfbfe2d44::b0003",
+              "evidence_text": "With Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.",
+              "location": {
+                "block_index": 3,
+                "line_start": 5,
+                "line_end": 5
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "4",
+              "source_span_text_en": "Find out if you qualify for VGLI and how to manage your coverage.",
+              "source_block_id": "src_92414addfbfe2d44::b0003",
+              "evidence_text": "With Veterans Group Life Insurance (VGLI), you may be able to keep your life insurance coverage after you leave the military for as long as you continue to pay the premiums. Find out if you qualify for VGLI and how to manage your coverage.",
+              "location": {
+                "block_index": 3,
+                "line_start": 5,
+                "line_end": 5
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence directly answers the yes-or-no follow-up and supplies the continuing-premium condition omitted by the source reference.",
+        "evidence_ids": [
+          "src_92414addfbfe2d44::b0003"
+        ],
+        "reviewer_notes": "reference_completed_from_evidence"
+      }
+    },
+    {
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "domain": "dmv",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "5c459ee17b782ba97e889816a7c9b510",
+        "question_turn_id": 5,
+        "answer_turn_id": 6,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "Well, I haven't paid a fine for a ticket I got, which led to the suspension. The thing is that I got the ticket outside of NYC and I'm not sure the NYC court is responsible for this. Who do I need to contact?",
+      "source_question_en": "Well, I haven't paid a fine for a ticket I got, which led to the suspension. The thing is that I got the ticket outside of NYC and I'm not sure the NYC court is responsible for this. Who do I need to contact?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "Good day. I have received a letter saying that my driver license is suspended and need some guidance with how to react to this."
+        },
+        {
+          "role": "agent",
+          "utterance": "Have you received an order from DMV saying your license or driving privilege is revoked?"
+        },
+        {
+          "role": "user",
+          "utterance": "No, I haven't. "
+        },
+        {
+          "role": "agent",
+          "utterance": "Unfortunately, no relevant information is found."
+        }
+      ],
+      "gold_answer": "For an unpaid traffic ticket issued elsewhere in New York State rather than New York City, contact the local court directly. DMV's My License service can provide more information about where to pay the ticket.",
+      "source_gold_answer": "In that case you must contact the local court directly. DMV's My License service can give you additional information about where to pay to a traffic ticket.",
+      "source_gold_answer_en": "In that case you must contact the local court directly. DMV's My License service can give you additional information about where to pay to a traffic ticket.",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "cross_lingual",
+      "document_format": "txt",
+      "history_bucket": "short",
+      "answer_evidence_ids": [
+        "src_e4f6b8031c3c3bca::b0022"
+      ],
+      "answer_doc_ids": [
+        "Suspensions and revocations#3_0"
+      ],
+      "required_doc_ids": [
+        "Suspensions and revocations#3_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "file": "documents/txt/dmv_135.txt",
+          "format": "txt",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "document_file": "documents/txt/dmv_135.txt",
+          "document_format": "txt",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "75",
+              "source_span_text_en": "If the traffic ticket was issued in any other part of New York State ,",
+              "source_block_id": "src_e4f6b8031c3c3bca::b0022",
+              "evidence_text": "驾驶特权是您在除签发驾驶执照的州以外的其他州驾驶的合法权利。如果您持有其他州签发的驾驶执照，DMV可以撤销您在纽约州的驾驶特权，但您的外州驾照在其他州可能仍然有效。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。如果您需要支付吊销终止费，您可以在线支付。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。 有关更多信息，请参阅关于纽约州驾驶积分系统[11]。 有关更多信息，请参阅毕业驾照法信息[12]。 如果您因未回应纽约市发出的交通罚单（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线认罪或支付罚单[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照、许可证或身份证”[2]服务可以为您提供有关在哪里回应交通罚单的更多信息。 如果您因未支付纽约市发出的交通罚单罚款（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线支付罚款[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照”服务[2]可以为您提供有关在哪里支付交通罚单的更多信息。 要解除因未支付子女抚养费而导致的吊销，您必须联系当地的子女抚养费执行机构或纽约州临时和残疾援助办公室（OTDA）。OTDA网站[14]上有当地子女抚养费执行机构的列表。 有关清除这些吊销的信息，请联系税务和财政部门，电话518-862-6000，或访问其网站www.tax.ny.gov[15]。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。",
+              "location": {
+                "block_index": 22,
+                "line_start": 43,
+                "line_end": 43
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "76",
+              "source_span_text_en": "you must contact the local court directly.",
+              "source_block_id": "src_e4f6b8031c3c3bca::b0022",
+              "evidence_text": "驾驶特权是您在除签发驾驶执照的州以外的其他州驾驶的合法权利。如果您持有其他州签发的驾驶执照，DMV可以撤销您在纽约州的驾驶特权，但您的外州驾照在其他州可能仍然有效。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。如果您需要支付吊销终止费，您可以在线支付。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。 有关更多信息，请参阅关于纽约州驾驶积分系统[11]。 有关更多信息，请参阅毕业驾照法信息[12]。 如果您因未回应纽约市发出的交通罚单（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线认罪或支付罚单[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照、许可证或身份证”[2]服务可以为您提供有关在哪里回应交通罚单的更多信息。 如果您因未支付纽约市发出的交通罚单罚款（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线支付罚款[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照”服务[2]可以为您提供有关在哪里支付交通罚单的更多信息。 要解除因未支付子女抚养费而导致的吊销，您必须联系当地的子女抚养费执行机构或纽约州临时和残疾援助办公室（OTDA）。OTDA网站[14]上有当地子女抚养费执行机构的列表。 有关清除这些吊销的信息，请联系税务和财政部门，电话518-862-6000，或访问其网站www.tax.ny.gov[15]。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。",
+              "location": {
+                "block_index": 22,
+                "line_start": 43,
+                "line_end": 43
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "77",
+              "source_span_text_en": "DMV s My License service [2] can give you additional information about where to pay to a traffic ticket.",
+              "source_block_id": "src_e4f6b8031c3c3bca::b0022",
+              "evidence_text": "驾驶特权是您在除签发驾驶执照的州以外的其他州驾驶的合法权利。如果您持有其他州签发的驾驶执照，DMV可以撤销您在纽约州的驾驶特权，但您的外州驾照在其他州可能仍然有效。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。如果您需要支付吊销终止费，您可以在线支付。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。 有关更多信息，请参阅关于纽约州驾驶积分系统[11]。 有关更多信息，请参阅毕业驾照法信息[12]。 如果您因未回应纽约市发出的交通罚单（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线认罪或支付罚单[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照、许可证或身份证”[2]服务可以为您提供有关在哪里回应交通罚单的更多信息。 如果您因未支付纽约市发出的交通罚单罚款（罚单上会注明“交通违规局”）而被吊销驾照，您可以在线支付罚款[13]。如果交通罚单是在纽约州其他地区发出的，您必须直接联系当地法院。DMV的“我的驾照”服务[2]可以为您提供有关在哪里支付交通罚单的更多信息。 要解除因未支付子女抚养费而导致的吊销，您必须联系当地的子女抚养费执行机构或纽约州临时和残疾援助办公室（OTDA）。OTDA网站[14]上有当地子女抚养费执行机构的列表。 有关清除这些吊销的信息，请联系税务和财政部门，电话518-862-6000，或访问其网站www.tax.ny.gov[15]。 如果您因保险中断而被吊销驾照，您可以在线提交保险证明[7]。如果车辆未投保且注册仍然有效，您必须将注册和车牌[8]交还给DMV。有关保险中断的更多信息，请参阅[9]。 有关更多信息，请参阅酒精或药物相关违规[10]。",
+              "location": {
+                "block_index": 22,
+                "line_start": 43,
+                "line_end": 43
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The location and unpaid-ticket condition are clear, and the evidence directly provides the correct court and DMV-service guidance.",
+        "evidence_ids": [
+          "src_e4f6b8031c3c3bca::b0022"
+        ],
+        "reviewer_notes": "ordinary_answer_sample_verified"
+      }
+    },
+    {
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "domain": "dmv",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "90b1a712d195c5fad9ae2a5366d0ef7f",
+        "question_turn_id": 1,
+        "answer_turn_id": 2,
+        "agent_dialogue_act": "respond_solution",
+        "evaluation_category": "answer"
+      },
+      "question": "How much does it cost to get a commercial registration?",
+      "source_question_en": "How much does it cost to get a commercial registration?",
+      "conversation_history": [],
+      "gold_answer": "Commercial-registration cost is not a single fixed amount; use the registration-fee and county-use-tax tables to determine the applicable registration fee and county tax.",
+      "source_gold_answer": "You would need to get both the county and state fees from the appropriate sources.",
+      "source_gold_answer_en": "You would need to get both the county and state fees from the appropriate sources.",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "mixed_language",
+      "document_format": "docx",
+      "history_bucket": "none",
+      "answer_evidence_ids": [
+        "src_3b51ed11e0235f64::b0003"
+      ],
+      "answer_doc_ids": [
+        "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0"
+      ],
+      "required_doc_ids": [
+        "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "file": "documents/docx/dmv_022.docx",
+          "format": "docx",
+          "language": "mixed"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+          "document_file": "documents/docx/dmv_022.docx",
+          "document_format": "docx",
+          "document_language": "mixed",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "1",
+              "source_span_text_en": "Determine the fees for commercial vehicles",
+              "source_block_id": "src_3b51ed11e0235f64::b0002",
+              "evidence_text": "确定商用车辆的费用",
+              "location": {
+                "block_index": 2,
+                "paragraph_start": 2,
+                "paragraph_end": 2
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "solution",
+              "span_id": "2",
+              "source_span_text_en": "Use both theregistration fee and county use tax charts to determine your registration fee and county use tax.",
+              "source_block_id": "src_3b51ed11e0235f64::b0003",
+              "evidence_text": "使用注册费和县使用税表来确定您的注册费和县使用税。",
+              "location": {
+                "block_index": 3,
+                "paragraph_start": 3,
+                "paragraph_end": 3
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence points to the two fee components and their calculation tables, which is the grounded response available without vehicle and county details.",
+        "evidence_ids": [
+          "src_3b51ed11e0235f64::b0003"
+        ],
+        "reviewer_notes": "variable_amount_explained_from_evidence"
+      }
+    },
+    {
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "domain": "ssa",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "bf497c2e0c66955ed04644556da12a5c",
+        "question_turn_id": 3,
+        "answer_turn_id": 4,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "如果我想了解更多关于我家人的福利信息怎么办？",
+      "source_question_en": "What if I want to find out more info about benefits for my family?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "如果我不符合领取他人记录下的福利资格，接下来的步骤是什么？"
+        },
+        {
+          "role": "agent",
+          "utterance": "即使您不符合领取他人记录下的福利资格，我们也可以使用您的记录，也许您的某些家庭成员可以通过这种方式获得资格。"
+        }
+      ],
+      "gold_answer": "For more information about benefits that family members may receive on your Social Security record, consult the 'Benefits For Your Family' section.",
+      "source_gold_answer": "您知道您可以在“家庭福利”下查找关于您家人的福利吗？",
+      "source_gold_answer_en": "Do you know you could look for benefits about your family under \"Benefits For Your Family\"?",
+      "question_language": "zh",
+      "answer_language": "zh",
+      "language_relation": "cross_lingual",
+      "document_format": "markdown",
+      "history_bucket": "short",
+      "answer_evidence_ids": [
+        "src_fea6e0b27b0b0e40::b0035"
+      ],
+      "answer_doc_ids": [
+        "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0"
+      ],
+      "required_doc_ids": [
+        "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+          "file": "documents/markdown/ssa_031.md",
+          "format": "markdown",
+          "language": "en"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+          "document_file": "documents/markdown/ssa_031.md",
+          "document_format": "markdown",
+          "document_language": "en",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "61",
+              "source_span_text_en": "If you:",
+              "source_block_id": "src_fea6e0b27b0b0e40::b0010",
+              "evidence_text": "If you begin receiving benefits:",
+              "location": {
+                "block_index": 10
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "precondition",
+              "span_id": "62",
+              "source_span_text_en": "are interested in information about benefits for your family, go to \" Benefits For Your Family.",
+              "source_block_id": "src_fea6e0b27b0b0e40::b0035",
+              "evidence_text": "are interested in information about benefits for your family, go to \"Benefits For Your Family.\"",
+              "location": {
+                "block_index": 35
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The evidence gives a direct destination for the requested family-benefit information, so phrasing it as a confirmation question is unnecessary.",
+        "evidence_ids": [
+          "src_fea6e0b27b0b0e40::b0035"
+        ],
+        "reviewer_notes": "relabelled_query_condition_to_answer"
+      }
+    },
+    {
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "domain": "dmv",
+      "question_type": "answer",
+      "task_label": "answer",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "a5e33a8ee5418d4e04d6a9fe980b80f4",
+        "question_turn_id": 1,
+        "answer_turn_id": 2,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "can you give me details of Revoked driver license or driving privilege\n",
+      "source_question_en": "can you give me details of Revoked driver license or driving privilege\n",
+      "conversation_history": [],
+      "gold_answer": "Revocation means a driver license or driving privilege is canceled. The person must reapply after the revocation period ends; in most cases DMV approval is needed first. Tests and fees may also apply. This is a general explanation, not a determination of your personal status.",
+      "source_gold_answer": "received an order from the DMV saying your driver's license or privilege was revoked?",
+      "source_gold_answer_en": "received an order from the DMV saying your driver's license or privilege was revoked?",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "cross_lingual",
+      "document_format": "txt",
+      "history_bucket": "none",
+      "answer_evidence_ids": [
+        "src_e4f6b8031c3c3bca::b0016"
+      ],
+      "answer_doc_ids": [
+        "Suspensions and revocations#3_0"
+      ],
+      "required_doc_ids": [
+        "Suspensions and revocations#3_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "file": "documents/txt/dmv_135.txt",
+          "format": "txt",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Suspensions and revocations#3_0",
+          "document_file": "documents/txt/dmv_135.txt",
+          "document_format": "txt",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "32",
+              "source_span_text_en": "Revoked driver license or driving privilege",
+              "source_block_id": "src_e4f6b8031c3c3bca::b0015",
+              "evidence_text": "驾驶执照或驾驶特权被吊销",
+              "location": {
+                "block_index": 15,
+                "line_start": 29,
+                "line_end": 29
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "precondition",
+              "span_id": "33",
+              "source_span_text_en": "If you receive an order from DMV saying your license or driving privilege is revoked ,",
+              "source_block_id": "src_e4f6b8031c3c3bca::b0016",
+              "evidence_text": "如果您收到 DMV 的命令，说明您的驾驶执照或驾驶特权被吊销，这意味着您的执照已被取消，您必须在吊销期结束后重新申请新执照。在大多数情况下，在吊销期结束后，您必须首先请求 DMV 的批准 [4]，然后才能获得新执照。您可能需要重新参加笔试和路考，并支付执照重新申请费。如果您有高风险驾驶记录或未能满足 DMV 要求，您的申请可能会被拒绝。在您的执照或驾驶特权恢复之前，您可能还需要支付驾驶员民事罚款 [5]。",
+              "location": {
+                "block_index": 16,
+                "line_start": 31,
+                "line_end": 31
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "evaluated_system_outputs_used_for_selection": false,
+        "evaluated_dev_outputs_seen_before_correction": true,
+        "selection_note": "No IDs replaced or reordered. Two dev annotations corrected after error analysis; not an independent test.",
+        "previous_review": {
+          "reviewer_type": "ai_agent",
+          "independent_human_review": false,
+          "label_reason": "The existence of a revocation order determines which documented explanation and next steps apply.",
+          "evidence_ids": [
+            "src_e4f6b8031c3c3bca::b0016"
+          ],
+          "reviewer_notes": "query_condition_review"
+        },
+        "evidence_ids": [
+          "src_e4f6b8031c3c3bca::b0016"
+        ],
+        "label_reason": "With no prior history, the user requests general details of revocation. Explaining the documented meaning and process does not require assuming that this user received an order."
+      },
+      "acceptance_criteria": {
+        "required": [
+          "Explain cancellation and reapplication after the revocation period in general or conditional terms."
+        ],
+        "allowed": [
+          "Mention further approval, tests or fees with the source's qualifications.",
+          "Offer a follow-up question after answering the general request."
+        ],
+        "reject": [
+          "Assert the user's license is revoked or determine personal eligibility.",
+          "Present branch-specific restoration requirements as universal.",
+          "Only ask whether the user received an order without explaining revocation."
+        ]
+      },
+      "retrieval_evaluation": {
+        "eligible": true,
+        "reason": "Existing answer-side block b0016 contains the general explanation."
+      }
+    },
+    {
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "domain": "va",
+      "question_type": "clarify",
+      "task_label": "clarify",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "1c07df6d56b7980cf041a8ff3dd1bde4",
+        "question_turn_id": 13,
+        "answer_turn_id": 14,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "there is something more about apply right away. Do I meet the requirements?",
+      "source_question_en": "there is something more about apply right away. Do I meet the requirements?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "I need to learn about VA Health Care."
+        },
+        {
+          "role": "agent",
+          "utterance": "I can help with that."
+        },
+        {
+          "role": "user",
+          "utterance": "Should I apply?"
+        },
+        {
+          "role": "agent",
+          "utterance": "Well, that is one option, or you can wait until after your enhanced eligibility period ends. Are you on enhanced eligibility?"
+        },
+        {
+          "role": "user",
+          "utterance": "I am not."
+        },
+        {
+          "role": "agent",
+          "utterance": "Unfortunately, no relevant information is found."
+        },
+        {
+          "role": "user",
+          "utterance": "What if I have an emergency while I am on active duty?"
+        },
+        {
+          "role": "agent",
+          "utterance": "You may be able to use VA health care."
+        },
+        {
+          "role": "user",
+          "utterance": "Are you familiar with the concept of suicide prevention? make a note of the National Suicide Prevention Lifeline's phone number. Is it in your possession?"
+        },
+        {
+          "role": "agent",
+          "utterance": "Of course. You can start an online chat or simply dial 800-273-8255."
+        },
+        {
+          "role": "user",
+          "utterance": "I would like to know what are the conditions to apply for VA health care insurance? Thank you"
+        },
+        {
+          "role": "agent",
+          "utterance": "you must have served 24 continuous months or the full period for which you were called to active duty , unless any of the descriptions below are true for you . This minimum duty requirement may not apply if any of these are true ."
+        }
+      ],
+      "gold_answer": "Did you serve in a combat theater after November 11, 1998, leave active service on or after January 29, 2003, and avoid a dishonorable discharge?",
+      "source_gold_answer": "Have you been in combat after November 11, 1998?",
+      "source_gold_answer_en": "Have you been in combat after November 11, 1998?",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "aligned",
+      "document_format": "docx",
+      "history_bucket": "long",
+      "answer_evidence_ids": [
+        "src_b6332fe4bfa91fda::b0020"
+      ],
+      "answer_doc_ids": [
+        "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0"
+      ],
+      "required_doc_ids": [
+        "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "file": "documents/docx/va_005.docx",
+          "format": "docx",
+          "language": "en"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+          "document_file": "documents/docx/va_005.docx",
+          "document_format": "docx",
+          "document_language": "en",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "45",
+              "source_span_text_en": "All of these must be true.",
+              "source_block_id": "src_b6332fe4bfa91fda::b0019",
+              "evidence_text": "All of these must be true. You:",
+              "location": {
+                "block_index": 19,
+                "paragraph_start": 26,
+                "paragraph_end": 26
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "precondition",
+              "span_id": "47",
+              "source_span_text_en": "Served in a theater of combat operations after November 11 , 1998, and",
+              "source_block_id": "src_b6332fe4bfa91fda::b0020",
+              "evidence_text": "Served in a theater of combat operations after November 11, 1998, and - Were discharged or released from active service on or after January 29, 2003, and - Didn t receive a dishonorable discharge",
+              "location": {
+                "block_index": 20,
+                "paragraph_start": 27,
+                "paragraph_end": 27
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The user's personal enhanced-eligibility question requires service, release-date, and discharge conditions not fully stated in the conversation.",
+        "evidence_ids": [
+          "src_b6332fe4bfa91fda::b0020"
+        ],
+        "reviewer_notes": "replacement_clarification_verified"
+      }
+    },
+    {
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "domain": "va",
+      "question_type": "clarify",
+      "task_label": "clarify",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "d11cf8664fd07b5745c68eb34bb87e3c",
+        "question_turn_id": 7,
+        "answer_turn_id": 8,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "如果我自愿参加涉及chemical and biological tests的研究，我能获得benefits吗？你问的那些requirements必须是真的吗？",
+      "source_question_en": "can I get the benefits if I voluntarily submitted to a research involving chemical and biological tests? the requirements that you ask must be true?",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "如果你暴露于ionizing radiation，你能获得disability吗？"
+        },
+        {
+          "role": "agent",
+          "utterance": "是的，你可能符合disability compensation的条件，包括一些被认为由服役期间接触radiation引起的癌症等疾病。"
+        },
+        {
+          "role": "user",
+          "utterance": "要获得这些benefits，我必须满足哪两个requirements？"
+        },
+        {
+          "role": "agent",
+          "utterance": "你是否患有被认为由radiation引起的illness list上的疾病？"
+        },
+        {
+          "role": "user",
+          "utterance": "据我所知没有，我需要查看illness list。"
+        },
+        {
+          "role": "agent",
+          "utterance": "如果你没有radiation引起的疾病，你就没有资格获得任何disability compensation或benefits。"
+        }
+      ],
+      "gold_answer": "Did the voluntary chemical or biological testing occur between 1942 and 1975, and do you have an injury or illness directly caused by participating in it?",
+      "source_gold_answer": "是的，你是否在1942年至1975年间自愿参加涉及chemical and biological testing的研究？",
+      "source_gold_answer_en": "Yes, did you volunteer for research involving chemical and biological testing between 1942 and 1975?",
+      "question_language": "mixed",
+      "answer_language": "mixed",
+      "language_relation": "mixed_language",
+      "document_format": "pdf_text",
+      "history_bucket": "medium",
+      "answer_evidence_ids": [
+        "src_fc660e04386afb1c::b0029"
+      ],
+      "answer_doc_ids": [
+        "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0"
+      ],
+      "required_doc_ids": [
+        "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0"
+      ],
+      "required_documents": [
+        {
+          "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+          "file": "documents/pdf_text/va_061.pdf",
+          "format": "pdf_text",
+          "language": "zh"
+        }
+      ],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [
+        {
+          "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+          "document_file": "documents/pdf_text/va_061.pdf",
+          "document_format": "pdf_text",
+          "document_language": "zh",
+          "spans": [
+            {
+              "source_turn": "question",
+              "label": "precondition",
+              "span_id": "75",
+              "source_span_text_en": "Both of these must be true.",
+              "source_block_id": "src_fc660e04386afb1c::b0028",
+              "evidence_text": "以下两项必须均为真实情况。您：",
+              "location": {
+                "block_index": 28,
+                "page": 2
+              }
+            },
+            {
+              "source_turn": "answer",
+              "label": "precondition",
+              "span_id": "77",
+              "source_span_text_en": "Volunteered for research involving chemical and biological testing between 1942 and 1975, and",
+              "source_block_id": "src_fc660e04386afb1c::b0029",
+              "evidence_text": "在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且 有直接由参与这些测试造成的伤害或疾病",
+              "location": {
+                "block_index": 29,
+                "page": 2
+              }
+            }
+          ]
+        }
+      ],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "Eligibility depends on both an unstated testing period and a directly caused injury or illness, as stated in the evidence.",
+        "evidence_ids": [
+          "src_fc660e04386afb1c::b0029"
+        ],
+        "reviewer_notes": "replacement_clarification_verified"
+      }
+    },
+    {
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "domain": "studentaid",
+      "question_type": "clarify",
+      "task_label": "clarify",
+      "synthetic": false,
+      "answerable": true,
+      "source": {
+        "dialogue_id": "58f62ac630b5ec13054947b7b8520476",
+        "question_turn_id": 9,
+        "answer_turn_id": 10,
+        "agent_dialogue_act": "query_condition",
+        "evaluation_category": "clarification"
+      },
+      "question": "No, sorry, but I don'y have neither of those.",
+      "source_question_en": "No, sorry, but I don'y have neither of those.",
+      "conversation_history": [
+        {
+          "role": "user",
+          "utterance": "Can non-US citizens qualify to receive federal student aid?"
+        },
+        {
+          "role": "agent",
+          "utterance": "Yes, non-US citizens qualify for federal student aid."
+        },
+        {
+          "role": "user",
+          "utterance": "Would my parents citizenship affect my ability to get aid?"
+        },
+        {
+          "role": "agent",
+          "utterance": "Absolutely not, you can still apply for aid."
+        },
+        {
+          "role": "user",
+          "utterance": "How do I apply for federal student aid?  . hi  Most male students must be registered with Selective Service to receive federal student aid. You must register if you are a male and are not currently on active duty in the U.S. armed forces."
+        },
+        {
+          "role": "agent",
+          "utterance": "hi"
+        },
+        {
+          "role": "user",
+          "utterance": "hi"
+        },
+        {
+          "role": "agent",
+          "utterance": "hi"
+        }
+      ],
+      "gold_answer": "What are the two things you mean by 'neither of those'?",
+      "source_gold_answer": "Alright, then I must ask, Were you homeschooled?",
+      "source_gold_answer_en": "Alright, then I must ask, Were you homeschooled?",
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "aligned",
+      "document_format": "markdown",
+      "history_bucket": "medium",
+      "answer_evidence_ids": [],
+      "answer_doc_ids": [],
+      "required_doc_ids": [],
+      "required_documents": [],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "evaluated_system_outputs_used_for_selection": false,
+        "evaluated_dev_outputs_seen_before_correction": true,
+        "selection_note": "No IDs replaced or reordered. Two dev annotations corrected after error analysis; not an independent test.",
+        "previous_review": {
+          "reviewer_type": "ai_agent",
+          "independent_human_review": false,
+          "label_reason": "The user has ruled out preceding education credentials, so checking the next documented eligibility route is a valid clarification.",
+          "evidence_ids": [
+            "src_0e553919123137c6::b0006"
+          ],
+          "reviewer_notes": "query_condition_review"
+        },
+        "evidence_ids": [],
+        "label_reason": "The supplied history never names the two credentials; turns 6–8 say hi. Source annotations cannot supply missing conversational facts."
+      },
+      "acceptance_criteria": {
+        "required": [
+          "Ask the user to identify what 'neither of those' refers to before giving a personalized next step."
+        ],
+        "allowed": [
+          "Briefly explain that the preceding messages do not identify the two things."
+        ],
+        "reject": [
+          "Assume the user lacks a diploma/GED or needs the homeschooling route.",
+          "Give generic aid/application advice without resolving the referent."
+        ]
+      },
+      "source_annotations_before_correction": {
+        "answer_evidence_ids": [
+          "src_0e553919123137c6::b0006"
+        ],
+        "answer_doc_ids": [
+          "Eligibility Requirements | Federal Student Aid#1_0"
+        ],
+        "required_doc_ids": [
+          "Eligibility Requirements | Federal Student Aid#1_0"
+        ],
+        "required_documents": [
+          {
+            "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+            "file": "documents/markdown/studentaid_023.md",
+            "format": "markdown",
+            "language": "en"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+            "document_file": "documents/markdown/studentaid_023.md",
+            "document_format": "markdown",
+            "document_language": "en",
+            "spans": [
+              {
+                "source_turn": "question",
+                "label": "precondition",
+                "span_id": "20",
+                "source_span_text_en": "having a high school diploma or a recognized equivalent such as a General Educational Development GED certificate ;",
+                "source_block_id": "src_0e553919123137c6::b0006",
+                "evidence_text": "demonstrate financial need (for most programs); be a U.S. citizen or an eligible noncitizen; have a valid Social Security number (with the exception of students from the Republic of the Marshall Islands, Federated States of Micronesia, or the Republic of Palau); be registered with Selective Service, if you re a male (you must register between the ages of 18 and 25); be enrolled or accepted for enrollment as a regular student in an eligible degree or certificate program; be enrolled at least half-time to be eligible for Direct Loan Program funds; maintain satisfactory academic progress in college or career school; sign the certification statement on the Free Application for Federal Student Aid (FAFSA) form stating that - you are not in default on a federal student loan, - you do not owe money on a federal student grant, and - you will use federal student aid only for educational purposes; and show you re qualified to obtain a college or career school education by - having a high school diploma or a recognized equivalent such as a General Educational Development (GED) certificate; - completing a high school education in a homeschool setting approved under state law (or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law); or - enrolling in an eligible career pathway program and meeting one of the \"ability-to-benefit\" alternatives described below.",
+                "location": {
+                  "block_index": 6
+                }
+              },
+              {
+                "source_turn": "answer",
+                "label": "precondition",
+                "span_id": "21",
+                "source_span_text_en": "completing a high school education in a homeschool setting approved under state law or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law; or",
+                "source_block_id": "src_0e553919123137c6::b0006",
+                "evidence_text": "demonstrate financial need (for most programs); be a U.S. citizen or an eligible noncitizen; have a valid Social Security number (with the exception of students from the Republic of the Marshall Islands, Federated States of Micronesia, or the Republic of Palau); be registered with Selective Service, if you re a male (you must register between the ages of 18 and 25); be enrolled or accepted for enrollment as a regular student in an eligible degree or certificate program; be enrolled at least half-time to be eligible for Direct Loan Program funds; maintain satisfactory academic progress in college or career school; sign the certification statement on the Free Application for Federal Student Aid (FAFSA) form stating that - you are not in default on a federal student loan, - you do not owe money on a federal student grant, and - you will use federal student aid only for educational purposes; and show you re qualified to obtain a college or career school education by - having a high school diploma or a recognized equivalent such as a General Educational Development (GED) certificate; - completing a high school education in a homeschool setting approved under state law (or if state law does not require a homeschooled student to obtain a completion credential completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law); or - enrolling in an eligible career pathway program and meeting one of the \"ability-to-benefit\" alternatives described below.",
+                "location": {
+                  "block_index": 6
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval_evaluation": {
+        "eligible": false,
+        "reason": "Referent clarification needs conversation repair, not the historical education block."
+      }
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-009",
+      "domain": "out_of_domain",
+      "question_type": "refuse",
+      "task_label": "refuse",
+      "synthetic": true,
+      "answerable": false,
+      "source": {
+        "dialogue_id": "synthetic::eval-v1-dev-refuse-009",
+        "question_turn_id": null,
+        "answer_turn_id": null,
+        "agent_dialogue_act": "authored_capability_boundary",
+        "evaluation_category": "refusal_challenge"
+      },
+      "question": "How do I repair a leaking kitchen faucet?",
+      "source_question_en": null,
+      "conversation_history": [],
+      "gold_answer": "This knowledge base covers DMV, Social Security, Veterans Affairs, and Federal Student Aid documentation, so it does not contain information for repairing a faucet.",
+      "source_gold_answer": "This knowledge base covers DMV, Social Security, Veterans Affairs, and Federal Student Aid documentation, so it does not contain information for repairing a faucet.",
+      "source_gold_answer_en": null,
+      "question_language": "en",
+      "answer_language": "en",
+      "language_relation": "not_applicable",
+      "document_format": "not_applicable",
+      "history_bucket": "none",
+      "answer_evidence_ids": [],
+      "answer_doc_ids": [],
+      "required_doc_ids": [],
+      "required_documents": [],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "Kitchen repair is outside the four documented knowledge-base domains.",
+        "evidence_ids": [],
+        "reviewer_notes": "obvious_out_of_domain; agent_authored_and_reviewed"
+      }
+    },
+    {
+      "question_id": "eval-v1-dev-refuse-006",
+      "domain": "va",
+      "question_type": "refuse",
+      "task_label": "refuse",
+      "synthetic": true,
+      "answerable": false,
+      "source": {
+        "dialogue_id": "synthetic::eval-v1-dev-refuse-006",
+        "question_turn_id": null,
+        "answer_turn_id": null,
+        "agent_dialogue_act": "authored_capability_boundary",
+        "evaluation_category": "refusal_challenge"
+      },
+      "question": "请查询我下周的具体 C&P examination 预约时间。",
+      "source_question_en": null,
+      "conversation_history": [],
+      "gold_answer": "我无法通过这个静态知识库访问您的个人预约记录或具体预约时间。",
+      "source_gold_answer": "我无法通过这个静态知识库访问您的个人预约记录或具体预约时间。",
+      "source_gold_answer_en": null,
+      "question_language": "zh",
+      "answer_language": "zh",
+      "language_relation": "not_applicable",
+      "document_format": "not_applicable",
+      "history_bucket": "none",
+      "answer_evidence_ids": [],
+      "answer_doc_ids": [],
+      "required_doc_ids": [],
+      "required_documents": [],
+      "candidate_doc_ids": [],
+      "candidate_documents": [],
+      "evidence": [],
+      "review": {
+        "reviewer_type": "ai_agent",
+        "independent_human_review": false,
+        "label_reason": "The system cannot access the user's personal C&P appointment record.",
+        "evidence_ids": [],
+        "reviewer_notes": "personal_appointment_state; agent_authored_and_reviewed"
+      }
+    }
+  ]
+}

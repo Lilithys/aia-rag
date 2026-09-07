@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "task_id": "1c9e4c39710d6c6ebe588b4911ad9e2e6d2b6a2ed7fb6cd44b19cd06cdc4605f",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Yes, you can reschedule or withdraw your Board hearing request.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context states you can write to the Board to withdraw your hearing request, and provides rescheduling instructions."
+              },
+              {
+                "text": "To reschedule, you must send a written request to the Board of Veterans Appeals at least 2 weeks before your hearing, explaining the reason and including your name and VA file number.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008"
+                ],
+                "reason": "The context explicitly states you need to send a written request at least 2 weeks before, with reason, name, and VA file number."
+              },
+              {
+                "text": "If your hearing is less than 2 weeks away, you must file a motion explaining why.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008"
+                ],
+                "reason": "The context states if the hearing is less than 2 weeks away, you need to file a motion explaining the reason."
+              },
+              {
+                "text": "To withdraw, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context states you or your representative should send a written request at least 2 weeks before, including name, VA file number, and reason."
+              },
+              {
+                "text": "Withdrawing won't speed up your appeal unless you switch to the Direct Review option.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context states withdrawing won't speed up your appeal unless you switch to the Direct Review option."
+              },
+              {
+                "text": "You can still submit new evidence within 90 days after withdrawing your hearing request.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+                ],
+                "reason": "The context states you can still submit new evidence within 90 days after withdrawing your hearing request."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "17b8b344b6a844a1978cc550f49768fb",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2890,
+                "completion_tokens": 626,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 626,
+                  "prompt_tokens": 2890,
+                  "total_tokens": 3516,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 2122
+                }
+              },
+              "usage_cost_estimate_rmb": 0.006038399999999999,
+              "accounted_rmb": 0.006038399999999999,
+              "usage_unknown": false,
+              "seconds": 3.8304812908172607,
+              "error": null,
+              "response": {
+                "id": "a5453839-01a3-48f9-b926-53e1fb4eeae4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "73dd498dbf9712defd81ed37e40e822d086919c2e57c4e30c4ed70706e3af195"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 6,
+      "supported_external_claims": 6,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Yes, you can reschedule or withdraw your Board hearing request.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context states you can write to the Board to withdraw your hearing request, and provides rescheduling instructions."
+        },
+        {
+          "text": "To reschedule, you must send a written request to the Board of Veterans Appeals at least 2 weeks before your hearing, explaining the reason and including your name and VA file number.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008"
+          ],
+          "reason": "The context explicitly states you need to send a written request at least 2 weeks before, with reason, name, and VA file number."
+        },
+        {
+          "text": "If your hearing is less than 2 weeks away, you must file a motion explaining why.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008"
+          ],
+          "reason": "The context states if the hearing is less than 2 weeks away, you need to file a motion explaining the reason."
+        },
+        {
+          "text": "To withdraw, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context states you or your representative should send a written request at least 2 weeks before, including name, VA file number, and reason."
+        },
+        {
+          "text": "Withdrawing won't speed up your appeal unless you switch to the Direct Review option.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context states withdrawing won't speed up your appeal unless you switch to the Direct Review option."
+        },
+        {
+          "text": "You can still submit new evidence within 90 days after withdrawing your hearing request.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "reason": "The context states you can still submit new evidence within 90 days after withdrawing your hearing request."
+        }
+      ]
+    }
+  },
+  "sha256": "ab3085f78bef8b13c3ba03e99622c2eaaac898cb6783d7537c6e43d8b7bf5b1a"
+}

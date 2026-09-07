@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "ef3d90cf27f3f1f88d1dd5dd9892b5d6b1044a5ab7d4319d9adace5f2a69f636",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9999999999,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explicitly mentions special rules called 'work incentives' that help keep cash benefits while testing ability to work, which directly answers the user's question.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "dfdb62d137d7414498427eef83cdb176",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1527,
+                "completion_tokens": 45,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 45,
+                  "prompt_tokens": 1527,
+                  "total_tokens": 1572,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 759
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013794,
+              "accounted_rmb": 0.0013794,
+              "usage_unknown": false,
+              "seconds": 1.1525981426239014,
+              "error": null,
+              "response": {
+                "id": "9e8128f1-9634-481a-91e8-7e6b96b84b0e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "aedd3b1b6b6173599eec917298a99fe68845d0af3a2dad3b8b40e8cf69fab6fa"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about disability benefits and required personal information, but does not mention specific rules about returning to work or retaining cash benefits. The answer about work incentives is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1d117aca5f854f728e3c3cda7548f264",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1090,
+                "completion_tokens": 55,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1090,
+                  "total_tokens": 1145,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 322
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007689,
+              "accounted_rmb": 0.0007689,
+              "usage_unknown": false,
+              "seconds": 1.7017040252685547,
+              "error": null,
+              "response": {
+                "id": "5871d0ee-6523-42c2-a7d5-d6e667756f31",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2c9695a56a34a86d423880b29e40d90d00870cbce8b4e0213029ae74d68d66d1"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about disability benefits eligibility and special situations, but it does not specifically mention work incentives or special rules for returning to work while retaining cash benefits. Therefore, the context was not directly useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a519ee6369f1462d9f1df79c23459523",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1074,
+                "completion_tokens": 63,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 63,
+                  "prompt_tokens": 1074,
+                  "total_tokens": 1137,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 178
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005953,
+              "accounted_rmb": 0.0005953,
+              "usage_unknown": false,
+              "seconds": 1.199204683303833,
+              "error": null,
+              "response": {
+                "id": "15ae265d-98ce-417a-932e-5e96d4ab1b2c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "52d8791e64d5959761260b1fd0694d67ad7cf49a98404ace02e433e07574a985"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses eligibility criteria for disability benefits but does not mention work incentives or special rules for returning to work while retaining cash benefits. Therefore, it was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "be864f0ffa3c4fe08bfd46dfe2a46e18",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1068,
+                "completion_tokens": 53,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1068,
+                  "total_tokens": 1121,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 172
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005413,
+              "accounted_rmb": 0.0005413,
+              "usage_unknown": false,
+              "seconds": 1.1320760250091553,
+              "error": null,
+              "response": {
+                "id": "a9790848-c556-4aea-bfc1-f489669afb48",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0ed280cf755c359a93179ed1eff200f6777cd2eb98dbdc6b6adb3373a41febaa"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses vocational rehabilitation and employment benefits for service-related disabilities, but does not mention special rules for retaining cash benefits while returning to work. The answer about work incentives is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "adc0df72232f498ba983a01c96c1998d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1053,
+                "completion_tokens": 55,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1053,
+                  "total_tokens": 1108,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 157
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005277999999999999,
+              "accounted_rmb": 0.0005277999999999999,
+              "usage_unknown": false,
+              "seconds": 1.4012908935546875,
+              "error": null,
+              "response": {
+                "id": "51707cae-7cae-4313-aa7f-592c462db170",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "956fa1fad80c717c825dee69b093771fc7e7a01fedbf188886351a6eaec31a75"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "5d15be44226636574a21d401d30e76f41d9d73a010252e4b72910d48854b72ed"
+}

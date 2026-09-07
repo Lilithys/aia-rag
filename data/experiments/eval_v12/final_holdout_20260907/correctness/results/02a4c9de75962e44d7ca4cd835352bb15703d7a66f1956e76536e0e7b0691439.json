@@ -1,0 +1,153 @@
+{
+  "payload": {
+    "task_id": "02a4c9de75962e44d7ca4cd835352bb15703d7a66f1956e76536e0e7b0691439",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "The answer must provide the steps to change address for Social Security benefits recipients.",
+                "coverage": "covered",
+                "response_quote": "log in to your my Social Security account, select the 'My Profile' link, then 'Update Contact Information,' enter your new address, schedule the update, and submit",
+                "reason": "The response accurately lists the required steps from the source."
+              },
+              {
+                "requirement": "The answer must note that the service is not available for SSI recipients or those without a U.S. mailing address.",
+                "coverage": "covered",
+                "response_quote": "This online service is not available for people receiving Supplemental Security Income (SSI) or those without a U.S. mailing address",
+                "reason": "The response includes the essential exception."
+              },
+              {
+                "requirement": "The answer must mention that creating an account is free and takes less than 10 minutes.",
+                "coverage": "covered",
+                "response_quote": "you can create one for free in less than 10 minutes",
+                "reason": "The response includes this detail from the source."
+              }
+            ],
+            "reason": "The response fully answers the question with accurate steps, conditions, and exceptions, supported by the retrieved document."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0bf51877b5c640ba934880c1d023e9e0",
+              "outcome": "failed",
+              "usage": {
+                "prompt_tokens": 3960,
+                "completion_tokens": 305,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 305,
+                  "prompt_tokens": 3960,
+                  "total_tokens": 4265,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3064
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0060133,
+              "accounted_rmb": 0.0060133,
+              "usage_unknown": false,
+              "seconds": 2.298779010772705,
+              "error": {
+                "type": "ValueError",
+                "http_status": null
+              },
+              "response": {
+                "id": "0f298a82-710f-4230-8b82-e533c6d20950",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            },
+            {
+              "event": "settle",
+              "attempt_id": "e64455e33df64dda814dc79d2946a801",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3960,
+                "completion_tokens": 286,
+                "cached_tokens": 3840,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 286,
+                  "prompt_tokens": 3960,
+                  "total_tokens": 4246,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 3840,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 3840,
+                  "prompt_cache_miss_tokens": 120
+                }
+              },
+              "usage_cost_estimate_rmb": 0.001659,
+              "accounted_rmb": 0.001659,
+              "usage_unknown": false,
+              "seconds": 2.341463804244995,
+              "error": null,
+              "response": {
+                "id": "759b690e-019a-45c8-b6f8-a63ec0036371",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6d4b9c8308090a43fa85d17d9b5f58466fe5fe6fce0f6eb6d32aed8780820d99"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "The answer must provide the steps to change address for Social Security benefits recipients.",
+            "coverage": "covered",
+            "response_quote": "log in to your my Social Security account, select the 'My Profile' link, then 'Update Contact Information,' enter your new address, schedule the update, and submit",
+            "reason": "The response accurately lists the required steps from the source."
+          },
+          {
+            "requirement": "The answer must note that the service is not available for SSI recipients or those without a U.S. mailing address.",
+            "coverage": "covered",
+            "response_quote": "This online service is not available for people receiving Supplemental Security Income (SSI) or those without a U.S. mailing address",
+            "reason": "The response includes the essential exception."
+          },
+          {
+            "requirement": "The answer must mention that creating an account is free and takes less than 10 minutes.",
+            "coverage": "covered",
+            "response_quote": "you can create one for free in less than 10 minutes",
+            "reason": "The response includes this detail from the source."
+          }
+        ],
+        "reason": "The response fully answers the question with accurate steps, conditions, and exceptions, supported by the retrieved document."
+      }
+    }
+  },
+  "sha256": "bb103195e9879b98864f4671c0ce944d6b394300c10e049af9db5f361b50be78"
+}

@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "8c8c9105ced0a3ed6700bb5931b328e163bbe94df7f1387e853d6de999a5cfbb",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.99999999998,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about vocational rehabilitation benefits for service-connected disabilities, which directly addresses the user's hypothetical question about having such a disability. The answer reflects the key points from the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "cef47b9b5d704499849a3da6e154a424",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1084,
+                "completion_tokens": 52,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1084,
+                  "total_tokens": 1136,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 316
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007463999999999999,
+              "accounted_rmb": 0.0007463999999999999,
+              "usage_unknown": false,
+              "seconds": 1.3873956203460693,
+              "error": null,
+              "response": {
+                "id": "6db82f4e-81f4-4788-b0d8-c8595a9cd461",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "0388a9510cba6295a182ade7b822308dca2ef22daca00d55bbbaac08dc1380d8"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA Vocational Rehabilitation (Chapter 31) for service-connected disabilities, which directly addresses the user's hypothetical question about having a service-connected disability. The answer accurately summarizes the program's purpose and eligibility.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "56f3c3b1db704259abfff54284ab9c1c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1377,
+                "completion_tokens": 59,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 59,
+                  "prompt_tokens": 1377,
+                  "total_tokens": 1436,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 609
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012174,
+              "accounted_rmb": 0.0012174,
+              "usage_unknown": false,
+              "seconds": 1.4217169284820557,
+              "error": null,
+              "response": {
+                "id": "c76ae428-e70c-452a-b892-90523f826714",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d975fef9a8629d0450a6f9c6279259cc9c7e697eeadb2e73f21f515e6aa2b138"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about vocational rehabilitation programs for veterans with service-connected disabilities, which directly addresses the user's hypothetical question about having a service-connected disability. The answer accurately reflects the eligibility criteria mentioned in the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c42fc586f37e439ab8418739364adedd",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2081,
+                "completion_tokens": 57,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 2081,
+                  "total_tokens": 2138,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1185
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020788,
+              "accounted_rmb": 0.0020788,
+              "usage_unknown": false,
+              "seconds": 1.2374279499053955,
+              "error": null,
+              "response": {
+                "id": "12bb8ff6-82a8-42fd-b408-2d08db2a0338",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5659be2dc06be098853c13e4cb0752d1673596c614f4e7ef721a44c0bd065b0c"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about vocational rehabilitation for veterans with service-connected disabilities, which directly addresses the user's hypothetical question about having a service-connected disability. The answer accurately reflects the context's content.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "548a8e8cf4ba40099375242371238b8b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1228,
+                "completion_tokens": 53,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1228,
+                  "total_tokens": 1281,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 332
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007813,
+              "accounted_rmb": 0.0007813,
+              "usage_unknown": false,
+              "seconds": 1.3674771785736084,
+              "error": null,
+              "response": {
+                "id": "ce15c358-ee12-4343-bd5a-9820fb9ce50f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "37490a67e6f6aec49b6b14168f1f376ee464669a5ccc75dbeb04283055dd3d86"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed eligibility criteria for VA vocational rehabilitation, including the requirement of a service-connected disability that limits work ability, which directly supports the answer's statement about eligibility for VR&E services.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c7d3bd7fb86c4baba62d11bde969de2a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1519,
+                "completion_tokens": 53,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 53,
+                  "prompt_tokens": 1519,
+                  "total_tokens": 1572,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 623
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012178,
+              "accounted_rmb": 0.0012178,
+              "usage_unknown": false,
+              "seconds": 1.1381220817565918,
+              "error": null,
+              "response": {
+                "id": "9910f997-cc0c-4f6e-a178-752c63bc4ab8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "154eb2740a24b0e36940450e703a4276612f75318b1dc0ce42f3603a3ebf8faf"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "b0549e2590fdd4e9fcfeb2ebc6bbeab53a296e3eaf1e77185c1b1f737d13ddbc"
+}

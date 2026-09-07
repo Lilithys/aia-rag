@@ -1,0 +1,12 @@
+{
+  "initial_completed_status": {
+    "phase": "completed",
+    "beijing_time": "2026-09-07T12:22:26.291871+08:00",
+    "planned": 200,
+    "submitted": 200,
+    "successful": 198,
+    "reused_smoke": 40,
+    "new_dev_accounted_rmb": 4.4044233
+  },
+  "runner_exit_code": 0
+}

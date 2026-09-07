@@ -1,0 +1,118 @@
+{
+  "payload": {
+    "task_id": "eb86f3639f3bd9fbb4e7466f03ab0c168e401b4b9c0571c6d61d8fd03dcef0f3",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Your ex-wife may be eligible for survivors benefits if your marriage lasted 10 years or more, or if she is caring for your natural or legally adopted child under age 16 or disabled.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0::c0001"
+                ],
+                "reason": "The context states that a surviving divorced spouse can get benefits if the marriage lasted 10 years or more, and if caring for a child under 16 or disabled, the length-of-marriage rule does not apply."
+              },
+              {
+                "text": "Benefits paid to a surviving divorced spouse generally do not affect the benefit amounts your other survivors receive, except if she qualifies as a surviving divorced mother or father caring for your child—in that case, her benefits may affect the amount your other survivors receive.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0::c0001"
+                ],
+                "reason": "The context explicitly states that benefits to a surviving divorced spouse won't affect other survivors' benefits, but if she qualifies as a surviving divorced mother or father caring for your child, her benefits may affect the amounts."
+              },
+              {
+                "text": "Your own benefits as a survivor would not affect your widow's benefits, as each survivor's benefit is based on the deceased worker's record, not on other survivors' benefits.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The retrieved contexts do not contain any statement about how one survivor's benefits affect another's. The claim that each survivor's benefit is based on the deceased worker's record is not explicitly stated in the contexts."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ae6068a884d746a99a18437a55ce6581",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2770,
+                "completion_tokens": 429,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 429,
+                  "prompt_tokens": 2770,
+                  "total_tokens": 3199,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2386
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0055287,
+              "accounted_rmb": 0.0055287,
+              "usage_unknown": false,
+              "seconds": 2.7975287437438965,
+              "error": null,
+              "response": {
+                "id": "51a869b8-d270-415d-9475-cf5a2da089e6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f3ef253bd11880b8381d5d9b82034a6091f91ba8c115be00619011770293cb4e"
+        }
+      ],
+      "score": 0.6666666666666666,
+      "external_claims": 3,
+      "supported_external_claims": 2,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Your ex-wife may be eligible for survivors benefits if your marriage lasted 10 years or more, or if she is caring for your natural or legally adopted child under age 16 or disabled.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0::c0001"
+          ],
+          "reason": "The context states that a surviving divorced spouse can get benefits if the marriage lasted 10 years or more, and if caring for a child under 16 or disabled, the length-of-marriage rule does not apply."
+        },
+        {
+          "text": "Benefits paid to a surviving divorced spouse generally do not affect the benefit amounts your other survivors receive, except if she qualifies as a surviving divorced mother or father caring for your child—in that case, her benefits may affect the amount your other survivors receive.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0::c0001"
+          ],
+          "reason": "The context explicitly states that benefits to a surviving divorced spouse won't affect other survivors' benefits, but if she qualifies as a surviving divorced mother or father caring for your child, her benefits may affect the amounts."
+        },
+        {
+          "text": "Your own benefits as a survivor would not affect your widow's benefits, as each survivor's benefit is based on the deceased worker's record, not on other survivors' benefits.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The retrieved contexts do not contain any statement about how one survivor's benefits affect another's. The claim that each survivor's benefit is based on the deceased worker's record is not explicitly stated in the contexts."
+        }
+      ]
+    }
+  },
+  "sha256": "452b05d43210134d7d13fb13ba1801464577d36978a8db0e28d88cbd3270109d"
+}

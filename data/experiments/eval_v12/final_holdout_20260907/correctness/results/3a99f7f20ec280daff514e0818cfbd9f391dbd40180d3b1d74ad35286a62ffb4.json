@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "3a99f7f20ec280daff514e0818cfbd9f391dbd40180d3b1d74ad35286a62ffb4",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "refund available only if registration and sticker never used and within 60 days of issuance",
+                "coverage": "covered",
+                "response_quote": "you can apply for a full two-year refund only if the registration was never used and you apply within 60 days of the registration issue date",
+                "reason": "Response states the essential condition accurately."
+              },
+              {
+                "requirement": "two-year registration fee refunded minus $1 processing fee",
+                "coverage": "covered",
+                "response_quote": "A $1 processing fee will be deducted",
+                "reason": "Response includes the fee deduction."
+              }
+            ],
+            "reason": "The response correctly answers the refund question with the required conditions and fee, supported by the cited document."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d6d359a39b0740fc8a2148344c873f78",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 6333,
+                "completion_tokens": 185,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 185,
+                  "prompt_tokens": 6333,
+                  "total_tokens": 6518,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 5437
+                }
+              },
+              "usage_cost_estimate_rmb": 0.009032799999999999,
+              "accounted_rmb": 0.009032799999999999,
+              "usage_unknown": false,
+              "seconds": 1.770054817199707,
+              "error": null,
+              "response": {
+                "id": "00a2baa8-dca1-4cab-b053-1cbaab8457cd",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "67d3818489ffb4aac3792cab11f348e598bf3a959950814225a43ecf9c08af64"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "refund available only if registration and sticker never used and within 60 days of issuance",
+            "coverage": "covered",
+            "response_quote": "you can apply for a full two-year refund only if the registration was never used and you apply within 60 days of the registration issue date",
+            "reason": "Response states the essential condition accurately."
+          },
+          {
+            "requirement": "two-year registration fee refunded minus $1 processing fee",
+            "coverage": "covered",
+            "response_quote": "A $1 processing fee will be deducted",
+            "reason": "Response includes the fee deduction."
+          }
+        ],
+        "reason": "The response correctly answers the refund question with the required conditions and fee, supported by the cited document."
+      }
+    }
+  },
+  "sha256": "a940e538ced301547b0b56f6e5630000dded703749ca4a8104d50fcc0215c4ff"
+}

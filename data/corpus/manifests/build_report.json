@@ -1,0 +1,85 @@
+{
+  "source_counts": {
+    "documents": 488,
+    "dialogues": 661,
+    "turns": 8938,
+    "eval_user_agent_pairs": 4335
+  },
+  "document_format_distribution": {
+    "pdf_text": 49,
+    "markdown": 366,
+    "txt": 24,
+    "pdf_scanned": 24,
+    "docx": 25
+  },
+  "document_language_distribution": {
+    "en": 244,
+    "mixed": 98,
+    "zh": 146
+  },
+  "document_domain_distribution": {
+    "dmv": 149,
+    "ssa": 109,
+    "studentaid": 92,
+    "va": 138
+  },
+  "document_format_by_language": {
+    "docx|en": 13,
+    "docx|mixed": 8,
+    "docx|zh": 4,
+    "markdown|en": 192,
+    "markdown|mixed": 68,
+    "markdown|zh": 106,
+    "pdf_scanned|en": 15,
+    "pdf_scanned|mixed": 4,
+    "pdf_scanned|zh": 5,
+    "pdf_text|en": 19,
+    "pdf_text|mixed": 10,
+    "pdf_text|zh": 20,
+    "txt|en": 5,
+    "txt|mixed": 8,
+    "txt|zh": 11
+  },
+  "dialogue_language_distribution": {
+    "en": 331,
+    "zh": 198,
+    "mixed": 132
+  },
+  "agent_dialogue_act_distribution": {
+    "respond_solution": 3015,
+    "respond_no_solution": 241,
+    "query_condition": 880,
+    "respond_solution_positive": 108,
+    "respond_solution_negative": 91
+  },
+  "evaluation_category_distribution": {
+    "answer": 3214,
+    "unanswerable": 241,
+    "clarification": 880
+  },
+  "language_relation_distribution": {
+    "aligned": 1501,
+    "cross_lingual": 1271,
+    "mixed_language": 1563
+  },
+  "required_document_count_per_eval_item": {
+    "1": 4335
+  },
+  "documents_per_dialogue": {
+    "1": 138,
+    "2": 452,
+    "3": 71
+  },
+  "referenced_documents": 273,
+  "unreferenced_documents": 215,
+  "synthetic_questions_added": 0,
+  "explicit_negative_labels_added": 0,
+  "translation_provider": "deepseek",
+  "translation_model": "deepseek-v4-flash",
+  "translation_api_usage_this_run": {
+    "prompt_tokens": 4608,
+    "completion_tokens": 2196,
+    "total_tokens": 6804,
+    "api_requests": 10
+  }
+}

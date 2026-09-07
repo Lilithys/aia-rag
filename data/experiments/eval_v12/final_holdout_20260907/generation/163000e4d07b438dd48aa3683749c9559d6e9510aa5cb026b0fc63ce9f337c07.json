@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "83c5f49245e726d0e7fc9ef7d8080907::agent-turn-9",
+    "item_sha256": "8f7519d66a223a01e8a82b77cfbaf8b5397cd7cfefcf3d48ee1f987dd96fd830",
+    "result": {
+      "request_id": "214df35bd4ea47c9a9184200f0eaf339",
+      "session_id": "83c5f49245e726d0e7fc9ef7d8080907",
+      "turn_id": 8,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "您可以放置链接到 StudentAid.gov 和 fafsa.gov 的横幅或文本，帮助您的访客了解联邦学生资助。StudentAid.gov 提供关于联邦学生资助项目、申请经济援助和偿还学生贷款的深入信息；fafsa.gov 是免费申请联邦学生资助（FAFSA）表格的官方网站。您可以从提供的英文和西班牙文横幅中选择，或使用文本选项，例如：“有关美国教育部联邦学生援助办公室提供的联邦学生援助信息，请访问 StudentAid.gov。” 请注意，链接不能出现在以营销或订购产品或服务为主要目的的网页上，也不能出现在敦促读者就未决立法联系国会或州立法者的网页上。",
+        "citations": [
+          "Link to Us | Federal Student Aid#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "text": "# 财政援助如何运作 | 联邦学生援助\n\n# 申请财政援助\n\n申请联邦助学金、勤工助学和大学贷款最关键的一步是填写联邦学生援助免费申请表（FAFSA）。\n\n了解FAFSA表格\n\n# 援助申请流程\n\n按照以下步骤申请联邦学生援助。\n\n# 01\n\n## 准备\n\n收集你需要的文件。\n\n# 02\n\n## 填写FAFSA表格\n\n尽早申请以最大化你的援助。\n\n# 03\n\n##\n\n查看学生援助报告\n\n如有必要，进行更正。\n\n# 04\n\n## 回应援助通知\n\n接受你想要的援助。\n\n# 05\n\n## 领取援助\n\n从你的学校获取援助。\n\n# 06\n\n## 续签你的FAFSA表格\n\n每年重新申请。\n\n# 探索关于FAFSA表格的信息\n\n## FAFSA表格允许学生在一份申请中申请联邦助学金、勤工俭学和贷款。\n\nFAFSA表格允许学生在一份申请中申请联邦助学金、勤工俭学和贷款。\n\n### 常见主题\n\n前往FAFSA表格\n\n## 其他经济援助资源\n\n除了FAFSA表格，我们鼓励你了解并寻求来自州、大学和非营利组织的无需偿还的经济援助资源（助学金和奖学金）。\n\n探索其他援助选项\n\n## 申请PLUS贷款\n\n家长和研究生的一种额外选择\n\n直接PLUS贷款是联邦贷款，研究生或专业学生以及受抚养本科生的父母可以使用这些贷款来支付其他经济援助未涵盖的教育费用。\n\n申请研究生PLUS贷款\n\n申请家长PLUS贷款"
+        },
+        {
+          "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        },
+        {
+          "chunk_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0016",
+          "text": "[The U.S. Department of Education offers low-interest loans to eligible students to help cover the cost of college or career school. > Where can I find information about the student loans I ve received?]\nVisit My Aid to view information about all of the federal student loans and other financial aid you have received and to find contact information for the loan servicer for your loans."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "text": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        },
+        {
+          "chunk_id": "How Financial Aid Works | Federal Student Aid#2_0::c0000",
+          "text": "# 财政援助如何运作 | 联邦学生援助\n\n# 申请财政援助\n\n申请联邦助学金、勤工助学和大学贷款最关键的一步是填写联邦学生援助免费申请表（FAFSA）。\n\n了解FAFSA表格\n\n# 援助申请流程\n\n按照以下步骤申请联邦学生援助。\n\n# 01\n\n## 准备\n\n收集你需要的文件。\n\n# 02\n\n## 填写FAFSA表格\n\n尽早申请以最大化你的援助。\n\n# 03\n\n##\n\n查看学生援助报告\n\n如有必要，进行更正。\n\n# 04\n\n## 回应援助通知\n\n接受你想要的援助。\n\n# 05\n\n## 领取援助\n\n从你的学校获取援助。\n\n# 06\n\n## 续签你的FAFSA表格\n\n每年重新申请。\n\n# 探索关于FAFSA表格的信息\n\n## FAFSA表格允许学生在一份申请中申请联邦助学金、勤工俭学和贷款。\n\nFAFSA表格允许学生在一份申请中申请联邦助学金、勤工俭学和贷款。\n\n### 常见主题\n\n前往FAFSA表格\n\n## 其他经济援助资源\n\n除了FAFSA表格，我们鼓励你了解并寻求来自州、大学和非营利组织的无需偿还的经济援助资源（助学金和奖学金）。\n\n探索其他援助选项\n\n## 申请PLUS贷款\n\n家长和研究生的一种额外选择\n\n直接PLUS贷款是联邦贷款，研究生或专业学生以及受抚养本科生的父母可以使用这些贷款来支付其他经济援助未涵盖的教育费用。\n\n申请研究生PLUS贷款\n\n申请家长PLUS贷款"
+        },
+        {
+          "chunk_id": "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "text": "# 了解财政援助 | 联邦学生援助\n\n了解财政援助\n\n在你为大学或职业学校做准备时，了解财政援助如何运作，了解援助类型，并确认你是否符合资格 。你也可以通过FAFSA4caster估算你可能符合资格的援助金额。\n\n估算你的援助\n\n## 财政援助如何运作\n\n查看我们关于申请援助、接收援助以及偿还学生贷款的分步指南。我们在此帮助你完成每一步。\n\n了解更多\n\n## 援助类型\n\n用于支付大学费用的财政援助可从多种来源获得。学生援助包括助学金、奖学金、勤工助学工作和 贷款。\n\n了解更多\n\n助学金\n\n通常基于经济需求且通常无需偿还的财政援助\n\n奖学金\n\n基于学业或其他成就或经济需求提供的免费资金，用于帮助支付学费\n\n勤工助学工作\n\n一种赚取资金以帮助你支付学费的方式\n\n贷款\n\n你借款以支付大学或职业学校费用的资金；你必须偿还贷款及产生的利息\n\n## 更多援助资源\n\n联邦政府（除联邦学生援助外）\n\n除了美国教育部提供的援助外，联邦政府还提供多项财政援助计划。\n\n州政府\n\n您的州可能提供助学金或贷款来帮助支付大学费用。\n\n学院或职业学校\n\n许多学校从自己的资金中提供财政援助。\n\n非营利或私人组织\n\n许多组织提供助学金和奖学金。\n\n## 谁有资格获得援助\n\n所有申请人都必须满足联邦学生援助的基本资格要求。在后续年份中保持资格以继续获得援助非常 重要。如果您失去了资格，请了解如何恢复资格。\n\n了解更多\n\n了解以下情况可能如何影响您的援助资格\n\n军人家庭成员\n\n如果您或您的家人曾在军队服役\n\n无家可归的学生\n\n如果您满足联邦学生援助资格要求\n\n就读于国际学校的学生\n\n如果你在国外学习，你能获得的联邦学生援助类型是有限的\n\n父母在伊拉克或阿富汗阵亡的学生\n\n如果你的父母在9/11事件后因在伊拉克或阿富汗服役而死亡\n\n正在（或曾经）接受寄养的学生\n\n如果你符合联邦学生援助资格要求\n\n非美国公民\n\n你获得联邦学生援助的资格将取决于你的公民身份\n\n有智力障碍的学生\n\n如果你被录取或接受进入全面的过渡和中学后教育项目\n\n有犯罪记录的学生\n\n如果你有犯罪记录，你获得联邦学生援助的资格可能会受到限制\n\n估算你的援助\n\n使用FAFSA4caster来提前估算你获得联邦学生援助的资格。\n\n获取援助估算"
+        },
+        {
+          "chunk_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "text": "[你知道你必须填写联邦学生援助免费申请（FAFSA）表格，但也许你不确定该怎么做。 > 收集申请所需的文件]\nFAFSA问题询问关于你（你的姓名、出生日期、地址等）以及你的财务状况的信息。根据你的情况（例如，你是否是美国公民或你使用了哪种税表），你在填写申请时可能需要以下信息或文件：\n\n- 您的社会安全号码（在FAFSA表格上正确输入非常重要！）\n- 如果您是受抚养学生，您父母的社会安全号码\n- 如果您有驾照，您的驾照号码\n- 如果您不是美国公民，您的外国人登记号码\n- 您（以及如果您已婚，您的配偶）和如果您是受抚养学生，您父母的联邦税务信息或纳税申报表，包括IRS W-2信息：\n  - IRS 1040\n  - 外国纳税申报表、IRS 1040NR或IRS 1040NR-EZ\n  - 波多黎各、关岛、美属萨摩亚、美属维尔京群岛、马绍尔群岛、密克罗尼西亚联邦或帕劳的纳税申报表\n- 您（以及如果您是受抚养学生，您父母）的未征税收入记录，例如收到的子女抚养费、利息收入和退伍军人的非教育福利\n- 您（以及如果您是受抚养学生，您父母）的现金、储蓄和支票账户余额、投资（包括股票、债券和房地产，但不包括您居住的房屋）以及企业和农场资产的信息\n\n保留这些记录！您可能再次需要它们。请勿将您的记录邮寄给我们。\n\n尝试此资源2020-21 *FAFSA在线工作表* 提供学生和家长在填写FAFSA表格时可能被问到的问题的预览。\n\n填写FAFSA表格不需要的一件事是钱！FAFSA表格是免费的，所以如果网站或移动应用程序要求您付费填写，您不是在处理官方的FAFSA网站或官方的myStudentAid应用程序。请记住，这是一个政府申请，所以它在.gov网站和官方的美国教育部移动应用程序上。"
+        },
+        {
+          "chunk_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0016",
+          "text": "[The U.S. Department of Education offers low-interest loans to eligible students to help cover the cost of college or career school. > Where can I find information about the student loans I ve received?]\nVisit My Aid to view information about all of the federal student loans and other financial aid you have received and to find contact information for the loan servicer for your loans."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Link to Us | Federal Student Aid#1_0::c0000",
+          "document": "Link to Us | Federal Student Aid#1_0",
+          "heading": [],
+          "source_file": "studentaid_052.md",
+          "excerpt": "# Link to Us | Federal Student Aid\n\n# Link to us and help spread the word about the availability of federal student aid for college or career school.\n\nShare our information with potential college students, their parents, counselors, or other mentors.\n\nIf potential college students, their parents, counselors, or other mentors frequently visit your website, you can help us share information about federal student aid with your audiences.\n\nBelow you can select text or web banners to put on your site to make your visitors aware of the following resources:\n\n- StudentAid.gov provides in-depth information on federal student aid programs, applying for financial aid, and repaying student loans.\n- fafsa.gov is the official site of the Free Application for Federal Student Aid (FAFSA) form.\n\n## Disclaimer\n\nStudentAid.gov and fafsa.gov are registered domain names of the United States government. The inclusion of the enclosed banners on websites maintained by other public and private organizations is not intended to endorse any views expressed, or products or services offered, on those outside sites.\n\nPlease note: The Department of Education's link cannot appear on a web page with the primary purposes of marketing or ordering a product or service or on a web page urging readers to contact Congress or state legislators about pending legislation.\n\n## StudentAid.gov Banners\n\nThese StudentAid.gov banners, available in English and Spanish, can be used to link directly to StudentAid.gov, where students can learn about planning and paying for college.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the StudentAid.gov static banners, remember to include the HTML codes (see chart below) which link to StudentAid.gov.\n\nThere are also four text options available for linking to StudentAid.gov:\n\n> 1.  For information about federal student aid from the U.S. Department of Education s office of Federal Student Aid, visit StudentAid.gov.\n>\n> 2.  Federal Student Aid The U.S. Department of Education s office of Federal Student Aid provides more than $120 billion in grants, loans, and work-study funds each year to help pay for college or career school.\n>\n> 3.  Get in-depth information on federal student aid programs, applying for financial aid, and repaying student loans at StudentAid.gov.\n>\n> 4.  Federal Student Aid for College or Career School The U.S. Department of Education s office of Federal Student Aid provides grants, loans, and work-study opportunities to eligible students attending participating colleges or career schools. Federal Student Aid is the largest source of financial aid in the U.S. For further information and an online application, visit StudentAid.gov or call the Federal Student Aid Information Center toll-free: 1-800-4-FED-AID (1-800-433-3243). TTY for the hearing-impaired: 1-800-730-8913.\n\n## FAFSA Banners\n\nThese FAFSA banners, available in English and Spanish, can be used to link directly to fafsa.gov, where students can complete the Free Application for Federal Student Aid (FAFSA) form.\n\nFor each of the banner ads below, highlight the text of the HTML, copy it, and paste it into the HTML document for your page. Then download the image. The exact method of saving these pictures to a disk or to your hard drive will vary depending on your operating system, choice of browser, and other factors. In general, however, if you right-click on an image you will see an option to \"save\" or \"download\" the \"image\" or \"picture.\" If you are displaying the fafsa.gov static banners, remember to include the HTML codes (see chart below) which link to fafsa.gov."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "您可以放置链接到 StudentAid.gov 和 fafsa.gov 的横幅或文本，帮助您的访客了解联邦学生资助。StudentAid.gov 提供关于联邦学生资助项目、申请经济援助和偿还学生贷款的深入信息；fafsa.gov 是免费申请联邦学生资助（FAFSA）表格的官方网站。您可以从提供的英文和西班牙文横幅中选择，或使用文本选项，例如：“有关美国教育部联邦学生援助办公室提供的联邦学生援助信息，请访问 StudentAid.gov。” 请注意，链接不能出现在以营销或订购产品或服务为主要目的的网页上，也不能出现在敦促读者就未决立法联系国会或州立法者的网页上。",
+          "citations": [
+            "Link to Us | Federal Student Aid#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "b26a5c33f2664529abc11ee3f798de8e",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2705,
+              "completion_tokens": 175,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 175,
+                "prompt_tokens": 2705,
+                "total_tokens": 2880,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2449
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0044738,
+            "accounted_rmb": 0.0044738,
+            "usage_unknown": false,
+            "seconds": 2.1357460021972656,
+            "error": null,
+            "response": {
+              "id": "e52e3afb-ac7d-42ce-ab10-5f508c337172",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "33b058d928340d58a4f3e2a37955197f891c1110c037e0c90f131d98526d2cd1"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03250001464039087,
+        "retrieval": 922.6878749905154,
+        "generation": 2140.3652909211814,
+        "total": 3063.78470803611
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1338072499493137,
+        "rerank_seconds": 0.7888550830539316,
+        "top1_dense_score": 0.6891915798187256,
+        "candidate_ids": [
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0004",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0016",
+          "Parent PLUS Loans | Federal Student Aid#1_0::c0016",
+          "Loan Servicers | Federal Student Aid#1_0::c0007",
+          "Loan Servicers | Federal Student Aid#1_0::c0001",
+          "Link to Us | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0008",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0005",
+          "Make a Student Loan Payment | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001",
+          "Feedback Center#1_0::c0000",
+          "Loan Servicers | Federal Student Aid#1_0::c0004",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0007",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "PLUS Loan Application for Graduate Students | Federal Student Aid#1_0::c0000",
+          "Careers And Employment | Veterans Affairs#1_0::c0001",
+          "How Financial Aid Works | Federal Student Aid#2_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 30,
+        "query_shortened": true,
+        "retrieval_total_seconds": 0.9226686250185594
+      },
+      "raw_citations": [
+        "Link to Us | Federal Student Aid#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "d6adb4a9ee0fef585a593e4c3f4dd6d74a0f7086bc3d962565bbc1a7be449748"
+}

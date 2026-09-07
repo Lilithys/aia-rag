@@ -1,0 +1,194 @@
+{
+  "payload": {
+    "task_id": "68dee637cc50d9893097b0ad860c332b9cd7d2f5440316cfc2acd1e5a07193de",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "很遗憾听到这个消息。",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "Polite expression of sympathy, no factual assertion."
+              },
+              {
+                "text": "根据您的情况，您可能有资格申请Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Fry Scholarships | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that children of active-duty service members who died in the line of duty on or after September 11, 2001 may qualify for the Fry Scholarship. The user's situation (parent died in line of duty after 9/11) matches this criterion."
+              },
+              {
+                "text": "该奖学金适用于2001年9月11日或之后在执行任务中死亡的现役军人的子女或遗属配偶。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Fry Scholarships | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "Directly stated in the context: 'If your parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001, you may qualify for this benefit.'"
+              },
+              {
+                "text": "作为子女，您可以在18岁或高中毕业后（以较晚者为准）的任何年龄申请，但如果您在2013年1月1日前已满18岁或高中毕业，则需在33岁前使用。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Fry Scholarships | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states: 'If you turned 18 or graduated from high school before January 1, 2013, you can get a Fry Scholarship until you're 33 years old.' and 'If you turn 18 or graduate from high school after January 1, 2013, you can get a Fry Scholarship at any age over 18 or after you graduate (whichever comes first).' The response correctly paraphrases this."
+              },
+              {
+                "text": "福利包括最多36个月的学费（公立学校全额州内学费，私立或州外学校每年最高$22,805.34）、住房及书籍用品补贴。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Fry Scholarships | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states: 'You may be able to get up to 36 months of benefits, including: Money for tuition (full in-state tuition costs at public schools and up to $22,805.34 per year for training at private or out-of-state schools), Money for housing, Money for books and supplies.'"
+              },
+              {
+                "text": "申请时需填写VA Form 22-5490并联系学校认证官员。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Fry Scholarships | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states: 'Fill out a Dependents Application for VA Education Benefits (VA Form 22-5490) and send it to the VA regional benefit office where you want to go to school.' and 'You should contact your school's certifying official to make sure your program is approved for VA benefits.' The response combines these accurately."
+              },
+              {
+                "text": "请注意，如果您同时符合DEA计划资格，您只能选择其中一个计划，且选择后不可更改。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000",
+                  "Fry Scholarships | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states: 'You may be eligible for both the Fry Scholarship and DEA, but you can use only one program at a time. You must choose one when you apply. Once you make this decision, you cannot switch to the other program.' This is supported by both chunks."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b09bb3cb608c41b9a75aa495e51258a7",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3520,
+                "completion_tokens": 961,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 961,
+                  "prompt_tokens": 3520,
+                  "total_tokens": 4481,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3136
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0090477,
+              "accounted_rmb": 0.0090477,
+              "usage_unknown": false,
+              "seconds": 5.577173948287964,
+              "error": null,
+              "response": {
+                "id": "2101d32c-4299-4914-bc2c-645140f75f21",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b4f6137f721b99212860c6a27ea483e9c913c6f00401a211fb92ae8cdd97d50f"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 6,
+      "supported_external_claims": 6,
+      "excluded_units_by_scope": {
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "很遗憾听到这个消息。",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "Polite expression of sympathy, no factual assertion."
+        },
+        {
+          "text": "根据您的情况，您可能有资格申请Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Fry Scholarships | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that children of active-duty service members who died in the line of duty on or after September 11, 2001 may qualify for the Fry Scholarship. The user's situation (parent died in line of duty after 9/11) matches this criterion."
+        },
+        {
+          "text": "该奖学金适用于2001年9月11日或之后在执行任务中死亡的现役军人的子女或遗属配偶。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Fry Scholarships | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "Directly stated in the context: 'If your parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001, you may qualify for this benefit.'"
+        },
+        {
+          "text": "作为子女，您可以在18岁或高中毕业后（以较晚者为准）的任何年龄申请，但如果您在2013年1月1日前已满18岁或高中毕业，则需在33岁前使用。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Fry Scholarships | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states: 'If you turned 18 or graduated from high school before January 1, 2013, you can get a Fry Scholarship until you're 33 years old.' and 'If you turn 18 or graduate from high school after January 1, 2013, you can get a Fry Scholarship at any age over 18 or after you graduate (whichever comes first).' The response correctly paraphrases this."
+        },
+        {
+          "text": "福利包括最多36个月的学费（公立学校全额州内学费，私立或州外学校每年最高$22,805.34）、住房及书籍用品补贴。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Fry Scholarships | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states: 'You may be able to get up to 36 months of benefits, including: Money for tuition (full in-state tuition costs at public schools and up to $22,805.34 per year for training at private or out-of-state schools), Money for housing, Money for books and supplies.'"
+        },
+        {
+          "text": "申请时需填写VA Form 22-5490并联系学校认证官员。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Fry Scholarships | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states: 'Fill out a Dependents Application for VA Education Benefits (VA Form 22-5490) and send it to the VA regional benefit office where you want to go to school.' and 'You should contact your school's certifying official to make sure your program is approved for VA benefits.' The response combines these accurately."
+        },
+        {
+          "text": "请注意，如果您同时符合DEA计划资格，您只能选择其中一个计划，且选择后不可更改。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000",
+            "Fry Scholarships | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states: 'You may be eligible for both the Fry Scholarship and DEA, but you can use only one program at a time. You must choose one when you apply. Once you make this decision, you cannot switch to the other program.' This is supported by both chunks."
+        }
+      ]
+    }
+  },
+  "sha256": "7714c1d9697e902851c0590ba355455484320e904170bb956f5b41b514f228c1"
+}

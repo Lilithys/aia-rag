@@ -22,8 +22,8 @@ _FRONTMATTER_RE = re.compile(r"\A(---\n.*?\n---\n)(.*)", re.DOTALL)
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--in-dir", default="data/processed/markdown")
-    parser.add_argument("--out-dir", default="data/interim/markdown_clean")
+    parser.add_argument("--in-dir", default="data/local/rebuild/processed/markdown")
+    parser.add_argument("--out-dir", default="data/local/rebuild/interim/markdown_clean")
     args = parser.parse_args(argv)
 
     os.makedirs(args.out_dir, exist_ok=True)

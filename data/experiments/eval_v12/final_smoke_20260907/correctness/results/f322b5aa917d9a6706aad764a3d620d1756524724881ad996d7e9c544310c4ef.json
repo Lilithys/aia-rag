@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "f322b5aa917d9a6706aad764a3d620d1756524724881ad996d7e9c544310c4ef",
+    "binding_sha256": "de953b39e4f172568379a2b85344f65373d2a2666e7b31a04fc2a8495563efcc",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "clarify",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "user must have served in a combat theater after November 11, 1998",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not ask about combat theater service after that date."
+              },
+              {
+                "requirement": "user must have left active service on or after January 29, 2003",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not ask about discharge/release date."
+              },
+              {
+                "requirement": "user must not have received a dishonorable discharge",
+                "coverage": "covered",
+                "response_quote": "received an other-than-dishonorable discharge",
+                "reason": "The response mentions discharge type but not specifically dishonorable discharge."
+              }
+            ],
+            "reason": "The response provides general eligibility and asks for service details, but does not ask the essential clarifying question about combat service after 1998 and discharge after 2003, which are the key conditions for enhanced eligibility."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "00f2fcca45ae48c39a136c4b8f4d84c5",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5137,
+                "completion_tokens": 240,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 240,
+                  "prompt_tokens": 5137,
+                  "total_tokens": 5377,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4241
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0074863,
+              "accounted_rmb": 0.0074863,
+              "usage_unknown": false,
+              "seconds": 2.6133859157562256,
+              "error": null,
+              "response": {
+                "id": "3a95a107-e61d-4120-8481-4bf77aec9b5e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "cb77df2d8a4ec1435f4160026694b028f31104320424af12b943efff083f6848"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "clarify",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "user must have served in a combat theater after November 11, 1998",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not ask about combat theater service after that date."
+          },
+          {
+            "requirement": "user must have left active service on or after January 29, 2003",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not ask about discharge/release date."
+          },
+          {
+            "requirement": "user must not have received a dishonorable discharge",
+            "coverage": "covered",
+            "response_quote": "received an other-than-dishonorable discharge",
+            "reason": "The response mentions discharge type but not specifically dishonorable discharge."
+          }
+        ],
+        "reason": "The response provides general eligibility and asks for service details, but does not ask the essential clarifying question about combat service after 1998 and discharge after 2003, which are the key conditions for enhanced eligibility."
+      }
+    }
+  },
+  "sha256": "e270678b3735e546d5e047e37acd24fa1ee90476c7fa44f8793e947cfb0c40e0"
+}

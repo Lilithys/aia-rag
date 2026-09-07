@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "6758e2bd3ce85c2a5a7e3768f9f8197e4edf081c083d8ba7c08f991f671eea12",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.99999999998,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific documents that can be used to prove identity, including a U.S. driver's license, state-issued non-driver identification card, or U.S. passport, which directly answers the user's question.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "490d958cb0e04e8a9cee3a08787acec8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1787,
+                "completion_tokens": 60,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 60,
+                  "prompt_tokens": 1787,
+                  "total_tokens": 1847,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1019
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018369,
+              "accounted_rmb": 0.0018369,
+              "usage_unknown": false,
+              "seconds": 1.0408568382263184,
+              "error": null,
+              "response": {
+                "id": "7e6ecd84-bc2b-4ea1-b46d-903482cef349",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "34ff6ebbe4a8a6fd7513f8a9f5e88a3ecabb7cf13b490aea0b85e169780732bf"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides a list of acceptable identity documents for a parent applying for a child's Social Security card, including a U.S. driver's license, state-issued non-driver identification card, or U.S. passport, which directly answers the user's question about proving identity.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "347578a04fc7439380ceba2a409db04c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1916,
+                "completion_tokens": 71,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 71,
+                  "prompt_tokens": 1916,
+                  "total_tokens": 1987,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1148
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020799,
+              "accounted_rmb": 0.0020799,
+              "usage_unknown": false,
+              "seconds": 1.8086540699005127,
+              "error": null,
+              "response": {
+                "id": "9f469463-2f45-43ac-a611-475258d416c6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4bd6ab5fde2cf1a3d0ab49dde20bbe3476d75bbe392fe812bcd94a34c4c11bda"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides a list of acceptable identity documents for a parent applying for a child's Social Security card, including a U.S. driver's license, state-issued non-driver identification card, or U.S. passport, which directly answers the user's question about proving identity.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "347578a04fc7439380ceba2a409db04c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1916,
+                "completion_tokens": 71,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 71,
+                  "prompt_tokens": 1916,
+                  "total_tokens": 1987,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1148
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0020799,
+              "accounted_rmb": 0.0020799,
+              "usage_unknown": false,
+              "seconds": 1.8086540699005127,
+              "error": null,
+              "response": {
+                "id": "9f469463-2f45-43ac-a611-475258d416c6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": true,
+          "request_hash": "4bd6ab5fde2cf1a3d0ab49dde20bbe3476d75bbe392fe812bcd94a34c4c11bda"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about acceptable identity documents for a Social Security card, which directly answers the user's question about proving identity.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f24af33db7954a2daefac500a0585d9a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1754,
+                "completion_tokens": 41,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 41,
+                  "prompt_tokens": 1754,
+                  "total_tokens": 1795,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 730
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013307,
+              "accounted_rmb": 0.0013307,
+              "usage_unknown": false,
+              "seconds": 1.0310242176055908,
+              "error": null,
+              "response": {
+                "id": "0db92ebf-29f1-419a-b3c5-b96b7fc89807",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "eb93ec7fe07cfca12c511cd71f6d439306f2671d5f96b43c583ec8272df92adc"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about acceptable identity documents for a Social Security card, which directly answers the user's question about proving identity.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f24af33db7954a2daefac500a0585d9a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1754,
+                "completion_tokens": 41,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 41,
+                  "prompt_tokens": 1754,
+                  "total_tokens": 1795,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 730
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013307,
+              "accounted_rmb": 0.0013307,
+              "usage_unknown": false,
+              "seconds": 1.0310242176055908,
+              "error": null,
+              "response": {
+                "id": "0db92ebf-29f1-419a-b3c5-b96b7fc89807",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": true,
+          "request_hash": "eb93ec7fe07cfca12c511cd71f6d439306f2671d5f96b43c583ec8272df92adc"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "7e29d9154e4731cc94cdeeb0ea0bad55610f90aa5bb84f2dfc2c3a3cc328a18d"
+}

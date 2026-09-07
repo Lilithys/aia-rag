@@ -11,11 +11,16 @@ from __future__ import annotations
 
 import re
 
+# Unicode word boundaries treat Chinese letters and adjacent digits as one
+# word. Digit/ASCII boundaries allow e.g. 手机号13800138000 to be redacted.
+# Match complete IDs before phone patterns to avoid redacting only a prefix.
 _PATTERNS = [
-    (re.compile(r"\b\d{3}-\d{2}-\d{4}\b"), "[SSN]"),
-    (re.compile(r"\b[\w.+-]+@[\w-]+\.[\w.-]+\b"), "[EMAIL]"),
-    (re.compile(r"\b(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b"), "[PHONE]"),
-    (re.compile(r"\b\d{9,}\b"), "[ID_NUMBER]"),  # SSNs w/o dashes, DMV/case IDs, etc.
+    (re.compile(r"(?<![0-9A-Za-z])[0-9]{17}[0-9Xx](?![0-9A-Za-z])"), "[ID_NUMBER]"),
+    (re.compile(r"(?<![0-9A-Za-z])[0-9]{3}-[0-9]{2}-[0-9]{4}(?![0-9A-Za-z])"), "[SSN]"),
+    (re.compile(r"(?<![A-Za-z0-9_.+\-])[A-Za-z0-9_.+\-]+@[A-Za-z0-9\-]+(?:\.[A-Za-z0-9\-]+)+"), "[EMAIL]"),
+    (re.compile(r"(?<![0-9A-Za-z])(?:\+?86[-. \t]?)?1[3-9][0-9](?:[-. \t]?[0-9]){8}(?![0-9A-Za-z])"), "[PHONE]"),
+    (re.compile(r"(?<![0-9A-Za-z])(?:\+?1[-. \t]?)?(?:\([0-9]{3}\)|[0-9]{3})[-. \t]?[0-9]{3}[-. \t]?[0-9]{4}(?![0-9A-Za-z])"), "[PHONE]"),
+    (re.compile(r"(?<![0-9A-Za-z])[0-9]{9,}(?![0-9A-Za-z])"), "[ID_NUMBER]"),
 ]
 
 
@@ -25,3 +30,23 @@ def redact_pii(text: str) -> str:
     for pattern, placeholder in _PATTERNS:
         text = pattern.sub(placeholder, text)
     return text
+
+
+_SECRET_KEYS = {"authorization", "proxy_authorization", "api_key", "apikey", "deepseek_api_key",
+                "openai_api_key", "password", "secret", "access_token", "refresh_token"}
+
+
+def redact_payload(value):
+    """Redact JSON-like log values recursively; schema keys stay stable.
+
+    This does not change model inputs or stored source documents. Pattern
+    coverage is deliberately limited; it is not comprehensive PII detection.
+    """
+    if isinstance(value, dict):
+        return {key: "[REDACTED]" if str(key).lower().replace("-", "_") in _SECRET_KEYS
+                else redact_payload(item) for key, item in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [redact_payload(item) for item in value]
+    if isinstance(value, str):
+        return redact_pii(value)
+    return value

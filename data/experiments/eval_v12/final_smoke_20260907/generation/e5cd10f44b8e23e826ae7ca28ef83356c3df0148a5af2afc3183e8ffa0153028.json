@@ -1,0 +1,175 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+    "item_sha256": "a46ab040a755a62e43b963213b6e0336de58405f298d5ba9f672798e1c362f05",
+    "result": {
+      "request_id": "fd7600ad36854dca92b41f61e72b6a0d",
+      "session_id": "ba618bb1cb062c940912cc74180b482a",
+      "turn_id": 7,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您需要撤回（取消）已请求的Board hearing，您或您的代表应在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明撤回听证会的原因，并包含您的姓名和上诉的VA档案编号。您可以将书面请求邮寄或传真至委员会。撤回听证会不会加快您的上诉进度，除非您同时切换到Direct Review选项（仅在特定时间可行）。如果您撤回听证会请求，您仍可以在撤回后90天内提交新证据供法官审核。",
+        "citations": [
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008",
+          "text": "如果我需要重新安排听证会怎么办?您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。如果您的听证会距离现在不足2周，您需要提交动议，说明需要重新安排的原因。重新安排的充分理由示例包括:您、您的代表或证人患病，或者您在获取记录方面遇到困难。法官将审核您的请求，当法官决定是否可以重新安排听证会时，您特通过邮件收到通知。"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0001",
+          "text": "我如何知道我的听证会何时安排?退伍军人上诉委员会按案卷顺序(收到请求的顺序)安排听证会。您将在听证会安排前至少30天收到邮件通知。通知娄告知您听证会的日期、时间和地点。"
+        },
+        {
+          "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009",
+          "text": "[如果我重新安排听证会，会失去排队位置吗?]\n您不会失去排队位置。退伍军人上诉委员会按案卷顺序(即收到请求的顺序)安排听证会。您将保留相同的案逢日期，您的听证会将重新安排到尽可能最早的日期。\n\n## 如果我需要撤回听证会怎么办?\n\n如果您改变主意不想举行听证会，您可以写信给委员会撤回(取消)您的听证会请求。这不会加快您的上诉进度，除非您同时切换到直接审查上诉选项，而该选项只能在特定时间进行。如果您切换到不同的上诉选项，您将保留相同的案卷日期，您的上诉将与具有相同日期的其他上诉同时裁决。但是，每个案什获得裁决所需的时间不同。如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包盒您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。\n\n## 我应该将书面请求或新证据发送至委员会的哪个地址?\n\n您可以通过邮寄或传真发送书面请求，以重新安排或撤回您的委员会听证会。您也可以在听证会之日起90天内提交新证据供法官审核。"
+        },
+        {
+          "chunk_id": "VA decision reviews and appeals | Veterans Affairs#1_0::c0000",
+          "text": "# VA 决策复核与上诉 | Veterans Affairs\n\n# VA 决策复核与上诉\n\n如果您不同意 VA 的决策，您可以选择以下复核选项之一来继续您的案件。如果您对该复核结果不满意，您可以尝试另一个选项。\n\n#### 标记您的日历\n\n您有自决策日期起 1 年的时间来请求决策复核，除非您有 fiduciary claim 或 multiple party claim。请查看这些罕见情况是否适用于您\n\n## 决策复核选项\n\n- 添加新的且相关的证据（提交 Supplemental Claim）\n- 请求高级审阅员重新审查（请求 Higher-Level Review）\n- 向 Veterans Law Judge 上诉（请求 Board Appeal）\n\n### 添加新的且相关的证据\n\n下载 VA Form 20-0995：Supplemental Claim（PDF）\n\n当您选择提交 Supplemental Claim 时，您是在添加支持您案件的新证据或指明需要审查的证据。审阅员将查看所有证据并确定是否改变决策。了解如何提交 Supplemental Claim\n\n您必须提交 VA 之前没有的、支持您案件的证据。\n\n4-5 个月 VA 完成 Supplemental Claims 的目标是 125 天。\n\n#### 我可以提交 Supplemental Claim 吗？\n\n如果您有新证据，您可以在决策后 1 年内提交 Supplemental Claim。\n\n但如果您有 fiduciary claim 或您是多个声称同一福利的人之一（这种情况很少见），则不能提交 Supplemental Claim。请查看这些罕见情况是否适用于您\n\n### 请求高级审阅员重新审查\n\n下载 VA Form 20-0996：Higher-Level Review（PDF）\n\n当您选择请求 Higher-Level Review 时，您是在请求对相同证据进行另一次审查。高级审阅员将重新审查您的案件，并确定是否可以根据意见分歧或 VA 犯下的错误来更改决策。了解如何请求 Higher-Level Review\n\n您无法提交任何证据。\n\n您和/或您的代表可以通过电话与审核员沟通。您可以告诉他们为什么您认为决定应被更改，并指出错误。\n\n4-5个月 VA完成Higher-Level Reviews的目标是125天。如果VA需要获取记录或安排新的考试以纠正错误，审核可能需要更长时间。\n\n#### 我可以申请Higher-Level Review吗？\n\n您可以对初始申请或Supplemental Claim决定申请Higher-Level Review。在Higher-Level Review或Board Appeal之后，此选项不可用。\n\n### 向Veterans Law Judge上诉\n\n下载VA Form 10182: Board Appeal (PDF)\n\n位于华盛顿特区的Board of Veterans Appeals的法官将审核您的案件。了解更多关于如何申请Board Appeal的信息\n\n约1年 Board对无新证据且无听证的上诉作出决定的目标时间约为一年。\n\n您可以选择添加法官将审核的新证据。\n\n您也可以选择请求与法官进行听证，可以在华盛顿特区亲自进行，或通过视频会议在您附近的VA地点进行。\n\n更长 如果您提交新证据或请求听证，Board将需要更长时间来决定您的上诉。\n\n#### 我可以申请Board Appeal吗？\n\n您可以在初始申请、Supplemental Claim或Higher-Level Review决定后申请Board Appeal。您不能连续两次申请Board Appeal。\n\n## Board决定之后\n\n如果您不同意Board的决定，并且有支持您案件的新且相关的证据，您可以提交Supplemental Claim。您也可以向U.S. Court of Appeals for Veterans Claims提出上诉。了解更多关于Board决定后您的选择\n\n## 接下来会发生什么？\n\n了解您请求decision review后会发生什么\n\n等待期间您无需做任何操作，除非VA寄信要求您提供更多信息。如果VA为您安排了检查，请务必不要错过。\n\n跟踪您的索赔或上诉状态\n\n## 如果我需要帮助怎么办？\n\n退伍军人服务组织或VA认证的律师或代理人可以帮助您请求决策审查。获取请求决策审查的帮助\n\n## 如果我有更多问题怎么办？\n\n获取关于决策审查的常见问题解答。前往FAQs"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008",
+          "text": "如果我需要重新安排听证会怎么办?您需要在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明重新安排听证会的充分理由。请包含您的姓名、您的上诉的VA档案编号，以及您需要新听证日期的原因。将您的书面请求发送至委员会。请使用下方列出的地址或传真号码。如果您的听证会距离现在不足2周，您需要提交动议，说明需要重新安排的原因。重新安排的充分理由示例包括:您、您的代表或证人患病，或者您在获取记录方面遇到困难。法官将审核您的请求，当法官决定是否可以重新安排听证会时，您特通过邮件收到通知。"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0001",
+          "text": "我如何知道我的听证会何时安排?退伍军人上诉委员会按案卷顺序(收到请求的顺序)安排听证会。您将在听证会安排前至少30天收到邮件通知。通知娄告知您听证会的日期、时间和地点。"
+        },
+        {
+          "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009",
+          "text": "[如果我重新安排听证会，会失去排队位置吗?]\n您不会失去排队位置。退伍军人上诉委员会按案卷顺序(即收到请求的顺序)安排听证会。您将保留相同的案逢日期，您的听证会将重新安排到尽可能最早的日期。\n\n## 如果我需要撤回听证会怎么办?\n\n如果您改变主意不想举行听证会，您可以写信给委员会撤回(取消)您的听证会请求。这不会加快您的上诉进度，除非您同时切换到直接审查上诉选项，而该选项只能在特定时间进行。如果您切换到不同的上诉选项，您将保留相同的案卷日期，您的上诉将与具有相同日期的其他上诉同时裁决。但是，每个案什获得裁决所需的时间不同。如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包盒您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。\n\n## 我应该将书面请求或新证据发送至委员会的哪个地址?\n\n您可以通过邮寄或传真发送书面请求，以重新安排或撤回您的委员会听证会。您也可以在听证会之日起90天内提交新证据供法官审核。"
+        },
+        {
+          "chunk_id": "VA decision reviews and appeals | Veterans Affairs#1_0::c0000",
+          "text": "# VA 决策复核与上诉 | Veterans Affairs\n\n# VA 决策复核与上诉\n\n如果您不同意 VA 的决策，您可以选择以下复核选项之一来继续您的案件。如果您对该复核结果不满意，您可以尝试另一个选项。\n\n#### 标记您的日历\n\n您有自决策日期起 1 年的时间来请求决策复核，除非您有 fiduciary claim 或 multiple party claim。请查看这些罕见情况是否适用于您\n\n## 决策复核选项\n\n- 添加新的且相关的证据（提交 Supplemental Claim）\n- 请求高级审阅员重新审查（请求 Higher-Level Review）\n- 向 Veterans Law Judge 上诉（请求 Board Appeal）\n\n### 添加新的且相关的证据\n\n下载 VA Form 20-0995：Supplemental Claim（PDF）\n\n当您选择提交 Supplemental Claim 时，您是在添加支持您案件的新证据或指明需要审查的证据。审阅员将查看所有证据并确定是否改变决策。了解如何提交 Supplemental Claim\n\n您必须提交 VA 之前没有的、支持您案件的证据。\n\n4-5 个月 VA 完成 Supplemental Claims 的目标是 125 天。\n\n#### 我可以提交 Supplemental Claim 吗？\n\n如果您有新证据，您可以在决策后 1 年内提交 Supplemental Claim。\n\n但如果您有 fiduciary claim 或您是多个声称同一福利的人之一（这种情况很少见），则不能提交 Supplemental Claim。请查看这些罕见情况是否适用于您\n\n### 请求高级审阅员重新审查\n\n下载 VA Form 20-0996：Higher-Level Review（PDF）\n\n当您选择请求 Higher-Level Review 时，您是在请求对相同证据进行另一次审查。高级审阅员将重新审查您的案件，并确定是否可以根据意见分歧或 VA 犯下的错误来更改决策。了解如何请求 Higher-Level Review\n\n您无法提交任何证据。\n\n您和/或您的代表可以通过电话与审核员沟通。您可以告诉他们为什么您认为决定应被更改，并指出错误。\n\n4-5个月 VA完成Higher-Level Reviews的目标是125天。如果VA需要获取记录或安排新的考试以纠正错误，审核可能需要更长时间。\n\n#### 我可以申请Higher-Level Review吗？\n\n您可以对初始申请或Supplemental Claim决定申请Higher-Level Review。在Higher-Level Review或Board Appeal之后，此选项不可用。\n\n### 向Veterans Law Judge上诉\n\n下载VA Form 10182: Board Appeal (PDF)\n\n位于华盛顿特区的Board of Veterans Appeals的法官将审核您的案件。了解更多关于如何申请Board Appeal的信息\n\n约1年 Board对无新证据且无听证的上诉作出决定的目标时间约为一年。\n\n您可以选择添加法官将审核的新证据。\n\n您也可以选择请求与法官进行听证，可以在华盛顿特区亲自进行，或通过视频会议在您附近的VA地点进行。\n\n更长 如果您提交新证据或请求听证，Board将需要更长时间来决定您的上诉。\n\n#### 我可以申请Board Appeal吗？\n\n您可以在初始申请、Supplemental Claim或Higher-Level Review决定后申请Board Appeal。您不能连续两次申请Board Appeal。\n\n## Board决定之后\n\n如果您不同意Board的决定，并且有支持您案件的新且相关的证据，您可以提交Supplemental Claim。您也可以向U.S. Court of Appeals for Veterans Claims提出上诉。了解更多关于Board决定后您的选择\n\n## 接下来会发生什么？\n\n了解您请求decision review后会发生什么\n\n等待期间您无需做任何操作，除非VA寄信要求您提供更多信息。如果VA为您安排了检查，请务必不要错过。\n\n跟踪您的索赔或上诉状态\n\n## 如果我需要帮助怎么办？\n\n退伍军人服务组织或VA认证的律师或代理人可以帮助您请求决策审查。获取请求决策审查的帮助\n\n## 如果我有更多问题怎么办？\n\n获取关于决策审查的常见问题解答。前往FAQs"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009",
+          "document": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+          "heading": [
+            "如果我重新安排听证会，会失去排队位置吗?"
+          ],
+          "source_file": "va_016.pdf",
+          "excerpt": "[如果我重新安排听证会，会失去排队位置吗?]\n您不会失去排队位置。退伍军人上诉委员会按案卷顺序(即收到请求的顺序)安排听证会。您将保留相同的案逢日期，您的听证会将重新安排到尽可能最早的日期。\n\n## 如果我需要撤回听证会怎么办?\n\n如果您改变主意不想举行听证会，您可以写信给委员会撤回(取消)您的听证会请求。这不会加快您的上诉进度，除非您同时切换到直接审查上诉选项，而该选项只能在特定时间进行。如果您切换到不同的上诉选项，您将保留相同的案卷日期，您的上诉将与具有相同日期的其他上诉同时裁决。但是，每个案什获得裁决所需的时间不同。如果您需要撤回听证会请求，您或您的代表应在听证会至少2周前发送书面请求。请包盒您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因。您仍然可以选择提交新证据，只要您在撤回听证会请求后90天内将其发送至委员会。请使用下方列出的地址或传真号码将您的书面请求发送至委员会。\n\n## 我应该将书面请求或新证据发送至委员会的哪个地址?\n\n您可以通过邮寄或传真发送书面请求，以重新安排或撤回您的委员会听证会。您也可以在听证会之日起90天内提交新证据供法官审核。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您需要撤回（取消）已请求的Board hearing，您或您的代表应在听证会至少2周前，向退伍军人上诉委员会发送书面请求，说明撤回听证会的原因，并包含您的姓名和上诉的VA档案编号。您可以将书面请求邮寄或传真至委员会。撤回听证会不会加快您的上诉进度，除非您同时切换到Direct Review选项（仅在特定时间可行）。如果您撤回听证会请求，您仍可以在撤回后90天内提交新证据供法官审核。",
+          "citations": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "295016cf589b4b6881ec1e1673024780",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2644,
+              "completion_tokens": 136,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 136,
+                "prompt_tokens": 2644,
+                "total_tokens": 2780,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2388
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0042068,
+            "accounted_rmb": 0.0042068,
+            "usage_unknown": false,
+            "seconds": 1.7569169998168945,
+            "error": null,
+            "response": {
+              "id": "b2a758d1-d22f-4d70-875d-97c60e504c35",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "ab01222abf6a72bf7d04039b0ec2856dcee6ed4b8daffba555ececf6cebdfd5b"
+      },
+      "latency_ms": {
+        "queue_wait": 0.006500049494206905,
+        "retrieval": 1080.6958749890327,
+        "generation": 1760.7312500476837,
+        "total": 2842.477458063513
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1455073329852894,
+        "rerank_seconds": 0.9351619579829276,
+        "top1_dense_score": 0.7296054363250732,
+        "candidate_ids": [
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009",
+          "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0000",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0001",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0003",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0005",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0001",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0007",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0006",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0005",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0005",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0006",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0006",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0000",
+          "VA decision reviews and appeals | Veterans Affairs#1_0::c0000",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0004",
+          "Multiple party or contested claims | Veterans Affairs#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 32,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.080675125005655
+      },
+      "raw_citations": [
+        "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0009"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "936f9a932a33ab762d211dba179dfc8c14c538fbb355667f44cb065bc72a5d85"
+}

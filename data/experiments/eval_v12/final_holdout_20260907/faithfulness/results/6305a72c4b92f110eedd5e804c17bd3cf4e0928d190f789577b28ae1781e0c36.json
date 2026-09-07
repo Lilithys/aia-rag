@@ -1,0 +1,140 @@
+{
+  "payload": {
+    "task_id": "6305a72c4b92f110eedd5e804c17bd3cf4e0928d190f789577b28ae1781e0c36",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To qualify for the Extended Repayment Plan, you must have more than $30,000 in outstanding Direct Loans (if you are a Direct Loan borrower) or more than $30,000 in outstanding FFEL Program loans (if you are an FFEL borrower).",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that Direct Loan borrowers must have over $30,000 in outstanding Direct Loans, and FFEL borrowers must have over $30,000 in outstanding FFEL loans."
+              },
+              {
+                "text": "Additionally, you must not have had an outstanding balance on the relevant loan type when you received a new loan on or after October 7, 1998.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that borrowers must not have had an outstanding balance on the relevant loan type when they received a new loan on or after October 7, 1998."
+              },
+              {
+                "text": "For example, if you have $35,000 in outstanding FFEL loans and $10,000 in Direct Loans, you could choose the Extended Repayment Plan for your FFEL loans but not for your Direct Loans.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context provides this exact example."
+              },
+              {
+                "text": "Your monthly payment will be fixed or gradually increasing, with a maximum repayment period of 25 years, and is typically lower than payments under the Standard or Graduated Repayment Plans.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Extended Plan | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states that monthly payments are fixed or gradually increasing, the maximum repayment period is 25 years, and payments are typically lower than under the Standard and Graduated Repayment Plans."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1502eb0994594aaa9b0cec9ce6490c41",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1959,
+                "completion_tokens": 501,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 501,
+                  "prompt_tokens": 1959,
+                  "total_tokens": 2460,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1575
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0046362,
+              "accounted_rmb": 0.0046362,
+              "usage_unknown": false,
+              "seconds": 2.878270149230957,
+              "error": null,
+              "response": {
+                "id": "07290d06-5fdf-4044-a327-8189f1c9a074",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "34688b9d014fed0c65d64c78b3b5051940b4a17aea1b6822aa2a67ed3b6f2642"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To qualify for the Extended Repayment Plan, you must have more than $30,000 in outstanding Direct Loans (if you are a Direct Loan borrower) or more than $30,000 in outstanding FFEL Program loans (if you are an FFEL borrower).",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that Direct Loan borrowers must have over $30,000 in outstanding Direct Loans, and FFEL borrowers must have over $30,000 in outstanding FFEL loans."
+        },
+        {
+          "text": "Additionally, you must not have had an outstanding balance on the relevant loan type when you received a new loan on or after October 7, 1998.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that borrowers must not have had an outstanding balance on the relevant loan type when they received a new loan on or after October 7, 1998."
+        },
+        {
+          "text": "For example, if you have $35,000 in outstanding FFEL loans and $10,000 in Direct Loans, you could choose the Extended Repayment Plan for your FFEL loans but not for your Direct Loans.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context provides this exact example."
+        },
+        {
+          "text": "Your monthly payment will be fixed or gradually increasing, with a maximum repayment period of 25 years, and is typically lower than payments under the Standard or Graduated Repayment Plans.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states that monthly payments are fixed or gradually increasing, the maximum repayment period is 25 years, and payments are typically lower than under the Standard and Graduated Repayment Plans."
+        }
+      ]
+    }
+  },
+  "sha256": "ea2e8c19ce39c5f3724cf4b770f933621f5c412bc18f2715776c9f0915766eb1"
+}

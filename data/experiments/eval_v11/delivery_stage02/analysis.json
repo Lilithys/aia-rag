@@ -1,0 +1,1669 @@
+{
+  "analysis_version": "smoke-v1.1-1",
+  "script_sha256": "c3b59f78e7ce533e04beddadaa3a85ea42a29689df73d1e265f400f8da5418aa",
+  "release_manifest_sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3",
+  "candidate_summaries": {
+    "baseline_dense_k10": {
+      "quality": {
+        "overall": {
+          "n": 20,
+          "generation_status_counts": {
+            "ok": 19,
+            "failed": 1
+          },
+          "correctness": {
+            "requested": true,
+            "correct": 13,
+            "unknown": 0,
+            "generation_failures": 1,
+            "bounds": [
+              0.65,
+              0.65
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 18,
+            "known_no_fact_n": 1,
+            "unknown_eligibility_or_score_n": 0,
+            "mean_scored": 0.9735449735449736,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.9735449735449736,
+              0.9735449735449736
+            ]
+          },
+          "context_precision": {
+            "requested": false,
+            "eligible_answer_n": 15,
+            "scored_n": 0,
+            "unknown_n": 15,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "by_label": {
+          "answer": {
+            "n": 15,
+            "generation_status_counts": {
+              "ok": 15
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 11,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                0.7333333333333333,
+                0.7333333333333333
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 15,
+              "known_no_fact_n": 0,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 0.9682539682539683,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                0.9682539682539683,
+                0.9682539682539683
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 15,
+              "scored_n": 0,
+              "unknown_n": 15,
+              "bounds": [
+                0.0,
+                1.0
+              ]
+            }
+          },
+          "clarify": {
+            "n": 3,
+            "generation_status_counts": {
+              "failed": 1,
+              "ok": 2
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 0,
+              "unknown": 0,
+              "generation_failures": 1,
+              "bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 2,
+              "known_no_fact_n": 0,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 1.0,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                1.0,
+                1.0
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 0,
+              "scored_n": 0,
+              "unknown_n": 0,
+              "bounds": null
+            }
+          },
+          "refuse": {
+            "n": 2,
+            "generation_status_counts": {
+              "ok": 2
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 2,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                1.0,
+                1.0
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 1,
+              "known_no_fact_n": 1,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 1.0,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                1.0,
+                1.0
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 0,
+              "scored_n": 0,
+              "unknown_n": 0,
+              "bounds": null
+            }
+          }
+        }
+      },
+      "context_precision": {
+        "requested": true,
+        "eligible_answer_n": 15,
+        "scored_n": 15,
+        "unknown_n": 0,
+        "bounds": [
+          0.5794812924864713,
+          0.5794812924864713
+        ]
+      },
+      "historical_generation_operations": {
+        "planned_requests": 20,
+        "successful_requests": 19,
+        "status_counts": {
+          "ok": 19,
+          "failed": 1
+        },
+        "successful_timed_n": 19,
+        "successful_request_p50_seconds": 2.2228681669803336,
+        "successful_request_p90_seconds": 2.58624699995853,
+        "successful_within_10s_count": 19,
+        "successful_within_10s_divided_by_all": 0.95,
+        "api_attempts": 20,
+        "generation_cost_rmb": 0.1399759,
+        "observed_generation_cost_per_1000_planned_requests_rmb": 6.998794999999999,
+        "unknown_usage_attempts": 0,
+        "cached_response_replays": 0,
+        "context_token_observations_n": 20,
+        "mean_context_tokens": 5266.9
+      },
+      "correctness_wilson_95_if_complete": [
+        0.43285427668523624,
+        0.818808175898918
+      ]
+    },
+    "rerank_truncated_k10": {
+      "quality": {
+        "overall": {
+          "n": 20,
+          "generation_status_counts": {
+            "ok": 20
+          },
+          "correctness": {
+            "requested": true,
+            "correct": 14,
+            "unknown": 0,
+            "generation_failures": 0,
+            "bounds": [
+              0.7,
+              0.7
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 18,
+            "known_no_fact_n": 1,
+            "unknown_eligibility_or_score_n": 1,
+            "mean_scored": 0.9828042328042328,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.931077694235589,
+              0.9837092731829573
+            ]
+          },
+          "context_precision": {
+            "requested": false,
+            "eligible_answer_n": 15,
+            "scored_n": 0,
+            "unknown_n": 15,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "by_label": {
+          "answer": {
+            "n": 15,
+            "generation_status_counts": {
+              "ok": 15
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 11,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                0.7333333333333333,
+                0.7333333333333333
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 14,
+              "known_no_fact_n": 0,
+              "unknown_eligibility_or_score_n": 1,
+              "mean_scored": 0.9880952380952381,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                0.9222222222222223,
+                0.9888888888888889
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 15,
+              "scored_n": 0,
+              "unknown_n": 15,
+              "bounds": [
+                0.0,
+                1.0
+              ]
+            }
+          },
+          "clarify": {
+            "n": 3,
+            "generation_status_counts": {
+              "ok": 3
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 1,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                0.3333333333333333,
+                0.3333333333333333
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 3,
+              "known_no_fact_n": 0,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 0.9523809523809524,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                0.9523809523809524,
+                0.9523809523809524
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 0,
+              "scored_n": 0,
+              "unknown_n": 0,
+              "bounds": null
+            }
+          },
+          "refuse": {
+            "n": 2,
+            "generation_status_counts": {
+              "ok": 2
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 2,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                1.0,
+                1.0
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 1,
+              "known_no_fact_n": 1,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 1.0,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                1.0,
+                1.0
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 0,
+              "scored_n": 0,
+              "unknown_n": 0,
+              "bounds": null
+            }
+          }
+        }
+      },
+      "context_precision": {
+        "requested": true,
+        "eligible_answer_n": 15,
+        "scored_n": 15,
+        "unknown_n": 0,
+        "bounds": [
+          0.6351201813714451,
+          0.6351201813714451
+        ]
+      },
+      "historical_generation_operations": {
+        "planned_requests": 20,
+        "successful_requests": 20,
+        "status_counts": {
+          "ok": 20
+        },
+        "successful_timed_n": 20,
+        "successful_request_p50_seconds": 2.8703883124981076,
+        "successful_request_p90_seconds": 4.310319241660182,
+        "successful_within_10s_count": 20,
+        "successful_within_10s_divided_by_all": 1.0,
+        "api_attempts": 19,
+        "generation_cost_rmb": 0.1405137,
+        "observed_generation_cost_per_1000_planned_requests_rmb": 7.025684999999999,
+        "unknown_usage_attempts": 0,
+        "cached_response_replays": 0,
+        "context_token_observations_n": 20,
+        "mean_context_tokens": 6023.6
+      },
+      "correctness_wilson_95_if_complete": [
+        0.4810271816464765,
+        0.8545227551323956
+      ]
+    },
+    "rerank_windowed_k5": {
+      "quality": {
+        "overall": {
+          "n": 20,
+          "generation_status_counts": {
+            "ok": 19,
+            "failed": 1
+          },
+          "correctness": {
+            "requested": true,
+            "correct": 16,
+            "unknown": 0,
+            "generation_failures": 1,
+            "bounds": [
+              0.8,
+              0.8
+            ]
+          },
+          "faithfulness": {
+            "requested": true,
+            "scored_claim_bearing_n": 18,
+            "known_no_fact_n": 1,
+            "unknown_eligibility_or_score_n": 0,
+            "mean_scored": 0.9861111111111112,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.9861111111111112,
+              0.9861111111111112
+            ]
+          },
+          "context_precision": {
+            "requested": false,
+            "eligible_answer_n": 15,
+            "scored_n": 0,
+            "unknown_n": 15,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          }
+        },
+        "by_label": {
+          "answer": {
+            "n": 15,
+            "generation_status_counts": {
+              "ok": 15
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 13,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                0.8666666666666667,
+                0.8666666666666667
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 15,
+              "known_no_fact_n": 0,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 0.9833333333333333,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                0.9833333333333333,
+                0.9833333333333333
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 15,
+              "scored_n": 0,
+              "unknown_n": 15,
+              "bounds": [
+                0.0,
+                1.0
+              ]
+            }
+          },
+          "clarify": {
+            "n": 3,
+            "generation_status_counts": {
+              "failed": 1,
+              "ok": 2
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 1,
+              "unknown": 0,
+              "generation_failures": 1,
+              "bounds": [
+                0.3333333333333333,
+                0.3333333333333333
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 2,
+              "known_no_fact_n": 0,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 1.0,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                1.0,
+                1.0
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 0,
+              "scored_n": 0,
+              "unknown_n": 0,
+              "bounds": null
+            }
+          },
+          "refuse": {
+            "n": 2,
+            "generation_status_counts": {
+              "ok": 2
+            },
+            "correctness": {
+              "requested": true,
+              "correct": 2,
+              "unknown": 0,
+              "generation_failures": 0,
+              "bounds": [
+                1.0,
+                1.0
+              ]
+            },
+            "faithfulness": {
+              "requested": true,
+              "scored_claim_bearing_n": 1,
+              "known_no_fact_n": 1,
+              "unknown_eligibility_or_score_n": 0,
+              "mean_scored": 1.0,
+              "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+                1.0,
+                1.0
+              ]
+            },
+            "context_precision": {
+              "requested": false,
+              "eligible_answer_n": 0,
+              "scored_n": 0,
+              "unknown_n": 0,
+              "bounds": null
+            }
+          }
+        }
+      },
+      "context_precision": {
+        "requested": true,
+        "eligible_answer_n": 15,
+        "scored_n": 15,
+        "unknown_n": 0,
+        "bounds": [
+          0.6899999999574351,
+          0.6899999999574351
+        ]
+      },
+      "historical_generation_operations": {
+        "planned_requests": 20,
+        "successful_requests": 19,
+        "status_counts": {
+          "ok": 19,
+          "failed": 1
+        },
+        "successful_timed_n": 19,
+        "successful_request_p50_seconds": 2.966961541911587,
+        "successful_request_p90_seconds": 3.9739053001161664,
+        "successful_within_10s_count": 19,
+        "successful_within_10s_divided_by_all": 0.95,
+        "api_attempts": 20,
+        "generation_cost_rmb": 0.0896546,
+        "observed_generation_cost_per_1000_planned_requests_rmb": 4.48273,
+        "unknown_usage_attempts": 0,
+        "cached_response_replays": 0,
+        "context_token_observations_n": 20,
+        "mean_context_tokens": 3317.15
+      },
+      "correctness_wilson_95_if_complete": [
+        0.5839825677481064,
+        0.919342337420202
+      ]
+    }
+  },
+  "paired_correctness": {
+    "rerank_truncated_k10": {
+      "paired_known_n": 20,
+      "gained": 1,
+      "lost": 0,
+      "mean_difference": 0.05,
+      "exploratory_paired_bootstrap_95": [
+        0.0,
+        0.15
+      ],
+      "changed_question_ids": [
+        "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8"
+      ]
+    },
+    "rerank_windowed_k5": {
+      "paired_known_n": 20,
+      "gained": 3,
+      "lost": 0,
+      "mean_difference": 0.15,
+      "exploratory_paired_bootstrap_95": [
+        0.0,
+        0.3
+      ],
+      "changed_question_ids": [
+        "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+        "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8"
+      ]
+    }
+  },
+  "items": [
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides general loan application steps but omits the essential budgeting advice from the reference, which is the core required answer. It does not address borrowing only what is needed.",
+      "faithfulness": 0.8571428571428571,
+      "faithfulness_status": "ok",
+      "context_precision": 0.0,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly answers that even without working under Social Security, one may qualify for spouse benefits if at least 62 and spouse receives retirement/disability benefits, includes Medicare at 65, divorced spouse option, application methods, and reduction warning, all supported by retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9484126983968916,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately states FFEL Extended Repayment eligibility conditions (no outstanding FFEL balance as of Oct 7, 1998 or later loan origination, over $30,000 outstanding FFEL debt), describes 25-year term and fixed/graduated payments, and correctly notes Direct Loans are excluded when both exist, matching the reference.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.49999999995,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly lists all eligible federal loans for the extended repayment plan as specified in the retrieved document, including Direct and FFEL loan types, with no material errors or unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response incorrectly states that rescheduling does not require good cause and omits the essential condition of providing good cause for rescheduling. It also inaccurately claims you can submit new evidence within 90 days after withdrawing the hearing request, which is unsupported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.16666666665,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response answers replacement options but omits the key condition that a Standard ID is not accepted for domestic flights from October 2020 unless a passport is used, which the reference requires.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.37708333332390626,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the number on the form, makes two attempts, leaves a voicemail, and discusses reasons for change without recording. All details are supported by the cited documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.99999999995,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides general guidance but fails to supply the required mailing instructions from the reference: include the Social Security number on a separate sheet and do not write on original documents. It also incorrectly states the excerpts do not specify mailing instructions, though the reference block does.",
+      "faithfulness": 0.6666666666666666,
+      "faithfulness_status": "ok",
+      "context_precision": 0.0,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately explains survivor benefit eligibility and conversion rules based on the cited documents, including automatic conversion for spouse beneficiaries and application options for retirement beneficiaries. It provides necessary conditions and supported details without material errors.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.8083900226641886,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately provides the required steps for withdrawing a hearing request, including the 2-week notice, required information, and 90-day evidence submission window, all supported by the cited document. It fully answers the question without needing clarification.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly answers that VGLI allows continued life insurance coverage after leaving the military with ongoing premium payments, and provides accurate supporting details about application deadlines, coverage amounts, and health proof requirements, all supported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.99999999998,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly instructs contacting the local court for a ticket outside NYC, mentions MyDMV for locating the court, and notes paying the fine and termination fee, all supported by the cited documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.2916666666520833,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly explains that commercial registration costs vary by weight and county, lists required fees (plate, title, sales tax, use tax), and directs to fee tables/estimator, matching the reference without material errors.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.99999999995,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides supported guidance on accessing benefit information for family members via the SSA website, BEST tool, and phone number, matching the retrieved documents. It answers the question without material errors or unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.2777777777685185,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response explains revocation as cancellation and reapplication after the period, with conditional approval, tests, fees, and civil penalty, matching the source. It uses general terms without asserting the user's personal status, and includes a supported status-check step.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.32222222221148145,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "label": "clarify",
+      "generation_status": "failed",
+      "correctness": 0,
+      "correctness_status": "not_scored_or_not_applicable",
+      "correctness_reason": null,
+      "faithfulness": null,
+      "faithfulness_status": "not_scored_or_not_applicable",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response assumes the user's eligibility and answers without clarifying the essential missing conditions (whether the testing occurred between 1942-1975 and whether an injury/illness was directly caused). It also incorrectly conflates VA disability requirements with the Army medical care criteria, introducing unsupported assertions about VA eligibility.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response assumes the user is an eligible noncitizen and gives generic aid advice without asking what 'neither of those' refers to, violating the required clarification. It does not resolve the ambiguous referent before proceeding.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "label": "refuse",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly refuses because the knowledge base lacks relevant information on faucet repair, matching the reference. No citations or unsupported claims are made.",
+      "faithfulness": null,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "label": "refuse",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly refuses to access personal appointment records, explains the limitation, and provides supported general guidance from VA documents about contacting VA or rescheduling, without inventing personal details.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides general loan advice but omits the essential reference point of making a budget to borrow only what is needed, which is the core required answer fact. It also includes unsupported details like FAFSA steps and military benefits not directly tied to the question's context.",
+      "faithfulness": null,
+      "faithfulness_status": "failed",
+      "context_precision": 0.0,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly answers that spouse benefits are possible without working under Social Security, citing age 62 and spouse receiving benefits, and includes Medicare at 65, divorced spouse conditions, and application methods, all supported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.7972789115532362,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately states the FFEL Extended Repayment Plan eligibility conditions from the cited document: no outstanding FFEL balance as of the loan date on/after Oct 7, 1998, and over $30,000 outstanding FFEL loans, with 25-year term and fixed/graduated payments. It directly answers the user's question without unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly lists all eligible federal loan types for the extended repayment plan as specified in the retrieved document, directly answering the user's question without errors or unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response omits the essential condition that rescheduling requires a written request with good cause at least two weeks before the hearing, as specified in the reference. It also incorrectly states that withdrawing allows new evidence within 90 days, which is unsupported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.249999999975,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response answers the user's question about replacing a standard non-driver ID but omits the key condition from the reference: starting October 2020, a Standard ID cannot be used for domestic flights unless a passport is held. This material fact is missing, making the answer incomplete.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.26666666665333333,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the number on the form, makes two attempts, leaves a voicemail, and discusses reasons for changing the decision without recording the call. All details are supported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.8333333333055556,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response answers the general appeal question but does not address the specific mailing-documents instruction from the reference, and it incorrectly claims inability to answer mailing questions despite the retrieved document providing the required guidance.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.0,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides accurate survivor benefit eligibility details from the documents, including age, disability, child care, remarriage rules, benefit conversion, and application methods. It directly answers the user's question without unsupported claims or refusal.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.99999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately answers how to withdraw a hearing request, including the 2-week written notice, required details, address/fax submission, and related conditions like switching options and 90-day evidence submission, all supported by the cited document.",
+      "faithfulness": 0.8333333333333334,
+      "faithfulness_status": "ok",
+      "context_precision": 0.49999999995,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly answers that VGLI allows continued life insurance coverage after leaving the military with ongoing premium payments, and provides accurate supporting details from the cited document, such as coverage amounts, application deadlines, and conversion options.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9107142856991072,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly states that for an unpaid ticket issued outside NYC, the user must contact the local court directly, and mentions the DMV's My License service for more information, matching the reference. It does not assume the user's specific situation beyond what was stated.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly explains that commercial registration costs vary by weight and location, lists required fees, and directs to tables/estimator, matching the reference's conditional guidance without material errors.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.7499999999625,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides supported general guidance on accessing SSA benefits information, including website, phone, and account options, and notes SSA will inform about family eligibility, matching the reference. It does not assume personal conditions or refuse, and all claims are supported by retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.44047619046517855,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response explains revocation as cancellation and reapplication after the period, with qualifications like DMV approval, tests, and fees, matching the reference. It avoids asserting personal status and presents branch-specific requirements conditionally, satisfying the acceptance criteria.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.7783333333177667,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides general eligibility conditions and asks for personal details, but it does not ask the essential missing condition from the reference—combat service after November 11, 1998, discharge after January 29, 2003, and no dishonorable discharge—which is needed to determine if the user can apply right away. It also includes unsupported claims about enhanced eligibility for 5 years.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly states the two requirements from the cited document: voluntary participation in chemical/biological testing between 1942-1975 and a directly caused injury/illness, and confirms both must be true. It answers the user's question about benefits and requirements without assuming unknown conditions.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response gives generic FAFSA application advice without first asking what 'neither of those' refers to, as required by the acceptance criteria. It assumes the user's situation and fails to clarify the ambiguous referent.",
+      "faithfulness": 0.8571428571428571,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "label": "refuse",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly refuses because the knowledge base lacks relevant information on faucet repair, matching the reference. No citations or unsupported claims are made.",
+      "faithfulness": null,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_truncated_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "label": "refuse",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly refuses to provide personal appointment details, explains the limitation of not accessing personal records, and offers supported general steps (contacting VA) from the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides supported loan advice including prioritizing free funds, choosing federal loans, borrowing only what is needed, budgeting, contacting the financial aid office, and military-related benefits, all grounded in the cited documents. It fully answers the question without material errors.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.3333333333,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly answers that spouse benefits are possible without working under Social Security, citing the retrieved document, and includes accurate conditions like age 62, spouse receiving benefits, Medicare at 65, and reduction rules. No material errors or unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.94999999997625,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately states FFEL Extended Repayment Plan eligibility conditions (no outstanding FFEL balance as of obtaining a loan on/after Oct 7, 1998, and over $30,000 outstanding FFEL loans), describes fixed or graduated payments up to 25 years, and correctly notes separate eligibility for Direct Loans with the example. No material errors or unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly lists all eligible federal loans for the extended repayment plan as specified in the retrieved document, including Direct and FFEL loan types, with no material errors or unsupported claims.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately answers the user's question about rescheduling or withdrawing a Board hearing, providing correct details from the retrieved document about not losing queue position, written request requirements, and the 90-day evidence submission period. No material errors or unsupported assertions.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.249999999975,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response answers replacement procedures but omits the key condition that a Standard ID is not accepted for domestic flights from October 2020 unless a passport is used, which is the essential fact in the reference.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.19999999998,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately answers the question by describing the informal conference process: the reviewer calls the number on the form, makes two attempts, leaves voicemail, and discusses reasons for changing the decision without recording. It is fully supported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.99999999995,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response refuses to answer the mailing question, stating it cannot handle documents, instead of providing the supported instruction to include the Social Security number on a separate sheet. This is an incorrect refusal despite offering general appeal guidance.",
+      "faithfulness": 0.75,
+      "faithfulness_status": "ok",
+      "context_precision": 0.0,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately explains survivor benefit eligibility conditions (age, disability, child care, remarriage rules, reductions, earnings limits, switching benefits) and provides contact options, all supported by the retrieved documents. It answers the question without unsupported assertions or refusal.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.99999999998,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response accurately provides the required steps for withdrawing a hearing request, including the 2-week notice, required information, submission methods, and relevant conditions like switching to Direct Review and the 90-day evidence window, all supported by the cited document.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.49999999995,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly answers that VGLI allows continued life insurance after leaving the military with premium payments, and accurately provides application deadlines, coverage limits, and health proof requirements supported by the retrieved documents.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.999999999975,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly instructs contacting the local court for tickets outside NYC and mentions DMV's My License service for payment location, matching the reference. It also accurately notes NYC tickets can be paid online. No unsupported claims or incorrect refusal.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.9999999999,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly explains that commercial registration costs vary by weight and location, lists typical fees, and directs to fee tables, matching the reference that no single fixed amount exists. It avoids unsupported specifics and provides supported conditional guidance.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.7499999999625,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response provides supported guidance on accessing benefit information for family members via SSA website, BEST tool, phone, and online account, matching the reference and retrieved documents without errors.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.499999999975,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "label": "answer",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response explains revocation as cancellation and reapplication after the period, with conditional approval, tests, fees, and civil penalty, matching the reference. It does not assert the user's personal status or present branch-specific rules as universal. Citations support the content.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": 0.8666666666377778,
+      "context_precision_status": "ok"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "label": "clarify",
+      "generation_status": "failed",
+      "correctness": 0,
+      "correctness_status": "not_scored_or_not_applicable",
+      "correctness_reason": null,
+      "faithfulness": null,
+      "faithfulness_status": "not_scored_or_not_applicable",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly states the two requirements from the document: voluntary participation in chemical/biological testing between 1942-1975 and a directly caused injury/illness, and confirms both must be true. It answers the question without needing clarification.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "label": "clarify",
+      "generation_status": "ok",
+      "correctness": 0,
+      "correctness_status": "ok",
+      "correctness_reason": "The response gives generic FAFSA application advice without asking what 'neither of those' refers to, failing the required clarification and violating the reject criterion.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "eval-v1-dev-refuse-009",
+      "label": "refuse",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly refuses because the knowledge base lacks relevant information on faucet repair, matching the reference. No citations or unsupported claims are made.",
+      "faithfulness": null,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    },
+    {
+      "candidate": "rerank_windowed_k5",
+      "question_id": "eval-v1-dev-refuse-006",
+      "label": "refuse",
+      "generation_status": "ok",
+      "correctness": 1,
+      "correctness_status": "ok",
+      "correctness_reason": "The response correctly refuses to access personal appointment records, explains the boundary, and provides supported general steps (contact VA phone/office) from the retrieved documents, without inventing personal details.",
+      "faithfulness": 1.0,
+      "faithfulness_status": "ok",
+      "context_precision": null,
+      "context_precision_status": "not_scored_or_not_applicable"
+    }
+  ],
+  "new_service_operations": {
+    "planned_requests": 20,
+    "successful_requests": 19,
+    "status_counts": {
+      "ok": 19,
+      "failed": 1
+    },
+    "successful_timed_n": 19,
+    "successful_request_p50_seconds": 2.3760027500102296,
+    "successful_request_p90_seconds": 2.7670628666412083,
+    "successful_within_10s_count": 19,
+    "successful_within_10s_divided_by_all": 0.95,
+    "api_attempts": 20,
+    "generation_cost_rmb": 0.0315389,
+    "observed_generation_cost_per_1000_planned_requests_rmb": 1.5769450000000003,
+    "unknown_usage_attempts": 0,
+    "cached_response_replays": 0,
+    "context_token_observations_n": 0,
+    "mean_context_tokens": null
+  },
+  "new_service_quality": "not_scored_in_this_comparison",
+  "new_run_costs": {
+    "scoring_smoke": {
+      "api_attempts": 113,
+      "accounted_rmb": 0.8598391000000001,
+      "unknown_usage_attempts": 0,
+      "cap_rmb": 2.0
+    },
+    "context_precision_plan": {
+      "api_attempts": 201,
+      "accounted_rmb": 0.2386199,
+      "unknown_usage_attempts": 0,
+      "cap_rmb": 2.0
+    },
+    "service_smoke_and_cli": {
+      "api_attempts": 22,
+      "accounted_rmb": 0.042312,
+      "unknown_usage_attempts": 0,
+      "cap_rmb": 2
+    }
+  },
+  "total_new_accounted_rmb": 1.140771,
+  "input_sha256": {
+    "data/experiments/eval_v11/scoring_smoke/plan.json": "0ca9ddd2cc1142ec87dde2c4b23d3f82a67cc8f5089aaf04438031bf14a3a721",
+    "data/experiments/eval_v11/scoring_smoke/usage.jsonl": "c1de22555f87ad76bf6c26be240b2fdd115e81c8807f8c78900780eff12004cc",
+    "data/experiments/eval_v11/scoring_smoke/results/59b1d33cedcc383557ce2304d6ff99ecea14873d9a4e0f165581e5442128235c.json": "88d5c372a127242e9c190cbee7720f8aedc91b6b3679e222b4aad8f42ca111af",
+    "data/experiments/eval_v11/scoring_smoke/results/309160dd66509e939780f5f73c6b4597ad135e081f69fe09f79b5c69843b0f69.json": "496cc1bd75e9f704c43e244b05c5cff9f7fb21cfbf7107903785598ec12fb22d",
+    "data/experiments/eval_v11/scoring_smoke/results/a485a07735e92288338f3e1c33cc14237b23806c66177eb177251e71e3c5d9b2.json": "e4eb4af54725ccd2fcb8772317093101d3c2003d7e7593a09143cb49263af65b",
+    "data/experiments/eval_v11/scoring_smoke/results/975036ce8151ca3b4ff3313d4f5c78981313cfb4cb77f811db9daa000b0d44af.json": "5830ceda5b5ec526e77141e150e29acaf8c198d242e343f62c48ba3f3c3cff0b",
+    "data/experiments/eval_v11/scoring_smoke/results/8e0d83ace6533740736d05f030f4edb1ecb11af33dcbbe30135f821cdc5c0635.json": "c2546e93579bad54d2dea74a1a2fc791d74745b98f8dd7d9296eea905d1b541e",
+    "data/experiments/eval_v11/scoring_smoke/results/7e7ba2d8bed95a710f3e0c8c2f0e59461a68c8ab6485c2eae6e9f7c855fb3e6d.json": "d04814d631d82ccd3e9516f8361d8c3d2c154bc33d5e388d051a07b79de652a2",
+    "data/experiments/eval_v11/scoring_smoke/results/b1d2122523ba6c9c4991b3c0ce5ba265c95528ae4164eca1ce7f1cc3c49d9ddd.json": "3712dd0c79628a286916f35a64025d89863df8657f762d7a77fcad10f4dbb609",
+    "data/experiments/eval_v11/scoring_smoke/results/2b17972dbf3cf7f808c5a247768918f9c389dedd2aca72e5ff1de1e58c66deeb.json": "f20736a05e538f3e95780de25fe451ae7e70c90867ce804d7da0a029cabd2079",
+    "data/experiments/eval_v11/scoring_smoke/results/347d24386bdd68924f569ebe12e64ff091e4b509fd75dc63fc10478086977899.json": "aaf25ea037e1bb2cc78089307c974fa572a8665327c4679720191fcd0e755bc8",
+    "data/experiments/eval_v11/scoring_smoke/results/4414157fad6c031aa94263f381bc1ba62fada020755551cdcba0e3a95d8a967c.json": "471de8ebb0ab6fab2988f6fdda27c7215942647a0c08711644fe70302b11e10d",
+    "data/experiments/eval_v11/scoring_smoke/results/9ccab41515e3216253f236205c1cd32508db4fbf2efd7e72ff992e8ed6962379.json": "ac0cf1bce56dda52bac3bf9118d3bb9e14e39bd8036eeda7abc6c8c16ff91336",
+    "data/experiments/eval_v11/scoring_smoke/results/2fd5f8fefed2db7a01ab446d4030b7eb2970474bc51e7057a8c827af9ed07a1c.json": "13cf4f7840d60efc86d4b6a17c425fa17127df8b10ac8817c8e86538639ad53e",
+    "data/experiments/eval_v11/scoring_smoke/results/a06e4323c60f1670e3e33d36526c05c754f94e00ee9fa7595f797dd435d25d82.json": "3310348bf0cdb704053ca09e97da7cc2cb49cd81479f49bfe932d8b51202e778",
+    "data/experiments/eval_v11/scoring_smoke/results/da487eaebe9dd9a7e3c2759a6bb427c9cd0f976086288e3b378158ca4f081a04.json": "6e050c85275d63e9a0325a64c5bf19040be6b4dcf89466110acde4d03fcf67ea",
+    "data/experiments/eval_v11/scoring_smoke/results/7dcbf7bf5e772671993fd44d66d436ef228c74e6707742fef13fb56507f0a1fc.json": "51fcd190378ef377df682d57c94a7f29520c7839d37a4a2d5863de07ddedad00",
+    "data/experiments/eval_v11/scoring_smoke/results/ed95054102fb27e5d834318457e78b41877672e52faf716d9bf66d39f1d1fc7b.json": "014e18b0ab4ff623da3c48aa03d060d813f75c98dcf67b039ac56ae6ddd89498",
+    "data/experiments/eval_v11/scoring_smoke/results/ae52db4e0b6f4a10f138f3d9abf1aa3371f9fe03141b7b31f04b8cc8be56f12e.json": "455749ced370f3f3344442f4d6e832dd4aed98f7c6f0e214e2c7cdf481419652",
+    "data/experiments/eval_v11/scoring_smoke/results/af3e3573b6b1fa9670dd3336db5dffef1e00d098a4fc35b58f136c81c8ef1d64.json": "2d7639f82f7eb8ac6d7d29bd5e12fe08657c9c9569fe002598f219b102add4ae",
+    "data/experiments/eval_v11/scoring_smoke/results/fdd89dfcd1bcb1dfe2577f36123d20c26176d5a2ef12e3f736036c1254d3c760.json": "10612835db41c811860a4da34611ea8c0f5e9e4d18731509fb5d7fa0128ad178",
+    "data/experiments/eval_v11/scoring_smoke/results/0141f3a369b980e11a88be66ef08141fe0c78737b52880632b42007e7599151c.json": "7a4b3db0d103c424bd546a9c8190bb19e15c9158ca58c413e1cbaf079cfb1e69",
+    "data/experiments/eval_v11/scoring_smoke/results/6d17cae0fb7a6c19345ed64147bda2eb4a3a002359348de3c04b548a72ce043e.json": "5425936060ecd56b76503bd1c4f156d527813d7b148d669f26995398c0442901",
+    "data/experiments/eval_v11/scoring_smoke/results/7a5f48f0e03686bfd225878e388514f8a8487b30a1c0f9239154c41ba6666084.json": "e52cd1e6d38e6906c8a79e08b586f1dfded7c6f7e468762ccadab2336fb8e33e",
+    "data/experiments/eval_v11/scoring_smoke/results/cb37c291f0840d8984938d4fdaaf7ec7bb1984dc92fd53292c682fb29fa8a7b4.json": "7f4c711516a20364d6f645c2f6baab4c18e037c0086e0c7df75c4278ac3e06ae",
+    "data/experiments/eval_v11/scoring_smoke/results/5e3f93b92e2b81c73a9186b146f042ba8252debdaeafac8b0147c35515924103.json": "1bd6d3f93de611f63a5dc5a929ec68650bf0164ca3ef90e0f50eb11d16bd91e5",
+    "data/experiments/eval_v11/scoring_smoke/results/707fd74935273f454f57d3d7c6c9ad883a04c71755b8dac11333d81a55f3a9ac.json": "5e736530fdd617071a3b0d2a250cf8b08c459dda45a4515dfffa9844af0c69bb",
+    "data/experiments/eval_v11/scoring_smoke/results/084880ef60f85ec0bc9361f0ca146e750f364b5b7140ecf39a6c2bdcfcb326e0.json": "a69db7cfbba271cf907a3c6f3ce1bbab8d506115b8040963fb760b59ea80b95c",
+    "data/experiments/eval_v11/scoring_smoke/results/9e109a23615fc466754b0ba747b28886924ef4ba25e0bb5ce038607aad8efab2.json": "1b7d18b2783f8d01440e48530247dc721a106e881f059cb98cf6f527406f1e79",
+    "data/experiments/eval_v11/scoring_smoke/results/c2f850775366f3af3609286835e1c0d8ed8e7306aea9ed0650d24c7565d8bd2f.json": "d4743eeba02d189cef6f5dceb71358e0889ba453dec55461997369d56d281bce",
+    "data/experiments/eval_v11/scoring_smoke/results/e6cc5c52c1c3cdc0981741fb77e3b6e4d609a906435e7c659385533541ea60d2.json": "a2f4c0a6908dd0feb4c46e6d01ae3c60de96eec31f8fc383cddb8f11dd1de85e",
+    "data/experiments/eval_v11/scoring_smoke/results/3be647c603501a6b839f64b2babd42eca83d5528e1da21e69971e4a1f02d6a17.json": "e954512e1255e85d4d242b9e1be81c5ec909893ad32f68deb05d24098d19346a",
+    "data/experiments/eval_v11/scoring_smoke/results/dc8db62b97f7a8b91fd15aa881e354bddaa6a2c0a95e308e46831b9fcdc71d6d.json": "859d3d1c172093c0ffb2707eae347d3ece5fc2022c64cefd63d7da8ead1c785a",
+    "data/experiments/eval_v11/scoring_smoke/results/9e5e110ab830741e7d8796c1fbb9203ba8d9902a4033a9439b2e8728581c2ac2.json": "b288f4b5de5c1501893d0e1e6aaf188a13fee8db30151cba1d4f830268ad657c",
+    "data/experiments/eval_v11/scoring_smoke/results/76a9096d3824bb719bf7b7bc7c9f702aced46c13fb8931b79c68f2f0ddea2ecc.json": "1af387e44aeece58a36d9e7ca3205f451795603b5b1f6eb611ae96d827ab1a82",
+    "data/experiments/eval_v11/scoring_smoke/results/8646ed15ffdbfc65a00995cd2607fd555f2f6a525626e2081e069db114f9a954.json": "08d43728c3244e7a6a54b4abb347ea19060dd6dcd1b6e88ffff5b74eb3ca688b",
+    "data/experiments/eval_v11/scoring_smoke/results/35e368278a3ceb3839b34dc187e3ccb9b1d5fd18f8ac83a8f3931d852c40c173.json": "c26a36c4ed77218f1714a4473ff2b52c1a78d2f98e6465820647935156ba4950",
+    "data/experiments/eval_v11/scoring_smoke/results/1e1921b432fbfdb0bfcd636fafd480157f7c3ab94e78c3d9e995db5784344d84.json": "32c06c7adf7403d71db0305519cfcc160db63e5d5c3e37e1c333787fc3e0001c",
+    "data/experiments/eval_v11/scoring_smoke/results/9d2b8d61232ca0892efce01bb9317c33d2080d112464222a71d7fa07c7de0e6b.json": "ea5ff3e2d4d927e96545bf2dfe69f92695b6da05eeff1fe8d3ce03f0c8a21a39",
+    "data/experiments/eval_v11/scoring_smoke/results/d24b183c2e28b019f9621b4e2f7cbde4b7bd56ee86f3fe73256b00b7666a6b5e.json": "cee24a47f55d5d8b65e5af3cff018bc4e7a37c40e21a3de08a2362c3f853dce7",
+    "data/experiments/eval_v11/scoring_smoke/results/4b910ec8d4e63efbf9afc0fb3404f4e04b21a049ee9dae2b24cc7685d322d228.json": "fe34a9ce6bb6139984e02d64c67f6e969c238550613b1509afc097a3cbdc62f5",
+    "data/experiments/eval_v11/scoring_smoke/results/8d796adb50117edebdc396d038974d2ea9695a2c36d1f160bca1da655ff6cc76.json": "6847e7bc43628dbcca6eaf6727b239659dab2d3f730ae5e8e61d3c67f7d70007",
+    "data/experiments/eval_v11/scoring_smoke/results/076a86a8f48fc0de66c924db958b54b6cb3e55d83ac0f56372f6c53458e01bf2.json": "917b19a3d138c5eedf4ad04d2351a32cdd2f7c626115fa4cb99bc3497d09d4e5",
+    "data/experiments/eval_v11/scoring_smoke/results/a09aa27d66468acd5581145889d870aafda10d19a16ef9277e984bbfe355a202.json": "916ea91c1b9b668ee7bf9a6ceed29bd9a4c5522d2c9e8c7a90b77edd19eb82aa",
+    "data/experiments/eval_v11/scoring_smoke/results/9c87571a4e6daf1a1ea65cd198e5cecec91b03d1aab86907d152f012e216b35c.json": "20ef2f760a2612a66a2f7d5f93e02f338798c0492e99cf08fb918916e4716bf5",
+    "data/experiments/eval_v11/scoring_smoke/results/1f4e3cd014e916ae5df25f2d71db1af20960fb5840babcea2afce790da3f5791.json": "563b2e68750b23470c5075168cccdeed39edbcdda45c8851f4026e87f6fa8918",
+    "data/experiments/eval_v11/scoring_smoke/results/2bbfa03457bdee58990b3275881a131b4669d9a1ad7675b3cab1d649b37d8917.json": "a1743efb61c0c0ece47728332941ba7799939e148f5381d2cf63673ede4adda8",
+    "data/experiments/eval_v11/scoring_smoke/results/3a7629f4bebdc31da6eb918329013615b49acf3e70d9442e65cc49f560c7c57f.json": "0205ab5c98fa4a43aa0d1b314eccb4ce47b30d5699aa2c5fad068a3fc36e9bf7",
+    "data/experiments/eval_v11/scoring_smoke/results/a31ea5544e945fbfaaefad00210bed779a418726d5c37fead6d34d857d74395e.json": "790805fe6b292bcdede346a4a6229ec446641ee27d4b358f4a7b02403ba4da65",
+    "data/experiments/eval_v11/scoring_smoke/results/ba14661b76ca33f97f8d935ba9b1371b9a658576589743c0482709eb81a7f258.json": "587fec75fad10b870ebc0253f3f12e5d9e9aaa2e98f9769f5bfeacfed512384f",
+    "data/experiments/eval_v11/scoring_smoke/results/85823cba7140e21c7aca940286aa37ed0d9d101b042ca80b18ff686c2248824f.json": "abda05cf57baad0fd3b978146e4a4d8669cbc7098640d9cb52ffbf465b3cfd33",
+    "data/experiments/eval_v11/scoring_smoke/results/18123889503b4db92a6b519f79379c276ef9af03da01f2e3d8431f1d4bfede4f.json": "381f9ea91cef2f31f012f3a731eb9159d2acd4e71cc4a32bf49dad022cae0b16",
+    "data/experiments/eval_v11/scoring_smoke/results/00fa479b67477e7065950d6e5f12f20815c484ba6232bf25ed82b7e8ce4185cf.json": "2d69c7016247e303a101fb39306ff7a0fa1eb365d802b109f9e9f305c266a935",
+    "data/experiments/eval_v11/scoring_smoke/results/3f5b70297485269236f8cc90498d8c6f4fe5135bf76235ae80a3efd2740e4718.json": "ab8f35113c892e508d18ba2941f26c5f2d34890cd2394615a37f7ef3f198609a",
+    "data/experiments/eval_v11/scoring_smoke/results/2e0a6bd64bd3c1f2ac29b8dd95c62e1a8cddbc39d5883d87e5ab9918ff9078ac.json": "cc785fc0cd4d48261d064ba81298402c9f497e0f4bc231e464ec902dc6a29ae0",
+    "data/experiments/eval_v11/scoring_smoke/results/ccced1b38d3ce3b78d0bb17b917284cc66882a2c8205b0b31a73ce1bdba6163f.json": "ec99da9bdd8e6742a64ac49fec934ca6a930a7fcdaf095ccf59533d60295619e",
+    "data/experiments/eval_v11/scoring_smoke/results/8a1bef5be51f6fbfab786bde4fc82e47208c2f336609b368eba066bf843fba77.json": "0101d3ef7459a65de7e2961bdb4dfb51b50b8f0214ba013516321ccc6246f2b0",
+    "data/experiments/eval_v11/scoring_smoke/results/1f6624eee04994f1bf346c22ccc540f24626bcf67df0e9cdab42c7c7e889575f.json": "9245e923307504c52749636fca5ecec94610b92fa321518b509aa5e3758acab4",
+    "data/experiments/eval_v11/scoring_smoke/results/777c224912bed16bcd4250b49be2f824b5472cad2753534325d2f706eb160f85.json": "49f641359f3c30548f9a1fd48975eae93fc4a7f81435e80a2bbb2f2a49b1ea79",
+    "data/experiments/eval_v11/scoring_smoke/results/ee1780119f153c7815ffe3922aa362785776bce4df96c4b9d742b7a576a3f155.json": "0572df1c62514f4d4798cf8003f5c59b520e83db6b270b9f1a1f57c391a9af70",
+    "data/experiments/eval_v11/scoring_smoke/results/45627bb135c657c8ecc30d5056af1a81778073f803ec827d9b2a490733b55845.json": "629e5d58249f31d8872437233a8182bcd3a24e200df032f93f4f97d24cdeb110",
+    "data/experiments/eval_v11/scoring_smoke/results/d35ab4cb3bd86e098e39b3a01cb576aee5216b9f80d1ccf183981bd704602118.json": "705ce769452b8874404381a9efdc1e60e727ed7f59d427eb90ec726b9c862ece",
+    "data/experiments/eval_v11/scoring_smoke/results/14b90c79b704136fbb5a03ac54d50e22ef89b23945451b2c23134d45714de3ef.json": "855e9a34acd102cfb955a0d483f75762244d201fb99fd62a140128637a55d7d3",
+    "data/experiments/eval_v11/scoring_smoke/results/1791d09ef55631c525b84bda1138e2a29981951aed60fedc9e852fc2567c72f9.json": "0ef6c18bd0fda923a94a92954557cf0c363a6263c3eaf7109c1424f7c5599e86",
+    "data/experiments/eval_v11/scoring_smoke/results/098a2d5950b7c6fc96ac7e8aef36552557ddb4dcf8e74513eb063cee40babdf6.json": "c2948e3958988a67280f30cdf4f8f2e4b56e36f3e3cc0954f2d3907d672f23cf",
+    "data/experiments/eval_v11/scoring_smoke/results/e683f8d54ffd6157393331c082fcd8a92613ee09da9435e5e29a897b3ca24903.json": "e8a0ac9e1f38d2cc36297880bda1e857a8d7267f372445c2fe615e5a782cab49",
+    "data/experiments/eval_v11/scoring_smoke/results/a86b42ea4527eb1b7a2638a12f175c6eb821144eae5fdbc7eaacc9cec54777dc.json": "02f32d4c8053ddb4acdc77d207c2bfda880b24894449abd33a6f9bda0c96a457",
+    "data/experiments/eval_v11/scoring_smoke/results/7bdc70e3424ffedf734f491fc6e9a001a41e134f8be00e5d8f251013fb70ccf0.json": "80ba521d449237e3faf275c2c174cc21eff25df3e3e82c924467c1ab0aecfae8",
+    "data/experiments/eval_v11/scoring_smoke/results/8f3d7dce2a824f8ac7aa65269624d340f4230cbfd2923670027d3f645f9a9b04.json": "563b2d5dde1f4cf548093f0bca18dfcde6aa33945da012680c3f133d5b051243",
+    "data/experiments/eval_v11/scoring_smoke/results/e57e1f7c6bd790e62e49627823f1a1fdc8c1b9f98e23d62b03a41f867a23b68d.json": "186aaaf0e9ed4a8c71a917028ab9e9de5a8766ffce0ecf3f136e94b0c5470151",
+    "data/experiments/eval_v11/scoring_smoke/results/57b49372e322ac944b12ce6750969657686907b6f14c2c4c21cbea53c10ff224.json": "844bab121075327e3f044e52b88fc7d22bf916bc8e00eb28b3c0e034ee4b797d",
+    "data/experiments/eval_v11/scoring_smoke/results/655cf53df8619257ca3ef3cd0ab0044cf3af4d014cae0827da2a625f652fa133.json": "b0c56b87355e8dd5552ac727df7c5816081e9f2f641f38544b3ba44955c7af18",
+    "data/experiments/eval_v11/scoring_smoke/results/a8db1575388fff4a1d1f54b204505ddea50c4daa7e134c98c2b1f5074130d201.json": "e1ef4a3650ad0842ca0f033d9a91313f5381fe067a6c06e0027679d487a281c5",
+    "data/experiments/eval_v11/scoring_smoke/results/4a3128c3b77c740b25f3f7ea52ef9e6fac4e10a53cb34394b7bac694c9ca8215.json": "924e5eec571e5b5af6542f26c36ec1fff569b45403836cd2b66b96904c0a491a",
+    "data/experiments/eval_v11/scoring_smoke/results/3cbb28208ac9e02692586cab1599c018a3d538160b9e97b966c603015fda17a2.json": "3396536e92dfcef0d65ec1871a228e5302a35ccf3fc88f58048d33b72c727d90",
+    "data/experiments/eval_v11/scoring_smoke/results/dd2a673c8a813641a8a27e939e60432dac60349f9e6a51d5e47a09333e898650.json": "6874ff6f76cae9766d8d9c55697823435279f2f6f08f879a6b272ffc8be062c2",
+    "data/experiments/eval_v11/scoring_smoke/results/bda0b722e2af9d14a5c552a272f1b2a464596848f4ac15a6f3c63a5631219942.json": "56c3997478b48d62b17cabacacf404f58ae44bb3523cd1aa8d8c00135fa264e4",
+    "data/experiments/eval_v11/scoring_smoke/results/56c6a84b506e82162e7791cfea301d31d9d021c374b4de4f273b94a027340630.json": "08f8eadc5a1a5327f256970c3b50cb7ef0d4b7a4e9896789b1d780e64d265037",
+    "data/experiments/eval_v11/scoring_smoke/results/6ec0d17cd390b84bd7b4bd2f8d345f1fc70ec2015105f139e7445108e03fb11e.json": "14c079c25946d3fc1e05f828811ad090891c1bba1768f50bf982e6b77160a005",
+    "data/experiments/eval_v11/scoring_smoke/results/ffaa7d1e0e6955e33eea9b679c2bd6892cc55c37a05dad783563deec756a3104.json": "6771f284a9455466c7e3476cd6193be2162af732adab78cd2c693aa281114c4c",
+    "data/experiments/eval_v11/scoring_smoke/results/e730501d576555c336e45fc112fd375e0311f1ae9753310db3a1c8a5681fc2e0.json": "bd103e621930304350d7cd299131f5229bccc7c6c36a862aea5e18b57aeb2aac",
+    "data/experiments/eval_v11/scoring_smoke/results/19ebe53297442e3cfcc742fb4a5c692deb230ba47faefdb01abd999c3c596078.json": "04539c3fd35404509c6c659166f91705308b1ff2f3cc878ba476a9c58768ebc9",
+    "data/experiments/eval_v11/scoring_smoke/results/730cba838378b0366c213519264675a472c889a60314b5d2d862bf306fb077e6.json": "3e384b51268805256fb6a780c58751ca074f3236da23ec5136b1fa2ea3533a09",
+    "data/experiments/eval_v11/scoring_smoke/results/02171065da9071819189afbc2cbc482d8a7c49de76675ce90ab2b1d438ec3394.json": "b01e838bd9ecbd809c8cd9adf7577d55e4d5e4ba530a79c08744f36c646dfb98",
+    "data/experiments/eval_v11/scoring_smoke/results/e04fff8e1a74233e6a4a3812e38ad8134302e3798ac5859795233288f403f143.json": "6439e20329edcd48d8b007655a88131629f668c277c7639926f2c6644a2cf3d6",
+    "data/experiments/eval_v11/scoring_smoke/results/c1f44e1427ea95907aa98cf7c745790f3dd68e5e76a8315a302dda549eeb1153.json": "d50d10a139636a95cd089b6e77d30c5196dfb2caac9dc5eeb2d09f8a459b0b23",
+    "data/experiments/eval_v11/scoring_smoke/results/cbee37aa84d26e3fd66a51e0c3a162955f1cf99567d7eb18296a0d904e5d12e7.json": "2c2ea666ced385e19bd3969d220a4c76113052fdc6432780021df2d47db0fba2",
+    "data/experiments/eval_v11/scoring_smoke/results/de3c0b1fc934eb9b86c6fd888f4451aac4dd983f6188a30a55b4c0d123aa5b63.json": "84b7608f64a4942ff8449ec9b672505423a3251b83675a5a646a8f7760e9c20f",
+    "data/experiments/eval_v11/scoring_smoke/results/6f4c145289b932d0d93c7f518bda8a7719a9c5c6f9b61acfb402e91a39416992.json": "17e351d5e49efb97603c25f389d446a9ff5a71aa8564989cc0b939f7920872e7",
+    "data/experiments/eval_v11/scoring_smoke/results/5c94788b6be708a577dee755dcfe548b0ddd37173db5311406011b6ae273e265.json": "b55adab6c8852bb87ada9517c91235a527c1453e08eefbcd18546c47ed130160",
+    "data/experiments/eval_v11/scoring_smoke/results/8861fbf51c55263729f3b220856e01a5897cd22b3b832c31bac65f133bdb876c.json": "9bfa8ec3bc6a5756fbf56d11a08fe98a3adb007eb5cc28094e783b79c7f82055",
+    "data/experiments/eval_v11/scoring_smoke/results/7ce4bbd92892fb8aad50338c92daaa2999c9008fc2900e82181e6423b7438eec.json": "4cb94f22ed894d4d45be5f2f7831241fd2e1e87b91afc3be24a305f525ce5e53",
+    "data/experiments/eval_v11/scoring_smoke/results/ad69da4b200bf314c266066ec67c55cb28616362414565e2d9f93b60dc98151a.json": "9076a6f534db6deb61743d03b8e90a392cb06acfe2a4363f7740ea92b6d74cae",
+    "data/experiments/eval_v11/scoring_smoke/results/ec52e03a07507d5f94118256414502e4acc71b2111f8bd769cdb3b38a0152445.json": "9824637f132e7d85b78733eae487e08313ed9ccf60f52fad343737722cca07b9",
+    "data/experiments/eval_v11/scoring_smoke/results/e9cf8c773fdfc3bc46c57743941139fca516fc81ca861a63f3ec9d14cf65927c.json": "b61184b4b0fe48dc0d84452596e2b10425e5e3b81252047ef6dd92e40a755952",
+    "data/experiments/eval_v11/scoring_smoke/results/d3dccc691a4c72cb4d69fd319fd761d69ff3ef9c81a992eb216ac459512efb0a.json": "6d9d8a705826d9d8c44e24fefeb975e507b234a89d7d57e87e7d05271c86e645",
+    "data/experiments/eval_v11/scoring_smoke/results/1602b9fc51256dc8446181083dd6902f2c2574c23ac59d9cbe736bad208074c8.json": "0e3c7fa2e968fd7161c1d46ed30a5c47366c38b599feae7930d98c216008d56d",
+    "data/experiments/eval_v11/scoring_smoke/results/036c3ac98ceef771bafb34acb64c8bb4ef1be3237aa615f59eb72b744a80ed27.json": "e2d2b61321c79dcbecb427676ead7092ce0ede31cdacee7c96b04138fc5c28b3",
+    "data/experiments/eval_v11/scoring_smoke/results/9107071d0138909c5fe5f159b104625de5a9d9734f912534e98d1ad2d51fb0ed.json": "5b30778d56bc6176381698bef4db6037de22d205589fbe27f3ae24df12c872b8",
+    "data/experiments/eval_v11/scoring_smoke/results/0e749832662bde4a17fb73cf07b7f362ebf8f21fb6a4e97ca0abda1d38d8bc73.json": "6809bc19c6e6b753319de78d3fcad63fb0581c2eaabb6fd23f78a99d8b469773",
+    "data/experiments/eval_v11/scoring_smoke/results/e86e0e6a7ed7646d4c128c193846b4a26b31fe7a57d2819b437945c1abd3fb87.json": "729923f7c9d3af7e500c32aebec1d74149685a0cb0ff3dabdd9ad792c57413a4",
+    "data/experiments/eval_v11/scoring_smoke/results/90aed6300150162aea665f37b7685866a2e62399e8100ff2256386212cd236ed.json": "06aab75aafb9b3ca51ea6cb49c20ae40a2cb07c32367e4b419dd3478262f4f72",
+    "data/experiments/eval_v11/scoring_smoke/results/026b998414d3bcaa3b813af147793a0eb24adefeacad1dc257b9b3121aee6123.json": "3b274e0d0a7191e2ac1a6bb559f47a24446c7dfa560ec8e1991866da906569e4",
+    "data/experiments/eval_v11/scoring_smoke/results/5b0df350b402acc0d2c0f666e42c333f35d3d359c1dd02f8eb295fddf9534e7b.json": "03a818f7d18b292a5601ad7a5147a4b214d71f9e63affb7ad24898ba32deb816",
+    "data/experiments/eval_v11/scoring_smoke/results/03016a5fc0547183a26d3bf4b9fa1ac6fd367c055a73d688d98e301eae0b3537.json": "e93f21da5f1798d0afcef90f896c0064cde9cc45853f1d1b54fec49f4b8dc151",
+    "data/experiments/eval_v11/scoring_smoke/results/740b1e0f69be1da8a3a2a70a13d5d9d6d18aa3d755485a6a395c8e775dd5a6b2.json": "3352c6b1ea618825261a5d2869787e0ee2387afc7ae70bbd2b35db3d4466cfee",
+    "data/experiments/eval_v11/scoring_smoke/results/647a66c9046e9c35afe443fc38fa28e5098985502be645d83db1e0beee10b1ed.json": "66d2eda2a75769789fdf924c99cf4bebb5a2781802e2f4dcc144d9b06ac70f0d",
+    "data/experiments/eval_v11/scoring_smoke/results/140cdf1f697c3046180f28b8b16d2ef116359cba2d7495d7aa00eb342d34e158.json": "834145d31811ce83d7beb2b135eaac8d3541d469182a74a1f8835196a00142ed",
+    "data/experiments/eval_v11/scoring_smoke/results/7d2d72c5417ed3adfc08cf36ac1084210ee231587a4be50eecbe0874f4659d51.json": "c28a9039e988e63cdfc5f6b8869cb388ff187caa2c978f31ed093f7423e48171",
+    "data/experiments/eval_v11/scoring_smoke/results/bfab9cc74462e7005b352f52461191369cc0a819c00f3304298c04cf01bc657f.json": "00fd7ca653c68d74cf078341854f416868ef8be46a0ac9544e289b3cdaafb812",
+    "data/experiments/eval_v11/scoring_smoke/results/ced9a38547f9c2c1fd72ff8ac4405aa68be2277692a3fe4d507830067f70fbd0.json": "8697b66cca0247fa8b6296911f631783f387f3029667058c36cfc3773f710427",
+    "data/experiments/eval_v11/scoring_smoke/results/c4649ea8bf7fe44034f131598163ac0407445bc124a0cd5fb091330aec264c64.json": "7cf5b2def5f9018218cf3c9ca5727019138724a3b8b6fa219e182a5a1d5ada05",
+    "data/experiments/eval_v11/scoring_smoke/results/387d150285d92579b787bc9cc8ac92bedcf4b4d1c3d91bbb48a530e4bd3fff4d.json": "738205abe2ecfab3ebf07e63078a3e7e9ab975e2f6fc5e26ce39d98524935d93",
+    "data/experiments/eval_v11/scoring_smoke/results/6a434653ec537547eca76d468ced9871711f9c30dee935dfd879de13d696c3a5.json": "4c1ea9780383bfe45c790793a9ccf1a809bbfcaff921b36e2397f290ef11c19e",
+    "data/experiments/eval_v11/scoring_smoke/results/ab47b30d3d59b2315e621d17ff569821becdc53c7d7f9789e866326ddd0f12df.json": "fcdc8b39ca8b0bcb3b1709d36f6cc3ff03fedc4d4ef45bd58b92b2a5a48cd43e",
+    "data/experiments/eval_v11/scoring_smoke/results/5f0f7463a4e7488551992edf659dee16f2d549c161fce85c0e1d6a68f4773042.json": "6a2b1cc8ffee00fb1832d0845478e3ee3c97d5c601c8683ecbcca46229dd844a",
+    "data/experiments/eval_v11/scoring_smoke/results/e70cba036604a7e72f3d28853c6f8e4034ea31763b38c87b5745285b33099bf4.json": "224fdad97f81d717e7f52444e2d3b8470630427ddf36d3c394bcf6d6b0259471",
+    "data/experiments/eval_v11/scoring_smoke/results/da7fc172362a35fb853429bbc1e59cd0d0c1bbd5e6c745e14b7ace9c8a5e4c5d.json": "b3493641adf9028c079e5fa3527d55ae8102c939ebadd98fc427cb0442528a60",
+    "data/experiments/eval_v11/context_precision_plan/plan.json": "65939cff39c861eb57dce2187c991b0bf2a0dd986f7d8fb2177f94767ebab8ab",
+    "data/experiments/eval_v11/context_precision_plan/usage.jsonl": "34ec4590dd6a5d725d6e917c402fa2cae78e35af293549b2c223fedf6db7a4d0",
+    "data/experiments/eval_v11/context_precision_plan/results/d2be3f1390f39b36accad429818dcf943dc204dcf73da91033fb2335fe292400.json": "183a9c495882150981bd2e4f0ef4a92ba25fbaa5bd72f10c35a1b5edbced517c",
+    "data/experiments/eval_v11/context_precision_plan/results/2de79472f1f93004d75c358ff012b2c25daaeaed522c9fb5d2b763417cd4a0d1.json": "31b24f9d35a365254e8cce815b38d61437636f82eb7830d1c717028dccd6b851",
+    "data/experiments/eval_v11/context_precision_plan/results/3ccc6190e8524773384ee5537a45115c6c61e470fce0e5d49f68ca5687dda450.json": "af7d06280d7ce9e19cabd888a3ddf802cef71f446a4a738a1d3bc37264f24049",
+    "data/experiments/eval_v11/context_precision_plan/results/35e369be15c046e49b3f41da9aa1d5ad9604ebf7b3024752dc2f3fd9740ade2e.json": "d5f2769bdf3a988793af86828c864118a7c65da589c09e3750b06b7ceba05b4f",
+    "data/experiments/eval_v11/context_precision_plan/results/e582195523f11d4b7ad729e0b2a9cf0420724f8656a84b7aa59b88c253599898.json": "9b435586e4255cb858c28980795ae9a1e0ecc1f3eafd6b4dbfd5a75aed9b4308",
+    "data/experiments/eval_v11/context_precision_plan/results/9884f15a0d97a99dcb9a61f507d4cf13992b1b983fbcefe2494b282bb03f66a3.json": "f14cd784ff566187a10ef27158b22dbdaa79ac17005a0b6c758cb3d18ab58218",
+    "data/experiments/eval_v11/context_precision_plan/results/c7fac3c08434c4aac6746d9dc8e953688a10d2f17eca8b4f314673e65acf3095.json": "98569f4ab9d0633ee66bb052d0b71aa423b6840ea57904ee431149a915dda7f9",
+    "data/experiments/eval_v11/context_precision_plan/results/8fbe1a7aa81ef3abc692d6d16a48ca834c6b5678c9c05cb1d5631f2caceae7e1.json": "c7792b6b6828a22c67fa1e49a15190550ab055fd291d965d4422b5d31d95cea2",
+    "data/experiments/eval_v11/context_precision_plan/results/4db7a09128dccb2494e4a583c92a88d5633370e23f15bb0226c6acc79fe2a9ec.json": "7f1e5d08fbadba28a2b15eade94836b170dfb55db0da55b0c34004a5921d9e4f",
+    "data/experiments/eval_v11/context_precision_plan/results/2bab84f1fe07605ebaf73f404ccbed5b85adcfbb01d2653dee3287315cd0b7ab.json": "478148aa09280d4e0382b0e57297d84fe6ebdc9d0c8c0c4e3c2083de86a52962",
+    "data/experiments/eval_v11/context_precision_plan/results/fb0ecf9e11154c90d5166cdf04e42a871f23c0a847676b7b758d8a7d44cbd427.json": "50b54e7804196325738faaf8a9b2698b85e489acc4ad62cd99a21951e4c8dc96",
+    "data/experiments/eval_v11/context_precision_plan/results/b4198730375e6866ff51078555fd20e7bbad5469dc52fb707b0a077250290fdf.json": "25c24d5ed20ee7ac56366191a65c05ab845c2ffdab1d4e4fdb242ef34ddda258",
+    "data/experiments/eval_v11/context_precision_plan/results/8b4ff5cf5bf81afa4aa8232d2b85dfc8174a878eea42c0f9c84cf742a095dbcf.json": "11fb8ada349f8ff0b575bedb0b9bcea5197810f5da5a18ddaa0ac27bdbb849fe",
+    "data/experiments/eval_v11/context_precision_plan/results/ff5cabbea48d090c50ab85992fbc15f56041cfc8dde74268c62d734577aadff5.json": "c917e43a4bfd9bd2107552541ed55cc4dd54011c95195df84257a4045ac42b71",
+    "data/experiments/eval_v11/context_precision_plan/results/8458ed46dcf51c8395a8dab48bd369c91b9c6f2a09c1aa98bcde49c2ce2f8a97.json": "f5760e378573ebe510100868a474f3064b032fe50b2025c7530ad1604453d52c",
+    "data/experiments/eval_v11/context_precision_plan/results/9430b2ca6ef579f01eeb2c40d5e1db85e6174ce48925d46156f474076ba918a5.json": "c100d68c40b3dc123710b8e926cf9d1e6a9519ca2dea7ecd7e89bc2b98a3f656",
+    "data/experiments/eval_v11/context_precision_plan/results/a22ba892ca7167518d57aeb278ce350c649b706cb9a4e268c90b75b6151b1689.json": "bf514857b2b1aa05dfce781eb3dc1a78df8c01cf632526655585c6e13602143b",
+    "data/experiments/eval_v11/context_precision_plan/results/dfe44e585b4f73a9837f44a27c0374740974af0a3f4957bfb835e7ce5d5a9637.json": "4a66b5c417a4db7d893f43d653652dd39b16572894d4404b3c80a40c6e72c026",
+    "data/experiments/eval_v11/context_precision_plan/results/dcb78066131ae5ed70c693689f27c7d4900507c586b5bbbfbecbe4943a9ff242.json": "b462391abafa46c030e458f7eb7f174d7065e15434422b3f7e918d13a6cffda5",
+    "data/experiments/eval_v11/context_precision_plan/results/539ca673db8d00c4b2b35f93955e7dc853f2d7ccce92aabe2da6741e39ed3592.json": "4fcf6770e12f0febea2845a57c098a45b66deb28af172f4815a2f9107c06d4da",
+    "data/experiments/eval_v11/context_precision_plan/results/779b6a307f32bafef2d2123db8a9015d5b18c2ba62f4cb06aa65b058ee0bafaf.json": "4c1cbb1bd79f7b2877ddeac843afa1cf8d105e41c9500d3ef1d867c2cb16b2fc",
+    "data/experiments/eval_v11/context_precision_plan/results/05d7a31f24180d1213355848fcb8f16f8c4e9f61800fa7bc5959e2c14c31823f.json": "4958958412af75406febcce67d96cf277457828d2182f183fc93d3b7cc5e35d9",
+    "data/experiments/eval_v11/context_precision_plan/results/d7875ad4dbcf2921947237634f5bba2e128a0a96eee1e517594d75fd343a967a.json": "acb6be26082208b12897478c9a5e1b7da30a1369bcc0143a77ff4299378d1852",
+    "data/experiments/eval_v11/context_precision_plan/results/7fe6ac37a4943c59bb7df973e2bbda536d27eda95096e42c93f1b77c4beddcd9.json": "328ca48dd9c15c6375ce83ee6ecee22c429498f4cfadb5a0d2c1e22adf994a89",
+    "data/experiments/eval_v11/context_precision_plan/results/aae1c6271f07a94e5ea63dd0a2918d54b243d817f1ec0aded1b1e110bfeb79a9.json": "5a52e9a75393aa765683b7add9e737075f17aeda4ba847b66d45e8af1bfd5d94",
+    "data/experiments/eval_v11/context_precision_plan/results/ad03c8fb9620780336395c774ca12ea5bc49f163bbded6c21554636b138527b0.json": "7ad16c2fdea89005f5d708cc58c3f140e95cc720dccb261ea97f3ca1baecdcba",
+    "data/experiments/eval_v11/context_precision_plan/results/2ee2066a9ebe938333da94384194cc01fb384346627d41f1611ca9e031379757.json": "bbb91fcb42181b0bb56bbb6fe31ca832d127f4126c2dfb93bc40b613f94bfaa2",
+    "data/experiments/eval_v11/context_precision_plan/results/ebeaec8b7ff4857b82e2a09d40c91218f66957088357b3c899bf63a5d6816b17.json": "cf7afa85666e69bb88e0cfd92df6479dd1b1a25c0bfb35e65f14e753cf69e019",
+    "data/experiments/eval_v11/context_precision_plan/results/ca6321c26d2e5de99584e4ac8f3d3780897d49c96c3c9af97b7bcebcca3fc8bf.json": "70d997f7fba86ca74248ed90663f740e48841419532201b3293158a001ba6cf8",
+    "data/experiments/eval_v11/context_precision_plan/results/225bc278508663507074d233c813bd9089baec2a2d001f423fe896c1621893b9.json": "cecd46a0c625674caa7d74a0b47684086f2898b66f8b5d660208bba4b428cde2",
+    "data/experiments/eval_v11/context_precision_plan/results/8bc4c76f4499f77c8a686236c57684f11cde905cf8c9ea419f61dd12559db94b.json": "ed3c8a67146772a5ec8a5f27d30d787d4f96a4f65c377719a3e31a03311970d8",
+    "data/experiments/eval_v11/context_precision_plan/results/a706c444eb98f28915fafcc7bfaa0f862b3b585ded270cad52d498ffb23ae3fd.json": "d899943cdc9eda726e730f76727c6c2632ef9df8a73d622f0c7e884796095474",
+    "data/experiments/eval_v11/context_precision_plan/results/da4cc67d54a3be11d826be9271db0f34f840c93a0414fc7cf59fdebe2bedd6f0.json": "9d9a7df775c9046e19fabd6d5c0dca15f86942d09de91aec0d31202d0b82eeba",
+    "data/experiments/eval_v11/context_precision_plan/results/6eb9d9815c4134bab1d8859578b12a4317256a5c1f6ad91f9eba6c4205f66280.json": "107e7bf4f305a8068f24df83f6c5f113a0c8080e0f364f4ebc2429e7d6394bcd",
+    "data/experiments/eval_v11/context_precision_plan/results/387aa43c905c99eaf2a5537b0ae9c9199293d14ccbac8749cb0e3d6757d6750e.json": "3a63e2c9fefa3a07a9fe6274dbfac448d8cafdfe3bc260a61d68fa9909cf96a2",
+    "data/experiments/eval_v11/context_precision_plan/results/82e3e1c3b3373169e8edbcde97346d76a863653ab01d1d937853fa06fce99cf2.json": "9c3a1dbd5a8c2f66bb41b3a914cf3351621f3525a69afe80fd6fa68228a0fdbb",
+    "data/experiments/eval_v11/context_precision_plan/results/bad0329da08f0005e819fcd6b6a35d592cac709cbefa026d61ff36469ba6228b.json": "0428dee84657c056e957640c3d764634d318f9cec80d395eb1fce8f222bfb7a6",
+    "data/experiments/eval_v11/context_precision_plan/results/a1107a8cd6883ad09dd32ffe674179ce4780a1a62113c95b7a8eb858f3523ddb.json": "7aaa457f960c61c15a1abd143adbb97b7e1c3db0b41fb5a44ca506c52152ecd3",
+    "data/experiments/eval_v11/context_precision_plan/results/7b6cea7e1643f15b6c3a5430924363a25ddfd7dbab1d2fc080c34637c3ac4f22.json": "bde8205f84338cd9c4e12eb1ce2360bfb2bea47de7fbbe07947c4f2292dcd7b4",
+    "data/experiments/eval_v11/context_precision_plan/results/5d5bd958ad092ca41cf85084b14caa58100e9c5c2a1467c159e965d9847039e4.json": "a338f7a9aff0bf397b9518b55c0766a721799a35d91d3c0d65ea741695d79c0d",
+    "data/experiments/eval_v11/context_precision_plan/results/d1a2bc792b880ffe97d650300dc3a9ef2b5c6c3dd7dcbf9e3a6de0b78a4ea7d8.json": "f7a88b9c24498382cd3f19205c38cf3de67f82bcbbfb3835175926190920813c",
+    "data/experiments/eval_v11/context_precision_plan/results/f57c1b67bc044001bcfe8a06a887b008792c26c8ca8295fd0ce512c320ac20b9.json": "46e447ce88deaa35ac7260bc2e10baccc89f9a9370b471e38b5a256d2e3b5ba3",
+    "data/experiments/eval_v11/context_precision_plan/results/0d817d487a131e14429308e3f1f7c01ff221ccb54df587ac4f8f5660650a0388.json": "bb5a9e99ab70a6d6eac7c08c323e3e38a67e85cfdf40119c8de15659753614af",
+    "data/experiments/eval_v11/context_precision_plan/results/d6d675fc33d35ec444daa452ad0cd80fe1802ccf6f7887068368b7999feecfcf.json": "8f84610feecc93d2172e40fc2e11c8b74ffd1d88a6be8e22ce47a01de7693b8a",
+    "data/experiments/eval_v11/context_precision_plan/results/b226dd35d129247e38e990e5eca7c529cf3e34ec89ad4854b11fa7ae2fdf09fc.json": "bbb1ef6f91a556edb0e9ee4d9d2753d199487c31d75d00294c04e7bbc6023d24",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/3a3fbbdef943ebdada6cab3970acef0fba5fc98a6cb874a35c9cd9c6b4407b13.json": "6f237d1e26a48c4deb568f9590c64614baf594beae10971c28aa8e5303e1a412",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/c40132f873ce28be2505b1f86d32cf40ec57c6cdffa95a503bab0eae6851bb8d.json": "b3cb75ba43b7f67b9e3df53117840c2bf3b1a42ba951e8b79ed5896e6b570bf3",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/1c0062b6f621e89fb0a76cd9421aeb3a6052af10a3bbdf03f1d5017ca1c158ef.json": "7e06eaad78b6dcbd584a0124c9051266a627d219045395d2e223c391ac6c5567",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/a2f4715629e04bd3d71d4320a52e7db0d35e4492e3a4fae4ae638f77b674d45d.json": "9e7c445b24b0655581be90e6484c20982a052b023f11727c6de70a7777d39b13",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/7edf5697d6445329e9a6f71a02edd87fde9ab3399a38787e1d65bf18f2e228bc.json": "5e7a6eaf964322633f40f055af74475928a8b7aab6d33b7fe7b07905942ef613",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/c421214e512e884115d903a11d5a507b894b7e85b8d4f53b1ebf307e9e29d535.json": "7f0fa33184ed075bb0412f4ffb94a8ec91c2d64e8aa481daa69d48ef031ecee3",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/cd09695d4df41151dbdfc56bc2988c6f23b51088f4062cb270ac57ccf589f6d2.json": "9204c00977f702f804ab173205d06424d99b26126dbd70c5683c5125b00281c0",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/f72af69134e27636a9e49f39ef98f269a422a2dd262f61142a52a2a07572ae3e.json": "172e7f25f237fef3d69064082bb17f946965b48f8b732125cf7dfbedc5e4f7c5",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/9f5bb612064a48e3fdbba8495a3c9630f89e1cfe6505dd5c94bb7847a545a935.json": "7ed21b8f2947a84597c3aa875ebc20f9ddce125211f18d7ddd15609b61038316",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/e5cd10f44b8e23e826ae7ca28ef83356c3df0148a5af2afc3183e8ffa0153028.json": "4b063efb6aa0da6613290e2dac9267d7595f96fb46aabe428979652cbf6706a9",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/7ac91b13562d1dbe72129b640e01717ba47e92ebf99d9c158becb57761cc9cf6.json": "90034905ef2aadb6910f1b54ca3b55feedd4aa1f34ddc4f4af13a9b2fc7899d6",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/63354c73f6c9c4c0c9a65a470074d906afe63290249586972e5ec3538a03991a.json": "99e35928ec02e587a002584906ea6a47f502eb501f36f0846fbf76bcbd29acf6",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/16d2198b8b05737a61bf5775688643c5850fd8ed7fc8cb98fc7acf259c6809eb.json": "55af11d4686a4c31a95c2ae53e4764e90242e73f82b14f84fab70021afb26b85",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/1d99e0b864467865f6863886c5bfb170bd2f3427c2102a6b52003624a0c84443.json": "6fc23d8791475832166fb3c3db83bf2ba2a5c536959b837199232f188e9f4c5d",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/0e2b3f4ccb4a2f3f27ab54f7e39c1668fb59df52cdaf9c7013d3905ef5423a74.json": "eac4c8b715073cc85cbb5cd54852b420e129c05f83b3bdb75798a5041311d6c1",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/46ac4f099c26fd19341ec0d3fff4d50cdf69297a9370ba6f6a50f0ffdf0ceb51.json": "08d44e6ae34ad367ea270e98a74f90f5ad665b4fc21d64025e1dd4d7e9fbb60c",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/0e49f9920f0a53c48622807127c603ab20d50bcb8030a4035b97d62310f8b444.json": "d6b40fba51369bebc32409928d030e7e6a35ac2080b03c94d3b35c3a29dc4be4",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/545e3a3af3c4334c466c5469295be4ca7b86c9190b500d6de16427b8c954c9fb.json": "9991cd957555e0c67ba9dbda4c432f72c350722217309f8233c0f7dbfebc0aff",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/1cc0f5a9b9a7ebde98f76815599602387f720b6fe5c116c881b5012ccaf03c3a.json": "f43bc682b46c8a8768d534367df7fc4c65288a3d7f36375201fde1203699b73f",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/baseline_dense_k10/ed53366fc76bcf69ff5938e97770a27299f8d8e1583adae2a6ff21aec893ba9a.json": "31ba06ad4ed05d5a8d652c03ee53815a8a41e5ccf7617d14e983d84ce64998c3",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/3a3fbbdef943ebdada6cab3970acef0fba5fc98a6cb874a35c9cd9c6b4407b13.json": "2b1026dea1174bb81a33e8b52739d0e1f0de1f5bdaebb17f50e48ff9d543a886",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/c40132f873ce28be2505b1f86d32cf40ec57c6cdffa95a503bab0eae6851bb8d.json": "b7d14e03c0bb1a48fa0901fd9bc4ff3dd252f28140d87d2eaf24a4322ff55fd2",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/1c0062b6f621e89fb0a76cd9421aeb3a6052af10a3bbdf03f1d5017ca1c158ef.json": "8b190f93cbd4b09e3d62b659d2dc0830a46e2691fff6dc08baf7bdefa949d0c2",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/a2f4715629e04bd3d71d4320a52e7db0d35e4492e3a4fae4ae638f77b674d45d.json": "38ae351cb9e8a1b2e98c5600ea4ef2f2397c5c4d857d82f5e8f1dc667b8a80f2",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/7edf5697d6445329e9a6f71a02edd87fde9ab3399a38787e1d65bf18f2e228bc.json": "3702aa2acde679d74817a2330a1a457d2ff4844f08542ca43a75a4791d58203d",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/c421214e512e884115d903a11d5a507b894b7e85b8d4f53b1ebf307e9e29d535.json": "62ccef0300a45b3876a5759433e98b082f30e6e694917fece907975dc995bd37",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/cd09695d4df41151dbdfc56bc2988c6f23b51088f4062cb270ac57ccf589f6d2.json": "bed7b39099805d4c287e877fd6d43a7c0dd722b898cbb357ba364e98cd133fe6",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/f72af69134e27636a9e49f39ef98f269a422a2dd262f61142a52a2a07572ae3e.json": "c84c954ee82ad03c4c6d9ed4699c0792a25fb358349f11156bd55b86fea549ed",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/9f5bb612064a48e3fdbba8495a3c9630f89e1cfe6505dd5c94bb7847a545a935.json": "2fcf1d75712595b7c72cdc6ca849aeb1ea6a33caf13b361c83a04acafabb83cc",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/e5cd10f44b8e23e826ae7ca28ef83356c3df0148a5af2afc3183e8ffa0153028.json": "5d4f03a5319b1603b5a2e5341791039c9150b262d156d25b3c1d86d4cd90b9a4",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/7ac91b13562d1dbe72129b640e01717ba47e92ebf99d9c158becb57761cc9cf6.json": "7b8ddeb87713da9118e487dd4019aded274434911fbe3423dd29a12e6e406dfb",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/63354c73f6c9c4c0c9a65a470074d906afe63290249586972e5ec3538a03991a.json": "a6b38b6808584dab7313f1588b7b17d87b3a93fad41467397d496c15c2b44518",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/16d2198b8b05737a61bf5775688643c5850fd8ed7fc8cb98fc7acf259c6809eb.json": "bfc911ba43d8f3a62c7be3be7ced57f0f4e028ee8c4c64df6f1c6aad30c2f75e",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/1d99e0b864467865f6863886c5bfb170bd2f3427c2102a6b52003624a0c84443.json": "9900100f31b9190b4ce616da7d5dc4911d31d35629b50d8bbcdaa8a1d652e7c5",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/0e2b3f4ccb4a2f3f27ab54f7e39c1668fb59df52cdaf9c7013d3905ef5423a74.json": "a4be7fa171590a017c04160b31be80c66d34dd25f0b84901cbfa75ce801dffdf",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/46ac4f099c26fd19341ec0d3fff4d50cdf69297a9370ba6f6a50f0ffdf0ceb51.json": "5ea5257c6a2370fe07ace4247209eda34fdf4a0f4f5383d6ff704b45cc122821",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/0e49f9920f0a53c48622807127c603ab20d50bcb8030a4035b97d62310f8b444.json": "4fc437d0f0d31421c14b7e8fd783ecc807139826e96d957ac68c3b8e7fc756e2",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/545e3a3af3c4334c466c5469295be4ca7b86c9190b500d6de16427b8c954c9fb.json": "a5731915bdc290c1061aecd99ac58efb90b30ec82dbeb32ac1417cefad6e43e3",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/1cc0f5a9b9a7ebde98f76815599602387f720b6fe5c116c881b5012ccaf03c3a.json": "daaddd4d8294fda7401435e3ce6ac0c0feb33be6c277036f7921cbaedc06c354",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_truncated_k10/ed53366fc76bcf69ff5938e97770a27299f8d8e1583adae2a6ff21aec893ba9a.json": "0d94817e078a39062a7631e8313006d557defaf49bc33e9daf34803f588f388a",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/3a3fbbdef943ebdada6cab3970acef0fba5fc98a6cb874a35c9cd9c6b4407b13.json": "c3cdac315ab4650dd1778b232907d69fafa7b306b813800eb7e00e206a17506f",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/c40132f873ce28be2505b1f86d32cf40ec57c6cdffa95a503bab0eae6851bb8d.json": "341e1fe7c5d2d52b013decb9e620f8c8eeb8984ecdd34731ab1582a9066cb807",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/1c0062b6f621e89fb0a76cd9421aeb3a6052af10a3bbdf03f1d5017ca1c158ef.json": "7e8ce26cfc4b2bf68b7c8627965f1141b342eb564fc46d8067d2f97322c51410",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/a2f4715629e04bd3d71d4320a52e7db0d35e4492e3a4fae4ae638f77b674d45d.json": "5255ee860ccf06f9ac1ee3b1156d4f666e6636a7e52ffc4b26352145615c6f91",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/7edf5697d6445329e9a6f71a02edd87fde9ab3399a38787e1d65bf18f2e228bc.json": "298e889af20ec9a4dc0e59a434fd47328590b03fc1ee2c223ab471dec195dbc8",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/c421214e512e884115d903a11d5a507b894b7e85b8d4f53b1ebf307e9e29d535.json": "63a559e57c14969d76385288a4f7399e3dc3f035f3be809b62d475223c3c3607",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/cd09695d4df41151dbdfc56bc2988c6f23b51088f4062cb270ac57ccf589f6d2.json": "a12a870ce3bb6b69c2d5481bd4fa1905a538833c1ace27823d965c21b431bf2f",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/f72af69134e27636a9e49f39ef98f269a422a2dd262f61142a52a2a07572ae3e.json": "c32f6255b2089c0bcca5df8fcaedc01ee08832e150df57d95f9c28d7887d11ca",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/9f5bb612064a48e3fdbba8495a3c9630f89e1cfe6505dd5c94bb7847a545a935.json": "c4b4e1769c4924ffaea90ad3c73d5d1e1dd66904986267efd93f60914653cc92",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/e5cd10f44b8e23e826ae7ca28ef83356c3df0148a5af2afc3183e8ffa0153028.json": "900eebbd1558bad48f96ca7d296d9d558a87c8faff117658382672fa9d1f753a",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/7ac91b13562d1dbe72129b640e01717ba47e92ebf99d9c158becb57761cc9cf6.json": "ccd8adb459776a42a564ab181d1e18f671465fa643644630a5b83d8eaac6737d",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/63354c73f6c9c4c0c9a65a470074d906afe63290249586972e5ec3538a03991a.json": "0896193538500531bc2be71a95d098b0e8fd8454e32b9aeb8a930ab9a7c62f79",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/16d2198b8b05737a61bf5775688643c5850fd8ed7fc8cb98fc7acf259c6809eb.json": "b2990001f739b5609f5686399259188e1091eb0ebdfad077ad2242a1bd4fdea6",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/1d99e0b864467865f6863886c5bfb170bd2f3427c2102a6b52003624a0c84443.json": "83306ef1251b7f6fe66fa46eb3ff2b78e7fd9ebbc95ca631ea3eaf591a49fb6c",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/0e2b3f4ccb4a2f3f27ab54f7e39c1668fb59df52cdaf9c7013d3905ef5423a74.json": "bfba26143713ff1dbc02d0ce86c0cc6d103edc8f61275097359b8d465c61e762",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/46ac4f099c26fd19341ec0d3fff4d50cdf69297a9370ba6f6a50f0ffdf0ceb51.json": "a322da565e76b1e211d92042ac986582430a8f318beaa01c8b8bab8c3bae0d7c",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/0e49f9920f0a53c48622807127c603ab20d50bcb8030a4035b97d62310f8b444.json": "5d4d97f2159770b8a811a780d44c2dbd491e7109fd89a5cc46dc901c7d0c8c84",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/545e3a3af3c4334c466c5469295be4ca7b86c9190b500d6de16427b8c954c9fb.json": "8472a33c9f7f14380849b1cb59c582a84f5fdfd76b6605577d9ffc1428194d44",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/1cc0f5a9b9a7ebde98f76815599602387f720b6fe5c116c881b5012ccaf03c3a.json": "d7c70503e64542d4525aa0aaeb5877d4d782d5e21d223d6485799c175cdb5303",
+    "data/experiments/eval_v1/generation_smoke_v1/generation/rerank_windowed_k5/ed53366fc76bcf69ff5938e97770a27299f8d8e1583adae2a6ff21aec893ba9a.json": "770b74579b53c7362d9b4a4ede8b5c0d8d924c5c6ae984800a0170f739ee988d",
+    "data/experiments/eval_v11/service_smoke/generation/46ac4f099c26fd19341ec0d3fff4d50cdf69297a9370ba6f6a50f0ffdf0ceb51.json": "afcd10b9d9df60c3ad9f5e11222f4c62a1e6b1717492dd1f8f8e8a8c369322b8",
+    "data/experiments/eval_v11/service_smoke/generation/e5cd10f44b8e23e826ae7ca28ef83356c3df0148a5af2afc3183e8ffa0153028.json": "994425a9f3270b3db84750b464c0c6f1dd29ce89cc8f27c15db7c4f36299d765",
+    "data/experiments/eval_v11/service_smoke/generation/7ac91b13562d1dbe72129b640e01717ba47e92ebf99d9c158becb57761cc9cf6.json": "ead38015168c52534ac623573e5a640b408d2add901776ad54012b548024785a",
+    "data/experiments/eval_v11/service_smoke/generation/c421214e512e884115d903a11d5a507b894b7e85b8d4f53b1ebf307e9e29d535.json": "b0daafddf93a2390a53505e27cb26e7a5433d363c1227634920fa59ef5c1b6ec",
+    "data/experiments/eval_v11/service_smoke/generation/cd09695d4df41151dbdfc56bc2988c6f23b51088f4062cb270ac57ccf589f6d2.json": "9a3b2dcc3a1f2a9387c118badcc9e872c9603a5644f276e071c29fe055250a66",
+    "data/experiments/eval_v11/service_smoke/generation/9f5bb612064a48e3fdbba8495a3c9630f89e1cfe6505dd5c94bb7847a545a935.json": "986dd9415cdd20767785933d362ef85b4bd4890c6a1ec75f4c9eae44d9a09dd6",
+    "data/experiments/eval_v11/service_smoke/generation/f72af69134e27636a9e49f39ef98f269a422a2dd262f61142a52a2a07572ae3e.json": "d0f842841b7eff40bbf6fca3b07ac76ae7d94fdaaa60a61aa539918be0776f19",
+    "data/experiments/eval_v11/service_smoke/generation/c40132f873ce28be2505b1f86d32cf40ec57c6cdffa95a503bab0eae6851bb8d.json": "0126fa3a11a0f12f000b46941af56d5c152e19a611e5f8e5a36cced0ce668956",
+    "data/experiments/eval_v11/service_smoke/generation/545e3a3af3c4334c466c5469295be4ca7b86c9190b500d6de16427b8c954c9fb.json": "a41b8af7a7d39f16c0cc019d6d2531604dd17a5c1ff33327e8b1a864da14c58e",
+    "data/experiments/eval_v11/service_smoke/generation/ed53366fc76bcf69ff5938e97770a27299f8d8e1583adae2a6ff21aec893ba9a.json": "e6a7e87e72e51b078f4704e8a7e828002fdd63775fcd883a0ff1dd6ac9d19000",
+    "data/experiments/eval_v11/service_smoke/generation/1c0062b6f621e89fb0a76cd9421aeb3a6052af10a3bbdf03f1d5017ca1c158ef.json": "7d8aa81fbd20ba8731d089dbf4534ec48a049756745597c9916daafc4272884a",
+    "data/experiments/eval_v11/service_smoke/generation/0e2b3f4ccb4a2f3f27ab54f7e39c1668fb59df52cdaf9c7013d3905ef5423a74.json": "47e13371efae4231443da708d5b3a115fb9c5b787cf7827818ff50932880e507",
+    "data/experiments/eval_v11/service_smoke/generation/a2f4715629e04bd3d71d4320a52e7db0d35e4492e3a4fae4ae638f77b674d45d.json": "54e792ba6ae9d1db89fc5fe5c88f0d6a24695f0efe080fdd26197472f0d2fa41",
+    "data/experiments/eval_v11/service_smoke/generation/0e49f9920f0a53c48622807127c603ab20d50bcb8030a4035b97d62310f8b444.json": "b3355882f607284708d33cafcd1f97cac50ea7e14b79dacad923be2a4c28054d",
+    "data/experiments/eval_v11/service_smoke/generation/16d2198b8b05737a61bf5775688643c5850fd8ed7fc8cb98fc7acf259c6809eb.json": "f65e6ee3bf0aaf6b7c25b9da2d320a65a1f6bfbdfbd96e5a54eabecd49ab1c21",
+    "data/experiments/eval_v11/service_smoke/generation/7edf5697d6445329e9a6f71a02edd87fde9ab3399a38787e1d65bf18f2e228bc.json": "cf7a7de17ceedc29524932ef70b55b00e6d481bb1cada04956901d4a737d9340",
+    "data/experiments/eval_v11/service_smoke/generation/1d99e0b864467865f6863886c5bfb170bd2f3427c2102a6b52003624a0c84443.json": "e2cdbebe4cd8d1bfa69fc0aca8a16d1e986ab216d5f060f24ed1a1183a062efa",
+    "data/experiments/eval_v11/service_smoke/generation/1cc0f5a9b9a7ebde98f76815599602387f720b6fe5c116c881b5012ccaf03c3a.json": "688691f15bad99323243f19a59ecf3a40a00486f4d984a5bb890fc15c1e6ecb4",
+    "data/experiments/eval_v11/service_smoke/generation/63354c73f6c9c4c0c9a65a470074d906afe63290249586972e5ec3538a03991a.json": "8cba68508083ad829e31e26a378401bac460e959a6e1c2ebc2fd86d33c382643",
+    "data/experiments/eval_v11/service_smoke/generation/3a3fbbdef943ebdada6cab3970acef0fba5fc98a6cb874a35c9cd9c6b4407b13.json": "70ded218156422a469c19ee01e61dc91ea35a1b194f1ad4186e5224baf4c9948",
+    "data/experiments/eval_v11/service_smoke/plan.json": "ea6df2ce82f88d45dc7036b201b11546f3092a99c00ce6485cff78a696b7aa06",
+    "data/experiments/eval_v11/service_smoke/runtime/usage.jsonl": "bc86396771dd947f9ae3bb38cc630e14a182eefe63fac55407e14f0324c3e975"
+  },
+  "independent_human_calibration_complete": false,
+  "limits": [
+    "v1.1 quality scores apply to reused historical answers; their latency/cost belong to the original generation run.",
+    "New service latency is warm, sequential in-process runtime time, including retries and logging; not external API or load-test SLA.",
+    "Correctness includes failed generation. Missing judge results remain unknown. Faithfulness excludes known no-external-fact answers.",
+    "Context Precision covers all 15 answer targets per candidate; it is reference-conditioned ranked average precision, not fraction of all chunks relevant.",
+    "These automatic scores lack independent human calibration; 20-item selection data and exploratory intervals do not establish generalization.",
+    "Observed per-1000 token costs include recorded retries/cache effects but exclude local compute, ingestion and offline judging.",
+    "No holdout generation or scoring is included."
+  ]
+}

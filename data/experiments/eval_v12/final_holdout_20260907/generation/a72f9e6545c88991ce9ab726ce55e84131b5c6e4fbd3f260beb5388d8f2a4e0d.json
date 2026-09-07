@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "bcfe9bb0367af63f3098e5bfb1037b14::agent-turn-12",
+    "item_sha256": "9cebf2717f290923d1316587e03c7bce1cfe0e6d2bd06d4ea278fe3914de4384",
+    "result": {
+      "request_id": "096a5f0e308b432eb6156b2299451124",
+      "session_id": "bcfe9bb0367af63f3098e5bfb1037b14",
+      "turn_id": 11,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If you missed the deadline, you can either add new and relevant evidence and file a Supplemental Claim (note that the effective date will generally be tied to when VA receives the new claim, not your original claim), or write to VA to request revision based on clear and unmistakable error (CUE). CUE is a specific and rare error—you must show that the correct facts known at the time were not submitted to VA, or that VA misapplied the law then in effect, and that the error changed the outcome. A misunderstanding of facts or VA's failure to fulfill its duty to assist is not sufficient. You can request CUE only once per decision, so seek guidance from a qualified representative.",
+        "citations": [
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0007",
+          "text": "[关于决定复核的常见问题 | 退伍军人事务部 > 如果我希望我的遗留索赔或上诉在现代系统中被考虑，我如何选择加入？]\n如果您不同意2019年2月19日之前收到的VA决定，在您收到VA案件陈述（SOC）或补充案件陈述（SSOC）后，您可以选择加入现代化审查系统。要获得SOC或SSOC，您必须在决定日期起1年内提交异议通知（VA表格21-0958）。了解如何提交异议通知\n\n在您收到关于异议通知中问题的SOC或SSOC后，您有60天或您上诉决定后1年期限的剩余时间（以较晚者为准）通过提交以下表格之一（并勾选SOC/SSOC选择加入框）来选择加入现代化系统：\n\n- 决策审查请求：补充索赔（VA表格20-0995）\n\n- 决策审查请求：高级审查（VA表格20-0996）\n\n- 决策审查请求：委员会上诉（VA表格10182）\n\n下载表格或了解更多关于决策审查选项的信息"
+        },
+        {
+          "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+        },
+        {
+          "chunk_id": "Fiduciary claims | Veterans Affairs#1_0::c0000",
+          "text": "# Fiduciary claims | Veterans Affairs\n\n# Fiduciary claims\n\n如果你不同意VA对fiduciary claim的决定，你可以选择以下审查选项之一来继续你的案件。如果你对该审查不满意，你可以尝试另一个选项。\n\n#### 标记你的日历\n\n从你的决定日期起，你有1年的时间来请求decision review。\n\n## Decision review选项\n\n### 添加新的相关证据\n\nSupplemental Claim选项不适用于fiduciary claims。如果你有新证据，你可以提交新的claim。\n\n请选择以下选项之一进行你的下一次审查。\n\n### 请求高级审查员重新审查\n\n下载VA Form 20-0996: Higher-Level Review (PDF)\n\n当你选择Higher-Level Review时，你是在请求对相同证据进行另一次审查。高级审查员将重新审查你的案件，并确定是否可以根据意见分歧或错误来更改决定。了解如何请求Higher-Level Review\n\n你不能提交任何证据。\n\n你和/或你的代表可以通过电话与审查员交谈。你可以告诉他们你认为决定应该更改的原因，并指出错误。\n\n4-5个月 VA完成Higher-Level Reviews的目标是125天。如果VA需要获取记录或安排新的考试以纠正错误，审查可能需要更长时间。\n\n#### 我可以请求Higher-Level Review吗？\n\n你可以对初始claim请求Higher-Level Review。在Higher-Level Review或Board Appeal之后，此选项不可用。\n\n### 向Veterans Law Judge上诉\n\n下载 VA 表格 10182：委员会上诉（PDF）\n\n位于华盛顿特区的退伍军人上诉委员会（Board of Veterans Appeals）的一名法官将审查您的案件。了解更多关于如何申请委员会上诉的信息\n\n大约1年 委员会对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官进行听证。视频会议听证将在您附近的 VA 地点进行。\n\n更长 如果您添加新证据或请求听证，委员会将需要更长时间来裁决您的上诉。\n\n#### 我可以申请委员会上诉吗？\n\n您可以在初次申请或高级审查（Higher-Level Review）决定后申请委员会上诉。您不能连续两次申请委员会上诉。\n\n## 委员会决定之后\n\n如果您不同意委员会的决定，并且有支持您案件的新且相关的证据，您可以提交补充申请（Supplemental Claim）。您也可以向美国退伍军人上诉法院（U.S. Court of Appeals for Veterans Claims）提出上诉。了解更多关于委员会决定后您的选择\n\n## 接下来会发生什么？\n\n了解您请求决定审查后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求更多信息。如果 VA 为您安排了检查，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\n退伍军人服务组织（Veterans Service Organization）或 VA 认可的律师或代理人可以帮助您请求决定审查。获取请求决定审查的帮助\n\n## 如果我有更多问题怎么办？\n\n获取关于决定审查的常见问题解答。前往常见问题解答"
+        },
+        {
+          "chunk_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003",
+          "text": "[关于决定复核的常见问题 | 退伍军人事务部 > 如果我错过了提交申请的截止日期怎么办？]\n按时提交您的申请将确保如果您的案件获得批准，您能获得最大利益。请检查每个复核选项的截止日期，并在该日期之前提交您的申请。\n\n如果截止日期已过，您可以：\n\n- 添加新的且相关的证据并提交补充索赔。由于截止日期已过，福利的生效日期通常将与VA收到新申请的日期挂钩，而不是VA收到您初始索赔的日期。\n\n或者\n\n- 致信VA，要求其根据“清晰且不可否认的错误”（CUE）修改决定。CUE是一种特定且罕见的错误。要证明CUE，您必须表明当时已知的正确事实未提交给VA，或者VA错误地适用了当时存在的法律。必须无可争议地证明发生了错误，并且该错误改变了您案件的结果。对事实的误解或VA未能履行其“协助义务”不构成充分理由。请寻求合格代表的指导，因为您每项决定只能请求一次CUE。\n\n如果您不同意委员会的决定，您的决定将包含有关处理错误的其他方式的信息。"
+        },
+        {
+          "chunk_id": "File a Supplemental Claim with new evidence | Veterans Affairs#1_0::c0000",
+          "text": "# File a Supplemental Claim with new evidence | Veterans Affairs\n\n# File a Supplemental Claim with new evidence\n\nWhen you choose to file a Supplemental Claim, you re adding new evidence that s relevant to your case or identifying new evidence for review. A reviewer will determine whether the new evidence changes the decision.\n\nYou must add evidence VA didn t have before that s relevant to your case.\n\n### Can I file a Supplemental Claim?\n\nYou can file a Supplemental Claim within 1 year of a decision if you have new evidence, unless one of these rare situations applies to you. You have a: Fiduciary claim, or Multiple party claim\n\n## How long does it take VA to make a decision?\n\n4-5 months VA s goal for completing Supplemental Claims is 125 days.\n\n## What s considered new and relevant evidence?\n\nNew evidence is information that VA didn t have before the last decision. Relevant evidence is information that could prove or disprove something about your case.\n\nYou can submit evidence yourself, or you can ask VA to get evidence, like medical records, that s at a VA medical center or other federal facility. VA can t accept your Supplemental Claim without new and relevant evidence.\n\n## How do I file a Supplemental Claim with new evidence?\n\nTo file a Supplemental Claim, fill out the Decision Review Request: Supplemental Claim (VA Form 20-0995). Download VA Form 20-0995 (PDF)\n\n1.  ### Select a benefit type in Part I on the form\n\nThe most common benefit type is compensation, but if you re unsure, check your VA decision. You can t select multiple benefit types. You must complete a separate form for each type.\n\n2.  ### List the issue(s) you want VA to review in Part II on the form\n\nYou can include all or just some of the issues VA decided. You must list the issue(s) you disagree with and the VA decision date.\n\n3.  ### Gather new and relevant evidence to submit\n\nYou must add new and relevant evidence (supporting documents) or identify evidence you d like VA to gather for review.\n\nList the location(s) of VA evidence in Part III. VA can help you get evidence if it s at a VA medical center or other federal facility. For more details, see the instructions for completing the form.\n\nWhat if I don t have any new and relevant evidence? If you don t have evidence to submit, please select another review option. Learn more about the review options\n\n4.  ### Apply\n\nFill out the Decision Review Request: Supplemental Claim (VA Form 20-0995). Download VA Form 20-0995 (PDF)\n\nBy mail\n\nSend the completed form and any supporting documents to the benefit office that matches the benefit type you selected on the form.\n\nCompensation\n\nDepartment of Veterans Affairs Claims Intake Center PO Box 4444 Janesville, WI 53547-4444\n\n- #### Pension/Survivors benefits\n\nIf you live in AK, AZ, CA, CO, HI, ID, IA, KS, MN, MT, NB, NV, NM, ND, OK, OR, SD, TX, UT, WA, WY, Mexico, Central America, South America, or the Caribbean\n\nDepartment of Veterans Affairs Claims Intake Center Attention: St. Paul Pension Center PO Box 5365 Janesville, WI 53547-5365 Fax: 844-655-1604\n\n#### Pension/Survivors benefits\n\nIf you live in CT, DL, FL, GA, ME, MD, MA, NH, NJ, NY, NC, PA, RI, SC, VT, VA, WV, DC, Puerto Rico, or Canada\n\nDepartment of Veterans Affairs Claims Intake Center Attention: Philadelphia Pension Center PO Box 5206 Janesville, WI 53547-5206 Fax: 844-655-1604\n\n#### Pension/Survivors benefits\n\nIf you live in AL, AR, IL, IN, KY, LA, MI, MS, MO, OH, TN, or WI\n\nDepartment of Veterans Affairs Claims Intake Center Attention: Milwaukee Pension Center PO Box 5192 Janesville, WI 53547-5192 Fax: 844-655-1604\n\n#### National Cemetery Administration\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Education\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Veterans Health Administration\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Vocational Rehabilitation and Employment\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Insurance\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Loan guaranty\n\nPlease refer to your decision for instructions on how to submit the form.\n\nIn person Bring your completed form and any supporting documents to a regional benefit office. Find a regional benefit office near you\n\nBy fax Fax your completed form and any supporting documents to 844-531-7818.\n\nYou can also ask a regional benefit office for a copy of this form to fill out. Or you can call the VA toll-free hotline at 800-827-1000, Monday through Friday, 8:00 a.m. - 9:00 p.m. ET, to request a form.\n\n#### Mark your calendar\n\nYou have 1 year from the date on your decision to file a Supplemental Claim.\n\n## What happens next?\n\nFind out what happens after you request a decision review\n\nYou don t need to do anything while you re waiting unless VA sends you a letter asking for more information. If VA schedules exams for you, be sure not to miss them.\n\nTrack the status of your claim\n\n## What if I need help?\n\nA Veterans Service Organization or VA-accredited attorney or agent can help you request a decision review. Get help requesting a decision review\n\n## What if I have more questions?\n\nGet answers to frequently asked questions about decision reviews. Go to FAQs"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0007",
+          "text": "[关于决定复核的常见问题 | 退伍军人事务部 > 如果我希望我的遗留索赔或上诉在现代系统中被考虑，我如何选择加入？]\n如果您不同意2019年2月19日之前收到的VA决定，在您收到VA案件陈述（SOC）或补充案件陈述（SSOC）后，您可以选择加入现代化审查系统。要获得SOC或SSOC，您必须在决定日期起1年内提交异议通知（VA表格21-0958）。了解如何提交异议通知\n\n在您收到关于异议通知中问题的SOC或SSOC后，您有60天或您上诉决定后1年期限的剩余时间（以较晚者为准）通过提交以下表格之一（并勾选SOC/SSOC选择加入框）来选择加入现代化系统：\n\n- 决策审查请求：补充索赔（VA表格20-0995）\n\n- 决策审查请求：高级审查（VA表格20-0996）\n\n- 决策审查请求：委员会上诉（VA表格10182）\n\n下载表格或了解更多关于决策审查选项的信息"
+        },
+        {
+          "chunk_id": "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "text": "# Request a Board Appeal | Veterans Affairs\n\n# Request a Board Appeal\n\n选择此选项时，您将向位于华盛顿特区的Veterans' Appeals委员会的Veterans Law Judge提出上诉。熟悉Veterans法律的法官将审查您的案件。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官举行听证会，可以在华盛顿特区亲自出席，或通过视频会议在您附近的VA地点进行。\n\n### 我可以请求Board Appeal吗？\n\n在初始索赔、Supplemental Claim或Higher-Level Review决定之后，您可以请求Board Appeal。您不能连续请求两次Board Appeal。\n\n## 我可以添加新证据吗？\n\n您可以选择添加新证据供法官审查。您需要在VA收到您的Board Appeal表格之日起90天内提交此证据。\n\n此选项将花费更长时间。\n\n## 我可以请求听证会吗？\n\n您可以选择请求与法官举行听证会。视频会议听证会将在您附近的VA地点进行。\n\n此选项将花费更长时间。\n\n## 听证会上会发生什么？\n\n您和法官将进行对话。法官将听取您的证词，并可能问您几个问题。如果您有代表，您的代表可以在听证会上帮助您。\n\n听证会将被记录并添加到您的上诉文件中。您可以在听证会后90天内添加新的相关证据，但这不是必需的。\n\n## 如何请求Board Appeal？\n\n要请求Board Appeal，请填写Decision Review Request: Board Appeal (VA Form 10182)。下载VA Form 10182 (PDF)\n\n1.  ### 从3个选项中选择1个，向 Veterans Law Judge 提出上诉\n\nDirect Review 如果你希望 Veterans Law Judge 尽快审查你的案件，请选择 Direct Review。\n\n你不能提交任何证据。\n\n约1年 Board 对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\nEvidence Submission 如果你有其他证据供 Veterans Law Judge 审查，请选择 Evidence Submission。\n\n你必须在 VA 收到你的 Board Appeal 表格之日起90天内提交证据。\n\n更长 如果你添加新证据，所需时间将比 Direct Review 上诉选项更长。\n\nHearing Request 如果你希望在附近的 VA 地点与 Veterans Law Judge 进行视频会议听证，请选择 Hearing Request。\n\n在听证会上，你和 Veterans Law Judge 将进行对话，他们会询问你关于上诉的问题。你的听证将被记录并添加到你的上诉档案中。了解更多关于听证会以及如何申请的信息\n\n你可以在听证后90天内添加新的相关证据，但这不是必需的。\n\n更长 如果你要求听证，所需时间将比 Direct Review 上诉选项更长。\n\n2.  ### 在 Part III 中列出你希望上诉的问题\n\n你可以包括 VA 已决定的所有或部分问题。你需要列出你不同意的每个问题及对应的 VA 决定日期。\n\n3.  ### 申请\n\n填写 Decision Review Request: Board Appeal (VA Form 10182)。下载 VA Form 10182 (PDF)\n\n邮寄\n\n将填写完整的表格发送至以下地址：\n\nBoard of Veterans Appeals PO Box 27063 Washington, D.C. 20038\n\n亲自办理\n\n将填写完毕的表格带到地区福利办公室。查找离您最近的地区福利办公室\n\n传真办理\n\n将填写完毕的表格传真至 844-678-8979。\n\n您也可以向地区福利办公室索取此表格的副本进行填写。或者，您可以拨打 VA 免费热线 800-827-1000（周一至周五，东部时间上午 8:00 至晚上 9:00）索取表格。\n\n#### 标记您的日历\n\n您有 1 年的时间（自决定日期起）来申请 Board Appeal。如果您是共同申领同一福利的多人之一（这种情况很少见），则您有 60 天的时间。\n\n## Board 决定之后\n\n如果您不同意 Board 的决定，并且有支持您案件的新且相关的证据，您可以提交 Supplemental Claim。您也可以向 U.S. Court of Appeals for Veterans Claims 提出上诉。了解 Board 决定后您的更多选择\n\n## 接下来会发生什么？\n\n了解您申请 decision review 后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求提供更多信息。如果 VA 为您安排了考试，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\nVeterans Service Organization 或 VA 认可的律师或代理人可以帮助您申请 decision review。获取申请 decision review 的帮助\n\n## 如果我有更多问题怎么办？\n\n获取有关 decision reviews 的常见问题解答。前往 FAQs"
+        },
+        {
+          "chunk_id": "Fiduciary claims | Veterans Affairs#1_0::c0000",
+          "text": "# Fiduciary claims | Veterans Affairs\n\n# Fiduciary claims\n\n如果你不同意VA对fiduciary claim的决定，你可以选择以下审查选项之一来继续你的案件。如果你对该审查不满意，你可以尝试另一个选项。\n\n#### 标记你的日历\n\n从你的决定日期起，你有1年的时间来请求decision review。\n\n## Decision review选项\n\n### 添加新的相关证据\n\nSupplemental Claim选项不适用于fiduciary claims。如果你有新证据，你可以提交新的claim。\n\n请选择以下选项之一进行你的下一次审查。\n\n### 请求高级审查员重新审查\n\n下载VA Form 20-0996: Higher-Level Review (PDF)\n\n当你选择Higher-Level Review时，你是在请求对相同证据进行另一次审查。高级审查员将重新审查你的案件，并确定是否可以根据意见分歧或错误来更改决定。了解如何请求Higher-Level Review\n\n你不能提交任何证据。\n\n你和/或你的代表可以通过电话与审查员交谈。你可以告诉他们你认为决定应该更改的原因，并指出错误。\n\n4-5个月 VA完成Higher-Level Reviews的目标是125天。如果VA需要获取记录或安排新的考试以纠正错误，审查可能需要更长时间。\n\n#### 我可以请求Higher-Level Review吗？\n\n你可以对初始claim请求Higher-Level Review。在Higher-Level Review或Board Appeal之后，此选项不可用。\n\n### 向Veterans Law Judge上诉\n\n下载 VA 表格 10182：委员会上诉（PDF）\n\n位于华盛顿特区的退伍军人上诉委员会（Board of Veterans Appeals）的一名法官将审查您的案件。了解更多关于如何申请委员会上诉的信息\n\n大约1年 委员会对无新证据且无听证的上诉作出裁决的目标时间约为一年。\n\n您可以选择添加法官将审查的新证据。\n\n您也可以选择请求与法官进行听证。视频会议听证将在您附近的 VA 地点进行。\n\n更长 如果您添加新证据或请求听证，委员会将需要更长时间来裁决您的上诉。\n\n#### 我可以申请委员会上诉吗？\n\n您可以在初次申请或高级审查（Higher-Level Review）决定后申请委员会上诉。您不能连续两次申请委员会上诉。\n\n## 委员会决定之后\n\n如果您不同意委员会的决定，并且有支持您案件的新且相关的证据，您可以提交补充申请（Supplemental Claim）。您也可以向美国退伍军人上诉法院（U.S. Court of Appeals for Veterans Claims）提出上诉。了解更多关于委员会决定后您的选择\n\n## 接下来会发生什么？\n\n了解您请求决定审查后会发生什么\n\n在等待期间，您无需做任何事情，除非 VA 向您发送信函要求更多信息。如果 VA 为您安排了检查，请务必不要错过。\n\n跟踪您的上诉状态\n\n## 如果我需要帮助怎么办？\n\n退伍军人服务组织（Veterans Service Organization）或 VA 认可的律师或代理人可以帮助您请求决定审查。获取请求决定审查的帮助\n\n## 如果我有更多问题怎么办？\n\n获取关于决定审查的常见问题解答。前往常见问题解答"
+        },
+        {
+          "chunk_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003",
+          "text": "[关于决定复核的常见问题 | 退伍军人事务部 > 如果我错过了提交申请的截止日期怎么办？]\n按时提交您的申请将确保如果您的案件获得批准，您能获得最大利益。请检查每个复核选项的截止日期，并在该日期之前提交您的申请。\n\n如果截止日期已过，您可以：\n\n- 添加新的且相关的证据并提交补充索赔。由于截止日期已过，福利的生效日期通常将与VA收到新申请的日期挂钩，而不是VA收到您初始索赔的日期。\n\n或者\n\n- 致信VA，要求其根据“清晰且不可否认的错误”（CUE）修改决定。CUE是一种特定且罕见的错误。要证明CUE，您必须表明当时已知的正确事实未提交给VA，或者VA错误地适用了当时存在的法律。必须无可争议地证明发生了错误，并且该错误改变了您案件的结果。对事实的误解或VA未能履行其“协助义务”不构成充分理由。请寻求合格代表的指导，因为您每项决定只能请求一次CUE。\n\n如果您不同意委员会的决定，您的决定将包含有关处理错误的其他方式的信息。"
+        },
+        {
+          "chunk_id": "File a Supplemental Claim with new evidence | Veterans Affairs#1_0::c0000",
+          "text": "# File a Supplemental Claim with new evidence | Veterans Affairs\n\n# File a Supplemental Claim with new evidence\n\nWhen you choose to file a Supplemental Claim, you re adding new evidence that s relevant to your case or identifying new evidence for review. A reviewer will determine whether the new evidence changes the decision.\n\nYou must add evidence VA didn t have before that s relevant to your case.\n\n### Can I file a Supplemental Claim?\n\nYou can file a Supplemental Claim within 1 year of a decision if you have new evidence, unless one of these rare situations applies to you. You have a: Fiduciary claim, or Multiple party claim\n\n## How long does it take VA to make a decision?\n\n4-5 months VA s goal for completing Supplemental Claims is 125 days.\n\n## What s considered new and relevant evidence?\n\nNew evidence is information that VA didn t have before the last decision. Relevant evidence is information that could prove or disprove something about your case.\n\nYou can submit evidence yourself, or you can ask VA to get evidence, like medical records, that s at a VA medical center or other federal facility. VA can t accept your Supplemental Claim without new and relevant evidence.\n\n## How do I file a Supplemental Claim with new evidence?\n\nTo file a Supplemental Claim, fill out the Decision Review Request: Supplemental Claim (VA Form 20-0995). Download VA Form 20-0995 (PDF)\n\n1.  ### Select a benefit type in Part I on the form\n\nThe most common benefit type is compensation, but if you re unsure, check your VA decision. You can t select multiple benefit types. You must complete a separate form for each type.\n\n2.  ### List the issue(s) you want VA to review in Part II on the form\n\nYou can include all or just some of the issues VA decided. You must list the issue(s) you disagree with and the VA decision date.\n\n3.  ### Gather new and relevant evidence to submit\n\nYou must add new and relevant evidence (supporting documents) or identify evidence you d like VA to gather for review.\n\nList the location(s) of VA evidence in Part III. VA can help you get evidence if it s at a VA medical center or other federal facility. For more details, see the instructions for completing the form.\n\nWhat if I don t have any new and relevant evidence? If you don t have evidence to submit, please select another review option. Learn more about the review options\n\n4.  ### Apply\n\nFill out the Decision Review Request: Supplemental Claim (VA Form 20-0995). Download VA Form 20-0995 (PDF)\n\nBy mail\n\nSend the completed form and any supporting documents to the benefit office that matches the benefit type you selected on the form.\n\nCompensation\n\nDepartment of Veterans Affairs Claims Intake Center PO Box 4444 Janesville, WI 53547-4444\n\n- #### Pension/Survivors benefits\n\nIf you live in AK, AZ, CA, CO, HI, ID, IA, KS, MN, MT, NB, NV, NM, ND, OK, OR, SD, TX, UT, WA, WY, Mexico, Central America, South America, or the Caribbean\n\nDepartment of Veterans Affairs Claims Intake Center Attention: St. Paul Pension Center PO Box 5365 Janesville, WI 53547-5365 Fax: 844-655-1604\n\n#### Pension/Survivors benefits\n\nIf you live in CT, DL, FL, GA, ME, MD, MA, NH, NJ, NY, NC, PA, RI, SC, VT, VA, WV, DC, Puerto Rico, or Canada\n\nDepartment of Veterans Affairs Claims Intake Center Attention: Philadelphia Pension Center PO Box 5206 Janesville, WI 53547-5206 Fax: 844-655-1604\n\n#### Pension/Survivors benefits\n\nIf you live in AL, AR, IL, IN, KY, LA, MI, MS, MO, OH, TN, or WI\n\nDepartment of Veterans Affairs Claims Intake Center Attention: Milwaukee Pension Center PO Box 5192 Janesville, WI 53547-5192 Fax: 844-655-1604\n\n#### National Cemetery Administration\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Education\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Veterans Health Administration\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Vocational Rehabilitation and Employment\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Insurance\n\nPlease refer to your decision for instructions on how to submit the form.\n\n#### Loan guaranty\n\nPlease refer to your decision for instructions on how to submit the form.\n\nIn person Bring your completed form and any supporting documents to a regional benefit office. Find a regional benefit office near you\n\nBy fax Fax your completed form and any supporting documents to 844-531-7818.\n\nYou can also ask a regional benefit office for a copy of this form to fill out. Or you can call the VA toll-free hotline at 800-827-1000, Monday through Friday, 8:00 a.m. - 9:00 p.m. ET, to request a form.\n\n#### Mark your calendar\n\nYou have 1 year from the date on your decision to file a Supplemental Claim.\n\n## What happens next?\n\nFind out what happens after you request a decision review\n\nYou don t need to do anything while you re waiting unless VA sends you a letter asking for more information. If VA schedules exams for you, be sure not to miss them.\n\nTrack the status of your claim\n\n## What if I need help?\n\nA Veterans Service Organization or VA-accredited attorney or agent can help you request a decision review. Get help requesting a decision review\n\n## What if I have more questions?\n\nGet answers to frequently asked questions about decision reviews. Go to FAQs"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003",
+          "document": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+          "heading": [
+            "关于决定复核的常见问题 | 退伍军人事务部",
+            "如果我错过了提交申请的截止日期怎么办？"
+          ],
+          "source_file": "va_041.docx",
+          "excerpt": "[关于决定复核的常见问题 | 退伍军人事务部 > 如果我错过了提交申请的截止日期怎么办？]\n按时提交您的申请将确保如果您的案件获得批准，您能获得最大利益。请检查每个复核选项的截止日期，并在该日期之前提交您的申请。\n\n如果截止日期已过，您可以：\n\n- 添加新的且相关的证据并提交补充索赔。由于截止日期已过，福利的生效日期通常将与VA收到新申请的日期挂钩，而不是VA收到您初始索赔的日期。\n\n或者\n\n- 致信VA，要求其根据“清晰且不可否认的错误”（CUE）修改决定。CUE是一种特定且罕见的错误。要证明CUE，您必须表明当时已知的正确事实未提交给VA，或者VA错误地适用了当时存在的法律。必须无可争议地证明发生了错误，并且该错误改变了您案件的结果。对事实的误解或VA未能履行其“协助义务”不构成充分理由。请寻求合格代表的指导，因为您每项决定只能请求一次CUE。\n\n如果您不同意委员会的决定，您的决定将包含有关处理错误的其他方式的信息。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If you missed the deadline, you can either add new and relevant evidence and file a Supplemental Claim (note that the effective date will generally be tied to when VA receives the new claim, not your original claim), or write to VA to request revision based on clear and unmistakable error (CUE). CUE is a specific and rare error—you must show that the correct facts known at the time were not submitted to VA, or that VA misapplied the law then in effect, and that the error changed the outcome. A misunderstanding of facts or VA's failure to fulfill its duty to assist is not sufficient. You can request CUE only once per decision, so seek guidance from a qualified representative.",
+          "citations": [
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "2f2dfd659ede4eb381b65d0a41ed672d",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3877,
+              "completion_tokens": 176,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 176,
+                "prompt_tokens": 3877,
+                "total_tokens": 4053,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 3621
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0062363,
+            "accounted_rmb": 0.0062363,
+            "usage_unknown": false,
+            "seconds": 2.3728981018066406,
+            "error": null,
+            "response": {
+              "id": "7477e3be-1ba5-4a65-ae1f-99c8a6c7ddc3",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "7812aab9978b9b7249421af59b2d4449d7e771faa98e8d2a961231ede2ad0897"
+      },
+      "latency_ms": {
+        "queue_wait": 0.006249989382922649,
+        "retrieval": 2174.8590000206605,
+        "generation": 2375.48962503206,
+        "total": 4551.060208003037
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2758762500016019,
+        "rerank_seconds": 1.8989261250244454,
+        "top1_dense_score": 0.7889328598976135,
+        "candidate_ids": [
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0007",
+          "Insurance claims | Veterans Affairs#1_0::c0000",
+          "File a Supplemental Claim with new evidence | Veterans Affairs#1_0::c0000",
+          "VA decision reviews and appeals | Veterans Affairs#1_0::c0000",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0002",
+          "Fiduciary claims | Veterans Affairs#1_0::c0000",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0000",
+          "Get Help Filing Your Claim Or Appeal | Veterans Affairs#1_0::c0000",
+          "Multiple party or contested claims | Veterans Affairs#1_0::c0000",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003",
+          "Request a Board Appeal | Veterans Affairs#1_0::c0000",
+          "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0006",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0003",
+          "Fully Developed Claim For A VA Pension | Veterans Affairs#1_0::c0006",
+          "After You Apply For Health Care Benefits | Veterans Affairs#1_0::c0000",
+          "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0::c0000",
+          "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0::c0000",
+          "Aid And Attendance Benefits And Housebound Allowance | VA.gov#1_0::c0000",
+          "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000",
+          "Request a Higher-Level Review | Veterans Affairs#1_0::c0004"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 51,
+        "query_shortened": true,
+        "retrieval_total_seconds": 2.174827958107926
+      },
+      "raw_citations": [
+        "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0003"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "9cef2e411d9601d7e4e9ceace55391479bee16d055de5cb123e16eab75ec0bb8"
+}

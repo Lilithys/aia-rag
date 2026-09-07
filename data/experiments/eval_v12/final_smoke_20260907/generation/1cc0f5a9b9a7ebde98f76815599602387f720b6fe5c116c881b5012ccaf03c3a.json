@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "eval-v1-dev-refuse-009",
+    "item_sha256": "b566b0e79d1a3d20cbcf95b32e406a6d5970e77e02f7e8b94081e60fdd282643",
+    "result": {
+      "request_id": "495e6bd8ed8141dab59d2f116c2a9e6b",
+      "session_id": "synthetic::eval-v1-dev-refuse-009",
+      "turn_id": null,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "I don't have enough relevant information in this knowledge base. Please clarify the question or ask about the covered services.",
+        "action": "refuse",
+        "citations": []
+      },
+      "contexts": [],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Know Your Rights in Auto Repair#3_0::c0000",
+          "text": "[了解您在汽车维修中的权利 > “消费者权利法案”]\n明智选购汽车维修服务\n遵循以下提示，可以帮助您避免与不可靠或不诚实的维修店发生纠纷：\n\n- 只与注册维修店打交道。确保店外有绿底白字的“纽约州注册机动车维修店”标志，店内持有有效的纽约州机动车管理局（DMV）注册证书。\n\n- 使用“查找DMV监管企业”服务，查找您所在地区的注册维修店。\n\n- 向家人、朋友和同事咨询您所在地区可靠维修店的建议，以及应避免的维修店。\n\n- 保留所有记录，包括估价单、发票、工单、收据、保证和保修单。除了在您提出维修投诉时的重要性外，这些文件还可作为您的服务记录，并可能提高车辆的转售价值。\n\n- 如果您通过电话授权维修工作，请记下日期和时间、您交谈对象的姓名、任何报价的估计价格以及其他相关细节。\n\n- 不要害怕提问。维修店管理层应花时间解释必要的维修和价格，讨论问题，并告知您员工的培训和经验。\n\n根据《维修店法案》，在与维修店打交道时，您享有以下权利：\n\n书面估价\n\n如果您要求，维修店必须为您提供每项具体维修所需零件和人工的书面估价。维修店可就制定书面估价收取合理费用，但估价的人工费不得超过维修店通常的每小时人工费。估价必须列出每个零件及其成本，并显示哪些零件（如有）是二手件或非原厂质量件。估价必须显示每项维修的人工费及其计算方式。未经您的许可，维修店不得收取超过估价的费用。\n\n授权维修\n\n未经您的许可，维修店不得进行任何服务。如果维修店准备书面工单，则必须给您一份副本。如果您准备书面工单，维修店必须将其附在发票上。如果维修是通过口头或电话授权的，发票必须显示授权日期、时间和授权人姓名。\n\n零件\n\n您有权取回所有更换下来的零件，但保修件和交换件除外，但您必须在任何工作开始前书面要求。如果您通过电话授权维修，维修店必须保留更换下来的零件，并在您取车时提供给您。\n\n发票\n\n维修完成后，维修店必须给您一份详细发票，列出每项完成的维修、更换的每个零件、每项费用以及人工费。发票必须显示哪些更换零件（如有）是二手件或非原厂质量件。发票必须显示您将车辆送修时的里程表读数以及发票准备时的读数。如果维修店承诺了交付日期，则必须在维修单上列出。如果您收到了书面估价，请将其与发票进行比较，并在付款前尽量解决任何疑问。\n\n维修后检查\n\n您有权在支付维修费用之前在修理厂检查您的车辆。但是，这并不赋予您在未支付维修费用的情况下将车辆移出修理厂的权利，也不允许您进入仅限授权员工进入的区域进行检查。\n\n保修\n\n修理厂并非必须为其工作提供保修，但如果修理厂自愿提供维修保修，则必须在发票上列出保修的条款和时限。如果您对维修质量或价格不满意，请与修理厂管理层讨论。许多误解可以通过冷静、诚实的讨论得到解决。"
+        },
+        {
+          "chunk_id": "Amend or replace a business license for a repair or body shop#3_0::c0000",
+          "text": "# Amend or replace a business license for a repair or body shop\n\n### Amend or replace\n\nTo amend the registration or get a replacement (duplicate) document for your current Repair & Body Shop, you must submit the Request for Business Amendment / Duplicate Certificate (pdf) [1] (MV-253G).\n\nMail it to\n\nNYS DMV Bureau of Consumer & Facility Services Application Unit P.O. Box 2700 Albany, NY 12220-0700\n\nYou will receive a replacement document in the mail in approximately 5 to 7 business days. We cannot fax a copy to you.\n\n### Change of address\n\nTo report a change of address for your business, you must complete a Statement of Ownership and/or Permission to Use Place of Business (pdf) [2] (VS-19).\n\nYou can also call the DMV Office of Vehicle Safety and Clean Air at 1-518-474-4653 to get the form, or call 1-518-474-0919 to get more information.\n\nIt will take 6 to 8 weeks for us to process your application.\n\n#### Certificate of Occupancy\n\nRepair shops must also provide a Certificate of Occupancy, local license or town letter as proof of zoning approval. If the new location was previously registered as a repair shop, please provide the Facility number or name of that shop. This may be accepted as proof of zoning.\n\nIf you also have an Inspection Station License, please see Inspection Station Cap Information [3]."
+        },
+        {
+          "chunk_id": "Let the Buyer be Aware#3_0::c0004",
+          "text": "[让买家警惕 > Choosing a Vehicle（选择车辆）]\n* *National Motor Vehicle Title Information System (NMVTIS) Vehicle History For Consumers（国家机动车所有权信息系统消费者车辆历史）** [3] 在YouTube上\n\n车辆价格不受任何政府机构控制。花时间选择符合您需求和预算的车辆。在购买车辆之前，通过查看报纸广告并访问多家经销商和/或私人卖家来比较价格。然后进行试驾。如果您有相关知识，请检查发动机、变速箱、驱动桥、转向和悬架、制动器和电气系统。如果您不知道要看什么，明智的做法是付费请专业汽车技师检查车辆。\n\n在从经销商处购买之前，了解经销商或制造商的保修、保修范围及保修期限。询问经销商是自行维修还是分包给维修店。确保所有协议、保证和保修均以书面形式确认。\n\n#### What to look for（注意事项）\n\n- 在明亮的日光下检查车辆。仔细观察车身是否有碰撞损坏或锈蚀的迹象。检查油漆和乙烯基车顶、侧面或饰条是否有磨损或损坏迹象。检查所有车灯、透镜和后视镜是否有裂纹或其他损坏。\n- 检查车辆内部是否有磨损或损坏迹象，这些迹象可能降低其价值，例如内饰上的裂缝或孔洞。确保所有安全带都到位且工作状态良好。检查地毯或垫子下方是否有潮湿或水损，这可能意味着车身有泄漏。\n- 打开后备箱或后舱门，检查是否有泄漏。检查备胎，如有必要请取出。确保千斤顶和轮胎扳手都在。\n- 检查发动机舱，看挡泥板周围是否有金属锈蚀、漏油或发动机上过度污垢的迹象。这些可能是高里程的迹象。查看并触摸橡胶部件，如风扇皮带和散热器软管。如果它们变硬、开裂或过软，则应更换。\n- 确保排气排放控制系统完好且工作正常。\n- 在发动机冷态时启动车辆，并聆听以确保冷启动时运转平稳。在发动机预热时，检查仪表板仪表以及所有内外灯光。确保加热器、除霜器、空调、挡风玻璃清洗器和雨刮器正常工作。\n- 如果车辆已正确注册，您可以选择进行试驾。发动机应平稳加速，变速箱换挡不应有犹豫、粗暴或噪音。在笔直平坦的路面上行驶，短暂松开方向盘，看前轮是否保持直线行驶而不偏向任何一侧。制动时不应有异常噪音、振动或偏向一侧。\n- 您的试驾应包括在本地街道上的走走停停驾驶以及高速公路速度下的驾驶，覆盖各种路面和几个坡道。注意车辆的运行和操控性能。此外，检查发动机是否过热。\n- 如果试驾后您满意，请将车辆升起或用千斤顶抬起。检查制动器、轮胎、前后悬架、排气系统和催化转化器的状况。检查下方是否有油或液体泄漏。\n\n#### Taking Delivery（提车）\n\n如果您决定车辆状况良好且价格合理，请确保卖方拥有正确的所有权和过户文件。向卖方询问并检查所有权证书，了解未清偿的留置权（如银行贷款等）信息。在付款前仔细检查所有文件。在私人交易中，除了所有权和销售税文件外，还应让卖方开具销售单。"
+        },
+        {
+          "chunk_id": "Open a repair or body shop#3_0::c0000",
+          "text": "# 开设修理厂或车身修理厂\n\n要与 New York State DMV 注册成为修理厂，您必须\n\n- 查阅 DMV Commissioner 的 Motor Vehicle Repair & Body Shop Regulations (pdf) [1] (CR-82)\n\n- 下载并阅读 Repair & Body Shop business requirements (pdf) [2] (VS-145)\n\n- 提交 Original Facility Application (pdf) [3] (VS-1) 及所有必需文件\n\n- 查看 Repair Shop Zoning Requirements Letter (pdf) [4] (VS-146)\n\n您也可以致电 DMV Office of Vehicle Safety and Clean Air，电话 1-518-474-4653，获取表格，或致电 1-518-474-0919 获取更多信息。\n\n## 如何申请\n\n#### 您必须提交\n\n- Original Facility Application (pdf) [3] (VS-1)\n\n- 证明您有权使用营业地点的房产（业主公证声明、租约（可取决于设施批准）、转租合同及主 租约、抵押文件、地契或已缴税单）\n\n- 分区证明：请参阅 Repair Shop Zoning Requirements Letter (pdf) [4] (VS-146) 了解具体要求\n\n- 您的 Sales Tax ID 号码及 Sales Tax Certificate of Authority 副本，可在 Department of Tax and Finance 网站 [5] 找到（在此之前可能需要 IRS [6] 的 FEIN）\n\n- 为您的员工提供 Workers Compensation Insurance [7]\n\n- 的证明（如果没有员工，请在申请中注明），可访问 NY State Workers Compensation Board 网站 [7] 获取流程说明\n\n- 申请上列出的每个人的驾照或其他政府签发的带照片身份证复印件\n\n- 购买修理厂招牌的收据 1\n\n- 所有必需费用，以支票支付给 Commissioner of Motor\n\nVehicles（注意：如果同时申请成为经销商，可能需要单独提交 MV-50 费用的支票）\n\n- NY State Department of State 网站 [8] 的 Filing Receipt（Corporation 或 LLC）或 County Clerk 的 Business Certificate（使用化名的个人或合伙企业）\n\n### 分区证明\n\n#### 如果您没有分区证明，请勿向 DMV 提交申请！\n\n请查看 Repair Shop Zoning Requirements Letter (VS-146) 了解具体分区要求。\n\n### Certificate of Authority\n\n如果您还没有 Certificate of Authority，请勿向 DMV 提交申请！\n\nCertificate of Authority 和 Sales Tax ID 号码由 New York State Department of Taxation and Finance (DTF) 签发。您可访问 NY State DTF 网站 [5] 申请。请务必在 Original Facility Application 上记录您的 Sales Tax ID。\n\n### 企业名称证明\n\n如果您还没有企业名称证明，请勿向 DMV 提交申请！\n\n- Corporations 和 LLCs：您必须提交 Department of State 的 Filing Receipt 副本。备案说明可在 NY State Department of State 网站 [8] 找到。\n\n- Partnerships 和使用化名的个人：您必须提交 Business Certificate of Assumed Name 副本。请联系您的 county clerk 获取企业证书。\n\nWorkers Compensation Insurance 证明\n\n如果您还没有 Workers Compensation Insurance 证明，请勿向 DMV 提交申请！\n\n如果你有任何员工（包括家属），你必须提交 Workers Compensation Insurance 的证明。你可以访问 NY State Workers Compensation Board 网站 [7] 获取此流程的说明。如果你没有员工，请在申请中注明。\n\n点击此处获取更多 Workers Compensation Insurance 信息 [9]。\n\n## 通过邮寄发送\n\n你必须将申请书的纸质版、相关文件和费用提交至以下地址：\n\nNYS DMV Bureau of Consumer & Facility Services Application Unit P.O. Box 2700 Albany, NY 12220-0700\n\nDMV 的 Vehicle Safety 申请处理部门将与你联系。\n\n一旦你的申请完整且准确，你将获得维修店注册。\n\n注意：移动维修店需要进行现场调查。如需更多信息，请联系 Application Processing，电话 1-518-474-0919。\n\n## 官方维修店标志\n\n#### DMV\n\n不提供官方维修店标志。你可以从各种标志店和汽车用品商店购买这些标志。具体要求请参阅 Motor Vehicle Repair & Body Shop Regulations (pdf) [1] CR-82 (82.7)。\n\n- 1."
+        },
+        {
+          "chunk_id": "Know Your Rights in Auto Repair#3_0::c0003",
+          "text": "[了解您在汽车维修中的权利 > 有了您的帮助，《修理厂法》才能发挥作用]\n根据《修理厂法》，每年通过调解和赔偿向消费者返还数千美元。此外，数百辆汽车无需额外费用即可得到维修。《修理厂法》还通过促进高质量的汽车维修，帮助使我们的高速公路更加安全。当消费者花时间明智地选择汽车维修服务、保留与修理厂交易的记录，并与修理厂管理层讨论维修以避免误解时，《修理厂法》才能发挥最佳作用。\n\n更多信息可在以下网址找到：举报DMV监管的汽车业务问题[4]\n\n(C-17)\n\n纽约州机动车辆管理局马克·J·F·施罗德，局长\n\n返回DMV出版物[5]"
+        }
+      ],
+      "citations": [],
+      "citation_check": "not_applicable",
+      "error_type": null,
+      "call": null,
+      "latency_ms": {
+        "queue_wait": 0.05341705400496721,
+        "retrieval": 1372.1088750753552,
+        "total": 1372.5862920982763
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10200262500438839,
+        "rerank_seconds": 1.2700453330762684,
+        "top1_dense_score": 0.5302660465240479,
+        "candidate_ids": [
+          "Know Your Rights in Auto Repair#3_0::c0001",
+          "How to renew a license#1_0::c0000",
+          "Getting Out of Default | Federal Student Aid#1_0::c0000",
+          "Replace license or permit#1_0::c0000",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0005",
+          "Know Your Rights in Auto Repair#3_0::c0000",
+          "Let the Buyer be Aware#3_0::c0008",
+          "Know Your Rights in Auto Repair#3_0::c0003",
+          "About complaints and charges for repair and body shops#3_0::c0000",
+          "Let the Buyer be Aware#3_0::c0002",
+          "Open a repair or body shop#3_0::c0000",
+          "Amend or replace a business license for a repair or body shop#3_0::c0000",
+          "Open an inspection station#1_0::c0000",
+          "Understanding Delinquency and Default | Federal Student Aid#1_0::c0000",
+          "Leandra's Law & ignition interlock devices#3_0::c0000",
+          "Let the Buyer be Aware#3_0::c0004",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0007",
+          "Camp Lejeune Water Contamination Health Issues | Veterans Affairs#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0000",
+          "About complaints and charges for inspection stations and certified inspectors#3_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 47,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.3720857920125127
+      },
+      "refusal_reason": "low_retrieval_confidence",
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "57ac424640057ac118f432a79dde954d0c1db637751574b2a79a0744913aab6b"
+}

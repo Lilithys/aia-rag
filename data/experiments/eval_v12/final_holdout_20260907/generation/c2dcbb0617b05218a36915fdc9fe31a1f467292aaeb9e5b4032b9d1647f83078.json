@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "4c0b29807ac6b836b9e9dd7ad08bc5d1::agent-turn-4",
+    "item_sha256": "fa4b2f22d2c15dd5bada42dc4d61d1bb30f60f31eeef4b0eef05ef7131633d14",
+    "result": {
+      "request_id": "f96a85dcca8f43db9547eb7945ed3939",
+      "session_id": "4c0b29807ac6b836b9e9dd7ad08bc5d1",
+      "turn_id": 3,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If you decide to get a credit card, use it wisely to build a credit record. Only use it for emergencies and do not spend more than you can afford. Make sure you understand the terms of the card before you sign up.",
+        "citations": [
+          "Understanding College Costs | Federal Student Aid#1_0::c0002"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 我如何降低大学费用？]\n以下是一些关于如何降低大学费用的建议。对于许多建议，你可能需要向你感兴趣的大学或职业学校咨询以获取更多详细信息。\n\n- 制定预算并坚持执行！制定预算将帮助你比较预期的大学或职业学校开支与潜在的可支配收入和财政援助。你也可以使用预算来比较不同学校之间的费用。了解如何制定预算。\n\n&nbsp;\n\n- 大学或职业学校的费用可能差异很大，而且有许多学校提供负担得起的学费和慷慨的财政援助。确保研究所有可能满足你学术和经济需求的学校。要查找大学或职业学校，请使用我们的大学搜索工具 *College Navigator*。\n\n&nbsp;\n\n- 你可能能够根据你的知识或生活经历获得学校学分，并且你可以管理你的课程作业以降低成本。\n  - 询问你的学校是否有可能免修某些课程。如果你不修课程，你可能不必支付这些学分。\n  - 一些大学会为生活经历提供学分，从而减少毕业所需的学分数。\n  - 大多数学校对一学期内修读的特定学分数收取固定费用。如果学业上可行，请修读允许的最大学分数。这一策略减少了毕业所需的时间。\n  - 一些学校提供联合学位课程或三年制课程，允许你在三年内修完毕业所需的所有课程，而不是四年，从而省去一年的教育费用。\n\n&nbsp;\n\n- 大学和职业学校可能会提供学费折扣，如果\n  - 你是校友的子女（即，如果你的父母曾就读于该校）；\n  - 多个家庭成员在同一所学校就读；\n  - 你是学生会领袖或大学报纸或年鉴的编辑；\n  - 你是年龄较大的学生；\n  - 你家庭的主要收入来源者失业；或\n  - 你或你的家庭成员在该校工作。\n\n&nbsp;\n\n- 住房费用可能会增加。以下是一些降低住房费用的建议：\n  - 如果你就读的大学或职业学校离家近，考虑与父母或其他家人同住。\n\n&nbsp;\n\n- 如果你住在校外，考虑与多位室友合租房屋或公寓以降低租金成本，并拼车以节省油费和停车费。\n  - 大多数学院和大学提供宿舍助理项目，如果你在宿舍楼工作，可以获得学费减免或食宿费用减免。\n- 你可能符合享受医疗保健福利的资格，包括以下内容：\n  - 大多数年轻人可以留在父母的家庭计划中直到年满26岁，即使他们已经结婚或仍与父母同住。\n  - 如果你因已有病症而一直没有保险，你可能符合加入已有病症保险计划的资格。\n  - 如果你加入新的保险计划，保险公司不能就推荐或预防性服务（如流感疫苗或其他免疫接种）向你收取免赔额或共付额。\n- 你可以兼职工作以支付部分费用。确保你的工作和学校时间表不冲突，并且你有足够的时间学习。以下是一些选择：\n  - 联邦勤工俭学计划提供了上学期间赚钱的机会。询问学校是否参与该计划。\n  - 合作教育项目允许学生交替进行全职工作和全日制学习。\n  - 大多数学校设有就业办公室，帮助学生找工作，以及人事办公室，雇用学生在校园内工作。\n- 积少成多。例如，如果你购买二手书或租用教科书（如果你完成课程后不再需要这些书），你可以降低教科书成本。\n\n如果你明智地使用信用卡，它可以帮助你建立信用记录。但只应在紧急情况下使用，并且不要花费超过你负担得起的金额。如果你决定办理信用卡，请确保你了解相关条款。"
+        },
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0001",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 大学费用包括哪些内容？]\n了解大学费用，并获取如何在上学期间降低费用的建议。\n\n大学费用可能包括各种项目，其中一些可能出乎你的意料。通过了解大学费用，你可以比较学校，并探索如何降低费用的选项。\n\n大学费用不仅包括学费和食宿费。以下是常见的费用：\n\n确保大学和职业学校向你提供其学费和杂费的清晰说明。"
+        },
+        {
+          "chunk_id": "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0001",
+          "text": "[Avoiding Student Aid Scams > You Don t Have to Pay for Help Finding Money for College or Career School]\nAvoid student aid scams and protect your identity while searching for scholarships, filling out the Free Application for Federal Student Aid (FAFSA) form, managing your loans, and giving information to schools and lenders. FREE help is available.\n\nSave Your Money\n\nProtect Your Identity\n\nBeware of Student Loan Debt Relief Companies\n\nReport Fraud and Identity Theft\n\nCommercial financial aid advice services can cost well over $1,000. Of course, simply charging for help or information that s available for free elsewhere is not fraudulent. However, if a company doesn t deliver what it promises, it s scamming you.\n\nIf you re unsure whether to pay a company for help finding financial aid, stop and think for a minute: What s being offered? Is the service going to be worth your money? Do the claims seem too good to be true? You might have heard or seen these claims at seminars, over the phone from telemarketers, or online:\n\n- Buy now or miss this opportunity. Don t give in to pressure tactics. Remember, the opportunity is a chance to pay for information you could find yourself for free.\n- We guarantee you ll get aid. A company could claim it fulfilled its promise if you were offered student loans or a $200 scholarship. Is that worth a fee of $1,000 or more?\n- I ve got aid for you; give me your credit card or bank account number. Never give out a credit card or bank account number unless you know the organization you are giving it to is legitimate. You could be putting yourself at risk of identity theft.\n\nHere is some free information about ways to pay for college."
+        },
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0003",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 如何比较大学的费用？]\n你可以通过使用大学记分卡来查找大学费用是低、中还是高的信息。请记住，价格较高的学校可能有更多的经济援助来帮助你支付教育费用，因此如果你想了解在考虑经济援助后可能需要支付多少费用，可以查看学校的净价格。"
+        },
+        {
+          "chunk_id": "Choosing a School | Federal Student Aid#1_0::c0002",
+          "text": "[不确定哪所学院或职业学校适合你？ > 比较学校时我应该考虑什么？]\n在研究学院和职业学校时，要考虑成本、地点、认证等因素。\n\n要查找此页面上列出的特定学校的信息，请查看学校网站或使用美国教育部的大学搜索工具 *College Navigator* 搜索该学校。\n\n### 学校费用与净价\n\n- 学校费用可能是选择潜在学院或职业学校时最重要的因素之一，且各校费用差异可能很大。了解大学费用包含哪些内容以及降低大学费用的方法。\n- 任何参与联邦学生资助项目的学校都必须提供其出勤费用信息，并在其网站上提供净价计算器。搜索学校的净价计算器很容易。该计算器将让您了解扣除任何经济资助后，某个项目可能花费多少。\n- 您可以使用 *College Scorecard* 查询费用并评估大学的价值。\n\n### 经济资助\n\n- 许多学生担心学费和继续教育的其他费用会超出承受能力。但不要让潜在的费用阻止您。大多数学生都会获得某种形式的经济资助，少数学生甚至能获得全额资助，所有费用都被覆盖。您应该了解经济资助，包括助学金、奖学金、勤工助学和贷款。\n- 始终申请您可能符合资格的所有类型的资助，并赶上所有截止日期！\n- 制定和管理预算是跟踪您的收入和支出并为您的目标储蓄的一种方式。\n\n### 入学要求\n\n- 不同学校有不同的入学要求。通过访问学校网站或咨询其招生办公室，确切了解学校的要求。\n- 许多美国大学要求学生在申请材料中提交标准化考试成绩。对于大多数本科项目，您需要参加 SAT 或 ACT 考试。\n\n### 认证\n\n- 经认证的学校符合独立机构设定的某些标准。这有助于确保您获得的培训或教育符合特定领域雇主的标准。如果您就读的学校未经认证，您可能无法获得任何经济资助。\n- 使用我们的认证搜索页面来检查特定学校的标准，或查找特定领域或地点的经认证学校。\n\n文凭工厂是一所未经认证的学校（或声称是学校的企业），它颁发学位时不要求达到大学水平标准的课程作业。有些学校只要您付费，甚至不需要您做任何工作就会寄送文凭。其他学校布置的课程作业非常容易，以至于您获得的学位与经认证学校的学位相比毫无价值，并且无法帮助您找到好工作。了解更多关于文凭工厂以及如何避免它们的信息。\n\n### 入学合同\n\n- 在签署任何学校入学合同之前，请仔细阅读。合同说明了学校将为您提供的服务以换取您的金钱。\n- 如果学校代表向您承诺了合同中未包含的内容（例如帮助找工作），请要求该代表将该承诺写入合同，并签署和注明日期。承诺通常只有在书面形式下才可执行。\n\n### 退款政策\n\n- 了解学校的学费退款政策。如果您已注册但从未开始上课，您应该获得大部分退款。如果您开始上课但在完成课程之前离开，您可能能够获得部分退款。\n- 还要了解学校的资助返还政策。如果您获得联邦学生资助（联邦勤工助学除外）并退学，您或您的学校可能需要将部分资金返还给资助来源。\n- 即使您未完成课程，您仍需偿还所收到的贷款资金，减去您的学校已返还给美国教育部的任何学生贷款资金。了解更多关于偿还联邦学生贷款的信息。\n\n### 过往投诉与声誉\n\n- 学校参与联邦学生资助项目并不意味着我们认可其提供的教育质量。\n- 要了解是否有关于学校的投诉，请联系您当地的商业改进局、州高等教育机构或州总检察长办公室的消费者保护部门。向许可或认证学校的机构查询，以了解其是否符合要求的标准。\n\n### 有用的统计数据\n\n一些数字可以帮助您评估学校。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 我如何降低大学费用？]\n以下是一些关于如何降低大学费用的建议。对于许多建议，你可能需要向你感兴趣的大学或职业学校咨询以获取更多详细信息。\n\n- 制定预算并坚持执行！制定预算将帮助你比较预期的大学或职业学校开支与潜在的可支配收入和财政援助。你也可以使用预算来比较不同学校之间的费用。了解如何制定预算。\n\n&nbsp;\n\n- 大学或职业学校的费用可能差异很大，而且有许多学校提供负担得起的学费和慷慨的财政援助。确保研究所有可能满足你学术和经济需求的学校。要查找大学或职业学校，请使用我们的大学搜索工具 *College Navigator*。\n\n&nbsp;\n\n- 你可能能够根据你的知识或生活经历获得学校学分，并且你可以管理你的课程作业以降低成本。\n  - 询问你的学校是否有可能免修某些课程。如果你不修课程，你可能不必支付这些学分。\n  - 一些大学会为生活经历提供学分，从而减少毕业所需的学分数。\n  - 大多数学校对一学期内修读的特定学分数收取固定费用。如果学业上可行，请修读允许的最大学分数。这一策略减少了毕业所需的时间。\n  - 一些学校提供联合学位课程或三年制课程，允许你在三年内修完毕业所需的所有课程，而不是四年，从而省去一年的教育费用。\n\n&nbsp;\n\n- 大学和职业学校可能会提供学费折扣，如果\n  - 你是校友的子女（即，如果你的父母曾就读于该校）；\n  - 多个家庭成员在同一所学校就读；\n  - 你是学生会领袖或大学报纸或年鉴的编辑；\n  - 你是年龄较大的学生；\n  - 你家庭的主要收入来源者失业；或\n  - 你或你的家庭成员在该校工作。\n\n&nbsp;\n\n- 住房费用可能会增加。以下是一些降低住房费用的建议：\n  - 如果你就读的大学或职业学校离家近，考虑与父母或其他家人同住。\n\n&nbsp;\n\n- 如果你住在校外，考虑与多位室友合租房屋或公寓以降低租金成本，并拼车以节省油费和停车费。\n  - 大多数学院和大学提供宿舍助理项目，如果你在宿舍楼工作，可以获得学费减免或食宿费用减免。\n- 你可能符合享受医疗保健福利的资格，包括以下内容：\n  - 大多数年轻人可以留在父母的家庭计划中直到年满26岁，即使他们已经结婚或仍与父母同住。\n  - 如果你因已有病症而一直没有保险，你可能符合加入已有病症保险计划的资格。\n  - 如果你加入新的保险计划，保险公司不能就推荐或预防性服务（如流感疫苗或其他免疫接种）向你收取免赔额或共付额。\n- 你可以兼职工作以支付部分费用。确保你的工作和学校时间表不冲突，并且你有足够的时间学习。以下是一些选择：\n  - 联邦勤工俭学计划提供了上学期间赚钱的机会。询问学校是否参与该计划。\n  - 合作教育项目允许学生交替进行全职工作和全日制学习。\n  - 大多数学校设有就业办公室，帮助学生找工作，以及人事办公室，雇用学生在校园内工作。\n- 积少成多。例如，如果你购买二手书或租用教科书（如果你完成课程后不再需要这些书），你可以降低教科书成本。\n\n如果你明智地使用信用卡，它可以帮助你建立信用记录。但只应在紧急情况下使用，并且不要花费超过你负担得起的金额。如果你决定办理信用卡，请确保你了解相关条款。"
+        },
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0001",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 大学费用包括哪些内容？]\n了解大学费用，并获取如何在上学期间降低费用的建议。\n\n大学费用可能包括各种项目，其中一些可能出乎你的意料。通过了解大学费用，你可以比较学校，并探索如何降低费用的选项。\n\n大学费用不仅包括学费和食宿费。以下是常见的费用：\n\n确保大学和职业学校向你提供其学费和杂费的清晰说明。"
+        },
+        {
+          "chunk_id": "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0001",
+          "text": "[Avoiding Student Aid Scams > You Don t Have to Pay for Help Finding Money for College or Career School]\nAvoid student aid scams and protect your identity while searching for scholarships, filling out the Free Application for Federal Student Aid (FAFSA) form, managing your loans, and giving information to schools and lenders. FREE help is available.\n\nSave Your Money\n\nProtect Your Identity\n\nBeware of Student Loan Debt Relief Companies\n\nReport Fraud and Identity Theft\n\nCommercial financial aid advice services can cost well over $1,000. Of course, simply charging for help or information that s available for free elsewhere is not fraudulent. However, if a company doesn t deliver what it promises, it s scamming you.\n\nIf you re unsure whether to pay a company for help finding financial aid, stop and think for a minute: What s being offered? Is the service going to be worth your money? Do the claims seem too good to be true? You might have heard or seen these claims at seminars, over the phone from telemarketers, or online:\n\n- Buy now or miss this opportunity. Don t give in to pressure tactics. Remember, the opportunity is a chance to pay for information you could find yourself for free.\n- We guarantee you ll get aid. A company could claim it fulfilled its promise if you were offered student loans or a $200 scholarship. Is that worth a fee of $1,000 or more?\n- I ve got aid for you; give me your credit card or bank account number. Never give out a credit card or bank account number unless you know the organization you are giving it to is legitimate. You could be putting yourself at risk of identity theft.\n\nHere is some free information about ways to pay for college."
+        },
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0003",
+          "text": "[大学和职业学校的费用可能因学校而异，差异很大。 > 如何比较大学的费用？]\n你可以通过使用大学记分卡来查找大学费用是低、中还是高的信息。请记住，价格较高的学校可能有更多的经济援助来帮助你支付教育费用，因此如果你想了解在考虑经济援助后可能需要支付多少费用，可以查看学校的净价格。"
+        },
+        {
+          "chunk_id": "Choosing a School | Federal Student Aid#1_0::c0002",
+          "text": "[不确定哪所学院或职业学校适合你？ > 比较学校时我应该考虑什么？]\n在研究学院和职业学校时，要考虑成本、地点、认证等因素。\n\n要查找此页面上列出的特定学校的信息，请查看学校网站或使用美国教育部的大学搜索工具 *College Navigator* 搜索该学校。\n\n### 学校费用与净价\n\n- 学校费用可能是选择潜在学院或职业学校时最重要的因素之一，且各校费用差异可能很大。了解大学费用包含哪些内容以及降低大学费用的方法。\n- 任何参与联邦学生资助项目的学校都必须提供其出勤费用信息，并在其网站上提供净价计算器。搜索学校的净价计算器很容易。该计算器将让您了解扣除任何经济资助后，某个项目可能花费多少。\n- 您可以使用 *College Scorecard* 查询费用并评估大学的价值。\n\n### 经济资助\n\n- 许多学生担心学费和继续教育的其他费用会超出承受能力。但不要让潜在的费用阻止您。大多数学生都会获得某种形式的经济资助，少数学生甚至能获得全额资助，所有费用都被覆盖。您应该了解经济资助，包括助学金、奖学金、勤工助学和贷款。\n- 始终申请您可能符合资格的所有类型的资助，并赶上所有截止日期！\n- 制定和管理预算是跟踪您的收入和支出并为您的目标储蓄的一种方式。\n\n### 入学要求\n\n- 不同学校有不同的入学要求。通过访问学校网站或咨询其招生办公室，确切了解学校的要求。\n- 许多美国大学要求学生在申请材料中提交标准化考试成绩。对于大多数本科项目，您需要参加 SAT 或 ACT 考试。\n\n### 认证\n\n- 经认证的学校符合独立机构设定的某些标准。这有助于确保您获得的培训或教育符合特定领域雇主的标准。如果您就读的学校未经认证，您可能无法获得任何经济资助。\n- 使用我们的认证搜索页面来检查特定学校的标准，或查找特定领域或地点的经认证学校。\n\n文凭工厂是一所未经认证的学校（或声称是学校的企业），它颁发学位时不要求达到大学水平标准的课程作业。有些学校只要您付费，甚至不需要您做任何工作就会寄送文凭。其他学校布置的课程作业非常容易，以至于您获得的学位与经认证学校的学位相比毫无价值，并且无法帮助您找到好工作。了解更多关于文凭工厂以及如何避免它们的信息。\n\n### 入学合同\n\n- 在签署任何学校入学合同之前，请仔细阅读。合同说明了学校将为您提供的服务以换取您的金钱。\n- 如果学校代表向您承诺了合同中未包含的内容（例如帮助找工作），请要求该代表将该承诺写入合同，并签署和注明日期。承诺通常只有在书面形式下才可执行。\n\n### 退款政策\n\n- 了解学校的学费退款政策。如果您已注册但从未开始上课，您应该获得大部分退款。如果您开始上课但在完成课程之前离开，您可能能够获得部分退款。\n- 还要了解学校的资助返还政策。如果您获得联邦学生资助（联邦勤工助学除外）并退学，您或您的学校可能需要将部分资金返还给资助来源。\n- 即使您未完成课程，您仍需偿还所收到的贷款资金，减去您的学校已返还给美国教育部的任何学生贷款资金。了解更多关于偿还联邦学生贷款的信息。\n\n### 过往投诉与声誉\n\n- 学校参与联邦学生资助项目并不意味着我们认可其提供的教育质量。\n- 要了解是否有关于学校的投诉，请联系您当地的商业改进局、州高等教育机构或州总检察长办公室的消费者保护部门。向许可或认证学校的机构查询，以了解其是否符合要求的标准。\n\n### 有用的统计数据\n\n一些数字可以帮助您评估学校。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "document": "Understanding College Costs | Federal Student Aid#1_0",
+          "heading": [
+            "大学和职业学校的费用可能因学校而异，差异很大。",
+            "我如何降低大学费用？"
+          ],
+          "source_file": "studentaid_089.md",
+          "excerpt": "[大学和职业学校的费用可能因学校而异，差异很大。 > 我如何降低大学费用？]\n以下是一些关于如何降低大学费用的建议。对于许多建议，你可能需要向你感兴趣的大学或职业学校咨询以获取更多详细信息。\n\n- 制定预算并坚持执行！制定预算将帮助你比较预期的大学或职业学校开支与潜在的可支配收入和财政援助。你也可以使用预算来比较不同学校之间的费用。了解如何制定预算。\n\n&nbsp;\n\n- 大学或职业学校的费用可能差异很大，而且有许多学校提供负担得起的学费和慷慨的财政援助。确保研究所有可能满足你学术和经济需求的学校。要查找大学或职业学校，请使用我们的大学搜索工具 *College Navigator*。\n\n&nbsp;\n\n- 你可能能够根据你的知识或生活经历获得学校学分，并且你可以管理你的课程作业以降低成本。\n  - 询问你的学校是否有可能免修某些课程。如果你不修课程，你可能不必支付这些学分。\n  - 一些大学会为生活经历提供学分，从而减少毕业所需的学分数。\n  - 大多数学校对一学期内修读的特定学分数收取固定费用。如果学业上可行，请修读允许的最大学分数。这一策略减少了毕业所需的时间。\n  - 一些学校提供联合学位课程或三年制课程，允许你在三年内修完毕业所需的所有课程，而不是四年，从而省去一年的教育费用。\n\n&nbsp;\n\n- 大学和职业学校可能会提供学费折扣，如果\n  - 你是校友的子女（即，如果你的父母曾就读于该校）；\n  - 多个家庭成员在同一所学校就读；\n  - 你是学生会领袖或大学报纸或年鉴的编辑；\n  - 你是年龄较大的学生；\n  - 你家庭的主要收入来源者失业；或\n  - 你或你的家庭成员在该校工作。\n\n&nbsp;\n\n- 住房费用可能会增加。以下是一些降低住房费用的建议：\n  - 如果你就读的大学或职业学校离家近，考虑与父母或其他家人同住。\n\n&nbsp;\n\n- 如果你住在校外，考虑与多位室友合租房屋或公寓以降低租金成本，并拼车以节省油费和停车费。\n  - 大多数学院和大学提供宿舍助理项目，如果你在宿舍楼工作，可以获得学费减免或食宿费用减免。\n- 你可能符合享受医疗保健福利的资格，包括以下内容：\n  - 大多数年轻人可以留在父母的家庭计划中直到年满26岁，即使他们已经结婚或仍与父母同住。\n  - 如果你因已有病症而一直没有保险，你可能符合加入已有病症保险计划的资格。\n  - 如果你加入新的保险计划，保险公司不能就推荐或预防性服务（如流感疫苗或其他免疫接种）向你收取免赔额或共付额。\n- 你可以兼职工作以支付部分费用。确保你的工作和学校时间表不冲突，并且你有足够的时间学习。以下是一些选择：\n  - 联邦勤工俭学计划提供了上学期间赚钱的机会。询问学校是否参与该计划。\n  - 合作教育项目允许学生交替进行全职工作和全日制学习。\n  - 大多数学校设有就业办公室，帮助学生找工作，以及人事办公室，雇用学生在校园内工作。\n- 积少成多。例如，如果你购买二手书或租用教科书（如果你完成课程后不再需要这些书），你可以降低教科书成本。\n\n如果你明智地使用信用卡，它可以帮助你建立信用记录。但只应在紧急情况下使用，并且不要花费超过你负担得起的金额。如果你决定办理信用卡，请确保你了解相关条款。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If you decide to get a credit card, use it wisely to build a credit record. Only use it for emergencies and do not spend more than you can afford. Make sure you understand the terms of the card before you sign up.",
+          "citations": [
+            "Understanding College Costs | Federal Student Aid#1_0::c0002"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "37435b5f38ec494b8881864514c437be",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2487,
+              "completion_tokens": 78,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 78,
+                "prompt_tokens": 2487,
+                "total_tokens": 2565,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2231
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0037103,
+            "accounted_rmb": 0.0037103,
+            "usage_unknown": false,
+            "seconds": 1.631239891052246,
+            "error": null,
+            "response": {
+              "id": "fd222a15-5a01-40c2-b38e-00fa78bc8961",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "774c5ebbd32ae890b0c6fd8f452fb1c8c328753728f140f870dc48579c7f1980"
+      },
+      "latency_ms": {
+        "queue_wait": 0.07195805665105581,
+        "retrieval": 1345.6412089290097,
+        "generation": 1633.1464590039104,
+        "total": 2979.3692500097677
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.13265654200222343,
+        "rerank_seconds": 1.2129260830115527,
+        "top1_dense_score": 0.7537909150123596,
+        "candidate_ids": [
+          "Understanding College Costs | Federal Student Aid#1_0::c0001",
+          "Understanding College Costs | Federal Student Aid#1_0::c0002",
+          "Understanding College Costs | Federal Student Aid#1_0::c0003",
+          "Choosing a School | Federal Student Aid#1_0::c0002",
+          "Preparing for College | Federal Student Aid#1_0::c0000",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0001",
+          "Choosing a School | Federal Student Aid#1_0::c0001",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0016",
+          "Avoiding Student Aid Scams | Federal Student Aid#1_0::c0003",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0009",
+          "Loans | Federal Student Aid#1_0::c0003",
+          "Types of Financial Aid | Federal Student Aid#1_0::c0000",
+          "Loans | Federal Student Aid#1_0::c0004",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0008",
+          "Comparing School Aid Offers | Federal Student Aid#1_0::c0000",
+          "Understanding College Costs | Federal Student Aid#1_0::c0000",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "Undergraduate And Graduate Degrees | Veterans Affairs#1_0::c0000",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0005",
+          "Accepting Aid | Federal Student Aid#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 34,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.3456091249827296
+      },
+      "raw_citations": [
+        "Understanding College Costs | Federal Student Aid#1_0::c0002"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "17dc00ff8aca42432e59ea5a4b42e74a4461feed6940e8e56eac5540827b8be9"
+}

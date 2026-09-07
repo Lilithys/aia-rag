@@ -1,0 +1,44 @@
+{
+  "target_binding_sha256": "70ed6322d51a6fb3b045c0570435040f3732798eeeb7f4e7c132cf5f51967cdd",
+  "importer_sha256": "246b889f8d050676bd5df9bb176caf58c87aeb7054cf0921a472a7db955df7d1",
+  "imports": [
+    {
+      "target_cache": "data/experiments/eval_v11/sensitivity_20260907/quality/api_cache/23fb9dbd6af491929f4ae5f4f7995a343cb5947963de4e480eced78e9a58bc76.json",
+      "source_cache": "data/experiments/eval_v11/scoring_smoke/api_cache/7b1888b76247e74350db02895e03555f1bf13a722a270c35155f6d0e16666849.json",
+      "source_cache_sha256": "31208fb62ce36948dc88dac878d4f2c83d7b48049e2525c4b7edd9446404adcc",
+      "source_request_hash": "7b1888b76247e74350db02895e03555f1bf13a722a270c35155f6d0e16666849",
+      "semantic_input_sha256": "fa68ad5d0338c3d032daedf58007af4b77841b41f8a7148347042aba8cf6ed0e",
+      "new_api_calls": 0,
+      "original_response_and_attempt_metadata_retained": true
+    },
+    {
+      "target_cache": "data/experiments/eval_v11/sensitivity_20260907/quality/api_cache/65061cd51cfcee8e3a31a61428fff956879c208bebfcddad235ac2aeb190510b.json",
+      "source_cache": "data/experiments/eval_v11/scoring_smoke/api_cache/a533a55d90524898248414e835617fd9ba2e9e3ef96c301847007394674b31af.json",
+      "source_cache_sha256": "935a6d5bac73ea5cf16b200968cb2ffd36664e18ce58e8713367d2682bf3f08c",
+      "source_request_hash": "a533a55d90524898248414e835617fd9ba2e9e3ef96c301847007394674b31af",
+      "semantic_input_sha256": "8fde97d48f840f2fdb0eac964a9e4b493e7734e84c875717fd849a16f6a284ff",
+      "new_api_calls": 0,
+      "original_response_and_attempt_metadata_retained": true
+    },
+    {
+      "target_cache": "data/experiments/eval_v11/sensitivity_20260907/quality/api_cache/9da4adce572372e82373001fa83b738921f27985c6f10b835ece14e31bec06ab.json",
+      "source_cache": "data/experiments/eval_v11/scoring_smoke/api_cache/2cfcb081c1147d8d0e40f974ceab02e12a9ff1bc478707b98a64df958bb215f3.json",
+      "source_cache_sha256": "aec0acf9fc1dd98a708faab48f04361ede1637499e762d56a3e8fba2955c3870",
+      "source_request_hash": "2cfcb081c1147d8d0e40f974ceab02e12a9ff1bc478707b98a64df958bb215f3",
+      "semantic_input_sha256": "c9cab249e453128b3a3d88eb03d6e0581fd638bb1b770dc764c9dc62a8c80de7",
+      "new_api_calls": 0,
+      "original_response_and_attempt_metadata_retained": true
+    },
+    {
+      "target_cache": "data/experiments/eval_v11/sensitivity_20260907/quality/api_cache/a393ef31005390d7fab4868c87b1d69343c2e098affaf94e5d93403e9863f10f.json",
+      "source_cache": "data/experiments/eval_v11/scoring_smoke/api_cache/b96a6c6303d98e84cb4076f5f622d27a11b4fc2d0913e224e67873e4c6b27122.json",
+      "source_cache_sha256": "ccd699707016f88e32694c3642623b3bd769bd5e6157ca0a936eb699aaeb6315",
+      "source_request_hash": "b96a6c6303d98e84cb4076f5f622d27a11b4fc2d0913e224e67873e4c6b27122",
+      "semantic_input_sha256": "a89ab4079f8e2f987a185a293db1805893bb2e4d92570fa3bd541165519d5e8c",
+      "new_api_calls": 0,
+      "original_response_and_attempt_metadata_retained": true
+    }
+  ],
+  "new_api_calls": 0,
+  "note": "Aliases are mutable; cache preserves the original response fingerprint and date, not a new provider measurement."
+}

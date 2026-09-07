@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "90549579539bd24c096ece3eff81848234a0c884371eba50ebb0fb5d9767d700",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "The user may qualify for the Fry Scholarship because their parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001.",
+                "coverage": "covered",
+                "response_quote": "根据您的情况，您可能有资格申请Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）。该奖学金适用于2001年9月11日或之后在执行任务中死亡的现役军人的子女或遗属配偶。",
+                "reason": "The response confirms eligibility based on the stated condition, matching the reference."
+              }
+            ],
+            "reason": "The response correctly answers the user's confirmation by stating eligibility for the Fry Scholarship under the required condition, with all additional details supported by the retrieved documents."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "c103d16961cd4dbb9132c50cc0e3bdd4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4298,
+                "completion_tokens": 191,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 191,
+                  "prompt_tokens": 4298,
+                  "total_tokens": 4489,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3402
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0060073,
+              "accounted_rmb": 0.0060073,
+              "usage_unknown": false,
+              "seconds": 1.986358880996704,
+              "error": null,
+              "response": {
+                "id": "75223903-5cc9-4e3a-b38e-441418b7b662",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "4783c661ff585d9a4ca2a3f7e55ba08f0d916705f6f0126aaaf09f9e6a3f12fd"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "The user may qualify for the Fry Scholarship because their parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001.",
+            "coverage": "covered",
+            "response_quote": "根据您的情况，您可能有资格申请Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）。该奖学金适用于2001年9月11日或之后在执行任务中死亡的现役军人的子女或遗属配偶。",
+            "reason": "The response confirms eligibility based on the stated condition, matching the reference."
+          }
+        ],
+        "reason": "The response correctly answers the user's confirmation by stating eligibility for the Fry Scholarship under the required condition, with all additional details supported by the retrieved documents."
+      }
+    }
+  },
+  "sha256": "42bab8d192b674a6ac3ed91ff075e989b9338890ae29b1c912f6938df96b12e2"
+}

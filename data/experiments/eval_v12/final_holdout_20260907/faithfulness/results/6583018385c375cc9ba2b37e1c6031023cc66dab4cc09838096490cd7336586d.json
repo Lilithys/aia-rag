@@ -1,0 +1,144 @@
+{
+  "payload": {
+    "task_id": "6583018385c375cc9ba2b37e1c6031023cc66dab4cc09838096490cd7336586d",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Yes, you can pay a driver civil penalty by mail.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay driver civil penalty#1_0::c0009",
+                  "Pay driver civil penalty#1_0::c0010"
+                ],
+                "reason": "The contexts provide mailing instructions for driver civil penalties, confirming that payment by mail is possible."
+              },
+              {
+                "text": "The mailing address depends on the type of penalty.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay driver civil penalty#1_0::c0009",
+                  "Pay driver civil penalty#1_0::c0010"
+                ],
+                "reason": "The contexts show different addresses for different penalty types."
+              },
+              {
+                "text": "For penalties due to driving without insurance or an uninsured accident, send a certified check, personal check, or money order payable to 'Commissioner of Motor Vehicles' to: Insurance Services Bureau, NYS DMV, 6 Empire State Plaza, Room 332B, Albany, NY 12228.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay driver civil penalty#1_0::c0009"
+                ],
+                "reason": "The context explicitly states this mailing address and payment methods for those penalty types."
+              },
+              {
+                "text": "For penalties due to refusing a chemical test or violating the Zero Tolerance Law, send a certified check or money order payable to 'Commissioner of Motor Vehicles' to: Driver Improvement Unit, NYS DMV, 6 Empire State Plaza, Room 338, Albany, NY 12228.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Pay driver civil penalty#1_0::c0010"
+                ],
+                "reason": "The context explicitly states this mailing address and payment methods for those penalty types."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "2bcbea04bb3d49078a11209b3fd989ac",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1553,
+                "completion_tokens": 442,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 442,
+                  "prompt_tokens": 1553,
+                  "total_tokens": 1995,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1169
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0037616999999999998,
+              "accounted_rmb": 0.0037616999999999998,
+              "usage_unknown": false,
+              "seconds": 2.83593487739563,
+              "error": null,
+              "response": {
+                "id": "eb70fc27-c9b6-434f-9942-f2ebc0c68239",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b6653c7a36c491bd42be09e22032abc813ad5d5cd9ef62ade2313ebec44224eb"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Yes, you can pay a driver civil penalty by mail.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay driver civil penalty#1_0::c0009",
+            "Pay driver civil penalty#1_0::c0010"
+          ],
+          "reason": "The contexts provide mailing instructions for driver civil penalties, confirming that payment by mail is possible."
+        },
+        {
+          "text": "The mailing address depends on the type of penalty.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay driver civil penalty#1_0::c0009",
+            "Pay driver civil penalty#1_0::c0010"
+          ],
+          "reason": "The contexts show different addresses for different penalty types."
+        },
+        {
+          "text": "For penalties due to driving without insurance or an uninsured accident, send a certified check, personal check, or money order payable to 'Commissioner of Motor Vehicles' to: Insurance Services Bureau, NYS DMV, 6 Empire State Plaza, Room 332B, Albany, NY 12228.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay driver civil penalty#1_0::c0009"
+          ],
+          "reason": "The context explicitly states this mailing address and payment methods for those penalty types."
+        },
+        {
+          "text": "For penalties due to refusing a chemical test or violating the Zero Tolerance Law, send a certified check or money order payable to 'Commissioner of Motor Vehicles' to: Driver Improvement Unit, NYS DMV, 6 Empire State Plaza, Room 338, Albany, NY 12228.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Pay driver civil penalty#1_0::c0010"
+          ],
+          "reason": "The context explicitly states this mailing address and payment methods for those penalty types."
+        }
+      ]
+    }
+  },
+  "sha256": "7cd0a687dd7d9015c0e5b73690974180bdf48848a5eba7dcf2e400be675b0848"
+}

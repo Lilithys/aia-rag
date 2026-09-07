@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "f066d67869a2aa168ee9a8867f9b01241f1c3dbda5064aa986659716cb3d12ad",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "关于贷款，建议遵循“先免费资金，后赚取资金，最后借贷资金”的原则。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Accepting Aid | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context states 'Free money first (e.g., scholarships, grants); Earned money second (e.g., work-study); Borrowed money last (e.g., federal student loans)', which matches the principle."
+              },
+              {
+                "text": "如果必须接受贷款，应优先选择条款最优惠的贷款，通常是指联邦学生贷款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Accepting Aid | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context says 'If you must accept loans, accept the ones with the most favorable terms and conditions. Usually, that means choosing the federal student loans offered to you.'"
+              },
+              {
+                "text": "请务必只借你需要的金额，并制定预算来帮助你确定借款数额。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Accepting Aid | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context says 'Borrow only what you need!' and 'make a budget to help ensure you borrow only what you need.'"
+              },
+              {
+                "text": "如果你对援助通知中的贷款类型有疑问，请联系学校财务援助办公室。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Accepting Aid | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context says 'If you have any questions or don't understand what types of loans are in your aid offer, contact the school.'"
+              },
+              {
+                "text": "请记住，如果你不接受全额贷款，之后可以增加金额。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Accepting Aid | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The context says 'Remember: If you don't accept the full amount of the loan you're eligible for, you can increase the amount later.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4bd84503ae344abaa1b1cb2953040831",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2921,
+                "completion_tokens": 534,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 534,
+                  "prompt_tokens": 2921,
+                  "total_tokens": 3455,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 2409
+                }
+              },
+              "usage_cost_estimate_rmb": 0.006042100000000001,
+              "accounted_rmb": 0.006042100000000001,
+              "usage_unknown": false,
+              "seconds": 3.676321029663086,
+              "error": null,
+              "response": {
+                "id": "76ccb9c6-b0b0-42ce-b163-cb922a179019",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "618f92ae1c9f9cd374e76b791a13087c131e68e233774f910e8dd0f233192908"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "关于贷款，建议遵循“先免费资金，后赚取资金，最后借贷资金”的原则。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context states 'Free money first (e.g., scholarships, grants); Earned money second (e.g., work-study); Borrowed money last (e.g., federal student loans)', which matches the principle."
+        },
+        {
+          "text": "如果必须接受贷款，应优先选择条款最优惠的贷款，通常是指联邦学生贷款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context says 'If you must accept loans, accept the ones with the most favorable terms and conditions. Usually, that means choosing the federal student loans offered to you.'"
+        },
+        {
+          "text": "请务必只借你需要的金额，并制定预算来帮助你确定借款数额。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context says 'Borrow only what you need!' and 'make a budget to help ensure you borrow only what you need.'"
+        },
+        {
+          "text": "如果你对援助通知中的贷款类型有疑问，请联系学校财务援助办公室。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context says 'If you have any questions or don't understand what types of loans are in your aid offer, contact the school.'"
+        },
+        {
+          "text": "请记住，如果你不接受全额贷款，之后可以增加金额。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The context says 'Remember: If you don't accept the full amount of the loan you're eligible for, you can increase the amount later.'"
+        }
+      ]
+    }
+  },
+  "sha256": "f09cd472d0e8c10f423943f80807bdb471f0ea01f5c9d091acc2a7eba3955160"
+}

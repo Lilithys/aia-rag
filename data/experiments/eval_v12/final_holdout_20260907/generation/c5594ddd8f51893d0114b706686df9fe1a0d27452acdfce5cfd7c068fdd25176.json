@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "cc4c9a0cdf4e13cc1db7ff38efa8530b::agent-turn-10",
+    "item_sha256": "51bf1b116abee98244cb85648970b80b4c3c575535bc57fb012fa56de766e0a6",
+    "result": {
+      "request_id": "a258a69d668e4bf4b609030b7d953a62",
+      "session_id": "cc4c9a0cdf4e13cc1db7ff38efa8530b",
+      "turn_id": 9,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "To start VA nursing home, assisted living, or home health care services, you must meet all of these requirements: 1) You're signed up for VA health care, 2) VA concludes you need a specific service for ongoing treatment and personal care, and 3) The service or space is available near you. To access these services, contact your VA social worker or call the toll-free hotline at 877-222-8387 (Monday–Friday, 8:00 a.m. to 8:00 p.m. ET). If you're not currently enrolled in VA health care, you can apply for benefits first.",
+        "citations": [
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Vision Care | Veterans Affairs#1_0::c0000",
+          "text": "# VA Vision Care | Veterans Affairs\n\n# VA vision care\n\nIf you qualify for VA health care benefits, you may be able to get some or all of your vision care through VA. Find out more about our vision care.\n\n### Are my routine eye exams covered under my VA health care benefits?\n\nYes. If you have VA health care benefits, we ll cover your routine eye exams and preventive vision testing (like testing for glaucoma).\n\nTo schedule an eye exam, talk to your VA primary care provider or contact your nearest VA medical center or clinic.Find a VA medical center near you\n\nIf you re a blind or low vision Veteran, you may be able to get more advanced vision care and rehabilitation services.Find out if you qualify for blind and low vision Veteran services\n\n## Will VA cover the cost of eyeglasses?\n\nWe ll cover the cost of your eyeglasses if you meet at least one of the requirements listed below.\n\nAt least one of these must be true. You:\n\n- Have a compensable service-connected disability (a disability linked to your military service for which you re receiving VA disability payments), or\n- Are a former prisoner of war (POW), or\n- Were awarded a Purple Heart, or\n- Receive benefits under Title 38 United States Code (U.S.C.) 1151, or\n- Receive an increased pension based on your being permanently housebound and in need of regular aid and attendance\n\nOr, you must have at least one of these issues:\n\n- Vision problems caused by an illness or the treatment of an illness for which you re receiving VA care, like:\n  - Stroke\n  - Diabetes\n  - Multiple sclerosis\n  - Vascular disease (diseases that affect your blood vessels)\n  - Geriatric chronic illnesses (long-lasting illnesses that affect the elderly)\n- Vision problems caused by an injury or the treatment of an injury for which you re receiving VA care, like:\n  - A reaction to prescribed medicines\n  - Cataract surgery or other surgeries of the eye, ear, or brain\n  - Traumatic brain injury or polytrauma (injuries to more than 1 body part or organ, often caused by a blast)\n- Functional impairment (parts of your body that don t work as well as they should) or cognitive impairment (a problem with memory or thinking skills) that s severe enough to make it hard for you to do everyday tasks\n- Vision and/or hearing loss (called dual sensory impairment) that s severe enough to interfere with your ability to take an active role in your own health care and eyeglasses would help to reduce the impact of your impairment\n\nFor more information, contact the prosthetic representative at your nearest VA medical center or clinic.Find a VA health facility near you\n\n## If I have vision and hearing loss, will VA cover the cost of hearing aids too?\n\nFind out how to get hearing aids through VA\n\nLast updated:"
+        },
+        {
+          "chunk_id": "About VA Health Benefits | Veterans Affairs#1_0::c0004",
+          "text": "[关于 VA 健康福利 > 更多关于您的医疗福利套餐 > 如果您是符合资格的美国印第安人或阿拉斯加原住民退伍军人]\n- 用于诊断健康状况的检查，包括血液检查、X光和超声波\n  - 治疗和康复服务，包括物理治疗、视力康复和创伤性脑损伤治疗\n  - 其他服务，包括假肢、听力学（听力损失护理）和放射肿瘤学（癌症护理）\n\n- 您可能能够获得一些非医疗服务的帮助，例如：\n\n- 受益人旅行福利（帮助支付与治疗相关的旅行费用）\n  - 照护者支持（为照顾您的人提供帮助）\n  - 退伍军人交通服务（帮助往返预约）\n\n- 联系您接受护理的VA医疗中心的患者倡导者。您的患者倡导者可以帮助您获得外语或美国手语服务，以帮助您或您的家人理解您的医疗或保健福利。\n\n要了解如何联系您所在VA医疗中心的患者倡导者，请访问该医疗中心所属的VA医疗保健系统的网站。在页面导航中，点击“患者与访客”。将出现一个子菜单。选择“患者信息”，然后选择“客户服务”。查找您医疗中心的网站\n\n- 我们涵盖常规眼科检查和预防性检查。在某些情况下，您可能获得眼镜或盲人或低视力康复服务的覆盖。了解更多关于VA视力护理的信息\n\n- 在某些情况下，您可能作为VA健康福利的一部分获得牙科护理。了解您是否可以通过VA获得牙科护理\n\n- 作为退伍军人，您可能能够通过VA获得辅助生活、居住（住宿）或家庭保健服务。了解如何获得这些长期护理服务\n\n- 这些服务不包括在您的VA医疗福利包中：\n\n- 堕胎和堕胎咨询\n  - 整容手术，除非我们认为这是医学上必要的（需要预防或治疗某种疾病、伤害、状况、疾病或症状）\n  - 性别改变（性别重置手术）\n  - 健康俱乐部或水疗会员资格\n  - 未经美国食品药品监督管理局（FDA）批准的药物和医疗器械，但有两种特殊情况除外：\n    - 您参加批准的临床试验，或\n    - 您病情严重，且您的VA医疗保健提供者开具新的、未经批准的药物，因为没有其他可比较的治疗选择（称为同情使用或扩大访问豁免）\n  - 如果您是非VA政府机构的患者或被监禁者，且该机构依法必须提供护理或服务，则住院或门诊护理\n\n- 只有满足以下所有要求，我们才会配发非VA社区提供者开具的处方。\n\n以下所有条件都必须为真："
+        },
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0005",
+          "text": "[VA nursing homes, assisted living, and home health care > More details about your care options]\n- You can get nursing home care in 1 of the 3 different nursing home settings listed below. In each, you d live there full time and have access to nursing and medical care, as well as help with daily tasks 24 hours a day.\n\nYou may be able to get VA benefits to help pay for nursing home care. It depends on your income and the level of your service-connected disability (a disability that resulted from your military service).\n\nLearn more about:\n\nCommunity Living Centers VA nursing centers that are designed to feel like home\n\nCommunity Nursing Homes Non-VA nursing homes that we contract with in many parts of the country so you can get care near your home and family\n\nState Veterans Homes State-owned and -managed centers that provide full-time care for Veterans and, sometimes, non-Veteran spouses and Gold Star parents\n\n- You may be able to get community residential (live-in) care in settings such as those listed below. In each setting, a trained professional will provide care and support with daily tasks 24 hours a day.\n\nThese places are not run, staffed, or paid for by VA, but we do inspect and approve each one. And you may be able to use VA benefits to help pay for extra services (like visits from a VA health care provider).\n\nLearn more about:\n\nMedical foster homes Private homes where a few people live together and get care\n\nAdult family homes (or adult foster homes) Private homes with rooms to rent for 6 or fewer people\n\nAssisted living facilities Centers where Veterans can live in a rented room or apartment, and have access to shared living spaces like a dining room\n\n- If you re signed up for VA health care, you can get help managing your disability or health condition while living at home. The services you qualify for will depend on your needs and whether a service is available in your area. If you need to, you may be able to use more than one service at the same time.\n\nLearn more about:\n\nHome-based primary care A VA health care team, led by a VA doctor, who provides services (like nursing care, physical therapy, and help with daily tasks) in your home\n\nHomemaker/home health aide (H/HHA) services A trained caregiver (supervised by a registered nurse) who comes into your home to help you care for yourself\n\nAdult day health care A program you can go to during the day for social activities, companionship, and recreation as well as care and support\n\nHospice care Skilled caregivers who come into your home to provide comfort care to you and your family. You qualify for hospice care if you have a terminal condition (a condition that can t be treated), with less than 6 months to live, and you re no longer seeking treatment other than to ease pain.\n\nPalliative care Skilled caregivers who come into your home to provide comfort care to help ease your pain and control your symptoms so you can do as much as possible in your daily life\n\n- If you re signed up for VA health care, you can get home-based health care as part of your benefits. The services that you qualify for will depend on your needs.\n\nLearn more about:\n\nSkilled home health care Health care providers from a community-based home health agency who come to your house to provide care such as wound care, physical therapy, social work support, and help with daily tasks\n\nHome Telehealth A VA care coordinator who keeps track of your health remotely using special equipment in your home and will check in with you by phone, if needed. If there are any signs of a problem, your care coordinator will work with you and your VA doctor and nurse to figure out what to do next.\n\n- You may be able to get a service called respite care as part of your VA health care benefits. This service pays for a person to come into your home or for you to go to a program outside your home while your family caregiver takes a break.Learn more about respite care\n\nOther services for home health care (like adult day health care or skilled health aide services) listed above can also help to support caregivers.\n\n- Yes. We offer Geriatric Patient Aligned Care Team (GeriPACT) services in about two-thirds of VA medical centers.\n\nGeriPACT provides expert care to Veterans with challenging health care needs due to conditions such as:\n\n- More than one complex chronic disease\n  - Dementia or cognitive decline\n  - Geriatric syndromes (like frailty, falls, incontinence, memory loss, taking many medicines, or being 65 years or older)\n  - Caregiver burden (the stress and strain that can come from caring for someone with complex needs)\n\nNote: GeriPACT is not for Veterans with untreated substance abuse. It may also not be the right fit for Veterans who only need a prescription refill for a medicine like Aricept (used to treat Alzheimer s disease).\n\nLearn more about geriatric care\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002",
+          "text": "[VA nursing homes, assisted living, and home health care > How do I access these services?]\nYou may be able to use one or more of these services if you meet all of the requirements listed below.\n\nAll of these must be true:\n\n- You re signed up for VA health care, and\n- We conclude that you need a specific service to help with your ongoing treatment and personal care, and\n- The service (or space in the care setting) is available near you\n\nWe may also consider other factors, like your service-connected disability status or insurance coverage.\n\nTo find out how to access these services, contact your VA social worker. Or, call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nIf you re not currently in the VA health care program, you can apply for benefits now.Apply now"
+        },
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0003",
+          "text": "[VA nursing homes, assisted living, and home health care > Does VA pay for these services?]\nWe cover some of these services under your standard health benefits if you re signed up for VA health care. You may still need to pay a copay for some covered services.Apply for VA health care\n\nOther services aren t covered under VA health care benefits. For these services, you may be able to pay through Medicaid, Medicare, or your own private insurance.\n\nLearn more about paying for long-term care"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Vision Care | Veterans Affairs#1_0::c0000",
+          "text": "# VA Vision Care | Veterans Affairs\n\n# VA vision care\n\nIf you qualify for VA health care benefits, you may be able to get some or all of your vision care through VA. Find out more about our vision care.\n\n### Are my routine eye exams covered under my VA health care benefits?\n\nYes. If you have VA health care benefits, we ll cover your routine eye exams and preventive vision testing (like testing for glaucoma).\n\nTo schedule an eye exam, talk to your VA primary care provider or contact your nearest VA medical center or clinic.Find a VA medical center near you\n\nIf you re a blind or low vision Veteran, you may be able to get more advanced vision care and rehabilitation services.Find out if you qualify for blind and low vision Veteran services\n\n## Will VA cover the cost of eyeglasses?\n\nWe ll cover the cost of your eyeglasses if you meet at least one of the requirements listed below.\n\nAt least one of these must be true. You:\n\n- Have a compensable service-connected disability (a disability linked to your military service for which you re receiving VA disability payments), or\n- Are a former prisoner of war (POW), or\n- Were awarded a Purple Heart, or\n- Receive benefits under Title 38 United States Code (U.S.C.) 1151, or\n- Receive an increased pension based on your being permanently housebound and in need of regular aid and attendance\n\nOr, you must have at least one of these issues:\n\n- Vision problems caused by an illness or the treatment of an illness for which you re receiving VA care, like:\n  - Stroke\n  - Diabetes\n  - Multiple sclerosis\n  - Vascular disease (diseases that affect your blood vessels)\n  - Geriatric chronic illnesses (long-lasting illnesses that affect the elderly)\n- Vision problems caused by an injury or the treatment of an injury for which you re receiving VA care, like:\n  - A reaction to prescribed medicines\n  - Cataract surgery or other surgeries of the eye, ear, or brain\n  - Traumatic brain injury or polytrauma (injuries to more than 1 body part or organ, often caused by a blast)\n- Functional impairment (parts of your body that don t work as well as they should) or cognitive impairment (a problem with memory or thinking skills) that s severe enough to make it hard for you to do everyday tasks\n- Vision and/or hearing loss (called dual sensory impairment) that s severe enough to interfere with your ability to take an active role in your own health care and eyeglasses would help to reduce the impact of your impairment\n\nFor more information, contact the prosthetic representative at your nearest VA medical center or clinic.Find a VA health facility near you\n\n## If I have vision and hearing loss, will VA cover the cost of hearing aids too?\n\nFind out how to get hearing aids through VA\n\nLast updated:"
+        },
+        {
+          "chunk_id": "About VA Health Benefits | Veterans Affairs#1_0::c0004",
+          "text": "[关于 VA 健康福利 > 更多关于您的医疗福利套餐 > 如果您是符合资格的美国印第安人或阿拉斯加原住民退伍军人]\n- 用于诊断健康状况的检查，包括血液检查、X光和超声波\n  - 治疗和康复服务，包括物理治疗、视力康复和创伤性脑损伤治疗\n  - 其他服务，包括假肢、听力学（听力损失护理）和放射肿瘤学（癌症护理）\n\n- 您可能能够获得一些非医疗服务的帮助，例如：\n\n- 受益人旅行福利（帮助支付与治疗相关的旅行费用）\n  - 照护者支持（为照顾您的人提供帮助）\n  - 退伍军人交通服务（帮助往返预约）\n\n- 联系您接受护理的VA医疗中心的患者倡导者。您的患者倡导者可以帮助您获得外语或美国手语服务，以帮助您或您的家人理解您的医疗或保健福利。\n\n要了解如何联系您所在VA医疗中心的患者倡导者，请访问该医疗中心所属的VA医疗保健系统的网站。在页面导航中，点击“患者与访客”。将出现一个子菜单。选择“患者信息”，然后选择“客户服务”。查找您医疗中心的网站\n\n- 我们涵盖常规眼科检查和预防性检查。在某些情况下，您可能获得眼镜或盲人或低视力康复服务的覆盖。了解更多关于VA视力护理的信息\n\n- 在某些情况下，您可能作为VA健康福利的一部分获得牙科护理。了解您是否可以通过VA获得牙科护理\n\n- 作为退伍军人，您可能能够通过VA获得辅助生活、居住（住宿）或家庭保健服务。了解如何获得这些长期护理服务\n\n- 这些服务不包括在您的VA医疗福利包中：\n\n- 堕胎和堕胎咨询\n  - 整容手术，除非我们认为这是医学上必要的（需要预防或治疗某种疾病、伤害、状况、疾病或症状）\n  - 性别改变（性别重置手术）\n  - 健康俱乐部或水疗会员资格\n  - 未经美国食品药品监督管理局（FDA）批准的药物和医疗器械，但有两种特殊情况除外：\n    - 您参加批准的临床试验，或\n    - 您病情严重，且您的VA医疗保健提供者开具新的、未经批准的药物，因为没有其他可比较的治疗选择（称为同情使用或扩大访问豁免）\n  - 如果您是非VA政府机构的患者或被监禁者，且该机构依法必须提供护理或服务，则住院或门诊护理\n\n- 只有满足以下所有要求，我们才会配发非VA社区提供者开具的处方。\n\n以下所有条件都必须为真："
+        },
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0005",
+          "text": "[VA nursing homes, assisted living, and home health care > More details about your care options]\n- You can get nursing home care in 1 of the 3 different nursing home settings listed below. In each, you d live there full time and have access to nursing and medical care, as well as help with daily tasks 24 hours a day.\n\nYou may be able to get VA benefits to help pay for nursing home care. It depends on your income and the level of your service-connected disability (a disability that resulted from your military service).\n\nLearn more about:\n\nCommunity Living Centers VA nursing centers that are designed to feel like home\n\nCommunity Nursing Homes Non-VA nursing homes that we contract with in many parts of the country so you can get care near your home and family\n\nState Veterans Homes State-owned and -managed centers that provide full-time care for Veterans and, sometimes, non-Veteran spouses and Gold Star parents\n\n- You may be able to get community residential (live-in) care in settings such as those listed below. In each setting, a trained professional will provide care and support with daily tasks 24 hours a day.\n\nThese places are not run, staffed, or paid for by VA, but we do inspect and approve each one. And you may be able to use VA benefits to help pay for extra services (like visits from a VA health care provider).\n\nLearn more about:\n\nMedical foster homes Private homes where a few people live together and get care\n\nAdult family homes (or adult foster homes) Private homes with rooms to rent for 6 or fewer people\n\nAssisted living facilities Centers where Veterans can live in a rented room or apartment, and have access to shared living spaces like a dining room\n\n- If you re signed up for VA health care, you can get help managing your disability or health condition while living at home. The services you qualify for will depend on your needs and whether a service is available in your area. If you need to, you may be able to use more than one service at the same time.\n\nLearn more about:\n\nHome-based primary care A VA health care team, led by a VA doctor, who provides services (like nursing care, physical therapy, and help with daily tasks) in your home\n\nHomemaker/home health aide (H/HHA) services A trained caregiver (supervised by a registered nurse) who comes into your home to help you care for yourself\n\nAdult day health care A program you can go to during the day for social activities, companionship, and recreation as well as care and support\n\nHospice care Skilled caregivers who come into your home to provide comfort care to you and your family. You qualify for hospice care if you have a terminal condition (a condition that can t be treated), with less than 6 months to live, and you re no longer seeking treatment other than to ease pain.\n\nPalliative care Skilled caregivers who come into your home to provide comfort care to help ease your pain and control your symptoms so you can do as much as possible in your daily life\n\n- If you re signed up for VA health care, you can get home-based health care as part of your benefits. The services that you qualify for will depend on your needs.\n\nLearn more about:\n\nSkilled home health care Health care providers from a community-based home health agency who come to your house to provide care such as wound care, physical therapy, social work support, and help with daily tasks\n\nHome Telehealth A VA care coordinator who keeps track of your health remotely using special equipment in your home and will check in with you by phone, if needed. If there are any signs of a problem, your care coordinator will work with you and your VA doctor and nurse to figure out what to do next.\n\n- You may be able to get a service called respite care as part of your VA health care benefits. This service pays for a person to come into your home or for you to go to a program outside your home while your family caregiver takes a break.Learn more about respite care\n\nOther services for home health care (like adult day health care or skilled health aide services) listed above can also help to support caregivers.\n\n- Yes. We offer Geriatric Patient Aligned Care Team (GeriPACT) services in about two-thirds of VA medical centers.\n\nGeriPACT provides expert care to Veterans with challenging health care needs due to conditions such as:\n\n- More than one complex chronic disease\n  - Dementia or cognitive decline\n  - Geriatric syndromes (like frailty, falls, incontinence, memory loss, taking many medicines, or being 65 years or older)\n  - Caregiver burden (the stress and strain that can come from caring for someone with complex needs)\n\nNote: GeriPACT is not for Veterans with untreated substance abuse. It may also not be the right fit for Veterans who only need a prescription refill for a medicine like Aricept (used to treat Alzheimer s disease).\n\nLearn more about geriatric care\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002",
+          "text": "[VA nursing homes, assisted living, and home health care > How do I access these services?]\nYou may be able to use one or more of these services if you meet all of the requirements listed below.\n\nAll of these must be true:\n\n- You re signed up for VA health care, and\n- We conclude that you need a specific service to help with your ongoing treatment and personal care, and\n- The service (or space in the care setting) is available near you\n\nWe may also consider other factors, like your service-connected disability status or insurance coverage.\n\nTo find out how to access these services, contact your VA social worker. Or, call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nIf you re not currently in the VA health care program, you can apply for benefits now.Apply now"
+        },
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0003",
+          "text": "[VA nursing homes, assisted living, and home health care > Does VA pay for these services?]\nWe cover some of these services under your standard health benefits if you re signed up for VA health care. You may still need to pay a copay for some covered services.Apply for VA health care\n\nOther services aren t covered under VA health care benefits. For these services, you may be able to pay through Medicaid, Medicare, or your own private insurance.\n\nLearn more about paying for long-term care"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002",
+          "document": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0",
+          "heading": [
+            "VA nursing homes, assisted living, and home health care",
+            "How do I access these services?"
+          ],
+          "source_file": "va_114.md",
+          "excerpt": "[VA nursing homes, assisted living, and home health care > How do I access these services?]\nYou may be able to use one or more of these services if you meet all of the requirements listed below.\n\nAll of these must be true:\n\n- You re signed up for VA health care, and\n- We conclude that you need a specific service to help with your ongoing treatment and personal care, and\n- The service (or space in the care setting) is available near you\n\nWe may also consider other factors, like your service-connected disability status or insurance coverage.\n\nTo find out how to access these services, contact your VA social worker. Or, call our toll-free hotline at 877-222-8387, Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.\n\nIf you re not currently in the VA health care program, you can apply for benefits now.Apply now"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "To start VA nursing home, assisted living, or home health care services, you must meet all of these requirements: 1) You're signed up for VA health care, 2) VA concludes you need a specific service for ongoing treatment and personal care, and 3) The service or space is available near you. To access these services, contact your VA social worker or call the toll-free hotline at 877-222-8387 (Monday–Friday, 8:00 a.m. to 8:00 p.m. ET). If you're not currently enrolled in VA health care, you can apply for benefits first.",
+          "citations": [
+            "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "43ab76f8576b4fad98885ae3e87213e3",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2980,
+              "completion_tokens": 163,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 163,
+                "prompt_tokens": 2980,
+                "total_tokens": 3143,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2724
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0048323,
+            "accounted_rmb": 0.0048323,
+            "usage_unknown": false,
+            "seconds": 1.7376999855041504,
+            "error": null,
+            "response": {
+              "id": "09ee4cd8-fcbd-4f0d-9911-bf15509d7213",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "c383c0e7fad9afaf56e7b652c937051e2d649539eed4c528858e4055ae33a105"
+      },
+      "latency_ms": {
+        "queue_wait": 0.04854204598814249,
+        "retrieval": 1574.417666066438,
+        "generation": 1742.2822080552578,
+        "total": 3318.0172090651467
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.21548862499184906,
+        "rerank_seconds": 1.358877208083868,
+        "top1_dense_score": 0.8088379502296448,
+        "candidate_ids": [
+          "VA Vision Care | Veterans Affairs#1_0::c0000",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0003",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0001",
+          "Health Needs And Conditions | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#2_0::c0005",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0004",
+          "Aid And Attendance Benefits And Housebound Allowance | VA.gov#1_0::c0000",
+          "VA Housing Assistance | Veterans Affairs#2_0::c0000",
+          "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0005",
+          "About VA Health Benefits | Veterans Affairs#1_0::c0004",
+          "About VA Health Benefits | Veterans Affairs#1_0::c0001",
+          "VA Pension Benefits | Veterans Affairs#1_0::c0000",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0003",
+          "VA Clothing Allowance | Veterans Affairs#1_0::c0000",
+          "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0::c0000",
+          "VA Health Care And Other Insurance | Veterans Affairs#1_0::c0000",
+          "VA Pension Benefits | Veterans Affairs#2_0::c0000",
+          "VA Health Care | Veterans Affairs#2_0::c0001",
+          "VA Health Care | Veterans Affairs#2_0::c0003"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 45,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.5743997500976548
+      },
+      "raw_citations": [
+        "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0::c0002"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "cfdacfdfb2ba2174dde86b108e69800d48984e706d067a92280ce1e4237565d9"
+}

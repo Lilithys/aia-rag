@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "7a0825fcc6119488648da071f04c776024283aef4d2e12c2dba4fd21edcafab8",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "SHIP contact information is in the back of the Medicare & You 2020 Handbook online",
+                "coverage": "covered",
+                "response_quote": "in the back of the Medicare & You 2020 Handbook",
+                "reason": "Response states the location as in the back of the handbook, matching the reference."
+              },
+              {
+                "requirement": "SHIP contact information can be requested by phone",
+                "coverage": "covered",
+                "response_quote": "or you can request it when you call 1-800-MEDICARE",
+                "reason": "Response mentions requesting it when calling 1-800-MEDICARE, which is supported by the source."
+              }
+            ],
+            "reason": "The response accurately provides the two ways to find SHIP contact information as per the reference, with no unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f146fe7ef1eb45e8ac93447b8149a15b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2972,
+                "completion_tokens": 205,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 205,
+                  "prompt_tokens": 2972,
+                  "total_tokens": 3177,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2076
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0040813,
+              "accounted_rmb": 0.0040813,
+              "usage_unknown": false,
+              "seconds": 1.9297280311584473,
+              "error": null,
+              "response": {
+                "id": "14f963ce-f74d-4441-a29f-bfbdfa7f6b5c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b7d7fd4b5078d69d0ab94dbf3ac0fda8970709d2c38ddcf3c1eb853e982130e0"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "SHIP contact information is in the back of the Medicare & You 2020 Handbook online",
+            "coverage": "covered",
+            "response_quote": "in the back of the Medicare & You 2020 Handbook",
+            "reason": "Response states the location as in the back of the handbook, matching the reference."
+          },
+          {
+            "requirement": "SHIP contact information can be requested by phone",
+            "coverage": "covered",
+            "response_quote": "or you can request it when you call 1-800-MEDICARE",
+            "reason": "Response mentions requesting it when calling 1-800-MEDICARE, which is supported by the source."
+          }
+        ],
+        "reason": "The response accurately provides the two ways to find SHIP contact information as per the reference, with no unsupported claims."
+      }
+    }
+  },
+  "sha256": "300d8bea51fa0430b88ac388720b69da570f13ae73e2d0c7f951e04f77bc4e67"
+}

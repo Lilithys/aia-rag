@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "83bd6064683d924d6d96df2599cedb0abdadfe39bd3bb16e43fea2a21bc27ec5",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "学区因数据不足被列出的原因包括缺失调整后队列毕业率、少于15名学生、毕业班不可预测增长、预计毕业生少于10人、完成的FAFSA少于五份、LEA代码不匹配",
+                "coverage": "covered",
+                "response_quote": "监管调整后的队列毕业率缺失（例如学区合并或新成立）、该数据中少于15名学生、毕业班学生数量出现不可预测的增长、预计毕业生少于10人、完成的FAFSA表格少于五份，或国家教育统计中心LEA代码与州Tiger/Line形状文件中的代码不匹配",
+                "reason": "响应完整列出了所有六个原因，与参考一致"
+              }
+            ],
+            "reason": "响应准确、完整地回答了问题，所有事实均来自检索到的文档，无错误或额外无支持声明。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "069faf6784cf4ba787e7213e2d2b32c7",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3631,
+                "completion_tokens": 208,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 208,
+                  "prompt_tokens": 3631,
+                  "total_tokens": 3839,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2735
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0050833,
+              "accounted_rmb": 0.0050833,
+              "usage_unknown": false,
+              "seconds": 2.1074399948120117,
+              "error": null,
+              "response": {
+                "id": "68914fc1-1cc4-4f7c-9ee7-0ccb9833aa24",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b2e2e2edcd3a7794ede746923bfa568ccd3634705b9b688a3c9bc40a67e667bb"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "学区因数据不足被列出的原因包括缺失调整后队列毕业率、少于15名学生、毕业班不可预测增长、预计毕业生少于10人、完成的FAFSA少于五份、LEA代码不匹配",
+            "coverage": "covered",
+            "response_quote": "监管调整后的队列毕业率缺失（例如学区合并或新成立）、该数据中少于15名学生、毕业班学生数量出现不可预测的增长、预计毕业生少于10人、完成的FAFSA表格少于五份，或国家教育统计中心LEA代码与州Tiger/Line形状文件中的代码不匹配",
+            "reason": "响应完整列出了所有六个原因，与参考一致"
+          }
+        ],
+        "reason": "响应准确、完整地回答了问题，所有事实均来自检索到的文档，无错误或额外无支持声明。"
+      }
+    }
+  },
+  "sha256": "ce4bb002a35bec53ec786df8097ee645b7d9c2481ff8c833a27cd691f7063ce3"
+}

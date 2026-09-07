@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "abc5827cbf68e87198e204e5cc486f1c::agent-turn-10",
+    "item_sha256": "3d6cb9cd8be8a5c738fb30497609e2e5b705e9ae33a32e634a9791140e58df3f",
+    "result": {
+      "request_id": "8de46708eb0d482c9853a13de3330ca2",
+      "session_id": "abc5827cbf68e87198e204e5cc486f1c",
+      "turn_id": 9,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "学区可能因以下原因被列为数据不足/缺失：监管调整后的队列毕业率缺失（例如学区合并或新成立）、该数据中少于15名学生、毕业班学生数量出现不可预测的增长、预计毕业生少于10人、完成的FAFSA表格少于五份，或国家教育统计中心LEA代码与州Tiger/Line形状文件中的代码不匹配。",
+        "citations": [
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0007",
+          "text": "[关于FAFSA完成数据的问答 > 完成总数较低]\n#### 为什么我的FAFSA提交或完成数量低于我认为应有的数量？\n\n虽然我们知道许多高中无意中高估了他们的FAFSA完成率，但您的完成率可能低于预期的一个原因是您的学校可能被多次列出。如果学生在FAFSA表格上以不同方式输入了您学校的名称，就会发生这种情况。例如，如果一些学生列出了“John Doe高中”，而其他学生列出了“Doe高中”，那么您的高中可能会被列在多个地方。请查找您学校的替代名称。如果您发现您的学校被多次列出，请发送电子邮件至HSFAFSA@ed.gov。\n\n#### 我是一名高中辅导员或大学入学专业人士。你们有哪些资源可以帮助提高FAFSA完成总数？\n\n联邦学生援助的财务援助工具包为辅导员、大学入学专业人士、非营利导师和其他人提供联邦学生援助信息和外展工具。该网站帮助辅导员了解联邦学生援助的基础知识，提供举办活动的提示（以及示例PowerPoint演示文稿），提供社交媒体和电子邮件外展的建议信息，并帮助寻找其他培训机会。\n\n#### 我是一所高中有很多20岁或以上学生的辅导员。为什么我的数字这么低？\n\n由于FAFSA表格上没有询问申请人是否为高中毕业班学生的问题，我们必须使用多个标准来识别那些可能是高中毕业班的申请人。在这种情况下，大部分学生可能不满足年龄标准，即申请人在截止日期时年龄必须小于20岁。此外，学生还必须获得高中文凭，而不是GED或其他课程，才符合高中毕业班的定义。"
+        },
+        {
+          "chunk_id": "Program Reviews | Federal Student Aid#1_0::c0000",
+          "text": "# 项目审查 | 联邦学生援助\n\n# 项目审查\n\n作为其监督职责的一部分，联邦学生援助（FSA）定期进行项目审查，以确认学校是否符合FSA关于机构资格、财务责任和行政能力的要求。在项目审查期间，审查员评估学校对FSA要求的遵守情况，评估绩效错误的责任，并确定学校为改善其未来行政能力必须采取的行动。\n\n完成项目审查后，联邦学生援助发布最终项目审查决定（FPRD），该报告包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有）；提供支付责任的说明（如适用）；通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用）；并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。\n\n未来的FPRD将定期发布。\n\n以下是发布的最终项目审查决定和快速决定函：\n\n- **2019财年**\n- **2018财年**\n- **2017财年**\n- **2016财年**\n- **2015财年**\n- **2014财年**\n- **2013财年**\n\n要访问与重点Clery Act审查相关的所有文件，请访问“**Clery Act报告**”页面。要查找已完成第三方服务商项目审查的最终项目审查决定，请访问“第三方服务商项目审查”页面。还提供了按财政年度划分的主要项目审查和审计发现概述。这些年度报告按频率详细列出了独立审计师进行的年度合规审计中发现的最常见发现，以及教育部在高等教育机构进行的项目审查中发现的发现。"
+        },
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008",
+          "text": "[关于FAFSA完成数据的问答 > 技术与分析]\n#### 去年报告的总数与现在关于去年的报告数字不同。这是什么原因造成的？\n\n可能的原因有几种，包括你的机构可能以学校名称或城市的不同变体在数据中被多次列出。另一个原因是我们2017年对高中毕业班学生定义所做的更改，现在这一定义与我们公开发布的其他数据保持一致。在过去的几年里，我们使用代理指标来确定申请人是否为首次提交者；现在我们使用真正的首次提交者状态作为毕业班学生的一个标准。虽然这影响的申请人数量相对较少，但如果你的总数与去年报告的数字相比有所下降，那么这可能意味着有申请人在前一年已经申请过。\n\n#### 我可以将单个州文件中的所有已提交申请相加来计算州总数吗？那么将单个城市中的所有已提交申请相加呢？\n\n这两个问题的答案都是否定的。学校的官方位置（或学生最常报告的位置）实际上可能是位于更大城市范围内的郊区。例如，将“纽约市”下报告的所有申请相加，将排除任何报告为位于“皇后区”甚至“牙买加”的机构，后者是纽约市皇后区内一个较小的社区。\n\n任何分析还必须考虑隐瞒少于五份已完成申请的学校总数或名称的影响。在最基本的层面上，将这些文件中报告的申请数量相加总是低估了申请数量。如果某机构被报告为有“\\<5”份已完成申请，不能假设申请数为零。此外，一些学校的总数从未公开，因为其班级规模基本上使其无法拥有足够多的已完成申请来公开披露。由于这对某些地区的影响大于其他地区，在进行任何分析时，请务必考虑这些因素和其他因素。\n\n#### 为什么地图上有些学区显示为白色？\n\n如果满足以下任一条件，学区将被列为缺失/数据不足：\n\n- 监管调整后的队列毕业率缺失（例如，如果学区合并或在2009-10学年之后创建了新学区）。\n- 学区的监管调整后队列毕业率数据中少于15名学生。\n- 学区毕业班学生数量出现不可预测的增长（例如，毕业率急剧上升，或两个学区合并为一个学区的名称）。\n- 学区预计毕业生少于10人。\n- 学区完成的FAFSA表格少于五份。\n- 国家教育统计中心地方教育机构（LEA）代码与该州Tiger/Line形状文件中找到的LEA代码不匹配。"
+        },
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0000",
+          "text": "关于FAFSA®完成数据的问答 | 联邦学生援助"
+        },
+        {
+          "chunk_id": "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "text": "# FAFSA® 帮助 | 联邦学生援助\n\n# 您对免费申请联邦学生援助（FAFSA）流程有未解答的问题吗？\n\n获取关于FAFSA表格以及提交申请后预期情况的深入信息。\n\n查找FAFSA申请人可能遇到的常见问题的答案。\n\n## 热门话题\n\n- 如果我申请暑期课程，应选择哪个学年？\n- 如果我忘记了FSA ID用户名和密码该怎么办？\n- 填写FAFSA表格的截止日期是什么时候？\n- 我如何更正我的FAFSA表格？\n- 在2020-21 FAFSA表格上，我需要报告哪些收入和税务信息？\n\n## 本页内容\n\n- 家长\n- 开始使用\n- 我如何...？\n- FSA ID\n- 提交FAFSA表格后：后续步骤\n- 联系我们\n\n### 家长\n\n如果您的家长将协助您填写FAFSA表格，这里提供帮助。\n\n- 如果我的家长同时有多个孩子在上大学怎么办？\n- 我的家长和我可以共用同一个FSA ID吗？\n- 我需要提供我家长的信息吗？\n- 如果我的家长无法使用我的FSA ID，他/她如何填写FAFSA表格？\n\n### 开始使用\n\n在开始前提供FAFSA流程的帮助。\n\n- 我有资格获得经济援助吗？\n- 填写FAFSA表格的截止日期是什么时候？\n- 什么是FAFSA表格？\n- 填写FAFSA表格需要准备什么？\n\n### 我如何...？\n\n提供关于FAFSA流程最常见问题的帮助。\n\n- 我如何更正我的FAFSA表格？\n- 我如何使用IRS数据检索工具？\n- 我如何查看我的*学生援助报告*？\n- 我如何签署我的FAFSA表格？\n\n### FSA ID\n\n帮助使用FSA ID——您在联邦学生援助网站上使用的用户名和密码。\n\n- 什么是FSA ID，我完成FAFSA表格时需要它吗？\n- 如果我忘记了FSA ID用户名和密码怎么办？\n- 我收到错误提示，说我在FAFSA表格上填写的姓名、出生日期和社会安全号码与我的FSA ID不匹配。这是什么意思？\n- 如何解锁我的FSA ID？\n\n### FAFSA表格提交后：后续步骤\n\n帮助您了解提交FAFSA表格后会发生什么。\n\n- 我提交了FAFSA表格。接下来会发生什么？\n- 如何查看我的FAFSA表格状态？\n- 我什么时候能收到大学关于我的经济援助方案的通知？\n\n## 没有找到您要找的内容？"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0007",
+          "text": "[关于FAFSA完成数据的问答 > 完成总数较低]\n#### 为什么我的FAFSA提交或完成数量低于我认为应有的数量？\n\n虽然我们知道许多高中无意中高估了他们的FAFSA完成率，但您的完成率可能低于预期的一个原因是您的学校可能被多次列出。如果学生在FAFSA表格上以不同方式输入了您学校的名称，就会发生这种情况。例如，如果一些学生列出了“John Doe高中”，而其他学生列出了“Doe高中”，那么您的高中可能会被列在多个地方。请查找您学校的替代名称。如果您发现您的学校被多次列出，请发送电子邮件至HSFAFSA@ed.gov。\n\n#### 我是一名高中辅导员或大学入学专业人士。你们有哪些资源可以帮助提高FAFSA完成总数？\n\n联邦学生援助的财务援助工具包为辅导员、大学入学专业人士、非营利导师和其他人提供联邦学生援助信息和外展工具。该网站帮助辅导员了解联邦学生援助的基础知识，提供举办活动的提示（以及示例PowerPoint演示文稿），提供社交媒体和电子邮件外展的建议信息，并帮助寻找其他培训机会。\n\n#### 我是一所高中有很多20岁或以上学生的辅导员。为什么我的数字这么低？\n\n由于FAFSA表格上没有询问申请人是否为高中毕业班学生的问题，我们必须使用多个标准来识别那些可能是高中毕业班的申请人。在这种情况下，大部分学生可能不满足年龄标准，即申请人在截止日期时年龄必须小于20岁。此外，学生还必须获得高中文凭，而不是GED或其他课程，才符合高中毕业班的定义。"
+        },
+        {
+          "chunk_id": "Program Reviews | Federal Student Aid#1_0::c0000",
+          "text": "# 项目审查 | 联邦学生援助\n\n# 项目审查\n\n作为其监督职责的一部分，联邦学生援助（FSA）定期进行项目审查，以确认学校是否符合FSA关于机构资格、财务责任和行政能力的要求。在项目审查期间，审查员评估学校对FSA要求的遵守情况，评估绩效错误的责任，并确定学校为改善其未来行政能力必须采取的行动。\n\n完成项目审查后，联邦学生援助发布最终项目审查决定（FPRD），该报告包括项目审查报告中确定的每项发现、学校的回应以及教育部的最终决定。FPRD还根据项目审查的发现确定任何责任（如有）；提供支付责任的说明（如适用）；通知机构其对任何已确定责任的存在和金额提出上诉的权利（如适用）；并在适当时结束项目审查。FPRD可能要求也可能不要求机构采取额外行动。\n\n未来的FPRD将定期发布。\n\n以下是发布的最终项目审查决定和快速决定函：\n\n- **2019财年**\n- **2018财年**\n- **2017财年**\n- **2016财年**\n- **2015财年**\n- **2014财年**\n- **2013财年**\n\n要访问与重点Clery Act审查相关的所有文件，请访问“**Clery Act报告**”页面。要查找已完成第三方服务商项目审查的最终项目审查决定，请访问“第三方服务商项目审查”页面。还提供了按财政年度划分的主要项目审查和审计发现概述。这些年度报告按频率详细列出了独立审计师进行的年度合规审计中发现的最常见发现，以及教育部在高等教育机构进行的项目审查中发现的发现。"
+        },
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008",
+          "text": "[关于FAFSA完成数据的问答 > 技术与分析]\n#### 去年报告的总数与现在关于去年的报告数字不同。这是什么原因造成的？\n\n可能的原因有几种，包括你的机构可能以学校名称或城市的不同变体在数据中被多次列出。另一个原因是我们2017年对高中毕业班学生定义所做的更改，现在这一定义与我们公开发布的其他数据保持一致。在过去的几年里，我们使用代理指标来确定申请人是否为首次提交者；现在我们使用真正的首次提交者状态作为毕业班学生的一个标准。虽然这影响的申请人数量相对较少，但如果你的总数与去年报告的数字相比有所下降，那么这可能意味着有申请人在前一年已经申请过。\n\n#### 我可以将单个州文件中的所有已提交申请相加来计算州总数吗？那么将单个城市中的所有已提交申请相加呢？\n\n这两个问题的答案都是否定的。学校的官方位置（或学生最常报告的位置）实际上可能是位于更大城市范围内的郊区。例如，将“纽约市”下报告的所有申请相加，将排除任何报告为位于“皇后区”甚至“牙买加”的机构，后者是纽约市皇后区内一个较小的社区。\n\n任何分析还必须考虑隐瞒少于五份已完成申请的学校总数或名称的影响。在最基本的层面上，将这些文件中报告的申请数量相加总是低估了申请数量。如果某机构被报告为有“\\<5”份已完成申请，不能假设申请数为零。此外，一些学校的总数从未公开，因为其班级规模基本上使其无法拥有足够多的已完成申请来公开披露。由于这对某些地区的影响大于其他地区，在进行任何分析时，请务必考虑这些因素和其他因素。\n\n#### 为什么地图上有些学区显示为白色？\n\n如果满足以下任一条件，学区将被列为缺失/数据不足：\n\n- 监管调整后的队列毕业率缺失（例如，如果学区合并或在2009-10学年之后创建了新学区）。\n- 学区的监管调整后队列毕业率数据中少于15名学生。\n- 学区毕业班学生数量出现不可预测的增长（例如，毕业率急剧上升，或两个学区合并为一个学区的名称）。\n- 学区预计毕业生少于10人。\n- 学区完成的FAFSA表格少于五份。\n- 国家教育统计中心地方教育机构（LEA）代码与该州Tiger/Line形状文件中找到的LEA代码不匹配。"
+        },
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0000",
+          "text": "关于FAFSA®完成数据的问答 | 联邦学生援助"
+        },
+        {
+          "chunk_id": "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "text": "# FAFSA® 帮助 | 联邦学生援助\n\n# 您对免费申请联邦学生援助（FAFSA）流程有未解答的问题吗？\n\n获取关于FAFSA表格以及提交申请后预期情况的深入信息。\n\n查找FAFSA申请人可能遇到的常见问题的答案。\n\n## 热门话题\n\n- 如果我申请暑期课程，应选择哪个学年？\n- 如果我忘记了FSA ID用户名和密码该怎么办？\n- 填写FAFSA表格的截止日期是什么时候？\n- 我如何更正我的FAFSA表格？\n- 在2020-21 FAFSA表格上，我需要报告哪些收入和税务信息？\n\n## 本页内容\n\n- 家长\n- 开始使用\n- 我如何...？\n- FSA ID\n- 提交FAFSA表格后：后续步骤\n- 联系我们\n\n### 家长\n\n如果您的家长将协助您填写FAFSA表格，这里提供帮助。\n\n- 如果我的家长同时有多个孩子在上大学怎么办？\n- 我的家长和我可以共用同一个FSA ID吗？\n- 我需要提供我家长的信息吗？\n- 如果我的家长无法使用我的FSA ID，他/她如何填写FAFSA表格？\n\n### 开始使用\n\n在开始前提供FAFSA流程的帮助。\n\n- 我有资格获得经济援助吗？\n- 填写FAFSA表格的截止日期是什么时候？\n- 什么是FAFSA表格？\n- 填写FAFSA表格需要准备什么？\n\n### 我如何...？\n\n提供关于FAFSA流程最常见问题的帮助。\n\n- 我如何更正我的FAFSA表格？\n- 我如何使用IRS数据检索工具？\n- 我如何查看我的*学生援助报告*？\n- 我如何签署我的FAFSA表格？\n\n### FSA ID\n\n帮助使用FSA ID——您在联邦学生援助网站上使用的用户名和密码。\n\n- 什么是FSA ID，我完成FAFSA表格时需要它吗？\n- 如果我忘记了FSA ID用户名和密码怎么办？\n- 我收到错误提示，说我在FAFSA表格上填写的姓名、出生日期和社会安全号码与我的FSA ID不匹配。这是什么意思？\n- 如何解锁我的FSA ID？\n\n### FAFSA表格提交后：后续步骤\n\n帮助您了解提交FAFSA表格后会发生什么。\n\n- 我提交了FAFSA表格。接下来会发生什么？\n- 如何查看我的FAFSA表格状态？\n- 我什么时候能收到大学关于我的经济援助方案的通知？\n\n## 没有找到您要找的内容？"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008",
+          "document": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0",
+          "heading": [
+            "关于FAFSA完成数据的问答",
+            "技术与分析"
+          ],
+          "source_file": "studentaid_069.md",
+          "excerpt": "[关于FAFSA完成数据的问答 > 技术与分析]\n#### 去年报告的总数与现在关于去年的报告数字不同。这是什么原因造成的？\n\n可能的原因有几种，包括你的机构可能以学校名称或城市的不同变体在数据中被多次列出。另一个原因是我们2017年对高中毕业班学生定义所做的更改，现在这一定义与我们公开发布的其他数据保持一致。在过去的几年里，我们使用代理指标来确定申请人是否为首次提交者；现在我们使用真正的首次提交者状态作为毕业班学生的一个标准。虽然这影响的申请人数量相对较少，但如果你的总数与去年报告的数字相比有所下降，那么这可能意味着有申请人在前一年已经申请过。\n\n#### 我可以将单个州文件中的所有已提交申请相加来计算州总数吗？那么将单个城市中的所有已提交申请相加呢？\n\n这两个问题的答案都是否定的。学校的官方位置（或学生最常报告的位置）实际上可能是位于更大城市范围内的郊区。例如，将“纽约市”下报告的所有申请相加，将排除任何报告为位于“皇后区”甚至“牙买加”的机构，后者是纽约市皇后区内一个较小的社区。\n\n任何分析还必须考虑隐瞒少于五份已完成申请的学校总数或名称的影响。在最基本的层面上，将这些文件中报告的申请数量相加总是低估了申请数量。如果某机构被报告为有“\\<5”份已完成申请，不能假设申请数为零。此外，一些学校的总数从未公开，因为其班级规模基本上使其无法拥有足够多的已完成申请来公开披露。由于这对某些地区的影响大于其他地区，在进行任何分析时，请务必考虑这些因素和其他因素。\n\n#### 为什么地图上有些学区显示为白色？\n\n如果满足以下任一条件，学区将被列为缺失/数据不足：\n\n- 监管调整后的队列毕业率缺失（例如，如果学区合并或在2009-10学年之后创建了新学区）。\n- 学区的监管调整后队列毕业率数据中少于15名学生。\n- 学区毕业班学生数量出现不可预测的增长（例如，毕业率急剧上升，或两个学区合并为一个学区的名称）。\n- 学区预计毕业生少于10人。\n- 学区完成的FAFSA表格少于五份。\n- 国家教育统计中心地方教育机构（LEA）代码与该州Tiger/Line形状文件中找到的LEA代码不匹配。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "学区可能因以下原因被列为数据不足/缺失：监管调整后的队列毕业率缺失（例如学区合并或新成立）、该数据中少于15名学生、毕业班学生数量出现不可预测的增长、预计毕业生少于10人、完成的FAFSA表格少于五份，或国家教育统计中心LEA代码与州Tiger/Line形状文件中的代码不匹配。",
+          "citations": [
+            "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "5973274f396147ff868c64a038aa3f1f",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2319,
+              "completion_tokens": 118,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 118,
+                "prompt_tokens": 2319,
+                "total_tokens": 2437,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2063
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0036383,
+            "accounted_rmb": 0.0036383,
+            "usage_unknown": false,
+            "seconds": 1.8775060176849365,
+            "error": null,
+            "response": {
+              "id": "85c66b65-945e-4e48-ada2-676b0e4906a4",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "848666d812ed4104219bf2425a111623ffdd68db72b2f3eeede60daf873ad10c"
+      },
+      "latency_ms": {
+        "queue_wait": 0.044584041461348534,
+        "retrieval": 1819.3571249721572,
+        "generation": 1882.0283750537783,
+        "total": 3702.461124979891
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.28305541700683534,
+        "rerank_seconds": 1.5362381669692695,
+        "top1_dense_score": 0.8360857367515564,
+        "candidate_ids": [
+          "Program Reviews | Federal Student Aid#1_0::c0000",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0007",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0005",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008",
+          "FAFSA® Completion by High School and Public School District | Federal Student Aid#1_0::c0000",
+          "Aid for Military Families | Federal Student Aid#1_0::c0006",
+          "Staying Eligible | Federal Student Aid#1_0::c0000",
+          "Understand Financial Aid | Federal Student Aid#1_0::c0000",
+          "FAFSA® Help | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0007",
+          "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0000",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0010",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0003",
+          "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0::c0000",
+          "Third-party Servicer Program Reviews | Federal Student Aid#1_0::c0000",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0009",
+          "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0008",
+          "Choosing a School | Federal Student Aid#1_0::c0002",
+          "Student Aid Report | Federal Student Aid#1_0::c0000",
+          "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 44,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.8193356670672074
+      },
+      "raw_citations": [
+        "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0::c0008"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "1ff15d81eca1ef03ce26dc64142efe7480a7ec71311681be0af13c7c430fe0a3"
+}

@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "5ec2cb038058effdc4a56399c0d5bce93e72bdeac58c71ebf1e1619b3edc64a1",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.49999999995,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA health care and benefits, but does not specifically address the 'duty to help' requirement. The answer, however, correctly explains the VA's duty to assist in obtaining evidence, which is not mentioned in the context. Therefore, the context was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "54681931172a4caa871b8a6efb1e0d54",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1483,
+                "completion_tokens": 79,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 79,
+                  "prompt_tokens": 1483,
+                  "total_tokens": 1562,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 715
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014664,
+              "accounted_rmb": 0.0014664,
+              "usage_unknown": false,
+              "seconds": 1.3239128589630127,
+              "error": null,
+              "response": {
+                "id": "c6293fd7-8ae8-4afb-a25d-a602efda4322",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6afcbd8dc0cbf5e6e81e273f3f7e01ccc140af6ab258ed71c7106bfd913dabd4"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific information about VA's duty to help, including its applicability to initial claims and supplemental claims, and the answer directly reflects this information.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0a9eb3ca277542ab8c30a7ded155f952",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1072,
+                "completion_tokens": 45,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 45,
+                  "prompt_tokens": 1072,
+                  "total_tokens": 1117,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 304
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006969,
+              "accounted_rmb": 0.0006969,
+              "usage_unknown": false,
+              "seconds": 1.056790828704834,
+              "error": null,
+              "response": {
+                "id": "a69bcaf1-30d3-4aaf-9e34-8ada0bb21922",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "1812fc3ac14d9046f9350826251244a5a0478a956df94a8aa6c5ec8cd822a71f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provided is about VA housing assistance and homelessness resources, but the answer discusses VA's duty to help in obtaining evidence for claims, which is not covered in the context. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3a8fe474fcda489fafcea16f9b578eb8",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1300,
+                "completion_tokens": 64,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 64,
+                  "prompt_tokens": 1300,
+                  "total_tokens": 1364,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 532
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0011244,
+              "accounted_rmb": 0.0011244,
+              "usage_unknown": false,
+              "seconds": 1.523730993270874,
+              "error": null,
+              "response": {
+                "id": "c1faf624-a20a-42e5-bb20-c2e45dc8fb4d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "abc0c2cd85c55d623ffc374678a9f84057b631e9e8535e67da1ca3d821c443c2"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA benefits and services but does not specifically mention 'duty to help' or the obligation to assist veterans in gathering evidence. Therefore, it was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "fc8c5c72af1444369c925d9f37dd8a63",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1623,
+                "completion_tokens": 59,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 59,
+                  "prompt_tokens": 1623,
+                  "total_tokens": 1682,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 855
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015864000000000002,
+              "accounted_rmb": 0.0015864000000000002,
+              "usage_unknown": false,
+              "seconds": 1.4812839031219482,
+              "error": null,
+              "response": {
+                "id": "17761159-d59f-4ff0-846b-59a358a610fc",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "c54acc06737e49324fdd91cb39e06a83f1cc5d523c56b108e2d5f56560b4ca15"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA housing assistance and benefits, but does not specifically address the 'duty to help' requirement. The answer discusses VA's duty to help in obtaining evidence for claims, which is not covered in the context. Therefore, the context was not useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "58b8c23f9f2b4b76a8564a88c7c34c23",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1816,
+                "completion_tokens": 76,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 76,
+                  "prompt_tokens": 1816,
+                  "total_tokens": 1892,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1048
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0019524000000000002,
+              "accounted_rmb": 0.0019524000000000002,
+              "usage_unknown": false,
+              "seconds": 1.6249818801879883,
+              "error": null,
+              "response": {
+                "id": "8f2fb2a2-d162-4f0e-b67d-ffe03aaf65b7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "bbc167c2d8f15b4b64d6a7bfae2024e2379eab21e457f4f3b2adfde9699de611"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "360b2ac511accb3bd94a8b4832dbe7f0fc5e3368ed6747a6e44082c5671b1cce"
+}

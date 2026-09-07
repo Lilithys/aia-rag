@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "8b7732ba46bc76fddaac266823cb4b7bd2cb9ac09655d2342a3245dcd85293b6",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If the user had a service-connected disability limiting work, they may be eligible for VR&E (Chapter 31) help with employment options and training.",
+                "coverage": "covered",
+                "response_quote": "If you had a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VA Vocational Rehabilitation and Employment (VR&E) benefits and services, such as help exploring employment options and getting more training if needed.",
+                "reason": "The response directly addresses the hypothetical and provides the essential eligibility and services information."
+              }
+            ],
+            "reason": "The response correctly answers the hypothetical question with supported eligibility details and conditions, all grounded in the retrieved contexts."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "bb1489da4fa5419387ac948700e9e697",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3945,
+                "completion_tokens": 177,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 177,
+                  "prompt_tokens": 3945,
+                  "total_tokens": 4122,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3049
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0054148,
+              "accounted_rmb": 0.0054148,
+              "usage_unknown": false,
+              "seconds": 2.020936965942383,
+              "error": null,
+              "response": {
+                "id": "45440c97-e2f1-428c-aa5c-2d4f5e6fc846",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "9e50244bec45d833c100925593c88c3a0242b8548b472bc5fceb770e3fa2ef7d"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If the user had a service-connected disability limiting work, they may be eligible for VR&E (Chapter 31) help with employment options and training.",
+            "coverage": "covered",
+            "response_quote": "If you had a service-connected disability that limits your ability to work or prevents you from working, you may be eligible for VA Vocational Rehabilitation and Employment (VR&E) benefits and services, such as help exploring employment options and getting more training if needed.",
+            "reason": "The response directly addresses the hypothetical and provides the essential eligibility and services information."
+          }
+        ],
+        "reason": "The response correctly answers the hypothetical question with supported eligibility details and conditions, all grounded in the retrieved contexts."
+      }
+    }
+  },
+  "sha256": "c4d3585f53c0d7087e18a57fb38e68cbdd18be5a96241da467c6f8c20f2b516e"
+}

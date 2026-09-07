@@ -1,0 +1,158 @@
+{
+  "binding": {
+    "study": "final-smoke-generation-v1",
+    "split": "smoke",
+    "release_manifest_sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3",
+    "split_sha256": "61f3bbf9bfe104eb4b36da5f0977509ecb8736962f2092300050522c1d032ec9",
+    "question_ids": [
+      "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "eval-v1-dev-refuse-009",
+      "eval-v1-dev-refuse-006"
+    ],
+    "runtime": {
+      "config": {
+        "candidate": "rerank_windowed_k5",
+        "confidence_threshold": 0.55,
+        "model": "deepseek-v4-flash",
+        "temperature": 0.0,
+        "max_output_tokens": 1024,
+        "max_history_messages": 40,
+        "max_question_characters": 8000,
+        "max_history_characters": 40000
+      },
+      "artifact_folder": "data/experiments/eval_v12/delivery_candidate/semantic_1024_v2",
+      "chunks_sha256": "497c665f2750bc4c90621036a6ccc394701d4a1d636ec69a0fa78e4b71a0f29f",
+      "embedding_manifest_sha256": "1bc07c37e6cc79608bdee45626940f1e7d0b801d0ce34966b49f43fcd03b4ce4",
+      "embedding_sha256": "5c7de1dae55ce49fa7ddbcc649e76e58e1e1f89ae5dcda97fe333ae829127d55",
+      "encoder": {
+        "class": "src.embedding.models.bge_m3.BgeM3Model",
+        "name": "bge_m3",
+        "dimension": 1024,
+        "implementation_sha256": "16e2af15cfe08c8fba05ff7e3e9fc670520ac84b03e8c934cfa6bf9db3d5ff00",
+        "model_id": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "max_seq_length": 8192,
+        "passage_prefix": "",
+        "query_prefix": "",
+        "normalize_embeddings": true,
+        "device": "cpu",
+        "parameter_dtype": "torch.float32",
+        "sentence_transformers_version": "6.0.1",
+        "transformers_version": "5.16.1",
+        "torch_version": "2.13.0",
+        "modules": [
+          {
+            "class": "Transformer",
+            "config": {
+              "transformer_task": "feature-extraction",
+              "modality_config": {
+                "text": {
+                  "method": "forward",
+                  "method_output_name": "last_hidden_state"
+                }
+              },
+              "module_output_name": "token_embeddings"
+            }
+          },
+          {
+            "class": "Pooling",
+            "config": {
+              "embedding_dimension": 1024,
+              "pooling_mode": "cls",
+              "include_prompt": true
+            }
+          },
+          {
+            "class": "Normalize",
+            "config": {
+              "module_input_name": "sentence_embedding",
+              "module_output_name": "sentence_embedding"
+            }
+          }
+        ]
+      },
+      "chunk_count": 1591,
+      "api_endpoint": "https://api.deepseek.com/chat/completions",
+      "thinking": "disabled",
+      "code_sha256": {
+        "/Users/yishanma/Desktop/aia-rag/src/service/final_runtime.py": "8c863b94626654c43b42373077603fb430c0c7a4cefb8dd2bf1e7569aa36e50d",
+        "src/service/runtime.py": "189d2a7b2ef03e28843587564f3ecd8013d83c3277e8224bbcee9cfc2971258d",
+        "src/retrieval/folder_retriever.py": "968186aad428e130ab63f6a61312fa1f0080172f243b545b1fdd5de1f080419f",
+        "src/retrieval/candidates_v1.py": "55c735c3a642cf7ba3b091626b0b8ae3493a2d7613b1c08ff21c01ffb4d129c1",
+        "src/retrieval/retriever.py": "df9a14867f966dc267644b1ece8a7b2ea25f0ee71374082458324d8c488bf263",
+        "src/retrieval/indexes.py": "087fd7472dbfd80e47942e160ce87d6788be78ecee0e80fb990b70e93dcffc43",
+        "src/retrieval/chroma_store.py": "4b94f70b2df89cf235683ac1a357693542e680310c95b279e854331b5029f715",
+        "src/evaluation/prompts_v1.py": "c39109cd472f03c71264265cabdc875c0ea95c4b7ab20810bdbde9bf9043bbb1",
+        "src/evaluation/paid_calls_v1.py": "7f8ee7acf6142eb5e2681562edd5e8bbb5d2ecb4edee718fa64749bca2e52601",
+        "src/generation/pii.py": "a90e88d25e0fbaa2291a6ed17a35408d990b322e406001133b68d04fcf4b18c3"
+      }
+    },
+    "generation_budget_cap_rmb": 0.5,
+    "model": "deepseek-v4-flash",
+    "max_attempts_per_question": 2,
+    "pricing": {
+      "checked_on": "2026-09-06",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "currency": "CNY",
+      "unit": "per million tokens",
+      "peak": {
+        "deepseek-v4-flash": [
+          0.1,
+          3.0,
+          9.0
+        ],
+        "deepseek-v4-pro": [
+          0.3,
+          9.0,
+          27.0
+        ]
+      },
+      "columns": [
+        "cached_input",
+        "uncached_input",
+        "output"
+      ],
+      "off_peak_multiplier": 0.5,
+      "peak_schedule": "Asia/Shanghai weekdays [09:00,12:00) and [14:00,18:00)",
+      "documented_versions": {
+        "deepseek-v4-flash": "DeepSeek-V4-Flash-0731",
+        "deepseek-v4-pro": "DeepSeek-V4-Pro-0813"
+      },
+      "version_limitation": "API names are mutable aliases; response model/id/fingerprint are recorded when returned."
+    },
+    "history_mode": "recorded full history; no closed-loop rollout",
+    "termination": "Stop on budget/authentication status; retain every failure and all 100 denominator rows.",
+    "holdout_policy": "Development smoke; cannot be reported as final holdout acceptance.",
+    "code_sha256": {
+      "/Users/yishanma/Desktop/aia-rag/src/service/final_evaluate.py": "369c29f0c35bdf0a2f7b5b32c1225f936221deaa3ac748b8932787d193d61fe3",
+      "src/service/final_runtime.py": "8c863b94626654c43b42373077603fb430c0c7a4cefb8dd2bf1e7569aa36e50d",
+      "src/service/runtime.py": "189d2a7b2ef03e28843587564f3ecd8013d83c3277e8224bbcee9cfc2971258d",
+      "src/retrieval/folder_retriever.py": "968186aad428e130ab63f6a61312fa1f0080172f243b545b1fdd5de1f080419f",
+      "src/evaluation/paid_calls_v1.py": "7f8ee7acf6142eb5e2681562edd5e8bbb5d2ecb4edee718fa64749bca2e52601",
+      "src/evaluation/prompts_v1.py": "c39109cd472f03c71264265cabdc875c0ea95c4b7ab20810bdbde9bf9043bbb1"
+    }
+  },
+  "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+  "planned_questions": 20,
+  "planned_generation_calls": 20,
+  "max_provider_attempts": 40,
+  "judge_calls": 0,
+  "generation_started": false
+}

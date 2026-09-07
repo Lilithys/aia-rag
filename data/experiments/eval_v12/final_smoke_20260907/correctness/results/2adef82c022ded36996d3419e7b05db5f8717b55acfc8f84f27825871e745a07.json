@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "2adef82c022ded36996d3419e7b05db5f8717b55acfc8f84f27825871e745a07",
+    "binding_sha256": "de953b39e4f172568379a2b85344f65373d2a2666e7b31a04fc2a8495563efcc",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "send written request to Board at least 2 weeks before hearing",
+                "coverage": "covered",
+                "response_quote": "you must send a written request to the Board of Veterans Appeals at least 2 weeks before your hearing",
+                "reason": "Response states the required timing and method."
+              },
+              {
+                "requirement": "explain good cause and include name and VA file number",
+                "coverage": "covered",
+                "response_quote": "explaining the reason and including your name and VA file number",
+                "reason": "Response includes reason and identifying information."
+              }
+            ],
+            "reason": "The response accurately provides rescheduling requirements and additional supported details about withdrawal, matching the reference and retrieved contexts."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f8a98a622830408c8048e19ec6ef1c22",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3668,
+                "completion_tokens": 179,
+                "cached_tokens": 1280,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 179,
+                  "prompt_tokens": 3668,
+                  "total_tokens": 3847,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1280,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1280,
+                  "prompt_cache_miss_tokens": 2388
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0044515,
+              "accounted_rmb": 0.0044515,
+              "usage_unknown": false,
+              "seconds": 1.756465196609497,
+              "error": null,
+              "response": {
+                "id": "27e360d4-a69f-4d25-b897-af3532eb2049",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b50b8a20cde76174bca4d2a468c97eac66ddfd94bb3cd2c94b4707059e38881c"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "send written request to Board at least 2 weeks before hearing",
+            "coverage": "covered",
+            "response_quote": "you must send a written request to the Board of Veterans Appeals at least 2 weeks before your hearing",
+            "reason": "Response states the required timing and method."
+          },
+          {
+            "requirement": "explain good cause and include name and VA file number",
+            "coverage": "covered",
+            "response_quote": "explaining the reason and including your name and VA file number",
+            "reason": "Response includes reason and identifying information."
+          }
+        ],
+        "reason": "The response accurately provides rescheduling requirements and additional supported details about withdrawal, matching the reference and retrieved contexts."
+      }
+    }
+  },
+  "sha256": "7174065d011ce6efb6a4a70f1fdf4ebc5248bcaa74bcedd1e6d686d098b78533"
+}

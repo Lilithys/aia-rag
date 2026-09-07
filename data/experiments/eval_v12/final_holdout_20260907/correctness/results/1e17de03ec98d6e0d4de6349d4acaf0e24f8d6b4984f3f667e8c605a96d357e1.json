@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "1e17de03ec98d6e0d4de6349d4acaf0e24f8d6b4984f3f667e8c605a96d357e1",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If one of multiple claimants for the same VA benefit, the user has 60 days from the decision date to request a Board Appeal for review by a Veterans Law Judge.",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not mention the 60-day deadline or Board Appeal process, instead advising to contact agencies without providing the specific appeal right."
+              }
+            ],
+            "reason": "The response fails to provide the essential fact about the 60-day Board Appeal deadline for multiple-party VA claims, instead giving generic contact advice."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "ce5c87d00a3045869e98e689121f8a85",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3387,
+                "completion_tokens": 150,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 150,
+                  "prompt_tokens": 3387,
+                  "total_tokens": 3537,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2491
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0044563,
+              "accounted_rmb": 0.0044563,
+              "usage_unknown": false,
+              "seconds": 1.9956638813018799,
+              "error": null,
+              "response": {
+                "id": "c68a2198-4a81-456e-a104-093727eb6605",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "f68945042a70d428468d15549118b8625839409e90036fb4008c430f149ab9b9"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If one of multiple claimants for the same VA benefit, the user has 60 days from the decision date to request a Board Appeal for review by a Veterans Law Judge.",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not mention the 60-day deadline or Board Appeal process, instead advising to contact agencies without providing the specific appeal right."
+          }
+        ],
+        "reason": "The response fails to provide the essential fact about the 60-day Board Appeal deadline for multiple-party VA claims, instead giving generic contact advice."
+      }
+    }
+  },
+  "sha256": "d3e9d5df08e68fb083739756bb0d55c625e055be89f6e3f691ed6795ef5aa37c"
+}

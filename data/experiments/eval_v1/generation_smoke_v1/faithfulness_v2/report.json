@@ -1,0 +1,4063 @@
+{
+  "summaries": {
+    "flash:baseline_dense_k10": {
+      "planned_outputs": 19,
+      "judge_ok": 19,
+      "no_factual_claims": 1,
+      "scored_claim_bearing_n": 18,
+      "faithfulness_mean": 0.9703703703703703,
+      "total_claims": 102,
+      "citation_supported_claims": 97
+    },
+    "flash:rerank_truncated_k10": {
+      "planned_outputs": 20,
+      "judge_ok": 20,
+      "no_factual_claims": 1,
+      "scored_claim_bearing_n": 19,
+      "faithfulness_mean": 0.9419989367357788,
+      "total_claims": 138,
+      "citation_supported_claims": 130
+    },
+    "flash:rerank_windowed_k5": {
+      "planned_outputs": 19,
+      "judge_ok": 19,
+      "no_factual_claims": 1,
+      "scored_claim_bearing_n": 18,
+      "faithfulness_mean": 0.9537037037037037,
+      "total_claims": 100,
+      "citation_supported_claims": 94
+    },
+    "pro:baseline_dense_k10": {
+      "planned_outputs": 19,
+      "judge_ok": 19,
+      "no_factual_claims": 1,
+      "scored_claim_bearing_n": 18,
+      "faithfulness_mean": 0.9688271604938271,
+      "total_claims": 100,
+      "citation_supported_claims": 93
+    }
+  },
+  "items": [
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "申请联邦学生贷款的第一步是填写FAFSA表格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "学校会根据FAFSA信息确定你的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "贷款通常包含在资助方案中",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果这是你首次获得直接贷款，你需要完成入学咨询",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "如果这是你首次获得直接贷款，你需要签署主本票",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "贷款是需要偿还的",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "贷款会产生利息",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "建议优先考虑无需偿还的助学金和奖学金，贷款作为补充",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How Financial Aid Works | Federal Student Aid#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "如有疑问，请联系你计划就读学校的财务援助办公室",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "即使从未在社会保障制度下工作过，如果年满62岁且配偶正在领取退休或残疾福利，可能有资格获得配偶退休福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在65岁时有资格享受Medicare。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果离婚了，可能仍能在前配偶的记录上获得福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "申请方式包括在线、电话（1-800-772-1213）或亲自前往当地社会保障办公室。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果在62岁至完全退休年龄之间开始领取福利，金额可能会被永久性减少。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "FFEL借款人如果在1998年10月7日或之后获得FFEL贷款时没有未偿还的FFEL贷款余额，并且目前有超过30,000美元的未偿还FFEL贷款，可能有资格选择延长还款计划。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划允许最长25年的还款期限。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划提供固定或递增的每月还款额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划下的每月还款额通常低于标准还款计划下的还款额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果借款人同时拥有直接贷款和FFEL贷款，只能为符合条件的FFEL贷款选择延长还款计划，而不能为直接贷款选择。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括直接补贴贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括直接无补贴贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括直接PLUS贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括直接合并贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括补贴联邦斯塔福德贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括无补贴联邦斯塔福德贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括FFEL PLUS贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括FFEL合并贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You can reschedule or withdraw your Board hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "If you need to reschedule, you will not lose your place in the queue.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The Board schedules hearings by docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The written request to withdraw should include your name, VA file number, and reason for withdrawal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You can still submit new evidence within 90 days after withdrawing the hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Send your written request by mail or fax to the Board of Veterans Appeals.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以选择在线、邮寄或前往办公室办理更换。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "在线或邮寄更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果您的身份证已过期，则无法更换，必须续期或申请新证。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您请求与高级审阅员进行非正式会议，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "高级审阅员会尝试通过电话联系您或您的代表两次。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "如果无人接听，他们会留下语音邮件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "这次通话不会有记录。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You can file an appeal by calling SSA's toll-free number at 1-800-772-1213 (TTY 1-800-325-0778) or by contacting your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "The excerpts do not specify a mailing address for documents.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "You can file online for most appeal levels, which allows you to provide documents electronically.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 0.6666666666666666,
+      "citation_supported_claims": 2
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your spouse dies, you may be eligible for higher survivor benefits based on their work record.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Your benefit will automatically convert to survivor benefits after we receive the report of death.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you are also eligible for retirement benefits on your own record, you can apply for retirement or survivor benefits now and switch to the higher benefit later.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you are already receiving retirement benefits, you can only apply for widow/widower benefits if your retirement benefit is less than the survivor benefit.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "To report a death or apply, call 1-800-772-1213 (TTY 1-800-325-0778) or visit your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您可以写信给委员会撤回您的听证会请求。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "请确保在听证会至少2周前发送书面请求。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "书面请求应包含您的姓名、您的上诉的VA档案编号以及您撤回上诉的原因。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您仍然可以在撤回听证会请求后90天内提交新证据。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "请将书面请求邮寄或传真至委员会。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "退伍后可以通过VGLI继续保留人寿保险保障，只要持续支付保费",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在退伍后1年零120天内申请VGLI",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+            "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "最高保额为您离开军队时通过SGLI拥有的保险金额（$10,000至$400,000）",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果在离开军队后的240天内申请，无需提供健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "若超过240天申请，则需提交健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court (city, county, town, or village) where the ticket was issued.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007",
+            "Tickets received in New York City#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "The DMV's 'MyDMV' service can help you identify the correct court.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "You will need to pay the fine and any applicable suspension termination fee to clear the suspension.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Tickets received in New York City#3_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 3
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Commercial vehicle registration fees depend on vehicle weight and county of residence.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "For vehicles under 18,000 lbs, use the commercial registration fee table.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "Diesel vehicles 8,501 lbs or heavier incur an extra fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires a $25 plate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires a $50 title certificate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires sales tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC residents and some counties pay vehicle use tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC passenger cars pay $80 vehicle use tax for 2 years.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC passenger cars pay a $50 MCTD fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "The DMV's online estimator excludes sales tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Estimate registration fees and taxes#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 10
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您可以访问社会保障局网站上的福利信息页面来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以拨打社会保障局的免费电话1-800-772-1213咨询具体问题。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "社会保障局的免费电话1-800-772-1213在周一至周五上午7点至下午7点提供服务。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "A revoked driver license or driving privilege means your license has been canceled",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You must reapply for a new license after the revocation period ends",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "In most cases, you must first request DMV approval before obtaining a new license",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may need to retake the written and road tests",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may need to pay a license reapplication fee",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may need to pay a driver civil penalty before your license or driving privilege is restored",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005",
+            "Pay driver civil penalty#1_0::c0005"
+          ]
+        },
+        {
+          "claim": "To check the status of your license, you can sign up for MyDMV and use the 'My License, Permit, or ID' service",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007",
+            "Pay driver responsibility assessment#1_0::c0009"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If you volunteered for U.S. biological and chemical programs research between 1942 and 1975, you can get medical care through the U.S. Army if you have an injury or illness directly caused by your participation.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Volunteering for chemical and biological testing does not automatically guarantee disability compensation or other benefits.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "To get VA disability benefits, you need to meet VA eligibility requirements, including having a disease or injury that is service-connected.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "The two requirements for radiation-related VA disability benefits are having a disease on the list of radiation-related diseases and having been exposed to ionizing radiation in a specified way during military service.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "The requirements for VA disability benefits must be true and supported by documentation.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        }
+      ],
+      "faithfulness": 0.8,
+      "citation_supported_claims": 3
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Your parents' citizenship or immigration status does not affect your eligibility for federal student aid.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+            "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+          ]
+        },
+        {
+          "claim": "The FAFSA form does not ask about your parents' citizenship or immigration status.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+            "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+          ]
+        },
+        {
+          "claim": "To qualify for federal student aid, you must be a U.S. citizen or an eligible noncitizen.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements | Federal Student Aid#1_0::c0000",
+            "Financial Aid Eligibility | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Eligible noncitizen categories include permanent residents with a green card, refugees, asylees, and other specific categories.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If you are not a U.S. citizen or an eligible noncitizen, you would not be eligible for federal student aid, regardless of your parents' status.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+            "Eligibility Requirements | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If you are an eligible noncitizen, you can proceed with applying for federal student aid.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "For more details on eligible noncitizen categories, check with your college's financial aid office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [],
+      "faithfulness": null,
+      "citation_supported_claims": 0
+    },
+    {
+      "tier": "flash",
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "VA 通常会通过信件或电话与您联系，告知检查日期和时间。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果您需要确认或重新安排预约，可以拨打 800-827-1000。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果您需要确认或重新安排预约，可以联系最近的 VA 地区办公室。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "请确保 VA 有您最新的联系方式。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "在考虑贷款前，先申请助学金和奖学金，因为它们是免费资金，无需偿还",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "联邦学生贷款通常利率较低，且提供还款灵活性",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "你需要填写FAFSA表格来申请联邦学生贷款",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How Financial Aid Works | Federal Student Aid#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "联系学校财务援助办公室了解如何接受贷款",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "如果是首次获得直接贷款，必须完成入学咨询并签署主本票（MPN）",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "联邦学生贷款的服务（如合并或收入驱动还款计划）均可免费通过你的贷款服务商完成",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loan Servicers | Federal Student Aid#1_0::c0006"
+          ]
+        },
+        {
+          "claim": "切勿为联邦学生贷款帮助付费",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loan Servicers | Federal Student Aid#1_0::c0006"
+          ]
+        },
+        {
+          "claim": "对于当前学年的贷款，直接联系学校财务援助办公室",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loan Servicers | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "对于过去的贷款，联系你的贷款服务商处理还款或延期等问题",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loan Servicers | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果你或家人服兵役，可能享有利率上限、利息豁免或延期等福利",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Aid for Military Families | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "需联系贷款服务商提供资格证明以获取军人福利",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Aid for Military Families | Federal Student Aid#1_0::c0003"
+          ]
+        }
+      ],
+      "faithfulness": 0.9090909090909091,
+      "citation_supported_claims": 10
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "即使从未在社会保障制度下工作过，只要年满62岁且配偶正在领取退休或残疾福利，就可能获得配偶退休福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在65岁时获得Medicare资格。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果离婚，只要婚姻持续至少10年且目前未婚，可能仍有资格基于前配偶的工作记录获得福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "申请时可以使用在线退休/Medicare福利申请。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以通过电话1-800-772-1213申请。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以通过当地社会保障办公室申请。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果从非社会保障覆盖的工作中领取养老金（如政府工作），配偶福利金额可能会减少。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "FFEL借款人要符合延长还款计划的资格，必须在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "FFEL借款人必须拥有超过30,000美元的未偿还FFEL计划贷款才能符合延长还款计划的资格。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果满足条件，FFEL借款人可以为FFEL计划贷款选择延长还款计划。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划允许最长25年的还款期。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划提供固定或递增的月还款额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划下的月还款额通常低于标准还款计划下的还款额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "直接补贴贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "直接无补贴贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "直接PLUS贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "直接合并贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "补贴联邦斯塔福德贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "无补贴联邦斯塔福德贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "FFEL PLUS贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "FFEL合并贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You can reschedule or withdraw your Board hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "If you need to reschedule, you will not lose your place in line.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The Board schedules hearings in docket order.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You'll keep the same docket date with your hearing rescheduled to the earliest possible date.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The written request should include your name, VA file number, and reason for withdrawal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You can mail or fax this request to the Board.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "If you withdraw, you can still submit new evidence within 90 days after withdrawing.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You may switch to a different appeal option (like Direct Review) only at specific times.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Withdrawing won't speed up your appeal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 10
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以选择在线、邮寄或前往办公室办理更换。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0003",
+            "Replace a non-driver ID card#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "在线或邮寄更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果您需要其他变更（如姓名），则必须前往DMV办公室。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您请求与高级审查员进行非正式会议，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "高级审查员会尝试通过电话联系您或您的代表两次。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "如果无人接听，他们会留下语音邮件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "在通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "这次通话不会有记录。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "I can't answer questions about mailing documents to me, as I don't have access to your personal records or the ability to receive physical mail.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "For Social Security appeals, you generally have 60 days from receiving the denial notice to request an appeal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can file an appeal online, by phone at 1-800-772-1213, or by contacting your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "The four appeal levels are: reconsideration, hearing by an administrative law judge, Appeals Council review, and federal court review.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Your denial letter should specify which level to start with.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 0.8,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your spouse dies, you may be eligible for survivor benefits based on their work record.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can receive survivor benefits as a widow/widower if you are at least age 60 (age 50 if disabled).",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "You can receive survivor benefits at any age if you are caring for their child who is under age 16 or disabled.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "If you are already receiving spouse's benefits, your benefit will automatically convert to survivor benefits after you report the death.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you are also eligible for your own retirement benefit, you can apply for one now and switch to the higher benefit later.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "Remarriage before age 60 (age 50 if disabled) disqualifies you from receiving survivor benefits.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0011"
+          ]
+        },
+        {
+          "claim": "Remarriage after age 60 (age 50 if disabled) does not disqualify you from receiving survivor benefits.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0011"
+          ]
+        },
+        {
+          "claim": "Benefits may be reduced if you receive a pension from work not covered by Social Security.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0011"
+          ]
+        },
+        {
+          "claim": "To apply for survivor benefits, you can call 1-800-772-1213 or visit your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "You cannot apply online for survivor benefits.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 0.8,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您或您的代表应在听证会至少2周前发送撤回听证会请求的书面请求",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "撤回听证会请求需通过邮寄或传真发送",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "书面请求中需包含您的姓名、您的上诉的VA档案编号，以及您撤回上诉的原因",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "撤回听证会请求不会加快您的上诉进度，除非您同时切换到Direct Review上诉选项",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "切换到Direct Review上诉选项只能在特定时间进行",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "如果您切换到不同的上诉选项，您将保留相同的案卷日期",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您可以在撤回听证会请求后90天内提交新证据",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "请使用下方列出的地址或传真号码将书面请求发送至委员会",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "退伍后可以通过VGLI继续保留人寿保险保障，只要持续支付保费",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "VGLI提供$10,000至$400,000的保险金额",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "VGLI保险金额取决于退伍时的SGLI保额",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "需要在退伍后1年零120天内申请VGLI",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果在退伍后240天内申请VGLI，无需提供健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以随时将VGLI转换为商业保单",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your suspension is due to an unpaid traffic ticket issued outside New York City, you must contact the local court that issued the ticket directly.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "The DMV's 'My License, Permit or ID' service can provide more information on where to respond to or pay the ticket.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "You can check your license status and get details through your MyDMV account.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 3
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Commercial vehicle registration fees in NY depend on vehicle weight and your location.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "For vehicles under 18,000 lbs, use the commercial registration fee table.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires a $25 plate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "First-time registration requires a $50 title certificate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "First-time registration requires sales tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "Diesel vehicles 8,501 lbs or heavier pay an extra fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC residents and residents of certain counties must pay vehicle use tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC passenger cars pay $80 for 2 years vehicle use tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC residents pay a $50 MCTD fee for 2 years.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "For exact amounts, see the fee tables or use the DMV's online estimator.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Estimate registration fees and taxes#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 10
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "访问社会保障管理局（SSA）网站可以查看福利信息。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以使用“福利资格筛选工具”（BEST）来了解可能有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以拨打SSA免费电话1-800-772-1213（周一至周五上午7点至下午7点）。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以使用TTY号码1-800-325-0778（如果失聪或听力困难）。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在线创建或登录个人“我的社会保障”账户，以核实收入记录并获取福利估算。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "SSA在审查申请后，会告知其他家庭成员是否可能根据您的记录获得福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Disability Benefits | Social Security Administration#1_0::c0009",
+            "Retirement Benefits | Social Security Administration#2_0::c0007",
+            "Retirement Benefits | Social Security Administration#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "SSA在审查申请后，会告知您是否可能根据他人的记录（如配偶或父母）获得福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Disability Benefits | Social Security Administration#1_0::c0009",
+            "Retirement Benefits | Social Security Administration#2_0::c0007",
+            "Retirement Benefits | Social Security Administration#1_0::c0007"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "A revoked driver license means your license has been canceled.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "After the revocation period ends, you must reapply for a new license.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "In most cases, you must first request DMV approval before getting a new license.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may need to retake the written and road tests and pay a license reapplication fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you have a high-risk driving record or fail to meet DMV requirements, your application may be denied.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005",
+            "Pay driver civil penalty#1_0::c0005"
+          ]
+        },
+        {
+          "claim": "For most revocations, you must request and receive approval from the DMV Driver Improvement Unit (DIU) before applying for a new license at a DMV office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If you hold a license from another state, you must obtain DIU approval to restore your NY driving privilege.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "The DIU will review your complete driving record to determine if you meet NY law and requirements.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If approved, you will receive an approval package with specific instructions.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0014"
+          ]
+        },
+        {
+          "claim": "You cannot drive until a new NY license is issued.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0014"
+          ]
+        },
+        {
+          "claim": "You may be approved under Problem Driver Restriction and Ignition Interlock Device (IID) conditions, requiring installation of an IID on all vehicles you own or operate for five years.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0014"
+          ]
+        },
+        {
+          "claim": "You must bring the approval notice, MV-44 form, completed interlock installation confirmation, proof of name and birth date, and Social Security card to a DMV office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0014"
+          ]
+        },
+        {
+          "claim": "If you have two or more alcohol/drug-related convictions in 25 years, you must complete an alcohol assessment and/or treatment within one year.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0005"
+          ]
+        },
+        {
+          "claim": "You must pay any DMV fees (suspension termination fee, civil penalty, Driver Responsibility Assessment) before applying.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0005"
+          ]
+        },
+        {
+          "claim": "If your license was suspended for unpaid child support or taxes, you must resolve those with the respective agencies.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you have unresolved traffic tickets or court fines, you must handle them with the court.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0005"
+          ]
+        },
+        {
+          "claim": "Additional violations or events added to your record may make you ineligible or delay approval.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Restore license after revocation#1_0::c0014",
+            "Restore license after revocation#1_0::c0005"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 18
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Eligibility for VA health care generally requires that you served on active duty in the Army, Navy, or Air Force and were not dishonorably discharged.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If you enlisted after September 7, 1980, or began active duty after October 16, 1981, you must have served 24 continuous months or the full period for which you were called to active duty, unless an exception applies.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Exceptions to the minimum duty requirement include discharge for a disability caused or aggravated by service, hardship, or early out, or service before September 7, 1980.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "For Reserve or National Guard members, you must have been called to active duty under federal orders and completed the full period.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can apply online, by phone (877-222-8387), by mail, or in person using VA Form 10-10EZ.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "How To Apply For VA Health Care | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If you are a recently separated combat Veteran, you may qualify for enhanced eligibility for 5 years after discharge, which could allow you to apply right away for free care related to your service.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Health Care | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且有直接由参与这些测试造成的伤害或疾病，您可能通过美国陆军获得医疗护理。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000",
+            "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您必须满足以下两项要求：1) 您在1942年至1975年间自愿参加涉及化学和生物测试的研究，并且2) 您有直接由参与这些测试造成的伤害或疾病。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "这些要求必须同时为真。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 3
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "To apply for federal student aid, you need to complete the Free Application for Federal Student Aid (FAFSA) form.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You can complete the FAFSA form online at fafsa.gov or using the myStudentAid mobile app.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "You need to create an FSA ID (username and password) to sign electronically.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "If you are a dependent student, one of your parents will also need an FSA ID to sign.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "If your parent doesn't have a Social Security number, they can't create an FSA ID.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "If your parent doesn't have a Social Security number, you'll need to print, sign, and mail the signature page instead.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0001",
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0009"
+          ]
+        },
+        {
+          "claim": "Gather documents like your Social Security number (or Alien Registration number if not a U.S. citizen), federal tax returns, and records of untaxed income.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Filling Out the FAFSA® Form | Federal Student Aid#1_0::c0002"
+          ]
+        },
+        {
+          "claim": "After submitting, your school will send a financial aid offer.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Most male students must be registered with Selective Service to receive aid.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        }
+      ],
+      "faithfulness": 0.8888888888888888,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [],
+      "faithfulness": null,
+      "citation_supported_claims": 0
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_truncated_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "我无法访问您的个人预约记录或实时状态。",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "要获取您的C&P检查预约时间，请联系最近的VA区域办公室或致电800-827-1000。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        }
+      ],
+      "faithfulness": 0.5,
+      "citation_supported_claims": 1
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "建议遵循“先免费资金，后赚取资金，最后借贷资金”的原则",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果必须接受贷款，应优先选择条款最优惠的贷款，通常是指联邦学生贷款",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "请务必只借你需要的金额，并制定预算来帮助确保这一点",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果你对贷款类型或还款条款有疑问，请联系学校的财政援助办公室",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Accepting Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果你或你的家庭成员因服兵役而有资格获得特定福利（如利率上限、利息免除或延期），请联系你的贷款服务商了解详情",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Aid for Military Families | Federal Student Aid#1_0::c0003"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "即使您从未在Social Security下工作过，只要您年满62岁且您的配偶正在领取退休或残疾福利，您就可能符合配偶退休福利的资格。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以在65岁时获得Medicare资格。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果您离婚了，您可能仍有资格基于前配偶的记录获得福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果您在62岁至完全退休年龄之间开始领取福利，金额将永久减少。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "在完全退休年龄时，配偶福利不能超过您配偶完全退休金额的一半。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以通过在线、电话或当地办公室申请配偶福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "FFEL借款人在1998年10月7日或之后获得FFEL计划贷款之日没有未偿还的FFEL计划贷款余额，并且拥有超过30,000美元的未偿还FFEL计划贷款，则有资格选择延长还款计划",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "在延长还款计划下，每月还款额可以是固定或递增的金额",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "在延长还款计划下，最长还款期限为25年",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "在延长还款计划下，每月还款额通常低于标准还款计划和递增还款计划下的还款额",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果同时拥有直接贷款和FFEL贷款，资格是分别计算的",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "拥有35,000美元FFEL贷款和10,000美元直接贷款，可以为FFEL贷款选择延长计划，但不能为直接贷款选择",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "符合延长还款计划资格的联邦贷款包括直接补贴贷款、直接无补贴贷款、直接PLUS贷款、直接合并贷款、补贴联邦斯塔福德贷款、无补贴联邦斯塔福德贷款、FFEL PLUS贷款和FFEL合并贷款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 1
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You can reschedule or withdraw your Board hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "If you need to reschedule, you will not lose your place in the queue.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The Board will keep your same docket date and reschedule your hearing to the earliest possible date.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The written request to withdraw must include your name, VA file number, and reason for withdrawal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You can still submit new evidence within 90 days after withdrawing your hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Send your written request by mail or fax to the Board of Veterans Appeals.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果身份证已过期，则无法更换，必须续期或申请新证。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在线更换标准非驾驶员身份证。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002"
+          ]
+        },
+        {
+          "claim": "在线更换标准证件时，新卡将显示“NOT FOR FEDERAL PURPOSES”。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002"
+          ]
+        },
+        {
+          "claim": "如果想保留标准证件并前往办公室办理，需要填写MV-44表格。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "前往办公室办理时需携带当前标准身份证和付款。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您请求与高级审查员进行非正式会议，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "高级审查员会尝试通过电话联系您或您的代表两次。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "如果无人接听，他们会留下语音邮件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "在通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "这次通话不会有记录。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You generally have 60 days from receiving the denial notice to request an appeal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "The four levels of appeal are Reconsideration, Hearing by an administrative law judge, Review by the Appeals Council, and Federal Court review.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can request a reconsideration online for medical or non-medical determinations.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can request an appeal by calling 1-800-772-1213 (TTY 1-800-325-0778) or contacting your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "For mailing documents, you would need to follow the instructions in your denial letter or contact Social Security directly.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "I cannot answer questions about mailing documents to me, as I am not an official entity.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        }
+      ],
+      "faithfulness": 0.6666666666666666,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your spouse dies, you may be eligible for survivor benefits based on their work record.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can receive survivor benefits as a widow/widower if you are at least age 60 (age 50 if disabled).",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "You can receive survivor benefits at any age if you are caring for their child who is under age 16 or disabled.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "If you remarry before age 60 (age 50 if disabled), you cannot receive benefits as a surviving spouse while married.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ]
+        },
+        {
+          "claim": "Remarriage after age 60 (age 50 if disabled) does not disqualify you from receiving survivor benefits.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ]
+        },
+        {
+          "claim": "Benefits may be reduced if you start before full retirement age.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "There are earnings limits if you work while receiving survivor benefits.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ]
+        },
+        {
+          "claim": "If you also qualify for your own retirement benefit, you can switch to the higher amount at full retirement age.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0012"
+          ]
+        },
+        {
+          "claim": "For exact eligibility and amounts, contact Social Security at 1-800-772-1213 or visit your local office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 0.6666666666666666,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您或您的代表应在听证会至少2周前向委员会发送书面请求以撤回听证会",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "撤回听证会的书面请求中需包含您的姓名、您的上诉的VA档案编号，以及您撤回听证会的原因",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您可以将书面请求邮寄或传真至委员会",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "撤回听证会请求不会加快您的上诉进度，除非您同时切换到直接审查（Direct Review）上诉选项，而该选项只能在特定时间进行",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "如果您切换到不同的上诉选项，您将保留相同的案卷日期",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您仍然可以在撤回听证会请求后90天内提交新证据供法官审核",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "退伍后可以通过VGLI继续保留人寿保险保障，只要持续支付保费",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在退伍后1年零120天内申请VGLI",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0004",
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "最高保额为您通过SGLI拥有的保险金额",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0004",
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果在退伍后240天内申请，无需提供健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "超过240天申请则需提交健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court that issued the ticket directly.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "The DMV's 'My License, Permit or ID' service can provide more information about where to respond to or pay the ticket.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "For tickets issued in NYC (marked 'Traffic Violations Bureau'), you can plead or pay online.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 3
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Commercial vehicle registration fees vary based on vehicle weight and location.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "Initial registration typically includes sales tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "Initial registration typically includes license plate fee or registration transfer fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "Initial registration typically includes title certificate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "Initial registration typically includes vehicle use tax in most counties.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "Initial registration typically includes a 1- or 2-year registration fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "For vehicles under 18,000 lbs, use the commercial registration fee table.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "Diesel-powered vehicles 8,501 lbs or heavier incur an additional fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC residents and residents of certain counties must pay vehicle use tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 9
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您可以访问社会保障局网站上的福利信息页面来了解您或您的家人可能基于他人的工作记录有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人的工作记录有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以拨打社会保障局的免费电话1-800-772-1213咨询具体问题。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "社会保障局的免费电话1-800-772-1213在周一至周五上午7点至下午7点提供服务。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以通过在线“我的社会保障账户”获取个性化估算。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "A revoked driver license or driving privilege means your license has been canceled, and you must reapply for a new license after the revocation period ends.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "In most cases, you must first request and receive DMV approval before obtaining a new license.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may need to retake the written and road tests and pay a license reapplication fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "Driving while your license or privilege is suspended or revoked is illegal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "To check if your license is revoked or suspended, register for MyDMV and use the 'My License, Permit or ID' service.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "自愿参加涉及化学和生物测试的研究的退伍军人可能通过美国陆军获得医疗护理。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "获得医疗护理的两项要求之一是：在1942年至1975年间自愿参加涉及化学和生物测试的研究。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "获得医疗护理的两项要求之二是：有直接由参与这些测试造成的伤害或疾病。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "这两项要求必须均为真实情况。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "To apply for federal student aid, you must complete the Free Application for Federal Student Aid (FAFSA) form at fafsa.gov each year.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0004",
+            "Staying Eligible | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Based on your FAFSA results, your school will send you a financial aid offer, which may include loans, grants, or work-study.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0004",
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Contact your school's financial aid office for specific steps.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Eligibility depends on meeting basic criteria, including citizenship status.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "For male students, Selective Service registration may be required.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        }
+      ],
+      "faithfulness": 0.8333333333333334,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [],
+      "faithfulness": null,
+      "citation_supported_claims": 0
+    },
+    {
+      "tier": "flash",
+      "candidate": "rerank_windowed_k5",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "VA 的免费电话是 800-827-1000",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0005",
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "可以联系最近的 VA 地区福利办公室来确认或更改 C&P 检查预约",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "错过 C&P 检查可能会导致索赔延迟",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0000",
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "错过 C&P 检查可能会导致按现有证据评定索赔",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "申请联邦学生贷款的第一步是填写FAFSA表格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "学校会根据FAFSA信息确定你的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "贷款通常包含在资助方案中",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果这是你首次获得直接贷款，你需要完成入学咨询",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "如果这是你首次获得直接贷款，你需要签署主本票",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        },
+        {
+          "claim": "贷款是需要偿还的",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "贷款会产生利息",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Understand Financial Aid | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "建议优先考虑无需偿还的助学金和奖学金，贷款作为补充",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "如有疑问，请联系你计划就读学校的财务援助办公室",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0007"
+          ]
+        }
+      ],
+      "faithfulness": 0.8888888888888888,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "即使您从未在社会保障制度下工作过，如果您年满62岁且您的配偶正在领取退休或残疾福利，您可能仍有资格获得配偶退休福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "您也可以在65岁时有资格享受Medicare。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果您离婚了，您可能仍能在您前配偶的记录上获得福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "申请方式包括在线、电话（1-800-772-1213）或亲自前往当地社会保障办公室。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果您在62岁至完全退休年龄之间开始领取福利，金额可能会被永久性减少。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您是FFEL借款人，在1998年10月7日或之后获得FFEL贷款时没有未偿还的FFEL贷款余额，并且您目前拥有超过30,000美元的未偿还FFEL贷款，您可能有资格选择延长还款计划。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划允许最长25年的还款期限。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划提供固定或递增的每月还款额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "延长还款计划的每月还款额通常低于标准还款计划下的还款额。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果您同时拥有直接贷款和FFEL贷款，您只能为符合条件的FFEL贷款选择延长还款计划，而不能为直接贷款选择。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "直接补贴贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "直接无补贴贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "直接PLUS贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "直接合并贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "补贴联邦斯塔福德贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "无补贴联邦斯塔福德贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "FFEL PLUS贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "FFEL合并贷款符合延长还款计划的资格",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Extended Plan | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You can reschedule or withdraw your Board hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "If you need to reschedule, you will not lose your place in the queue.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The Board schedules hearings by docket order.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The Board will reschedule your hearing to the earliest possible date while keeping your original docket date.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "The written withdrawal request should include your name, VA file number, and reason for withdrawal.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "You can still submit new evidence within 90 days after withdrawing the hearing request.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "Send your written request by mail or fax to the Board of Veterans Appeals.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以选择在线、邮寄或前往办公室办理。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0003",
+            "Replace a non-driver ID card#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "在线或邮寄更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0002",
+            "Replace a non-driver ID card#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "如果您的身份证已过期，则无法更换，必须续期或申请新证。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Replace a non-driver ID card#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果您请求与高级审阅员进行非正式会议，他们会拨打您或您的代表在Higher-Level Review表格上提供的电话号码，以安排时间讨论您的案件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "高级审阅员会尝试通过电话联系您或您的代表两次。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "如果无人接听，他们会留下语音邮件。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "通话期间，您和/或您的代表可以讨论您认为决定应该更改的原因并指出错误。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "这次通话不会有记录。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Request a Higher-Level Review | Veterans Affairs#1_0::c0002",
+            "Frequently asked questions about decision reviews | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "You can file an appeal by calling SSA's toll-free number at 1-800-772-1213 (TTY 1-800-325-0778).",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can file an appeal by contacting your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Appeal A Decision | Social Security Administration#2_0::c0000",
+            "Appeal A Decision | Social Security Administration#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "You can file online for most appeal levels, which allows you to provide documents electronically.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0::c0005",
+            "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0::c0005"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 2
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your spouse dies, you may be eligible for higher survivor benefits based on their work record, even if you are already receiving benefits as a spouse.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#2_0::c0000",
+            "Explore The Benefits You May Be Due#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Your benefit will automatically convert to survivor benefits after we receive the report of death.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you are also eligible for retirement benefits on your own record, you can apply for retirement or survivor benefits now and switch to the higher benefit later.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "If you are already receiving retirement benefits, you can only apply for widow/widower benefits if your retirement benefit is less than the survivor benefit.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0::c0006",
+            "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0005"
+          ]
+        },
+        {
+          "claim": "To report a death or apply, call 1-800-772-1213 (TTY 1-800-325-0778) or visit your local Social Security office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您可以写信给委员会撤回您的听证会请求。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您应在听证会至少2周前发送书面请求。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "书面请求应包含您的姓名。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "书面请求应包含您的上诉的VA档案编号。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "书面请求应包含您撤回上诉的原因。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您可以在撤回听证会请求后90天内提交新证据。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "您可以将书面请求邮寄或传真至委员会。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 7
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "退伍后可以通过VGLI继续保留人寿保险保障，只要持续支付保费",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "可以在退伍后1年零120天内申请VGLI",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000",
+            "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0004"
+          ]
+        },
+        {
+          "claim": "VGLI最高保额为您离开军队时通过SGLI拥有的保险金额（$10,000至$400,000）",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "如果在离开军队后的240天内申请，无需提供健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "若超过240天申请，则需提交健康证明",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 5
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "If your suspension is due to an unpaid fine for a traffic ticket issued outside New York City, you must contact the local court (city, county, town, or village) where the ticket was issued.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "The DMV's 'MyDMV' service can help you identify the correct court.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007"
+          ]
+        },
+        {
+          "claim": "You will need to pay the fine and any applicable suspension termination fee to clear the suspension.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Tickets received in New York City#3_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 3
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Commercial vehicle registration fees depend on vehicle weight and county of residence.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "For vehicles under 18,000 lbs, use the commercial registration fee table.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "Diesel vehicles 8,501 lbs or heavier incur an extra fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires a $25 plate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires a $50 title certificate fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "First-time registration requires sales tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000",
+            "Register a vehicle#1_0::c0001"
+          ]
+        },
+        {
+          "claim": "NYC residents and some counties pay vehicle use tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0::c0000"
+          ]
+        },
+        {
+          "claim": "NYC passenger cars pay $80 for 2 years vehicle use tax.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "NYC passenger cars pay $50 MCTD fee.",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "The DMV's online estimator excludes sales tax.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Estimate registration fees and taxes#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 0.8,
+      "citation_supported_claims": 8
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "task_label": "answer",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "您可以访问社会保障局网站上的福利信息页面来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以使用福利资格筛选工具（BEST）来了解您或您的家人可能基于他人工作记录有资格获得的福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "您可以拨打社会保障局的免费电话1-800-772-1213咨询具体问题。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        },
+        {
+          "claim": "社会保障局的免费电话1-800-772-1213的服务时间为周一至周五上午7点至下午7点。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Explore The Benefits You May Be Due#1_0::c0000",
+            "Explore The Benefits You May Be Due#2_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 4
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "A revoked driver license or driving privilege means your license has been canceled, and you must reapply for a new license after the revocation period ends.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "In most cases, you must first request DMV approval before obtaining a new license.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may need to retake the written and road tests and pay a license reapplication fee.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "Your application may be denied if you have a high-risk driving record or fail to meet DMV requirements.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "You may also need to pay a driver civil penalty before your license or driving privilege is restored.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0005"
+          ]
+        },
+        {
+          "claim": "To check the status of your license, you can sign up for MyDMV and use the 'My License, Permit, or ID' service.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Suspensions and revocations#3_0::c0007",
+            "Pay driver responsibility assessment#1_0::c0009"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "如果你在1942年至1975年间自愿参加美国生物或化学项目的研究，并且因参与而直接导致受伤或疾病，你可能通过美国陆军获得医疗护理。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "这并不自动保证残疾补偿或其他福利。",
+          "supported": false,
+          "supporting_chunk_ids": []
+        },
+        {
+          "claim": "你需要满足VA的资格要求，包括患有被认定为与服役相关的疾病或伤害。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility For VA Disability Benefits | Veterans Affairs#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "你提到的两个要求（患有辐射相关疾病和满足暴露条件）必须真实且得到文件支持，才能获得VA残疾福利。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Ionizing Radiation Exposure | Veterans Affairs#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 0.75,
+      "citation_supported_claims": 2
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "task_label": "clarify",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "Your parents' citizenship or immigration status does not affect your eligibility for federal student aid.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+            "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+          ]
+        },
+        {
+          "claim": "The FAFSA form does not ask about your parents' status.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000",
+            "Reporting Parent Information | Federal Student Aid#1_0::c0009"
+          ]
+        },
+        {
+          "claim": "To qualify for federal student aid, you must be a U.S. citizen or an eligible noncitizen.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "Eligible noncitizens include permanent residents with a green card, refugees, asylees, or other specific categories.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "If you are not a U.S. citizen or an eligible noncitizen, you would not be eligible for federal student aid, regardless of your parents' status.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements | Federal Student Aid#1_0::c0000",
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+          ]
+        },
+        {
+          "claim": "For more details on eligible noncitizen categories, check with your college's financial aid office.",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0::c0000"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 6
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-009",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [],
+      "faithfulness": null,
+      "citation_supported_claims": 0
+    },
+    {
+      "tier": "pro",
+      "candidate": "baseline_dense_k10",
+      "question_id": "eval-v1-dev-refuse-006",
+      "task_label": "refuse",
+      "status": "ok",
+      "claims": [
+        {
+          "claim": "VA 通常会通过信件或电话与您联系，告知检查日期和时间。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "您可以拨打 800-827-1000 确认或重新安排预约。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        },
+        {
+          "claim": "您可以联系最近的 VA 地区办公室确认或重新安排预约。",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0003"
+          ]
+        }
+      ],
+      "faithfulness": 1.0,
+      "citation_supported_claims": 3
+    }
+  ],
+  "accounted_shared_budget_rmb": 3.0381425,
+  "not_ragas": true,
+  "independent_human_review": false,
+  "generation_failures_remain_in_parent_correctness_denominator": true
+}

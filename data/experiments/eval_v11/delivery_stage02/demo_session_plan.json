@@ -1,0 +1,9 @@
+{
+  "purpose": "Actual CLI smoke: English question, Chinese follow-up with generated session history, reset and exit.",
+  "input_sha256": "b68c704b5008628e30a859de99b9a53ceb19d5980464ba7da6f66e637d9738ef",
+  "questions": 2,
+  "state_dir": "data/experiments/eval_v11/service_smoke/runtime",
+  "shared_generation_budget_cap_rmb": 2,
+  "included_in_20_question_eval": false,
+  "requires_new_scoring": false
+}

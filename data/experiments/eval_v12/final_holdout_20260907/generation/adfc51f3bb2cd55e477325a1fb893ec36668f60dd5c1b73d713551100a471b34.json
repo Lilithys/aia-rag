@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "eval-v1-holdout-refuse-010",
+    "item_sha256": "b2a9fab0466d08c572d923c153380f603ef168a0a92e7849d55dfb0dbe292b2f",
+    "result": {
+      "request_id": "3c83c2137d93496e91590f6a97598b83",
+      "session_id": "synthetic::eval-v1-holdout-refuse-010",
+      "turn_id": null,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "知识库中没有足够的相关信息。请补充问题细节，或询问知识库覆盖的服务。",
+        "action": "refuse",
+        "citations": []
+      },
+      "contexts": [],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Get a CDL#1_0::c0000",
+          "text": "Get a CDL"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0002",
+          "text": "为你的委员会听证会做准备"
+        },
+        {
+          "chunk_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0005",
+          "text": "获取听证会准备帮助"
+        },
+        {
+          "chunk_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0004",
+          "text": "[申请VA职业康复与就业的资格 | Veterans Affairs > 获取更多信息]\n我们提供通过以下项目同时获得培训和实际动手工作经验的机会：\n\n- VR&E 特殊雇主激励（SEI）计划，适用于面临就业挑战的合格退伍军人。下载 SEI 计划情况说明书（PDF）\n\n- VR&E 无薪工作经验（NPWE）计划，适用于已确立职业目标且在手把手环境中学习容易或由于缺乏工作经验而难以找到工作的合格退伍军人和现役军人。下载 NPWE 计划情况说明书（PDF）观看此视频以了解更多关于 NPWE 计划的信息\n\n我们还提供：\n\n- 位于我们 VA 地区办公室和许多外派地点的 VR&E 就业协调员，他们可以帮助你获得可用的就业服务。在你附近寻找就业协调员\n\n- 帮助你从军队过渡到大学生活的辅导员。了解 VetSuccess on Campus\n\n- 链接到 VA 外部的更多资源，这些资源可以帮助你求职。查看我们的外部资源列表\n\n- 如果你正在参加 VR&E 就业计划，并且因自然灾害或其他灾难失去了住房，你可能符合资格获得额外2个月的就业调整津贴。联系你的 VRC 了解更多信息\n\n观看这些视频以了解更多关于 VR&E 的信息：VR&E Chapter 31 服务VR&E 的5条就业途径\n\n### 关于VR&E福利和服务的更多信息\n\n-\n\n#### 面向服役人员和退伍军人的职业康复项目\n\n探索VR&E支持与服务路径，以获取学习新技能、寻找新工作、创业、获得教育咨询或重返原工作岗位的帮助。\n\n-\n\n#### 如何申请VA职业康复与就业\n\n了解作为服役人员或退伍军人如何申请VR&E福利和服务。\n\n-\n\n#### 受抚养家庭成员\n\n如果您是患有服役相关残疾的服役人员或退伍军人的受抚养家庭成员，请了解您是否有资格获得某些咨询服务、培训和教育的福利。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0044",
+          "text": "[VA 医疗保健 | 退伍军人事务部]\n在线提问"
+        }
+      ],
+      "citations": [],
+      "citation_check": "not_applicable",
+      "error_type": null,
+      "call": null,
+      "latency_ms": {
+        "queue_wait": 0.013749930076301098,
+        "retrieval": 771.2910419795662,
+        "total": 771.9625839963555
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.10398020804859698,
+        "rerank_seconds": 0.6672391250031069,
+        "top1_dense_score": 0.49100905656814575,
+        "candidate_ids": [
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0002",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0005",
+          "Point & Insurance Reduction Program#3_0::c0000",
+          "About online and alternative delivery method courses (I-PIRP/ADM)#3_0::c0005",
+          "Extended Plan | Federal Student Aid#1_0::c0000",
+          "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0::c0004",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0004",
+          "VA decision reviews and appeals | Veterans Affairs#1_0::c0000",
+          "Work Study | Veterans Affairs#1_0::c0000",
+          "Increased Disability Rating For Time In A Hospital | Veterans Affairs#1_0::c0000",
+          "Standard Plan | Federal Student Aid#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0044",
+          "Plead to or pay TVB tickets#1_0::c0007",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0007",
+          "Get a CDL#1_0::c0000",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0007",
+          "Income-Driven Repayment Plans | Federal Student Aid#1_0::c0006",
+          "How insurance premium reduction works#3_0::c0000",
+          "Tutorial Assistance | Veterans Affairs#1_0::c0000",
+          "Prepare for your road test#3_0::c0004"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 32,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.7712724170414731
+      },
+      "refusal_reason": "low_retrieval_confidence",
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "4737c8f89aa1a16435698dae327a1d12ff93a997e4307f28e1a5e17336b2f24b"
+}

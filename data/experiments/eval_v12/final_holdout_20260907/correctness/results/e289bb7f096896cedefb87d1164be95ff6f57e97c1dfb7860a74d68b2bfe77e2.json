@@ -1,0 +1,112 @@
+{
+  "payload": {
+    "task_id": "e289bb7f096896cedefb87d1164be95ff6f57e97c1dfb7860a74d68b2bfe77e2",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "非驾驶员身份证丢失、损毁或地址变更后可更换",
+                "coverage": "covered",
+                "response_quote": "如果您的非驾驶员身份证丢失、损毁或地址变更，可以申请更换",
+                "reason": "准确覆盖了可更换的条件"
+              },
+              {
+                "requirement": "身份证过期时不能更换，必须续期或申请新证",
+                "coverage": "covered",
+                "response_quote": "但如果证件已过期，则无法更换，您必须续期或申请新证",
+                "reason": "准确说明了过期情况下的处理方式"
+              },
+              {
+                "requirement": "即将年满21岁者应在生日后40天内下单以获得不带UNDER 21标识的身份证",
+                "coverage": "covered",
+                "response_quote": "如果您即将年满21岁，建议在生日后40天内下单，以获得不带“UNDER 21”标识的身份证",
+                "reason": "准确补充了相关条件"
+              }
+            ],
+            "reason": "回答完整覆盖了参考中的关键条件，且额外信息均有文档支持，无错误或遗漏。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "36fff412f1d1469392091a9addd1c0ae",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2389,
+                "completion_tokens": 257,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 257,
+                  "prompt_tokens": 2389,
+                  "total_tokens": 2646,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1493
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0034408000000000004,
+              "accounted_rmb": 0.0034408000000000004,
+              "usage_unknown": false,
+              "seconds": 2.1631460189819336,
+              "error": null,
+              "response": {
+                "id": "3987d2fa-5f01-4e0d-8d17-6ae583a9984e",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "649d6e15be352876c999e93dcb07217ae7850771ed473f19a50f6933210fbd3b"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "非驾驶员身份证丢失、损毁或地址变更后可更换",
+            "coverage": "covered",
+            "response_quote": "如果您的非驾驶员身份证丢失、损毁或地址变更，可以申请更换",
+            "reason": "准确覆盖了可更换的条件"
+          },
+          {
+            "requirement": "身份证过期时不能更换，必须续期或申请新证",
+            "coverage": "covered",
+            "response_quote": "但如果证件已过期，则无法更换，您必须续期或申请新证",
+            "reason": "准确说明了过期情况下的处理方式"
+          },
+          {
+            "requirement": "即将年满21岁者应在生日后40天内下单以获得不带UNDER 21标识的身份证",
+            "coverage": "covered",
+            "response_quote": "如果您即将年满21岁，建议在生日后40天内下单，以获得不带“UNDER 21”标识的身份证",
+            "reason": "准确补充了相关条件"
+          }
+        ],
+        "reason": "回答完整覆盖了参考中的关键条件，且额外信息均有文档支持，无错误或遗漏。"
+      }
+    }
+  },
+  "sha256": "dfe27651c4e65b500f101dbe3f7b6a194995a49a381707f338bdf821cbed0de2"
+}

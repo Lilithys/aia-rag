@@ -1,0 +1,183 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "ea5987b8b60371478b07ecfd24af03c1::agent-turn-6",
+    "item_sha256": "8845e11df9ca7b21492f6573f622ad8f12480fa5238841976a4b262ded270b19",
+    "result": {
+      "request_id": "175be71794584961a1e10d895c823a1d",
+      "session_id": "ea5987b8b60371478b07ecfd24af03c1",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "如果您已经领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，您可以登录或创建您的个人安全 my Social Security 账户来在线设置或更改直接存款。登录后，选择屏幕右侧蓝色的 Benefits & Payment Details 链接，向下滚动并选择 Update Direct Deposit 按钮，然后按照提示输入您的银行账户信息。您还可以通过 my Social Security 中的 My Profile 标签来决定更改何时生效。如果您没有银行账户，可以考虑使用 Direct Express 借记卡，无需银行账户即可接收福利。",
+        "citations": [
+          "Direct Deposit | Social Security Administration#1_0::c0000",
+          "Social Security Direct Deposit | Social Security Administration#2_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#1_0::c0000",
+          "text": "# Direct Deposit | Social Security Administration\n\n## Direct Deposit\n\n### 设置或更改您的福利金直接存款\n\n您是否想要设置或更改福利金的直接存款？我们正在不断扩展和改进我们的在线服务，包括设置或更改直接存款信息的功能。如果您已经领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，只需登录或创建您的个人安全 my Social Security 账户。\n\n登录创建您的账户\n\n### 什么是直接存款？\n\n直接存款是一种简单、安全且可靠的方式领取福利。如果您需要我们向银行或信用合作社账户发送款项，请在申请时准备好以下所有信息。\n\n- 社会保障号码\n- 银行路由转账号码\n- 账户类型（支票或储蓄）\n- 账户号码\n\n如何在线设置或更改福利金直接存款\n\n登录您的账户。\n\n登录并选择屏幕右侧蓝色的 Benefits & Payment Details 链接。\n\n向下滚动并选择 Update Direct Deposit 按钮，然后选择您是银行账户的所有者还是共同所有者。\n\n输入您的银行账户信息并选择 Next。\n\n查看并验证您的银行信息，选择 Submit，然后选择 Done。\n\n您还可以通过 my Social Security 中的 My Profile 标签来决定更改何时生效。\n\n没有 my Social Security 账户？\n\n创建免费的 my Social Security 账户只需不到10分钟，您可以设置或更改直接存款，并访问许多其他在线服务。\n\n了解更多注册\n\n### 与此服务相关的附加信息\n\n自2013年3月1日起，您需要以电子方式接收付款。如果您在该日期之前申请了福利，但当时未注册电子支付，我们强烈建议您现在进行注册。有关在没有银行账户的情况下切换到电子支付的更多信息，请访问Treasury的Go Direct网站或拨打帮助热线1-800-333-1795。\n\n### 仍有疑问？\n\n如果您有疑问或需要帮助了解如何在线设置或更改直接存款，请拨打我们的免费电话1-800-772-1213或访问您当地的Social Security办公室。如果您是聋人或听力障碍者，请在周一至周五上午7点至下午7点之间拨打我们的免费TTY号码1-800-325-0778。"
+        },
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#2_0::c0000",
+          "text": "# Direct Deposit | Social Security Administration\n\n### Set Up or Change Your Direct Deposit of Benefit Payment\n\nDo you want to set up or change the direct deposit of your benefit payment? We are constantly expanding and improving our online services, including the ability to set up or change your direct deposit information. If you already receive Social Security or Supplemental Security Income (SSI) benefits and you have a bank account, simply log in to or create your personal and secure my Social Security account.\n\nSign inCreate your account\n\n### What is Direct Deposit?\n\nDirect deposit is a simple, safe, and secure way to get benefits. If you need us to send your payment to a bank or credit union account, have all of the following information ready when you apply.\n\n- Social Security number\n- Bank routing transit number\n- Account type (checking or savings)\n- Account number\n\nHow to Set Up or Change Direct Deposit of Benefit Payment Online\n\nLog in to your account.\n\nSign in and Select the blue Benefits & Payment Details link on the right side of the screen.\n\nScroll down and select the Update Direct Deposit button, and choose if you are the owner or co-owner of the bank account.\n\nEnter your bank account information and select Next.\n\nReview and verify your banking information and select Submit then select Done.\n\nYou can also decide when your change will take effect, by simply using the My Profile tab within my Social Security.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you set up or change your direct deposit and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Additional information related to this service\n\nAs of March 1, 2013, you are required to receive your payments electronically. If you applied for benefits before that date and did not sign up for electronic payments at that time, we strongly urge you to do so now. For more information regarding switching to an electronic payment if you don t have a bank account, visit Treasury s Go Direct website or call the helpline at 1-800-333-1795.\n\n### Still have questions?\n\nIf you have questions or need help understanding how to set up or change direct deposit online, call our toll-free number at 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        },
+        {
+          "chunk_id": "Social Security Direct Deposit | Social Security Administration#2_0::c0000",
+          "text": "# 社会保障直接存款 | 社会保障管理局\n\n### 已领取福利\n\n如果您已领取社会保障或补充保障收入福利，并且拥有银行账户，您可以通过以下方式注册直接存款：\n\n- 在线开始或更改直接存款（仅限社会保障福利），或\n- 联系您的银行、信用合作社或储蓄贷款协会，或\n- 拨打社会保障免费电话 1-800-772-1213（TTY 1-800-325-0778），或\n\n考虑将 Direct Express 借记卡作为另一个可行的选择。\n\nDirect Express 卡是一种借记卡，您可以使用它来获取您的福利。而且您不需要银行账户。\n\n通过 Direct Express 卡计划，我们将您的联邦福利金直接存入您的卡账户。您的每月福利将在您的支付日准时到账，每次都是如此。您可以在数千个地点使用该卡购物、支付账单或提取现金。\n\n注册该卡既快捷又简单。拨打 Direct Express 免费热线 1-800-333-1795。此外，社会保障局也可以帮助您注册。\n\n如果您没有账户，则必须先开设一个账户，然后才能注册直接存款。您应该在您所在地区货比三家，找到一个具有您想要的功能且价格实惠的账户。当您决定适合您的账户时，请告知金融机构的代表您有兴趣注册通过直接存款接收您的福利。\n\n### 目前未领取福利\n\n如果您尚未领取社会保障或补充保障收入福利，但计划申请，请在申请福利时告知社会保障代表您想注册直接存款。如果您已有账户，请随身携带您的支票簿或银行对账单副本。"
+        },
+        {
+          "chunk_id": "Social Security Direct Deposit | Social Security Administration#1_0::c0000",
+          "text": "# 社会保障直接存款 | 社会保障管理局\n\n## 社会保障直接存款\n\n直接存款信息 / 如何注册接收电子支付？\n\n### 已领取福利\n\n如果您已经在领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，您可以通过以下方式注册直接存款：\n\n- 在线开始或更改直接存款（仅限社会保障福利），或\n- 联系您的银行、信用合作社或储蓄贷款协会，或\n- 拨打社会保障免费电话 1-800-772-1213（TTY 1-800-325-0778），或\n\n考虑直接快递借记卡作为另一个可行的选择。\n\n直接快递卡是一种借记卡，您可以用它来获取您的福利。而且您不需要银行账户。\n\n通过直接快递卡计划，我们将您的联邦福利金直接存入您的卡账户。您的每月福利将在您的支付日准时到账，每次都是如此。您可以在数千个地点使用该卡购物、支付账单或提取现金。\n\n注册该卡既快捷又简单。拨打直接快递免费热线 1-800-333-1795。此外，社会保障局也可以帮助您注册。\n\n如果您没有账户，您必须先开设一个账户，然后才能注册直接存款。您应该在您所在地区货比三家，找到一个具有您想要的功能且价格实惠的账户。当您决定适合您的账户时，请告知金融机构的代表您有兴趣注册通过直接存款接收您的福利。\n\n### 目前未领取福利\n\n如果您尚未领取社会保障或 SSI 福利，但计划申请，请在申请福利时告知社会保障代表您想注册直接存款。如果您已有账户，请随身携带您的支票簿或银行对账单副本。\n\n### 相关信息\n\n- 如果您想了解更多关于直接快递的信息，请查看财政部的 YouTube 视频\n\n- 如果您想了解更多关于防止身份盗窃的信息，请访问财政部的网站"
+        },
+        {
+          "chunk_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "text": "# 更改您的 VA 直接存款信息 | Veterans Affairs\n\n# 更改您的 VA 直接存款信息\n\n在线更改您的残疾补偿、养老金福利或教育福利的 VA 直接存款信息。\n\n## 如何在线更改我的 VA 直接存款信息？\n\n这取决于您正在领取的福利类型。您可以通过更新您的 VA.gov 个人资料来更改残疾补偿和养老金福利的信息。要更改 GI Bill 和其他教育福利的信息，您需要登录 eBenefits。\n\n### **残疾补偿和养老金福利支付**\n\n#### 我们正在 VA.gov 上测试直接存款功能\n\n我们正在将直接存款功能引入 VA.gov。目前并非所有人都能使用此功能。如果您在个人资料中看到直接存款功能，您可以从那里更新您的直接存款信息。如果您在个人资料中没有看到此功能，请前往 eBenefits 并登录以更改您的直接存款信息。\n\n注意：您需要您的银行路由号码以及您的账号。\n\n#### 要取消您的直接存款支付、从纸质支票切换到直接存款，或更改您纸质支票上的地址\n\n请致电 800-827-1000。我们的服务时间为周一至周五，东部时间上午 8:00 至晚上 9:00。或者前往您最近的 VA 地区办事处。\n\n### 教育福利\n\n### 您需要登录 eBenefits 才能在线更改您的 VA 直接存款和联系信息。\n\n要使用此功能，您需要 Premium DS Logon 账户。您的 My HealtheVet 或 ID.me 凭据在 eBenefits 网站上无效。前往 eBenefits 登录、注册或将您的 DS Logon 账户升级为 Premium。前往 eBenefits 更改您的信息\n\n注意：您需要您的银行名称、地址、电话号码和路由号码以及您的账号。\n\n## 还有其他方式更改我的 VA 直接存款或联系信息吗？\n\n是的。您可以通过邮寄或电话更改您的信息。\n\n### 通过邮寄\n\n填写 VA Direct Deposit Enrollment（VA 表格 24-0296）。下载 VA 表格 24-0296（PDF）\n\n将填写好的表格邮寄至：\n\nDepartment of Veterans Affairs 125 S. Main Street, Suite B Muskogee, OK 74401-7004\n\n### 通过电话\n\n致电 800-827-1000（TTY：800-829-4833）。\n\n我们周一至周五，东部时间上午 8:00 至晚上 9:00 提供服务。\n\n### 通过您的 VA.gov 个人资料更改地址\n\n您可以登录 VA.gov 并在您的 VA.gov 个人资料中更改地址或其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的信息。\n\n了解如何更改您在 VA 存档的地址\n\n## 如果我的其他信息发生变化，是否应联系 VA？\n\n是的。如果您更改婚姻状况、生育、收养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必更新您的信息。\n\n### **如果您搬家或更改邮寄地址**\n\n请务必更新您的联系信息，以便我们将有关您的福利和服务的信息以及您可能需要的任何处方、实验室检测结果或预约提醒发送到正确的地点。\n\n您可以在您的 VA.gov 个人资料中更改地址和其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的联系信息。了解如何更改您在 VA 存档的地址\n\n### **如果您的残疾评级为 30% 或更高**\n\n您或许可以将符合条件的家属添加到您的 VA 残疾补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n### **如果您的残疾恶化**\n\n您可以提交增加福利的申请。申请 VA 残疾增加\n\n最后更新："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#1_0::c0000",
+          "text": "# Direct Deposit | Social Security Administration\n\n## Direct Deposit\n\n### 设置或更改您的福利金直接存款\n\n您是否想要设置或更改福利金的直接存款？我们正在不断扩展和改进我们的在线服务，包括设置或更改直接存款信息的功能。如果您已经领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，只需登录或创建您的个人安全 my Social Security 账户。\n\n登录创建您的账户\n\n### 什么是直接存款？\n\n直接存款是一种简单、安全且可靠的方式领取福利。如果您需要我们向银行或信用合作社账户发送款项，请在申请时准备好以下所有信息。\n\n- 社会保障号码\n- 银行路由转账号码\n- 账户类型（支票或储蓄）\n- 账户号码\n\n如何在线设置或更改福利金直接存款\n\n登录您的账户。\n\n登录并选择屏幕右侧蓝色的 Benefits & Payment Details 链接。\n\n向下滚动并选择 Update Direct Deposit 按钮，然后选择您是银行账户的所有者还是共同所有者。\n\n输入您的银行账户信息并选择 Next。\n\n查看并验证您的银行信息，选择 Submit，然后选择 Done。\n\n您还可以通过 my Social Security 中的 My Profile 标签来决定更改何时生效。\n\n没有 my Social Security 账户？\n\n创建免费的 my Social Security 账户只需不到10分钟，您可以设置或更改直接存款，并访问许多其他在线服务。\n\n了解更多注册\n\n### 与此服务相关的附加信息\n\n自2013年3月1日起，您需要以电子方式接收付款。如果您在该日期之前申请了福利，但当时未注册电子支付，我们强烈建议您现在进行注册。有关在没有银行账户的情况下切换到电子支付的更多信息，请访问Treasury的Go Direct网站或拨打帮助热线1-800-333-1795。\n\n### 仍有疑问？\n\n如果您有疑问或需要帮助了解如何在线设置或更改直接存款，请拨打我们的免费电话1-800-772-1213或访问您当地的Social Security办公室。如果您是聋人或听力障碍者，请在周一至周五上午7点至下午7点之间拨打我们的免费TTY号码1-800-325-0778。"
+        },
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#2_0::c0000",
+          "text": "# Direct Deposit | Social Security Administration\n\n### Set Up or Change Your Direct Deposit of Benefit Payment\n\nDo you want to set up or change the direct deposit of your benefit payment? We are constantly expanding and improving our online services, including the ability to set up or change your direct deposit information. If you already receive Social Security or Supplemental Security Income (SSI) benefits and you have a bank account, simply log in to or create your personal and secure my Social Security account.\n\nSign inCreate your account\n\n### What is Direct Deposit?\n\nDirect deposit is a simple, safe, and secure way to get benefits. If you need us to send your payment to a bank or credit union account, have all of the following information ready when you apply.\n\n- Social Security number\n- Bank routing transit number\n- Account type (checking or savings)\n- Account number\n\nHow to Set Up or Change Direct Deposit of Benefit Payment Online\n\nLog in to your account.\n\nSign in and Select the blue Benefits & Payment Details link on the right side of the screen.\n\nScroll down and select the Update Direct Deposit button, and choose if you are the owner or co-owner of the bank account.\n\nEnter your bank account information and select Next.\n\nReview and verify your banking information and select Submit then select Done.\n\nYou can also decide when your change will take effect, by simply using the My Profile tab within my Social Security.\n\nDon't have a my Social Security Account?\n\nCreating a free my Social Security account takes less than 10 minutes, lets you set up or change your direct deposit and gives you access to many other online services.\n\nLearn MoreSign Up\n\n### Additional information related to this service\n\nAs of March 1, 2013, you are required to receive your payments electronically. If you applied for benefits before that date and did not sign up for electronic payments at that time, we strongly urge you to do so now. For more information regarding switching to an electronic payment if you don t have a bank account, visit Treasury s Go Direct website or call the helpline at 1-800-333-1795.\n\n### Still have questions?\n\nIf you have questions or need help understanding how to set up or change direct deposit online, call our toll-free number at 1-800-772-1213 or visit your Social Security office. If you are deaf or hard of hearing, call our toll-free TTY number, 1-800-325-0778, between 7 a.m. and 7 p.m. Monday through Friday."
+        },
+        {
+          "chunk_id": "Social Security Direct Deposit | Social Security Administration#2_0::c0000",
+          "text": "# 社会保障直接存款 | 社会保障管理局\n\n### 已领取福利\n\n如果您已领取社会保障或补充保障收入福利，并且拥有银行账户，您可以通过以下方式注册直接存款：\n\n- 在线开始或更改直接存款（仅限社会保障福利），或\n- 联系您的银行、信用合作社或储蓄贷款协会，或\n- 拨打社会保障免费电话 1-800-772-1213（TTY 1-800-325-0778），或\n\n考虑将 Direct Express 借记卡作为另一个可行的选择。\n\nDirect Express 卡是一种借记卡，您可以使用它来获取您的福利。而且您不需要银行账户。\n\n通过 Direct Express 卡计划，我们将您的联邦福利金直接存入您的卡账户。您的每月福利将在您的支付日准时到账，每次都是如此。您可以在数千个地点使用该卡购物、支付账单或提取现金。\n\n注册该卡既快捷又简单。拨打 Direct Express 免费热线 1-800-333-1795。此外，社会保障局也可以帮助您注册。\n\n如果您没有账户，则必须先开设一个账户，然后才能注册直接存款。您应该在您所在地区货比三家，找到一个具有您想要的功能且价格实惠的账户。当您决定适合您的账户时，请告知金融机构的代表您有兴趣注册通过直接存款接收您的福利。\n\n### 目前未领取福利\n\n如果您尚未领取社会保障或补充保障收入福利，但计划申请，请在申请福利时告知社会保障代表您想注册直接存款。如果您已有账户，请随身携带您的支票簿或银行对账单副本。"
+        },
+        {
+          "chunk_id": "Social Security Direct Deposit | Social Security Administration#1_0::c0000",
+          "text": "# 社会保障直接存款 | 社会保障管理局\n\n## 社会保障直接存款\n\n直接存款信息 / 如何注册接收电子支付？\n\n### 已领取福利\n\n如果您已经在领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，您可以通过以下方式注册直接存款：\n\n- 在线开始或更改直接存款（仅限社会保障福利），或\n- 联系您的银行、信用合作社或储蓄贷款协会，或\n- 拨打社会保障免费电话 1-800-772-1213（TTY 1-800-325-0778），或\n\n考虑直接快递借记卡作为另一个可行的选择。\n\n直接快递卡是一种借记卡，您可以用它来获取您的福利。而且您不需要银行账户。\n\n通过直接快递卡计划，我们将您的联邦福利金直接存入您的卡账户。您的每月福利将在您的支付日准时到账，每次都是如此。您可以在数千个地点使用该卡购物、支付账单或提取现金。\n\n注册该卡既快捷又简单。拨打直接快递免费热线 1-800-333-1795。此外，社会保障局也可以帮助您注册。\n\n如果您没有账户，您必须先开设一个账户，然后才能注册直接存款。您应该在您所在地区货比三家，找到一个具有您想要的功能且价格实惠的账户。当您决定适合您的账户时，请告知金融机构的代表您有兴趣注册通过直接存款接收您的福利。\n\n### 目前未领取福利\n\n如果您尚未领取社会保障或 SSI 福利，但计划申请，请在申请福利时告知社会保障代表您想注册直接存款。如果您已有账户，请随身携带您的支票簿或银行对账单副本。\n\n### 相关信息\n\n- 如果您想了解更多关于直接快递的信息，请查看财政部的 YouTube 视频\n\n- 如果您想了解更多关于防止身份盗窃的信息，请访问财政部的网站"
+        },
+        {
+          "chunk_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "text": "# 更改您的 VA 直接存款信息 | Veterans Affairs\n\n# 更改您的 VA 直接存款信息\n\n在线更改您的残疾补偿、养老金福利或教育福利的 VA 直接存款信息。\n\n## 如何在线更改我的 VA 直接存款信息？\n\n这取决于您正在领取的福利类型。您可以通过更新您的 VA.gov 个人资料来更改残疾补偿和养老金福利的信息。要更改 GI Bill 和其他教育福利的信息，您需要登录 eBenefits。\n\n### **残疾补偿和养老金福利支付**\n\n#### 我们正在 VA.gov 上测试直接存款功能\n\n我们正在将直接存款功能引入 VA.gov。目前并非所有人都能使用此功能。如果您在个人资料中看到直接存款功能，您可以从那里更新您的直接存款信息。如果您在个人资料中没有看到此功能，请前往 eBenefits 并登录以更改您的直接存款信息。\n\n注意：您需要您的银行路由号码以及您的账号。\n\n#### 要取消您的直接存款支付、从纸质支票切换到直接存款，或更改您纸质支票上的地址\n\n请致电 800-827-1000。我们的服务时间为周一至周五，东部时间上午 8:00 至晚上 9:00。或者前往您最近的 VA 地区办事处。\n\n### 教育福利\n\n### 您需要登录 eBenefits 才能在线更改您的 VA 直接存款和联系信息。\n\n要使用此功能，您需要 Premium DS Logon 账户。您的 My HealtheVet 或 ID.me 凭据在 eBenefits 网站上无效。前往 eBenefits 登录、注册或将您的 DS Logon 账户升级为 Premium。前往 eBenefits 更改您的信息\n\n注意：您需要您的银行名称、地址、电话号码和路由号码以及您的账号。\n\n## 还有其他方式更改我的 VA 直接存款或联系信息吗？\n\n是的。您可以通过邮寄或电话更改您的信息。\n\n### 通过邮寄\n\n填写 VA Direct Deposit Enrollment（VA 表格 24-0296）。下载 VA 表格 24-0296（PDF）\n\n将填写好的表格邮寄至：\n\nDepartment of Veterans Affairs 125 S. Main Street, Suite B Muskogee, OK 74401-7004\n\n### 通过电话\n\n致电 800-827-1000（TTY：800-829-4833）。\n\n我们周一至周五，东部时间上午 8:00 至晚上 9:00 提供服务。\n\n### 通过您的 VA.gov 个人资料更改地址\n\n您可以登录 VA.gov 并在您的 VA.gov 个人资料中更改地址或其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的信息。\n\n了解如何更改您在 VA 存档的地址\n\n## 如果我的其他信息发生变化，是否应联系 VA？\n\n是的。如果您更改婚姻状况、生育、收养子女或经历任何其他可能影响您的评级或付款的生活变化，请务必更新您的信息。\n\n### **如果您搬家或更改邮寄地址**\n\n请务必更新您的联系信息，以便我们将有关您的福利和服务的信息以及您可能需要的任何处方、实验室检测结果或预约提醒发送到正确的地点。\n\n您可以在您的 VA.gov 个人资料中更改地址和其他联系信息。这将更新您在残疾补偿、养老金福利、索赔和上诉、职业康复与就业（VR&E）以及 VA 医疗保健方面的联系信息。了解如何更改您在 VA 存档的地址\n\n### **如果您的残疾评级为 30% 或更高**\n\n您或许可以将符合条件的家属添加到您的 VA 残疾补偿中，以获得更高的付款（也称为福利费率）。了解如何添加符合条件的家属\n\n### **如果您的残疾恶化**\n\n您可以提交增加福利的申请。申请 VA 残疾增加\n\n最后更新："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Direct Deposit | Social Security Administration#1_0::c0000",
+          "document": "Direct Deposit | Social Security Administration#1_0",
+          "heading": [],
+          "source_file": "ssa_055.md",
+          "excerpt": "# Direct Deposit | Social Security Administration\n\n## Direct Deposit\n\n### 设置或更改您的福利金直接存款\n\n您是否想要设置或更改福利金的直接存款？我们正在不断扩展和改进我们的在线服务，包括设置或更改直接存款信息的功能。如果您已经领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，只需登录或创建您的个人安全 my Social Security 账户。\n\n登录创建您的账户\n\n### 什么是直接存款？\n\n直接存款是一种简单、安全且可靠的方式领取福利。如果您需要我们向银行或信用合作社账户发送款项，请在申请时准备好以下所有信息。\n\n- 社会保障号码\n- 银行路由转账号码\n- 账户类型（支票或储蓄）\n- 账户号码\n\n如何在线设置或更改福利金直接存款\n\n登录您的账户。\n\n登录并选择屏幕右侧蓝色的 Benefits & Payment Details 链接。\n\n向下滚动并选择 Update Direct Deposit 按钮，然后选择您是银行账户的所有者还是共同所有者。\n\n输入您的银行账户信息并选择 Next。\n\n查看并验证您的银行信息，选择 Submit，然后选择 Done。\n\n您还可以通过 my Social Security 中的 My Profile 标签来决定更改何时生效。\n\n没有 my Social Security 账户？\n\n创建免费的 my Social Security 账户只需不到10分钟，您可以设置或更改直接存款，并访问许多其他在线服务。\n\n了解更多注册\n\n### 与此服务相关的附加信息\n\n自2013年3月1日起，您需要以电子方式接收付款。如果您在该日期之前申请了福利，但当时未注册电子支付，我们强烈建议您现在进行注册。有关在没有银行账户的情况下切换到电子支付的更多信息，请访问Treasury的Go Direct网站或拨打帮助热线1-800-333-1795。\n\n### 仍有疑问？\n\n如果您有疑问或需要帮助了解如何在线设置或更改直接存款，请拨打我们的免费电话1-800-772-1213或访问您当地的Social Security办公室。如果您是聋人或听力障碍者，请在周一至周五上午7点至下午7点之间拨打我们的免费TTY号码1-800-325-0778。"
+        },
+        {
+          "chunk_id": "Social Security Direct Deposit | Social Security Administration#2_0::c0000",
+          "document": "Social Security Direct Deposit | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_107.md",
+          "excerpt": "# 社会保障直接存款 | 社会保障管理局\n\n### 已领取福利\n\n如果您已领取社会保障或补充保障收入福利，并且拥有银行账户，您可以通过以下方式注册直接存款：\n\n- 在线开始或更改直接存款（仅限社会保障福利），或\n- 联系您的银行、信用合作社或储蓄贷款协会，或\n- 拨打社会保障免费电话 1-800-772-1213（TTY 1-800-325-0778），或\n\n考虑将 Direct Express 借记卡作为另一个可行的选择。\n\nDirect Express 卡是一种借记卡，您可以使用它来获取您的福利。而且您不需要银行账户。\n\n通过 Direct Express 卡计划，我们将您的联邦福利金直接存入您的卡账户。您的每月福利将在您的支付日准时到账，每次都是如此。您可以在数千个地点使用该卡购物、支付账单或提取现金。\n\n注册该卡既快捷又简单。拨打 Direct Express 免费热线 1-800-333-1795。此外，社会保障局也可以帮助您注册。\n\n如果您没有账户，则必须先开设一个账户，然后才能注册直接存款。您应该在您所在地区货比三家，找到一个具有您想要的功能且价格实惠的账户。当您决定适合您的账户时，请告知金融机构的代表您有兴趣注册通过直接存款接收您的福利。\n\n### 目前未领取福利\n\n如果您尚未领取社会保障或补充保障收入福利，但计划申请，请在申请福利时告知社会保障代表您想注册直接存款。如果您已有账户，请随身携带您的支票簿或银行对账单副本。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "如果您已经领取社会保障或补充保障收入（SSI）福利，并且拥有银行账户，您可以登录或创建您的个人安全 my Social Security 账户来在线设置或更改直接存款。登录后，选择屏幕右侧蓝色的 Benefits & Payment Details 链接，向下滚动并选择 Update Direct Deposit 按钮，然后按照提示输入您的银行账户信息。您还可以通过 my Social Security 中的 My Profile 标签来决定更改何时生效。如果您没有银行账户，可以考虑使用 Direct Express 借记卡，无需银行账户即可接收福利。",
+          "citations": [
+            "Direct Deposit | Social Security Administration#1_0::c0000",
+            "Social Security Direct Deposit | Social Security Administration#2_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "1b668d2af3344cdb963da4ca5486b7cb",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2899,
+              "completion_tokens": 158,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 158,
+                "prompt_tokens": 2899,
+                "total_tokens": 3057,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2643
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0046883,
+            "accounted_rmb": 0.0046883,
+            "usage_unknown": false,
+            "seconds": 1.707481861114502,
+            "error": null,
+            "response": {
+              "id": "bf208513-01ce-486e-bd81-7ed5c6ad88e1",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "beeff77d9ce44a3766f7399cb11a62846facb2e2ed534dc7c8c5184f20585340"
+      },
+      "latency_ms": {
+        "queue_wait": 0.044042011722922325,
+        "retrieval": 1461.896082968451,
+        "generation": 1711.429958930239,
+        "total": 3174.625875079073
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1781829169485718,
+        "rerank_seconds": 1.2836560420691967,
+        "top1_dense_score": 0.8677262663841248,
+        "candidate_ids": [
+          "Direct Deposit | Social Security Administration#1_0::c0000",
+          "Social Security Direct Deposit | Social Security Administration#1_0::c0000",
+          "Social Security Direct Deposit | Social Security Administration#2_0::c0000",
+          "Direct Deposit | Social Security Administration#2_0::c0000",
+          "Change Your VA Direct Deposit Information | Veterans Affairs#1_0::c0000",
+          "Change of Address| Social Security Administration#1_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0000",
+          "Change of Address| Social Security Administration#2_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0003",
+          "Manage Your Retirement Benefits | SSA#1_0::c0002",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Manage Your Retirement Benefits | SSA#1_0::c0001",
+          "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0003",
+          "Disability Benefits | Social Security Administration#1_0::c0003",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0020",
+          "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0::c0023",
+          "my Social Security | Create an Account | Social Security Administratio#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0013"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 37,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.4618760829325765
+      },
+      "raw_citations": [
+        "Direct Deposit | Social Security Administration#1_0::c0000",
+        "Social Security Direct Deposit | Social Security Administration#2_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "1a2d05b68937475214588b912b7335d344871590a1daf9432fa5034e8832c7fa"
+}

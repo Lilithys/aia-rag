@@ -1,0 +1,143 @@
+{
+  "reviewer_type": "AI source-and-response diagnostic; not independent human calibration",
+  "analysis_sha256": "d947f91f5198f7f7db16a30261d17dfafa4af7b17d34d7ad40a5cb27b3ef5feb",
+  "release_smoke_sha256": "61f3bbf9bfe104eb4b36da5f0977509ecb8736962f2092300050522c1d032ec9",
+  "observations": [
+    {
+      "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "frozen_reference": "To reschedule a Board hearing, send the Board a written request with good cause at least two weeks before the hearing. Include your name, VA appeal file number, and the reason you need a new date.",
+      "arms": {
+        "windowed_k5_t0": {
+          "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+          "label": "answer",
+          "generation_status": "ok",
+          "correct": 0,
+          "reason": "The response omits the essential condition of 'good cause' for rescheduling, which is required by the reference. It also incorrectly states that withdrawing a hearing request allows submitting new evidence within 90 days, whereas the source specifies this applies to rescheduling or withdrawing, but the reference only mentions rescheduling with good cause. The answer is materially incomplete and unsupported.",
+          "response": {
+            "answer": "Yes, you can reschedule or withdraw your Board hearing request. If you need to reschedule, you will not lose your place in the queue; the Board schedules hearings in docket order and will reschedule your hearing to the earliest possible date while keeping your original docket date. To withdraw your hearing request, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal. You can still submit new evidence within 90 days after withdrawing your hearing request. Send your written request by mail or fax to the Board of Veterans Appeals.",
+            "citations": [
+              "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+            ],
+            "action": "answer"
+          },
+          "metrics": {
+            "correctness": {
+              "status": "ok",
+              "score": 0
+            },
+            "faithfulness": {
+              "status": "ok",
+              "score": 1.0
+            },
+            "context_precision": {
+              "status": "ok",
+              "score": 0.249999999975
+            }
+          }
+        },
+        "windowed_k5_t03": {
+          "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+          "label": "answer",
+          "generation_status": "ok",
+          "correct": 1,
+          "reason": "The response accurately answers the user's question about rescheduling or withdrawing a Board hearing, providing supported details from the retrieved document about keeping docket date, written request requirements, and evidence submission timeline. No material errors or unsupported assertions.",
+          "response": {
+            "answer": "Yes, you can reschedule or withdraw your Board hearing request. Rescheduling will not cause you to lose your place in the queue; you will keep the same docket date and your hearing will be rescheduled to the earliest possible date. To withdraw, you or your representative should send a written request at least 2 weeks before the hearing, including your name, VA file number, and reason for withdrawal. You can still submit new evidence within 90 days after withdrawing your hearing request. Send your written request by mail or fax to the Board of Veterans Appeals (address/fax: 844-678-8979).",
+            "citations": [
+              "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0004"
+            ],
+            "action": "answer"
+          },
+          "metrics": {
+            "correctness": {
+              "status": "ok",
+              "score": 1
+            },
+            "faithfulness": {
+              "status": "ok",
+              "score": 1.0
+            },
+            "context_precision": {
+              "status": "ok",
+              "score": 0.249999999975
+            }
+          }
+        }
+      },
+      "ai_diagnostic_observation": "Both responses omit an explicit good-cause condition in the frozen reference and place the written-request deadline under withdrawal. The t0 judge penalizes missing good cause; the t0.3 judge accepts the similar answer. The sole temperature gain is not convincing evidence of better generation.",
+      "automatic_scores_overridden": false
+    },
+    {
+      "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "frozen_reference": "According to the benchmark document, a Standard ID would not be accepted for boarding a domestic flight starting in October 2020; a passport could be used instead.",
+      "arms": {
+        "windowed_k5_t0": {
+          "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+          "label": "answer",
+          "generation_status": "ok",
+          "correct": 0,
+          "reason": "The response answers the user's question about replacing a standard non-driver ID but omits the key condition that a Standard ID is not accepted for domestic flights starting October 2020 unless a passport is used, which is the essential fact in the reference.",
+          "response": {
+            "answer": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。您可以在线更换，但新证将显示“NOT FOR FEDERAL PURPOSES”。如果您想保留标准证件并前往办公室办理，需填写MV-44表格并携带当前证件和付款。若证件已过期，则无法更换，需续期或申请新证。",
+            "citations": [
+              "Replace a non-driver ID card#1_0::c0000",
+              "Replace a non-driver ID card#1_0::c0002",
+              "Replace a non-driver ID card#1_0::c0004"
+            ],
+            "action": "answer"
+          },
+          "metrics": {
+            "correctness": {
+              "status": "ok",
+              "score": 0
+            },
+            "faithfulness": {
+              "status": "ok",
+              "score": 1.0
+            },
+            "context_precision": {
+              "status": "ok",
+              "score": 0.19999999998
+            }
+          }
+        },
+        "windowed_k10_t0": {
+          "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+          "label": "answer",
+          "generation_status": "ok",
+          "correct": 1,
+          "reason": "The response correctly explains replacement options for a standard non-driver ID, including online/mail/in-office methods, the 'NOT FOR FEDERAL PURPOSES' marking, and the option to upgrade to Enhanced or REAL ID, matching the reference about Standard ID not being accepted for domestic flights without a passport.",
+          "response": {
+            "answer": "如果您的标准非驾驶员身份证丢失、损坏或地址变更，可以更换。您可以选择在线、邮寄或前往办公室办理。请注意，在线或邮寄更换标准证件时，新证件将显示“NOT FOR FEDERAL PURPOSES”。如果您希望保留标准证件，可以按此方式办理；若想升级为Enhanced或REAL ID，则需前往办公室并携带相应身份证明文件。",
+            "citations": [
+              "Replace a non-driver ID card#1_0::c0000",
+              "Replace a non-driver ID card#1_0::c0002",
+              "Replace a non-driver ID card#1_0::c0003",
+              "Replace a non-driver ID card#1_0::c0001"
+            ],
+            "action": "answer"
+          },
+          "metrics": {
+            "correctness": {
+              "status": "ok",
+              "score": 1
+            },
+            "faithfulness": {
+              "status": "ok",
+              "score": 1.0
+            },
+            "context_precision": {
+              "status": "ok",
+              "score": 0.26666666665333333
+            }
+          }
+        }
+      },
+      "ai_diagnostic_observation": "Both discuss replacement and NOT FOR FEDERAL PURPOSES; neither explicitly states the reference domestic-flight/passport condition. The top10 judge treats replacement/upgrade advice as matching that condition. Treat the sole top_k gain as a reference-coverage consistency concern.",
+      "automatic_scores_overridden": false
+    }
+  ],
+  "new_api_calls": 0,
+  "judgments_gold_and_rubric_unchanged": true,
+  "policy": "Preserve original automated scores; disclose inconsistent treatment of essential reference conditions. Any judge change requires a separate plan and comparison, not cherry-picked rescoring."
+}

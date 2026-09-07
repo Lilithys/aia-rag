@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "e4ce717bafb15404d4838bf2b2b2ecd1fbfcb284f58e32c258ab2f3eef44fdf9",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "must wait at least 6 months from receiving learner permit before scheduling road test",
+                "coverage": "covered",
+                "response_quote": "you must wait at least 6 months from the date you received your learner permit before you can schedule your road test",
+                "reason": "The response directly states the 6-month waiting period for under-18 drivers."
+              }
+            ],
+            "reason": "The response correctly answers the question with the required 6-month wait and includes additional supported details about the MV-262 and supervising driver requirements."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e3245ce828044c30b0c42537cc31d427",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4804,
+                "completion_tokens": 145,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 145,
+                  "prompt_tokens": 4804,
+                  "total_tokens": 4949,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3908
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0065593000000000005,
+              "accounted_rmb": 0.0065593000000000005,
+              "usage_unknown": false,
+              "seconds": 1.8519299030303955,
+              "error": null,
+              "response": {
+                "id": "87f3da8d-214a-4edd-91f1-0349bdedd7f6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "dcf29ba39c8676f1f6a312973624f74cd5c1b5c514db57277d81299ea54210ac"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "must wait at least 6 months from receiving learner permit before scheduling road test",
+            "coverage": "covered",
+            "response_quote": "you must wait at least 6 months from the date you received your learner permit before you can schedule your road test",
+            "reason": "The response directly states the 6-month waiting period for under-18 drivers."
+          }
+        ],
+        "reason": "The response correctly answers the question with the required 6-month wait and includes additional supported details about the MV-262 and supervising driver requirements."
+      }
+    }
+  },
+  "sha256": "8f75e4ae3828ce6482cfca861e40ee5caad61dfb85ca175f4190c83810d47e2b"
+}

@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "c7b1b87a245c0d96c3795490c60b3f009fe3918b54937774d08cb6b55f08f1cd",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "To register a moped (limited use motorcycle) in New York, you must have a driver license and register it to drive on streets and highways.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a moped#1_0::c0000"
+                ],
+                "reason": "The context states: 'You must have a driver license and register your moped to drive it on streets and highways.'"
+              },
+              {
+                "text": "You cannot operate it on a sidewalk.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a moped#1_0::c0000"
+                ],
+                "reason": "The context states: 'You can never operate a moped down a sidewalk.'"
+              },
+              {
+                "text": "Bring to the DMV: a completed Registration/Title Application (MV-82), proof of ownership, proof of identity and age (you must be at least 16), proof of insurance if required, and payment for fees and sales tax.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a moped#1_0::c0000"
+                ],
+                "reason": "The context lists these items and states 'You must be at least 16 years old to register a vehicle in New York'."
+              },
+              {
+                "text": "The class (A, B, or C) is determined by top speed, and only certified models can be registered.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a moped#1_0::c0000"
+                ],
+                "reason": "The context states: 'The DMV classifies a moped as a Class A, Class B or Class C limited use motorcycle according to its top speed. Only a certified model of limited use motorcycle can get a registration in New York State'."
+              },
+              {
+                "text": "For quicker service, make a reservation online before visiting offices in certain counties.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Register a moped#1_0::c0000"
+                ],
+                "reason": "The context states: 'For quicker service, make a reservation online before visiting offices in New York City, Westchester, Nassau, Suffolk, Rockland, Onondaga, Monroe or Albany Counties.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d6e05ffa1e47462ca707d7bf1a426519",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3261,
+                "completion_tokens": 550,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 550,
+                  "prompt_tokens": 3261,
+                  "total_tokens": 3811,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2877
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0068097,
+              "accounted_rmb": 0.0068097,
+              "usage_unknown": false,
+              "seconds": 3.091341733932495,
+              "error": null,
+              "response": {
+                "id": "34666845-6b33-442e-aed4-d16d27a32afb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "78da1307cd0e32e74e2f67af4911c0cf69515c8b8a51e7acf0aa4d3dd08e8c34"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "To register a moped (limited use motorcycle) in New York, you must have a driver license and register it to drive on streets and highways.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a moped#1_0::c0000"
+          ],
+          "reason": "The context states: 'You must have a driver license and register your moped to drive it on streets and highways.'"
+        },
+        {
+          "text": "You cannot operate it on a sidewalk.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a moped#1_0::c0000"
+          ],
+          "reason": "The context states: 'You can never operate a moped down a sidewalk.'"
+        },
+        {
+          "text": "Bring to the DMV: a completed Registration/Title Application (MV-82), proof of ownership, proof of identity and age (you must be at least 16), proof of insurance if required, and payment for fees and sales tax.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a moped#1_0::c0000"
+          ],
+          "reason": "The context lists these items and states 'You must be at least 16 years old to register a vehicle in New York'."
+        },
+        {
+          "text": "The class (A, B, or C) is determined by top speed, and only certified models can be registered.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a moped#1_0::c0000"
+          ],
+          "reason": "The context states: 'The DMV classifies a moped as a Class A, Class B or Class C limited use motorcycle according to its top speed. Only a certified model of limited use motorcycle can get a registration in New York State'."
+        },
+        {
+          "text": "For quicker service, make a reservation online before visiting offices in certain counties.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Register a moped#1_0::c0000"
+          ],
+          "reason": "The context states: 'For quicker service, make a reservation online before visiting offices in New York City, Westchester, Nassau, Suffolk, Rockland, Onondaga, Monroe or Albany Counties.'"
+        }
+      ]
+    }
+  },
+  "sha256": "128374cf8c1d4859bd405febebfab70c648ed18d30b839415e91227037e8c55c"
+}

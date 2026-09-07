@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "9928bf3871357a3841c37ba10e536c77d52a2295a29b48a072fa4567d828ecc4",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.3333333333,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about eligibility for survivors benefits, including for widows/widowers and surviving divorced spouses, but it does not explicitly state that benefits paid to a surviving divorced spouse will not reduce benefits for other survivors. The answer is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "907fc34c32b44691ba515e270dadaee6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1481,
+                "completion_tokens": 69,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1481,
+                  "total_tokens": 1550,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 713
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014184,
+              "accounted_rmb": 0.0014184,
+              "usage_unknown": false,
+              "seconds": 1.3974559307098389,
+              "error": null,
+              "response": {
+                "id": "33710271-5d31-47ff-b598-7a627777d726",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ea6e8f70c8958a664dc9e5689b461cccafd8e4d21b935c6eb8e954f9788ae1d7"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about eligibility for survivors benefits, including for widows/widowers and surviving divorced spouses, but it does not explicitly state that benefits paid to a surviving divorced spouse will not reduce benefits for other survivors. The answer is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "907fc34c32b44691ba515e270dadaee6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1481,
+                "completion_tokens": 69,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1481,
+                  "total_tokens": 1550,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 713
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0014184,
+              "accounted_rmb": 0.0014184,
+              "usage_unknown": false,
+              "seconds": 1.3974559307098389,
+              "error": null,
+              "response": {
+                "id": "33710271-5d31-47ff-b598-7a627777d726",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": true,
+          "request_hash": "ea6e8f70c8958a664dc9e5689b461cccafd8e4d21b935c6eb8e954f9788ae1d7"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context directly addresses the question about whether benefits to a surviving divorced spouse would affect the amount received by other survivors, stating that they will not affect the benefit amounts. The answer correctly reflects this information.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f37a027a21d14d579eb977cfd36f123a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1268,
+                "completion_tokens": 55,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1268,
+                  "total_tokens": 1323,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 500
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0010359000000000002,
+              "accounted_rmb": 0.0010359000000000002,
+              "usage_unknown": false,
+              "seconds": 1.3664419651031494,
+              "error": null,
+              "response": {
+                "id": "7ddb9d07-f376-4305-aaa2-d6ff0133de17",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b7eb565e16676f4310a0d9e72bca110438c798c6a5d413fe2239806257205ed8"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about factors affecting survivor benefits, including remarriage and pensions, but does not directly address whether benefits to a surviving divorced spouse affect the amount a widow receives. The answer is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8461a31b0fd64c1ab1d545900261ded5",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1354,
+                "completion_tokens": 59,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 59,
+                  "prompt_tokens": 1354,
+                  "total_tokens": 1413,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 458
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009973,
+              "accounted_rmb": 0.0009973,
+              "usage_unknown": false,
+              "seconds": 1.4468088150024414,
+              "error": null,
+              "response": {
+                "id": "8b93178c-3d6c-4973-97b9-ad162f9d21f7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3a56255685feeddb545158aff0f8b431d47c4d397daab36f4d3509c51c386972"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses factors affecting survivor benefits for widows, widowers, and surviving divorced spouses, but it does not directly address whether benefits paid to one survivor affect the amounts received by other survivors. The answer states that benefits to a surviving divorced spouse will not reduce benefits for other survivors, which is not covered in the provided context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1e2aa5517abc453a9b38c00f6fd12c8f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1427,
+                "completion_tokens": 81,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 81,
+                  "prompt_tokens": 1427,
+                  "total_tokens": 1508,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 531
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012058,
+              "accounted_rmb": 0.0012058,
+              "usage_unknown": false,
+              "seconds": 1.318655014038086,
+              "error": null,
+              "response": {
+                "id": "bb04dfff-adb7-4707-9673-8950fca92c19",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "77cd74edebff802e8f0822d8c686d9852dbac0fc59635d054458664d13862d54"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "cfe98d661027bfcf2d86ccbd43ea75fecdaf5ae203fca9c6ceaefd3815a88651"
+}

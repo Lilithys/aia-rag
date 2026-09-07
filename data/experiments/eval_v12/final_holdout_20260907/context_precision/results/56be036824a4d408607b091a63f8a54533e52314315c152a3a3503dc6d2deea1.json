@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "56be036824a4d408607b091a63f8a54533e52314315c152a3a3503dc6d2deea1",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.249999999975,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA mental health services, including a section on MST counseling and resources, but the answer mentions specific brochures, videos, and the DoD Safe Helpline which are not detailed in the context. The context does mention MST counseling and the Make the Connection website, but the answer includes additional resources not present in the context. Therefore, the context is only partially useful, but since the answer includes information not directly supported by the context, the verdict is 0.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "74d97ffff87744009f754b5da7d09b86",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1825,
+                "completion_tokens": 112,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 112,
+                  "prompt_tokens": 1825,
+                  "total_tokens": 1937,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 1057
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0021279000000000003,
+              "accounted_rmb": 0.0021279000000000003,
+              "usage_unknown": false,
+              "seconds": 1.5384669303894043,
+              "error": null,
+              "response": {
+                "id": "2569f65a-e453-40a1-9398-7056bb438710",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "33241a29a050b5665319177f992090b8aea69b68e6ace8d4cb3f2a7b68db343a"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general VA health care resources and mentions mental health services including MST, but the specific answer about MST brochures, videos, and helplines is not present in the context. Therefore, the context was not directly useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f89d874d33984595a7f8e05718e77336",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1561,
+                "completion_tokens": 68,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 68,
+                  "prompt_tokens": 1561,
+                  "total_tokens": 1629,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 793
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015339000000000002,
+              "accounted_rmb": 0.0015339000000000002,
+              "usage_unknown": false,
+              "seconds": 1.6640348434448242,
+              "error": null,
+              "response": {
+                "id": "c0763d89-4d26-4e82-a352-6bc09b298dbb",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fb94523687fa3cf4f3c6a4c24bd64050afc20d91f5c43240d851306b426cd024"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about VA assistance for MST, but the answer mentions specific resources like brochures, videos, and helplines that are not mentioned in the context. Therefore, the context was not directly useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0efe349e8a854ee2b6de13a503b37b6e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1118,
+                "completion_tokens": 64,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 64,
+                  "prompt_tokens": 1118,
+                  "total_tokens": 1182,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 222
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006657999999999999,
+              "accounted_rmb": 0.0006657999999999999,
+              "usage_unknown": false,
+              "seconds": 1.2820422649383545,
+              "error": null,
+              "response": {
+                "id": "2f64ec9b-c0d3-460a-8811-440b04c4a864",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5269030b2d8f6bbbc34396e3595d0c9e97445ef0dde81fd2ef138831395e0adf"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides detailed information about Military Sexual Trauma (MST) and lists various resources for obtaining more information, including brochures, videos, and websites. The answer accurately summarizes these resources, indicating that the context was useful in arriving at the answer.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e347007d71c3430aa5c3414da746bd10",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2354,
+                "completion_tokens": 65,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 2354,
+                  "total_tokens": 2419,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1458
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0025243,
+              "accounted_rmb": 0.0025243,
+              "usage_unknown": false,
+              "seconds": 1.3183679580688477,
+              "error": null,
+              "response": {
+                "id": "58696dda-c4c3-4c33-8c21-9e0f08c5a882",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "253f66ba5592ccb0e7a6091dc239b66bea0fcc36720742c89cbe71f8cf3755a4"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA mental health services including MST, but the answer includes specific resources like brochures, videos, and helplines that are not mentioned in the context. Therefore, the context was not sufficient to arrive at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "9a611a3369f24fb9b055d11106c0f71d",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1084,
+                "completion_tokens": 66,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 66,
+                  "prompt_tokens": 1084,
+                  "total_tokens": 1150,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 188
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0006238,
+              "accounted_rmb": 0.0006238,
+              "usage_unknown": false,
+              "seconds": 1.236358880996704,
+              "error": null,
+              "response": {
+                "id": "72b06edc-62a5-459a-a871-5384eed9e9c0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "52c75dea6112abc96ef8148a796333e2260a2956acbe282eeddba5afd5623af8"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "8e444a0e0a73204d1a3bf252646c625e5424e7eb191ddbd829a81c98cd2c8f53"
+}

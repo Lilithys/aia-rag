@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "2eb5ff682c4d6643dd309eb24676bd3c2a94245a4591d279082a7121f53074b9",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "If you received an other than honorable, bad conduct, or dishonorable discharge, you may not be eligible for VA benefits.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that with these discharge statuses, you may not be eligible for VA benefits."
+              },
+              {
+                "text": "However, there are two ways you can try to qualify: apply for a discharge upgrade, or go through the VA Character of Discharge review process.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists these two ways to try to qualify."
+              },
+              {
+                "text": "For VA home loan eligibility specifically, you generally need a discharge that is not dishonorable and meet minimum service requirements",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context says you may get a COE if you didn't receive a dishonorable discharge and meet minimum active-duty service requirements."
+              },
+              {
+                "text": "but certain discharges for hardship, government convenience, reduction in force, medical conditions, or service-connected disability may still allow a Certificate of Eligibility.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context lists these reasons for discharge that may still allow a COE."
+              },
+              {
+                "text": "If your discharge was dishonorable or bad conduct, you should pursue one of the two review options to potentially restore eligibility.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context suggests these two ways to try to qualify for those with such discharges."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "4dffb13818bb4c58bbe29a998eb0b89e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5091,
+                "completion_tokens": 477,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 477,
+                  "prompt_tokens": 5091,
+                  "total_tokens": 5568,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 4707
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0092262,
+              "accounted_rmb": 0.0092262,
+              "usage_unknown": false,
+              "seconds": 2.998563766479492,
+              "error": null,
+              "response": {
+                "id": "56291c4f-0dff-4442-b532-358af3033ed0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "af591eaf1b5004ca47bf22441eb28306b2696f4af7293da03b5b06c2fde08b7f"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "If you received an other than honorable, bad conduct, or dishonorable discharge, you may not be eligible for VA benefits.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that with these discharge statuses, you may not be eligible for VA benefits."
+        },
+        {
+          "text": "However, there are two ways you can try to qualify: apply for a discharge upgrade, or go through the VA Character of Discharge review process.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists these two ways to try to qualify."
+        },
+        {
+          "text": "For VA home loan eligibility specifically, you generally need a discharge that is not dishonorable and meet minimum service requirements",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context says you may get a COE if you didn't receive a dishonorable discharge and meet minimum active-duty service requirements."
+        },
+        {
+          "text": "but certain discharges for hardship, government convenience, reduction in force, medical conditions, or service-connected disability may still allow a Certificate of Eligibility.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context lists these reasons for discharge that may still allow a COE."
+        },
+        {
+          "text": "If your discharge was dishonorable or bad conduct, you should pursue one of the two review options to potentially restore eligibility.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context suggests these two ways to try to qualify for those with such discharges."
+        }
+      ]
+    }
+  },
+  "sha256": "9ae936e61b89318271397a77e09de7ef2d40c9b166d3916d35b7b3015550ace5"
+}

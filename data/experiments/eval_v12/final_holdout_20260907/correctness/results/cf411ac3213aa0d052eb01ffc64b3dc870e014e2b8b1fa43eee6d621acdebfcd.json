@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "cf411ac3213aa0d052eb01ffc64b3dc870e014e2b8b1fa43eee6d621acdebfcd",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If the spouse qualifies on their own record, Social Security pays that amount first.",
+                "coverage": "covered",
+                "response_quote": "it will not reduce your own benefit",
+                "reason": "The response states the spouse's benefit will not reduce the worker's benefit, but does not explicitly mention that the spouse's own benefit is paid first if they qualify on their own record."
+              },
+              {
+                "requirement": "If the benefit on the worker's record is higher, an additional amount brings the combined benefit up to that higher amount.",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response does not explain that if the spouse's own benefit is lower, they receive an additional amount to reach the higher spousal benefit."
+              }
+            ],
+            "reason": "The response provides general spousal benefit eligibility and amount information, but omits the essential condition about paying the spouse's own benefit first and supplementing to the higher spousal amount, which is the core of the reference answer."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "b6fe330246d149c7bfe3aad57bb8a117",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4726,
+                "completion_tokens": 245,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 245,
+                  "prompt_tokens": 4726,
+                  "total_tokens": 4971,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3830
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0068923000000000005,
+              "accounted_rmb": 0.0068923000000000005,
+              "usage_unknown": false,
+              "seconds": 2.561271905899048,
+              "error": null,
+              "response": {
+                "id": "ac384bd4-b5b5-4d08-8ce3-334b44c6bd35",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5c38e80eedb8a08497bf1cf4b9d66fd02b0d247381f8d124af7b842f65e18b28"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If the spouse qualifies on their own record, Social Security pays that amount first.",
+            "coverage": "covered",
+            "response_quote": "it will not reduce your own benefit",
+            "reason": "The response states the spouse's benefit will not reduce the worker's benefit, but does not explicitly mention that the spouse's own benefit is paid first if they qualify on their own record."
+          },
+          {
+            "requirement": "If the benefit on the worker's record is higher, an additional amount brings the combined benefit up to that higher amount.",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response does not explain that if the spouse's own benefit is lower, they receive an additional amount to reach the higher spousal benefit."
+          }
+        ],
+        "reason": "The response provides general spousal benefit eligibility and amount information, but omits the essential condition about paying the spouse's own benefit first and supplementing to the higher spousal amount, which is the core of the reference answer."
+      }
+    }
+  },
+  "sha256": "c4aac9ee80d64665f76d8a572218d62b050d09670ce546b27c11e2de677b0971"
+}

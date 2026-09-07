@@ -1,0 +1,144 @@
+{
+  "payload": {
+    "task_id": "e7b6df73c18a04c21411614f92fc2dcc41e5a9e8f2ededce6f7f99b0999e96c5",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "要获得联邦学生贷款，您需要先完成并提交联邦学生援助免费申请（FAFSA）表格。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Federal Versus Private Loans | Federal Student Aid#1_0::c0000",
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The contexts state that to get a federal loan, you must first complete and submit the FAFSA form."
+              },
+              {
+                "text": "学校将根据您的FAFSA结果向您发送经济援助方案，其中可能包含联邦学生贷款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The context says: 'Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans.'"
+              },
+              {
+                "text": "接受贷款后，您需要完成入学咨询（entrance counseling）并签署主本票（Master Promissory Note），以确认您理解还款义务并同意贷款条款。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005",
+                  "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000"
+                ],
+                "reason": "The contexts state that before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note. The response adds '以确认您理解还款义务并同意贷款条款' which is consistent with the context's description of entrance counseling as ensuring understanding of repayment obligation and MPN as agreeing to terms."
+              },
+              {
+                "text": "具体流程请联系您计划就读学校的财政援助办公室。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Loans | Federal Student Aid#1_0::c0005"
+                ],
+                "reason": "The context says: 'Contact the financial aid office at the school you are planning to attend for details regarding the process at your school.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "83af3867e08f4789864d14d489770ed2",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2236,
+                "completion_tokens": 506,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 506,
+                  "prompt_tokens": 2236,
+                  "total_tokens": 2742,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1852
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0050742,
+              "accounted_rmb": 0.0050742,
+              "usage_unknown": false,
+              "seconds": 2.9528229236602783,
+              "error": null,
+              "response": {
+                "id": "06a31e85-09fe-45cd-a7db-e8ab02c0b073",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "008b3065e8557df88e99124aa7f22657790b8b8c22288ab18f271ffe5a0713ae"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 4,
+      "supported_external_claims": 4,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "要获得联邦学生贷款，您需要先完成并提交联邦学生援助免费申请（FAFSA）表格。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Federal Versus Private Loans | Federal Student Aid#1_0::c0000",
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The contexts state that to get a federal loan, you must first complete and submit the FAFSA form."
+        },
+        {
+          "text": "学校将根据您的FAFSA结果向您发送经济援助方案，其中可能包含联邦学生贷款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The context says: 'Based on the results of your FAFSA form, your college or career school will send you a financial aid offer, which may include federal student loans.'"
+        },
+        {
+          "text": "接受贷款后，您需要完成入学咨询（entrance counseling）并签署主本票（Master Promissory Note），以确认您理解还款义务并同意贷款条款。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005",
+            "Complete the Financial Aid Process | Federal Student Aid#1_0::c0000"
+          ],
+          "reason": "The contexts state that before receiving loan funds, you must complete entrance counseling and sign a Master Promissory Note. The response adds '以确认您理解还款义务并同意贷款条款' which is consistent with the context's description of entrance counseling as ensuring understanding of repayment obligation and MPN as agreeing to terms."
+        },
+        {
+          "text": "具体流程请联系您计划就读学校的财政援助办公室。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Loans | Federal Student Aid#1_0::c0005"
+          ],
+          "reason": "The context says: 'Contact the financial aid office at the school you are planning to attend for details regarding the process at your school.'"
+        }
+      ]
+    }
+  },
+  "sha256": "d0553393cff8e99d6ae7aff7721bf013a2964fa4f1b52e6270ed052da917a998"
+}

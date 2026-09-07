@@ -1,0 +1,128 @@
+{
+  "payload": {
+    "task_id": "665693158414719c98959d97922c8403840b9a83c06627c772df0334e4a46a05",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "No, the DMV does not allow changes to your learner permit or license by mail for this type of update.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The contexts do not mention any prohibition on mail-in changes for learner permits or licenses."
+              },
+              {
+                "text": "You must visit a DMV office in person to make changes to your permit or license, such as adding a motorcycle class or updating your address.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "The contexts do not state that in-person visits are required for such changes."
+              },
+              {
+                "text": "For example, to add a Class M or MJ to an existing license, you must go to a DMV office with the required documents and pay the fee.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Get a motorcycle license#1_0::c0000"
+                ],
+                "reason": "The context states that to add Class M or MJ, you must go to a DMV office, bring documents, and pay the $12.50 fee."
+              },
+              {
+                "text": "Mail-in changes are not supported for these transactions.",
+                "scope": "external_fact",
+                "supported": false,
+                "supporting_chunk_ids": [],
+                "reason": "No context mentions mail-in changes or their lack of support."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0e313bcdfb564c548bf5a1ac15f0b124",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4877,
+                "completion_tokens": 344,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 344,
+                  "prompt_tokens": 4877,
+                  "total_tokens": 5221,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 4493
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0083067,
+              "accounted_rmb": 0.0083067,
+              "usage_unknown": false,
+              "seconds": 2.599506139755249,
+              "error": null,
+              "response": {
+                "id": "86b2edd5-0695-4faa-93f8-7f06843a9ff7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "96d2b91f0d5b85284aebd51e391b25d0a08894c87176c046b0dda21701ab6e3c"
+        }
+      ],
+      "score": 0.25,
+      "external_claims": 4,
+      "supported_external_claims": 1,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "No, the DMV does not allow changes to your learner permit or license by mail for this type of update.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The contexts do not mention any prohibition on mail-in changes for learner permits or licenses."
+        },
+        {
+          "text": "You must visit a DMV office in person to make changes to your permit or license, such as adding a motorcycle class or updating your address.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "The contexts do not state that in-person visits are required for such changes."
+        },
+        {
+          "text": "For example, to add a Class M or MJ to an existing license, you must go to a DMV office with the required documents and pay the fee.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Get a motorcycle license#1_0::c0000"
+          ],
+          "reason": "The context states that to add Class M or MJ, you must go to a DMV office, bring documents, and pay the $12.50 fee."
+        },
+        {
+          "text": "Mail-in changes are not supported for these transactions.",
+          "scope": "external_fact",
+          "supported": false,
+          "supporting_chunk_ids": [],
+          "reason": "No context mentions mail-in changes or their lack of support."
+        }
+      ]
+    }
+  },
+  "sha256": "dcc36cbc4d5524505cfaa71011ec515ba13a332cb0ea5ebe30bbf28bb1faa192"
+}

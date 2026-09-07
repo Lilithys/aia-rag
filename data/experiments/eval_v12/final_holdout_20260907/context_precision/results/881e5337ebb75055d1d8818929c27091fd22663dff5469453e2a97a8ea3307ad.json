@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "881e5337ebb75055d1d8818929c27091fd22663dff5469453e2a97a8ea3307ad",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.0,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses VA claim examinations (C&P exams) and the consequences of missing them, but it does not provide information about including private medical treatment records. The answer about uploading non-VA medical records is not supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "7bc5b3caa4884c358a0d97b95cb2660e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1161,
+                "completion_tokens": 62,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 62,
+                  "prompt_tokens": 1161,
+                  "total_tokens": 1223,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 393
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0009069,
+              "accounted_rmb": 0.0009069,
+              "usage_unknown": false,
+              "seconds": 1.2005372047424316,
+              "error": null,
+              "response": {
+                "id": "2b0a98f1-abea-41ea-8b8a-378178d2d3b6",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6ea7bb6c4b0724347c55839ceccb0abb60a1eb878b53471f88b397fdd4e981b9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about managing VA disability benefits, including uploading evidence to support a claim, but it does not specifically address the question about including private medical treatment records. The answer is not directly derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a62a839c75ea4ad6b1cd7cc9cca071cd",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1371,
+                "completion_tokens": 59,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 59,
+                  "prompt_tokens": 1371,
+                  "total_tokens": 1430,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 603
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012084,
+              "accounted_rmb": 0.0012084,
+              "usage_unknown": false,
+              "seconds": 1.5657830238342285,
+              "error": null,
+              "response": {
+                "id": "7e606331-5290-4809-be1b-ab79a87c16ea",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "a6ce3838a731640f4aebb8e3e8256e04edb1aafd0390467421249f880d1ebb01"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context is a general description of disability compensation and does not contain specific information about including private medical records, which is what the answer addresses.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "09ab0412a4064821882806dac6a0a3cc",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1078,
+                "completion_tokens": 43,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 43,
+                  "prompt_tokens": 1078,
+                  "total_tokens": 1121,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 182
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005113,
+              "accounted_rmb": 0.0005113,
+              "usage_unknown": false,
+              "seconds": 1.2283599376678467,
+              "error": null,
+              "response": {
+                "id": "1da95144-58b5-42c1-9c5e-05148172cb0f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fedd4348585240babd509964783753add9d7851d6f55c8a8332f849956ec20e7"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about VA disability compensation and mentions C&P exams, but it does not specifically address what documents to include if the user received private medical treatment. The answer about uploading non-VA medical records is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8d29d268368f4549a480a6042f7550c5",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1923,
+                "completion_tokens": 65,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 65,
+                  "prompt_tokens": 1923,
+                  "total_tokens": 1988,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1027
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018778,
+              "accounted_rmb": 0.0018778,
+              "usage_unknown": false,
+              "seconds": 1.4739840030670166,
+              "error": null,
+              "response": {
+                "id": "02c06671-a048-4e30-8d84-f25d1d8106d0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "69ce2e8cc46788f267a7cff247b28cae736c799213b82f7416892d1691f0e23d"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about documents needed for disability benefits, but it does not specifically address the question about private medical treatment or non-VA providers. The answer is not directly supported by the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "89c38b98cf864183845aa4f3543f8c74",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1268,
+                "completion_tokens": 55,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 55,
+                  "prompt_tokens": 1268,
+                  "total_tokens": 1323,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 372
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0008502999999999999,
+              "accounted_rmb": 0.0008502999999999999,
+              "usage_unknown": false,
+              "seconds": 1.5203261375427246,
+              "error": null,
+              "response": {
+                "id": "846ddc75-e01e-44c3-8b2a-feed0a6a16a7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6ec109bfba457adf4d56843dabfaaa0495bc5a46f35a182ead4dd9a15b348035"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "ef3b87d08a092ab03af049add3c235d0ad4b8278d73b6cf8f244b75a3ca56377"
+}

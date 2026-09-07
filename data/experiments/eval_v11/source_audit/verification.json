@@ -1,0 +1,11 @@
+{
+  "deterministic_reproduction": true,
+  "altered_source_question_rejected": true,
+  "legacy_result_files_unchanged": 307,
+  "new_api_calls": 0,
+  "new_api_cost_rmb": 0,
+  "audit_sha256": "5924228f5fd7549aeef91b9c151cd71eaaac7ed5b45b05f8348e092709a565b6",
+  "execution_policy_sha256": "5e66f8330dfdfc2d507aea88a8645dbb2bed1a2fc6c9c025abd86402cb68ea74",
+  "scoring_plan_sha256": "0ca9ddd2cc1142ec87dde2c4b23d3f82a67cc8f5089aaf04438031bf14a3a721",
+  "context_precision_plan_sha256": "65939cff39c861eb57dce2187c991b0bf2a0dd986f7d8fb2177f94767ebab8ab"
+}

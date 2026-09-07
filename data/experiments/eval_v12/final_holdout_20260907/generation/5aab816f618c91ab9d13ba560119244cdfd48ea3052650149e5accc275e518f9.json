@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "75c06a577f77c301bd53d163bd497585::agent-turn-6",
+    "item_sha256": "536f30be2c8323a29b57684dfb5201dfb877049504d60d58f8925b7c661207d3",
+    "result": {
+      "request_id": "b377797303d940919f3fa25a1387fca1",
+      "session_id": "75c06a577f77c301bd53d163bd497585",
+      "turn_id": 5,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "作为家庭照护者综合援助计划下的主要照护者，您可能获得以下福利：照护者教育和培训、每月津贴（付款）、陪同退伍军人接受护理时的旅行/住宿/经济援助、通过CHAMPVA获得的医疗保健福利（若您不符合其他医疗保健计划资格）、心理健康服务和咨询，以及每年最多30天的临时护理。次要照护者的福利可能有所不同。请注意，资格取决于您所照护的退伍军人是否符合特定要求（如患有与2001年9月11日或之后服役相关的严重损伤，且需要个人护理服务）。",
+        "citations": [
+          "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000",
+          "text": "# VA 家庭照护者援助计划 | 退伍军人事务部\n\n# 家庭照护者综合援助计划\n\n如果您是照顾残疾退伍军人的家庭成员，我们希望支持您。我们认识到家庭照护者能增进他们在家里所照顾的退伍军人的健康与福祉。了解您是否符合家庭照护者综合援助计划的资格以及如何申请。\n\n### 我们正在努力让更多家庭照护者能够使用此计划\n\n了解更多关于这一变化及其可能对您产生的影响\n\n作为 VA MISSION 法案的一部分，我们正在努力让更多家庭照护者能够使用此计划，以便在他们照顾各个时代的退伍军人时为他们提供支持。我们正在逐步落实支持这一扩展访问所需的技术。然后，扩展将分两个阶段进行。\n\n首先，在 1975 年 5 月 7 日或之前因公严重受伤的退伍军人的家庭照护者将有资格参加此计划。两年后，在 1975 年 5 月 7 日至 2001 年 9 月 10 日期间因公严重受伤的退伍军人的家庭照护者将有资格参加。\n\n请查看我们的 MISSION 法案网站以获取持续更新。您也可以拨打我们的照护者支持热线 855-260-3274，了解您现在可以获得的各种支持服务。我们周一至周五上午 8:00 至晚上 8:00（东部时间）为您服务。\n\n### 我能否通过家庭照护者综合援助计划获得福利？\n\n您是否符合此计划的资格将取决于您所照顾的退伍军人的资格。如果您所照顾的退伍军人满足以下两项要求，您可能符合资格。\n\n以下两项都必须属实。您所照顾的退伍军人：\n\n- 患有严重损伤，包括创伤性脑损伤、心理创伤或其他精神障碍，这些损伤是由其在 2001 年 9 月 11 日或之后服役期间造成的或加重的，并且\n- 需要个人护理服务，因为他们无法进行一项或多项日常生活活动和/或需要基于持久性神经损伤或伤害症状的监督或保护\n\n回答几个问题，了解您是否符合此计划的标准。了解您是否符合资格并下载申请表下载我们的情况说明书以获取更多资格信息 (PDF)\n\n## 通过此计划我可以获得哪些福利？\n\n您的退伍军人可以指定 1 名主要（主要）照护者和最多 2 名次要照护者（在需要时作为主要照护者的后备支持人员）。您的福利将取决于您是主要照护者还是次要照护者。\n\n如果您是主要照护者，您可能获得：\n\n- 照护者教育和培训\n- 每月津贴（付款）\n- 陪同退伍军人接受护理时的旅行、住宿和经济援助\n- 如果您尚未符合其他医疗保健计划下的护理或服务资格，则可通过退伍军人事务部平民健康与医疗计划 (CHAMPVA) 获得医疗保健福利。了解更多关于 CHAMPVA 的信息\n- 心理健康服务和咨询\n- 每年最多 30 天的临时护理\n\n## 我如何获得这些福利？\n\n您需要申请这些福利。要申请，请填写《家庭照护者综合援助计划申请表》（VA表格10-10CG）。您和您的退伍军人都需要提供身份证明和健康保险信息，并且双方都需在表格上签名并注明日期。\n\n下载VA表格10-10CG（PDF）\n\n将表格及任何支持文件邮寄至：\n\n家庭照护者综合援助计划健康资格中心 2957 Clairmont Road NE, Ste 200 Atlanta, GA 30329-1647\n\n或亲自前往当地VA医疗中心的照护者支持协调员处提交申请。\n\n要查找当地协调员的姓名：\n\n- 拨打照护者支持热线855-260-3274，或\n\n- 使用我们的在线照护者支持协调员搜索工具\n\n如果您在填写表格时需要帮助，可以联系当地协调员，或拨打我们的VA主要信息热线877-222-8387。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0013",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 家庭和照护者健康福利]\n查看您作为配偶、未再婚的遗属、受抚养子女或照护者是否符合VA医疗福利的资格。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 特殊情况]\n大多数领取残疾福利的人是依据自身记录符合资格并满足我们刚才所述的工作和残疾要求的工人。然而，有些情况您可能不知道：\n\n- 如果您失明或视力低下 - 我们能如何帮助\n- 如果您是工人的遗孀或鳏夫\n- 残疾儿童福利\n- 受伤战士与退伍军人福利"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0039",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 援助和出勤福利及居家津贴]\n了解作为有残疾的退伍军人的遗属，您是否有资格获得增加的养老金。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#2_0::c0003",
+          "text": "[VA health care > 获取VA health care]\n- 关于VA健康福利\n\n了解VA health care如何运作以及我们涵盖哪些Veterans health care服务。\n\n- 资格\n\n了解您是否有资格获得Veterans health care福利以及优先组如何运作。\n\n- 如何申请\n\n获取关于如何在线、通过电话、邮寄或亲自准备和申请VA医疗保健的说明。\n\n- 在线申请（VA表格10-10EZ）\n\n立即开始您的退伍军人医疗保健申请。\n\n- 申请后\n\n了解何时能收到申请决定，以及接下来该怎么做。\n\n- 家庭和照护者健康福利\n\n查看您作为配偶、未再婚配偶、受抚养子女或照护者是否符合VA医疗福利资格。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000",
+          "text": "# VA 家庭照护者援助计划 | 退伍军人事务部\n\n# 家庭照护者综合援助计划\n\n如果您是照顾残疾退伍军人的家庭成员，我们希望支持您。我们认识到家庭照护者能增进他们在家里所照顾的退伍军人的健康与福祉。了解您是否符合家庭照护者综合援助计划的资格以及如何申请。\n\n### 我们正在努力让更多家庭照护者能够使用此计划\n\n了解更多关于这一变化及其可能对您产生的影响\n\n作为 VA MISSION 法案的一部分，我们正在努力让更多家庭照护者能够使用此计划，以便在他们照顾各个时代的退伍军人时为他们提供支持。我们正在逐步落实支持这一扩展访问所需的技术。然后，扩展将分两个阶段进行。\n\n首先，在 1975 年 5 月 7 日或之前因公严重受伤的退伍军人的家庭照护者将有资格参加此计划。两年后，在 1975 年 5 月 7 日至 2001 年 9 月 10 日期间因公严重受伤的退伍军人的家庭照护者将有资格参加。\n\n请查看我们的 MISSION 法案网站以获取持续更新。您也可以拨打我们的照护者支持热线 855-260-3274，了解您现在可以获得的各种支持服务。我们周一至周五上午 8:00 至晚上 8:00（东部时间）为您服务。\n\n### 我能否通过家庭照护者综合援助计划获得福利？\n\n您是否符合此计划的资格将取决于您所照顾的退伍军人的资格。如果您所照顾的退伍军人满足以下两项要求，您可能符合资格。\n\n以下两项都必须属实。您所照顾的退伍军人：\n\n- 患有严重损伤，包括创伤性脑损伤、心理创伤或其他精神障碍，这些损伤是由其在 2001 年 9 月 11 日或之后服役期间造成的或加重的，并且\n- 需要个人护理服务，因为他们无法进行一项或多项日常生活活动和/或需要基于持久性神经损伤或伤害症状的监督或保护\n\n回答几个问题，了解您是否符合此计划的标准。了解您是否符合资格并下载申请表下载我们的情况说明书以获取更多资格信息 (PDF)\n\n## 通过此计划我可以获得哪些福利？\n\n您的退伍军人可以指定 1 名主要（主要）照护者和最多 2 名次要照护者（在需要时作为主要照护者的后备支持人员）。您的福利将取决于您是主要照护者还是次要照护者。\n\n如果您是主要照护者，您可能获得：\n\n- 照护者教育和培训\n- 每月津贴（付款）\n- 陪同退伍军人接受护理时的旅行、住宿和经济援助\n- 如果您尚未符合其他医疗保健计划下的护理或服务资格，则可通过退伍军人事务部平民健康与医疗计划 (CHAMPVA) 获得医疗保健福利。了解更多关于 CHAMPVA 的信息\n- 心理健康服务和咨询\n- 每年最多 30 天的临时护理\n\n## 我如何获得这些福利？\n\n您需要申请这些福利。要申请，请填写《家庭照护者综合援助计划申请表》（VA表格10-10CG）。您和您的退伍军人都需要提供身份证明和健康保险信息，并且双方都需在表格上签名并注明日期。\n\n下载VA表格10-10CG（PDF）\n\n将表格及任何支持文件邮寄至：\n\n家庭照护者综合援助计划健康资格中心 2957 Clairmont Road NE, Ste 200 Atlanta, GA 30329-1647\n\n或亲自前往当地VA医疗中心的照护者支持协调员处提交申请。\n\n要查找当地协调员的姓名：\n\n- 拨打照护者支持热线855-260-3274，或\n\n- 使用我们的在线照护者支持协调员搜索工具\n\n如果您在填写表格时需要帮助，可以联系当地协调员，或拨打我们的VA主要信息热线877-222-8387。\n\n最后更新："
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0013",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 家庭和照护者健康福利]\n查看您作为配偶、未再婚的遗属、受抚养子女或照护者是否符合VA医疗福利的资格。"
+        },
+        {
+          "chunk_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "text": "[福利规划：残疾 | 您如何符合资格 | 社会保障管理局 > 特殊情况]\n大多数领取残疾福利的人是依据自身记录符合资格并满足我们刚才所述的工作和残疾要求的工人。然而，有些情况您可能不知道：\n\n- 如果您失明或视力低下 - 我们能如何帮助\n- 如果您是工人的遗孀或鳏夫\n- 残疾儿童福利\n- 受伤战士与退伍军人福利"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0039",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 援助和出勤福利及居家津贴]\n了解作为有残疾的退伍军人的遗属，您是否有资格获得增加的养老金。"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#2_0::c0003",
+          "text": "[VA health care > 获取VA health care]\n- 关于VA健康福利\n\n了解VA health care如何运作以及我们涵盖哪些Veterans health care服务。\n\n- 资格\n\n了解您是否有资格获得Veterans health care福利以及优先组如何运作。\n\n- 如何申请\n\n获取关于如何在线、通过电话、邮寄或亲自准备和申请VA医疗保健的说明。\n\n- 在线申请（VA表格10-10EZ）\n\n立即开始您的退伍军人医疗保健申请。\n\n- 申请后\n\n了解何时能收到申请决定，以及接下来该怎么做。\n\n- 家庭和照护者健康福利\n\n查看您作为配偶、未再婚配偶、受抚养子女或照护者是否符合VA医疗福利资格。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000",
+          "document": "VA Family Caregiver Assistance Program | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_102.md",
+          "excerpt": "# VA 家庭照护者援助计划 | 退伍军人事务部\n\n# 家庭照护者综合援助计划\n\n如果您是照顾残疾退伍军人的家庭成员，我们希望支持您。我们认识到家庭照护者能增进他们在家里所照顾的退伍军人的健康与福祉。了解您是否符合家庭照护者综合援助计划的资格以及如何申请。\n\n### 我们正在努力让更多家庭照护者能够使用此计划\n\n了解更多关于这一变化及其可能对您产生的影响\n\n作为 VA MISSION 法案的一部分，我们正在努力让更多家庭照护者能够使用此计划，以便在他们照顾各个时代的退伍军人时为他们提供支持。我们正在逐步落实支持这一扩展访问所需的技术。然后，扩展将分两个阶段进行。\n\n首先，在 1975 年 5 月 7 日或之前因公严重受伤的退伍军人的家庭照护者将有资格参加此计划。两年后，在 1975 年 5 月 7 日至 2001 年 9 月 10 日期间因公严重受伤的退伍军人的家庭照护者将有资格参加。\n\n请查看我们的 MISSION 法案网站以获取持续更新。您也可以拨打我们的照护者支持热线 855-260-3274，了解您现在可以获得的各种支持服务。我们周一至周五上午 8:00 至晚上 8:00（东部时间）为您服务。\n\n### 我能否通过家庭照护者综合援助计划获得福利？\n\n您是否符合此计划的资格将取决于您所照顾的退伍军人的资格。如果您所照顾的退伍军人满足以下两项要求，您可能符合资格。\n\n以下两项都必须属实。您所照顾的退伍军人：\n\n- 患有严重损伤，包括创伤性脑损伤、心理创伤或其他精神障碍，这些损伤是由其在 2001 年 9 月 11 日或之后服役期间造成的或加重的，并且\n- 需要个人护理服务，因为他们无法进行一项或多项日常生活活动和/或需要基于持久性神经损伤或伤害症状的监督或保护\n\n回答几个问题，了解您是否符合此计划的标准。了解您是否符合资格并下载申请表下载我们的情况说明书以获取更多资格信息 (PDF)\n\n## 通过此计划我可以获得哪些福利？\n\n您的退伍军人可以指定 1 名主要（主要）照护者和最多 2 名次要照护者（在需要时作为主要照护者的后备支持人员）。您的福利将取决于您是主要照护者还是次要照护者。\n\n如果您是主要照护者，您可能获得：\n\n- 照护者教育和培训\n- 每月津贴（付款）\n- 陪同退伍军人接受护理时的旅行、住宿和经济援助\n- 如果您尚未符合其他医疗保健计划下的护理或服务资格，则可通过退伍军人事务部平民健康与医疗计划 (CHAMPVA) 获得医疗保健福利。了解更多关于 CHAMPVA 的信息\n- 心理健康服务和咨询\n- 每年最多 30 天的临时护理\n\n## 我如何获得这些福利？\n\n您需要申请这些福利。要申请，请填写《家庭照护者综合援助计划申请表》（VA表格10-10CG）。您和您的退伍军人都需要提供身份证明和健康保险信息，并且双方都需在表格上签名并注明日期。\n\n下载VA表格10-10CG（PDF）\n\n将表格及任何支持文件邮寄至：\n\n家庭照护者综合援助计划健康资格中心 2957 Clairmont Road NE, Ste 200 Atlanta, GA 30329-1647\n\n或亲自前往当地VA医疗中心的照护者支持协调员处提交申请。\n\n要查找当地协调员的姓名：\n\n- 拨打照护者支持热线855-260-3274，或\n\n- 使用我们的在线照护者支持协调员搜索工具\n\n如果您在填写表格时需要帮助，可以联系当地协调员，或拨打我们的VA主要信息热线877-222-8387。\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "作为家庭照护者综合援助计划下的主要照护者，您可能获得以下福利：照护者教育和培训、每月津贴（付款）、陪同退伍军人接受护理时的旅行/住宿/经济援助、通过CHAMPVA获得的医疗保健福利（若您不符合其他医疗保健计划资格）、心理健康服务和咨询，以及每年最多30天的临时护理。次要照护者的福利可能有所不同。请注意，资格取决于您所照护的退伍军人是否符合特定要求（如患有与2001年9月11日或之后服役相关的严重损伤，且需要个人护理服务）。",
+          "citations": [
+            "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "de005cdca9334c7b82de1868cbea801a",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1648,
+              "completion_tokens": 155,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 155,
+                "prompt_tokens": 1648,
+                "total_tokens": 1803,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1392
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0027983,
+            "accounted_rmb": 0.0027983,
+            "usage_unknown": false,
+            "seconds": 2.049738883972168,
+            "error": null,
+            "response": {
+              "id": "9b68eb23-7168-48fd-a965-86aeffbb71ad",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "c9d330f4541b12b4fbf9ccf7fd78210d867a5c8a7e28b1b1e1911c8457c7a229"
+      },
+      "latency_ms": {
+        "queue_wait": 0.042209052480757236,
+        "retrieval": 1064.4546250114217,
+        "generation": 2053.7723749876022,
+        "total": 3119.4419589592144
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.18547195801511407,
+        "rerank_seconds": 0.8789267919491976,
+        "top1_dense_score": 0.8321959972381592,
+        "candidate_ids": [
+          "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000",
+          "Benefits Planner | Social Security Administration#2_0::c0000",
+          "Benefits Planner | Social Security Administration#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0039",
+          "VA Health Care | Veterans Affairs#1_0::c0013",
+          "VA Health Care | Veterans Affairs#2_0::c0003",
+          "Explore The Benefits You May Be Due#1_0::c0001",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0008",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0001",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "Schedule A Burial For A Veteran Or Family Member | Veterans Affairs#1_0::c0005",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0003",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0001",
+          "VA Health Care | Veterans Affairs#1_0::c0038",
+          "VA Health Care | Veterans Affairs#1_0::c0037",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0002",
+          "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0::c0005",
+          "Benefits Planner: Disability | Family Benefits | Social Security Administration#1_0::c0000",
+          "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0::c0003"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 31,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.0644345000619069
+      },
+      "raw_citations": [
+        "VA Family Caregiver Assistance Program | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "fff95fa73203748c182cdf660d52deaa36d06f06adfde4ef3cf58be9a6335277"
+}

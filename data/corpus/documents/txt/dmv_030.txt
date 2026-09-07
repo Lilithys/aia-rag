@@ -1,0 +1,89 @@
+Escrow accounts（托管账户）
+
+登录 ACH，网址为 https://secap.dmv.ny.gov/vpass/ [1]
+
+什么是 escrow account（托管账户）？
+
+经常处理以下所列 DMV 产品或服务的纽约州 DMV 客户可以开设 escrow account（托管账户）。
+
+Escrow account（托管账户）是每次 DMV 交易时寄送支票或汇票的替代方式。您将资金存入托管账户，然后交易费用从该账户中扣除。
+
+我可以使用 escrow account（托管账户）支付哪些 DMV 产品和服务？
+
+您的 escrow account（托管账户）可用于支付
+
+通过邮购获取机动车事故报告副本 批量订购驾驶员执照记录摘要 DMV Central Office（中央办公室）记录查询 DMV Central Office（中央办公室）摘要订单 Dial-In（拨入）账户显示查询 Dial-In（拨入）账户显示摘要订单 Freedom of Information Law (FOIL)（信息自由法）请求 License Event Notification Service (LENS)（执照事件通知服务）通知 Bus driver (Article 19A)（公交车司机，第19A条）通知 Point and Insurance Reduction Program (PIRP)（计分与保险减免计划）事故预防课程备案 机动车所有权证书留置权备案账户（包括纸质和电子留置权备案） NYS Vehicle and Traffic Law（纽约州车辆与交通法）书籍副本
+
+DMV Revenue Accounts（DMV收入账户）邮寄地址、投递箱位置和传真号码
+
+使用以下地址通过支票或汇票向您的 escrow account（托管账户）充值或发送信函：
+
+通过普通邮件
+
+DMV Revenue Accounts PO Box 2409 Albany, NY 12220-0409
+
+通过快递或隔夜邮件
+
+DMV Revenue Accounts Room 233A 6 Empire State Plaza Albany, NY 12228
+
+投递箱位置
+
+DMV Customer Service Counter 1st Floor, Swan Street Building 6 Empire State Plaza Albany, NY 12228
+
+传真号码：
+
+518-473-9644
+
+电子邮件：
+
+[email protected] [2]
+
+托管账户定义
+
+托管金额 - DMV要求搜索账户的最低托管金额至少为\$200。我们建议您在托管账户中保留足够的资金以覆盖2个月的事务。要更改您的托管金额，您必须使用公司信笺向DMV Revenue Accounts发送请求。请求必须签名并注明日期，并包含账户号码。托管账户对账单 - 在每月的最后一个工作日，DMV会自动发出该月托管账户活动的对账单。借记 - 按日期从托管账户中扣除的金额。您的对账单不提供每笔借记的详细信息。您的对账单仅提供按日期和产品或服务类型划分的总借记金额。贷记 - 按日期向您的托管账户支付的款项。款项在收到当天下午3:00前记入您的账户。余额 - 您的托管账户中可用的金额。如果余额达到零或负数，账户将被禁用。在收到并处理付款之前，您无法使用该账户支付交易。负数表示账户透支。截至目前的月度费用 - 对账单期间您账户的总借记额。总费用 - 您账户的累计借记总额。托管不足 - 表示您账户中的余额低于所需的托管金额。支付此金额 - 将您的账户余额恢复到所需托管金额所需的付款金额。
+
+ACH（自动清算所）付款 - 通过DMV网站从您的银行账户向您的托管账户进行电子资金转账。
+
+如何向我的托管账户存入资金？
+
+目前，DMV仅接受支票、汇票或ACH（自动清算所）作为托管账户的付款方式。请确保在付款中包含您的账户号码。未包含账户号码的付款将被退回。支票应支付给“NYS Department of Motor Vehicles”。
+
+投递付款
+
+如果您不使用ACH，最快的付款方式是在DMV Revenue Accounts投递箱提交付款。投递箱位于Albany Swan Street Building一楼的DMV Customer Service Counter。下午3:00前投递的任何支票或汇票将在当天记入托管账户。投递付款时，您必须致电518-474-0888。
+
+邮寄付款
+
+使用上述提供的DMV Revenue Accounts地址，通过普通邮件、快递或隔夜邮件进行付款。
+
+通过ACH付款
+
+此服务允许您通过DMV网站https://secap.dmv.ny.gov/vpass/ [1]从您的银行账户向您的DMV托管账户进行电子资金转账。资金将立即记入您的账户。这将消除通过邮件发送付款的需要。您的账户联络人还将能够更新您的营业地址并为系统分配用户。您可以每周7天、每天24小时随时发布付款，这样您就不必担心资金耗尽或补充账户的延迟。
+
+如果您有兴趣注册此服务，您必须下载并填写这些表格
+
+直接存款授权协议（PDF）[3]（FM-138）
+
+ACH联络人指定（PDF）[4]（FM-139）
+
+将两份表格和一张作废支票发送至：
+
+Revenue Accounts NYS Department of Motor Vehicles PO Box 2409, Albany NY 12228.
+
+您也可以将这些表格通过传真发送至518-473-9644，或通过电子邮件发送至[email protected] [2]。收到后，大约需要2-3周时间设置您的ACH账户和联络人。
+
+如果您对ACH有任何疑问，可以拨打518-474-0888联系我们。
+
+如何更新我的地址？
+
+如果您的地址发生变化，您必须通知DMV Revenue Accounts。
+
+如果您使用ACH，您的账户联络人可以通过系统更新地址。
+
+如果您不使用ACH，您必须向DMV Revenue Accounts发送一封信函，注明您的旧地址和新地址。请求必须使用您的信笺抬头，包含您的账户号码，并签名和注明日期。
+
+如何关闭我的账户？
+
+要关闭您的托管账户，请通过邮寄、传真或电子邮件向DMV Revenue Accounts发送关闭账户的请求。请求必须使用您的信笺抬头，包含您的账户号码，并签名和注明日期。如果您没有信笺抬头，您可以在月度对账单上发送请求。
+
+如果您的账户中有余额，您可以要求开具退款支票，或者将余额转入您在DMV拥有的另一个托管账户。关闭账户时，请务必告知我们您希望如何处理账户中剩余的任何余额。

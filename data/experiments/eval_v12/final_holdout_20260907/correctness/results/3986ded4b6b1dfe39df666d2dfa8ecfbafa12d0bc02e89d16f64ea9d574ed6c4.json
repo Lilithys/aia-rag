@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "3986ded4b6b1dfe39df666d2dfa8ecfbafa12d0bc02e89d16f64ea9d574ed6c4",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "If VA schedules exams, do not miss them",
+                "coverage": "covered",
+                "response_quote": "如果VA为您安排了考试（exams），请务必不要错过。",
+                "reason": "The response directly states not to miss VA-scheduled exams."
+              }
+            ],
+            "reason": "The response accurately conveys the essential instruction from the reference, supported by the retrieved context, with no unsupported claims."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "d720df5d4d454fa98138bef36b456245",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5256,
+                "completion_tokens": 121,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 121,
+                  "prompt_tokens": 5256,
+                  "total_tokens": 5377,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4360
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0071293,
+              "accounted_rmb": 0.0071293,
+              "usage_unknown": false,
+              "seconds": 1.4924302101135254,
+              "error": null,
+              "response": {
+                "id": "244b835a-548b-4bca-8221-254751411c6c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "add86128444895b14b38811afb4dd9d732995b8edff6382c32a061f503e22a8b"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "If VA schedules exams, do not miss them",
+            "coverage": "covered",
+            "response_quote": "如果VA为您安排了考试（exams），请务必不要错过。",
+            "reason": "The response directly states not to miss VA-scheduled exams."
+          }
+        ],
+        "reason": "The response accurately conveys the essential instruction from the reference, supported by the retrieved context, with no unsupported claims."
+      }
+    }
+  },
+  "sha256": "d29ff19ae6fb0ddcdcc5689c4bc3b27a60a0a9bc8edaf69f2f64046797731783"
+}

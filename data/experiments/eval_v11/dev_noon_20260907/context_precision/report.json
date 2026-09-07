@@ -1,0 +1,311 @@
+{
+  "scope": "Development estimate; correctness 1.3, other metrics 1.1; no final or independent human acceptance",
+  "split": "dev",
+  "origin": "100-item dev; compatible smoke reuse plus scheduled new shared-runtime requests",
+  "binding_sha256": "1fd5f294050d5415a6843eae78ca3a4cbc90d633c657cc271e5ab8749db87814",
+  "summaries": {
+    "baseline_dense_k10": {
+      "overall": {
+        "n": 100,
+        "generation_status_counts": {
+          "ok": 99,
+          "failed": 1
+        },
+        "correctness": {
+          "requested": false,
+          "correct": 0,
+          "unknown": 99,
+          "generation_failures": 1,
+          "bounds": [
+            0.0,
+            0.99
+          ]
+        },
+        "faithfulness": {
+          "requested": false,
+          "scored_claim_bearing_n": 0,
+          "known_no_fact_n": 0,
+          "unknown_eligibility_or_score_n": 99,
+          "mean_scored": null,
+          "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+            0.0,
+            1.0
+          ]
+        },
+        "context_precision": {
+          "requested": true,
+          "eligible_answer_n": 71,
+          "scored_n": 71,
+          "unknown_n": 0,
+          "bounds": [
+            0.5858616646682229,
+            0.5858616646682229
+          ]
+        }
+      },
+      "by_label": {
+        "answer": {
+          "n": 71,
+          "generation_status_counts": {
+            "ok": 70,
+            "failed": 1
+          },
+          "correctness": {
+            "requested": false,
+            "correct": 0,
+            "unknown": 70,
+            "generation_failures": 1,
+            "bounds": [
+              0.0,
+              0.9859154929577465
+            ]
+          },
+          "faithfulness": {
+            "requested": false,
+            "scored_claim_bearing_n": 0,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 70,
+            "mean_scored": null,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.0,
+              1.0
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 71,
+            "scored_n": 71,
+            "unknown_n": 0,
+            "bounds": [
+              0.5858616646682229,
+              0.5858616646682229
+            ]
+          }
+        },
+        "clarify": {
+          "n": 19,
+          "generation_status_counts": {
+            "ok": 19
+          },
+          "correctness": {
+            "requested": false,
+            "correct": 0,
+            "unknown": 19,
+            "generation_failures": 0,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          },
+          "faithfulness": {
+            "requested": false,
+            "scored_claim_bearing_n": 0,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 19,
+            "mean_scored": null,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.0,
+              1.0
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        },
+        "refuse": {
+          "n": 10,
+          "generation_status_counts": {
+            "ok": 10
+          },
+          "correctness": {
+            "requested": false,
+            "correct": 0,
+            "unknown": 10,
+            "generation_failures": 0,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          },
+          "faithfulness": {
+            "requested": false,
+            "scored_claim_bearing_n": 0,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 10,
+            "mean_scored": null,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.0,
+              1.0
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        }
+      }
+    },
+    "rerank_windowed_k5": {
+      "overall": {
+        "n": 100,
+        "generation_status_counts": {
+          "ok": 99,
+          "failed": 1
+        },
+        "correctness": {
+          "requested": false,
+          "correct": 0,
+          "unknown": 99,
+          "generation_failures": 1,
+          "bounds": [
+            0.0,
+            0.99
+          ]
+        },
+        "faithfulness": {
+          "requested": false,
+          "scored_claim_bearing_n": 0,
+          "known_no_fact_n": 0,
+          "unknown_eligibility_or_score_n": 99,
+          "mean_scored": null,
+          "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+            0.0,
+            1.0
+          ]
+        },
+        "context_precision": {
+          "requested": true,
+          "eligible_answer_n": 71,
+          "scored_n": 71,
+          "unknown_n": 0,
+          "bounds": [
+            0.7119718309421733,
+            0.7119718309421733
+          ]
+        }
+      },
+      "by_label": {
+        "answer": {
+          "n": 71,
+          "generation_status_counts": {
+            "ok": 71
+          },
+          "correctness": {
+            "requested": false,
+            "correct": 0,
+            "unknown": 71,
+            "generation_failures": 0,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          },
+          "faithfulness": {
+            "requested": false,
+            "scored_claim_bearing_n": 0,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 71,
+            "mean_scored": null,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.0,
+              1.0
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 71,
+            "scored_n": 71,
+            "unknown_n": 0,
+            "bounds": [
+              0.7119718309421733,
+              0.7119718309421733
+            ]
+          }
+        },
+        "clarify": {
+          "n": 19,
+          "generation_status_counts": {
+            "ok": 18,
+            "failed": 1
+          },
+          "correctness": {
+            "requested": false,
+            "correct": 0,
+            "unknown": 18,
+            "generation_failures": 1,
+            "bounds": [
+              0.0,
+              0.9473684210526315
+            ]
+          },
+          "faithfulness": {
+            "requested": false,
+            "scored_claim_bearing_n": 0,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 18,
+            "mean_scored": null,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.0,
+              1.0
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        },
+        "refuse": {
+          "n": 10,
+          "generation_status_counts": {
+            "ok": 10
+          },
+          "correctness": {
+            "requested": false,
+            "correct": 0,
+            "unknown": 10,
+            "generation_failures": 0,
+            "bounds": [
+              0.0,
+              1.0
+            ]
+          },
+          "faithfulness": {
+            "requested": false,
+            "scored_claim_bearing_n": 0,
+            "known_no_fact_n": 0,
+            "unknown_eligibility_or_score_n": 10,
+            "mean_scored": null,
+            "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+              0.0,
+              1.0
+            ]
+          },
+          "context_precision": {
+            "requested": true,
+            "eligible_answer_n": 0,
+            "scored_n": 0,
+            "unknown_n": 0,
+            "bounds": null
+          }
+        }
+      }
+    }
+  },
+  "completed_metric_tasks": 142,
+  "successful_metric_tasks": 142,
+  "pending_metric_tasks": 0,
+  "new_api_attempts": 628,
+  "accounted_upper_rmb": 0.7616995,
+  "unknown_usage_attempts": 0,
+  "independent_calibration_complete": false
+}

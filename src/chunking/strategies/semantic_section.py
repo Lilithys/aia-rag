@@ -67,7 +67,7 @@ def chunk_document(body: str, meta: dict, chunk_size: int, overlap: int, **_) ->
         # too big to keep whole: split at child-heading boundaries. This
         # node's own lead-in text (before its first subheading) rides along
         # with the first child rather than being dropped or split off alone.
-        own = node.text.strip()
+        own = smart_join([inherited_lead, node.text])
         for i, child in enumerate(node.children):
             visit(child, own if i == 0 else "")
 

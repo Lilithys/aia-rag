@@ -1,0 +1,18 @@
+{
+  "dev_questions": 100,
+  "configs": 2,
+  "compatible_smoke_records": 40,
+  "new_generation_records_pending": 160,
+  "models_ready_before_noon": true,
+  "dev_api_attempts_before_noon": 0,
+  "offline_tests_passed": 86,
+  "source_and_config_bindings_verified": true,
+  "holdout_executed": false,
+  "time_window_enforced_before_each_api_reservation": true,
+  "artifact_sha256": {
+    "data/experiments/eval_v11/dev_noon_20260907/plan.json": "351f0dfa3178527d7a3b074780f0520c44b2ab68c91e65607f6bed1c92566340",
+    "data/experiments/eval_v11/dev_noon_20260907/tests.log": "8b13105d4bd508165adacab2f307942b4b1920165cd0151c3c923655eb44d903",
+    "data/experiments/eval_v11/dev_noon_20260907/scoring_preflight.json": "1133922c14433d53034c217cd1ba8e5ce8c46c00536694547fa32835e1f2f0e7",
+    "doc/evaluation/v1/dev_noon_20260907_plan.md": "0b7c24129e085d09de5e6ff716c6251bfe1c88c90a6903837954198b4da69513"
+  }
+}

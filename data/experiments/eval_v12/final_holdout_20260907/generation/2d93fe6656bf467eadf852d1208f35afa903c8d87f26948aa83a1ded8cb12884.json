@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "6f23cca015caa4543aa6ada40041fe81::agent-turn-2",
+    "item_sha256": "41b91ddcadd74aaa769092412b739cbaa6f5d3802e0479431f3a8cc518751a25",
+    "result": {
+      "request_id": "55d64879c40d4e2aadc934f35b882eed",
+      "session_id": "6f23cca015caa4543aa6ada40041fe81",
+      "turn_id": 1,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "If your Total and Permanent Disability (TPD) discharge request is denied, Nelnet will notify you of the reason for the denial. You may ask for a reevaluation within 12 months of the denial notice if you provide new information supporting your eligibility. If you don't request reevaluation within that 12-month period and still want reevaluation, you must submit a new TPD discharge application with new information about your disabling condition that wasn't provided before. You become responsible again for repaying your loans, and your loan holder will notify you when your first payment is due. If you applied for a TEACH Grant service obligation discharge, you're again responsible for meeting its terms and conditions.",
+        "citations": [
+          "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008",
+          "text": "[If you re totally and permanently disabled, you may qualify for a discharge of your federal student loans and/or Teacher Education Assistance for College and Higher Education (TEACH) Grant service obligation. > What happens if my TPD discharge request is denied?]\nIf we determine that you don t qualify for a TPD discharge, Nelnet will\n\n- notify you of the reason for the denial of your discharge application;\n- explain that you may ask us to reevaluate your discharge application if you provide new information that supports your eligibility for discharge within 12 months of the date you are notified that your discharge application has been denied;\n- explain that if you don t request reevaluation of your discharge application within 12 months of the date you re notified that your discharge application has been denied, and you still want us to reevaluate your eligibility, you must submit a new TPD discharge application with new information about your disabling condition that was not provided with your prior discharge application;\n- explain that you re again responsible for repaying your loans, and that your loan holder will notify you when your first payment is due; and\n- explain that if you applied for a discharge of a TEACH Grant service obligation, you re again responsible for meeting the terms and conditions of the service obligation."
+        },
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0015",
+          "text": "[吊销后恢复驾照 [1] > 附加要求 > 如果我的驾照申请被DIU拒绝会怎样？]\n您有以下四个选项（这些选项也印在DIU发出的拒绝信上）：\n\n1. 接受拒绝决定，不再采取进一步行动。如果您的拒绝信上印有建议您可重新申请的日期，您可在该日期前最多60天内提交重新申请。\n\n2. 通过提交随拒绝信附上的Request For Relicensing Reconsideration After Denial表格，请求对拒绝决定进行复议，寄送至：\n\nDriver Improvement UnitNYS DMV6 Empire State Plaza, Room 338Albany, NY 12228(518) 474-0774, Option \\#5（电话时间：周一至周五，上午8:30至中午）传真：(518) 474-6208\n\n在拒绝信日期后的六十（60）天内提交。如果您选择此选项，请阅读并遵循以下指示，因为您每次重新申请驾照时，仅有一次机会提交所有不寻常、可谅解且令人信服的情况。请注意，不寻常、可谅解且令人信服的情况必须同时满足所有三个标准才能成功。如果您认为存在不寻常、可谅解且令人信服的情况，可作为Department偏离一般吊销政策并批准您驾照申请的合理依据：\n\n- 您必须详细解释每种情况；\n- 您必须提供可信、可验证的文件来支持所有声称的情况。例如，如果您需要驾照以便自己或家人前往必要的医疗治疗，您必须提供文件来验证并解释医疗状况的性质、参加与该状况或治疗相关的必要预约的需求，并证明没有其他交通方式（包括负担得起的私人及公共交通）可用于前往医疗预约。可信、可验证的文件是指来自第三方（非亲属）的支持您主张的文件。一些例子包括：来自您的医生、雇主、宗教官员、政府官员、教授、顾问的支持信/声明、公共交通时刻表、路线和/或地图、收据、医疗账单、预约时间表等。如果您未为每种声称的情况提供可信、可验证的文件，您的请求将被拒绝。请注意：不寻常、可谅解且令人信服的情况本身并不保证批准。如果您的驾驶记录表明您对高速公路安全构成持续风险，即使有可谅解的情况，您的重新申请也可能不被批准。\n- 寄往Driver Improvement Bureau的Request For Relicensing Reconsideration After Denial必须包含您初次申请时提交的关于不寻常、可谅解且令人信服情况的任何文件。\n- 如果致Driver Improvement Bureau的信函逾期，将不予考虑，您收到的拒绝决定将成为最终决定。您的请求/信函必须在拒绝信日期后的六十（60）天内提交至Driver Improvement Bureau。如果在60天后收到，将被拒绝。\n\n1.  向DMV上诉委员会提交对撤销的上诉。要提交上诉，请在拒绝信日期后的六十（60）天内，将上诉表格[12]、上诉书及拒绝信副本邮寄至DMV上诉委员会。如果在60天后收到，您的上诉请求将被拒绝。\n    - 根据法律，上诉委员会不能考虑超过60天提交的上诉。它也不能审查您未首先提交给Driver Improvement Bureau的任何论点或主张。不要向上诉委员会提交关于异常、可减轻处罚和令人信服的情况的主张。\n2.  向Driver Improvement Unit提交另一份重新许可申请。虽然您可以随时提交新驾驶执照的申请，但请注意，Driver Improvement Unit将根据导致先前拒绝的相同标准审查您的整个驾驶历史。每份申请还需缴纳法定的100美元费用。您可以向上述地址提交额外的申请。"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0008",
+          "text": "[医疗认证常见问题 > 自我认证 > 9. 为什么我收到退回的Medical Examiner's Certificate和拒绝信？]\n拒绝信说明了Medical Examiner's Certificate被退回给您的原因。如果信息不正确、缺失或难以辨认，您必须联系您的医生修改表格或重新填写一份。\n\n如果您的Medical Examiner's Certificate因未由National Registry of Certified Medical Examiners列出的医生完成而被拒绝，您必须由注册表上的医生重新进行体检。要查找您所在地区的认证医生，请访问联邦网站National Registry of Certified Medical Examiners Search [1]。"
+        },
+        {
+          "chunk_id": "Pay suspension termination fee#1_0::c0010",
+          "text": "[支付暂停终止费 [1]]\n禁用此交易？："
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0005",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于宽限期/停止催收状态的常见问题与解答]\n问：我可以将我的一些或全部联邦学生贷款从暂缓还款或停止催收状态中移除吗？\n\n答：如果您希望暂缓还款或停止催收状态仅适用于与您的借款人抗辩申请相关的联邦学生贷款，您必须在收到贷款服务机构的通知并确认暂缓还款或停止催收状态后，联系您的贷款服务机构。在您的贷款进入暂缓还款或停止催收状态后，如果您在任何时候想要将所有联邦学生贷款从暂缓还款或停止催收状态中移除，您也必须联系您的贷款服务机构。\n\n问：我可以对处于暂缓还款或停止催收状态的联邦学生贷款进行还款吗？\n\n答：可以。当您的联邦学生贷款处于暂缓还款或停止催收状态时，您无需偿还贷款。但是，您可以对处于暂缓还款或停止催收状态的任何贷款进行还款，包括支付应计利息。如上所述，在这些贷款处于暂缓还款或停止催收状态期间，所有此类贷款的利息将继续累积。\n\n问：如果我对学校的借款人抗辩申请成功，会发生什么？\n\n答：与您的申请相关的联邦学生贷款可能会被部分或全部免除。如果您获得部分免除，您将负责偿还任何未通过借款人抗辩免除的金额，包括累积的任何利息。此外，届时，您其他任何联邦学生贷款的暂缓还款或停止催收期将结束。您将负责偿还这些其他贷款（如适用），包括在暂缓还款或停止催收期间累积的利息。\n\n问：如果我对学校的借款人抗辩申请被拒绝，会发生什么？\n\n答：您将不会获得任何联邦学生贷款的免除，并且所有贷款的暂缓还款或停止催收期将结束。您将负责偿还这些贷款，包括在暂缓还款或停止催收期间累积的利息。\n\n问：我认为我可能是Manriquez诉DeVos案中已认证集体的一员，因为我的借款人抗辩申请包含基于科林斯学院学校所作就业安置率虚假陈述的索赔。我的还款状态会怎样，如果我处于错误的还款状态，我该怎么办？\n\n答：有关*Manriquez诉DeVos*案及该案已认证集体的更多信息，请访问“科林斯学院学生债务减免信息”页面，在“根据借款人抗辩还款规则，针对科林斯学院（Everest、Heald和WyoTech）学生的未决诉讼信息”部分下。关于Manriquez诉DeVos的常见问题解答子部分提供了更多信息，说明由于未决诉讼和法院禁令，暂缓还款和停止催收可能如何适用于您的情况，以及如果您对自己的还款状态有疑问该怎么办。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008",
+          "text": "[If you re totally and permanently disabled, you may qualify for a discharge of your federal student loans and/or Teacher Education Assistance for College and Higher Education (TEACH) Grant service obligation. > What happens if my TPD discharge request is denied?]\nIf we determine that you don t qualify for a TPD discharge, Nelnet will\n\n- notify you of the reason for the denial of your discharge application;\n- explain that you may ask us to reevaluate your discharge application if you provide new information that supports your eligibility for discharge within 12 months of the date you are notified that your discharge application has been denied;\n- explain that if you don t request reevaluation of your discharge application within 12 months of the date you re notified that your discharge application has been denied, and you still want us to reevaluate your eligibility, you must submit a new TPD discharge application with new information about your disabling condition that was not provided with your prior discharge application;\n- explain that you re again responsible for repaying your loans, and that your loan holder will notify you when your first payment is due; and\n- explain that if you applied for a discharge of a TEACH Grant service obligation, you re again responsible for meeting the terms and conditions of the service obligation."
+        },
+        {
+          "chunk_id": "Restore license after revocation#1_0::c0015",
+          "text": "[吊销后恢复驾照 [1] > 附加要求 > 如果我的驾照申请被DIU拒绝会怎样？]\n您有以下四个选项（这些选项也印在DIU发出的拒绝信上）：\n\n1. 接受拒绝决定，不再采取进一步行动。如果您的拒绝信上印有建议您可重新申请的日期，您可在该日期前最多60天内提交重新申请。\n\n2. 通过提交随拒绝信附上的Request For Relicensing Reconsideration After Denial表格，请求对拒绝决定进行复议，寄送至：\n\nDriver Improvement UnitNYS DMV6 Empire State Plaza, Room 338Albany, NY 12228(518) 474-0774, Option \\#5（电话时间：周一至周五，上午8:30至中午）传真：(518) 474-6208\n\n在拒绝信日期后的六十（60）天内提交。如果您选择此选项，请阅读并遵循以下指示，因为您每次重新申请驾照时，仅有一次机会提交所有不寻常、可谅解且令人信服的情况。请注意，不寻常、可谅解且令人信服的情况必须同时满足所有三个标准才能成功。如果您认为存在不寻常、可谅解且令人信服的情况，可作为Department偏离一般吊销政策并批准您驾照申请的合理依据：\n\n- 您必须详细解释每种情况；\n- 您必须提供可信、可验证的文件来支持所有声称的情况。例如，如果您需要驾照以便自己或家人前往必要的医疗治疗，您必须提供文件来验证并解释医疗状况的性质、参加与该状况或治疗相关的必要预约的需求，并证明没有其他交通方式（包括负担得起的私人及公共交通）可用于前往医疗预约。可信、可验证的文件是指来自第三方（非亲属）的支持您主张的文件。一些例子包括：来自您的医生、雇主、宗教官员、政府官员、教授、顾问的支持信/声明、公共交通时刻表、路线和/或地图、收据、医疗账单、预约时间表等。如果您未为每种声称的情况提供可信、可验证的文件，您的请求将被拒绝。请注意：不寻常、可谅解且令人信服的情况本身并不保证批准。如果您的驾驶记录表明您对高速公路安全构成持续风险，即使有可谅解的情况，您的重新申请也可能不被批准。\n- 寄往Driver Improvement Bureau的Request For Relicensing Reconsideration After Denial必须包含您初次申请时提交的关于不寻常、可谅解且令人信服情况的任何文件。\n- 如果致Driver Improvement Bureau的信函逾期，将不予考虑，您收到的拒绝决定将成为最终决定。您的请求/信函必须在拒绝信日期后的六十（60）天内提交至Driver Improvement Bureau。如果在60天后收到，将被拒绝。\n\n1.  向DMV上诉委员会提交对撤销的上诉。要提交上诉，请在拒绝信日期后的六十（60）天内，将上诉表格[12]、上诉书及拒绝信副本邮寄至DMV上诉委员会。如果在60天后收到，您的上诉请求将被拒绝。\n    - 根据法律，上诉委员会不能考虑超过60天提交的上诉。它也不能审查您未首先提交给Driver Improvement Bureau的任何论点或主张。不要向上诉委员会提交关于异常、可减轻处罚和令人信服的情况的主张。\n2.  向Driver Improvement Unit提交另一份重新许可申请。虽然您可以随时提交新驾驶执照的申请，但请注意，Driver Improvement Unit将根据导致先前拒绝的相同标准审查您的整个驾驶历史。每份申请还需缴纳法定的100美元费用。您可以向上述地址提交额外的申请。"
+        },
+        {
+          "chunk_id": "Medical Certification FAQ's#3_0::c0008",
+          "text": "[医疗认证常见问题 > 自我认证 > 9. 为什么我收到退回的Medical Examiner's Certificate和拒绝信？]\n拒绝信说明了Medical Examiner's Certificate被退回给您的原因。如果信息不正确、缺失或难以辨认，您必须联系您的医生修改表格或重新填写一份。\n\n如果您的Medical Examiner's Certificate因未由National Registry of Certified Medical Examiners列出的医生完成而被拒绝，您必须由注册表上的医生重新进行体检。要查找您所在地区的认证医生，请访问联邦网站National Registry of Certified Medical Examiners Search [1]。"
+        },
+        {
+          "chunk_id": "Pay suspension termination fee#1_0::c0010",
+          "text": "[支付暂停终止费 [1]]\n禁用此交易？："
+        },
+        {
+          "chunk_id": "Borrower Defense to Repayment | Federal Student Aid#1_0::c0005",
+          "text": "[如果学校误导借款人或在违反某些法律方面有其他不当行为，借款人可能符合免除用于就读该校的联邦学生贷款的条件。 > 关于宽限期/停止催收状态的常见问题与解答]\n问：我可以将我的一些或全部联邦学生贷款从暂缓还款或停止催收状态中移除吗？\n\n答：如果您希望暂缓还款或停止催收状态仅适用于与您的借款人抗辩申请相关的联邦学生贷款，您必须在收到贷款服务机构的通知并确认暂缓还款或停止催收状态后，联系您的贷款服务机构。在您的贷款进入暂缓还款或停止催收状态后，如果您在任何时候想要将所有联邦学生贷款从暂缓还款或停止催收状态中移除，您也必须联系您的贷款服务机构。\n\n问：我可以对处于暂缓还款或停止催收状态的联邦学生贷款进行还款吗？\n\n答：可以。当您的联邦学生贷款处于暂缓还款或停止催收状态时，您无需偿还贷款。但是，您可以对处于暂缓还款或停止催收状态的任何贷款进行还款，包括支付应计利息。如上所述，在这些贷款处于暂缓还款或停止催收状态期间，所有此类贷款的利息将继续累积。\n\n问：如果我对学校的借款人抗辩申请成功，会发生什么？\n\n答：与您的申请相关的联邦学生贷款可能会被部分或全部免除。如果您获得部分免除，您将负责偿还任何未通过借款人抗辩免除的金额，包括累积的任何利息。此外，届时，您其他任何联邦学生贷款的暂缓还款或停止催收期将结束。您将负责偿还这些其他贷款（如适用），包括在暂缓还款或停止催收期间累积的利息。\n\n问：如果我对学校的借款人抗辩申请被拒绝，会发生什么？\n\n答：您将不会获得任何联邦学生贷款的免除，并且所有贷款的暂缓还款或停止催收期将结束。您将负责偿还这些贷款，包括在暂缓还款或停止催收期间累积的利息。\n\n问：我认为我可能是Manriquez诉DeVos案中已认证集体的一员，因为我的借款人抗辩申请包含基于科林斯学院学校所作就业安置率虚假陈述的索赔。我的还款状态会怎样，如果我处于错误的还款状态，我该怎么办？\n\n答：有关*Manriquez诉DeVos*案及该案已认证集体的更多信息，请访问“科林斯学院学生债务减免信息”页面，在“根据借款人抗辩还款规则，针对科林斯学院（Everest、Heald和WyoTech）学生的未决诉讼信息”部分下。关于Manriquez诉DeVos的常见问题解答子部分提供了更多信息，说明由于未决诉讼和法院禁令，暂缓还款和停止催收可能如何适用于您的情况，以及如果您对自己的还款状态有疑问该怎么办。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008",
+          "document": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+          "heading": [
+            "If you re totally and permanently disabled, you may qualify for a discharge of your federal student loans and/or Teacher Education Assistance for College and Higher Education (TEACH) Grant service obligation.",
+            "What happens if my TPD discharge request is denied?"
+          ],
+          "source_file": "studentaid_086.md",
+          "excerpt": "[If you re totally and permanently disabled, you may qualify for a discharge of your federal student loans and/or Teacher Education Assistance for College and Higher Education (TEACH) Grant service obligation. > What happens if my TPD discharge request is denied?]\nIf we determine that you don t qualify for a TPD discharge, Nelnet will\n\n- notify you of the reason for the denial of your discharge application;\n- explain that you may ask us to reevaluate your discharge application if you provide new information that supports your eligibility for discharge within 12 months of the date you are notified that your discharge application has been denied;\n- explain that if you don t request reevaluation of your discharge application within 12 months of the date you re notified that your discharge application has been denied, and you still want us to reevaluate your eligibility, you must submit a new TPD discharge application with new information about your disabling condition that was not provided with your prior discharge application;\n- explain that you re again responsible for repaying your loans, and that your loan holder will notify you when your first payment is due; and\n- explain that if you applied for a discharge of a TEACH Grant service obligation, you re again responsible for meeting the terms and conditions of the service obligation."
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "If your Total and Permanent Disability (TPD) discharge request is denied, Nelnet will notify you of the reason for the denial. You may ask for a reevaluation within 12 months of the denial notice if you provide new information supporting your eligibility. If you don't request reevaluation within that 12-month period and still want reevaluation, you must submit a new TPD discharge application with new information about your disabling condition that wasn't provided before. You become responsible again for repaying your loans, and your loan holder will notify you when your first payment is due. If you applied for a TEACH Grant service obligation discharge, you're again responsible for meeting its terms and conditions.",
+          "citations": [
+            "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "faad6f64d3e9474594f88e21103c726d",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2119,
+              "completion_tokens": 172,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 172,
+                "prompt_tokens": 2119,
+                "total_tokens": 2291,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1863
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0035813000000000004,
+            "accounted_rmb": 0.0035813000000000004,
+            "usage_unknown": false,
+            "seconds": 2.2278950214385986,
+            "error": null,
+            "response": {
+              "id": "c1ab59bf-12b9-4e24-9aaa-1f358a57c09e",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "31be67518ac159c14155e3a2588ea81e647a094fdd977ec9a160cfca79ca390a"
+      },
+      "latency_ms": {
+        "queue_wait": 0.025250017642974854,
+        "retrieval": 834.1720830649137,
+        "generation": 2229.907542001456,
+        "total": 3064.439209061675
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.1171864999923855,
+        "rerank_seconds": 0.7168796249898151,
+        "top1_dense_score": 0.6218042969703674,
+        "candidate_ids": [
+          "Restore license after revocation#1_0::c0015",
+          "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0015",
+          "Pay suspension termination fee#1_0::c0010",
+          "Medical Certification FAQ's#3_0::c0008",
+          "Replace a non-driver ID card#1_0::c0008",
+          "CHAMPVA Benefits | Veterans Affairs#1_0::c0005",
+          "Replace license or permit#1_0::c0010",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0011",
+          "About online and alternative delivery method courses (I-PIRP/ADM)#3_0::c0008",
+          "Get a driver license#1_0::c0027",
+          "Plead to or pay TVB tickets#1_0::c0007",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0012",
+          "Borrower Defense to Repayment | Federal Student Aid#1_0::c0005",
+          "File a Freedom of Information Law (FOIL) request#1_0::c0010",
+          "Escort driver certification#1_0::c0013",
+          "Reporting Parent Information | Federal Student Aid#1_0::c0009",
+          "Pay driver civil penalty#1_0::c0017",
+          "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0::c0013",
+          "Pay driver responsibility assessment#1_0::c0007"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 28,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.8341576659586281
+      },
+      "raw_citations": [
+        "Total and Permanent Disability Discharge | Federal Student Aid#1_0::c0008"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "bf47366fdac40680f343fd869484613d80319dc25546e1d6f3ca3b4ed0cf9ad5"
+}

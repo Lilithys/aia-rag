@@ -1,0 +1,176 @@
+{
+  "payload": {
+    "binding_sha256": "c2392305a2bca185ff1640faf6db0896c8ae522fc09d59de62e45b87c879af8e",
+    "question_id": "eval-v1-dev-refuse-006",
+    "item_sha256": "868da763705593c7a6ab32979dc20924681c74c7ddb3825c52661fc0c3380498",
+    "result": {
+      "request_id": "9a6e8b29c26d4168b57273f2cdaa5a1e",
+      "session_id": "synthetic::eval-v1-dev-refuse-006",
+      "turn_id": null,
+      "run_id": "16d85e0bcd1b4b1780f411f23293b55f",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "我无法访问您的个人预约记录或实时日程，因此无法查询您下周的具体 C&P examination 预约时间。不过，我可以提供一般性指导：VA 通常会通过邮件或电话与您联系，告知检查日期和时间。如果您需要确认或重新安排预约，可以拨打 800-827-1000 或前往最近的 VA 地区福利办公室。请确保 VA 有您最新的联系方式。",
+        "citations": [
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004"
+        ],
+        "action": "refuse"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "text": "[VA 索赔检查（C&P 检查） > 在你的VA索赔考试之后]\n- 我们将审查您文件中的所有证据，为您分配伤残等级，并向您发送决定通知（告知您伤残等级的信函）。\n\n每个申请都不同，但通常从开始到结束处理一个申请大约需要3到4个月。您的申请处理时间取决于申请的复杂程度以及您申请的疾病数量。\n\n查看我们关于完成申请平均天数的最新估算\n\n登录以跟踪您的申请\n\n- 是的。要获取考试最终报告的副本，您可以：\n\n- 联系最近的VA区域办事处，或\n  - 致电800-827-1000并预约查看您的文件\n\n- 我们的VA申请处理人员将审查：\n\n- 您提供给我们的医疗记录\n  - 处理您申请考试的医生的报告，以及任何要求的医学检测结果\n  - 您和其他人就您的申请所做的陈述\n  - 您的军事医疗和人事记录\n\n- 如果您对伤残福利决定提出上诉，我们可能会要求您进行申请考试。了解更多关于上诉决定的信息"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004",
+          "text": "[VA 索赔检查（C&P 检查） > 如何安排您的 VA 索赔检查]\n- 您当地 VA 医疗中心或我们合作的当地医生办公室的工作人员将与您联系。他们要么通过邮件向您发送包含检查日期和时间的信件，要么给您打电话以找到适合您的时间。\n\n确保离您最近的 VA 地区办公室和 VA 医疗中心都有您最新的地址、电话号码和电子邮件地址，以便您及时收到检查通知。\n\n- 立即拨打提供的号码以确认您检查的时间和地点。重要的是不要错过您预定的检查，因此您需要仔细核对地点和时间是否正确。\n\n- 如果您无法赴约，请立即告知我们。您很可能可以重新安排，但这可能会延迟您的索赔。\n\n要重新安排您的预约：\n\n- 拨打 800-827-1000，或\n  - 前往最近的 VA 地区福利办公室。查找您附近的 VA 地区福利办公室"
+        },
+        {
+          "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0002",
+          "text": "[新的CDL考试和商业学习者许可证（CLP）标准 > CDL技能测试变更]\n当您安排或更新CDL技能测试（路考）预约时，您将无法在CLP签发后的前14天内安排预约。"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "text": "[VA 索赔检查（C&P 检查） > 务必不要错过您预定的检查。]\n提交残疾福利索赔后，我们可能会要求您进行索赔检查（也称为补偿和养老金检查，或 C&P 检查）。在下方获取关于 VA 索赔检查常见问题的解答。\n\n如果您错过了检查，我们可能无法立即为您重新安排，您的索赔可能会在等待新预约期间被延迟。或者我们可能需要按现状评定您的索赔。这意味着我们将仅根据您档案中已有的证据来决定您的残疾福利，而这些证据可能不足。"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0007",
+          "text": "[VA 索赔检查（C&P 检查） > 如果我对考试还有其他问题怎么办？]\n### 下载有用的PDF\n\nVA申请考试情况说明书 关于申请考试流程的快速指南，以及您在考试期间和之后可以期待什么\n\nVA申请考试提示 帮助使申请考试过程更轻松、压力更小的提示\n\nVA申请考试常见问题解答 关于申请考试过程的常见问题解答\n\n分步VA申请流程 申请流程和考试的快速分步概述\n\n心理健康考试情况说明书 关于我们如何评估心理健康补偿申请，以及为什么参加考试很重要的信息\n\n复查考试情况说明书 关于我们为何以及何时要求复查考试、考试期间会发生什么，以及为什么参加考试很重要的信息\n\n### 观看信息视频\n\n您还可以观看我们的 VA 索赔考试视频系列。该系列提供关于如何准备 VA 索赔考试、如何使用伤残福利问卷（DBQs）以及常见伤残索赔考试中预期内容的视频。\n\n查看 VA 索赔考试视频系列\n\n### 有关提交索赔后发生情况的更多信息\n\n-\n\n#### VA 如何评定伤残等级\n\n了解我们如何评定严重程度等级及其对您的伤残抚恤金的影响。\n\n-\n\n#### 查看索赔和上诉状态\n\n跟踪您的伤残索赔和上诉的状态。\n\n-\n\n#### 上诉流程\n\n如果您不同意伤残等级评定决定，了解该怎么做。\n\n最后更新："
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "text": "[VA 索赔检查（C&P 检查） > 在你的VA索赔考试之后]\n- 我们将审查您文件中的所有证据，为您分配伤残等级，并向您发送决定通知（告知您伤残等级的信函）。\n\n每个申请都不同，但通常从开始到结束处理一个申请大约需要3到4个月。您的申请处理时间取决于申请的复杂程度以及您申请的疾病数量。\n\n查看我们关于完成申请平均天数的最新估算\n\n登录以跟踪您的申请\n\n- 是的。要获取考试最终报告的副本，您可以：\n\n- 联系最近的VA区域办事处，或\n  - 致电800-827-1000并预约查看您的文件\n\n- 我们的VA申请处理人员将审查：\n\n- 您提供给我们的医疗记录\n  - 处理您申请考试的医生的报告，以及任何要求的医学检测结果\n  - 您和其他人就您的申请所做的陈述\n  - 您的军事医疗和人事记录\n\n- 如果您对伤残福利决定提出上诉，我们可能会要求您进行申请考试。了解更多关于上诉决定的信息"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004",
+          "text": "[VA 索赔检查（C&P 检查） > 如何安排您的 VA 索赔检查]\n- 您当地 VA 医疗中心或我们合作的当地医生办公室的工作人员将与您联系。他们要么通过邮件向您发送包含检查日期和时间的信件，要么给您打电话以找到适合您的时间。\n\n确保离您最近的 VA 地区办公室和 VA 医疗中心都有您最新的地址、电话号码和电子邮件地址，以便您及时收到检查通知。\n\n- 立即拨打提供的号码以确认您检查的时间和地点。重要的是不要错过您预定的检查，因此您需要仔细核对地点和时间是否正确。\n\n- 如果您无法赴约，请立即告知我们。您很可能可以重新安排，但这可能会延迟您的索赔。\n\n要重新安排您的预约：\n\n- 拨打 800-827-1000，或\n  - 前往最近的 VA 地区福利办公室。查找您附近的 VA 地区福利办公室"
+        },
+        {
+          "chunk_id": "New CDL testing and commercial learner permit (CLP) standards#3_0::c0002",
+          "text": "[新的CDL考试和商业学习者许可证（CLP）标准 > CDL技能测试变更]\n当您安排或更新CDL技能测试（路考）预约时，您将无法在CLP签发后的前14天内安排预约。"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "text": "[VA 索赔检查（C&P 检查） > 务必不要错过您预定的检查。]\n提交残疾福利索赔后，我们可能会要求您进行索赔检查（也称为补偿和养老金检查，或 C&P 检查）。在下方获取关于 VA 索赔检查常见问题的解答。\n\n如果您错过了检查，我们可能无法立即为您重新安排，您的索赔可能会在等待新预约期间被延迟。或者我们可能需要按现状评定您的索赔。这意味着我们将仅根据您档案中已有的证据来决定您的残疾福利，而这些证据可能不足。"
+        },
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0007",
+          "text": "[VA 索赔检查（C&P 检查） > 如果我对考试还有其他问题怎么办？]\n### 下载有用的PDF\n\nVA申请考试情况说明书 关于申请考试流程的快速指南，以及您在考试期间和之后可以期待什么\n\nVA申请考试提示 帮助使申请考试过程更轻松、压力更小的提示\n\nVA申请考试常见问题解答 关于申请考试过程的常见问题解答\n\n分步VA申请流程 申请流程和考试的快速分步概述\n\n心理健康考试情况说明书 关于我们如何评估心理健康补偿申请，以及为什么参加考试很重要的信息\n\n复查考试情况说明书 关于我们为何以及何时要求复查考试、考试期间会发生什么，以及为什么参加考试很重要的信息\n\n### 观看信息视频\n\n您还可以观看我们的 VA 索赔考试视频系列。该系列提供关于如何准备 VA 索赔考试、如何使用伤残福利问卷（DBQs）以及常见伤残索赔考试中预期内容的视频。\n\n查看 VA 索赔考试视频系列\n\n### 有关提交索赔后发生情况的更多信息\n\n-\n\n#### VA 如何评定伤残等级\n\n了解我们如何评定严重程度等级及其对您的伤残抚恤金的影响。\n\n-\n\n#### 查看索赔和上诉状态\n\n跟踪您的伤残索赔和上诉的状态。\n\n-\n\n#### 上诉流程\n\n如果您不同意伤残等级评定决定，了解该怎么做。\n\n最后更新："
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004",
+          "document": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+          "heading": [
+            "VA 索赔检查（C&P 检查）",
+            "如何安排您的 VA 索赔检查"
+          ],
+          "source_file": "va_091.md",
+          "excerpt": "[VA 索赔检查（C&P 检查） > 如何安排您的 VA 索赔检查]\n- 您当地 VA 医疗中心或我们合作的当地医生办公室的工作人员将与您联系。他们要么通过邮件向您发送包含检查日期和时间的信件，要么给您打电话以找到适合您的时间。\n\n确保离您最近的 VA 地区办公室和 VA 医疗中心都有您最新的地址、电话号码和电子邮件地址，以便您及时收到检查通知。\n\n- 立即拨打提供的号码以确认您检查的时间和地点。重要的是不要错过您预定的检查，因此您需要仔细核对地点和时间是否正确。\n\n- 如果您无法赴约，请立即告知我们。您很可能可以重新安排，但这可能会延迟您的索赔。\n\n要重新安排您的预约：\n\n- 拨打 800-827-1000，或\n  - 前往最近的 VA 地区福利办公室。查找您附近的 VA 地区福利办公室"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "我无法访问您的个人预约记录或实时日程，因此无法查询您下周的具体 C&P examination 预约时间。不过，我可以提供一般性指导：VA 通常会通过邮件或电话与您联系，告知检查日期和时间。如果您需要确认或重新安排预约，可以拨打 800-827-1000 或前往最近的 VA 地区福利办公室。请确保 VA 有您最新的联系方式。",
+          "citations": [
+            "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004"
+          ],
+          "action": "refuse"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "1e53bf7d3d6f4a48a9553fab13040292",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 1289,
+              "completion_tokens": 121,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 121,
+                "prompt_tokens": 1289,
+                "total_tokens": 1410,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 1033
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0021068000000000003,
+            "accounted_rmb": 0.0021068000000000003,
+            "usage_unknown": false,
+            "seconds": 1.499457836151123,
+            "error": null,
+            "response": {
+              "id": "4b23d2f1-68ef-4450-b468-97273c419fc9",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "6c61c6552adc9bb9696282b3093644e1d975e64c918d71e768e19728d1124d46"
+      },
+      "latency_ms": {
+        "queue_wait": 0.009165960364043713,
+        "retrieval": 854.4866250595078,
+        "generation": 1503.2833330333233,
+        "total": 2359.432457946241
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.06402095791418105,
+        "rerank_seconds": 0.7904233749723062,
+        "top1_dense_score": 0.6275832056999207,
+        "candidate_ids": [
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0002",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0005",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0000",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0001",
+          "VA Health Care | Veterans Affairs#1_0::c0017",
+          "About New York State Inspections#3_0::c0016",
+          "Schedule And View VA Appointments Online | Veterans Affairs#1_0::c0000",
+          "Medical Certification FAQ's#3_0::c0010",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0008",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0007",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0001",
+          "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0006",
+          "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0::c0007",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0019",
+          "Get a CDL#1_0::c0003",
+          "Restore license after revocation#1_0::c0014",
+          "About New York State Inspections#3_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0046",
+          "New CDL testing and commercial learner permit (CLP) standards#3_0::c0017"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 23,
+        "query_shortened": false,
+        "retrieval_total_seconds": 0.8544722079532221
+      },
+      "raw_citations": [
+        "VA claim exam (C&P exam) | Veterans Affairs#1_0::c0004"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "89fa8548d15316ff95bbfb4ed67e14b9760d68fd4f5da9981b85d4eaad49b5fd"
+}

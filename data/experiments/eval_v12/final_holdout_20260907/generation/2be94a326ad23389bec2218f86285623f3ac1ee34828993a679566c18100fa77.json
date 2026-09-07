@@ -1,0 +1,186 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "ed4555ac287884943d41edd91ac3c847::agent-turn-8",
+    "item_sha256": "8a663ac483ed0cdafddbdeb699d537fccde57124168a4dd6b50320578563cade",
+    "result": {
+      "request_id": "f01aab4a427c434181d61aaf1770fc34",
+      "session_id": "ed4555ac287884943d41edd91ac3c847",
+      "turn_id": 7,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "您可以下载我们为退伍军人准备的军事性创伤手册：英文PDF，或西班牙语PDF。此外，您还可以访问“建立联系”网站获取更多资源和支持，或拨打退伍军人危机热线800-273-8255（然后按1）寻求即时帮助。",
+        "citations": [
+          "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0003"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "text": "[VA心理健康服务 > 入门指南]\n如果您需要针对特定心理健康问题的支持，或者您正面临睡眠问题、难以控制愤怒或难以重新适应平民生活，您并不孤单。我们可以提供帮助。\n\n去年，超过170万退伍军人在VA接受了心理健康服务。我们的服务范围从与其他退伍军人的同伴支持到咨询、治疗、药物治疗或这些选项的组合。我们的目标是帮助您掌控自己的治疗，过上充实而有意义的生活。\n\n### 如何安排我的第一次预约？\n\n如果您已经在使用VA医疗服务，请让您的主治医生帮助您预约VA心理健康服务提供者。\n\n如果您尚未使用VA医疗服务，请联系最近的VA医疗中心或退伍军人中心，讨论您的需求。查找最近的VA医疗中心或退伍军人中心\n\n### 如果我不确定自己需要什么样的帮助怎么办？\n\n您可以拨打877-222-8387，找到适合您需求的资源。如果您有听力障碍，请拨打TTY：800-877-8339。\n\n我们周一至周五，东部时间上午8:00至晚上8:00提供服务。\n\n### 我很难亲自前往VA机构。我可以在线获得心理健康服务吗？\n\n可以。您或许可以使用以下一种或多种护理选项。\n\n- 退伍军人培训在线自助门户，用于克服日常挑战：您可以使用此门户的工具来帮助管理愤怒、培养育儿和解决问题的技能等。这些工具基于已被证明有效的心理健康实践，成功帮助了其他退伍军人和家庭。该门户是免费的，您无需登录或提供任何个人信息即可使用这些工具。访问退伍军人培训门户\n\n- 面向退伍军人的智能手机应用程序：我们与国防部（DoD）合作，创建了免费的智能手机应用程序，您可以使用它们来帮助管理身心健康。这些包括帮助您应对压力、戒烟等的应用程序。了解更多关于退伍军人应用程序的信息（PDF）\n\n- VA远程心理健康计划：您可以通过家中的电脑或移动设备，或在最近的VA卫生机构，与VA心理健康服务提供者联系。如果您已注册VA医疗保健，请让您的任何服务提供者帮助您联系我们的远程心理健康计划。\n\n### 我可以与经历过类似情况的退伍军人交谈吗？\n\n可以。BeThere同伴援助计划与Military OneSource合作，为服役人员（包括国民警卫队士兵和预备役人员）、其家属以及退役或退休后365天内的过渡期退伍军人提供支持。通过该计划，您可以与同伴教练私下交谈，他们可能是退伍军人、服役人员或军属。\n\n要与同伴教练交谈，请拨打Military OneSource的免费、保密同伴支持服务，电话800-342-9647。该服务全年365天、每天24小时可用。\n\n### 我还有其他哪些选择？\n\n如果您是参战退伍军人，您可以前往我们的退伍军人中心之一，为您和您的家人获得免费的个人和团体咨询。即使您未加入VA医疗保健且未获得伤残补偿，也可以使用这些服务。\n\n退伍军人中心提供的服务包括：\n\n- 军事性创伤（MST）咨询\n- 重新适应咨询\n- 丧亲（悲伤）咨询\n- 就业咨询\n- 药物滥用评估和转介\n\n查找您附近的退伍军人中心\n\n您也可以拨打877-927-8387，与一位参战退伍军人谈论您的经历，全天候24小时，每周7天，每年365天。\n\n如果您想与其他退伍军人、家属和当地服务联系，您可以访问我们的“建立联系”网站。该网站将数百万退伍军人及其家人和朋友与当地的VA和社区心理健康资源联系起来。访问该网站以获取这些转介资源，并听取退伍军人关于力量和康复的见证。前往“建立联系”网站"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#2_0::c0005",
+          "text": "[VA health care > 更多信息和资源]\n- VA 医疗保健共付额费率\n\n查看我们针对不同类型护理、检查和药物的当前共付额费率。\n\n- 心理健康服务\n\n了解如何获取 VA 心理健康服务，包括创伤后应激障碍（PTSD）、军事性创伤（MST）的心理影响、抑郁、悲伤、焦虑及其他需求。\n\n- 特定健康需求和状况\n\n了解如何针对特定需求（如女性健康）获得护理，并了解您应注意的与服务相关的健康问题（如与 Agent Orange 相关的疾病或 Camp Lejeune 水污染）。\n\n- 化学或危险物质暴露\n\n了解与军事服役期间暴露相关的健康问题。了解您可以加入的特殊VA健康登记处，这些登记处记录退伍军人接触橙剂、贫铀、电离辐射、空气传播危害和其他危险物质的情况。\n\n- 退伍军人健康与保健项目\n\n探索VA项目，帮助您在身心两方面保持健康。\n\n- 社区护理\n\n如果您已注册VA医疗保健，了解如何通过社区护理从当地社区的提供者那里获得护理。\n\n- 《平价医疗法案》(ACA) 与您的VA医疗保健覆盖范围\n\n了解您需要知道的关于《平价医疗法案》及其对退伍军人的意义。\n\n- 百万退伍军人项目\n\n看看您是否可以参与这项自愿研究，以更好地了解基因在我们健康中的作用。\n\n- VA医疗保健的可及性与质量\n\n获取有关您VA设施的信息，例如您能多快被接诊以及其他退伍军人对其体验的评价。\n\n- 患者权利与责任\n\n阅读您在VA医疗机构接受护理或居住在VA社区生活中心时的基本权利与责任。\n\n### 其他VA福利与服务\n\n- 残疾补偿（薪酬）\n\n了解如何提交残疾补偿申请并管理您的残疾福利。\n\n- 人寿保险\n\n探索您的人寿保险选项，并了解作为军人、退伍军人或家庭成员如何申请。\n\n- 援助与出勤福利及居家津贴\n\n了解作为有残疾的退伍军人或遗属，您是否有资格获得增加的养老金。\n\n- 丧葬福利与纪念物品\n\n了解退伍军人丧葬福利、如何安排葬礼服务，以及作为幸存者如何获得补偿。\n\n- 教育与培训\n\n申请并管理GI Bill及其他教育福利，以帮助支付大学和培训项目的费用。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Women's Health Care Needs | Veterans Affairs#1_0::c0003",
+          "text": "[女性退伍军人的医疗保健需求 | Veterans Affairs > 如何获得与性创伤相关的帮助？]\n如果您是经历过MST的退伍军人，您可以通过VA获得帮助。您不需要有服务相关的残疾评级，即 使您不符合其他VA服务的资格，您也可能能够获得与MST相关的护理。您也不需要报告过MST或 有其他证据证明它发生过。了解更多关于MST的支持"
+        },
+        {
+          "chunk_id": "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+          "text": "# Military Sexual Trauma (MST) | Veterans Affairs\n\n# Military sexual trauma (MST)\n\nMilitary sexual trauma (MST) refers to sexual assault or repeated, threatening sexual harassment that happened while a Veteran was in the military. This can happen to both women and men. If you were involved in any sexual act against your will during your time in the military, you may have experienced MST. Find out how to access our free services that can help you recover.\n\n### How do I talk to someone right now?\n\nFind out how to get support anytime day or night.\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.\n\nTo connect with a Veterans Crisis Line responder anytime day or night:\n\n- Call 800-273-8255, then select 1.\n- Start a confidential Veterans chat.\n- Text 838255.\n- If you have hearing loss, call TTY: 800-799-4889.\n\nYou can also:\n\n- Call 911.\n- Go to the nearest emergency room.\n- Go directly to your nearest VA medical center. It doesn't matter what your discharge status is or if you're enrolled in VA health care.Find your nearest VA medical center\n\n### What services does VA provide for Veterans who ve experienced MST?\n\nWe provide free, confidential (private) counseling and treatment to male and female Veterans for both mental and physical health problems linked to MST.\n\nOur services include:\n\n- MST-related treatment and support at every VA medical center, and providers knowledgeable about treating the aftereffects of MST at each facility\n- Specialized outpatient mental health services focused on sexual trauma at many VA locations\n- Counseling with professionals who are specially trained to treat conditions related to sexual trauma at Vet Centers across the country\n- Specialized MST treatment in a residential (live-in) or inpatient setting including gender-specific programs for Veterans who need more intensive care\n- Treatment and support for health conditions linked to MST, like:\n  - Posttraumatic stress disorder (PTSD)\n  - Depression\n  - Substance use problems\n\n## How do I access VA services for MST?\n\nIf you re a Veteran who has experienced MST, you can get help through VA. You don t need to have a service-connected disability rating, and you may be able to get MST-related care even if you don t qualify for other VA services. You also don t need to have reported the MST or have other proof that it happened.\n\nHere s how to access VA services for MST:\n\n- If you have a VA primary care provider, talk to that professional about what you ve been through. All our primary care providers are trained in MST and can help you figure out if you have related issues, like PTSD or depression. Your provider will offer treatment and support as needed.\n- If you don t have a VA primary care provider, call your nearest VA medical center and ask to speak to the MST coordinator. You should feel free to ask for a provider of a specific gender if that makes you feel more comfortable.Find a VA medical center near you\n- If you d prefer to receive MST-related care outside of a medical setting, get free confidential counseling, alcohol and drug assessment, and other support at one of our 300 community Vet Centers.Find a Vet Center near you\n- If you re homeless or at risk of becoming homeless:\n  - Contact the National Call Center for Homeless Veterans at 877-424-3838 for help 24 hours a day, 7 days a week. A trained VA counselor will offer information about VA homeless programs, health care, and other services in your area. The call is free and confidential.\n  - Visit our website to learn about VA programs for Veterans who are homeless.Learn about our homelessness programs\n  - Call or visit your local VA Community Resource and Referral Center. Even if you don t qualify for VA health care, our staff can help you find non-VA resources you may qualify for in your community.Find your local Community Resource and Referral Center\n\nYou can also call the VA general information hotline at 800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\nSee our Guide to VA Mental Health Services (PDF)\n\n## Can I get disability compensation (monthly payments) or other benefits from VA?\n\nYou can t get compensation for the traumatic event itself. But you may be able to get disability compensation for conditions resulting from MST like PTSD (the most common mental health condition linked to MST).Find out if you can get disability benefits for PTSD\n\nOr get help applying for disability compensation by:\n\n- Reading our fact sheet on disability compensation for conditions related to MST.Read the fact sheet (PDF)\n- Talking to the MST coordinator at your nearest VA regional office.Find an MST coordinator near you\n\n## Where can I find more information and support?\n\n- Download our military sexual trauma brochure for Veterans:\n  - In English (PDF)\n  - En espa ol (PDF)\n- Download our educational brochure for men who ve experienced MST:\n  - In English (PDF)\n  - En espa ol (PDF)\n- Watch a video about MST, its effects on survivors, and VA services available to Veterans who ve experienced MST.Watch the video\n- Access more fact sheets, articles, and resources, and learn more about our programs and services.Get VA information about mental health\n- Go to our Make the Connection website to hear stories from Veterans about their own experiences with the effects of MST, and find more resources and support.Visit Make the Connection\n- Go to the Department of Defense (DoD) Safe Helpline website, a crisis support service for members of the DOD community affected by sexual assault. When you contact the Safe Helpline, you can remain anonymous (meaning you don t have to give your name). You can get 1-on-1 advice, support, and information 24/7 by phone, text, or online chat. You can also connect with a sexual assault response coordinator near your base or installation.Visit SafeHelpline.org\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0027",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 心理健康服务]\n了解如何获取VA心理健康服务，用于创伤后应激障碍（PTSD）、军事性创伤（MST）的心理影响、抑郁、悲伤、焦虑及其他需求。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "text": "[VA心理健康服务 > 入门指南]\n如果您需要针对特定心理健康问题的支持，或者您正面临睡眠问题、难以控制愤怒或难以重新适应平民生活，您并不孤单。我们可以提供帮助。\n\n去年，超过170万退伍军人在VA接受了心理健康服务。我们的服务范围从与其他退伍军人的同伴支持到咨询、治疗、药物治疗或这些选项的组合。我们的目标是帮助您掌控自己的治疗，过上充实而有意义的生活。\n\n### 如何安排我的第一次预约？\n\n如果您已经在使用VA医疗服务，请让您的主治医生帮助您预约VA心理健康服务提供者。\n\n如果您尚未使用VA医疗服务，请联系最近的VA医疗中心或退伍军人中心，讨论您的需求。查找最近的VA医疗中心或退伍军人中心\n\n### 如果我不确定自己需要什么样的帮助怎么办？\n\n您可以拨打877-222-8387，找到适合您需求的资源。如果您有听力障碍，请拨打TTY：800-877-8339。\n\n我们周一至周五，东部时间上午8:00至晚上8:00提供服务。\n\n### 我很难亲自前往VA机构。我可以在线获得心理健康服务吗？\n\n可以。您或许可以使用以下一种或多种护理选项。\n\n- 退伍军人培训在线自助门户，用于克服日常挑战：您可以使用此门户的工具来帮助管理愤怒、培养育儿和解决问题的技能等。这些工具基于已被证明有效的心理健康实践，成功帮助了其他退伍军人和家庭。该门户是免费的，您无需登录或提供任何个人信息即可使用这些工具。访问退伍军人培训门户\n\n- 面向退伍军人的智能手机应用程序：我们与国防部（DoD）合作，创建了免费的智能手机应用程序，您可以使用它们来帮助管理身心健康。这些包括帮助您应对压力、戒烟等的应用程序。了解更多关于退伍军人应用程序的信息（PDF）\n\n- VA远程心理健康计划：您可以通过家中的电脑或移动设备，或在最近的VA卫生机构，与VA心理健康服务提供者联系。如果您已注册VA医疗保健，请让您的任何服务提供者帮助您联系我们的远程心理健康计划。\n\n### 我可以与经历过类似情况的退伍军人交谈吗？\n\n可以。BeThere同伴援助计划与Military OneSource合作，为服役人员（包括国民警卫队士兵和预备役人员）、其家属以及退役或退休后365天内的过渡期退伍军人提供支持。通过该计划，您可以与同伴教练私下交谈，他们可能是退伍军人、服役人员或军属。\n\n要与同伴教练交谈，请拨打Military OneSource的免费、保密同伴支持服务，电话800-342-9647。该服务全年365天、每天24小时可用。\n\n### 我还有其他哪些选择？\n\n如果您是参战退伍军人，您可以前往我们的退伍军人中心之一，为您和您的家人获得免费的个人和团体咨询。即使您未加入VA医疗保健且未获得伤残补偿，也可以使用这些服务。\n\n退伍军人中心提供的服务包括：\n\n- 军事性创伤（MST）咨询\n- 重新适应咨询\n- 丧亲（悲伤）咨询\n- 就业咨询\n- 药物滥用评估和转介\n\n查找您附近的退伍军人中心\n\n您也可以拨打877-927-8387，与一位参战退伍军人谈论您的经历，全天候24小时，每周7天，每年365天。\n\n如果您想与其他退伍军人、家属和当地服务联系，您可以访问我们的“建立联系”网站。该网站将数百万退伍军人及其家人和朋友与当地的VA和社区心理健康资源联系起来。访问该网站以获取这些转介资源，并听取退伍军人关于力量和康复的见证。前往“建立联系”网站"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#2_0::c0005",
+          "text": "[VA health care > 更多信息和资源]\n- VA 医疗保健共付额费率\n\n查看我们针对不同类型护理、检查和药物的当前共付额费率。\n\n- 心理健康服务\n\n了解如何获取 VA 心理健康服务，包括创伤后应激障碍（PTSD）、军事性创伤（MST）的心理影响、抑郁、悲伤、焦虑及其他需求。\n\n- 特定健康需求和状况\n\n了解如何针对特定需求（如女性健康）获得护理，并了解您应注意的与服务相关的健康问题（如与 Agent Orange 相关的疾病或 Camp Lejeune 水污染）。\n\n- 化学或危险物质暴露\n\n了解与军事服役期间暴露相关的健康问题。了解您可以加入的特殊VA健康登记处，这些登记处记录退伍军人接触橙剂、贫铀、电离辐射、空气传播危害和其他危险物质的情况。\n\n- 退伍军人健康与保健项目\n\n探索VA项目，帮助您在身心两方面保持健康。\n\n- 社区护理\n\n如果您已注册VA医疗保健，了解如何通过社区护理从当地社区的提供者那里获得护理。\n\n- 《平价医疗法案》(ACA) 与您的VA医疗保健覆盖范围\n\n了解您需要知道的关于《平价医疗法案》及其对退伍军人的意义。\n\n- 百万退伍军人项目\n\n看看您是否可以参与这项自愿研究，以更好地了解基因在我们健康中的作用。\n\n- VA医疗保健的可及性与质量\n\n获取有关您VA设施的信息，例如您能多快被接诊以及其他退伍军人对其体验的评价。\n\n- 患者权利与责任\n\n阅读您在VA医疗机构接受护理或居住在VA社区生活中心时的基本权利与责任。\n\n### 其他VA福利与服务\n\n- 残疾补偿（薪酬）\n\n了解如何提交残疾补偿申请并管理您的残疾福利。\n\n- 人寿保险\n\n探索您的人寿保险选项，并了解作为军人、退伍军人或家庭成员如何申请。\n\n- 援助与出勤福利及居家津贴\n\n了解作为有残疾的退伍军人或遗属，您是否有资格获得增加的养老金。\n\n- 丧葬福利与纪念物品\n\n了解退伍军人丧葬福利、如何安排葬礼服务，以及作为幸存者如何获得补偿。\n\n- 教育与培训\n\n申请并管理GI Bill及其他教育福利，以帮助支付大学和培训项目的费用。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Women's Health Care Needs | Veterans Affairs#1_0::c0003",
+          "text": "[女性退伍军人的医疗保健需求 | Veterans Affairs > 如何获得与性创伤相关的帮助？]\n如果您是经历过MST的退伍军人，您可以通过VA获得帮助。您不需要有服务相关的残疾评级，即 使您不符合其他VA服务的资格，您也可能能够获得与MST相关的护理。您也不需要报告过MST或 有其他证据证明它发生过。了解更多关于MST的支持"
+        },
+        {
+          "chunk_id": "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+          "text": "# Military Sexual Trauma (MST) | Veterans Affairs\n\n# Military sexual trauma (MST)\n\nMilitary sexual trauma (MST) refers to sexual assault or repeated, threatening sexual harassment that happened while a Veteran was in the military. This can happen to both women and men. If you were involved in any sexual act against your will during your time in the military, you may have experienced MST. Find out how to access our free services that can help you recover.\n\n### How do I talk to someone right now?\n\nFind out how to get support anytime day or night.\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.\n\nTo connect with a Veterans Crisis Line responder anytime day or night:\n\n- Call 800-273-8255, then select 1.\n- Start a confidential Veterans chat.\n- Text 838255.\n- If you have hearing loss, call TTY: 800-799-4889.\n\nYou can also:\n\n- Call 911.\n- Go to the nearest emergency room.\n- Go directly to your nearest VA medical center. It doesn't matter what your discharge status is or if you're enrolled in VA health care.Find your nearest VA medical center\n\n### What services does VA provide for Veterans who ve experienced MST?\n\nWe provide free, confidential (private) counseling and treatment to male and female Veterans for both mental and physical health problems linked to MST.\n\nOur services include:\n\n- MST-related treatment and support at every VA medical center, and providers knowledgeable about treating the aftereffects of MST at each facility\n- Specialized outpatient mental health services focused on sexual trauma at many VA locations\n- Counseling with professionals who are specially trained to treat conditions related to sexual trauma at Vet Centers across the country\n- Specialized MST treatment in a residential (live-in) or inpatient setting including gender-specific programs for Veterans who need more intensive care\n- Treatment and support for health conditions linked to MST, like:\n  - Posttraumatic stress disorder (PTSD)\n  - Depression\n  - Substance use problems\n\n## How do I access VA services for MST?\n\nIf you re a Veteran who has experienced MST, you can get help through VA. You don t need to have a service-connected disability rating, and you may be able to get MST-related care even if you don t qualify for other VA services. You also don t need to have reported the MST or have other proof that it happened.\n\nHere s how to access VA services for MST:\n\n- If you have a VA primary care provider, talk to that professional about what you ve been through. All our primary care providers are trained in MST and can help you figure out if you have related issues, like PTSD or depression. Your provider will offer treatment and support as needed.\n- If you don t have a VA primary care provider, call your nearest VA medical center and ask to speak to the MST coordinator. You should feel free to ask for a provider of a specific gender if that makes you feel more comfortable.Find a VA medical center near you\n- If you d prefer to receive MST-related care outside of a medical setting, get free confidential counseling, alcohol and drug assessment, and other support at one of our 300 community Vet Centers.Find a Vet Center near you\n- If you re homeless or at risk of becoming homeless:\n  - Contact the National Call Center for Homeless Veterans at 877-424-3838 for help 24 hours a day, 7 days a week. A trained VA counselor will offer information about VA homeless programs, health care, and other services in your area. The call is free and confidential.\n  - Visit our website to learn about VA programs for Veterans who are homeless.Learn about our homelessness programs\n  - Call or visit your local VA Community Resource and Referral Center. Even if you don t qualify for VA health care, our staff can help you find non-VA resources you may qualify for in your community.Find your local Community Resource and Referral Center\n\nYou can also call the VA general information hotline at 800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\nSee our Guide to VA Mental Health Services (PDF)\n\n## Can I get disability compensation (monthly payments) or other benefits from VA?\n\nYou can t get compensation for the traumatic event itself. But you may be able to get disability compensation for conditions resulting from MST like PTSD (the most common mental health condition linked to MST).Find out if you can get disability benefits for PTSD\n\nOr get help applying for disability compensation by:\n\n- Reading our fact sheet on disability compensation for conditions related to MST.Read the fact sheet (PDF)\n- Talking to the MST coordinator at your nearest VA regional office.Find an MST coordinator near you\n\n## Where can I find more information and support?\n\n- Download our military sexual trauma brochure for Veterans:\n  - In English (PDF)\n  - En espa ol (PDF)\n- Download our educational brochure for men who ve experienced MST:\n  - In English (PDF)\n  - En espa ol (PDF)\n- Watch a video about MST, its effects on survivors, and VA services available to Veterans who ve experienced MST.Watch the video\n- Access more fact sheets, articles, and resources, and learn more about our programs and services.Get VA information about mental health\n- Go to our Make the Connection website to hear stories from Veterans about their own experiences with the effects of MST, and find more resources and support.Visit Make the Connection\n- Go to the Department of Defense (DoD) Safe Helpline website, a crisis support service for members of the DOD community affected by sexual assault. When you contact the Safe Helpline, you can remain anonymous (meaning you don t have to give your name). You can get 1-on-1 advice, support, and information 24/7 by phone, text, or online chat. You can also connect with a sexual assault response coordinator near your base or installation.Visit SafeHelpline.org\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Health Care | Veterans Affairs#1_0::c0027",
+          "text": "[VA 医疗保健 | 退伍军人事务部 > 心理健康服务]\n了解如何获取VA心理健康服务，用于创伤后应激障碍（PTSD）、军事性创伤（MST）的心理影响、抑郁、悲伤、焦虑及其他需求。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+          "document": "Military Sexual Trauma (MST) | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_058.md",
+          "excerpt": "# Military Sexual Trauma (MST) | Veterans Affairs\n\n# Military sexual trauma (MST)\n\nMilitary sexual trauma (MST) refers to sexual assault or repeated, threatening sexual harassment that happened while a Veteran was in the military. This can happen to both women and men. If you were involved in any sexual act against your will during your time in the military, you may have experienced MST. Find out how to access our free services that can help you recover.\n\n### How do I talk to someone right now?\n\nFind out how to get support anytime day or night.\n\nIf you're a Veteran in crisis or concerned about one, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7.\n\nTo connect with a Veterans Crisis Line responder anytime day or night:\n\n- Call 800-273-8255, then select 1.\n- Start a confidential Veterans chat.\n- Text 838255.\n- If you have hearing loss, call TTY: 800-799-4889.\n\nYou can also:\n\n- Call 911.\n- Go to the nearest emergency room.\n- Go directly to your nearest VA medical center. It doesn't matter what your discharge status is or if you're enrolled in VA health care.Find your nearest VA medical center\n\n### What services does VA provide for Veterans who ve experienced MST?\n\nWe provide free, confidential (private) counseling and treatment to male and female Veterans for both mental and physical health problems linked to MST.\n\nOur services include:\n\n- MST-related treatment and support at every VA medical center, and providers knowledgeable about treating the aftereffects of MST at each facility\n- Specialized outpatient mental health services focused on sexual trauma at many VA locations\n- Counseling with professionals who are specially trained to treat conditions related to sexual trauma at Vet Centers across the country\n- Specialized MST treatment in a residential (live-in) or inpatient setting including gender-specific programs for Veterans who need more intensive care\n- Treatment and support for health conditions linked to MST, like:\n  - Posttraumatic stress disorder (PTSD)\n  - Depression\n  - Substance use problems\n\n## How do I access VA services for MST?\n\nIf you re a Veteran who has experienced MST, you can get help through VA. You don t need to have a service-connected disability rating, and you may be able to get MST-related care even if you don t qualify for other VA services. You also don t need to have reported the MST or have other proof that it happened.\n\nHere s how to access VA services for MST:\n\n- If you have a VA primary care provider, talk to that professional about what you ve been through. All our primary care providers are trained in MST and can help you figure out if you have related issues, like PTSD or depression. Your provider will offer treatment and support as needed.\n- If you don t have a VA primary care provider, call your nearest VA medical center and ask to speak to the MST coordinator. You should feel free to ask for a provider of a specific gender if that makes you feel more comfortable.Find a VA medical center near you\n- If you d prefer to receive MST-related care outside of a medical setting, get free confidential counseling, alcohol and drug assessment, and other support at one of our 300 community Vet Centers.Find a Vet Center near you\n- If you re homeless or at risk of becoming homeless:\n  - Contact the National Call Center for Homeless Veterans at 877-424-3838 for help 24 hours a day, 7 days a week. A trained VA counselor will offer information about VA homeless programs, health care, and other services in your area. The call is free and confidential.\n  - Visit our website to learn about VA programs for Veterans who are homeless.Learn about our homelessness programs\n  - Call or visit your local VA Community Resource and Referral Center. Even if you don t qualify for VA health care, our staff can help you find non-VA resources you may qualify for in your community.Find your local Community Resource and Referral Center\n\nYou can also call the VA general information hotline at 800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET.\n\nSee our Guide to VA Mental Health Services (PDF)\n\n## Can I get disability compensation (monthly payments) or other benefits from VA?\n\nYou can t get compensation for the traumatic event itself. But you may be able to get disability compensation for conditions resulting from MST like PTSD (the most common mental health condition linked to MST).Find out if you can get disability benefits for PTSD\n\nOr get help applying for disability compensation by:\n\n- Reading our fact sheet on disability compensation for conditions related to MST.Read the fact sheet (PDF)\n- Talking to the MST coordinator at your nearest VA regional office.Find an MST coordinator near you\n\n## Where can I find more information and support?\n\n- Download our military sexual trauma brochure for Veterans:\n  - In English (PDF)\n  - En espa ol (PDF)\n- Download our educational brochure for men who ve experienced MST:\n  - In English (PDF)\n  - En espa ol (PDF)\n- Watch a video about MST, its effects on survivors, and VA services available to Veterans who ve experienced MST.Watch the video\n- Access more fact sheets, articles, and resources, and learn more about our programs and services.Get VA information about mental health\n- Go to our Make the Connection website to hear stories from Veterans about their own experiences with the effects of MST, and find more resources and support.Visit Make the Connection\n- Go to the Department of Defense (DoD) Safe Helpline website, a crisis support service for members of the DOD community affected by sexual assault. When you contact the Safe Helpline, you can remain anonymous (meaning you don t have to give your name). You can get 1-on-1 advice, support, and information 24/7 by phone, text, or online chat. You can also connect with a sexual assault response coordinator near your base or installation.Visit SafeHelpline.org\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "document": "VA Mental Health Services | Veterans Affairs#1_0",
+          "heading": [
+            "VA心理健康服务",
+            "入门指南"
+          ],
+          "source_file": "va_113.md",
+          "excerpt": "[VA心理健康服务 > 入门指南]\n如果您需要针对特定心理健康问题的支持，或者您正面临睡眠问题、难以控制愤怒或难以重新适应平民生活，您并不孤单。我们可以提供帮助。\n\n去年，超过170万退伍军人在VA接受了心理健康服务。我们的服务范围从与其他退伍军人的同伴支持到咨询、治疗、药物治疗或这些选项的组合。我们的目标是帮助您掌控自己的治疗，过上充实而有意义的生活。\n\n### 如何安排我的第一次预约？\n\n如果您已经在使用VA医疗服务，请让您的主治医生帮助您预约VA心理健康服务提供者。\n\n如果您尚未使用VA医疗服务，请联系最近的VA医疗中心或退伍军人中心，讨论您的需求。查找最近的VA医疗中心或退伍军人中心\n\n### 如果我不确定自己需要什么样的帮助怎么办？\n\n您可以拨打877-222-8387，找到适合您需求的资源。如果您有听力障碍，请拨打TTY：800-877-8339。\n\n我们周一至周五，东部时间上午8:00至晚上8:00提供服务。\n\n### 我很难亲自前往VA机构。我可以在线获得心理健康服务吗？\n\n可以。您或许可以使用以下一种或多种护理选项。\n\n- 退伍军人培训在线自助门户，用于克服日常挑战：您可以使用此门户的工具来帮助管理愤怒、培养育儿和解决问题的技能等。这些工具基于已被证明有效的心理健康实践，成功帮助了其他退伍军人和家庭。该门户是免费的，您无需登录或提供任何个人信息即可使用这些工具。访问退伍军人培训门户\n\n- 面向退伍军人的智能手机应用程序：我们与国防部（DoD）合作，创建了免费的智能手机应用程序，您可以使用它们来帮助管理身心健康。这些包括帮助您应对压力、戒烟等的应用程序。了解更多关于退伍军人应用程序的信息（PDF）\n\n- VA远程心理健康计划：您可以通过家中的电脑或移动设备，或在最近的VA卫生机构，与VA心理健康服务提供者联系。如果您已注册VA医疗保健，请让您的任何服务提供者帮助您联系我们的远程心理健康计划。\n\n### 我可以与经历过类似情况的退伍军人交谈吗？\n\n可以。BeThere同伴援助计划与Military OneSource合作，为服役人员（包括国民警卫队士兵和预备役人员）、其家属以及退役或退休后365天内的过渡期退伍军人提供支持。通过该计划，您可以与同伴教练私下交谈，他们可能是退伍军人、服役人员或军属。\n\n要与同伴教练交谈，请拨打Military OneSource的免费、保密同伴支持服务，电话800-342-9647。该服务全年365天、每天24小时可用。\n\n### 我还有其他哪些选择？\n\n如果您是参战退伍军人，您可以前往我们的退伍军人中心之一，为您和您的家人获得免费的个人和团体咨询。即使您未加入VA医疗保健且未获得伤残补偿，也可以使用这些服务。\n\n退伍军人中心提供的服务包括：\n\n- 军事性创伤（MST）咨询\n- 重新适应咨询\n- 丧亲（悲伤）咨询\n- 就业咨询\n- 药物滥用评估和转介\n\n查找您附近的退伍军人中心\n\n您也可以拨打877-927-8387，与一位参战退伍军人谈论您的经历，全天候24小时，每周7天，每年365天。\n\n如果您想与其他退伍军人、家属和当地服务联系，您可以访问我们的“建立联系”网站。该网站将数百万退伍军人及其家人和朋友与当地的VA和社区心理健康资源联系起来。访问该网站以获取这些转介资源，并听取退伍军人关于力量和康复的见证。前往“建立联系”网站"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "您可以下载我们为退伍军人准备的军事性创伤手册：英文PDF，或西班牙语PDF。此外，您还可以访问“建立联系”网站获取更多资源和支持，或拨打退伍军人危机热线800-273-8255（然后按1）寻求即时帮助。",
+          "citations": [
+            "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+            "VA Mental Health Services | Veterans Affairs#1_0::c0003"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "e108dd0f4a62429cba28dac7d0ae57cd",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3074,
+              "completion_tokens": 108,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 108,
+                "prompt_tokens": 3074,
+                "total_tokens": 3182,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2818
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0047258000000000005,
+            "accounted_rmb": 0.0047258000000000005,
+            "usage_unknown": false,
+            "seconds": 1.4665768146514893,
+            "error": null,
+            "response": {
+              "id": "07dbaba0-142d-4097-8ae2-3419c2122dd3",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "ea49e12185c46a9d55ec028e4e577938a69e4c2219295569807ad0bc43e02e4c"
+      },
+      "latency_ms": {
+        "queue_wait": 0.00829098280519247,
+        "retrieval": 1652.0141250221059,
+        "generation": 1470.4770829994231,
+        "total": 3124.408332980238
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.13242262497078627,
+        "rerank_seconds": 1.5195336659671739,
+        "top1_dense_score": 0.8040714263916016,
+        "candidate_ids": [
+          "Women's Health Care Needs | Veterans Affairs#1_0::c0003",
+          "VA Health Care | Veterans Affairs#1_0::c0027",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0001",
+          "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#2_0::c0005",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0003",
+          "VA Health Care | Veterans Affairs#1_0::c0025",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0::c0005",
+          "VA Mental Health Services | Veterans Affairs#1_0::c0003",
+          "VA.gov Home | Veterans Affairs#1_0::c0000",
+          "VA Health Care | Veterans Affairs#1_0::c0020",
+          "VA Disability Compensation For PTSD | Veterans Affairs#1_0::c0000",
+          "PTSD Treatment | Veterans Affairs#1_0::c0006",
+          "VA Health Care | Veterans Affairs#1_0::c0042",
+          "Women's Health Care Needs | Veterans Affairs#1_0::c0004",
+          "VA Disability Compensation | Veterans Affairs#1_0::c0000",
+          "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0::c0009",
+          "VA Health Care | Veterans Affairs#1_0::c0034",
+          "VA Health Care | Veterans Affairs#1_0::c0029"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 33,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.6519748339196667
+      },
+      "raw_citations": [
+        "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000",
+        "VA Mental Health Services | Veterans Affairs#1_0::c0003"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "3e2d37d7bee53b8f89181422d57fca62485ce4b06dcde7e9ecae7c6a7857294f"
+}

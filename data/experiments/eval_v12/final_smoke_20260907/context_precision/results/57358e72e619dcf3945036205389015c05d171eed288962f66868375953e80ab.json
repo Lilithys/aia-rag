@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "57358e72e619dcf3945036205389015c05d171eed288962f66868375953e80ab",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.99999999995,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context directly addresses the question about what to expect when requesting a call with a higher-level reviewer, providing details about the process, including the reviewer calling the number on the form, making two attempts, and leaving a voicemail. The answer accurately summarizes this information.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0e155f1447e34edba5a1ef5e84c9dff6",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1058,
+                "completion_tokens": 69,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1058,
+                  "total_tokens": 1127,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 34
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004127,
+              "accounted_rmb": 0.0004127,
+              "usage_unknown": false,
+              "seconds": 1.2152140140533447,
+              "error": null,
+              "response": {
+                "id": "057f4553-e7f2-44d0-8a24-e414095f9c0c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "6263d96f6fefe612098ea0053abd0b61dfb73fa378c37269bd965e8e34a07111"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context directly addresses the question about what to expect when requesting a call with a senior reviewer, and the answer accurately summarizes the key points from the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "488a682e22c6434d8412395f45495578",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1074,
+                "completion_tokens": 46,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 46,
+                  "prompt_tokens": 1074,
+                  "total_tokens": 1120,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 50
+                }
+              },
+              "usage_cost_estimate_rmb": 0.00033319999999999997,
+              "accounted_rmb": 0.00033319999999999997,
+              "usage_unknown": false,
+              "seconds": 1.3795220851898193,
+              "error": null,
+              "response": {
+                "id": "984b25f3-c5b3-4626-a8c0-7876943d60ab",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "85abdc75808dc00215db321df49088a6a5fb2ee54a50faff5b62ea24f810b310"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explains that in a Higher-Level Review, the claimant or their representative can speak with the reviewer by phone, but it does not specify the process of the reviewer calling to arrange a time or making two call attempts. The answer provides additional details not present in the context, so the context was not fully useful in arriving at the answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "6232e2647f0b474cb4e02096a727dc8e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1078,
+                "completion_tokens": 83,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 83,
+                  "prompt_tokens": 1078,
+                  "total_tokens": 1161,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 54
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005057,
+              "accounted_rmb": 0.0005057,
+              "usage_unknown": false,
+              "seconds": 1.695641040802002,
+              "error": null,
+              "response": {
+                "id": "a9dbd7e3-ffb5-47d9-88ef-4c371aa63004",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5d1728d420b76b85ffde1d268d8ed4dde02f6916510110ffd64d3db5c98f4190"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explains the process of requesting a Higher-Level Review and mentions that the reviewer will call within 2-4 weeks after VA processes the request, but it does not specify that the reviewer makes two call attempts or leaves a voicemail. The answer includes details not present in the context, so the context was not fully useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a4377eb53d3b4b3398a660a669043341",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1826,
+                "completion_tokens": 88,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 88,
+                  "prompt_tokens": 1826,
+                  "total_tokens": 1914,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 34
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005366,
+              "accounted_rmb": 0.0005366,
+              "usage_unknown": false,
+              "seconds": 1.4115209579467773,
+              "error": null,
+              "response": {
+                "id": "f4cad617-89fb-4ca0-a48f-0f50902afaa3",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "724150bdff4810c14204cee98eafc97a5501f7efe68caee8bb4f6a09c07ef41f"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context explains that in Higher-Level Review, you and/or your representative can communicate with the reviewer by phone to discuss why you believe the decision should be changed and point out errors. However, it does not specify the process of the reviewer calling the number on the form, making two call attempts, or leaving a voicemail. Therefore, the context is not directly useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "8662bd7f95a04e2ca64702a6b9b62e59",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1818,
+                "completion_tokens": 96,
+                "cached_tokens": 1792,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 96,
+                  "prompt_tokens": 1818,
+                  "total_tokens": 1914,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1792,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1792,
+                  "prompt_cache_miss_tokens": 26
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0005606000000000001,
+              "accounted_rmb": 0.0005606000000000001,
+              "usage_unknown": false,
+              "seconds": 1.4945659637451172,
+              "error": null,
+              "response": {
+                "id": "d7d1f595-c005-4468-ad6b-2eea737cf9e2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "7bce0bd3fbeb8acfcfc81d075ac4b886eb78452e68d0c2976fe7209b2e895c79"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "b2696ca4e7cc57d82dc348b6437a181047faac990bd9f4b39e57409237f7a91b"
+}

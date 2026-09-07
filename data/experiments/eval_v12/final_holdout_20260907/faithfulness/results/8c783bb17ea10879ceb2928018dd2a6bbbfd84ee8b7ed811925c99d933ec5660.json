@@ -1,0 +1,158 @@
+{
+  "payload": {
+    "task_id": "8c783bb17ea10879ceb2928018dd2a6bbbfd84ee8b7ed811925c99d933ec5660",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "根据您提供的信息，国家召唤服役计划（National Call to Service）的资格要求如下：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且在没有服役中断的情况下，再服役一段额外的现役期或在选定预备役部队中保持现役状态24个月。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "National Call To Service Program | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The eligibility requirements are directly stated in the context."
+              },
+              {
+                "text": "之后，您还需完成剩余的服役义务，方式包括在武装部队服现役、在选定预备役部队服役、在个人待命预备役服役，或在美国志愿队等国内国家服务计划中服务。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "National Call To Service Program | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The ways to complete remaining service are listed in the context."
+              },
+              {
+                "text": "如果您符合这些条件，您可以选择以下福利之一：5,000美元现金奖励、不超过18,000美元的学贷偿还、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "National Call To Service Program | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The benefit options are listed in the context."
+              },
+              {
+                "text": "请注意，此计划由退伍军人事务部（VA）代表国防部管理，且可能影响您的服役合同。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "National Call To Service Program | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states the program is administered by VA on behalf of DoD and may affect service contract."
+              },
+              {
+                "text": "如果您尚未完成国家服役，建议联系您的招募人员了解具体资格和注册事宜。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "National Call To Service Program | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context advises contacting a recruiter for eligibility and enrollment."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "859bd70f131d447d92a26c8b661dc96c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2008,
+                "completion_tokens": 562,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 562,
+                  "prompt_tokens": 2008,
+                  "total_tokens": 2570,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 1624
+                }
+              },
+              "usage_cost_estimate_rmb": 0.004984199999999999,
+              "accounted_rmb": 0.004984199999999999,
+              "usage_unknown": false,
+              "seconds": 3.6847071647644043,
+              "error": null,
+              "response": {
+                "id": "8ba385ba-49a0-4770-a55d-a84bf49a5fb5",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "8d34f381c6afa15ba9248a8fde96aa1b60522f8669e4b03d6693448dfdb2cacf"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 5,
+      "supported_external_claims": 5,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "根据您提供的信息，国家召唤服役计划（National Call to Service）的资格要求如下：您必须完成初始入伍训练，随后在国防部长指定的军事职业专业中继续服役15个月，并且在没有服役中断的情况下，再服役一段额外的现役期或在选定预备役部队中保持现役状态24个月。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The eligibility requirements are directly stated in the context."
+        },
+        {
+          "text": "之后，您还需完成剩余的服役义务，方式包括在武装部队服现役、在选定预备役部队服役、在个人待命预备役服役，或在美国志愿队等国内国家服务计划中服务。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The ways to complete remaining service are listed in the context."
+        },
+        {
+          "text": "如果您符合这些条件，您可以选择以下福利之一：5,000美元现金奖励、不超过18,000美元的学贷偿还、相当于3年期月度MGIB标准12个月的教育援助，或相当于不足3年期月度MGIB标准50%的36个月教育援助。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The benefit options are listed in the context."
+        },
+        {
+          "text": "请注意，此计划由退伍军人事务部（VA）代表国防部管理，且可能影响您的服役合同。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states the program is administered by VA on behalf of DoD and may affect service contract."
+        },
+        {
+          "text": "如果您尚未完成国家服役，建议联系您的招募人员了解具体资格和注册事宜。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "National Call To Service Program | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context advises contacting a recruiter for eligibility and enrollment."
+        }
+      ]
+    }
+  },
+  "sha256": "c05c9f2dbc4166ce9fa2bb1e1b2b12d20af1daccf9b02ddca6347f9b4d8ae6d4"
+}

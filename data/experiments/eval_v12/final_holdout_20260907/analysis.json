@@ -1,0 +1,148 @@
+{
+  "created_utc": "2026-09-07T05:38:50.231330+00:00",
+  "split": "holdout",
+  "candidate": "rerank_windowed_k5",
+  "generation": {
+    "planned": 100,
+    "submitted": 100,
+    "successful": 98,
+    "failed": 2
+  },
+  "metrics": {
+    "correctness": {
+      "requested": true,
+      "correct": 57,
+      "unknown": 10,
+      "generation_failures": 2,
+      "bounds": [
+        0.57,
+        0.67
+      ]
+    },
+    "faithfulness": {
+      "requested": true,
+      "scored_claim_bearing_n": 94,
+      "known_no_fact_n": 3,
+      "unknown_eligibility_or_score_n": 1,
+      "mean_scored": 0.9181610942249241,
+      "conservative_bounds_allowing_missing_to_be_fact_bearing": [
+        0.9084962406015038,
+        0.9190225563909775
+      ]
+    },
+    "context_precision": {
+      "requested": true,
+      "eligible_answer_n": 70,
+      "scored_n": 70,
+      "unknown_n": 0,
+      "bounds": [
+        0.6615873015456991,
+        0.6615873015456991
+      ]
+    }
+  },
+  "acceptance": {
+    "correctness_gte_0_80": "not_met",
+    "faithfulness_gte_0_85": "met",
+    "context_precision_gte_0_70": "not_met",
+    "success_within_10s_gte_0_90": "met"
+  },
+  "latency": {
+    "denominator_all_planned": 100,
+    "submitted": 100,
+    "successful": 98,
+    "successful_within_10s": 98,
+    "success_within_10s_over_all_planned": 0.98,
+    "p50_success_seconds": 3.186327937466558,
+    "p90_success_seconds": 4.256723950081505,
+    "max_submitted_seconds": 5.002794416039251,
+    "scope": "Warm final runtime requests; includes queue, retrieval, reranking, generation, citation validation and logging. Process/model cold start is separate."
+  },
+  "costs": {
+    "generation": {
+      "attempts": 100,
+      "accounted_rmb": 0.46485930000000003,
+      "cap_rmb": 1.5,
+      "unknown_usage_attempts": 0,
+      "prompt_tokens": 294476,
+      "completion_tokens": 15537,
+      "cached_prompt_tokens": 32256,
+      "first_attempt_utc": "2026-09-07T05:16:49.397678+00:00",
+      "last_attempt_utc": "2026-09-07T05:22:15.455623+00:00"
+    },
+    "scoring": {
+      "correctness": {
+        "attempts": 111,
+        "accounted_rmb": 0.5709359,
+        "cap_rmb": 1.5,
+        "unknown_usage_attempts": 0,
+        "prompt_tokens": 452393,
+        "completion_tokens": 20456,
+        "cached_prompt_tokens": 137728,
+        "first_attempt_utc": "2026-09-07T05:22:58.652096+00:00",
+        "last_attempt_utc": "2026-09-07T05:26:50.037159+00:00"
+      },
+      "faithfulness": {
+        "attempts": 99,
+        "accounted_rmb": 0.6387176,
+        "cap_rmb": 1.5,
+        "unknown_usage_attempts": 0,
+        "prompt_tokens": 332927,
+        "completion_tokens": 44531,
+        "cached_prompt_tokens": 42112,
+        "first_attempt_utc": "2026-09-07T05:23:10.150539+00:00",
+        "last_attempt_utc": "2026-09-07T05:28:04.341821+00:00"
+      },
+      "context_precision": {
+        "attempts": 346,
+        "accounted_rmb": 0.468694,
+        "cap_rmb": 1.5,
+        "unknown_usage_attempts": 0,
+        "prompt_tokens": 537947,
+        "completion_tokens": 21763,
+        "cached_prompt_tokens": 300800,
+        "first_attempt_utc": "2026-09-07T05:23:27.076916+00:00",
+        "last_attempt_utc": "2026-09-07T05:31:13.600901+00:00"
+      }
+    },
+    "total_final_holdout_rmb": 2.1432068,
+    "observed_generation_rmb_per_1000_submitted": 4.648593,
+    "scope": "API usage only. Local CPU/MPS, storage, OCR, embedding and reranker compute are not monetized."
+  },
+  "scoring_completion": {
+    "correctness": {
+      "completed": 98,
+      "successful": 88,
+      "pending": 0
+    },
+    "faithfulness": {
+      "completed": 98,
+      "successful": 97,
+      "pending": 0
+    },
+    "context_precision": {
+      "completed": 70,
+      "successful": 70,
+      "pending": 0
+    }
+  },
+  "bindings": {
+    "generation": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "correctness": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "faithfulness": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "context_precision": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7"
+  },
+  "source_sha256": {
+    "data/experiments/eval_v12/final_holdout_20260907/plan.json": "0d6a40605664a061939f6647b61439510746562ab2f41d79c09d182e6e79d8dc",
+    "data/experiments/eval_v12/final_holdout_20260907/generation_bundle.json": "2da8b21d167a4c6f2340bb263ec680a57f2f9fd9785b2b2ebe6834284cf92cff",
+    "data/experiments/eval_v12/final_holdout_20260907/correctness/report.json": "21ef9b8af65cd1bd5185d3f8df8bb7c63d26426df2155b4d40a4cd094227556b",
+    "data/experiments/eval_v12/final_holdout_20260907/faithfulness/report.json": "97cb397eda868ca313376ee9cfd83f2917a13d69d867ed53784ca4f1ed5e0543",
+    "data/experiments/eval_v12/final_holdout_20260907/context_precision/report.json": "f30da93db604a29c8adcd55407668813aa022cabf9f4ee0e23f5fd718e293b42"
+  },
+  "limitations": [
+    "Correctness v1.3 is an automated proxy with known diagnostic gaps and no independent human calibration.",
+    "Unknown judge results remain unknown; they are not silently dropped or counted as passes.",
+    "The holdout was evaluated once after configuration freeze and cannot be used for further tuning.",
+    "Recorded-history questions are not closed-loop conversations driven by the system's own earlier answers."
+  ]
+}

@@ -19,8 +19,12 @@ class BgeM3Model(EmbeddingModel):
     dim = 1024
     is_local = True
 
-    def __init__(self, device: str | None = None):
-        self._model = SentenceTransformer(MODEL_ID, device=device)
+    def __init__(self, device: str | None = None, revision: str | None = None):
+        self.revision = revision
+        self._model = SentenceTransformer(MODEL_ID, device=device, revision=revision)
+
+    def cache_identity(self) -> dict:
+        return self.sentence_transformer_identity(MODEL_ID, "", "")
 
     def encode_passages(self, texts: list[str], batch_size: int = 16) -> np.ndarray:
         return self._model.encode(

@@ -1,0 +1,8 @@
+{
+  "questions_checked": 100,
+  "invalid_question_ids": [],
+  "max_history_messages": 15,
+  "max_question_characters": 208,
+  "max_history_characters": 1289,
+  "api_calls": 0
+}

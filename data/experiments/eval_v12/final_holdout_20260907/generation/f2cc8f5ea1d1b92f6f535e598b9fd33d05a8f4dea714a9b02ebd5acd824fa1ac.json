@@ -1,0 +1,173 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "aef28283382ba8b0e1fcab554d8cb516::agent-turn-8",
+    "item_sha256": "45fa0675fb907db8f3000ebc62550aad6b87d6dfadcaf513ea3a9e4d15cdb5f7",
+    "result": {
+      "request_id": "8cdfbfcc0efd4bdfb2258283ecee07d3",
+      "session_id": "aef28283382ba8b0e1fcab554d8cb516",
+      "turn_id": 7,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "Yes, you may be eligible for a refund of the registration fee for the unused portion of your registration, but only under specific conditions. According to the DMV, you can apply for a full two-year refund only if the registration was never used and you apply within 60 days of the registration issue date. The registration label cannot be used—if it has been attached to your windshield or plate, you cannot remove it and apply for a refund. To request this refund, you must surrender your plates and the unused registration label and stub at a DMV office and request a 'two-year refund.' A $1 processing fee will be deducted. If you have already used part of the registration (e.g., the first year), you may be eligible for a refund of the second year's fee if you surrender the plates and meet the conditions described in the 'Refunds and transfer credits for surrendered plates' section. For full details, refer to the DMV's refund policy.",
+        "citations": [
+          "Refunds and transfer credits for surrendered plates#3_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Information about Empire Gold plates#1_0::c0000",
+          "text": "# 关于帝国金色车牌的信息\n\n# 关于帝国金色车牌的信息 [1]\n\n自2010年4月1日起，DMV已发放帝国金色车辆牌照。DMV不再发放帝国蓝色和白色牌照。\n\n### 续期注册时无需更换帝国金色车牌\n\n您可以保留当前车牌，或订购帝国金色车牌。\n\n### 何时有资格获得帝国金色车牌\n\n在以下情况下，您将获得帝国金色车牌：\n\n- 申请更换丢失或被盗的车牌\n- 申请新的（原始）注册，且不转移另一辆车的车牌或注册\n- 订购新的个性化车牌\n\n您有权订购帝国金色车牌：\n\n- 在线、邮寄或在DMV办公室续期注册时 [2]\n- 更换当前车牌（当您的注册未到期续期时）\n\n### 如何订购\n\n您可以通过电话、在线或在DMV办公室订购帝国金色车牌。新车牌和注册文件将分别邮寄给您。在大多数情况下，您会先收到新的注册文件，然后再收到车牌。\n\n为避免交通罚单，即使新车牌尚未到达，也请将新的注册文件放置在您的车辆上。收到新车牌后，请尽快将其安装在您的车辆上。\n\n在线订购时，您必须提供：\n\n- 车辆车牌号\n- 车辆类别\n- 您的姓名\n- 您的邮政编码（在DMV记录中）\n\n在线订购帝国金色车牌 [4]\n\n### 费用\n\n您需要支付车牌费用\n\n- 两片车牌套装为25美元\n- 仅接收一片车牌的车辆（摩托车、拖车等）为12.50美元\n\n您可能需要支付额外费用。当您的注册未到期续期时，更换车牌的费为3.75美元。\n\n### 保留您的原车牌号码\n\n如果您的车辆注册在以下列出的类别之一，您可以支付额外20.00美元的费用，将当前车牌号码保留在新的帝国金车牌上。\n\n- 乘用车（PAS）\n- 商用车（COM）\n- 摩托车（MOT）\n- 拖车（TRL）\n- 其他特定注册类别 - 查看符合帝国金车牌资格并保留原车牌号码的注册类别列表 [5]\n\n### 车牌费用\n\n续期时，您无需获取新的帝国金车牌并支付车牌费用。您可以续期并保留当前车牌。\n\n如果您需要新车牌，或选择获取新的帝国金车牌，您需要支付车牌费用。\n\n- 两片车辆车牌的费用为25美元\n- 单片车牌（例如拖车或摩托车车牌）的费用为12.50美元\n\n当没有注册续期时，订购帝国金车牌需额外支付3.75美元的车牌更换交易费。\n\n### 我有个性化车牌。如果我申请帝国金车牌，能否保留相同的车牌号码？\n\n可以。您可以在续期注册时获取新的帝国金车牌并保留您的个性化车牌号码。\n\n除了续期费用外，您还需要支付新车牌费用（两片新车牌为25美元，或接收单片车牌的车辆为12.50美元）。您不会因保留相同号码而被收取额外费用，因为您目前每年支付个性化车牌费用。\n\n如果您的注册未到期续期，但您想订购帝国金个性化车牌以替换当前的个性化车牌，您可以在线或在DMV办公室订购帝国金车牌。当没有注册续期时，订购帝国金车牌需额外支付3.75美元的车牌更换交易费。\n\n### 如何处理您的旧帝国蓝白车牌\n\n当您收到新的帝国金车牌时，请勿将旧车牌退回DMV。请根据当地指南回收旧车牌。\n\n如需全州地方回收协调员名单，请访问纽约州环境保护部网站：http://www.dec.ny.gov/chemical/8511.html [6]。\n\n在回收旧车牌之前，请使用永久性墨水标记划掉车牌号码或以其他方式污损车牌。为保护您自己，请将车牌分开，并在不同周放入回收箱。\n\n## 主题：\n\n- 注册 [7]\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "How to replace a registration#1_0::c0000",
+          "text": "# 如何更换车辆注册证\n\n# 如何更换车辆注册证 [1]\n\n更换车辆注册文件和挡风玻璃贴纸的费用为 $3.00，除非您同时更换车牌。1\n\n如果您需要更换因犯罪而丢失的车牌或文件，您必须通过邮寄或前往DMV办公室申请。有关更多信息，请参阅丢失或被盗车牌 [2]。\n\n### 在线办理并打印临时文件\n\n您可以在线更换大多数车辆的注册文件。您的电脑必须接受cookies。2\n\n#### 抱歉，您无法在线更换以下车辆的注册文件\n\n- 1973年款之前的车辆\n- 船只、雪地摩托或全地形车（ATV）\n- 注册已过期、被放弃、暂停或吊销的车辆\n- 摩托车或其他带有车牌贴纸的车辆\n- 拖车\n- 运输车辆\n- 通过DMV国际注册局注册的车辆\n\n#### 临时注册\n\n您可以下载并打印有效期10天的临时注册PDF文件。我们也会将副本附在您的确认邮件中。您将在10天内通过邮件收到新的注册文件。\n\n#### 您需要\n\n- 车牌号或注册号\n- 注册类别\n- 注册地址对应的邮政编码\n- 用于支付的信用卡或无密码借记卡\n\n在线更换注册 [4]\n\n### 通过邮寄\n\n发送以下材料\n\n- 填写完整的《重复/续期注册申请表》(PDF) [5] (MV-82D)\n- 您的纽约州驾驶执照、许可证、非驾驶员ID或其他身份证明的复印件 [6]\n- 一张 $3 的支票/汇票，收款人为“机动车管理局局长”\n\n至\n\nNew York State Department of Motor VehiclesUtica Processing CenterP.O. Box 359Utica, NY 13503\n\n您不能通过邮件更新您的姓名。如果您的地址有变，请在申请表上写上您的新地址。\n\n### 在DMV办公室\n\n使用《补发/续期注册申请表》(MV-82D)，并携带以下物品到DMV办公室 [7]\n\n- 一份填写完整的《补发/续期注册申请表》(PDF) [5] (MV-82D)\n- 您的纽约州驾照、许可证、非驾驶员ID，或其他身份证明 [6]\n- 支付费用$3\n\n### 如果您的地址有变\n\n您在DMV档案中的邮寄地址必须是最新的。您不能在交易期间更改地址。您可以先在线更改地址 [8]，然后再续期。\n\n注意：如果您向美国邮政服务(USPS)提交转寄邮件的请求，不保证USPS会将所有DMV文件转寄到新地址。\n\n### 如果您的姓名有变\n\n您不能在此交易期间更改姓名。您的新文件将显示您之前的姓名。如果您最近更改了姓名，请阅读更改注册或所有权证上姓名或其他信息的说明 [9]。\n\n- 1. 查看特殊说明以\n  - 更换丢失、被盗或损坏的车牌 [2]\n  - 订购新的Empire Gold车牌 [10]\n  - 订购个性化或定制车牌 [11]\n- 2. Cookies是存储在您的网络浏览器中的简单文本文件，用于区分本网站的用户。使用cookies是互联网网站的标准做法。为了更好地为您服务，我们偶尔会使用“会话cookie”来增强或定制您对本网站的访问。会话cookie可以在您用于访问本州机构网站的设备上自动创建，但不包含个人信息，也不会损害您的隐私或安全。我们可能使用cookie功能在您用于访问本网站的设备上存储一个随机生成的标识符。会话cookie在您的浏览器操作期间或关闭浏览器时会被清除。您用于访问网站的软件和硬件允许您拒绝新cookie或删除现有cookie。拒绝或删除这些cookie可能会限制您利用本网站某些功能的能力。\n\n## 主题：\n\n- 注册 [12]\n\n## 相关PDF：\n\nmv82d.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Refunds and transfer credits for surrendered plates#3_0::c0000",
+          "text": "# 退还车牌的费用和转让信用额度\n\n当您向DMV交回车牌时，您可能有资格将剩余的注册费（信用额度）转让给您想要注册的另一辆车，或者获得注册费的退款。您将获得以下费用的退款或注册转让信用额度\n\n## 您的车牌费 车辆所有权证书费 您注册车辆时支付的任何其他费用或税费\n\n## 转让信用额度\n\n如果您将剩余的注册费转让给另一辆车，您的新注册将在旧注册的同一天到期。您只能将转让信用额度用于新的（原始）注册，不能用于注册续期。\n\n## 退款\n\n以下示例说明如何确定您的退款金额。\n\n您支付了$137.50注册您的车辆两年。您支付的金额包括两年的注册费$62.50（每年$31.25）、车辆所有权证书费$50.00和车牌费$25.00。您在注册的第一年内交回车牌，并且您有资格获得$30.25的退款。这是第二年的注册费$31.25减去$1的手续费后的退款。其他费用或税费不予退还。\n\n## 如果我有资格，如何获得退款？\n\n当您交回车牌时，您的收据（FS-6T）会显示您是否有资格获得退款。如果您有资格获得退款并且您没有要求转让收据，我们将自动处理您的退款，您将在几周内通过邮件收到退款。\n\n如果您没有资格获得退款，或者您要求转让收据，DMV办公室会签发一张收据（FS-6T），您可以使用该收据将注册转让给另一辆车。\n\n## 如果注册从未使用过，如何申请全额两年退款？\n\n只有在注册从未使用过且自注册签发之日起不超过60天的情况下，您才能申请两年注册费的退款。例如，如果您续期了注册，但从未使用新的注册标签，您可以申请您在续期时支付的两年费用的退款。退款金额中将扣除$1的手续费。\n\n注册标签不能使用。如果标签已贴在挡风玻璃或车牌上，您不能移除标签并申请全额退款。\n\n要申请全额两年退款，您必须在DMV办公室交回车牌和未使用的注册标签及存根，并申请两年退款。如果符合退款条件，DMV办公室将签发一张显示“两年退款”的收据。\n\n## 是否有可能获得第一年注册费的退款？\n\n如果您已经获得了第二年注册费的退款，并且您有未使用的注册标签和存根，您可能有资格申请第一年的注册费。您最多可以在注册签发之日起60天内申请第一年的注册费。\n\n## 要申请第一年注册费的退款，请将以下物品发送至退款申请表（MV-215）上的地址\n\n## 一份已填写并签署的退款申请表 [1] (MV-215) 原始注册文件（存根） 未使用的注册标签\n\n如果符合条件，DMV 将处理第一年费用的退款。\n\n## 如果我改了名字，能获得退款吗？\n\n## 可以。请按照以下说明操作\n\n在 DMV 办公室交回车牌，并索取转账收据，而非退款收据 将以下物品寄送至退款申请表 (MV-215) 上的地址 - 已填写并签署的退款申请表 [1] (MV-215) - 结婚证书、离婚文件或其他证明姓名变更的法院文件的复印件 - 转账收据\n\n如果符合条件，DMV 将以您的新名字发放退款。\n\n## 如果注册人已去世，是否可能获得退款？\n\n## 可以。DMV 将以遗产的名义发放退款。请按照以下说明操作\n\n在 DMV 办公室交回车牌，并索取转账收据，而非退款收据 让逝者遗嘱的执行人将以下物品寄送至退款申请表 (MV-215) 上所列的地址 - 已填写并签署的退款申请表 [1] (MV-215)，并在表格上注明“已故” - 死亡证明的复印件 - 转账收据\n\n如果注册人的遗产已清算，请致电 DMV 收入会计部门，电话 518-474-0902，索取“近亲”表格。将“近亲”表格、退款申请表 (MV-215) 和转账收据寄送至 MV-215 表格上的地址。退款将以近亲的名义发放。\n\n只有当注册标签未使用时，您才有资格获得全额退款。如果标签已贴在挡风玻璃或车牌上，您不能撕下标签并申请退款。"
+        },
+        {
+          "chunk_id": "NYS Adventure License and Adventure Custom Plates#3_0::c0000",
+          "text": "# NYS Adventure License 与 Adventure Custom Plates\n\n[1]\n\n### NYS Adventure Custom Plates\n\nI LOVE NY Adventure Custom Plates（可在此处查看 [2]）适用于持有当前有效的 NYS Department of Environmental Conservation (DEC) 颁发的 Sporting License 和/或 NYS Office of Parks, Recreation and Historic Preservation (Parks) 颁发的 Empire Passport 的个人。这些精美的车牌适用于 passenger、commercial 和 motorcycle 注册类别，让您自豪地展示对户外活动的热爱。\n\n#### Adventure Custom Plates 的费用是多少？\n\n* 每次续期所注明的费用是 $15 的年度 I LOVE NY 费用加上个性化费用（如适用），不包括每次续期时应缴的常规注册续期费。由于 $15 的 I LOVE NY 费用是年度费用，如果您的注册每两年续期一次（passenger 和 commercial 类别），续期时费用为 $30。Motorcycle 类别每年续期一次；因此每次续期需缴纳 $15 的 I LOVE NY 费用。\n\n如果您在 2014 年购买了 NYS Parks 颁发的 LIFETIME Empire Passport 或 DEC 颁发的 LIFETIME Sporting License，则上述费用（个性化费用除外，如适用）在首次购买车牌和首次续期时免除。个性化费用为 passenger 和 commercial 注册类别 $31.25，motorcycle 注册类别 $18.75。\n\n要为 passenger 或 commercial 注册类别的车辆获取 I LOVE NY Adventure Custom Plates，您可以在线订购，请访问 I LOVE NY Adventure Custom Plates Gallery [2]，或通过填写 Application for Custom Plates [3] (CP-30) 并邮寄至 Custom Plates Unit at NYS Department of Motor Vehicles, Custom Plates Unit, P.O. Box 2775, Albany, NY 12220 进行邮寄订购。要为 motorcycle 注册类别获取 I LOVE NY Adventure Custom Plates，您必须通过邮寄订购，无法在线订购。申请表必须附上您的 driver license 副本以及 sporting license 或 Empire Passport 的副本。\n\nAdventure Custom Plates 无法在 DMV 办公室订购。\n\n### NYS Adventure License\n\nDMV 与 NYS Department of Environmental Conservation (DEC) 和 Office of Parks, Recreation and Historic Preservation (Parks) 合作，为购买 DEC 颁发的 Lifetime Sporting Licenses 和 Parks 颁发的 Lifetime Empire Passports 及 Boating Safety Certificates 的购买者提供一项新的便捷服务。自 2014 年 2 月 3 日起，您的 driver license、permit 或 non-driver ID 可以显示您拥有这些新的 NYS Adventure Licenses 之一的证明。\n\n终身休闲许可证图标将显示在 DMV 照片文件上，如下所示：\n\n图标说明：\n\n有关购买 NYS Adventure License 的更多信息，请访问 NYS 网站 [1]。\n\n### 如何利用这项便捷的新服务？\n\n- 新的终身休闲许可证购买者以及完成 boating safety course 的人员，可以在购买终身 sporting license [4] 或完成 boating safety certification [5] 培训时，选择将图标添加到他们的 NYS Driver license 和 non-driver ID 上。（提醒：自 2014 年 5 月 1 日起，所有在 1996 年 5 月 1 日或之后出生的人，现在必须成功完成经批准的 boater education 课程才能操作 motorboat。更多信息，请访问 NYS PARKS 网站 [6]）。\n- 您可以选择立即获取带有图标的新 DMV 照片文件，费用为 $12.50（non-driver ID 持有者为 $5.00），或等到下次 license renewal 时免费获取。\n- 购买 Lifetime Empire Passport [7] 的人将自动免费获得新的 license。\n\n### 如果我已经拥有终身 sporting license 或 safe boating certificate 怎么办？\n\n您可以通过两种方式请求将图标添加到您的 DMV 照片文件：在线使用 NYS 网站 [1] 上的 Online Sporting License System，或前往 NYS Department of Motor Vehicles 办公室并出示所需证明。访问 DMV 办公室时，需支付 $12.50（non-driver ID 持有者为 $5.00）的新文件费，除非您在访问期间续期您的照片文件。\n\n有关更多信息，请参阅 NYS Adventure License 常见问题解答 [8]。"
+        },
+        {
+          "chunk_id": "Surrender (return or turn in) your plates to the DMV#3_0::c0000",
+          "text": "# Surrender (return or turn in) your plates to the DMV\n\n### When you need to surrender plate(s)\n\n- Before you end the vehicle's liability insurance coverage. If you do not turn in your plate(s), we will suspend your registration and can suspend your driver license.\n\n&nbsp;\n\n- If you want to register your vehicle in another state. You must surrender your New York State vehicle plates to the New York DMV.\n\n### How to surrender New York State plates\n\nNote: If you need to surrender plates from another state, you need to surrender them to that state's DMV (not the New York State DMV).\n\n#### By mail\n\nStep 1: Remove plates and stickers\n\nThis includes the plate frames and fasteners - we will not accept plates with them attached. Destroy the registration and inspection stickers from your windshield.\n\nDo not give your plates to another person unless that person will surrender the plates for you.\n\n* *Step 2: Complete the PD-7 application**\n\nYou must complete the Plate Surrender Application (PDF) [1] (PD-7) for each set of plates you are surrendering.\n\nStep 3: Mail the application with your plates to\n\nNYS DMV6 Empire State PlazaRoom B240Albany, NY 12228\n\nWe use the mail postmark date as the date that you surrendered your plates. To be notified by the US Postal Service that we received your plates, send them by registered or certified mail, and request a return receipt. We will mail you your FS-6T receipt.\n\n#### At a DMV Office\n\nStep 1: Remove plates and stickers\n\nThis includes the plate frames and fasteners - we will not accept plates with them attached. Destroy the registration and inspection stickers from your windshield.\n\nDo not give your plates to another person unless that person will surrender the plates for you.\n\nStep 2: Complete the PD-7 application\n\nYou must complete the Plate Surrender Application (PDF) [1] (PD-7) for each set of plates you are surrendering.\n\nStep 3: Bring the plates and PD-7 to an DMV\n\nFind a DMV office [2] near you.\n\nCounty motor vehicle offices will charge you a $1 fee to process the surrender. If another person surrenders your plates for you, make sure that the person gives you the FS-6T receipt for your records.\n\n### Refunds\n\n#### Will I receive a refund when I surrender my plates?\n\nIt depends. See registrations refunds for surrendered plates [3] for more information.\n\n### Temporary surrender\n\n#### Can I surrender my plates temporarily?\n\nYes. See special procedures to surrender plates for a season [4] (temporary surrender of plates).\n\n### Motorcycle and trailer plates\n\n#### Do I need to surrender motorcycle plates?\n\nIt s not necessary to surrender motorcycle plates, but your motorcycle must be insured if you ride it. 1\n\n#### Do I need to surrender trailer plates?\n\nEven though some trailers are not required to have liability insurance, you must surrender the plate if the trailer does not have a valid registration. 2\n\n### Lost, stolen or destroyed plates\n\n#### Do I need to surrender the registration if the plates are lost, destroyed or stolen?\n\nYes. You need to report plates that are lost, stolen or destroyed [5] and surrender the registration. In these cases the DMV can issue you a new registration and plates.\n\n- 1. **Motorcycles:** You do not need to surrender motorcycle plates if there is a lapse in the liability insurance coverage. A motorcycle must have liability insurance to be operated.\n- 2. **Trailers:** Normally a trailer does not need liability insurance. The DMV will not suspend your driver license or registration if you fail to surrender the plate. The DMV recommends that you surrender any type of vehicle plate when the plate is not used to make sure that the plate is destroyed."
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Information about Empire Gold plates#1_0::c0000",
+          "text": "# 关于帝国金色车牌的信息\n\n# 关于帝国金色车牌的信息 [1]\n\n自2010年4月1日起，DMV已发放帝国金色车辆牌照。DMV不再发放帝国蓝色和白色牌照。\n\n### 续期注册时无需更换帝国金色车牌\n\n您可以保留当前车牌，或订购帝国金色车牌。\n\n### 何时有资格获得帝国金色车牌\n\n在以下情况下，您将获得帝国金色车牌：\n\n- 申请更换丢失或被盗的车牌\n- 申请新的（原始）注册，且不转移另一辆车的车牌或注册\n- 订购新的个性化车牌\n\n您有权订购帝国金色车牌：\n\n- 在线、邮寄或在DMV办公室续期注册时 [2]\n- 更换当前车牌（当您的注册未到期续期时）\n\n### 如何订购\n\n您可以通过电话、在线或在DMV办公室订购帝国金色车牌。新车牌和注册文件将分别邮寄给您。在大多数情况下，您会先收到新的注册文件，然后再收到车牌。\n\n为避免交通罚单，即使新车牌尚未到达，也请将新的注册文件放置在您的车辆上。收到新车牌后，请尽快将其安装在您的车辆上。\n\n在线订购时，您必须提供：\n\n- 车辆车牌号\n- 车辆类别\n- 您的姓名\n- 您的邮政编码（在DMV记录中）\n\n在线订购帝国金色车牌 [4]\n\n### 费用\n\n您需要支付车牌费用\n\n- 两片车牌套装为25美元\n- 仅接收一片车牌的车辆（摩托车、拖车等）为12.50美元\n\n您可能需要支付额外费用。当您的注册未到期续期时，更换车牌的费为3.75美元。\n\n### 保留您的原车牌号码\n\n如果您的车辆注册在以下列出的类别之一，您可以支付额外20.00美元的费用，将当前车牌号码保留在新的帝国金车牌上。\n\n- 乘用车（PAS）\n- 商用车（COM）\n- 摩托车（MOT）\n- 拖车（TRL）\n- 其他特定注册类别 - 查看符合帝国金车牌资格并保留原车牌号码的注册类别列表 [5]\n\n### 车牌费用\n\n续期时，您无需获取新的帝国金车牌并支付车牌费用。您可以续期并保留当前车牌。\n\n如果您需要新车牌，或选择获取新的帝国金车牌，您需要支付车牌费用。\n\n- 两片车辆车牌的费用为25美元\n- 单片车牌（例如拖车或摩托车车牌）的费用为12.50美元\n\n当没有注册续期时，订购帝国金车牌需额外支付3.75美元的车牌更换交易费。\n\n### 我有个性化车牌。如果我申请帝国金车牌，能否保留相同的车牌号码？\n\n可以。您可以在续期注册时获取新的帝国金车牌并保留您的个性化车牌号码。\n\n除了续期费用外，您还需要支付新车牌费用（两片新车牌为25美元，或接收单片车牌的车辆为12.50美元）。您不会因保留相同号码而被收取额外费用，因为您目前每年支付个性化车牌费用。\n\n如果您的注册未到期续期，但您想订购帝国金个性化车牌以替换当前的个性化车牌，您可以在线或在DMV办公室订购帝国金车牌。当没有注册续期时，订购帝国金车牌需额外支付3.75美元的车牌更换交易费。\n\n### 如何处理您的旧帝国蓝白车牌\n\n当您收到新的帝国金车牌时，请勿将旧车牌退回DMV。请根据当地指南回收旧车牌。\n\n如需全州地方回收协调员名单，请访问纽约州环境保护部网站：http://www.dec.ny.gov/chemical/8511.html [6]。\n\n在回收旧车牌之前，请使用永久性墨水标记划掉车牌号码或以其他方式污损车牌。为保护您自己，请将车牌分开，并在不同周放入回收箱。\n\n## 主题：\n\n- 注册 [7]\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "How to replace a registration#1_0::c0000",
+          "text": "# 如何更换车辆注册证\n\n# 如何更换车辆注册证 [1]\n\n更换车辆注册文件和挡风玻璃贴纸的费用为 $3.00，除非您同时更换车牌。1\n\n如果您需要更换因犯罪而丢失的车牌或文件，您必须通过邮寄或前往DMV办公室申请。有关更多信息，请参阅丢失或被盗车牌 [2]。\n\n### 在线办理并打印临时文件\n\n您可以在线更换大多数车辆的注册文件。您的电脑必须接受cookies。2\n\n#### 抱歉，您无法在线更换以下车辆的注册文件\n\n- 1973年款之前的车辆\n- 船只、雪地摩托或全地形车（ATV）\n- 注册已过期、被放弃、暂停或吊销的车辆\n- 摩托车或其他带有车牌贴纸的车辆\n- 拖车\n- 运输车辆\n- 通过DMV国际注册局注册的车辆\n\n#### 临时注册\n\n您可以下载并打印有效期10天的临时注册PDF文件。我们也会将副本附在您的确认邮件中。您将在10天内通过邮件收到新的注册文件。\n\n#### 您需要\n\n- 车牌号或注册号\n- 注册类别\n- 注册地址对应的邮政编码\n- 用于支付的信用卡或无密码借记卡\n\n在线更换注册 [4]\n\n### 通过邮寄\n\n发送以下材料\n\n- 填写完整的《重复/续期注册申请表》(PDF) [5] (MV-82D)\n- 您的纽约州驾驶执照、许可证、非驾驶员ID或其他身份证明的复印件 [6]\n- 一张 $3 的支票/汇票，收款人为“机动车管理局局长”\n\n至\n\nNew York State Department of Motor VehiclesUtica Processing CenterP.O. Box 359Utica, NY 13503\n\n您不能通过邮件更新您的姓名。如果您的地址有变，请在申请表上写上您的新地址。\n\n### 在DMV办公室\n\n使用《补发/续期注册申请表》(MV-82D)，并携带以下物品到DMV办公室 [7]\n\n- 一份填写完整的《补发/续期注册申请表》(PDF) [5] (MV-82D)\n- 您的纽约州驾照、许可证、非驾驶员ID，或其他身份证明 [6]\n- 支付费用$3\n\n### 如果您的地址有变\n\n您在DMV档案中的邮寄地址必须是最新的。您不能在交易期间更改地址。您可以先在线更改地址 [8]，然后再续期。\n\n注意：如果您向美国邮政服务(USPS)提交转寄邮件的请求，不保证USPS会将所有DMV文件转寄到新地址。\n\n### 如果您的姓名有变\n\n您不能在此交易期间更改姓名。您的新文件将显示您之前的姓名。如果您最近更改了姓名，请阅读更改注册或所有权证上姓名或其他信息的说明 [9]。\n\n- 1. 查看特殊说明以\n  - 更换丢失、被盗或损坏的车牌 [2]\n  - 订购新的Empire Gold车牌 [10]\n  - 订购个性化或定制车牌 [11]\n- 2. Cookies是存储在您的网络浏览器中的简单文本文件，用于区分本网站的用户。使用cookies是互联网网站的标准做法。为了更好地为您服务，我们偶尔会使用“会话cookie”来增强或定制您对本网站的访问。会话cookie可以在您用于访问本州机构网站的设备上自动创建，但不包含个人信息，也不会损害您的隐私或安全。我们可能使用cookie功能在您用于访问本网站的设备上存储一个随机生成的标识符。会话cookie在您的浏览器操作期间或关闭浏览器时会被清除。您用于访问网站的软件和硬件允许您拒绝新cookie或删除现有cookie。拒绝或删除这些cookie可能会限制您利用本网站某些功能的能力。\n\n## 主题：\n\n- 注册 [12]\n\n## 相关PDF：\n\nmv82d.pdf\n\n## 禁用此交易？："
+        },
+        {
+          "chunk_id": "Refunds and transfer credits for surrendered plates#3_0::c0000",
+          "text": "# 退还车牌的费用和转让信用额度\n\n当您向DMV交回车牌时，您可能有资格将剩余的注册费（信用额度）转让给您想要注册的另一辆车，或者获得注册费的退款。您将获得以下费用的退款或注册转让信用额度\n\n## 您的车牌费 车辆所有权证书费 您注册车辆时支付的任何其他费用或税费\n\n## 转让信用额度\n\n如果您将剩余的注册费转让给另一辆车，您的新注册将在旧注册的同一天到期。您只能将转让信用额度用于新的（原始）注册，不能用于注册续期。\n\n## 退款\n\n以下示例说明如何确定您的退款金额。\n\n您支付了$137.50注册您的车辆两年。您支付的金额包括两年的注册费$62.50（每年$31.25）、车辆所有权证书费$50.00和车牌费$25.00。您在注册的第一年内交回车牌，并且您有资格获得$30.25的退款。这是第二年的注册费$31.25减去$1的手续费后的退款。其他费用或税费不予退还。\n\n## 如果我有资格，如何获得退款？\n\n当您交回车牌时，您的收据（FS-6T）会显示您是否有资格获得退款。如果您有资格获得退款并且您没有要求转让收据，我们将自动处理您的退款，您将在几周内通过邮件收到退款。\n\n如果您没有资格获得退款，或者您要求转让收据，DMV办公室会签发一张收据（FS-6T），您可以使用该收据将注册转让给另一辆车。\n\n## 如果注册从未使用过，如何申请全额两年退款？\n\n只有在注册从未使用过且自注册签发之日起不超过60天的情况下，您才能申请两年注册费的退款。例如，如果您续期了注册，但从未使用新的注册标签，您可以申请您在续期时支付的两年费用的退款。退款金额中将扣除$1的手续费。\n\n注册标签不能使用。如果标签已贴在挡风玻璃或车牌上，您不能移除标签并申请全额退款。\n\n要申请全额两年退款，您必须在DMV办公室交回车牌和未使用的注册标签及存根，并申请两年退款。如果符合退款条件，DMV办公室将签发一张显示“两年退款”的收据。\n\n## 是否有可能获得第一年注册费的退款？\n\n如果您已经获得了第二年注册费的退款，并且您有未使用的注册标签和存根，您可能有资格申请第一年的注册费。您最多可以在注册签发之日起60天内申请第一年的注册费。\n\n## 要申请第一年注册费的退款，请将以下物品发送至退款申请表（MV-215）上的地址\n\n## 一份已填写并签署的退款申请表 [1] (MV-215) 原始注册文件（存根） 未使用的注册标签\n\n如果符合条件，DMV 将处理第一年费用的退款。\n\n## 如果我改了名字，能获得退款吗？\n\n## 可以。请按照以下说明操作\n\n在 DMV 办公室交回车牌，并索取转账收据，而非退款收据 将以下物品寄送至退款申请表 (MV-215) 上的地址 - 已填写并签署的退款申请表 [1] (MV-215) - 结婚证书、离婚文件或其他证明姓名变更的法院文件的复印件 - 转账收据\n\n如果符合条件，DMV 将以您的新名字发放退款。\n\n## 如果注册人已去世，是否可能获得退款？\n\n## 可以。DMV 将以遗产的名义发放退款。请按照以下说明操作\n\n在 DMV 办公室交回车牌，并索取转账收据，而非退款收据 让逝者遗嘱的执行人将以下物品寄送至退款申请表 (MV-215) 上所列的地址 - 已填写并签署的退款申请表 [1] (MV-215)，并在表格上注明“已故” - 死亡证明的复印件 - 转账收据\n\n如果注册人的遗产已清算，请致电 DMV 收入会计部门，电话 518-474-0902，索取“近亲”表格。将“近亲”表格、退款申请表 (MV-215) 和转账收据寄送至 MV-215 表格上的地址。退款将以近亲的名义发放。\n\n只有当注册标签未使用时，您才有资格获得全额退款。如果标签已贴在挡风玻璃或车牌上，您不能撕下标签并申请退款。"
+        },
+        {
+          "chunk_id": "NYS Adventure License and Adventure Custom Plates#3_0::c0000",
+          "text": "# NYS Adventure License 与 Adventure Custom Plates\n\n[1]\n\n### NYS Adventure Custom Plates\n\nI LOVE NY Adventure Custom Plates（可在此处查看 [2]）适用于持有当前有效的 NYS Department of Environmental Conservation (DEC) 颁发的 Sporting License 和/或 NYS Office of Parks, Recreation and Historic Preservation (Parks) 颁发的 Empire Passport 的个人。这些精美的车牌适用于 passenger、commercial 和 motorcycle 注册类别，让您自豪地展示对户外活动的热爱。\n\n#### Adventure Custom Plates 的费用是多少？\n\n* 每次续期所注明的费用是 $15 的年度 I LOVE NY 费用加上个性化费用（如适用），不包括每次续期时应缴的常规注册续期费。由于 $15 的 I LOVE NY 费用是年度费用，如果您的注册每两年续期一次（passenger 和 commercial 类别），续期时费用为 $30。Motorcycle 类别每年续期一次；因此每次续期需缴纳 $15 的 I LOVE NY 费用。\n\n如果您在 2014 年购买了 NYS Parks 颁发的 LIFETIME Empire Passport 或 DEC 颁发的 LIFETIME Sporting License，则上述费用（个性化费用除外，如适用）在首次购买车牌和首次续期时免除。个性化费用为 passenger 和 commercial 注册类别 $31.25，motorcycle 注册类别 $18.75。\n\n要为 passenger 或 commercial 注册类别的车辆获取 I LOVE NY Adventure Custom Plates，您可以在线订购，请访问 I LOVE NY Adventure Custom Plates Gallery [2]，或通过填写 Application for Custom Plates [3] (CP-30) 并邮寄至 Custom Plates Unit at NYS Department of Motor Vehicles, Custom Plates Unit, P.O. Box 2775, Albany, NY 12220 进行邮寄订购。要为 motorcycle 注册类别获取 I LOVE NY Adventure Custom Plates，您必须通过邮寄订购，无法在线订购。申请表必须附上您的 driver license 副本以及 sporting license 或 Empire Passport 的副本。\n\nAdventure Custom Plates 无法在 DMV 办公室订购。\n\n### NYS Adventure License\n\nDMV 与 NYS Department of Environmental Conservation (DEC) 和 Office of Parks, Recreation and Historic Preservation (Parks) 合作，为购买 DEC 颁发的 Lifetime Sporting Licenses 和 Parks 颁发的 Lifetime Empire Passports 及 Boating Safety Certificates 的购买者提供一项新的便捷服务。自 2014 年 2 月 3 日起，您的 driver license、permit 或 non-driver ID 可以显示您拥有这些新的 NYS Adventure Licenses 之一的证明。\n\n终身休闲许可证图标将显示在 DMV 照片文件上，如下所示：\n\n图标说明：\n\n有关购买 NYS Adventure License 的更多信息，请访问 NYS 网站 [1]。\n\n### 如何利用这项便捷的新服务？\n\n- 新的终身休闲许可证购买者以及完成 boating safety course 的人员，可以在购买终身 sporting license [4] 或完成 boating safety certification [5] 培训时，选择将图标添加到他们的 NYS Driver license 和 non-driver ID 上。（提醒：自 2014 年 5 月 1 日起，所有在 1996 年 5 月 1 日或之后出生的人，现在必须成功完成经批准的 boater education 课程才能操作 motorboat。更多信息，请访问 NYS PARKS 网站 [6]）。\n- 您可以选择立即获取带有图标的新 DMV 照片文件，费用为 $12.50（non-driver ID 持有者为 $5.00），或等到下次 license renewal 时免费获取。\n- 购买 Lifetime Empire Passport [7] 的人将自动免费获得新的 license。\n\n### 如果我已经拥有终身 sporting license 或 safe boating certificate 怎么办？\n\n您可以通过两种方式请求将图标添加到您的 DMV 照片文件：在线使用 NYS 网站 [1] 上的 Online Sporting License System，或前往 NYS Department of Motor Vehicles 办公室并出示所需证明。访问 DMV 办公室时，需支付 $12.50（non-driver ID 持有者为 $5.00）的新文件费，除非您在访问期间续期您的照片文件。\n\n有关更多信息，请参阅 NYS Adventure License 常见问题解答 [8]。"
+        },
+        {
+          "chunk_id": "Surrender (return or turn in) your plates to the DMV#3_0::c0000",
+          "text": "# Surrender (return or turn in) your plates to the DMV\n\n### When you need to surrender plate(s)\n\n- Before you end the vehicle's liability insurance coverage. If you do not turn in your plate(s), we will suspend your registration and can suspend your driver license.\n\n&nbsp;\n\n- If you want to register your vehicle in another state. You must surrender your New York State vehicle plates to the New York DMV.\n\n### How to surrender New York State plates\n\nNote: If you need to surrender plates from another state, you need to surrender them to that state's DMV (not the New York State DMV).\n\n#### By mail\n\nStep 1: Remove plates and stickers\n\nThis includes the plate frames and fasteners - we will not accept plates with them attached. Destroy the registration and inspection stickers from your windshield.\n\nDo not give your plates to another person unless that person will surrender the plates for you.\n\n* *Step 2: Complete the PD-7 application**\n\nYou must complete the Plate Surrender Application (PDF) [1] (PD-7) for each set of plates you are surrendering.\n\nStep 3: Mail the application with your plates to\n\nNYS DMV6 Empire State PlazaRoom B240Albany, NY 12228\n\nWe use the mail postmark date as the date that you surrendered your plates. To be notified by the US Postal Service that we received your plates, send them by registered or certified mail, and request a return receipt. We will mail you your FS-6T receipt.\n\n#### At a DMV Office\n\nStep 1: Remove plates and stickers\n\nThis includes the plate frames and fasteners - we will not accept plates with them attached. Destroy the registration and inspection stickers from your windshield.\n\nDo not give your plates to another person unless that person will surrender the plates for you.\n\nStep 2: Complete the PD-7 application\n\nYou must complete the Plate Surrender Application (PDF) [1] (PD-7) for each set of plates you are surrendering.\n\nStep 3: Bring the plates and PD-7 to an DMV\n\nFind a DMV office [2] near you.\n\nCounty motor vehicle offices will charge you a $1 fee to process the surrender. If another person surrenders your plates for you, make sure that the person gives you the FS-6T receipt for your records.\n\n### Refunds\n\n#### Will I receive a refund when I surrender my plates?\n\nIt depends. See registrations refunds for surrendered plates [3] for more information.\n\n### Temporary surrender\n\n#### Can I surrender my plates temporarily?\n\nYes. See special procedures to surrender plates for a season [4] (temporary surrender of plates).\n\n### Motorcycle and trailer plates\n\n#### Do I need to surrender motorcycle plates?\n\nIt s not necessary to surrender motorcycle plates, but your motorcycle must be insured if you ride it. 1\n\n#### Do I need to surrender trailer plates?\n\nEven though some trailers are not required to have liability insurance, you must surrender the plate if the trailer does not have a valid registration. 2\n\n### Lost, stolen or destroyed plates\n\n#### Do I need to surrender the registration if the plates are lost, destroyed or stolen?\n\nYes. You need to report plates that are lost, stolen or destroyed [5] and surrender the registration. In these cases the DMV can issue you a new registration and plates.\n\n- 1. **Motorcycles:** You do not need to surrender motorcycle plates if there is a lapse in the liability insurance coverage. A motorcycle must have liability insurance to be operated.\n- 2. **Trailers:** Normally a trailer does not need liability insurance. The DMV will not suspend your driver license or registration if you fail to surrender the plate. The DMV recommends that you surrender any type of vehicle plate when the plate is not used to make sure that the plate is destroyed."
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Refunds and transfer credits for surrendered plates#3_0::c0000",
+          "document": "Refunds and transfer credits for surrendered plates#3_0",
+          "heading": [],
+          "source_file": "dmv_100.txt",
+          "excerpt": "# 退还车牌的费用和转让信用额度\n\n当您向DMV交回车牌时，您可能有资格将剩余的注册费（信用额度）转让给您想要注册的另一辆车，或者获得注册费的退款。您将获得以下费用的退款或注册转让信用额度\n\n## 您的车牌费 车辆所有权证书费 您注册车辆时支付的任何其他费用或税费\n\n## 转让信用额度\n\n如果您将剩余的注册费转让给另一辆车，您的新注册将在旧注册的同一天到期。您只能将转让信用额度用于新的（原始）注册，不能用于注册续期。\n\n## 退款\n\n以下示例说明如何确定您的退款金额。\n\n您支付了$137.50注册您的车辆两年。您支付的金额包括两年的注册费$62.50（每年$31.25）、车辆所有权证书费$50.00和车牌费$25.00。您在注册的第一年内交回车牌，并且您有资格获得$30.25的退款。这是第二年的注册费$31.25减去$1的手续费后的退款。其他费用或税费不予退还。\n\n## 如果我有资格，如何获得退款？\n\n当您交回车牌时，您的收据（FS-6T）会显示您是否有资格获得退款。如果您有资格获得退款并且您没有要求转让收据，我们将自动处理您的退款，您将在几周内通过邮件收到退款。\n\n如果您没有资格获得退款，或者您要求转让收据，DMV办公室会签发一张收据（FS-6T），您可以使用该收据将注册转让给另一辆车。\n\n## 如果注册从未使用过，如何申请全额两年退款？\n\n只有在注册从未使用过且自注册签发之日起不超过60天的情况下，您才能申请两年注册费的退款。例如，如果您续期了注册，但从未使用新的注册标签，您可以申请您在续期时支付的两年费用的退款。退款金额中将扣除$1的手续费。\n\n注册标签不能使用。如果标签已贴在挡风玻璃或车牌上，您不能移除标签并申请全额退款。\n\n要申请全额两年退款，您必须在DMV办公室交回车牌和未使用的注册标签及存根，并申请两年退款。如果符合退款条件，DMV办公室将签发一张显示“两年退款”的收据。\n\n## 是否有可能获得第一年注册费的退款？\n\n如果您已经获得了第二年注册费的退款，并且您有未使用的注册标签和存根，您可能有资格申请第一年的注册费。您最多可以在注册签发之日起60天内申请第一年的注册费。\n\n## 要申请第一年注册费的退款，请将以下物品发送至退款申请表（MV-215）上的地址\n\n## 一份已填写并签署的退款申请表 [1] (MV-215) 原始注册文件（存根） 未使用的注册标签\n\n如果符合条件，DMV 将处理第一年费用的退款。\n\n## 如果我改了名字，能获得退款吗？\n\n## 可以。请按照以下说明操作\n\n在 DMV 办公室交回车牌，并索取转账收据，而非退款收据 将以下物品寄送至退款申请表 (MV-215) 上的地址 - 已填写并签署的退款申请表 [1] (MV-215) - 结婚证书、离婚文件或其他证明姓名变更的法院文件的复印件 - 转账收据\n\n如果符合条件，DMV 将以您的新名字发放退款。\n\n## 如果注册人已去世，是否可能获得退款？\n\n## 可以。DMV 将以遗产的名义发放退款。请按照以下说明操作\n\n在 DMV 办公室交回车牌，并索取转账收据，而非退款收据 让逝者遗嘱的执行人将以下物品寄送至退款申请表 (MV-215) 上所列的地址 - 已填写并签署的退款申请表 [1] (MV-215)，并在表格上注明“已故” - 死亡证明的复印件 - 转账收据\n\n如果注册人的遗产已清算，请致电 DMV 收入会计部门，电话 518-474-0902，索取“近亲”表格。将“近亲”表格、退款申请表 (MV-215) 和转账收据寄送至 MV-215 表格上的地址。退款将以近亲的名义发放。\n\n只有当注册标签未使用时，您才有资格获得全额退款。如果标签已贴在挡风玻璃或车牌上，您不能撕下标签并申请退款。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "Yes, you may be eligible for a refund of the registration fee for the unused portion of your registration, but only under specific conditions. According to the DMV, you can apply for a full two-year refund only if the registration was never used and you apply within 60 days of the registration issue date. The registration label cannot be used—if it has been attached to your windshield or plate, you cannot remove it and apply for a refund. To request this refund, you must surrender your plates and the unused registration label and stub at a DMV office and request a 'two-year refund.' A $1 processing fee will be deducted. If you have already used part of the registration (e.g., the first year), you may be eligible for a refund of the second year's fee if you surrender the plates and meet the conditions described in the 'Refunds and transfer credits for surrendered plates' section. For full details, refer to the DMV's refund policy.",
+          "citations": [
+            "Refunds and transfer credits for surrendered plates#3_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "3984ae973b754b95929b4919b278f8c6",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 4835,
+              "completion_tokens": 228,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 228,
+                "prompt_tokens": 4835,
+                "total_tokens": 5063,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 4579
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0079073,
+            "accounted_rmb": 0.0079073,
+            "usage_unknown": false,
+            "seconds": 2.7463178634643555,
+            "error": null,
+            "response": {
+              "id": "279a73cb-d709-430d-80bc-92cabfa91886",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "c9165aa0921b8961b54e467c5007d6522c3033c711d7b6203d893a33031178d8"
+      },
+      "latency_ms": {
+        "queue_wait": 0.03433309029787779,
+        "retrieval": 2153.8900840096176,
+        "generation": 2751.2062499299645,
+        "total": 4906.682666041888
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2130996249616146,
+        "rerank_seconds": 1.9407271669479087,
+        "top1_dense_score": 0.7562487125396729,
+        "candidate_ids": [
+          "Information about Empire Gold plates#1_0::c0000",
+          "How to renew a license#1_0::c0005",
+          "NYS Adventure License and Adventure Custom Plates#3_0::c0000",
+          "How to replace a registration#1_0::c0000",
+          "How to renew a license#1_0::c0001",
+          "Learn about personalized plates#3_0::c0000",
+          "Information and Instructions About Your Certificate of Title#3_0::c0003",
+          "Order picture and professional plates#1_0::c0000",
+          "Replace or transfer personalized plates#1_0::c0000",
+          "Temporary surrender of vehicle plates (store plates for a season)#3_0::c0000",
+          "How to renew a license#1_0::c0002",
+          "About problem driver restrictions#3_0::c0003",
+          "Get email and/or text reminders#1_0::c0000",
+          "Refunds and transfer credits for surrendered plates#3_0::c0000",
+          "Register a vehicle#1_0::c0003",
+          "Learn about picture and professional plates#3_0::c0000",
+          "Veteran status designation on a photo document#3_0::c0000",
+          "Renew non-driver ID card#1_0::c0000",
+          "Surrender (return or turn in) your plates to the DMV#3_0::c0000",
+          "Passenger vehicle registration fees, use taxes and supplemental fees#3_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 54,
+        "query_shortened": true,
+        "retrieval_total_seconds": 2.1538677499629557
+      },
+      "raw_citations": [
+        "Refunds and transfer credits for surrendered plates#3_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "411ca4399e1920c3cd6db2561910addaac5eafeb1c8ee1d0a70d5a36b68fd7cb"
+}

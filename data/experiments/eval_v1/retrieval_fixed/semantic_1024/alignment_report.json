@@ -1,0 +1,4461 @@
+[
+  {
+    "doc_id": "A Guide for Facilities:#3_0",
+    "format": "pdf_text",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About complaints and charges for dealer and transporter businesses#3_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About complaints and charges for inspection stations and certified inspectors#3_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About complaints and charges for repair and body shops#3_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About New York State Inspections#3_0",
+    "format": "txt",
+    "blocks": 43,
+    "aligned": 43,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About online and alternative delivery method courses (I-PIRP/ADM)#3_0",
+    "format": "txt",
+    "blocks": 48,
+    "aligned": 48,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About point reduction#3_0",
+    "format": "pdf_scanned",
+    "blocks": 21,
+    "aligned": 14,
+    "missing_ids": [
+      "src_4fb1c4b2d7db1e52::b0003",
+      "src_4fb1c4b2d7db1e52::b0005",
+      "src_4fb1c4b2d7db1e52::b0010",
+      "src_4fb1c4b2d7db1e52::b0012",
+      "src_4fb1c4b2d7db1e52::b0014",
+      "src_4fb1c4b2d7db1e52::b0016",
+      "src_4fb1c4b2d7db1e52::b0018"
+    ]
+  },
+  {
+    "doc_id": "About Private Service Bureau Licenses#1_0",
+    "format": "markdown",
+    "blocks": 29,
+    "aligned": 19,
+    "missing_ids": [
+      "src_055f25bb0eb8b916::b0018",
+      "src_055f25bb0eb8b916::b0021",
+      "src_055f25bb0eb8b916::b0022",
+      "src_055f25bb0eb8b916::b0023",
+      "src_055f25bb0eb8b916::b0024",
+      "src_055f25bb0eb8b916::b0025",
+      "src_055f25bb0eb8b916::b0026",
+      "src_055f25bb0eb8b916::b0027",
+      "src_055f25bb0eb8b916::b0028",
+      "src_055f25bb0eb8b916::b0029"
+    ]
+  },
+  {
+    "doc_id": "About problem driver restrictions#3_0",
+    "format": "markdown",
+    "blocks": 40,
+    "aligned": 31,
+    "missing_ids": [
+      "src_43ddc0c747dc7e64::b0023",
+      "src_43ddc0c747dc7e64::b0025",
+      "src_43ddc0c747dc7e64::b0027",
+      "src_43ddc0c747dc7e64::b0029",
+      "src_43ddc0c747dc7e64::b0031",
+      "src_43ddc0c747dc7e64::b0033",
+      "src_43ddc0c747dc7e64::b0035",
+      "src_43ddc0c747dc7e64::b0037",
+      "src_43ddc0c747dc7e64::b0039"
+    ]
+  },
+  {
+    "doc_id": "About the NYS Driver Point System#3_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 23,
+    "missing_ids": [
+      "src_58e0ecc65e287d82::b0018",
+      "src_58e0ecc65e287d82::b0025"
+    ]
+  },
+  {
+    "doc_id": "Adding and removing users#3_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_90d68844d8504be6::b0011"
+    ]
+  },
+  {
+    "doc_id": "Amend or replace a business license for a repair or body shop#3_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Appeal a TVB ticket conviction#1_0",
+    "format": "markdown",
+    "blocks": 71,
+    "aligned": 59,
+    "missing_ids": [
+      "src_6b02cd6b216f2e80::b0032",
+      "src_6b02cd6b216f2e80::b0046",
+      "src_6b02cd6b216f2e80::b0047",
+      "src_6b02cd6b216f2e80::b0049",
+      "src_6b02cd6b216f2e80::b0052",
+      "src_6b02cd6b216f2e80::b0063",
+      "src_6b02cd6b216f2e80::b0066",
+      "src_6b02cd6b216f2e80::b0067",
+      "src_6b02cd6b216f2e80::b0068",
+      "src_6b02cd6b216f2e80::b0069",
+      "src_6b02cd6b216f2e80::b0070",
+      "src_6b02cd6b216f2e80::b0071"
+    ]
+  },
+  {
+    "doc_id": "ATVs: Information for Owners and Operators#3_0",
+    "format": "markdown",
+    "blocks": 77,
+    "aligned": 77,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Automatic license and registration extension for military personnel#3_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 14,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Become a driving school instructor#3_0",
+    "format": "txt",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Buy or sell a vehicle (transfer ownership)#3_0",
+    "format": "markdown",
+    "blocks": 26,
+    "aligned": 25,
+    "missing_ids": [
+      "src_6fff3d55447371ac::b0018"
+    ]
+  },
+  {
+    "doc_id": "California emissions standards#3_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 13,
+    "missing_ids": [
+      "src_f73150c1048c0b36::b0007"
+    ]
+  },
+  {
+    "doc_id": "Change name on title after lease buyout#3_0",
+    "format": "docx",
+    "blocks": 28,
+    "aligned": 25,
+    "missing_ids": [
+      "src_f233f79fdcd5ca33::b0006",
+      "src_f233f79fdcd5ca33::b0008",
+      "src_f233f79fdcd5ca33::b0010"
+    ]
+  },
+  {
+    "doc_id": "Changes to IRP registration#1_0",
+    "format": "markdown",
+    "blocks": 41,
+    "aligned": 35,
+    "missing_ids": [
+      "src_efbe5d14582d10af::b0022",
+      "src_efbe5d14582d10af::b0035",
+      "src_efbe5d14582d10af::b0038",
+      "src_efbe5d14582d10af::b0039",
+      "src_efbe5d14582d10af::b0040",
+      "src_efbe5d14582d10af::b0041"
+    ]
+  },
+  {
+    "doc_id": "Commercial Driver License Downgrades#3_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Commercial vehicle registration fees, vehicle use taxes and supplemental fees#3_0",
+    "format": "docx",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_3b51ed11e0235f64::b0017"
+    ]
+  },
+  {
+    "doc_id": "Conditional and restricted use licenses#3_0",
+    "format": "docx",
+    "blocks": 8,
+    "aligned": 8,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Creating a MyDMV account#1_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 29,
+    "missing_ids": [
+      "src_cb16668099b94053::b0009",
+      "src_cb16668099b94053::b0029"
+    ]
+  },
+  {
+    "doc_id": "DIAL-IN search accounts#3_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Diesel inspections emission testing#3_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 22,
+    "missing_ids": [
+      "src_ae29c588821a0eac::b0023"
+    ]
+  },
+  {
+    "doc_id": "Driver license and learner permit fees and refunds#3_0",
+    "format": "markdown",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Driving in New York State#3_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 26,
+    "missing_ids": [
+      "src_97a2157ca996ae9b::b0025"
+    ]
+  },
+  {
+    "doc_id": "Escort driver certification#1_0",
+    "format": "markdown",
+    "blocks": 50,
+    "aligned": 46,
+    "missing_ids": [
+      "src_c5482c05c66321ee::b0039",
+      "src_c5482c05c66321ee::b0043",
+      "src_c5482c05c66321ee::b0048",
+      "src_c5482c05c66321ee::b0050"
+    ]
+  },
+  {
+    "doc_id": "Escrow accounts#3_0",
+    "format": "txt",
+    "blocks": 45,
+    "aligned": 45,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Estimate registration fees and taxes#1_0",
+    "format": "pdf_scanned",
+    "blocks": 22,
+    "aligned": 16,
+    "missing_ids": [
+      "src_43677b92734642d6::b0004",
+      "src_43677b92734642d6::b0009",
+      "src_43677b92734642d6::b0010",
+      "src_43677b92734642d6::b0014",
+      "src_43677b92734642d6::b0018",
+      "src_43677b92734642d6::b0021"
+    ]
+  },
+  {
+    "doc_id": "Exchange a NY State driver license for a non-driver ID card#1_0",
+    "format": "markdown",
+    "blocks": 35,
+    "aligned": 30,
+    "missing_ids": [
+      "src_a3162ce753ceed92::b0022",
+      "src_a3162ce753ceed92::b0027",
+      "src_a3162ce753ceed92::b0028",
+      "src_a3162ce753ceed92::b0033",
+      "src_a3162ce753ceed92::b0035"
+    ]
+  },
+  {
+    "doc_id": "Exchange your out-of-state driver license#1_0",
+    "format": "docx",
+    "blocks": 52,
+    "aligned": 45,
+    "missing_ids": [
+      "src_a31eb02332ad3f8c::b0044",
+      "src_a31eb02332ad3f8c::b0047",
+      "src_a31eb02332ad3f8c::b0048",
+      "src_a31eb02332ad3f8c::b0049",
+      "src_a31eb02332ad3f8c::b0050",
+      "src_a31eb02332ad3f8c::b0051",
+      "src_a31eb02332ad3f8c::b0052"
+    ]
+  },
+  {
+    "doc_id": "FAQ for TNC Drivers#3_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Federal REAL ID#3_0",
+    "format": "txt",
+    "blocks": 27,
+    "aligned": 26,
+    "missing_ids": [
+      "src_ae9a84feb7ed20e0::b0006"
+    ]
+  },
+  {
+    "doc_id": "File a Freedom of Information Law (FOIL) request#1_0",
+    "format": "markdown",
+    "blocks": 59,
+    "aligned": 57,
+    "missing_ids": [
+      "src_c2e3ac8df0ca4f20::b0057",
+      "src_c2e3ac8df0ca4f20::b0059"
+    ]
+  },
+  {
+    "doc_id": "General information for dealers and transporters#3_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Get a  hazardous materials (HazMat) endorsement#3_0",
+    "format": "pdf_text",
+    "blocks": 31,
+    "aligned": 30,
+    "missing_ids": [
+      "src_c1895d99aae1ec28::b0031"
+    ]
+  },
+  {
+    "doc_id": "Get a CDL#1_0",
+    "format": "pdf_scanned",
+    "blocks": 48,
+    "aligned": 37,
+    "missing_ids": [
+      "src_1d59ef72d6c5daf5::b0027",
+      "src_1d59ef72d6c5daf5::b0031",
+      "src_1d59ef72d6c5daf5::b0035",
+      "src_1d59ef72d6c5daf5::b0037",
+      "src_1d59ef72d6c5daf5::b0040",
+      "src_1d59ef72d6c5daf5::b0043",
+      "src_1d59ef72d6c5daf5::b0044",
+      "src_1d59ef72d6c5daf5::b0045",
+      "src_1d59ef72d6c5daf5::b0046",
+      "src_1d59ef72d6c5daf5::b0047",
+      "src_1d59ef72d6c5daf5::b0048"
+    ]
+  },
+  {
+    "doc_id": "Get a copy of a TVB ticket#1_0",
+    "format": "markdown",
+    "blocks": 26,
+    "aligned": 22,
+    "missing_ids": [
+      "src_94159d3cf88a68c1::b0020",
+      "src_94159d3cf88a68c1::b0021",
+      "src_94159d3cf88a68c1::b0024",
+      "src_94159d3cf88a68c1::b0026"
+    ]
+  },
+  {
+    "doc_id": "Get a driver license#1_0",
+    "format": "txt",
+    "blocks": 61,
+    "aligned": 57,
+    "missing_ids": [
+      "src_323049fc1b7c63cc::b0052",
+      "src_323049fc1b7c63cc::b0055",
+      "src_323049fc1b7c63cc::b0059",
+      "src_323049fc1b7c63cc::b0061"
+    ]
+  },
+  {
+    "doc_id": "Get a learner permit#1_0",
+    "format": "txt",
+    "blocks": 32,
+    "aligned": 27,
+    "missing_ids": [
+      "src_527e0ab6b931bcf9::b0023",
+      "src_527e0ab6b931bcf9::b0026",
+      "src_527e0ab6b931bcf9::b0030",
+      "src_527e0ab6b931bcf9::b0031",
+      "src_527e0ab6b931bcf9::b0032"
+    ]
+  },
+  {
+    "doc_id": "Get a license to drive a taxi or livery vehicle#3_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 22,
+    "missing_ids": [
+      "src_9e84983c44c65ab3::b0015"
+    ]
+  },
+  {
+    "doc_id": "Get a military skills test waiver#1_0",
+    "format": "pdf_scanned",
+    "blocks": 18,
+    "aligned": 10,
+    "missing_ids": [
+      "src_2e7923859d626783::b0004",
+      "src_2e7923859d626783::b0010",
+      "src_2e7923859d626783::b0013",
+      "src_2e7923859d626783::b0014",
+      "src_2e7923859d626783::b0015",
+      "src_2e7923859d626783::b0016",
+      "src_2e7923859d626783::b0017",
+      "src_2e7923859d626783::b0018"
+    ]
+  },
+  {
+    "doc_id": "Get a motorcycle license#1_0",
+    "format": "markdown",
+    "blocks": 58,
+    "aligned": 47,
+    "missing_ids": [
+      "src_871542f06bbe2024::b0021",
+      "src_871542f06bbe2024::b0026",
+      "src_871542f06bbe2024::b0028",
+      "src_871542f06bbe2024::b0029",
+      "src_871542f06bbe2024::b0047",
+      "src_871542f06bbe2024::b0051",
+      "src_871542f06bbe2024::b0054",
+      "src_871542f06bbe2024::b0055",
+      "src_871542f06bbe2024::b0056",
+      "src_871542f06bbe2024::b0057",
+      "src_871542f06bbe2024::b0058"
+    ]
+  },
+  {
+    "doc_id": "Get a vehicle registration or title record (abstract)#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 18,
+    "missing_ids": [
+      "src_0eb9d32688dc167f::b0008",
+      "src_0eb9d32688dc167f::b0013",
+      "src_0eb9d32688dc167f::b0019",
+      "src_0eb9d32688dc167f::b0022",
+      "src_0eb9d32688dc167f::b0023",
+      "src_0eb9d32688dc167f::b0024",
+      "src_0eb9d32688dc167f::b0025",
+      "src_0eb9d32688dc167f::b0026",
+      "src_0eb9d32688dc167f::b0027"
+    ]
+  },
+  {
+    "doc_id": "Get an Accident Report#1_0",
+    "format": "pdf_text",
+    "blocks": 33,
+    "aligned": 31,
+    "missing_ids": [
+      "src_b3841e4fac83075e::b0007",
+      "src_b3841e4fac83075e::b0014"
+    ]
+  },
+  {
+    "doc_id": "Get email and/or text reminders#1_0",
+    "format": "docx",
+    "blocks": 24,
+    "aligned": 20,
+    "missing_ids": [
+      "src_671186d8877eefc2::b0019",
+      "src_671186d8877eefc2::b0022",
+      "src_671186d8877eefc2::b0023",
+      "src_671186d8877eefc2::b0024"
+    ]
+  },
+  {
+    "doc_id": "Get my own CDL driving record (abstract)#1_0",
+    "format": "docx",
+    "blocks": 21,
+    "aligned": 19,
+    "missing_ids": [
+      "src_fc75c5d5645b24c4::b0019",
+      "src_fc75c5d5645b24c4::b0021"
+    ]
+  },
+  {
+    "doc_id": "Help finding enough proof of ID#3_0",
+    "format": "markdown",
+    "blocks": 10,
+    "aligned": 9,
+    "missing_ids": [
+      "src_636b6074d447f3e4::b0006"
+    ]
+  },
+  {
+    "doc_id": "How insurance premium reduction works#3_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 14,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How to change information on DMV documents#3_0",
+    "format": "docx",
+    "blocks": 77,
+    "aligned": 76,
+    "missing_ids": [
+      "src_b17e0b2972c2f340::b0027"
+    ]
+  },
+  {
+    "doc_id": "How to change your address#1_0",
+    "format": "docx",
+    "blocks": 31,
+    "aligned": 24,
+    "missing_ids": [
+      "src_800ef1dfb78c8b18::b0023",
+      "src_800ef1dfb78c8b18::b0024",
+      "src_800ef1dfb78c8b18::b0027",
+      "src_800ef1dfb78c8b18::b0028",
+      "src_800ef1dfb78c8b18::b0029",
+      "src_800ef1dfb78c8b18::b0030",
+      "src_800ef1dfb78c8b18::b0031"
+    ]
+  },
+  {
+    "doc_id": "How to check a title or lien status#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 24,
+    "missing_ids": [
+      "src_9793bcf245c48bfe::b0020",
+      "src_9793bcf245c48bfe::b0023",
+      "src_9793bcf245c48bfe::b0025",
+      "src_9793bcf245c48bfe::b0028",
+      "src_9793bcf245c48bfe::b0029",
+      "src_9793bcf245c48bfe::b0030"
+    ]
+  },
+  {
+    "doc_id": "How to get my own driving record (abstract)#1_0",
+    "format": "markdown",
+    "blocks": 45,
+    "aligned": 36,
+    "missing_ids": [
+      "src_665404a6b8d582dd::b0027",
+      "src_665404a6b8d582dd::b0033",
+      "src_665404a6b8d582dd::b0034",
+      "src_665404a6b8d582dd::b0037",
+      "src_665404a6b8d582dd::b0038",
+      "src_665404a6b8d582dd::b0039",
+      "src_665404a6b8d582dd::b0040",
+      "src_665404a6b8d582dd::b0041",
+      "src_665404a6b8d582dd::b0045"
+    ]
+  },
+  {
+    "doc_id": "How to renew a license#1_0",
+    "format": "markdown",
+    "blocks": 98,
+    "aligned": 86,
+    "missing_ids": [
+      "src_234af90cb99498b6::b0065",
+      "src_234af90cb99498b6::b0075",
+      "src_234af90cb99498b6::b0080",
+      "src_234af90cb99498b6::b0087",
+      "src_234af90cb99498b6::b0089",
+      "src_234af90cb99498b6::b0092",
+      "src_234af90cb99498b6::b0093",
+      "src_234af90cb99498b6::b0094",
+      "src_234af90cb99498b6::b0095",
+      "src_234af90cb99498b6::b0096",
+      "src_234af90cb99498b6::b0097",
+      "src_234af90cb99498b6::b0098"
+    ]
+  },
+  {
+    "doc_id": "How to renew a registration#1_0",
+    "format": "pdf_text",
+    "blocks": 39,
+    "aligned": 38,
+    "missing_ids": [
+      "src_071249fcc926aad7::b0029"
+    ]
+  },
+  {
+    "doc_id": "How to replace a registration#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 32,
+    "missing_ids": [
+      "src_682f3b7b0be21ace::b0028",
+      "src_682f3b7b0be21ace::b0029",
+      "src_682f3b7b0be21ace::b0034",
+      "src_682f3b7b0be21ace::b0036"
+    ]
+  },
+  {
+    "doc_id": "How to transfer a registration to another vehicle#3_0",
+    "format": "markdown",
+    "blocks": 35,
+    "aligned": 31,
+    "missing_ids": [
+      "src_48ca238fea346a92::b0017",
+      "src_48ca238fea346a92::b0019",
+      "src_48ca238fea346a92::b0031",
+      "src_48ca238fea346a92::b0034"
+    ]
+  },
+  {
+    "doc_id": "If a family member has died#3_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 13,
+    "missing_ids": [
+      "src_1f2cbfefd020dcdd::b0008"
+    ]
+  },
+  {
+    "doc_id": "In-transit vehicle permits (temporary registrations)#3_0",
+    "format": "pdf_text",
+    "blocks": 35,
+    "aligned": 31,
+    "missing_ids": [
+      "src_7018b06687d7a955::b0022",
+      "src_7018b06687d7a955::b0029",
+      "src_7018b06687d7a955::b0030",
+      "src_7018b06687d7a955::b0034"
+    ]
+  },
+  {
+    "doc_id": "Information about Empire Gold plates#1_0",
+    "format": "markdown",
+    "blocks": 41,
+    "aligned": 39,
+    "missing_ids": [
+      "src_6a02848cc925c98e::b0037",
+      "src_6a02848cc925c98e::b0040"
+    ]
+  },
+  {
+    "doc_id": "Information about transaction entries#3_0",
+    "format": "markdown",
+    "blocks": 45,
+    "aligned": 45,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Information and Instructions About Your Certificate of Title#3_0",
+    "format": "markdown",
+    "blocks": 77,
+    "aligned": 76,
+    "missing_ids": [
+      "src_bb0c963b2112736f::b0022"
+    ]
+  },
+  {
+    "doc_id": "Insurance lapses#3_0",
+    "format": "markdown",
+    "blocks": 38,
+    "aligned": 37,
+    "missing_ids": [
+      "src_6e47936c7b1456d2::b0038"
+    ]
+  },
+  {
+    "doc_id": "Know Your Rights in Auto Repair#3_0",
+    "format": "markdown",
+    "blocks": 34,
+    "aligned": 33,
+    "missing_ids": [
+      "src_bb7e4a52916af09c::b0024"
+    ]
+  },
+  {
+    "doc_id": "Leandra's Law & ignition interlock devices#3_0",
+    "format": "docx",
+    "blocks": 18,
+    "aligned": 16,
+    "missing_ids": [
+      "src_20154b87d08a3874::b0008",
+      "src_20154b87d08a3874::b0010"
+    ]
+  },
+  {
+    "doc_id": "Learn about personalized plates#3_0",
+    "format": "pdf_scanned",
+    "blocks": 21,
+    "aligned": 16,
+    "missing_ids": [
+      "src_883fb4f34d152d35::b0007",
+      "src_883fb4f34d152d35::b0009",
+      "src_883fb4f34d152d35::b0019",
+      "src_883fb4f34d152d35::b0020",
+      "src_883fb4f34d152d35::b0021"
+    ]
+  },
+  {
+    "doc_id": "Learn about picture and professional plates#3_0",
+    "format": "docx",
+    "blocks": 21,
+    "aligned": 20,
+    "missing_ids": [
+      "src_154240e0e4246a6c::b0021"
+    ]
+  },
+  {
+    "doc_id": "Learner permit restrictions#3_0",
+    "format": "markdown",
+    "blocks": 12,
+    "aligned": 11,
+    "missing_ids": [
+      "src_61d84103201f7b75::b0011"
+    ]
+  },
+  {
+    "doc_id": "Let the Buyer be Aware#3_0",
+    "format": "markdown",
+    "blocks": 58,
+    "aligned": 58,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Lifetime driving records#3_0",
+    "format": "markdown",
+    "blocks": 58,
+    "aligned": 57,
+    "missing_ids": [
+      "src_d116f74fac575be8::b0008"
+    ]
+  },
+  {
+    "doc_id": "Lost, stolen, or destroyed plates#3_0",
+    "format": "pdf_scanned",
+    "blocks": 27,
+    "aligned": 18,
+    "missing_ids": [
+      "src_4c874013076a719a::b0002",
+      "src_4c874013076a719a::b0005",
+      "src_4c874013076a719a::b0007",
+      "src_4c874013076a719a::b0014",
+      "src_4c874013076a719a::b0015",
+      "src_4c874013076a719a::b0016",
+      "src_4c874013076a719a::b0017",
+      "src_4c874013076a719a::b0019",
+      "src_4c874013076a719a::b0025"
+    ]
+  },
+  {
+    "doc_id": "Medical Certification FAQ's#3_0",
+    "format": "markdown",
+    "blocks": 48,
+    "aligned": 48,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Medical Certification Requirements#3_0",
+    "format": "docx",
+    "blocks": 40,
+    "aligned": 40,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Moving out of New York State#3_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 14,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Moving to NY#3_0",
+    "format": "pdf_text",
+    "blocks": 25,
+    "aligned": 24,
+    "missing_ids": [
+      "src_54c0c5d430a716d9::b0019"
+    ]
+  },
+  {
+    "doc_id": "MyDMV Account Terms of Service#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 17,
+    "missing_ids": [
+      "src_dc333d3c4b70a94a::b0016"
+    ]
+  },
+  {
+    "doc_id": "New CDL testing and commercial learner permit (CLP) standards#3_0",
+    "format": "txt",
+    "blocks": 49,
+    "aligned": 49,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "New York State Insurance Requirements#3_0",
+    "format": "pdf_scanned",
+    "blocks": 23,
+    "aligned": 17,
+    "missing_ids": [
+      "src_eccab393aa067a82::b0006",
+      "src_eccab393aa067a82::b0008",
+      "src_eccab393aa067a82::b0014",
+      "src_eccab393aa067a82::b0016",
+      "src_eccab393aa067a82::b0022",
+      "src_eccab393aa067a82::b0023"
+    ]
+  },
+  {
+    "doc_id": "NY State Adventure License FAQs#3_0",
+    "format": "txt",
+    "blocks": 22,
+    "aligned": 22,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "NYS Adventure License and Adventure Custom Plates#3_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Open a dealership#3_0",
+    "format": "markdown",
+    "blocks": 48,
+    "aligned": 48,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Open a driving school#3_0",
+    "format": "markdown",
+    "blocks": 22,
+    "aligned": 20,
+    "missing_ids": [
+      "src_648180606c1c68e1::b0006",
+      "src_648180606c1c68e1::b0018"
+    ]
+  },
+  {
+    "doc_id": "Open a repair or body shop#3_0",
+    "format": "pdf_text",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Open an inspection station#1_0",
+    "format": "markdown",
+    "blocks": 48,
+    "aligned": 41,
+    "missing_ids": [
+      "src_31b18d16a67b7ff8::b0040",
+      "src_31b18d16a67b7ff8::b0043",
+      "src_31b18d16a67b7ff8::b0044",
+      "src_31b18d16a67b7ff8::b0045",
+      "src_31b18d16a67b7ff8::b0046",
+      "src_31b18d16a67b7ff8::b0047",
+      "src_31b18d16a67b7ff8::b0048"
+    ]
+  },
+  {
+    "doc_id": "Order personalized plates#1_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 36,
+    "missing_ids": [
+      "src_466d6834f99375d6::b0027",
+      "src_466d6834f99375d6::b0037",
+      "src_466d6834f99375d6::b0039"
+    ]
+  },
+  {
+    "doc_id": "Order picture and professional plates#1_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 34,
+    "missing_ids": [
+      "src_9ef265275695ea9d::b0029",
+      "src_9ef265275695ea9d::b0034",
+      "src_9ef265275695ea9d::b0037",
+      "src_9ef265275695ea9d::b0038",
+      "src_9ef265275695ea9d::b0039"
+    ]
+  },
+  {
+    "doc_id": "Parking for People with Disabilities - The Law#3_0",
+    "format": "markdown",
+    "blocks": 65,
+    "aligned": 63,
+    "missing_ids": [
+      "src_7056ad51af8441b0::b0008",
+      "src_7056ad51af8441b0::b0014"
+    ]
+  },
+  {
+    "doc_id": "Passenger vehicle registration fees, use taxes and supplemental fees#3_0",
+    "format": "txt",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Pay driver civil penalty#1_0",
+    "format": "txt",
+    "blocks": 43,
+    "aligned": 40,
+    "missing_ids": [
+      "src_3fd1331a602be6ee::b0038",
+      "src_3fd1331a602be6ee::b0041",
+      "src_3fd1331a602be6ee::b0043"
+    ]
+  },
+  {
+    "doc_id": "Pay driver responsibility assessment#1_0",
+    "format": "markdown",
+    "blocks": 52,
+    "aligned": 47,
+    "missing_ids": [
+      "src_c50cc12a98046367::b0045",
+      "src_c50cc12a98046367::b0047",
+      "src_c50cc12a98046367::b0050",
+      "src_c50cc12a98046367::b0051",
+      "src_c50cc12a98046367::b0052"
+    ]
+  },
+  {
+    "doc_id": "Pay insurance lapse civil penalty#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 24,
+    "missing_ids": [
+      "src_03a8a1a851f38647::b0023",
+      "src_03a8a1a851f38647::b0026",
+      "src_03a8a1a851f38647::b0027",
+      "src_03a8a1a851f38647::b0028"
+    ]
+  },
+  {
+    "doc_id": "Pay suspension termination fee#1_0",
+    "format": "markdown",
+    "blocks": 44,
+    "aligned": 41,
+    "missing_ids": [
+      "src_1b17139027165577::b0031",
+      "src_1b17139027165577::b0033",
+      "src_1b17139027165577::b0044"
+    ]
+  },
+  {
+    "doc_id": "Plead to or pay TVB tickets#1_0",
+    "format": "markdown",
+    "blocks": 40,
+    "aligned": 35,
+    "missing_ids": [
+      "src_e8d8c6f6ed42859b::b0033",
+      "src_e8d8c6f6ed42859b::b0034",
+      "src_e8d8c6f6ed42859b::b0035",
+      "src_e8d8c6f6ed42859b::b0038",
+      "src_e8d8c6f6ed42859b::b0040"
+    ]
+  },
+  {
+    "doc_id": "Point & Insurance Reduction Program#3_0",
+    "format": "markdown",
+    "blocks": 49,
+    "aligned": 47,
+    "missing_ids": [
+      "src_c9514bcc460b5afb::b0003",
+      "src_c9514bcc460b5afb::b0047"
+    ]
+  },
+  {
+    "doc_id": "Prepare for your road test#3_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 23,
+    "missing_ids": [
+      "src_8075639699bd632c::b0019",
+      "src_8075639699bd632c::b0020",
+      "src_8075639699bd632c::b0021",
+      "src_8075639699bd632c::b0027",
+      "src_8075639699bd632c::b0028"
+    ]
+  },
+  {
+    "doc_id": "Proof of ownership is not available#3_0",
+    "format": "pdf_text",
+    "blocks": 28,
+    "aligned": 27,
+    "missing_ids": [
+      "src_1b06bafa082b015b::b0021"
+    ]
+  },
+  {
+    "doc_id": "Provide proof of insurance#1_0",
+    "format": "pdf_text",
+    "blocks": 24,
+    "aligned": 22,
+    "missing_ids": [
+      "src_b93a27018afda2b6::b0010",
+      "src_b93a27018afda2b6::b0018"
+    ]
+  },
+  {
+    "doc_id": "Refunds and transfer credits for surrendered plates#3_0",
+    "format": "txt",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Register a leased vehicle#1_0",
+    "format": "pdf_scanned",
+    "blocks": 44,
+    "aligned": 34,
+    "missing_ids": [
+      "src_96ed6d97d26ade8b::b0012",
+      "src_96ed6d97d26ade8b::b0015",
+      "src_96ed6d97d26ade8b::b0032",
+      "src_96ed6d97d26ade8b::b0035",
+      "src_96ed6d97d26ade8b::b0036",
+      "src_96ed6d97d26ade8b::b0037",
+      "src_96ed6d97d26ade8b::b0038",
+      "src_96ed6d97d26ade8b::b0042",
+      "src_96ed6d97d26ade8b::b0043",
+      "src_96ed6d97d26ade8b::b0044"
+    ]
+  },
+  {
+    "doc_id": "Register a moped#1_0",
+    "format": "pdf_scanned",
+    "blocks": 38,
+    "aligned": 29,
+    "missing_ids": [
+      "src_b896c1127b175e79::b0007",
+      "src_b896c1127b175e79::b0029",
+      "src_b896c1127b175e79::b0032",
+      "src_b896c1127b175e79::b0033",
+      "src_b896c1127b175e79::b0034",
+      "src_b896c1127b175e79::b0035",
+      "src_b896c1127b175e79::b0036",
+      "src_b896c1127b175e79::b0037",
+      "src_b896c1127b175e79::b0038"
+    ]
+  },
+  {
+    "doc_id": "Register a pick-up truck as 'passenger' class vehicles#1_0",
+    "format": "docx",
+    "blocks": 45,
+    "aligned": 34,
+    "missing_ids": [
+      "src_16c3ee95838da573::b0006",
+      "src_16c3ee95838da573::b0034",
+      "src_16c3ee95838da573::b0037",
+      "src_16c3ee95838da573::b0038",
+      "src_16c3ee95838da573::b0039",
+      "src_16c3ee95838da573::b0040",
+      "src_16c3ee95838da573::b0041",
+      "src_16c3ee95838da573::b0042",
+      "src_16c3ee95838da573::b0043",
+      "src_16c3ee95838da573::b0044",
+      "src_16c3ee95838da573::b0045"
+    ]
+  },
+  {
+    "doc_id": "Register a snowmobile#1_0",
+    "format": "docx",
+    "blocks": 49,
+    "aligned": 39,
+    "missing_ids": [
+      "src_63914c57efd08335::b0032",
+      "src_63914c57efd08335::b0039",
+      "src_63914c57efd08335::b0042",
+      "src_63914c57efd08335::b0043",
+      "src_63914c57efd08335::b0044",
+      "src_63914c57efd08335::b0045",
+      "src_63914c57efd08335::b0046",
+      "src_63914c57efd08335::b0047",
+      "src_63914c57efd08335::b0048",
+      "src_63914c57efd08335::b0049"
+    ]
+  },
+  {
+    "doc_id": "Register a vehicle I bought at a sheriff or marshal auction#3_0",
+    "format": "markdown",
+    "blocks": 59,
+    "aligned": 57,
+    "missing_ids": [
+      "src_e6d794ea89ce9e46::b0027",
+      "src_e6d794ea89ce9e46::b0057"
+    ]
+  },
+  {
+    "doc_id": "Register a vehicle when you are out-of-state#1_0",
+    "format": "txt",
+    "blocks": 58,
+    "aligned": 55,
+    "missing_ids": [
+      "src_e7802defcfc23396::b0049",
+      "src_e7802defcfc23396::b0056",
+      "src_e7802defcfc23396::b0058"
+    ]
+  },
+  {
+    "doc_id": "Register a vehicle#1_0",
+    "format": "pdf_text",
+    "blocks": 94,
+    "aligned": 88,
+    "missing_ids": [
+      "src_bfb68f7648e3d6c8::b0020",
+      "src_bfb68f7648e3d6c8::b0028",
+      "src_bfb68f7648e3d6c8::b0057",
+      "src_bfb68f7648e3d6c8::b0059",
+      "src_bfb68f7648e3d6c8::b0071",
+      "src_bfb68f7648e3d6c8::b0079"
+    ]
+  },
+  {
+    "doc_id": "Register an ATV#1_0",
+    "format": "pdf_text",
+    "blocks": 46,
+    "aligned": 37,
+    "missing_ids": [
+      "src_bff4c37dd542fc58::b0032",
+      "src_bff4c37dd542fc58::b0036",
+      "src_bff4c37dd542fc58::b0040",
+      "src_bff4c37dd542fc58::b0041",
+      "src_bff4c37dd542fc58::b0042",
+      "src_bff4c37dd542fc58::b0043",
+      "src_bff4c37dd542fc58::b0044",
+      "src_bff4c37dd542fc58::b0045",
+      "src_bff4c37dd542fc58::b0046"
+    ]
+  },
+  {
+    "doc_id": "Register an out-of-state vehicle#1_0",
+    "format": "pdf_text",
+    "blocks": 46,
+    "aligned": 44,
+    "missing_ids": [
+      "src_41b48b6e902a6211::b0005",
+      "src_41b48b6e902a6211::b0029"
+    ]
+  },
+  {
+    "doc_id": "Registration suspensions for failure to pay tolls#3_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Registrations#3_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 27,
+    "missing_ids": [
+      "src_4c4fccc5140d7d29::b0027"
+    ]
+  },
+  {
+    "doc_id": "Remove a lienholder from a title#1_0",
+    "format": "markdown",
+    "blocks": 42,
+    "aligned": 28,
+    "missing_ids": [
+      "src_f87ed8382d5a6ad2::b0015",
+      "src_f87ed8382d5a6ad2::b0027",
+      "src_f87ed8382d5a6ad2::b0030",
+      "src_f87ed8382d5a6ad2::b0031",
+      "src_f87ed8382d5a6ad2::b0032",
+      "src_f87ed8382d5a6ad2::b0033",
+      "src_f87ed8382d5a6ad2::b0034",
+      "src_f87ed8382d5a6ad2::b0035",
+      "src_f87ed8382d5a6ad2::b0036",
+      "src_f87ed8382d5a6ad2::b0037",
+      "src_f87ed8382d5a6ad2::b0038",
+      "src_f87ed8382d5a6ad2::b0039",
+      "src_f87ed8382d5a6ad2::b0040",
+      "src_f87ed8382d5a6ad2::b0042"
+    ]
+  },
+  {
+    "doc_id": "Renew a business license or registration#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 26,
+    "missing_ids": [
+      "src_74ea54a52f469447::b0025",
+      "src_74ea54a52f469447::b0028",
+      "src_74ea54a52f469447::b0029",
+      "src_74ea54a52f469447::b0030",
+      "src_74ea54a52f469447::b0031",
+      "src_74ea54a52f469447::b0032",
+      "src_74ea54a52f469447::b0033"
+    ]
+  },
+  {
+    "doc_id": "Renew a CDL#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 21,
+    "missing_ids": [
+      "src_87c71cc56eb11b54::b0020",
+      "src_87c71cc56eb11b54::b0023",
+      "src_87c71cc56eb11b54::b0024",
+      "src_87c71cc56eb11b54::b0025",
+      "src_87c71cc56eb11b54::b0026",
+      "src_87c71cc56eb11b54::b0027",
+      "src_87c71cc56eb11b54::b0028"
+    ]
+  },
+  {
+    "doc_id": "Renew a hazardous materials (HazMat) endorsement#1_0",
+    "format": "markdown",
+    "blocks": 41,
+    "aligned": 34,
+    "missing_ids": [
+      "src_60d85a18874df614::b0024",
+      "src_60d85a18874df614::b0034",
+      "src_60d85a18874df614::b0037",
+      "src_60d85a18874df614::b0038",
+      "src_60d85a18874df614::b0039",
+      "src_60d85a18874df614::b0040",
+      "src_60d85a18874df614::b0041"
+    ]
+  },
+  {
+    "doc_id": "Renew Driving School License#3_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Renew non-driver ID card#1_0",
+    "format": "markdown",
+    "blocks": 67,
+    "aligned": 60,
+    "missing_ids": [
+      "src_8d96c7121aa4e04a::b0057",
+      "src_8d96c7121aa4e04a::b0060",
+      "src_8d96c7121aa4e04a::b0063",
+      "src_8d96c7121aa4e04a::b0064",
+      "src_8d96c7121aa4e04a::b0065",
+      "src_8d96c7121aa4e04a::b0066",
+      "src_8d96c7121aa4e04a::b0067"
+    ]
+  },
+  {
+    "doc_id": "Replace a non-driver ID card#1_0",
+    "format": "markdown",
+    "blocks": 62,
+    "aligned": 58,
+    "missing_ids": [
+      "src_91a5a34dade3515b::b0051",
+      "src_91a5a34dade3515b::b0055",
+      "src_91a5a34dade3515b::b0060",
+      "src_91a5a34dade3515b::b0062"
+    ]
+  },
+  {
+    "doc_id": "Replace a title certificate#1_0",
+    "format": "markdown",
+    "blocks": 55,
+    "aligned": 42,
+    "missing_ids": [
+      "src_b53920d25a25bd40::b0010",
+      "src_b53920d25a25bd40::b0042",
+      "src_b53920d25a25bd40::b0043",
+      "src_b53920d25a25bd40::b0044",
+      "src_b53920d25a25bd40::b0047",
+      "src_b53920d25a25bd40::b0048",
+      "src_b53920d25a25bd40::b0049",
+      "src_b53920d25a25bd40::b0050",
+      "src_b53920d25a25bd40::b0051",
+      "src_b53920d25a25bd40::b0052",
+      "src_b53920d25a25bd40::b0053",
+      "src_b53920d25a25bd40::b0054",
+      "src_b53920d25a25bd40::b0055"
+    ]
+  },
+  {
+    "doc_id": "Replace IRP registration items#1_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 41,
+    "missing_ids": [
+      "src_0ef1df62ad1d4097::b0006",
+      "src_0ef1df62ad1d4097::b0015",
+      "src_0ef1df62ad1d4097::b0018",
+      "src_0ef1df62ad1d4097::b0040",
+      "src_0ef1df62ad1d4097::b0045"
+    ]
+  },
+  {
+    "doc_id": "Replace license or permit#1_0",
+    "format": "markdown",
+    "blocks": 75,
+    "aligned": 71,
+    "missing_ids": [
+      "src_cfe92760f00894ac::b0063",
+      "src_cfe92760f00894ac::b0068",
+      "src_cfe92760f00894ac::b0073",
+      "src_cfe92760f00894ac::b0075"
+    ]
+  },
+  {
+    "doc_id": "Replace or transfer personalized plates#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 30,
+    "missing_ids": [
+      "src_45b76a9b98430f97::b0020",
+      "src_45b76a9b98430f97::b0029",
+      "src_45b76a9b98430f97::b0032"
+    ]
+  },
+  {
+    "doc_id": "Report a problem with a DMV regulated automotive business#1_0",
+    "format": "markdown",
+    "blocks": 12,
+    "aligned": 11,
+    "missing_ids": [
+      "src_b3d8f71a187b3ff1::b0010"
+    ]
+  },
+  {
+    "doc_id": "Requirements and forms for driving schools and instructors#3_0",
+    "format": "pdf_scanned",
+    "blocks": 35,
+    "aligned": 14,
+    "missing_ids": [
+      "src_903092fb379b44eb::b0005",
+      "src_903092fb379b44eb::b0006",
+      "src_903092fb379b44eb::b0010",
+      "src_903092fb379b44eb::b0013",
+      "src_903092fb379b44eb::b0014",
+      "src_903092fb379b44eb::b0015",
+      "src_903092fb379b44eb::b0016",
+      "src_903092fb379b44eb::b0017",
+      "src_903092fb379b44eb::b0018",
+      "src_903092fb379b44eb::b0019",
+      "src_903092fb379b44eb::b0020",
+      "src_903092fb379b44eb::b0022",
+      "src_903092fb379b44eb::b0023",
+      "src_903092fb379b44eb::b0024",
+      "src_903092fb379b44eb::b0026",
+      "src_903092fb379b44eb::b0027",
+      "src_903092fb379b44eb::b0028",
+      "src_903092fb379b44eb::b0029",
+      "src_903092fb379b44eb::b0030",
+      "src_903092fb379b44eb::b0031",
+      "src_903092fb379b44eb::b0032"
+    ]
+  },
+  {
+    "doc_id": "Resources for non US citizens#3_0",
+    "format": "markdown",
+    "blocks": 29,
+    "aligned": 28,
+    "missing_ids": [
+      "src_0620f9bc0d2d2936::b0011"
+    ]
+  },
+  {
+    "doc_id": "Respond to DMV insurance letters and orders#3_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 24,
+    "missing_ids": [
+      "src_fbc12a3967214dbb::b0025"
+    ]
+  },
+  {
+    "doc_id": "Restore license after revocation#1_0",
+    "format": "markdown",
+    "blocks": 88,
+    "aligned": 82,
+    "missing_ids": [
+      "src_7a417323c4b55d2b::b0015",
+      "src_7a417323c4b55d2b::b0050",
+      "src_7a417323c4b55d2b::b0065",
+      "src_7a417323c4b55d2b::b0083",
+      "src_7a417323c4b55d2b::b0086",
+      "src_7a417323c4b55d2b::b0088"
+    ]
+  },
+  {
+    "doc_id": "Sales tax information#3_0",
+    "format": "pdf_text",
+    "blocks": 11,
+    "aligned": 10,
+    "missing_ids": [
+      "src_d26298ab991a4eb8::b0008"
+    ]
+  },
+  {
+    "doc_id": "Schedule and take a road test#1_0",
+    "format": "markdown",
+    "blocks": 63,
+    "aligned": 58,
+    "missing_ids": [
+      "src_bdf3c17057f5eb63::b0057",
+      "src_bdf3c17057f5eb63::b0058",
+      "src_bdf3c17057f5eb63::b0061",
+      "src_bdf3c17057f5eb63::b0062",
+      "src_bdf3c17057f5eb63::b0063"
+    ]
+  },
+  {
+    "doc_id": "Sharing your information#3_0",
+    "format": "pdf_text",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Signing in to MyDMV#1_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 13,
+    "missing_ids": [
+      "src_a40255037a14d064::b0006"
+    ]
+  },
+  {
+    "doc_id": "Stolen and recovered vehicles#3_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Surrender (return or turn in) your plates to the DMV#3_0",
+    "format": "markdown",
+    "blocks": 40,
+    "aligned": 38,
+    "missing_ids": [
+      "src_2ec1a78e7102805c::b0004",
+      "src_2ec1a78e7102805c::b0040"
+    ]
+  },
+  {
+    "doc_id": "Surrender IRP registration and plates#1_0",
+    "format": "txt",
+    "blocks": 39,
+    "aligned": 36,
+    "missing_ids": [
+      "src_64ac268709f9a537::b0032",
+      "src_64ac268709f9a537::b0035",
+      "src_64ac268709f9a537::b0038"
+    ]
+  },
+  {
+    "doc_id": "Suspensions and revocations#3_0",
+    "format": "txt",
+    "blocks": 22,
+    "aligned": 22,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Temporary surrender of vehicle plates (store plates for a season)#3_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "The Graduated License Law and Restrictions for Drivers under 18#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 26,
+    "missing_ids": [
+      "src_0fd8893ff0858f65::b0009",
+      "src_0fd8893ff0858f65::b0011",
+      "src_0fd8893ff0858f65::b0016",
+      "src_0fd8893ff0858f65::b0024"
+    ]
+  },
+  {
+    "doc_id": "The Impaired Driver Program - Alcohol & Drug Rehabilitation Program#3_0",
+    "format": "pdf_text",
+    "blocks": 11,
+    "aligned": 11,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Tickets received in another state#3_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Tickets received in New York City#3_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_77228d6dec4f8a95::b0017"
+    ]
+  },
+  {
+    "doc_id": "Top 5 DMV Mistakes and How to Avoid Them#3_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Traffic Violations Bureau#3_0",
+    "format": "pdf_scanned",
+    "blocks": 49,
+    "aligned": 45,
+    "missing_ids": [
+      "src_2a69ed73708c3cfe::b0017",
+      "src_2a69ed73708c3cfe::b0021",
+      "src_2a69ed73708c3cfe::b0030",
+      "src_2a69ed73708c3cfe::b0032"
+    ]
+  },
+  {
+    "doc_id": "Transfer IRP registration#1_0",
+    "format": "markdown",
+    "blocks": 48,
+    "aligned": 40,
+    "missing_ids": [
+      "src_1ba9c42b84904968::b0008",
+      "src_1ba9c42b84904968::b0029",
+      "src_1ba9c42b84904968::b0041",
+      "src_1ba9c42b84904968::b0044",
+      "src_1ba9c42b84904968::b0045",
+      "src_1ba9c42b84904968::b0046",
+      "src_1ba9c42b84904968::b0047",
+      "src_1ba9c42b84904968::b0048"
+    ]
+  },
+  {
+    "doc_id": "Transfer ownership and acceptable proofs of ownership#3_0",
+    "format": "pdf_text",
+    "blocks": 115,
+    "aligned": 108,
+    "missing_ids": [
+      "src_3690ecb40306584e::b0009",
+      "src_3690ecb40306584e::b0011",
+      "src_3690ecb40306584e::b0027",
+      "src_3690ecb40306584e::b0033",
+      "src_3690ecb40306584e::b0044",
+      "src_3690ecb40306584e::b0112",
+      "src_3690ecb40306584e::b0115"
+    ]
+  },
+  {
+    "doc_id": "Unsatisfied Judgments#3_0",
+    "format": "markdown",
+    "blocks": 11,
+    "aligned": 11,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Vehicle modifications and registration class#3_0",
+    "format": "txt",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veteran status designation on a photo document#3_0",
+    "format": "markdown",
+    "blocks": 22,
+    "aligned": 22,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Vision requirements & restrictions#3_0",
+    "format": "txt",
+    "blocks": 30,
+    "aligned": 30,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Voter Registration Application Frequently Asked Questions#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 27,
+    "missing_ids": [
+      "src_9938071ecf1e0f45::b0026",
+      "src_9938071ecf1e0f45::b0029",
+      "src_9938071ecf1e0f45::b0030"
+    ]
+  },
+  {
+    "doc_id": "Appeal A Decision | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 34,
+    "aligned": 34,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Appeal A Decision | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 33,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0",
+    "format": "markdown",
+    "blocks": 10,
+    "aligned": 9,
+    "missing_ids": [
+      "src_22e2f9e1dbd76868::b0007"
+    ]
+  },
+  {
+    "doc_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#2_0",
+    "format": "markdown",
+    "blocks": 9,
+    "aligned": 8,
+    "missing_ids": [
+      "src_ee5215500a02d7c3::b0006"
+    ]
+  },
+  {
+    "doc_id": "Apply for Retirement Benefits | SSA#1_0",
+    "format": "markdown",
+    "blocks": 83,
+    "aligned": 83,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefit Verification Letter  | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefit Verification Letter  | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits for People with Disabilities#1_0",
+    "format": "markdown",
+    "blocks": 44,
+    "aligned": 44,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner | Social Security Administration#2_0",
+    "format": "pdf_text",
+    "blocks": 26,
+    "aligned": 26,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 22,
+    "missing_ids": [
+      "src_a09a6a781d7acb4e::b0017"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner | Social Security Credits and Benefit Eligibility | SSA#2_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 22,
+    "missing_ids": [
+      "src_153b56367db31253::b0017"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 30,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Approval Process | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 19,
+    "missing_ids": [
+      "src_d27b78db8a7ea78f::b0009"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Are You Working | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 18,
+    "missing_ids": [
+      "src_953bc6ace52e7165::b0008"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Family Benefits | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 31,
+    "missing_ids": [
+      "src_fc26d3c13b6147df::b0004",
+      "src_fc26d3c13b6147df::b0029"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Family Benefits | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 31,
+    "missing_ids": [
+      "src_58642d7963160e2d::b0028"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0",
+    "format": "pdf_text",
+    "blocks": 30,
+    "aligned": 30,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 72,
+    "aligned": 72,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 71,
+    "aligned": 71,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Disability | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 15,
+    "aligned": 15,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Applying for Medicare Only | Social Security Administration#2_0",
+    "format": "pdf_text",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 14,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Benefits For Your Family | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 32,
+    "missing_ids": [
+      "src_fea6e0b27b0b0e40::b0012",
+      "src_fea6e0b27b0b0e40::b0015",
+      "src_fea6e0b27b0b0e40::b0027",
+      "src_fea6e0b27b0b0e40::b0030"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Benefits For Your Spouse | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 35,
+    "aligned": 31,
+    "missing_ids": [
+      "src_a15b0f114fd645b3::b0011",
+      "src_a15b0f114fd645b3::b0014",
+      "src_a15b0f114fd645b3::b0026",
+      "src_a15b0f114fd645b3::b0029"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#1_0",
+    "format": "pdf_text",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Delayed Retirement Credits | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 12,
+    "aligned": 12,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 11,
+    "aligned": 11,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Getting Benefits While Working | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 10,
+    "aligned": 10,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#1_0",
+    "format": "pdf_text",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Government Pension Offset (GPO) Calculator | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 17,
+    "missing_ids": [
+      "src_98b1ef5923e85c39::b0007",
+      "src_98b1ef5923e85c39::b0009",
+      "src_98b1ef5923e85c39::b0013"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | If You Are Divorced | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 15,
+    "aligned": 15,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#1_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Medicare Premiums | SSA#2_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0",
+    "format": "markdown",
+    "blocks": 10,
+    "aligned": 10,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 52,
+    "aligned": 51,
+    "missing_ids": [
+      "src_b25045f59786ea84::b0037"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | Other Things to Consider | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 51,
+    "aligned": 50,
+    "missing_ids": [
+      "src_71df8fae119461fb::b0036"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 17,
+    "missing_ids": [
+      "src_20412ddefb65cf73::b0018"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Retirement | You Can Apply For Retirement Benefits Or Medicare | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_010329a6befa9cad::b0017"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Survivors | How You Apply | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 12,
+    "aligned": 12,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Survivors | How You Apply | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 11,
+    "aligned": 11,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 69,
+    "aligned": 68,
+    "missing_ids": [
+      "src_2d9719737c21d4d6::b0021"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Survivors | If You Are The Survivor | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 68,
+    "aligned": 67,
+    "missing_ids": [
+      "src_f268b6b68576f255::b0020"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#1_0",
+    "format": "pdf_text",
+    "blocks": 51,
+    "aligned": 50,
+    "missing_ids": [
+      "src_cfcb3840cc26c06e::b0032"
+    ]
+  },
+  {
+    "doc_id": "Benefits Planner: Survivors | Planning For Your Survivors | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 50,
+    "aligned": 50,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Change of Address| Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_d87c62e4d40925ec::b0008"
+    ]
+  },
+  {
+    "doc_id": "Change of Address| Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 15,
+    "missing_ids": [
+      "src_1283eff4d69f6884::b0007"
+    ]
+  },
+  {
+    "doc_id": "Direct Deposit | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 22,
+    "aligned": 22,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Direct Deposit | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Disability Benefits | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 44,
+    "missing_ids": [
+      "src_4ff3333b79e4fb28::b0026",
+      "src_4ff3333b79e4fb28::b0028"
+    ]
+  },
+  {
+    "doc_id": "Disability Benefits | Social Security Administration#2_0",
+    "format": "pdf_text",
+    "blocks": 45,
+    "aligned": 43,
+    "missing_ids": [
+      "src_85a2ea3f2946fa1b::b0025",
+      "src_85a2ea3f2946fa1b::b0027"
+    ]
+  },
+  {
+    "doc_id": "Explore The Benefits You May Be Due#1_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Explore The Benefits You May Be Due#2_0",
+    "format": "pdf_text",
+    "blocks": 37,
+    "aligned": 37,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How To Apply For Social Security Disability Benefits#1_0",
+    "format": "markdown",
+    "blocks": 15,
+    "aligned": 15,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How To Apply For Social Security Disability Benefits#3_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn About Retirement Benefits | SSA#1_0",
+    "format": "markdown",
+    "blocks": 65,
+    "aligned": 65,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#10_0",
+    "format": "pdf_text",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#10_0_1",
+    "format": "pdf_text",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#11_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#11_0_1",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#12_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#12_0_1_2",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#13_0",
+    "format": "pdf_text",
+    "blocks": 45,
+    "aligned": 45,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#13_0_1",
+    "format": "pdf_text",
+    "blocks": 45,
+    "aligned": 45,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#14_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#15_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#16_0",
+    "format": "pdf_text",
+    "blocks": 33,
+    "aligned": 33,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#17_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#18_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#19_0",
+    "format": "markdown",
+    "blocks": 41,
+    "aligned": 41,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#20_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#2_0_1",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#3_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 46,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#4_0_1_2",
+    "format": "pdf_text",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#5_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0_1_2",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0_1_2_3",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#6_0_1_2_3_4",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#7_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#7_0_1_2",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#8_0_1_2",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Learn what documents you will need to get a Social Security Card | Social Security Administration#9_0",
+    "format": "pdf_scanned",
+    "blocks": 35,
+    "aligned": 18,
+    "missing_ids": [
+      "src_afd97bd7e538790e::b0009",
+      "src_afd97bd7e538790e::b0010",
+      "src_afd97bd7e538790e::b0013",
+      "src_afd97bd7e538790e::b0014",
+      "src_afd97bd7e538790e::b0015",
+      "src_afd97bd7e538790e::b0016",
+      "src_afd97bd7e538790e::b0017",
+      "src_afd97bd7e538790e::b0018",
+      "src_afd97bd7e538790e::b0019",
+      "src_afd97bd7e538790e::b0020",
+      "src_afd97bd7e538790e::b0022",
+      "src_afd97bd7e538790e::b0023",
+      "src_afd97bd7e538790e::b0024",
+      "src_afd97bd7e538790e::b0025",
+      "src_afd97bd7e538790e::b0027",
+      "src_afd97bd7e538790e::b0033",
+      "src_afd97bd7e538790e::b0034"
+    ]
+  },
+  {
+    "doc_id": "Manage Your Retirement Benefits | SSA#1_0",
+    "format": "markdown",
+    "blocks": 50,
+    "aligned": 50,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Medicare Benefits | Social Security Administration#1_0",
+    "format": "pdf_text",
+    "blocks": 43,
+    "aligned": 43,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Medicare Benefits | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 42,
+    "aligned": 42,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "my Social Security | Create an Account | Social Security Administratio#1_0",
+    "format": "markdown",
+    "blocks": 10,
+    "aligned": 8,
+    "missing_ids": [
+      "src_d78685b208d3baaa::b0004",
+      "src_d78685b208d3baaa::b0007"
+    ]
+  },
+  {
+    "doc_id": "my Social Security | Create an Account | Social Security Administratio#2_0",
+    "format": "markdown",
+    "blocks": 9,
+    "aligned": 7,
+    "missing_ids": [
+      "src_ab421fb2be1ee331::b0003",
+      "src_ab421fb2be1ee331::b0006"
+    ]
+  },
+  {
+    "doc_id": "my Social Security | Security and Protection | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 26,
+    "missing_ids": [
+      "src_82805346302d5017::b0022",
+      "src_82805346302d5017::b0024"
+    ]
+  },
+  {
+    "doc_id": "my Social Security | Security and Protection | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 25,
+    "missing_ids": [
+      "src_c91a3db805c71189::b0021",
+      "src_c91a3db805c71189::b0023"
+    ]
+  },
+  {
+    "doc_id": "Retirement Benefits | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 46,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Retirement Benefits | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 45,
+    "aligned": 45,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Retirement Estimator | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_8404110e79f9f201::b0010"
+    ]
+  },
+  {
+    "doc_id": "Retirement Estimator | Social Security Administration#2_0",
+    "format": "pdf_text",
+    "blocks": 16,
+    "aligned": 15,
+    "missing_ids": [
+      "src_768b1804e71691b7::b0009"
+    ]
+  },
+  {
+    "doc_id": "Social Security Direct Deposit | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Social Security Direct Deposit | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 11,
+    "aligned": 11,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+    "format": "markdown",
+    "blocks": 22,
+    "aligned": 22,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Accepting Aid | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 20,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Aid for International Study | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 25,
+    "missing_ids": [
+      "src_97f9239736898fde::b0015",
+      "src_97f9239736898fde::b0022"
+    ]
+  },
+  {
+    "doc_id": "Aid for Military Families | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 34,
+    "aligned": 33,
+    "missing_ids": [
+      "src_37ece20fc042feb4::b0028"
+    ]
+  },
+  {
+    "doc_id": "Aidan | The FSA Virtual Assistant | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Appeal a Credit Decision Demo | Extenuating Circumstances | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 111,
+    "aligned": 85,
+    "missing_ids": [
+      "src_b2d0f368737ad77d::b0016",
+      "src_b2d0f368737ad77d::b0017",
+      "src_b2d0f368737ad77d::b0018",
+      "src_b2d0f368737ad77d::b0021",
+      "src_b2d0f368737ad77d::b0023",
+      "src_b2d0f368737ad77d::b0024",
+      "src_b2d0f368737ad77d::b0025",
+      "src_b2d0f368737ad77d::b0027",
+      "src_b2d0f368737ad77d::b0029",
+      "src_b2d0f368737ad77d::b0039",
+      "src_b2d0f368737ad77d::b0041",
+      "src_b2d0f368737ad77d::b0042",
+      "src_b2d0f368737ad77d::b0046",
+      "src_b2d0f368737ad77d::b0047",
+      "src_b2d0f368737ad77d::b0053",
+      "src_b2d0f368737ad77d::b0055",
+      "src_b2d0f368737ad77d::b0057",
+      "src_b2d0f368737ad77d::b0063",
+      "src_b2d0f368737ad77d::b0065",
+      "src_b2d0f368737ad77d::b0067",
+      "src_b2d0f368737ad77d::b0073",
+      "src_b2d0f368737ad77d::b0075",
+      "src_b2d0f368737ad77d::b0081",
+      "src_b2d0f368737ad77d::b0087",
+      "src_b2d0f368737ad77d::b0089",
+      "src_b2d0f368737ad77d::b0091"
+    ]
+  },
+  {
+    "doc_id": "Apply for Income-Driven Student Loan Repayment | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 34,
+    "aligned": 34,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Avoiding Default | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Avoiding Student Aid Scams | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 67,
+    "aligned": 67,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Borrower Defense to Repayment | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 178,
+    "aligned": 175,
+    "missing_ids": [
+      "src_9ee31ffd8813b5c7::b0064",
+      "src_9ee31ffd8813b5c7::b0109",
+      "src_9ee31ffd8813b5c7::b0151"
+    ]
+  },
+  {
+    "doc_id": "Checklists for Academic and Financial Preparation | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 15,
+    "missing_ids": [
+      "src_b06ee8307274323d::b0014",
+      "src_b06ee8307274323d::b0016"
+    ]
+  },
+  {
+    "doc_id": "Choosing a School | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 36,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Closed School Discharge | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 37,
+    "aligned": 36,
+    "missing_ids": [
+      "src_0a728f9c31c5f319::b0010"
+    ]
+  },
+  {
+    "doc_id": "Co-sign Your Spouse's Income-Driven Repayment Plan Application | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 19,
+    "missing_ids": [
+      "src_b8b28c4856be761e::b0020"
+    ]
+  },
+  {
+    "doc_id": "Collections | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 54,
+    "aligned": 53,
+    "missing_ids": [
+      "src_423e575122290459::b0034"
+    ]
+  },
+  {
+    "doc_id": "Comparing School Aid Offers | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Complete Federal Student Loan Counseling | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Complete the Financial Aid Process | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Completing a Master Promissory Note | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Contracting Information | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 12,
+    "aligned": 12,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Dependency Status | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Eligibility for Non-U.S. Citizens | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 33,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Eligibility for Students with Criminal Convictions | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Eligibility Requirements | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 15,
+    "aligned": 14,
+    "missing_ids": [
+      "src_0e553919123137c6::b0006"
+    ]
+  },
+  {
+    "doc_id": "Entrance Counseling | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 18,
+    "missing_ids": [
+      "src_396a314a8e261a04::b0011",
+      "src_396a314a8e261a04::b0019"
+    ]
+  },
+  {
+    "doc_id": "Estimate Your Aid | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Exit Counseling | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 22,
+    "missing_ids": [
+      "src_14d61d2f2e87bea4::b0011"
+    ]
+  },
+  {
+    "doc_id": "Extended Plan | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "FAFSA® Application Deadlines | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 15,
+    "aligned": 15,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "FAFSA® Completion by High School and Public School District | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "FAFSA® Help | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "False Certification Discharge | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 18,
+    "missing_ids": [
+      "src_85010da1c1417647::b0007",
+      "src_85010da1c1417647::b0010"
+    ]
+  },
+  {
+    "doc_id": "Federal Versus Private Loans | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Feedback Center#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Filling Out the FAFSA® Form | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 79,
+    "aligned": 76,
+    "missing_ids": [
+      "src_9247319911ba350c::b0019",
+      "src_9247319911ba350c::b0063",
+      "src_9247319911ba350c::b0077"
+    ]
+  },
+  {
+    "doc_id": "Financial Aid Eligibility | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 43,
+    "aligned": 43,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 19,
+    "missing_ids": [
+      "src_63e84d2b33ab0505::b0012"
+    ]
+  },
+  {
+    "doc_id": "Gainful Employment Data | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 8,
+    "aligned": 7,
+    "missing_ids": [
+      "src_8fc3ab2cd6e54930::b0008"
+    ]
+  },
+  {
+    "doc_id": "Gainful Employment | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Get Temporary Relief | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Getting Out of Default | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 46,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Graduated Plan | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Grants | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How Aid Is Calculated | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How Financial Aid Works | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 33,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How Financial Aid Works | Federal Student Aid#2_0",
+    "format": "markdown",
+    "blocks": 38,
+    "aligned": 37,
+    "missing_ids": [
+      "src_edaff1e1d51e8d4c::b0014"
+    ]
+  },
+  {
+    "doc_id": "How to Correct or Update Your FAFSA® Application | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How to Renew Your FAFSA® Application | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 9,
+    "aligned": 8,
+    "missing_ids": [
+      "src_4b9d276ed8bf74f7::b0008"
+    ]
+  },
+  {
+    "doc_id": "How to Review and Correct Your FAFSA® Application | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Income-Driven Repayment Plans | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 72,
+    "aligned": 72,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Income-Sensitive Plan | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_51549056ce9007ab::b0015"
+    ]
+  },
+  {
+    "doc_id": "IT Standards Library | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 61,
+    "aligned": 60,
+    "missing_ids": [
+      "src_86a3d2dac35c5200::b0056"
+    ]
+  },
+  {
+    "doc_id": "Link to Us | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Listing Colleges on the FAFSA® Form | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 114,
+    "aligned": 114,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Loan Repayment Checklist | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 32,
+    "missing_ids": [
+      "src_b10268a13aed52ac::b0022"
+    ]
+  },
+  {
+    "doc_id": "Loan Servicers | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 39,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Loan Simulator | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Loans | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 36,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Lower or Suspend Student Loan Payments | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Make a Student Loan Payment | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "MPN for Graduate Students | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 34,
+    "aligned": 34,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Parent PLUS Loan Application | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Parent PLUS Loans | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 57,
+    "aligned": 56,
+    "missing_ids": [
+      "src_c00d428ae0b60a04::b0024"
+    ]
+  },
+  {
+    "doc_id": "Perkins Loan Cancellation and Discharge | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 60,
+    "aligned": 58,
+    "missing_ids": [
+      "src_ff38b4328c7d0024::b0042",
+      "src_ff38b4328c7d0024::b0054"
+    ]
+  },
+  {
+    "doc_id": "PLUS Loan Application for Graduate Students | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 14,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "PLUS Loan Application | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Preparing for College | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 30,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Program Reviews | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 8,
+    "aligned": 7,
+    "missing_ids": [
+      "src_2a10b92984139405::b0007"
+    ]
+  },
+  {
+    "doc_id": "Public Service Loan Forgiveness | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 76,
+    "aligned": 76,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Questions and Answers About FAFSA® Completion Data | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 45,
+    "aligned": 44,
+    "missing_ids": [
+      "src_66f9df105ba31253::b0021"
+    ]
+  },
+  {
+    "doc_id": "Receiving Financial Aid | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 41,
+    "aligned": 41,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Regaining Eligibility | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Repayment Plans | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 13,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Reporting Parent Information | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 45,
+    "missing_ids": [
+      "src_227e67875d6aeee4::b0040"
+    ]
+  },
+  {
+    "doc_id": "Standard Plan | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 22,
+    "aligned": 21,
+    "missing_ids": [
+      "src_7394a8008a34c4f0::b0009"
+    ]
+  },
+  {
+    "doc_id": "Staying Eligible | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 12,
+    "aligned": 12,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Student Aid Report | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 26,
+    "aligned": 26,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Student Loan Consolidation | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 44,
+    "aligned": 43,
+    "missing_ids": [
+      "src_33c66ff4d557475c::b0026"
+    ]
+  },
+  {
+    "doc_id": "Student Loan Deferment | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 51,
+    "aligned": 51,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Student Loan Forbearance | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 53,
+    "aligned": 53,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Student Loan Repayment | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 42,
+    "aligned": 42,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Subsidized and Unsubsidized Loans | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 60,
+    "aligned": 59,
+    "missing_ids": [
+      "src_5f3e351d588bb179::b0008"
+    ]
+  },
+  {
+    "doc_id": "Tax Benefits for Higher Education | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "TEACH Grant Counseling and Agreement To Serve (ATS) | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 34,
+    "aligned": 34,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Teacher Loan Forgiveness | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 55,
+    "aligned": 54,
+    "missing_ids": [
+      "src_f9172c0f5305cc9b::b0010"
+    ]
+  },
+  {
+    "doc_id": "Third-party Servicer Program Reviews | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 13,
+    "aligned": 12,
+    "missing_ids": [
+      "src_213906e09ddd6f5d::b0013"
+    ]
+  },
+  {
+    "doc_id": "Total and Permanent Disability Discharge | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 66,
+    "aligned": 65,
+    "missing_ids": [
+      "src_9d23a60388a286b3::b0008"
+    ]
+  },
+  {
+    "doc_id": "Types of Financial Aid | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Understand Financial Aid | Federal Student Aid#1_0",
+    "format": "pdf_text",
+    "blocks": 50,
+    "aligned": 50,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Understanding College Costs | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 17,
+    "missing_ids": [
+      "src_cd8f1f6b48bbe017::b0011",
+      "src_cd8f1f6b48bbe017::b0013",
+      "src_cd8f1f6b48bbe017::b0015",
+      "src_cd8f1f6b48bbe017::b0016",
+      "src_cd8f1f6b48bbe017::b0017",
+      "src_cd8f1f6b48bbe017::b0019"
+    ]
+  },
+  {
+    "doc_id": "Understanding Delinquency and Default | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 35,
+    "aligned": 35,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Unpaid Refund Discharge | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 11,
+    "aligned": 11,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Work-Study Jobs | Federal Student Aid#1_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 20,
+    "missing_ids": [
+      "src_ebf51caf56163732::b0019"
+    ]
+  },
+  {
+    "doc_id": "About VA Disability Ratings | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 59,
+    "aligned": 59,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "About VA Health Benefits | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 56,
+    "aligned": 46,
+    "missing_ids": [
+      "src_79403ea10316235f::b0016",
+      "src_79403ea10316235f::b0018",
+      "src_79403ea10316235f::b0020",
+      "src_79403ea10316235f::b0021",
+      "src_79403ea10316235f::b0023",
+      "src_79403ea10316235f::b0025",
+      "src_79403ea10316235f::b0027",
+      "src_79403ea10316235f::b0034",
+      "src_79403ea10316235f::b0037",
+      "src_79403ea10316235f::b0047"
+    ]
+  },
+  {
+    "doc_id": "About VA Insurance Options And Eligibility | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 26,
+    "aligned": 26,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Access Your VA Life Insurance Policy Online | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 8,
+    "aligned": 8,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Active-Duty Service Members And VA Health Care | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 46,
+    "aligned": 46,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Add Dependents To Your VA Disability Benefits | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 74,
+    "aligned": 74,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Affordable Care Act (ACA) And Your Coverage | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "After You Apply For An Eligibility Determination | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 39,
+    "aligned": 26,
+    "missing_ids": [
+      "src_cbfa0cf88acfef67::b0007",
+      "src_cbfa0cf88acfef67::b0008",
+      "src_cbfa0cf88acfef67::b0010",
+      "src_cbfa0cf88acfef67::b0012",
+      "src_cbfa0cf88acfef67::b0013",
+      "src_cbfa0cf88acfef67::b0014",
+      "src_cbfa0cf88acfef67::b0016",
+      "src_cbfa0cf88acfef67::b0017",
+      "src_cbfa0cf88acfef67::b0020",
+      "src_cbfa0cf88acfef67::b0025",
+      "src_cbfa0cf88acfef67::b0029",
+      "src_cbfa0cf88acfef67::b0031",
+      "src_cbfa0cf88acfef67::b0036"
+    ]
+  },
+  {
+    "doc_id": "After You Apply For Health Care Benefits | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 31,
+    "aligned": 30,
+    "missing_ids": [
+      "src_39a67c26c851b41a::b0014"
+    ]
+  },
+  {
+    "doc_id": "Agent Orange Exposure From C-123 Aircraft | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 33,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Agent Orange Exposure In Vietnam Or Korea | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 34,
+    "aligned": 30,
+    "missing_ids": [
+      "src_c12d54fd173f07ee::b0021",
+      "src_c12d54fd173f07ee::b0022",
+      "src_c12d54fd173f07ee::b0028",
+      "src_c12d54fd173f07ee::b0029"
+    ]
+  },
+  {
+    "doc_id": "Agent Orange Exposure On Navy Or Coast Guard Ships | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 44,
+    "aligned": 41,
+    "missing_ids": [
+      "src_66b4f77d16c188d3::b0025",
+      "src_66b4f77d16c188d3::b0032",
+      "src_66b4f77d16c188d3::b0033"
+    ]
+  },
+  {
+    "doc_id": "Agent Orange Exposure | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 52,
+    "aligned": 49,
+    "missing_ids": [
+      "src_78bcd5949b529a55::b0021",
+      "src_78bcd5949b529a55::b0027",
+      "src_78bcd5949b529a55::b0028"
+    ]
+  },
+  {
+    "doc_id": "Aid And Attendance Benefits And Housebound Allowance | VA.gov#1_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Benefits For Spouses And Dependents (VA DIC) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 46,
+    "aligned": 39,
+    "missing_ids": [
+      "src_0ba9ebd704b8b5d2::b0011",
+      "src_0ba9ebd704b8b5d2::b0014",
+      "src_0ba9ebd704b8b5d2::b0016",
+      "src_0ba9ebd704b8b5d2::b0020",
+      "src_0ba9ebd704b8b5d2::b0023",
+      "src_0ba9ebd704b8b5d2::b0025",
+      "src_0ba9ebd704b8b5d2::b0029"
+    ]
+  },
+  {
+    "doc_id": "Board hearings with a Veterans Law Judge | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 51,
+    "aligned": 38,
+    "missing_ids": [
+      "src_eac1506b824bb3f9::b0001",
+      "src_eac1506b824bb3f9::b0006",
+      "src_eac1506b824bb3f9::b0013",
+      "src_eac1506b824bb3f9::b0018",
+      "src_eac1506b824bb3f9::b0022",
+      "src_eac1506b824bb3f9::b0027",
+      "src_eac1506b824bb3f9::b0030",
+      "src_eac1506b824bb3f9::b0033",
+      "src_eac1506b824bb3f9::b0034",
+      "src_eac1506b824bb3f9::b0039",
+      "src_eac1506b824bb3f9::b0041",
+      "src_eac1506b824bb3f9::b0044",
+      "src_eac1506b824bb3f9::b0045"
+    ]
+  },
+  {
+    "doc_id": "Camp Lejeune Water Contamination Health Issues | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 44,
+    "aligned": 44,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Careers And Employment | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 73,
+    "aligned": 70,
+    "missing_ids": [
+      "src_486c9a37b863a9e3::b0067",
+      "src_486c9a37b863a9e3::b0068",
+      "src_486c9a37b863a9e3::b0073"
+    ]
+  },
+  {
+    "doc_id": "Careers And Employment | Veterans Affairs#2_0",
+    "format": "markdown",
+    "blocks": 61,
+    "aligned": 61,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "CHAMPVA Benefits | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 65,
+    "aligned": 48,
+    "missing_ids": [
+      "src_caa516587e73ce51::b0001",
+      "src_caa516587e73ce51::b0003",
+      "src_caa516587e73ce51::b0007",
+      "src_caa516587e73ce51::b0014",
+      "src_caa516587e73ce51::b0018",
+      "src_caa516587e73ce51::b0019",
+      "src_caa516587e73ce51::b0021",
+      "src_caa516587e73ce51::b0022",
+      "src_caa516587e73ce51::b0031",
+      "src_caa516587e73ce51::b0032",
+      "src_caa516587e73ce51::b0038",
+      "src_caa516587e73ce51::b0039",
+      "src_caa516587e73ce51::b0042",
+      "src_caa516587e73ce51::b0043",
+      "src_caa516587e73ce51::b0046",
+      "src_caa516587e73ce51::b0050",
+      "src_caa516587e73ce51::b0052"
+    ]
+  },
+  {
+    "doc_id": "Change Your GI Bill School Or Program | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 30,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Change Your VA Direct Deposit Information | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 37,
+    "aligned": 37,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Check Your VA Claim Or Appeal Status | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 28,
+    "aligned": 18,
+    "missing_ids": [
+      "src_a97d9575b4a47a50::b0004",
+      "src_a97d9575b4a47a50::b0009",
+      "src_a97d9575b4a47a50::b0010",
+      "src_a97d9575b4a47a50::b0012",
+      "src_a97d9575b4a47a50::b0014",
+      "src_a97d9575b4a47a50::b0015",
+      "src_a97d9575b4a47a50::b0019",
+      "src_a97d9575b4a47a50::b0023",
+      "src_a97d9575b4a47a50::b0025",
+      "src_a97d9575b4a47a50::b0026"
+    ]
+  },
+  {
+    "doc_id": "Co-op Training | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 15,
+    "aligned": 15,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Disability Housing Grants For Veterans | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 29,
+    "aligned": 28,
+    "missing_ids": [
+      "src_02bf974d440e78fa::b0009"
+    ]
+  },
+  {
+    "doc_id": "Educational And Career Counseling (VA Chapter 36) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 22,
+    "aligned": 21,
+    "missing_ids": [
+      "src_5bffce48c68c72b7::b0013"
+    ]
+  },
+  {
+    "doc_id": "Eligibility For VA Disability Benefits | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 36,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Eligibility For VA Health Care | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 55,
+    "aligned": 53,
+    "missing_ids": [
+      "src_407c14bd69c4fe5f::b0007",
+      "src_407c14bd69c4fe5f::b0043"
+    ]
+  },
+  {
+    "doc_id": "Eligibility For VA Vocational Rehab And Employment | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 47,
+    "aligned": 47,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Eligibility For Veterans Pension | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Eligibility Requirements For VA Home Loan Programs | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 29,
+    "missing_ids": [
+      "src_7db98def802b09dc::b0025"
+    ]
+  },
+  {
+    "doc_id": "Employment Benefits For Dependent Family Members | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 23,
+    "aligned": 22,
+    "missing_ids": [
+      "src_5c53a4f00014da7d::b0007"
+    ]
+  },
+  {
+    "doc_id": "Exposure Through Project 112 Or Project SHAD | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Exposure To Hazardous Chemicals And Materials | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 38,
+    "aligned": 38,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Exposure To Specific Environmental Hazards | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 14,
+    "aligned": 14,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Family And Caregiver Health Benefits | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Family Group Life Insurance (FSGLI) | Veterans Affairs#1_0",
+    "format": "txt",
+    "blocks": 61,
+    "aligned": 61,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Fiduciary claims | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 36,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "File a Supplemental Claim with new evidence | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 61,
+    "aligned": 61,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Foreign Programs | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 40,
+    "aligned": 40,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Frequently asked questions about decision reviews | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Fry Scholarships | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 21,
+    "aligned": 19,
+    "missing_ids": [
+      "src_aa51dd449cda347a::b0015",
+      "src_aa51dd449cda347a::b0017"
+    ]
+  },
+  {
+    "doc_id": "Fully Developed Claim For A VA Pension | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 47,
+    "aligned": 40,
+    "missing_ids": [
+      "src_452fffce9c8b2030::b0007",
+      "src_452fffce9c8b2030::b0016",
+      "src_452fffce9c8b2030::b0018",
+      "src_452fffce9c8b2030::b0022",
+      "src_452fffce9c8b2030::b0026",
+      "src_452fffce9c8b2030::b0032",
+      "src_452fffce9c8b2030::b0036"
+    ]
+  },
+  {
+    "doc_id": "Get A Veteran Health Identification Card (VHIC) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Get Help Filing Your Claim Or Appeal | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 25,
+    "aligned": 18,
+    "missing_ids": [
+      "src_dbd02af72eb9d55d::b0007",
+      "src_dbd02af72eb9d55d::b0010",
+      "src_dbd02af72eb9d55d::b0011",
+      "src_dbd02af72eb9d55d::b0013",
+      "src_dbd02af72eb9d55d::b0019",
+      "src_dbd02af72eb9d55d::b0021",
+      "src_dbd02af72eb9d55d::b0023"
+    ]
+  },
+  {
+    "doc_id": "Get Your VA Medical Records Online | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 53,
+    "aligned": 53,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "GI Bill Eligibility | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 40,
+    "aligned": 40,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "GI Bill | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 53,
+    "aligned": 53,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Health Needs And Conditions | Veterans Affairs#1_0",
+    "format": "txt",
+    "blocks": 48,
+    "aligned": 48,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How To Apply For A VA Home Loan COE | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 26,
+    "aligned": 22,
+    "missing_ids": [
+      "src_cf1f67a4e8d30f22::b0008",
+      "src_cf1f67a4e8d30f22::b0011",
+      "src_cf1f67a4e8d30f22::b0013",
+      "src_cf1f67a4e8d30f22::b0015"
+    ]
+  },
+  {
+    "doc_id": "How To Apply For A Veteran ID Card | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 35,
+    "aligned": 33,
+    "missing_ids": [
+      "src_5d8b1f519614ea16::b0032",
+      "src_5d8b1f519614ea16::b0034"
+    ]
+  },
+  {
+    "doc_id": "How To Apply For The GI Bill | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 26,
+    "aligned": 26,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How To Apply For VA Health Care | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 46,
+    "aligned": 46,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "How To Apply For VA Voc Rehab And Employment | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Increased Disability Rating For Time In A Hospital | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 16,
+    "aligned": 16,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Insurance claims | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 40,
+    "aligned": 40,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Ionizing Radiation Exposure | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 22,
+    "aligned": 22,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Military Sexual Trauma (MST) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 24,
+    "missing_ids": [
+      "src_7cc83484a3fcf3ba::b0014",
+      "src_7cc83484a3fcf3ba::b0018",
+      "src_7cc83484a3fcf3ba::b0026"
+    ]
+  },
+  {
+    "doc_id": "Montgomery GI Bill Active Duty (MGIB-AD) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 49,
+    "aligned": 48,
+    "missing_ids": [
+      "src_29cbacd0ce2559c8::b0011"
+    ]
+  },
+  {
+    "doc_id": "Multiple party or contested claims | Veterans Affairs#1_0",
+    "format": "txt",
+    "blocks": 51,
+    "aligned": 51,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Mustard Gas Or Lewisite Exposure | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "National Call To Service Program | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Post-9/11 GI Bill | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 48,
+    "aligned": 48,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Pre-Need Eligibility For Burial In A VA Cemetery | Veterans Affairs#1_0",
+    "format": "txt",
+    "blocks": 52,
+    "aligned": 52,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Print Out Your VA Welcome Kit | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 44,
+    "aligned": 44,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "PTSD Treatment | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 27,
+    "missing_ids": [
+      "src_ff780b7fb894f47e::b0022",
+      "src_ff780b7fb894f47e::b0025",
+      "src_ff780b7fb894f47e::b0029"
+    ]
+  },
+  {
+    "doc_id": "Reconstruct Military Records Destroyed In NPRC Fire | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 25,
+    "missing_ids": [
+      "src_cb6c44ff82826d03::b0017",
+      "src_cb6c44ff82826d03::b0022"
+    ]
+  },
+  {
+    "doc_id": "Request a Board Appeal | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 53,
+    "aligned": 53,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Request a Higher-Level Review | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 62,
+    "aligned": 62,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Request Your Military Service Records | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 43,
+    "aligned": 36,
+    "missing_ids": [
+      "src_1833b8f45fdf3dc2::b0008",
+      "src_1833b8f45fdf3dc2::b0010",
+      "src_1833b8f45fdf3dc2::b0012",
+      "src_1833b8f45fdf3dc2::b0014",
+      "src_1833b8f45fdf3dc2::b0016",
+      "src_1833b8f45fdf3dc2::b0029",
+      "src_1833b8f45fdf3dc2::b0039"
+    ]
+  },
+  {
+    "doc_id": "Reserve Educational Assistance Program (REAP) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 20,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Schedule A Burial For A Veteran Or Family Member | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 41,
+    "aligned": 37,
+    "missing_ids": [
+      "src_c31f24a4e7ecb149::b0018",
+      "src_c31f24a4e7ecb149::b0020",
+      "src_c31f24a4e7ecb149::b0025",
+      "src_c31f24a4e7ecb149::b0027"
+    ]
+  },
+  {
+    "doc_id": "Schedule And View VA Appointments Online | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 45,
+    "aligned": 45,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Service-Disabled Veterans Life Insurance (S-DVI) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 43,
+    "aligned": 43,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 51,
+    "aligned": 50,
+    "missing_ids": [
+      "src_2f471ce2e3313055::b0041"
+    ]
+  },
+  {
+    "doc_id": "Special Claims | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 31,
+    "aligned": 31,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Substance Use Treatment For Veterans | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 29,
+    "aligned": 26,
+    "missing_ids": [
+      "src_a534c9f8bc05b833::b0014",
+      "src_a534c9f8bc05b833::b0023",
+      "src_a534c9f8bc05b833::b0026"
+    ]
+  },
+  {
+    "doc_id": "Survivors’ And Dependents’ Educational Assistance | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 29,
+    "aligned": 17,
+    "missing_ids": [
+      "src_736648fb710fe95b::b0004",
+      "src_736648fb710fe95b::b0007",
+      "src_736648fb710fe95b::b0011",
+      "src_736648fb710fe95b::b0012",
+      "src_736648fb710fe95b::b0013",
+      "src_736648fb710fe95b::b0017",
+      "src_736648fb710fe95b::b0018",
+      "src_736648fb710fe95b::b0019",
+      "src_736648fb710fe95b::b0020",
+      "src_736648fb710fe95b::b0022",
+      "src_736648fb710fe95b::b0024",
+      "src_736648fb710fe95b::b0026"
+    ]
+  },
+  {
+    "doc_id": "Temporary Disability Rating After Surgery Or Cast | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 18,
+    "aligned": 13,
+    "missing_ids": [
+      "src_f8580d88dc1f6b9a::b0004",
+      "src_f8580d88dc1f6b9a::b0007",
+      "src_f8580d88dc1f6b9a::b0012",
+      "src_f8580d88dc1f6b9a::b0014",
+      "src_f8580d88dc1f6b9a::b0015"
+    ]
+  },
+  {
+    "doc_id": "Totally Disabled Or Terminally Ill Policyholders | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 39,
+    "aligned": 37,
+    "missing_ids": [
+      "src_0e6058aaf387b422::b0016",
+      "src_0e6058aaf387b422::b0025"
+    ]
+  },
+  {
+    "doc_id": "Transfer Your Post-9/11 GI Bill Benefits | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 29,
+    "missing_ids": [
+      "src_e947fd681584ec5c::b0029"
+    ]
+  },
+  {
+    "doc_id": "Traumatic Injury Protection (TSGLI) | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Tuition Assistance Top-Up | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 20,
+    "aligned": 20,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Tutorial Assistance | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 17,
+    "aligned": 17,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Types Of Veteran ID Cards | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 25,
+    "missing_ids": [
+      "src_f4f508fab8942e9a::b0008",
+      "src_f4f508fab8942e9a::b0016",
+      "src_f4f508fab8942e9a::b0021"
+    ]
+  },
+  {
+    "doc_id": "Undergraduate And Graduate Degrees | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Upload Evidence To Support Your Disability Claim | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 34,
+    "aligned": 34,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Agent Orange Registry Exam | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Benefits For Service Members | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 59,
+    "aligned": 56,
+    "missing_ids": [
+      "src_60258d267e21242c::b0053",
+      "src_60258d267e21242c::b0054",
+      "src_60258d267e21242c::b0059"
+    ]
+  },
+  {
+    "doc_id": "VA Benefits For Service Members | Veterans Affairs#2_0",
+    "format": "markdown",
+    "blocks": 47,
+    "aligned": 47,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA claim exam (C&P exam) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 67,
+    "aligned": 63,
+    "missing_ids": [
+      "src_f122d52b7d6dc99d::b0017",
+      "src_f122d52b7d6dc99d::b0024",
+      "src_f122d52b7d6dc99d::b0042",
+      "src_f122d52b7d6dc99d::b0044"
+    ]
+  },
+  {
+    "doc_id": "VA Clothing Allowance | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 26,
+    "aligned": 26,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA decision reviews and appeals | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 42,
+    "aligned": 42,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Dental Care | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 50,
+    "aligned": 40,
+    "missing_ids": [
+      "src_0d0b4aaa5e481f06::b0004",
+      "src_0d0b4aaa5e481f06::b0006",
+      "src_0d0b4aaa5e481f06::b0021",
+      "src_0d0b4aaa5e481f06::b0022",
+      "src_0d0b4aaa5e481f06::b0026",
+      "src_0d0b4aaa5e481f06::b0031",
+      "src_0d0b4aaa5e481f06::b0037",
+      "src_0d0b4aaa5e481f06::b0040",
+      "src_0d0b4aaa5e481f06::b0043",
+      "src_0d0b4aaa5e481f06::b0045"
+    ]
+  },
+  {
+    "doc_id": "VA Dental Insurance Program (VADIP) | Veterans Affairs#1_0",
+    "format": "pdf_scanned",
+    "blocks": 33,
+    "aligned": 26,
+    "missing_ids": [
+      "src_0b09312ed20a0358::b0004",
+      "src_0b09312ed20a0358::b0010",
+      "src_0b09312ed20a0358::b0021",
+      "src_0b09312ed20a0358::b0025",
+      "src_0b09312ed20a0358::b0027",
+      "src_0b09312ed20a0358::b0028",
+      "src_0b09312ed20a0358::b0030"
+    ]
+  },
+  {
+    "doc_id": "VA Disability Compensation For PTSD | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 33,
+    "aligned": 33,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Disability Compensation | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 68,
+    "aligned": 67,
+    "missing_ids": [
+      "src_8f818accbf2eeea3::b0063"
+    ]
+  },
+  {
+    "doc_id": "VA Disability Compensation | Veterans Affairs#2_0",
+    "format": "markdown",
+    "blocks": 56,
+    "aligned": 56,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Education Benefits | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 87,
+    "aligned": 83,
+    "missing_ids": [
+      "src_a38ecc78f5375e39::b0078",
+      "src_a38ecc78f5375e39::b0079",
+      "src_a38ecc78f5375e39::b0082",
+      "src_a38ecc78f5375e39::b0087"
+    ]
+  },
+  {
+    "doc_id": "VA Education Benefits | Veterans Affairs#2_0",
+    "format": "markdown",
+    "blocks": 72,
+    "aligned": 72,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Family Caregiver Assistance Program | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Health Care And Other Insurance | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 34,
+    "aligned": 32,
+    "missing_ids": [
+      "src_318adaf5efe0093a::b0019",
+      "src_318adaf5efe0093a::b0021"
+    ]
+  },
+  {
+    "doc_id": "VA Health Care | Veterans Affairs#1_0",
+    "format": "txt",
+    "blocks": 91,
+    "aligned": 90,
+    "missing_ids": [
+      "src_a8ce9de6739e5e51::b0086"
+    ]
+  },
+  {
+    "doc_id": "VA Health Care | Veterans Affairs#2_0",
+    "format": "markdown",
+    "blocks": 79,
+    "aligned": 79,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Help To Avoid Mortgage Foreclosure | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Home Loan Programs For Surviving Spouses | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 24,
+    "aligned": 24,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Housing Assistance | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 66,
+    "aligned": 63,
+    "missing_ids": [
+      "src_014cec0c2a3aec59::b0060",
+      "src_014cec0c2a3aec59::b0061",
+      "src_014cec0c2a3aec59::b0066"
+    ]
+  },
+  {
+    "doc_id": "VA Housing Assistance | Veterans Affairs#2_0",
+    "format": "markdown",
+    "blocks": 54,
+    "aligned": 54,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Individual Unemployability If You Can't Work | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 18,
+    "aligned": 18,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Life Insurance | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 68,
+    "aligned": 65,
+    "missing_ids": [
+      "src_7a8d4d0342f8acb4::b0062",
+      "src_7a8d4d0342f8acb4::b0063",
+      "src_7a8d4d0342f8acb4::b0068"
+    ]
+  },
+  {
+    "doc_id": "VA Life Insurance | Veterans Affairs#2_0",
+    "format": "txt",
+    "blocks": 56,
+    "aligned": 56,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Mental Health Services | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 87,
+    "aligned": 77,
+    "missing_ids": [
+      "src_4a6901ffd103cbb9::b0049",
+      "src_4a6901ffd103cbb9::b0056",
+      "src_4a6901ffd103cbb9::b0058",
+      "src_4a6901ffd103cbb9::b0060",
+      "src_4a6901ffd103cbb9::b0062",
+      "src_4a6901ffd103cbb9::b0064",
+      "src_4a6901ffd103cbb9::b0068",
+      "src_4a6901ffd103cbb9::b0071",
+      "src_4a6901ffd103cbb9::b0079",
+      "src_4a6901ffd103cbb9::b0083"
+    ]
+  },
+  {
+    "doc_id": "VA Nursing Homes And Assisted Living | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 55,
+    "aligned": 54,
+    "missing_ids": [
+      "src_e11e7fbd55738a39::b0052"
+    ]
+  },
+  {
+    "doc_id": "VA Pension Benefits | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 58,
+    "aligned": 55,
+    "missing_ids": [
+      "src_e044f24482349ccb::b0052",
+      "src_e044f24482349ccb::b0053",
+      "src_e044f24482349ccb::b0058"
+    ]
+  },
+  {
+    "doc_id": "VA Pension Benefits | Veterans Affairs#2_0",
+    "format": "pdf_scanned",
+    "blocks": 46,
+    "aligned": 46,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Survivors Pension | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 30,
+    "aligned": 30,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Title 38 U.S.C. 1151 Claims | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 15,
+    "aligned": 15,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA Vision Care | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 17,
+    "aligned": 16,
+    "missing_ids": [
+      "src_a9696f09b42865e4::b0013"
+    ]
+  },
+  {
+    "doc_id": "VA Vocational Rehabilitation (Chapter 31) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VA.gov Home | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 38,
+    "aligned": 38,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veteran Suicide Prevention | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veterans Technology Education Courses | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 32,
+    "aligned": 32,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veterans Vocational Rehabilitation Programs | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 19,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veterans’ Educational Assistance Program (VEAP) | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 36,
+    "aligned": 36,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0",
+    "format": "txt",
+    "blocks": 53,
+    "aligned": 53,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Veterans’ Mortgage Life Insurance (VMLI) | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 29,
+    "aligned": 29,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "View Your VA Payment History | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 23,
+    "aligned": 23,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VR&E Independent Living Track | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 25,
+    "aligned": 25,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VR&E Reemployment Track | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "VR&E Self-Employment Track | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "What To Expect After You Get A Disability Rating | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 19,
+    "aligned": 18,
+    "missing_ids": [
+      "src_fc37953f411fcf21::b0014"
+    ]
+  },
+  {
+    "doc_id": "Where You'll Go For Care | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 27,
+    "aligned": 27,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Women's Health Care Needs | Veterans Affairs#1_0",
+    "format": "pdf_text",
+    "blocks": 30,
+    "aligned": 28,
+    "missing_ids": [
+      "src_4d32fb7c83f78bb1::b0021",
+      "src_4d32fb7c83f78bb1::b0025"
+    ]
+  },
+  {
+    "doc_id": "Work Study | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 28,
+    "aligned": 28,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Yellow Ribbon Program | Veterans Affairs#1_0",
+    "format": "docx",
+    "blocks": 64,
+    "aligned": 64,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Your Health Care Costs | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 59,
+    "aligned": 59,
+    "missing_ids": []
+  },
+  {
+    "doc_id": "Your VA Primary Care Provider | Veterans Affairs#1_0",
+    "format": "markdown",
+    "blocks": 21,
+    "aligned": 21,
+    "missing_ids": []
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "263d9bc8304aae5beb38e5869da71849b0b0cf057255a565e8ea13755edf4ab0",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "The response must provide a supported option for what to do after missing the deadline, such as filing a Supplemental Claim with new and relevant evidence.",
+                "coverage": "covered",
+                "response_quote": "you can either add new and relevant evidence and file a Supplemental Claim",
+                "reason": "The response directly offers the Supplemental Claim option with new evidence, matching the reference."
+              }
+            ],
+            "reason": "The response correctly answers the question by providing the Supplemental Claim option and additional supported details about effective dates and CUE, all grounded in the retrieved context."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "dcbf11b406b04e10aa17933e0b10660e",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5338,
+                "completion_tokens": 149,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 149,
+                  "prompt_tokens": 5338,
+                  "total_tokens": 5487,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4442
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0073783,
+              "accounted_rmb": 0.0073783,
+              "usage_unknown": false,
+              "seconds": 1.75872802734375,
+              "error": null,
+              "response": {
+                "id": "8a3d2b9b-d26e-4392-b7b9-eba38e469604",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "50faee82f327f89d74bd68a27aaa7e12f1a878790e8f8e2d9d1dfea0de718715"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "The response must provide a supported option for what to do after missing the deadline, such as filing a Supplemental Claim with new and relevant evidence.",
+            "coverage": "covered",
+            "response_quote": "you can either add new and relevant evidence and file a Supplemental Claim",
+            "reason": "The response directly offers the Supplemental Claim option with new evidence, matching the reference."
+          }
+        ],
+        "reason": "The response correctly answers the question by providing the Supplemental Claim option and additional supported details about effective dates and CUE, all grounded in the retrieved context."
+      }
+    }
+  },
+  "sha256": "4fd79f3e160106ae073bdafdca3fb242ba5812ead5ac832fdde3ceb32c1dad64"
+}

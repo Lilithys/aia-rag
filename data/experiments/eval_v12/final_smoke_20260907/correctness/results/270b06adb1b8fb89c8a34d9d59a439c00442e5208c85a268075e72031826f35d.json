@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "270b06adb1b8fb89c8a34d9d59a439c00442e5208c85a268075e72031826f35d",
+    "binding_sha256": "de953b39e4f172568379a2b85344f65373d2a2666e7b31a04fc2a8495563efcc",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "符合条件的贷款来自直接贷款计划和FFEL计划",
+                "coverage": "covered",
+                "response_quote": "直接补贴贷款、直接无补贴贷款、直接PLUS贷款、直接合并贷款、补贴联邦斯塔福德贷款、无补贴联邦斯塔福德贷款、FFEL PLUS贷款和FFEL合并贷款",
+                "reason": "响应列出了两个计划下的具体贷款类型，符合参考要求"
+              }
+            ],
+            "reason": "响应准确列出了符合延长还款计划资格的联邦贷款类型，覆盖了直接贷款和FFEL计划下的所有相关贷款，无错误或遗漏。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e40c1250c18d46eba0f76274291f73e4",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4247,
+                "completion_tokens": 154,
+                "cached_tokens": 1280,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 154,
+                  "prompt_tokens": 4247,
+                  "total_tokens": 4401,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1280,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1280,
+                  "prompt_cache_miss_tokens": 2967
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0052075,
+              "accounted_rmb": 0.0052075,
+              "usage_unknown": false,
+              "seconds": 2.0982179641723633,
+              "error": null,
+              "response": {
+                "id": "73b283c4-e0ea-466a-93fc-2ed28a47f8d4",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "907ccbd57641a0f1048a7ad1f84097fda73000062d5908f3a4f95036f7dd1168"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "符合条件的贷款来自直接贷款计划和FFEL计划",
+            "coverage": "covered",
+            "response_quote": "直接补贴贷款、直接无补贴贷款、直接PLUS贷款、直接合并贷款、补贴联邦斯塔福德贷款、无补贴联邦斯塔福德贷款、FFEL PLUS贷款和FFEL合并贷款",
+            "reason": "响应列出了两个计划下的具体贷款类型，符合参考要求"
+          }
+        ],
+        "reason": "响应准确列出了符合延长还款计划资格的联邦贷款类型，覆盖了直接贷款和FFEL计划下的所有相关贷款，无错误或遗漏。"
+      }
+    }
+  },
+  "sha256": "1af283b3e00c42f037d961aa8377d7c395b55bf14e192f44213953e915317878"
+}

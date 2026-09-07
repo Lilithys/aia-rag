@@ -1,0 +1,1456 @@
+{
+  "binding": {
+    "study": "dev-noon-20260907-v1",
+    "split": "dev",
+    "question_ids": [
+      "462ae928f57da285beae94349aa55b3d::agent-turn-2",
+      "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+      "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+      "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+      "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+      "d04210e3e1682b262293a08a35feea1a::agent-turn-4",
+      "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+      "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+      "17a7ac5e3926bdf5bffe8fb7db868278::agent-turn-2",
+      "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+      "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+      "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+      "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+      "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+      "82f1b51a42de79a1b3bf975f6a602983::agent-turn-10",
+      "db24af7fe35304299573e34cc59db674::agent-turn-2",
+      "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+      "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+      "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+      "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-8",
+      "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+      "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+      "b515792cb5c12eaf734c1ec5ec15023f::agent-turn-2",
+      "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+      "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+      "64b9e9860565971c2d6c1eb869ec7267::agent-turn-12",
+      "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+      "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+      "b17816a800cd527d849621fa4b91c4e3::agent-turn-2",
+      "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+      "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+      "a4f7567e6bc3db63d13ec065b1e781bb::agent-turn-4",
+      "87b84182006da589a7337e4112b68410::agent-turn-10",
+      "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+      "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+      "60f033db0967c2394c27bacb96bb7360::agent-turn-4",
+      "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+      "dfd7637934ad85f1ebc52893c7a86ae2::agent-turn-6",
+      "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+      "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+      "5e9a8180c628087aad71d3cc476fe67d::agent-turn-2",
+      "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+      "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+      "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+      "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+      "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+      "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+      "459b8bfd975e9856a8e7a35f5ff76bd0::agent-turn-6",
+      "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+      "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+      "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+      "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+      "1cabeb72084d575e41e1dc66470a2802::agent-turn-10",
+      "9a80c2a728dcb8f19531b4ee2a4f5efa::agent-turn-2",
+      "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+      "05d1233e323f975fe059cf5f94bd5bf1::agent-turn-6",
+      "c40b51cba6ce84eb948a72e484ad7a43::agent-turn-4",
+      "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+      "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+      "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+      "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+      "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+      "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+      "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+      "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+      "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+      "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+      "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+      "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+      "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+      "cbef89514baf9fbe01ee72682f40e0ef::agent-turn-2",
+      "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+      "5525c2985e4e3613f6820124fe297c11::agent-turn-2",
+      "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+      "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+      "26b0f6c2fe37202f4b6a0763afcab3aa::agent-turn-12",
+      "438267cd2c6889fcaaa36953ae269483::agent-turn-8",
+      "c92b7a4080c71c677a5d5142370610d0::agent-turn-8",
+      "38d1e881ce0803f1fe85c74ab6b653a1::agent-turn-2",
+      "6a53d32979534c26b56948c498908f0d::agent-turn-14",
+      "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+      "1a16df19c04d0df0f426fd54a856d7c2::agent-turn-12",
+      "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+      "6051c869888c57bb63e1db93fa8dd300::agent-turn-2",
+      "a430060f5b3837676f05642229ad31b6::agent-turn-2",
+      "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+      "ca189f6c3979e9aaf1eb8013b3c49247::agent-turn-6",
+      "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+      "51b728730686c365c93c396c62cfb7c7::agent-turn-2",
+      "375a963ac82d70c70446a2f30e686438::agent-turn-8",
+      "eval-v1-dev-refuse-005",
+      "eval-v1-dev-refuse-007",
+      "eval-v1-dev-refuse-003",
+      "eval-v1-dev-refuse-004",
+      "eval-v1-dev-refuse-009",
+      "eval-v1-dev-refuse-001",
+      "eval-v1-dev-refuse-002",
+      "eval-v1-dev-refuse-006",
+      "eval-v1-dev-refuse-008",
+      "eval-v1-dev-refuse-010"
+    ],
+    "release_manifest_sha256": "894b21aecbf5de270ac173aefe3b6f2fdb0fdd556f56fb6bedab1174e553a9b3",
+    "dev_sha256": "b84e495c89115f51951b0e56dec8da4579c981244a24d9bb030222e9e58d4952",
+    "arms": [
+      "baseline_dense_k10",
+      "rerank_windowed_k5"
+    ],
+    "configs": {
+      "baseline_dense_k10": {
+        "candidate": "baseline_dense_k10",
+        "confidence_threshold": 0.55,
+        "model": "deepseek-v4-flash",
+        "temperature": 0.0,
+        "max_output_tokens": 1024,
+        "max_history_messages": 40,
+        "max_question_characters": 8000,
+        "max_history_characters": 40000
+      },
+      "rerank_windowed_k5": {
+        "candidate": "rerank_windowed_k5",
+        "confidence_threshold": 0.55,
+        "model": "deepseek-v4-flash",
+        "temperature": 0.0,
+        "max_output_tokens": 1024,
+        "max_history_messages": 40,
+        "max_question_characters": 8000,
+        "max_history_characters": 40000
+      }
+    },
+    "runtime": {
+      "config": {
+        "candidate": "baseline_dense_k10",
+        "confidence_threshold": 0.55,
+        "model": "deepseek-v4-flash",
+        "temperature": 0.0,
+        "max_output_tokens": 1024,
+        "max_history_messages": 40,
+        "max_question_characters": 8000,
+        "max_history_characters": 40000
+      },
+      "artifact_root": "data/experiments/eval_v1/retrieval_fixed",
+      "corpus_manifest_sha256": "e795c921b9c7d9478f9f02bc67eab5d5b7674bfa96886a250db17b8674e3071a",
+      "chunks_sha256": "b5279f31d344dab9055e132febe4e470550ff3cc1a9f6a9121afbe96005b1e14",
+      "embedding_manifest_sha256": "d8b87e15f490d327ad7e092b7e3dd26cbe67ab29eaa6749cb84d3c9a1e32866e",
+      "encoder": {
+        "class": "src.embedding.models.bge_m3.BgeM3Model",
+        "name": "bge_m3",
+        "dimension": 1024,
+        "implementation_sha256": "16e2af15cfe08c8fba05ff7e3e9fc670520ac84b03e8c934cfa6bf9db3d5ff00",
+        "model_id": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "max_seq_length": 8192,
+        "passage_prefix": "",
+        "query_prefix": "",
+        "normalize_embeddings": true,
+        "device": "mps:0",
+        "parameter_dtype": "torch.float32",
+        "sentence_transformers_version": "6.0.1",
+        "transformers_version": "5.16.1",
+        "torch_version": "2.13.0",
+        "modules": [
+          {
+            "class": "Transformer",
+            "config": {
+              "transformer_task": "feature-extraction",
+              "modality_config": {
+                "text": {
+                  "method": "forward",
+                  "method_output_name": "last_hidden_state"
+                }
+              },
+              "module_output_name": "token_embeddings"
+            }
+          },
+          {
+            "class": "Pooling",
+            "config": {
+              "embedding_dimension": 1024,
+              "pooling_mode": "cls",
+              "include_prompt": true
+            }
+          },
+          {
+            "class": "Normalize",
+            "config": {
+              "module_input_name": "sentence_embedding",
+              "module_output_name": "sentence_embedding"
+            }
+          }
+        ]
+      },
+      "code_sha256": {
+        "src/service/runtime.py": "189d2a7b2ef03e28843587564f3ecd8013d83c3277e8224bbcee9cfc2971258d",
+        "src/service/demo.py": "b25e597ca826438a340d5fd814e1f22f102db63c94593f81c9fa30025a34705a",
+        "src/evaluation/prompts_v1.py": "c39109cd472f03c71264265cabdc875c0ea95c4b7ab20810bdbde9bf9043bbb1",
+        "src/generation/prompt.py": "f8467d9e856c6b04c9b6fc67341a0a0cceadd94b1ba1b7e7726e16834d1b21ae",
+        "src/evaluation/paid_calls_v1.py": "7f8ee7acf6142eb5e2681562edd5e8bbb5d2ecb4edee718fa64749bca2e52601",
+        "src/retrieval/candidates_v1.py": "55c735c3a642cf7ba3b091626b0b8ae3493a2d7613b1c08ff21c01ffb4d129c1",
+        "src/retrieval/retriever.py": "df9a14867f966dc267644b1ece8a7b2ea25f0ee71374082458324d8c488bf263",
+        "src/retrieval/chroma_store.py": "4b94f70b2df89cf235683ac1a357693542e680310c95b279e854331b5029f715",
+        "src/generation/pii.py": "a90e88d25e0fbaa2291a6ed17a35408d990b322e406001133b68d04fcf4b18c3",
+        "src/artifacts.py": "06aa276e7722c0ad2001b70bd62ea8eca3828eb68ca9f71e178e73b5c2e632ad"
+      },
+      "api_endpoint": "https://api.deepseek.com/chat/completions",
+      "thinking": "disabled",
+      "preflight_api_calls": 0,
+      "model_loaded": false,
+      "quality_latency_acceptance": "pending on this runtime"
+    },
+    "smoke_plan_sha256": "2761e6397c9c2d94ca8b873c8b15459406a85d8eab7e5095abf992c1428bbae7",
+    "diagnostic_report_sha256": "2378a62c6bc466a099156af3fcaeaec9ed883ba4b7e1801e764bc7806784fa55",
+    "diagnostic_plan_sha256": "2732c91e41143d779dec6237218dcfc53e05908c7bc19014717b0922137e58eb",
+    "budgets_rmb": {
+      "generation": 2.0,
+      "correctness": 2.0,
+      "faithfulness": 2.0,
+      "context_precision": 1.5,
+      "diagnostic": 0.5
+    },
+    "total_cap_rmb": 8.0,
+    "not_before_epoch": 1788753600.0,
+    "last_new_attempt_before_epoch": 1788760750.0,
+    "code_sha256": {
+      "/Users/yishanma/Desktop/aia-rag/src/service/dev_window.py": "779e7e933ea8ea0c58f6ac5144c98e1637876ce6075d84aba950bd308ed1ec49",
+      "src/service/generation_diagnostics.py": "0a539c1fcea62e27793d9bafef3f475725d9336ec3db4852f6bd3677c5040e04",
+      "src/evaluation/correctness_v13.py": "6a9b3b457abb80953c53238952355c1fea2b3d9fb5dc1e71d870202da63948b2"
+    },
+    "seed": 20260907,
+    "generator_prompt_changed": false,
+    "history_mode": "recorded full history, no query rewrite",
+    "judge": {
+      "model": "deepseek-v4-flash",
+      "temperature": 0.0,
+      "max_tokens": 2048,
+      "timeout_seconds": 45,
+      "max_attempts": 2,
+      "input_token_upper_limit": 65536,
+      "thinking": "disabled"
+    },
+    "correctness_rubric": "1.3 explicit essential-condition coverage; dataset remains 1.1",
+    "faithfulness_and_context_precision": "unchanged frozen 1.1",
+    "reuse_policy": "Both successful and failed compatible smoke records retained; new timing/cost reported separately.",
+    "termination_policy": "Retain terminal failures; pause new calls at window end or each independent cap. Never raise caps or switch to peak automatically.",
+    "selection": "Previously selected dense@10 baseline and windowed@5 candidate, both t=0; no configuration selected on these 100 scores.",
+    "jobs": [
+      {
+        "job_id": "7fa5719dfd07a3ce0e19692b31e071683028b63dc02b06ca19e132102fcae80a",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+        "item_sha256": "7e0b2fdb34f2f8f04fe83c7a58aa7692861620d191b09cf1a7d87475ffb0d31c"
+      },
+      {
+        "job_id": "a22d72df8605af1eb4da764ae030b19d535412979fa353d484ad2b1941be72a9",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c8956b13c0336770ca4e400291a481c8::agent-turn-6",
+        "item_sha256": "7e0b2fdb34f2f8f04fe83c7a58aa7692861620d191b09cf1a7d87475ffb0d31c"
+      },
+      {
+        "job_id": "454ae0a8e37d4a296329fd0498084f64150372c32858a8820755ea3e90c24c83",
+        "candidate": "baseline_dense_k10",
+        "question_id": "438267cd2c6889fcaaa36953ae269483::agent-turn-8",
+        "item_sha256": "1991dd740a84ca425ce30576aae363676d93428f215c9bb156f1dcdad5b467c4"
+      },
+      {
+        "job_id": "7e5457ee50cf8c6c38b1a29553884a51fbe69dc19274c6b65a9bee45241b902f",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "438267cd2c6889fcaaa36953ae269483::agent-turn-8",
+        "item_sha256": "1991dd740a84ca425ce30576aae363676d93428f215c9bb156f1dcdad5b467c4"
+      },
+      {
+        "job_id": "53b7b7344a9fac2e5635dcdba449527f65d1c580af091783120d4fcce61aed10",
+        "candidate": "baseline_dense_k10",
+        "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+        "item_sha256": "e6ee01b8319844899c3ae27e8fb3279d59ad3ad78566b06d186febeaa430119b"
+      },
+      {
+        "job_id": "31bf0b8b2037500dcb254bd1ec70cdc450ec7e4a2237704479fdda783cd3ff00",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "90b1a712d195c5fad9ae2a5366d0ef7f::agent-turn-2",
+        "item_sha256": "e6ee01b8319844899c3ae27e8fb3279d59ad3ad78566b06d186febeaa430119b"
+      },
+      {
+        "job_id": "e01cc5e0887286a1da6d183dd52c87c5de656930dbaa7ea0ef1c214a8c5a97d5",
+        "candidate": "baseline_dense_k10",
+        "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "item_sha256": "f6fa7877c6491f8cbf467a6d4841565b0d14c98d7f2a4369cd048d8be7a69c50"
+      },
+      {
+        "job_id": "56932e6c83ea399dc2d998c8412b6073465a69d023e10e8325f1b74011452fb3",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "fe132fe64875f957637bd6a202aa4dd2::agent-turn-6",
+        "item_sha256": "f6fa7877c6491f8cbf467a6d4841565b0d14c98d7f2a4369cd048d8be7a69c50"
+      },
+      {
+        "job_id": "241ff523df798eb16a7d85a1eb9183e8215e163157bdbe91e5530a5290e37d32",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+        "item_sha256": "a46ab040a755a62e43b963213b6e0336de58405f298d5ba9f672798e1c362f05"
+      },
+      {
+        "job_id": "16e135feea61309bf23450d9b27f534502a0a2ebd07af36815b9c40fd84e0ba4",
+        "candidate": "baseline_dense_k10",
+        "question_id": "ba618bb1cb062c940912cc74180b482a::agent-turn-8",
+        "item_sha256": "a46ab040a755a62e43b963213b6e0336de58405f298d5ba9f672798e1c362f05"
+      },
+      {
+        "job_id": "2aa540a738f43b0328a9848096a496f73dd5a887a6cf6aebce8d58b319767979",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-005",
+        "item_sha256": "bd19f0bb680a26096c223b7321683d57ec125b24c8c17417894c996f04037f3f"
+      },
+      {
+        "job_id": "7ccac931a6dcf7549021291d0e7aad7404b6a7ed4f1b34771c6864ef6a5fcfcb",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-005",
+        "item_sha256": "bd19f0bb680a26096c223b7321683d57ec125b24c8c17417894c996f04037f3f"
+      },
+      {
+        "job_id": "22fb00b57a029091cb728a6638b45a4b57353023692fe378ff01141dcb404adc",
+        "candidate": "baseline_dense_k10",
+        "question_id": "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+        "item_sha256": "4eb84a6d7c47f937a3d299f3dedd88ed0b36205153edd8dbfed620435e591183"
+      },
+      {
+        "job_id": "e943cd1a69fbb637f3d2a6dd6291f1ef7448c280e154387204a40e77193ff679",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "79fa5057f6f8b32760d5ec8a04a7a45e::agent-turn-2",
+        "item_sha256": "4eb84a6d7c47f937a3d299f3dedd88ed0b36205153edd8dbfed620435e591183"
+      },
+      {
+        "job_id": "58252ac781fcbc19e0e96f84deea680fd292e0c21a13aa5b503b50547edfffb9",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "17a7ac5e3926bdf5bffe8fb7db868278::agent-turn-2",
+        "item_sha256": "2652ed4579c509d1186c429a368b22d66be3e93ef12707d874d1317cb6f42d2c"
+      },
+      {
+        "job_id": "2203fbef51e2bc445ae179f807ac4feab12ce9d2e42c5f8b39ec93e7d391de60",
+        "candidate": "baseline_dense_k10",
+        "question_id": "17a7ac5e3926bdf5bffe8fb7db868278::agent-turn-2",
+        "item_sha256": "2652ed4579c509d1186c429a368b22d66be3e93ef12707d874d1317cb6f42d2c"
+      },
+      {
+        "job_id": "1dcfd6410b79ebffe19f3fcc81878cb9fa48d2a4f8fa56b900efc5df44b29a7d",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-003",
+        "item_sha256": "6845cef99b3d173724afe231e911381fc5a7ce505bba6fae8334377e6f4dfd94"
+      },
+      {
+        "job_id": "de7244fb6346100e12b34396d17195085678ee5c0dcb1753f1ed45f1b7b46deb",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-003",
+        "item_sha256": "6845cef99b3d173724afe231e911381fc5a7ce505bba6fae8334377e6f4dfd94"
+      },
+      {
+        "job_id": "f05ef2dae9449b08df58cb98814311caeb4513b2d27f7a4f62b18213667275b7",
+        "candidate": "baseline_dense_k10",
+        "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+        "item_sha256": "491afd128cbf3012571af9257cb51e71099cb5567e14c983c4379b3f170d3b09"
+      },
+      {
+        "job_id": "b60b3e056fde208f28fb528dcbc2d0a85ed05fb3c68857b21ed62258334efa9b",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "58f62ac630b5ec13054947b7b8520476::agent-turn-10",
+        "item_sha256": "491afd128cbf3012571af9257cb51e71099cb5567e14c983c4379b3f170d3b09"
+      },
+      {
+        "job_id": "8986be282922aa8697684f7bddf24d19ff4c0ef436e17628d4270d16474ec14a",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-008",
+        "item_sha256": "f130ad086bf1481a972f5ff6556d1d0245b0773cd6bc52b51c813f4ea822d5c3"
+      },
+      {
+        "job_id": "91b3931b87fed5b53827210dfb9a821e5070550486eb8f20a95126042a99abf1",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-008",
+        "item_sha256": "f130ad086bf1481a972f5ff6556d1d0245b0773cd6bc52b51c813f4ea822d5c3"
+      },
+      {
+        "job_id": "02296db2bcedc164ec8a2a0439fc65c0badaa4b80671381d07346e6c6cd55f77",
+        "candidate": "baseline_dense_k10",
+        "question_id": "51b728730686c365c93c396c62cfb7c7::agent-turn-2",
+        "item_sha256": "57222f616c1f7176c1681aa1dbf0697d3ea840141d29d174e01de99e479f1a75"
+      },
+      {
+        "job_id": "aebcda950c1cb0ce4b021a857240b608dfaeba802c05c8fb056d9bee97028961",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "51b728730686c365c93c396c62cfb7c7::agent-turn-2",
+        "item_sha256": "57222f616c1f7176c1681aa1dbf0697d3ea840141d29d174e01de99e479f1a75"
+      },
+      {
+        "job_id": "41909e5dad5da3475208be5cf99e66b6d55b9c8d89246e1e9f443e460998b761",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "dfd7637934ad85f1ebc52893c7a86ae2::agent-turn-6",
+        "item_sha256": "ecc20dce85159933b766a0cdfe0b2e69eba2fdfca3856efa1838b43d6c1ee720"
+      },
+      {
+        "job_id": "dfaa059b8453399f9f5800aba4db114252efafdbecbb430121f247ff8fa488c7",
+        "candidate": "baseline_dense_k10",
+        "question_id": "dfd7637934ad85f1ebc52893c7a86ae2::agent-turn-6",
+        "item_sha256": "ecc20dce85159933b766a0cdfe0b2e69eba2fdfca3856efa1838b43d6c1ee720"
+      },
+      {
+        "job_id": "69a74e7a6572ba2fbe29a14bb00bbec4c900c7aeda6fc996d25ec0090c6662ba",
+        "candidate": "baseline_dense_k10",
+        "question_id": "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-8",
+        "item_sha256": "d864d72ea89330a0cb9db1aa98a831db95d4d28403d7feed69c67a49a2b241c9"
+      },
+      {
+        "job_id": "80c688dcb10767a415ee18127aad6cb75e703e6ea5e87ce59df023c88de7ef4d",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "afd3fb8be411dc89335d4d6690a6fdf5::agent-turn-8",
+        "item_sha256": "d864d72ea89330a0cb9db1aa98a831db95d4d28403d7feed69c67a49a2b241c9"
+      },
+      {
+        "job_id": "2db84a232b6ec6c66d97b12c32df0d5da15a2277c3af504a4f1903810fe8cc37",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-002",
+        "item_sha256": "5d104479cbd10a88d769c550c6cea7b3a27cb32cfe26e9f4a6a953e0c23b3082"
+      },
+      {
+        "job_id": "c2a6673931bbc157dca30d7ef1a2df5273b594a576a279a4a1f480f39d8e0dfe",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-002",
+        "item_sha256": "5d104479cbd10a88d769c550c6cea7b3a27cb32cfe26e9f4a6a953e0c23b3082"
+      },
+      {
+        "job_id": "3053e6a3c04bc791fefd9dd7510743ebbf28ea0409b760c68958fa157a1bb28d",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-007",
+        "item_sha256": "ffe7eab30aaf5a0f16d1fae4bc6e7f21eaab7cf5eb4cb75b647930b48fb1d096"
+      },
+      {
+        "job_id": "1e7612af4dc90173682405810f81f58b64401767eefc92970079474c2488e886",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-007",
+        "item_sha256": "ffe7eab30aaf5a0f16d1fae4bc6e7f21eaab7cf5eb4cb75b647930b48fb1d096"
+      },
+      {
+        "job_id": "88bd110a898a5e30bcd8537bd72c7588e8c711afd6ca06b7ac01c4850a3d10f4",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "1a16df19c04d0df0f426fd54a856d7c2::agent-turn-12",
+        "item_sha256": "02be3e2d82ee8f511c0a47c8606383f481443b099e8aba8eb263c2f7b004441d"
+      },
+      {
+        "job_id": "52297ff92028124ce96ce90ddc2fb7649ee8cd6acfbcc7bb195a014dce6dc99c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "1a16df19c04d0df0f426fd54a856d7c2::agent-turn-12",
+        "item_sha256": "02be3e2d82ee8f511c0a47c8606383f481443b099e8aba8eb263c2f7b004441d"
+      },
+      {
+        "job_id": "50dde7ac22cdf77949cfa76a57cc45c08e03fc9839eb4d7f5086e56e4d10a841",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+        "item_sha256": "e55cdf4b6ec5b4cc988ec0cabbc9f5c7907fc5251a727f7356a356e98889803d"
+      },
+      {
+        "job_id": "9d96e9c1cba035feb2f5c6439c94301e8132c7f077994853d77cb083a92e9289",
+        "candidate": "baseline_dense_k10",
+        "question_id": "252af484a022f3c3a46437bfa11ebc71::agent-turn-6",
+        "item_sha256": "e55cdf4b6ec5b4cc988ec0cabbc9f5c7907fc5251a727f7356a356e98889803d"
+      },
+      {
+        "job_id": "91607929b9920204e77a7e80409f6a19cad1147efa948dd42f324e4fb92ae296",
+        "candidate": "baseline_dense_k10",
+        "question_id": "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+        "item_sha256": "e5b6b7f480deee48a54c5acd4a0fa80a3fa59e8f2248e989f2c18d015927a9ce"
+      },
+      {
+        "job_id": "396afd8110748141cb8747b1abb47800ce25bbdd2d9b5a4c544163095d8db714",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "d0a58878eca371e513e25ee755bea381::agent-turn-10",
+        "item_sha256": "e5b6b7f480deee48a54c5acd4a0fa80a3fa59e8f2248e989f2c18d015927a9ce"
+      },
+      {
+        "job_id": "10b770a22920b264b11e5332a4c0c13d938cbc38b6d96dc808f17a4392cc6859",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+        "item_sha256": "89f0184ecfc5cd6af8abaa58cc01e505ef8cd3788657a52f57fe71f97921aadd"
+      },
+      {
+        "job_id": "c61f470343af7461195ce425490b8b9a412b276fd8f4037d01008e7f6d2e6c43",
+        "candidate": "baseline_dense_k10",
+        "question_id": "6d6c267dc4cbb6f414790d6c55b9e0fe::agent-turn-6",
+        "item_sha256": "89f0184ecfc5cd6af8abaa58cc01e505ef8cd3788657a52f57fe71f97921aadd"
+      },
+      {
+        "job_id": "f55af167d220a6c0abc23d1358b41e3500395eb72011fffd7498569e5f8f6a04",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "60f033db0967c2394c27bacb96bb7360::agent-turn-4",
+        "item_sha256": "d1f00a7eaeac8e430a9e7a2cc09bd499c4cc1e985cf52fc132188c0a5c968f94"
+      },
+      {
+        "job_id": "e60eef427fcffc56ef13e0ece5686fc718a52da616fe8cb65bf67d79f85d957f",
+        "candidate": "baseline_dense_k10",
+        "question_id": "60f033db0967c2394c27bacb96bb7360::agent-turn-4",
+        "item_sha256": "d1f00a7eaeac8e430a9e7a2cc09bd499c4cc1e985cf52fc132188c0a5c968f94"
+      },
+      {
+        "job_id": "550cb5ba8e8ca262b51f7a374369e6e2a6bca1d470cdde1ddcfc4ea7d3fe97bb",
+        "candidate": "baseline_dense_k10",
+        "question_id": "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+        "item_sha256": "316b0db3e530f22670bcdd6a467fd3b192241cad0b862490167de42196d2b40f"
+      },
+      {
+        "job_id": "bb7fdadd78ed694ee7c425636143a03a073a69c276b3979d9fc91000ad2219e0",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "5e5db1c8f954cf39215f7bc72c7322fa::agent-turn-6",
+        "item_sha256": "316b0db3e530f22670bcdd6a467fd3b192241cad0b862490167de42196d2b40f"
+      },
+      {
+        "job_id": "51d086c6d191d4f70a3e1c0263b6feb241006d25ad275e56e3c72a2f6086f53e",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "a430060f5b3837676f05642229ad31b6::agent-turn-2",
+        "item_sha256": "e84500927c1a8cf4c6b06a8c6a0689767f31bd5600b2efbc6a9f3762b387ebac"
+      },
+      {
+        "job_id": "cb597af352785baefb80190fd3df04add4fb1f11a799bbda41fde8c82439eeba",
+        "candidate": "baseline_dense_k10",
+        "question_id": "a430060f5b3837676f05642229ad31b6::agent-turn-2",
+        "item_sha256": "e84500927c1a8cf4c6b06a8c6a0689767f31bd5600b2efbc6a9f3762b387ebac"
+      },
+      {
+        "job_id": "b4ab3e9ba14aedb69911945c507fcb2bf156698d6a274baf5a3ea50bf0f1375f",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+        "item_sha256": "112b272fdfe2ad820e276cfe2fa8b2be9884b57cb8b0d32e7e9715aaf11c2702"
+      },
+      {
+        "job_id": "89480ef09fe96b3694a62d617ea18c2dfb009df8de34e02f58bd5c0e10724171",
+        "candidate": "baseline_dense_k10",
+        "question_id": "5739237b45a59e99f4282413adb58c89::agent-turn-4",
+        "item_sha256": "112b272fdfe2ad820e276cfe2fa8b2be9884b57cb8b0d32e7e9715aaf11c2702"
+      },
+      {
+        "job_id": "4dbf531885c06df91fd79a97482817550637d31d71f169dc8a064ae725d1884c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "9a80c2a728dcb8f19531b4ee2a4f5efa::agent-turn-2",
+        "item_sha256": "366cacf664c5b829c51300f04ab5637d39d4d146a74786101461ab4c8fbd2ea7"
+      },
+      {
+        "job_id": "708e141b1eacd5165920639a16f5a5f6d8c54ae98977dc2dd1cb7a95fb49cee2",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "9a80c2a728dcb8f19531b4ee2a4f5efa::agent-turn-2",
+        "item_sha256": "366cacf664c5b829c51300f04ab5637d39d4d146a74786101461ab4c8fbd2ea7"
+      },
+      {
+        "job_id": "7c511d3346612537e745f2509fb81b60c89ea6bdf0ea3b98f6bfa1b91f0b3ed4",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "ca189f6c3979e9aaf1eb8013b3c49247::agent-turn-6",
+        "item_sha256": "ca9b778a67c332e57822fc8d344785f61f1c13693c99a0b9a5cee120c2f230ed"
+      },
+      {
+        "job_id": "fe58a4d121094a13efb51f039d2e4a4a1cc68eb5e8adbe1a55c99d466a21dcd4",
+        "candidate": "baseline_dense_k10",
+        "question_id": "ca189f6c3979e9aaf1eb8013b3c49247::agent-turn-6",
+        "item_sha256": "ca9b778a67c332e57822fc8d344785f61f1c13693c99a0b9a5cee120c2f230ed"
+      },
+      {
+        "job_id": "7b36b1044ec12ee36f8a21818b1c65155e4de5e9c4a5814c37242aa5e33996f0",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+        "item_sha256": "cf44b94a2690778e81e31dd385fd0f8225fd46922af23d26d54170fb66d4ee64"
+      },
+      {
+        "job_id": "8a0b8b45c569f61fdf34b557ff4e0dcf9cebf76fdc06a0026f48b99a28cf99c1",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c8eb764b9c681371b2f92deebb1d9c4c::agent-turn-8",
+        "item_sha256": "cf44b94a2690778e81e31dd385fd0f8225fd46922af23d26d54170fb66d4ee64"
+      },
+      {
+        "job_id": "974655ea570dfb43ad7179c43285e280c996d1a31fd73fbf3b313559622d7d9b",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c92b7a4080c71c677a5d5142370610d0::agent-turn-8",
+        "item_sha256": "807e4e2332376f9b8889666ae72da48275bda1207a6a24ff91a7829ed1e5b80f"
+      },
+      {
+        "job_id": "fc4db76d81fab9336c9c81b043104f4ba7b20411caf50d16845c222b6e2e6f25",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c92b7a4080c71c677a5d5142370610d0::agent-turn-8",
+        "item_sha256": "807e4e2332376f9b8889666ae72da48275bda1207a6a24ff91a7829ed1e5b80f"
+      },
+      {
+        "job_id": "1f8b4f1d8fb65b44d0f5d9c36155da7a848aed780126c520ea5c7e4a7c4df4d0",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+        "item_sha256": "637f571e5ebf1daf24d25ffdc87f16fde556e3d822a4de5c0c977f444663d73c"
+      },
+      {
+        "job_id": "3d1b14ec533c22629475f100fb7bda5a7c5ac0cc94940008570b7db8e8a27c18",
+        "candidate": "baseline_dense_k10",
+        "question_id": "5c459ee17b782ba97e889816a7c9b510::agent-turn-6",
+        "item_sha256": "637f571e5ebf1daf24d25ffdc87f16fde556e3d822a4de5c0c977f444663d73c"
+      },
+      {
+        "job_id": "7d458c9190ce23b735a7dfff9655cde0666ba66b08cc2279f17d44d1d30e379a",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+        "item_sha256": "41b62cbd5186451dcd5b4a7fa0e9d8d8eb35dcb9b7f7552525189462a0aeb407"
+      },
+      {
+        "job_id": "ff171f5c7fd58241fb3b829efad1e146a85e38ecd910c678b4803146471080ed",
+        "candidate": "baseline_dense_k10",
+        "question_id": "7941cf7dd009003b816e5f49c98784c0::agent-turn-10",
+        "item_sha256": "41b62cbd5186451dcd5b4a7fa0e9d8d8eb35dcb9b7f7552525189462a0aeb407"
+      },
+      {
+        "job_id": "03deac686add01da1c08bdef8dac7ac1597cd0b183c9cc0b512013625153be42",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+        "item_sha256": "e6bdda2ebb5c5169e216e55ded09cd150a213a533407023f7daf65477a9f811f"
+      },
+      {
+        "job_id": "3a31c8e3bc2665c1c7d82c996ad935feb4faeb7e4440bcba749bfa22f89a1cc7",
+        "candidate": "baseline_dense_k10",
+        "question_id": "1c07df6d56b7980cf041a8ff3dd1bde4::agent-turn-14",
+        "item_sha256": "e6bdda2ebb5c5169e216e55ded09cd150a213a533407023f7daf65477a9f811f"
+      },
+      {
+        "job_id": "cf3d51dabe6474627602d376489802ab5bc1fe0997c1ebe146bb8ffa522b4f43",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-006",
+        "item_sha256": "868da763705593c7a6ab32979dc20924681c74c7ddb3825c52661fc0c3380498"
+      },
+      {
+        "job_id": "cd0afa1dfa22c06e5fa029a310c0d3863cd232a8f31049cde605bad867cdc8b0",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-006",
+        "item_sha256": "868da763705593c7a6ab32979dc20924681c74c7ddb3825c52661fc0c3380498"
+      },
+      {
+        "job_id": "8f01e222eeb0d42027be5604df803cf096caee2fb69b62c3e6c350ce5b907920",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+        "item_sha256": "a81653a52fbe214d9be4f06449c1df803c1bc25e8a7d27858104271b59228e5f"
+      },
+      {
+        "job_id": "aad94c0904bf9f27ce92747fcd8dd8fd94cf2c53bb9db541b34de17aedd24019",
+        "candidate": "baseline_dense_k10",
+        "question_id": "e1558c9a8d9a63a959eee01f7fd33a1f::agent-turn-11",
+        "item_sha256": "a81653a52fbe214d9be4f06449c1df803c1bc25e8a7d27858104271b59228e5f"
+      },
+      {
+        "job_id": "239c795eb4047d2b0a56285221aeebfecdcaf7e12d4f93db87a6c52f8e92b3f5",
+        "candidate": "baseline_dense_k10",
+        "question_id": "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+        "item_sha256": "d1230b6f13679c3eb27d0df43edd437d4045865a775abc2215f66afe27cdf76d"
+      },
+      {
+        "job_id": "75724ac4435eb2272d46acdcdb3dc3fb57ed9fec52ed894878af0ac9ad3c1dc9",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "a21bfcc6ab84da67c6a445535c0f3b43::agent-turn-4",
+        "item_sha256": "d1230b6f13679c3eb27d0df43edd437d4045865a775abc2215f66afe27cdf76d"
+      },
+      {
+        "job_id": "706e02bb9658aaa9bc19bf139fa5a0eb57638f6fffc51e5b66c2b40373ca39d3",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "d04210e3e1682b262293a08a35feea1a::agent-turn-4",
+        "item_sha256": "cf9fda549b8269ff1d6a8e015b0e21a8c147ab76eaa785e19a360ced85cfdbc5"
+      },
+      {
+        "job_id": "8918804dd1a8e8d833ce83cdb131d9c2545ecf6e4f6f7a6f1e38dfbca56dfce6",
+        "candidate": "baseline_dense_k10",
+        "question_id": "d04210e3e1682b262293a08a35feea1a::agent-turn-4",
+        "item_sha256": "cf9fda549b8269ff1d6a8e015b0e21a8c147ab76eaa785e19a360ced85cfdbc5"
+      },
+      {
+        "job_id": "6622d163881c1ed2dfed313e8e83cfd1c8b913959c2142b4a9f96aa16fd6856c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+        "item_sha256": "620da67509517946e9e902a00bb1451dbdeeb422955dec48cd189a99457aa99f"
+      },
+      {
+        "job_id": "3409ba3b7ab347d5d2bed60d2e182a55edff42dd0f3a0357af4fe0f0fbd4302c",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "9f61667636fe04c71da3d43f4c018b97::agent-turn-2",
+        "item_sha256": "620da67509517946e9e902a00bb1451dbdeeb422955dec48cd189a99457aa99f"
+      },
+      {
+        "job_id": "1721de1cd2f8f69057ffdf664023a23c9cbc50191ecb6cf890821c3d845abb24",
+        "candidate": "baseline_dense_k10",
+        "question_id": "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+        "item_sha256": "050ae69509724803e5624d863d8c3ea14ebe2a542bfba37ee85977400044ed3e"
+      },
+      {
+        "job_id": "197bb7edc5f6302744dc5a682724d1ac6a5f9cc41c6d8ae34912aa3a75faf5d9",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "e6e0acece5b228db1fff666f8895834b::agent-turn-10",
+        "item_sha256": "050ae69509724803e5624d863d8c3ea14ebe2a542bfba37ee85977400044ed3e"
+      },
+      {
+        "job_id": "7c159d0be2ca25b52d48917639954cab12381af890986e4f1b896b588b2ea942",
+        "candidate": "baseline_dense_k10",
+        "question_id": "26b0f6c2fe37202f4b6a0763afcab3aa::agent-turn-12",
+        "item_sha256": "8c49246f5b8236326a3d61d6903d9fc52c73682c15c7f3b21a8187d251891f87"
+      },
+      {
+        "job_id": "c6dad2c2b9e1d7c19816160755fdda9dc65a2bb8090795821ce3cc4cd32b036b",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "26b0f6c2fe37202f4b6a0763afcab3aa::agent-turn-12",
+        "item_sha256": "8c49246f5b8236326a3d61d6903d9fc52c73682c15c7f3b21a8187d251891f87"
+      },
+      {
+        "job_id": "8b793e490fd53802a2eef817128f1d68e26bb463e273da8e5a1332c9ebc700d5",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "5e9a8180c628087aad71d3cc476fe67d::agent-turn-2",
+        "item_sha256": "3e01b31a988daaa5b9fead0b77c3c43f415a412c60385e464cbbd7b0606653fc"
+      },
+      {
+        "job_id": "511702d0b010e4d89b1864cc36f3e44a621e6530deb4f2a64d49af397c67011c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "5e9a8180c628087aad71d3cc476fe67d::agent-turn-2",
+        "item_sha256": "3e01b31a988daaa5b9fead0b77c3c43f415a412c60385e464cbbd7b0606653fc"
+      },
+      {
+        "job_id": "dcef1480b70c92e6bf2808f10c46c24908b3ed9620b5118af8dbc5467992578a",
+        "candidate": "baseline_dense_k10",
+        "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "item_sha256": "25a6e5bc46c18cbe353ca0aec0c12f24ec2ef0d765128ade089b8bbd5fa0d32b"
+      },
+      {
+        "job_id": "6b4029612353c4b2db08b71e5d2f29c6dfe2397fee2a33b17f02c6870d3f3dd3",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "20857beefef3264d6cc89b5b67fa1dea::agent-turn-2",
+        "item_sha256": "25a6e5bc46c18cbe353ca0aec0c12f24ec2ef0d765128ade089b8bbd5fa0d32b"
+      },
+      {
+        "job_id": "9d22fd953dac43a41731849c9d0f02de4081b1143ad2a840cacc07c6534ad335",
+        "candidate": "baseline_dense_k10",
+        "question_id": "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+        "item_sha256": "f875b023df9973005c89d003c83a0ff1ce88934c13eedac5497eb73df6d156d6"
+      },
+      {
+        "job_id": "3e9b481ac9b29e3c6a16bae705a2eb37e39dfac40b7eae0d15cc9b38c5f81930",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "ef7084e0229b09f7e0827cc4c320ddc9::agent-turn-12",
+        "item_sha256": "f875b023df9973005c89d003c83a0ff1ce88934c13eedac5497eb73df6d156d6"
+      },
+      {
+        "job_id": "4db372f19fbf30ff67fc8dbf9344c74e979da7d5514abe3c4348d8892887a21f",
+        "candidate": "baseline_dense_k10",
+        "question_id": "05d1233e323f975fe059cf5f94bd5bf1::agent-turn-6",
+        "item_sha256": "2f2c887c742344b7dca047b909af4df90553491a3682664b2de03ac0a5cbd04b"
+      },
+      {
+        "job_id": "37da9b68b0f44987b1649ae2e430e49fe4824cf626784e1a3b948f93e695c660",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "05d1233e323f975fe059cf5f94bd5bf1::agent-turn-6",
+        "item_sha256": "2f2c887c742344b7dca047b909af4df90553491a3682664b2de03ac0a5cbd04b"
+      },
+      {
+        "job_id": "46eac7be4344d2a35cc6bf0802c0430b8a6e305253a6947cb27a2a88570a11ff",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+        "item_sha256": "781242735fcd64f33acd8eabd5d98839394e9999ac0b49801c304641532083f8"
+      },
+      {
+        "job_id": "b015234ce9fb52560d262bc73031396473f49f12bd5a6732350a68052a4c31f0",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c4d29250f16017f3fc9fbaa5bf183988::agent-turn-10",
+        "item_sha256": "781242735fcd64f33acd8eabd5d98839394e9999ac0b49801c304641532083f8"
+      },
+      {
+        "job_id": "85db1633cfeeda0f5dee76cc17462861fb2ff23f60d60540e14f124c1028251f",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+        "item_sha256": "00bac07708c60a130a94e145d95ba7bca4a91e39caf38b6762cea27aab33258a"
+      },
+      {
+        "job_id": "25262694bed4cc9016f18e3d3e4c4f1b52a54061c020bc90740354331c754d5c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "a5e33a8ee5418d4e04d6a9fe980b80f4::agent-turn-2",
+        "item_sha256": "00bac07708c60a130a94e145d95ba7bca4a91e39caf38b6762cea27aab33258a"
+      },
+      {
+        "job_id": "927e7d1073287b0980da8ba2ad52bd68582ce46f4831cb02ee4d750b42b1cc31",
+        "candidate": "baseline_dense_k10",
+        "question_id": "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+        "item_sha256": "73c3b82c0ff9fd2ef85f4082d5ba3d18663b041a202a5e19d8531d43ddb4a8bf"
+      },
+      {
+        "job_id": "4365dc08275cf2402f4cd009f66eeb9ba9b96ec86e7eebfa2768e799b6691c16",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "0dc6f814edb85abf7090d459b9a8a729::agent-turn-10",
+        "item_sha256": "73c3b82c0ff9fd2ef85f4082d5ba3d18663b041a202a5e19d8531d43ddb4a8bf"
+      },
+      {
+        "job_id": "d943202307ba384a1fae2e8af79606aa819a94358291447062450a41b3b12ee1",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "6051c869888c57bb63e1db93fa8dd300::agent-turn-2",
+        "item_sha256": "1d3dc813138ac2a4d1b7216a29c18b85291eb02db3265215f75b94830559479b"
+      },
+      {
+        "job_id": "b85a38e671e78bfe104ed181f3ec8dfbce200ab1ba08de6ab756684fc27c7863",
+        "candidate": "baseline_dense_k10",
+        "question_id": "6051c869888c57bb63e1db93fa8dd300::agent-turn-2",
+        "item_sha256": "1d3dc813138ac2a4d1b7216a29c18b85291eb02db3265215f75b94830559479b"
+      },
+      {
+        "job_id": "be2369b6d3a2ef4cee8f26b8b04ff862a821d016c99a9961956eee36ba3ad501",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+        "item_sha256": "aae22a141f44f7de8066110585c4a7857d01df53e41f71eb8e266cf03a635306"
+      },
+      {
+        "job_id": "b49c49b6b850dfe41c9406495112501cd0759671cc1ed6ff774218520d0c0775",
+        "candidate": "baseline_dense_k10",
+        "question_id": "bf497c2e0c66955ed04644556da12a5c::agent-turn-4",
+        "item_sha256": "aae22a141f44f7de8066110585c4a7857d01df53e41f71eb8e266cf03a635306"
+      },
+      {
+        "job_id": "95b7212d00bd9c254f1d7b1dfe05417a7e8c0c7ef747c3ddf27f8d9638932722",
+        "candidate": "baseline_dense_k10",
+        "question_id": "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+        "item_sha256": "4b5b97beb60ec0568775da03603373d8d92789a5474b5a5f37103ef32a6c96f3"
+      },
+      {
+        "job_id": "9ac5d9f7d5a7af10afff4cd44ff881b477809edd71b0ec6a027fa7baaea70066",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "ec98685178ee80eab4602c6d10a744fc::agent-turn-12",
+        "item_sha256": "4b5b97beb60ec0568775da03603373d8d92789a5474b5a5f37103ef32a6c96f3"
+      },
+      {
+        "job_id": "2ea4304c3477f6d613a250245c71caf813bc65d3558f16e7d64e2a47e9424f23",
+        "candidate": "baseline_dense_k10",
+        "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+        "item_sha256": "37eb3f028684438ea29f06c807d13e11dcfb3993fef2cabc42d5e684f9595bca"
+      },
+      {
+        "job_id": "03a6ab7ca5f5616ad31430a85c82b6abd876e15a5e94a8747bdb60c481fbc473",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "d11cf8664fd07b5745c68eb34bb87e3c::agent-turn-8",
+        "item_sha256": "37eb3f028684438ea29f06c807d13e11dcfb3993fef2cabc42d5e684f9595bca"
+      },
+      {
+        "job_id": "3ecc0dc7b9e9e1328d07ca4003db5a63ad3c2077a8efefdf56ea6c629fa39f21",
+        "candidate": "baseline_dense_k10",
+        "question_id": "64b9e9860565971c2d6c1eb869ec7267::agent-turn-12",
+        "item_sha256": "f708f8ab4f724869c3fe43dddfe0fd46606e907acec15c45d982d0424ecf4d61"
+      },
+      {
+        "job_id": "cb2086e9da728adb5768718039937ea69a6dfec62beffab7e724f65b15063669",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "64b9e9860565971c2d6c1eb869ec7267::agent-turn-12",
+        "item_sha256": "f708f8ab4f724869c3fe43dddfe0fd46606e907acec15c45d982d0424ecf4d61"
+      },
+      {
+        "job_id": "0389d3e56b42b35d4508b3327df6f61c7b2171fde26914201d2207be2edff7c0",
+        "candidate": "baseline_dense_k10",
+        "question_id": "cbef89514baf9fbe01ee72682f40e0ef::agent-turn-2",
+        "item_sha256": "97d06d1588cb376b6958ff07f4abd173cac9f58dfb0fbfcdcc6c18353ea77827"
+      },
+      {
+        "job_id": "114fe31a543d26d6ded65028e4d9822281316f6484299dfbcfffb2a1baa59170",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "cbef89514baf9fbe01ee72682f40e0ef::agent-turn-2",
+        "item_sha256": "97d06d1588cb376b6958ff07f4abd173cac9f58dfb0fbfcdcc6c18353ea77827"
+      },
+      {
+        "job_id": "c4a4263253e28f689e25204cbd2faf092da061e66cbd882d46ad05a098d85509",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+        "item_sha256": "fa70c5eea491eb7c95bd5d3c82224b9f54cc94a0dc2c900237078df1016d5ebc"
+      },
+      {
+        "job_id": "382244c13abdadfb0ec6f03275fb0dfe2a509fce96366b44e19675182c40306b",
+        "candidate": "baseline_dense_k10",
+        "question_id": "d3c13b9975f54341d07cc196468d6ce2::agent-turn-6",
+        "item_sha256": "fa70c5eea491eb7c95bd5d3c82224b9f54cc94a0dc2c900237078df1016d5ebc"
+      },
+      {
+        "job_id": "1bc1c71def23437208fb4f831ba3466b4dcda72b35b06adc964b8d86a16955e5",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-010",
+        "item_sha256": "32271467c8e885ace558f2a2e162c45721d9ff5abde5cb1c41b9c5ccd08e9749"
+      },
+      {
+        "job_id": "c3ea73bfc6493cf942d2ffceb1a0f266a711ce58068349ad3a0570dc717562c2",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-010",
+        "item_sha256": "32271467c8e885ace558f2a2e162c45721d9ff5abde5cb1c41b9c5ccd08e9749"
+      },
+      {
+        "job_id": "0f486edd7c9387664eccf125fcaef0fd2fbb17bf29f0f307b8e33bf0bededc51",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+        "item_sha256": "d8cc98a0426c870039f528569f6b9be9aa07a41708e543d18e562aec8f85b987"
+      },
+      {
+        "job_id": "da839ce15f8e168089be6a86c44d717d8606445be9a9c24216f2eb7f97adc923",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c29e6c44acfeb27be8e438e85301fda7::agent-turn-4",
+        "item_sha256": "d8cc98a0426c870039f528569f6b9be9aa07a41708e543d18e562aec8f85b987"
+      },
+      {
+        "job_id": "77b5b535b509fd81ea23d8628f33d7e373ee33847e26cf1c60bf20c8b4ef2620",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+        "item_sha256": "1d8418aa1252e25ba81a36d04b43f4cca003f56118dfc85f2b9308ab827ee718"
+      },
+      {
+        "job_id": "be5f7d834e2d3ca2bd7c44adbc4fa46ec4a4ba6fa283c2ee32b38c54c08d5e79",
+        "candidate": "baseline_dense_k10",
+        "question_id": "ecb4a1de2830410ad30da986c41a4849::agent-turn-6",
+        "item_sha256": "1d8418aa1252e25ba81a36d04b43f4cca003f56118dfc85f2b9308ab827ee718"
+      },
+      {
+        "job_id": "d22a33d93ee9e6068e1b280bbca0e72ece32f9038ac46fb0cf8ca6a84d4ec070",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+        "item_sha256": "f7c15635f249e6e9050f89eb3a33c62a59c0787a08bf69686e87825d0b322c16"
+      },
+      {
+        "job_id": "0270c9b965a28d69ced3f9d148f3d57ac74b0e350ac52adabaee41cc5b60e74a",
+        "candidate": "baseline_dense_k10",
+        "question_id": "71f2c56d6ef73a9d56b9bcb7f95cd8f6::agent-turn-14",
+        "item_sha256": "f7c15635f249e6e9050f89eb3a33c62a59c0787a08bf69686e87825d0b322c16"
+      },
+      {
+        "job_id": "0054f51df98a950135c788a146b0d822ac974882da730e7ec27f711b595a0634",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-001",
+        "item_sha256": "d1365acc08cf4604b148850ca83db82b93ea00bd87179fd07860bf127f9093af"
+      },
+      {
+        "job_id": "6f19b517c2a6d1ec762e8e5d25cd252220a85b4f0d3498768234cb8f5d5c7432",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-001",
+        "item_sha256": "d1365acc08cf4604b148850ca83db82b93ea00bd87179fd07860bf127f9093af"
+      },
+      {
+        "job_id": "3bc2b856b7dde297bac56032530f43fbd856fc2761476961db9bf0cceeb71364",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+        "item_sha256": "60016a33b0ccd90e2cf60bacc6beb26e9baf5288633f4a7da34cfbc85519fce9"
+      },
+      {
+        "job_id": "8d1061726c6864580463ae919837f197dbf05df0a36be9c5275a855ebfe3da73",
+        "candidate": "baseline_dense_k10",
+        "question_id": "7eb2cb3361df7c9cd78d4771dcec1d02::agent-turn-7",
+        "item_sha256": "60016a33b0ccd90e2cf60bacc6beb26e9baf5288633f4a7da34cfbc85519fce9"
+      },
+      {
+        "job_id": "fd466aa6664837f7ab3c48aa1af0a128deaac7d74b3377c95e9a580887e12f9f",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+        "item_sha256": "8f7449938b4451160509b7c417dd94783fb4f7103fdf123584827b289eaadc10"
+      },
+      {
+        "job_id": "f3f6a0777516ebadca00f25d9d625b1056000641cf0ab22b2da95b6d0c40e5a9",
+        "candidate": "baseline_dense_k10",
+        "question_id": "f00d605c45efc4aaecb9da1a5037d936::agent-turn-12",
+        "item_sha256": "8f7449938b4451160509b7c417dd94783fb4f7103fdf123584827b289eaadc10"
+      },
+      {
+        "job_id": "ae6b27a5c0d79a7e6f2dbe1beff76b9a9a245e82fa778b508c1e25a390dd204e",
+        "candidate": "baseline_dense_k10",
+        "question_id": "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+        "item_sha256": "ca349596246fa58b3902fa2b036c88f8b90e6ba4a51673b4304ebae3a7a3f0e4"
+      },
+      {
+        "job_id": "d89b8406b550a6986114a481977cb4e8c3e9bfa92274f7c8be6c2ccfc162ca20",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "15be395bd1cf9e04372fcbe4dc31960c::agent-turn-11",
+        "item_sha256": "ca349596246fa58b3902fa2b036c88f8b90e6ba4a51673b4304ebae3a7a3f0e4"
+      },
+      {
+        "job_id": "89a2a5abc84f1cdc4bdc9a29b0b512d0710dcf4dbddcf33b9e0eb264b521a892",
+        "candidate": "baseline_dense_k10",
+        "question_id": "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+        "item_sha256": "11eeaf276ec6e8b57d99a66311511037654aad512d7991d40ce5973b68c4d179"
+      },
+      {
+        "job_id": "9ed269c9ebda7a27431fd398618a9680fe4ade324509db12358e82b86af4d79d",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "e7fd0ac02907e842b9ca05fa38cfb330::agent-turn-8",
+        "item_sha256": "11eeaf276ec6e8b57d99a66311511037654aad512d7991d40ce5973b68c4d179"
+      },
+      {
+        "job_id": "20a76fcefa0b78f3dda82b68c19878547a3c79c7728b52e929a690f8d0100e76",
+        "candidate": "baseline_dense_k10",
+        "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+        "item_sha256": "4a0183697da01a974e390498482b36b7ceb1411d3e25d48b8aa7f6b91dcd4a48"
+      },
+      {
+        "job_id": "84159473f61a742a457ed914b881828f0f41761009810e7c0822e241c20d103f",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "e3c09280b0901314ebc9c799f3789711::agent-turn-13",
+        "item_sha256": "4a0183697da01a974e390498482b36b7ceb1411d3e25d48b8aa7f6b91dcd4a48"
+      },
+      {
+        "job_id": "6ecf0083916c9fdc098076b20d9f3393f4ab9aef136ebc991b78eea5050ff16a",
+        "candidate": "baseline_dense_k10",
+        "question_id": "6a53d32979534c26b56948c498908f0d::agent-turn-14",
+        "item_sha256": "6c14c27fc99b52b35eb95f9c0811722520306eb04bf47317d3f9ee41837476f7"
+      },
+      {
+        "job_id": "fb9d7f81b978e736727ca86fdc0a82e86fbcfaf841be10d7339072b4a748b203",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "6a53d32979534c26b56948c498908f0d::agent-turn-14",
+        "item_sha256": "6c14c27fc99b52b35eb95f9c0811722520306eb04bf47317d3f9ee41837476f7"
+      },
+      {
+        "job_id": "f578f5e40d55e85bc9a5a9d372615ce08ddd8133fea3a427e00b1ab787972132",
+        "candidate": "baseline_dense_k10",
+        "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+        "item_sha256": "6d7560bbb54504ea2a6502a4d6dffc0b5323857d986a7fc3d7423bb108302154"
+      },
+      {
+        "job_id": "26201a3fb606a7fbffc3ddf75d1e6c2d495a2039c40ae3b86dbed7bced54f0b5",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "df0786f17d9f4708d23e6d40fe51f0b5::agent-turn-13",
+        "item_sha256": "6d7560bbb54504ea2a6502a4d6dffc0b5323857d986a7fc3d7423bb108302154"
+      },
+      {
+        "job_id": "0ab0d70a402cae39c64cf74fd803d2a8633829873f8d4b5daf52831299c488f6",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+        "item_sha256": "cb4b90fbcf51274c9e849bdb20fab388a38497e1d829aa984ee1056b47b73ccb"
+      },
+      {
+        "job_id": "97d4e3a0a9930e1295a320a713e575062cbf394aaa58a3572e232e723809e540",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c20f4c858acff9e427a8c8f40d36f25d::agent-turn-5",
+        "item_sha256": "cb4b90fbcf51274c9e849bdb20fab388a38497e1d829aa984ee1056b47b73ccb"
+      },
+      {
+        "job_id": "8af00dacac381ac1bf13800fdaef740d29161b3ab21863c4d01bef8b099f640b",
+        "candidate": "baseline_dense_k10",
+        "question_id": "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+        "item_sha256": "530d0818f1efbb1cf072ae560825fb8b193dcdc81af1e3f89bace01886755291"
+      },
+      {
+        "job_id": "545e2d9977a57ffa2acc42959155db565413a05eb7d52c4bad9388a686e98349",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "84440787944cb0dc3e894543cbe998ff::agent-turn-8",
+        "item_sha256": "530d0818f1efbb1cf072ae560825fb8b193dcdc81af1e3f89bace01886755291"
+      },
+      {
+        "job_id": "c2cb745f284cdf3b6b17b2b64f6d9640b59ee69db40066a09500b539bd39c106",
+        "candidate": "baseline_dense_k10",
+        "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+        "item_sha256": "8a4cfed7a2a46a8f9b52e54006c2143888d6f70dafe50a26f894dae538a91f92"
+      },
+      {
+        "job_id": "09550ee0f431235934e519a1b6702023cf0d13c83774ac04a4274b14f518b471",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "64d6f8365e94e27a45bc0d81cc5190c2::agent-turn-10",
+        "item_sha256": "8a4cfed7a2a46a8f9b52e54006c2143888d6f70dafe50a26f894dae538a91f92"
+      },
+      {
+        "job_id": "26461d171e504559b57889979563e94ebb32071a5b8f07d7416e553a34e564c9",
+        "candidate": "baseline_dense_k10",
+        "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+        "item_sha256": "ffabcada68c1788a728adea80e06c4a9c516b580a6c42f8d96f221ceed5bf6e7"
+      },
+      {
+        "job_id": "45027915fadf6fa66b0dbdcc0ed30a446ff2a57d9dcf09f87fc22da5637867b8",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "6c1a20b6f6cad4c623a877f50bbc54e8::agent-turn-15",
+        "item_sha256": "ffabcada68c1788a728adea80e06c4a9c516b580a6c42f8d96f221ceed5bf6e7"
+      },
+      {
+        "job_id": "d64427b6fc872cec22c1abb5f215341dadebf2ac14c1bd281e809652f1b70475",
+        "candidate": "baseline_dense_k10",
+        "question_id": "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+        "item_sha256": "4d64d863bcbd2d588ab16cda4958725f4eca66603d35862b37e37e728af9b07b"
+      },
+      {
+        "job_id": "6592b9fc1140d5e108b507b84f28509c338e3a5a22bf49543eb4192eccd68a8c",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "021386787787ced4b5fbd9dcd02d5086::agent-turn-10",
+        "item_sha256": "4d64d863bcbd2d588ab16cda4958725f4eca66603d35862b37e37e728af9b07b"
+      },
+      {
+        "job_id": "ffc4134a1614bcf136b75a298022dd81c1e1b42b5f91935dcb99a63c010b867b",
+        "candidate": "baseline_dense_k10",
+        "question_id": "82f1b51a42de79a1b3bf975f6a602983::agent-turn-10",
+        "item_sha256": "d0bdd66cd1fb07cb4b170b54fc971f02a43e49cfcad1b78d85384326199972ce"
+      },
+      {
+        "job_id": "076ac4abaef356bb8fbfe02931120ef074290255565e9492dd37f2c7b446d92e",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "82f1b51a42de79a1b3bf975f6a602983::agent-turn-10",
+        "item_sha256": "d0bdd66cd1fb07cb4b170b54fc971f02a43e49cfcad1b78d85384326199972ce"
+      },
+      {
+        "job_id": "8a95cfc9947b78de86e34e0542d4cabbb6673d5a2a1b5a74611ee915f4aec66d",
+        "candidate": "baseline_dense_k10",
+        "question_id": "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+        "item_sha256": "9ff3e5e30cada9f4e959b2610910ce81521f0cff1f2cd2fc55c33946b10fec2f"
+      },
+      {
+        "job_id": "8f0c236bba1352fc5bf2c72e8d5ac8f962de5c347a0a95d3da4cfc24496fca8d",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "b284a4735f8d84a97ba634ad0b2db4d3::agent-turn-7",
+        "item_sha256": "9ff3e5e30cada9f4e959b2610910ce81521f0cff1f2cd2fc55c33946b10fec2f"
+      },
+      {
+        "job_id": "d38de117a585d9153f280f19cff5152e3a964961bce26a7607a314fda0f4bf6a",
+        "candidate": "baseline_dense_k10",
+        "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+        "item_sha256": "1b275d606e0f67db1190f4b023699380cbd4bfe20a62dce0c71cc51e312da620"
+      },
+      {
+        "job_id": "3a43ffa8a80f7e6ed9629e6851151f5659d48cb1014c705f4bb426e10958cea8",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "6edbaa894c0968d2e3ab9bbfcbd7df0a::agent-turn-4",
+        "item_sha256": "1b275d606e0f67db1190f4b023699380cbd4bfe20a62dce0c71cc51e312da620"
+      },
+      {
+        "job_id": "bcd44afd6da2e838d991f8833b078565ccb2b9ecb4bc362144804aacb5de2e6a",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+        "item_sha256": "28e1755ffe857958fbac7dfe4030f26b36c77b224094b48b5ae4855985b57e43"
+      },
+      {
+        "job_id": "653cbdc771d3c61dd3551923adeb6b403baf873cd478fad7d5f287f1191651ba",
+        "candidate": "baseline_dense_k10",
+        "question_id": "68b799748b123c5661a65cea9870acb7::agent-turn-2",
+        "item_sha256": "28e1755ffe857958fbac7dfe4030f26b36c77b224094b48b5ae4855985b57e43"
+      },
+      {
+        "job_id": "42c4d8f9af63b35eaae51e0030ff14e851b193b9af01516c164314b7af0a2e6e",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "b515792cb5c12eaf734c1ec5ec15023f::agent-turn-2",
+        "item_sha256": "cf4225edcd292f9b5ab141ef09f3c4b56aab6d2ce136532ce25f49a3eaf937c7"
+      },
+      {
+        "job_id": "ad03074eef8b802f859445d77672e5370915b92861217d2f368b51378faa47b1",
+        "candidate": "baseline_dense_k10",
+        "question_id": "b515792cb5c12eaf734c1ec5ec15023f::agent-turn-2",
+        "item_sha256": "cf4225edcd292f9b5ab141ef09f3c4b56aab6d2ce136532ce25f49a3eaf937c7"
+      },
+      {
+        "job_id": "97b4961be640bfcb76bdf7728c618cad7b6ec715addcaa4d23d3f41f775b468c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "462ae928f57da285beae94349aa55b3d::agent-turn-2",
+        "item_sha256": "59532c75cbb2d7aa6a76738f11598e5f85f4081ab44eebbb1a7af2354e704d35"
+      },
+      {
+        "job_id": "c78b757897acd5acd4e394b5ee100277529821a2d10c1634e05acac4fc8de839",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "462ae928f57da285beae94349aa55b3d::agent-turn-2",
+        "item_sha256": "59532c75cbb2d7aa6a76738f11598e5f85f4081ab44eebbb1a7af2354e704d35"
+      },
+      {
+        "job_id": "ab8c8f2a7094fa8556b0fe934ad88f58bcd7183590e0ddfd8669685ef90704d2",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-009",
+        "item_sha256": "b566b0e79d1a3d20cbcf95b32e406a6d5970e77e02f7e8b94081e60fdd282643"
+      },
+      {
+        "job_id": "35235fe7a937468b3ec8d91d69e90ab89e72a8b5e8cf53ca39c8a13fc072b1a0",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-009",
+        "item_sha256": "b566b0e79d1a3d20cbcf95b32e406a6d5970e77e02f7e8b94081e60fdd282643"
+      },
+      {
+        "job_id": "41ce5507b49f2f341e9375495855c63a14b596d41cc6009eae4760882052436d",
+        "candidate": "baseline_dense_k10",
+        "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "item_sha256": "f1dccaabc844e5c080cc6d53286024ef342cc9a3243840d033851ebee2d01c47"
+      },
+      {
+        "job_id": "eb03084d420dd4e1dace8c23f2a503ed06997e0fe1167a540664aad81e89ac80",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "2e0eae56e500ce599d2e50df42584392::agent-turn-7",
+        "item_sha256": "f1dccaabc844e5c080cc6d53286024ef342cc9a3243840d033851ebee2d01c47"
+      },
+      {
+        "job_id": "1c0097caf0f3baa400c3adcc15e98e79154043c84b7b5e9d32170dee163fc0d3",
+        "candidate": "baseline_dense_k10",
+        "question_id": "375a963ac82d70c70446a2f30e686438::agent-turn-8",
+        "item_sha256": "c5508642960f3fe737c7a75234964edd08de487ed536dbddd4f989dee1f0a678"
+      },
+      {
+        "job_id": "9d0c6b40967d6d10f6d9529dd90c972319d3797f813d79c350f2b24929d521a3",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "375a963ac82d70c70446a2f30e686438::agent-turn-8",
+        "item_sha256": "c5508642960f3fe737c7a75234964edd08de487ed536dbddd4f989dee1f0a678"
+      },
+      {
+        "job_id": "469d512156013ea292b9442e75a2ae145d1fa2f67f8a738b20c104cf5c1c7022",
+        "candidate": "baseline_dense_k10",
+        "question_id": "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+        "item_sha256": "d39478aa1513a9532dc2aac9c9eb1d842233f2a14e40aa616f53fdca2fdf23a1"
+      },
+      {
+        "job_id": "0ca4e557970f37d2e4c262519308630405465f23fcb4ebacf0ae235231c24869",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "6070e3dcc2ef2ec0a8bbba02f8a14233::agent-turn-9",
+        "item_sha256": "d39478aa1513a9532dc2aac9c9eb1d842233f2a14e40aa616f53fdca2fdf23a1"
+      },
+      {
+        "job_id": "dbb0d9f8900e89045912fa11252cb34ec4866cb0e0619b47190a168344b2bc6c",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+        "item_sha256": "27ee30575f2e83571c4e734d2536b4a5244ad80bc4afafaea3c4a99e3db3d44d"
+      },
+      {
+        "job_id": "f24addf83346548119637a6b4b27e76e46f7b905b99f4e80a40af545c799e5c5",
+        "candidate": "baseline_dense_k10",
+        "question_id": "68bde1de04e1739c10aa71d88dfa466d::agent-turn-4",
+        "item_sha256": "27ee30575f2e83571c4e734d2536b4a5244ad80bc4afafaea3c4a99e3db3d44d"
+      },
+      {
+        "job_id": "1f01915fa39476476c453cb9327accc2c54f8a5a715d853b7ad3ed3487315ca9",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+        "item_sha256": "ff5278d0be53a7224677426d1ecd6ed72ea24498a35d5f583179d475b83c003d"
+      },
+      {
+        "job_id": "e2180339a01979a3c836d9189a74b518bb31b4e3372c16bee19971d2f16a8ffb",
+        "candidate": "baseline_dense_k10",
+        "question_id": "3727fab5e9c5b7f9a6e1cbe7935d51bb::agent-turn-6",
+        "item_sha256": "ff5278d0be53a7224677426d1ecd6ed72ea24498a35d5f583179d475b83c003d"
+      },
+      {
+        "job_id": "36018c83d277959e9d8bfbbe7eb3681e5d31374b5351233ac738dcf271ef74c1",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+        "item_sha256": "f55ea0eee49ce936025fc7e24c293912f6c973ac9fc177b91a9f958e1ca38dad"
+      },
+      {
+        "job_id": "3b35307ed20e6236c96e841e95719c1d19b7793af13745338994ab0c91f7d937",
+        "candidate": "baseline_dense_k10",
+        "question_id": "9957c4e965a7826212b1f86d6bc6352f::agent-turn-10",
+        "item_sha256": "f55ea0eee49ce936025fc7e24c293912f6c973ac9fc177b91a9f958e1ca38dad"
+      },
+      {
+        "job_id": "679cfd0725a2ce301872ca9194ac7606cf54c677698705fa75106670895fbb57",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "459b8bfd975e9856a8e7a35f5ff76bd0::agent-turn-6",
+        "item_sha256": "77907751905f4300fb0ac257a6de38620fa04f1cab4a624c90c207e86ccd6c2d"
+      },
+      {
+        "job_id": "0d7806cc026d2425628c2b74d1ce1fbfd90c0096cdefc4e916b12123029cb228",
+        "candidate": "baseline_dense_k10",
+        "question_id": "459b8bfd975e9856a8e7a35f5ff76bd0::agent-turn-6",
+        "item_sha256": "77907751905f4300fb0ac257a6de38620fa04f1cab4a624c90c207e86ccd6c2d"
+      },
+      {
+        "job_id": "52ed1fd6e8c262bde9a864292979999624437dd31dc6c4200f20aca1c139ae80",
+        "candidate": "baseline_dense_k10",
+        "question_id": "5525c2985e4e3613f6820124fe297c11::agent-turn-2",
+        "item_sha256": "649ac8445d931c6a69e54204cf641fc6cc237d409281a9858d6bc99dd8e51587"
+      },
+      {
+        "job_id": "1659cee7fb42643904e8548fa136c936f7b3fd757f83c560e93f3c22447d180b",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "5525c2985e4e3613f6820124fe297c11::agent-turn-2",
+        "item_sha256": "649ac8445d931c6a69e54204cf641fc6cc237d409281a9858d6bc99dd8e51587"
+      },
+      {
+        "job_id": "84b31fccbea79f970d85b24333acbc5e7366b36bc7b0abd85c3a25d50ae820e7",
+        "candidate": "baseline_dense_k10",
+        "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+        "item_sha256": "df5adaff5822135bccdafd33a00a63610428ba1da542860869a22de8d67d21ce"
+      },
+      {
+        "job_id": "5362a89d8be85905d3a9b5a2b906e1c01dd487d0bbdca0ecf6bf11e29ffac441",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "fbd71d41a3664987af39687d2b735a89::agent-turn-11",
+        "item_sha256": "df5adaff5822135bccdafd33a00a63610428ba1da542860869a22de8d67d21ce"
+      },
+      {
+        "job_id": "d83ca61ae758f12466875ec515e3818b028e4c36018a3c9cf454707b5969ed0e",
+        "candidate": "baseline_dense_k10",
+        "question_id": "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+        "item_sha256": "daf7df95a3dbaede7ca075c6b4aa36dffb0484d1ac1d7701d8aec21b4cb6d5dc"
+      },
+      {
+        "job_id": "3e0d7643dab2fbb6bc20a6f2f8177cdea876dd2e63beb154f897ae034ffbe069",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "166e4adfd7cc4b506a179130f07e0c63::agent-turn-12",
+        "item_sha256": "daf7df95a3dbaede7ca075c6b4aa36dffb0484d1ac1d7701d8aec21b4cb6d5dc"
+      },
+      {
+        "job_id": "8331b9b89785eb49b820b67bf956f1d5f55f6d99cda0c5c39ab344215c9e1c62",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+        "item_sha256": "2a46a04b87d0653b92615faa247bb38d2c0ef26d00b808240b9e0bff1428185c"
+      },
+      {
+        "job_id": "aac55abc423adcce58bb7747da2b0527de816acfaea507b4106ef1a29f080b9c",
+        "candidate": "baseline_dense_k10",
+        "question_id": "36fc03b5b1e6313c3b2c49a6cb98f40d::agent-turn-2",
+        "item_sha256": "2a46a04b87d0653b92615faa247bb38d2c0ef26d00b808240b9e0bff1428185c"
+      },
+      {
+        "job_id": "4d6def47ac491f4d6ffa5ca893dfc66eb27c517b44afa0273f5b050b656ec47b",
+        "candidate": "baseline_dense_k10",
+        "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+        "item_sha256": "d5c497057ffc66cada1b734b162ed69694e4c9568c96827471928b0446f11956"
+      },
+      {
+        "job_id": "e7ce85c1458ee0c3f53e8954f8abdc23331fdcd3a8d486e5b5cebffc03367f5a",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "99fde7e8b712d1c8f9d683f23f84083c::agent-turn-17",
+        "item_sha256": "d5c497057ffc66cada1b734b162ed69694e4c9568c96827471928b0446f11956"
+      },
+      {
+        "job_id": "9b8c616d9503024faa93d524c1b1143abdbad94199321023769ca4cdea338d4b",
+        "candidate": "baseline_dense_k10",
+        "question_id": "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+        "item_sha256": "0e1df75c0538c15cc8646658a6ad6127d987c6fda7397685474f2e015f47e4d2"
+      },
+      {
+        "job_id": "8a8479440cba9324a857cf27de1b60715c87fcd2de2227210b7816d4b2a0f31a",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "963030f590fa5e7b8b88a9093a255979::agent-turn-11",
+        "item_sha256": "0e1df75c0538c15cc8646658a6ad6127d987c6fda7397685474f2e015f47e4d2"
+      },
+      {
+        "job_id": "00eeedc2ff59fea4e03aade2cbe6d67b15ad74c7b586b0dadeefa1caca850ba6",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "db24af7fe35304299573e34cc59db674::agent-turn-2",
+        "item_sha256": "4b2cc7add248a5cfdea5874296d98b90675ae3264c906c7915250ef600afcb12"
+      },
+      {
+        "job_id": "bff98214afc858282fa956c6e6b4f35ed6510428ae3ea308484847804cbe2d69",
+        "candidate": "baseline_dense_k10",
+        "question_id": "db24af7fe35304299573e34cc59db674::agent-turn-2",
+        "item_sha256": "4b2cc7add248a5cfdea5874296d98b90675ae3264c906c7915250ef600afcb12"
+      },
+      {
+        "job_id": "4590892f9919aa005380e97fa637fed54a9f849fb6ccf9b056aa39c783eef8f3",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+        "item_sha256": "b202c5dccb5623bc5022dc0e64f9636fea026ad325696a9e3037ab6b547ecc7a"
+      },
+      {
+        "job_id": "47a005c54174afdcc9b89a40df95a8ba586066b8ff160e63c7d40174b5a6ab81",
+        "candidate": "baseline_dense_k10",
+        "question_id": "cc6419cef7f93479c4c7790189773a14::agent-turn-5",
+        "item_sha256": "b202c5dccb5623bc5022dc0e64f9636fea026ad325696a9e3037ab6b547ecc7a"
+      },
+      {
+        "job_id": "b2a1a828ee7d185ed57bc184b455c3991458326362782bf23b8cfea823de857a",
+        "candidate": "baseline_dense_k10",
+        "question_id": "87b84182006da589a7337e4112b68410::agent-turn-10",
+        "item_sha256": "0aabdde8399a071eaa3f570360f82affc1a90b9490d6b2f6ca4dc1472be1844b"
+      },
+      {
+        "job_id": "9d4126e11eadc758849cb4f2924744f93b923f5a77b2f6e8593bf1465b459b8f",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "87b84182006da589a7337e4112b68410::agent-turn-10",
+        "item_sha256": "0aabdde8399a071eaa3f570360f82affc1a90b9490d6b2f6ca4dc1472be1844b"
+      },
+      {
+        "job_id": "57fbc64acceea55ea5a6a6d524176db3c31f3702650b24af1595733d0b8005cf",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "c40b51cba6ce84eb948a72e484ad7a43::agent-turn-4",
+        "item_sha256": "39c3114e33b5844a929d2643758d651900f51d6d2aa570bd7f2b8723596436c5"
+      },
+      {
+        "job_id": "f9a851db1393c35b0fab699ce565e852c50117eb614eef6802869239ca07aef0",
+        "candidate": "baseline_dense_k10",
+        "question_id": "c40b51cba6ce84eb948a72e484ad7a43::agent-turn-4",
+        "item_sha256": "39c3114e33b5844a929d2643758d651900f51d6d2aa570bd7f2b8723596436c5"
+      },
+      {
+        "job_id": "816ba0a270f93b1e59462e172949848fc4d19bf418fce2820cc3971270a7c917",
+        "candidate": "baseline_dense_k10",
+        "question_id": "a4f7567e6bc3db63d13ec065b1e781bb::agent-turn-4",
+        "item_sha256": "78aaa537bbc863b10114be16758f8ee18dc508758ea4a99983d74415e91b5071"
+      },
+      {
+        "job_id": "df300b409f91f7b974d385dcb460e564efb6e50e40d417963f94586100d49c39",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "a4f7567e6bc3db63d13ec065b1e781bb::agent-turn-4",
+        "item_sha256": "78aaa537bbc863b10114be16758f8ee18dc508758ea4a99983d74415e91b5071"
+      },
+      {
+        "job_id": "3d13ef2a9afd624d0d91511a53ce6eb2ca3614dda84051152b33c97155bf2dcb",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "38d1e881ce0803f1fe85c74ab6b653a1::agent-turn-2",
+        "item_sha256": "6621e9d8f18de208f45662d9222fc9f39c8bd8f55aee515880d8523668866ce0"
+      },
+      {
+        "job_id": "136b8c81f2c1d17b59a57d7d8b806ec8aff62a975d5083a9057ebcd1c422e4a4",
+        "candidate": "baseline_dense_k10",
+        "question_id": "38d1e881ce0803f1fe85c74ab6b653a1::agent-turn-2",
+        "item_sha256": "6621e9d8f18de208f45662d9222fc9f39c8bd8f55aee515880d8523668866ce0"
+      },
+      {
+        "job_id": "356ce88961d89820091e2fa496935df5c23f507d9b78311b258311426aeb8f51",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "eval-v1-dev-refuse-004",
+        "item_sha256": "544015cef780e8c86bb5854117b41858c691f9741204dd978ed463486c223598"
+      },
+      {
+        "job_id": "69e8893e0da0bd781aa7009c17406aa60c5f44327a2105f944b3b0347104a9ff",
+        "candidate": "baseline_dense_k10",
+        "question_id": "eval-v1-dev-refuse-004",
+        "item_sha256": "544015cef780e8c86bb5854117b41858c691f9741204dd978ed463486c223598"
+      },
+      {
+        "job_id": "f3b67a32b850188d2d904746593e07c3b06d21c66a8b6ae0a3f044c86b9327d1",
+        "candidate": "baseline_dense_k10",
+        "question_id": "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+        "item_sha256": "addc64dcb906eca4ff31de6c832c2922b5ad4670bdaec4e5eff86cb6b5cd2cc2"
+      },
+      {
+        "job_id": "3217f540c65ddcabad744bc69280984e64d84fb43776070ccc44f3156eec178b",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "0c9d7cdfe21ae9baa43bd7bfe295b061::agent-turn-4",
+        "item_sha256": "addc64dcb906eca4ff31de6c832c2922b5ad4670bdaec4e5eff86cb6b5cd2cc2"
+      },
+      {
+        "job_id": "61d47f2732e1d823dd82451b333d142371f141d05edd1b8b0c0c1852aa572b3c",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "1cabeb72084d575e41e1dc66470a2802::agent-turn-10",
+        "item_sha256": "e1f93fdffb5cf7cb4b6e14eaec7893a8ef86203e18a25e83f309fcf348aa6c01"
+      },
+      {
+        "job_id": "bb9f386db614cd429af8ff1b68514fd4a437b9a563dfa487f44eeefc5f0e4f56",
+        "candidate": "baseline_dense_k10",
+        "question_id": "1cabeb72084d575e41e1dc66470a2802::agent-turn-10",
+        "item_sha256": "e1f93fdffb5cf7cb4b6e14eaec7893a8ef86203e18a25e83f309fcf348aa6c01"
+      },
+      {
+        "job_id": "12d639b6c7e90350ce855eb8f1143eb9545e5010d3293e5b516dc777b6970966",
+        "candidate": "baseline_dense_k10",
+        "question_id": "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+        "item_sha256": "36ebe07c99feab2dafcb605ddee728856cf1fa2a6051e8cc56474da60f9aec80"
+      },
+      {
+        "job_id": "af8e7c08ff4b00f52c8d438b9e97a41b124b24294c9979b2462ce4081b02d0da",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "30ea92440dee785552e6e1741190c92d::agent-turn-11",
+        "item_sha256": "36ebe07c99feab2dafcb605ddee728856cf1fa2a6051e8cc56474da60f9aec80"
+      },
+      {
+        "job_id": "a7fc532383a0b7998cebca1431a1ca88df648da00135b0e57de520a643bf9bb5",
+        "candidate": "rerank_windowed_k5",
+        "question_id": "b17816a800cd527d849621fa4b91c4e3::agent-turn-2",
+        "item_sha256": "53166d8050e37fbfcb08493b90ec07115954ad9c122499dfa7c88b34c9294df8"
+      },
+      {
+        "job_id": "7e64eb754c82800c4150404f876df9c59f42422bddaca2c47e236d54abbe9c05",
+        "candidate": "baseline_dense_k10",
+        "question_id": "b17816a800cd527d849621fa4b91c4e3::agent-turn-2",
+        "item_sha256": "53166d8050e37fbfcb08493b90ec07115954ad9c122499dfa7c88b34c9294df8"
+      }
+    ]
+  },
+  "binding_sha256": "4a6f9eda986b497cf363a419941094c48758658be3e00a0eadb1c336c9dd5ce7",
+  "planned_questions": 100,
+  "planned_generation_records": 200
+}

@@ -1,0 +1,74 @@
+{
+  "payload": {
+    "task_id": "c592b4c02761c314ad6b5117606ac0e4e61181ce68add03dfab2ec41cbfc592f",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "refuse",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [],
+            "reason": "The response correctly refuses to provide personal claim number data, explains the access boundary, and offers supported contact steps from the retrieved contexts."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "5f61798e294d4bdaa389b34799b6c753",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5988,
+                "completion_tokens": 64,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 64,
+                  "prompt_tokens": 5988,
+                  "total_tokens": 6052,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 5092
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0079708,
+              "accounted_rmb": 0.0079708,
+              "usage_unknown": false,
+              "seconds": 1.2141838073730469,
+              "error": null,
+              "response": {
+                "id": "2a8af0b8-0037-478e-ba7d-a4202d4da9ff",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "58622dc6a6445b45580b4face019ae96acf564401a9d578b70f5f65dd26c52e5"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "refuse",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [],
+        "reason": "The response correctly refuses to provide personal claim number data, explains the access boundary, and offers supported contact steps from the retrieved contexts."
+      }
+    }
+  },
+  "sha256": "15f705e805d953e911b85a07e1cd49201c1a5a318f0a10ae3ed2c64de2a9a2ce"
+}

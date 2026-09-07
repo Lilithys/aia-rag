@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "86c3822a3cd014f13e88437afa291ae8ceb9acdd187623ddd447f4d6076b2c6e",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "您可以下载我们为退伍军人准备的军事性创伤手册：英文PDF，或西班牙语PDF。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states 'Download our military sexual trauma brochure for Veterans: In English (PDF), En español (PDF)'."
+              },
+              {
+                "text": "此外，您还可以访问“建立联系”网站获取更多资源和支持",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states 'Go to our Make the Connection website to hear stories from Veterans about their own experiences with the effects of MST, and find more resources and support.'"
+              },
+              {
+                "text": "或拨打退伍军人危机热线800-273-8255（然后按1）寻求即时帮助。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states 'Call 800-273-8255, then select 1.'"
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "aa2e060559414ad6950c97364b08ca15",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3522,
+                "completion_tokens": 315,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 315,
+                  "prompt_tokens": 3522,
+                  "total_tokens": 3837,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 3138
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0061437,
+              "accounted_rmb": 0.0061437,
+              "usage_unknown": false,
+              "seconds": 2.2594008445739746,
+              "error": null,
+              "response": {
+                "id": "351d04d4-0ab8-4f31-a7b4-f3471b3e1027",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b78ba00aa27e6907131ff43334634abd34a5a572bc46b4dfd378ddd023b75507"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "您可以下载我们为退伍军人准备的军事性创伤手册：英文PDF，或西班牙语PDF。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states 'Download our military sexual trauma brochure for Veterans: In English (PDF), En español (PDF)'."
+        },
+        {
+          "text": "此外，您还可以访问“建立联系”网站获取更多资源和支持",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states 'Go to our Make the Connection website to hear stories from Veterans about their own experiences with the effects of MST, and find more resources and support.'"
+        },
+        {
+          "text": "或拨打退伍军人危机热线800-273-8255（然后按1）寻求即时帮助。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Military Sexual Trauma (MST) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states 'Call 800-273-8255, then select 1.'"
+        }
+      ]
+    }
+  },
+  "sha256": "6e5168c308d26362b4d2f3f357c66df96d9f6fbdb61871e2beea02149b72a611"
+}

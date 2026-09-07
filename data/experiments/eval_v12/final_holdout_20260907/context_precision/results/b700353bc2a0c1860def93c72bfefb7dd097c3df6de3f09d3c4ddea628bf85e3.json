@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "b700353bc2a0c1860def93c72bfefb7dd097c3df6de3f09d3c4ddea628bf85e3",
+    "binding_sha256": "02090368290a8e05f28e8fe3ef14bc53c79546cfb9423fe1abb715c71d3f36a7",
+    "result": {
+      "status": "ok",
+      "score": 0.9999999999,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides a detailed explanation of the Final Program Review Determination (FPRD), including its contents and purpose, which directly answers the user's question about the final program review decision.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0df4202b99c947449ba7ef5daad2d06c",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1402,
+                "completion_tokens": 52,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 52,
+                  "prompt_tokens": 1402,
+                  "total_tokens": 1454,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 634
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012234000000000001,
+              "accounted_rmb": 0.0012234000000000001,
+              "usage_unknown": false,
+              "seconds": 1.2178869247436523,
+              "error": null,
+              "response": {
+                "id": "9f7557a2-4693-4762-85c1-629ba00d1bd2",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ed8d2f5512193201768cf6aa26da1c8f1a4e1fb2b10dfc09e1a2b126a1110073"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about federal student aid, including types of aid and eligibility, but does not contain any information about the final program review determination. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "f4665fe7d6ee4f9681c222f07d3b8108",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1588,
+                "completion_tokens": 54,
+                "cached_tokens": 768,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 54,
+                  "prompt_tokens": 1588,
+                  "total_tokens": 1642,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 768,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 768,
+                  "prompt_cache_miss_tokens": 820
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0015114,
+              "accounted_rmb": 0.0015114,
+              "usage_unknown": false,
+              "seconds": 1.3811159133911133,
+              "error": null,
+              "response": {
+                "id": "150e238c-c5e0-43a8-b5bd-a84e32f1a60a",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2a90fabc9d0bdb105e39640b4d66de7c032a22679fb69d7d0abe4e92a4206e27"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about how federal student aid works, including steps like filling out the FAFSA and receiving aid, but it does not contain any information about program reviews or the Final Program Review Determination. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "68ed75ffb3a744e7be1fae06f4337aae",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1518,
+                "completion_tokens": 71,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 71,
+                  "prompt_tokens": 1518,
+                  "total_tokens": 1589,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 622
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0012973,
+              "accounted_rmb": 0.0012973,
+              "usage_unknown": false,
+              "seconds": 1.4309070110321045,
+              "error": null,
+              "response": {
+                "id": "585d5226-6611-4e07-9729-d05ad6e7b831",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "d22c8aaa6527dc2a1eb5d52572ca8d0188c02a6b19d3b0221875492328ef7f9d"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses linking to Federal Student Aid and sharing information about federal student aid, but it does not contain any information about the Final Program Review Determination. The answer is not derived from the context.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "df2435640e5c4bafbf0b14f3f594069b",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1921,
+                "completion_tokens": 54,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 54,
+                  "prompt_tokens": 1921,
+                  "total_tokens": 1975,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 1025
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0018253,
+              "accounted_rmb": 0.0018253,
+              "usage_unknown": false,
+              "seconds": 1.1094059944152832,
+              "error": null,
+              "response": {
+                "id": "04f069c7-d70f-4298-976d-37105d25476c",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ceb50a489ed6af3af33ae376ae42086284e0391fe89d92265bea6f88e3436107"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context discusses maintaining eligibility for federal student aid, including basic eligibility criteria, satisfactory academic progress, and annual FAFSA filing. It does not mention program reviews or Final Program Review Determinations, which are the subject of the question and answer. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "a791af18a35b4416b0e08626e5b1e849",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1515,
+                "completion_tokens": 78,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 78,
+                  "prompt_tokens": 1515,
+                  "total_tokens": 1593,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 619
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0013243,
+              "accounted_rmb": 0.0013243,
+              "usage_unknown": false,
+              "seconds": 1.2635951042175293,
+              "error": null,
+              "response": {
+                "id": "f0047513-4f74-4c2e-b9bd-3275db885f4d",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2989063a9595ff0e6a9b5e20ebac938b085aeff3614ca6fb282738249425af24"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "f6ab3431af1f8814e9ef83e5db311cd868a779e7990e2c0122558b0385de46a9"
+}

@@ -1,0 +1,124 @@
+{
+  "payload": {
+    "task_id": "2c505c5774d2a20bc7712e42d153b08107ca5ac8664a2651aa1f3af828b57f46",
+    "binding_sha256": "32da646c6b7fd04cb4a91708aee4e0e7f5b0a2b99406875fe9f4c5b010ebc43d",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "Yes, that's correct.",
+                "scope": "non_assertion",
+                "supported": null,
+                "supporting_chunk_ids": [],
+                "reason": "This is a conversational acknowledgment without a factual assertion."
+              },
+              {
+                "text": "According to the Social Security Administration, if your birthday is on January 1st, they figure your benefit as if your birthday was in the previous year.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+                  "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The claim is directly supported by both chunks, which state the same rule."
+              },
+              {
+                "text": "This applies to the online calculator and other benefit calculations.",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+                  "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+                ],
+                "reason": "The first chunk mentions the online calculator, and the second chunk is in a general benefits context, supporting the broad application."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "3d813024e6f0407f9871e0ad705693ff",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 3263,
+                "completion_tokens": 319,
+                "cached_tokens": 384,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 319,
+                  "prompt_tokens": 3263,
+                  "total_tokens": 3582,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 384,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 384,
+                  "prompt_cache_miss_tokens": 2879
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0057732,
+              "accounted_rmb": 0.0057732,
+              "usage_unknown": false,
+              "seconds": 2.6305980682373047,
+              "error": null,
+              "response": {
+                "id": "6e02d399-dbdf-4104-8118-1fba8d121345",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "55a1065a7131b192a06058fdd1cf3c162633a614b2f6e3c31bdf96ba27e6925b"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 2,
+      "supported_external_claims": 2,
+      "excluded_units_by_scope": {
+        "non_assertion": 1
+      },
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "Yes, that's correct.",
+          "scope": "non_assertion",
+          "supported": null,
+          "supporting_chunk_ids": [],
+          "reason": "This is a conversational acknowledgment without a factual assertion."
+        },
+        {
+          "text": "According to the Social Security Administration, if your birthday is on January 1st, they figure your benefit as if your birthday was in the previous year.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The claim is directly supported by both chunks, which state the same rule."
+        },
+        {
+          "text": "This applies to the online calculator and other benefit calculations.",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Benefits Planner: Retirement | Online Calculator (WEP Version)#1_0::c0000",
+            "Benefits Planner: Retirement | Benefits By Year Of Birth | Social Security Administration#1_0::c0000"
+          ],
+          "reason": "The first chunk mentions the online calculator, and the second chunk is in a general benefits context, supporting the broad application."
+        }
+      ]
+    }
+  },
+  "sha256": "235fbc15c738053f22d13bdec1c694566ba7d5a4209b3d1b4b7fbca718ce826a"
+}

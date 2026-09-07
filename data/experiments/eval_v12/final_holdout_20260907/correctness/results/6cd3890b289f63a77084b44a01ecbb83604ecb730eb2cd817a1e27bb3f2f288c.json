@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "6cd3890b289f63a77084b44a01ecbb83604ecb730eb2cd817a1e27bb3f2f288c",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": false,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "Has VA issued a decision notice showing a disability rating of at least 10%?",
+                "coverage": "missing",
+                "response_quote": "",
+                "reason": "The response assumes the condition is met without asking or clarifying whether the user has received a decision notice with at least 10% rating."
+              }
+            ],
+            "reason": "The response directly answers the payment timing but fails to clarify the essential condition of having a decision notice with at least 10% disability rating, which is required for the answer to apply."
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "dce1390dc8f34a0fa196f25aa6633495",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 5268,
+                "completion_tokens": 142,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 142,
+                  "prompt_tokens": 5268,
+                  "total_tokens": 5410,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 4372
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0072418000000000005,
+              "accounted_rmb": 0.0072418000000000005,
+              "usage_unknown": false,
+              "seconds": 1.6904621124267578,
+              "error": null,
+              "response": {
+                "id": "24e73157-9914-472b-a546-edb6544ac3e7",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "b9b6a01a295bb7ee64812cf143483bc0dc8106620271c5ea9eda5c46adcb1c76"
+        }
+      ],
+      "score": 0,
+      "verdict": {
+        "correct": false,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "Has VA issued a decision notice showing a disability rating of at least 10%?",
+            "coverage": "missing",
+            "response_quote": "",
+            "reason": "The response assumes the condition is met without asking or clarifying whether the user has received a decision notice with at least 10% rating."
+          }
+        ],
+        "reason": "The response directly answers the payment timing but fails to clarify the essential condition of having a decision notice with at least 10% disability rating, which is required for the answer to apply."
+      }
+    }
+  },
+  "sha256": "18d20aa5521864a91a223c771b6470f06dfb57b1ee836178a5dbe67b15cc5879"
+}

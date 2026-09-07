@@ -1,0 +1,259 @@
+{
+  "payload": {
+    "task_id": "f2a509fd81ea5391a17966ccad3a510bc0fc268ee164478945ce49300ce8eaf3",
+    "binding_sha256": "bfde31f3e5845f59c863038631aebe4f30eb511a2a9b0d09fe3c0b180178e6e7",
+    "result": {
+      "status": "ok",
+      "score": 0.32499999998375,
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context does not contain information about rescheduling or withdrawing a Board hearing request. It only discusses what happens during the hearing, when the judge will decide, and the 90-day period for new evidence. Therefore, it was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1c9580294c1546378a9b7dead1fdf571",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1428,
+                "completion_tokens": 69,
+                "cached_tokens": 1408,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 69,
+                  "prompt_tokens": 1428,
+                  "total_tokens": 1497,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1408,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1408,
+                  "prompt_cache_miss_tokens": 20
+                }
+              },
+              "usage_cost_estimate_rmb": 0.00041089999999999996,
+              "accounted_rmb": 0.00041089999999999996,
+              "usage_unknown": false,
+              "seconds": 1.1674590110778809,
+              "error": null,
+              "response": {
+                "id": "f53951af-0549-437f-bdd3-ea96ca524715",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fccf77f60accea035fdd8fa0c1456eea338c44c90541ba903aaffb77c7e7c035"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context does not contain information about rescheduling or withdrawing a Board hearing request. It only mentions the option to request a hearing and what happens during the hearing, but not the procedure for rescheduling or withdrawal.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "359a8993818f424bb134bc47f96a1196",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2230,
+                "completion_tokens": 57,
+                "cached_tokens": 2176,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 57,
+                  "prompt_tokens": 2230,
+                  "total_tokens": 2287,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 2176,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 2176,
+                  "prompt_cache_miss_tokens": 54
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004463,
+              "accounted_rmb": 0.0004463,
+              "usage_unknown": false,
+              "seconds": 1.0910780429840088,
+              "error": null,
+              "response": {
+                "id": "4a0a0052-01a2-4922-88ec-baa70f06446f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "ff06eaa473505ed592bc931cb3a086a54e136ff01c5d368235f93916f0d59000"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides general information about what to expect at a Board hearing, including the recording of the hearing and the 90-day period for new evidence, but it does not contain any information about rescheduling or withdrawing a hearing request. Therefore, the context was not useful in arriving at the given answer.",
+            "verdict": 0
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "0dd6b7325418438cb2429cf088d51c34",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1320,
+                "completion_tokens": 75,
+                "cached_tokens": 1280,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 75,
+                  "prompt_tokens": 1320,
+                  "total_tokens": 1395,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1280,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1280,
+                  "prompt_cache_miss_tokens": 40
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004615,
+              "accounted_rmb": 0.0004615,
+              "usage_unknown": false,
+              "seconds": 1.3568251132965088,
+              "error": null,
+              "response": {
+                "id": "dd40a4da-4566-450b-b3ab-03d43f280956",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "8614c143d52cabc852d522f312ec6dd8a9b54ff5eac0b3990e6e316703272a13"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides information about rescheduling a Board hearing, including the requirement to send a written request with good cause at least two weeks before the hearing, and to include name, VA file number, and reason. The answer directly reflects this information, so the context was useful.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "618be5bd5da24fb0a5e040b51166c28a",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1484,
+                "completion_tokens": 70,
+                "cached_tokens": 1408,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 70,
+                  "prompt_tokens": 1484,
+                  "total_tokens": 1554,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1408,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1408,
+                  "prompt_cache_miss_tokens": 76
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0004994,
+              "accounted_rmb": 0.0004994,
+              "usage_unknown": false,
+              "seconds": 1.1070239543914795,
+              "error": null,
+              "response": {
+                "id": "8d7b2195-bb8f-44be-9517-f5466ae18235",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "2ebb9f1eca6a9ec499334580ed218d83c7fe8e63282f5dbc16872175d7fb67e9"
+        },
+        {
+          "status": "ok",
+          "parsed": {
+            "reason": "The context provides specific instructions on how to reschedule a Board hearing, which directly answers the user's question about rescheduling. The answer accurately summarizes the key steps from the context.",
+            "verdict": 1
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "e321cc866eee42db8ac19235237ac3ab",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 1341,
+                "completion_tokens": 51,
+                "cached_tokens": 1024,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 51,
+                  "prompt_tokens": 1341,
+                  "total_tokens": 1392,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 1024,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 1024,
+                  "prompt_cache_miss_tokens": 317
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0007562000000000001,
+              "accounted_rmb": 0.0007562000000000001,
+              "usage_unknown": false,
+              "seconds": 1.1401150226593018,
+              "error": null,
+              "response": {
+                "id": "38cc3887-101b-4f2c-b01c-717a9c31335f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "5fff16388cb63dd6f1384b146e6387f817f1055558ee324c6fd3008fbb0232a1"
+        }
+      ],
+      "empty_retrieval": false
+    }
+  },
+  "sha256": "bc33840c95ae2a05868484510cbe6f36dc288a81e7f2d21695cf7230f311d719"
+}

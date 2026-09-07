@@ -1,0 +1,78 @@
+{
+  "study_binding_sha256": "2d75f1ffdd6f7dee290e8aecbdb6b0441aafd005378591bc5c49f607f590a70b",
+  "complete_execution_with_retained_failures": true,
+  "generation_requests": 120,
+  "successful_generations": 116,
+  "model_requests": 114,
+  "deterministic_gates_without_model_call": 6,
+  "generation_messages_and_parameters_verified_without_gold": true,
+  "dense_candidate_pools_identical": true,
+  "windowed_oversized_pairs": 0,
+  "verified_request_logs": 120,
+  "verified_api_cache_records": 527,
+  "verified_imported_exact_inputs": 200,
+  "cost_ledgers": {
+    "runtime": {
+      "attempts": 118,
+      "cost_rmb": 0.4835054,
+      "cap_rmb": 2,
+      "ledger_sha256": "7030ed9871094b55c881d67fef9d8a0b6bea433319b3abd60942f0f299587c02"
+    },
+    "quality": {
+      "attempts": 217,
+      "cost_rmb": 2.8276354,
+      "cap_rmb": 3,
+      "ledger_sha256": "d4727e06ecc8be140c833f179bc3c68a71d63bed07bcc415267fb2422f9610e7"
+    },
+    "context_precision": {
+      "attempts": 2,
+      "cost_rmb": 0.0072128,
+      "cap_rmb": 1,
+      "ledger_sha256": "56fe53d70a91fdc38e741456ac38fc852e264271c1b62f3024a844c832ac83a1"
+    }
+  },
+  "new_api_attempts": 337,
+  "new_estimated_cost_rmb": 3.3183536,
+  "all_usage_known": true,
+  "open_reservations": 0,
+  "legacy_result_files_unchanged": 307,
+  "historical_artifact_hashes_verified": 502,
+  "frozen_release_v10": {
+    "release_version": "1.0",
+    "questions": {
+      "dev": 100,
+      "holdout": 100,
+      "smoke": 20
+    },
+    "documents": 488,
+    "source_bytes_verified": false,
+    "dialogue_overlap": 0,
+    "independent_human_review": false
+  },
+  "frozen_release_v11": {
+    "release_version": "1.1",
+    "documents": 488,
+    "questions": {
+      "dev": 100,
+      "holdout": 100,
+      "smoke": 20
+    },
+    "changed_dev_items": 2,
+    "holdout_payloads_unchanged": true,
+    "independent_human_review": false
+  },
+  "analysis_deterministically_reproduced": true,
+  "analysis_sha256": "d947f91f5198f7f7db16a30261d17dfafa4af7b17d34d7ad40a5cb27b3ef5feb",
+  "resume_new_api_calls": 0,
+  "offline_tests_passed": 81,
+  "supporting_artifact_sha256": {
+    "data/experiments/eval_v11/sensitivity_20260907/resume_check.json": "d17c5150719fbbdd3c6a3ac31878d8a929165b58182318793300fd607113983e",
+    "data/experiments/eval_v11/sensitivity_20260907/diagnostic_review.json": "52a5fb3a6fca34020803a02f6e644fd21013acde0fd323177d580e066fb91dca",
+    "data/experiments/eval_v11/sensitivity_20260907/tests.log": "e913cef06723812b8f3e9c2dab52a19cea71c552b6a3a5b0ffa3c3d8e1f3fa96",
+    "data/experiments/eval_v11/sensitivity_20260907/tests_missing_tokenizer_cache.log": "91fca223bce909a21c62fe7ca28c75ac7b371c2df1150f764271ed900076ad2d"
+  },
+  "independent_human_calibration_complete": false,
+  "holdout_generated_or_judged": false,
+  "external_api_or_load_sla_validated": false,
+  "audit_script_sha256": "e6d8bd7e5c4726058bf630dd402bad0566433f240b5007a6e0d1a66af9d079b0"
+}

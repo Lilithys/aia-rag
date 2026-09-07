@@ -1,0 +1,187 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "a3047d1c92f5a842e647592e7e49003e::agent-turn-8",
+    "item_sha256": "c291eac16e41c1c354a7070d38d846ae5339642c7b3b5d6240192ee729f2c4c4",
+    "result": {
+      "request_id": "88feaf2e3f7845c3b0de7b4c250c71a4",
+      "session_id": "a3047d1c92f5a842e647592e7e49003e",
+      "turn_id": 7,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "可以，如果您的SSI申请被拒绝，您可以提出上诉。如果您的申请在最近60天内被拒绝，您可以使用互联网上诉申请作为请求审查我们所作决定的起点。",
+        "citations": [
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "text": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0000",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 谁可以在线申请成人残疾福利？]\n了解残疾福利\n\n社会保障向因医疗状况预计至少持续一年或导致死亡而无法工作的人支付残疾福利。了解您是否符合资格以及社会保障如何帮助您。\n\n使用我们的残疾规划工具\n\n已领取福利\n\n如果您领取社会保障残疾福利，您可以在线获取信息和服务来管理您的福利。\n\n管理您的福利\n\n如果您希望用英语以外的语言完成申请，在线申请将为您提供预约以您首选语言申请福利的选项。目前在线申请仅提供英语版本。\n\n申请残疾福利 返回已保存的申请 检查申请或上诉状态\n\n如果您符合以下条件，可以使用在线申请申请残疾福利：\n\n- 年满18岁或以上；\n- 目前未根据您自己的社会保障记录领取福利；\n- 因预计至少持续12个月或导致死亡的医疗状况而无法工作；且\n- 在过去60天内未被拒绝残疾福利。如果您的申请最近被拒绝，我们的互联网上诉申请是请求审查我们所作决定的起点。\n\n您现在也可以在线申请补充保障收入（SSI），但仅当您满足某些要求时。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18至65岁之间；\n- 从未结婚；\n- 不盲；\n- 是美国公民，居住在五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未申请或领取过SSI福利；且\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格领取社会保障残疾福利。\n\n完成在线流程后，社会保障代表将通过电话或邮件与您联系，以获取申请所需的任何额外信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点致电1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。"
+        },
+        {
+          "chunk_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0::c0000",
+          "text": "# 为儿童（未满18岁）申请 | 残疾福利 | SSA\n\n## 残疾福利 \\| 为儿童（未满18岁）申请\n\n### 要为儿童申请...\n\n您需要填写一份补充保障收入（SSI）申请表和一份儿童残疾报告。该报告收集有关儿童残疾状况及其如何影响其功能能力的信息。\n\n目前，只有儿童残疾报告可以在线完成。请通过电话或亲自联系我们，预约时间完成SSI申请。我们将亲自或通过电话为您提供帮助。\n\n### 申请步骤\n\n1.  查看儿童残疾入门套件。此套件解答了关于为儿童申请补充保障收入（SSI）福利的常见问题，并包含一个工作表，帮助您收集所需信息。\n2.  立即联系社会保障局，了解父母和子女的收入和资源是否在允许的限额内，并开始SSI申请流程。\n3.  填写在线儿童残疾报告。在报告结束时，我们会要求您签署一份表格，授权儿童的医生向我们提供有关其残疾的信息。我们需要这些信息以便对儿童的申请做出决定。\n\n如果您之前开始填写儿童残疾报告但未完成，您可以使用重新进入号码返回在线儿童残疾报告。\n\n如果您不想在线完成此报告或需要帮助，您可以拨打我们的免费电话1-800-772-1213。如果您失聪或听力困难，请拨打我们的免费TTY号码1-800-325-0778。\n\n代表可在周一至周五上午8点至下午5:30提供服务。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#2_0::c0000",
+          "text": "[Disability Benefits | Social Security Administration > MANAGE YOUR BENEFITS]\nLearn about Disability Benefits\n\nSocial Security pays disability benefits to people who can't work because they have a medical condition that's expected to last at least one year or result in death. Find out if you qualify and how Social Security can help you.\n\nUSE OUR DISABILITY PLANNER\n\nAlready Receiving Benefits\n\nIf you receive Social Security disability benefits, you can get information and services for managing your benefits online.\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English.\n\nApply for Disability Return to a Saved Application Check Application or Appeal Status\n\nWho can apply for adult disability benefits online?\n\nYou can use the online application to apply for disability benefits if you:\n\n- Are age 18 or older;\n\n- Are not currently receiving benefits on your own Social Security record;\n\n- Are unable to work because of a medical condition that is expected to last at least 12 months or result in death; and\n\n- Have not been denied disability benefits in the last 60 days. If your application was recently denied, our Internet Appeal application is a starting point to request a review of the determination we made.\n\nYou can now also file for Supplemental Security Income (SSI) online but only if you meet certain requirements. You are eligible to file online for SSI if you:\n\n- Are between the ages of 18 and 65;\n\n- Have never been married;\n\n- Aren t blind;\n\n- Are a U.S. citizen residing in one of the fifty states, District of Columbia, or the Northern Mariana Islands;\n\n- Haven t applied for or received SSI benefits in the past; and\n\n- Are applying for Social Security Disability Insurance at the same time as your SSI claim. Find out if you are eligible to receive Social Security Disability Benefits.\n\nOnce you finish the online process, a Social Security representative will contact you by telephone or by mail for any additional information needed for the applications.\n\nYou can also schedule an appointment with a local Social Security office to file an application. Call 1-800-772-1213 (TTY 1-800-325-0778) from 7 a.m. to 7 p.m., Monday through Friday or contact your local Social Security office."
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0010",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我还可以通过哪些其他方式申请？]\n您还可以通过以下方式申请：\n\n- 电话：周一至周五上午7点至下午7点，拨打1-800-772-1213联系我们。如果您失聪或有听力障碍，可以拨打TTY 1-800-325-0778联系我们。\n- 亲自前往：访问您当地的社会保障办公室。（请先致电预约。）\n\n如果您不住在美国或其领土，您也可以联系最近的美国社会保障办公室、美国大使馆或领事馆。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "text": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0000",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 谁可以在线申请成人残疾福利？]\n了解残疾福利\n\n社会保障向因医疗状况预计至少持续一年或导致死亡而无法工作的人支付残疾福利。了解您是否符合资格以及社会保障如何帮助您。\n\n使用我们的残疾规划工具\n\n已领取福利\n\n如果您领取社会保障残疾福利，您可以在线获取信息和服务来管理您的福利。\n\n管理您的福利\n\n如果您希望用英语以外的语言完成申请，在线申请将为您提供预约以您首选语言申请福利的选项。目前在线申请仅提供英语版本。\n\n申请残疾福利 返回已保存的申请 检查申请或上诉状态\n\n如果您符合以下条件，可以使用在线申请申请残疾福利：\n\n- 年满18岁或以上；\n- 目前未根据您自己的社会保障记录领取福利；\n- 因预计至少持续12个月或导致死亡的医疗状况而无法工作；且\n- 在过去60天内未被拒绝残疾福利。如果您的申请最近被拒绝，我们的互联网上诉申请是请求审查我们所作决定的起点。\n\n您现在也可以在线申请补充保障收入（SSI），但仅当您满足某些要求时。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18至65岁之间；\n- 从未结婚；\n- 不盲；\n- 是美国公民，居住在五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未申请或领取过SSI福利；且\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格领取社会保障残疾福利。\n\n完成在线流程后，社会保障代表将通过电话或邮件与您联系，以获取申请所需的任何额外信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点致电1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。"
+        },
+        {
+          "chunk_id": "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0::c0000",
+          "text": "# 为儿童（未满18岁）申请 | 残疾福利 | SSA\n\n## 残疾福利 \\| 为儿童（未满18岁）申请\n\n### 要为儿童申请...\n\n您需要填写一份补充保障收入（SSI）申请表和一份儿童残疾报告。该报告收集有关儿童残疾状况及其如何影响其功能能力的信息。\n\n目前，只有儿童残疾报告可以在线完成。请通过电话或亲自联系我们，预约时间完成SSI申请。我们将亲自或通过电话为您提供帮助。\n\n### 申请步骤\n\n1.  查看儿童残疾入门套件。此套件解答了关于为儿童申请补充保障收入（SSI）福利的常见问题，并包含一个工作表，帮助您收集所需信息。\n2.  立即联系社会保障局，了解父母和子女的收入和资源是否在允许的限额内，并开始SSI申请流程。\n3.  填写在线儿童残疾报告。在报告结束时，我们会要求您签署一份表格，授权儿童的医生向我们提供有关其残疾的信息。我们需要这些信息以便对儿童的申请做出决定。\n\n如果您之前开始填写儿童残疾报告但未完成，您可以使用重新进入号码返回在线儿童残疾报告。\n\n如果您不想在线完成此报告或需要帮助，您可以拨打我们的免费电话1-800-772-1213。如果您失聪或听力困难，请拨打我们的免费TTY号码1-800-325-0778。\n\n代表可在周一至周五上午8点至下午5:30提供服务。"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#2_0::c0000",
+          "text": "[Disability Benefits | Social Security Administration > MANAGE YOUR BENEFITS]\nLearn about Disability Benefits\n\nSocial Security pays disability benefits to people who can't work because they have a medical condition that's expected to last at least one year or result in death. Find out if you qualify and how Social Security can help you.\n\nUSE OUR DISABILITY PLANNER\n\nAlready Receiving Benefits\n\nIf you receive Social Security disability benefits, you can get information and services for managing your benefits online.\n\nIf you prefer to complete your application in a language other than English, the online application will give you the option to schedule an appointment to apply for benefits in your preferred language. The online application is currently only available in English.\n\nApply for Disability Return to a Saved Application Check Application or Appeal Status\n\nWho can apply for adult disability benefits online?\n\nYou can use the online application to apply for disability benefits if you:\n\n- Are age 18 or older;\n\n- Are not currently receiving benefits on your own Social Security record;\n\n- Are unable to work because of a medical condition that is expected to last at least 12 months or result in death; and\n\n- Have not been denied disability benefits in the last 60 days. If your application was recently denied, our Internet Appeal application is a starting point to request a review of the determination we made.\n\nYou can now also file for Supplemental Security Income (SSI) online but only if you meet certain requirements. You are eligible to file online for SSI if you:\n\n- Are between the ages of 18 and 65;\n\n- Have never been married;\n\n- Aren t blind;\n\n- Are a U.S. citizen residing in one of the fifty states, District of Columbia, or the Northern Mariana Islands;\n\n- Haven t applied for or received SSI benefits in the past; and\n\n- Are applying for Social Security Disability Insurance at the same time as your SSI claim. Find out if you are eligible to receive Social Security Disability Benefits.\n\nOnce you finish the online process, a Social Security representative will contact you by telephone or by mail for any additional information needed for the applications.\n\nYou can also schedule an appointment with a local Social Security office to file an application. Call 1-800-772-1213 (TTY 1-800-325-0778) from 7 a.m. to 7 p.m., Monday through Friday or contact your local Social Security office."
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0010",
+          "text": "[残疾福利 | 社会保障管理局 > 残疾福利 > 我还可以通过哪些其他方式申请？]\n您还可以通过以下方式申请：\n\n- 电话：周一至周五上午7点至下午7点，拨打1-800-772-1213联系我们。如果您失聪或有听力障碍，可以拨打TTY 1-800-325-0778联系我们。\n- 亲自前往：访问您当地的社会保障办公室。（请先致电预约。）\n\n如果您不住在美国或其领土，您也可以联系最近的美国社会保障办公室、美国大使馆或领事馆。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "document": "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0",
+          "heading": [],
+          "source_file": "ssa_109.md",
+          "excerpt": "# 补充保障收入（SSI）福利 | 社会保障管理局\n\n补充保障收入（SSI）计划向收入和资源有限的残疾成年人和儿童支付福利。\n\n年满65岁且无残疾但符合财务限制的人也有资格获得SSI福利。\n\n工作年限足够长的人也可能有资格同时获得社会保障残疾或退休福利以及SSI。了解更多关于SSI的信息\n\n### 如何申请SSI？\n\n如果您想为以下人群申请SSI福利：\n\n### 残疾成年人\n\n您现在可以在线申请补充保障收入（SSI），但前提是您满足某些要求。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18岁至65岁之间；\n- 从未结过婚；\n- 不是盲人；\n- 是美国公民，居住在美国五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未曾申请或领取过SSI福利；以及\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格获得社会保障残疾福利。\n\n在线申请SSI和残疾福利\n\n完成在线流程后，社会保障代表将与您联系，以获取申请所需的任何其他信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点拨打1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。\n\n在我们的残疾福利页面上了解更多信息并开始残疾申请流程。\n\n### 残疾儿童\n\n社会保障局尚未提供儿童福利的在线申请。请访问“申请残疾福利（未满18岁儿童）”为您的孩子申请。\n\n如果您准备好立即申请，可以填写在线儿童残疾报告。\n\n### 年满65岁及以上的人\n\n- 请拨打我们的电话1-800-772-1213。如果您失聪或听力困难，可以拨打TTY 1-800-325-0778，或\n- 前往当地社会保障办公室。（请先致电预约。）\n\n### 如果我的SSI申请被拒绝，我可以提出上诉吗？\n\n可以，如果我们最近拒绝了您的SSI申请，您可以在线提出SSI上诉。要了解更多信息，请阅读如何对决定提出上诉。\n\n### 如果您已经领取SSI福利\n\n### 创建我的社会保障账户"
+        },
+        {
+          "chunk_id": "Disability Benefits | Social Security Administration#1_0::c0000",
+          "document": "Disability Benefits | Social Security Administration#1_0",
+          "heading": [
+            "残疾福利 | 社会保障管理局",
+            "残疾福利",
+            "谁可以在线申请成人残疾福利？"
+          ],
+          "source_file": "ssa_057.md",
+          "excerpt": "[残疾福利 | 社会保障管理局 > 残疾福利 > 谁可以在线申请成人残疾福利？]\n了解残疾福利\n\n社会保障向因医疗状况预计至少持续一年或导致死亡而无法工作的人支付残疾福利。了解您是否符合资格以及社会保障如何帮助您。\n\n使用我们的残疾规划工具\n\n已领取福利\n\n如果您领取社会保障残疾福利，您可以在线获取信息和服务来管理您的福利。\n\n管理您的福利\n\n如果您希望用英语以外的语言完成申请，在线申请将为您提供预约以您首选语言申请福利的选项。目前在线申请仅提供英语版本。\n\n申请残疾福利 返回已保存的申请 检查申请或上诉状态\n\n如果您符合以下条件，可以使用在线申请申请残疾福利：\n\n- 年满18岁或以上；\n- 目前未根据您自己的社会保障记录领取福利；\n- 因预计至少持续12个月或导致死亡的医疗状况而无法工作；且\n- 在过去60天内未被拒绝残疾福利。如果您的申请最近被拒绝，我们的互联网上诉申请是请求审查我们所作决定的起点。\n\n您现在也可以在线申请补充保障收入（SSI），但仅当您满足某些要求时。如果您符合以下条件，则有资格在线申请SSI：\n\n- 年龄在18至65岁之间；\n- 从未结婚；\n- 不盲；\n- 是美国公民，居住在五十个州、哥伦比亚特区或北马里亚纳群岛之一；\n- 过去未申请或领取过SSI福利；且\n- 在提交SSI申请的同时申请社会保障残疾保险。了解您是否有资格领取社会保障残疾福利。\n\n完成在线流程后，社会保障代表将通过电话或邮件与您联系，以获取申请所需的任何额外信息。\n\n您也可以预约当地社会保障办公室提交申请。请于周一至周五上午7点至下午7点致电1-800-772-1213（TTY 1-800-325-0778），或联系您当地的社会保障办公室。"
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "可以，如果您的SSI申请被拒绝，您可以提出上诉。如果您的申请在最近60天内被拒绝，您可以使用互联网上诉申请作为请求审查我们所作决定的起点。",
+          "citations": [
+            "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+            "Disability Benefits | Social Security Administration#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "13ef35c511f94e2eb680318c1f3fb181",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 2335,
+              "completion_tokens": 92,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 92,
+                "prompt_tokens": 2335,
+                "total_tokens": 2427,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2079
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0035453000000000004,
+            "accounted_rmb": 0.0035453000000000004,
+            "usage_unknown": false,
+            "seconds": 1.2962801456451416,
+            "error": null,
+            "response": {
+              "id": "02843dfd-4151-49c9-904b-3f9937d5502d",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "b61ae3c692d8a5536a01e26da0c479a70b387b94298e0a02f7cd1c1acec2c728"
+      },
+      "latency_ms": {
+        "queue_wait": 0.06879190914332867,
+        "retrieval": 1402.8066670289263,
+        "generation": 1299.6923750033602,
+        "total": 2703.333666897379
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.21058120799716562,
+        "rerank_seconds": 1.1921913750702515,
+        "top1_dense_score": 0.9214451313018799,
+        "candidate_ids": [
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+          "Apply For A Child (Under Age 18) | Disability Benefits | SSA#1_0::c0000",
+          "Supplemental Security Income (SSI) Benefits | Social Security Administration#1_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0000",
+          "Explore The Benefits You May Be Due#2_0::c0000",
+          "Apply For A Child (Under Age 18) | Disability Benefits | SSA#2_0::c0000",
+          "Explore The Benefits You May Be Due#1_0::c0000",
+          "Disability Benefits | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Disability | Social Security Administration#2_0::c0000",
+          "Benefits for People with Disabilities#1_0::c0000",
+          "Benefits Planner: Disability | Social Security Administration#1_0::c0000",
+          "Disability Benefits | Social Security Administration#1_0::c0010",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0013",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#1_0::c0000",
+          "How To Apply For Social Security Disability Benefits#3_0::c0000",
+          "How To Apply For Social Security Disability Benefits#1_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0016",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#1_0::c0013",
+          "Benefits Planner: Disability | How You Apply | Social Security Administration#2_0::c0000",
+          "Benefits Planner: Disability | How You Qualify | Social Security Administration#2_0::c0017"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 41,
+        "query_shortened": true,
+        "retrieval_total_seconds": 1.4027886670082808
+      },
+      "raw_citations": [
+        "Supplemental Security Income (SSI) Benefits | Social Security Administration#2_0::c0000",
+        "Disability Benefits | Social Security Administration#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "c4448cf3bcb2f45de5c928876177110c935af47865d6b50ac5a53ff5610e17f3"
+}

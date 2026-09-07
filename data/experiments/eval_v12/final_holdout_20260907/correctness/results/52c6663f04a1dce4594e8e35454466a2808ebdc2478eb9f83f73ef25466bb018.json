@@ -1,0 +1,88 @@
+{
+  "payload": {
+    "task_id": "52c6663f04a1dce4594e8e35454466a2808ebdc2478eb9f83f73ef25466bb018",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "即使从未在社会保障制度下工作，符合特定身份（如退休/残疾工人的配偶或离婚配偶、已故工人的遗孀/鳏夫或未再婚的离婚配偶）仍可能有资格获得配偶福利",
+                "coverage": "covered",
+                "response_quote": "是的，即使您从未在Social Security制度下工作过，如果您符合以下身份之一，您仍可能有资格获得配偶福利",
+                "reason": "回答直接确认了资格并列举了符合条件的身份，与参考一致"
+              }
+            ],
+            "reason": "回答准确反映了参考信息，未添加无支持内容，行为恰当。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "abc09f4bfe8845a0879a4ddb29613f3f",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4751,
+                "completion_tokens": 164,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 164,
+                  "prompt_tokens": 4751,
+                  "total_tokens": 4915,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 3855
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0065653000000000005,
+              "accounted_rmb": 0.0065653000000000005,
+              "usage_unknown": false,
+              "seconds": 1.9956262111663818,
+              "error": null,
+              "response": {
+                "id": "90774121-9f57-4127-bc3b-52065631769f",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "fb653402e0df68d6e0e876672834a03b7ec3ff36d0da448fff900ac601286e33"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "即使从未在社会保障制度下工作，符合特定身份（如退休/残疾工人的配偶或离婚配偶、已故工人的遗孀/鳏夫或未再婚的离婚配偶）仍可能有资格获得配偶福利",
+            "coverage": "covered",
+            "response_quote": "是的，即使您从未在Social Security制度下工作过，如果您符合以下身份之一，您仍可能有资格获得配偶福利",
+            "reason": "回答直接确认了资格并列举了符合条件的身份，与参考一致"
+          }
+        ],
+        "reason": "回答准确反映了参考信息，未添加无支持内容，行为恰当。"
+      }
+    }
+  },
+  "sha256": "ea05a483e0ab88022a57ff44c95523ee92b26b967212265651dbb574005efca5"
+}

@@ -1,0 +1,76 @@
+{
+  "study_binding_sha256": "4a6f9eda986b497cf363a419941094c48758658be3e00a0eadb1c336c9dd5ce7",
+  "fresh_generations": 160,
+  "reused_generations": 40,
+  "fresh_gates_without_model": 2,
+  "generation_inputs_without_gold_verified": true,
+  "dense_candidate_pools_identical": true,
+  "request_logs_verified": 160,
+  "cache_envelopes_verified": 1325,
+  "exact_input_imports_verified": 201,
+  "historical_artifacts_unchanged": 952,
+  "cost_ledgers": {
+    "generation": {
+      "attempts": 160,
+      "cost_rmb": 0.9589814,
+      "cap_rmb": 2.0
+    },
+    "correctness": {
+      "attempts": 209,
+      "cost_rmb": 1.3706879,
+      "cap_rmb": 2.0
+    },
+    "faithfulness": {
+      "attempts": 164,
+      "cost_rmb": 1.3130545,
+      "cap_rmb": 2.0
+    },
+    "context_precision": {
+      "attempts": 628,
+      "cost_rmb": 0.7616995,
+      "cap_rmb": 1.5
+    }
+  },
+  "complete_with_retained_failures": true,
+  "api_window_audit": {
+    "generation": {
+      "attempts": 160,
+      "all_starts_within_window": true,
+      "first_start_utc": "2026-09-07T04:00:05.067550+00:00",
+      "last_start_utc": "2026-09-07T04:08:19.179100+00:00",
+      "open_reservations": 0,
+      "unknown_usage": 0
+    },
+    "correctness": {
+      "attempts": 209,
+      "all_starts_within_window": true,
+      "first_start_utc": "2026-09-07T04:08:23.354540+00:00",
+      "last_start_utc": "2026-09-07T04:15:48.103975+00:00",
+      "open_reservations": 0,
+      "unknown_usage": 0
+    },
+    "faithfulness": {
+      "attempts": 164,
+      "all_starts_within_window": true,
+      "first_start_utc": "2026-09-07T04:08:24.560005+00:00",
+      "last_start_utc": "2026-09-07T04:17:33.307788+00:00",
+      "open_reservations": 0,
+      "unknown_usage": 0
+    },
+    "context_precision": {
+      "attempts": 628,
+      "all_starts_within_window": true,
+      "first_start_utc": "2026-09-07T04:08:24.883268+00:00",
+      "last_start_utc": "2026-09-07T04:22:25.048132+00:00",
+      "open_reservations": 0,
+      "unknown_usage": 0
+    }
+  },
+  "analysis_reproduced": true,
+  "resume_new_api_calls": 0,
+  "offline_tests_passed": 86,
+  "independent_human_calibration_complete": false,
+  "holdout_generated_or_judged": false,
+  "audit_script_sha256": "9b1bb26697a242ad6bb516c9c60d4166d1ca939ef498b94faac6109af3f3ce79",
+  "analysis_sha256": "8a273d415961684b45e4d1e94334020fefb22836b85e056e4e8ca46c73dce8f6"
+}

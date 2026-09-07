@@ -1,0 +1,100 @@
+{
+  "payload": {
+    "task_id": "5ea37403014c99246377d08248fd42a451e98e73030cb390e259b2737a05c81e",
+    "binding_sha256": "f667b9c2a2ce7419630ed4eae3314a35f0841247db092465d6fb39f614e8e567",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "correct": true,
+            "observed_action": "answer",
+            "behavior_ok": true,
+            "extra_claims_supported": true,
+            "checks": [
+              {
+                "requirement": "足够的医疗证据支持索赔时，VA不会要求索赔检查",
+                "coverage": "covered",
+                "response_quote": "如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查",
+                "reason": "直接陈述了该条件"
+              },
+              {
+                "requirement": "医疗证据包括医生和医院报告、检查结果和其他文件",
+                "coverage": "covered",
+                "response_quote": "医疗证据可能包括医生和医院报告、检查结果和其他文件",
+                "reason": "列举了证据类型"
+              }
+            ],
+            "reason": "回答准确覆盖了参考中的两个必要条件，且无额外错误声明。"
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "1f4d5496750a4a6d94eaa59ba0888f25",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 2971,
+                "completion_tokens": 167,
+                "cached_tokens": 896,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 167,
+                  "prompt_tokens": 2971,
+                  "total_tokens": 3138,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 896,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 896,
+                  "prompt_cache_miss_tokens": 2075
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0039088000000000005,
+              "accounted_rmb": 0.0039088000000000005,
+              "usage_unknown": false,
+              "seconds": 1.773488998413086,
+              "error": null,
+              "response": {
+                "id": "d5df2efa-73d1-445b-a9e3-ed2ed476c9f0",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "3f7a38ed0251329b38f26d3b9c184512aa24bb241fa0d115280b5183ca4a420d"
+        }
+      ],
+      "score": 1,
+      "verdict": {
+        "correct": true,
+        "observed_action": "answer",
+        "behavior_ok": true,
+        "extra_claims_supported": true,
+        "checks": [
+          {
+            "requirement": "足够的医疗证据支持索赔时，VA不会要求索赔检查",
+            "coverage": "covered",
+            "response_quote": "如果您的档案中有足够的医疗证据支持您的索赔，我们不会要求您进行索赔检查",
+            "reason": "直接陈述了该条件"
+          },
+          {
+            "requirement": "医疗证据包括医生和医院报告、检查结果和其他文件",
+            "coverage": "covered",
+            "response_quote": "医疗证据可能包括医生和医院报告、检查结果和其他文件",
+            "reason": "列举了证据类型"
+          }
+        ],
+        "reason": "回答准确覆盖了参考中的两个必要条件，且无额外错误声明。"
+      }
+    }
+  },
+  "sha256": "44e46d4a25a27dc7de40a2ebee499e464234a10c838c861893c6867c6bce588c"
+}

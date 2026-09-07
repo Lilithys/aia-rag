@@ -1,0 +1,183 @@
+{
+  "payload": {
+    "binding_sha256": "1c21061af1bddf40a2db70ae67e433db5cd993ed191a11fab338673f6adc26d1",
+    "question_id": "c1285fe001ca8cef714150a63ccfd1b1::agent-turn-5",
+    "item_sha256": "fc726bcc1c2d411e2aa26827837a6d1aac2663fcb136c27f20c63d54c1b8c0e3",
+    "result": {
+      "request_id": "7740c5e19cce4dc2ae394c24c2743fe5",
+      "session_id": "c1285fe001ca8cef714150a63ccfd1b1",
+      "turn_id": 4,
+      "run_id": "1c081ac1027a4f1db98a5bff5ca1b81c",
+      "runtime_version": "full-corpus-service-1",
+      "config_sha256": "b7ff9171d168f319a59fc67918598e9402c409abff5ddcb24d02c506ccb9db8e",
+      "status": "ok",
+      "response": {
+        "answer": "很遗憾听到这个消息。根据您的情况，您可能有资格申请Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）。该奖学金适用于2001年9月11日或之后在执行任务中死亡的现役军人的子女或遗属配偶。作为子女，您可以在18岁或高中毕业后（以较晚者为准）的任何年龄申请，但如果您在2013年1月1日前已满18岁或高中毕业，则需在33岁前使用。福利包括最多36个月的学费（公立学校全额州内学费，私立或州外学校每年最高$22,805.34）、住房及书籍用品补贴。申请时需填写VA Form 22-5490并联系学校认证官员。请注意，如果您同时符合DEA计划资格，您只能选择其中一个计划，且选择后不可更改。",
+        "citations": [
+          "Fry Scholarships | Veterans Affairs#1_0::c0000",
+          "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000"
+        ],
+        "action": "answer"
+      },
+      "contexts": [
+        {
+          "chunk_id": "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000",
+          "text": "# VA教育福利：为遗属和受抚养人 | Veterans Affairs\n\n# VA教育福利：为遗属和受抚养人\n\n了解您是否有资格获得针对受抚养人和遗属的VA教育福利（也称为Chapter 35福利）。如果您是退伍军人的受抚养配偶或子女，或是其遗属配偶或子女，您可能有资格通过GI Bill计划获得Chapter 35福利或职业培训。\n\n### 我是否有资格获得教育福利？\n\n如果您是军人的子女或配偶，且以下关于该军人的描述之一属实，您可能有资格获得VA教育福利（Chapter 35福利）。\n\n以下情况之一必须属实。该军人：\n\n- 于2001年9月10日之后在执行任务中死亡，或\n- 在执行任务中失踪或被敌对势力俘虏，或\n- 在执行任务中被外国政府或势力强行拘留（扣押），或\n- 因与服务相关的永久性完全残疾而在医院接受治疗或接受门诊治疗，并可能因此残疾而被退伍。服务相关的永久性完全残疾是指由您的服务导致的、不会消失的残疾。\n\n如果您是退伍军人的子女或配偶，且以下关于该退伍军人的描述之一属实，您可能有资格获得VA教育福利（Chapter 35福利）。\n\n以下情况之一必须属实。该退伍军人：\n\n- 因服务相关的残疾而永久性完全残疾，或\n- 在现役期间死亡或因服务相关的残疾而死亡\n\n如果您是不符合上述标准的受抚养人，如果退伍军人或军人在现役期间将部分或全部Post-9/11 GI Bill权利转移给您，您仍可能有资格获得VA教育福利。了解转移的福利\n\n## 我可以获得哪些福利？\n\n- 教育和培训\n- 学费资金\n- 住房资金\n- 书籍和用品资金\n\n## 我如何获得这些福利？\n\n您需要申请。申请VA教育福利（Chapter 35福利）。\n\n有2个主要的GI Bill计划为退伍军人的遗属和受抚养人提供教育援助：\n\n- Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）适用于2001年9月10日之后在执行任务中死亡的军人的子女和配偶。获取有关Fry Scholarship的更多信息\n- Survivors and Dependents Educational Assistance（DEA）计划为因服务相关状况而永久性完全残疾或在现役期间或因此类状况死亡的退伍军人的合格受抚养人提供教育和培训。获取有关DEA计划的更多信息\n\n注意：您可能有资格同时获得Fry Scholarship和DEA计划，但您只能使用其中一个。您在申请时必须选择一个。一旦做出此决定，您就不能切换到另一个计划。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Fry Scholarships | Veterans Affairs#1_0::c0000",
+          "text": "# Fry Scholarships | Veterans Affairs\n\n## Fry Scholarships\n\nLearn about the the Marine Gunnery Sergeant John David Fry Scholarship (Fry Scholarship), a scholarship for children and dependents of Veterans. If your parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001, you may qualify for this benefit. Find out if you re eligible for education benefits through this scholarship.\n\n### Am I eligible for Fry Scholarship benefits?\n\nYou may be able to get benefits under the Fry Scholarship if you re the child or surviving spouse of an active-duty service member who died in the line of duty on or after September 11, 2001.\n\nAs the child of a service member\n\n- You can be married or unmarried.\n\n- If you turned 18 or graduated from high school before January 1, 2013, you can get a Fry Scholarship until you re 33 years old.\n\n- If you turn 18 or graduate from high school after January 1, 2013, you can get a Fry Scholarship at any age over 18 or after you graduate (whichever comes first).\n\n- If your parent died in the line of duty before August 1, 2011, you may qualify for both the Fry Scholarship and the Survivors and Dependents Educational Assistance (DEA) program. But you can use only one program at a time. We cap combined benefits at 81 months of full-time training.Read about the DEA program\n\n- If you re receiving Dependency and Indemnity Compensation (DIC), you ll need to give up those payments when you start to use the Fry Scholarship. Read about DIC\n\nAs the spouse of a service member\n\n- If you remarry, you ll no longer be eligible for the Fry Scholarship.\n\n- You can still get Dependency and Indemnity Compensation (DIC) payments while using the Fry Scholarship.Read about DIC\n\n## What benefits can I get?\n\nYou may be able to get up to 36 months of benefits, including:\n\n- Money for tuition (full in-state tuition costs at public schools and up to $22,805.34 per year for training at private or out-of-state schools)\n\n- Money for housing\n\n- Money for books and supplies\n\n## How do I get a Fry Scholarship?\n\n#### ### Choose a school\n\n- The GI Bill Comparison Tool can help you pick a school. Use the GI Bill Comparison Tool - - You should contact your school s certifying official to make sure your program is approved for VA benefits.\n\n#### ### Apply for benefits\n\n- Apply online now, or\n\n- - Fill out a Dependents Application for VA Education Benefits (VA Form 22-5490) and send it to the VA regional benefit office where you want to go to school.Download VA Form 22-5490 (PDF)Find a VA regional benefit office\n\n- - If you aren t legally an adult, your parent or guardian must sign the application.\n\n- - If you ve already started your educational program, ask a certifying official from your school or your employer to fill out a VA Enrollment Certification (VA Form 22-1999). They ll need to submit it online using VA Online Certification (VA-ONCE). Download VA Form 22-1999 (PDF)\n\n#### ### Choose your program\n\nIf you qualify for both the Fry Scholarship and DEA, you ll need to choose which program you want to use. Once you choose, you can t change your mind.\n\nException: If your parent died in the line of duty before August 1, 2011, you can use both the Fry Scholarship and DEA. You can get up to 81 months of full-time training, but you can use only one program at a time. Read about the DEA program\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+        },
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0007",
+          "text": "[Post-9/11 GI Bill (Chapter 33) > Can my family members or I get any additional benefits through the Post-9/11 GI Bill (Chapter 33)?]\nYou may qualify for these additional benefits:\n\n- If you need more money to cover higher private-school or out-of-state tuition, you can apply for the Yellow Ribbon Program. Learn about the Yellow Ribbon Program\n- If you re a qualified service member, you can transfer all 36 months or a portion of your Post-9/11 GI Bill benefits to a spouse or child. The Department of Defense approves a transfer of benefits. Learn about transferring Post-9/11 GI Bill benefits\n- If you re the child or surviving spouse of a service member who died in the line of duty after September 10, 2001, you may qualify for the Marine Gunnery Sergeant John David Fry Scholarship (Fry Scholarship). Learn more about the Fry Scholarship"
+        },
+        {
+          "chunk_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "text": "# 寻找和申请奖学金 | 联邦学生援助\n\n# 尽可能多地寻找和申请奖学金——这是上大学或职业学校的免费资金！\n\n尽早开始研究，并按时提交申请，你可能会在奖学金申请上取得成功。\n\n奖学金是赠款，无需偿还。有数千种奖学金，由学校、雇主、个人、私营公司、非营利组织、社区、宗教团体以及专业和社会组织提供。\n\n## 有哪些类型的奖学金？\n\n一些大学奖学金是基于成绩的。你通过达到或超过奖学金提供者设定的某些标准来获得它们。成绩奖学金可能基于学业成就或学业与特殊才能、特质或兴趣的结合来授予。其他奖学金则基于经济需求。\n\n许多奖学金面向特定人群；例如，有面向女性或研究生的奖学金。还有一些奖学金是因为你或你父母的工作地点，或者因为你来自某个特定背景（例如，有面向军人家庭的奖学金）。\n\n奖学金可能覆盖你的全部学费，也可能是一次性几百美元的奖励。无论如何，都值得申请，因为它将有助于降低你的教育成本。\n\n## 如何找到奖学金？\n\n你可以通过多种方式了解奖学金，包括联系你计划就读学校的财务援助办公室，以及在公共图书馆或网上查看信息。但要小心。确保你收到的奖学金信息和录取通知是合法的；并记住，你不必付费就能找到奖学金或其他财务援助。查看我们关于如何避免诈骗的信息。\n\n尝试这些免费的奖学金信息来源：\n\n- 大学或职业学校的财务援助办公室\n- 高中或TRIO顾问\n- 美国劳工部的免费奖学金搜索工具\n-\n- 你所在州的助学金机构\n- 你图书馆的参考书区\n- 基金会、宗教或社区组织、当地企业或公民团体\n- 与你兴趣领域相关的组织（包括专业协会）\n- 基于族裔的组织\n- 你的雇主或你父母的雇主\n\n## 我什么时候申请奖学金？\n\n这取决于每个奖学金的截止日期。有些截止日期早在大学开学前一年，所以如果你现在在读高中，你应该在高二和高三之间的暑假研究和申请奖学金。但如果你错过了那个时间窗口，不要放弃！查看奖学金信息，看看现在还有哪些你可以申请。\n\n## 我如何申请奖学金？\n\n每个奖学金都有自己的要求。奖学金的网站应该会告诉你谁有资格获得该奖学金以及如何申请。确保你仔细阅读申请表，完整填写，并在申请截止日期前提交。\n\n## 我如何获得奖学金资金？\n\n这取决于奖学金。资金可能直接支付给你的大学，用于支付你欠下的任何学费、杂费或其他金额，然后剩余的资金会给你。或者可能以支票形式直接寄给你。奖学金提供者在通知你获得奖学金时，应该会告诉你预期情况。如果没有，一定要询问。\n\n## 奖学金如何影响我的其他学生资助？\n\n奖学金会影响你的其他学生资助，因为你所有学生资助加起来不能超过你在大学或职业学校的出勤成本。因此，如果你获得了奖学金，你需要告知你的学校，以便经济援助办公室从你的出勤成本（以及你可能获得的其他某些援助，如贷款）中减去该金额。然后，剩余的任何金额可以由你有资格获得的其他经济援助来覆盖。有问题吗？请咨询你的经济援助办公室。"
+        }
+      ],
+      "retrieval_contexts": [
+        {
+          "chunk_id": "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000",
+          "text": "# VA教育福利：为遗属和受抚养人 | Veterans Affairs\n\n# VA教育福利：为遗属和受抚养人\n\n了解您是否有资格获得针对受抚养人和遗属的VA教育福利（也称为Chapter 35福利）。如果您是退伍军人的受抚养配偶或子女，或是其遗属配偶或子女，您可能有资格通过GI Bill计划获得Chapter 35福利或职业培训。\n\n### 我是否有资格获得教育福利？\n\n如果您是军人的子女或配偶，且以下关于该军人的描述之一属实，您可能有资格获得VA教育福利（Chapter 35福利）。\n\n以下情况之一必须属实。该军人：\n\n- 于2001年9月10日之后在执行任务中死亡，或\n- 在执行任务中失踪或被敌对势力俘虏，或\n- 在执行任务中被外国政府或势力强行拘留（扣押），或\n- 因与服务相关的永久性完全残疾而在医院接受治疗或接受门诊治疗，并可能因此残疾而被退伍。服务相关的永久性完全残疾是指由您的服务导致的、不会消失的残疾。\n\n如果您是退伍军人的子女或配偶，且以下关于该退伍军人的描述之一属实，您可能有资格获得VA教育福利（Chapter 35福利）。\n\n以下情况之一必须属实。该退伍军人：\n\n- 因服务相关的残疾而永久性完全残疾，或\n- 在现役期间死亡或因服务相关的残疾而死亡\n\n如果您是不符合上述标准的受抚养人，如果退伍军人或军人在现役期间将部分或全部Post-9/11 GI Bill权利转移给您，您仍可能有资格获得VA教育福利。了解转移的福利\n\n## 我可以获得哪些福利？\n\n- 教育和培训\n- 学费资金\n- 住房资金\n- 书籍和用品资金\n\n## 我如何获得这些福利？\n\n您需要申请。申请VA教育福利（Chapter 35福利）。\n\n有2个主要的GI Bill计划为退伍军人的遗属和受抚养人提供教育援助：\n\n- Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）适用于2001年9月10日之后在执行任务中死亡的军人的子女和配偶。获取有关Fry Scholarship的更多信息\n- Survivors and Dependents Educational Assistance（DEA）计划为因服务相关状况而永久性完全残疾或在现役期间或因此类状况死亡的退伍军人的合格受抚养人提供教育和培训。获取有关DEA计划的更多信息\n\n注意：您可能有资格同时获得Fry Scholarship和DEA计划，但您只能使用其中一个。您在申请时必须选择一个。一旦做出此决定，您就不能切换到另一个计划。\n\n最后更新："
+        },
+        {
+          "chunk_id": "Fry Scholarships | Veterans Affairs#1_0::c0000",
+          "text": "# Fry Scholarships | Veterans Affairs\n\n## Fry Scholarships\n\nLearn about the the Marine Gunnery Sergeant John David Fry Scholarship (Fry Scholarship), a scholarship for children and dependents of Veterans. If your parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001, you may qualify for this benefit. Find out if you re eligible for education benefits through this scholarship.\n\n### Am I eligible for Fry Scholarship benefits?\n\nYou may be able to get benefits under the Fry Scholarship if you re the child or surviving spouse of an active-duty service member who died in the line of duty on or after September 11, 2001.\n\nAs the child of a service member\n\n- You can be married or unmarried.\n\n- If you turned 18 or graduated from high school before January 1, 2013, you can get a Fry Scholarship until you re 33 years old.\n\n- If you turn 18 or graduate from high school after January 1, 2013, you can get a Fry Scholarship at any age over 18 or after you graduate (whichever comes first).\n\n- If your parent died in the line of duty before August 1, 2011, you may qualify for both the Fry Scholarship and the Survivors and Dependents Educational Assistance (DEA) program. But you can use only one program at a time. We cap combined benefits at 81 months of full-time training.Read about the DEA program\n\n- If you re receiving Dependency and Indemnity Compensation (DIC), you ll need to give up those payments when you start to use the Fry Scholarship. Read about DIC\n\nAs the spouse of a service member\n\n- If you remarry, you ll no longer be eligible for the Fry Scholarship.\n\n- You can still get Dependency and Indemnity Compensation (DIC) payments while using the Fry Scholarship.Read about DIC\n\n## What benefits can I get?\n\nYou may be able to get up to 36 months of benefits, including:\n\n- Money for tuition (full in-state tuition costs at public schools and up to $22,805.34 per year for training at private or out-of-state schools)\n\n- Money for housing\n\n- Money for books and supplies\n\n## How do I get a Fry Scholarship?\n\n#### ### Choose a school\n\n- The GI Bill Comparison Tool can help you pick a school. Use the GI Bill Comparison Tool - - You should contact your school s certifying official to make sure your program is approved for VA benefits.\n\n#### ### Apply for benefits\n\n- Apply online now, or\n\n- - Fill out a Dependents Application for VA Education Benefits (VA Form 22-5490) and send it to the VA regional benefit office where you want to go to school.Download VA Form 22-5490 (PDF)Find a VA regional benefit office\n\n- - If you aren t legally an adult, your parent or guardian must sign the application.\n\n- - If you ve already started your educational program, ask a certifying official from your school or your employer to fill out a VA Enrollment Certification (VA Form 22-1999). They ll need to submit it online using VA Online Certification (VA-ONCE). Download VA Form 22-1999 (PDF)\n\n#### ### Choose your program\n\nIf you qualify for both the Fry Scholarship and DEA, you ll need to choose which program you want to use. Once you choose, you can t change your mind.\n\nException: If your parent died in the line of duty before August 1, 2011, you can use both the Fry Scholarship and DEA. You can get up to 81 months of full-time training, but you can use only one program at a time. Read about the DEA program\n\nLast updated:"
+        },
+        {
+          "chunk_id": "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "text": "[您或您的家庭成员可能因服兵役而获得上大学或职业学校的资助。 > 政府为服兵役或军人家庭成员提供哪些经济援助？ > 有限利率、不产生利息和学生贷款延期]\n要获得以下福利，请联系您的贷款服务商，了解您必须提供的证明您符合资格的文件信息。\n\n- 根据《军人民事救济法案》，如果您在入伍或被征召服现役之前申请了学生贷款，这些贷款的利率在您服现役期间将被限制在6%。这适用于联邦和私人学生贷款（以及其他贷款）。\n- 对于所有在2008年10月1日或之后首次发放的直接贷款，在您服现役或执行符合条件的国民警卫队任务期间（在战争、其他军事行动或国家紧急状态期间，并且在符合特殊报酬条件的敌对地区服役），不超过60个月的期间内不会收取利息。对于直接合并贷款，此福利适用于合并贷款中偿还了在2008年10月1日或之后首次发放的贷款的部分。\n- 在战争、军事行动或国家紧急状态期间，您在服现役或执行符合条件的国民警卫队任务时，将有资格延期偿还您的任何联邦贷款。如果您的现役服务期包括2007年10月1日或在该日期或之后开始，您的延期将在每次合格服务期的复员日期后额外延长180天。\n- 如果您是美国武装部队国民警卫队或其他预备役部队的成员（现役或退役），并且在您至少半工半读地就读于合格学校期间或被征召或命令服现役，或在至少半工半读注册后的六个月内，您有资格在现役服务结束后的13个月内延期偿还您的联邦学生贷款，或直到您至少半工半读地返回学校，以较早者为准。"
+        },
+        {
+          "chunk_id": "Post-9/11 GI Bill | Veterans Affairs#1_0::c0007",
+          "text": "[Post-9/11 GI Bill (Chapter 33) > Can my family members or I get any additional benefits through the Post-9/11 GI Bill (Chapter 33)?]\nYou may qualify for these additional benefits:\n\n- If you need more money to cover higher private-school or out-of-state tuition, you can apply for the Yellow Ribbon Program. Learn about the Yellow Ribbon Program\n- If you re a qualified service member, you can transfer all 36 months or a portion of your Post-9/11 GI Bill benefits to a spouse or child. The Department of Defense approves a transfer of benefits. Learn about transferring Post-9/11 GI Bill benefits\n- If you re the child or surviving spouse of a service member who died in the line of duty after September 10, 2001, you may qualify for the Marine Gunnery Sergeant John David Fry Scholarship (Fry Scholarship). Learn more about the Fry Scholarship"
+        },
+        {
+          "chunk_id": "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "text": "# 寻找和申请奖学金 | 联邦学生援助\n\n# 尽可能多地寻找和申请奖学金——这是上大学或职业学校的免费资金！\n\n尽早开始研究，并按时提交申请，你可能会在奖学金申请上取得成功。\n\n奖学金是赠款，无需偿还。有数千种奖学金，由学校、雇主、个人、私营公司、非营利组织、社区、宗教团体以及专业和社会组织提供。\n\n## 有哪些类型的奖学金？\n\n一些大学奖学金是基于成绩的。你通过达到或超过奖学金提供者设定的某些标准来获得它们。成绩奖学金可能基于学业成就或学业与特殊才能、特质或兴趣的结合来授予。其他奖学金则基于经济需求。\n\n许多奖学金面向特定人群；例如，有面向女性或研究生的奖学金。还有一些奖学金是因为你或你父母的工作地点，或者因为你来自某个特定背景（例如，有面向军人家庭的奖学金）。\n\n奖学金可能覆盖你的全部学费，也可能是一次性几百美元的奖励。无论如何，都值得申请，因为它将有助于降低你的教育成本。\n\n## 如何找到奖学金？\n\n你可以通过多种方式了解奖学金，包括联系你计划就读学校的财务援助办公室，以及在公共图书馆或网上查看信息。但要小心。确保你收到的奖学金信息和录取通知是合法的；并记住，你不必付费就能找到奖学金或其他财务援助。查看我们关于如何避免诈骗的信息。\n\n尝试这些免费的奖学金信息来源：\n\n- 大学或职业学校的财务援助办公室\n- 高中或TRIO顾问\n- 美国劳工部的免费奖学金搜索工具\n-\n- 你所在州的助学金机构\n- 你图书馆的参考书区\n- 基金会、宗教或社区组织、当地企业或公民团体\n- 与你兴趣领域相关的组织（包括专业协会）\n- 基于族裔的组织\n- 你的雇主或你父母的雇主\n\n## 我什么时候申请奖学金？\n\n这取决于每个奖学金的截止日期。有些截止日期早在大学开学前一年，所以如果你现在在读高中，你应该在高二和高三之间的暑假研究和申请奖学金。但如果你错过了那个时间窗口，不要放弃！查看奖学金信息，看看现在还有哪些你可以申请。\n\n## 我如何申请奖学金？\n\n每个奖学金都有自己的要求。奖学金的网站应该会告诉你谁有资格获得该奖学金以及如何申请。确保你仔细阅读申请表，完整填写，并在申请截止日期前提交。\n\n## 我如何获得奖学金资金？\n\n这取决于奖学金。资金可能直接支付给你的大学，用于支付你欠下的任何学费、杂费或其他金额，然后剩余的资金会给你。或者可能以支票形式直接寄给你。奖学金提供者在通知你获得奖学金时，应该会告诉你预期情况。如果没有，一定要询问。\n\n## 奖学金如何影响我的其他学生资助？\n\n奖学金会影响你的其他学生资助，因为你所有学生资助加起来不能超过你在大学或职业学校的出勤成本。因此，如果你获得了奖学金，你需要告知你的学校，以便经济援助办公室从你的出勤成本（以及你可能获得的其他某些援助，如贷款）中减去该金额。然后，剩余的任何金额可以由你有资格获得的其他经济援助来覆盖。有问题吗？请咨询你的经济援助办公室。"
+        }
+      ],
+      "citations": [
+        {
+          "chunk_id": "Fry Scholarships | Veterans Affairs#1_0::c0000",
+          "document": "Fry Scholarships | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_042.pdf",
+          "excerpt": "# Fry Scholarships | Veterans Affairs\n\n## Fry Scholarships\n\nLearn about the the Marine Gunnery Sergeant John David Fry Scholarship (Fry Scholarship), a scholarship for children and dependents of Veterans. If your parent or spouse was an active-duty service member who died in the line of duty on or after September 11, 2001, you may qualify for this benefit. Find out if you re eligible for education benefits through this scholarship.\n\n### Am I eligible for Fry Scholarship benefits?\n\nYou may be able to get benefits under the Fry Scholarship if you re the child or surviving spouse of an active-duty service member who died in the line of duty on or after September 11, 2001.\n\nAs the child of a service member\n\n- You can be married or unmarried.\n\n- If you turned 18 or graduated from high school before January 1, 2013, you can get a Fry Scholarship until you re 33 years old.\n\n- If you turn 18 or graduate from high school after January 1, 2013, you can get a Fry Scholarship at any age over 18 or after you graduate (whichever comes first).\n\n- If your parent died in the line of duty before August 1, 2011, you may qualify for both the Fry Scholarship and the Survivors and Dependents Educational Assistance (DEA) program. But you can use only one program at a time. We cap combined benefits at 81 months of full-time training.Read about the DEA program\n\n- If you re receiving Dependency and Indemnity Compensation (DIC), you ll need to give up those payments when you start to use the Fry Scholarship. Read about DIC\n\nAs the spouse of a service member\n\n- If you remarry, you ll no longer be eligible for the Fry Scholarship.\n\n- You can still get Dependency and Indemnity Compensation (DIC) payments while using the Fry Scholarship.Read about DIC\n\n## What benefits can I get?\n\nYou may be able to get up to 36 months of benefits, including:\n\n- Money for tuition (full in-state tuition costs at public schools and up to $22,805.34 per year for training at private or out-of-state schools)\n\n- Money for housing\n\n- Money for books and supplies\n\n## How do I get a Fry Scholarship?\n\n#### ### Choose a school\n\n- The GI Bill Comparison Tool can help you pick a school. Use the GI Bill Comparison Tool - - You should contact your school s certifying official to make sure your program is approved for VA benefits.\n\n#### ### Apply for benefits\n\n- Apply online now, or\n\n- - Fill out a Dependents Application for VA Education Benefits (VA Form 22-5490) and send it to the VA regional benefit office where you want to go to school.Download VA Form 22-5490 (PDF)Find a VA regional benefit office\n\n- - If you aren t legally an adult, your parent or guardian must sign the application.\n\n- - If you ve already started your educational program, ask a certifying official from your school or your employer to fill out a VA Enrollment Certification (VA Form 22-1999). They ll need to submit it online using VA Online Certification (VA-ONCE). Download VA Form 22-1999 (PDF)\n\n#### ### Choose your program\n\nIf you qualify for both the Fry Scholarship and DEA, you ll need to choose which program you want to use. Once you choose, you can t change your mind.\n\nException: If your parent died in the line of duty before August 1, 2011, you can use both the Fry Scholarship and DEA. You can get up to 81 months of full-time training, but you can use only one program at a time. Read about the DEA program\n\nLast updated:"
+        },
+        {
+          "chunk_id": "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000",
+          "document": "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0",
+          "heading": [],
+          "source_file": "va_099.md",
+          "excerpt": "# VA教育福利：为遗属和受抚养人 | Veterans Affairs\n\n# VA教育福利：为遗属和受抚养人\n\n了解您是否有资格获得针对受抚养人和遗属的VA教育福利（也称为Chapter 35福利）。如果您是退伍军人的受抚养配偶或子女，或是其遗属配偶或子女，您可能有资格通过GI Bill计划获得Chapter 35福利或职业培训。\n\n### 我是否有资格获得教育福利？\n\n如果您是军人的子女或配偶，且以下关于该军人的描述之一属实，您可能有资格获得VA教育福利（Chapter 35福利）。\n\n以下情况之一必须属实。该军人：\n\n- 于2001年9月10日之后在执行任务中死亡，或\n- 在执行任务中失踪或被敌对势力俘虏，或\n- 在执行任务中被外国政府或势力强行拘留（扣押），或\n- 因与服务相关的永久性完全残疾而在医院接受治疗或接受门诊治疗，并可能因此残疾而被退伍。服务相关的永久性完全残疾是指由您的服务导致的、不会消失的残疾。\n\n如果您是退伍军人的子女或配偶，且以下关于该退伍军人的描述之一属实，您可能有资格获得VA教育福利（Chapter 35福利）。\n\n以下情况之一必须属实。该退伍军人：\n\n- 因服务相关的残疾而永久性完全残疾，或\n- 在现役期间死亡或因服务相关的残疾而死亡\n\n如果您是不符合上述标准的受抚养人，如果退伍军人或军人在现役期间将部分或全部Post-9/11 GI Bill权利转移给您，您仍可能有资格获得VA教育福利。了解转移的福利\n\n## 我可以获得哪些福利？\n\n- 教育和培训\n- 学费资金\n- 住房资金\n- 书籍和用品资金\n\n## 我如何获得这些福利？\n\n您需要申请。申请VA教育福利（Chapter 35福利）。\n\n有2个主要的GI Bill计划为退伍军人的遗属和受抚养人提供教育援助：\n\n- Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）适用于2001年9月10日之后在执行任务中死亡的军人的子女和配偶。获取有关Fry Scholarship的更多信息\n- Survivors and Dependents Educational Assistance（DEA）计划为因服务相关状况而永久性完全残疾或在现役期间或因此类状况死亡的退伍军人的合格受抚养人提供教育和培训。获取有关DEA计划的更多信息\n\n注意：您可能有资格同时获得Fry Scholarship和DEA计划，但您只能使用其中一个。您在申请时必须选择一个。一旦做出此决定，您就不能切换到另一个计划。\n\n最后更新："
+        }
+      ],
+      "citation_check": "valid_ids_only_not_semantic_support",
+      "error_type": null,
+      "call": {
+        "status": "ok",
+        "parsed": {
+          "answer": "很遗憾听到这个消息。根据您的情况，您可能有资格申请Marine Gunnery Sergeant John David Fry Scholarship（Fry Scholarship）。该奖学金适用于2001年9月11日或之后在执行任务中死亡的现役军人的子女或遗属配偶。作为子女，您可以在18岁或高中毕业后（以较晚者为准）的任何年龄申请，但如果您在2013年1月1日前已满18岁或高中毕业，则需在33岁前使用。福利包括最多36个月的学费（公立学校全额州内学费，私立或州外学校每年最高$22,805.34）、住房及书籍用品补贴。申请时需填写VA Form 22-5490并联系学校认证官员。请注意，如果您同时符合DEA计划资格，您只能选择其中一个计划，且选择后不可更改。",
+          "citations": [
+            "Fry Scholarships | Veterans Affairs#1_0::c0000",
+            "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000"
+          ],
+          "action": "answer"
+        },
+        "attempts": [
+          {
+            "event": "settle",
+            "attempt_id": "70e1e095a69c4761b5728d31179a5cf6",
+            "outcome": "ok",
+            "usage": {
+              "prompt_tokens": 3015,
+              "completion_tokens": 227,
+              "cached_tokens": 256,
+              "reasoning_tokens": 0,
+              "raw": {
+                "completion_tokens": 227,
+                "prompt_tokens": 3015,
+                "total_tokens": 3242,
+                "completion_tokens_details": null,
+                "compute_units": null,
+                "prompt_tokens_details": {
+                  "audio_tokens": null,
+                  "cache_write_tokens": null,
+                  "cached_tokens": 256,
+                  "image_tokens": null,
+                  "text_tokens": null
+                },
+                "prompt_cache_hit_tokens": 256,
+                "prompt_cache_miss_tokens": 2759
+              }
+            },
+            "usage_cost_estimate_rmb": 0.0051728,
+            "accounted_rmb": 0.0051728,
+            "usage_unknown": false,
+            "seconds": 2.7080790996551514,
+            "error": null,
+            "response": {
+              "id": "058509f5-98f6-4450-86b8-dc42b2075e0a",
+              "model": "deepseek-v4-flash",
+              "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+              "finish_reason": "stop"
+            }
+          }
+        ],
+        "cache_hit": false,
+        "request_hash": "53f1c7571d83df6b946708f8f9c361e24b846f8d7230c679cf2c0bd3469ae876"
+      },
+      "latency_ms": {
+        "queue_wait": 0.05266699008643627,
+        "retrieval": 1411.784541909583,
+        "generation": 2713.2017919793725,
+        "total": 4126.440374995582
+      },
+      "generation_cache_hit": false,
+      "retrieval": {
+        "dense_seconds": 0.2026607079897076,
+        "rerank_seconds": 1.209052666905336,
+        "top1_dense_score": 0.7945985794067383,
+        "candidate_ids": [
+          "Fry Scholarships | Veterans Affairs#1_0::c0000",
+          "Aid for Military Families | Federal Student Aid#1_0::c0005",
+          "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000",
+          "Aid for Military Families | Federal Student Aid#1_0::c0001",
+          "Post-9/11 GI Bill | Veterans Affairs#1_0::c0007",
+          "Aid for Military Families | Federal Student Aid#1_0::c0007",
+          "Aid for Military Families | Federal Student Aid#1_0::c0002",
+          "Aid for Military Families | Federal Student Aid#1_0::c0003",
+          "Schedule A Burial For A Veteran Or Family Member | Veterans Affairs#1_0::c0005",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0003",
+          "Aid for Military Families | Federal Student Aid#1_0::c0004",
+          "Finding and Applying for Scholarships | Federal Student Aid#1_0::c0000",
+          "GI Bill Eligibility | Veterans Affairs#1_0::c0007",
+          "VA Survivors Pension | Veterans Affairs#1_0::c0000",
+          "VA Education Benefits | Veterans Affairs#2_0::c0001",
+          "VA Health Care | Veterans Affairs#1_0::c0039",
+          "VA Benefits For Service Members | Veterans Affairs#2_0::c0005",
+          "Benefits For Spouses And Dependents (VA DIC) | Veterans Affairs#1_0::c0004",
+          "VA Benefits For Service Members | Veterans Affairs#1_0::c0005",
+          "GI Bill | Veterans Affairs#1_0::c0000"
+        ],
+        "pairs_exceeding_limit_before_truncation": 0,
+        "pairs_scored": 33,
+        "query_shortened": false,
+        "retrieval_total_seconds": 1.4117553329560906
+      },
+      "raw_citations": [
+        "Fry Scholarships | Veterans Affairs#1_0::c0000",
+        "VA Education Benefits For Survivors And Dependents | Veterans Affairs#1_0::c0000"
+      ],
+      "logging_status": "ok"
+    }
+  },
+  "sha256": "7a2fa18eaa92db88c8c8b589b1e7b099309c7dbbee3ee59f62061e75120f073f"
+}

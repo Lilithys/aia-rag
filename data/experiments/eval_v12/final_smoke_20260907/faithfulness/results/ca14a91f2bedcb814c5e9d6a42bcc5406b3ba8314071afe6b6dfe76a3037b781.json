@@ -1,0 +1,122 @@
+{
+  "payload": {
+    "task_id": "ca14a91f2bedcb814c5e9d6a42bcc5406b3ba8314071afe6b6dfe76a3037b781",
+    "binding_sha256": "b4413652282a77f6c431a14a9f7960fa8d7b098e1d6952d2b6950662efa8f0c1",
+    "result": {
+      "status": "ok",
+      "calls": [
+        {
+          "status": "ok",
+          "parsed": {
+            "units": [
+              {
+                "text": "是的，退伍后您可以通过退伍军人团体人寿保险（VGLI）继续保留人寿保险保障，只要您持续支付保费。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that with VGLI, you may be able to keep your life insurance coverage after leaving the military as long as you continue to pay premiums."
+              },
+              {
+                "text": "您可以在退伍后1年零120天内申请VGLI，最高保额为您通过SGLI拥有的保险金额。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005"
+                ],
+                "reason": "The context states that you can apply for VGLI within 1 year and 120 days of leaving the military, up to the amount of SGLI coverage you had."
+              },
+              {
+                "text": "如果您在退伍后240天内申请，无需提供健康证明；超过240天则需提交健康证明。",
+                "scope": "external_fact",
+                "supported": true,
+                "supporting_chunk_ids": [
+                  "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+                ],
+                "reason": "The context states that if you sign up within 240 days, you don't need to prove good health; after 240 days, you need to submit evidence of good health."
+              }
+            ]
+          },
+          "attempts": [
+            {
+              "event": "settle",
+              "attempt_id": "143f45bff5134c31a25365602866bbf3",
+              "outcome": "ok",
+              "usage": {
+                "prompt_tokens": 4531,
+                "completion_tokens": 379,
+                "cached_tokens": 512,
+                "reasoning_tokens": 0,
+                "raw": {
+                  "completion_tokens": 379,
+                  "prompt_tokens": 4531,
+                  "total_tokens": 4910,
+                  "completion_tokens_details": null,
+                  "compute_units": null,
+                  "prompt_tokens_details": {
+                    "audio_tokens": null,
+                    "cache_write_tokens": null,
+                    "cached_tokens": 512,
+                    "image_tokens": null,
+                    "text_tokens": null
+                  },
+                  "prompt_cache_hit_tokens": 512,
+                  "prompt_cache_miss_tokens": 4019
+                }
+              },
+              "usage_cost_estimate_rmb": 0.0077596,
+              "accounted_rmb": 0.0077596,
+              "usage_unknown": false,
+              "seconds": 2.7104880809783936,
+              "error": null,
+              "response": {
+                "id": "16d0dc3a-499b-4e51-b7ce-335d19dd06e8",
+                "model": "deepseek-v4-flash",
+                "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e",
+                "finish_reason": "stop"
+              }
+            }
+          ],
+          "cache_hit": false,
+          "request_hash": "dff1d1fef572e0fafd9e2a2f86fca694b25f3c9e7e99162b46175278a8e23d3b"
+        }
+      ],
+      "score": 1.0,
+      "external_claims": 3,
+      "supported_external_claims": 3,
+      "excluded_units_by_scope": {},
+      "semantic_scope_and_coverage_verified": false,
+      "units": [
+        {
+          "text": "是的，退伍后您可以通过退伍军人团体人寿保险（VGLI）继续保留人寿保险保障，只要您持续支付保费。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that with VGLI, you may be able to keep your life insurance coverage after leaving the military as long as you continue to pay premiums."
+        },
+        {
+          "text": "您可以在退伍后1年零120天内申请VGLI，最高保额为您通过SGLI拥有的保险金额。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Servicemembers’ Group Life Insurance (SGLI) | Veterans Affairs#1_0::c0005"
+          ],
+          "reason": "The context states that you can apply for VGLI within 1 year and 120 days of leaving the military, up to the amount of SGLI coverage you had."
+        },
+        {
+          "text": "如果您在退伍后240天内申请，无需提供健康证明；超过240天则需提交健康证明。",
+          "scope": "external_fact",
+          "supported": true,
+          "supporting_chunk_ids": [
+            "Veterans’ Group Life Insurance (VGLI) | Veterans Affairs#1_0::c0000"
+          ],
+          "reason": "The context states that if you sign up within 240 days, you don't need to prove good health; after 240 days, you need to submit evidence of good health."
+        }
+      ]
+    }
+  },
+  "sha256": "e3f12f8984255acabd05f0ac221b8a23fbe54309df51fe1dd4b0a9c55d0924db"
+}
