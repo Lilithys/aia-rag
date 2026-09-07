@@ -3,7 +3,6 @@ Role: Junior Developer
 ## Unified Business Scenario & Global Constraints
 Build a retrieval‑augmented QA system on top of the internal knowledge base (employee handbook, compliance guide, technical specifications, architecture documents). The corpus is bilingual (CN/EN) and includes a small portion of scanned PDFs. The system must support multi‑turn dialogue and grounded, citation‑backed answers.
 Candidates may choose any tech stack. Key technical choices must be justified in the deliverables with clear, quantitative evidence.
-tified in the deliverables with clear, quantitative evidence.
 ## Global Constraints (apply unless overridden below)
 1.	API & Response: accept natural‑language questions and return answers grounded in retrieved content.
 2.	Latency: 90% of user questions must return within 10 seconds end‑to‑end.

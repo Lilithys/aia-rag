@@ -28,7 +28,7 @@ SAMPLER_VERSION = "dialogue-isolated-greedy-v1"
 DEFAULT_SOURCE_ROOT = Path("data/corpus")
 DEFAULT_INVENTORY = Path("doc/evaluation/v1/source_inventory.json")
 DEFAULT_OUT_DIR = Path("doc/evaluation/v1/candidates")
-DEFAULT_REVIEW_OVERRIDES = Path("doc/evaluation/v1/manual_review_overrides.json")
+DEFAULT_REVIEW_OVERRIDES = Path("doc/evaluation/v1/ai_review_overrides.json")
 
 SPLIT_SIZE = 100
 CATEGORY_TARGET = {"answer": 70, "clarification": 20, "unanswerable": 10}

@@ -1676,5 +1676,5 @@
   ],
   "reviewer_type": "ai_agent",
   "independent_human_review": false,
-  "provenance_note": "Legacy manual_* filename denotes explicit per-item decisions, not human review. Decisions and authored references were produced by the assistant; independent human validation remains outstanding."
+  "provenance_note": "This file records explicit per-item AI-agent review decisions, not human review. Decisions and authored references were produced by the assistant; independent human validation remains outstanding."
 }

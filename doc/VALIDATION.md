@@ -6,14 +6,7 @@ Validation date: 2026-09-07
 
 The final delivery configuration is bound by the stored holdout plan and v1.1 release manifest. The 100-question holdout was generated once after that freeze. All generation and scoring plans completed with failures retained, all cost ledgers are settled, and the offline aggregate reproduces from stored results.
 
-The final quantitative outcome is mixed:
-
-- correctness: 57/100 correct, 10 judge-unknown, 2 generation failures; 57%–67%, below 80%;
-- Faithfulness: 0.918, conservative range 0.908–0.919, above 0.85;
-- Context Precision: 0.662 across all 70 answer cases, below 0.70;
-- successful and within 10 seconds: 98/100 on a warm runtime, above 90%.
-
-The detailed methodology and denominators are in [EVALUATION_SUMMARY.md](EVALUATION_SUMMARY.md). Accuracy uses an uncalibrated automated judge, but its upper bound still remains below the target.
+Headline results — Faithfulness and warm latency met, correctness and Context Precision not met — are in the root [README.md](../README.md); full methodology, denominators, and sensitivity analysis are in [EVALUATION_SUMMARY.md](EVALUATION_SUMMARY.md). This document covers what backs those numbers as real: hashes, independent reconstruction, the test suite, and settled cost ledgers.
 
 ## Corpus and release checks
 
@@ -72,7 +65,13 @@ Two independent local rebuild modes completed successfully:
 - frozen cleaned documents → 1,591 chunks, byte-identical to the final chunk SHA-256;
 - all 488 bundled original documents → format conversion/OCR → cleaning → 1,591 chunks, again byte-identical on this machine.
 
-The full dev-only retrieval comparison was rerun after cleanup: dense@10 47→48/71 and windowed@5 46→47/71, with one gain and zero losses in each profile. Exact baseline replay requires Apple MPS because that historical encoder manifest records MPS; the final service index records CPU.
+The full dev-only retrieval comparison was rerun after cleanup: dense@10 47→48/71 and windowed@5 46→47/71, with one gain and zero losses in each profile. Exact baseline replay requires Apple MPS because that historical encoder manifest records MPS; the final service index records CPU. Rerun it with the included baseline/final vectors (zero paid API calls, never loads holdout questions):
+
+```bash
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
+uv run python -m src.evaluation.compare_delivery_retrieval \
+  --out data/local/retrieval_comparison.json
+```
 
 A final runtime check in the independent Git-file directory rebuilt Chroma from the included vectors, loaded the pinned embedding/reranker models, and retrieved five chunks. A low-confidence query returned an explanatory refusal with a provider stub that fails on any API call. Model/index construction took 3.895 seconds on this machine with weights already cached; this is not a fresh model-download timing or a replacement for the original service acceptance result.
 

@@ -26,7 +26,7 @@ Five stages, each decided by measuring alternatives against this corpus rather t
 raw docs → chunking → embedding → retrieval (+optional rerank) → generation (LLM + citations) → RAGAS evaluation
 ```
 
-Generation runs behind one `LLM_PROVIDER` switch (`local` / `openai` / `deepseek`, see [§13](#13-multi-provider-architecture--deepseek-migration)); every other module imports resolved constants from `src/generation/providers.py` and never branches on provider itself.
+At this point in the project, generation ran behind one `LLM_PROVIDER` switch (`local` / `openai` / `deepseek`, see [§13](#13-multi-provider-architecture--deepseek-migration)); every other module imported resolved constants from `src/generation/providers.py`. **This has since been superseded** — the later rewrite (§17 onward) consolidated onto DeepSeek as the sole provider; `providers.py` and the `LLM_PROVIDER` switch no longer exist. Current provider config lives in `src/evaluation/paid_calls_v1.py` and `src/service/runtime.py` — see the root [`README.md`](../README.md) for the current setup.
 
 ## 4. Stage 1 — Chunking
 
@@ -142,6 +142,8 @@ Context precision/recall are exactly identical across all three — confirms the
 
 ## 13. Multi-Provider Architecture & DeepSeek Migration
 
+> **Superseded.** This section describes the `local`/`openai`/`deepseek` provider switch as it existed at this point in the project. The later rewrite (§17 onward) removed multi-provider support entirely and consolidated on DeepSeek only — `src/generation/providers.py` and `LLM_PROVIDER` no longer exist in the current tree. Kept below as a historical record of why DeepSeek was chosen and what its API constraints are (still accurate), not as a description of the current config surface. See `src/evaluation/paid_calls_v1.py` and the root README for current reality.
+
 Originally OpenAI-only; OpenAI credits ran out mid-project, forcing a pivot to local Ollama (`local`/`openai` switch). When the corpus scale-up was decided ([§14](#14-full-corpus-scale-up-prepared-paused)), a third provider, **DeepSeek**, was added specifically because local inference's 140–225s/call latency has no path to require.md's 10s gate, and OpenAI wasn't available — DeepSeek's `deepseek-v4-flash` is also drastically cheaper than the original OpenAI pass ($0.14/$0.28 per M input/output tokens vs. gpt-5.4-mini's $0.75/$4.50).
 
 Three DeepSeek API constraints were confirmed by research (not assumed) before writing any integration code:
@@ -185,7 +187,7 @@ With isolation in place, the full 101-item subset was run end-to-end against `de
 ## 16. Open Items / Known Doc Gaps
 
 - **`DESIGN_NOTE.md` is stale.** It still lists temperature sensitivity as "required, not yet run" (it has been, [§10](#10-temperature-sensitivity-requiremd-required-3-settings)) and doesn't mention the DeepSeek migration or its results at all. Needs a refresh before final submission.
-- **`providers.py`'s DeepSeek docstring is also stale** — still says "NOT YET RUN, config only" and lists empirical verification as blocked on an approval gate that has since been lifted through the smoke tests and the full subset run.
+- ~~**`providers.py`'s DeepSeek docstring is also stale**~~ — moot: `providers.py` no longer exists at all as of the later rewrite (§17 onward), superseded by `src/evaluation/paid_calls_v1.py`. See the correction note at the top of [§13](#13-multi-provider-architecture--deepseek-migration).
 - **Same-judge rescoring** between mistral-16k/gpt-5.4-mini and deepseek-v4-flash would cleanly separate the generation-model effect from the judge-model effect on context_precision/recall (mirrors what `rescore_openai_baseline.py` already did once).
 - **The 1 empty-response pipeline failure** on the DeepSeek subset run has no retry logic yet — worth adding regardless of whether the full-corpus run resumes, since a ~1% flake rate compounds to dozens of failures at thousands of items.
 - **p90 latency still misses the ≤10s require.md gate** even on DeepSeek (60% ≤10s, not 90%) — not yet root-caused.

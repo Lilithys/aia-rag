@@ -2,17 +2,9 @@
 
 A bilingual, multi-format retrieval-augmented QA service over 488 MultiDoc2Dial-derived government-service documents. The corpus stands in for the “internal knowledge base” in [require.md](require.md). The repository includes the complete source corpus, a CLI, JSON HTTP API, isolated multi-turn sessions, citations, refusal behavior, PII-redacted traces, a frozen evaluation protocol, and failure-preserving results.
 
-The final holdout meets Faithfulness and warm latency targets. Automated correctness and Context Precision remain below target. The project presents those gaps and the optimization path as part of the case study.
+The final holdout meets Faithfulness (0.918 ≥ 0.85) and warm latency (98/100 ≤ 10s) targets. Automated correctness (57–67%) and Context Precision (0.662) remain below their ≥80%/≥0.70 targets — the project presents those gaps and the optimization path as part of the case study. Full metric table, denominators, sensitivity results, and costs are in [EVALUATION_SUMMARY.md](doc/EVALUATION_SUMMARY.md).
 
-| Final 100-question holdout | Result | Requirement |
-|---|---:|---:|
-| Correctness | 57/100 correct, 10 judge-unknown; range 57%–67% | ≥80%, not met |
-| Faithfulness | 0.918; conservative range 0.908–0.919 | ≥0.85, met |
-| Context Precision | 0.662 across all 70 answer questions | ≥0.70, not met |
-| Successful and ≤10 seconds | 98/100; successful p90 4.257 s | ≥90%, met on warm runtime |
-| Observed online generation cost | ¥4.65 / 1,000 at the measured off-peak token/cache mix | Estimate required |
-
-Read [EVALUATION_SUMMARY.md](doc/EVALUATION_SUMMARY.md) for methods, metric denominators, sensitivity results, service/security checks, costs, and limitations. The 380-word [DESIGN_NOTE.md](doc/DESIGN_NOTE.md) explains the architecture and trade-offs. [sample_logs.jsonl](doc/sample_logs.jsonl) contains five PII-redacted examples.
+The 380-word [DESIGN_NOTE.md](doc/DESIGN_NOTE.md) explains the architecture and trade-offs. [sample_logs.jsonl](doc/sample_logs.jsonl) contains five PII-redacted examples.
 
 ## Architecture
 
@@ -173,26 +165,7 @@ TIKTOKEN_CACHE_DIR=data/experiments/tokenizer_cache \
 uv run python -m src.build_index --out data/local/rebuild
 ```
 
-The output is `data/local/rebuild/semantic_1024_v2`. Existing output directories are rejected to avoid overwriting evidence. It reproduces the final 1,591 chunks and their SHA-256. Chroma is recreated on first startup.
-
-To parse every original file again, install Tesseract plus `eng` and `chi_sim` language data, then run:
-
-```bash
-TIKTOKEN_CACHE_DIR=data/experiments/tokenizer_cache \
-uv run python -m src.build_index --reconvert --out data/local/reconverted
-```
-
-Fresh OCR can differ across system/library versions. Changed chunks need local encoding with `--encode` on a new output directory, followed by a new development evaluation. The measured final index is preserved. Local OCR, embedding and reranker compute are excluded from the API cost estimate.
-
-Run the dev-only baseline/final retrieval comparison and write a new result:
-
-```bash
-HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 \
-uv run python -m src.evaluation.compare_delivery_retrieval \
-  --out data/local/retrieval_comparison.json
-```
-
-This uses the included baseline and final vectors, preserves the original comparison, makes zero paid API calls, and never loads holdout questions. The historical baseline encoder identity records Apple MPS, so this exact comparison requires a Mac with MPS access. The final service uses CPU and does not require MPS; its stored comparison report is readable on all platforms.
+The output is `data/local/rebuild/semantic_1024_v2`, reproducing the final 1,591 chunks and their SHA-256. Add `--reconvert` to parse every original file again from scratch (needs Tesseract with `eng`+`chi_sim` language data). See [VALIDATION.md](doc/VALIDATION.md) for the full reconstruction/verification record — byte-identical reproduction proof, the dev-only retrieval-comparison rerun, and OCR-determinism caveats.
 
 ## Evaluation artifacts and reproducibility
 
@@ -212,12 +185,7 @@ uv run python -m src.evaluation.analyze_final \
 
 Do not re-run or tune on the holdout. Its plan and configuration bindings were frozen before the one-time run. Development work belongs on a new release and requires a new untouched final sample.
 
-Key evidence:
-
-- [Evaluation summary](doc/EVALUATION_SUMMARY.md): final metrics, sensitivity results, costs and limitations.
-- [Project development record](doc/PROJECT_SUMMARY.md): the chronological optimization process and rejected approaches.
-- [Frozen evaluation release](doc/evaluation/v1/releases/v1.1/release_manifest.json): exact dev/holdout/smoke inputs and hashes.
-- [Experiment inventory](data/experiments/README.md): retained machine-readable plans, outputs and usage ledgers.
+See [doc/README.md](doc/README.md) for the full documentation index (evaluation summary, project history, frozen release manifests, demo script, sample logs), and [data/experiments/README.md](data/experiments/README.md) for the retained machine-readable plans, outputs, and usage ledgers.
 
 The earlier 91-document corpus, obsolete experiment runners/tests, duplicated conversion outputs, raw API caches and delivery ZIPs have been removed. Historical conclusions remain in `doc/PROJECT_SUMMARY.md`; retained reports are explicitly marked as historical. Their commands and full-run inventories may refer to removed development artifacts. Current run and reconstruction commands are the ones in this README.
 
